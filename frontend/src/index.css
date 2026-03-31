@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #060a13;
+  color: #e5e7eb;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #9ca3af;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.artist-name {
+  font-size: 36px;
+  font-weight: 600;
+  color: #f3f4f6;
+  margin-bottom: 24px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.stats-summary {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: #0f1520;
+  border: 1px solid #1a1f2e;
+  border-radius: 12px;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-width: 160px;
+}
+
+.stat-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 600;
+  color: #f3f4f6;
+}
+
+.stat-value.positive {
+  color: #22c55e;
+}
+
+.stat-value.negative {
+  color: #ef4444;
+}
+
+.stat-date {
+  font-size: 20px;
+}
+
+.chart-container {
+  background: #0f1520;
+  border: 1px solid #1a1f2e;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.chart-empty {
+  text-align: center;
+  color: #6b7280;
+  padding: 48px;
+}
+
+.loading,
+.error {
+  text-align: center;
+  color: #6b7280;
+  padding: 48px;
+}
+
+.error {
+  color: #ef4444;
+}
