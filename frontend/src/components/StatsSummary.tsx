@@ -13,7 +13,7 @@ export function StatsSummary({ records }: StatsSummaryProps) {
     return (
       <div className="stats-summary">
         <div className="stat-card">
-          <span className="stat-label">Monthly Listeners</span>
+          <span className="stat-label">Spotify Monthly Listeners</span>
           <span className="stat-value">-</span>
         </div>
       </div>
@@ -33,12 +33,12 @@ export function StatsSummary({ records }: StatsSummaryProps) {
   return (
     <div className="stats-summary">
       <div className="stat-card">
-        <span className="stat-label">Monthly Listeners</span>
+        <span className="stat-label">Spotify Monthly Listeners</span>
         <span className="stat-value">{formatNumber(current.monthly_listeners)}</span>
       </div>
       {listenerChange !== null && (
         <div className="stat-card">
-          <span className="stat-label">Listeners 前日比</span>
+          <span className="stat-label">Spotify 前日比</span>
           <span className={`stat-value ${listenerChange >= 0 ? "positive" : "negative"}`}>
             {listenerChange >= 0 ? "+" : ""}
             {formatNumber(listenerChange)}
@@ -53,7 +53,7 @@ export function StatsSummary({ records }: StatsSummaryProps) {
       )}
       {subscriberChange !== null && (
         <div className="stat-card">
-          <span className="stat-label">Subscribers 前日比</span>
+          <span className="stat-label">YouTube 前日比</span>
           <span className={`stat-value ${subscriberChange >= 0 ? "positive" : "negative"}`}>
             {subscriberChange >= 0 ? "+" : ""}
             {formatNumber(subscriberChange)}

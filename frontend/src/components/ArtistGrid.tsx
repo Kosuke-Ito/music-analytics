@@ -26,14 +26,14 @@ function ArtistCard({
               ? latest.monthly_listeners.toLocaleString("en-US")
               : "—"}
           </span>
-          <span className="artist-card-label">listeners</span>
+          <span className="artist-card-label">Spotify Listeners</span>
         </div>
         {latest?.youtube_subscribers != null && (
           <div className="artist-card-meta">
             <span className="artist-card-subscribers">
               {latest.youtube_subscribers.toLocaleString("en-US")}
             </span>
-            <span className="artist-card-label">subscribers</span>
+            <span className="artist-card-label">YouTube Subscribers</span>
           </div>
         )}
       </div>
