@@ -8,16 +8,19 @@ type SortDir = "asc" | "desc";
 interface ArtistTableProps {
   artists: ArtistConfig[];
   onSelect: (artistId: string) => void;
+  selectedId?: string | null;
 }
 
 function ArtistRow({
   artist,
   onSelect,
   onDataLoaded,
+  isSelected,
 }: {
   artist: ArtistConfig;
   onSelect: (id: string) => void;
   onDataLoaded: (id: string, spotify: number, youtube: number | null) => void;
+  isSelected: boolean;
 }) {
   const { data } = useArtistData(artist.id);
   const latest = data?.records[data.records.length - 1];
@@ -27,7 +30,7 @@ function ArtistRow({
   }
 
   return (
-    <tr className="table-row" onClick={() => onSelect(artist.id)}>
+    <tr className={`table-row ${isSelected ? "table-row--selected" : ""}`} onClick={() => onSelect(artist.id)}>
       <td className="table-cell table-cell-name">
         <span className="table-artist-name">{artist.name}</span>
         {artist.region && (
@@ -47,7 +50,7 @@ function ArtistRow({
   );
 }
 
-export function ArtistTable({ artists, onSelect }: ArtistTableProps) {
+export function ArtistTable({ artists, onSelect, selectedId }: ArtistTableProps) {
   const [sortKey, setSortKey] = useState<SortKey>("name");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
   const [artistData, setArtistData] = useState<
@@ -115,6 +118,7 @@ export function ArtistTable({ artists, onSelect }: ArtistTableProps) {
               artist={artist}
               onSelect={onSelect}
               onDataLoaded={handleDataLoaded}
+              isSelected={artist.id === selectedId}
             />
           ))}
         </tbody>

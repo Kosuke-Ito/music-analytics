@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Dashboard } from "./components/Dashboard";
 import { ArtistGrid } from "./components/ArtistGrid";
 import { ArtistTable } from "./components/ArtistTable";
@@ -18,6 +18,13 @@ export default function App() {
   const [selectedArtistId, setSelectedArtistId] = useState<string | null>(null);
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
 
+  // 初回ロード時に最初のアーティストを選択
+  useEffect(() => {
+    if (artists.length > 0 && !selectedArtistId) {
+      setSelectedArtistId(artists[0].id);
+    }
+  }, [artists, selectedArtistId]);
+
   const grouped = useMemo(() => {
     const groups: Record<string, typeof artists> = {};
     for (const artist of artists) {
@@ -34,7 +41,7 @@ export default function App() {
         <div className="header-top">
           <h1>Artist Analytics</h1>
           <div className="header-controls">
-            {!selectedArtistId && !loading && (
+            {!loading && (
               <div className="view-toggle">
                 <button
                   className={`view-toggle-btn ${viewMode === "grid" ? "active" : ""}`}
@@ -65,21 +72,32 @@ export default function App() {
       <main>
         {loading && <div className="loading">Loading</div>}
         {error && <div className="error">{error}</div>}
-        {!loading && !error && !selectedArtistId && viewMode === "grid" &&
-          REGION_ORDER.filter((r) => grouped[r]?.length).map((region) => (
-            <section key={region} className="region-section fade-in">
-              <h2 className="region-title">{REGION_LABELS[region] ?? region}</h2>
-              <ArtistGrid artists={grouped[region]} onSelect={setSelectedArtistId} />
-            </section>
-          ))}
-        {!loading && !error && !selectedArtistId && viewMode === "list" && (
-          <ArtistTable artists={artists} onSelect={setSelectedArtistId} />
+        {!loading && !error && viewMode === "grid" && (
+          <div className="layout-sidebar">
+            <aside className="sidebar">
+              {REGION_ORDER.filter((r) => grouped[r]?.length).map((region) => (
+                <section key={region} className="region-section">
+                  <h2 className="region-title">{REGION_LABELS[region] ?? region}</h2>
+                  <ArtistGrid
+                    artists={grouped[region]}
+                    onSelect={setSelectedArtistId}
+                    selectedId={selectedArtistId}
+                  />
+                </section>
+              ))}
+            </aside>
+            <div className="main-content">
+              {selectedArtistId && <Dashboard artistId={selectedArtistId} />}
+            </div>
+          </div>
         )}
-        {selectedArtistId && (
-          <Dashboard
-            artistId={selectedArtistId}
-            onBack={() => setSelectedArtistId(null)}
-          />
+        {!loading && !error && viewMode === "list" && (
+          <div className="layout-list">
+            <ArtistTable artists={artists} onSelect={setSelectedArtistId} selectedId={selectedArtistId} />
+            <div className="main-content">
+              {selectedArtistId && <Dashboard artistId={selectedArtistId} />}
+            </div>
+          </div>
         )}
       </main>
     </div>

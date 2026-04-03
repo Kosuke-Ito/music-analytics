@@ -5,10 +5,9 @@ import { StatsSummary } from "./StatsSummary";
 
 interface DashboardProps {
   artistId: string;
-  onBack: () => void;
 }
 
-export function Dashboard({ artistId, onBack }: DashboardProps) {
+export function Dashboard({ artistId }: DashboardProps) {
   const { data, loading, error } = useArtistData(artistId);
 
   if (loading) {
@@ -20,13 +19,7 @@ export function Dashboard({ artistId, onBack }: DashboardProps) {
   }
 
   return (
-    <div className="dashboard fade-in">
-      <button className="detail-back" onClick={onBack}>
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5">
-          <path d="M10 3L5 8l5 5" />
-        </svg>
-        All Artists
-      </button>
+    <div className="dashboard fade-in" key={artistId}>
       <div className="detail-header">
         <h2 className="artist-name">{data.artist_name}</h2>
       </div>
