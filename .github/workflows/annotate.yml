@@ -2,7 +2,7 @@ name: Collect News Annotations
 
 on:
   schedule:
-    - cron: '0 6 * * 1' # 毎週月曜 UTC 06:00（JST 15:00）
+    - cron: '0 1 * * *' # 毎日 UTC 01:00（JST 10:00、データ収集の1時間後）
   workflow_dispatch:
 
 permissions:
@@ -18,14 +18,14 @@ jobs:
         with:
           prompt: |
             scripts/config.json のアーティスト一覧を読み、各アーティストについて
-            過去1週間のニュースをWeb検索してください。
+            前日（昨日）のニュースをWeb検索してください。当日ではなく前日のニュースが対象です。
 
             リスナー数やチャンネル登録者数に影響しそうなイベントを見つけたら、
             該当アーティストの data/{artist_id}.json の annotations 配列に追加してください。
 
             アノテーションの形式:
             {
-              "date": "YYYY-MM-DD（イベントの日付）",
+              "date": "YYYY-MM-DD（ニュースが報じられた日付。前日の日付を使う）",
               "title": "簡潔なタイトル（日本語）",
               "description": "詳細説明（1-2文）",
               "url": "ソースURL",
