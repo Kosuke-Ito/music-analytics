@@ -9,6 +9,7 @@ export interface ArtistConfig {
   id: string;
   name: string;
   spotify_artist_id: string;
+  region?: "jp" | "global";
 }
 
 export interface ArtistData {
