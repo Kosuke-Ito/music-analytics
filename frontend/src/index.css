@@ -67,6 +67,40 @@ body {
   text-transform: uppercase;
 }
 
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.view-toggle {
+  display: flex;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.view-toggle-btn {
+  background: none;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  transition: color 0.2s, background 0.2s;
+}
+
+.view-toggle-btn:hover {
+  color: var(--text-secondary);
+}
+
+.view-toggle-btn.active {
+  color: var(--text-primary);
+  background: var(--bg-card-hover);
+}
+
 .header-dot {
   width: 6px;
   height: 6px;
@@ -355,6 +389,116 @@ body {
   color: var(--negative);
   padding: 64px 24px;
   font-size: 14px;
+}
+
+/* ── Artist Table ── */
+
+.table-wrapper {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.artist-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table-header {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 14px 20px;
+  text-align: left;
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.table-header:hover {
+  color: var(--text-secondary);
+}
+
+.table-header-number {
+  text-align: right;
+}
+
+.table-header-arrow {
+  width: 40px;
+}
+
+.table-row {
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.table-row:hover {
+  background: var(--bg-card-hover);
+}
+
+.table-row:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+
+.table-cell {
+  padding: 16px 20px;
+  background: var(--bg-card);
+  transition: background 0.15s;
+}
+
+.table-row:hover .table-cell {
+  background: var(--bg-card-hover);
+}
+
+.table-cell-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.table-artist-name {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.table-region-badge {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-muted);
+  background: var(--accent-dim);
+  padding: 2px 6px;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+}
+
+.table-cell-number {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  color: var(--text-primary);
+  text-align: right;
+  letter-spacing: -0.3px;
+}
+
+.table-cell-arrow {
+  color: var(--text-muted);
+  text-align: center;
+  width: 40px;
+  transition: color 0.2s;
+}
+
+.table-row:hover .table-cell-arrow {
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .table-cell { padding: 12px 12px; }
+  .table-header { padding: 12px 12px; }
 }
 
 /* ── Page transitions ── */
