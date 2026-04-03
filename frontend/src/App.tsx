@@ -59,7 +59,6 @@ export default function App() {
                 </button>
               </div>
             )}
-            <div className="header-dot" />
           </div>
         </div>
       </header>
