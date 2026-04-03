@@ -1,4 +1,5 @@
 import { useArtistData } from "../hooks/useArtistData";
+import { AnnotationList } from "./AnnotationList";
 import { ListenerChart } from "./ListenerChart";
 import { StatsSummary } from "./StatsSummary";
 
@@ -32,8 +33,9 @@ export function Dashboard({ artistId, onBack }: DashboardProps) {
       <StatsSummary records={data.records} />
       <div className="chart-section">
         <span className="chart-section-title">Listener Trend</span>
-        <ListenerChart records={data.records} />
+        <ListenerChart records={data.records} annotations={data.annotations} />
       </div>
+      <AnnotationList annotations={data.annotations} />
     </div>
   );
 }

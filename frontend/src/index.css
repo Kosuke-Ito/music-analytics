@@ -509,6 +509,80 @@ body {
   .table-header { padding: 12px 12px; }
 }
 
+/* ── Annotations ── */
+
+.annotation-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.annotation-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.annotation-item {
+  background: var(--bg-card);
+  padding: 14px 20px;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.annotation-date {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.annotation-category {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.annotation-category--release { color: #f6ad55; background: rgba(246, 173, 85, 0.12); }
+.annotation-category--viral { color: #fc8181; background: rgba(252, 129, 129, 0.12); }
+.annotation-category--collab { color: #90cdf4; background: rgba(144, 205, 244, 0.12); }
+.annotation-category--tour { color: #9ae6b4; background: rgba(154, 230, 180, 0.12); }
+.annotation-category--award { color: #fefcbf; background: rgba(254, 252, 191, 0.12); }
+.annotation-category--other { color: #a0aec0; background: rgba(160, 174, 192, 0.12); }
+
+.annotation-title {
+  font-size: 14px;
+  color: var(--text-primary);
+}
+
+.annotation-title a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.annotation-title a:hover {
+  text-decoration: underline;
+}
+
+.annotation-desc {
+  width: 100%;
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+  padding-left: 0;
+}
+
 /* ── Page transitions ── */
 
 .fade-in {

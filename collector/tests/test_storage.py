@@ -5,7 +5,7 @@ from pathlib import Path
 import pytest
 
 from collector.scraper import ScrapingResult
-from collector.storage import add_record, load_data, save_data, validate_record
+from collector.storage import add_annotation, add_record, load_data, save_data, validate_record
 
 
 @pytest.fixture
@@ -93,6 +93,44 @@ class TestAddRecord:
         data = {"artist_id": "abc", "artist_name": "Test", "records": []}
         updated = add_record(data, sample_result, date="2026-03-31")
         assert "youtube_subscribers" not in updated["records"][0]
+
+
+class TestAddAnnotation:
+    def test_adds_to_empty(self):
+        data = {"artist_id": "abc", "artist_name": "Test", "records": []}
+        updated = add_annotation(data, date="2026-04-01", title="新曲リリース", category="release")
+        assert len(updated["annotations"]) == 1
+        assert updated["annotations"][0]["title"] == "新曲リリース"
+        assert updated["annotations"][0]["category"] == "release"
+
+    def test_appends_to_existing(self):
+        data = {
+            "artist_id": "abc",
+            "records": [],
+            "annotations": [
+                {"date": "2026-03-30", "title": "既存", "category": "other", "added_at": "..."}
+            ],
+        }
+        updated = add_annotation(data, date="2026-04-01", title="新規", category="release")
+        assert len(updated["annotations"]) == 2
+
+    def test_duplicate_rejected(self):
+        data = {
+            "artist_id": "abc",
+            "records": [],
+            "annotations": [
+                {"date": "2026-04-01", "title": "新曲リリース", "category": "release", "added_at": "..."}
+            ],
+        }
+        updated = add_annotation(data, date="2026-04-01", title="新曲リリース", category="release")
+        assert len(updated["annotations"]) == 1
+
+    def test_sorted_by_date(self):
+        data = {"artist_id": "abc", "records": []}
+        data = add_annotation(data, date="2026-04-05", title="後", category="other")
+        data = add_annotation(data, date="2026-04-01", title="先", category="other")
+        assert data["annotations"][0]["date"] == "2026-04-01"
+        assert data["annotations"][1]["date"] == "2026-04-05"
 
 
 class TestValidateRecord:

@@ -1,0 +1,44 @@
+name: Collect News Annotations
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # 毎週月曜 UTC 06:00（JST 15:00）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  annotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          prompt: |
+            scripts/config.json のアーティスト一覧を読み、各アーティストについて
+            過去1週間のニュースをWeb検索してください。
+
+            リスナー数やチャンネル登録者数に影響しそうなイベントを見つけたら、
+            該当アーティストの data/{artist_id}.json の annotations 配列に追加してください。
+
+            アノテーションの形式:
+            {
+              "date": "YYYY-MM-DD（イベントの日付）",
+              "title": "簡潔なタイトル（日本語）",
+              "description": "詳細説明（1-2文）",
+              "url": "ソースURL",
+              "category": "release|viral|collab|tour|award|other",
+              "added_at": "現在のISO 8601タイムスタンプ"
+            }
+
+            ルール:
+            - 同日+同タイトルの重複は追加しない
+            - annotations配列は日付順にソートする
+            - annotationsキーが無い場合は作成する
+            - 重要なニュースのみ（ノイズを避ける）
+            - 新曲/アルバムリリース、MV公開、バイラル、コラボ、ツアー、受賞が主な対象
+            - 変更があればコミットしてプッシュする
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          allowed_tools: "WebSearch,Read,Write,Bash(git add:git commit:git push)"

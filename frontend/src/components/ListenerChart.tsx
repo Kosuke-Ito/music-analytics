@@ -7,16 +7,27 @@ import {
   Tooltip,
   ResponsiveContainer,
   Legend,
+  ReferenceLine,
 } from "recharts";
-import type { ListenerRecord } from "../types";
+import type { ListenerRecord, Annotation } from "../types";
 
 interface ListenerChartProps {
   records: ListenerRecord[];
+  annotations?: Annotation[];
 }
 
 const COLORS = {
   spotify: "#1db954",
   youtube: "#ff0000",
+};
+
+const CATEGORY_COLORS: Record<string, string> = {
+  release: "#f6ad55",
+  viral: "#fc8181",
+  collab: "#90cdf4",
+  tour: "#9ae6b4",
+  award: "#fefcbf",
+  other: "#a0aec0",
 };
 
 function formatAxis(v: number) {
@@ -25,7 +36,7 @@ function formatAxis(v: number) {
   return v.toString();
 }
 
-export function ListenerChart({ records }: ListenerChartProps) {
+export function ListenerChart({ records, annotations }: ListenerChartProps) {
   if (records.length === 0) {
     return <div className="chart-empty">データがありません</div>;
   }
@@ -99,6 +110,22 @@ export function ListenerChart({ records }: ListenerChartProps) {
               connectNulls
             />
           )}
+          {annotations?.map((ann) => (
+            <ReferenceLine
+              key={`${ann.date}-${ann.title}`}
+              x={ann.date}
+              stroke={CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other}
+              strokeDasharray="4 4"
+              strokeWidth={1}
+              label={{
+                value: ann.title.length > 18 ? ann.title.slice(0, 18) + "…" : ann.title,
+                position: "insideTopRight",
+                fill: CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other,
+                fontSize: 10,
+                fontFamily: "var(--font-sans)",
+              }}
+            />
+          ))}
         </LineChart>
       </ResponsiveContainer>
     </div>

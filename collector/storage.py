@@ -1,5 +1,6 @@
 import json
 import logging
+from datetime import datetime, timezone
 from pathlib import Path
 
 from collector.scraper import ScrapingResult
@@ -48,6 +49,35 @@ def add_record(
     if youtube_subscribers is not None:
         record["youtube_subscribers"] = youtube_subscribers
     data["records"].append(record)
+    return data
+
+
+def add_annotation(
+    data: dict,
+    date: str,
+    title: str,
+    description: str = "",
+    url: str = "",
+    category: str = "other",
+) -> dict:
+    """アノテーションを追加する。同日+同タイトルの重複は無視。"""
+    if "annotations" not in data:
+        data["annotations"] = []
+
+    for ann in data["annotations"]:
+        if ann["date"] == date and ann["title"] == title:
+            logger.info(f"重複アノテーション: {date} {title}")
+            return data
+
+    data["annotations"].append({
+        "date": date,
+        "title": title,
+        "description": description,
+        "url": url,
+        "category": category,
+        "added_at": datetime.now(timezone.utc).isoformat(),
+    })
+    data["annotations"].sort(key=lambda a: a["date"])
     return data
 
 
