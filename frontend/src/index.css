@@ -42,6 +42,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #1a1f2e;
+}
+
+.dashboard:last-child {
+  border-bottom: none;
 }
 
 .stats-summary {

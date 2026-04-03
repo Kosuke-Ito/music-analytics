@@ -3,15 +3,21 @@ import react from "@vitejs/plugin-react";
 import { resolve } from "path";
 import { cpSync, existsSync } from "fs";
 
-// ビルド時に ../data/ を dist/data/ にコピーするプラグイン
+// ビルド時に ../data/ と ../scripts/config.json を dist/ にコピーするプラグイン
 function copyDataPlugin() {
   return {
     name: "copy-data",
     closeBundle() {
-      const src = resolve(__dirname, "..", "data");
-      const dest = resolve(__dirname, "dist", "data");
-      if (existsSync(src)) {
-        cpSync(src, dest, { recursive: true });
+      const dataSrc = resolve(__dirname, "..", "data");
+      const dataDest = resolve(__dirname, "dist", "data");
+      if (existsSync(dataSrc)) {
+        cpSync(dataSrc, dataDest, { recursive: true });
+      }
+
+      const configSrc = resolve(__dirname, "..", "scripts", "config.json");
+      const configDest = resolve(__dirname, "dist", "config.json");
+      if (existsSync(configSrc)) {
+        cpSync(configSrc, configDest);
       }
     },
   };
