@@ -25,18 +25,28 @@ def save_data(path: Path, data: dict) -> None:
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
 
 
-def add_record(data: dict, result: ScrapingResult, date: str) -> dict:
-    """レコードを追加する。同日のレコードが既にある場合はスキップ。"""
-    existing_dates = {r["date"] for r in data["records"]}
-    if date in existing_dates:
-        logger.info(f"{date} のレコードは既に存在します。スキップします。")
-        return data
+def add_record(
+    data: dict,
+    result: ScrapingResult,
+    date: str,
+    youtube_subscribers: int | None = None,
+) -> dict:
+    """レコードを追加する。同日のレコードが既にある場合はYouTubeデータをマージ。"""
+    for record in data["records"]:
+        if record["date"] == date:
+            # 同日レコードにYouTubeデータをマージ
+            if youtube_subscribers is not None:
+                record["youtube_subscribers"] = youtube_subscribers
+            logger.info(f"{date} のレコードを更新しました。")
+            return data
 
     record = {
         "date": date,
         "monthly_listeners": result.monthly_listeners,
         "collected_at": result.collected_at.isoformat(),
     }
+    if youtube_subscribers is not None:
+        record["youtube_subscribers"] = youtube_subscribers
     data["records"].append(record)
     return data
 

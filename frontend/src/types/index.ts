@@ -1,6 +1,7 @@
 export interface ListenerRecord {
   date: string;
   monthly_listeners: number;
+  youtube_subscribers?: number;
   collected_at: string;
 }
 

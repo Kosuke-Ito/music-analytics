@@ -160,6 +160,21 @@ body {
   letter-spacing: 1px;
 }
 
+.artist-card-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: auto;
+}
+
+.artist-card-subscribers {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  letter-spacing: -0.3px;
+}
+
 .artist-card-arrow {
   position: absolute;
   top: 28px;

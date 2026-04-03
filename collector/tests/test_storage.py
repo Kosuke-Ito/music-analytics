@@ -67,7 +67,7 @@ class TestAddRecord:
         assert updated["records"][0]["monthly_listeners"] == 32400
         assert updated["records"][0]["date"] == "2026-03-31"
 
-    def test_duplicate_date_skipped(self, sample_result):
+    def test_duplicate_date_merges_youtube(self, sample_result):
         data = {
             "artist_id": "abc",
             "artist_name": "Test",
@@ -79,9 +79,20 @@ class TestAddRecord:
                 }
             ],
         }
-        updated = add_record(data, sample_result, date="2026-03-31")
+        updated = add_record(data, sample_result, date="2026-03-31", youtube_subscribers=5000)
         assert len(updated["records"]) == 1
-        assert updated["records"][0]["monthly_listeners"] == 32000  # 更新されない
+        assert updated["records"][0]["monthly_listeners"] == 32000  # Spotify側は変わらない
+        assert updated["records"][0]["youtube_subscribers"] == 5000
+
+    def test_new_record_with_youtube(self, sample_result):
+        data = {"artist_id": "abc", "artist_name": "Test", "records": []}
+        updated = add_record(data, sample_result, date="2026-03-31", youtube_subscribers=10000)
+        assert updated["records"][0]["youtube_subscribers"] == 10000
+
+    def test_new_record_without_youtube(self, sample_result):
+        data = {"artist_id": "abc", "artist_name": "Test", "records": []}
+        updated = add_record(data, sample_result, date="2026-03-31")
+        assert "youtube_subscribers" not in updated["records"][0]
 
 
 class TestValidateRecord:

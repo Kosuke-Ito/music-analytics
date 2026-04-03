@@ -19,13 +19,23 @@ function ArtistCard({
   return (
     <div className="artist-card" onClick={() => onSelect(artist.id)}>
       <span className="artist-card-name">{artist.name}</span>
-      <div className="artist-card-meta">
-        <span className="artist-card-listeners">
-          {latest
-            ? latest.monthly_listeners.toLocaleString("en-US")
-            : "—"}
-        </span>
-        <span className="artist-card-label">listeners</span>
+      <div className="artist-card-stats">
+        <div className="artist-card-meta">
+          <span className="artist-card-listeners">
+            {latest
+              ? latest.monthly_listeners.toLocaleString("en-US")
+              : "—"}
+          </span>
+          <span className="artist-card-label">listeners</span>
+        </div>
+        {latest?.youtube_subscribers != null && (
+          <div className="artist-card-meta">
+            <span className="artist-card-subscribers">
+              {latest.youtube_subscribers.toLocaleString("en-US")}
+            </span>
+            <span className="artist-card-label">subscribers</span>
+          </div>
+        )}
       </div>
       <span className="artist-card-arrow">→</span>
     </div>

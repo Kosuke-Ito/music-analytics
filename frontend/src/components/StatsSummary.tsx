@@ -22,9 +22,13 @@ export function StatsSummary({ records }: StatsSummaryProps) {
 
   const current = records[records.length - 1];
   const previous = records.length >= 2 ? records[records.length - 2] : null;
-  const change = previous
+  const listenerChange = previous
     ? current.monthly_listeners - previous.monthly_listeners
     : null;
+  const subscriberChange =
+    previous?.youtube_subscribers != null && current.youtube_subscribers != null
+      ? current.youtube_subscribers - previous.youtube_subscribers
+      : null;
 
   return (
     <div className="stats-summary">
@@ -32,12 +36,27 @@ export function StatsSummary({ records }: StatsSummaryProps) {
         <span className="stat-label">Monthly Listeners</span>
         <span className="stat-value">{formatNumber(current.monthly_listeners)}</span>
       </div>
-      {change !== null && (
+      {listenerChange !== null && (
         <div className="stat-card">
-          <span className="stat-label">前日比</span>
-          <span className={`stat-value ${change >= 0 ? "positive" : "negative"}`}>
-            {change >= 0 ? "+" : ""}
-            {formatNumber(change)}
+          <span className="stat-label">Listeners 前日比</span>
+          <span className={`stat-value ${listenerChange >= 0 ? "positive" : "negative"}`}>
+            {listenerChange >= 0 ? "+" : ""}
+            {formatNumber(listenerChange)}
+          </span>
+        </div>
+      )}
+      {current.youtube_subscribers != null && (
+        <div className="stat-card">
+          <span className="stat-label">YouTube Subscribers</span>
+          <span className="stat-value">{formatNumber(current.youtube_subscribers)}</span>
+        </div>
+      )}
+      {subscriberChange !== null && (
+        <div className="stat-card">
+          <span className="stat-label">Subscribers 前日比</span>
+          <span className={`stat-value ${subscriberChange >= 0 ? "positive" : "negative"}`}>
+            {subscriberChange >= 0 ? "+" : ""}
+            {formatNumber(subscriberChange)}
           </span>
         </div>
       )}
