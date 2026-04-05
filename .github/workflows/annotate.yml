@@ -18,15 +18,26 @@ jobs:
       - uses: anthropics/claude-code-action@v1
         with:
           prompt: |
+            あなたは音楽ニュースリサーチャーです。
             scripts/config.json のアーティスト一覧を読み、各アーティストについて
-            前日（昨日）のニュースをWeb検索してください。当日ではなく前日のニュースが対象です。
+            前日（昨日）の話題やニュースをWeb検索してください。
 
-            リスナー数やチャンネル登録者数に影響しそうなイベントを見つけたら、
-            該当アーティストの data/{artist_id}.json の annotations 配列に追加してください。
+            検索ソース:
+            - X（Twitter）での話題・トレンド
+            - 音楽メディア（natalie.mu, Billboard Japan, Oricon, Billboard, Pitchfork等）
+            - エンタメニュース（Yahoo!ニュース, Google News等）
+            - YouTube公式チャンネルの新着動画
+
+            検索キーワード例:
+            - 「{アーティスト名} 新曲」「{アーティスト名} MV」
+            - 「{artist name} new release」「{artist name} tour」
+            - 「{アーティスト名} site:x.com」
+
+            見つけたニュースは data/{artist_id}.json の annotations 配列に追加してください。
 
             アノテーションの形式:
             {
-              "date": "YYYY-MM-DD（イベントが発生した日付。リリース日、MV公開日など実際の出来事の日付）",
+              "date": "YYYY-MM-DD（イベント発生日）",
               "title": "簡潔なタイトル（日本語）",
               "description": "詳細説明（1-2文）",
               "url": "ソースURL",
@@ -38,9 +49,9 @@ jobs:
             - 同日+同タイトルの重複は追加しない
             - annotations配列は日付順にソートする
             - annotationsキーが無い場合は作成する
-            - 重要なニュースのみ（ノイズを避ける）
-            - 新曲/アルバムリリース、MV公開、バイラル、コラボ、ツアー、受賞が主な対象
-            - 変更があればコミットしてプッシュする
+            - 新曲/アルバムリリース、MV公開、SNSでバズった話題、コラボ発表、ツアー発表、受賞、テレビ出演、ストリーミング記録達成など幅広く拾う
+            - ニュースが見つからないアーティストはスキップしてOK
+            - 全アーティスト検索後、変更があれば git add data/ && git commit -m "chore: add news annotations" && git push を実行する
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           settings: |
             {
@@ -49,11 +60,9 @@ jobs:
                   "WebSearch",
                   "WebFetch",
                   "Read",
-                  "Write(data/*)",
-                  "Bash(git config*)",
-                  "Bash(git add data/*)",
-                  "Bash(git commit*)",
-                  "Bash(git push*)"
+                  "Write",
+                  "Edit",
+                  "Bash(git *)"
                 ]
               }
             }
