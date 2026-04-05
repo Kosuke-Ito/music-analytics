@@ -2,6 +2,7 @@ import { useArtistData } from "../hooks/useArtistData";
 import { AnnotationList } from "./AnnotationList";
 import { ListenerChart } from "./ListenerChart";
 import { StatsSummary } from "./StatsSummary";
+import { TopCities } from "./TopCities";
 
 interface DashboardProps {
   artistId: string;
@@ -28,6 +29,7 @@ export function Dashboard({ artistId }: DashboardProps) {
         <span className="chart-section-title">Listener Trend</span>
         <ListenerChart records={data.records} annotations={data.annotations} />
       </div>
+      <TopCities cities={data.records[data.records.length - 1]?.top_cities} />
       <AnnotationList annotations={data.annotations} />
     </div>
   );

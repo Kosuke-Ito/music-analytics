@@ -1,5 +1,5 @@
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime, timezone
 
 
@@ -11,15 +11,17 @@ class ScrapingError(Exception):
 class ScrapingResult:
     monthly_listeners: int
     collected_at: datetime
+    top_cities: list = field(default_factory=list)
 
 
-def extract_monthly_listeners(api_response: dict) -> int:
-    """Spotify partner APIレスポンスからmonthlyListenersを抽出する。
+def extract_artist_stats(api_response: dict) -> dict:
+    """Spotify partner APIレスポンスからstatsを抽出する。
 
-    レスポンス例: {"data": {"artistUnion": {"stats": {"monthlyListeners": 28970, ...}}}}
+    返り値: {"monthly_listeners": int, "top_cities": list}
     """
     try:
-        listeners = api_response["data"]["artistUnion"]["stats"]["monthlyListeners"]
+        stats = api_response["data"]["artistUnion"]["stats"]
+        listeners = stats["monthlyListeners"]
     except (KeyError, TypeError):
         raise ScrapingError(
             f"monthlyListenersが見つかりません: {json.dumps(api_response)[:200]}"
@@ -28,14 +30,31 @@ def extract_monthly_listeners(api_response: dict) -> int:
     if not isinstance(listeners, int) or listeners < 0:
         raise ScrapingError(f"不正なリスナー数: {listeners}")
 
-    return listeners
+    top_cities = []
+    try:
+        items = stats.get("topCities", {}).get("items", [])
+        for city in items:
+            top_cities.append({
+                "city": city["city"],
+                "country": city["country"],
+                "listeners": city["numberOfListeners"],
+            })
+    except (KeyError, TypeError):
+        pass
+
+    return {"monthly_listeners": listeners, "top_cities": top_cities}
+
+
+# 後方互換性のため残す
+def extract_monthly_listeners(api_response: dict) -> int:
+    return extract_artist_stats(api_response)["monthly_listeners"]
 
 
 def scrape_from_url(url: str, timeout: int = 30_000) -> ScrapingResult:
     """指定URLにPlaywrightでアクセスし、APIレスポンスからリスナー数を取得する。"""
     from playwright.sync_api import sync_playwright
 
-    monthly_listeners = None
+    result_data = None
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
@@ -57,8 +76,8 @@ def scrape_from_url(url: str, timeout: int = 30_000) -> ScrapingResult:
         )
 
         def on_response(response):
-            nonlocal monthly_listeners
-            if monthly_listeners is not None:
+            nonlocal result_data
+            if result_data is not None:
                 return
             if "api-partner" not in response.url:
                 return
@@ -66,16 +85,14 @@ def scrape_from_url(url: str, timeout: int = 30_000) -> ScrapingResult:
                 body = response.json()
                 text = json.dumps(body)
                 if "artistUnion" in text and "monthlyListeners" in text:
-                    monthly_listeners = extract_monthly_listeners(body)
+                    result_data = extract_artist_stats(body)
             except Exception:
                 pass
 
         page.on("response", on_response)
 
         try:
-            # トップページでセッション確立
             page.goto("https://open.spotify.com", wait_until="networkidle", timeout=timeout)
-            # アーティストページに遷移
             page.goto(url, wait_until="networkidle", timeout=timeout)
             page.wait_for_timeout(5000)
         except Exception as e:
@@ -83,12 +100,13 @@ def scrape_from_url(url: str, timeout: int = 30_000) -> ScrapingResult:
         finally:
             browser.close()
 
-    if monthly_listeners is None:
+    if result_data is None:
         raise ScrapingError("APIレスポンスからリスナー数を取得できませんでした")
 
     return ScrapingResult(
-        monthly_listeners=monthly_listeners,
+        monthly_listeners=result_data["monthly_listeners"],
         collected_at=datetime.now(timezone.utc),
+        top_cities=result_data["top_cities"],
     )
 
 

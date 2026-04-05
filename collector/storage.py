@@ -35,9 +35,10 @@ def add_record(
     """レコードを追加する。同日のレコードが既にある場合はYouTubeデータをマージ。"""
     for record in data["records"]:
         if record["date"] == date:
-            # 同日レコードにYouTubeデータをマージ
             if youtube_subscribers is not None:
                 record["youtube_subscribers"] = youtube_subscribers
+            if result.top_cities:
+                record["top_cities"] = result.top_cities
             logger.info(f"{date} のレコードを更新しました。")
             return data
 
@@ -48,6 +49,8 @@ def add_record(
     }
     if youtube_subscribers is not None:
         record["youtube_subscribers"] = youtube_subscribers
+    if result.top_cities:
+        record["top_cities"] = result.top_cities
     data["records"].append(record)
     return data
 

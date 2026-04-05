@@ -520,6 +520,80 @@ body {
   .table-header { padding: 12px 12px; }
 }
 
+/* ── Top Cities ── */
+
+.top-cities-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.top-cities {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.city-row {
+  display: grid;
+  grid-template-columns: 160px 1fr 80px;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 640px) {
+  .city-row {
+    grid-template-columns: 120px 1fr 60px;
+  }
+}
+
+.city-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.city-flag {
+  font-size: 16px;
+}
+
+.city-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.city-country {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.city-bar-wrapper {
+  height: 6px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.city-bar {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.city-listeners {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-align: right;
+}
+
 /* ── Annotations ── */
 
 .annotation-section {

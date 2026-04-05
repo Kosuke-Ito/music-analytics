@@ -4,7 +4,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 
 import pytest
 
-from collector.scraper import ScrapingError, extract_monthly_listeners, scrape_from_url
+from collector.scraper import ScrapingError, extract_artist_stats, extract_monthly_listeners, scrape_from_url
 
 
 class TestExtractMonthlyListeners:
@@ -47,6 +47,42 @@ class TestExtractMonthlyListeners:
         }
         with pytest.raises(ScrapingError):
             extract_monthly_listeners(response)
+
+
+class TestExtractArtistStats:
+    def test_extracts_top_cities(self):
+        response = {
+            "data": {
+                "artistUnion": {
+                    "stats": {
+                        "monthlyListeners": 28970,
+                        "topCities": {
+                            "items": [
+                                {"city": "Tokyo", "country": "JP", "numberOfListeners": 5000, "region": "13"},
+                                {"city": "Osaka", "country": "JP", "numberOfListeners": 3000, "region": "27"},
+                            ]
+                        },
+                    }
+                }
+            }
+        }
+        stats = extract_artist_stats(response)
+        assert stats["monthly_listeners"] == 28970
+        assert len(stats["top_cities"]) == 2
+        assert stats["top_cities"][0]["city"] == "Tokyo"
+        assert stats["top_cities"][0]["listeners"] == 5000
+
+    def test_no_top_cities(self):
+        response = {
+            "data": {
+                "artistUnion": {
+                    "stats": {"monthlyListeners": 28970}
+                }
+            }
+        }
+        stats = extract_artist_stats(response)
+        assert stats["monthly_listeners"] == 28970
+        assert stats["top_cities"] == []
 
 
 class _StubHandler(BaseHTTPRequestHandler):

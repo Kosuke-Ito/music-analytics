@@ -1,7 +1,14 @@
+export interface CityListeners {
+  city: string;
+  country: string;
+  listeners: number;
+}
+
 export interface ListenerRecord {
   date: string;
   monthly_listeners: number;
   youtube_subscribers?: number;
+  top_cities?: CityListeners[];
   collected_at: string;
 }
 
