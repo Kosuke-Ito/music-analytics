@@ -19,7 +19,7 @@ export function TopCities({ cities }: TopCitiesProps) {
 
   return (
     <div className="top-cities-section">
-      <span className="chart-section-title">Top Cities</span>
+      <span className="chart-section-title">Spotify Top Cities</span>
       <div className="top-cities">
         {cities.map((city) => (
           <div key={`${city.city}-${city.country}`} className="city-row">
