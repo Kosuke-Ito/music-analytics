@@ -131,25 +131,15 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
       </ResponsiveContainer>
       {visibleAnnotations.length > 0 && (
         <div className="chart-annotations-bar">
-          {records.map((r) => {
-            const matchingAnns = visibleAnnotations
-              .map((a, i) => ({ ...a, num: i + 1 }))
-              .filter((a) => a.date === r.date);
+          {visibleAnnotations.map((ann, i) => {
+            const color = CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other;
             return (
-              <div key={r.date} className="chart-annotation-slot">
-                {matchingAnns.map((a) => (
-                  <span
-                    key={a.num}
-                    className="chart-annotation-marker"
-                    style={{
-                      backgroundColor: CATEGORY_COLORS[a.category] ?? CATEGORY_COLORS.other,
-                    }}
-                    title={a.title}
-                  >
-                    {a.num}
-                  </span>
-                ))}
-              </div>
+              <span key={`${ann.date}-${ann.title}`} className="chart-annotation-marker">
+                <span className="chart-annotation-num" style={{ backgroundColor: color }}>
+                  {i + 1}
+                </span>
+                <span className="chart-annotation-date">{ann.date}</span>
+              </span>
             );
           })}
         </div>
