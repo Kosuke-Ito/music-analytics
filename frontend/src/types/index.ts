@@ -17,6 +17,7 @@ export interface ArtistConfig {
   name: string;
   spotify_artist_id: string;
   region?: "jp" | "global";
+  live_attendance?: Record<string, number>;
 }
 
 export type AnnotationCategory = "release" | "viral" | "collab" | "tour" | "award" | "other";

@@ -555,6 +555,59 @@ body {
   .table-header { padding: 12px 12px; }
 }
 
+/* ── Live Attendance ── */
+
+.live-attendance-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.live-attendance {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.attendance-row {
+  display: grid;
+  grid-template-columns: 50px 1fr 100px;
+  align-items: center;
+  gap: 12px;
+}
+
+.attendance-year {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.attendance-bar-wrapper {
+  height: 6px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.attendance-bar {
+  height: 100%;
+  background: var(--positive);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.attendance-value {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-primary);
+  text-align: right;
+}
+
 /* ── Top Cities ── */
 
 .top-cities-section {

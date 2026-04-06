@@ -87,7 +87,12 @@ export default function App() {
               ))}
             </aside>
             <div className="main-content">
-              {selectedArtistId && <Dashboard artistId={selectedArtistId} />}
+              {selectedArtistId && (
+                <Dashboard
+                  artistId={selectedArtistId}
+                  config={artists.find((a) => a.id === selectedArtistId)}
+                />
+              )}
             </div>
           </div>
         )}
@@ -95,7 +100,12 @@ export default function App() {
           <div className="layout-list">
             <ArtistTable artists={artists} onSelect={setSelectedArtistId} selectedId={selectedArtistId} />
             <div className="main-content">
-              {selectedArtistId && <Dashboard artistId={selectedArtistId} />}
+              {selectedArtistId && (
+                <Dashboard
+                  artistId={selectedArtistId}
+                  config={artists.find((a) => a.id === selectedArtistId)}
+                />
+              )}
             </div>
           </div>
         )}
