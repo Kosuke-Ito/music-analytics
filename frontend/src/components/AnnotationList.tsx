@@ -22,6 +22,12 @@ const CATEGORY_COLORS: Record<string, string> = {
   other: "#a0aec0",
 };
 
+const CONFIDENCE_LABELS: Record<string, string> = {
+  high: "Confidence: high",
+  medium: "Confidence: medium",
+  low: "Confidence: low",
+};
+
 export function AnnotationList({ annotations }: AnnotationListProps) {
   if (!annotations?.length) return null;
 
@@ -50,9 +56,18 @@ export function AnnotationList({ annotations }: AnnotationListProps) {
                 ann.title
               )}
             </span>
-            {ann.description && (
-              <p className="annotation-desc">{ann.description}</p>
+            {(ann.source || ann.confidence || ann.verified) && (
+              <div className="annotation-meta-row">
+                {ann.source && <span>source: {ann.source}</span>}
+                {ann.confidence && (
+                  <span className="annotation-badge">
+                    {CONFIDENCE_LABELS[ann.confidence] ?? ann.confidence}
+                  </span>
+                )}
+                {ann.verified && <span className="annotation-badge annotation-badge--verified">verified</span>}
+              </div>
             )}
+            {ann.description && <p className="annotation-desc">{ann.description}</p>}
           </li>
         ))}
       </ul>

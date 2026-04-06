@@ -35,15 +35,20 @@ jobs:
 
             見つけたニュースは data/{artist_id}.json の annotations 配列に追加してください。
 
-            アノテーションの形式:
+            アノテーションの形式（必須 + 推奨フィールド）:
             {
               "date": "YYYY-MM-DD",
               "title": "簡潔なタイトル（日本語）",
               "description": "詳細説明（1-2文）",
               "url": "ソースURL",
               "category": "release|viral|collab|tour|award|other",
-              "added_at": "現在のISO 8601タイムスタンプ"
+              "added_at": "現在のISO 8601タイムスタンプ",
+              "source": "主な情報源（例: natalie.mu, billboard.com のドメインや媒体名）",
+              "confidence": "high|medium|low（複数ソースで裏取りできたら high、単一記事のみは medium、推測が混じる場合は low）",
+              "verified": false
             }
+            - source / confidence は必ず入れること（分からない場合は confidence を low にする）
+            - verified は人手で確認した場合のみ true。自動収集では基本 false のまま
 
             ★★★ dateフィールドについて（最重要）★★★
             - dateはイベントが「実際に起きた日付」を正確に入れること

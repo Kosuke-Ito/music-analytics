@@ -2,11 +2,12 @@ import json
 import logging
 import os
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from collector.scraper import ScrapingError, scrape_monthly_listeners
-from collector.storage import add_record, load_data, save_data, validate_record
+from collector.scraper import ScrapingError, ScrapingResult, scrape_monthly_listeners
+from collector.storage import add_record, evaluate_monthly_listeners, load_data, save_data
 from collector.youtube import YouTubeError, fetch_youtube_stats
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -15,6 +16,24 @@ logger = logging.getLogger(__name__)
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = PROJECT_ROOT / "scripts" / "config.json"
 DATA_DIR = PROJECT_ROOT / "data"
+
+SPOTIFY_MAX_ATTEMPTS = 3
+SPOTIFY_RETRY_SLEEP_SEC = 5
+
+
+def scrape_monthly_listeners_with_retry(spotify_artist_id: str) -> ScrapingResult:
+    """Spotify スクレイピングを数回までリトライする。"""
+    last_err: ScrapingError | None = None
+    for attempt in range(1, SPOTIFY_MAX_ATTEMPTS + 1):
+        try:
+            return scrape_monthly_listeners(spotify_artist_id)
+        except ScrapingError as e:
+            last_err = e
+            logger.warning(f"Spotify取得失敗 ({attempt}/{SPOTIFY_MAX_ATTEMPTS}): {e}")
+            if attempt < SPOTIFY_MAX_ATTEMPTS:
+                time.sleep(SPOTIFY_RETRY_SLEEP_SEC)
+    assert last_err is not None
+    raise last_err
 
 
 def collect_all() -> None:
@@ -30,10 +49,9 @@ def collect_all() -> None:
         name = artist["name"]
         data_path = DATA_DIR / f"{artist_id}.json"
 
-        # Spotify収集
         logger.info(f"Spotify収集開始: {name}")
         try:
-            result = scrape_monthly_listeners(spotify_id)
+            result = scrape_monthly_listeners_with_retry(spotify_id)
         except ScrapingError as e:
             logger.error(f"Spotifyスクレイピング失敗: {name} - {e}")
             continue
@@ -44,11 +62,13 @@ def collect_all() -> None:
         if data["records"]:
             previous_listeners = data["records"][-1]["monthly_listeners"]
 
-        if not validate_record(result.monthly_listeners, previous_listeners):
-            logger.warning(f"バリデーション失敗: {name} - {result.monthly_listeners}")
+        ok, validation_flags = evaluate_monthly_listeners(
+            result.monthly_listeners, previous_listeners
+        )
+        if not ok:
+            logger.warning(f"リスナー数が無効のためスキップ: {name} - {result.monthly_listeners}")
             continue
 
-        # YouTube収集
         youtube_subscribers = None
         youtube_total_views = None
         if youtube_api_key and youtube_channel_id:
@@ -67,15 +87,19 @@ def collect_all() -> None:
                 logger.warning(f"YouTube取得失敗: {name} - {e}")
 
         data = add_record(
-            data, result, date=today,
+            data,
+            result,
+            date=today,
             youtube_subscribers=youtube_subscribers,
             youtube_total_views=youtube_total_views,
+            validation_flags=validation_flags or None,
         )
         save_data(data_path, data)
         logger.info(
             f"収集完了: {name} - {result.monthly_listeners:,} listeners, "
             f"{result.followers:,} followers"
             + (f", {youtube_subscribers:,} subscribers" if youtube_subscribers else "")
+            + (f" [flags: {validation_flags}]" if validation_flags else "")
         )
 
 

@@ -12,6 +12,8 @@ export interface ListenerRecord {
   youtube_total_views?: number;
   top_cities?: CityListeners[];
   collected_at: string;
+  /** 収集時の注意フラグ（例: 前日比で大きな変動） */
+  validation_flags?: string[];
 }
 
 export interface ArtistConfig {
@@ -24,6 +26,8 @@ export interface ArtistConfig {
 
 export type AnnotationCategory = "release" | "viral" | "collab" | "tour" | "award" | "other";
 
+export type AnnotationConfidence = "high" | "medium" | "low";
+
 export interface Annotation {
   date: string;
   title: string;
@@ -31,6 +35,11 @@ export interface Annotation {
   url?: string;
   category: AnnotationCategory;
   added_at: string;
+  /** 主な情報源（ドメイン名やメディア名など） */
+  source?: string;
+  confidence?: AnnotationConfidence;
+  /** 人手で確認済みのとき true */
+  verified?: boolean;
 }
 
 export interface ArtistData {

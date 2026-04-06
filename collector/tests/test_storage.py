@@ -5,7 +5,14 @@ from pathlib import Path
 import pytest
 
 from collector.scraper import ScrapingResult
-from collector.storage import add_annotation, add_record, load_data, save_data, validate_record
+from collector.storage import (
+    add_annotation,
+    add_record,
+    evaluate_monthly_listeners,
+    load_data,
+    save_data,
+    validate_record,
+)
 
 
 @pytest.fixture
@@ -81,7 +88,7 @@ class TestAddRecord:
         }
         updated = add_record(data, sample_result, date="2026-03-31", youtube_subscribers=5000)
         assert len(updated["records"]) == 1
-        assert updated["records"][0]["monthly_listeners"] == 32000  # Spotify側は変わらない
+        assert updated["records"][0]["monthly_listeners"] == 32000
         assert updated["records"][0]["youtube_subscribers"] == 5000
 
     def test_new_record_with_youtube(self, sample_result):
@@ -94,6 +101,38 @@ class TestAddRecord:
         updated = add_record(data, sample_result, date="2026-03-31")
         assert "youtube_subscribers" not in updated["records"][0]
 
+    def test_new_record_with_validation_flags(self, sample_result):
+        data = {"artist_id": "abc", "artist_name": "Test", "records": []}
+        updated = add_record(
+            data,
+            sample_result,
+            date="2026-03-31",
+            validation_flags=["large_monthly_listener_delta"],
+        )
+        assert updated["records"][0]["validation_flags"] == ["large_monthly_listener_delta"]
+
+    def test_merge_validation_flags_same_day(self, sample_result):
+        data = {
+            "artist_id": "abc",
+            "artist_name": "Test",
+            "records": [
+                {
+                    "date": "2026-03-31",
+                    "monthly_listeners": 32000,
+                    "collected_at": "2026-03-31T00:00:00+00:00",
+                    "validation_flags": ["large_monthly_listener_delta"],
+                }
+            ],
+        }
+        updated = add_record(
+            data,
+            sample_result,
+            date="2026-03-31",
+            youtube_subscribers=5000,
+            validation_flags=["large_monthly_listener_delta"],
+        )
+        assert updated["records"][0]["validation_flags"] == ["large_monthly_listener_delta"]
+
 
 class TestAddAnnotation:
     def test_adds_to_empty(self):
@@ -102,6 +141,22 @@ class TestAddAnnotation:
         assert len(updated["annotations"]) == 1
         assert updated["annotations"][0]["title"] == "新曲リリース"
         assert updated["annotations"][0]["category"] == "release"
+
+    def test_optional_meta_fields(self):
+        data = {"artist_id": "abc", "artist_name": "Test", "records": []}
+        updated = add_annotation(
+            data,
+            date="2026-04-01",
+            title="ニュース",
+            category="other",
+            source="billboard.com",
+            confidence="high",
+            verified=True,
+        )
+        ann = updated["annotations"][0]
+        assert ann["source"] == "billboard.com"
+        assert ann["confidence"] == "high"
+        assert ann["verified"] is True
 
     def test_appends_to_existing(self):
         data = {
@@ -133,23 +188,41 @@ class TestAddAnnotation:
         assert data["annotations"][1]["date"] == "2026-04-05"
 
 
-class TestValidateRecord:
-    def test_positive_value_passes(self):
-        assert validate_record(32400, previous_listeners=None) is True
+class TestEvaluateMonthlyListeners:
+    def test_positive_value_ok_empty_flags(self):
+        ok, flags = evaluate_monthly_listeners(32400, previous_listeners=None)
+        assert ok is True
+        assert flags == []
 
     def test_zero_rejected(self):
-        assert validate_record(0, previous_listeners=None) is False
+        ok, flags = evaluate_monthly_listeners(0, previous_listeners=None)
+        assert ok is False
+        assert flags == []
 
     def test_negative_rejected(self):
-        assert validate_record(-100, previous_listeners=None) is False
+        ok, flags = evaluate_monthly_listeners(-100, previous_listeners=None)
+        assert ok is False
+        assert flags == []
 
-    def test_normal_change_passes(self):
-        assert validate_record(33000, previous_listeners=32000) is True
+    def test_normal_change_ok(self):
+        ok, flags = evaluate_monthly_listeners(33000, previous_listeners=32000)
+        assert ok is True
+        assert flags == []
 
-    def test_spike_rejected(self):
-        # 50%超の増加
-        assert validate_record(50000, previous_listeners=32000) is False
+    def test_spike_flagged_but_ok(self):
+        ok, flags = evaluate_monthly_listeners(50000, previous_listeners=32000)
+        assert ok is True
+        assert flags == ["large_monthly_listener_delta"]
 
-    def test_drop_rejected(self):
-        # 50%超の減少
-        assert validate_record(15000, previous_listeners=32000) is False
+    def test_drop_flagged_but_ok(self):
+        ok, flags = evaluate_monthly_listeners(15000, previous_listeners=32000)
+        assert ok is True
+        assert flags == ["large_monthly_listener_delta"]
+
+
+class TestValidateRecordCompat:
+    def test_compat_spike_now_accepted_by_wrapper(self):
+        assert validate_record(50000, previous_listeners=32000) is True
+
+    def test_compat_zero_still_false(self):
+        assert validate_record(0, previous_listeners=None) is False

@@ -1,0 +1,14 @@
+services:
+  frontend-test:
+    image: node:22-bookworm
+    working_dir: /app/frontend
+    volumes:
+      - .:/app
+    command: ["sh", "-c", "corepack enable && corepack prepare pnpm@latest --activate && pnpm install && pnpm test && pnpm run build"]
+
+  collector-test:
+    image: python:3.12-bookworm
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["sh", "-c", "pip install -r collector/requirements.txt && python -m pytest collector/tests -q"]

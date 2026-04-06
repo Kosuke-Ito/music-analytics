@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect } from "react";
 import { Dashboard } from "./components/Dashboard";
 import { ArtistGrid } from "./components/ArtistGrid";
 import { ArtistTable } from "./components/ArtistTable";
+import { useAggregatedArtistData } from "./hooks/useAggregatedArtistData";
 import { useArtistList } from "./hooks/useArtistList";
 
 const REGION_LABELS: Record<string, string> = {
@@ -14,7 +15,18 @@ const REGION_ORDER = ["jp", "global"];
 type ViewMode = "grid" | "list";
 
 export default function App() {
-  const { artists, loading, error } = useArtistList();
+  const { artists, loading: configLoading, error: configError } = useArtistList();
+  const artistIds = useMemo(() => artists.map((a) => a.id), [artists]);
+  const dataEnabled = !configLoading && !configError && artistIds.length > 0;
+  const {
+    dataById,
+    loading: dataLoading,
+    error: dataError,
+  } = useAggregatedArtistData(artistIds, dataEnabled);
+
+  const loading = configLoading || (dataEnabled && dataLoading);
+  const error = configError ?? dataError;
+
   const [selectedArtistId, setSelectedArtistId] = useState<string | null>(null);
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
 
@@ -80,6 +92,7 @@ export default function App() {
                   <h2 className="region-title">{REGION_LABELS[region] ?? region}</h2>
                   <ArtistGrid
                     artists={grouped[region]}
+                    dataById={dataById}
                     onSelect={setSelectedArtistId}
                     selectedId={selectedArtistId}
                   />
@@ -90,6 +103,7 @@ export default function App() {
               {selectedArtistId && (
                 <Dashboard
                   artistId={selectedArtistId}
+                  data={dataById[selectedArtistId]}
                   config={artists.find((a) => a.id === selectedArtistId)}
                 />
               )}
@@ -98,11 +112,17 @@ export default function App() {
         )}
         {!loading && !error && viewMode === "list" && (
           <div className="layout-list">
-            <ArtistTable artists={artists} onSelect={setSelectedArtistId} selectedId={selectedArtistId} />
+            <ArtistTable
+              artists={artists}
+              dataById={dataById}
+              onSelect={setSelectedArtistId}
+              selectedId={selectedArtistId}
+            />
             <div className="main-content">
               {selectedArtistId && (
                 <Dashboard
                   artistId={selectedArtistId}
+                  data={dataById[selectedArtistId]}
                   config={artists.find((a) => a.id === selectedArtistId)}
                 />
               )}

@@ -26,12 +26,22 @@ def save_data(path: Path, data: dict) -> None:
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
 
 
+def _merge_validation_flags(record: dict, new_flags: list[str] | None) -> None:
+    if not new_flags:
+        return
+    existing = list(record.get("validation_flags") or [])
+    merged = list(dict.fromkeys(existing + new_flags))
+    if merged:
+        record["validation_flags"] = merged
+
+
 def add_record(
     data: dict,
     result: ScrapingResult,
     date: str,
     youtube_subscribers: int | None = None,
     youtube_total_views: int | None = None,
+    validation_flags: list[str] | None = None,
 ) -> dict:
     """レコードを追加する。同日のレコードが既にある場合はYouTubeデータをマージ。"""
     for record in data["records"]:
@@ -44,6 +54,7 @@ def add_record(
                 record["spotify_followers"] = result.followers
             if result.top_cities:
                 record["top_cities"] = result.top_cities
+            _merge_validation_flags(record, validation_flags)
             logger.info(f"{date} のレコードを更新しました。")
             return data
 
@@ -60,6 +71,8 @@ def add_record(
         record["youtube_total_views"] = youtube_total_views
     if result.top_cities:
         record["top_cities"] = result.top_cities
+    if validation_flags:
+        record["validation_flags"] = list(dict.fromkeys(validation_flags))
     data["records"].append(record)
     return data
 
@@ -71,6 +84,9 @@ def add_annotation(
     description: str = "",
     url: str = "",
     category: str = "other",
+    source: str = "",
+    confidence: str | None = None,
+    verified: bool = False,
 ) -> dict:
     """アノテーションを追加する。同日+同タイトルの重複は無視。"""
     if "annotations" not in data:
@@ -81,30 +97,55 @@ def add_annotation(
             logger.info(f"重複アノテーション: {date} {title}")
             return data
 
-    data["annotations"].append({
+    entry: dict = {
         "date": date,
         "title": title,
         "description": description,
         "url": url,
         "category": category,
         "added_at": datetime.now(timezone.utc).isoformat(),
-    })
+    }
+    if source:
+        entry["source"] = source
+    if confidence:
+        entry["confidence"] = confidence
+    if verified:
+        entry["verified"] = True
+
+    data["annotations"].append(entry)
     data["annotations"].sort(key=lambda a: a["date"])
     return data
 
 
-def validate_record(monthly_listeners: int, previous_listeners: int | None) -> bool:
-    """レコードの妥当性を検証する。"""
+def evaluate_monthly_listeners(
+    monthly_listeners: int,
+    previous_listeners: int | None,
+) -> tuple[bool, list[str]]:
+    """月間リスナー値を評価する。
+
+    Returns:
+        (保存してよいか, 付与する検証フラグ)
+        0以下は保存しない。大きな変動は保存しつつフラグを付ける。
+    """
+    flags: list[str] = []
+
     if monthly_listeners <= 0:
         logger.warning(f"リスナー数が0以下です: {monthly_listeners}")
-        return False
+        return False, flags
 
     if previous_listeners is not None and previous_listeners > 0:
         change_ratio = abs(monthly_listeners - previous_listeners) / previous_listeners
         if change_ratio > 0.5:
             logger.warning(
-                f"リスナー数の変動が50%を超えています: {previous_listeners} → {monthly_listeners} ({change_ratio:.1%})"
+                f"リスナー数の変動が50%を超えています（要確認として保存）: "
+                f"{previous_listeners} → {monthly_listeners} ({change_ratio:.1%})"
             )
-            return False
+            flags.append("large_monthly_listener_delta")
 
-    return True
+    return True, flags
+
+
+# 後方互換（テスト・旧コード用）
+def validate_record(monthly_listeners: int, previous_listeners: int | None) -> bool:
+    ok, _ = evaluate_monthly_listeners(monthly_listeners, previous_listeners)
+    return ok

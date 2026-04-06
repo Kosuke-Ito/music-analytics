@@ -1,25 +1,25 @@
-import { useArtistData } from "../hooks/useArtistData";
+import { AnnotationImpact } from "./AnnotationImpact";
 import { AnnotationList } from "./AnnotationList";
 import { ListenerChart } from "./ListenerChart";
 import { LiveAttendance } from "./LiveAttendance";
 import { StatsSummary } from "./StatsSummary";
 import { TopCities } from "./TopCities";
-import type { ArtistConfig } from "../types";
+import type { ArtistConfig, ArtistData } from "../types";
 
 interface DashboardProps {
   artistId: string;
+  /** 親でまとめ取得済みのデータ（無ければ未取得として扱う） */
+  data?: ArtistData;
   config?: ArtistConfig;
 }
 
-export function Dashboard({ artistId, config }: DashboardProps) {
-  const { data, loading, error } = useArtistData(artistId);
-
-  if (loading) {
-    return <div className="loading">Loading</div>;
-  }
-
-  if (error || !data) {
-    return <div className="error">データの取得に失敗しました: {error}</div>;
+export function Dashboard({ artistId, data, config }: DashboardProps) {
+  if (!data) {
+    return (
+      <div className="error">
+        データがありません（<span className="mono">{artistId}</span>）
+      </div>
+    );
   }
 
   return (
@@ -32,6 +32,7 @@ export function Dashboard({ artistId, config }: DashboardProps) {
         <span className="chart-section-title">Listener Trend</span>
         <ListenerChart records={data.records} annotations={data.annotations} />
       </div>
+      <AnnotationImpact records={data.records} annotations={data.annotations} />
       <TopCities cities={data.records[data.records.length - 1]?.top_cities} />
       <LiveAttendance attendance={config?.live_attendance} />
       <AnnotationList annotations={data.annotations} />

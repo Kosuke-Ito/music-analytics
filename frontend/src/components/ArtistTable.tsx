@@ -1,36 +1,34 @@
-import { useState } from "react";
-import { useArtistData } from "../hooks/useArtistData";
-import type { ArtistConfig } from "../types";
+import { useMemo, useState } from "react";
+import type { ArtistConfig, ArtistData } from "../types";
 
 type SortKey = "name" | "spotify" | "youtube";
 type SortDir = "asc" | "desc";
 
 interface ArtistTableProps {
   artists: ArtistConfig[];
+  dataById: Record<string, ArtistData>;
   onSelect: (artistId: string) => void;
   selectedId?: string | null;
 }
 
 function ArtistRow({
   artist,
+  data,
   onSelect,
-  onDataLoaded,
   isSelected,
 }: {
   artist: ArtistConfig;
+  data?: ArtistData;
   onSelect: (id: string) => void;
-  onDataLoaded: (id: string, spotify: number, youtube: number | null) => void;
   isSelected: boolean;
 }) {
-  const { data } = useArtistData(artist.id);
   const latest = data?.records[data.records.length - 1];
 
-  if (data && latest) {
-    onDataLoaded(artist.id, latest.monthly_listeners, latest.youtube_subscribers ?? null);
-  }
-
   return (
-    <tr className={`table-row ${isSelected ? "table-row--selected" : ""}`} onClick={() => onSelect(artist.id)}>
+    <tr
+      className={`table-row ${isSelected ? "table-row--selected" : ""}`}
+      onClick={() => onSelect(artist.id)}
+    >
       <td className="table-cell table-cell-name">
         <span className="table-artist-name">{artist.name}</span>
         {artist.region && (
@@ -50,19 +48,21 @@ function ArtistRow({
   );
 }
 
-export function ArtistTable({ artists, onSelect, selectedId }: ArtistTableProps) {
+export function ArtistTable({ artists, dataById, onSelect, selectedId }: ArtistTableProps) {
   const [sortKey, setSortKey] = useState<SortKey>("name");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
-  const [artistData, setArtistData] = useState<
-    Record<string, { spotify: number; youtube: number | null }>
-  >({});
 
-  const handleDataLoaded = (id: string, spotify: number, youtube: number | null) => {
-    setArtistData((prev) => {
-      if (prev[id]?.spotify === spotify && prev[id]?.youtube === youtube) return prev;
-      return { ...prev, [id]: { spotify, youtube } };
-    });
-  };
+  const metrics = useMemo(() => {
+    const m: Record<string, { spotify: number; youtube: number | null }> = {};
+    for (const a of artists) {
+      const latest = dataById[a.id]?.records.at(-1);
+      m[a.id] = {
+        spotify: latest?.monthly_listeners ?? 0,
+        youtube: latest?.youtube_subscribers ?? null,
+      };
+    }
+    return m;
+  }, [artists, dataById]);
 
   const handleSort = (key: SortKey) => {
     if (sortKey === key) {
@@ -79,13 +79,9 @@ export function ArtistTable({ artists, onSelect, selectedId }: ArtistTableProps)
       return a.name.localeCompare(b.name) * dir;
     }
     const aVal =
-      sortKey === "spotify"
-        ? (artistData[a.id]?.spotify ?? 0)
-        : (artistData[a.id]?.youtube ?? 0);
+      sortKey === "spotify" ? (metrics[a.id]?.spotify ?? 0) : (metrics[a.id]?.youtube ?? 0);
     const bVal =
-      sortKey === "spotify"
-        ? (artistData[b.id]?.spotify ?? 0)
-        : (artistData[b.id]?.youtube ?? 0);
+      sortKey === "spotify" ? (metrics[b.id]?.spotify ?? 0) : (metrics[b.id]?.youtube ?? 0);
     return (aVal - bVal) * dir;
   });
 
@@ -116,8 +112,8 @@ export function ArtistTable({ artists, onSelect, selectedId }: ArtistTableProps)
             <ArtistRow
               key={artist.id}
               artist={artist}
+              data={dataById[artist.id]}
               onSelect={onSelect}
-              onDataLoaded={handleDataLoaded}
               isSelected={artist.id === selectedId}
             />
           ))}

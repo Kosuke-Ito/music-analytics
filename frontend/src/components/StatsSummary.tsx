@@ -15,6 +15,11 @@ function formatCompact(n: number): string {
   return n.toString();
 }
 
+function formatPct(p: number): string {
+  const sign = p >= 0 ? "+" : "";
+  return `${sign}${p.toFixed(1)}%`;
+}
+
 export function StatsSummary({ records }: StatsSummaryProps) {
   if (records.length === 0) {
     return (
@@ -29,16 +34,47 @@ export function StatsSummary({ records }: StatsSummaryProps) {
 
   const current = records[records.length - 1];
   const previous = records.length >= 2 ? records[records.length - 2] : null;
+  const weekAgo = records.length > 7 ? records[records.length - 8] : null;
+
   const listenerChange = previous
     ? current.monthly_listeners - previous.monthly_listeners
     : null;
+  const listenerWeekChange = weekAgo
+    ? current.monthly_listeners - weekAgo.monthly_listeners
+    : null;
+  const listenerWeekPct =
+    weekAgo && weekAgo.monthly_listeners > 0
+      ? ((current.monthly_listeners - weekAgo.monthly_listeners) / weekAgo.monthly_listeners) * 100
+      : null;
+
   const subscriberChange =
     previous?.youtube_subscribers != null && current.youtube_subscribers != null
       ? current.youtube_subscribers - previous.youtube_subscribers
       : null;
+  const subscriberWeekChange =
+    weekAgo?.youtube_subscribers != null && current.youtube_subscribers != null
+      ? current.youtube_subscribers - weekAgo.youtube_subscribers
+      : null;
+  const subscriberWeekPct =
+    weekAgo &&
+    weekAgo.youtube_subscribers != null &&
+    weekAgo.youtube_subscribers > 0 &&
+    current.youtube_subscribers != null
+      ? ((current.youtube_subscribers - weekAgo.youtube_subscribers) / weekAgo.youtube_subscribers) * 100
+      : null;
+
+  const dataWarning = current.validation_flags?.includes("large_monthly_listener_delta");
 
   return (
     <div className="stats-summary">
+      {dataWarning && (
+        <div className="stat-card stat-warning">
+          <span className="stat-label">Data quality</span>
+          <span className="stat-value">
+            前回比でリスナー変動が大きいです（記録は保存済み・要確認）
+          </span>
+        </div>
+      )}
       <div className="stat-card">
         <span className="stat-label">Spotify Monthly Listeners</span>
         <span className="stat-value">{formatNumber(current.monthly_listeners)}</span>
@@ -55,6 +91,18 @@ export function StatsSummary({ records }: StatsSummaryProps) {
           <span className={`stat-value ${listenerChange >= 0 ? "positive" : "negative"}`}>
             {listenerChange >= 0 ? "+" : ""}
             {formatNumber(listenerChange)}
+          </span>
+        </div>
+      )}
+      {listenerWeekChange !== null && (
+        <div className="stat-card">
+          <span className="stat-label">Spotify 7日比</span>
+          <span className={`stat-value ${listenerWeekChange >= 0 ? "positive" : "negative"}`}>
+            {listenerWeekChange >= 0 ? "+" : ""}
+            {formatNumber(listenerWeekChange)}
+            {listenerWeekPct !== null && (
+              <span className="stat-sub"> ({formatPct(listenerWeekPct)})</span>
+            )}
           </span>
         </div>
       )}
@@ -76,6 +124,18 @@ export function StatsSummary({ records }: StatsSummaryProps) {
           <span className={`stat-value ${subscriberChange >= 0 ? "positive" : "negative"}`}>
             {subscriberChange >= 0 ? "+" : ""}
             {formatNumber(subscriberChange)}
+          </span>
+        </div>
+      )}
+      {subscriberWeekChange !== null && (
+        <div className="stat-card">
+          <span className="stat-label">YouTube 7日比</span>
+          <span className={`stat-value ${subscriberWeekChange >= 0 ? "positive" : "negative"}`}>
+            {subscriberWeekChange >= 0 ? "+" : ""}
+            {formatNumber(subscriberWeekChange)}
+            {subscriberWeekPct !== null && (
+              <span className="stat-sub"> ({formatPct(subscriberWeekPct)})</span>
+            )}
           </span>
         </div>
       )}
