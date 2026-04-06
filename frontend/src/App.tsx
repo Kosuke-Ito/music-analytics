@@ -1,9 +1,10 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useCallback } from "react";
 import { Dashboard } from "./components/Dashboard";
 import { ArtistGrid } from "./components/ArtistGrid";
 import { ArtistTable } from "./components/ArtistTable";
 import { useAggregatedArtistData } from "./hooks/useAggregatedArtistData";
 import { useArtistList } from "./hooks/useArtistList";
+import { applyArtistToUrl, getArtistIdFromSearch } from "./urlArtist";
 
 const REGION_LABELS: Record<string, string> = {
   jp: "Japan",
@@ -30,12 +31,36 @@ export default function App() {
   const [selectedArtistId, setSelectedArtistId] = useState<string | null>(null);
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
 
-  // 初回ロード時に最初のアーティストを選択
+  // URL ?artist= と同期（初回は replace、選択変更は push で履歴に積む）
   useEffect(() => {
-    if (artists.length > 0 && !selectedArtistId) {
-      setSelectedArtistId(artists[0].id);
+    if (artists.length === 0) return;
+    const fromUrl = getArtistIdFromSearch(window.location.search);
+    const valid =
+      fromUrl && artists.some((a) => a.id === fromUrl) ? fromUrl : null;
+    if (valid) {
+      setSelectedArtistId(valid);
+      return;
     }
-  }, [artists, selectedArtistId]);
+    const first = artists[0].id;
+    setSelectedArtistId(first);
+    applyArtistToUrl(first, "replace");
+  }, [artists]);
+
+  useEffect(() => {
+    const onPopState = () => {
+      const id = getArtistIdFromSearch(window.location.search);
+      if (!id || artists.length === 0) return;
+      if (!artists.some((a) => a.id === id)) return;
+      setSelectedArtistId(id);
+    };
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, [artists]);
+
+  const selectArtist = useCallback((id: string) => {
+    setSelectedArtistId(id);
+    applyArtistToUrl(id, "push");
+  }, []);
 
   const grouped = useMemo(() => {
     const groups: Record<string, typeof artists> = {};
@@ -93,7 +118,7 @@ export default function App() {
                   <ArtistGrid
                     artists={grouped[region]}
                     dataById={dataById}
-                    onSelect={setSelectedArtistId}
+                    onSelect={selectArtist}
                     selectedId={selectedArtistId}
                   />
                 </section>
@@ -115,7 +140,7 @@ export default function App() {
             <ArtistTable
               artists={artists}
               dataById={dataById}
-              onSelect={setSelectedArtistId}
+              onSelect={selectArtist}
               selectedId={selectedArtistId}
             />
             <div className="main-content">
