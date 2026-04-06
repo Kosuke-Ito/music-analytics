@@ -36,6 +36,26 @@ function formatAxis(v: number) {
   return v.toString();
 }
 
+function AnnotationMarker({ index, color }: { index: number; color: string }) {
+  return (
+    <g>
+      <circle cx="0" cy="-12" r="9" fill={color} opacity="0.15" />
+      <circle cx="0" cy="-12" r="7" fill="#0d1321" />
+      <text
+        x="0"
+        y="-8"
+        textAnchor="middle"
+        fill={color}
+        fontSize="9"
+        fontWeight="600"
+        fontFamily="var(--font-mono)"
+      >
+        {index}
+      </text>
+    </g>
+  );
+}
+
 export function ListenerChart({ records, annotations }: ListenerChartProps) {
   if (records.length === 0) {
     return <div className="chart-empty">データがありません</div>;
@@ -46,7 +66,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
   return (
     <div className="chart-container">
       <ResponsiveContainer width="100%" height={380}>
-        <LineChart data={records} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
+        <LineChart data={records} margin={{ top: 24, right: 8, bottom: 0, left: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#151d2e" vertical={false} />
           <XAxis
             dataKey="date"
@@ -110,22 +130,20 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
               connectNulls
             />
           )}
-          {annotations?.map((ann) => (
-            <ReferenceLine
-              key={`${ann.date}-${ann.title}`}
-              x={ann.date}
-              stroke={CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other}
-              strokeDasharray="4 4"
-              strokeWidth={1}
-              label={{
-                value: ann.title.length > 18 ? ann.title.slice(0, 18) + "…" : ann.title,
-                position: "insideTopRight",
-                fill: CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other,
-                fontSize: 10,
-                fontFamily: "var(--font-sans)",
-              }}
-            />
-          ))}
+          {annotations?.map((ann, i) => {
+            const color = CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other;
+            return (
+              <ReferenceLine
+                key={`${ann.date}-${ann.title}`}
+                x={ann.date}
+                stroke={color}
+                strokeDasharray="3 3"
+                strokeWidth={1}
+                strokeOpacity={0.5}
+                label={<AnnotationMarker index={i + 1} color={color} />}
+              />
+            );
+          })}
         </LineChart>
       </ResponsiveContainer>
     </div>

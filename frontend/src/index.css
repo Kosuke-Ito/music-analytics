@@ -618,8 +618,22 @@ body {
   padding: 14px 20px;
   display: flex;
   align-items: baseline;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
+}
+
+.annotation-number {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  flex-shrink: 0;
 }
 
 .annotation-date {
