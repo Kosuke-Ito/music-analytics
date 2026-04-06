@@ -36,37 +36,21 @@ function formatAxis(v: number) {
   return v.toString();
 }
 
-function AnnotationMarker({ index, color }: { index: number; color: string }) {
-  return (
-    <g>
-      <circle cx="0" cy="-12" r="9" fill={color} opacity="0.15" />
-      <circle cx="0" cy="-12" r="7" fill="#0d1321" />
-      <text
-        x="0"
-        y="-8"
-        textAnchor="middle"
-        fill={color}
-        fontSize="9"
-        fontWeight="600"
-        fontFamily="var(--font-mono)"
-      >
-        {index}
-      </text>
-    </g>
-  );
-}
-
 export function ListenerChart({ records, annotations }: ListenerChartProps) {
   if (records.length === 0) {
     return <div className="chart-empty">データがありません</div>;
   }
 
   const hasYoutube = records.some((r) => r.youtube_subscribers != null);
+  const dates = records.map((r) => r.date);
+
+  // アノテーションをレコードの日付範囲内でフィルタ
+  const visibleAnnotations = annotations?.filter((a) => dates.includes(a.date)) ?? [];
 
   return (
     <div className="chart-container">
       <ResponsiveContainer width="100%" height={380}>
-        <LineChart data={records} margin={{ top: 24, right: 8, bottom: 0, left: 0 }}>
+        <LineChart data={records} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#151d2e" vertical={false} />
           <XAxis
             dataKey="date"
@@ -130,7 +114,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
               connectNulls
             />
           )}
-          {annotations?.map((ann, i) => {
+          {visibleAnnotations.map((ann) => {
             const color = CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other;
             return (
               <ReferenceLine
@@ -139,13 +123,37 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
                 stroke={color}
                 strokeDasharray="3 3"
                 strokeWidth={1}
-                strokeOpacity={0.5}
-                label={<AnnotationMarker index={i + 1} color={color} />}
+                strokeOpacity={0.4}
               />
             );
           })}
         </LineChart>
       </ResponsiveContainer>
+      {visibleAnnotations.length > 0 && (
+        <div className="chart-annotations-bar">
+          {records.map((r) => {
+            const matchingAnns = visibleAnnotations
+              .map((a, i) => ({ ...a, num: i + 1 }))
+              .filter((a) => a.date === r.date);
+            return (
+              <div key={r.date} className="chart-annotation-slot">
+                {matchingAnns.map((a) => (
+                  <span
+                    key={a.num}
+                    className="chart-annotation-marker"
+                    style={{
+                      backgroundColor: CATEGORY_COLORS[a.category] ?? CATEGORY_COLORS.other,
+                    }}
+                    title={a.title}
+                  >
+                    {a.num}
+                  </span>
+                ))}
+              </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }
