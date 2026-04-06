@@ -7,7 +7,9 @@ export interface CityListeners {
 export interface ListenerRecord {
   date: string;
   monthly_listeners: number;
+  spotify_followers?: number;
   youtube_subscribers?: number;
+  youtube_total_views?: number;
   top_cities?: CityListeners[];
   collected_at: string;
 }

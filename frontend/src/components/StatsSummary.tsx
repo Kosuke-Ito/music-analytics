@@ -8,6 +8,13 @@ function formatNumber(n: number): string {
   return n.toLocaleString("en-US");
 }
 
+function formatCompact(n: number): string {
+  if (n >= 1_000_000_000) return `${(n / 1_000_000_000).toFixed(1)}B`;
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(0)}K`;
+  return n.toString();
+}
+
 export function StatsSummary({ records }: StatsSummaryProps) {
   if (records.length === 0) {
     return (
@@ -36,6 +43,12 @@ export function StatsSummary({ records }: StatsSummaryProps) {
         <span className="stat-label">Spotify Monthly Listeners</span>
         <span className="stat-value">{formatNumber(current.monthly_listeners)}</span>
       </div>
+      {current.spotify_followers != null && (
+        <div className="stat-card">
+          <span className="stat-label">Spotify Followers</span>
+          <span className="stat-value">{formatNumber(current.spotify_followers)}</span>
+        </div>
+      )}
       {listenerChange !== null && (
         <div className="stat-card">
           <span className="stat-label">Spotify 前日比</span>
@@ -49,6 +62,12 @@ export function StatsSummary({ records }: StatsSummaryProps) {
         <div className="stat-card">
           <span className="stat-label">YouTube Subscribers</span>
           <span className="stat-value">{formatNumber(current.youtube_subscribers)}</span>
+        </div>
+      )}
+      {current.youtube_total_views != null && (
+        <div className="stat-card">
+          <span className="stat-label">YouTube Total Views</span>
+          <span className="stat-value">{formatCompact(current.youtube_total_views)}</span>
         </div>
       )}
       {subscriberChange !== null && (

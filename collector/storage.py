@@ -31,12 +31,17 @@ def add_record(
     result: ScrapingResult,
     date: str,
     youtube_subscribers: int | None = None,
+    youtube_total_views: int | None = None,
 ) -> dict:
     """レコードを追加する。同日のレコードが既にある場合はYouTubeデータをマージ。"""
     for record in data["records"]:
         if record["date"] == date:
             if youtube_subscribers is not None:
                 record["youtube_subscribers"] = youtube_subscribers
+            if youtube_total_views is not None:
+                record["youtube_total_views"] = youtube_total_views
+            if result.followers:
+                record["spotify_followers"] = result.followers
             if result.top_cities:
                 record["top_cities"] = result.top_cities
             logger.info(f"{date} のレコードを更新しました。")
@@ -47,8 +52,12 @@ def add_record(
         "monthly_listeners": result.monthly_listeners,
         "collected_at": result.collected_at.isoformat(),
     }
+    if result.followers:
+        record["spotify_followers"] = result.followers
     if youtube_subscribers is not None:
         record["youtube_subscribers"] = youtube_subscribers
+    if youtube_total_views is not None:
+        record["youtube_total_views"] = youtube_total_views
     if result.top_cities:
         record["top_cities"] = result.top_cities
     data["records"].append(record)

@@ -11,6 +11,7 @@ class ScrapingError(Exception):
 class ScrapingResult:
     monthly_listeners: int
     collected_at: datetime
+    followers: int = 0
     top_cities: list = field(default_factory=list)
 
 
@@ -42,7 +43,9 @@ def extract_artist_stats(api_response: dict) -> dict:
     except (KeyError, TypeError):
         pass
 
-    return {"monthly_listeners": listeners, "top_cities": top_cities}
+    followers = stats.get("followers", 0)
+
+    return {"monthly_listeners": listeners, "followers": followers, "top_cities": top_cities}
 
 
 # 後方互換性のため残す
@@ -106,6 +109,7 @@ def scrape_from_url(url: str, timeout: int = 30_000) -> ScrapingResult:
     return ScrapingResult(
         monthly_listeners=result_data["monthly_listeners"],
         collected_at=datetime.now(timezone.utc),
+        followers=result_data["followers"],
         top_cities=result_data["top_cities"],
     )
 

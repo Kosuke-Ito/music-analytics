@@ -7,7 +7,7 @@ from pathlib import Path
 
 from collector.scraper import ScrapingError, scrape_monthly_listeners
 from collector.storage import add_record, load_data, save_data, validate_record
-from collector.youtube import YouTubeError, fetch_subscriber_count
+from collector.youtube import YouTubeError, fetch_youtube_stats
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -50,20 +50,31 @@ def collect_all() -> None:
 
         # YouTube収集
         youtube_subscribers = None
+        youtube_total_views = None
         if youtube_api_key and youtube_channel_id:
             logger.info(f"YouTube収集開始: {name}")
             try:
-                youtube_subscribers = fetch_subscriber_count(
+                yt_stats = fetch_youtube_stats(
                     youtube_channel_id, api_key=youtube_api_key
                 )
-                logger.info(f"YouTube収集完了: {name} - {youtube_subscribers:,} subscribers")
+                youtube_subscribers = yt_stats.subscribers
+                youtube_total_views = yt_stats.total_views
+                logger.info(
+                    f"YouTube収集完了: {name} - {youtube_subscribers:,} subscribers, "
+                    f"{youtube_total_views:,} views"
+                )
             except (YouTubeError, Exception) as e:
                 logger.warning(f"YouTube取得失敗: {name} - {e}")
 
-        data = add_record(data, result, date=today, youtube_subscribers=youtube_subscribers)
+        data = add_record(
+            data, result, date=today,
+            youtube_subscribers=youtube_subscribers,
+            youtube_total_views=youtube_total_views,
+        )
         save_data(data_path, data)
         logger.info(
-            f"収集完了: {name} - {result.monthly_listeners:,} listeners"
+            f"収集完了: {name} - {result.monthly_listeners:,} listeners, "
+            f"{result.followers:,} followers"
             + (f", {youtube_subscribers:,} subscribers" if youtube_subscribers else "")
         )
 
