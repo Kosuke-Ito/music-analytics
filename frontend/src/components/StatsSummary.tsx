@@ -23,10 +23,15 @@ function formatPct(p: number): string {
 export function StatsSummary({ records }: StatsSummaryProps) {
   if (records.length === 0) {
     return (
-      <div className="stats-summary">
-        <div className="stat-card">
-          <span className="stat-label">Spotify Monthly Listeners</span>
-          <span className="stat-value">-</span>
+      <div className="stats-groups">
+        <div className="stats-group">
+          <div className="stats-group-title">Spotify</div>
+          <div className="stats-summary">
+            <div className="stat-card">
+              <span className="stat-label">Monthly Listeners</span>
+              <span className="stat-value">-</span>
+            </div>
+          </div>
         </div>
       </div>
     );
@@ -64,84 +69,103 @@ export function StatsSummary({ records }: StatsSummaryProps) {
       : null;
 
   const dataWarning = current.validation_flags?.includes("large_monthly_listener_delta");
+  const hasYoutube = current.youtube_subscribers != null;
 
   return (
-    <div className="stats-summary">
+    <div className="stats-groups">
       {dataWarning && (
-        <div className="stat-card stat-warning">
+        <div className="stat-card stat-warning" style={{ marginBottom: 16 }}>
           <span className="stat-label">Data quality</span>
           <span className="stat-value">
             前回比でリスナー変動が大きいです（記録は保存済み・要確認）
           </span>
         </div>
       )}
-      <div className="stat-card">
-        <span className="stat-label">Spotify Monthly Listeners</span>
-        <span className="stat-value">{formatNumber(current.monthly_listeners)}</span>
+
+      <div className="stats-group">
+        <div className="stats-group-title">Spotify</div>
+        <div className="stats-summary">
+          <div className="stat-card">
+            <span className="stat-label">Monthly Listeners</span>
+            <span className="stat-value">{formatNumber(current.monthly_listeners)}</span>
+          </div>
+          {current.spotify_followers != null && (
+            <div className="stat-card">
+              <span className="stat-label">Followers</span>
+              <span className="stat-value">{formatNumber(current.spotify_followers)}</span>
+            </div>
+          )}
+          {listenerChange !== null && (
+            <div className="stat-card">
+              <span className="stat-label">前日比</span>
+              <span className={`stat-value ${listenerChange >= 0 ? "positive" : "negative"}`}>
+                {listenerChange >= 0 ? "+" : ""}
+                {formatNumber(listenerChange)}
+              </span>
+            </div>
+          )}
+          {listenerWeekChange !== null && (
+            <div className="stat-card">
+              <span className="stat-label">7日比</span>
+              <span className={`stat-value ${listenerWeekChange >= 0 ? "positive" : "negative"}`}>
+                {listenerWeekChange >= 0 ? "+" : ""}
+                {formatNumber(listenerWeekChange)}
+                {listenerWeekPct !== null && (
+                  <span className="stat-sub"> ({formatPct(listenerWeekPct)})</span>
+                )}
+              </span>
+            </div>
+          )}
+        </div>
       </div>
-      {current.spotify_followers != null && (
-        <div className="stat-card">
-          <span className="stat-label">Spotify Followers</span>
-          <span className="stat-value">{formatNumber(current.spotify_followers)}</span>
-        </div>
-      )}
-      {listenerChange !== null && (
-        <div className="stat-card">
-          <span className="stat-label">Spotify 前日比</span>
-          <span className={`stat-value ${listenerChange >= 0 ? "positive" : "negative"}`}>
-            {listenerChange >= 0 ? "+" : ""}
-            {formatNumber(listenerChange)}
-          </span>
-        </div>
-      )}
-      {listenerWeekChange !== null && (
-        <div className="stat-card">
-          <span className="stat-label">Spotify 7日比</span>
-          <span className={`stat-value ${listenerWeekChange >= 0 ? "positive" : "negative"}`}>
-            {listenerWeekChange >= 0 ? "+" : ""}
-            {formatNumber(listenerWeekChange)}
-            {listenerWeekPct !== null && (
-              <span className="stat-sub"> ({formatPct(listenerWeekPct)})</span>
+
+      {hasYoutube && (
+        <div className="stats-group">
+          <div className="stats-group-title">YouTube</div>
+          <div className="stats-summary">
+            <div className="stat-card">
+              <span className="stat-label">Subscribers</span>
+              <span className="stat-value">{formatNumber(current.youtube_subscribers!)}</span>
+            </div>
+            {current.youtube_total_views != null && (
+              <div className="stat-card">
+                <span className="stat-label">Total Views</span>
+                <span className="stat-value">{formatCompact(current.youtube_total_views)}</span>
+              </div>
             )}
-          </span>
-        </div>
-      )}
-      {current.youtube_subscribers != null && (
-        <div className="stat-card">
-          <span className="stat-label">YouTube Subscribers</span>
-          <span className="stat-value">{formatNumber(current.youtube_subscribers)}</span>
-        </div>
-      )}
-      {current.youtube_total_views != null && (
-        <div className="stat-card">
-          <span className="stat-label">YouTube Total Views</span>
-          <span className="stat-value">{formatCompact(current.youtube_total_views)}</span>
-        </div>
-      )}
-      {subscriberChange !== null && (
-        <div className="stat-card">
-          <span className="stat-label">YouTube 前日比</span>
-          <span className={`stat-value ${subscriberChange >= 0 ? "positive" : "negative"}`}>
-            {subscriberChange >= 0 ? "+" : ""}
-            {formatNumber(subscriberChange)}
-          </span>
-        </div>
-      )}
-      {subscriberWeekChange !== null && (
-        <div className="stat-card">
-          <span className="stat-label">YouTube 7日比</span>
-          <span className={`stat-value ${subscriberWeekChange >= 0 ? "positive" : "negative"}`}>
-            {subscriberWeekChange >= 0 ? "+" : ""}
-            {formatNumber(subscriberWeekChange)}
-            {subscriberWeekPct !== null && (
-              <span className="stat-sub"> ({formatPct(subscriberWeekPct)})</span>
+            {subscriberChange !== null && (
+              <div className="stat-card">
+                <span className="stat-label">前日比</span>
+                <span className={`stat-value ${subscriberChange >= 0 ? "positive" : "negative"}`}>
+                  {subscriberChange >= 0 ? "+" : ""}
+                  {formatNumber(subscriberChange)}
+                </span>
+              </div>
             )}
-          </span>
+            {subscriberWeekChange !== null && (
+              <div className="stat-card">
+                <span className="stat-label">7日比</span>
+                <span className={`stat-value ${subscriberWeekChange >= 0 ? "positive" : "negative"}`}>
+                  {subscriberWeekChange >= 0 ? "+" : ""}
+                  {formatNumber(subscriberWeekChange)}
+                  {subscriberWeekPct !== null && (
+                    <span className="stat-sub"> ({formatPct(subscriberWeekPct)})</span>
+                  )}
+                </span>
+              </div>
+            )}
+          </div>
         </div>
       )}
-      <div className="stat-card">
-        <span className="stat-label">最新取得日</span>
-        <span className="stat-value stat-date">{current.date}</span>
+
+      <div className="stats-group">
+        <div className="stats-group-title">Info</div>
+        <div className="stats-summary">
+          <div className="stat-card">
+            <span className="stat-label">最新取得日</span>
+            <span className="stat-value stat-date">{current.date}</span>
+          </div>
+        </div>
       </div>
     </div>
   );
