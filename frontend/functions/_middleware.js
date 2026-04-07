@@ -1,9 +1,4 @@
-interface Env {
-  BASIC_AUTH_USER: string;
-  BASIC_AUTH_PASS: string;
-}
-
-export const onRequest: PagesFunction<Env> = async (context) => {
+export async function onRequest(context) {
   const { request, env } = context;
 
   const user = env.BASIC_AUTH_USER;
@@ -32,4 +27,4 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       "WWW-Authenticate": 'Basic realm="Artist Analytics"',
     },
   });
-};
+}
