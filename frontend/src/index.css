@@ -1273,6 +1273,43 @@ body {
   cursor: pointer;
 }
 
+.form-hint {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 6px;
+}
+
+.form-hint--error {
+  color: var(--negative);
+}
+
+.form-preview {
+  background: var(--bg-card);
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.form-preview-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.form-preview-meta {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.form-preview-check {
+  font-size: 12px;
+  color: var(--positive);
+  margin-top: 8px;
+}
+
 .form-error {
   color: var(--negative);
   font-size: 13px;
