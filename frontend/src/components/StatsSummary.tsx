@@ -122,7 +122,9 @@ export function StatsSummary({ records }: StatsSummaryProps) {
           )}
           {retention !== null && (
             <div className="stat-card">
-              <span className="stat-label">Fan Retention</span>
+              <span className="stat-label stat-label--tooltip" title="フォロワー数 ÷ 月間リスナー数。高いほどコアファンが多い">
+                Fan Retention <span className="stat-help">?</span>
+              </span>
               <span className="stat-value">{retention.toFixed(1)}%</span>
             </div>
           )}
@@ -166,7 +168,9 @@ export function StatsSummary({ records }: StatsSummaryProps) {
             )}
             {ytEfficiency !== null && (
               <div className="stat-card">
-                <span className="stat-label">Efficiency</span>
+                <span className="stat-label stat-label--tooltip" title="総再生回数 ÷ 登録者数。高いほどコンテンツがよく視聴されている">
+                  Efficiency <span className="stat-help">?</span>
+                </span>
                 <span className="stat-value">{ytEfficiency.toFixed(1)} <span className="stat-sub">views/sub</span></span>
               </div>
             )}

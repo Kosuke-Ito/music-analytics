@@ -402,6 +402,26 @@ body {
   color: #fbbf24;
 }
 
+.stat-label--tooltip {
+  cursor: help;
+  position: relative;
+}
+
+.stat-help {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 9px;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
 .stat-date {
   font-size: 18px;
 }
