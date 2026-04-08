@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect, useCallback } from "react";
 import { Dashboard } from "./components/Dashboard";
 import { ArtistGrid } from "./components/ArtistGrid";
 import { ArtistTable } from "./components/ArtistTable";
+import { GrowthRanking } from "./components/GrowthRanking";
 import { useAggregatedArtistData } from "./hooks/useAggregatedArtistData";
 import { useArtistList } from "./hooks/useArtistList";
 import { applyArtistToUrl, getArtistIdFromSearch } from "./urlArtist";
@@ -13,7 +14,7 @@ const REGION_LABELS: Record<string, string> = {
 
 const REGION_ORDER = ["jp", "global"];
 
-type ViewMode = "grid" | "list";
+type ViewMode = "grid" | "list" | "ranking";
 
 export default function App() {
   const { artists, loading: configLoading, error: configError } = useArtistList();
@@ -101,6 +102,17 @@ export default function App() {
                     <rect x="1" y="12" width="14" height="2" rx="0.5" />
                   </svg>
                 </button>
+                <button
+                  className={`view-toggle-btn ${viewMode === "ranking" ? "active" : ""}`}
+                  onClick={() => setViewMode("ranking")}
+                  title="Growth Ranking"
+                >
+                  <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
+                    <rect x="1" y="10" width="4" height="5" rx="0.5" />
+                    <rect x="6" y="4" width="4" height="11" rx="0.5" />
+                    <rect x="11" y="1" width="4" height="14" rx="0.5" />
+                  </svg>
+                </button>
               </div>
             )}
           </div>
@@ -153,6 +165,9 @@ export default function App() {
               )}
             </div>
           </div>
+        )}
+        {!loading && !error && viewMode === "ranking" && (
+          <GrowthRanking artists={artists} dataById={dataById} onSelect={selectArtist} />
         )}
       </main>
     </div>
