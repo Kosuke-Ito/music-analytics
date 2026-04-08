@@ -124,7 +124,7 @@ export function StatsSummary({ records }: StatsSummaryProps) {
             <div className="stat-card">
               <span className="stat-label stat-label--tooltip">
                 Fan Retention <span className="stat-help">?</span>
-                <span className="stat-tooltip">フォロワー数 ÷ 月間リスナー数。高いほどコアファンが多く、低いほどカジュアルリスナー中心。</span>
+                <span className="stat-tooltip"><strong>Fan Retention（ファン定着率）</strong><br />フォロワー数 ÷ 月間リスナー数の比率。高いほどリスナーがフォローまでしているコアファンが多い。低い場合はプレイリスト経由など一時的に聴いているカジュアルリスナーが中心。</span>
               </span>
               <span className="stat-value">{retention.toFixed(1)}%</span>
             </div>
@@ -171,7 +171,7 @@ export function StatsSummary({ records }: StatsSummaryProps) {
               <div className="stat-card">
                 <span className="stat-label stat-label--tooltip">
                   Efficiency <span className="stat-help">?</span>
-                  <span className="stat-tooltip">総再生回数 ÷ 登録者数。高いほどコンテンツがよく視聴されている。登録者あたりの再生効率。</span>
+                  <span className="stat-tooltip"><strong>Efficiency（視聴効率）</strong><br />総再生回数 ÷ チャンネル登録者数。1人の登録者が平均何回動画を再生しているかの目安。高いほどコンテンツがアクティブに視聴されている。</span>
                 </span>
                 <span className="stat-value">{ytEfficiency.toFixed(1)} <span className="stat-sub">views/sub</span></span>
               </div>
