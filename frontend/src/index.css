@@ -1310,6 +1310,30 @@ body {
   margin-top: 8px;
 }
 
+.form-success {
+  text-align: center;
+  padding: 16px 0;
+}
+
+.form-success p {
+  color: var(--text-secondary);
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.form-pr-link {
+  display: inline-block;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.form-pr-link:hover {
+  text-decoration: underline;
+}
+
 .form-error {
   color: var(--negative);
   font-size: 13px;
