@@ -4,6 +4,7 @@ import { ArtistGrid } from "./components/ArtistGrid";
 import { ArtistTable } from "./components/ArtistTable";
 import { ArtistComparison } from "./components/ArtistComparison";
 import { GrowthRanking } from "./components/GrowthRanking";
+import { AddArtistForm } from "./components/AddArtistForm";
 import { useAggregatedArtistData } from "./hooks/useAggregatedArtistData";
 import { useArtistList } from "./hooks/useArtistList";
 import { applyArtistToUrl, getArtistIdFromSearch } from "./urlArtist";
@@ -33,6 +34,7 @@ export default function App() {
   const [selectedArtistId, setSelectedArtistId] = useState<string | null>(null);
   const [compareIds, setCompareIds] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
+  const [showAddForm, setShowAddForm] = useState(false);
 
   useEffect(() => {
     if (artists.length === 0) return;
@@ -134,9 +136,25 @@ export default function App() {
                 </button>
               </div>
             )}
+            <button
+              className="view-toggle-btn"
+              onClick={() => setShowAddForm(true)}
+              title="Add Artist"
+            >
+              <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
+                <rect x="7" y="2" width="2" height="12" rx="1" />
+                <rect x="2" y="7" width="12" height="2" rx="1" />
+              </svg>
+            </button>
           </div>
         </div>
       </header>
+      {showAddForm && (
+        <AddArtistForm
+          onClose={() => setShowAddForm(false)}
+          onSuccess={() => { setShowAddForm(false); window.location.reload(); }}
+        />
+      )}
       <main>
         {loading && <div className="loading">Loading</div>}
         {error && <div className="error">{error}</div>}
