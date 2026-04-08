@@ -2,7 +2,6 @@ import { useState } from "react";
 
 interface AddArtistFormProps {
   onClose: () => void;
-  onSuccess: () => void;
 }
 
 function extractSpotifyId(url: string): string | null {
@@ -10,7 +9,7 @@ function extractSpotifyId(url: string): string | null {
   return match ? match[1] : null;
 }
 
-export function AddArtistForm({ onClose, onSuccess }: AddArtistFormProps) {
+export function AddArtistForm({ onClose }: AddArtistFormProps) {
   const [name, setName] = useState("");
   const [spotifyUrl, setSpotifyUrl] = useState("");
   const [youtubeUrl, setYoutubeUrl] = useState("");

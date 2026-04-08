@@ -150,10 +150,7 @@ export default function App() {
         </div>
       </header>
       {showAddForm && (
-        <AddArtistForm
-          onClose={() => setShowAddForm(false)}
-          onSuccess={() => { setShowAddForm(false); window.location.reload(); }}
-        />
+        <AddArtistForm onClose={() => setShowAddForm(false)} />
       )}
       <main>
         {loading && <div className="loading">Loading</div>}
