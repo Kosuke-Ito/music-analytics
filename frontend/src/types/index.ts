@@ -4,6 +4,11 @@ export interface CityListeners {
   listeners: number;
 }
 
+export interface LastfmCountry {
+  country: string;
+  listeners: number;
+}
+
 export interface ListenerRecord {
   date: string;
   monthly_listeners: number;
@@ -11,6 +16,7 @@ export interface ListenerRecord {
   youtube_subscribers?: number;
   youtube_total_views?: number;
   top_cities?: CityListeners[];
+  lastfm_top_countries?: LastfmCountry[];
   collected_at: string;
   /** 収集時の注意フラグ（例: 前日比で大きな変動） */
   validation_flags?: string[];

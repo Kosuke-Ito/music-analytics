@@ -804,6 +804,10 @@ body {
   transition: width 0.3s ease;
 }
 
+.city-bar--lastfm {
+  background: #d51007;
+}
+
 .city-listeners {
   font-family: var(--font-mono);
   font-size: 12px;
