@@ -36,8 +36,6 @@ export async function onRequestPost(context) {
   const owner = "Kosuke-Ito";
   const repo = "music-analytics";
   const path = "scripts/config.json";
-  const baseBranch = "main";
-  const newBranch = `add-artist/${id}`;
   const apiBase = "https://api.github.com";
   const headers = {
     Authorization: `Bearer ${token}`,
@@ -46,15 +44,11 @@ export async function onRequestPost(context) {
     "User-Agent": "music-analytics",
   };
 
-  // 1. 現在のconfig.jsonを取得
+  // config.jsonを取得
   const getResp = await fetch(`${apiBase}/repos/${owner}/${repo}/contents/${path}`, { headers });
   if (!getResp.ok) {
     const errBody = await getResp.text();
-    return Response.json({
-      error: "Failed to read config.json",
-      status: getResp.status,
-      detail: errBody,
-    }, { status: 500 });
+    return Response.json({ error: "Failed to read config.json", status: getResp.status, detail: errBody }, { status: 500 });
   }
   const fileData = await getResp.json();
   const currentContent = JSON.parse(atob(fileData.content));
@@ -68,7 +62,7 @@ export async function onRequestPost(context) {
   const newArtist = { id, name, spotify_artist_id: spotifyId, region };
   if (youtubeChannelId) newArtist.youtube_channel_id = youtubeChannelId;
 
-  // リージョン順に挿入（jpグループの末尾 or globalグループの末尾）
+  // リージョン順に挿入
   const insertIdx = region === "jp"
     ? currentContent.artists.findIndex((a) => a.region === "global")
     : currentContent.artists.length;
@@ -78,70 +72,25 @@ export async function onRequestPost(context) {
     currentContent.artists.splice(insertIdx, 0, newArtist);
   }
 
+  // 直接mainにコミット
   const updatedContent = btoa(unescape(encodeURIComponent(
     JSON.stringify(currentContent, null, 2) + "\n"
   )));
 
-  // 2. mainのHEAD SHAを取得
-  const refResp = await fetch(`${apiBase}/repos/${owner}/${repo}/git/ref/heads/${baseBranch}`, { headers });
-  if (!refResp.ok) {
-    return Response.json({ error: "Failed to get main ref" }, { status: 500 });
-  }
-  const refData = await refResp.json();
-  const baseSha = refData.object.sha;
-
-  // 3. 新しいブランチを作成
-  const createBranchResp = await fetch(`${apiBase}/repos/${owner}/${repo}/git/refs`, {
-    method: "POST",
-    headers,
-    body: JSON.stringify({ ref: `refs/heads/${newBranch}`, sha: baseSha }),
-  });
-  if (!createBranchResp.ok) {
-    // ブランチが既に存在する場合
-    const err = await createBranchResp.json();
-    if (err.message?.includes("Reference already exists")) {
-      return Response.json({ error: "PR branch already exists. Check pending PRs." }, { status: 409 });
-    }
-    return Response.json({ error: "Failed to create branch" }, { status: 500 });
-  }
-
-  // 4. 新ブランチにconfig.jsonをコミット
   const putResp = await fetch(`${apiBase}/repos/${owner}/${repo}/contents/${path}`, {
     method: "PUT",
     headers,
     body: JSON.stringify({
-      message: `feat: add ${name}`,
+      message: `feat: add ${name} via web form`,
       content: updatedContent,
       sha: fileData.sha,
-      branch: newBranch,
     }),
   });
 
   if (!putResp.ok) {
-    return Response.json({ error: "Failed to commit" }, { status: 500 });
+    const err = await putResp.text();
+    return Response.json({ error: "Failed to update config.json", detail: err }, { status: 500 });
   }
 
-  // 5. PRを作成
-  const prResp = await fetch(`${apiBase}/repos/${owner}/${repo}/pulls`, {
-    method: "POST",
-    headers,
-    body: JSON.stringify({
-      title: `feat: add ${name}`,
-      body: `## Add Artist\n- **Name**: ${name}\n- **Spotify**: ${spotifyId}\n- **YouTube**: ${youtubeChannelId || "N/A"}\n- **Region**: ${region}\n\nAdded via web form.`,
-      head: newBranch,
-      base: baseBranch,
-    }),
-  });
-
-  if (!prResp.ok) {
-    return Response.json({ error: "Failed to create PR" }, { status: 500 });
-  }
-
-  const prData = await prResp.json();
-
-  return Response.json({
-    success: true,
-    artist: newArtist,
-    pr_url: prData.html_url,
-  });
+  return Response.json({ success: true, artist: newArtist });
 }

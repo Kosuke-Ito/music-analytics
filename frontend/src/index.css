@@ -1287,27 +1287,35 @@ body {
   background: var(--bg-card);
   border: 1px solid var(--accent);
   border-radius: 10px;
-  padding: 16px;
+  padding: 14px;
   margin-bottom: 20px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.form-preview-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.form-preview-body {
+  min-width: 0;
 }
 
 .form-preview-name {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--text-primary);
 }
 
 .form-preview-meta {
-  font-family: var(--font-mono);
   font-size: 12px;
   color: var(--text-muted);
-  margin-top: 4px;
-}
-
-.form-preview-check {
-  font-size: 12px;
-  color: var(--positive);
-  margin-top: 8px;
+  margin-top: 3px;
 }
 
 .form-success {
