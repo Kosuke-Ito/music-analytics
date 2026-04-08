@@ -26,6 +26,9 @@ export function Dashboard({ artistId, data, config }: DashboardProps) {
     <div className="dashboard fade-in" key={artistId}>
       <div className="detail-header">
         <h2 className="artist-name">{data.artist_name}</h2>
+        <span className="detail-last-updated">
+          {data.records[data.records.length - 1]?.date}
+        </span>
       </div>
       <StatsSummary records={data.records} />
       <div className="chart-section">

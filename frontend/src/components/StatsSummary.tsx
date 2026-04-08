@@ -180,15 +180,6 @@ export function StatsSummary({ records }: StatsSummaryProps) {
         </div>
       )}
 
-      <div className="stats-group">
-        <div className="stats-group-title">Info</div>
-        <div className="stats-summary">
-          <div className="stat-card">
-            <span className="stat-label">最新取得日</span>
-            <span className="stat-value stat-date">{current.date}</span>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
