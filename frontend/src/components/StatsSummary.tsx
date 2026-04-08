@@ -1,4 +1,5 @@
 import type { ListenerRecord } from "../types";
+import { calculateRetentionScore, calculateYouTubeEfficiency } from "../utils/metrics";
 
 interface StatsSummaryProps {
   records: ListenerRecord[];
@@ -71,6 +72,9 @@ export function StatsSummary({ records }: StatsSummaryProps) {
   const dataWarning = current.validation_flags?.includes("large_monthly_listener_delta");
   const hasYoutube = current.youtube_subscribers != null;
 
+  const retention = calculateRetentionScore(current.spotify_followers, current.monthly_listeners);
+  const ytEfficiency = calculateYouTubeEfficiency(current.youtube_total_views, current.youtube_subscribers);
+
   return (
     <div className="stats-groups">
       {dataWarning && (
@@ -116,6 +120,12 @@ export function StatsSummary({ records }: StatsSummaryProps) {
               </span>
             </div>
           )}
+          {retention !== null && (
+            <div className="stat-card">
+              <span className="stat-label">Fan Retention</span>
+              <span className="stat-value">{retention.toFixed(1)}%</span>
+            </div>
+          )}
         </div>
       </div>
 
@@ -152,6 +162,12 @@ export function StatsSummary({ records }: StatsSummaryProps) {
                     <span className="stat-sub"> ({formatPct(subscriberWeekPct)})</span>
                   )}
                 </span>
+              </div>
+            )}
+            {ytEfficiency !== null && (
+              <div className="stat-card">
+                <span className="stat-label">Efficiency</span>
+                <span className="stat-value">{ytEfficiency.toFixed(1)} <span className="stat-sub">views/sub</span></span>
               </div>
             )}
           </div>
