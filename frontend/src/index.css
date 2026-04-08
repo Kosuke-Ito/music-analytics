@@ -422,6 +422,32 @@ body {
   vertical-align: middle;
 }
 
+.stat-label--tooltip .stat-tooltip {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin-top: 6px;
+  background: #1a2233;
+  border: 1px solid var(--border-hover);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-transform: none;
+  white-space: normal;
+  width: 240px;
+  z-index: 10;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.stat-label--tooltip:hover .stat-tooltip {
+  display: block;
+}
+
 .stat-date {
   font-size: 18px;
 }
