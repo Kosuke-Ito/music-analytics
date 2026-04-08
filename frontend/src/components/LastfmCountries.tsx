@@ -1,34 +1,32 @@
-import type { LastfmCountry } from "../types";
+import type { ListenerRecord } from "../types";
 
-interface LastfmCountriesProps {
-  countries?: LastfmCountry[];
+interface LastfmStatsProps {
+  record?: ListenerRecord;
 }
 
-export function LastfmCountries({ countries }: LastfmCountriesProps) {
-  if (!countries?.length) return null;
+function formatNumber(n: number): string {
+  return n.toLocaleString("en-US");
+}
 
-  const maxListeners = countries[0].listeners;
+export function LastfmCountries({ record }: LastfmStatsProps) {
+  if (!record?.lastfm_listeners && !record?.lastfm_playcount) return null;
 
   return (
-    <div className="top-cities-section">
-      <span className="chart-section-title">Last.fm Top Countries</span>
-      <div className="top-cities">
-        {countries.map((c) => (
-          <div key={c.country} className="city-row">
-            <div className="city-info">
-              <span className="city-name">{c.country}</span>
-            </div>
-            <div className="city-bar-wrapper">
-              <div
-                className="city-bar city-bar--lastfm"
-                style={{ width: `${(c.listeners / maxListeners) * 100}%` }}
-              />
-            </div>
-            <span className="city-listeners">
-              {c.listeners.toLocaleString("en-US")}
-            </span>
+    <div className="stats-group">
+      <div className="stats-group-title">Last.fm</div>
+      <div className="stats-summary">
+        {record.lastfm_listeners != null && (
+          <div className="stat-card">
+            <span className="stat-label">Listeners</span>
+            <span className="stat-value">{formatNumber(record.lastfm_listeners)}</span>
           </div>
-        ))}
+        )}
+        {record.lastfm_playcount != null && (
+          <div className="stat-card">
+            <span className="stat-label">Total Scrobbles</span>
+            <span className="stat-value">{formatNumber(record.lastfm_playcount)}</span>
+          </div>
+        )}
       </div>
     </div>
   );

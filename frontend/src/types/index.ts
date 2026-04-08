@@ -16,7 +16,8 @@ export interface ListenerRecord {
   youtube_subscribers?: number;
   youtube_total_views?: number;
   top_cities?: CityListeners[];
-  lastfm_top_countries?: LastfmCountry[];
+  lastfm_listeners?: number;
+  lastfm_playcount?: number;
   collected_at: string;
   /** 収集時の注意フラグ（例: 前日比で大きな変動） */
   validation_flags?: string[];

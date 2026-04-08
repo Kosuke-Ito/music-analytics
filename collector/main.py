@@ -89,14 +89,15 @@ def collect_all() -> None:
                 logger.warning(f"YouTube取得失敗: {name} - {e}")
 
         # Last.fm収集
-        lastfm_top_countries = None
+        lastfm_listeners = None
+        lastfm_playcount = None
         if lastfm_api_key:
             logger.info(f"Last.fm収集開始: {name}")
             try:
                 lfm_stats = fetch_lastfm_stats(name, api_key=lastfm_api_key)
-                if lfm_stats.top_countries:
-                    lastfm_top_countries = lfm_stats.top_countries
-                    logger.info(f"Last.fm収集完了: {name} - {len(lastfm_top_countries)} countries")
+                lastfm_listeners = lfm_stats.listeners
+                lastfm_playcount = lfm_stats.playcount
+                logger.info(f"Last.fm収集完了: {name} - {lastfm_listeners:,} listeners, {lastfm_playcount:,} plays")
             except (LastfmError, Exception) as e:
                 logger.warning(f"Last.fm取得失敗: {name} - {e}")
 
@@ -106,7 +107,8 @@ def collect_all() -> None:
             date=today,
             youtube_subscribers=youtube_subscribers,
             youtube_total_views=youtube_total_views,
-            lastfm_top_countries=lastfm_top_countries,
+            lastfm_listeners=lastfm_listeners,
+            lastfm_playcount=lastfm_playcount,
             validation_flags=validation_flags or None,
         )
         save_data(data_path, data)

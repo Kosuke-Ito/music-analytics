@@ -8,36 +8,40 @@ from collector.lastfm import LastfmError, extract_lastfm_stats, fetch_lastfm_sta
 
 
 class TestExtractLastfmStats:
-    def test_valid_response(self):
+    def test_artist_getinfo(self):
+        response = {
+            "artist": {
+                "name": "King Gnu",
+                "stats": {"listeners": "521820", "playcount": "19180094"},
+            }
+        }
+        stats = extract_lastfm_stats(response)
+        assert stats.listeners == 521820
+        assert stats.playcount == 19180094
+
+    def test_top_countries_compat(self):
         response = {
             "topcountries": {
                 "country": [
                     {"name": "Japan", "listeners": "50000"},
-                    {"name": "United States", "listeners": "30000"},
-                    {"name": "United Kingdom", "listeners": "10000"},
                 ],
                 "@attr": {"artist": "King Gnu"},
             }
         }
         stats = extract_lastfm_stats(response)
-        assert len(stats.top_countries) == 3
+        assert stats.top_countries is not None
+        assert len(stats.top_countries) == 1
         assert stats.top_countries[0]["country"] == "Japan"
-        assert stats.top_countries[0]["listeners"] == 50000
-
-    def test_empty_countries(self):
-        response = {
-            "topcountries": {
-                "country": [],
-                "@attr": {"artist": "Unknown"},
-            }
-        }
-        stats = extract_lastfm_stats(response)
-        assert stats.top_countries == []
 
     def test_error_response(self):
         response = {"error": 6, "message": "Artist not found"}
         with pytest.raises(LastfmError):
             extract_lastfm_stats(response)
+
+    def test_empty_response(self):
+        stats = extract_lastfm_stats({})
+        assert stats.listeners == 0
+        assert stats.playcount == 0
 
 
 class _StubLastfmHandler(BaseHTTPRequestHandler):
@@ -68,16 +72,14 @@ class TestFetchLastfmStats:
     def test_success(self, stub_lastfm):
         url, handler = stub_lastfm
         handler.response_body = {
-            "topcountries": {
-                "country": [
-                    {"name": "Japan", "listeners": "50000"},
-                ],
-                "@attr": {"artist": "King Gnu"},
+            "artist": {
+                "name": "King Gnu",
+                "stats": {"listeners": "521820", "playcount": "19180094"},
             }
         }
         stats = fetch_lastfm_stats("King Gnu", api_key="test", base_url=url)
-        assert len(stats.top_countries) == 1
-        assert stats.top_countries[0]["country"] == "Japan"
+        assert stats.listeners == 521820
+        assert stats.playcount == 19180094
 
     def test_error(self, stub_lastfm):
         url, handler = stub_lastfm

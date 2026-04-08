@@ -41,7 +41,8 @@ def add_record(
     date: str,
     youtube_subscribers: int | None = None,
     youtube_total_views: int | None = None,
-    lastfm_top_countries: list | None = None,
+    lastfm_listeners: int | None = None,
+    lastfm_playcount: int | None = None,
     validation_flags: list[str] | None = None,
 ) -> dict:
     """レコードを追加する。同日のレコードが既にある場合はYouTubeデータをマージ。"""
@@ -55,8 +56,10 @@ def add_record(
                 record["spotify_followers"] = result.followers
             if result.top_cities:
                 record["top_cities"] = result.top_cities
-            if lastfm_top_countries:
-                record["lastfm_top_countries"] = lastfm_top_countries
+            if lastfm_listeners is not None:
+                record["lastfm_listeners"] = lastfm_listeners
+            if lastfm_playcount is not None:
+                record["lastfm_playcount"] = lastfm_playcount
             _merge_validation_flags(record, validation_flags)
             logger.info(f"{date} のレコードを更新しました。")
             return data
@@ -74,8 +77,10 @@ def add_record(
         record["youtube_total_views"] = youtube_total_views
     if result.top_cities:
         record["top_cities"] = result.top_cities
-    if lastfm_top_countries:
-        record["lastfm_top_countries"] = lastfm_top_countries
+    if lastfm_listeners is not None:
+        record["lastfm_listeners"] = lastfm_listeners
+    if lastfm_playcount is not None:
+        record["lastfm_playcount"] = lastfm_playcount
     if validation_flags:
         record["validation_flags"] = list(dict.fromkeys(validation_flags))
     data["records"].append(record)

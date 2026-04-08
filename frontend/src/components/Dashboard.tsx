@@ -38,7 +38,7 @@ export function Dashboard({ artistId, data, config }: DashboardProps) {
       </div>
       <AnnotationImpact records={data.records} annotations={data.annotations} />
       <TopCities cities={data.records[data.records.length - 1]?.top_cities} />
-      <LastfmCountries countries={data.records[data.records.length - 1]?.lastfm_top_countries} />
+      <LastfmCountries record={data.records[data.records.length - 1]} />
       <LiveAttendance attendance={config?.live_attendance} />
       <AnnotationList annotations={data.annotations} />
     </div>
