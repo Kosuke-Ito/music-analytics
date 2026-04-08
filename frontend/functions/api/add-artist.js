@@ -43,6 +43,7 @@ export async function onRequestPost(context) {
     Authorization: `Bearer ${token}`,
     Accept: "application/vnd.github+json",
     "Content-Type": "application/json",
+    "User-Agent": "music-analytics",
   };
 
   // 1. 現在のconfig.jsonを取得
