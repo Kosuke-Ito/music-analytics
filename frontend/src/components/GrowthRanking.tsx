@@ -20,47 +20,76 @@ function formatNumber(n: number): string {
   return n.toLocaleString("en-US");
 }
 
+function formatDelta(v: number | null): string {
+  if (v === null) return "—";
+  const sign = v >= 0 ? "+" : "";
+  return `${sign}${formatNumber(v)}`;
+}
+
 export function GrowthRanking({ artists, dataById, onSelect }: GrowthRankingProps) {
   const [metric, setMetric] = useState<"spotify" | "youtube">("spotify");
+  const [sortBy, setSortBy] = useState<"1d" | "7d">("1d");
 
   const ranked = useMemo(() => {
     return artists
       .map((artist) => {
         const data = dataById[artist.id];
-        if (!data?.records.length) return { artist, growth: null, current: 0 };
+        if (!data?.records.length) return { artist, daily: null, weekly: null, current: 0 };
 
         const records = data.records;
         const current = records[records.length - 1];
+        const previous = records.length >= 2 ? records[records.length - 2] : null;
 
-        let growth: number | null = null;
+        let daily: number | null = null;
+        let dailyAbs: number | null = null;
+        let weekly: number | null = null;
+
         if (metric === "spotify") {
-          growth = calculateWeeklyGrowth(records);
+          if (previous) {
+            const diff = current.monthly_listeners - previous.monthly_listeners;
+            dailyAbs = diff;
+            daily = previous.monthly_listeners > 0
+              ? (diff / previous.monthly_listeners) * 100
+              : null;
+          }
+          weekly = calculateWeeklyGrowth(records);
         } else {
-          // YouTube: 手動計算（subscribersの成長率）
+          if (previous && current.youtube_subscribers != null && previous.youtube_subscribers != null) {
+            const diff = current.youtube_subscribers - previous.youtube_subscribers;
+            dailyAbs = diff;
+            daily = previous.youtube_subscribers > 0
+              ? (diff / previous.youtube_subscribers) * 100
+              : null;
+          }
           if (records.length >= 8) {
             const cur = current.youtube_subscribers;
             const prev = records[records.length - 8].youtube_subscribers;
             if (cur != null && prev != null && prev > 0) {
-              growth = ((cur - prev) / prev) * 100;
+              weekly = ((cur - prev) / prev) * 100;
             }
           }
         }
 
         return {
           artist,
-          growth,
+          daily,
+          dailyAbs,
+          weekly,
           current: metric === "spotify"
             ? current.monthly_listeners
             : (current.youtube_subscribers ?? 0),
         };
       })
       .sort((a, b) => {
-        if (a.growth === null && b.growth === null) return 0;
-        if (a.growth === null) return 1;
-        if (b.growth === null) return -1;
-        return b.growth - a.growth;
+        const key = sortBy === "1d" ? "daily" : "weekly";
+        const av = a[key];
+        const bv = b[key];
+        if (av === null && bv === null) return 0;
+        if (av === null) return 1;
+        if (bv === null) return -1;
+        return bv - av;
       });
-  }, [artists, dataById, metric]);
+  }, [artists, dataById, metric, sortBy]);
 
   return (
     <div className="growth-ranking fade-in">
@@ -86,7 +115,18 @@ export function GrowthRanking({ artists, dataById, onSelect }: GrowthRankingProp
           <span className="growth-rank-col">#</span>
           <span className="growth-name-col">Artist</span>
           <span className="growth-current-col">Current</span>
-          <span className="growth-rate-col">7d Growth</span>
+          <span
+            className={`growth-rate-col ${sortBy === "1d" ? "growth-rate-col--active" : ""}`}
+            onClick={() => setSortBy("1d")}
+          >
+            1D {sortBy === "1d" ? "↓" : ""}
+          </span>
+          <span
+            className={`growth-rate-col ${sortBy === "7d" ? "growth-rate-col--active" : ""}`}
+            onClick={() => setSortBy("7d")}
+          >
+            7D {sortBy === "7d" ? "↓" : ""}
+          </span>
         </div>
         {ranked.map((item, i) => (
           <div
@@ -106,10 +146,17 @@ export function GrowthRanking({ artists, dataById, onSelect }: GrowthRankingProp
             <span className="growth-current-col">{formatNumber(item.current)}</span>
             <span
               className={`growth-rate-col ${
-                item.growth === null ? "" : item.growth >= 0 ? "positive" : "negative"
+                item.daily === null ? "" : item.daily >= 0 ? "positive" : "negative"
               }`}
             >
-              {formatGrowth(item.growth)}
+              {item.dailyAbs != null ? formatDelta(item.dailyAbs) : "—"}
+            </span>
+            <span
+              className={`growth-rate-col ${
+                item.weekly === null ? "" : item.weekly >= 0 ? "positive" : "negative"
+              }`}
+            >
+              {formatGrowth(item.weekly)}
             </span>
           </div>
         ))}
