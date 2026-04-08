@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect, useCallback } from "react";
 import { Dashboard } from "./components/Dashboard";
 import { ArtistGrid } from "./components/ArtistGrid";
 import { ArtistTable } from "./components/ArtistTable";
+import { ArtistComparison } from "./components/ArtistComparison";
 import { GrowthRanking } from "./components/GrowthRanking";
 import { useAggregatedArtistData } from "./hooks/useAggregatedArtistData";
 import { useArtistList } from "./hooks/useArtistList";
@@ -14,7 +15,7 @@ const REGION_LABELS: Record<string, string> = {
 
 const REGION_ORDER = ["jp", "global"];
 
-type ViewMode = "grid" | "list" | "ranking";
+type ViewMode = "grid" | "list" | "ranking" | "compare";
 
 export default function App() {
   const { artists, loading: configLoading, error: configError } = useArtistList();
@@ -30,9 +31,9 @@ export default function App() {
   const error = configError ?? dataError;
 
   const [selectedArtistId, setSelectedArtistId] = useState<string | null>(null);
+  const [compareIds, setCompareIds] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
 
-  // URL ?artist= と同期（初回は replace、選択変更は push で履歴に積む）
   useEffect(() => {
     if (artists.length === 0) return;
     const fromUrl = getArtistIdFromSearch(window.location.search);
@@ -63,6 +64,12 @@ export default function App() {
     applyArtistToUrl(id, "push");
   }, []);
 
+  const toggleCompare = useCallback((id: string) => {
+    setCompareIds((prev) =>
+      prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]
+    );
+  }, []);
+
   const grouped = useMemo(() => {
     const groups: Record<string, typeof artists> = {};
     for (const artist of artists) {
@@ -84,6 +91,7 @@ export default function App() {
                 <button
                   className={`view-toggle-btn ${viewMode === "grid" ? "active" : ""}`}
                   onClick={() => setViewMode("grid")}
+                  title="Card View"
                 >
                   <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
                     <rect x="1" y="1" width="6" height="6" rx="1" />
@@ -95,6 +103,7 @@ export default function App() {
                 <button
                   className={`view-toggle-btn ${viewMode === "list" ? "active" : ""}`}
                   onClick={() => setViewMode("list")}
+                  title="Table View"
                 >
                   <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
                     <rect x="1" y="2" width="14" height="2" rx="0.5" />
@@ -111,6 +120,16 @@ export default function App() {
                     <rect x="1" y="10" width="4" height="5" rx="0.5" />
                     <rect x="6" y="4" width="4" height="11" rx="0.5" />
                     <rect x="11" y="1" width="4" height="14" rx="0.5" />
+                  </svg>
+                </button>
+                <button
+                  className={`view-toggle-btn ${viewMode === "compare" ? "active" : ""}`}
+                  onClick={() => setViewMode("compare")}
+                  title="Compare Artists"
+                >
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" width="14" height="14">
+                    <polyline points="1,12 4,6 8,9 12,3 15,5" />
+                    <polyline points="1,14 5,10 9,12 13,7 15,9" />
                   </svg>
                 </button>
               </div>
@@ -168,6 +187,32 @@ export default function App() {
         )}
         {!loading && !error && viewMode === "ranking" && (
           <GrowthRanking artists={artists} dataById={dataById} onSelect={selectArtist} />
+        )}
+        {!loading && !error && viewMode === "compare" && (
+          <div className="layout-sidebar">
+            <aside className="sidebar">
+              <div className="compare-hint">アーティストをクリックして比較対象を選択</div>
+              {REGION_ORDER.filter((r) => grouped[r]?.length).map((region) => (
+                <section key={region} className="region-section">
+                  <h2 className="region-title">{REGION_LABELS[region] ?? region}</h2>
+                  <div className="artist-grid">
+                    {grouped[region].map((artist) => (
+                      <div
+                        key={artist.id}
+                        className={`artist-card artist-card--compare ${compareIds.includes(artist.id) ? "artist-card--selected" : ""}`}
+                        onClick={() => toggleCompare(artist.id)}
+                      >
+                        <span className="artist-card-name">{artist.name}</span>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </aside>
+            <div className="main-content">
+              <ArtistComparison artistIds={compareIds} dataById={dataById} />
+            </div>
+          </div>
         )}
       </main>
     </div>

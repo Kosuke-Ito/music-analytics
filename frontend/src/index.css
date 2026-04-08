@@ -917,6 +917,45 @@ body {
   line-height: 1.4;
 }
 
+/* ── Comparison ── */
+
+.comparison {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comparison-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.comparison-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.comparison-empty {
+  color: var(--text-muted);
+  padding: 64px 24px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.compare-hint {
+  font-size: 12px;
+  color: var(--text-muted);
+  padding: 8px 0;
+}
+
+.artist-card--compare {
+  padding: 12px 16px;
+}
+
 /* ── Growth Ranking ── */
 
 .growth-ranking {
