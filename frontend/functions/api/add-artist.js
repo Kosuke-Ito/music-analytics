@@ -48,7 +48,12 @@ export async function onRequestPost(context) {
   // 1. 現在のconfig.jsonを取得
   const getResp = await fetch(`${apiBase}/repos/${owner}/${repo}/contents/${path}`, { headers });
   if (!getResp.ok) {
-    return Response.json({ error: "Failed to read config.json" }, { status: 500 });
+    const errBody = await getResp.text();
+    return Response.json({
+      error: "Failed to read config.json",
+      status: getResp.status,
+      detail: errBody,
+    }, { status: 500 });
   }
   const fileData = await getResp.json();
   const currentContent = JSON.parse(atob(fileData.content));
