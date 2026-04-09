@@ -1,6 +1,7 @@
 import { AnnotationImpact } from "./AnnotationImpact";
 import { AnnotationList } from "./AnnotationList";
 import { ListenerChart } from "./ListenerChart";
+import { DeltaChart } from "./DeltaChart";
 import { LiveAttendance } from "./LiveAttendance";
 import { StatsSummary } from "./StatsSummary";
 import { LastfmCountries } from "./LastfmCountries";
@@ -36,6 +37,7 @@ export function Dashboard({ artistId, data, config }: DashboardProps) {
         <span className="chart-section-title">Listener Trend</span>
         <ListenerChart records={data.records} annotations={data.annotations} />
       </div>
+      <DeltaChart records={data.records} />
       <AnnotationImpact records={data.records} annotations={data.annotations} />
       <TopCities cities={data.records[data.records.length - 1]?.top_cities} />
       <LastfmCountries record={data.records[data.records.length - 1]} />

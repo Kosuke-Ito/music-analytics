@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import type { ArtistConfig, ArtistData } from "../types";
 
-type SortKey = "name" | "spotify" | "youtube";
+type SortKey = "name" | "spotify" | "youtube" | "lastfm";
 type SortDir = "asc" | "desc";
 
 interface ArtistTableProps {
@@ -43,6 +43,11 @@ function ArtistRow({
           ? latest.youtube_subscribers.toLocaleString("en-US")
           : "—"}
       </td>
+      <td className="table-cell table-cell-number">
+        {latest?.lastfm_listeners != null
+          ? latest.lastfm_listeners.toLocaleString("en-US")
+          : "—"}
+      </td>
       <td className="table-cell table-cell-arrow">→</td>
     </tr>
   );
@@ -53,12 +58,13 @@ export function ArtistTable({ artists, dataById, onSelect, selectedId }: ArtistT
   const [sortDir, setSortDir] = useState<SortDir>("asc");
 
   const metrics = useMemo(() => {
-    const m: Record<string, { spotify: number; youtube: number | null }> = {};
+    const m: Record<string, { spotify: number; youtube: number | null; lastfm: number | null }> = {};
     for (const a of artists) {
       const latest = dataById[a.id]?.records.at(-1);
       m[a.id] = {
         spotify: latest?.monthly_listeners ?? 0,
         youtube: latest?.youtube_subscribers ?? null,
+        lastfm: latest?.lastfm_listeners ?? null,
       };
     }
     return m;
@@ -78,10 +84,13 @@ export function ArtistTable({ artists, dataById, onSelect, selectedId }: ArtistT
     if (sortKey === "name") {
       return a.name.localeCompare(b.name) * dir;
     }
-    const aVal =
-      sortKey === "spotify" ? (metrics[a.id]?.spotify ?? 0) : (metrics[a.id]?.youtube ?? 0);
-    const bVal =
-      sortKey === "spotify" ? (metrics[b.id]?.spotify ?? 0) : (metrics[b.id]?.youtube ?? 0);
+    const getVal = (id: string) => {
+      if (sortKey === "spotify") return metrics[id]?.spotify ?? 0;
+      if (sortKey === "youtube") return metrics[id]?.youtube ?? 0;
+      return metrics[id]?.lastfm ?? 0;
+    };
+    const aVal = getVal(a.id);
+    const bVal = getVal(b.id);
     return (aVal - bVal) * dir;
   });
 
@@ -103,6 +112,9 @@ export function ArtistTable({ artists, dataById, onSelect, selectedId }: ArtistT
             </th>
             <th className="table-header table-header-number" onClick={() => handleSort("youtube")}>
               YouTube{sortIndicator("youtube")}
+            </th>
+            <th className="table-header table-header-number" onClick={() => handleSort("lastfm")}>
+              Last.fm{sortIndicator("lastfm")}
             </th>
             <th className="table-header table-header-arrow" />
           </tr>
