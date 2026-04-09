@@ -107,67 +107,54 @@ export default function App() {
       <header className="header">
         <div className="header-top">
           <h1>Artist Analytics</h1>
-          <div className="header-controls">
-            {!loading && (
-              <div className="view-toggle">
-                <button
-                  className={`view-toggle-btn ${viewMode === "grid" ? "active" : ""}`}
-                  onClick={() => setViewMode("grid")}
-                  title="Card View"
-                >
-                  <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
-                    <rect x="1" y="1" width="6" height="6" rx="1" />
-                    <rect x="9" y="1" width="6" height="6" rx="1" />
-                    <rect x="1" y="9" width="6" height="6" rx="1" />
-                    <rect x="9" y="9" width="6" height="6" rx="1" />
-                  </svg>
-                </button>
-                <button
-                  className={`view-toggle-btn ${viewMode === "list" ? "active" : ""}`}
-                  onClick={() => setViewMode("list")}
-                  title="Table View"
-                >
-                  <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
-                    <rect x="1" y="2" width="14" height="2" rx="0.5" />
-                    <rect x="1" y="7" width="14" height="2" rx="0.5" />
-                    <rect x="1" y="12" width="14" height="2" rx="0.5" />
-                  </svg>
-                </button>
-                <button
-                  className={`view-toggle-btn ${viewMode === "ranking" ? "active" : ""}`}
-                  onClick={() => setViewMode("ranking")}
-                  title="Growth Ranking"
-                >
-                  <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
-                    <rect x="1" y="10" width="4" height="5" rx="0.5" />
-                    <rect x="6" y="4" width="4" height="11" rx="0.5" />
-                    <rect x="11" y="1" width="4" height="14" rx="0.5" />
-                  </svg>
-                </button>
-                <button
-                  className={`view-toggle-btn ${viewMode === "compare" ? "active" : ""}`}
-                  onClick={() => setViewMode("compare")}
-                  title="Compare Artists"
-                >
-                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" width="14" height="14">
-                    <polyline points="1,12 4,6 8,9 12,3 15,5" />
-                    <polyline points="1,14 5,10 9,12 13,7 15,9" />
-                  </svg>
-                </button>
-              </div>
-            )}
-            <button
-              className="view-toggle-btn"
-              onClick={() => setShowAddForm(true)}
-              title="Add Artist"
-            >
-              <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
-                <rect x="7" y="2" width="2" height="12" rx="1" />
-                <rect x="2" y="7" width="12" height="2" rx="1" />
-              </svg>
-            </button>
-          </div>
+          <button
+            className="add-artist-btn"
+            onClick={() => setShowAddForm(true)}
+            title="Add Artist"
+          >
+            <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
+              <rect x="7" y="2" width="2" height="12" rx="1" />
+              <rect x="2" y="7" width="12" height="2" rx="1" />
+            </svg>
+            Add Artist
+          </button>
         </div>
+        {!loading && (
+          <nav className="view-tabs">
+            <button className={`view-tab ${viewMode === "grid" ? "view-tab--active" : ""}`} onClick={() => setViewMode("grid")}>
+              <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
+                <rect x="1" y="1" width="6" height="6" rx="1" />
+                <rect x="9" y="1" width="6" height="6" rx="1" />
+                <rect x="1" y="9" width="6" height="6" rx="1" />
+                <rect x="9" y="9" width="6" height="6" rx="1" />
+              </svg>
+              カード
+            </button>
+            <button className={`view-tab ${viewMode === "list" ? "view-tab--active" : ""}`} onClick={() => setViewMode("list")}>
+              <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
+                <rect x="1" y="2" width="14" height="2" rx="0.5" />
+                <rect x="1" y="7" width="14" height="2" rx="0.5" />
+                <rect x="1" y="12" width="14" height="2" rx="0.5" />
+              </svg>
+              テーブル
+            </button>
+            <button className={`view-tab ${viewMode === "ranking" ? "view-tab--active" : ""}`} onClick={() => setViewMode("ranking")}>
+              <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
+                <rect x="1" y="10" width="4" height="5" rx="0.5" />
+                <rect x="6" y="4" width="4" height="11" rx="0.5" />
+                <rect x="11" y="1" width="4" height="14" rx="0.5" />
+              </svg>
+              ランキング
+            </button>
+            <button className={`view-tab ${viewMode === "compare" ? "view-tab--active" : ""}`} onClick={() => setViewMode("compare")}>
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" width="14" height="14">
+                <polyline points="1,12 4,6 8,9 12,3 15,5" />
+                <polyline points="1,14 5,10 9,12 13,7 15,9" />
+              </svg>
+              比較
+            </button>
+          </nav>
+        )}
       </header>
       {showAddForm && (
         <AddArtistForm onClose={() => setShowAddForm(false)} />

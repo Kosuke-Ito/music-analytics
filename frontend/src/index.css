@@ -71,7 +71,8 @@ body {
 .sidebar-filters {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
+  padding-bottom: 8px;
 }
 
 .sidebar-search {
@@ -98,11 +99,11 @@ body {
 .sidebar-labels {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 6px;
 }
 
 .label-tag {
-  padding: 3px 10px;
+  padding: 4px 12px;
   border-radius: 12px;
   border: 1px solid var(--border);
   background: transparent;
@@ -146,7 +147,10 @@ body {
 /* ── Header ── */
 
 .header {
-  margin-bottom: 48px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .header-top {
@@ -162,47 +166,68 @@ body {
   letter-spacing: -0.3px;
 }
 
-.header-controls {
+.add-artist-btn {
   display: flex;
   align-items: center;
-  gap: 16px;
-}
-
-.view-toggle {
-  display: flex;
-  background: var(--bg-surface);
-  border: 1px solid var(--border-hover);
+  gap: 6px;
+  padding: 8px 16px;
+  background: var(--accent-dim);
+  border: 1px solid var(--accent);
   border-radius: 8px;
-  overflow: hidden;
-  gap: 2px;
-  padding: 3px;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
 }
 
-.view-toggle-btn {
+.add-artist-btn:hover {
+  background: var(--accent);
+  color: #0d1321;
+}
+
+.add-artist-btn svg {
+  width: 14px;
+  height: 14px;
+}
+
+.view-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.view-tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   background: none;
   border: none;
-  padding: 8px 12px;
-  border-radius: 6px;
+  border-bottom: 2px solid transparent;
+  padding: 8px 16px;
   cursor: pointer;
   color: var(--text-muted);
-  display: flex;
-  align-items: center;
-  transition: color 0.2s, background 0.2s;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.15s, border-color 0.15s;
 }
 
-.view-toggle-btn svg {
-  width: 16px;
-  height: 16px;
+.view-tab svg {
+  width: 14px;
+  height: 14px;
 }
 
-.view-toggle-btn:hover {
+.view-tab:hover {
   color: var(--text-primary);
-  background: var(--bg-card);
 }
 
-.view-toggle-btn.active {
+.view-tab--active {
   color: var(--accent);
-  background: var(--accent-dim);
+  border-bottom-color: var(--accent);
 }
 
 .header-dot {
