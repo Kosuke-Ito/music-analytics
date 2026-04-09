@@ -52,9 +52,10 @@ export async function onRequestGet(context) {
   return Response.json({
     id: artist.id,
     name: artist.name,
-    followers: artist.followers?.total,
-    genres: artist.genres,
-    popularity: artist.popularity,
-    image: artist.images?.[0]?.url,
+    followers: artist.followers?.total ?? null,
+    genres: artist.genres ?? [],
+    popularity: artist.popularity ?? null,
+    image: artist.images?.[0]?.url ?? null,
+    _debug_keys: Object.keys(artist),
   });
 }
