@@ -140,6 +140,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
               if (name === "youtube_subscribers") return [formatted, "YouTube"];
               return [formatted, String(name)];
             }}
+            itemStyle={{ color: "#e8eaed" }}
             labelStyle={{ color: "#4a5568", marginBottom: 4, fontSize: 11 }}
           />
           <Legend
@@ -172,7 +173,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
             stroke={COLORS.spotify}
             strokeWidth={2}
             dot={false}
-            activeDot={{ fill: COLORS.spotify, r: 4, stroke: "#0d1321", strokeWidth: 2 }}
+            activeDot={false}
           />
           {records.length >= 2 && (
             <Line
@@ -184,7 +185,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
               strokeWidth={1.5}
               strokeDasharray="6 4"
               dot={false}
-              activeDot={{ fill: COLORS.ma7, r: 3, stroke: "#0d1321", strokeWidth: 2 }}
+              activeDot={false}
             />
           )}
           {hasYoutube && (
@@ -196,7 +197,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
               stroke={COLORS.youtube}
               strokeWidth={2}
               dot={false}
-              activeDot={{ fill: COLORS.youtube, r: 4, stroke: "#0d1321", strokeWidth: 2 }}
+              activeDot={false}
               connectNulls
             />
           )}
