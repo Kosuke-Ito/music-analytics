@@ -38,7 +38,13 @@ export async function onRequestGet(context) {
   });
 
   if (!artistResp.ok) {
-    return Response.json({ error: "Artist not found" }, { status: 404 });
+    const errBody = await artistResp.text();
+    return Response.json({
+      error: "Artist not found",
+      spotify_status: artistResp.status,
+      detail: errBody,
+      artist_id: artistId,
+    }, { status: 404 });
   }
 
   const artist = await artistResp.json();
