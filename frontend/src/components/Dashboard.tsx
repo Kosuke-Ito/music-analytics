@@ -36,11 +36,11 @@ export function Dashboard({ artistId, data, config }: DashboardProps) {
         <span className="chart-section-title">Listener Trend</span>
         <ListenerChart records={data.records} annotations={data.annotations} />
       </div>
+      <AnnotationList annotations={data.annotations} />
       <AnnotationImpact records={data.records} annotations={data.annotations} />
       <TopCities cities={data.records[data.records.length - 1]?.top_cities} />
       <LastfmCountries record={data.records[data.records.length - 1]} />
       <LiveAttendance attendance={config?.live_attendance} />
-      <AnnotationList annotations={data.annotations} />
     </div>
   );
 }

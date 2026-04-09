@@ -11,6 +11,7 @@ import {
   ResponsiveContainer,
   Legend,
   ReferenceLine,
+  Label,
 } from "recharts";
 import type { ListenerRecord, Annotation } from "../types";
 
@@ -89,7 +90,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
   return (
     <div className="chart-container">
       <ResponsiveContainer width="100%" height={420}>
-        <ComposedChart data={chartData} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
+        <ComposedChart data={chartData} margin={{ top: 8, right: 8, bottom: 50, left: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#151d2e" vertical={false} />
           <XAxis
             dataKey="date"
@@ -200,7 +201,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
               connectNulls
             />
           )}
-          {visibleAnnotations.map((ann) => {
+          {visibleAnnotations.map((ann, i) => {
             const color = CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other;
             return (
               <ReferenceLine
@@ -211,26 +212,35 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
                 strokeDasharray="3 3"
                 strokeWidth={1}
                 strokeOpacity={0.4}
-              />
+              >
+                <Label
+                  content={({ viewBox }) => {
+                    const vb = viewBox as { x: number; y: number; height: number };
+                    const cx = vb.x;
+                    const cy = vb.y + vb.height + 36;
+                    return (
+                      <g>
+                        <circle cx={cx} cy={cy} r={10} fill={color} />
+                        <text
+                          x={cx}
+                          y={cy}
+                          textAnchor="middle"
+                          dominantBaseline="central"
+                          fill="#1a1a2e"
+                          fontSize={11}
+                          fontWeight={600}
+                        >
+                          {i + 1}
+                        </text>
+                      </g>
+                    );
+                  }}
+                />
+              </ReferenceLine>
             );
           })}
         </ComposedChart>
       </ResponsiveContainer>
-      {visibleAnnotations.length > 0 && (
-        <div className="chart-annotations-bar">
-          {visibleAnnotations.map((ann, i) => {
-            const color = CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other;
-            return (
-              <span key={`${ann.date}-${ann.title}`} className="chart-annotation-marker">
-                <span className="chart-annotation-num" style={{ backgroundColor: color }}>
-                  {i + 1}
-                </span>
-                <span className="chart-annotation-date">{ann.date}</span>
-              </span>
-            );
-          })}
-        </div>
-      )}
     </div>
   );
 }
