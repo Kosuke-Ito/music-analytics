@@ -172,7 +172,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
             stroke={COLORS.spotify}
             strokeWidth={2}
             dot={false}
-            activeDot={false}
+            activeDot={{ fill: COLORS.spotify, r: 4, stroke: "#0d1321", strokeWidth: 2 }}
           />
           {records.length >= 2 && (
             <Line
@@ -184,7 +184,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
               strokeWidth={1.5}
               strokeDasharray="6 4"
               dot={false}
-              activeDot={false}
+              activeDot={{ fill: COLORS.ma7, r: 3, stroke: "#0d1321", strokeWidth: 2 }}
             />
           )}
           {hasYoutube && (
@@ -196,7 +196,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
               stroke={COLORS.youtube}
               strokeWidth={2}
               dot={false}
-              activeDot={false}
+              activeDot={{ fill: COLORS.youtube, r: 4, stroke: "#0d1321", strokeWidth: 2 }}
               connectNulls
             />
           )}
