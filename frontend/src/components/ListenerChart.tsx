@@ -1,7 +1,9 @@
 import { useMemo } from "react";
 import {
-  LineChart,
+  ComposedChart,
   Line,
+  Bar,
+  Cell,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -12,7 +14,13 @@ import {
 } from "recharts";
 import type { ListenerRecord, Annotation } from "../types";
 
-type ChartRow = ListenerRecord & { listeners_ma7: number };
+interface ChartRow {
+  date: string;
+  monthly_listeners: number;
+  listeners_ma7: number;
+  youtube_subscribers?: number;
+  delta: number | null;
+}
 
 interface ListenerChartProps {
   records: ListenerRecord[];
@@ -23,6 +31,8 @@ const COLORS = {
   spotify: "#1db954",
   youtube: "#ff0000",
   ma7: "#38bdf8",
+  deltaUp: "#34d399",
+  deltaDown: "#f87171",
 };
 
 const CATEGORY_COLORS: Record<string, string> = {
@@ -35,9 +45,18 @@ const CATEGORY_COLORS: Record<string, string> = {
 };
 
 function formatAxis(v: number) {
-  if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M`;
-  if (v >= 1_000) return `${(v / 1_000).toFixed(0)}K`;
+  if (Math.abs(v) >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M`;
+  if (Math.abs(v) >= 1_000) return `${(v / 1_000).toFixed(0)}K`;
   return v.toString();
+}
+
+function formatDeltaAxis(v: number) {
+  const abs = Math.abs(v);
+  const sign = v < 0 ? "-" : "+";
+  if (abs >= 1_000_000) return `${sign}${(abs / 1_000_000).toFixed(1)}M`;
+  if (abs >= 1_000) return `${sign}${(abs / 1_000).toFixed(0)}K`;
+  if (v === 0) return "0";
+  return `${sign}${abs}`;
 }
 
 export function ListenerChart({ records, annotations }: ListenerChartProps) {
@@ -46,7 +65,14 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
       const start = Math.max(0, i - 6);
       const slice = records.slice(start, i + 1);
       const ma = slice.reduce((s, x) => s + x.monthly_listeners, 0) / slice.length;
-      return { ...r, listeners_ma7: Math.round(ma) };
+      const delta = i > 0 ? r.monthly_listeners - records[i - 1].monthly_listeners : null;
+      return {
+        date: r.date,
+        monthly_listeners: r.monthly_listeners,
+        listeners_ma7: Math.round(ma),
+        youtube_subscribers: r.youtube_subscribers,
+        delta,
+      };
     });
   }, [records]);
 
@@ -55,16 +81,15 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
   }
 
   const hasYoutube = records.some((r) => r.youtube_subscribers != null);
-  const showMa7 = records.length >= 2;
+  const hasDelta = records.length >= 2;
   const dates = records.map((r) => r.date);
-  const showLegend = hasYoutube || showMa7;
 
   const visibleAnnotations = annotations?.filter((a) => dates.includes(a.date)) ?? [];
 
   return (
     <div className="chart-container">
-      <ResponsiveContainer width="100%" height={380}>
-        <LineChart data={chartData} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
+      <ResponsiveContainer width="100%" height={420}>
+        <ComposedChart data={chartData} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#151d2e" vertical={false} />
           <XAxis
             dataKey="date"
@@ -74,6 +99,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
             axisLine={false}
           />
           <YAxis
+            yAxisId="left"
             stroke="transparent"
             tick={{ fill: "#4a5568", fontSize: 11, fontFamily: "var(--font-mono)" }}
             tickFormatter={formatAxis}
@@ -81,6 +107,18 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
             axisLine={false}
             width={52}
           />
+          {hasDelta && (
+            <YAxis
+              yAxisId="right"
+              orientation="right"
+              stroke="transparent"
+              tick={{ fill: "#4a5568", fontSize: 10, fontFamily: "var(--font-mono)" }}
+              tickFormatter={formatDeltaAxis}
+              tickLine={false}
+              axisLine={false}
+              width={48}
+            />
+          )}
           <Tooltip
             contentStyle={{
               backgroundColor: "#0d1321",
@@ -92,28 +130,42 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
               padding: "10px 14px",
             }}
             formatter={(value, name) => {
-              const v = Number(value).toLocaleString("en-US");
-              if (name === "monthly_listeners") return [v, "Spotify listeners"];
-              if (name === "listeners_ma7") return [v, "Spotify 7d MA"];
-              if (name === "youtube_subscribers") return [v, "YouTube subs"];
-              return [v, String(name)];
+              const v = Number(value);
+              if (name === "delta") {
+                return [`${v >= 0 ? "+" : ""}${v.toLocaleString("en-US")}`, "Daily Change"];
+              }
+              const formatted = v.toLocaleString("en-US");
+              if (name === "monthly_listeners") return [formatted, "Spotify"];
+              if (name === "listeners_ma7") return [formatted, "7d MA"];
+              if (name === "youtube_subscribers") return [formatted, "YouTube"];
+              return [formatted, String(name)];
             }}
             labelStyle={{ color: "#4a5568", marginBottom: 4, fontSize: 11 }}
           />
-          {showLegend && (
-            <Legend
-              verticalAlign="top"
-              height={36}
-              formatter={(value) => {
-                if (value === "monthly_listeners") return "Spotify Listeners";
-                if (value === "listeners_ma7") return "Spotify 7d MA";
-                if (value === "youtube_subscribers") return "YouTube Subscribers";
-                return String(value);
-              }}
-              wrapperStyle={{ fontSize: 12, color: "#7a8599" }}
-            />
+          <Legend
+            verticalAlign="top"
+            height={36}
+            formatter={(value) => {
+              if (value === "monthly_listeners") return "Spotify Listeners";
+              if (value === "listeners_ma7") return "7d MA";
+              if (value === "youtube_subscribers") return "YouTube Subscribers";
+              if (value === "delta") return "Daily Change";
+              return String(value);
+            }}
+            wrapperStyle={{ fontSize: 12, color: "#7a8599" }}
+          />
+          {hasDelta && (
+            <Bar yAxisId="right" dataKey="delta" name="delta" maxBarSize={20} fillOpacity={0.6}>
+              {chartData.map((entry, index) => (
+                <Cell
+                  key={index}
+                  fill={(entry.delta ?? 0) >= 0 ? COLORS.deltaUp : COLORS.deltaDown}
+                />
+              ))}
+            </Bar>
           )}
           <Line
+            yAxisId="left"
             type="monotone"
             dataKey="monthly_listeners"
             name="monthly_listeners"
@@ -122,8 +174,9 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
             dot={false}
             activeDot={{ fill: COLORS.spotify, r: 4, stroke: "#0d1321", strokeWidth: 2 }}
           />
-          {showMa7 && (
+          {records.length >= 2 && (
             <Line
+              yAxisId="left"
               type="monotone"
               dataKey="listeners_ma7"
               name="listeners_ma7"
@@ -136,6 +189,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
           )}
           {hasYoutube && (
             <Line
+              yAxisId="left"
               type="monotone"
               dataKey="youtube_subscribers"
               name="youtube_subscribers"
@@ -151,6 +205,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
             return (
               <ReferenceLine
                 key={`${ann.date}-${ann.title}`}
+                yAxisId="left"
                 x={ann.date}
                 stroke={color}
                 strokeDasharray="3 3"
@@ -159,7 +214,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
               />
             );
           })}
-        </LineChart>
+        </ComposedChart>
       </ResponsiveContainer>
       {visibleAnnotations.length > 0 && (
         <div className="chart-annotations-bar">
