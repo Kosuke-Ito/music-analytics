@@ -140,7 +140,6 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
               if (name === "youtube_subscribers") return [formatted, "YouTube"];
               return [formatted, String(name)];
             }}
-            itemStyle={{ color: "#e8eaed" }}
             labelStyle={{ color: "#4a5568", marginBottom: 4, fontSize: 11 }}
           />
           <Legend
@@ -156,7 +155,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
             wrapperStyle={{ fontSize: 12, color: "#7a8599" }}
           />
           {hasDelta && (
-            <Bar yAxisId="right" dataKey="delta" name="delta" maxBarSize={20} fillOpacity={0.6}>
+            <Bar yAxisId="right" dataKey="delta" name="delta" maxBarSize={20} fillOpacity={0.6} fill="#a0aec0">
               {chartData.map((entry, index) => (
                 <Cell
                   key={index}
