@@ -8,6 +8,7 @@ import {
   Tooltip,
   ResponsiveContainer,
   Cell,
+  ReferenceLine,
 } from "recharts";
 import type { ListenerRecord } from "../types";
 
@@ -16,9 +17,11 @@ interface DeltaChartProps {
 }
 
 function formatAxis(v: number) {
-  if (Math.abs(v) >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M`;
-  if (Math.abs(v) >= 1_000) return `${(v / 1_000).toFixed(0)}K`;
-  return v.toString();
+  const abs = Math.abs(v);
+  const sign = v < 0 ? "-" : "+";
+  if (abs >= 1_000_000) return `${sign}${(abs / 1_000_000).toFixed(1)}M`;
+  if (abs >= 1_000) return `${sign}${(abs / 1_000).toFixed(0)}K`;
+  return `${sign}${abs}`;
 }
 
 export function DeltaChart({ records }: DeltaChartProps) {
@@ -36,7 +39,7 @@ export function DeltaChart({ records }: DeltaChartProps) {
     <div className="chart-section">
       <span className="chart-section-title">Daily Change (Spotify)</span>
       <div className="chart-container">
-        <ResponsiveContainer width="100%" height={200}>
+        <ResponsiveContainer width="100%" height={160}>
           <BarChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="#151d2e" vertical={false} />
             <XAxis
@@ -53,7 +56,9 @@ export function DeltaChart({ records }: DeltaChartProps) {
               tickLine={false}
               axisLine={false}
               width={52}
+              domain={["auto", "auto"]}
             />
+            <ReferenceLine y={0} stroke="#4a5568" strokeDasharray="3 3" />
             <Tooltip
               contentStyle={{
                 backgroundColor: "#0d1321",
@@ -70,7 +75,7 @@ export function DeltaChart({ records }: DeltaChartProps) {
               ]}
               labelStyle={{ color: "#4a5568", marginBottom: 4, fontSize: 11 }}
             />
-            <Bar dataKey="delta" radius={[3, 3, 0, 0]}>
+            <Bar dataKey="delta" radius={[3, 3, 0, 0]} maxBarSize={40}>
               {data.map((entry, index) => (
                 <Cell
                   key={index}
