@@ -72,10 +72,12 @@ export async function onRequestPost(context) {
     currentContent.artists.splice(insertIdx, 0, newArtist);
   }
 
-  // 直接mainにコミット
-  const updatedContent = btoa(unescape(encodeURIComponent(
-    JSON.stringify(currentContent, null, 2) + "\n"
-  )));
+  // 直接mainにコミット（UTF-8対応のBase64エンコード）
+  const jsonStr = JSON.stringify(currentContent, null, 2) + "\n";
+  const bytes = new TextEncoder().encode(jsonStr);
+  let binary = "";
+  for (const b of bytes) binary += String.fromCharCode(b);
+  const updatedContent = btoa(binary);
 
   const putResp = await fetch(`${apiBase}/repos/${owner}/${repo}/contents/${path}`, {
     method: "PUT",
