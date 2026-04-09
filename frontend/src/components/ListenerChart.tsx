@@ -25,7 +25,9 @@ interface ChartRow {
 
 interface ListenerChartProps {
   records: ListenerRecord[];
-  annotations?: Annotation[];
+  visibleAnnotations: Annotation[];
+  hoveredAnnotation: number | null;
+  onHoverAnnotation: (index: number | null) => void;
 }
 
 const COLORS = {
@@ -60,7 +62,7 @@ function formatDeltaAxis(v: number) {
   return `${sign}${abs}`;
 }
 
-export function ListenerChart({ records, annotations }: ListenerChartProps) {
+export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, onHoverAnnotation }: ListenerChartProps) {
   const chartData = useMemo<ChartRow[]>(() => {
     return records.map((r, i) => {
       const start = Math.max(0, i - 6);
@@ -83,9 +85,6 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
 
   const hasYoutube = records.some((r) => r.youtube_subscribers != null);
   const hasDelta = records.length >= 2;
-  const dates = records.map((r) => r.date);
-
-  const visibleAnnotations = annotations?.filter((a) => dates.includes(a.date)) ?? [];
 
   return (
     <div className="chart-container">
@@ -203,6 +202,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
           )}
           {visibleAnnotations.map((ann, i) => {
             const color = CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other;
+            const dimmed = hoveredAnnotation !== null && hoveredAnnotation !== i;
             return (
               <ReferenceLine
                 key={`${ann.date}-${ann.title}`}
@@ -211,7 +211,7 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
                 stroke={color}
                 strokeDasharray="3 3"
                 strokeWidth={1}
-                strokeOpacity={0.4}
+                strokeOpacity={dimmed ? 0.1 : 0.4}
               >
                 <Label
                   content={({ viewBox }) => {
@@ -219,7 +219,12 @@ export function ListenerChart({ records, annotations }: ListenerChartProps) {
                     const cx = vb.x;
                     const cy = vb.y + vb.height + 36;
                     return (
-                      <g>
+                      <g
+                        style={{ cursor: "pointer" }}
+                        opacity={dimmed ? 0.3 : 1}
+                        onMouseEnter={() => onHoverAnnotation(i)}
+                        onMouseLeave={() => onHoverAnnotation(null)}
+                      >
                         <circle cx={cx} cy={cy} r={10} fill={color} />
                         <text
                           x={cx}

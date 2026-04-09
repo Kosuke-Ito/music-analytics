@@ -333,7 +333,7 @@ body {
 .stats-groups {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 14px;
 }
 
 .stats-group {
@@ -374,7 +374,7 @@ body {
 
 .stat-card {
   background: var(--bg-card);
-  padding: 24px;
+  padding: 16px 20px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -392,7 +392,7 @@ body {
 
 .stat-value {
   font-family: var(--font-mono);
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 500;
   color: var(--text-primary);
   letter-spacing: -0.5px;
@@ -812,6 +812,21 @@ body {
   align-items: baseline;
   gap: 10px;
   flex-wrap: wrap;
+  transition: opacity 0.15s ease;
+  cursor: default;
+}
+
+.annotation-item--dimmed {
+  opacity: 0.25;
+}
+
+.annotation-item--highlighted {
+  background: var(--bg-hover);
+  border-left: 3px solid transparent;
+}
+
+.annotation-item--no-chart {
+  opacity: 0.5;
 }
 
 .annotation-number {

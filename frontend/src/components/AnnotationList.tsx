@@ -2,6 +2,9 @@ import type { Annotation } from "../types";
 
 interface AnnotationListProps {
   annotations?: Annotation[];
+  visibleAnnotations?: Annotation[];
+  hoveredAnnotation?: number | null;
+  onHoverAnnotation?: (index: number | null) => void;
 }
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -28,48 +31,73 @@ const CONFIDENCE_LABELS: Record<string, string> = {
   low: "Confidence: low",
 };
 
-export function AnnotationList({ annotations }: AnnotationListProps) {
+export function AnnotationList({ annotations, visibleAnnotations, hoveredAnnotation, onHoverAnnotation }: AnnotationListProps) {
   if (!annotations?.length) return null;
+
+  const visibleKeys = new Set(
+    visibleAnnotations?.map((a) => `${a.date}-${a.title}`) ?? [],
+  );
 
   return (
     <div className="annotation-section">
       <span className="chart-section-title">News & Events</span>
       <ul className="annotation-list">
-        {annotations.map((ann, i) => (
-          <li key={`${ann.date}-${ann.title}`} className="annotation-item">
-            <span
-              className="annotation-number"
-              style={{ color: CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other }}
+        {annotations.map((ann) => {
+          const key = `${ann.date}-${ann.title}`;
+          const visibleIndex = visibleAnnotations?.findIndex(
+            (a) => `${a.date}-${a.title}` === key,
+          ) ?? -1;
+          const isVisible = visibleKeys.has(key);
+          const isDimmed =
+            isVisible &&
+            hoveredAnnotation !== null &&
+            hoveredAnnotation !== undefined &&
+            hoveredAnnotation !== visibleIndex;
+          const isHighlighted = isVisible && hoveredAnnotation === visibleIndex;
+          const color = CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other;
+
+          return (
+            <li
+              key={key}
+              className={`annotation-item${isDimmed ? " annotation-item--dimmed" : ""}${isHighlighted ? " annotation-item--highlighted" : ""}${!isVisible ? " annotation-item--no-chart" : ""}`}
+              style={isHighlighted ? { borderLeftColor: color } : undefined}
+              onMouseEnter={isVisible ? () => onHoverAnnotation?.(visibleIndex) : undefined}
+              onMouseLeave={isVisible ? () => onHoverAnnotation?.(null) : undefined}
             >
-              {i + 1}
-            </span>
-            <span className="annotation-date">{ann.date}</span>
-            <span className={`annotation-category annotation-category--${ann.category}`}>
-              {CATEGORY_LABELS[ann.category] ?? ann.category}
-            </span>
-            <span className="annotation-title">
-              {ann.url ? (
-                <a href={ann.url} target="_blank" rel="noopener noreferrer">
-                  {ann.title}
-                </a>
-              ) : (
-                ann.title
-              )}
-            </span>
-            {(ann.source || ann.confidence || ann.verified) && (
-              <div className="annotation-meta-row">
-                {ann.source && <span>source: {ann.source}</span>}
-                {ann.confidence && (
-                  <span className="annotation-badge">
-                    {CONFIDENCE_LABELS[ann.confidence] ?? ann.confidence}
-                  </span>
+              <span
+                className="annotation-number"
+                style={{ color: isVisible ? color : "var(--text-muted)" }}
+              >
+                {isVisible ? visibleIndex + 1 : "–"}
+              </span>
+              <span className="annotation-date">{ann.date}</span>
+              <span className={`annotation-category annotation-category--${ann.category}`}>
+                {CATEGORY_LABELS[ann.category] ?? ann.category}
+              </span>
+              <span className="annotation-title">
+                {ann.url ? (
+                  <a href={ann.url} target="_blank" rel="noopener noreferrer">
+                    {ann.title}
+                  </a>
+                ) : (
+                  ann.title
                 )}
-                {ann.verified && <span className="annotation-badge annotation-badge--verified">verified</span>}
-              </div>
-            )}
-            {ann.description && <p className="annotation-desc">{ann.description}</p>}
-          </li>
-        ))}
+              </span>
+              {(ann.source || ann.confidence || ann.verified) && (
+                <div className="annotation-meta-row">
+                  {ann.source && <span>source: {ann.source}</span>}
+                  {ann.confidence && (
+                    <span className="annotation-badge">
+                      {CONFIDENCE_LABELS[ann.confidence] ?? ann.confidence}
+                    </span>
+                  )}
+                  {ann.verified && <span className="annotation-badge annotation-badge--verified">verified</span>}
+                </div>
+              )}
+              {ann.description && <p className="annotation-desc">{ann.description}</p>}
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

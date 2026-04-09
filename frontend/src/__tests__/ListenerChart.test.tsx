@@ -23,13 +23,17 @@ const records: ListenerRecord[] = [
 
 describe("ListenerChart", () => {
   it("チャートコンテナがレンダリングされる", () => {
-    const { container } = render(<ListenerChart records={records} />);
+    const { container } = render(
+      <ListenerChart records={records} visibleAnnotations={[]} hoveredAnnotation={null} onHoverAnnotation={() => {}} />
+    );
     // ResponsiveContainerはjsdomでwidthを計算できないので、外側のdivを確認
     expect(container.querySelector(".chart-container")).toBeInTheDocument();
   });
 
   it("レコードが空の場合はメッセージを表示", () => {
-    render(<ListenerChart records={[]} />);
+    render(
+      <ListenerChart records={[]} visibleAnnotations={[]} hoveredAnnotation={null} onHoverAnnotation={() => {}} />
+    );
     expect(screen.getByText(/データがありません/)).toBeInTheDocument();
   });
 });

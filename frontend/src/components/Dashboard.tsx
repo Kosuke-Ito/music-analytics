@@ -1,3 +1,4 @@
+import { useMemo, useState } from "react";
 import { AnnotationImpact } from "./AnnotationImpact";
 import { AnnotationList } from "./AnnotationList";
 import { ListenerChart } from "./ListenerChart";
@@ -23,6 +24,13 @@ export function Dashboard({ artistId, data, config }: DashboardProps) {
     );
   }
 
+  const dates = useMemo(() => new Set(data.records.map((r) => r.date)), [data.records]);
+  const visibleAnnotations = useMemo(
+    () => data.annotations?.filter((a) => dates.has(a.date)) ?? [],
+    [data.annotations, dates],
+  );
+  const [hoveredAnnotation, setHoveredAnnotation] = useState<number | null>(null);
+
   return (
     <div className="dashboard fade-in" key={artistId}>
       <div className="detail-header">
@@ -32,14 +40,24 @@ export function Dashboard({ artistId, data, config }: DashboardProps) {
         </span>
       </div>
       <StatsSummary records={data.records} />
+      <LastfmCountries record={data.records[data.records.length - 1]} />
       <div className="chart-section">
         <span className="chart-section-title">Listener Trend</span>
-        <ListenerChart records={data.records} annotations={data.annotations} />
+        <ListenerChart
+          records={data.records}
+          visibleAnnotations={visibleAnnotations}
+          hoveredAnnotation={hoveredAnnotation}
+          onHoverAnnotation={setHoveredAnnotation}
+        />
       </div>
-      <AnnotationList annotations={data.annotations} />
+      <AnnotationList
+        annotations={data.annotations}
+        visibleAnnotations={visibleAnnotations}
+        hoveredAnnotation={hoveredAnnotation}
+        onHoverAnnotation={setHoveredAnnotation}
+      />
       <AnnotationImpact records={data.records} annotations={data.annotations} />
       <TopCities cities={data.records[data.records.length - 1]?.top_cities} />
-      <LastfmCountries record={data.records[data.records.length - 1]} />
       <LiveAttendance attendance={config?.live_attendance} />
     </div>
   );
