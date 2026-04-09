@@ -90,17 +90,15 @@ export function AddArtistForm({ onClose }: AddArtistFormProps) {
     }
   }, []);
 
-  const handleSpotifyChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const url = e.target.value;
+  const handleSpotifyInput = (url: string) => {
     setSpotifyUrl(url);
-    if (url.includes("spotify.com/artist/")) verifySpotify(url);
+    if (extractSpotifyId(url)) verifySpotify(url);
     else { setSpotifyInfo(null); setSpotifyError(null); }
   };
 
-  const handleYouTubeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const url = e.target.value;
+  const handleYouTubeInput = (url: string) => {
     setYoutubeUrl(url);
-    if (url.includes("youtube.com/channel/")) verifyYouTube(url);
+    if (extractYouTubeChannelId(url)) verifyYouTube(url);
     else { setYoutubeInfo(null); setYoutubeError(null); }
   };
 
@@ -166,7 +164,12 @@ export function AddArtistForm({ onClose }: AddArtistFormProps) {
             <input
               type="url"
               value={spotifyUrl}
-              onChange={handleSpotifyChange}
+              onChange={(e) => handleSpotifyInput(e.target.value)}
+              onPaste={(e) => {
+                const pasted = e.clipboardData.getData("text");
+                setTimeout(() => handleSpotifyInput(pasted), 100);
+              }}
+              onBlur={(e) => handleSpotifyInput(e.target.value)}
               placeholder="https://open.spotify.com/artist/..."
               required
             />
@@ -193,7 +196,11 @@ export function AddArtistForm({ onClose }: AddArtistFormProps) {
             <input
               type="url"
               value={youtubeUrl}
-              onChange={handleYouTubeChange}
+              onChange={(e) => handleYouTubeInput(e.target.value)}
+              onPaste={(e) => {
+                setTimeout(() => handleYouTubeInput((e.target as HTMLInputElement).value), 0);
+              }}
+              onBlur={(e) => handleYouTubeInput(e.target.value)}
               placeholder="https://www.youtube.com/channel/UC..."
             />
             {youtubeLoading && <div className="form-hint">検索中...</div>}
