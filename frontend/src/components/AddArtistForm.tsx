@@ -183,10 +183,12 @@ export function AddArtistForm({ onClose }: AddArtistFormProps) {
               <div className="form-preview-body">
                 <div className="form-preview-name">{spotifyInfo.name}</div>
                 <div className="form-preview-meta">
-                  {spotifyInfo.followers.toLocaleString("en-US")} followers
-                  {spotifyInfo.genres.length > 0 && ` · ${spotifyInfo.genres.slice(0, 3).join(", ")}`}
+                  {spotifyInfo.followers != null ? `${spotifyInfo.followers.toLocaleString("en-US")} followers` : ""}
+                  {spotifyInfo.genres?.length > 0 && ` · ${spotifyInfo.genres.slice(0, 3).join(", ")}`}
                 </div>
-                <div className="form-preview-meta">Popularity: {spotifyInfo.popularity}/100</div>
+                {spotifyInfo.popularity != null && (
+                  <div className="form-preview-meta">Popularity: {spotifyInfo.popularity}/100</div>
+                )}
               </div>
             </div>
           )}
