@@ -35,6 +35,8 @@ export default function App() {
   const [compareIds, setCompareIds] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
   const [showAddForm, setShowAddForm] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedLabel, setSelectedLabel] = useState<string | null>(null);
 
   useEffect(() => {
     if (artists.length === 0) return;
@@ -72,15 +74,33 @@ export default function App() {
     );
   }, []);
 
+  const labels = useMemo(() => {
+    const set = new Set<string>();
+    for (const a of artists) if (a.label) set.add(a.label);
+    return [...set].sort();
+  }, [artists]);
+
+  const filteredArtists = useMemo(() => {
+    let result = artists;
+    if (selectedLabel) {
+      result = result.filter((a) => a.label === selectedLabel);
+    }
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      result = result.filter((a) => a.name.toLowerCase().startsWith(q) || a.id.startsWith(q));
+    }
+    return result;
+  }, [artists, selectedLabel, searchQuery]);
+
   const grouped = useMemo(() => {
-    const groups: Record<string, typeof artists> = {};
-    for (const artist of artists) {
+    const groups: Record<string, typeof filteredArtists> = {};
+    for (const artist of filteredArtists) {
       const region = artist.region ?? "global";
       if (!groups[region]) groups[region] = [];
       groups[region].push(artist);
     }
     return groups;
-  }, [artists]);
+  }, [filteredArtists]);
 
   return (
     <div className="app">
@@ -158,6 +178,34 @@ export default function App() {
         {!loading && !error && viewMode === "grid" && (
           <div className="layout-sidebar">
             <aside className="sidebar">
+              <div className="sidebar-filters">
+                <input
+                  className="sidebar-search"
+                  type="text"
+                  placeholder="Search artists..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                />
+                {labels.length > 0 && (
+                  <div className="sidebar-labels">
+                    <button
+                      className={`label-tag ${selectedLabel === null ? "label-tag--active" : ""}`}
+                      onClick={() => setSelectedLabel(null)}
+                    >
+                      All
+                    </button>
+                    {labels.map((label) => (
+                      <button
+                        key={label}
+                        className={`label-tag ${selectedLabel === label ? "label-tag--active" : ""}`}
+                        onClick={() => setSelectedLabel(selectedLabel === label ? null : label)}
+                      >
+                        {label}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
               {REGION_ORDER.filter((r) => grouped[r]?.length).map((region) => (
                 <section key={region} className="region-section">
                   <h2 className="region-title">{REGION_LABELS[region] ?? region}</h2>
@@ -207,6 +255,34 @@ export default function App() {
           <div className="layout-sidebar">
             <aside className="sidebar">
               <div className="compare-hint">アーティストをクリックして比較対象を選択</div>
+              <div className="sidebar-filters">
+                <input
+                  className="sidebar-search"
+                  type="text"
+                  placeholder="Search artists..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                />
+                {labels.length > 0 && (
+                  <div className="sidebar-labels">
+                    <button
+                      className={`label-tag ${selectedLabel === null ? "label-tag--active" : ""}`}
+                      onClick={() => setSelectedLabel(null)}
+                    >
+                      All
+                    </button>
+                    {labels.map((label) => (
+                      <button
+                        key={label}
+                        className={`label-tag ${selectedLabel === label ? "label-tag--active" : ""}`}
+                        onClick={() => setSelectedLabel(selectedLabel === label ? null : label)}
+                      >
+                        {label}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
               {REGION_ORDER.filter((r) => grouped[r]?.length).map((region) => (
                 <section key={region} className="region-section">
                   <h2 className="region-title">{REGION_LABELS[region] ?? region}</h2>

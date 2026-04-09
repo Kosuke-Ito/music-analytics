@@ -28,6 +28,7 @@ export interface ArtistConfig {
   name: string;
   spotify_artist_id: string;
   region?: "jp" | "global";
+  label?: string;
   live_attendance?: Record<string, number>;
 }
 
