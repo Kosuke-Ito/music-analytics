@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 0 * * *' # UTC 00:00 = JST 09:00
   workflow_dispatch: # 手動実行用
+    inputs:
+      artist_id:
+        description: '特定のアーティストIDのみ収集する (空なら全件)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -27,7 +32,12 @@ jobs:
         run: playwright install chromium
 
       - name: Run collector
-        run: python -m collector.main
+        run: |
+          if [ -n "${{ inputs.artist_id }}" ]; then
+            python -m collector.main --artist-id "${{ inputs.artist_id }}"
+          else
+            python -m collector.main
+          fi
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}

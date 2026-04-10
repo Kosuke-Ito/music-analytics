@@ -1,3 +1,4 @@
+import argparse
 import json
 import logging
 import os
@@ -37,19 +38,44 @@ def scrape_monthly_listeners_with_retry(spotify_artist_id: str) -> ScrapingResul
     raise last_err
 
 
-def collect_all() -> None:
+def filter_artists(artists: list[dict], artist_id: str | None) -> list[dict]:
+    # artist_id が指定されていればそのIDに一致するアーティストだけ返す。
+    # 空文字・None は「全件」として扱う。
+    if not artist_id:
+        return artists
+    return [a for a in artists if a.get("id") == artist_id]
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Collect artist metrics from Spotify/YouTube/Last.fm")
+    parser.add_argument(
+        "--artist-id",
+        dest="artist_id",
+        default=None,
+        help="指定したアーティストIDのみ収集する (config.json の id と一致)",
+    )
+    return parser.parse_args(argv)
+
+
+def collect_all(artist_id: str | None = None) -> None:
     # config.jsonの全アーティストのデータを収集する。
+    # artist_id を指定した場合はそのアーティストのみ対象とする。
     config = json.loads(CONFIG_PATH.read_text())
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     youtube_api_key = os.environ.get("YOUTUBE_API_KEY")
     lastfm_api_key = os.environ.get("LASTFM_API_KEY")
 
-    for artist in config["artists"]:
-        artist_id = artist["id"]
+    targets = filter_artists(config["artists"], artist_id)
+    if artist_id and not targets:
+        logger.error(f"指定されたアーティストが見つかりません: {artist_id}")
+        sys.exit(1)
+
+    for artist in targets:
+        aid = artist["id"]
         spotify_id = artist["spotify_artist_id"]
         youtube_channel_id = artist.get("youtube_channel_id")
         name = artist["name"]
-        data_path = DATA_DIR / f"{artist_id}.json"
+        data_path = DATA_DIR / f"{aid}.json"
 
         logger.info(f"Spotify 収集開始: {name}")
         try:
@@ -121,8 +147,9 @@ def collect_all() -> None:
 
 
 if __name__ == "__main__":
+    args = parse_args()
     try:
-        collect_all()
+        collect_all(artist_id=args.artist_id)
     except Exception as e:
         logger.error(f"予期しないエラー: {e}")
         sys.exit(1)
