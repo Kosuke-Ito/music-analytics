@@ -77,7 +77,10 @@ export function Dashboard({ artistId, data, config }: DashboardProps) {
         onHoverAnnotation={setHoveredAnnotation}
       />
       <AnnotationImpact records={filteredRecords} annotations={data.annotations} />
-      <TopCities cities={data.records[data.records.length - 1]?.top_cities} />
+      <TopCities
+        cities={data.records[data.records.length - 1]?.top_cities}
+        prevCities={data.records.length >= 2 ? data.records[data.records.length - 2]?.top_cities : undefined}
+      />
       <LiveAttendance attendance={config?.live_attendance} />
     </div>
   );
