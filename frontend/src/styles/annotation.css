@@ -133,6 +133,20 @@
   gap: 10px;
 }
 
+.annotation-impact-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.annotation-impact-toggles {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 .annotation-impact-hint {
   font-size: 12px;
   color: var(--text-muted);
@@ -153,10 +167,24 @@
 
 .annotation-impact-item {
   display: grid;
-  grid-template-columns: 100px 100px 1fr;
+  grid-template-columns: 180px 100px 70px 1fr;
   gap: 12px;
   align-items: baseline;
   font-size: 13px;
+}
+
+.annotation-impact-pct {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.annotation-impact-pct.positive {
+  color: var(--positive);
+}
+
+.annotation-impact-pct.negative {
+  color: var(--negative);
 }
 
 @media (max-width: 640px) {

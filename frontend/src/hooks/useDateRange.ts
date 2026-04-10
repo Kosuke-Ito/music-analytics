@@ -1,26 +1,25 @@
 import { useState, useMemo } from "react";
-import type { ListenerRecord } from "../types";
 
-export type DateRange = "7d" | "30d" | "90d" | "all";
+export type DateRange = "short" | "medium" | "long" | "all";
 
-const VALID_RANGES: DateRange[] = ["7d", "30d", "90d", "all"];
-const RANGE_DAYS: Record<DateRange, number | null> = {
-  "7d": 7,
-  "30d": 30,
-  "90d": 90,
-  all: null,
-};
+const VALID_RANGES: DateRange[] = ["short", "medium", "long", "all"];
+
+export interface RangeCounts {
+  short: number;
+  medium: number;
+  long: number;
+}
 
 function getInitialRange(): DateRange {
   const params = new URLSearchParams(window.location.search);
   const v = params.get("range");
   if (v && VALID_RANGES.includes(v as DateRange)) return v as DateRange;
-  return "30d";
+  return "medium";
 }
 
 function applyRangeToUrl(range: DateRange) {
   const url = new URL(window.location.href);
-  if (range === "30d") {
+  if (range === "medium") {
     url.searchParams.delete("range");
   } else {
     url.searchParams.set("range", range);
@@ -29,7 +28,7 @@ function applyRangeToUrl(range: DateRange) {
   window.history.replaceState(window.history.state, "", path);
 }
 
-export function useDateRange(records: ListenerRecord[]) {
+export function useDateRange<T>(items: T[], counts: RangeCounts) {
   const [range, setRangeState] = useState<DateRange>(getInitialRange);
 
   const setRange = (r: DateRange) => {
@@ -38,10 +37,10 @@ export function useDateRange(records: ListenerRecord[]) {
   };
 
   const filteredRecords = useMemo(() => {
-    const days = RANGE_DAYS[range];
-    if (days === null || records.length <= days) return records;
-    return records.slice(-days);
-  }, [records, range]);
+    if (range === "all") return items;
+    const count = counts[range];
+    return items.length <= count ? items : items.slice(-count);
+  }, [items, range, counts]);
 
   return { range, setRange, filteredRecords };
 }

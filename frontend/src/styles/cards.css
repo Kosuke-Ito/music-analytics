@@ -112,6 +112,15 @@
   gap: 32px;
 }
 
+/* ── Dashboard Controls ── */
+
+.dashboard-controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 /* ── Range Filter ── */
 
 .range-filter {
