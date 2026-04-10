@@ -6,11 +6,18 @@ import { LiveAttendance } from "./LiveAttendance";
 import { StatsSummary } from "./StatsSummary";
 import { LastfmCountries } from "./LastfmCountries";
 import { TopCities } from "./TopCities";
+import { useDateRange, type DateRange } from "../hooks/useDateRange";
 import type { ArtistConfig, ArtistData } from "../types";
+
+const RANGE_OPTIONS: { value: DateRange; label: string }[] = [
+  { value: "7d", label: "7日" },
+  { value: "30d", label: "30日" },
+  { value: "90d", label: "90日" },
+  { value: "all", label: "全期間" },
+];
 
 interface DashboardProps {
   artistId: string;
-  /** 親でまとめ取得済みのデータ（無ければ未取得として扱う） */
   data?: ArtistData;
   config?: ArtistConfig;
 }
@@ -24,7 +31,9 @@ export function Dashboard({ artistId, data, config }: DashboardProps) {
     );
   }
 
-  const dates = useMemo(() => new Set(data.records.map((r) => r.date)), [data.records]);
+  const { range, setRange, filteredRecords } = useDateRange(data.records);
+
+  const dates = useMemo(() => new Set(filteredRecords.map((r) => r.date)), [filteredRecords]);
   const visibleAnnotations = useMemo(
     () => data.annotations?.filter((a) => dates.has(a.date)) ?? [],
     [data.annotations, dates],
@@ -39,12 +48,23 @@ export function Dashboard({ artistId, data, config }: DashboardProps) {
           {data.records[data.records.length - 1]?.date}
         </span>
       </div>
-      <StatsSummary records={data.records} />
+      <div className="range-filter">
+        {RANGE_OPTIONS.map((opt) => (
+          <button
+            key={opt.value}
+            className={`range-btn ${range === opt.value ? "range-btn--active" : ""}`}
+            onClick={() => setRange(opt.value)}
+          >
+            {opt.label}
+          </button>
+        ))}
+      </div>
+      <StatsSummary records={filteredRecords} />
       <LastfmCountries record={data.records[data.records.length - 1]} />
       <div className="chart-section">
         <span className="chart-section-title">Listener Trend</span>
         <ListenerChart
-          records={data.records}
+          records={filteredRecords}
           visibleAnnotations={visibleAnnotations}
           hoveredAnnotation={hoveredAnnotation}
           onHoverAnnotation={setHoveredAnnotation}
@@ -56,7 +76,7 @@ export function Dashboard({ artistId, data, config }: DashboardProps) {
         hoveredAnnotation={hoveredAnnotation}
         onHoverAnnotation={setHoveredAnnotation}
       />
-      <AnnotationImpact records={data.records} annotations={data.annotations} />
+      <AnnotationImpact records={filteredRecords} annotations={data.annotations} />
       <TopCities cities={data.records[data.records.length - 1]?.top_cities} />
       <LiveAttendance attendance={config?.live_attendance} />
     </div>
