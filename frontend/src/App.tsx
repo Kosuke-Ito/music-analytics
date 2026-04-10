@@ -1,14 +1,21 @@
-import { useState, useMemo, useEffect, useCallback } from "react";
+import { useState, useMemo, useEffect, useCallback, lazy, Suspense } from "react";
 import { Dashboard } from "./components/Dashboard";
 import { Sidebar } from "./components/Sidebar";
 import { ArtistTable } from "./components/ArtistTable";
-import { ArtistComparison } from "./components/ArtistComparison";
-import { GrowthRanking } from "./components/GrowthRanking";
-import { AddArtistForm } from "./components/AddArtistForm";
 import { useAggregatedArtistData } from "./hooks/useAggregatedArtistData";
 import { useArtistList } from "./hooks/useArtistList";
 import { useArtistFilter } from "./hooks/useArtistFilter";
 import { applyArtistToUrl, getArtistIdFromSearch } from "./urlArtist";
+
+const ArtistComparison = lazy(() =>
+  import("./components/ArtistComparison").then((m) => ({ default: m.ArtistComparison })),
+);
+const GrowthRanking = lazy(() =>
+  import("./components/GrowthRanking").then((m) => ({ default: m.GrowthRanking })),
+);
+const AddArtistForm = lazy(() =>
+  import("./components/AddArtistForm").then((m) => ({ default: m.AddArtistForm })),
+);
 
 type ViewMode = "grid" | "list" | "ranking" | "compare";
 
@@ -144,7 +151,9 @@ export default function App() {
         )}
       </header>
       {showAddForm && (
-        <AddArtistForm onClose={() => setShowAddForm(false)} />
+        <Suspense fallback={null}>
+          <AddArtistForm onClose={() => setShowAddForm(false)} />
+        </Suspense>
       )}
       <main>
         {loading && <div className="loading">Loading</div>}
@@ -183,7 +192,9 @@ export default function App() {
           </div>
         )}
         {!loading && !error && viewMode === "ranking" && (
-          <GrowthRanking artists={artists} dataById={dataById} onSelect={selectArtist} />
+          <Suspense fallback={<div className="loading">Loading</div>}>
+            <GrowthRanking artists={artists} dataById={dataById} onSelect={selectArtist} />
+          </Suspense>
         )}
         {!loading && !error && viewMode === "compare" && (
           <div className="layout-sidebar">
@@ -194,7 +205,9 @@ export default function App() {
               onToggleCompare={toggleCompare}
             />
             <div className="main-content">
-              <ArtistComparison artistIds={compareIds} dataById={dataById} />
+              <Suspense fallback={<div className="loading">Loading</div>}>
+                <ArtistComparison artistIds={compareIds} dataById={dataById} />
+              </Suspense>
             </div>
           </div>
         )}

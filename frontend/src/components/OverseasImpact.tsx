@@ -130,7 +130,7 @@ export function OverseasImpact({ records }: OverseasImpactProps) {
                 />
                 <Tooltip
                   contentStyle={{ ...TOOLTIP_STYLE, fontSize: 12, padding: "8px 12px" }}
-                  formatter={(value: number) => [`${value}%`, "海外比率"]}
+                  formatter={(value) => [`${value}%`, "海外比率"]}
                 />
                 <Line
                   type="monotone"
@@ -166,7 +166,11 @@ export function OverseasImpact({ records }: OverseasImpactProps) {
                 <ReferenceLine y={0} stroke="var(--chart-tick)" strokeDasharray="3 3" />
                 <Tooltip
                   contentStyle={{ ...TOOLTIP_STYLE, fontSize: 12, padding: "8px 12px" }}
-                  formatter={(value: number) => [value != null ? (value >= 0 ? `+${value.toLocaleString("en-US")}` : value.toLocaleString("en-US")) : "—"]}
+                  formatter={(value) => {
+                    if (value == null) return "—";
+                    const n = Number(value);
+                    return n >= 0 ? `+${n.toLocaleString("en-US")}` : n.toLocaleString("en-US");
+                  }}
                 />
                 <Legend
                   verticalAlign="top"
