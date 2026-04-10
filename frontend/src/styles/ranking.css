@@ -1,0 +1,144 @@
+/* ── Growth Ranking ── */
+
+.growth-ranking {
+  max-width: 800px;
+}
+
+.growth-ranking-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.growth-ranking-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.growth-metric-toggle {
+  display: flex;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-hover);
+  border-radius: 8px;
+  padding: 3px;
+  gap: 2px;
+}
+
+.growth-metric-btn {
+  background: none;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  transition: color 0.2s, background 0.2s;
+}
+
+.growth-metric-btn:hover {
+  color: var(--text-primary);
+}
+
+.growth-metric-btn.active {
+  color: var(--accent);
+  background: var(--accent-dim);
+}
+
+.growth-ranking-table {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.growth-ranking-row {
+  display: grid;
+  grid-template-columns: 40px 1fr 100px 90px 90px;
+  align-items: center;
+  padding: 12px 16px;
+  background: var(--bg-card);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.growth-ranking-row:hover {
+  background: var(--bg-card-hover);
+}
+
+.growth-ranking-row:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+
+.growth-ranking-row--header {
+  background: var(--bg-surface);
+  cursor: default;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.growth-ranking-row--header:hover {
+  background: var(--bg-surface);
+}
+
+.growth-rank-col {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.growth-name-col {
+  font-weight: 500;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.growth-current-col {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-secondary);
+  text-align: right;
+}
+
+.growth-rate-col {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+  color: var(--text-muted);
+}
+
+.growth-rate-col--active {
+  color: var(--accent) !important;
+}
+
+.growth-ranking-row--header .growth-rate-col {
+  cursor: pointer;
+  user-select: none;
+}
+
+.growth-ranking-row--header .growth-rate-col:hover {
+  color: var(--text-secondary);
+}
+
+.growth-rate-col.positive {
+  color: var(--positive);
+}
+
+.growth-rate-col.negative {
+  color: var(--negative);
+}
+
+@media (max-width: 640px) {
+  .growth-ranking-row {
+    grid-template-columns: 30px 1fr 60px 60px 60px;
+    padding: 10px 12px;
+  }
+}

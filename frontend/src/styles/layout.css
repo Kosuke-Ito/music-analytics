@@ -1,0 +1,128 @@
+/* ── App Shell ── */
+
+.app {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 48px 32px 80px;
+  min-height: 100vh;
+}
+
+@media (max-width: 640px) {
+  .app { padding: 24px 16px 60px; }
+}
+
+/* ── Layouts ── */
+
+.layout-sidebar {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.sidebar {
+  position: sticky;
+  top: 24px;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.sidebar-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 8px;
+}
+
+.sidebar-search {
+  width: 100%;
+  padding: 8px 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.sidebar-search:focus {
+  border-color: var(--accent);
+}
+
+.sidebar-search::placeholder {
+  color: var(--text-muted);
+}
+
+.sidebar-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.label-tag {
+  padding: 4px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.label-tag:hover {
+  border-color: var(--text-muted);
+}
+
+.label-tag--active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #0d1321;
+}
+
+.layout-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.main-content {
+  min-width: 0;
+}
+
+@media (max-width: 900px) {
+  .layout-sidebar {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    position: static;
+    max-height: none;
+  }
+}
+
+/* ── Region Sections ── */
+
+.region-section {
+  margin-bottom: 48px;
+}
+
+.region-section:last-child {
+  margin-bottom: 0;
+}
+
+.region-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}

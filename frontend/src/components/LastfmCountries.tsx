@@ -1,11 +1,8 @@
 import type { ListenerRecord } from "../types";
+import { formatNumber } from "../utils/format";
 
 interface LastfmStatsProps {
   record?: ListenerRecord;
-}
-
-function formatNumber(n: number): string {
-  return n.toLocaleString("en-US");
 }
 
 export function LastfmCountries({ record }: LastfmStatsProps) {

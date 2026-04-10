@@ -1,29 +1,12 @@
 import { useState, useMemo } from "react";
 import { calculateWeeklyGrowth } from "../utils/metrics";
+import { formatCompact, formatGrowth, formatDelta } from "../utils/format";
 import type { ArtistConfig, ArtistData } from "../types";
 
 interface GrowthRankingProps {
   artists: ArtistConfig[];
   dataById: Record<string, ArtistData>;
   onSelect: (artistId: string) => void;
-}
-
-function formatGrowth(v: number | null): string {
-  if (v === null) return "—";
-  const sign = v >= 0 ? "+" : "";
-  return `${sign}${v.toFixed(2)}%`;
-}
-
-function formatNumber(n: number): string {
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
-  if (n >= 1_000) return `${(n / 1_000).toFixed(0)}K`;
-  return n.toLocaleString("en-US");
-}
-
-function formatDelta(v: number | null): string {
-  if (v === null) return "—";
-  const sign = v >= 0 ? "+" : "";
-  return `${sign}${formatNumber(v)}`;
 }
 
 export function GrowthRanking({ artists, dataById, onSelect }: GrowthRankingProps) {
@@ -143,7 +126,7 @@ export function GrowthRanking({ artists, dataById, onSelect }: GrowthRankingProp
                 </span>
               )}
             </span>
-            <span className="growth-current-col">{formatNumber(item.current)}</span>
+            <span className="growth-current-col">{formatCompact(item.current)}</span>
             <span
               className={`growth-rate-col ${
                 item.daily === null ? "" : item.daily >= 0 ? "positive" : "negative"

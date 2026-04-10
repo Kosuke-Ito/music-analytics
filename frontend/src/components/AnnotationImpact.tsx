@@ -1,14 +1,10 @@
 import { useMemo } from "react";
 import type { Annotation, ListenerRecord } from "../types";
+import { formatDelta } from "../utils/format";
 
 interface AnnotationImpactProps {
   records: ListenerRecord[];
   annotations?: Annotation[];
-}
-
-function formatDelta(n: number): string {
-  const sign = n >= 0 ? "+" : "";
-  return `${sign}${n.toLocaleString("en-US")}`;
 }
 
 /**

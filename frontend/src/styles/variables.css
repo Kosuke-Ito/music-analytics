@@ -1,0 +1,35 @@
+:root {
+  --bg-deep: #04070d;
+  --bg-surface: #0a0f1a;
+  --bg-card: #0d1321;
+  --bg-card-hover: #111827;
+  --border: #151d2e;
+  --border-hover: #1e2d47;
+  --text-primary: #e8eaed;
+  --text-secondary: #7a8599;
+  --text-muted: #4a5568;
+  --accent: #3b82f6;
+  --accent-dim: rgba(59, 130, 246, 0.12);
+  --positive: #34d399;
+  --negative: #f87171;
+  --font-sans: "DM Sans", -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Chart */
+  --chart-grid: #151d2e;
+  --chart-tick: #4a5568;
+  --chart-tooltip-bg: #0d1321;
+  --chart-tooltip-border: #1e2d47;
+  --chart-tooltip-text: #e8eaed;
+  --chart-spotify: #1db954;
+  --chart-youtube: #ff0000;
+  --chart-ma7: #38bdf8;
+
+  /* Annotation categories */
+  --cat-release: #f6ad55;
+  --cat-viral: #fc8181;
+  --cat-collab: #90cdf4;
+  --cat-tour: #9ae6b4;
+  --cat-award: #fefcbf;
+  --cat-other: #a0aec0;
+}

@@ -1,20 +1,14 @@
 import { useState, useMemo, useEffect, useCallback } from "react";
 import { Dashboard } from "./components/Dashboard";
-import { ArtistGrid } from "./components/ArtistGrid";
+import { Sidebar } from "./components/Sidebar";
 import { ArtistTable } from "./components/ArtistTable";
 import { ArtistComparison } from "./components/ArtistComparison";
 import { GrowthRanking } from "./components/GrowthRanking";
 import { AddArtistForm } from "./components/AddArtistForm";
 import { useAggregatedArtistData } from "./hooks/useAggregatedArtistData";
 import { useArtistList } from "./hooks/useArtistList";
+import { useArtistFilter } from "./hooks/useArtistFilter";
 import { applyArtistToUrl, getArtistIdFromSearch } from "./urlArtist";
-
-const REGION_LABELS: Record<string, string> = {
-  jp: "Japan",
-  global: "Global",
-};
-
-const REGION_ORDER = ["jp", "global"];
 
 type ViewMode = "grid" | "list" | "ranking" | "compare";
 
@@ -35,8 +29,12 @@ export default function App() {
   const [compareIds, setCompareIds] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
   const [showAddForm, setShowAddForm] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [selectedLabel, setSelectedLabel] = useState<string | null>(null);
+
+  const {
+    searchQuery, setSearchQuery,
+    selectedLabel, setSelectedLabel,
+    labels, grouped,
+  } = useArtistFilter(artists);
 
   useEffect(() => {
     if (artists.length === 0) return;
@@ -74,33 +72,22 @@ export default function App() {
     );
   }, []);
 
-  const labels = useMemo(() => {
-    const set = new Set<string>();
-    for (const a of artists) if (a.label) set.add(a.label);
-    return [...set].sort();
-  }, [artists]);
+  const selectedConfig = useMemo(
+    () => artists.find((a) => a.id === selectedArtistId),
+    [artists, selectedArtistId]
+  );
 
-  const filteredArtists = useMemo(() => {
-    let result = artists;
-    if (selectedLabel) {
-      result = result.filter((a) => a.label === selectedLabel);
-    }
-    if (searchQuery) {
-      const q = searchQuery.toLowerCase();
-      result = result.filter((a) => a.name.toLowerCase().startsWith(q) || a.id.startsWith(q));
-    }
-    return result;
-  }, [artists, selectedLabel, searchQuery]);
-
-  const grouped = useMemo(() => {
-    const groups: Record<string, typeof filteredArtists> = {};
-    for (const artist of filteredArtists) {
-      const region = artist.region ?? "global";
-      if (!groups[region]) groups[region] = [];
-      groups[region].push(artist);
-    }
-    return groups;
-  }, [filteredArtists]);
+  const sidebarProps = {
+    searchQuery,
+    onSearchChange: setSearchQuery,
+    labels,
+    selectedLabel,
+    onLabelChange: setSelectedLabel,
+    grouped,
+    dataById,
+    selectedId: selectedArtistId,
+    onSelect: selectArtist,
+  };
 
   return (
     <div className="app">
@@ -164,53 +151,13 @@ export default function App() {
         {error && <div className="error">{error}</div>}
         {!loading && !error && viewMode === "grid" && (
           <div className="layout-sidebar">
-            <aside className="sidebar">
-              <div className="sidebar-filters">
-                <input
-                  className="sidebar-search"
-                  type="text"
-                  placeholder="Search artists..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                />
-                {labels.length > 0 && (
-                  <div className="sidebar-labels">
-                    <button
-                      className={`label-tag ${selectedLabel === null ? "label-tag--active" : ""}`}
-                      onClick={() => setSelectedLabel(null)}
-                    >
-                      All
-                    </button>
-                    {labels.map((label) => (
-                      <button
-                        key={label}
-                        className={`label-tag ${selectedLabel === label ? "label-tag--active" : ""}`}
-                        onClick={() => setSelectedLabel(selectedLabel === label ? null : label)}
-                      >
-                        {label}
-                      </button>
-                    ))}
-                  </div>
-                )}
-              </div>
-              {REGION_ORDER.filter((r) => grouped[r]?.length).map((region) => (
-                <section key={region} className="region-section">
-                  <h2 className="region-title">{REGION_LABELS[region] ?? region}</h2>
-                  <ArtistGrid
-                    artists={grouped[region]}
-                    dataById={dataById}
-                    onSelect={selectArtist}
-                    selectedId={selectedArtistId}
-                  />
-                </section>
-              ))}
-            </aside>
+            <Sidebar {...sidebarProps} />
             <div className="main-content">
               {selectedArtistId && (
                 <Dashboard
                   artistId={selectedArtistId}
                   data={dataById[selectedArtistId]}
-                  config={artists.find((a) => a.id === selectedArtistId)}
+                  config={selectedConfig}
                 />
               )}
             </div>
@@ -229,7 +176,7 @@ export default function App() {
                 <Dashboard
                   artistId={selectedArtistId}
                   data={dataById[selectedArtistId]}
-                  config={artists.find((a) => a.id === selectedArtistId)}
+                  config={selectedConfig}
                 />
               )}
             </div>
@@ -240,53 +187,12 @@ export default function App() {
         )}
         {!loading && !error && viewMode === "compare" && (
           <div className="layout-sidebar">
-            <aside className="sidebar">
-              <div className="compare-hint">アーティストをクリックして比較対象を選択</div>
-              <div className="sidebar-filters">
-                <input
-                  className="sidebar-search"
-                  type="text"
-                  placeholder="Search artists..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                />
-                {labels.length > 0 && (
-                  <div className="sidebar-labels">
-                    <button
-                      className={`label-tag ${selectedLabel === null ? "label-tag--active" : ""}`}
-                      onClick={() => setSelectedLabel(null)}
-                    >
-                      All
-                    </button>
-                    {labels.map((label) => (
-                      <button
-                        key={label}
-                        className={`label-tag ${selectedLabel === label ? "label-tag--active" : ""}`}
-                        onClick={() => setSelectedLabel(selectedLabel === label ? null : label)}
-                      >
-                        {label}
-                      </button>
-                    ))}
-                  </div>
-                )}
-              </div>
-              {REGION_ORDER.filter((r) => grouped[r]?.length).map((region) => (
-                <section key={region} className="region-section">
-                  <h2 className="region-title">{REGION_LABELS[region] ?? region}</h2>
-                  <div className="artist-grid">
-                    {grouped[region].map((artist) => (
-                      <div
-                        key={artist.id}
-                        className={`artist-card artist-card--compare ${compareIds.includes(artist.id) ? "artist-card--selected" : ""}`}
-                        onClick={() => toggleCompare(artist.id)}
-                      >
-                        <span className="artist-card-name">{artist.name}</span>
-                      </div>
-                    ))}
-                  </div>
-                </section>
-              ))}
-            </aside>
+            <Sidebar
+              {...sidebarProps}
+              compareMode
+              compareIds={compareIds}
+              onToggleCompare={toggleCompare}
+            />
             <div className="main-content">
               <ArtistComparison artistIds={compareIds} dataById={dataById} />
             </div>

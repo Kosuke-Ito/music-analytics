@@ -10,21 +10,12 @@ import {
   Legend,
 } from "recharts";
 import type { ArtistData } from "../types";
+import { formatCompact } from "../utils/format";
+import { TOOLTIP_STYLE, ARTIST_COLORS, GRID_STROKE, TICK_STYLE, LABEL_STYLE, ACTIVE_DOT_STROKE } from "../constants/chart";
 
 interface ArtistComparisonProps {
   artistIds: string[];
   dataById: Record<string, ArtistData>;
-}
-
-const ARTIST_COLORS = [
-  "#3b82f6", "#ef4444", "#22c55e", "#f59e0b", "#8b5cf6",
-  "#ec4899", "#06b6d4", "#f97316", "#14b8a6", "#a855f7",
-];
-
-function formatAxis(v: number) {
-  if (v >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M`;
-  if (v >= 1_000) return `${(v / 1_000).toFixed(0)}K`;
-  return v.toString();
 }
 
 export function ArtistComparison({ artistIds, dataById }: ArtistComparisonProps) {
@@ -86,29 +77,25 @@ export function ArtistComparison({ artistIds, dataById }: ArtistComparisonProps)
       <div className="chart-container">
         <ResponsiveContainer width="100%" height={450}>
           <LineChart data={chartData} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#151d2e" vertical={false} />
+            <CartesianGrid strokeDasharray="3 3" stroke={GRID_STROKE} vertical={false} />
             <XAxis
               dataKey="date"
               stroke="transparent"
-              tick={{ fill: "#4a5568", fontSize: 11, fontFamily: "var(--font-mono)" }}
+              tick={{ ...TICK_STYLE, fontSize: 11 }}
               tickLine={false}
               axisLine={false}
             />
             <YAxis
               stroke="transparent"
-              tick={{ fill: "#4a5568", fontSize: 11, fontFamily: "var(--font-mono)" }}
-              tickFormatter={formatAxis}
+              tick={{ ...TICK_STYLE, fontSize: 11 }}
+              tickFormatter={formatCompact}
               tickLine={false}
               axisLine={false}
               width={52}
             />
             <Tooltip
               contentStyle={{
-                backgroundColor: "#0d1321",
-                border: "1px solid #1e2d47",
-                borderRadius: 8,
-                color: "#e8eaed",
-                fontFamily: "var(--font-mono)",
+                ...TOOLTIP_STYLE,
                 fontSize: 12,
                 padding: "10px 14px",
               }}
@@ -116,7 +103,7 @@ export function ArtistComparison({ artistIds, dataById }: ArtistComparisonProps)
                 const artistName = dataById[name as string]?.artist_name ?? name;
                 return [Number(value).toLocaleString("en-US"), artistName];
               }}
-              labelStyle={{ color: "#4a5568", marginBottom: 4, fontSize: 11 }}
+              labelStyle={LABEL_STYLE}
             />
             <Legend
               formatter={(value) => dataById[value]?.artist_name ?? value}
@@ -134,7 +121,7 @@ export function ArtistComparison({ artistIds, dataById }: ArtistComparisonProps)
                 activeDot={{
                   fill: ARTIST_COLORS[i % ARTIST_COLORS.length],
                   r: 4,
-                  stroke: "#0d1321",
+                  stroke: ACTIVE_DOT_STROKE,
                   strokeWidth: 2,
                 }}
               />

@@ -1,24 +1,9 @@
 import type { ListenerRecord } from "../types";
 import { calculateRetentionScore, calculateYouTubeEfficiency } from "../utils/metrics";
+import { formatNumber, formatCompact, formatPct } from "../utils/format";
 
 interface StatsSummaryProps {
   records: ListenerRecord[];
-}
-
-function formatNumber(n: number): string {
-  return n.toLocaleString("en-US");
-}
-
-function formatCompact(n: number): string {
-  if (n >= 1_000_000_000) return `${(n / 1_000_000_000).toFixed(1)}B`;
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
-  if (n >= 1_000) return `${(n / 1_000).toFixed(0)}K`;
-  return n.toString();
-}
-
-function formatPct(p: number): string {
-  const sign = p >= 0 ? "+" : "";
-  return `${sign}${p.toFixed(1)}%`;
 }
 
 export function StatsSummary({ records }: StatsSummaryProps) {

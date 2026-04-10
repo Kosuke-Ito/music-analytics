@@ -11,17 +11,11 @@ import {
   ReferenceLine,
 } from "recharts";
 import type { ListenerRecord } from "../types";
+import { formatDeltaCompact } from "../utils/format";
+import { TOOLTIP_STYLE, GRID_STROKE, TICK_STYLE, LABEL_STYLE } from "../constants/chart";
 
 interface DeltaChartProps {
   records: ListenerRecord[];
-}
-
-function formatAxis(v: number) {
-  const abs = Math.abs(v);
-  const sign = v < 0 ? "-" : "+";
-  if (abs >= 1_000_000) return `${sign}${(abs / 1_000_000).toFixed(1)}M`;
-  if (abs >= 1_000) return `${sign}${(abs / 1_000).toFixed(0)}K`;
-  return `${sign}${abs}`;
 }
 
 export function DeltaChart({ records }: DeltaChartProps) {
@@ -41,31 +35,27 @@ export function DeltaChart({ records }: DeltaChartProps) {
       <div className="chart-container">
         <ResponsiveContainer width="100%" height={160}>
           <BarChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#151d2e" vertical={false} />
+            <CartesianGrid strokeDasharray="3 3" stroke={GRID_STROKE} vertical={false} />
             <XAxis
               dataKey="date"
               stroke="transparent"
-              tick={{ fill: "#4a5568", fontSize: 11, fontFamily: "var(--font-mono)" }}
+              tick={{ ...TICK_STYLE, fontSize: 11 }}
               tickLine={false}
               axisLine={false}
             />
             <YAxis
               stroke="transparent"
-              tick={{ fill: "#4a5568", fontSize: 11, fontFamily: "var(--font-mono)" }}
-              tickFormatter={formatAxis}
+              tick={{ ...TICK_STYLE, fontSize: 11 }}
+              tickFormatter={formatDeltaCompact}
               tickLine={false}
               axisLine={false}
               width={52}
               domain={["auto", "auto"]}
             />
-            <ReferenceLine y={0} stroke="#4a5568" strokeDasharray="3 3" />
+            <ReferenceLine y={0} stroke="var(--chart-tick)" strokeDasharray="3 3" />
             <Tooltip
               contentStyle={{
-                backgroundColor: "#0d1321",
-                border: "1px solid #1e2d47",
-                borderRadius: 8,
-                color: "#e8eaed",
-                fontFamily: "var(--font-mono)",
+                ...TOOLTIP_STYLE,
                 fontSize: 13,
                 padding: "10px 14px",
               }}
@@ -73,7 +63,7 @@ export function DeltaChart({ records }: DeltaChartProps) {
                 `${Number(value) >= 0 ? "+" : ""}${Number(value).toLocaleString("en-US")}`,
                 "Change",
               ]}
-              labelStyle={{ color: "#4a5568", marginBottom: 4, fontSize: 11 }}
+              labelStyle={LABEL_STYLE}
             />
             <Bar dataKey="delta" radius={[3, 3, 0, 0]} maxBarSize={40}>
               {data.map((entry, index) => (

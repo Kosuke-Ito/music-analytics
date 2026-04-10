@@ -14,6 +14,9 @@ import {
   Label,
 } from "recharts";
 import type { ListenerRecord, Annotation } from "../types";
+import { formatCompact, formatDeltaCompact } from "../utils/format";
+import { CATEGORY_COLORS } from "../constants/annotation";
+import { TOOLTIP_STYLE, CHART_COLORS as COLORS, GRID_STROKE, TICK_STYLE, LABEL_STYLE, ACTIVE_DOT_STROKE } from "../constants/chart";
 
 interface ChartRow {
   date: string;
@@ -28,38 +31,6 @@ interface ListenerChartProps {
   visibleAnnotations: Annotation[];
   hoveredAnnotation: number | null;
   onHoverAnnotation: (index: number | null) => void;
-}
-
-const COLORS = {
-  spotify: "#1db954",
-  youtube: "#ff0000",
-  ma7: "#38bdf8",
-  deltaUp: "#34d399",
-  deltaDown: "#f87171",
-};
-
-const CATEGORY_COLORS: Record<string, string> = {
-  release: "#f6ad55",
-  viral: "#fc8181",
-  collab: "#90cdf4",
-  tour: "#9ae6b4",
-  award: "#fefcbf",
-  other: "#a0aec0",
-};
-
-function formatAxis(v: number) {
-  if (Math.abs(v) >= 1_000_000) return `${(v / 1_000_000).toFixed(1)}M`;
-  if (Math.abs(v) >= 1_000) return `${(v / 1_000).toFixed(0)}K`;
-  return v.toString();
-}
-
-function formatDeltaAxis(v: number) {
-  const abs = Math.abs(v);
-  const sign = v < 0 ? "-" : "+";
-  if (abs >= 1_000_000) return `${sign}${(abs / 1_000_000).toFixed(1)}M`;
-  if (abs >= 1_000) return `${sign}${(abs / 1_000).toFixed(0)}K`;
-  if (v === 0) return "0";
-  return `${sign}${abs}`;
 }
 
 export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, onHoverAnnotation }: ListenerChartProps) {
@@ -90,19 +61,19 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
     <div className="chart-container">
       <ResponsiveContainer width="100%" height={420}>
         <ComposedChart data={chartData} margin={{ top: 8, right: 8, bottom: 50, left: 0 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#151d2e" vertical={false} />
+          <CartesianGrid strokeDasharray="3 3" stroke={GRID_STROKE} vertical={false} />
           <XAxis
             dataKey="date"
             stroke="transparent"
-            tick={{ fill: "#4a5568", fontSize: 11, fontFamily: "var(--font-mono)" }}
+            tick={{ ...TICK_STYLE, fontSize: 11 }}
             tickLine={false}
             axisLine={false}
           />
           <YAxis
             yAxisId="left"
             stroke="transparent"
-            tick={{ fill: "#4a5568", fontSize: 11, fontFamily: "var(--font-mono)" }}
-            tickFormatter={formatAxis}
+            tick={{ ...TICK_STYLE, fontSize: 11 }}
+            tickFormatter={formatCompact}
             tickLine={false}
             axisLine={false}
             width={52}
@@ -112,8 +83,8 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
               yAxisId="right"
               orientation="right"
               stroke="transparent"
-              tick={{ fill: "#4a5568", fontSize: 10, fontFamily: "var(--font-mono)" }}
-              tickFormatter={formatDeltaAxis}
+              tick={{ ...TICK_STYLE, fontSize: 10 }}
+              tickFormatter={formatDeltaCompact}
               tickLine={false}
               axisLine={false}
               width={48}
@@ -121,11 +92,7 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
           )}
           <Tooltip
             contentStyle={{
-              backgroundColor: "#0d1321",
-              border: "1px solid #1e2d47",
-              borderRadius: 8,
-              color: "#e8eaed",
-              fontFamily: "var(--font-mono)",
+              ...TOOLTIP_STYLE,
               fontSize: 13,
               padding: "10px 14px",
             }}
@@ -140,7 +107,7 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
               if (name === "youtube_subscribers") return [formatted, "YouTube"];
               return [formatted, String(name)];
             }}
-            labelStyle={{ color: "#4a5568", marginBottom: 4, fontSize: 11 }}
+            labelStyle={LABEL_STYLE}
           />
           <Legend
             verticalAlign="top"
@@ -172,7 +139,7 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
             stroke={COLORS.spotify}
             strokeWidth={2}
             dot={false}
-            activeDot={{ fill: COLORS.spotify, r: 4, stroke: "#0d1321", strokeWidth: 2 }}
+            activeDot={{ fill: COLORS.spotify, r: 4, stroke: ACTIVE_DOT_STROKE, strokeWidth: 2 }}
           />
           {records.length >= 2 && (
             <Line
@@ -184,7 +151,7 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
               strokeWidth={1.5}
               strokeDasharray="6 4"
               dot={false}
-              activeDot={{ fill: COLORS.ma7, r: 3, stroke: "#0d1321", strokeWidth: 2 }}
+              activeDot={{ fill: COLORS.ma7, r: 3, stroke: ACTIVE_DOT_STROKE, strokeWidth: 2 }}
             />
           )}
           {hasYoutube && (
@@ -196,7 +163,7 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
               stroke={COLORS.youtube}
               strokeWidth={2}
               dot={false}
-              activeDot={{ fill: COLORS.youtube, r: 4, stroke: "#0d1321", strokeWidth: 2 }}
+              activeDot={{ fill: COLORS.youtube, r: 4, stroke: ACTIVE_DOT_STROKE, strokeWidth: 2 }}
               connectNulls
             />
           )}

@@ -1,0 +1,165 @@
+/* ── Chart ── */
+
+.chart-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.chart-section-title {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.chart-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px 24px 20px;
+  outline: none;
+}
+
+.chart-container *:focus {
+  outline: none;
+}
+
+.chart-empty {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 64px 24px;
+  font-size: 14px;
+}
+
+/* ── Live Attendance ── */
+
+.live-attendance-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.live-attendance {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.attendance-row {
+  display: grid;
+  grid-template-columns: 50px 1fr 100px;
+  align-items: center;
+  gap: 12px;
+}
+
+.attendance-year {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.attendance-bar-wrapper {
+  height: 6px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.attendance-bar {
+  height: 100%;
+  background: var(--positive);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.attendance-value {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-primary);
+  text-align: right;
+}
+
+/* ── Top Cities ── */
+
+.top-cities-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.top-cities {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.city-row {
+  display: grid;
+  grid-template-columns: 160px 1fr 80px;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 640px) {
+  .city-row {
+    grid-template-columns: 120px 1fr 60px;
+  }
+}
+
+.city-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.city-flag {
+  font-size: 16px;
+}
+
+.city-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.city-country {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.city-bar-wrapper {
+  height: 6px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.city-bar {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.city-bar--lastfm {
+  background: #d51007;
+}
+
+.city-listeners {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-align: right;
+}
