@@ -168,7 +168,31 @@
 }
 
 @media (max-width: 640px) {
-  .artist-name { font-size: 32px; }
+  .artist-name { font-size: 28px; }
+
+  .stats-summary {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .stats-summary .stat-card:first-child,
+  .stats-summary .stat-card:last-child,
+  .stats-summary .stat-card:only-child {
+    border-radius: 0;
+  }
+
+  .stat-value {
+    font-size: 18px;
+  }
+
+  .range-filter {
+    width: 100%;
+  }
+
+  .range-btn {
+    flex: 1;
+    text-align: center;
+    padding: 8px 8px;
+  }
 }
 
 .artist-id-badge {

@@ -74,8 +74,8 @@ export function ArtistComparison({ artistIds, dataById }: ArtistComparisonProps)
           </button>
         </div>
       </div>
-      <div className="chart-container">
-        <ResponsiveContainer width="100%" height={450}>
+      <div className="chart-container chart-container--main">
+        <ResponsiveContainer width="100%" height="100%">
           <LineChart data={chartData} margin={{ top: 8, right: 8, bottom: 0, left: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke={GRID_STROKE} vertical={false} />
             <XAxis

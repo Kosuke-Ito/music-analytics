@@ -22,8 +22,19 @@
   outline: none;
 }
 
+.chart-container--main {
+  height: 420px;
+}
+
 .chart-container *:focus {
   outline: none;
+}
+
+@media (max-width: 640px) {
+  .chart-container--main {
+    height: 280px;
+    padding: 16px 12px 12px;
+  }
 }
 
 .chart-empty {

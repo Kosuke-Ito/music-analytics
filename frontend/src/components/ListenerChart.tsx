@@ -58,8 +58,8 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
   const hasDelta = records.length >= 2;
 
   return (
-    <div className="chart-container">
-      <ResponsiveContainer width="100%" height={420}>
+    <div className="chart-container chart-container--main">
+      <ResponsiveContainer width="100%" height="100%">
         <ComposedChart data={chartData} margin={{ top: 8, right: 8, bottom: 50, left: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke={GRID_STROKE} vertical={false} />
           <XAxis
