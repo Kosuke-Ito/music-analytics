@@ -6,6 +6,7 @@ import { LiveAttendance } from "./LiveAttendance";
 import { StatsSummary } from "./StatsSummary";
 import { LastfmCountries } from "./LastfmCountries";
 import { TopCities } from "./TopCities";
+import { OverseasImpact } from "./OverseasImpact";
 import { useDateRange, type DateRange } from "../hooks/useDateRange";
 import type { ArtistConfig, ArtistData } from "../types";
 
@@ -81,6 +82,7 @@ export function Dashboard({ artistId, data, config }: DashboardProps) {
         cities={data.records[data.records.length - 1]?.top_cities}
         prevCities={data.records.length >= 2 ? data.records[data.records.length - 2]?.top_cities : undefined}
       />
+      <OverseasImpact records={filteredRecords} />
       <LiveAttendance attendance={config?.live_attendance} />
     </div>
   );
