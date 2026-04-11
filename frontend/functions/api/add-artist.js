@@ -44,14 +44,21 @@ export async function onRequestPost(context) {
     "User-Agent": "music-analytics",
   };
 
-  // config.jsonを取得
+  // config.jsonを取得（UTF-8対応のBase64デコード）
   const getResp = await fetch(`${apiBase}/repos/${owner}/${repo}/contents/${path}`, { headers });
   if (!getResp.ok) {
     const errBody = await getResp.text();
     return Response.json({ error: "Failed to read config.json", status: getResp.status, detail: errBody }, { status: 500 });
   }
   const fileData = await getResp.json();
-  const currentContent = JSON.parse(atob(fileData.content));
+  const rawBase64 = fileData.content.replace(/\n/g, "");
+  const decodedBinary = atob(rawBase64);
+  const decodedBytes = new Uint8Array(decodedBinary.length);
+  for (let i = 0; i < decodedBinary.length; i++) {
+    decodedBytes[i] = decodedBinary.charCodeAt(i);
+  }
+  const decodedText = new TextDecoder("utf-8").decode(decodedBytes);
+  const currentContent = JSON.parse(decodedText);
 
   // 重複チェック
   if (currentContent.artists.some((a) => a.id === id || a.spotify_artist_id === spotifyId)) {
