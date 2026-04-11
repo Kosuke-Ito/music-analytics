@@ -106,6 +106,7 @@ def collect_all(artist_id: str | None = None) -> None:
 
         youtube_subscribers = None
         youtube_total_views = None
+        youtube_video_count = None
         if youtube_api_key and youtube_channel_id:
             logger.info(f"YouTube 収集開始: {name}")
             try:
@@ -114,9 +115,10 @@ def collect_all(artist_id: str | None = None) -> None:
                 )
                 youtube_subscribers = yt_stats.subscribers
                 youtube_total_views = yt_stats.total_views
+                youtube_video_count = yt_stats.video_count
                 logger.info(
                     f"YouTube収集完了: {name} - {youtube_subscribers:,} 人の購読者, "
-                    f"{youtube_total_views:,} views"
+                    f"{youtube_total_views:,} views, {youtube_video_count} videos"
                 )
             except (YouTubeError, Exception) as e:
                 logger.warning(f"YouTube取得失敗: {name} - {e}")
@@ -140,6 +142,7 @@ def collect_all(artist_id: str | None = None) -> None:
             date=today,
             youtube_subscribers=youtube_subscribers,
             youtube_total_views=youtube_total_views,
+            youtube_video_count=youtube_video_count,
             lastfm_listeners=lastfm_listeners,
             lastfm_playcount=lastfm_playcount,
             validation_flags=validation_flags or None,

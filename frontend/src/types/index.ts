@@ -15,6 +15,7 @@ export interface ListenerRecord {
   spotify_followers?: number;
   youtube_subscribers?: number;
   youtube_total_views?: number;
+  youtube_video_count?: number;
   top_cities?: CityListeners[];
   lastfm_listeners?: number;
   lastfm_playcount?: number;

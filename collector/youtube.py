@@ -13,6 +13,7 @@ class YouTubeError(Exception):
 class YouTubeStats:
     subscribers: int
     total_views: int
+    video_count: int = 0
 
 
 def extract_subscriber_count(response: dict) -> int:
@@ -44,6 +45,7 @@ def extract_youtube_stats(response: dict) -> YouTubeStats:
     return YouTubeStats(
         subscribers=int(stats.get("subscriberCount", "0")),
         total_views=int(stats.get("viewCount", "0")),
+        video_count=int(stats.get("videoCount", "0")),
     )
 
 

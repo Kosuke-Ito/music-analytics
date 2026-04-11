@@ -47,6 +47,7 @@ def add_record(
     date: str,
     youtube_subscribers: int | None = None,
     youtube_total_views: int | None = None,
+    youtube_video_count: int | None = None,
     lastfm_listeners: int | None = None,
     lastfm_playcount: int | None = None,
     validation_flags: list[str] | None = None,
@@ -58,6 +59,8 @@ def add_record(
                 record["youtube_subscribers"] = youtube_subscribers
             if youtube_total_views is not None:
                 record["youtube_total_views"] = youtube_total_views
+            if youtube_video_count is not None:
+                record["youtube_video_count"] = youtube_video_count
             if result.followers:
                 record["spotify_followers"] = result.followers
             if result.top_cities:
@@ -81,6 +84,8 @@ def add_record(
         record["youtube_subscribers"] = youtube_subscribers
     if youtube_total_views is not None:
         record["youtube_total_views"] = youtube_total_views
+    if youtube_video_count is not None:
+        record["youtube_video_count"] = youtube_video_count
     if result.top_cities:
         record["top_cities"] = result.top_cities
     if lastfm_listeners is not None:
