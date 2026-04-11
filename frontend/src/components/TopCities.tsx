@@ -33,7 +33,10 @@ export function TopCities({ cities, prevCities }: TopCitiesProps) {
 
   return (
     <div className="top-cities-section">
-      <span className="chart-section-title">Spotify Top Cities</span>
+      <span className="chart-section-title">
+        Spotify Top Cities
+        <span className="section-help" title="Spotify公式APIから取得した上位5都市のリスナー数。ページネーション不可のため、全都市データではなく上位5都市に限定されます。海外インパクト分析もこのデータベースの推定値です。"> ⓘ</span>
+      </span>
       <div className="top-cities">
         {cities.map((city, index) => {
           const prev = prevMap?.get(cityKey(city));

@@ -75,12 +75,18 @@ export function StatsSummary({ records }: StatsSummaryProps) {
         <div className="stats-group-title">Spotify</div>
         <div className="stats-summary">
           <div className="stat-card">
-            <span className="stat-label">Monthly Listeners</span>
+            <span className="stat-label stat-label--tooltip">
+              Monthly Listeners <span className="stat-help">?</span>
+              <span className="stat-tooltip"><strong>Monthly Listeners（月間リスナー数）</strong><br />過去28日間にこのアーティストの楽曲を1回以上再生したユニークユーザー数。Spotifyで最も重視される指標の一つで、リアルタイムなリスナー規模を表す。</span>
+            </span>
             <span className="stat-value">{formatNumber(current.monthly_listeners)}</span>
           </div>
           {current.spotify_followers != null && (
             <div className="stat-card">
-              <span className="stat-label">Followers</span>
+              <span className="stat-label stat-label--tooltip">
+                Followers <span className="stat-help">?</span>
+                <span className="stat-tooltip"><strong>Followers（フォロワー数）</strong><br />Spotifyでこのアーティストをフォローしているユーザー数。新譜リリース時に通知が届くコアファン。Monthly Listenersに対する比率（Fan Retention）でファン層の質が分かる。</span>
+              </span>
               <span className="stat-value">{formatNumber(current.spotify_followers)}</span>
             </div>
           )}
@@ -122,12 +128,18 @@ export function StatsSummary({ records }: StatsSummaryProps) {
           <div className="stats-group-title">YouTube</div>
           <div className="stats-summary">
             <div className="stat-card">
-              <span className="stat-label">Subscribers</span>
+              <span className="stat-label stat-label--tooltip">
+                Subscribers <span className="stat-help">?</span>
+                <span className="stat-tooltip"><strong>Subscribers（チャンネル登録者数）</strong><br />⚠️ YouTube APIは丸めた値を返します（100万超は万単位）。日次の細かい変動は見えないため、トレンドは長期で見るのが重要。</span>
+              </span>
               <span className="stat-value">{formatNumber(current.youtube_subscribers!)}</span>
             </div>
             {current.youtube_total_views != null && (
               <div className="stat-card">
-                <span className="stat-label">Total Views</span>
+                <span className="stat-label stat-label--tooltip">
+                  Total Views <span className="stat-help">?</span>
+                  <span className="stat-tooltip"><strong>Total Views（総再生回数）</strong><br />このチャンネルの全動画の累計再生回数。MV公開や話題化で大きく伸びる。前日比はリアルタイムの注目度を示す。</span>
+                </span>
                 <span className="stat-value">{formatCompact(current.youtube_total_views)}</span>
               </div>
             )}
