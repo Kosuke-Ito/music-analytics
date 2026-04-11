@@ -68,6 +68,7 @@ jobs:
             - 新曲/アルバムリリース、MV公開、SNSでバズった話題、コラボ発表、ツアー発表、受賞、テレビ出演、ストリーミング記録達成など幅広く拾う
             - ニュースが見つからないアーティストはスキップしてOK
             - 全アーティスト検索後、変更があれば git add data/ && git commit -m "chore: add news annotations" && git push を実行する
+            - push が rejected されたら git pull --rebase origin main してから再度 git push を試行する（最大3回）
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           settings: |
             {
