@@ -18,24 +18,50 @@ jobs:
       - uses: anthropics/claude-code-action@v1
         with:
           prompt: |
-            あなたは音楽ニュースリサーチャーです。
+            あなたは日本の音楽業界向け分析サービスのリサーチャーです。
             scripts/config.json のアーティスト一覧を読み、各アーティストについて
             前日（昨日）の話題やニュースをWeb検索してください。
 
-            検索ソース:
-            - X（Twitter）での話題・トレンド
-            - 音楽メディア（natalie.mu, Billboard Japan, Oricon, Billboard, Pitchfork等）
-            - エンタメニュース（Yahoo!ニュース, Google News等）
-            - YouTube公式チャンネルの新着動画
+            ## 検索ソース（優先順）
 
-            検索キーワード例:
-            - 「{アーティスト名} 新曲」「{アーティスト名} MV」
-            - 「{artist name} new release」「{artist name} tour」
-            - 「{アーティスト名} site:x.com」
+            ### 日本アーティスト（region: jp）
+            **★日本メディアを最優先で検索すること★**
+            1. **音楽ナタリー** (natalie.mu) — 邦楽・J-POPの一次情報
+            2. **Billboard Japan** (billboard-japan.com) — チャート・ライブ動員データ
+            3. **Oricon News** (oricon.co.jp) — 邦楽売上・ニュース
+            4. **BARKS** (barks.jp) — 国内外音楽ニュース
+            5. **CDJournal** (cdjournal.com) — 邦楽中心
+            6. **Real Sound** (realsound.jp) — レビュー・インタビュー
+            7. **uDiscover Music Japan** (udiscovermusic.jp)
+            8. **Spincoaster** (spincoaster.com)
+            9. アーティスト公式サイト・公式X(Twitter)・公式YouTube
+            10. レーベル公式サイト（Sony Music, Universal Music Japan, Avex等）
+
+            ### 海外アーティスト（region: global）
+            1. **Billboard** (billboard.com)
+            2. **Pitchfork** (pitchfork.com)
+            3. **Rolling Stone** (rollingstone.com)
+            4. **NME** (nme.com)
+            5. **Variety** (variety.com)
+            6. アーティスト公式サイト・公式SNS
+
+            ### 共通ソース
+            - X（Twitter）での話題・トレンド（公式アカウント中心）
+            - YouTube公式チャンネルの新着動画
+            - Yahoo!ニュース、Google News（裏取り用）
+
+            ## 検索キーワード例
+            - 「{アーティスト名} 新曲 配信」「{アーティスト名} MV 公開」
+            - 「{アーティスト名} ツアー 発表」「{アーティスト名} ライブ {年}」
+            - 「{アーティスト名} コラボ」「{アーティスト名} タイアップ」
+            - 「{アーティスト名} site:natalie.mu」「{アーティスト名} site:billboard-japan.com」
+            - 「{artist name} release」「{artist name} site:billboard.com」
+
+            ## アノテーションの形式
 
             見つけたニュースは data/{artist_id}.json の annotations 配列に追加してください。
 
-            アノテーションの形式（必須 + 推奨フィールド）:
+            ```json
             {
               "date": "YYYY-MM-DD",
               "title": "簡潔なタイトル（日本語）",
@@ -44,13 +70,28 @@ jobs:
               "category": "release|viral|collab|tour|award|other",
               "added_at": "現在のISO 8601タイムスタンプ",
               "source": "主な情報源（例: natalie.mu, billboard.com のドメインや媒体名）",
-              "confidence": "high|medium|low（複数ソースで裏取りできたら high、単一記事のみは medium、推測が混じる場合は low）",
+              "confidence": "high|medium|low",
               "verified": false
             }
-            - source / confidence は必ず入れること（分からない場合は confidence を low にする）
-            - verified は人手で確認した場合のみ true。自動収集では基本 false のまま
+            ```
 
-            ★★★ dateフィールドについて（最重要）★★★
+            ## confidence の判定基準
+
+            - **high**: 複数の信頼できるメディア（natalie.mu / Billboard Japan / Oricon等）で裏取りできた、もしくは公式発表（公式SNS・公式サイト）で確認できた
+            - **medium**: 信頼できる単一メディアで確認できたが、裏取りはできていない
+            - **low**: 噂レベル、二次情報のみ、推測が混じる
+
+            必ず source / confidence を入れること。verified は人手確認時のみ true（自動収集では基本 false）。
+
+            ## ライブ動員データ（重要）
+
+            ライブ・ツアー終了報道で動員数が言及されている場合は、descriptionに具体的な数値を含めてください。
+            例: "東京ドーム2DAYS公演で計10万人を動員（出典: Billboard Japan）"
+
+            これは音楽関係者がツアー成功度を判断する重要な指標です。
+
+            ## ★★★ date フィールドについて（最重要）★★★
+
             - dateはイベントが「実際に起きた日付」を正確に入れること
             - 楽曲リリース → 配信開始日（SpotifyやApple Musicでの配信開始日）
             - MV公開 → YouTubeにアップロードされた日
@@ -61,12 +102,14 @@ jobs:
             - どうしても日付が特定できない場合はそのニュースをスキップする
             - ★未来の日付は絶対に使わない★ まだ起きていない予定・リリース予告は追加しない。実際に起きた過去のイベントのみ対象
 
-            その他のルール:
+            ## その他のルール
+
             - 同日+同タイトルの重複は追加しない
             - annotations配列は日付順にソートする
             - annotationsキーが無い場合は作成する
-            - 新曲/アルバムリリース、MV公開、SNSでバズった話題、コラボ発表、ツアー発表、受賞、テレビ出演、ストリーミング記録達成など幅広く拾う
+            - 新曲/アルバムリリース、MV公開、SNSでバズった話題、コラボ発表、ツアー発表、受賞、テレビ出演、ストリーミング記録達成、ライブ動員報道など幅広く拾う
             - ニュースが見つからないアーティストはスキップしてOK
+            - **日本アーティストは特に丁寧に。日本メディアを少なくとも3つ以上検索すること**
             - 全アーティスト検索後、変更があれば git add data/ && git commit -m "chore: add news annotations" && git push を実行する
             - push が rejected されたら git pull --rebase origin main してから再度 git push を試行する（最大3回）
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
