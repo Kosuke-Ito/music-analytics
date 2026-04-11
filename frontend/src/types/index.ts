@@ -19,6 +19,12 @@ export interface ListenerRecord {
   top_cities?: CityListeners[];
   lastfm_listeners?: number;
   lastfm_playcount?: number;
+  /** YouTube Music subscribers (ytmusicapi 経由、丸め値) */
+  ytm_subscribers?: number;
+  /** YouTube Music monthly listeners (Spotify monthly_listeners 相当) */
+  ytm_monthly_listeners?: number;
+  /** YouTube Music total views */
+  ytm_total_views?: number;
   collected_at: string;
   /** 収集時の注意フラグ（例: 前日比で大きな変動） */
   validation_flags?: string[];

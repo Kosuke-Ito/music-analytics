@@ -56,6 +56,7 @@ export function StatsSummary({ records }: StatsSummaryProps) {
 
   const dataWarning = current.validation_flags?.includes("large_monthly_listener_delta");
   const hasYoutube = current.youtube_subscribers != null;
+  const hasYoutubeMusic = current.ytm_subscribers != null || current.ytm_monthly_listeners != null;
 
   const retention = calculateRetentionScore(current.spotify_followers, current.monthly_listeners);
   const ytEfficiency = calculateYouTubeEfficiency(current.youtube_total_views, current.youtube_subscribers);
@@ -171,6 +172,38 @@ export function StatsSummary({ records }: StatsSummaryProps) {
                   <span className="stat-tooltip"><strong>Efficiency（視聴効率）</strong><br />総再生回数 ÷ チャンネル登録者数。1人の登録者が平均何回動画を再生しているかの目安。高いほどコンテンツがアクティブに視聴されている。</span>
                 </span>
                 <span className="stat-value">{ytEfficiency.toFixed(1)} <span className="stat-sub">views/sub</span></span>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {hasYoutubeMusic && (
+        <div className="stats-group">
+          <div className="stats-group-title">YouTube Music</div>
+          <div className="stats-summary">
+            {current.ytm_monthly_listeners != null && (
+              <div className="stat-card">
+                <span className="stat-label stat-label--tooltip">
+                  Monthly Listeners <span className="stat-help">?</span>
+                  <span className="stat-tooltip"><strong>YouTube Music Monthly Listeners</strong><br />YouTube Music で過去28日間にこのアーティストを聴いたユニークユーザー数。Spotify の月間リスナーに相当する重要指標。日本でも YouTube Music ユーザーが増えており、Spotify と並ぶシグナル。</span>
+                </span>
+                <span className="stat-value">{formatNumber(current.ytm_monthly_listeners)}</span>
+              </div>
+            )}
+            {current.ytm_subscribers != null && (
+              <div className="stat-card">
+                <span className="stat-label stat-label--tooltip">
+                  Subscribers <span className="stat-help">?</span>
+                  <span className="stat-tooltip"><strong>YouTube Music Subscribers</strong><br />⚠️ 丸め値で返ってきます（YouTube側の仕様）。長期トレンドを追う指標として使う。</span>
+                </span>
+                <span className="stat-value">{formatNumber(current.ytm_subscribers)}</span>
+              </div>
+            )}
+            {current.ytm_total_views != null && (
+              <div className="stat-card">
+                <span className="stat-label">Total Views</span>
+                <span className="stat-value">{formatCompact(current.ytm_total_views)}</span>
               </div>
             )}
           </div>

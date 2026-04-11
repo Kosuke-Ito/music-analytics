@@ -11,6 +11,7 @@ from collector.scraper import ScrapingError, ScrapingResult, scrape_monthly_list
 from collector.storage import add_record, evaluate_monthly_listeners, load_data, save_data
 from collector.lastfm import LastfmError, fetch_lastfm_stats
 from collector.youtube import YouTubeError, fetch_youtube_stats
+from collector.youtube_music import YouTubeMusicError, fetch_youtube_music_stats
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -136,6 +137,23 @@ def collect_all(artist_id: str | None = None) -> None:
             except (LastfmError, Exception) as e:
                 logger.warning(f"Last.fm取得失敗: {name} - {e}")
 
+        # YouTube Music 収集（unofficial API、認証不要）
+        ytm_subscribers = None
+        ytm_monthly_listeners = None
+        ytm_total_views = None
+        logger.info(f"YouTube Music 収集開始: {name}")
+        try:
+            ytm_stats = fetch_youtube_music_stats(name)
+            ytm_subscribers = ytm_stats.subscribers
+            ytm_monthly_listeners = ytm_stats.monthly_listeners
+            ytm_total_views = ytm_stats.total_views
+            logger.info(
+                f"YouTube Music収集完了: {name} - "
+                f"{ytm_subscribers:,} subs, {ytm_monthly_listeners:,} monthly, {ytm_total_views:,} views"
+            )
+        except (YouTubeMusicError, Exception) as e:
+            logger.warning(f"YouTube Music取得失敗: {name} - {e}")
+
         data = add_record(
             data,
             result,
@@ -145,6 +163,9 @@ def collect_all(artist_id: str | None = None) -> None:
             youtube_video_count=youtube_video_count,
             lastfm_listeners=lastfm_listeners,
             lastfm_playcount=lastfm_playcount,
+            ytm_subscribers=ytm_subscribers,
+            ytm_monthly_listeners=ytm_monthly_listeners,
+            ytm_total_views=ytm_total_views,
             validation_flags=validation_flags or None,
         )
         save_data(data_path, data)

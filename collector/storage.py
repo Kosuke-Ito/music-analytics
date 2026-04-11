@@ -50,6 +50,9 @@ def add_record(
     youtube_video_count: int | None = None,
     lastfm_listeners: int | None = None,
     lastfm_playcount: int | None = None,
+    ytm_subscribers: int | None = None,
+    ytm_monthly_listeners: int | None = None,
+    ytm_total_views: int | None = None,
     validation_flags: list[str] | None = None,
 ) -> dict:
     """レコードを追加する。同日のレコードが既にある場合はYouTubeデータをマージ。"""
@@ -69,6 +72,12 @@ def add_record(
                 record["lastfm_listeners"] = lastfm_listeners
             if lastfm_playcount is not None:
                 record["lastfm_playcount"] = lastfm_playcount
+            if ytm_subscribers is not None:
+                record["ytm_subscribers"] = ytm_subscribers
+            if ytm_monthly_listeners is not None:
+                record["ytm_monthly_listeners"] = ytm_monthly_listeners
+            if ytm_total_views is not None:
+                record["ytm_total_views"] = ytm_total_views
             _merge_validation_flags(record, validation_flags)
             logger.info(f"{date} のレコードを更新しました。")
             return data
@@ -92,6 +101,12 @@ def add_record(
         record["lastfm_listeners"] = lastfm_listeners
     if lastfm_playcount is not None:
         record["lastfm_playcount"] = lastfm_playcount
+    if ytm_subscribers is not None:
+        record["ytm_subscribers"] = ytm_subscribers
+    if ytm_monthly_listeners is not None:
+        record["ytm_monthly_listeners"] = ytm_monthly_listeners
+    if ytm_total_views is not None:
+        record["ytm_total_views"] = ytm_total_views
     if validation_flags:
         record["validation_flags"] = list(dict.fromkeys(validation_flags))
     data["records"].append(record)
