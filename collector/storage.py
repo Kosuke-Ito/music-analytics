@@ -1,11 +1,17 @@
 import json
 import logging
+import statistics
 from datetime import datetime, timezone
 from pathlib import Path
 
 from collector.scraper import ScrapingResult
 
 logger = logging.getLogger(__name__)
+
+# 履歴ベースの異常検知の設定
+HISTORY_MIN_SAMPLES = 7  # 統計計算に必要な最低件数
+DEVIATION_THRESHOLD_STDDEV = 5.0  # 偏差がこの倍数の標準偏差を超えたら異常
+DEVIATION_THRESHOLD_PCT = 0.30  # 平均からこの%以上離れたら異常（stddev 0 対応）
 
 
 def load_data(path: Path, artist_id: str, artist_name: str) -> dict:
@@ -130,8 +136,15 @@ def add_annotation(
 def evaluate_monthly_listeners(
     monthly_listeners: int,
     previous_listeners: int | None,
+    history: list[int] | None = None,
 ) -> tuple[bool, list[str]]:
     """月間リスナー値を評価する。
+
+    Args:
+        monthly_listeners: 当日取得した値
+        previous_listeners: 直前のレコードの値
+        history: 過去N日のリスナー数（最新が末尾、当日含まず）。
+                 HISTORY_MIN_SAMPLES 件以上あれば偏差ベースの異常検知も実施。
 
     Returns:
         (保存してよいか, 付与する検証フラグ)
@@ -151,6 +164,30 @@ def evaluate_monthly_listeners(
                 f"{previous_listeners} → {monthly_listeners} ({change_ratio:.1%})"
             )
             flags.append("large_monthly_listener_delta")
+
+    # 履歴ベースの異常検知（移動平均からの偏差）
+    if history:
+        valid_history = [v for v in history if v > 0]
+        if len(valid_history) >= HISTORY_MIN_SAMPLES:
+            mean = statistics.mean(valid_history)
+            stddev = statistics.pstdev(valid_history)
+            unusual = False
+            if stddev > 0:
+                # 通常: σベースで判定
+                deviation = abs(monthly_listeners - mean)
+                if deviation > stddev * DEVIATION_THRESHOLD_STDDEV:
+                    unusual = True
+            else:
+                # σ=0（履歴が完全一致）: %ベースで判定
+                if mean > 0 and abs(monthly_listeners - mean) / mean > DEVIATION_THRESHOLD_PCT:
+                    unusual = True
+
+            if unusual:
+                logger.warning(
+                    f"過去{len(valid_history)}日の傾向から異常な偏差を検出: "
+                    f"current={monthly_listeners}, mean={mean:.0f}, stddev={stddev:.1f}"
+                )
+                flags.append("unusual_deviation")
 
     return True, flags
 

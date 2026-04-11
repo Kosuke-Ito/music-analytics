@@ -226,3 +226,51 @@ class TestValidateRecordCompat:
 
     def test_compat_zero_still_false(self):
         assert validate_record(0, previous_listeners=None) is False
+
+
+class TestEvaluateWithHistory:
+    """履歴ベースの異常検知（過去30日からの偏差）"""
+
+    def test_normal_value_within_history_no_flag(self):
+        history = [1000, 1010, 990, 1020, 1005, 1015, 1000, 1010, 1005]
+        ok, flags = evaluate_monthly_listeners(1015, previous_listeners=1010, history=history)
+        assert ok is True
+        assert "unusual_deviation" not in flags
+
+    def test_extreme_spike_flagged_as_unusual(self):
+        history = [1000, 1010, 990, 1020, 1005, 1015, 1000, 1010, 1005]
+        ok, flags = evaluate_monthly_listeners(50000, previous_listeners=1010, history=history)
+        assert ok is True
+        assert "unusual_deviation" in flags
+
+    def test_short_history_skips_deviation_check(self):
+        history = [1000, 1010]
+        ok, flags = evaluate_monthly_listeners(1500, previous_listeners=1010, history=history)
+        # 履歴不足なので unusual_deviation は付かない（既存の large_delta は付く可能性あり）
+        assert "unusual_deviation" not in flags
+
+    def test_no_history_works_as_before(self):
+        ok, flags = evaluate_monthly_listeners(1600, previous_listeners=1000)
+        assert ok is True
+        # 60%変動なので large_delta は付く
+        assert "large_monthly_listener_delta" in flags
+
+    def test_zero_in_history_does_not_break(self):
+        history = [1000, 0, 1010, 990, 1020, 1005, 1015, 1000, 1010]
+        ok, flags = evaluate_monthly_listeners(1015, previous_listeners=1010, history=history)
+        assert ok is True
+
+    def test_unusual_drop_flagged(self):
+        history = [10000, 10100, 9900, 10200, 10050, 10150, 10000, 10100, 10050]
+        ok, flags = evaluate_monthly_listeners(100, previous_listeners=10100, history=history)
+        assert ok is True
+        assert "unusual_deviation" in flags
+
+    def test_constant_history_handles_zero_stddev(self):
+        # 全て同じ値→stddev=0、わずかでも違えば偏差として扱う必要があるが
+        # 実用的には no flag が無難
+        history = [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+        ok, flags = evaluate_monthly_listeners(1001, previous_listeners=1000, history=history)
+        assert ok is True
+        # 完全一致でないが微小なので unusual_deviation は付かない
+        assert "unusual_deviation" not in flags

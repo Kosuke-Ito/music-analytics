@@ -87,11 +87,18 @@ def collect_all(artist_id: str | None = None) -> None:
         data = load_data(data_path, artist_id=spotify_id, artist_name=name)
 
         previous_listeners = None
+        history: list[int] = []
         if data["records"]:
             previous_listeners = data["records"][-1]["monthly_listeners"]
+            # 過去30日分の履歴（当日を含まない最新側）
+            history = [
+                r["monthly_listeners"]
+                for r in data["records"][-30:]
+                if isinstance(r.get("monthly_listeners"), int)
+            ]
 
         ok, validation_flags = evaluate_monthly_listeners(
-            result.monthly_listeners, previous_listeners
+            result.monthly_listeners, previous_listeners, history=history
         )
         if not ok:
             logger.warning(f"リスナー数が無効のためスキップ: {name} - {result.monthly_listeners} 件")
