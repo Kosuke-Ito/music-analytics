@@ -1,11 +1,11 @@
-import { useState, useMemo, useEffect, useCallback, lazy, Suspense } from "react";
+import { useState, useMemo, useCallback, lazy, Suspense } from "react";
 import { Dashboard } from "./components/Dashboard";
 import { Sidebar } from "./components/Sidebar";
 import { ArtistTable } from "./components/ArtistTable";
 import { useAggregatedArtistData } from "./hooks/useAggregatedArtistData";
 import { useArtistList } from "./hooks/useArtistList";
 import { useArtistFilter } from "./hooks/useArtistFilter";
-import { applyArtistToUrl, getArtistIdFromSearch } from "./urlArtist";
+import { useUrlSync } from "./hooks/useUrlSync";
 
 const ArtistComparison = lazy(() =>
   import("./components/ArtistComparison").then((m) => ({ default: m.ArtistComparison })),
@@ -32,46 +32,17 @@ export default function App() {
   const loading = configLoading || (dataEnabled && dataLoading);
   const error = configError ?? dataError;
 
-  const [selectedArtistId, setSelectedArtistId] = useState<string | null>(null);
   const [compareIds, setCompareIds] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
   const [showAddForm, setShowAddForm] = useState(false);
+
+  const { selectedId: selectedArtistId, selectArtist } = useUrlSync(artists);
 
   const {
     searchQuery, setSearchQuery,
     selectedLabel, setSelectedLabel,
     labels, grouped,
   } = useArtistFilter(artists);
-
-  useEffect(() => {
-    if (artists.length === 0) return;
-    const fromUrl = getArtistIdFromSearch(window.location.search);
-    const valid =
-      fromUrl && artists.some((a) => a.id === fromUrl) ? fromUrl : null;
-    if (valid) {
-      setSelectedArtistId(valid);
-      return;
-    }
-    const first = artists[0].id;
-    setSelectedArtistId(first);
-    applyArtistToUrl(first, "replace");
-  }, [artists]);
-
-  useEffect(() => {
-    const onPopState = () => {
-      const id = getArtistIdFromSearch(window.location.search);
-      if (!id || artists.length === 0) return;
-      if (!artists.some((a) => a.id === id)) return;
-      setSelectedArtistId(id);
-    };
-    window.addEventListener("popstate", onPopState);
-    return () => window.removeEventListener("popstate", onPopState);
-  }, [artists]);
-
-  const selectArtist = useCallback((id: string) => {
-    setSelectedArtistId(id);
-    applyArtistToUrl(id, "push");
-  }, []);
 
   const toggleCompare = useCallback((id: string) => {
     setCompareIds((prev) =>
