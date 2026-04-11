@@ -101,5 +101,26 @@ export async function onRequestPost(context) {
     return Response.json({ error: "Failed to update config.json", detail: err }, { status: 500 });
   }
 
-  return Response.json({ success: true, artist: newArtist });
+  // 即座に collect.yml を起動して新アーティストのデータを取得
+  // workflow_dispatch は config.json の最新コミット反映を待つ必要がある場合があるため、
+  // 失敗してもアーティスト追加自体は成功扱いにする
+  let workflowTriggered = false;
+  try {
+    const dispatchResp = await fetch(
+      `${apiBase}/repos/${owner}/${repo}/actions/workflows/collect.yml/dispatches`,
+      {
+        method: "POST",
+        headers,
+        body: JSON.stringify({
+          ref: "main",
+          inputs: { artist_id: id },
+        }),
+      },
+    );
+    workflowTriggered = dispatchResp.ok;
+  } catch {
+    workflowTriggered = false;
+  }
+
+  return Response.json({ success: true, artist: newArtist, workflowTriggered });
 }

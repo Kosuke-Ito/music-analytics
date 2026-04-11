@@ -37,6 +37,7 @@ export function AddArtistForm({ onClose }: AddArtistFormProps) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
+  const [workflowTriggered, setWorkflowTriggered] = useState(false);
 
   const [spotifyInfo, setSpotifyInfo] = useState<SpotifyInfo | null>(null);
   const [spotifyLoading, setSpotifyLoading] = useState(false);
@@ -126,6 +127,7 @@ export function AddArtistForm({ onClose }: AddArtistFormProps) {
 
       const data = await resp.json();
       if (!resp.ok) { setError(data.error || "Failed"); return; }
+      setWorkflowTriggered(!!data.workflowTriggered);
       setSuccess(true);
     } catch {
       setError("Network error");
@@ -144,7 +146,15 @@ export function AddArtistForm({ onClose }: AddArtistFormProps) {
           </div>
           <div className="form-success">
             <p><strong>{spotifyInfo?.name}</strong> を追加しました。</p>
-            <p className="form-hint">次回のcronから収集が開始されます。</p>
+            {workflowTriggered ? (
+              <p className="form-hint">
+                データを取得しています。数分後にページをリロードしてください。
+              </p>
+            ) : (
+              <p className="form-hint">
+                次回のcronから収集が開始されます。
+              </p>
+            )}
           </div>
         </div>
       </div>
