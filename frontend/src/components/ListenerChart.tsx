@@ -52,15 +52,14 @@ function calcMA7(values: (number | undefined)[], i: number): number | null {
 export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, onHoverAnnotation }: ListenerChartProps) {
   const hasYoutube = records.some((r) => r.youtube_subscribers != null);
   const hasYTM = records.some((r) => r.ytm_monthly_listeners != null);
-  const hasLastfm = records.some((r) => r.lastfm_listeners != null);
+  // Last.fm は収集継続するが表示対象外
 
   const availablePlatforms = useMemo(() => {
     const platforms: Platform[] = ["spotify"];
     if (hasYoutube) platforms.push("youtube");
     if (hasYTM) platforms.push("ytm");
-    if (hasLastfm) platforms.push("lastfm");
     return platforms;
-  }, [hasYoutube, hasYTM, hasLastfm]);
+  }, [hasYoutube, hasYTM]);
 
   const [platform, setPlatform] = useState<Platform>("spotify");
 

@@ -4,7 +4,8 @@ import { AnnotationList } from "./AnnotationList";
 import { ListenerChart } from "./ListenerChart";
 import { LiveAttendance } from "./LiveAttendance";
 import { StatsSummary } from "./StatsSummary";
-import { LastfmCountries } from "./LastfmCountries";
+// Last.fm は収集継続するが、表示は非表示（重要度低）
+// import { LastfmCountries } from "./LastfmCountries";
 import { TopCities } from "./TopCities";
 import { OverseasImpact } from "./OverseasImpact";
 import { SimilarArtists } from "./SimilarArtists";
@@ -114,7 +115,7 @@ export function Dashboard({ artistId, data, config, dataById }: DashboardProps) 
         </div>
       </div>
       <StatsSummary records={filteredRecords} />
-      <LastfmCountries record={data.records[data.records.length - 1]} />
+      {/* Last.fm は収集継続するが、表示は非表示（重要度低） */}
       <div className="chart-section">
         <span className="chart-section-title">Listener Trend</span>
         <ListenerChart
