@@ -1,0 +1,81 @@
+name: Investigate Organic Buzz
+
+on:
+  schedule:
+    - cron: '30 1 * * *' # 毎日 UTC 01:30（JST 10:30、データ収集の1.5時間後）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  investigate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: anthropics/claude-code-action@v1
+        with:
+          prompt: |
+            あなたは音楽業界のバズ原因調査員です。
+
+            ## タスク
+
+            data/*.json の buzz_events を確認し、以下の条件に合うバズイベントを探してください:
+            - type が "organic"（自然発生 = 原因不明のバズ）
+            - scripts/config.json で region が "jp" のアーティスト
+
+            該当するアーティストが見つかった場合、**なぜ突然数値が伸びているか**を調査してください。
+
+            ## 調査方法
+
+            1. Web検索で原因を探る:
+               - 「{アーティスト名} バズ」「{アーティスト名} TikTok」「{アーティスト名} 話題」
+               - 「{アーティスト名} site:natalie.mu」「{アーティスト名} site:oricon.co.jp」
+               - 「{アーティスト名} テレビ出演」「{アーティスト名} CM」「{アーティスト名} プレイリスト」
+
+            2. 原因の候補:
+               - TikTok / YouTube ショートでの楽曲使用（UGC バイラル）
+               - テレビ番組・CM でのタイアップ
+               - Spotify / Apple Music の公式プレイリスト掲載
+               - コラボレーション・フィーチャリング
+               - ライブ・フェス出演後の注目
+               - SNS でのバズ（インフルエンサー等）
+               - 海外メディアでの紹介
+
+            3. 結果をアノテーションとして追記:
+               - date: バズが検出された日付（buzz_event の date）
+               - title: 原因の簡潔な説明
+               - description: 詳細（「TikTokで〇〇の動画がバズり、楽曲△△が拡散。再生数XX万回。」等）
+               - category: 原因に応じて（viral / collab / other 等）
+               - source: 調査に使ったソース
+               - confidence: high（複数ソースで確認）/ medium（単一ソース）/ low（推測）
+
+            4. 原因が特定できない場合:
+               - title: "数値上の異常上昇を検知（原因不明）"
+               - description: "Spotify月間リスナーが通常の〇倍に急増。原因を特定できず。"
+               - category: "other"
+               - confidence: "low"
+
+            ## ルール
+
+            - organic バズが無ければ何もしない（コミットも不要）
+            - 既にアノテーションがある日付+タイトルの重複は追加しない
+            - annotations 配列は日付順にソート
+            - 変更があれば git add data/ && git commit -m "chore: investigate organic buzz" && git push
+            - push が rejected されたら git pull --rebase origin main してから再度 git push を試行する（最大3回）
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          settings: |
+            {
+              "permissions": {
+                "allow": [
+                  "WebSearch",
+                  "WebFetch",
+                  "Read",
+                  "Write",
+                  "Edit",
+                  "Bash(git *)"
+                ]
+              }
+            }
