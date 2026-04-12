@@ -271,7 +271,7 @@
       "monthly_listeners": 33928,
       "collected_at": "2026-04-12T03:42:36.606669+00:00",
       "spotify_followers": 18175,
-      "youtube_subscribers": 17600,
+      "youtube_subscribers": 17700,
       "youtube_total_views": 676990,
       "youtube_video_count": 27,
       "top_cities": [
@@ -303,7 +303,7 @@
       ],
       "lastfm_listeners": 6738,
       "lastfm_playcount": 42808,
-      "ytm_subscribers": 17600,
+      "ytm_subscribers": 17700,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 639793,
       "validation_flags": [
@@ -373,7 +373,29 @@
         "video_id": "dBSR3vsoaLk"
       }
     ],
-    "ytm_description": "LAUSBUB is newwave & Techno pop band from Sapporo, Japan, formed by Rico and Mei."
+    "ytm_description": "LAUSBUB is newwave & Techno pop band from Sapporo, Japan, formed by Rico and Mei.",
+    "lastfm_similar_artists": [
+      {
+        "name": "パソコン音楽クラブ",
+        "url": "https://www.last.fm/music/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E9%9F%B3%E6%A5%BD%E3%82%AF%E3%83%A9%E3%83%96"
+      },
+      {
+        "name": "Cho Co Pa Co Cho Co Quin Quin",
+        "url": "https://www.last.fm/music/Cho+Co+Pa+Co+Cho+Co+Quin+Quin"
+      },
+      {
+        "name": "柴田聡子",
+        "url": "https://www.last.fm/music/%E6%9F%B4%E7%94%B0%E8%81%A1%E5%AD%90"
+      },
+      {
+        "name": "水曜日のカンパネラ",
+        "url": "https://www.last.fm/music/%E6%B0%B4%E6%9B%9C%E6%97%A5%E3%81%AE%E3%82%AB%E3%83%B3%E3%83%91%E3%83%8D%E3%83%A9"
+      },
+      {
+        "name": "yonige",
+        "url": "https://www.last.fm/music/yonige"
+      }
+    ]
   },
   "buzz_events": [
     {
@@ -388,5 +410,62 @@
       "related_annotation": null,
       "detected_at": "2026-04-12T05:52:20.366520+00:00"
     }
-  ]
+  ],
+  "song_performance": {
+    "QHb9J4x7Dpo": {
+      "title": "higher",
+      "history": [
+        {
+          "date": "2026-04-12",
+          "views": 615,
+          "likes": 17,
+          "comments": 0
+        }
+      ]
+    },
+    "4lbafutZHSU": {
+      "title": "golden lighter",
+      "history": [
+        {
+          "date": "2026-04-12",
+          "views": 5542,
+          "likes": 164,
+          "comments": 6
+        }
+      ]
+    },
+    "WNuhOOwtvH0": {
+      "title": "I SYNC",
+      "history": [
+        {
+          "date": "2026-04-12",
+          "views": 19922,
+          "likes": 181,
+          "comments": 2
+        }
+      ]
+    },
+    "ZVGTzh2JyiY": {
+      "title": "Wind City",
+      "history": [
+        {
+          "date": "2026-04-12",
+          "views": 12259,
+          "likes": 194,
+          "comments": 0
+        }
+      ]
+    },
+    "dBSR3vsoaLk": {
+      "title": "Michi-tono-Sogu",
+      "history": [
+        {
+          "date": "2026-04-12",
+          "views": 9158,
+          "likes": 113,
+          "comments": 0
+        }
+      ]
+    }
+  }
 }
