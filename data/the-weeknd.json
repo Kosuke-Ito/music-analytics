@@ -265,7 +265,7 @@
       "date": "2026-04-12",
       "monthly_listeners": 115922527,
       "collected_at": "2026-04-12T03:44:41.642954+00:00",
-      "spotify_followers": 120955512,
+      "spotify_followers": 120999669,
       "youtube_subscribers": 39500000,
       "youtube_total_views": 35787390371,
       "youtube_video_count": 202,
@@ -314,6 +314,126 @@
       "source": "udiscovermusic.com",
       "confidence": "high",
       "verified": false
+    }
+  ],
+  "metadata": {
+    "lastfm_similar_artists": [
+      {
+        "name": "Tory Lanez",
+        "url": "https://www.last.fm/music/Tory+Lanez"
+      },
+      {
+        "name": "Drake",
+        "url": "https://www.last.fm/music/Drake"
+      },
+      {
+        "name": "PARTYNEXTDOOR",
+        "url": "https://www.last.fm/music/PARTYNEXTDOOR"
+      },
+      {
+        "name": "Black Atlass",
+        "url": "https://www.last.fm/music/Black+Atlass"
+      },
+      {
+        "name": "Don Toliver",
+        "url": "https://www.last.fm/music/Don+Toliver"
+      }
+    ],
+    "lastfm_tags": [
+      "rnb",
+      "electronic",
+      "dubstep",
+      "Canadian",
+      "prog-rnb"
+    ],
+    "ytm_related_artists": [
+      {
+        "name": "Miguel",
+        "browse_id": "UCKskshF_wMq6fCRsQY60kSg",
+        "subscribers": "22.8M"
+      },
+      {
+        "name": "Swae Lee",
+        "browse_id": "UCOrhSH-BVuBUAKk_rWRJFqQ",
+        "subscribers": "64.2M"
+      },
+      {
+        "name": "Khalid",
+        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
+        "subscribers": "245M"
+      },
+      {
+        "name": "Don Toliver",
+        "browse_id": "UCSzWQmDsKG37iKN2vw1G-2Q",
+        "subscribers": "119M"
+      },
+      {
+        "name": "Bazzi",
+        "browse_id": "UCoBD_yd06t7kBn1wLGH7nzg",
+        "subscribers": "20M"
+      },
+      {
+        "name": "Lily Rose Depp",
+        "browse_id": "UChGTI8sivCDh1AWues5lrDA",
+        "subscribers": "24.2K"
+      },
+      {
+        "name": "Post Malone",
+        "browse_id": "UCyD3XWRK9ko-izf2nBSFitw",
+        "subscribers": "104M"
+      },
+      {
+        "name": "Justin Timberlake",
+        "browse_id": "UC6VwktUsQQDCkHG1h6YftAQ",
+        "subscribers": "66.1M"
+      },
+      {
+        "name": "070 Shake",
+        "browse_id": "UC4CVrwAB1TblttvcZi7-qcw",
+        "subscribers": "15.4M"
+      },
+      {
+        "name": "Lana Del Rey",
+        "browse_id": "UCyqq-aiu3vEHuf5NhwmOJcw",
+        "subscribers": "357M"
+      }
+    ],
+    "ytm_top_songs": [
+      {
+        "title": "Save Your Tears",
+        "video_id": "RmYCOm4ehKs"
+      },
+      {
+        "title": "Starboy (feat. Daft Punk)",
+        "video_id": "3_g2un5M350"
+      },
+      {
+        "title": "One Of The Girls",
+        "video_id": "HgLfYfJtc8M"
+      },
+      {
+        "title": "Blinding Lights",
+        "video_id": "J7p4bzqLvCw"
+      },
+      {
+        "title": "Timeless",
+        "video_id": "a4O-abCXsfA"
+      }
+    ],
+    "ytm_description": "The Weeknd is a multi-platinum, 7x Diamond certified artist who reshaped R&B and pop, making him one of the most listened-to musicians globally, with over 105 million monthly Spotify listeners. He was named “The Most Popular Artist in the World” by Guinness World Records in 2023. His album \"After Hours\" is the #1 most streamed R&B album ever, while \"Blinding Lights\" is the Diamond-certified Billboard Hot 100 song of all time. An Emmy and Oscar nominee, he has performed on major television platforms alongside a successful global tour amassing almost half a billion dollars to date. As a humanitarian, he has been the United Nations World Food Programme’s esteemed Global Goodwill Ambassador and has donated over $9 million to various causes, including significant contributions to tackle hunger in Ethiopia and Gaza."
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-12",
+      "metric": "monthly_listeners",
+      "value": 115922527,
+      "baseline_mean": 115670690.9,
+      "baseline_stddev": 95563.9,
+      "delta": 251836,
+      "score": 2.64,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-12T05:54:23.983529+00:00"
     }
   ]
 }

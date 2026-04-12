@@ -270,7 +270,7 @@
       "date": "2026-04-12",
       "monthly_listeners": 33928,
       "collected_at": "2026-04-12T03:42:36.606669+00:00",
-      "spotify_followers": 18146,
+      "spotify_followers": 18175,
       "youtube_subscribers": 17600,
       "youtube_total_views": 676990,
       "youtube_video_count": 27,
@@ -341,6 +341,52 @@
       "source": "skream.jp",
       "confidence": "high",
       "verified": false
+    }
+  ],
+  "metadata": {
+    "lastfm_tags": [
+      "japanese",
+      "electronic",
+      "electronica",
+      "japan",
+      "female duo"
+    ],
+    "ytm_top_songs": [
+      {
+        "title": "higher",
+        "video_id": "QHb9J4x7Dpo"
+      },
+      {
+        "title": "golden lighter",
+        "video_id": "4lbafutZHSU"
+      },
+      {
+        "title": "I SYNC",
+        "video_id": "WNuhOOwtvH0"
+      },
+      {
+        "title": "Wind City",
+        "video_id": "ZVGTzh2JyiY"
+      },
+      {
+        "title": "Michi-tono-Sogu",
+        "video_id": "dBSR3vsoaLk"
+      }
+    ],
+    "ytm_description": "LAUSBUB is newwave & Techno pop band from Sapporo, Japan, formed by Rico and Mei."
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-12",
+      "metric": "monthly_listeners",
+      "value": 33928,
+      "baseline_mean": 27940.6,
+      "baseline_stddev": 780.4,
+      "delta": 5987,
+      "score": 7.67,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-12T05:52:20.366520+00:00"
     }
   ]
 }
