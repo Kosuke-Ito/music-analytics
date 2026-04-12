@@ -8,9 +8,15 @@
 }
 
 .buzz-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 6px;
+}
+
+@media (max-width: 900px) {
+  .buzz-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 .buzz-item {
