@@ -30,6 +30,19 @@ export interface ListenerRecord {
   validation_flags?: string[];
 }
 
+export interface BuzzEvent {
+  date: string;
+  metric: string;
+  value: number;
+  baseline_mean: number;
+  baseline_stddev: number;
+  delta: number;
+  score: number;
+  type: "annotated" | "organic" | "seasonal";
+  related_annotation: string | null;
+  detected_at: string;
+}
+
 export interface ArtistConfig {
   id: string;
   name: string;
@@ -62,4 +75,5 @@ export interface ArtistData {
   artist_name: string;
   records: ListenerRecord[];
   annotations?: Annotation[];
+  buzz_events?: BuzzEvent[];
 }

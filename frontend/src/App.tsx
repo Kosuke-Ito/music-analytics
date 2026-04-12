@@ -2,6 +2,7 @@ import { useState, useMemo, useCallback, lazy, Suspense } from "react";
 import { Dashboard } from "./components/Dashboard";
 import { Sidebar } from "./components/Sidebar";
 import { ArtistTable } from "./components/ArtistTable";
+import { BuzzAlerts } from "./components/BuzzAlerts";
 import { useAggregatedArtistData } from "./hooks/useAggregatedArtistData";
 import { useArtistList } from "./hooks/useArtistList";
 import { useArtistFilter } from "./hooks/useArtistFilter";
@@ -129,6 +130,9 @@ export default function App() {
       <main>
         {loading && <div className="loading">Loading</div>}
         {error && <div className="error">{error}</div>}
+        {!loading && !error && (
+          <BuzzAlerts artists={artists} dataById={dataById} />
+        )}
         {!loading && !error && viewMode === "grid" && (
           <div className="layout-sidebar">
             <Sidebar {...sidebarProps} />

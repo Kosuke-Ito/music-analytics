@@ -8,7 +8,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from collector.scraper import ScrapingError, ScrapingResult, scrape_monthly_listeners
-from collector.storage import add_record, evaluate_monthly_listeners, load_data, save_data
+from collector.storage import add_buzz_event, add_record, evaluate_monthly_listeners, load_data, save_data
+from collector.buzz import detect_buzz_events
 from collector.lastfm import LastfmError, fetch_lastfm_stats
 from collector.youtube import YouTubeError, fetch_youtube_stats
 from collector.youtube_music import YouTubeMusicError, fetch_youtube_music_stats
@@ -168,6 +169,19 @@ def collect_all(artist_id: str | None = None) -> None:
             ytm_total_views=ytm_total_views,
             validation_flags=validation_flags or None,
         )
+        # バズ検知
+        new_buzz = detect_buzz_events(
+            records=data["records"],
+            annotations=data.get("annotations", []),
+            past_buzz_events=data.get("buzz_events", []),
+        )
+        for event in new_buzz:
+            add_buzz_event(data, event.to_dict())
+            logger.info(
+                f"🔥 バズ検知: {name} - {event.metric} "
+                f"(score={event.score}, type={event.type})"
+            )
+
         save_data(data_path, data)
         logger.info(
             f"収集完了: {name} - {result.monthly_listeners:,} listeners, "

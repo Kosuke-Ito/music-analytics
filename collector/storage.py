@@ -212,6 +212,21 @@ def evaluate_monthly_listeners(
     return True, flags
 
 
+def add_buzz_event(data: dict, event_dict: dict) -> dict:
+    """バズイベントを追加する。同日+同metric の重複は無視。"""
+    if "buzz_events" not in data:
+        data["buzz_events"] = []
+
+    for existing in data["buzz_events"]:
+        if existing["date"] == event_dict["date"] and existing["metric"] == event_dict["metric"]:
+            logger.info(f"重複バズイベント: {event_dict['date']} {event_dict['metric']}")
+            return data
+
+    data["buzz_events"].append(event_dict)
+    data["buzz_events"].sort(key=lambda e: e["date"])
+    return data
+
+
 # 後方互換（テスト・旧コード用）
 def validate_record(monthly_listeners: int, previous_listeners: int | None) -> bool:
     ok, _ = evaluate_monthly_listeners(monthly_listeners, previous_listeners)
