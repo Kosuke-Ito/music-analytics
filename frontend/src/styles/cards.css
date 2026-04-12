@@ -201,6 +201,10 @@
   background: var(--accent-dim);
 }
 
+.range-filter--wrap {
+  flex-wrap: wrap;
+}
+
 .detail-header {
   display: flex;
   align-items: baseline;

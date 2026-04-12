@@ -18,14 +18,21 @@ import { formatCompact, formatDeltaCompact } from "../utils/format";
 import { CATEGORY_COLORS } from "../constants/annotation";
 import { TOOLTIP_STYLE, CHART_COLORS as COLORS, GRID_STROKE, TICK_STYLE, LABEL_STYLE, ACTIVE_DOT_STROKE } from "../constants/chart";
 
-type Platform = "spotify" | "youtube" | "ytm" | "lastfm";
+type MetricKey =
+  | "spotify_listeners"
+  | "spotify_followers"
+  | "yt_subscribers"
+  | "yt_views"
+  | "ytm_listeners"
+  | "ytm_subscribers";
 
-const PLATFORM_OPTIONS: { value: Platform; label: string }[] = [
-  { value: "spotify", label: "Spotify" },
-  { value: "youtube", label: "YouTube" },
-  { value: "ytm", label: "YT Music" },
-  { value: "lastfm", label: "Last.fm" },
-];
+interface MetricDef {
+  key: MetricKey;
+  label: string;
+  shortLabel: string;
+  field: keyof ListenerRecord;
+  color: string;
+}
 
 interface ListenerChartProps {
   records: ListenerRecord[];
@@ -34,81 +41,51 @@ interface ListenerChartProps {
   onHoverAnnotation: (index: number | null) => void;
 }
 
-function calcDelta(values: (number | undefined)[], i: number): number | null {
-  if (i === 0) return null;
-  const cur = values[i];
-  const prev = values[i - 1];
-  if (cur == null || prev == null) return null;
-  return cur - prev;
-}
-
-function calcMA7(values: (number | undefined)[], i: number): number | null {
-  const start = Math.max(0, i - 6);
-  const slice = values.slice(start, i + 1).filter((v): v is number => v != null);
-  if (slice.length === 0) return null;
-  return Math.round(slice.reduce((s, v) => s + v, 0) / slice.length);
-}
+const ALL_METRICS: MetricDef[] = [
+  { key: "spotify_listeners", label: "Spotify Listeners", shortLabel: "Spotify ML", field: "monthly_listeners", color: COLORS.spotify },
+  { key: "spotify_followers", label: "Spotify Followers", shortLabel: "Spotify Fol", field: "spotify_followers" as keyof ListenerRecord, color: "#1ed760" },
+  { key: "yt_subscribers", label: "YouTube Subscribers", shortLabel: "YT Subs", field: "youtube_subscribers" as keyof ListenerRecord, color: COLORS.youtube },
+  { key: "yt_views", label: "YouTube Total Views", shortLabel: "YT Views", field: "youtube_total_views" as keyof ListenerRecord, color: "#ff4444" },
+  { key: "ytm_listeners", label: "YT Music Listeners", shortLabel: "YTM ML", field: "ytm_monthly_listeners" as keyof ListenerRecord, color: "#ff0050" },
+  { key: "ytm_subscribers", label: "YT Music Subscribers", shortLabel: "YTM Subs", field: "ytm_subscribers" as keyof ListenerRecord, color: "#ff6688" },
+];
 
 export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, onHoverAnnotation }: ListenerChartProps) {
-  const hasYoutube = records.some((r) => r.youtube_subscribers != null);
-  const hasYTM = records.some((r) => r.ytm_monthly_listeners != null);
-  // Last.fm は収集継続するが表示対象外
+  const availableMetrics = useMemo(() => {
+    return ALL_METRICS.filter((m) =>
+      records.some((r) => (r[m.field] as number | undefined) != null),
+    );
+  }, [records]);
 
-  const availablePlatforms = useMemo(() => {
-    const platforms: Platform[] = ["spotify"];
-    if (hasYoutube) platforms.push("youtube");
-    if (hasYTM) platforms.push("ytm");
-    return platforms;
-  }, [hasYoutube, hasYTM]);
-
-  const [platform, setPlatform] = useState<Platform>("spotify");
+  const [metricKey, setMetricKey] = useState<MetricKey>("spotify_listeners");
+  const metric = availableMetrics.find((m) => m.key === metricKey) ?? availableMetrics[0];
 
   const chartData = useMemo(() => {
+    if (!metric) return [];
     return records.map((r, i) => {
-      const row: Record<string, string | number | null> = { date: r.date };
+      const value = r[metric.field] as number | undefined;
+      const prevValue = i > 0 ? (records[i - 1][metric.field] as number | undefined) : undefined;
+      const delta = value != null && prevValue != null ? value - prevValue : null;
 
-      if (platform === "spotify") {
-        row.primary = r.monthly_listeners;
-        row.secondary = r.spotify_followers ?? null;
-        row.ma7 = calcMA7(records.map((x) => x.monthly_listeners), i);
-        row.delta = calcDelta(records.map((x) => x.monthly_listeners), i);
-      } else if (platform === "youtube") {
-        row.primary = r.youtube_subscribers ?? null;
-        row.secondary = r.youtube_total_views ?? null;
-        row.delta = calcDelta(records.map((x) => x.youtube_subscribers), i);
-      } else if (platform === "ytm") {
-        row.primary = r.ytm_monthly_listeners ?? null;
-        row.secondary = r.ytm_subscribers ?? null;
-        row.delta = calcDelta(records.map((x) => x.ytm_monthly_listeners), i);
-      } else if (platform === "lastfm") {
-        row.primary = r.lastfm_listeners ?? null;
-        row.secondary = r.lastfm_playcount ?? null;
-        row.delta = calcDelta(records.map((x) => x.lastfm_listeners), i);
+      // 7d MA (Spotify Listeners のみ)
+      let ma7: number | null = null;
+      if (metric.key === "spotify_listeners") {
+        const start = Math.max(0, i - 6);
+        const slice = records.slice(start, i + 1).map((x) => x.monthly_listeners).filter((v) => v != null);
+        if (slice.length > 0) ma7 = Math.round(slice.reduce((s, v) => s + v, 0) / slice.length);
       }
 
-      return row;
+      return {
+        date: r.date,
+        value: value ?? null,
+        ma7,
+        delta,
+      };
     });
-  }, [records, platform]);
+  }, [records, metric]);
 
-  const platformLabels: Record<Platform, { primary: string; secondary: string; delta: string }> = {
-    spotify: { primary: "Monthly Listeners", secondary: "Followers", delta: "Daily Change" },
-    youtube: { primary: "Subscribers", secondary: "Total Views", delta: "Daily Change" },
-    ytm: { primary: "Monthly Listeners", secondary: "Subscribers", delta: "Daily Change" },
-    lastfm: { primary: "Listeners", secondary: "Scrobbles", delta: "Daily Change" },
-  };
-
-  const platformColors: Record<Platform, { primary: string; secondary: string }> = {
-    spotify: { primary: COLORS.spotify, secondary: COLORS.ma7 },
-    youtube: { primary: COLORS.youtube, secondary: "var(--text-muted)" },
-    ytm: { primary: COLORS.youtube, secondary: COLORS.ma7 },
-    lastfm: { primary: "#d51007", secondary: "var(--text-muted)" },
-  };
-
-  const labels = platformLabels[platform];
-  const colors = platformColors[platform];
   const hasDelta = records.length >= 2;
-  const hasSecondary = chartData.some((d) => d.secondary != null);
-  const showMA7 = platform === "spotify";
+  const showMA7 = metric?.key === "spotify_listeners";
 
   if (records.length === 0) {
     return <div className="chart-empty">データがありません</div>;
@@ -116,15 +93,15 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
 
   return (
     <div className="chart-container chart-container--main">
-      {availablePlatforms.length > 1 && (
-        <div className="range-filter" style={{ marginBottom: 12 }}>
-          {availablePlatforms.map((p) => (
+      {availableMetrics.length > 1 && (
+        <div className="range-filter range-filter--wrap" style={{ marginBottom: 12 }}>
+          {availableMetrics.map((m) => (
             <button
-              key={p}
-              className={`range-btn ${platform === p ? "range-btn--active" : ""}`}
-              onClick={() => setPlatform(p)}
+              key={m.key}
+              className={`range-btn ${metricKey === m.key ? "range-btn--active" : ""}`}
+              onClick={() => setMetricKey(m.key)}
             >
-              {PLATFORM_OPTIONS.find((o) => o.value === p)?.label}
+              {m.shortLabel}
             </button>
           ))}
         </div>
@@ -166,10 +143,9 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
             formatter={(value, name) => {
               const v = Number(value);
               const formatted = v.toLocaleString("en-US");
-              if (name === "primary") return [formatted, labels.primary];
-              if (name === "secondary") return [formatted, labels.secondary];
+              if (name === "value") return [formatted, metric?.label ?? ""];
               if (name === "ma7") return [formatted, "7d MA"];
-              if (name === "delta") return [formatted, labels.delta];
+              if (name === "delta") return [formatted, "Daily Change"];
               return [formatted, String(name)];
             }}
             labelStyle={LABEL_STYLE}
@@ -178,10 +154,9 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
             verticalAlign="top"
             height={36}
             formatter={(value) => {
-              if (value === "primary") return labels.primary;
-              if (value === "secondary") return labels.secondary;
+              if (value === "value") return metric?.label ?? "";
               if (value === "ma7") return "7d MA";
-              if (value === "delta") return labels.delta;
+              if (value === "delta") return "Daily Change";
               return value;
             }}
             wrapperStyle={{ fontSize: 12, color: "var(--text-secondary)" }}
@@ -200,11 +175,11 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
           <Line
             yAxisId="left"
             type="monotone"
-            dataKey="primary"
-            stroke={colors.primary}
+            dataKey="value"
+            stroke={metric?.color ?? COLORS.spotify}
             strokeWidth={2}
             dot={false}
-            activeDot={{ fill: colors.primary, r: 4, stroke: ACTIVE_DOT_STROKE, strokeWidth: 2 }}
+            activeDot={{ fill: metric?.color ?? COLORS.spotify, r: 4, stroke: ACTIVE_DOT_STROKE, strokeWidth: 2 }}
             connectNulls
           />
           {showMA7 && (
@@ -217,18 +192,6 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
               strokeDasharray="4 3"
               dot={false}
               activeDot={{ fill: COLORS.ma7, r: 3, stroke: ACTIVE_DOT_STROKE, strokeWidth: 2 }}
-              connectNulls
-            />
-          )}
-          {hasSecondary && (
-            <Line
-              yAxisId="left"
-              type="monotone"
-              dataKey="secondary"
-              stroke={colors.secondary}
-              strokeWidth={1.5}
-              dot={false}
-              activeDot={{ fill: colors.secondary, r: 4, stroke: ACTIVE_DOT_STROKE, strokeWidth: 2 }}
               connectNulls
             />
           )}
