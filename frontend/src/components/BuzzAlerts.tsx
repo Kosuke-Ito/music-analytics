@@ -57,7 +57,7 @@ export function BuzzAlerts({ artists, dataById }: BuzzAlertsProps) {
 
     // score 降順でソート
     items.sort((a, b) => b.event.score - a.event.score);
-    return items.slice(0, 5);
+    return items;
   }, [artists, dataById]);
 
   if (alerts.length === 0) return null;
