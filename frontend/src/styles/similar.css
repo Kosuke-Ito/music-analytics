@@ -45,8 +45,14 @@
   flex-shrink: 0;
 }
 
-.similar-country-flag {
-  font-size: 14px;
+.similar-source {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-muted);
+  padding: 2px 8px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.06);
+  flex-shrink: 0;
 }
 
 .similar-score {

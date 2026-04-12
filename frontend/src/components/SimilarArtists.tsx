@@ -7,12 +7,10 @@ interface SimilarArtistsProps {
   dataById: Record<string, ArtistData>;
 }
 
-const COUNTRY_FLAGS: Record<string, string> = {
-  JP: "🇯🇵", US: "🇺🇸", GB: "🇬🇧", KR: "🇰🇷", MX: "🇲🇽", BR: "🇧🇷",
-  TW: "🇹🇼", ID: "🇮🇩", IN: "🇮🇳", DE: "🇩🇪", FR: "🇫🇷", AU: "🇦🇺",
-  CA: "🇨🇦", TH: "🇹🇭", PH: "🇵🇭", ES: "🇪🇸", IT: "🇮🇹", CL: "🇨🇱",
-  AR: "🇦🇷", CO: "🇨🇴", PE: "🇵🇪", SG: "🇸🇬", MY: "🇲🇾", TR: "🇹🇷",
-  SE: "🇸🇪", NL: "🇳🇱", PL: "🇵🇱", NG: "🇳🇬", ZA: "🇿🇦", EG: "🇪🇬",
+const SOURCE_LABELS: Record<string, string> = {
+  ytm: "YouTube Music",
+  lastfm: "Last.fm",
+  cities: "Top Cities",
 };
 
 export function SimilarArtists({ artistId, dataById }: SimilarArtistsProps) {
@@ -34,13 +32,7 @@ export function SimilarArtists({ artistId, dataById }: SimilarArtistsProps) {
           <div key={item.artistId} className="similar-item">
             <div className="similar-info">
               <span className="similar-name">{item.artistName}</span>
-              <span className="similar-countries">
-                {item.sharedCountries.map((c) => (
-                  <span key={c} className="similar-country-flag">
-                    {COUNTRY_FLAGS[c] ?? c}
-                  </span>
-                ))}
-              </span>
+              <span className="similar-source">{SOURCE_LABELS[item.source] ?? item.source}</span>
             </div>
             <div className="similar-score">
               <div className="similar-bar-wrapper">
