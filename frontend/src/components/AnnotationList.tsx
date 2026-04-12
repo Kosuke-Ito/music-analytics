@@ -21,11 +21,22 @@ export function AnnotationList({ annotations, visibleAnnotations, hoveredAnnotat
     visibleAnnotations?.map((a) => `${a.date}-${a.title}`) ?? [],
   );
 
+  // visibleAnnotations の順序（日付ソート済み）を優先し、範囲外は末尾に
+  const sortedAnnotations = [...annotations].sort((a, b) => {
+    const aKey = `${a.date}-${a.title}`;
+    const bKey = `${b.date}-${b.title}`;
+    const aVisible = visibleKeys.has(aKey);
+    const bVisible = visibleKeys.has(bKey);
+    if (aVisible && !bVisible) return -1;
+    if (!aVisible && bVisible) return 1;
+    return a.date.localeCompare(b.date);
+  });
+
   return (
     <div className="annotation-section">
       <span className="chart-section-title">News & Events</span>
       <ul className="annotation-list">
-        {annotations.map((ann) => {
+        {sortedAnnotations.map((ann) => {
           const key = `${ann.date}-${ann.title}`;
           const visibleIndex = visibleAnnotations?.findIndex(
             (a) => `${a.date}-${a.title}` === key,

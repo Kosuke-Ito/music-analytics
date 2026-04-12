@@ -198,12 +198,12 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
                   <Label
                     content={({ viewBox }) => {
                       const vb = viewBox as { x: number; y: number; height: number };
-                      // 同日複数の場合、横にオフセット（-12px, +12px 等）
+                      // 同日複数の場合、縦にオフセット
                       const offset = totalSlots > 1
-                        ? (slotIdx - (totalSlots - 1) / 2) * 22
+                        ? slotIdx * 24
                         : 0;
-                      const cx = vb.x + offset;
-                      const cy = vb.y + vb.height + 36;
+                      const cx = vb.x;
+                      const cy = vb.y + vb.height + 36 + offset;
                       return (
                         <g
                           style={{ cursor: "pointer" }}
