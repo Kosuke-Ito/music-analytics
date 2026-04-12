@@ -2,7 +2,7 @@ name: Collect News Annotations
 
 on:
   schedule:
-    - cron: '0 1 * * *' # 毎日 UTC 01:00（JST 10:00、データ収集の1時間後）
+    - cron: '30 14 * * *' # 毎日 UTC 14:30（JST 23:30、データ収集の30分後）
   workflow_dispatch:
 
 permissions:

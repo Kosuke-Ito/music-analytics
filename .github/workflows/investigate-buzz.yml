@@ -2,7 +2,7 @@ name: Investigate Organic Buzz
 
 on:
   schedule:
-    - cron: '30 1 * * *' # 毎日 UTC 01:30（JST 10:30、データ収集の1.5時間後）
+    - cron: '0 15 * * *' # 毎日 UTC 15:00（JST 24:00、データ収集の1時間後）
   workflow_dispatch:
 
 permissions:
