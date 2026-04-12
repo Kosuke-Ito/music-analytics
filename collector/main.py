@@ -156,7 +156,8 @@ def collect_all(artist_id: str | None = None) -> None:
         ytm_total_views = None
         logger.info(f"YouTube Music 収集開始: {name}")
         try:
-            ytm_stats = fetch_youtube_music_stats(name)
+            ytm_browse_id = artist.get("ytm_browse_id")
+            ytm_stats = fetch_youtube_music_stats(name, browse_id=ytm_browse_id)
             ytm_subscribers = ytm_stats.subscribers
             ytm_monthly_listeners = ytm_stats.monthly_listeners
             ytm_total_views = ytm_stats.total_views

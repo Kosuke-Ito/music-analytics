@@ -112,11 +112,15 @@ def extract_youtube_music_stats(response: dict) -> YouTubeMusicStats:
     )
 
 
-def fetch_youtube_music_stats(artist_name: str) -> YouTubeMusicStats:
+def fetch_youtube_music_stats(
+    artist_name: str,
+    browse_id: str | None = None,
+) -> YouTubeMusicStats:
     """YouTube Music からアーティスト情報を取得する。
 
     Args:
         artist_name: 検索クエリ（アーティスト名）
+        browse_id: 事前確定済みの browse_id（あれば検索スキップ）
 
     Returns:
         YouTubeMusicStats
@@ -124,22 +128,22 @@ def fetch_youtube_music_stats(artist_name: str) -> YouTubeMusicStats:
     Raises:
         YouTubeMusicError: 検索ヒットなし or データ取得失敗
     """
-    # ytmusicapi の import はここで遅延（テストのモック容易化 + 起動高速化）
     from ytmusicapi import YTMusic
 
     yt = YTMusic()
 
-    try:
-        results = yt.search(artist_name, filter="artists", limit=1)
-    except Exception as e:
-        raise YouTubeMusicError(f"検索失敗: {artist_name} - {e}") from e
-
-    if not results:
-        raise YouTubeMusicError(f"アーティストが見つかりません: {artist_name}")
-
-    browse_id = results[0].get("browseId")
     if not browse_id:
-        raise YouTubeMusicError(f"browseId が取得できません: {artist_name}")
+        try:
+            results = yt.search(artist_name, filter="artists", limit=1)
+        except Exception as e:
+            raise YouTubeMusicError(f"検索失敗: {artist_name} - {e}") from e
+
+        if not results:
+            raise YouTubeMusicError(f"アーティストが見つかりません: {artist_name}")
+
+        browse_id = results[0].get("browseId")
+        if not browse_id:
+            raise YouTubeMusicError(f"browseId が取得できません: {artist_name}")
 
     try:
         artist_data = yt.get_artist(browse_id)
