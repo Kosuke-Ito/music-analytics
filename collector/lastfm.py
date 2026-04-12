@@ -14,6 +14,8 @@ class LastfmStats:
     listeners: int = 0
     playcount: int = 0
     top_countries: list | None = None  # 廃止済みだが型互換のため残す
+    similar_artists: list[dict] | None = None
+    tags: list[str] | None = None
 
 
 def extract_lastfm_stats(response: dict) -> LastfmStats:
@@ -39,10 +41,29 @@ def extract_lastfm_stats(response: dict) -> LastfmStats:
 
     # artist.getInfo
     if "artist" in response:
-        stats = response["artist"].get("stats", {})
+        artist = response["artist"]
+        stats = artist.get("stats", {})
+
+        # similar artists
+        similar = None
+        similar_data = artist.get("similar", {}).get("artist", [])
+        if similar_data:
+            similar = [
+                {"name": s.get("name", ""), "url": s.get("url", "")}
+                for s in similar_data[:10]
+            ]
+
+        # tags
+        tags = None
+        tags_data = artist.get("tags", {}).get("tag", [])
+        if tags_data:
+            tags = [t.get("name", "") for t in tags_data if t.get("name")]
+
         return LastfmStats(
             listeners=int(stats.get("listeners", "0")),
             playcount=int(stats.get("playcount", "0")),
+            similar_artists=similar,
+            tags=tags,
         )
 
     return LastfmStats()

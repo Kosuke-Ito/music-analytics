@@ -7,6 +7,7 @@ import { StatsSummary } from "./StatsSummary";
 import { LastfmCountries } from "./LastfmCountries";
 import { TopCities } from "./TopCities";
 import { OverseasImpact } from "./OverseasImpact";
+import { SimilarArtists } from "./SimilarArtists";
 import { useDateRange, type DateRange, type RangeCounts } from "../hooks/useDateRange";
 import { aggregateRecords, type Granularity } from "../utils/aggregate";
 import type { ArtistConfig, ArtistData } from "../types";
@@ -35,9 +36,10 @@ interface DashboardProps {
   artistId: string;
   data?: ArtistData;
   config?: ArtistConfig;
+  dataById?: Record<string, ArtistData>;
 }
 
-export function Dashboard({ artistId, data, config }: DashboardProps) {
+export function Dashboard({ artistId, data, config, dataById }: DashboardProps) {
   if (!data) {
     return (
       <div className="error">
@@ -123,6 +125,7 @@ export function Dashboard({ artistId, data, config }: DashboardProps) {
         prevCities={data.records.length >= 2 ? data.records[data.records.length - 2]?.top_cities : undefined}
       />
       <OverseasImpact records={filteredRecords} />
+      {dataById && <SimilarArtists artistId={artistId} dataById={dataById} />}
       <LiveAttendance attendance={config?.live_attendance} />
     </div>
   );

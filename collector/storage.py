@@ -212,6 +212,14 @@ def evaluate_monthly_listeners(
     return True, flags
 
 
+def update_metadata(data: dict, key: str, value) -> dict:
+    """アーティストレベルのメタデータを更新する。日次レコードではなく artist-level の情報。"""
+    if "metadata" not in data:
+        data["metadata"] = {}
+    data["metadata"][key] = value
+    return data
+
+
 def add_buzz_event(data: dict, event_dict: dict) -> dict:
     """バズイベントを追加する。同日+同metric の重複は無視。"""
     if "buzz_events" not in data:

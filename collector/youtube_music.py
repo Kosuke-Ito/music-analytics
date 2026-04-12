@@ -23,12 +23,25 @@ class YouTubeMusicError(Exception):
 
 
 @dataclass
+class RelatedArtist:
+    name: str
+    browse_id: str
+    subscribers: str  # 丸め値のまま保持（"1.94M"等）
+
+    def to_dict(self) -> dict:
+        return {"name": self.name, "browse_id": self.browse_id, "subscribers": self.subscribers}
+
+
+@dataclass
 class YouTubeMusicStats:
     name: str
     channel_id: str
     subscribers: int
     monthly_listeners: int
     total_views: int
+    related_artists: list[RelatedArtist]
+    description: str = ""
+    top_songs: list[dict] | None = None
 
 
 def parse_count(value: str | None) -> int:
@@ -65,9 +78,27 @@ def parse_count(value: str | None) -> int:
 
 
 def extract_youtube_music_stats(response: dict) -> YouTubeMusicStats:
-    """ytmusicapi.get_artist() のレスポンスから必要フィールドを抽出する。"""
+    """ytmusicapi.get_artist() のレスポンスから全フィールドを抽出する。"""
     if not response or "name" not in response:
         raise YouTubeMusicError(f"無効な YouTube Music レスポンス: {response}")
+
+    # related artists
+    related = []
+    for r in response.get("related", {}).get("results", []):
+        related.append(RelatedArtist(
+            name=r.get("title", ""),
+            browse_id=r.get("browseId", ""),
+            subscribers=r.get("subscribers", ""),
+        ))
+
+    # top songs
+    top_songs = None
+    songs_data = response.get("songs", {}).get("results", [])
+    if songs_data:
+        top_songs = [
+            {"title": s.get("title", ""), "video_id": s.get("videoId", "")}
+            for s in songs_data[:10]
+        ]
 
     return YouTubeMusicStats(
         name=response.get("name", ""),
@@ -75,6 +106,9 @@ def extract_youtube_music_stats(response: dict) -> YouTubeMusicStats:
         subscribers=parse_count(response.get("subscribers")),
         monthly_listeners=parse_count(response.get("monthlyListeners")),
         total_views=parse_count(response.get("views")),
+        related_artists=related,
+        description=response.get("description", ""),
+        top_songs=top_songs,
     )
 
 

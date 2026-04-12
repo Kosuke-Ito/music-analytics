@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from collector.scraper import ScrapingError, ScrapingResult, scrape_monthly_listeners
-from collector.storage import add_buzz_event, add_record, evaluate_monthly_listeners, load_data, save_data
+from collector.storage import add_buzz_event, add_record, evaluate_monthly_listeners, load_data, save_data, update_metadata
 from collector.buzz import detect_buzz_events
 from collector.lastfm import LastfmError, fetch_lastfm_stats
 from collector.youtube import YouTubeError, fetch_youtube_stats
@@ -134,6 +134,11 @@ def collect_all(artist_id: str | None = None) -> None:
                 lfm_stats = fetch_lastfm_stats(name, api_key=lastfm_api_key)
                 lastfm_listeners = lfm_stats.listeners
                 lastfm_playcount = lfm_stats.playcount
+                # メタデータ保存（similar_artists, tags）
+                if lfm_stats.similar_artists:
+                    update_metadata(data, "lastfm_similar_artists", lfm_stats.similar_artists)
+                if lfm_stats.tags:
+                    update_metadata(data, "lastfm_tags", lfm_stats.tags)
                 logger.info(f"Last.fm収集完了: {name} - {lastfm_listeners:,} listeners, {lastfm_playcount:,} plays")
             except (LastfmError, Exception) as e:
                 logger.warning(f"Last.fm取得失敗: {name} - {e}")
@@ -148,9 +153,19 @@ def collect_all(artist_id: str | None = None) -> None:
             ytm_subscribers = ytm_stats.subscribers
             ytm_monthly_listeners = ytm_stats.monthly_listeners
             ytm_total_views = ytm_stats.total_views
+            # メタデータ保存（related_artists, top_songs, description）
+            if ytm_stats.related_artists:
+                update_metadata(data, "ytm_related_artists", [
+                    r.to_dict() for r in ytm_stats.related_artists
+                ])
+            if ytm_stats.top_songs:
+                update_metadata(data, "ytm_top_songs", ytm_stats.top_songs)
+            if ytm_stats.description:
+                update_metadata(data, "ytm_description", ytm_stats.description)
             logger.info(
                 f"YouTube Music収集完了: {name} - "
                 f"{ytm_subscribers:,} subs, {ytm_monthly_listeners:,} monthly, {ytm_total_views:,} views"
+                f", {len(ytm_stats.related_artists)} related"
             )
         except (YouTubeMusicError, Exception) as e:
             logger.warning(f"YouTube Music取得失敗: {name} - {e}")

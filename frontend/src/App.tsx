@@ -142,6 +142,7 @@ export default function App() {
                   artistId={selectedArtistId}
                   data={dataById[selectedArtistId]}
                   config={selectedConfig}
+                  dataById={dataById}
                 />
               )}
             </div>
@@ -161,6 +162,7 @@ export default function App() {
                   artistId={selectedArtistId}
                   data={dataById[selectedArtistId]}
                   config={selectedConfig}
+                  dataById={dataById}
                 />
               )}
             </div>
