@@ -70,10 +70,19 @@ export interface Annotation {
   verified?: boolean;
 }
 
+export interface ArtistMetadata {
+  ytm_related_artists?: { name: string; browse_id: string; subscribers: string }[];
+  ytm_top_songs?: { title: string; video_id: string }[];
+  ytm_description?: string;
+  lastfm_similar_artists?: { name: string; url: string }[];
+  lastfm_tags?: string[];
+}
+
 export interface ArtistData {
   artist_id: string;
   artist_name: string;
   records: ListenerRecord[];
   annotations?: Annotation[];
   buzz_events?: BuzzEvent[];
+  metadata?: ArtistMetadata;
 }

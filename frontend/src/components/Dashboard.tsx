@@ -8,6 +8,7 @@ import { LastfmCountries } from "./LastfmCountries";
 import { TopCities } from "./TopCities";
 import { OverseasImpact } from "./OverseasImpact";
 import { SimilarArtists } from "./SimilarArtists";
+import { ArtistMetadataSection } from "./ArtistMetadataSection";
 import { useDateRange, type DateRange, type RangeCounts } from "../hooks/useDateRange";
 import { aggregateRecords, type Granularity } from "../utils/aggregate";
 import type { ArtistConfig, ArtistData } from "../types";
@@ -126,6 +127,7 @@ export function Dashboard({ artistId, data, config, dataById }: DashboardProps) 
       />
       <OverseasImpact records={filteredRecords} />
       {dataById && <SimilarArtists artistId={artistId} dataById={dataById} />}
+      <ArtistMetadataSection metadata={data.metadata} />
       <LiveAttendance attendance={config?.live_attendance} />
     </div>
   );
