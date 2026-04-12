@@ -66,10 +66,20 @@ export function Dashboard({ artistId, data, config, dataById }: DashboardProps) 
     [filteredRecords],
   );
   const visibleAnnotations = useMemo(
-    () => data.annotations?.filter((a) => dates.has(a.date)) ?? [],
+    () => (data.annotations?.filter((a) => dates.has(a.date)) ?? [])
+      .sort((a, b) => a.date.localeCompare(b.date)),
     [data.annotations, dates],
   );
   const [hoveredAnnotation, setHoveredAnnotation] = useState<number | null>(null);
+  const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set());
+  const toggleSection = (key: string) => {
+    setExpandedSections((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  };
 
   return (
     <div className="dashboard fade-in" key={artistId}>
@@ -125,10 +135,26 @@ export function Dashboard({ artistId, data, config, dataById }: DashboardProps) 
         cities={data.records[data.records.length - 1]?.top_cities}
         prevCities={data.records.length >= 2 ? data.records[data.records.length - 2]?.top_cities : undefined}
       />
-      <OverseasImpact records={filteredRecords} />
-      {dataById && <SimilarArtists artistId={artistId} dataById={dataById} />}
-      <ArtistMetadataSection metadata={data.metadata} />
-      <LiveAttendance attendance={config?.live_attendance} />
+      <div className="section-collapsible">
+        <button className="section-toggle" onClick={() => toggleSection("overseas")}>
+          <span className="chart-section-title">海外インパクト分析</span>
+          <span className="section-arrow">{expandedSections.has("overseas") ? "▼" : "▶"}</span>
+        </button>
+        {expandedSections.has("overseas") && <OverseasImpact records={filteredRecords} />}
+      </div>
+      <div className="section-collapsible">
+        <button className="section-toggle" onClick={() => toggleSection("similar")}>
+          <span className="chart-section-title">似ているアーティスト / メタデータ</span>
+          <span className="section-arrow">{expandedSections.has("similar") ? "▼" : "▶"}</span>
+        </button>
+        {expandedSections.has("similar") && (
+          <>
+            {dataById && <SimilarArtists artistId={artistId} dataById={dataById} />}
+            <ArtistMetadataSection metadata={data.metadata} />
+            <LiveAttendance attendance={config?.live_attendance} />
+          </>
+        )}
+      </div>
     </div>
   );
 }

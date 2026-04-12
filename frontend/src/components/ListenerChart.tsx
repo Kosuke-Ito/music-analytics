@@ -77,6 +77,7 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
             tickLine={false}
             axisLine={false}
             width={52}
+            domain={[(d: number) => Math.floor(d * 0.95), (d: number) => Math.ceil(d * 1.05)]}
           />
           {hasDelta && (
             <YAxis
@@ -167,50 +168,69 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
               connectNulls
             />
           )}
-          {visibleAnnotations.map((ann, i) => {
-            const color = CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other;
-            const dimmed = hoveredAnnotation !== null && hoveredAnnotation !== i;
-            return (
-              <ReferenceLine
-                key={`${ann.date}-${ann.title}`}
-                yAxisId="left"
-                x={ann.date}
-                stroke={color}
-                strokeDasharray="3 3"
-                strokeWidth={1}
-                strokeOpacity={dimmed ? 0.1 : 0.4}
-              >
-                <Label
-                  content={({ viewBox }) => {
-                    const vb = viewBox as { x: number; y: number; height: number };
-                    const cx = vb.x;
-                    const cy = vb.y + vb.height + 36;
-                    return (
-                      <g
-                        style={{ cursor: "pointer" }}
-                        opacity={dimmed ? 0.3 : 1}
-                        onMouseEnter={() => onHoverAnnotation(i)}
-                        onMouseLeave={() => onHoverAnnotation(null)}
-                      >
-                        <circle cx={cx} cy={cy} r={10} fill={color} />
-                        <text
-                          x={cx}
-                          y={cy}
-                          textAnchor="middle"
-                          dominantBaseline="central"
-                          fill="#1a1a2e"
-                          fontSize={11}
-                          fontWeight={600}
+          {(() => {
+            // 同日の複数アノテーションを横にオフセットするための事前計算
+            const dateSlotIndex = new Map<string, number>();
+            const dateSlotCount = new Map<string, number>();
+            visibleAnnotations.forEach((a) => {
+              dateSlotCount.set(a.date, (dateSlotCount.get(a.date) ?? 0) + 1);
+            });
+
+            return visibleAnnotations.map((ann, i) => {
+              const color = CATEGORY_COLORS[ann.category] ?? CATEGORY_COLORS.other;
+              const dimmed = hoveredAnnotation !== null && hoveredAnnotation !== i;
+
+              // 同日の何番目か
+              const slotIdx = dateSlotIndex.get(ann.date) ?? 0;
+              dateSlotIndex.set(ann.date, slotIdx + 1);
+              const totalSlots = dateSlotCount.get(ann.date) ?? 1;
+
+              return (
+                <ReferenceLine
+                  key={`${ann.date}-${ann.title}`}
+                  yAxisId="left"
+                  x={ann.date}
+                  stroke={color}
+                  strokeDasharray="3 3"
+                  strokeWidth={1}
+                  strokeOpacity={dimmed ? 0.1 : 0.4}
+                >
+                  <Label
+                    content={({ viewBox }) => {
+                      const vb = viewBox as { x: number; y: number; height: number };
+                      // 同日複数の場合、横にオフセット（-12px, +12px 等）
+                      const offset = totalSlots > 1
+                        ? (slotIdx - (totalSlots - 1) / 2) * 22
+                        : 0;
+                      const cx = vb.x + offset;
+                      const cy = vb.y + vb.height + 36;
+                      return (
+                        <g
+                          style={{ cursor: "pointer" }}
+                          opacity={dimmed ? 0.3 : 1}
+                          onMouseEnter={() => onHoverAnnotation(i)}
+                          onMouseLeave={() => onHoverAnnotation(null)}
                         >
-                          {i + 1}
-                        </text>
-                      </g>
-                    );
-                  }}
-                />
-              </ReferenceLine>
-            );
-          })}
+                          <circle cx={cx} cy={cy} r={10} fill={color} />
+                          <text
+                            x={cx}
+                            y={cy}
+                            textAnchor="middle"
+                            dominantBaseline="central"
+                            fill="#1a1a2e"
+                            fontSize={11}
+                            fontWeight={600}
+                          >
+                            {i + 1}
+                          </text>
+                        </g>
+                      );
+                    }}
+                  />
+                </ReferenceLine>
+              );
+            });
+          })()}
         </ComposedChart>
       </ResponsiveContainer>
     </div>

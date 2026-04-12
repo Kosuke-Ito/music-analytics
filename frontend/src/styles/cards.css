@@ -112,6 +112,52 @@
   gap: 32px;
 }
 
+/* 関連セクション間は密に */
+.dashboard > .chart-section + .annotation-section,
+.dashboard > .annotation-section + .annotation-impact-section {
+  margin-top: -16px;
+}
+
+/* ── Collapsible Sections ── */
+
+.section-collapsible {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  padding: 0 0 8px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.section-toggle:hover .chart-section-title {
+  color: var(--text-primary);
+}
+
+.section-toggle .chart-section-title {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.section-arrow {
+  font-size: 10px;
+  color: var(--text-muted);
+  transition: color 0.2s;
+}
+
+.section-toggle:hover .section-arrow {
+  color: var(--accent);
+}
+
 /* ── Dashboard Controls ── */
 
 .dashboard-controls {
@@ -300,12 +346,12 @@
 }
 
 .stat-card.stat-warning {
-  border-left: 3px solid #fbbf24;
+  border-left: 3px solid var(--warning);
 }
 
 .stat-card.stat-warning .stat-value {
   font-size: 16px;
-  color: #fbbf24;
+  color: var(--warning);
 }
 
 .stat-label--tooltip {
@@ -331,7 +377,8 @@
 .stat-label--tooltip .stat-tooltip {
   display: none;
   position: absolute;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   top: calc(100% + 8px);
   background: #1a2233;
   border: 1px solid var(--border-hover);

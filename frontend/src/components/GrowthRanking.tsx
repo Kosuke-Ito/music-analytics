@@ -64,12 +64,11 @@ export function GrowthRanking({ artists, dataById, onSelect }: GrowthRankingProp
         };
       })
       .sort((a, b) => {
-        const key = sortBy === "1d" ? "daily" : "weekly";
-        const av = a[key];
-        const bv = b[key];
-        if (av === null && bv === null) return 0;
-        if (av === null) return 1;
-        if (bv === null) return -1;
+        const av = sortBy === "1d" ? a.dailyAbs : a.weekly;
+        const bv = sortBy === "1d" ? b.dailyAbs : b.weekly;
+        if (av == null && bv == null) return 0;
+        if (av == null) return 1;
+        if (bv == null) return -1;
         return bv - av;
       });
   }, [artists, dataById, metric, sortBy]);
