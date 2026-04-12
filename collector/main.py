@@ -72,6 +72,10 @@ def collect_all(artist_id: str | None = None) -> None:
         logger.error(f"指定されたアーティストが見つかりません: {artist_id}")
         sys.exit(1)
 
+    # 収集統計
+    stats = {"success": [], "spotify_fail": [], "youtube_fail": [], "lastfm_fail": [], "ytm_fail": []}
+    start_time = time.time()
+
     for artist in targets:
         aid = artist["id"]
         spotify_id = artist["spotify_artist_id"]
@@ -84,6 +88,7 @@ def collect_all(artist_id: str | None = None) -> None:
             result = scrape_monthly_listeners_with_retry(spotify_id)
         except ScrapingError as e:
             logger.error(f"Spotify スクレイピング失敗: {name} - {e}")
+            stats["spotify_fail"].append(name)
             continue
 
         data = load_data(data_path, artist_id=spotify_id, artist_name=name)
@@ -124,6 +129,7 @@ def collect_all(artist_id: str | None = None) -> None:
                 )
             except (YouTubeError, Exception) as e:
                 logger.warning(f"YouTube取得失敗: {name} - {e}")
+                stats["youtube_fail"].append(name)
 
         # Last.fm収集
         lastfm_listeners = None
@@ -142,6 +148,7 @@ def collect_all(artist_id: str | None = None) -> None:
                 logger.info(f"Last.fm収集完了: {name} - {lastfm_listeners:,} listeners, {lastfm_playcount:,} plays")
             except (LastfmError, Exception) as e:
                 logger.warning(f"Last.fm取得失敗: {name} - {e}")
+                stats["lastfm_fail"].append(name)
 
         # YouTube Music 収集（unofficial API、認証不要）
         ytm_subscribers = None
@@ -169,6 +176,7 @@ def collect_all(artist_id: str | None = None) -> None:
             )
         except (YouTubeMusicError, Exception) as e:
             logger.warning(f"YouTube Music取得失敗: {name} - {e}")
+            stats["ytm_fail"].append(name)
 
         data = add_record(
             data,
@@ -198,12 +206,28 @@ def collect_all(artist_id: str | None = None) -> None:
             )
 
         save_data(data_path, data)
+        stats["success"].append(name)
         logger.info(
             f"収集完了: {name} - {result.monthly_listeners:,} listeners, "
             f"{result.followers:,} followers"
             + (f", {youtube_subscribers:,} subscribers" if youtube_subscribers else "")
             + (f" [flags: {validation_flags}]" if validation_flags else "")
         )
+
+    # 収集統計サマリー
+    elapsed = time.time() - start_time
+    logger.info("=" * 50)
+    logger.info(f"📊 収集完了サマリー ({elapsed:.0f}秒)")
+    logger.info(f"  ✅ 成功: {len(stats['success'])}/{len(targets)}")
+    if stats["spotify_fail"]:
+        logger.warning(f"  ❌ Spotify失敗: {', '.join(stats['spotify_fail'])}")
+    if stats["youtube_fail"]:
+        logger.warning(f"  ⚠️  YouTube失敗: {', '.join(stats['youtube_fail'])}")
+    if stats["lastfm_fail"]:
+        logger.warning(f"  ⚠️  Last.fm失敗: {', '.join(stats['lastfm_fail'])}")
+    if stats["ytm_fail"]:
+        logger.warning(f"  ⚠️  YTM失敗: {', '.join(stats['ytm_fail'])}")
+    logger.info("=" * 50)
 
 
 if __name__ == "__main__":
