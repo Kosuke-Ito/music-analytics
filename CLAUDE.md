@@ -114,14 +114,45 @@ docs:     ドキュメント
 - **TopCities は上位5都市のみ**（ページネーション不可）
 - Spotify がページ構造を変えると壊れる可能性あり
 - リトライ機構あり（最大3回、5秒間隔）
+- 2026年2月の API 規制で followers/popularity/genres が公式 API から削除された
 
 ### YouTube Data API v3
-- 登録者数は YouTube 側で丸められた値（100万以上は万単位）→ 細かい変動は見えない
+- channels.list: subscribers, total_views, video_count
+- videos.list: 楽曲ごとの viewCount/likeCount/commentCount（song_performance）
+- 登録者数は丸められた値（100万以上は万単位）
 - 過去履歴は取得不可、毎日蓄積する必要あり
 
+### YouTube Music (ytmusicapi, unofficial)
+- monthly_listeners（Spotify 相当の重要指標）、subscribers、related_artists、top_songs
+- 認証不要、無料
+- config.json の `ytm_browse_id` で検索結果をキャッシュ（wrong hit 防止）
+- YouTube の仕様変更で壊れる可能性あり（graceful fallback 対応）
+
 ### Last.fm
+- listeners, playcount, similar_artists, tags を取得
+- **UI には表示していない**が、収集は継続（metadata として保存）
 - ヘビーリスナーのみが対象（カジュアルリスナー含まれない）→ サンプルバイアスあり
-- 累計再生回数はSpotifyでは取れない貴重な指標
+
+### バズ検知 (collector/buzz.py)
+- 移動平均 + 標準偏差で異常な上昇を検出（2.0σ 閾値）
+- 3分類: annotated（施策連動）/ organic（自然発生、最重要）/ seasonal（季節パターン）
+- organic バズの JP アーティストは investigate-buzz.yml で自動原因調査
+
+### 楽曲パフォーマンス
+- metadata.ytm_top_songs の video_id → YouTube videos.list で統計取得
+- data/{artist_id}.json の song_performance セクションに日次蓄積
+
+## バッチスケジュール
+
+夜間実行（その日1日の変動を反映してから記録）:
+- **JST 23:00** (UTC 14:00): データ収集 + バズ検知 + 楽曲統計
+- **JST 23:30** (UTC 14:30): ニュース収集
+- **JST 24:00** (UTC 15:00): バズ原因調査（organic + JP のみ）
+
+### バリデーション
+```bash
+python -m collector.validate  # 全データファイル + config.json の整合性チェック
+```
 
 ## ホスティング
 
