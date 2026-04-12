@@ -10,6 +10,7 @@ import { TopCities } from "./TopCities";
 import { OverseasImpact } from "./OverseasImpact";
 import { SimilarArtists } from "./SimilarArtists";
 import { ArtistMetadataSection } from "./ArtistMetadataSection";
+import { SongPerformance } from "./SongPerformance";
 import { useDateRange, type DateRange, type RangeCounts } from "../hooks/useDateRange";
 import { aggregateRecords, type Granularity } from "../utils/aggregate";
 import type { ArtistConfig, ArtistData } from "../types";
@@ -132,6 +133,7 @@ export function Dashboard({ artistId, data, config, dataById }: DashboardProps) 
         onHoverAnnotation={setHoveredAnnotation}
       />
       <AnnotationImpact records={filteredRecords} annotations={data.annotations} />
+      <SongPerformance songPerformance={data.song_performance} />
       <TopCities
         cities={data.records[data.records.length - 1]?.top_cities}
         prevCities={data.records.length >= 2 ? data.records[data.records.length - 2]?.top_cities : undefined}

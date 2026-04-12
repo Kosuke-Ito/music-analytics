@@ -78,6 +78,20 @@ export interface ArtistMetadata {
   lastfm_tags?: string[];
 }
 
+export interface SongPerformanceEntry {
+  date: string;
+  views: number;
+  likes: number;
+  comments: number;
+}
+
+export interface SongPerformanceData {
+  [videoId: string]: {
+    title: string;
+    history: SongPerformanceEntry[];
+  };
+}
+
 export interface ArtistData {
   artist_id: string;
   artist_name: string;
@@ -85,4 +99,5 @@ export interface ArtistData {
   annotations?: Annotation[];
   buzz_events?: BuzzEvent[];
   metadata?: ArtistMetadata;
+  song_performance?: SongPerformanceData;
 }

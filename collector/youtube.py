@@ -16,6 +16,14 @@ class YouTubeStats:
     video_count: int = 0
 
 
+@dataclass
+class VideoStats:
+    video_id: str
+    view_count: int
+    like_count: int
+    comment_count: int
+
+
 def extract_subscriber_count(response: dict) -> int:
     """YouTube API レスポンスから登録者数を抽出する。"""
     items = response.get("items")
@@ -70,6 +78,47 @@ def fetch_youtube_stats(
     resp.raise_for_status()
     data = resp.json()
     return extract_youtube_stats(data)
+
+
+def extract_video_stats(response: dict) -> list[VideoStats]:
+    """YouTube API レスポンスから動画統計を抽出する。"""
+    items = response.get("items", [])
+    results = []
+    for item in items:
+        stats = item.get("statistics", {})
+        results.append(VideoStats(
+            video_id=item.get("id", ""),
+            view_count=int(stats.get("viewCount", "0")),
+            like_count=int(stats.get("likeCount", "0")),
+            comment_count=int(stats.get("commentCount", "0")),
+        ))
+    return results
+
+
+def fetch_video_stats(
+    video_ids: list[str],
+    api_key: str,
+    base_url: str = YOUTUBE_API_BASE,
+) -> list[VideoStats]:
+    """YouTube Data API v3 で複数動画の統計を一括取得する。"""
+    if not video_ids:
+        return []
+
+    url = f"{base_url}/videos"
+    params = {
+        "part": "statistics",
+        "id": ",".join(video_ids[:50]),
+        "key": api_key,
+    }
+
+    if "127.0.0.1" in base_url or "localhost" in base_url:
+        resp = requests.get(base_url, params=params, timeout=10)
+    else:
+        resp = requests.get(url, params=params, timeout=10)
+
+    resp.raise_for_status()
+    data = resp.json()
+    return extract_video_stats(data)
 
 
 # 後方互換

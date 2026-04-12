@@ -8,10 +8,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from collector.scraper import ScrapingError, ScrapingResult, scrape_monthly_listeners
-from collector.storage import add_buzz_event, add_record, evaluate_monthly_listeners, load_data, save_data, update_metadata
+from collector.storage import add_buzz_event, add_record, add_song_performance, evaluate_monthly_listeners, load_data, save_data, update_metadata
 from collector.buzz import detect_buzz_events
 from collector.lastfm import LastfmError, fetch_lastfm_stats
-from collector.youtube import YouTubeError, fetch_youtube_stats
+from collector.youtube import YouTubeError, fetch_youtube_stats, fetch_video_stats
 from collector.youtube_music import YouTubeMusicError, fetch_youtube_music_stats
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
@@ -177,6 +177,30 @@ def collect_all(artist_id: str | None = None) -> None:
         except (YouTubeMusicError, Exception) as e:
             logger.warning(f"YouTube Music取得失敗: {name} - {e}")
             stats["ytm_fail"].append(name)
+
+        # 楽曲統計の収集（YouTube Data API v3 videos.list）
+        if youtube_api_key and ytm_stats and ytm_stats.top_songs:
+            video_ids = [s["video_id"] for s in ytm_stats.top_songs if s.get("video_id")]
+            if video_ids:
+                try:
+                    v_stats = fetch_video_stats(video_ids, api_key=youtube_api_key)
+                    song_entries = []
+                    for vs in v_stats:
+                        title = next(
+                            (s["title"] for s in ytm_stats.top_songs if s["video_id"] == vs.video_id),
+                            "",
+                        )
+                        song_entries.append({
+                            "video_id": vs.video_id,
+                            "title": title,
+                            "views": vs.view_count,
+                            "likes": vs.like_count,
+                            "comments": vs.comment_count,
+                        })
+                    add_song_performance(data, today, song_entries)
+                    logger.info(f"楽曲統計収集完了: {name} - {len(song_entries)} 曲")
+                except Exception as e:
+                    logger.warning(f"楽曲統計取得失敗: {name} - {e}")
 
         data = add_record(
             data,

@@ -1,0 +1,101 @@
+/* ── Song Performance ── */
+
+.song-perf-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.song-perf-list {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.song-perf-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+}
+
+.song-perf-item:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+}
+
+.song-perf-rank {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  width: 20px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.song-perf-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.song-perf-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.song-perf-likes {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.song-perf-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.song-perf-views {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.song-perf-delta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.song-perf-delta.positive {
+  color: var(--positive);
+}
+
+.song-perf-delta.negative {
+  color: var(--negative);
+}
+
+@media (max-width: 640px) {
+  .song-perf-title {
+    font-size: 13px;
+  }
+
+  .song-perf-views {
+    font-size: 12px;
+  }
+}

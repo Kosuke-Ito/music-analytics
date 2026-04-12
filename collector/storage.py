@@ -220,6 +220,41 @@ def update_metadata(data: dict, key: str, value) -> dict:
     return data
 
 
+def add_song_performance(data: dict, date: str, songs: list[dict]) -> dict:
+    """楽曲パフォーマンスを song_performance セクションに追記する。
+
+    Args:
+        data: アーティストデータ
+        date: 日付 (YYYY-MM-DD)
+        songs: [{video_id, title, views, likes, comments}]
+    """
+    if "song_performance" not in data:
+        data["song_performance"] = {}
+
+    for song in songs:
+        vid = song["video_id"]
+        if vid not in data["song_performance"]:
+            data["song_performance"][vid] = {"title": song.get("title", ""), "history": []}
+
+        entry = {"date": date, "views": song["views"], "likes": song["likes"], "comments": song["comments"]}
+        history = data["song_performance"][vid]["history"]
+
+        # 同日更新
+        for i, h in enumerate(history):
+            if h["date"] == date:
+                history[i] = entry
+                return data
+
+        history.append(entry)
+        history.sort(key=lambda h: h["date"])
+
+        # タイトル更新
+        if song.get("title"):
+            data["song_performance"][vid]["title"] = song["title"]
+
+    return data
+
+
 def add_buzz_event(data: dict, event_dict: dict) -> dict:
     """バズイベントを追加する。同日+同metric の重複は無視。"""
     if "buzz_events" not in data:
