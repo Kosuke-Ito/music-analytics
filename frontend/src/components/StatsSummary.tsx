@@ -42,17 +42,6 @@ export function StatsSummary({ records }: StatsSummaryProps) {
     previous?.youtube_subscribers != null && current.youtube_subscribers != null
       ? current.youtube_subscribers - previous.youtube_subscribers
       : null;
-  const subscriberWeekChange =
-    weekAgo?.youtube_subscribers != null && current.youtube_subscribers != null
-      ? current.youtube_subscribers - weekAgo.youtube_subscribers
-      : null;
-  const subscriberWeekPct =
-    weekAgo &&
-    weekAgo.youtube_subscribers != null &&
-    weekAgo.youtube_subscribers > 0 &&
-    current.youtube_subscribers != null
-      ? ((current.youtube_subscribers - weekAgo.youtube_subscribers) / weekAgo.youtube_subscribers) * 100
-      : null;
 
   const dataWarning = current.validation_flags?.includes("large_monthly_listener_delta");
   const hasYoutube = current.youtube_subscribers != null;
@@ -124,23 +113,31 @@ export function StatsSummary({ records }: StatsSummaryProps) {
         </div>
       </div>
 
-      {hasYoutube && (
+      {(hasYoutube || hasYoutubeMusic) && (
         <div className="stats-group">
           <div className="stats-group-title">YouTube</div>
           <div className="stats-summary">
-            <div className="stat-card">
-              <span className="stat-label stat-label--tooltip">
-                Subscribers <span className="stat-help">?</span>
-                <span className="stat-tooltip"><strong>Subscribers（チャンネル登録者数）</strong><br />⚠️ YouTube APIは丸めた値を返します（100万超は万単位）。日次の細かい変動は見えないため、トレンドは長期で見るのが重要。</span>
-              </span>
-              <span className="stat-value">{formatNumber(current.youtube_subscribers!)}</span>
-            </div>
-            {current.youtube_total_views != null && (
+            {current.ytm_monthly_listeners != null && (
               <div className="stat-card">
                 <span className="stat-label stat-label--tooltip">
-                  Total Views <span className="stat-help">?</span>
-                  <span className="stat-tooltip"><strong>Total Views（総再生回数）</strong><br />このチャンネルの全動画の累計再生回数。MV公開や話題化で大きく伸びる。前日比はリアルタイムの注目度を示す。</span>
+                  Monthly Listeners <span className="stat-help">?</span>
+                  <span className="stat-tooltip"><strong>YouTube Music Monthly Listeners</strong><br />YouTube Music で過去28日間にこのアーティストを聴いたユニークユーザー数。Spotify の月間リスナーに相当する重要指標。</span>
                 </span>
+                <span className="stat-value">{formatNumber(current.ytm_monthly_listeners)}</span>
+              </div>
+            )}
+            {hasYoutube && (
+              <div className="stat-card">
+                <span className="stat-label stat-label--tooltip">
+                  Subscribers <span className="stat-help">?</span>
+                  <span className="stat-tooltip"><strong>チャンネル登録者数</strong><br />⚠️ YouTube APIは丸めた値を返します（100万超は万単位）。長期トレンドで見るのが重要。</span>
+                </span>
+                <span className="stat-value">{formatNumber(current.youtube_subscribers!)}</span>
+              </div>
+            )}
+            {current.youtube_total_views != null && (
+              <div className="stat-card">
+                <span className="stat-label">Total Views</span>
                 <span className="stat-value">{formatCompact(current.youtube_total_views)}</span>
               </div>
             )}
@@ -153,57 +150,13 @@ export function StatsSummary({ records }: StatsSummaryProps) {
                 </span>
               </div>
             )}
-            {subscriberWeekChange !== null && (
-              <div className="stat-card">
-                <span className="stat-label">7日比</span>
-                <span className={`stat-value ${subscriberWeekChange >= 0 ? "positive" : "negative"}`}>
-                  {subscriberWeekChange >= 0 ? "+" : ""}
-                  {formatNumber(subscriberWeekChange)}
-                  {subscriberWeekPct !== null && (
-                    <span className="stat-sub"> ({formatPct(subscriberWeekPct)})</span>
-                  )}
-                </span>
-              </div>
-            )}
             {ytEfficiency !== null && (
               <div className="stat-card">
                 <span className="stat-label stat-label--tooltip">
                   Efficiency <span className="stat-help">?</span>
-                  <span className="stat-tooltip"><strong>Efficiency（視聴効率）</strong><br />総再生回数 ÷ チャンネル登録者数。1人の登録者が平均何回動画を再生しているかの目安。高いほどコンテンツがアクティブに視聴されている。</span>
+                  <span className="stat-tooltip"><strong>Efficiency（視聴効率）</strong><br />総再生回数 ÷ チャンネル登録者数。高いほどコンテンツがアクティブに視聴されている。</span>
                 </span>
                 <span className="stat-value">{ytEfficiency.toFixed(1)} <span className="stat-sub">views/sub</span></span>
-              </div>
-            )}
-          </div>
-        </div>
-      )}
-
-      {hasYoutubeMusic && (
-        <div className="stats-group">
-          <div className="stats-group-title">YouTube Music</div>
-          <div className="stats-summary">
-            {current.ytm_monthly_listeners != null && (
-              <div className="stat-card">
-                <span className="stat-label stat-label--tooltip">
-                  Monthly Listeners <span className="stat-help">?</span>
-                  <span className="stat-tooltip"><strong>YouTube Music Monthly Listeners</strong><br />YouTube Music で過去28日間にこのアーティストを聴いたユニークユーザー数。Spotify の月間リスナーに相当する重要指標。日本でも YouTube Music ユーザーが増えており、Spotify と並ぶシグナル。</span>
-                </span>
-                <span className="stat-value">{formatNumber(current.ytm_monthly_listeners)}</span>
-              </div>
-            )}
-            {current.ytm_subscribers != null && (
-              <div className="stat-card">
-                <span className="stat-label stat-label--tooltip">
-                  Subscribers <span className="stat-help">?</span>
-                  <span className="stat-tooltip"><strong>YouTube Music Subscribers</strong><br />⚠️ 丸め値で返ってきます（YouTube側の仕様）。長期トレンドを追う指標として使う。</span>
-                </span>
-                <span className="stat-value">{formatNumber(current.ytm_subscribers)}</span>
-              </div>
-            )}
-            {current.ytm_total_views != null && (
-              <div className="stat-card">
-                <span className="stat-label">Total Views</span>
-                <span className="stat-value">{formatCompact(current.ytm_total_views)}</span>
               </div>
             )}
           </div>

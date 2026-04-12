@@ -162,7 +162,7 @@ export function ListenerChart({ records, visibleAnnotations, hoveredAnnotation, 
             wrapperStyle={{ fontSize: 12, color: "var(--text-secondary)" }}
           />
           {hasDelta && (
-            <Bar yAxisId="right" dataKey="delta" barSize={12} radius={[3, 3, 0, 0]}>
+            <Bar yAxisId="right" dataKey="delta" barSize={12} radius={[3, 3, 0, 0]} fill="var(--text-muted)">
               {chartData.map((entry, index) => (
                 <Cell
                   key={index}
