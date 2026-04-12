@@ -115,8 +115,10 @@ export function Dashboard({ artistId, data, config, dataById }: DashboardProps) 
           ))}
         </div>
       </div>
+      {/* 1. 数値サマリー（最重要、スクロールなしで見える） */}
       <StatsSummary records={filteredRecords} />
-      {/* Last.fm は収集継続するが、表示は非表示（重要度低） */}
+
+      {/* 2. トレンドチャート + ニュース（施策インパクト計測の核心） */}
       <div className="chart-section">
         <span className="chart-section-title">Listener Trend</span>
         <ListenerChart
@@ -132,8 +134,12 @@ export function Dashboard({ artistId, data, config, dataById }: DashboardProps) 
         hoveredAnnotation={hoveredAnnotation}
         onHoverAnnotation={setHoveredAnnotation}
       />
-      <AnnotationImpact records={filteredRecords} annotations={data.annotations} />
+
+      {/* 3. 楽曲パフォーマンス + イベント影響度（施策の効果確認） */}
       <SongPerformance songPerformance={data.song_performance} />
+      <AnnotationImpact records={filteredRecords} annotations={data.annotations} />
+
+      {/* 4. 地域分析（展開戦略） */}
       <TopCities
         cities={data.records[data.records.length - 1]?.top_cities}
         prevCities={data.records.length >= 2 ? data.records[data.records.length - 2]?.top_cities : undefined}
@@ -145,12 +151,14 @@ export function Dashboard({ artistId, data, config, dataById }: DashboardProps) 
         </button>
         {expandedSections.has("overseas") && <OverseasImpact records={filteredRecords} />}
       </div>
+
+      {/* 5. 類似分析 + メタデータ（戦略立案の参考情報） */}
       <div className="section-collapsible">
-        <button className="section-toggle" onClick={() => toggleSection("similar")}>
-          <span className="chart-section-title">似ているアーティスト / メタデータ</span>
-          <span className="section-arrow">{expandedSections.has("similar") ? "▼" : "▶"}</span>
+        <button className="section-toggle" onClick={() => toggleSection("details")}>
+          <span className="chart-section-title">類似アーティスト / 詳細情報</span>
+          <span className="section-arrow">{expandedSections.has("details") ? "▼" : "▶"}</span>
         </button>
-        {expandedSections.has("similar") && (
+        {expandedSections.has("details") && (
           <>
             {dataById && <SimilarArtists artistId={artistId} dataById={dataById} />}
             <ArtistMetadataSection metadata={data.metadata} />
