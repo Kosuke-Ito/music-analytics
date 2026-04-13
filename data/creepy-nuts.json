@@ -292,6 +292,47 @@
       "validation_flags": [
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-04-13",
+      "monthly_listeners": 5927736,
+      "collected_at": "2026-04-13T02:47:54.871726+00:00",
+      "spotify_followers": 2309575,
+      "youtube_subscribers": 2410000,
+      "youtube_total_views": 1816241355,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 129141
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 103193
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 82744
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 70018
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 64529
+        }
+      ],
+      "lastfm_listeners": 604732,
+      "lastfm_playcount": 20997176,
+      "ytm_subscribers": 2410000,
+      "ytm_monthly_listeners": 124000000,
+      "ytm_total_views": 1802584620
     }
   ],
   "annotations": [
@@ -369,39 +410,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "643K"
-      },
-      {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "23.5M"
-      },
-      {
-        "name": "ORANGE RANGE",
-        "browse_id": "UCoN5y13tQwDzd02G1sKVXMA",
-        "subscribers": "8.39M"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "7.33M"
-      },
-      {
         "name": "nobodyknows+",
         "browse_id": "UCh1E5xa7wkeb_xzSyM8CkxA",
         "subscribers": "16.3K"
-      },
-      {
-        "name": "AKASAKI",
-        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
-        "subscribers": "6.1M"
-      },
-      {
-        "name": "Umedacypher",
-        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
-        "subscribers": "686K"
       },
       {
         "name": "MAISONdes ",
@@ -409,14 +420,44 @@
         "subscribers": "4.76M"
       },
       {
-        "name": "Kocchi no Kento",
-        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
-        "subscribers": "81.3M"
+        "name": "Umedacypher",
+        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
+        "subscribers": "686K"
+      },
+      {
+        "name": "Frederic",
+        "browse_id": "UCFTm4lY-D08LFZyncZIoDIQ",
+        "subscribers": "9.47M"
+      },
+      {
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "24.6M"
+      },
+      {
+        "name": "MILLENNIUM PARADE",
+        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
+        "subscribers": "1.53M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "7.33M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "23.5M"
       },
       {
         "name": "Sambomaster",
         "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
         "subscribers": "4.18M"
+      },
+      {
+        "name": "ALI",
+        "browse_id": "UCcM2nwYSXoS0pRpljTefmpg",
+        "subscribers": "8.1M"
       }
     ],
     "ytm_top_songs": [
@@ -455,6 +496,18 @@
       "type": "annotated",
       "related_annotation": "新曲「Fright」を配信リリース",
       "detected_at": "2026-04-12T05:52:05.028374+00:00"
+    },
+    {
+      "date": "2026-04-13",
+      "metric": "monthly_listeners",
+      "value": 5927736,
+      "baseline_mean": 5873929.9,
+      "baseline_stddev": 13439.9,
+      "delta": 53806,
+      "score": 4.0,
+      "type": "annotated",
+      "related_annotation": "新曲「Fright」を配信リリース",
+      "detected_at": "2026-04-13T02:47:56.024661+00:00"
     }
   ],
   "song_performance": {
@@ -466,6 +519,12 @@
           "views": 18121777,
           "likes": 239521,
           "comments": 804
+        },
+        {
+          "date": "2026-04-13",
+          "views": 18154941,
+          "likes": 239963,
+          "comments": 805
         }
       ]
     },
@@ -477,6 +536,12 @@
           "views": 16234894,
           "likes": 224450,
           "comments": 877
+        },
+        {
+          "date": "2026-04-13",
+          "views": 16273745,
+          "likes": 224934,
+          "comments": 879
         }
       ]
     },
@@ -487,6 +552,12 @@
           "date": "2026-04-12",
           "views": 6182137,
           "likes": 85334,
+          "comments": 1063
+        },
+        {
+          "date": "2026-04-13",
+          "views": 6193651,
+          "likes": 85438,
           "comments": 1063
         }
       ]
@@ -499,6 +570,12 @@
           "views": 11471637,
           "likes": 107066,
           "comments": 463
+        },
+        {
+          "date": "2026-04-13",
+          "views": 11479418,
+          "likes": 107147,
+          "comments": 463
         }
       ]
     },
@@ -509,6 +586,12 @@
           "date": "2026-04-12",
           "views": 5521599,
           "likes": 52242,
+          "comments": 176
+        },
+        {
+          "date": "2026-04-13",
+          "views": 5524802,
+          "likes": 52270,
           "comments": 176
         }
       ]

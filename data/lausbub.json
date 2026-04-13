@@ -309,6 +309,47 @@
       "validation_flags": [
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-04-13",
+      "monthly_listeners": 36118,
+      "collected_at": "2026-04-13T02:48:11.465923+00:00",
+      "spotify_followers": 18175,
+      "youtube_subscribers": 17700,
+      "youtube_total_views": 686151,
+      "youtube_video_count": 27,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1939
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1337
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 777
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 558
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 498
+        }
+      ],
+      "lastfm_listeners": 6788,
+      "lastfm_playcount": 42925,
+      "ytm_subscribers": 17700,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 647718
     }
   ],
   "annotations": [
@@ -428,6 +469,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-12T05:52:20.366520+00:00"
+    },
+    {
+      "date": "2026-04-13",
+      "metric": "monthly_listeners",
+      "value": 36118,
+      "baseline_mean": 28484.9,
+      "baseline_stddev": 1875.2,
+      "delta": 7633,
+      "score": 4.07,
+      "type": "annotated",
+      "related_annotation": "映画「炎上」公開 - Mei出演・Rico音楽担当",
+      "detected_at": "2026-04-13T02:48:12.868230+00:00"
     }
   ],
   "song_performance": {
@@ -439,6 +492,12 @@
           "views": 655,
           "likes": 17,
           "comments": 0
+        },
+        {
+          "date": "2026-04-13",
+          "views": 702,
+          "likes": 18,
+          "comments": 0
         }
       ]
     },
@@ -448,6 +507,12 @@
         {
           "date": "2026-04-12",
           "views": 5542,
+          "likes": 164,
+          "comments": 6
+        },
+        {
+          "date": "2026-04-13",
+          "views": 5562,
           "likes": 164,
           "comments": 6
         }
@@ -461,6 +526,12 @@
           "views": 19922,
           "likes": 181,
           "comments": 2
+        },
+        {
+          "date": "2026-04-13",
+          "views": 19946,
+          "likes": 181,
+          "comments": 2
         }
       ]
     },
@@ -472,6 +543,12 @@
           "views": 12259,
           "likes": 194,
           "comments": 0
+        },
+        {
+          "date": "2026-04-13",
+          "views": 12274,
+          "likes": 194,
+          "comments": 0
         }
       ]
     },
@@ -481,6 +558,12 @@
         {
           "date": "2026-04-12",
           "views": 9158,
+          "likes": 113,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-13",
+          "views": 9161,
           "likes": 113,
           "comments": 0
         }
