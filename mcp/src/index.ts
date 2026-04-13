@@ -15,9 +15,19 @@ import { z } from "zod";
 const API_BASE =
   process.env.MUSIC_ANALYTICS_API || "https://artist-analytics.pages.dev";
 
+const API_AUTH_USER = process.env.MUSIC_ANALYTICS_API_USER || "";
+const API_AUTH_PASS = process.env.MUSIC_ANALYTICS_API_PASS || "";
+
 async function apiFetch(path: string): Promise<unknown> {
   const url = `${API_BASE}${path}`;
-  const resp = await fetch(url);
+  const headers: Record<string, string> = {};
+
+  if (API_AUTH_USER && API_AUTH_PASS) {
+    const credentials = btoa(`${API_AUTH_USER}:${API_AUTH_PASS}`);
+    headers["Authorization"] = `Basic ${credentials}`;
+  }
+
+  const resp = await fetch(url, { headers });
   if (!resp.ok) {
     const body = await resp.text().catch(() => "");
     throw new Error(`API error ${resp.status}: ${body}`);
@@ -39,7 +49,7 @@ server.tool(
   "Get complete data for an artist including records, annotations, buzz events, metadata, and song performance",
   { artist_id: z.string().describe("Artist ID (e.g., 'yoasobi', 'king-gnu')") },
   async ({ artist_id }) => {
-    const data = await apiFetch(`/api/artists/${encodeURIComponent(artist_id)}`);
+    const data = await apiFetch(`/api/v1/artists/${encodeURIComponent(artist_id)}`);
     return {
       content: [{ type: "text" as const, text: JSON.stringify(data, null, 2) }],
     };
@@ -53,7 +63,7 @@ server.tool(
   "List all tracked artists, optionally filtered by region",
   { region: z.enum(["jp", "global"]).optional().describe("Filter by region: 'jp' or 'global'") },
   async ({ region }) => {
-    const path = region ? `/api/artists?region=${region}` : "/api/artists";
+    const path = region ? `/api/v1/artists?region=${region}` : "/api/v1/artists";
     const data = await apiFetch(path);
     return {
       content: [{ type: "text" as const, text: JSON.stringify(data, null, 2) }],
@@ -71,7 +81,7 @@ server.tool(
     type: z.enum(["annotated", "organic", "seasonal"]).optional().describe("Filter by buzz type"),
   },
   async ({ artist_id, type }) => {
-    let path = `/api/artists/${encodeURIComponent(artist_id)}/buzz`;
+    let path = `/api/v1/artists/${encodeURIComponent(artist_id)}/buzz`;
     if (type) path += `?type=${type}`;
     const data = await apiFetch(path);
     return {
@@ -93,7 +103,7 @@ server.tool(
       .describe("Filter by category"),
   },
   async ({ artist_id, category }) => {
-    let path = `/api/artists/${encodeURIComponent(artist_id)}/annotations`;
+    let path = `/api/v1/artists/${encodeURIComponent(artist_id)}/annotations`;
     if (category) path += `?category=${category}`;
     const data = await apiFetch(path);
     return {
@@ -109,7 +119,7 @@ server.tool(
   "Search for artists by name (partial match)",
   { query: z.string().describe("Search query (artist name)") },
   async ({ query }) => {
-    const data = await apiFetch(`/api/search?q=${encodeURIComponent(query)}`);
+    const data = await apiFetch(`/api/v1/search?q=${encodeURIComponent(query)}`);
     return {
       content: [{ type: "text" as const, text: JSON.stringify(data, null, 2) }],
     };
