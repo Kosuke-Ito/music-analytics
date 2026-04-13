@@ -1,0 +1,22 @@
+{
+  "name": "@music-analytics/mcp",
+  "version": "0.1.0",
+  "description": "MCP server for music analytics — query artist data, buzz events, and annotations",
+  "type": "module",
+  "bin": {
+    "music-analytics-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "~5.9.3",
+    "@types/node": "^24.0.0"
+  }
+}
