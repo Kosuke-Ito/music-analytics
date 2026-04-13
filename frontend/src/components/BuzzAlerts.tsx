@@ -60,7 +60,7 @@ export function BuzzAlerts({ artists, dataById }: BuzzAlertsProps) {
     return items;
   }, [artists, dataById]);
 
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   if (alerts.length === 0) return null;
 
