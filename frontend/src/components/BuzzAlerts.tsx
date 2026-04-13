@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import type { ArtistConfig, ArtistData, BuzzEvent } from "../types";
 import { formatNumber, formatCompact } from "../utils/format";
 
@@ -60,12 +60,17 @@ export function BuzzAlerts({ artists, dataById }: BuzzAlertsProps) {
     return items;
   }, [artists, dataById]);
 
+  const [isOpen, setIsOpen] = useState(true);
+
   if (alerts.length === 0) return null;
 
   return (
-    <div className="buzz-alerts">
-      <span className="chart-section-title">注目アーティスト</span>
-      <div className="buzz-list">
+    <div className="buzz-alerts section-collapsible">
+      <button className="section-toggle" onClick={() => setIsOpen((v) => !v)}>
+        <span className="chart-section-title">注目アーティスト ({alerts.length})</span>
+        <span className="section-arrow">{isOpen ? "▼" : "▶"}</span>
+      </button>
+      {isOpen && <div className="buzz-list">
         {alerts.map((alert) => (
           <div
             key={`${alert.artistId}-${alert.event.date}-${alert.event.metric}`}
@@ -97,7 +102,7 @@ export function BuzzAlerts({ artists, dataById }: BuzzAlertsProps) {
             <span className="buzz-date">{alert.event.date}</span>
           </div>
         ))}
-      </div>
+      </div>}
     </div>
   );
 }
