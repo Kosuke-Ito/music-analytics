@@ -342,6 +342,47 @@
       "ytm_subscribers": 5000000,
       "ytm_monthly_listeners": 9710000,
       "ytm_total_views": 2358455205
+    },
+    {
+      "date": "2026-04-15",
+      "monthly_listeners": 3591487,
+      "collected_at": "2026-04-15T03:29:34.222806+00:00",
+      "spotify_followers": 6097352,
+      "youtube_subscribers": 5000000,
+      "youtube_total_views": 2391571390,
+      "youtube_video_count": 537,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 142500
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 116646
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 78453
+        },
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 69860
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 69233
+        }
+      ],
+      "lastfm_listeners": 624371,
+      "lastfm_playcount": 54007511,
+      "ytm_subscribers": 5000000,
+      "ytm_monthly_listeners": 10000000,
+      "ytm_total_views": 2363286457
     }
   ],
   "annotations": [
@@ -394,14 +435,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "HYDE",
+        "browse_id": "UC2GCnH0vBMJf37p8qz-G68A",
+        "subscribers": "3.64M"
+      },
+      {
+        "name": "NICO Touches the Walls",
+        "browse_id": "UC3CPAQtD8tBisxailRRAg-w",
+        "subscribers": "2.6M"
+      },
+      {
         "name": "BLUE ENCOUNT",
         "browse_id": "UCXW5jRbethDETWXJUXy1Qmg",
         "subscribers": "1.43M"
-      },
-      {
-        "name": "HYDE",
-        "browse_id": "UC2GCnH0vBMJf37p8qz-G68A",
-        "subscribers": "3.5M"
       },
       {
         "name": "ROOKiEZ is PUNK'D",
@@ -414,34 +460,29 @@
         "subscribers": "875"
       },
       {
-        "name": "TENBLANK",
-        "browse_id": "UCjUG0SZyIEsZZSc2beo4n7A",
-        "subscribers": "53.4K"
-      },
-      {
-        "name": "Pay money To my Pain",
-        "browse_id": "UC3kKm059hewEM_LHXmGULjw",
-        "subscribers": "175K"
-      },
-      {
-        "name": "Survive Said The Prophet",
-        "browse_id": "UC8bEQYItOTE07wpU3_j-YDQ",
-        "subscribers": "797K"
-      },
-      {
-        "name": "[Alexandros]",
-        "browse_id": "UCbzcUjXa4yX3k5CD8bioDmg",
-        "subscribers": "11.9M"
-      },
-      {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "7.43M"
-      },
-      {
         "name": "MY FIRST STORY",
         "browse_id": "UCZtrZ8_Opr4Sa2r61ye_UsQ",
-        "subscribers": "11M"
+        "subscribers": "11.3M"
+      },
+      {
+        "name": "milet",
+        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
+        "subscribers": "10M"
+      },
+      {
+        "name": "RADWIMPS",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "73.6M"
+      },
+      {
+        "name": "Aimer",
+        "browse_id": "UC_gksw7NEueO_u3lPL372hA",
+        "subscribers": "13.4M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "23.6M"
       }
     ],
     "ytm_top_songs": [
@@ -483,6 +524,12 @@
           "views": 5491224,
           "likes": 31659,
           "comments": 73
+        },
+        {
+          "date": "2026-04-15",
+          "views": 5539177,
+          "likes": 31911,
+          "comments": 73
         }
       ]
     },
@@ -500,6 +547,12 @@
           "views": 9058165,
           "likes": 51674,
           "comments": 323
+        },
+        {
+          "date": "2026-04-15",
+          "views": 9156038,
+          "likes": 52179,
+          "comments": 329
         }
       ]
     },
@@ -517,6 +570,12 @@
           "views": 4829644,
           "likes": 22752,
           "comments": 45
+        },
+        {
+          "date": "2026-04-15",
+          "views": 4874943,
+          "likes": 22963,
+          "comments": 48
         }
       ]
     },
@@ -533,6 +592,12 @@
           "date": "2026-04-13",
           "views": 14746247,
           "likes": 129960,
+          "comments": 344
+        },
+        {
+          "date": "2026-04-15",
+          "views": 14771920,
+          "likes": 130095,
           "comments": 344
         }
       ]
@@ -551,8 +616,40 @@
           "views": 25652565,
           "likes": 227494,
           "comments": 2177
+        },
+        {
+          "date": "2026-04-15",
+          "views": 25709721,
+          "likes": 227749,
+          "comments": 2177
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-15",
+      "metric": "monthly_listeners",
+      "value": 3591487,
+      "baseline_mean": 3547429.7,
+      "baseline_stddev": 18975.6,
+      "delta": 44057,
+      "score": 2.32,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-15T03:29:36.542616+00:00"
+    },
+    {
+      "date": "2026-04-15",
+      "metric": "youtube_total_views",
+      "value": 2391571390,
+      "baseline_mean": 2382518862.9,
+      "baseline_stddev": 3656067.2,
+      "delta": 9052527,
+      "score": 2.48,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-15T03:29:36.542616+00:00"
+    }
+  ]
 }

@@ -333,6 +333,47 @@
       "ytm_subscribers": 2410000,
       "ytm_monthly_listeners": 125000000,
       "ytm_total_views": 1802584620
+    },
+    {
+      "date": "2026-04-15",
+      "monthly_listeners": 5979389,
+      "collected_at": "2026-04-15T03:31:42.507007+00:00",
+      "spotify_followers": 2312143,
+      "youtube_subscribers": 2410000,
+      "youtube_total_views": 1817294436,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 127264
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 104276
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 82298
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 69558
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 65100
+        }
+      ],
+      "lastfm_listeners": 605794,
+      "lastfm_playcount": 21038293,
+      "ytm_subscribers": 2410000,
+      "ytm_monthly_listeners": 123000000,
+      "ytm_total_views": 1803587409
     }
   ],
   "annotations": [
@@ -423,52 +464,52 @@
       {
         "name": "Rude-α",
         "browse_id": "UC74udafRQ1dh4umAtYRe7bA",
-        "subscribers": "723K"
+        "subscribers": "1.45M"
+      },
+      {
+        "name": "BRADIO",
+        "browse_id": "UCZeMAO9OSESrC6Til4L53BQ",
+        "subscribers": "395K"
       },
       {
         "name": "Take-M",
         "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
-        "subscribers": "237K"
-      },
-      {
-        "name": "ORANGE RANGE",
-        "browse_id": "UCoN5y13tQwDzd02G1sKVXMA",
-        "subscribers": "8.31M"
-      },
-      {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "5.64M"
-      },
-      {
-        "name": "Tomonari Sora",
-        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
-        "subscribers": "6.91M"
-      },
-      {
-        "name": "MILLENNIUM PARADE",
-        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
-        "subscribers": "1.53M"
-      },
-      {
-        "name": "GEMN",
-        "browse_id": "UC_JKYrXIr6lgJNLnB_Q2fBA",
-        "subscribers": "10.2K"
+        "subscribers": "17.5K"
       },
       {
         "name": "Kocchi no Kento",
         "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
-        "subscribers": "81.7M"
+        "subscribers": "84.7M"
       },
       {
-        "name": "AKASAKI",
-        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
-        "subscribers": "6.07M"
+        "name": "MILLENNIUM PARADE",
+        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
+        "subscribers": "1.54M"
       },
       {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "40.5M"
+        "name": "PEOPLE 1",
+        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
+        "subscribers": "653K"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "7.44M"
+      },
+      {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "5.7M"
+      },
+      {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "4.67M"
+      },
+      {
+        "name": "ALI",
+        "browse_id": "UCcM2nwYSXoS0pRpljTefmpg",
+        "subscribers": "8.06M"
       }
     ],
     "ytm_top_songs": [
@@ -519,6 +560,18 @@
       "type": "annotated",
       "related_annotation": "新曲「Fright」を配信リリース",
       "detected_at": "2026-04-13T02:47:56.024661+00:00"
+    },
+    {
+      "date": "2026-04-15",
+      "metric": "monthly_listeners",
+      "value": 5979389,
+      "baseline_mean": 5879908.3,
+      "baseline_stddev": 21130.5,
+      "delta": 99480,
+      "score": 4.71,
+      "type": "annotated",
+      "related_annotation": "北米ツアー「NORTH AMERICA TOUR 2026」ニューヨーク公演開催",
+      "detected_at": "2026-04-15T03:31:43.536195+00:00"
     }
   ],
   "song_performance": {
@@ -536,6 +589,12 @@
           "views": 18185642,
           "likes": 240271,
           "comments": 805
+        },
+        {
+          "date": "2026-04-15",
+          "views": 18294836,
+          "likes": 241560,
+          "comments": 803
         }
       ]
     },
@@ -553,6 +612,12 @@
           "views": 16273745,
           "likes": 224934,
           "comments": 879
+        },
+        {
+          "date": "2026-04-15",
+          "views": 16389473,
+          "likes": 226158,
+          "comments": 883
         }
       ]
     },
@@ -570,6 +635,12 @@
           "views": 6193651,
           "likes": 85438,
           "comments": 1063
+        },
+        {
+          "date": "2026-04-15",
+          "views": 6229317,
+          "likes": 85796,
+          "comments": 1066
         }
       ]
     },
@@ -587,6 +658,12 @@
           "views": 11479418,
           "likes": 107147,
           "comments": 463
+        },
+        {
+          "date": "2026-04-15",
+          "views": 11503908,
+          "likes": 107351,
+          "comments": 466
         }
       ]
     },
@@ -603,6 +680,12 @@
           "date": "2026-04-13",
           "views": 5524802,
           "likes": 52270,
+          "comments": 176
+        },
+        {
+          "date": "2026-04-15",
+          "views": 5534787,
+          "likes": 52365,
           "comments": 176
         }
       ]
