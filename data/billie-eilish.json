@@ -371,6 +371,47 @@
       "ytm_subscribers": 58000000,
       "ytm_monthly_listeners": 459000000,
       "ytm_total_views": 22283423112
+    },
+    {
+      "date": "2026-04-15",
+      "monthly_listeners": 84212298,
+      "collected_at": "2026-04-15T16:40:19.413265+00:00",
+      "spotify_followers": 125260424,
+      "youtube_subscribers": 58000000,
+      "youtube_total_views": 22301728422,
+      "youtube_video_count": 187,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 1298933
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1270145
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1116885
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 971242
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 843873
+        }
+      ],
+      "lastfm_listeners": 4211312,
+      "lastfm_playcount": 831083046,
+      "ytm_subscribers": 58000000,
+      "ytm_monthly_listeners": 459000000,
+      "ytm_total_views": 22283423112
     }
   ],
   "annotations": [
@@ -429,6 +470,16 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "LSD",
+        "browse_id": "UCsXKPFouKx7giAFRheB-G7A",
+        "subscribers": "13.7M"
+      },
+      {
+        "name": "Madison Beer",
+        "browse_id": "UCpgpoxvgrxyul1uqC9hOF-A",
+        "subscribers": "38.1M"
+      },
+      {
         "name": "FINNEAS",
         "browse_id": "UCrbZcTv3iAHqMHWGbk0IYFA",
         "subscribers": "2.4M"
@@ -439,34 +490,14 @@
         "subscribers": "24.8M"
       },
       {
-        "name": "Hozier",
-        "browse_id": "UCA3Zs9A2IeetfGT3Omi9ivw",
-        "subscribers": "36.6M"
-      },
-      {
-        "name": "LSD",
-        "browse_id": "UCsXKPFouKx7giAFRheB-G7A",
-        "subscribers": "13.7M"
-      },
-      {
         "name": "Harry Styles",
         "browse_id": "UCVacQ2t5GUZ2t_J3Ia9BynA",
         "subscribers": "117M"
       },
       {
-        "name": "RAYE",
-        "browse_id": "UCvyjk7zKlaFyNIPZ-Pyvkng",
-        "subscribers": "78.7M"
-      },
-      {
-        "name": "Ashe",
-        "browse_id": "UCu4DT36ncDBhuBo1w_vZsFg",
-        "subscribers": "36.3M"
-      },
-      {
-        "name": "Lana Del Rey",
-        "browse_id": "UCyqq-aiu3vEHuf5NhwmOJcw",
-        "subscribers": "353M"
+        "name": "Hozier",
+        "browse_id": "UCA3Zs9A2IeetfGT3Omi9ivw",
+        "subscribers": "36.6M"
       },
       {
         "name": "Camila Cabello",
@@ -474,9 +505,19 @@
         "subscribers": "202M"
       },
       {
-        "name": "Sabrina Carpenter",
-        "browse_id": "UCz51ZodJbYUNfkdPHOjJKKw",
-        "subscribers": "242M"
+        "name": "Nessa Barrett",
+        "browse_id": "UCn81HiOrP7OO3SkdGvR6HPA",
+        "subscribers": "6.87M"
+      },
+      {
+        "name": "The Neighbourhood",
+        "browse_id": "UC1cnYMXqKdazz-gDPKaDFyg",
+        "subscribers": "125M"
+      },
+      {
+        "name": "Chappell Roan",
+        "browse_id": "UC1cYfQGC1eXrSO-hxMd7ESQ",
+        "subscribers": "29.1M"
       }
     ],
     "ytm_top_songs": [
@@ -524,6 +565,12 @@
           "views": 448991675,
           "likes": 3384339,
           "comments": 16865
+        },
+        {
+          "date": "2026-04-15",
+          "views": 449263534,
+          "likes": 3385700,
+          "comments": 16871
         }
       ]
     },
@@ -547,6 +594,12 @@
           "views": 280550247,
           "likes": 2584275,
           "comments": 13217
+        },
+        {
+          "date": "2026-04-15",
+          "views": 280771347,
+          "likes": 2585675,
+          "comments": 13227
         }
       ]
     },
@@ -570,6 +623,12 @@
           "views": 514510152,
           "likes": 4786799,
           "comments": 11841
+        },
+        {
+          "date": "2026-04-15",
+          "views": 514615926,
+          "likes": 4787646,
+          "comments": 11850
         }
       ]
     },
@@ -592,6 +651,12 @@
           "date": "2026-04-14",
           "views": 144591219,
           "likes": 1354589,
+          "comments": 6507
+        },
+        {
+          "date": "2026-04-15",
+          "views": 144680955,
+          "likes": 1355143,
           "comments": 6507
         }
       ]
@@ -616,8 +681,28 @@
           "views": 224257652,
           "likes": 2013826,
           "comments": 6300
+        },
+        {
+          "date": "2026-04-15",
+          "views": 224319479,
+          "likes": 2014360,
+          "comments": 6301
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-15",
+      "metric": "youtube_total_views",
+      "value": 22301728422,
+      "baseline_mean": 22156262941,
+      "baseline_stddev": 54980783.9,
+      "delta": 145465481,
+      "score": 2.65,
+      "type": "annotated",
+      "related_annotation": "コンサート映画「Hit Me Hard and Soft: The Tour (Live in 3D)」新予告編公開",
+      "detected_at": "2026-04-15T16:40:20.687496+00:00"
+    }
+  ]
 }
