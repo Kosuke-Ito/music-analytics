@@ -432,6 +432,47 @@
       "ytm_subscribers": 17800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 647718
+    },
+    {
+      "date": "2026-04-16",
+      "monthly_listeners": 41703,
+      "collected_at": "2026-04-16T15:27:03.790966+00:00",
+      "spotify_followers": 18278,
+      "youtube_subscribers": 17800,
+      "youtube_total_views": 695787,
+      "youtube_video_count": 28,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2258
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1485
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 846
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 645
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 543
+        }
+      ],
+      "lastfm_listeners": 6949,
+      "lastfm_playcount": 43568,
+      "ytm_subscribers": 17800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 656984
     }
   ],
   "annotations": [
@@ -575,6 +616,30 @@
       "type": "annotated",
       "related_annotation": "映画「炎上」公開翌週末にSpotify月間リスナー急増（+4,401人・7.67σ）",
       "detected_at": "2026-04-15T03:31:59.610544+00:00"
+    },
+    {
+      "date": "2026-04-16",
+      "metric": "monthly_listeners",
+      "value": 41703,
+      "baseline_mean": 30680.9,
+      "baseline_stddev": 4610.0,
+      "delta": 11022,
+      "score": 2.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-16T15:27:05.454703+00:00"
+    },
+    {
+      "date": "2026-04-16",
+      "metric": "youtube_total_views",
+      "value": 695787,
+      "baseline_mean": 674513,
+      "baseline_stddev": 10014.6,
+      "delta": 21274,
+      "score": 2.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-16T15:27:05.454703+00:00"
     }
   ],
   "song_performance": {
@@ -604,6 +669,12 @@
           "views": 917,
           "likes": 22,
           "comments": 0
+        },
+        {
+          "date": "2026-04-16",
+          "views": 996,
+          "likes": 25,
+          "comments": 0
         }
       ]
     },
@@ -631,6 +702,12 @@
         {
           "date": "2026-04-15",
           "views": 5657,
+          "likes": 165,
+          "comments": 6
+        },
+        {
+          "date": "2026-04-16",
+          "views": 5687,
           "likes": 165,
           "comments": 6
         }
@@ -662,6 +739,12 @@
           "views": 20045,
           "likes": 184,
           "comments": 2
+        },
+        {
+          "date": "2026-04-16",
+          "views": 20073,
+          "likes": 184,
+          "comments": 2
         }
       ]
     },
@@ -691,6 +774,12 @@
           "views": 12306,
           "likes": 195,
           "comments": 0
+        },
+        {
+          "date": "2026-04-16",
+          "views": 12315,
+          "likes": 196,
+          "comments": 0
         }
       ]
     },
@@ -718,6 +807,12 @@
         {
           "date": "2026-04-15",
           "views": 9178,
+          "likes": 114,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-16",
+          "views": 9184,
           "likes": 114,
           "comments": 0
         }

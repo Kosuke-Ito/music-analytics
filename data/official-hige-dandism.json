@@ -410,6 +410,47 @@
       "ytm_subscribers": 3630000,
       "ytm_monthly_listeners": 34400000,
       "ytm_total_views": 4323637758
+    },
+    {
+      "date": "2026-04-16",
+      "monthly_listeners": 5109488,
+      "collected_at": "2026-04-16T15:25:22.449441+00:00",
+      "spotify_followers": 7663888,
+      "youtube_subscribers": 3630000,
+      "youtube_total_views": 4361203710,
+      "youtube_video_count": 194,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 289888
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 222548
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 163492
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 96970
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 84530
+        }
+      ],
+      "lastfm_listeners": 27086,
+      "lastfm_playcount": 1994245,
+      "ytm_subscribers": 3630000,
+      "ytm_monthly_listeners": 34400000,
+      "ytm_total_views": 4334332174
     }
   ],
   "annotations": [
@@ -495,14 +536,14 @@
         "subscribers": "9.28M"
       },
       {
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "16.9M"
+      },
+      {
         "name": "あいみょん",
         "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
         "subscribers": "7.69M"
-      },
-      {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "7.44M"
       },
       {
         "name": "aiko",
@@ -515,24 +556,24 @@
         "subscribers": "15.5M"
       },
       {
-        "name": "SUKIMASWITCH",
-        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "4.73M"
-      },
-      {
         "name": "Motohiro Hata",
         "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
         "subscribers": "11.1M"
       },
       {
-        "name": "Yorushika",
-        "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
-        "subscribers": "20.2M"
+        "name": "SUKIMASWITCH",
+        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
+        "subscribers": "4.73M"
       },
       {
         "name": "Penthouse",
         "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
         "subscribers": "1.29M"
+      },
+      {
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "7.34M"
       }
     ],
     "ytm_top_songs": [
@@ -586,6 +627,12 @@
           "views": 206857597,
           "likes": 568059,
           "comments": 1852
+        },
+        {
+          "date": "2026-04-16",
+          "views": 207071745,
+          "likes": 568667,
+          "comments": 1853
         }
       ]
     },
@@ -615,6 +662,12 @@
           "views": 1272117,
           "likes": 15978,
           "comments": 269
+        },
+        {
+          "date": "2026-04-16",
+          "views": 1324707,
+          "likes": 16332,
+          "comments": 270
         }
       ]
     },
@@ -644,6 +697,12 @@
           "views": 17084802,
           "likes": 89847,
           "comments": 2599
+        },
+        {
+          "date": "2026-04-16",
+          "views": 17147612,
+          "likes": 90029,
+          "comments": 2600
         }
       ]
     },
@@ -672,6 +731,12 @@
           "date": "2026-04-15",
           "views": 85217389,
           "likes": 388332,
+          "comments": 834
+        },
+        {
+          "date": "2026-04-16",
+          "views": 85258781,
+          "likes": 388497,
           "comments": 834
         }
       ]
@@ -702,6 +767,12 @@
           "views": 91394887,
           "likes": 261064,
           "comments": 504
+        },
+        {
+          "date": "2026-04-16",
+          "views": 91438733,
+          "likes": 261171,
+          "comments": 504
         }
       ]
     }
@@ -730,6 +801,18 @@
       "type": "annotated",
       "related_annotation": "「スターダスト」配信リリース（日曜劇場『GIFT』主題歌）",
       "detected_at": "2026-04-15T03:30:25.209186+00:00"
+    },
+    {
+      "date": "2026-04-16",
+      "metric": "monthly_listeners",
+      "value": 5109488,
+      "baseline_mean": 4969798.9,
+      "baseline_stddev": 60902.2,
+      "delta": 139689,
+      "score": 2.29,
+      "type": "annotated",
+      "related_annotation": "「スターダスト」配信リリース（日曜劇場『GIFT』主題歌）",
+      "detected_at": "2026-04-16T15:25:26.449882+00:00"
     }
   ]
 }

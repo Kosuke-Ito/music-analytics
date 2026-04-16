@@ -415,6 +415,47 @@
       "ytm_subscribers": 2410000,
       "ytm_monthly_listeners": 123000000,
       "ytm_total_views": 1803587409
+    },
+    {
+      "date": "2026-04-16",
+      "monthly_listeners": 6003458,
+      "collected_at": "2026-04-16T15:26:47.186965+00:00",
+      "spotify_followers": 2314434,
+      "youtube_subscribers": 2410000,
+      "youtube_total_views": 1817294436,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 125154
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 104398
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 81500
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 68760
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 65537
+        }
+      ],
+      "lastfm_listeners": 606252,
+      "lastfm_playcount": 21059841,
+      "ytm_subscribers": 2410000,
+      "ytm_monthly_listeners": 123000000,
+      "ytm_total_views": 1803587409
     }
   ],
   "annotations": [
@@ -513,9 +554,9 @@
         "subscribers": "94.8M"
       },
       {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "5.7M"
+        "name": "PEOPLE 1",
+        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
+        "subscribers": "653K"
       },
       {
         "name": "BRADIO",
@@ -525,7 +566,12 @@
       {
         "name": "Take-M",
         "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
-        "subscribers": "17.5K"
+        "subscribers": "238K"
+      },
+      {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "5.7M"
       },
       {
         "name": "MILLENNIUM PARADE",
@@ -533,24 +579,19 @@
         "subscribers": "1.54M"
       },
       {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "653K"
-      },
-      {
         "name": "ALI",
         "browse_id": "UCcM2nwYSXoS0pRpljTefmpg",
         "subscribers": "8.06M"
       },
       {
+        "name": "Rude-α",
+        "browse_id": "UC74udafRQ1dh4umAtYRe7bA",
+        "subscribers": "1.45M"
+      },
+      {
         "name": "Vaundy",
         "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
         "subscribers": "23.6M"
-      },
-      {
-        "name": "Frederic",
-        "browse_id": "UCFTm4lY-D08LFZyncZIoDIQ",
-        "subscribers": "9.95M"
       }
     ],
     "ytm_top_songs": [
@@ -613,6 +654,18 @@
       "type": "annotated",
       "related_annotation": "北米ツアー「NORTH AMERICA TOUR 2026」ニューヨーク公演開催",
       "detected_at": "2026-04-15T03:31:43.536195+00:00"
+    },
+    {
+      "date": "2026-04-16",
+      "metric": "monthly_listeners",
+      "value": 6003458,
+      "baseline_mean": 5898863.7,
+      "baseline_stddev": 44568.4,
+      "delta": 104594,
+      "score": 2.35,
+      "type": "annotated",
+      "related_annotation": "北米ツアー「NORTH AMERICA TOUR 2026」ニューヨーク公演開催",
+      "detected_at": "2026-04-16T15:26:49.215816+00:00"
     }
   ],
   "song_performance": {
@@ -642,6 +695,12 @@
           "views": 18331811,
           "likes": 241927,
           "comments": 804
+        },
+        {
+          "date": "2026-04-16",
+          "views": 18398833,
+          "likes": 242619,
+          "comments": 805
         }
       ]
     },
@@ -670,6 +729,12 @@
           "date": "2026-04-15",
           "views": 16419839,
           "likes": 226487,
+          "comments": 883
+        },
+        {
+          "date": "2026-04-16",
+          "views": 16477209,
+          "likes": 227013,
           "comments": 883
         }
       ]
@@ -700,6 +765,12 @@
           "views": 6238428,
           "likes": 85886,
           "comments": 1066
+        },
+        {
+          "date": "2026-04-16",
+          "views": 6255729,
+          "likes": 86067,
+          "comments": 1068
         }
       ]
     },
@@ -728,6 +799,12 @@
           "date": "2026-04-15",
           "views": 11510647,
           "likes": 107417,
+          "comments": 466
+        },
+        {
+          "date": "2026-04-16",
+          "views": 11523347,
+          "likes": 107507,
           "comments": 466
         }
       ]
@@ -758,6 +835,12 @@
           "views": 5537625,
           "likes": 52387,
           "comments": 176
+        },
+        {
+          "date": "2026-04-16",
+          "views": 5542649,
+          "likes": 52428,
+          "comments": 177
         }
       ]
     }
