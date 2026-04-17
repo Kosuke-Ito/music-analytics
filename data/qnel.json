@@ -280,6 +280,47 @@
       "ytm_subscribers": 154,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-17",
+      "monthly_listeners": 427,
+      "collected_at": "2026-04-17T14:57:12.608932+00:00",
+      "spotify_followers": 931,
+      "youtube_subscribers": 364,
+      "youtube_total_views": 65410,
+      "youtube_video_count": 170,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 27
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 14
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 11
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 7
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 7
+        }
+      ],
+      "lastfm_listeners": 734,
+      "lastfm_playcount": 2406,
+      "ytm_subscribers": 154,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -324,7 +365,7 @@
       {
         "name": "dawgss",
         "browse_id": "UC0clTcD4YEA0gViF33LumjQ",
-        "subscribers": "742"
+        "subscribers": "741"
       },
       {
         "name": "Deep Sea Diving Club",
@@ -359,20 +400,20 @@
     ],
     "ytm_top_songs": [
       {
-        "title": "ムーンライト~夏のVenus~ - Moonlight (feat. You)",
-        "video_id": "5j8n7tJ3Mlk"
-      },
-      {
         "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
         "video_id": "gMrPbqFtkbQ"
       },
       {
-        "title": "スーパースター - Superstar",
-        "video_id": "UWlaQWdCoxY"
-      },
-      {
         "title": "徒歩圏内 - Tohokennai",
         "video_id": "LtzN4QKvyTk"
+      },
+      {
+        "title": "ムーンライト~夏のVenus~ - Moonlight (feat. You)",
+        "video_id": "5j8n7tJ3Mlk"
+      },
+      {
+        "title": "スーパースター - Superstar",
+        "video_id": "UWlaQWdCoxY"
       },
       {
         "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
@@ -413,6 +454,12 @@
           "views": 2820,
           "likes": 18,
           "comments": 0
+        },
+        {
+          "date": "2026-04-17",
+          "views": 2829,
+          "likes": 18,
+          "comments": 0
         }
       ]
     },
@@ -446,6 +493,12 @@
         {
           "date": "2026-04-16",
           "views": 5200,
+          "likes": 21,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-17",
+          "views": 5213,
           "likes": 21,
           "comments": 0
         }
@@ -483,6 +536,12 @@
           "views": 11545,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-04-17",
+          "views": 11554,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -516,6 +575,12 @@
         {
           "date": "2026-04-16",
           "views": 31258,
+          "likes": 143,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-17",
+          "views": 31270,
           "likes": 143,
           "comments": 0
         }
@@ -553,8 +618,28 @@
           "views": 7578,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-04-17",
+          "views": 7583,
+          "likes": 60,
+          "comments": 0
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-17",
+      "metric": "youtube_total_views",
+      "value": 65410,
+      "baseline_mean": 65382.3,
+      "baseline_stddev": 8.5,
+      "delta": 27,
+      "score": 3.25,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-17T14:57:14.159344+00:00"
+    }
+  ]
 }

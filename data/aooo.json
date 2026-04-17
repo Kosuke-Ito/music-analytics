@@ -280,6 +280,47 @@
       "ytm_subscribers": 92700,
       "ytm_monthly_listeners": 668000,
       "ytm_total_views": 22212464
+    },
+    {
+      "date": "2026-04-17",
+      "monthly_listeners": 210390,
+      "collected_at": "2026-04-17T14:53:15.251172+00:00",
+      "spotify_followers": 54465,
+      "youtube_subscribers": 92800,
+      "youtube_total_views": 27533632,
+      "youtube_video_count": 253,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10599
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 9773
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 8634
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5534
+        },
+        {
+          "city": "Kaohsiung",
+          "country": "TW",
+          "listeners": 4195
+        }
+      ],
+      "lastfm_listeners": 12649,
+      "lastfm_playcount": 262328,
+      "ytm_subscribers": 92800,
+      "ytm_monthly_listeners": 668000,
+      "ytm_total_views": 22341003
     }
   ],
   "metadata": {
@@ -324,21 +365,6 @@
         "subscribers": "319K"
       },
       {
-        "name": "Chevon",
-        "browse_id": "UCF6NzjP0uC5zlENFfvDJ0yA",
-        "subscribers": "769K"
-      },
-      {
-        "name": "Chilli Beans.",
-        "browse_id": "UCkI4roj4YVHrTh7PftDVxmQ",
-        "subscribers": "393K"
-      },
-      {
-        "name": "レトロリロン",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "431K"
-      },
-      {
         "name": "nakigoto",
         "browse_id": "UC4sq6m-foW44E1QTMzW6GsA",
         "subscribers": "157K"
@@ -362,16 +388,31 @@
         "name": "Chakura",
         "browse_id": "UCOK1WCN-6ucanL1nO0ZmimA",
         "subscribers": "38.8K"
+      },
+      {
+        "name": "chef's",
+        "browse_id": "UC4WAclpda-FkWcs4o1U026g",
+        "subscribers": "8.36K"
+      },
+      {
+        "name": "rassemble",
+        "browse_id": "UCVXQ6yWhb-eFlxUdcJRF_2w",
+        "subscribers": "59K"
+      },
+      {
+        "name": "CENT",
+        "browse_id": "UCh0f5XbtIlrC0WeNgqiiZ9g",
+        "subscribers": "120K"
       }
     ],
     "ytm_top_songs": [
       {
-        "title": "クエスチョン - Question",
-        "video_id": "yykxL9rRrbc"
-      },
-      {
         "title": "Yankeee",
         "video_id": "5hr8So6zCR4"
+      },
+      {
+        "title": "クエスチョン - Question",
+        "video_id": "yykxL9rRrbc"
       },
       {
         "title": "サラダボウル - SALAD BOWL",
@@ -421,6 +462,12 @@
           "views": 27415,
           "likes": 565,
           "comments": 21
+        },
+        {
+          "date": "2026-04-17",
+          "views": 27967,
+          "likes": 568,
+          "comments": 21
         }
       ]
     },
@@ -455,6 +502,12 @@
           "date": "2026-04-16",
           "views": 242023,
           "likes": 2366,
+          "comments": 42
+        },
+        {
+          "date": "2026-04-17",
+          "views": 242993,
+          "likes": 2369,
           "comments": 42
         }
       ]
@@ -491,6 +544,12 @@
           "views": 132322,
           "likes": 1223,
           "comments": 10
+        },
+        {
+          "date": "2026-04-17",
+          "views": 132899,
+          "likes": 1228,
+          "comments": 10
         }
       ]
     },
@@ -525,6 +584,12 @@
           "date": "2026-04-16",
           "views": 352638,
           "likes": 3669,
+          "comments": 62
+        },
+        {
+          "date": "2026-04-17",
+          "views": 353222,
+          "likes": 3670,
           "comments": 62
         }
       ]
@@ -561,8 +626,28 @@
           "views": 140477,
           "likes": 1576,
           "comments": 24
+        },
+        {
+          "date": "2026-04-17",
+          "views": 140828,
+          "likes": 1575,
+          "comments": 24
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-17",
+      "metric": "youtube_total_views",
+      "value": 27533632,
+      "baseline_mean": 27263150.1,
+      "baseline_stddev": 126166.0,
+      "delta": 270481,
+      "score": 2.14,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-17T14:53:16.916554+00:00"
+    }
+  ]
 }

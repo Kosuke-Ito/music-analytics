@@ -451,6 +451,47 @@
       "ytm_subscribers": 3630000,
       "ytm_monthly_listeners": 34400000,
       "ytm_total_views": 4334332174
+    },
+    {
+      "date": "2026-04-17",
+      "monthly_listeners": 5130564,
+      "collected_at": "2026-04-17T14:55:12.797381+00:00",
+      "spotify_followers": 7665502,
+      "youtube_subscribers": 3630000,
+      "youtube_total_views": 4361203710,
+      "youtube_video_count": 194,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 287920
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 223703
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 163171
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 97205
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 83729
+        }
+      ],
+      "lastfm_listeners": 27086,
+      "lastfm_playcount": 1994245,
+      "ytm_subscribers": 3630000,
+      "ytm_monthly_listeners": 34400000,
+      "ytm_total_views": 4334332174
     }
   ],
   "annotations": [
@@ -547,11 +588,6 @@
         "subscribers": "9.28M"
       },
       {
-        "name": "Ikimonogakari",
-        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
-        "subscribers": "16.9M"
-      },
-      {
         "name": "あいみょん",
         "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
         "subscribers": "7.69M"
@@ -562,14 +598,9 @@
         "subscribers": "6.07M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "15.5M"
-      },
-      {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "11.1M"
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "1.29M"
       },
       {
         "name": "SUKIMASWITCH",
@@ -577,14 +608,24 @@
         "subscribers": "4.73M"
       },
       {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "1.29M"
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "11.1M"
       },
       {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "7.34M"
+        "name": "Macaroni Empitsu",
+        "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
+        "subscribers": "6.01M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "15.5M"
+      },
+      {
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "707K"
       }
     ],
     "ytm_top_songs": [
@@ -644,6 +685,12 @@
           "views": 207071745,
           "likes": 568667,
           "comments": 1853
+        },
+        {
+          "date": "2026-04-17",
+          "views": 207301940,
+          "likes": 569413,
+          "comments": 1857
         }
       ]
     },
@@ -679,6 +726,12 @@
           "views": 1324707,
           "likes": 16332,
           "comments": 270
+        },
+        {
+          "date": "2026-04-17",
+          "views": 1380885,
+          "likes": 16631,
+          "comments": 271
         }
       ]
     },
@@ -714,6 +767,12 @@
           "views": 17147612,
           "likes": 90029,
           "comments": 2600
+        },
+        {
+          "date": "2026-04-17",
+          "views": 17212095,
+          "likes": 90238,
+          "comments": 2602
         }
       ]
     },
@@ -749,6 +808,12 @@
           "views": 85258781,
           "likes": 388497,
           "comments": 834
+        },
+        {
+          "date": "2026-04-17",
+          "views": 85303959,
+          "likes": 388639,
+          "comments": 834
         }
       ]
     },
@@ -783,6 +848,12 @@
           "date": "2026-04-16",
           "views": 91438733,
           "likes": 261171,
+          "comments": 504
+        },
+        {
+          "date": "2026-04-17",
+          "views": 91487703,
+          "likes": 261297,
           "comments": 504
         }
       ]
@@ -824,6 +895,18 @@
       "type": "annotated",
       "related_annotation": "「スターダスト」配信リリース（日曜劇場『GIFT』主題歌）",
       "detected_at": "2026-04-16T15:25:26.449882+00:00"
+    },
+    {
+      "date": "2026-04-17",
+      "metric": "monthly_listeners",
+      "value": 5130564,
+      "baseline_mean": 4981439.7,
+      "baseline_stddev": 69932.6,
+      "delta": 149124,
+      "score": 2.13,
+      "type": "annotated",
+      "related_annotation": "「スターダスト」MV公開——200個のライトに囲まれたワンカット演奏",
+      "detected_at": "2026-04-17T14:55:14.030191+00:00"
     }
   ]
 }

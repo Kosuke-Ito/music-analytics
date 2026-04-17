@@ -453,6 +453,47 @@
       "ytm_subscribers": 9150000,
       "ytm_monthly_listeners": 42900000,
       "ytm_total_views": 5204072239
+    },
+    {
+      "date": "2026-04-17",
+      "monthly_listeners": 6743514,
+      "collected_at": "2026-04-17T14:56:05.552300+00:00",
+      "spotify_followers": 7455541,
+      "youtube_subscribers": 9150000,
+      "youtube_total_views": 5257593217,
+      "youtube_video_count": 680,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 139066
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 114087
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 100215
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 81293
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 77482
+        }
+      ],
+      "lastfm_listeners": 695616,
+      "lastfm_playcount": 81532869,
+      "ytm_subscribers": 9150000,
+      "ytm_monthly_listeners": 42900000,
+      "ytm_total_views": 5221191677
     }
   ],
   "annotations": [
@@ -548,19 +589,14 @@
         "subscribers": "84.7M"
       },
       {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "50.4M"
+        "name": "Eve",
+        "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
+        "subscribers": "20.3M"
       },
       {
         "name": "Ayase",
         "browse_id": "UCbqY3RHKkPS8dJCrfAfSk6Q",
         "subscribers": "58.9K"
-      },
-      {
-        "name": "Eve",
-        "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
-        "subscribers": "20.3M"
       },
       {
         "name": "Shiyui",
@@ -578,9 +614,9 @@
         "subscribers": "417K"
       },
       {
-        "name": "AKASAKI",
-        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
-        "subscribers": "5.04M"
+        "name": "GEMN",
+        "browse_id": "UC_JKYrXIr6lgJNLnB_Q2fBA",
+        "subscribers": "10.2K"
       },
       {
         "name": "minami",
@@ -588,9 +624,14 @@
         "subscribers": "2.63M"
       },
       {
-        "name": "Tomonari Sora",
-        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
-        "subscribers": "6.89M"
+        "name": "AKASAKI",
+        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
+        "subscribers": "5.04M"
+      },
+      {
+        "name": "Aimer",
+        "browse_id": "UC_gksw7NEueO_u3lPL372hA",
+        "subscribers": "13.4M"
       }
     ],
     "ytm_top_songs": [
@@ -650,6 +691,12 @@
           "views": 3603947,
           "likes": 121129,
           "comments": 2438
+        },
+        {
+          "date": "2026-04-17",
+          "views": 3673236,
+          "likes": 121954,
+          "comments": 2444
         }
       ]
     },
@@ -685,6 +732,12 @@
           "views": 28364990,
           "likes": 188307,
           "comments": 729
+        },
+        {
+          "date": "2026-04-17",
+          "views": 28412810,
+          "likes": 188520,
+          "comments": 730
         }
       ]
     },
@@ -719,6 +772,12 @@
           "date": "2026-04-16",
           "views": 49692188,
           "likes": 459334,
+          "comments": 1984
+        },
+        {
+          "date": "2026-04-17",
+          "views": 49735584,
+          "likes": 459699,
           "comments": 1984
         }
       ]
@@ -755,6 +814,12 @@
           "views": 4512451,
           "likes": 92546,
           "comments": 1781
+        },
+        {
+          "date": "2026-04-17",
+          "views": 4560546,
+          "likes": 92852,
+          "comments": 1782
         }
       ]
     },
@@ -790,8 +855,28 @@
           "views": 65295520,
           "likes": 344066,
           "comments": 675
+        },
+        {
+          "date": "2026-04-17",
+          "views": 65338052,
+          "likes": 344269,
+          "comments": 676
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-17",
+      "metric": "youtube_total_views",
+      "value": 5257593217,
+      "baseline_mean": 5236540623.8,
+      "baseline_stddev": 5654597.8,
+      "delta": 21052593,
+      "score": 3.72,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-17T14:56:06.823861+00:00"
+    }
+  ]
 }
