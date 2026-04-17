@@ -323,6 +323,16 @@
       "ytm_total_views": 0
     }
   ],
+  "annotations": [
+    {
+      "date": "2026-04-17",
+      "title": "数値上の異常上昇を検知（原因不明）",
+      "description": "YouTube総再生数が基準値比+27再生（3.25σ）の統計的異常を検知。チャンネル総再生数が65,410と小規模なため、わずか27再生の増加でも高σとなる。絶対値が小さく実質的なバズとは判断しがたいが、記録として残す。原因は特定できなかった。",
+      "category": "other",
+      "added_at": "2026-04-17T15:00:00+00:00",
+      "confidence": "low"
+    }
+  ],
   "metadata": {
     "lastfm_similar_artists": [
       {
