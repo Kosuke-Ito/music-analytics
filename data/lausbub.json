@@ -514,6 +514,47 @@
       "ytm_subscribers": 17800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 656984
+    },
+    {
+      "date": "2026-04-18",
+      "monthly_listeners": 43615,
+      "collected_at": "2026-04-18T14:43:27.425726+00:00",
+      "spotify_followers": 18313,
+      "youtube_subscribers": 17900,
+      "youtube_total_views": 695787,
+      "youtube_video_count": 28,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2385
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1508
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 861
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 684
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 570
+        }
+      ],
+      "lastfm_listeners": 7009,
+      "lastfm_playcount": 43839,
+      "ytm_subscribers": 17900,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 656984
     }
   ],
   "annotations": [
@@ -702,6 +743,18 @@
       "type": "annotated",
       "related_annotation": "映画「炎上」口コミ拡散継続でSpotify・YouTube指標が再度急上昇（2.39σ / 2.12σ）",
       "detected_at": "2026-04-17T14:56:57.550101+00:00"
+    },
+    {
+      "date": "2026-04-18",
+      "metric": "monthly_listeners",
+      "value": 43615,
+      "baseline_mean": 32111,
+      "baseline_stddev": 5738.8,
+      "delta": 11504,
+      "score": 2.0,
+      "type": "annotated",
+      "related_annotation": "映画「炎上」口コミ拡散継続でSpotify・YouTube指標が再度急上昇（2.39σ / 2.12σ）",
+      "detected_at": "2026-04-18T14:43:29.325308+00:00"
     }
   ],
   "song_performance": {
@@ -742,6 +795,12 @@
           "date": "2026-04-17",
           "views": 1055,
           "likes": 26,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-18",
+          "views": 1123,
+          "likes": 27,
           "comments": 0
         }
       ]
@@ -784,6 +843,12 @@
           "views": 5722,
           "likes": 165,
           "comments": 6
+        },
+        {
+          "date": "2026-04-18",
+          "views": 5756,
+          "likes": 167,
+          "comments": 6
         }
       ]
     },
@@ -823,6 +888,12 @@
         {
           "date": "2026-04-17",
           "views": 20104,
+          "likes": 184,
+          "comments": 2
+        },
+        {
+          "date": "2026-04-18",
+          "views": 20131,
           "likes": 184,
           "comments": 2
         }
@@ -866,6 +937,12 @@
           "views": 12325,
           "likes": 197,
           "comments": 0
+        },
+        {
+          "date": "2026-04-18",
+          "views": 12341,
+          "likes": 197,
+          "comments": 0
         }
       ]
     },
@@ -905,6 +982,12 @@
         {
           "date": "2026-04-17",
           "views": 9191,
+          "likes": 115,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-18",
+          "views": 9201,
           "likes": 115,
           "comments": 0
         }
