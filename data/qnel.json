@@ -362,6 +362,47 @@
       "ytm_subscribers": 154,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-19",
+      "monthly_listeners": 436,
+      "collected_at": "2026-04-19T14:42:57.759936+00:00",
+      "spotify_followers": 932,
+      "youtube_subscribers": 364,
+      "youtube_total_views": 65437,
+      "youtube_video_count": 170,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 29
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 15
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 11
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 9
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 9
+        }
+      ],
+      "lastfm_listeners": 735,
+      "lastfm_playcount": 2408,
+      "ytm_subscribers": 155,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -399,11 +440,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "dawgss",
-        "browse_id": "UC0clTcD4YEA0gViF33LumjQ",
-        "subscribers": "740"
-      },
-      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "56.9K"
@@ -411,7 +447,7 @@
       {
         "name": "Offo tokyo",
         "browse_id": "UCFUndaCSveHB7RS3ULvATfw",
-        "subscribers": "12.7K"
+        "subscribers": "12.8K"
       },
       {
         "name": "SOMETIME'S",
@@ -447,17 +483,14 @@
         "name": "RYO OGAWA",
         "browse_id": "UCKDfCqy9tIv65gLsn06dghw",
         "subscribers": "52"
+      },
+      {
+        "name": "SpendyMily",
+        "browse_id": "UCQk7kSeOA-QXlCx5KyDqnrw",
+        "subscribers": "454"
       }
     ],
     "ytm_top_songs": [
-      {
-        "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
-        "video_id": "gMrPbqFtkbQ"
-      },
-      {
-        "title": "ムーンライト~夏のVenus~ - Moonlight (feat. You)",
-        "video_id": "5j8n7tJ3Mlk"
-      },
       {
         "title": "徒歩圏内 - Tohokennai",
         "video_id": "LtzN4QKvyTk"
@@ -465,6 +498,14 @@
       {
         "title": "スーパースター - Superstar",
         "video_id": "UWlaQWdCoxY"
+      },
+      {
+        "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
+        "video_id": "gMrPbqFtkbQ"
+      },
+      {
+        "title": "ムーンライト~夏のVenus~ - Moonlight (feat. You)",
+        "video_id": "5j8n7tJ3Mlk"
       },
       {
         "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
@@ -517,6 +558,12 @@
           "views": 2838,
           "likes": 18,
           "comments": 0
+        },
+        {
+          "date": "2026-04-19",
+          "views": 2859,
+          "likes": 18,
+          "comments": 0
         }
       ]
     },
@@ -562,6 +609,12 @@
         {
           "date": "2026-04-18",
           "views": 5225,
+          "likes": 21,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-19",
+          "views": 5232,
           "likes": 21,
           "comments": 0
         }
@@ -611,6 +664,12 @@
           "views": 11566,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-04-19",
+          "views": 11571,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -656,6 +715,12 @@
         {
           "date": "2026-04-18",
           "views": 31281,
+          "likes": 143,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-19",
+          "views": 31284,
           "likes": 143,
           "comments": 0
         }
@@ -705,6 +770,12 @@
           "views": 7591,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-04-19",
+          "views": 7595,
+          "likes": 60,
+          "comments": 0
         }
       ]
     }
@@ -733,6 +804,30 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-04-18T14:43:45.724894+00:00"
+    },
+    {
+      "date": "2026-04-19",
+      "metric": "monthly_listeners",
+      "value": 436,
+      "baseline_mean": 423.9,
+      "baseline_stddev": 5.9,
+      "delta": 12,
+      "score": 2.06,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-04-19T14:42:59.111473+00:00"
+    },
+    {
+      "date": "2026-04-19",
+      "metric": "youtube_total_views",
+      "value": 65437,
+      "baseline_mean": 65390.3,
+      "baseline_stddev": 17.3,
+      "delta": 46,
+      "score": 2.7,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-04-19T14:42:59.111473+00:00"
     }
   ]
 }

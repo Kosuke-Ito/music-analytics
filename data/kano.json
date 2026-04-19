@@ -356,6 +356,47 @@
       "ytm_subscribers": 93,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-19",
+      "monthly_listeners": 19993,
+      "collected_at": "2026-04-19T14:40:06.879062+00:00",
+      "spotify_followers": 454,
+      "youtube_subscribers": 2550,
+      "youtube_total_views": 1533000,
+      "youtube_video_count": 84,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 727
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 620
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 533
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 367
+        },
+        {
+          "city": "Taichung",
+          "country": "TW",
+          "listeners": 253
+        }
+      ],
+      "lastfm_listeners": 232,
+      "lastfm_playcount": 682,
+      "ytm_subscribers": 92,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -365,20 +406,20 @@
         "url": "https://www.last.fm/music/MAISONdes,+MIMI+&+%E8%8F%AF%E4%B9%83"
       },
       {
+        "name": "mishiri",
+        "url": "https://www.last.fm/music/mishiri"
+      },
+      {
+        "name": "MEGAMI Party",
+        "url": "https://www.last.fm/music/MEGAMI+Party"
+      },
+      {
         "name": "稀羽すう",
         "url": "https://www.last.fm/music/%E7%A8%80%E7%BE%BD%E3%81%99%E3%81%86"
       },
       {
-        "name": "Gomadare",
-        "url": "https://www.last.fm/music/Gomadare"
-      },
-      {
         "name": "キツネリ",
         "url": "https://www.last.fm/music/%E3%82%AD%E3%83%84%E3%83%8D%E3%83%AA"
-      },
-      {
-        "name": "Luov",
-        "url": "https://www.last.fm/music/Luov"
       }
     ],
     "ytm_top_songs": [
@@ -391,12 +432,12 @@
         "video_id": "BX9NmIjpjVQ"
       },
       {
-        "title": "お気の毒様ね。",
-        "video_id": "SNHlT4eeGjo"
-      },
-      {
         "title": "執着地点 - Point of Obsession",
         "video_id": "29KOzu7MCNc"
+      },
+      {
+        "title": "お気の毒様ね。",
+        "video_id": "SNHlT4eeGjo"
       },
       {
         "title": "Day&Night - Day＆Night",
@@ -449,6 +490,12 @@
           "views": 270919,
           "likes": 2555,
           "comments": 20
+        },
+        {
+          "date": "2026-04-19",
+          "views": 272077,
+          "likes": 2560,
+          "comments": 20
         }
       ]
     },
@@ -496,6 +543,12 @@
           "views": 965,
           "likes": 25,
           "comments": 0
+        },
+        {
+          "date": "2026-04-19",
+          "views": 996,
+          "likes": 25,
+          "comments": 0
         }
       ]
     },
@@ -541,6 +594,12 @@
         {
           "date": "2026-04-18",
           "views": 3870,
+          "likes": 45,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-19",
+          "views": 3888,
           "likes": 45,
           "comments": 0
         }
@@ -625,6 +684,12 @@
           "views": 498,
           "likes": 12,
           "comments": 0
+        },
+        {
+          "date": "2026-04-19",
+          "views": 514,
+          "likes": 12,
+          "comments": 0
         }
       ]
     },
@@ -640,6 +705,12 @@
         {
           "date": "2026-04-18",
           "views": 373,
+          "likes": 34,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-19",
+          "views": 404,
           "likes": 34,
           "comments": 0
         }
@@ -668,6 +739,20 @@
       "source": "natalie.mu",
       "confidence": "high",
       "verified": false
+    }
+  ],
+  "buzz_events": [
+    {
+      "date": "2026-04-19",
+      "metric": "youtube_total_views",
+      "value": 1533000,
+      "baseline_mean": 1401265.9,
+      "baseline_stddev": 59500.1,
+      "delta": 131734,
+      "score": 2.21,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-19T14:40:08.429189+00:00"
     }
   ]
 }

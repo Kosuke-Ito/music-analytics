@@ -535,6 +535,47 @@
       "ytm_subscribers": 3330000,
       "ytm_monthly_listeners": 104000000,
       "ytm_total_views": 1127096812
+    },
+    {
+      "date": "2026-04-19",
+      "monthly_listeners": 23726795,
+      "collected_at": "2026-04-19T14:45:50.686141+00:00",
+      "spotify_followers": 9942855,
+      "youtube_subscribers": 3340000,
+      "youtube_total_views": 1171002889,
+      "youtube_video_count": 538,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 370088
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 304611
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 255950
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 248555
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 232681
+        }
+      ],
+      "lastfm_listeners": 2334261,
+      "lastfm_playcount": 260831830,
+      "ytm_subscribers": 3340000,
+      "ytm_monthly_listeners": 104000000,
+      "ytm_total_views": 1127096812
     }
   ],
   "annotations": [
@@ -672,19 +713,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Wasia Project",
-        "browse_id": "UCPziehcInXuXsqIsUquQRmA",
-        "subscribers": "791K"
+        "name": "grentperez",
+        "browse_id": "UC3CyxyxdZLGrcpHUuaZolVw",
+        "subscribers": "777K"
       },
       {
-        "name": "Liana Flores",
-        "browse_id": "UCOOKbAPgT8xKwM6V9GLHiEg",
-        "subscribers": "18.5M"
-      },
-      {
-        "name": "Ricky Montgomery",
-        "browse_id": "UCOvPGAEfPlHip7J1V6WI0jA",
-        "subscribers": "44.4M"
+        "name": "Cody Fry",
+        "browse_id": "UCQK6-xoJjoKcLZPlT2Imo7A",
+        "subscribers": "4.03M"
       },
       {
         "name": "Mei Mei The Bunny",
@@ -707,19 +743,24 @@
         "subscribers": "343K"
       },
       {
-        "name": "Eloise",
-        "browse_id": "UCe9WIeu02ZEZocoQImPVWkA",
-        "subscribers": "208K"
-      },
-      {
         "name": "Saga Faye",
         "browse_id": "UClG3nFQoQwor_FaMhpx4OSg",
-        "subscribers": "5.37K"
+        "subscribers": "5.38K"
       },
       {
-        "name": "Clairo",
-        "browse_id": "UChC2OO1dG5Vge1Kuc-1QZRg",
-        "subscribers": "16.8M"
+        "name": "Liana Flores",
+        "browse_id": "UCOOKbAPgT8xKwM6V9GLHiEg",
+        "subscribers": "18.5M"
+      },
+      {
+        "name": "Wasia Project",
+        "browse_id": "UCPziehcInXuXsqIsUquQRmA",
+        "subscribers": "791K"
+      },
+      {
+        "name": "Ebony Loren",
+        "browse_id": "UCzKhnByfD9-nScA1CNg_EMA",
+        "subscribers": "473K"
       }
     ],
     "ytm_top_songs": [
@@ -791,6 +832,12 @@
           "views": 70348280,
           "likes": 1070902,
           "comments": 7499
+        },
+        {
+          "date": "2026-04-19",
+          "views": 70517885,
+          "likes": 1072977,
+          "comments": 7527
         }
       ]
     },
@@ -838,6 +885,12 @@
           "views": 12998938,
           "likes": 206573,
           "comments": 956
+        },
+        {
+          "date": "2026-04-19",
+          "views": 13078330,
+          "likes": 207642,
+          "comments": 958
         }
       ]
     },
@@ -885,6 +938,12 @@
           "views": 20567727,
           "likes": 237886,
           "comments": 697
+        },
+        {
+          "date": "2026-04-19",
+          "views": 20608507,
+          "likes": 238234,
+          "comments": 699
         }
       ]
     },
@@ -932,6 +991,12 @@
           "views": 43811872,
           "likes": 485436,
           "comments": 1551
+        },
+        {
+          "date": "2026-04-19",
+          "views": 43864417,
+          "likes": 485869,
+          "comments": 1552
         }
       ]
     },
@@ -984,6 +1049,12 @@
           "views": 1017502,
           "likes": 23966,
           "comments": 301
+        },
+        {
+          "date": "2026-04-19",
+          "views": 1102115,
+          "likes": 26346,
+          "comments": 307
         }
       ]
     }
@@ -1000,6 +1071,18 @@
       "type": "annotated",
       "related_annotation": "「Madwoman」ミュージックビデオ公開——コーチェラ初出演直後",
       "detected_at": "2026-04-15T03:35:04.004580+00:00"
+    },
+    {
+      "date": "2026-04-19",
+      "metric": "monthly_listeners",
+      "value": 23726795,
+      "baseline_mean": 23418527.1,
+      "baseline_stddev": 154001.5,
+      "delta": 308267,
+      "score": 2.0,
+      "type": "annotated",
+      "related_annotation": "Billboard Women in Music 2026「Innovator賞」受賞者として特集掲載",
+      "detected_at": "2026-04-19T14:45:51.914359+00:00"
     }
   ]
 }

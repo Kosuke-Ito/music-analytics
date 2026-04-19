@@ -247,6 +247,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 9280000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-19",
+      "monthly_listeners": 2687107,
+      "collected_at": "2026-04-19T14:47:58.758938+00:00",
+      "spotify_followers": 2390418,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 1403762950,
+      "youtube_video_count": 198,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 137980
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 118972
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 77575
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 50109
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 44785
+        }
+      ],
+      "lastfm_listeners": 21241,
+      "lastfm_playcount": 2993594,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 9280000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -268,8 +309,8 @@
         "url": "https://www.last.fm/music/%E3%81%8F%E3%82%8B%E3%82%8A"
       },
       {
-        "name": "マカロニえんぴつ",
-        "url": "https://www.last.fm/music/%E3%83%9E%E3%82%AB%E3%83%AD%E3%83%8B%E3%81%88%E3%82%93%E3%81%B4%E3%81%A4"
+        "name": "スピッツ",
+        "url": "https://www.last.fm/music/%E3%82%B9%E3%83%94%E3%83%83%E3%83%84"
       }
     ],
     "lastfm_tags": [
@@ -281,9 +322,39 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "40.7M"
+      },
+      {
         "name": "Tele",
         "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
         "subscribers": "668K"
+      },
+      {
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "1.29M"
+      },
+      {
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "50.7M"
+      },
+      {
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "707K"
+      },
+      {
+        "name": "BUMP OF CHICKEN",
+        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
+        "subscribers": "8.7M"
+      },
+      {
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "2.33M"
       },
       {
         "name": "aiko",
@@ -299,36 +370,6 @@
         "name": "CreepHyp",
         "browse_id": "UC0iyL2tAxXXuwfx8VVvCw1A",
         "subscribers": "2.19M"
-      },
-      {
-        "name": "sumika",
-        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
-        "subscribers": "6.96M"
-      },
-      {
-        "name": "Macaroni Empitsu",
-        "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
-        "subscribers": "6.01M"
-      },
-      {
-        "name": "imase",
-        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "50.7M"
-      },
-      {
-        "name": "Fujii Kaze",
-        "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
-        "subscribers": "38.7M"
-      },
-      {
-        "name": "SHISHAMO",
-        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "2.33M"
-      },
-      {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "707K"
       }
     ],
     "ytm_top_songs": [
@@ -341,16 +382,16 @@
         "video_id": "JyRmSOle6ps"
       },
       {
-        "title": "アイデア - Idea",
-        "video_id": "bwqurkN3vhE"
-      },
-      {
-        "title": "Family Song",
-        "video_id": "1GQ07JcqH48"
-      },
-      {
         "title": "ドラえもん - Doraemon",
         "video_id": "cYWYGUDIQvo"
+      },
+      {
+        "title": "不思議 - FUSHIGI",
+        "video_id": "czZl5B1nEBQ"
+      },
+      {
+        "title": "SUN",
+        "video_id": "JvWuSu1bRIY"
       }
     ]
   },
@@ -393,6 +434,12 @@
           "views": 57254983,
           "likes": 225418,
           "comments": 580
+        },
+        {
+          "date": "2026-04-19",
+          "views": 57290474,
+          "likes": 225584,
+          "comments": 580
         }
       ]
     },
@@ -433,6 +480,12 @@
           "date": "2026-04-18",
           "views": 4157403,
           "likes": 35087,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-19",
+          "views": 4167977,
+          "likes": 35165,
           "comments": 0
         }
       ]
@@ -557,6 +610,34 @@
           "views": 10493120,
           "likes": 46550,
           "comments": 169
+        },
+        {
+          "date": "2026-04-19",
+          "views": 10500719,
+          "likes": 46587,
+          "comments": 169
+        }
+      ]
+    },
+    "czZl5B1nEBQ": {
+      "title": "不思議 - FUSHIGI",
+      "history": [
+        {
+          "date": "2026-04-19",
+          "views": 5648119,
+          "likes": 22627,
+          "comments": 48
+        }
+      ]
+    },
+    "JvWuSu1bRIY": {
+      "title": "SUN",
+      "history": [
+        {
+          "date": "2026-04-19",
+          "views": 15228304,
+          "likes": 60648,
+          "comments": 76
         }
       ]
     }
