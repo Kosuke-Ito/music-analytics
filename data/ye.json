@@ -576,6 +576,47 @@
       "ytm_subscribers": 12400000,
       "ytm_monthly_listeners": 288000000,
       "ytm_total_views": 9653091783
+    },
+    {
+      "date": "2026-04-20",
+      "monthly_listeners": 18561110,
+      "collected_at": "2026-04-20T15:21:15.611508+00:00",
+      "spotify_followers": 687013,
+      "youtube_subscribers": 12400000,
+      "youtube_total_views": 9656096314,
+      "youtube_video_count": 40,
+      "top_cities": [
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 353741
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 312892
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 286966
+        },
+        {
+          "city": "New York City",
+          "country": "US",
+          "listeners": 266115
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 216601
+        }
+      ],
+      "lastfm_listeners": 504729,
+      "lastfm_playcount": 8924842,
+      "ytm_subscribers": 12400000,
+      "ytm_monthly_listeners": 288000000,
+      "ytm_total_views": 9653091783
     }
   ],
   "annotations": [
@@ -643,14 +684,14 @@
   "metadata": {
     "ytm_related_artists": [
       {
-        "name": "Vince Staples",
-        "browse_id": "UCCn7DeREpok-P8lDnYkyZWA",
-        "subscribers": "2.05M"
-      },
-      {
         "name": "Pharrell Williams",
         "browse_id": "UCJw8VyO6e3v6S0327AsgwcQ",
         "subscribers": "101M"
+      },
+      {
+        "name": "Vince Staples",
+        "browse_id": "UCCn7DeREpok-P8lDnYkyZWA",
+        "subscribers": "2.05M"
       },
       {
         "name": "Chance The Rapper",
@@ -658,9 +699,9 @@
         "subscribers": "1.54M"
       },
       {
-        "name": "A$AP Ferg",
-        "browse_id": "UCn3pqmDQyPt4o8oDPS3PpnQ",
-        "subscribers": "12.6M"
+        "name": "Kid Cudi",
+        "browse_id": "UCo2-dPLJcpbZK84FIt0vD-w",
+        "subscribers": "31.8M"
       },
       {
         "name": "Tyler, The Creator",
@@ -668,29 +709,29 @@
         "subscribers": "125M"
       },
       {
-        "name": "Logic",
-        "browse_id": "UCKC7Xqy0UXT370RvFR2kXYg",
-        "subscribers": "6.55M"
-      },
-      {
-        "name": "Pusha T",
-        "browse_id": "UCr4IKNkUPPmkwE_LAjtho0g",
-        "subscribers": "4.16M"
-      },
-      {
-        "name": "Kid Cudi",
-        "browse_id": "UCo2-dPLJcpbZK84FIt0vD-w",
-        "subscribers": "31.8M"
-      },
-      {
-        "name": "Lupe Fiasco",
-        "browse_id": "UCe872mgP4deADPnXtkbS-Cg",
-        "subscribers": "45.9M"
+        "name": "Jaden",
+        "browse_id": "UCRCRHG4OKZDdvIdRZj4jVBQ",
+        "subscribers": "1.81M"
       },
       {
         "name": "J. Cole",
         "browse_id": "UC0ajkOzj8xE3Gs3LHCE243A",
         "subscribers": "143M"
+      },
+      {
+        "name": "A$AP Ferg",
+        "browse_id": "UCn3pqmDQyPt4o8oDPS3PpnQ",
+        "subscribers": "12.6M"
+      },
+      {
+        "name": "Childish Gambino",
+        "browse_id": "UC4hvOh5lgkeAJoVRIg40Kgg",
+        "subscribers": "29.5M"
+      },
+      {
+        "name": "Lupe Fiasco",
+        "browse_id": "UCe872mgP4deADPnXtkbS-Cg",
+        "subscribers": "45.9M"
       }
     ],
     "ytm_top_songs": [
@@ -768,6 +809,12 @@
           "views": 4713409,
           "likes": 102736,
           "comments": 3993
+        },
+        {
+          "date": "2026-04-20",
+          "views": 4796132,
+          "likes": 103535,
+          "comments": 4013
         }
       ]
     },
@@ -821,6 +868,12 @@
           "views": 4566402,
           "likes": 102469,
           "comments": 3592
+        },
+        {
+          "date": "2026-04-20",
+          "views": 4654588,
+          "likes": 103355,
+          "comments": 3599
         }
       ]
     },
@@ -874,6 +927,12 @@
           "views": 138285203,
           "likes": 1381568,
           "comments": 16408
+        },
+        {
+          "date": "2026-04-20",
+          "views": 138405638,
+          "likes": 1382735,
+          "comments": 16418
         }
       ]
     },
@@ -927,6 +986,12 @@
           "views": 65709337,
           "likes": 615004,
           "comments": 3435
+        },
+        {
+          "date": "2026-04-20",
+          "views": 65808950,
+          "likes": 615724,
+          "comments": 3439
         }
       ]
     },
@@ -980,8 +1045,28 @@
           "views": 190133312,
           "likes": 1457599,
           "comments": 5570
+        },
+        {
+          "date": "2026-04-20",
+          "views": 190268949,
+          "likes": 1458368,
+          "comments": 5573
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-20",
+      "metric": "youtube_total_views",
+      "value": 9656096314,
+      "baseline_mean": 9562982016.8,
+      "baseline_stddev": 26879782.3,
+      "delta": 93114297,
+      "score": 3.46,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-20T15:21:17.117651+00:00"
+    }
+  ]
 }

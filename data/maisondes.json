@@ -406,6 +406,47 @@
       "ytm_subscribers": 416000,
       "ytm_monthly_listeners": 4670000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-20",
+      "monthly_listeners": 831972,
+      "collected_at": "2026-04-20T15:13:49.746811+00:00",
+      "spotify_followers": 265215,
+      "youtube_subscribers": 328000,
+      "youtube_total_views": 245625964,
+      "youtube_video_count": 56,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 30526
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 27963
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 17831
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 15136
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 11313
+        }
+      ],
+      "lastfm_listeners": 131681,
+      "lastfm_playcount": 3222444,
+      "ytm_subscribers": 416000,
+      "ytm_monthly_listeners": 4670000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -564,6 +605,12 @@
           "views": 5797158,
           "likes": 36278,
           "comments": 79
+        },
+        {
+          "date": "2026-04-20",
+          "views": 5800075,
+          "likes": 36290,
+          "comments": 79
         }
       ]
     },
@@ -616,6 +663,12 @@
           "date": "2026-04-19",
           "views": 5188410,
           "likes": 32506,
+          "comments": 62
+        },
+        {
+          "date": "2026-04-20",
+          "views": 5191185,
+          "likes": 32518,
           "comments": 62
         }
       ]
@@ -670,6 +723,12 @@
           "views": 2279046,
           "likes": 27457,
           "comments": 508
+        },
+        {
+          "date": "2026-04-20",
+          "views": 2284618,
+          "likes": 27486,
+          "comments": 508
         }
       ]
     },
@@ -722,6 +781,12 @@
           "date": "2026-04-19",
           "views": 2741409,
           "likes": 19364,
+          "comments": 62
+        },
+        {
+          "date": "2026-04-20",
+          "views": 2742811,
+          "likes": 19378,
           "comments": 62
         }
       ]
@@ -776,6 +841,12 @@
           "views": 3011935,
           "likes": 21812,
           "comments": 138
+        },
+        {
+          "date": "2026-04-20",
+          "views": 3013373,
+          "likes": 21821,
+          "comments": 138
         }
       ]
     }
@@ -791,6 +862,20 @@
       "source": "skream.jp",
       "confidence": "high",
       "verified": false
+    }
+  ],
+  "buzz_events": [
+    {
+      "date": "2026-04-20",
+      "metric": "youtube_total_views",
+      "value": 245625964,
+      "baseline_mean": 245361173.9,
+      "baseline_stddev": 128747.3,
+      "delta": 264790,
+      "score": 2.06,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-20T15:13:51.617355+00:00"
     }
   ]
 }

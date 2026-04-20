@@ -403,6 +403,47 @@
       "ytm_subscribers": 461000,
       "ytm_monthly_listeners": 1540000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-20",
+      "monthly_listeners": 95643,
+      "collected_at": "2026-04-20T15:10:25.104200+00:00",
+      "spotify_followers": 228956,
+      "youtube_subscribers": 461000,
+      "youtube_total_views": 208903784,
+      "youtube_video_count": 47,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 4609
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 2636
+        },
+        {
+          "city": "Bogotá",
+          "country": "CO",
+          "listeners": 1444
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 1421
+        },
+        {
+          "city": "Guatemala City",
+          "country": "GT",
+          "listeners": 1367
+        }
+      ],
+      "lastfm_listeners": 143592,
+      "lastfm_playcount": 2265403,
+      "ytm_subscribers": 461000,
+      "ytm_monthly_listeners": 1540000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -437,19 +478,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "jo0ji",
-        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "3.74M"
-      },
-      {
-        "name": "Ling Tosite Sigure",
-        "browse_id": "UCI4j7Ojnqah6z5_OY-_20wg",
-        "subscribers": "1.12M"
-      },
-      {
         "name": "ꉈꀧ꒒꒒ꁄꍈꍈꀧ꒦ꉈ ꉣꅔꎡꅔꁕꁄ",
         "browse_id": "UCaA9RWPJq5CRlW7pYAaMP0w",
-        "subscribers": "125"
+        "subscribers": "127"
       },
       {
         "name": "Yaffle",
@@ -469,7 +500,7 @@
       {
         "name": "Yuta Bandoh",
         "browse_id": "UCke6mW_sAX19l9Eegllgcog",
-        "subscribers": "6.56K"
+        "subscribers": "6.57K"
       },
       {
         "name": "Tempalay",
@@ -485,6 +516,16 @@
         "name": "Miyuna",
         "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
         "subscribers": "212K"
+      },
+      {
+        "name": "Daoko",
+        "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
+        "subscribers": "3.83M"
+      },
+      {
+        "name": "ALI",
+        "browse_id": "UCcM2nwYSXoS0pRpljTefmpg",
+        "subscribers": "8.06M"
       }
     ],
     "ytm_top_songs": [
@@ -561,6 +602,12 @@
           "views": 6993001,
           "likes": 66284,
           "comments": 228
+        },
+        {
+          "date": "2026-04-20",
+          "views": 7003236,
+          "likes": 66351,
+          "comments": 228
         }
       ]
     },
@@ -613,6 +660,12 @@
           "date": "2026-04-19",
           "views": 1895797,
           "likes": 23721,
+          "comments": 41
+        },
+        {
+          "date": "2026-04-20",
+          "views": 1897937,
+          "likes": 23738,
           "comments": 41
         }
       ]
@@ -667,6 +720,12 @@
           "views": 21100265,
           "likes": 220937,
           "comments": 581
+        },
+        {
+          "date": "2026-04-20",
+          "views": 21107463,
+          "likes": 220966,
+          "comments": 581
         }
       ]
     },
@@ -719,6 +778,12 @@
           "date": "2026-04-19",
           "views": 128277,
           "likes": 1081,
+          "comments": 8
+        },
+        {
+          "date": "2026-04-20",
+          "views": 128500,
+          "likes": 1082,
           "comments": 8
         }
       ]
@@ -773,6 +838,12 @@
           "views": 88241,
           "likes": 1366,
           "comments": 10
+        },
+        {
+          "date": "2026-04-20",
+          "views": 88419,
+          "likes": 1368,
+          "comments": 10
         }
       ]
     }
@@ -800,6 +871,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-19T14:35:27.873051+00:00"
+    },
+    {
+      "date": "2026-04-20",
+      "metric": "youtube_total_views",
+      "value": 208903784,
+      "baseline_mean": 207220357.6,
+      "baseline_stddev": 841713.2,
+      "delta": 1683426,
+      "score": 2.0,
+      "type": "annotated",
+      "related_annotation": "King Gnu CEN+RAL Tour 2026の波及効果でYouTube総再生数が上昇（2.83σ）",
+      "detected_at": "2026-04-20T15:10:27.150463+00:00"
     }
   ]
 }

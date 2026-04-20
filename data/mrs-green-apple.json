@@ -588,6 +588,47 @@
       "ytm_subscribers": 6320000,
       "ytm_monthly_listeners": 43700000,
       "ytm_total_views": 6312175223
+    },
+    {
+      "date": "2026-04-20",
+      "monthly_listeners": 7544983,
+      "collected_at": "2026-04-20T15:16:18.601256+00:00",
+      "spotify_followers": 7011954,
+      "youtube_subscribers": 6320000,
+      "youtube_total_views": 6505005571,
+      "youtube_video_count": 785,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 492680
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 370222
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 278431
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 162207
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 149699
+        }
+      ],
+      "lastfm_listeners": 431812,
+      "lastfm_playcount": 11945276,
+      "ytm_subscribers": 6320000,
+      "ytm_monthly_listeners": 43700000,
+      "ytm_total_views": 6316877594
     }
   ],
   "annotations": [
@@ -700,14 +741,14 @@
         "subscribers": "12M"
       },
       {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "10.3M"
-      },
-      {
         "name": "Tele",
         "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
         "subscribers": "668K"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "10.3M"
       },
       {
         "name": "Marcy",
@@ -720,16 +761,6 @@
         "subscribers": "2.92M"
       },
       {
-        "name": "Da-iCE",
-        "browse_id": "UCsgebXKWsxjX216BtZwLdzQ",
-        "subscribers": "5.2M"
-      },
-      {
-        "name": "Saucy Dog",
-        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "3.03M"
-      },
-      {
         "name": "SUPER BEAVER",
         "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
         "subscribers": "3.34M"
@@ -740,9 +771,19 @@
         "subscribers": "29.7M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "23.6M"
+        "name": "Saucy Dog",
+        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
+        "subscribers": "3.03M"
+      },
+      {
+        "name": "sumika",
+        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
+        "subscribers": "6.96M"
+      },
+      {
+        "name": "Macaroni Empitsu",
+        "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
+        "subscribers": "6.01M"
       }
     ],
     "ytm_top_songs": [
@@ -820,6 +861,12 @@
           "views": 19489962,
           "likes": 135026,
           "comments": 2088
+        },
+        {
+          "date": "2026-04-20",
+          "views": 19643216,
+          "likes": 135442,
+          "comments": 2088
         }
       ]
     },
@@ -872,6 +919,12 @@
           "date": "2026-04-19",
           "views": 139815823,
           "likes": 523953,
+          "comments": 5835
+        },
+        {
+          "date": "2026-04-20",
+          "views": 139991076,
+          "likes": 524227,
           "comments": 5835
         }
       ]
@@ -926,6 +979,12 @@
           "views": 57144746,
           "likes": 221876,
           "comments": 406
+        },
+        {
+          "date": "2026-04-20",
+          "views": 57179252,
+          "likes": 221984,
+          "comments": 407
         }
       ]
     },
@@ -1026,6 +1085,12 @@
           "views": 37891420,
           "likes": 180962,
           "comments": 2337
+        },
+        {
+          "date": "2026-04-20",
+          "views": 37959453,
+          "likes": 181103,
+          "comments": 2337
         }
       ]
     },
@@ -1037,8 +1102,28 @@
           "views": 64194929,
           "likes": 253129,
           "comments": 1417
+        },
+        {
+          "date": "2026-04-20",
+          "views": 64264442,
+          "likes": 253251,
+          "comments": 1419
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-20",
+      "metric": "youtube_total_views",
+      "value": 6505005571,
+      "baseline_mean": 6443200474.8,
+      "baseline_stddev": 16377585.7,
+      "delta": 61805096,
+      "score": 3.77,
+      "type": "annotated",
+      "related_annotation": "スタジアムツアー「ゼンジン未到とイ/ミュータブル〜間奏編〜」国立競技場公演 初日",
+      "detected_at": "2026-04-20T15:16:20.170440+00:00"
+    }
+  ]
 }

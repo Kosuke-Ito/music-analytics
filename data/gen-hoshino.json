@@ -288,6 +288,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 9280000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-20",
+      "monthly_listeners": 2687107,
+      "collected_at": "2026-04-20T15:23:44.282392+00:00",
+      "spotify_followers": 2391409,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 1404957040,
+      "youtube_video_count": 197,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 137980
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 118972
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 77575
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 50109
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 44785
+        }
+      ],
+      "lastfm_listeners": 21243,
+      "lastfm_playcount": 2993708,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 9280000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -322,24 +363,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "40.7M"
-      },
-      {
         "name": "Tele",
         "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
         "subscribers": "668K"
-      },
-      {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "1.29M"
-      },
-      {
-        "name": "imase",
-        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "50.7M"
       },
       {
         "name": "TOMOO",
@@ -347,14 +373,19 @@
         "subscribers": "707K"
       },
       {
-        "name": "BUMP OF CHICKEN",
-        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
-        "subscribers": "8.7M"
-      },
-      {
         "name": "SHISHAMO",
         "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
         "subscribers": "2.33M"
+      },
+      {
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "1.29M"
+      },
+      {
+        "name": "Fujifabric",
+        "browse_id": "UCFRvee2fH0Fo6WRKGZuk7SQ",
+        "subscribers": "1.03M"
       },
       {
         "name": "aiko",
@@ -362,14 +393,24 @@
         "subscribers": "6.07M"
       },
       {
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "50.7M"
+      },
+      {
         "name": "Sambomaster",
         "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
         "subscribers": "4.15M"
       },
       {
-        "name": "CreepHyp",
-        "browse_id": "UC0iyL2tAxXXuwfx8VVvCw1A",
-        "subscribers": "2.19M"
+        "name": "BUMP OF CHICKEN",
+        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
+        "subscribers": "8.7M"
+      },
+      {
+        "name": "Fujii Kaze",
+        "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
+        "subscribers": "38.7M"
       }
     ],
     "ytm_top_songs": [
@@ -440,6 +481,12 @@
           "views": 57290474,
           "likes": 225584,
           "comments": 580
+        },
+        {
+          "date": "2026-04-20",
+          "views": 57324461,
+          "likes": 225692,
+          "comments": 580
         }
       ]
     },
@@ -486,6 +533,12 @@
           "date": "2026-04-19",
           "views": 4167977,
           "likes": 35165,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-20",
+          "views": 4179471,
+          "likes": 35234,
           "comments": 0
         }
       ]
@@ -616,6 +669,12 @@
           "views": 10500719,
           "likes": 46587,
           "comments": 169
+        },
+        {
+          "date": "2026-04-20",
+          "views": 10506642,
+          "likes": 46614,
+          "comments": 169
         }
       ]
     },
@@ -627,6 +686,12 @@
           "views": 5648119,
           "likes": 22627,
           "comments": 48
+        },
+        {
+          "date": "2026-04-20",
+          "views": 5654664,
+          "likes": 22666,
+          "comments": 48
         }
       ]
     },
@@ -637,6 +702,12 @@
           "date": "2026-04-19",
           "views": 15228304,
           "likes": 60648,
+          "comments": 76
+        },
+        {
+          "date": "2026-04-20",
+          "views": 15238479,
+          "likes": 60675,
           "comments": 76
         }
       ]
@@ -653,6 +724,20 @@
       "source": "natalie.mu",
       "confidence": "high",
       "verified": false
+    }
+  ],
+  "buzz_events": [
+    {
+      "date": "2026-04-20",
+      "metric": "youtube_total_views",
+      "value": 1404957040,
+      "baseline_mean": 1402771497.7,
+      "baseline_stddev": 895836.5,
+      "delta": 2185542,
+      "score": 2.44,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-20T15:23:46.324351+00:00"
     }
   ]
 }

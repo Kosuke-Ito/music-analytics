@@ -588,6 +588,47 @@
       "ytm_subscribers": 39500000,
       "ytm_monthly_listeners": 276000000,
       "ytm_total_views": 36154961279
+    },
+    {
+      "date": "2026-04-20",
+      "monthly_listeners": 116275553,
+      "collected_at": "2026-04-20T15:20:27.025171+00:00",
+      "spotify_followers": 121331781,
+      "youtube_subscribers": 39500000,
+      "youtube_total_views": 36156640530,
+      "youtube_video_count": 202,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1993812
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1582471
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1548518
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 1152677
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 1071626
+        }
+      ],
+      "lastfm_listeners": 5304379,
+      "lastfm_playcount": 1118352676,
+      "ytm_subscribers": 39500000,
+      "ytm_monthly_listeners": 276000000,
+      "ytm_total_views": 36154961279
     }
   ],
   "annotations": [
@@ -667,11 +708,6 @@
         "subscribers": "15.2M"
       },
       {
-        "name": "Post Malone",
-        "browse_id": "UCyD3XWRK9ko-izf2nBSFitw",
-        "subscribers": "105M"
-      },
-      {
         "name": "6LACK",
         "browse_id": "UCgerUw6uCKCZIYvD5sz5ZNg",
         "subscribers": "9.63M"
@@ -682,19 +718,9 @@
         "subscribers": "21.2M"
       },
       {
-        "name": "Benny Blanco",
-        "browse_id": "UCzqz_ksRu_WkIzmivMdIS7A",
-        "subscribers": "25.5M"
-      },
-      {
-        "name": "PARTYNEXTDOOR",
-        "browse_id": "UCV8G0JqlvVKkHxNyeog8Ftg",
-        "subscribers": "20M"
-      },
-      {
-        "name": "SAINt JHN",
-        "browse_id": "UCvfjizX8aIDWRKl9ff70qmQ",
-        "subscribers": "20.3M"
+        "name": "Roy Woods",
+        "browse_id": "UCSdkGvUbrlYl4Cs4o5Ff-ig",
+        "subscribers": "1.36M"
       },
       {
         "name": "Doja Cat",
@@ -702,9 +728,24 @@
         "subscribers": "129M"
       },
       {
-        "name": "Roy Woods",
-        "browse_id": "UCSdkGvUbrlYl4Cs4o5Ff-ig",
-        "subscribers": "1.36M"
+        "name": "Benny Blanco",
+        "browse_id": "UCzqz_ksRu_WkIzmivMdIS7A",
+        "subscribers": "25.5M"
+      },
+      {
+        "name": "Don Toliver",
+        "browse_id": "UCSzWQmDsKG37iKN2vw1G-2Q",
+        "subscribers": "123M"
+      },
+      {
+        "name": "Post Malone",
+        "browse_id": "UCyD3XWRK9ko-izf2nBSFitw",
+        "subscribers": "105M"
+      },
+      {
+        "name": "SAINt JHN",
+        "browse_id": "UCvfjizX8aIDWRKl9ff70qmQ",
+        "subscribers": "20.3M"
       }
     ],
     "ytm_top_songs": [
@@ -767,6 +808,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-15T03:34:01.306036+00:00"
+    },
+    {
+      "date": "2026-04-20",
+      "metric": "youtube_total_views",
+      "value": 36156640530,
+      "baseline_mean": 35815794229.4,
+      "baseline_stddev": 98393851.7,
+      "delta": 340846300,
+      "score": 3.46,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-20T15:20:28.611328+00:00"
     }
   ],
   "song_performance": {
@@ -820,6 +873,12 @@
           "views": 566233892,
           "likes": 3760846,
           "comments": 6537
+        },
+        {
+          "date": "2026-04-20",
+          "views": 566567399,
+          "likes": 3762453,
+          "comments": 6539
         }
       ]
     },
@@ -873,6 +932,12 @@
           "views": 603285693,
           "likes": 4122277,
           "comments": 8864
+        },
+        {
+          "date": "2026-04-20",
+          "views": 603702017,
+          "likes": 4124501,
+          "comments": 8873
         }
       ]
     },
@@ -926,6 +991,12 @@
           "views": 334347033,
           "likes": 2781133,
           "comments": 7310
+        },
+        {
+          "date": "2026-04-20",
+          "views": 334684963,
+          "likes": 2782956,
+          "comments": 7313
         }
       ]
     },
@@ -979,6 +1050,12 @@
           "views": 937603584,
           "likes": 6472764,
           "comments": 22402
+        },
+        {
+          "date": "2026-04-20",
+          "views": 937938523,
+          "likes": 6474500,
+          "comments": 22411
         }
       ]
     },
@@ -1032,6 +1109,12 @@
           "views": 129984040,
           "likes": 1069771,
           "comments": 4166
+        },
+        {
+          "date": "2026-04-20",
+          "views": 130237153,
+          "likes": 1071134,
+          "comments": 4172
         }
       ]
     }

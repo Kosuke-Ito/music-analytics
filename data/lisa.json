@@ -288,6 +288,47 @@
       "ytm_subscribers": 8540000,
       "ytm_monthly_listeners": 77800000,
       "ytm_total_views": 2297349110
+    },
+    {
+      "date": "2026-04-20",
+      "monthly_listeners": 4696412,
+      "collected_at": "2026-04-20T15:24:01.109586+00:00",
+      "spotify_followers": 3774735,
+      "youtube_subscribers": 2930000,
+      "youtube_total_views": 1735912112,
+      "youtube_video_count": 465,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 73021
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68126
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 62008
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 58847
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 53974
+        }
+      ],
+      "lastfm_listeners": 1957812,
+      "lastfm_playcount": 128768844,
+      "ytm_subscribers": 8550000,
+      "ytm_monthly_listeners": 77800000,
+      "ytm_total_views": 2297349110
     }
   ],
   "metadata": {
@@ -322,11 +363,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "GOT the beat",
-        "browse_id": "UCDDpqmryjNunitS05bv7-8w",
-        "subscribers": "948K"
-      },
-      {
         "name": "블랙스완 BLACKSWAN",
         "browse_id": "UC277cpXD9BLeaGgh3yDP40w",
         "subscribers": "561K"
@@ -349,17 +385,17 @@
       {
         "name": "Babymonster An",
         "browse_id": "UCHvoIeCVQoRuVlDJmNUDH6w",
-        "subscribers": "6.34K"
+        "subscribers": "6.35K"
       },
       {
-        "name": "ITZY",
-        "browse_id": "UCTP45_DE3fMLujU8sZ-MBzw",
-        "subscribers": "42.9M"
+        "name": "GOT the beat",
+        "browse_id": "UCDDpqmryjNunitS05bv7-8w",
+        "subscribers": "948K"
       },
       {
-        "name": "KISS OF LIFE",
-        "browse_id": "UCy_chGIsdShihFYBoXZyTdg",
-        "subscribers": "30.4M"
+        "name": "HWASA",
+        "browse_id": "UCUvwlcYiGH78yDWofEvRQ2A",
+        "subscribers": "54.1M"
       },
       {
         "name": "Bella Poarch",
@@ -367,9 +403,14 @@
         "subscribers": "26M"
       },
       {
-        "name": "HWASA",
-        "browse_id": "UCUvwlcYiGH78yDWofEvRQ2A",
-        "subscribers": "54.1M"
+        "name": "ROSÉ",
+        "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
+        "subscribers": "359M"
+      },
+      {
+        "name": "KISS OF LIFE",
+        "browse_id": "UCy_chGIsdShihFYBoXZyTdg",
+        "subscribers": "30.4M"
       }
     ],
     "ytm_top_songs": [
@@ -452,6 +493,12 @@
           "views": 19314361,
           "likes": 226566,
           "comments": 1817
+        },
+        {
+          "date": "2026-04-20",
+          "views": 19365227,
+          "likes": 227039,
+          "comments": 1821
         }
       ]
     },
@@ -499,6 +546,12 @@
           "views": 263060520,
           "likes": 2661786,
           "comments": 3672
+        },
+        {
+          "date": "2026-04-20",
+          "views": 263138026,
+          "likes": 2662429,
+          "comments": 3682
         }
       ]
     },
@@ -545,6 +598,12 @@
           "date": "2026-04-19",
           "views": 29125404,
           "likes": 228089,
+          "comments": 710
+        },
+        {
+          "date": "2026-04-20",
+          "views": 29181346,
+          "likes": 228376,
           "comments": 710
         }
       ]
@@ -593,6 +652,12 @@
           "views": 23595828,
           "likes": 235731,
           "comments": 2290
+        },
+        {
+          "date": "2026-04-20",
+          "views": 23640148,
+          "likes": 236003,
+          "comments": 2295
         }
       ]
     },
@@ -640,6 +705,12 @@
           "views": 1943882,
           "likes": 63758,
           "comments": 1483
+        },
+        {
+          "date": "2026-04-20",
+          "views": 2153191,
+          "likes": 68685,
+          "comments": 1512
         }
       ]
     }
@@ -677,6 +748,20 @@
       "source": "sonymusic.co.jp",
       "confidence": "high",
       "verified": false
+    }
+  ],
+  "buzz_events": [
+    {
+      "date": "2026-04-20",
+      "metric": "youtube_total_views",
+      "value": 1735912112,
+      "baseline_mean": 1731766599.4,
+      "baseline_stddev": 1341552.3,
+      "delta": 4145512,
+      "score": 3.09,
+      "type": "annotated",
+      "related_annotation": "アリーナツアー「LiVE is Smile Always～15～」日本武道館公演初日",
+      "detected_at": "2026-04-20T15:24:03.397822+00:00"
     }
   ]
 }

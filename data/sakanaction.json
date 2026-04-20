@@ -288,6 +288,47 @@
       "ytm_subscribers": 1260000,
       "ytm_monthly_listeners": 40700000,
       "ytm_total_views": 1073828637
+    },
+    {
+      "date": "2026-04-20",
+      "monthly_listeners": 3115689,
+      "collected_at": "2026-04-20T15:24:51.925056+00:00",
+      "spotify_followers": 1866471,
+      "youtube_subscribers": 1260000,
+      "youtube_total_views": 1119779849,
+      "youtube_video_count": 493,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 187313
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 172339
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 108266
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 67788
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 51580
+        }
+      ],
+      "lastfm_listeners": 58511,
+      "lastfm_playcount": 15762194,
+      "ytm_subscribers": 1260000,
+      "ytm_monthly_listeners": 40700000,
+      "ytm_total_views": 1076596636
     }
   ],
   "annotations": [
@@ -357,6 +398,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Tokyo Incidents",
+        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
+        "subscribers": "1.26M"
+      },
+      {
         "name": "PEOPLE 1",
         "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
         "subscribers": "653K"
@@ -367,29 +413,14 @@
         "subscribers": "10.3M"
       },
       {
-        "name": "Tokyo Incidents",
-        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
-        "subscribers": "1.26M"
+        "name": "Perfume",
+        "browse_id": "UCrht-oKwaPy5TqVp80yOuLg",
+        "subscribers": "4.57M"
       },
       {
-        "name": "[Alexandros]",
-        "browse_id": "UCbzcUjXa4yX3k5CD8bioDmg",
-        "subscribers": "12M"
-      },
-      {
-        "name": "Frederic",
-        "browse_id": "UCFTm4lY-D08LFZyncZIoDIQ",
-        "subscribers": "9.95M"
-      },
-      {
-        "name": "BUMP OF CHICKEN",
-        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
-        "subscribers": "8.7M"
-      },
-      {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "5.7M"
+        "name": "Fujifabric",
+        "browse_id": "UCFRvee2fH0Fo6WRKGZuk7SQ",
+        "subscribers": "1.03M"
       },
       {
         "name": "ASIAN KUNG-FU GENERATION",
@@ -397,14 +428,24 @@
         "subscribers": "4.19M"
       },
       {
-        "name": "Perfume",
-        "browse_id": "UCrht-oKwaPy5TqVp80yOuLg",
-        "subscribers": "4.57M"
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "5.7M"
+      },
+      {
+        "name": "gesunokiwamiotome",
+        "browse_id": "UCC49CEw6fitW1bUIT9NjvSA",
+        "subscribers": "1.15M"
       },
       {
         "name": "CreepHyp",
         "browse_id": "UC0iyL2tAxXXuwfx8VVvCw1A",
         "subscribers": "2.19M"
+      },
+      {
+        "name": "Frederic",
+        "browse_id": "UCFTm4lY-D08LFZyncZIoDIQ",
+        "subscribers": "9.95M"
       }
     ],
     "ytm_top_songs": [
@@ -476,6 +517,12 @@
           "views": 61617695,
           "likes": 377416,
           "comments": 1130
+        },
+        {
+          "date": "2026-04-20",
+          "views": 61733863,
+          "likes": 377764,
+          "comments": 1134
         }
       ]
     },
@@ -522,6 +569,12 @@
           "date": "2026-04-19",
           "views": 47473971,
           "likes": 181755,
+          "comments": 382
+        },
+        {
+          "date": "2026-04-20",
+          "views": 47525266,
+          "likes": 181926,
           "comments": 382
         }
       ]
@@ -570,6 +623,12 @@
           "views": 3974667,
           "likes": 51921,
           "comments": 1534
+        },
+        {
+          "date": "2026-04-20",
+          "views": 4009073,
+          "likes": 52063,
+          "comments": 1534
         }
       ]
     },
@@ -617,6 +676,12 @@
           "views": 10198641,
           "likes": 55103,
           "comments": 192
+        },
+        {
+          "date": "2026-04-20",
+          "views": 10331436,
+          "likes": 56524,
+          "comments": 200
         }
       ]
     },
@@ -664,8 +729,28 @@
           "views": 19582357,
           "likes": 111056,
           "comments": 181
+        },
+        {
+          "date": "2026-04-20",
+          "views": 19609226,
+          "likes": 111219,
+          "comments": 182
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-20",
+      "metric": "youtube_total_views",
+      "value": 1119779849,
+      "baseline_mean": 1113455926.4,
+      "baseline_stddev": 2707540.0,
+      "delta": 6323922,
+      "score": 2.34,
+      "type": "annotated",
+      "related_annotation": "SGCホール有明こけら落とし公演1日目（NF member限定）",
+      "detected_at": "2026-04-20T15:24:53.898454+00:00"
+    }
+  ]
 }

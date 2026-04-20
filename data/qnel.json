@@ -403,6 +403,47 @@
       "ytm_subscribers": 155,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-20",
+      "monthly_listeners": 436,
+      "collected_at": "2026-04-20T15:18:29.518021+00:00",
+      "spotify_followers": 932,
+      "youtube_subscribers": 364,
+      "youtube_total_views": 65442,
+      "youtube_video_count": 170,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 29
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 15
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 11
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 9
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 9
+        }
+      ],
+      "lastfm_listeners": 735,
+      "lastfm_playcount": 2408,
+      "ytm_subscribers": 155,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -440,6 +481,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Kawaguchi Takuma",
+        "browse_id": "UC16c0SCZvOqrlL76EMDptzw",
+        "subscribers": "207"
+      },
+      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "56.9K"
@@ -472,12 +518,7 @@
       {
         "name": "Zenya",
         "browse_id": "UCo4roqqKdMVG02RRM4n-MMw",
-        "subscribers": "124"
-      },
-      {
-        "name": "Kawaguchi Takuma",
-        "browse_id": "UC16c0SCZvOqrlL76EMDptzw",
-        "subscribers": "207"
+        "subscribers": "125"
       },
       {
         "name": "RYO OGAWA",
@@ -564,6 +605,12 @@
           "views": 2859,
           "likes": 18,
           "comments": 0
+        },
+        {
+          "date": "2026-04-20",
+          "views": 2872,
+          "likes": 18,
+          "comments": 0
         }
       ]
     },
@@ -615,6 +662,12 @@
         {
           "date": "2026-04-19",
           "views": 5232,
+          "likes": 21,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-20",
+          "views": 5243,
           "likes": 21,
           "comments": 0
         }
@@ -670,6 +723,12 @@
           "views": 11571,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-04-20",
+          "views": 11581,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -721,6 +780,12 @@
         {
           "date": "2026-04-19",
           "views": 31284,
+          "likes": 143,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-20",
+          "views": 31298,
           "likes": 143,
           "comments": 0
         }
@@ -776,6 +841,12 @@
           "views": 7595,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-04-20",
+          "views": 7601,
+          "likes": 60,
+          "comments": 0
         }
       ]
     }
@@ -828,6 +899,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-04-19T14:42:59.111473+00:00"
+    },
+    {
+      "date": "2026-04-20",
+      "metric": "youtube_total_views",
+      "value": 65442,
+      "baseline_mean": 65395,
+      "baseline_stddev": 21.6,
+      "delta": 47,
+      "score": 2.18,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-04-20T15:18:31.282260+00:00"
     }
   ]
 }

@@ -288,6 +288,47 @@
       "ytm_subscribers": 863000,
       "ytm_monthly_listeners": 13300000,
       "ytm_total_views": 898243655
+    },
+    {
+      "date": "2026-04-20",
+      "monthly_listeners": 3983741,
+      "collected_at": "2026-04-20T15:24:34.686446+00:00",
+      "spotify_followers": 2756384,
+      "youtube_subscribers": 5550000,
+      "youtube_total_views": 3421045823,
+      "youtube_video_count": 196,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 58521
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 57945
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 55635
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 46107
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 41079
+        }
+      ],
+      "lastfm_listeners": 1798477,
+      "lastfm_playcount": 52119214,
+      "ytm_subscribers": 864000,
+      "ytm_monthly_listeners": 13300000,
+      "ytm_total_views": 898243655
     }
   ],
   "annotations": [
@@ -346,6 +387,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Truth Hurts",
+        "browse_id": "UC5TDFRoiVSjU_TV2JJBQM-w",
+        "subscribers": "18.3K"
+      },
+      {
         "name": "Charli Baltimore",
         "browse_id": "UCWcn1edWQHz0HQNVsQRwAfA",
         "subscribers": "15K"
@@ -356,19 +402,9 @@
         "subscribers": "9.44K"
       },
       {
-        "name": "Truth Hurts",
-        "browse_id": "UC5TDFRoiVSjU_TV2JJBQM-w",
-        "subscribers": "18.2K"
-      },
-      {
         "name": "J-Kwon",
         "browse_id": "UC70_SxaiX5enHOHc4ofPGbg",
-        "subscribers": "3.5K"
-      },
-      {
-        "name": "Busta Rhymes",
-        "browse_id": "UCaSeNTljGkpoj1ijhs72nag",
-        "subscribers": "30.7M"
+        "subscribers": "3.51K"
       },
       {
         "name": "Mr. Cheeks TV",
@@ -376,24 +412,29 @@
         "subscribers": "440K"
       },
       {
-        "name": "Mase",
-        "browse_id": "UC5gdSVYYBOKPgOdVdRG-Vdg",
-        "subscribers": "2.06M"
+        "name": "Timbaland",
+        "browse_id": "UCStR3TnjvL7CL8ZNFPKmRXw",
+        "subscribers": "96.7M"
       },
       {
-        "name": "Ludacris",
-        "browse_id": "UCrcXT9Gn6zCA4dOqW6XsKUw",
-        "subscribers": "17.2M"
+        "name": "Missy Elliott",
+        "browse_id": "UCKqVP7_535ELJu2OeEd3zzQ",
+        "subscribers": "7.18M"
+      },
+      {
+        "name": "Busta Rhymes",
+        "browse_id": "UCaSeNTljGkpoj1ijhs72nag",
+        "subscribers": "30.7M"
+      },
+      {
+        "name": "Foxy Brown",
+        "browse_id": "UCvuXZP247gluPFG4dx8_xcg",
+        "subscribers": "3.44M"
       },
       {
         "name": "Remy Ma",
         "browse_id": "UCr9uxRBYGFLryrYmspsUG2w",
         "subscribers": "8.78M"
-      },
-      {
-        "name": "Fat Joe",
-        "browse_id": "UCvujFDDYFSt0uu_aTxuVEIg",
-        "subscribers": "14.1M"
       }
     ],
     "ytm_top_songs": [
@@ -465,6 +506,12 @@
           "views": 129798733,
           "likes": 1277361,
           "comments": 1582
+        },
+        {
+          "date": "2026-04-20",
+          "views": 129859075,
+          "likes": 1277773,
+          "comments": 1583
         }
       ]
     },
@@ -511,6 +558,12 @@
           "date": "2026-04-19",
           "views": 14938292,
           "likes": 174847,
+          "comments": 361
+        },
+        {
+          "date": "2026-04-20",
+          "views": 14947940,
+          "likes": 174927,
           "comments": 361
         }
       ]
@@ -559,6 +612,12 @@
           "views": 19031631,
           "likes": 204777,
           "comments": 296
+        },
+        {
+          "date": "2026-04-20",
+          "views": 19041021,
+          "likes": 204835,
+          "comments": 296
         }
       ]
     },
@@ -606,6 +665,12 @@
           "views": 10586327,
           "likes": 139040,
           "comments": 496
+        },
+        {
+          "date": "2026-04-20",
+          "views": 10594310,
+          "likes": 139117,
+          "comments": 497
         }
       ]
     },
@@ -653,8 +718,28 @@
           "views": 26822360,
           "likes": 212016,
           "comments": 522
+        },
+        {
+          "date": "2026-04-20",
+          "views": 26831946,
+          "likes": 212117,
+          "comments": 522
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-20",
+      "metric": "youtube_total_views",
+      "value": 3421045823,
+      "baseline_mean": 3393350253.3,
+      "baseline_stddev": 10870407.5,
+      "delta": 27695569,
+      "score": 2.55,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-20T15:24:37.248259+00:00"
+    }
+  ]
 }

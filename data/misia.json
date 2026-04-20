@@ -403,6 +403,47 @@
       "ytm_subscribers": 714000,
       "ytm_monthly_listeners": 2820000,
       "ytm_total_views": 699401709
+    },
+    {
+      "date": "2026-04-20",
+      "monthly_listeners": 1654478,
+      "collected_at": "2026-04-20T15:10:58.699108+00:00",
+      "spotify_followers": 2083620,
+      "youtube_subscribers": 1550,
+      "youtube_total_views": 113445441,
+      "youtube_video_count": 1207,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 96305
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 69645
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 57702
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 31051
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 26847
+        }
+      ],
+      "lastfm_listeners": 96586,
+      "lastfm_playcount": 2990492,
+      "ytm_subscribers": 714000,
+      "ytm_monthly_listeners": 2820000,
+      "ytm_total_views": 699401709
     }
   ],
   "annotations": [
@@ -482,9 +523,9 @@
         "subscribers": "375K"
       },
       {
-        "name": "Yuki Koyanagi",
-        "browse_id": "UCMprhHCYuHbfqT7GvMtj1rA",
-        "subscribers": "499K"
+        "name": "Kazumasa Oda",
+        "browse_id": "UCe4uOyOpaPlnIX15ZIsFT-g",
+        "subscribers": "2.05M"
       },
       {
         "name": "Ayaka Hirahara",
@@ -497,9 +538,9 @@
         "subscribers": "5.26M"
       },
       {
-        "name": "Angela Aki",
-        "browse_id": "UC0ajAvP8piIyIMMCy6M7vpQ",
-        "subscribers": "1.14M"
+        "name": "Keisuke Kuwata",
+        "browse_id": "UCNnTlqmtiLwle107s1yTV7Q",
+        "subscribers": "4.13M"
       },
       {
         "name": "Toshinobu Kubota",
@@ -507,19 +548,19 @@
         "subscribers": "2.8M"
       },
       {
-        "name": "Kazumasa Oda",
-        "browse_id": "UCe4uOyOpaPlnIX15ZIsFT-g",
-        "subscribers": "2.05M"
+        "name": "Yuki Koyanagi",
+        "browse_id": "UCMprhHCYuHbfqT7GvMtj1rA",
+        "subscribers": "499K"
+      },
+      {
+        "name": "Ms.OOJA",
+        "browse_id": "UClifdY12pRQC2yQeh8OBBCw",
+        "subscribers": "1.57M"
       },
       {
         "name": "Mika Nakashima",
         "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
         "subscribers": "3.46M"
-      },
-      {
-        "name": "Keisuke Kuwata",
-        "browse_id": "UCNnTlqmtiLwle107s1yTV7Q",
-        "subscribers": "4.13M"
       }
     ],
     "ytm_top_songs": [
@@ -585,6 +626,12 @@
           "views": 1516731,
           "likes": 7662,
           "comments": 26
+        },
+        {
+          "date": "2026-04-20",
+          "views": 1518115,
+          "likes": 7668,
+          "comments": 26
         }
       ]
     },
@@ -638,6 +685,12 @@
           "views": 2327661,
           "likes": 13870,
           "comments": 49
+        },
+        {
+          "date": "2026-04-20",
+          "views": 2330191,
+          "likes": 13886,
+          "comments": 50
         }
       ]
     },
@@ -691,6 +744,12 @@
           "views": 691252,
           "likes": 5904,
           "comments": 50
+        },
+        {
+          "date": "2026-04-20",
+          "views": 692697,
+          "likes": 5916,
+          "comments": 50
         }
       ]
     },
@@ -743,6 +802,12 @@
           "date": "2026-04-19",
           "views": 74988,
           "likes": 646,
+          "comments": 4
+        },
+        {
+          "date": "2026-04-20",
+          "views": 75206,
+          "likes": 648,
           "comments": 4
         }
       ]
@@ -802,6 +867,12 @@
           "views": 57620,
           "likes": 1052,
           "comments": 42
+        },
+        {
+          "date": "2026-04-20",
+          "views": 60821,
+          "likes": 1096,
+          "comments": 42
         }
       ]
     },
@@ -847,6 +918,18 @@
       "type": "annotated",
       "related_annotation": "「星空のライヴXIII GRAND HORIZON」北海道公演とコナン映画第2週でSpotify月間リスナーが急増",
       "detected_at": "2026-04-19T14:35:59.709087+00:00"
+    },
+    {
+      "date": "2026-04-20",
+      "metric": "monthly_listeners",
+      "value": 1654478,
+      "baseline_mean": 1500330.1,
+      "baseline_stddev": 76829.4,
+      "delta": 154147,
+      "score": 2.01,
+      "type": "annotated",
+      "related_annotation": "「星空のライヴXIII GRAND HORIZON」北海道公演とコナン映画第2週でSpotify月間リスナーが急増",
+      "detected_at": "2026-04-20T15:11:01.558530+00:00"
     }
   ]
 }

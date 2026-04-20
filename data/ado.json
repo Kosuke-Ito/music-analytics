@@ -576,6 +576,47 @@
       "ytm_subscribers": 9150000,
       "ytm_monthly_listeners": 42900000,
       "ytm_total_views": 5226452306
+    },
+    {
+      "date": "2026-04-20",
+      "monthly_listeners": 6670841,
+      "collected_at": "2026-04-20T15:17:23.040746+00:00",
+      "spotify_followers": 7467027,
+      "youtube_subscribers": 9160000,
+      "youtube_total_views": 5265710342,
+      "youtube_video_count": 683,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 133118
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 112695
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 99008
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 79027
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 75233
+        }
+      ],
+      "lastfm_listeners": 696573,
+      "lastfm_playcount": 81726948,
+      "ytm_subscribers": 9160000,
+      "ytm_monthly_listeners": 42900000,
+      "ytm_total_views": 5228828622
     }
   ],
   "annotations": [
@@ -675,24 +716,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "KANKAN",
-        "browse_id": "UCfJFBnBR1MzZKyZr2MI8ixQ",
-        "subscribers": "245K"
-      },
-      {
-        "name": "Hoshimachi Suisei",
-        "browse_id": "UCrzT1p8gn0hQTBeMA6e2YiA",
-        "subscribers": "11.9M"
-      },
-      {
         "name": "Yoshino",
         "browse_id": "UCtDYAzJUfkkqPRZebOnoc4g",
         "subscribers": "417K"
       },
       {
-        "name": "9Lana",
-        "browse_id": "UClZMIQn97IcvrdGviWz-qRw",
-        "subscribers": "8.48M"
+        "name": "KANKAN",
+        "browse_id": "UCfJFBnBR1MzZKyZr2MI8ixQ",
+        "subscribers": "245K"
       },
       {
         "name": "MAISONdes ",
@@ -715,14 +746,24 @@
         "subscribers": "8.35M"
       },
       {
+        "name": "Hoshimachi Suisei",
+        "browse_id": "UCrzT1p8gn0hQTBeMA6e2YiA",
+        "subscribers": "11.9M"
+      },
+      {
+        "name": "Mori Calliope",
+        "browse_id": "UCT6fzkIIQuAQIiJK3tt-keg",
+        "subscribers": "2.66M"
+      },
+      {
+        "name": "9Lana",
+        "browse_id": "UClZMIQn97IcvrdGviWz-qRw",
+        "subscribers": "8.48M"
+      },
+      {
         "name": "Reol",
         "browse_id": "UCknW0jP_BkALWACMQ44cJ1A",
         "subscribers": "3.22M"
-      },
-      {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "50.4M"
       }
     ],
     "ytm_top_songs": [
@@ -800,6 +841,12 @@
           "views": 3801779,
           "likes": 123609,
           "comments": 2457
+        },
+        {
+          "date": "2026-04-20",
+          "views": 3870154,
+          "likes": 124413,
+          "comments": 2459
         }
       ]
     },
@@ -853,6 +900,12 @@
           "views": 28513670,
           "likes": 189090,
           "comments": 729
+        },
+        {
+          "date": "2026-04-20",
+          "views": 28563983,
+          "likes": 189341,
+          "comments": 728
         }
       ]
     },
@@ -906,6 +959,12 @@
           "views": 49819295,
           "likes": 460437,
           "comments": 1989
+        },
+        {
+          "date": "2026-04-20",
+          "views": 49863155,
+          "likes": 460849,
+          "comments": 1992
         }
       ]
     },
@@ -959,6 +1018,12 @@
           "views": 4646655,
           "likes": 93487,
           "comments": 1784
+        },
+        {
+          "date": "2026-04-20",
+          "views": 4693006,
+          "likes": 93816,
+          "comments": 1786
         }
       ]
     },
@@ -1012,6 +1077,12 @@
           "views": 65417786,
           "likes": 344615,
           "comments": 677
+        },
+        {
+          "date": "2026-04-20",
+          "views": 65460657,
+          "likes": 344793,
+          "comments": 677
         }
       ]
     }
@@ -1052,6 +1123,18 @@
       "type": "annotated",
       "related_annotation": "アディダス「綺羅」CM全国放映でYouTube総再生数が急増（+2,105万・3.72σ）",
       "detected_at": "2026-04-19T14:41:56.757229+00:00"
+    },
+    {
+      "date": "2026-04-20",
+      "metric": "youtube_total_views",
+      "value": 5265710342,
+      "baseline_mean": 5242025106.9,
+      "baseline_stddev": 11227539.5,
+      "delta": 23685235,
+      "score": 2.11,
+      "type": "annotated",
+      "related_annotation": "アディダス「綺羅」CM全国放映でYouTube総再生数が急増（+2,105万・3.72σ）",
+      "detected_at": "2026-04-20T15:17:24.651496+00:00"
     }
   ]
 }
