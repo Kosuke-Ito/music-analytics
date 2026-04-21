@@ -329,6 +329,47 @@
       "ytm_subscribers": 440000,
       "ytm_monthly_listeners": 6140000,
       "ytm_total_views": 323693502
+    },
+    {
+      "date": "2026-04-21",
+      "monthly_listeners": 1689403,
+      "collected_at": "2026-04-21T15:21:05.237141+00:00",
+      "spotify_followers": 478818,
+      "youtube_subscribers": 440000,
+      "youtube_total_views": 325498413,
+      "youtube_video_count": 135,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 65246
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 59397
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 38439
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 33881
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 23581
+        }
+      ],
+      "lastfm_listeners": 17953,
+      "lastfm_playcount": 1212868,
+      "ytm_subscribers": 440000,
+      "ytm_monthly_listeners": 6210000,
+      "ytm_total_views": 323693502
     }
   ],
   "annotations": [
@@ -376,14 +417,34 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "CodyLee",
-        "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "498K"
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "5.66M"
+      },
+      {
+        "name": "Lovely Summer-Chan",
+        "browse_id": "UC_wA9BfubcP2P74SPKTSV7Q",
+        "subscribers": "619K"
+      },
+      {
+        "name": "PEOPLE 1",
+        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
+        "subscribers": "653K"
+      },
+      {
+        "name": "Lucky Kilimanjaro",
+        "browse_id": "UCiVXhIDW-3GNIyL5wsydr1Q",
+        "subscribers": "598K"
+      },
+      {
+        "name": "Laura day romance",
+        "browse_id": "UCFrg0aEn8dsLCzYGVSZkT1Q",
+        "subscribers": "165K"
       },
       {
         "name": "Kinoko Teikoku",
         "browse_id": "UClJbEh-JJDXCjtQLQMi_gjA",
-        "subscribers": "39.5K"
+        "subscribers": "39.6K"
       },
       {
         "name": "Homecomings",
@@ -393,37 +454,17 @@
       {
         "name": "mol-74",
         "browse_id": "UCEvtm90ugC6XKB74g8ukTKg",
-        "subscribers": "194K"
+        "subscribers": "198K"
       },
       {
         "name": "ako",
         "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "187K"
+        "subscribers": "192K"
       },
       {
         "name": "Blooming Bungei",
         "browse_id": "UCO-XTBzvzhd7FgNoNseKqIw",
         "subscribers": "84.5K"
-      },
-      {
-        "name": "CHIAKI SATO",
-        "browse_id": "UCgPeNtXtc4sWEJSqQvNJzmQ",
-        "subscribers": "89.2K"
-      },
-      {
-        "name": "tiny yawn",
-        "browse_id": "UCESxrbFra7AVQsdPAnJ99dA",
-        "subscribers": "239K"
-      },
-      {
-        "name": "illion",
-        "browse_id": "UC9vbsrHnodkYC4hdfJN3mAg",
-        "subscribers": "1.27M"
-      },
-      {
-        "name": "A_o",
-        "browse_id": "UCW2Hy3WUVvoj_mlLjrWLRmw",
-        "subscribers": "603K"
       }
     ],
     "ytm_top_songs": [
@@ -501,6 +542,12 @@
           "views": 17715249,
           "likes": 114242,
           "comments": 336
+        },
+        {
+          "date": "2026-04-21",
+          "views": 17746024,
+          "likes": 114403,
+          "comments": 336
         }
       ]
     },
@@ -553,6 +600,12 @@
           "date": "2026-04-20",
           "views": 1994090,
           "likes": 19627,
+          "comments": 152
+        },
+        {
+          "date": "2026-04-21",
+          "views": 2015602,
+          "likes": 19738,
           "comments": 152
         }
       ]
@@ -607,6 +660,12 @@
           "views": 53817,
           "likes": 1462,
           "comments": 58
+        },
+        {
+          "date": "2026-04-21",
+          "views": 55098,
+          "likes": 1479,
+          "comments": 58
         }
       ]
     },
@@ -659,6 +718,12 @@
           "date": "2026-04-20",
           "views": 1291021,
           "likes": 12420,
+          "comments": 83
+        },
+        {
+          "date": "2026-04-21",
+          "views": 1293882,
+          "likes": 12435,
           "comments": 83
         }
       ]
@@ -713,8 +778,28 @@
           "views": 1927583,
           "likes": 15280,
           "comments": 121
+        },
+        {
+          "date": "2026-04-21",
+          "views": 1930691,
+          "likes": 15307,
+          "comments": 121
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-21",
+      "metric": "monthly_listeners",
+      "value": 1689403,
+      "baseline_mean": 1666693,
+      "baseline_stddev": 11244.0,
+      "delta": 22710,
+      "score": 2.02,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-21T15:21:07.369696+00:00"
+    }
+  ]
 }

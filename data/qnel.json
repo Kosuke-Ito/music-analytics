@@ -444,6 +444,47 @@
       "ytm_subscribers": 155,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-21",
+      "monthly_listeners": 441,
+      "collected_at": "2026-04-21T15:13:03.612456+00:00",
+      "spotify_followers": 932,
+      "youtube_subscribers": 364,
+      "youtube_total_views": 65444,
+      "youtube_video_count": 170,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 27
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 14
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 9
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 8
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 7
+        }
+      ],
+      "lastfm_listeners": 735,
+      "lastfm_playcount": 2408,
+      "ytm_subscribers": 155,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -481,14 +522,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Kawaguchi Takuma",
-        "browse_id": "UC16c0SCZvOqrlL76EMDptzw",
-        "subscribers": "207"
+        "name": "GALALI",
+        "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
+        "subscribers": "118K"
       },
       {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "56.9K"
+        "subscribers": "57.1K"
       },
       {
         "name": "Offo tokyo",
@@ -511,14 +552,14 @@
         "subscribers": "45"
       },
       {
-        "name": "OSTRIP",
-        "browse_id": "UCw_WY0q696x646eM2l1GFig",
-        "subscribers": "99"
-      },
-      {
         "name": "Zenya",
         "browse_id": "UCo4roqqKdMVG02RRM4n-MMw",
         "subscribers": "125"
+      },
+      {
+        "name": "Kawaguchi Takuma",
+        "browse_id": "UC16c0SCZvOqrlL76EMDptzw",
+        "subscribers": "208"
       },
       {
         "name": "RYO OGAWA",
@@ -611,6 +652,12 @@
           "views": 2872,
           "likes": 18,
           "comments": 0
+        },
+        {
+          "date": "2026-04-21",
+          "views": 2889,
+          "likes": 18,
+          "comments": 0
         }
       ]
     },
@@ -668,6 +715,12 @@
         {
           "date": "2026-04-20",
           "views": 5243,
+          "likes": 21,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-21",
+          "views": 5259,
           "likes": 21,
           "comments": 0
         }
@@ -729,6 +782,12 @@
           "views": 11581,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-04-21",
+          "views": 11591,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -788,6 +847,12 @@
           "views": 31298,
           "likes": 143,
           "comments": 0
+        },
+        {
+          "date": "2026-04-21",
+          "views": 31303,
+          "likes": 143,
+          "comments": 0
         }
       ]
     },
@@ -845,6 +910,12 @@
         {
           "date": "2026-04-20",
           "views": 7601,
+          "likes": 60,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-21",
+          "views": 7607,
           "likes": 60,
           "comments": 0
         }
@@ -911,6 +982,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-04-20T15:18:31.282260+00:00"
+    },
+    {
+      "date": "2026-04-21",
+      "metric": "monthly_listeners",
+      "value": 441,
+      "baseline_mean": 426.1,
+      "baseline_stddev": 7.1,
+      "delta": 14,
+      "score": 2.11,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-21T15:13:05.691413+00:00"
     }
   ]
 }
