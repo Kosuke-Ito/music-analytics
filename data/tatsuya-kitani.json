@@ -483,6 +483,47 @@
       "ytm_subscribers": 957000,
       "ytm_monthly_listeners": 24500000,
       "ytm_total_views": 922903753
+    },
+    {
+      "date": "2026-04-22",
+      "monthly_listeners": 3898500,
+      "collected_at": "2026-04-22T15:08:25.867275+00:00",
+      "spotify_followers": 811660,
+      "youtube_subscribers": 958000,
+      "youtube_total_views": 934864641,
+      "youtube_video_count": 245,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 91369
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 90009
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 56834
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 53761
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 46355
+        }
+      ],
+      "lastfm_listeners": 120891,
+      "lastfm_playcount": 2503831,
+      "ytm_subscribers": 958000,
+      "ytm_monthly_listeners": 24500000,
+      "ytm_total_views": 928008640
     }
   ],
   "annotations": [
@@ -563,19 +604,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "ZUTOMAYO",
-        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
-        "subscribers": "13.8M"
+        "name": "Dannie May",
+        "browse_id": "UC7j2aRujAbURXHy47ZED4Tw",
+        "subscribers": "2.91M"
+      },
+      {
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "94.6M"
       },
       {
         "name": "Dios",
         "browse_id": "UCjv0kMpF3ee-nqO6UqUsNkA",
         "subscribers": "188K"
-      },
-      {
-        "name": "suisoh",
-        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "441K"
       },
       {
         "name": "Kei Sugawara",
@@ -588,29 +629,29 @@
         "subscribers": "274K"
       },
       {
-        "name": "Dannie May",
-        "browse_id": "UC7j2aRujAbURXHy47ZED4Tw",
-        "subscribers": "2.77M"
+        "name": "suisoh",
+        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
+        "subscribers": "440K"
       },
       {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "731K"
-      },
-      {
-        "name": "Wanuka",
-        "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
-        "subscribers": "1.15M"
-      },
-      {
-        "name": "Kiro Akiyama",
-        "browse_id": "UCB7j6mxjx2NxAnnBu-YRFdQ",
-        "subscribers": "3.43M"
+        "subscribers": "722K"
       },
       {
         "name": "MAISONdes ",
         "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
         "subscribers": "4.64M"
+      },
+      {
+        "name": "hitorie",
+        "browse_id": "UCxMijt1N7bsZEslRHpVOkHw",
+        "subscribers": "1.84M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "7.46M"
       }
     ],
     "ytm_top_songs": [
@@ -700,6 +741,12 @@
           "views": 50430146,
           "likes": 333325,
           "comments": 1663
+        },
+        {
+          "date": "2026-04-22",
+          "views": 50500984,
+          "likes": 333702,
+          "comments": 1661
         }
       ]
     },
@@ -764,6 +811,12 @@
           "date": "2026-04-21",
           "views": 10855611,
           "likes": 76532,
+          "comments": 0
+        },
+        {
+          "date": "2026-04-22",
+          "views": 10868400,
+          "likes": 76589,
           "comments": 0
         }
       ]
@@ -830,6 +883,12 @@
           "views": 1987975,
           "likes": 27534,
           "comments": 359
+        },
+        {
+          "date": "2026-04-22",
+          "views": 2001653,
+          "likes": 27619,
+          "comments": 359
         }
       ]
     },
@@ -894,6 +953,12 @@
           "date": "2026-04-21",
           "views": 326099,
           "likes": 7168,
+          "comments": 84
+        },
+        {
+          "date": "2026-04-22",
+          "views": 339439,
+          "likes": 7353,
           "comments": 84
         }
       ]
@@ -970,8 +1035,28 @@
           "views": 106675,
           "likes": 3121,
           "comments": 70
+        },
+        {
+          "date": "2026-04-22",
+          "views": 112305,
+          "likes": 3208,
+          "comments": 70
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-22",
+      "metric": "youtube_total_views",
+      "value": 934864641,
+      "baseline_mean": 926486482.8,
+      "baseline_stddev": 3261207.5,
+      "delta": 8378158,
+      "score": 2.57,
+      "type": "annotated",
+      "related_annotation": "「火種」（TVアニメ「日本三國」OPテーマ）がオリコン週間ストリーミングランキング57位に初登場",
+      "detected_at": "2026-04-22T15:08:27.100121+00:00"
+    }
+  ]
 }

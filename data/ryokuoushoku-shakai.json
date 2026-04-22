@@ -370,6 +370,47 @@
       "ytm_subscribers": 942000,
       "ytm_monthly_listeners": 7870000,
       "ytm_total_views": 870457144
+    },
+    {
+      "date": "2026-04-22",
+      "monthly_listeners": 2623320,
+      "collected_at": "2026-04-22T15:21:14.638992+00:00",
+      "spotify_followers": 1513513,
+      "youtube_subscribers": 942000,
+      "youtube_total_views": 885184878,
+      "youtube_video_count": 392,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 108194
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 86675
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65414
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 36473
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 33709
+        }
+      ],
+      "lastfm_listeners": 16317,
+      "lastfm_playcount": 754376,
+      "ytm_subscribers": 942000,
+      "ytm_monthly_listeners": 7870000,
+      "ytm_total_views": 873412362
     }
   ],
   "annotations": [
@@ -417,9 +458,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "34.8M"
+        "name": "YOASOBI",
+        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
+        "subscribers": "50.2M"
       },
       {
         "name": "Cidergirl",
@@ -427,9 +468,14 @@
         "subscribers": "351K"
       },
       {
-        "name": "Awesome City Club",
-        "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
-        "subscribers": "840K"
+        "name": "eill",
+        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
+        "subscribers": "1.63M"
+      },
+      {
+        "name": "milet",
+        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
+        "subscribers": "9.82M"
       },
       {
         "name": "suis from Yorushika",
@@ -437,34 +483,29 @@
         "subscribers": "28K"
       },
       {
-        "name": "wacci",
-        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
-        "subscribers": "2.27M"
+        "name": "asmi",
+        "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
+        "subscribers": "4.22M"
       },
       {
-        "name": "sumika",
-        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
-        "subscribers": "6.96M"
+        "name": "saji",
+        "browse_id": "UCIZ41IoRQHIPuNORLZiGqzA",
+        "subscribers": "110K"
+      },
+      {
+        "name": "hockrockb",
+        "browse_id": "UCkgOP8Xy2stY3WbSzILWBNQ",
+        "subscribers": "23K"
+      },
+      {
+        "name": "Sano ibuki",
+        "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
+        "subscribers": "57.1K"
       },
       {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
         "subscribers": "722K"
-      },
-      {
-        "name": "milet",
-        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "10M"
-      },
-      {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "4.64M"
-      },
-      {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "40M"
       }
     ],
     "ytm_top_songs": [
@@ -548,6 +589,12 @@
           "views": 28843565,
           "likes": 245923,
           "comments": 614
+        },
+        {
+          "date": "2026-04-22",
+          "views": 28880814,
+          "likes": 246168,
+          "comments": 617
         }
       ]
     },
@@ -606,6 +653,12 @@
           "date": "2026-04-21",
           "views": 20267704,
           "likes": 82813,
+          "comments": 189
+        },
+        {
+          "date": "2026-04-22",
+          "views": 20285050,
+          "likes": 82873,
           "comments": 189
         }
       ]
@@ -666,6 +719,12 @@
           "views": 1685363,
           "likes": 10458,
           "comments": 57
+        },
+        {
+          "date": "2026-04-22",
+          "views": 1687341,
+          "likes": 10464,
+          "comments": 57
         }
       ]
     },
@@ -724,6 +783,12 @@
           "date": "2026-04-21",
           "views": 10818892,
           "likes": 52934,
+          "comments": 126
+        },
+        {
+          "date": "2026-04-22",
+          "views": 10827782,
+          "likes": 52953,
           "comments": 126
         }
       ]
@@ -789,8 +854,28 @@
           "views": 72664,
           "likes": 1285,
           "comments": 31
+        },
+        {
+          "date": "2026-04-22",
+          "views": 75757,
+          "likes": 1340,
+          "comments": 32
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-22",
+      "metric": "youtube_total_views",
+      "value": 885184878,
+      "baseline_mean": 880824631.9,
+      "baseline_stddev": 1079125.6,
+      "delta": 4360246,
+      "score": 4.04,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-22T15:21:16.304213+00:00"
+    }
+  ]
 }
