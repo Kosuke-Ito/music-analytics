@@ -493,6 +493,47 @@
       "ytm_subscribers": 864000,
       "ytm_monthly_listeners": 12600000,
       "ytm_total_views": 898243655
+    },
+    {
+      "date": "2026-04-25",
+      "monthly_listeners": 4048715,
+      "collected_at": "2026-04-25T14:50:05.963168+00:00",
+      "spotify_followers": 2759393,
+      "youtube_subscribers": 5560000,
+      "youtube_total_views": 3426193522,
+      "youtube_video_count": 202,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 61240
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 55951
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 55665
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 44102
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 42715
+        }
+      ],
+      "lastfm_listeners": 1802133,
+      "lastfm_playcount": 52274999,
+      "ytm_subscribers": 864000,
+      "ytm_monthly_listeners": 12600000,
+      "ytm_total_views": 898243655
     }
   ],
   "annotations": [
@@ -569,19 +610,14 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Truth Hurts",
+        "browse_id": "UC5TDFRoiVSjU_TV2JJBQM-w",
+        "subscribers": "18.3K"
+      },
+      {
         "name": "Ludacris",
         "browse_id": "UCrcXT9Gn6zCA4dOqW6XsKUw",
         "subscribers": "20.1M"
-      },
-      {
-        "name": "Mase",
-        "browse_id": "UC5gdSVYYBOKPgOdVdRG-Vdg",
-        "subscribers": "1.88M"
-      },
-      {
-        "name": "Diddy",
-        "browse_id": "UCa7UEhon5aHfncjkOWgwRDA",
-        "subscribers": "17.6M"
       },
       {
         "name": "Charli Baltimore",
@@ -591,7 +627,7 @@
       {
         "name": "Mr. Cheeks TV",
         "browse_id": "UCkVDNc0e-pY2SLkUOCfbu6w",
-        "subscribers": "468K"
+        "subscribers": "467K"
       },
       {
         "name": "Queen Pen",
@@ -599,19 +635,24 @@
         "subscribers": "5.27K"
       },
       {
-        "name": "Missy Elliott",
-        "browse_id": "UCKqVP7_535ELJu2OeEd3zzQ",
-        "subscribers": "8.9M"
+        "name": "Diddy",
+        "browse_id": "UCa7UEhon5aHfncjkOWgwRDA",
+        "subscribers": "17.3M"
+      },
+      {
+        "name": "112",
+        "browse_id": "UCouQztNVI51U1I_urVmuHXw",
+        "subscribers": "2.98M"
+      },
+      {
+        "name": "Mase",
+        "browse_id": "UC5gdSVYYBOKPgOdVdRG-Vdg",
+        "subscribers": "1.86M"
       },
       {
         "name": "LL Cool J",
         "browse_id": "UCrpKRjUFWRZlyHIFtYKlrAQ",
         "subscribers": "4.28M"
-      },
-      {
-        "name": "Truth Hurts",
-        "browse_id": "UC5TDFRoiVSjU_TV2JJBQM-w",
-        "subscribers": "18.3K"
       },
       {
         "name": "Mary J. Blige",
@@ -712,6 +753,12 @@
           "views": 130189494,
           "likes": 1280141,
           "comments": 1586
+        },
+        {
+          "date": "2026-04-25",
+          "views": 130198394,
+          "likes": 1280207,
+          "comments": 1586
         }
       ]
     },
@@ -782,6 +829,12 @@
           "date": "2026-04-24",
           "views": 14999105,
           "likes": 175368,
+          "comments": 363
+        },
+        {
+          "date": "2026-04-25",
+          "views": 15000853,
+          "likes": 175379,
           "comments": 363
         }
       ]
@@ -854,6 +907,12 @@
           "views": 19101501,
           "likes": 205233,
           "comments": 298
+        },
+        {
+          "date": "2026-04-25",
+          "views": 19103511,
+          "likes": 205245,
+          "comments": 298
         }
       ]
     },
@@ -924,6 +983,12 @@
           "date": "2026-04-24",
           "views": 10637039,
           "likes": 139527,
+          "comments": 501
+        },
+        {
+          "date": "2026-04-25",
+          "views": 10638653,
+          "likes": 139547,
           "comments": 501
         }
       ]
@@ -996,6 +1061,12 @@
           "views": 26881830,
           "likes": 212595,
           "comments": 525
+        },
+        {
+          "date": "2026-04-25",
+          "views": 26882598,
+          "likes": 212604,
+          "comments": 525
         }
       ]
     }
@@ -1036,6 +1107,18 @@
       "type": "annotated",
       "related_annotation": "アニメ「とんがり帽子のアトリエ」放映継続効果（YouTube4/20急増→翌日Spotify波及）でリスナー急増（+39,795人・2.88σ）",
       "detected_at": "2026-04-25T10:49:07.816389+00:00"
+    },
+    {
+      "date": "2026-04-25",
+      "metric": "monthly_listeners",
+      "value": 4048715,
+      "baseline_mean": 3983549.6,
+      "baseline_stddev": 31732.9,
+      "delta": 65165,
+      "score": 2.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-25T14:50:07.360740+00:00"
     }
   ]
 }

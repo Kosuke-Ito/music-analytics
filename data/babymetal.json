@@ -493,6 +493,47 @@
       "ytm_subscribers": 3610000,
       "ytm_monthly_listeners": 6930000,
       "ytm_total_views": 1052439111
+    },
+    {
+      "date": "2026-04-25",
+      "monthly_listeners": 3512487,
+      "collected_at": "2026-04-25T14:53:02.177809+00:00",
+      "spotify_followers": 2955205,
+      "youtube_subscribers": 3610000,
+      "youtube_total_views": 1060072705,
+      "youtube_video_count": 351,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 67457
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 61701
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 47647
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 40376
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 39202
+        }
+      ],
+      "lastfm_listeners": 959351,
+      "lastfm_playcount": 58306484,
+      "ytm_subscribers": 3610000,
+      "ytm_monthly_listeners": 7060000,
+      "ytm_total_views": 1052439111
     }
   ],
   "annotations": [
@@ -579,7 +620,7 @@
       {
         "name": "Ladybaby",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "118K"
+        "subscribers": "121K"
       },
       {
         "name": "STMLT",
@@ -705,6 +746,12 @@
           "views": 6159362,
           "likes": 73346,
           "comments": 230
+        },
+        {
+          "date": "2026-04-25",
+          "views": 6163801,
+          "likes": 73382,
+          "comments": 230
         }
       ]
     },
@@ -776,6 +823,12 @@
           "views": 3904129,
           "likes": 81410,
           "comments": 425
+        },
+        {
+          "date": "2026-04-25",
+          "views": 3905971,
+          "likes": 81459,
+          "comments": 426
         }
       ]
     },
@@ -846,6 +899,12 @@
           "date": "2026-04-24",
           "views": 4319158,
           "likes": 63787,
+          "comments": 208
+        },
+        {
+          "date": "2026-04-25",
+          "views": 4321356,
+          "likes": 63811,
           "comments": 208
         }
       ]
@@ -918,6 +977,12 @@
           "views": 1738294,
           "likes": 34699,
           "comments": 188
+        },
+        {
+          "date": "2026-04-25",
+          "views": 1739305,
+          "likes": 34728,
+          "comments": 188
         }
       ]
     },
@@ -989,6 +1054,12 @@
           "views": 3217082,
           "likes": 64102,
           "comments": 278
+        },
+        {
+          "date": "2026-04-25",
+          "views": 3218888,
+          "likes": 64135,
+          "comments": 280
         }
       ]
     }
@@ -1005,6 +1076,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-25T10:52:04.807840+00:00"
+    },
+    {
+      "date": "2026-04-25",
+      "metric": "ytm_monthly_listeners",
+      "value": 7060000,
+      "baseline_mean": 6575833.3,
+      "baseline_stddev": 166506.2,
+      "delta": 484166,
+      "score": 2.91,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-25T14:53:03.596715+00:00"
     }
   ]
 }

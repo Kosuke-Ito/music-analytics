@@ -493,6 +493,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 1810000,
       "ytm_total_views": 949874297
+    },
+    {
+      "date": "2026-04-25",
+      "monthly_listeners": 988537,
+      "collected_at": "2026-04-25T14:52:46.326381+00:00",
+      "spotify_followers": 363612,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 1040127907,
+      "youtube_video_count": 450,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 57077
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 41720
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 38820
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 17520
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 16042
+        }
+      ],
+      "lastfm_listeners": 22051,
+      "lastfm_playcount": 541236,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 1810000,
+      "ytm_total_views": 949874297
     }
   ],
   "metadata": {
@@ -532,14 +573,19 @@
         "subscribers": "1.17M"
       },
       {
-        "name": "HANA",
-        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "16.5M"
-      },
-      {
         "name": "Snow Man",
         "browse_id": "UCDprz5PJZp9PjN0bVGZbAPg",
-        "subscribers": "33.7M"
+        "subscribers": "33.3M"
+      },
+      {
+        "name": "HANA",
+        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
+        "subscribers": "16.3M"
+      },
+      {
+        "name": "King & Prince",
+        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
+        "subscribers": "10M"
       },
       {
         "name": "timelesz",
@@ -557,19 +603,14 @@
         "subscribers": "7.82M"
       },
       {
-        "name": "King & Prince",
-        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "10M"
-      },
-      {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "3.39M"
+        "subscribers": "3.24M"
       },
       {
         "name": "Travis Japan",
         "browse_id": "UC0CJ4qxy9mgHNhO2d_sqBuw",
-        "subscribers": "1.34M"
+        "subscribers": "1.64M"
       },
       {
         "name": "SixTONES",
@@ -670,6 +711,12 @@
           "views": 2647407,
           "likes": 45493,
           "comments": 5603
+        },
+        {
+          "date": "2026-04-25",
+          "views": 2649600,
+          "likes": 45508,
+          "comments": 5604
         }
       ]
     },
@@ -739,6 +786,12 @@
         {
           "date": "2026-04-24",
           "views": 1737932,
+          "likes": 10340,
+          "comments": 102
+        },
+        {
+          "date": "2026-04-25",
+          "views": 1738128,
           "likes": 10340,
           "comments": 102
         }
@@ -812,6 +865,12 @@
           "views": 696798,
           "likes": 5013,
           "comments": 50
+        },
+        {
+          "date": "2026-04-25",
+          "views": 697223,
+          "likes": 5016,
+          "comments": 50
         }
       ]
     },
@@ -883,6 +942,12 @@
           "views": 662712,
           "likes": 4410,
           "comments": 46
+        },
+        {
+          "date": "2026-04-25",
+          "views": 663026,
+          "likes": 4412,
+          "comments": 46
         }
       ]
     },
@@ -953,6 +1018,12 @@
           "date": "2026-04-24",
           "views": 791487,
           "likes": 4757,
+          "comments": 49
+        },
+        {
+          "date": "2026-04-25",
+          "views": 791789,
+          "likes": 4758,
           "comments": 49
         }
       ]
@@ -1028,6 +1099,18 @@
       "type": "annotated",
       "related_annotation": "TOBEスーパーライブ「to HEROes 〜TOBE 3rd Super Live〜」愛知・バンテリンドーム最終日",
       "detected_at": "2026-04-25T10:51:49.057323+00:00"
+    },
+    {
+      "date": "2026-04-25",
+      "metric": "ytm_monthly_listeners",
+      "value": 1810000,
+      "baseline_mean": 1504166.7,
+      "baseline_stddev": 138471.3,
+      "delta": 305833,
+      "score": 2.21,
+      "type": "annotated",
+      "related_annotation": "TOBEスーパーライブ「to HEROes 〜TOBE 3rd Super Live〜」愛知・バンテリンドーム最終日",
+      "detected_at": "2026-04-25T14:52:47.993252+00:00"
     }
   ]
 }

@@ -493,6 +493,47 @@
       "ytm_subscribers": 8560000,
       "ytm_monthly_listeners": 90100000,
       "ytm_total_views": 2320449555
+    },
+    {
+      "date": "2026-04-25",
+      "monthly_listeners": 4696600,
+      "collected_at": "2026-04-25T14:49:33.093479+00:00",
+      "spotify_followers": 3778387,
+      "youtube_subscribers": 2930000,
+      "youtube_total_views": 1740328739,
+      "youtube_video_count": 475,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 72942
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 62834
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 62387
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 55956
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 54290
+        }
+      ],
+      "lastfm_listeners": 1961934,
+      "lastfm_playcount": 129080019,
+      "ytm_subscribers": 8560000,
+      "ytm_monthly_listeners": 90100000,
+      "ytm_total_views": 2320449555
     }
   ],
   "metadata": {
@@ -529,7 +570,7 @@
       {
         "name": "MILLI",
         "browse_id": "UCNjlEFdxygCYI0vM7QGXEXg",
-        "subscribers": "16.3M"
+        "subscribers": "16.1M"
       },
       {
         "name": "SOOJIN",
@@ -544,17 +585,22 @@
       {
         "name": "VVS",
         "browse_id": "UCxKZk1xI7_P3FRGWIq59aRQ",
-        "subscribers": "146K"
+        "subscribers": "166K"
       },
       {
         "name": "Mave",
         "browse_id": "UCIP1bn8GyAFzePquh6hwzbA",
-        "subscribers": "211K"
+        "subscribers": "209K"
       },
       {
         "name": "블랙스완 BLACKSWAN",
         "browse_id": "UC277cpXD9BLeaGgh3yDP40w",
-        "subscribers": "658K"
+        "subscribers": "667K"
+      },
+      {
+        "name": "4EVE",
+        "browse_id": "UCdmScpl5nFGLy3xCnfHjDsw",
+        "subscribers": "2.58M"
       },
       {
         "name": "VVUP",
@@ -562,19 +608,14 @@
         "subscribers": "790K"
       },
       {
+        "name": "XG",
+        "browse_id": "UCafINmoeAbZbK5M4dtQzBww",
+        "subscribers": "12.5M"
+      },
+      {
         "name": "ROSÉ",
         "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
         "subscribers": "348M"
-      },
-      {
-        "name": "XG",
-        "browse_id": "UCafINmoeAbZbK5M4dtQzBww",
-        "subscribers": "12.6M"
-      },
-      {
-        "name": "4EVE",
-        "browse_id": "UCdmScpl5nFGLy3xCnfHjDsw",
-        "subscribers": "2.59M"
       }
     ],
     "ytm_top_songs": [
@@ -681,6 +722,12 @@
           "views": 19607477,
           "likes": 229016,
           "comments": 1832
+        },
+        {
+          "date": "2026-04-25",
+          "views": 19618116,
+          "likes": 229114,
+          "comments": 1833
         }
       ]
     },
@@ -751,6 +798,12 @@
           "date": "2026-04-24",
           "views": 263506705,
           "likes": 2665285,
+          "comments": 3725
+        },
+        {
+          "date": "2026-04-25",
+          "views": 263521061,
+          "likes": 2665438,
           "comments": 3725
         }
       ]
@@ -823,6 +876,12 @@
           "views": 29455723,
           "likes": 229717,
           "comments": 715
+        },
+        {
+          "date": "2026-04-25",
+          "views": 29466141,
+          "likes": 229769,
+          "comments": 716
         }
       ]
     },
@@ -893,6 +952,12 @@
           "date": "2026-04-24",
           "views": 23846513,
           "likes": 237175,
+          "comments": 2312
+        },
+        {
+          "date": "2026-04-25",
+          "views": 23854572,
+          "likes": 237231,
           "comments": 2312
         }
       ]
@@ -965,6 +1030,12 @@
           "views": 3181369,
           "likes": 84266,
           "comments": 1620
+        },
+        {
+          "date": "2026-04-25",
+          "views": 3223554,
+          "likes": 84890,
+          "comments": 1626
         }
       ]
     }
@@ -1086,6 +1157,18 @@
       "type": "annotated",
       "related_annotation": "「LACE UP」リリース＋武道館2DAYSの余韻でYouTube総再生数が継続上昇（2.3σ）",
       "detected_at": "2026-04-25T10:48:35.991167+00:00"
+    },
+    {
+      "date": "2026-04-25",
+      "metric": "ytm_monthly_listeners",
+      "value": 90100000,
+      "baseline_mean": 79816666.7,
+      "baseline_stddev": 4681138.3,
+      "delta": 10283333,
+      "score": 2.2,
+      "type": "annotated",
+      "related_annotation": "「LACE UP」リリース＋武道館2DAYSの余韻でYouTube総再生数が継続上昇（2.3σ）",
+      "detected_at": "2026-04-25T14:49:34.633685+00:00"
     }
   ]
 }

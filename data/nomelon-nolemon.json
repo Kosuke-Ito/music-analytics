@@ -614,6 +614,47 @@
       "validation_flags": [
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-04-25",
+      "monthly_listeners": 289593,
+      "collected_at": "2026-04-25T14:40:20.030485+00:00",
+      "spotify_followers": 65126,
+      "youtube_subscribers": 319000,
+      "youtube_total_views": 159350601,
+      "youtube_video_count": 104,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 14132
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 10752
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 7064
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5438
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5221
+        }
+      ],
+      "lastfm_listeners": 30911,
+      "lastfm_playcount": 814657,
+      "ytm_subscribers": 319000,
+      "ytm_monthly_listeners": 1830000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -650,12 +691,17 @@
       {
         "name": "harha",
         "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "262K"
+        "subscribers": "258K"
       },
       {
         "name": "Polkadot Stingray",
         "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
-        "subscribers": "869K"
+        "subscribers": "875K"
+      },
+      {
+        "name": "ChoQMay",
+        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
+        "subscribers": "3.21M"
       },
       {
         "name": "suisoh",
@@ -663,14 +709,14 @@
         "subscribers": "416K"
       },
       {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "4.54M"
+        "name": "DUSTCELL",
+        "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
+        "subscribers": "1.54M"
       },
       {
-        "name": "ChoQMay",
-        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
-        "subscribers": "3.21M"
+        "name": "RIM",
+        "browse_id": "UCJI8ldaIM5VGPh_4SkoSRoA",
+        "subscribers": "1.01M"
       },
       {
         "name": "suisougurashi",
@@ -680,22 +726,17 @@
       {
         "name": "Shiyui",
         "browse_id": "UCAkYyroRwc9qPuymye_2fNA",
-        "subscribers": "247K"
+        "subscribers": "246K"
       },
       {
         "name": "Room97",
         "browse_id": "UCfYmK8G568tJsaDHWv94eQQ",
-        "subscribers": "104K"
+        "subscribers": "103K"
       },
       {
         "name": "Kuhaku Gokko",
         "browse_id": "UCLT5PBmAgpn2NMu3WG_UNdA",
         "subscribers": "63.6K"
-      },
-      {
-        "name": "Taku Inoue",
-        "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
-        "subscribers": "695K"
       }
     ],
     "ytm_top_songs": [
@@ -796,6 +837,12 @@
           "views": 17586263,
           "likes": 121927,
           "comments": 1052
+        },
+        {
+          "date": "2026-04-25",
+          "views": 17589059,
+          "likes": 121937,
+          "comments": 1052
         }
       ]
     },
@@ -872,6 +919,12 @@
           "date": "2026-04-24",
           "views": 4952969,
           "likes": 37326,
+          "comments": 80
+        },
+        {
+          "date": "2026-04-25",
+          "views": 4954734,
+          "likes": 37333,
           "comments": 80
         }
       ]
@@ -950,6 +1003,12 @@
           "views": 4806855,
           "likes": 33875,
           "comments": 159
+        },
+        {
+          "date": "2026-04-25",
+          "views": 4808049,
+          "likes": 33879,
+          "comments": 159
         }
       ]
     },
@@ -1026,6 +1085,12 @@
           "date": "2026-04-24",
           "views": 2009124,
           "likes": 17333,
+          "comments": 41
+        },
+        {
+          "date": "2026-04-25",
+          "views": 2009983,
+          "likes": 17339,
           "comments": 41
         }
       ]
@@ -1109,6 +1174,12 @@
           "views": 4075419,
           "likes": 34528,
           "comments": 314
+        },
+        {
+          "date": "2026-04-25",
+          "views": 4076196,
+          "likes": 34530,
+          "comments": 314
         }
       ]
     }
@@ -1138,6 +1209,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-25T10:39:25.501809+00:00"
+    },
+    {
+      "date": "2026-04-25",
+      "metric": "ytm_monthly_listeners",
+      "value": 1830000,
+      "baseline_mean": 1573846.2,
+      "baseline_stddev": 109371.5,
+      "delta": 256153,
+      "score": 2.34,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-25T14:40:21.241722+00:00"
     }
   ]
 }

@@ -493,6 +493,47 @@
       "ytm_subscribers": 867000,
       "ytm_monthly_listeners": 2520000,
       "ytm_total_views": 556466174
+    },
+    {
+      "date": "2026-04-25",
+      "monthly_listeners": 1614687,
+      "collected_at": "2026-04-25T14:51:26.299599+00:00",
+      "spotify_followers": 1448183,
+      "youtube_subscribers": 867000,
+      "youtube_total_views": 557744472,
+      "youtube_video_count": 127,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 109213
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 79984
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65494
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 36479
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35782
+        }
+      ],
+      "lastfm_listeners": 57669,
+      "lastfm_playcount": 1597770,
+      "ytm_subscribers": 867000,
+      "ytm_monthly_listeners": 2520000,
+      "ytm_total_views": 556466174
     }
   ],
   "metadata": {
@@ -532,9 +573,9 @@
         "subscribers": "2.17M"
       },
       {
-        "name": "Garakuta",
-        "browse_id": "UCPefsEntoGzOqN5okHtDX9g",
-        "subscribers": "62.4K"
+        "name": "Takaya Kawasaki",
+        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
+        "subscribers": "2.25M"
       },
       {
         "name": "back number",
@@ -542,9 +583,14 @@
         "subscribers": "15.1M"
       },
       {
+        "name": "FOMARE",
+        "browse_id": "UCO5kmsT9xpy-ADoWy0UQX1g",
+        "subscribers": "313K"
+      },
+      {
         "name": "KEPURA",
         "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
-        "subscribers": "63.8K"
+        "subscribers": "63.5K"
       },
       {
         "name": "moon drop",
@@ -559,7 +605,7 @@
       {
         "name": "TRACK15",
         "browse_id": "UCbTq_K3E9Vz8ehL62WwcwIA",
-        "subscribers": "98.1K"
+        "subscribers": "98.4K"
       },
       {
         "name": "YOAKE",
@@ -570,11 +616,6 @@
         "name": "YUTORI-SEDAI",
         "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
         "subscribers": "431K"
-      },
-      {
-        "name": "PERKERS",
-        "browse_id": "UCDuET5BNAZkXySSy4RU-QHw",
-        "subscribers": "18.6K"
       }
     ],
     "ytm_top_songs": [
@@ -670,6 +711,12 @@
           "views": 3701988,
           "likes": 15658,
           "comments": 34
+        },
+        {
+          "date": "2026-04-25",
+          "views": 3705162,
+          "likes": 15670,
+          "comments": 34
         }
       ]
     },
@@ -728,6 +775,12 @@
           "date": "2026-04-24",
           "views": 4141685,
           "likes": 19606,
+          "comments": 38
+        },
+        {
+          "date": "2026-04-25",
+          "views": 4145549,
+          "likes": 19630,
           "comments": 38
         }
       ]
@@ -800,6 +853,12 @@
           "views": 2159780,
           "likes": 11615,
           "comments": 34
+        },
+        {
+          "date": "2026-04-25",
+          "views": 2162137,
+          "likes": 11634,
+          "comments": 34
         }
       ]
     },
@@ -858,6 +917,12 @@
           "date": "2026-04-24",
           "views": 2588841,
           "likes": 15763,
+          "comments": 38
+        },
+        {
+          "date": "2026-04-25",
+          "views": 2591118,
+          "likes": 15775,
           "comments": 38
         }
       ]
@@ -930,6 +995,12 @@
           "views": 1912840,
           "likes": 8164,
           "comments": 25
+        },
+        {
+          "date": "2026-04-25",
+          "views": 1914792,
+          "likes": 8174,
+          "comments": 25
         }
       ]
     },
@@ -967,5 +1038,19 @@
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-25",
+      "metric": "youtube_total_views",
+      "value": 557744472,
+      "baseline_mean": 553106399.5,
+      "baseline_stddev": 2074209.1,
+      "delta": 4638072,
+      "score": 2.24,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-25T14:51:27.632760+00:00"
+    }
+  ]
 }

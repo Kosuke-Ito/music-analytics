@@ -779,6 +779,47 @@
       "ytm_subscribers": 3630000,
       "ytm_monthly_listeners": 37400000,
       "ytm_total_views": 4353869467
+    },
+    {
+      "date": "2026-04-25",
+      "monthly_listeners": 5319764,
+      "collected_at": "2026-04-25T14:42:24.680890+00:00",
+      "spotify_followers": 7679816,
+      "youtube_subscribers": 3630000,
+      "youtube_total_views": 4381320662,
+      "youtube_video_count": 200,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 264297
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 235223
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 159411
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 97238
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 75493
+        }
+      ],
+      "lastfm_listeners": 27187,
+      "lastfm_playcount": 2008646,
+      "ytm_subscribers": 3630000,
+      "ytm_monthly_listeners": 37600000,
+      "ytm_total_views": 4353869467
     }
   ],
   "annotations": [
@@ -901,11 +942,6 @@
         "subscribers": "2.17M"
       },
       {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "2M"
-      },
-      {
         "name": "Ken Hirai",
         "browse_id": "UCjV108-_g6HUrmoKOt5-QIw",
         "subscribers": "1.78M"
@@ -916,34 +952,39 @@
         "subscribers": "15.1M"
       },
       {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "682K"
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "2.11M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "21.3M"
       },
       {
         "name": "RADWIMPS",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "70.9M"
-      },
-      {
-        "name": "eill",
-        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.79M"
+        "subscribers": "70.3M"
       },
       {
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "9.73M"
+        "subscribers": "9.53M"
+      },
+      {
+        "name": "Mrs. GREEN APPLE",
+        "browse_id": "UCFB0qxwNwayGQ4Ksj8QpCXg",
+        "subscribers": "39.8M"
+      },
+      {
+        "name": "eill",
+        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
+        "subscribers": "1.81M"
       },
       {
         "name": "Lilas Ikuta",
         "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "25.3M"
-      },
-      {
-        "name": "SUKIMASWITCH",
-        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "5.06M"
+        "subscribers": "25M"
       }
     ],
     "ytm_top_songs": [
@@ -1045,6 +1086,12 @@
           "views": 209106254,
           "likes": 574219,
           "comments": 1881
+        },
+        {
+          "date": "2026-04-25",
+          "views": 209152643,
+          "likes": 574339,
+          "comments": 1882
         }
       ]
     },
@@ -1121,6 +1168,12 @@
           "date": "2026-04-24",
           "views": 1804141,
           "likes": 19098,
+          "comments": 284
+        },
+        {
+          "date": "2026-04-25",
+          "views": 1814584,
+          "likes": 19159,
           "comments": 284
         }
       ]
@@ -1199,6 +1252,12 @@
           "views": 17726117,
           "likes": 91727,
           "comments": 2611
+        },
+        {
+          "date": "2026-04-25",
+          "views": 17739615,
+          "likes": 91767,
+          "comments": 2611
         }
       ]
     },
@@ -1275,6 +1334,12 @@
           "date": "2026-04-24",
           "views": 85653757,
           "likes": 389774,
+          "comments": 836
+        },
+        {
+          "date": "2026-04-25",
+          "views": 85662992,
+          "likes": 389800,
           "comments": 836
         }
       ]
@@ -1357,6 +1422,12 @@
           "date": "2026-04-24",
           "views": 1669325,
           "likes": 25891,
+          "comments": 1106
+        },
+        {
+          "date": "2026-04-25",
+          "views": 1680628,
+          "likes": 25967,
           "comments": 1106
         }
       ]
@@ -1482,6 +1553,18 @@
       "type": "annotated",
       "related_annotation": "日曜劇場「GIFT」第3話放送と4/22CDシングルリリース前夜でSpotify月間リスナーが最大増（+214,274人・2.16σ）",
       "detected_at": "2026-04-25T10:41:30.732197+00:00"
+    },
+    {
+      "date": "2026-04-25",
+      "metric": "ytm_monthly_listeners",
+      "value": 37600000,
+      "baseline_mean": 34561538.4,
+      "baseline_stddev": 1497453.6,
+      "delta": 3038461,
+      "score": 2.03,
+      "type": "annotated",
+      "related_annotation": "両A面CDシングル「スターダスト/エルダーフラワー」物理リリース",
+      "detected_at": "2026-04-25T14:42:25.829055+00:00"
     }
   ]
 }

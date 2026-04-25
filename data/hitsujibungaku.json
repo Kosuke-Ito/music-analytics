@@ -493,6 +493,47 @@
       "ytm_subscribers": 440000,
       "ytm_monthly_listeners": 6640000,
       "ytm_total_views": 326955332
+    },
+    {
+      "date": "2026-04-25",
+      "monthly_listeners": 1675853,
+      "collected_at": "2026-04-25T14:51:57.725173+00:00",
+      "spotify_followers": 479973,
+      "youtube_subscribers": 440000,
+      "youtube_total_views": 328842136,
+      "youtube_video_count": 135,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 65180
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 56390
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 36884
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 33117
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 22954
+        }
+      ],
+      "lastfm_listeners": 17989,
+      "lastfm_playcount": 1215569,
+      "ytm_subscribers": 440000,
+      "ytm_monthly_listeners": 6640000,
+      "ytm_total_views": 326955332
     }
   ],
   "annotations": [
@@ -571,6 +612,16 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Brandy Senki",
+        "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
+        "subscribers": "160K"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "21.3M"
+      },
+      {
         "name": "Lovely Summer-Chan",
         "browse_id": "UC_wA9BfubcP2P74SPKTSV7Q",
         "subscribers": "616K"
@@ -581,21 +632,6 @@
         "subscribers": "3.21M"
       },
       {
-        "name": "chilldspot",
-        "browse_id": "UCpAYVXySypaqfb2JA_papUA",
-        "subscribers": "317K"
-      },
-      {
-        "name": "RADWIMPS",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "70.9M"
-      },
-      {
-        "name": "Chilli Beans.",
-        "browse_id": "UCkI4roj4YVHrTh7PftDVxmQ",
-        "subscribers": "371K"
-      },
-      {
         "name": "Laura day romance",
         "browse_id": "UCFrg0aEn8dsLCzYGVSZkT1Q",
         "subscribers": "150K"
@@ -603,7 +639,7 @@
       {
         "name": "Homecomings",
         "browse_id": "UC5YC9saEogyw6Jg9fq_oGzg",
-        "subscribers": "109K"
+        "subscribers": "106K"
       },
       {
         "name": "CodyLee",
@@ -619,6 +655,11 @@
         "name": "Sundae May Club",
         "browse_id": "UCe4xCVidp0LeBMYfU-ONSAQ",
         "subscribers": "101K"
+      },
+      {
+        "name": "CHIAKI SATO",
+        "browse_id": "UCgPeNtXtc4sWEJSqQvNJzmQ",
+        "subscribers": "96.4K"
       }
     ],
     "ytm_top_songs": [
@@ -714,6 +755,12 @@
           "views": 17859058,
           "likes": 114843,
           "comments": 338
+        },
+        {
+          "date": "2026-04-25",
+          "views": 17864257,
+          "likes": 114867,
+          "comments": 338
         }
       ]
     },
@@ -784,6 +831,12 @@
           "date": "2026-04-24",
           "views": 2117226,
           "likes": 20178,
+          "comments": 153
+        },
+        {
+          "date": "2026-04-25",
+          "views": 2122942,
+          "likes": 20202,
           "comments": 153
         }
       ]
@@ -856,6 +909,12 @@
           "views": 59324,
           "likes": 1528,
           "comments": 59
+        },
+        {
+          "date": "2026-04-25",
+          "views": 59458,
+          "likes": 1530,
+          "comments": 60
         }
       ]
     },
@@ -926,6 +985,12 @@
           "date": "2026-04-24",
           "views": 1304577,
           "likes": 12496,
+          "comments": 83
+        },
+        {
+          "date": "2026-04-25",
+          "views": 1305038,
+          "likes": 12500,
           "comments": 83
         }
       ]
@@ -998,6 +1063,12 @@
           "views": 1942380,
           "likes": 15375,
           "comments": 121
+        },
+        {
+          "date": "2026-04-25",
+          "views": 1942911,
+          "likes": 15377,
+          "comments": 121
         }
       ]
     }
@@ -1038,6 +1109,30 @@
       "type": "annotated",
       "related_annotation": "Netflix「九条の大罪」配信から3週間後の波及でSpotify月間リスナーが急増（+22,710人・2.02σ）",
       "detected_at": "2026-04-25T10:51:01.200905+00:00"
+    },
+    {
+      "date": "2026-04-25",
+      "metric": "ytm_monthly_listeners",
+      "value": 6640000,
+      "baseline_mean": 6216666.7,
+      "baseline_stddev": 201590.9,
+      "delta": 423333,
+      "score": 2.1,
+      "type": "annotated",
+      "related_annotation": "アルバム「D o n' t L a u g h I t O f f」LP盤発売発表（5月20日）",
+      "detected_at": "2026-04-25T14:51:59.446956+00:00"
+    },
+    {
+      "date": "2026-04-25",
+      "metric": "youtube_total_views",
+      "value": 328842136,
+      "baseline_mean": 325906681.8,
+      "baseline_stddev": 1401145.3,
+      "delta": 2935454,
+      "score": 2.1,
+      "type": "annotated",
+      "related_annotation": "アルバム「D o n' t L a u g h I t O f f」LP盤発売発表（5月20日）",
+      "detected_at": "2026-04-25T14:51:59.446956+00:00"
     }
   ]
 }
