@@ -43,6 +43,14 @@ class TestParseArgs:
         args = parse_args(["--artist-id", "qnel"])
         assert args.artist_id == "qnel"
 
+    def test_no_args_returns_none_date(self):
+        args = parse_args([])
+        assert args.date is None
+
+    def test_date_flag(self):
+        args = parse_args(["--date", "2026-04-24"])
+        assert args.date == "2026-04-24"
+
 
 class TestCollectAllJsonError:
     """壊れたJSONファイルがあっても他のアーティストの収集を続行する"""

@@ -56,14 +56,19 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=None,
         help="指定したアーティストIDのみ収集する (config.json の id と一致)",
     )
+    parser.add_argument(
+        "--date",
+        default=None,
+        help="記録する日付を指定する (YYYY-MM-DD)。省略時は当日UTC",
+    )
     return parser.parse_args(argv)
 
 
-def collect_all(artist_id: str | None = None) -> None:
+def collect_all(artist_id: str | None = None, date: str | None = None) -> None:
     # config.jsonの全アーティストのデータを収集する。
     # artist_id を指定した場合はそのアーティストのみ対象とする。
     config = json.loads(CONFIG_PATH.read_text())
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
     youtube_api_key = os.environ.get("YOUTUBE_API_KEY")
     lastfm_api_key = os.environ.get("LASTFM_API_KEY")
 
@@ -265,7 +270,7 @@ def collect_all(artist_id: str | None = None) -> None:
 if __name__ == "__main__":
     args = parse_args()
     try:
-        collect_all(artist_id=args.artist_id)
+        collect_all(artist_id=args.artist_id, date=args.date)
     except Exception as e:
         logger.error(f"予期しないエラー: {e}")
         sys.exit(1)

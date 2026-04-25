@@ -9,6 +9,10 @@ on:
         description: '特定のアーティストIDのみ収集する (空なら全件)'
         required: false
         default: ''
+      date:
+        description: '記録する日付を指定 (YYYY-MM-DD、空なら当日UTC)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -35,11 +39,14 @@ jobs:
       - name: Run collector
         timeout-minutes: 20
         run: |
+          ARGS=""
           if [ -n "${{ inputs.artist_id }}" ]; then
-            python -m collector.main --artist-id "${{ inputs.artist_id }}"
-          else
-            python -m collector.main
+            ARGS="$ARGS --artist-id ${{ inputs.artist_id }}"
           fi
+          if [ -n "${{ inputs.date }}" ]; then
+            ARGS="$ARGS --date ${{ inputs.date }}"
+          fi
+          python -m collector.main $ARGS
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
