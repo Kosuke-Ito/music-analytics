@@ -411,6 +411,47 @@
       "ytm_subscribers": 1810000,
       "ytm_monthly_listeners": 27800000,
       "ytm_total_views": 1109490628
+    },
+    {
+      "date": "2026-04-24",
+      "monthly_listeners": 3692447,
+      "collected_at": "2026-04-25T10:49:53.353133+00:00",
+      "spotify_followers": 1588300,
+      "youtube_subscribers": 1810000,
+      "youtube_total_views": 1133199671,
+      "youtube_video_count": 142,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 223848
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 174847
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 133541
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 73337
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 71592
+        }
+      ],
+      "lastfm_listeners": 12310,
+      "lastfm_playcount": 480010,
+      "ytm_subscribers": 1810000,
+      "ytm_monthly_listeners": 23800000,
+      "ytm_total_views": 1109490628
     }
   ],
   "annotations": [
@@ -469,54 +510,54 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "SKY-HI",
-        "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "1.09M"
-      },
-      {
         "name": "OZworld",
         "browse_id": "UCnMNufO6kkcw_YHGxJunJbw",
-        "subscribers": "676K"
-      },
-      {
-        "name": "Awich",
-        "browse_id": "UCvWgKgu9_3GTJulSpz1UN1Q",
-        "subscribers": "2.41M"
-      },
-      {
-        "name": "LANA",
-        "browse_id": "UCFiKkRhK9arjKDxPBQdloDA",
-        "subscribers": "1.58M"
-      },
-      {
-        "name": "Kana Nishino",
-        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
-        "subscribers": "6.75M"
+        "subscribers": "670K"
       },
       {
         "name": "Soala",
         "browse_id": "UC3PFoXZPFJGy9F4PG84nNQQ",
-        "subscribers": "992K"
+        "subscribers": "716K"
       },
       {
         "name": "AYANE",
         "browse_id": "UCwlBnumC5gltyhUxuOOFm_Q",
-        "subscribers": "495K"
+        "subscribers": "558K"
       },
       {
         "name": "Elle Teresa",
         "browse_id": "UCh5lKTm6k6DSQ61fP7UbKPA",
-        "subscribers": "629K"
+        "subscribers": "979K"
       },
       {
-        "name": "Tani Yuuki",
-        "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
-        "subscribers": "10M"
+        "name": "LANA",
+        "browse_id": "UCFiKkRhK9arjKDxPBQdloDA",
+        "subscribers": "1.93M"
+      },
+      {
+        "name": "SKY-HI",
+        "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
+        "subscribers": "1.17M"
+      },
+      {
+        "name": "Awich",
+        "browse_id": "UCvWgKgu9_3GTJulSpz1UN1Q",
+        "subscribers": "2.33M"
+      },
+      {
+        "name": "Kana Nishino",
+        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
+        "subscribers": "6.33M"
       },
       {
         "name": "Thelma Aoyama",
         "browse_id": "UCiQJ6RsG3tyZwn2-m7gnkUg",
-        "subscribers": "1.08M"
+        "subscribers": "1.02M"
+      },
+      {
+        "name": "Tani Yuuki",
+        "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
+        "subscribers": "9.71M"
       }
     ],
     "ytm_top_songs": [
@@ -606,6 +647,12 @@
           "views": 3112832,
           "likes": 36404,
           "comments": 149
+        },
+        {
+          "date": "2026-04-24",
+          "views": 3181017,
+          "likes": 36804,
+          "comments": 151
         }
       ]
     },
@@ -724,6 +771,12 @@
           "views": 30669553,
           "likes": 120312,
           "comments": 197
+        },
+        {
+          "date": "2026-04-24",
+          "views": 30762840,
+          "likes": 120566,
+          "comments": 198
         }
       ]
     },
@@ -788,6 +841,12 @@
           "date": "2026-04-22",
           "views": 26199989,
           "likes": 108991,
+          "comments": 261
+        },
+        {
+          "date": "2026-04-24",
+          "views": 26260481,
+          "likes": 109106,
           "comments": 261
         }
       ]
@@ -854,6 +913,12 @@
           "views": 300491,
           "likes": 2232,
           "comments": 24
+        },
+        {
+          "date": "2026-04-24",
+          "views": 302716,
+          "likes": 2241,
+          "comments": 23
         }
       ]
     },
@@ -871,8 +936,28 @@
           "views": 31592220,
           "likes": 121456,
           "comments": 359
+        },
+        {
+          "date": "2026-04-24",
+          "views": 31670963,
+          "likes": 121629,
+          "comments": 359
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-24",
+      "metric": "youtube_total_views",
+      "value": 1133199671,
+      "baseline_mean": 1122513967.4,
+      "baseline_stddev": 3561901.2,
+      "delta": 10685703,
+      "score": 3.0,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-25T10:49:55.172962+00:00"
+    }
+  ]
 }

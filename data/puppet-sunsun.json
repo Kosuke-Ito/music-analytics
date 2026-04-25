@@ -524,6 +524,50 @@
       "ytm_subscribers": 6620,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-24",
+      "monthly_listeners": 196604,
+      "collected_at": "2026-04-25T10:40:11.438939+00:00",
+      "spotify_followers": 28467,
+      "youtube_subscribers": 843000,
+      "youtube_total_views": 143647433,
+      "youtube_video_count": 462,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 9953
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 7198
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6329
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3417
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 3169
+        }
+      ],
+      "lastfm_listeners": 811,
+      "lastfm_playcount": 4716,
+      "ytm_subscribers": 6640,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0,
+      "validation_flags": [
+        "unusual_deviation"
+      ]
     }
   ],
   "annotations": [
@@ -564,19 +608,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Wakeys",
-        "browse_id": "UCesgOEtX_R74n5ONYMBWpcQ",
-        "subscribers": "5.87K"
+        "name": "yamino oneesan",
+        "browse_id": "UCZP704L6_ZSyUKxxmSXGlkw",
+        "subscribers": "22.5K"
       },
       {
         "name": "SARM",
         "browse_id": "UCGQRsZTrZFLBDKTVHy2sM4w",
-        "subscribers": "882K"
+        "subscribers": "1.1M"
       },
       {
         "name": "Onoe Matsuya II",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
-        "subscribers": "475"
+        "subscribers": "474"
       },
       {
         "name": "Nakayamakinnikun",
@@ -594,25 +638,39 @@
         "subscribers": "2.03K"
       },
       {
-        "name": "THE BYAN",
-        "browse_id": "UCEbGSP2nqYB85O2TsQoFFfA",
-        "subscribers": "20.2K"
+        "name": "TV Senshi",
+        "browse_id": "UCFKdZVD2Jbh6Kv2nS72pW5A",
+        "subscribers": "4.54K"
       },
       {
         "name": "zanene",
         "browse_id": "UCiHYMOv9-pUgz9yq93m7lcg",
-        "subscribers": "522"
+        "subscribers": "521"
       },
       {
         "name": "DRAW♡ME",
         "browse_id": "UChEgt7m939b4LBihHa-S12Q",
-        "subscribers": "4.45K"
+        "subscribers": "4.46K"
       },
       {
         "name": "Erika Ikuta",
         "browse_id": "UCstbS0hulvqyAiThgFYfHdA",
-        "subscribers": "548K"
+        "subscribers": "762K"
       }
     ]
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-24",
+      "metric": "youtube_total_views",
+      "value": 143647433,
+      "baseline_mean": 141717705.4,
+      "baseline_stddev": 807330.2,
+      "delta": 1929727,
+      "score": 2.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-25T10:40:12.725299+00:00"
+    }
+  ]
 }

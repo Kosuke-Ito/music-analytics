@@ -526,6 +526,47 @@
       "ytm_subscribers": 165000,
       "ytm_monthly_listeners": 4220000,
       "ytm_total_views": 74097885
+    },
+    {
+      "date": "2026-04-24",
+      "monthly_listeners": 234996,
+      "collected_at": "2026-04-25T10:39:55.739350+00:00",
+      "spotify_followers": 110244,
+      "youtube_subscribers": 165000,
+      "youtube_total_views": 74729988,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8054
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7992
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4938
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 3807
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3030
+        }
+      ],
+      "lastfm_listeners": 34112,
+      "lastfm_playcount": 505820,
+      "ytm_subscribers": 165000,
+      "ytm_monthly_listeners": 3570000,
+      "ytm_total_views": 74205830
     }
   ],
   "metadata": {
@@ -562,32 +603,27 @@
       {
         "name": "harha",
         "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "296K"
-      },
-      {
-        "name": "Cidergirl",
-        "browse_id": "UCj0gYbIUSGS_m1yqbPi4TIQ",
-        "subscribers": "351K"
-      },
-      {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "722K"
-      },
-      {
-        "name": "Lozareena",
-        "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
-        "subscribers": "486K"
+        "subscribers": "262K"
       },
       {
         "name": "MAISONdes ",
         "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "4.64M"
+        "subscribers": "4.54M"
       },
       {
-        "name": "muque",
-        "browse_id": "UClh_g9tkf_ErD1UclhABZDw",
-        "subscribers": "561K"
+        "name": "WhaleDontSleep",
+        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
+        "subscribers": "661K"
+      },
+      {
+        "name": "Lozareena",
+        "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
+        "subscribers": "468K"
+      },
+      {
+        "name": "Cidergirl",
+        "browse_id": "UCj0gYbIUSGS_m1yqbPi4TIQ",
+        "subscribers": "362K"
       },
       {
         "name": "hockrockb",
@@ -597,17 +633,22 @@
       {
         "name": "Yui Nishio",
         "browse_id": "UCMzyh64hvTumNd2uu-huW0g",
-        "subscribers": "100K"
+        "subscribers": "95K"
       },
       {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "149K"
+        "subscribers": "150K"
       },
       {
         "name": "Atashi",
         "browse_id": "UCJijtFbU-8Xx46pwwwWOJXw",
-        "subscribers": "53.4K"
+        "subscribers": "69.6K"
+      },
+      {
+        "name": "Klang Ruler",
+        "browse_id": "UCd4GA9dlflw9AdPqUU4qKJw",
+        "subscribers": "532K"
       }
     ],
     "ytm_top_songs": [
@@ -703,6 +744,12 @@
           "views": 1003241,
           "likes": 9842,
           "comments": 190
+        },
+        {
+          "date": "2026-04-24",
+          "views": 1005052,
+          "likes": 9847,
+          "comments": 190
         }
       ]
     },
@@ -773,6 +820,12 @@
           "date": "2026-04-22",
           "views": 816936,
           "likes": 7911,
+          "comments": 36
+        },
+        {
+          "date": "2026-04-24",
+          "views": 819047,
+          "likes": 7933,
           "comments": 36
         }
       ]
@@ -845,6 +898,12 @@
           "views": 369998,
           "likes": 3588,
           "comments": 46
+        },
+        {
+          "date": "2026-04-24",
+          "views": 371652,
+          "likes": 3600,
+          "comments": 46
         }
       ]
     },
@@ -915,6 +974,12 @@
           "date": "2026-04-22",
           "views": 1053870,
           "likes": 11332,
+          "comments": 140
+        },
+        {
+          "date": "2026-04-24",
+          "views": 1055261,
+          "likes": 11342,
           "comments": 140
         }
       ]
@@ -992,6 +1057,12 @@
           "views": 13406,
           "likes": 316,
           "comments": 10
+        },
+        {
+          "date": "2026-04-24",
+          "views": 16804,
+          "likes": 350,
+          "comments": 11
         }
       ]
     }
@@ -1007,6 +1078,20 @@
       "source": "barks.jp",
       "confidence": "high",
       "verified": false
+    }
+  ],
+  "buzz_events": [
+    {
+      "date": "2026-04-24",
+      "metric": "youtube_total_views",
+      "value": 74729988,
+      "baseline_mean": 74427951.6,
+      "baseline_stddev": 145962.4,
+      "delta": 302036,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-25T10:39:57.188608+00:00"
     }
   ]
 }

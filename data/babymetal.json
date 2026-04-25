@@ -411,6 +411,47 @@
       "ytm_subscribers": 3600000,
       "ytm_monthly_listeners": 6500000,
       "ytm_total_views": 1052439111
+    },
+    {
+      "date": "2026-04-24",
+      "monthly_listeners": 3504044,
+      "collected_at": "2026-04-25T10:52:03.010211+00:00",
+      "spotify_followers": 2955205,
+      "youtube_subscribers": 3610000,
+      "youtube_total_views": 1060072705,
+      "youtube_video_count": 351,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 68021
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 61649
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 47303
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 40288
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 39018
+        }
+      ],
+      "lastfm_listeners": 958895,
+      "lastfm_playcount": 58275468,
+      "ytm_subscribers": 3610000,
+      "ytm_monthly_listeners": 6930000,
+      "ytm_total_views": 1052439111
     }
   ],
   "annotations": [
@@ -480,9 +521,14 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Yōsei Teikoku",
+        "browse_id": "UCT6NZ6tzD-t8hu1XsKWe8iQ",
+        "subscribers": "32.4K"
+      },
+      {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "252K"
+        "subscribers": "255K"
       },
       {
         "name": "Sakura Gakuin",
@@ -492,7 +538,7 @@
       {
         "name": "Ladybaby",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "117K"
+        "subscribers": "118K"
       },
       {
         "name": "STMLT",
@@ -507,7 +553,7 @@
       {
         "name": "Mellows",
         "browse_id": "UC9BIwJgZn6hJCldEBvxOd-g",
-        "subscribers": "4.07K"
+        "subscribers": "4.08K"
       },
       {
         "name": "JILUKA",
@@ -522,12 +568,7 @@
       {
         "name": "Unlucky Morpheus",
         "browse_id": "UCW-Bmb9g_LBGueFEYDBqTkQ",
-        "subscribers": "194K"
-      },
-      {
-        "name": "MAZE",
-        "browse_id": "UCRTdGtqdQhbQt4WkWq0BVtg",
-        "subscribers": "1.71K"
+        "subscribers": "176K"
       }
     ],
     "ytm_top_songs": [
@@ -617,6 +658,12 @@
           "views": 6069914,
           "likes": 72546,
           "comments": 228
+        },
+        {
+          "date": "2026-04-24",
+          "views": 6159362,
+          "likes": 73346,
+          "comments": 230
         }
       ]
     },
@@ -682,6 +729,12 @@
           "views": 3856398,
           "likes": 80686,
           "comments": 419
+        },
+        {
+          "date": "2026-04-24",
+          "views": 3904129,
+          "likes": 81410,
+          "comments": 425
         }
       ]
     },
@@ -747,6 +800,12 @@
           "views": 4268077,
           "likes": 63260,
           "comments": 207
+        },
+        {
+          "date": "2026-04-24",
+          "views": 4319158,
+          "likes": 63787,
+          "comments": 208
         }
       ]
     },
@@ -812,6 +871,12 @@
           "views": 1710708,
           "likes": 34236,
           "comments": 176
+        },
+        {
+          "date": "2026-04-24",
+          "views": 1738294,
+          "likes": 34699,
+          "comments": 188
         }
       ]
     },
@@ -877,8 +942,28 @@
           "views": 3172303,
           "likes": 63455,
           "comments": 274
+        },
+        {
+          "date": "2026-04-24",
+          "views": 3217082,
+          "likes": 64102,
+          "comments": 278
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-24",
+      "metric": "ytm_monthly_listeners",
+      "value": 6930000,
+      "baseline_mean": 6505000,
+      "baseline_stddev": 56258.3,
+      "delta": 425000,
+      "score": 7.55,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-25T10:52:04.807840+00:00"
+    }
+  ]
 }

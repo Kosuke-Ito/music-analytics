@@ -411,6 +411,47 @@
       "ytm_subscribers": 2170000,
       "ytm_monthly_listeners": 18400000,
       "ytm_total_views": 1140002010
+    },
+    {
+      "date": "2026-04-24",
+      "monthly_listeners": 3338083,
+      "collected_at": "2026-04-25T10:49:37.507229+00:00",
+      "spotify_followers": 901121,
+      "youtube_subscribers": 2170000,
+      "youtube_total_views": 1600799527,
+      "youtube_video_count": 105,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 239575
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 186328
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 141162
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 78339
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 75378
+        }
+      ],
+      "lastfm_listeners": 202668,
+      "lastfm_playcount": 3305747,
+      "ytm_subscribers": 2170000,
+      "ytm_monthly_listeners": 16500000,
+      "ytm_total_views": 1155113988
     }
   ],
   "annotations": [
@@ -493,22 +534,22 @@
       {
         "name": "CHANMINA",
         "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
-        "subscribers": "27.8M"
-      },
-      {
-        "name": "ME:I",
-        "browse_id": "UCmVWcCVzrEgVfNZLY80hfHw",
-        "subscribers": "3.85M"
+        "subscribers": "23.8M"
       },
       {
         "name": "BE:FIRST",
         "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
-        "subscribers": "10.1M"
+        "subscribers": "7.82M"
       },
       {
-        "name": "MAZZEL",
-        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "3.87M"
+        "name": "ME:I",
+        "browse_id": "UCmVWcCVzrEgVfNZLY80hfHw",
+        "subscribers": "3.66M"
+      },
+      {
+        "name": "CUTIE STREET",
+        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
+        "subscribers": "25.1M"
       },
       {
         "name": "NiziU",
@@ -516,14 +557,14 @@
         "subscribers": "16.1M"
       },
       {
-        "name": "Number_i",
-        "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
-        "subscribers": "1.42M"
+        "name": "MAZZEL",
+        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
+        "subscribers": "3.39M"
       },
       {
-        "name": "CUTIE STREET",
-        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
-        "subscribers": "24.7M"
+        "name": "Number_i",
+        "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
+        "subscribers": "1.81M"
       }
     ],
     "ytm_top_songs": [
@@ -613,6 +654,12 @@
           "views": 75182,
           "likes": 828,
           "comments": 23
+        },
+        {
+          "date": "2026-04-24",
+          "views": 79657,
+          "likes": 853,
+          "comments": 23
         }
       ]
     },
@@ -678,6 +725,12 @@
           "views": 119876,
           "likes": 1009,
           "comments": 10
+        },
+        {
+          "date": "2026-04-24",
+          "views": 126898,
+          "likes": 1047,
+          "comments": 11
         }
       ]
     },
@@ -743,6 +796,12 @@
           "views": 116706,
           "likes": 1265,
           "comments": 35
+        },
+        {
+          "date": "2026-04-24",
+          "views": 120865,
+          "likes": 1274,
+          "comments": 35
         }
       ]
     },
@@ -796,6 +855,12 @@
           "views": 160630,
           "likes": 1032,
           "comments": 5
+        },
+        {
+          "date": "2026-04-24",
+          "views": 172477,
+          "likes": 1078,
+          "comments": 7
         }
       ]
     },
@@ -861,6 +926,12 @@
           "views": 58421,
           "likes": 432,
           "comments": 4
+        },
+        {
+          "date": "2026-04-24",
+          "views": 60822,
+          "likes": 455,
+          "comments": 4
         }
       ]
     },
@@ -881,5 +952,19 @@
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-24",
+      "metric": "youtube_total_views",
+      "value": 1600799527,
+      "baseline_mean": 1571975024,
+      "baseline_stddev": 8628227.0,
+      "delta": 28824503,
+      "score": 3.34,
+      "type": "annotated",
+      "related_annotation": "TVアニメ「メダリスト」オリジナルサウンドトラック発売（「Cold Night」収録）",
+      "detected_at": "2026-04-25T10:49:39.670128+00:00"
+    }
+  ]
 }
