@@ -63,6 +63,8 @@ jobs:
             - organic バズが無ければ何もしない（コミットも不要）
             - 既にアノテーションがある日付+タイトルの重複は追加しない
             - annotations 配列は日付順にソート
+            - ★★★ data/*.json を編集した後、コミット前に必ず編集したファイルを Read で読み直して JSON として正しいか確認すること ★★★
+              特に annotations 配列の要素間にカンマ `,` があるか注意。壊れていたら修正してからコミットすること
             - 変更があれば git add data/ && git commit -m "chore: investigate organic buzz" && git push
             - push が rejected されたら git pull --rebase origin main してから再度 git push を試行する（最大3回）
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}

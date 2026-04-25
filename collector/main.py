@@ -91,7 +91,12 @@ def collect_all(artist_id: str | None = None) -> None:
             stats["spotify_fail"].append(name)
             continue
 
-        data = load_data(data_path, artist_id=spotify_id, artist_name=name)
+        try:
+            data = load_data(data_path, artist_id=spotify_id, artist_name=name)
+        except json.JSONDecodeError as e:
+            logger.error(f"JSONパースエラー（スキップ）: {name} - {data_path}: {e}")
+            stats.setdefault("json_error", []).append(name)
+            continue
 
         previous_listeners = None
         history: list[int] = []
@@ -252,6 +257,8 @@ def collect_all(artist_id: str | None = None) -> None:
         logger.warning(f"  ⚠️  Last.fm失敗: {', '.join(stats['lastfm_fail'])}")
     if stats["ytm_fail"]:
         logger.warning(f"  ⚠️  YTM失敗: {', '.join(stats['ytm_fail'])}")
+    if stats.get("json_error"):
+        logger.error(f"  ❌ JSONパースエラー: {', '.join(stats['json_error'])}")
     logger.info("=" * 50)
 
 
