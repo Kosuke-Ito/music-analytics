@@ -534,6 +534,47 @@
       "ytm_subscribers": 1220000,
       "ytm_monthly_listeners": 7820000,
       "ytm_total_views": 1425514123
+    },
+    {
+      "date": "2026-04-26",
+      "monthly_listeners": 2330896,
+      "collected_at": "2026-04-26T14:55:47.753480+00:00",
+      "spotify_followers": 604071,
+      "youtube_subscribers": 1220000,
+      "youtube_total_views": 1517356464,
+      "youtube_video_count": 482,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 130149
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 99279
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 82080
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 42726
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 40147
+        }
+      ],
+      "lastfm_listeners": 71130,
+      "lastfm_playcount": 1317108,
+      "ytm_subscribers": 1220000,
+      "ytm_monthly_listeners": 7820000,
+      "ytm_total_views": 1431135617
     }
   ],
   "metadata": {
@@ -551,12 +592,12 @@
         "url": "https://www.last.fm/music/KID+PHENOMENON+from+EXILE+TRIBE"
       },
       {
-        "name": "THE RAMPAGE from EXILE TRIBE",
-        "url": "https://www.last.fm/music/THE+RAMPAGE+from+EXILE+TRIBE"
-      },
-      {
         "name": "Number_i",
         "url": "https://www.last.fm/music/Number_i"
+      },
+      {
+        "name": "THE RAMPAGE from EXILE TRIBE",
+        "url": "https://www.last.fm/music/THE+RAMPAGE+from+EXILE+TRIBE"
       }
     ],
     "lastfm_tags": [
@@ -570,17 +611,17 @@
       {
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "1.17M"
-      },
-      {
-        "name": "SixTONES",
-        "browse_id": "UCKlEziFhgHJhkBkZg8Hp6tw",
-        "subscribers": "3.92M"
+        "subscribers": "1.16M"
       },
       {
         "name": "HANA",
         "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
         "subscribers": "16.3M"
+      },
+      {
+        "name": "SixTONES",
+        "browse_id": "UCKlEziFhgHJhkBkZg8Hp6tw",
+        "subscribers": "3.92M"
       },
       {
         "name": "King & Prince",
@@ -590,17 +631,17 @@
       {
         "name": "Number_i",
         "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
-        "subscribers": "1.81M"
+        "subscribers": "1.83M"
+      },
+      {
+        "name": "MAZZEL",
+        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
+        "subscribers": "3.62M"
       },
       {
         "name": "INI",
         "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
         "subscribers": "6.63M"
-      },
-      {
-        "name": "MAZZEL",
-        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "3.24M"
       }
     ],
     "ytm_top_songs": [
@@ -759,6 +800,12 @@
           "views": 1498438,
           "likes": 16207,
           "comments": 711
+        },
+        {
+          "date": "2026-04-26",
+          "views": 1522009,
+          "likes": 16240,
+          "comments": 711
         }
       ]
     },
@@ -836,6 +883,12 @@
           "views": 17193886,
           "likes": 86090,
           "comments": 1926
+        },
+        {
+          "date": "2026-04-26",
+          "views": 17228473,
+          "likes": 86204,
+          "comments": 1928
         }
       ]
     },
@@ -912,6 +965,12 @@
           "date": "2026-04-25",
           "views": 2738503,
           "likes": 20505,
+          "comments": 608
+        },
+        {
+          "date": "2026-04-26",
+          "views": 2745018,
+          "likes": 20518,
           "comments": 608
         }
       ]
@@ -990,6 +1049,12 @@
           "views": 2508103,
           "likes": 20383,
           "comments": 524
+        },
+        {
+          "date": "2026-04-26",
+          "views": 2513580,
+          "likes": 20390,
+          "comments": 524
         }
       ]
     },
@@ -1055,6 +1120,12 @@
           "views": 3037008,
           "likes": 26268,
           "comments": 968
+        },
+        {
+          "date": "2026-04-26",
+          "views": 3041727,
+          "likes": 26276,
+          "comments": 968
         }
       ]
     },
@@ -1088,6 +1159,18 @@
       "type": "annotated",
       "related_annotation": "SB19「Wakas At Simula: The Trilogy Concert Finale」にスペシャルゲスト出演——マニラSMDCフェスティバルグラウンド",
       "detected_at": "2026-04-20T15:28:33.578751+00:00"
+    },
+    {
+      "date": "2026-04-26",
+      "metric": "youtube_total_views",
+      "value": 1517356464,
+      "baseline_mean": 1508126620.9,
+      "baseline_stddev": 2973224.2,
+      "delta": 9229843,
+      "score": 3.1,
+      "type": "annotated",
+      "related_annotation": "ShowMinorSavage（MANATO・SOTA）が新曲「ROMEO」4月24日配信リリースを発表",
+      "detected_at": "2026-04-26T14:55:49.420434+00:00"
     }
   ]
 }

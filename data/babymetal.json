@@ -534,6 +534,47 @@
       "ytm_subscribers": 3610000,
       "ytm_monthly_listeners": 7060000,
       "ytm_total_views": 1052439111
+    },
+    {
+      "date": "2026-04-26",
+      "monthly_listeners": 3515266,
+      "collected_at": "2026-04-26T14:54:58.829476+00:00",
+      "spotify_followers": 2956540,
+      "youtube_subscribers": 3610000,
+      "youtube_total_views": 1060072705,
+      "youtube_video_count": 351,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 67017
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 61751
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 47892
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 40821
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 39430
+        }
+      ],
+      "lastfm_listeners": 959351,
+      "lastfm_playcount": 58306484,
+      "ytm_subscribers": 3610000,
+      "ytm_monthly_listeners": 7060000,
+      "ytm_total_views": 1052439111
     }
   ],
   "annotations": [
@@ -616,17 +657,37 @@
       {
         "name": "Yōsei Teikoku",
         "browse_id": "UCT6NZ6tzD-t8hu1XsKWe8iQ",
-        "subscribers": "32.4K"
+        "subscribers": "32.5K"
+      },
+      {
+        "name": "Ironbunny",
+        "browse_id": "UCOXQpHNB7kPqNibN8_5dCNQ",
+        "subscribers": "24.9K"
+      },
+      {
+        "name": "Takamachi Walk",
+        "browse_id": "UC4IhYRPTxFrNF8Zp9-yQdxw",
+        "subscribers": "7.89K"
+      },
+      {
+        "name": "Knosis",
+        "browse_id": "UCB9WtIQzNC9_mVKirlA8NHg",
+        "subscribers": "4.98K"
+      },
+      {
+        "name": "Ankor",
+        "browse_id": "UCOqsLFStKGClenRjiN1Ftbg",
+        "subscribers": "602K"
       },
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "255K"
+        "subscribers": "256K"
       },
       {
         "name": "Sakura Gakuin",
         "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
-        "subscribers": "7.53K"
+        "subscribers": "7.54K"
       },
       {
         "name": "Ladybaby",
@@ -642,26 +703,6 @@
         "name": "Bridear",
         "browse_id": "UCP6kdvZVATSyi1TOmgia5Fg",
         "subscribers": "39.7K"
-      },
-      {
-        "name": "Mellows",
-        "browse_id": "UC9BIwJgZn6hJCldEBvxOd-g",
-        "subscribers": "4.08K"
-      },
-      {
-        "name": "JILUKA",
-        "browse_id": "UC1FVXpsDUD1LR_ZqBqrmrjw",
-        "subscribers": "22.4K"
-      },
-      {
-        "name": "DEXCORE",
-        "browse_id": "UC3b_-zifpyFCd5kLtLuOoRw",
-        "subscribers": "55.6K"
-      },
-      {
-        "name": "Unlucky Morpheus",
-        "browse_id": "UCW-Bmb9g_LBGueFEYDBqTkQ",
-        "subscribers": "176K"
       }
     ],
     "ytm_top_songs": [
@@ -763,6 +804,12 @@
           "views": 6163801,
           "likes": 73382,
           "comments": 230
+        },
+        {
+          "date": "2026-04-26",
+          "views": 6188738,
+          "likes": 73599,
+          "comments": 230
         }
       ]
     },
@@ -840,6 +887,12 @@
           "views": 3905971,
           "likes": 81459,
           "comments": 426
+        },
+        {
+          "date": "2026-04-26",
+          "views": 3921129,
+          "likes": 81691,
+          "comments": 427
         }
       ]
     },
@@ -916,6 +969,12 @@
           "date": "2026-04-25",
           "views": 4321356,
           "likes": 63811,
+          "comments": 208
+        },
+        {
+          "date": "2026-04-26",
+          "views": 4336052,
+          "likes": 63935,
           "comments": 208
         }
       ]
@@ -994,6 +1053,12 @@
           "views": 1739305,
           "likes": 34728,
           "comments": 188
+        },
+        {
+          "date": "2026-04-26",
+          "views": 1748347,
+          "likes": 34894,
+          "comments": 194
         }
       ]
     },
@@ -1071,6 +1136,12 @@
           "views": 3218888,
           "likes": 64135,
           "comments": 280
+        },
+        {
+          "date": "2026-04-26",
+          "views": 3233152,
+          "likes": 64321,
+          "comments": 282
         }
       ]
     }
@@ -1099,6 +1170,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-25T14:53:03.596715+00:00"
+    },
+    {
+      "date": "2026-04-26",
+      "metric": "ytm_monthly_listeners",
+      "value": 7060000,
+      "baseline_mean": 6613076.9,
+      "baseline_stddev": 205515.7,
+      "delta": 446923,
+      "score": 2.17,
+      "type": "annotated",
+      "related_annotation": "ラテンアメリカツアー先行（4/20-22）でメキシコ公演が24時間以内完売、世界的話題でYouTube Music月間リスナーが急増（7.55σ）",
+      "detected_at": "2026-04-26T14:55:00.237831+00:00"
     }
   ]
 }
