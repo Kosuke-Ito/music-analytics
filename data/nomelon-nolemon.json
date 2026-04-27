@@ -696,6 +696,47 @@
       "ytm_subscribers": 319000,
       "ytm_monthly_listeners": 1830000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-27",
+      "monthly_listeners": 290590,
+      "collected_at": "2026-04-27T15:34:00.785820+00:00",
+      "spotify_followers": 65290,
+      "youtube_subscribers": 319000,
+      "youtube_total_views": 159350601,
+      "youtube_video_count": 104,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 14162
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 10621
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 7050
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5427
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5208
+        }
+      ],
+      "lastfm_listeners": 31008,
+      "lastfm_playcount": 817050,
+      "ytm_subscribers": 319000,
+      "ytm_monthly_listeners": 1880000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -730,29 +771,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "harha",
-        "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "258K"
-      },
-      {
-        "name": "Polkadot Stingray",
-        "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
-        "subscribers": "875K"
-      },
-      {
-        "name": "ChoQMay",
-        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
-        "subscribers": "3.18M"
-      },
-      {
         "name": "suisoh",
         "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
         "subscribers": "412K"
       },
       {
-        "name": "DUSTCELL",
-        "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
-        "subscribers": "1.5M"
+        "name": "Polkadot Stingray",
+        "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
+        "subscribers": "876K"
+      },
+      {
+        "name": "ChoQMay",
+        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
+        "subscribers": "3.14M"
       },
       {
         "name": "MAISONdes ",
@@ -760,24 +791,34 @@
         "subscribers": "4.44M"
       },
       {
-        "name": "RIM",
-        "browse_id": "UCJI8ldaIM5VGPh_4SkoSRoA",
-        "subscribers": "1.01M"
-      },
-      {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "150K"
+        "subscribers": "148K"
       },
       {
         "name": "Shiyui",
         "browse_id": "UCAkYyroRwc9qPuymye_2fNA",
-        "subscribers": "246K"
+        "subscribers": "243K"
       },
       {
         "name": "Room97",
         "browse_id": "UCfYmK8G568tJsaDHWv94eQQ",
         "subscribers": "103K"
+      },
+      {
+        "name": "Kuhaku Gokko",
+        "browse_id": "UCLT5PBmAgpn2NMu3WG_UNdA",
+        "subscribers": "62.8K"
+      },
+      {
+        "name": "Taku Inoue",
+        "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
+        "subscribers": "649K"
+      },
+      {
+        "name": "RuLu",
+        "browse_id": "UCJvqtoZba5S3yP-kYDeC25A",
+        "subscribers": "139K"
       }
     ],
     "ytm_top_songs": [
@@ -890,6 +931,12 @@
           "views": 17601702,
           "likes": 121976,
           "comments": 1052
+        },
+        {
+          "date": "2026-04-27",
+          "views": 17615532,
+          "likes": 122009,
+          "comments": 1052
         }
       ]
     },
@@ -978,6 +1025,12 @@
           "date": "2026-04-26",
           "views": 4962471,
           "likes": 37390,
+          "comments": 80
+        },
+        {
+          "date": "2026-04-27",
+          "views": 4971376,
+          "likes": 37421,
           "comments": 80
         }
       ]
@@ -1068,6 +1121,12 @@
           "views": 4813405,
           "likes": 33894,
           "comments": 159
+        },
+        {
+          "date": "2026-04-27",
+          "views": 4819389,
+          "likes": 33913,
+          "comments": 159
         }
       ]
     },
@@ -1156,6 +1215,12 @@
           "date": "2026-04-26",
           "views": 2013761,
           "likes": 17359,
+          "comments": 41
+        },
+        {
+          "date": "2026-04-27",
+          "views": 2018181,
+          "likes": 17384,
           "comments": 41
         }
       ]
@@ -1251,6 +1316,12 @@
           "views": 4079836,
           "likes": 34537,
           "comments": 314
+        },
+        {
+          "date": "2026-04-27",
+          "views": 4084189,
+          "likes": 34557,
+          "comments": 314
         }
       ]
     }
@@ -1303,6 +1374,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-25T14:40:21.241722+00:00"
+    },
+    {
+      "date": "2026-04-27",
+      "metric": "ytm_monthly_listeners",
+      "value": 1880000,
+      "baseline_mean": 1608000,
+      "baseline_stddev": 133975.1,
+      "delta": 272000,
+      "score": 2.03,
+      "type": "annotated",
+      "related_annotation": "「THE FIRST TAKE」出演（4/17）の波及でYouTube Music月間リスナーが急増（49.1σ）",
+      "detected_at": "2026-04-27T15:34:01.873993+00:00"
     }
   ]
 }
