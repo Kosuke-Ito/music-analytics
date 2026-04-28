@@ -616,6 +616,47 @@
       "ytm_subscribers": 2280000,
       "ytm_monthly_listeners": 7640000,
       "ytm_total_views": 2638379122
+    },
+    {
+      "date": "2026-04-28",
+      "monthly_listeners": 4201603,
+      "collected_at": "2026-04-28T16:21:56.605634+00:00",
+      "spotify_followers": 6235105,
+      "youtube_subscribers": 2280000,
+      "youtube_total_views": 2651742033,
+      "youtube_video_count": 266,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 249494
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 204578
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 148038
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 85683
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 76004
+        }
+      ],
+      "lastfm_listeners": 19433,
+      "lastfm_playcount": 1408004,
+      "ytm_subscribers": 2280000,
+      "ytm_monthly_listeners": 7630000,
+      "ytm_total_views": 2642067992
     }
   ],
   "annotations": [
@@ -714,14 +755,9 @@
       "japanese",
       "female vocalists",
       "rock",
-      "JPop"
+      "J-rock"
     ],
     "ytm_related_artists": [
-      {
-        "name": "wacci",
-        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
-        "subscribers": "2.15M"
-      },
       {
         "name": "Ayaka",
         "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
@@ -730,12 +766,12 @@
       {
         "name": "Ken Hirai",
         "browse_id": "UCjV108-_g6HUrmoKOt5-QIw",
-        "subscribers": "1.78M"
+        "subscribers": "1.76M"
       },
       {
-        "name": "Superfly",
-        "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
-        "subscribers": "3.66M"
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "9.62M"
       },
       {
         "name": "back number",
@@ -748,24 +784,29 @@
         "subscribers": "1.8M"
       },
       {
-        "name": "Lilas Ikuta",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "24.3M"
+        "name": "Superfly",
+        "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
+        "subscribers": "3.66M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "21.7M"
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.2M"
       },
       {
         "name": "Motohiro Hata",
         "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "11.1M"
+        "subscribers": "11M"
       },
       {
-        "name": "Ryokuoushoku Shakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "8.05M"
+        "name": "Novelbright",
+        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
+        "subscribers": "6.82M"
+      },
+      {
+        "name": "星野源 Gen Hoshino",
+        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
+        "subscribers": "8.56M"
       }
     ],
     "ytm_top_songs": [
@@ -879,6 +920,12 @@
           "views": 103952033,
           "likes": 300161,
           "comments": 652
+        },
+        {
+          "date": "2026-04-28",
+          "views": 104000180,
+          "likes": 300269,
+          "comments": 654
         }
       ]
     },
@@ -967,6 +1014,12 @@
           "date": "2026-04-27",
           "views": 98512536,
           "likes": 336200,
+          "comments": 374
+        },
+        {
+          "date": "2026-04-28",
+          "views": 98561438,
+          "likes": 336317,
           "comments": 374
         }
       ]
@@ -1057,6 +1110,12 @@
           "views": 61574887,
           "likes": 179501,
           "comments": 241
+        },
+        {
+          "date": "2026-04-28",
+          "views": 61599850,
+          "likes": 179567,
+          "comments": 242
         }
       ]
     },
@@ -1146,6 +1205,12 @@
           "views": 1962756,
           "likes": 6060,
           "comments": 38
+        },
+        {
+          "date": "2026-04-28",
+          "views": 1963247,
+          "likes": 6064,
+          "comments": 39
         }
       ]
     },
@@ -1240,8 +1305,28 @@
           "views": 35345320,
           "likes": 111854,
           "comments": 219
+        },
+        {
+          "date": "2026-04-28",
+          "views": 35361335,
+          "likes": 111896,
+          "comments": 219
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-28",
+      "metric": "youtube_total_views",
+      "value": 2651742033,
+      "baseline_mean": 2647557070.2,
+      "baseline_stddev": 1018087.9,
+      "delta": 4184962,
+      "score": 4.11,
+      "type": "annotated",
+      "related_annotation": "「ARABAKI ROCK FEST.26」に出演（宮城・みちのく公園）",
+      "detected_at": "2026-04-28T16:21:58.287705+00:00"
+    }
+  ]
 }

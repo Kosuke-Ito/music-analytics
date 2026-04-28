@@ -616,6 +616,47 @@
       "ytm_subscribers": 3610000,
       "ytm_monthly_listeners": 7180000,
       "ytm_total_views": 1052439111
+    },
+    {
+      "date": "2026-04-28",
+      "monthly_listeners": 3517211,
+      "collected_at": "2026-04-28T16:26:06.327941+00:00",
+      "spotify_followers": 2958719,
+      "youtube_subscribers": 3610000,
+      "youtube_total_views": 1060072705,
+      "youtube_video_count": 351,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 66822
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 61766
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 48153
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 41130
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 39486
+        }
+      ],
+      "lastfm_listeners": 960134,
+      "lastfm_playcount": 58362044,
+      "ytm_subscribers": 3610000,
+      "ytm_monthly_listeners": 7310000,
+      "ytm_total_views": 1052439111
     }
   ],
   "annotations": [
@@ -705,14 +746,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Yōsei Teikoku",
-        "browse_id": "UCT6NZ6tzD-t8hu1XsKWe8iQ",
-        "subscribers": "32.5K"
+        "name": "BAND-MAID",
+        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
+        "subscribers": "886K"
       },
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "258K"
+        "subscribers": "261K"
       },
       {
         "name": "Sakura Gakuin",
@@ -866,6 +907,12 @@
           "views": 6214909,
           "likes": 73851,
           "comments": 230
+        },
+        {
+          "date": "2026-04-28",
+          "views": 6243990,
+          "likes": 74081,
+          "comments": 231
         }
       ]
     },
@@ -955,6 +1002,12 @@
           "views": 3936676,
           "likes": 81992,
           "comments": 427
+        },
+        {
+          "date": "2026-04-28",
+          "views": 3952724,
+          "likes": 82228,
+          "comments": 428
         }
       ]
     },
@@ -1044,6 +1097,12 @@
           "views": 4351548,
           "likes": 64068,
           "comments": 208
+        },
+        {
+          "date": "2026-04-28",
+          "views": 4369613,
+          "likes": 64257,
+          "comments": 209
         }
       ]
     },
@@ -1133,6 +1192,12 @@
           "views": 1757342,
           "likes": 35046,
           "comments": 194
+        },
+        {
+          "date": "2026-04-28",
+          "views": 1766639,
+          "likes": 35199,
+          "comments": 198
         }
       ]
     },
@@ -1222,6 +1287,12 @@
           "views": 3247887,
           "likes": 64581,
           "comments": 283
+        },
+        {
+          "date": "2026-04-28",
+          "views": 3263742,
+          "likes": 64835,
+          "comments": 285
         }
       ]
     }
@@ -1274,6 +1345,18 @@
       "type": "annotated",
       "related_annotation": "ラテンアメリカツアー先行（4/20-22）でメキシコ公演が24時間以内完売、世界的話題でYouTube Music月間リスナーが急増（7.55σ）",
       "detected_at": "2026-04-27T15:46:54.532551+00:00"
+    },
+    {
+      "date": "2026-04-28",
+      "metric": "ytm_monthly_listeners",
+      "value": 7310000,
+      "baseline_mean": 6680666.7,
+      "baseline_stddev": 258417.4,
+      "delta": 629333,
+      "score": 2.44,
+      "type": "annotated",
+      "related_annotation": "ラテンアメリカツアー完売反響継続とMajor Lazer Remix波及でYTM月間リスナー＋YouTube総再生数が急増（2.91σ・2.24σ）",
+      "detected_at": "2026-04-28T16:26:08.103836+00:00"
     }
   ]
 }

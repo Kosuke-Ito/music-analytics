@@ -616,6 +616,47 @@
       "ytm_subscribers": 1220000,
       "ytm_monthly_listeners": 7580000,
       "ytm_total_views": 1432524462
+    },
+    {
+      "date": "2026-04-28",
+      "monthly_listeners": 2296018,
+      "collected_at": "2026-04-28T16:26:57.150844+00:00",
+      "spotify_followers": 604983,
+      "youtube_subscribers": 1220000,
+      "youtube_total_views": 1518914521,
+      "youtube_video_count": 482,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 126942
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 98792
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 81290
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 42396
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 39138
+        }
+      ],
+      "lastfm_listeners": 71252,
+      "lastfm_playcount": 1320474,
+      "ytm_subscribers": 1220000,
+      "ytm_monthly_listeners": 7580000,
+      "ytm_total_views": 1432524462
     }
   ],
   "metadata": {
@@ -646,33 +687,13 @@
       "j-pop",
       "JPop",
       "pop",
-      "boybands"
+      "BMSG"
     ],
     "ytm_related_artists": [
       {
         "name": "SixTONES",
         "browse_id": "UCKlEziFhgHJhkBkZg8Hp6tw",
         "subscribers": "3.85M"
-      },
-      {
-        "name": "SKY-HI",
-        "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "1.16M"
-      },
-      {
-        "name": "HANA",
-        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "15.6M"
-      },
-      {
-        "name": "MAZZEL",
-        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "3.62M"
-      },
-      {
-        "name": "King & Prince",
-        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "8.95M"
       },
       {
         "name": "INI",
@@ -683,6 +704,26 @@
         "name": "Number_i",
         "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
         "subscribers": "1.84M"
+      },
+      {
+        "name": "King & Prince",
+        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
+        "subscribers": "8.95M"
+      },
+      {
+        "name": "HANA",
+        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
+        "subscribers": "15.3M"
+      },
+      {
+        "name": "MAZZEL",
+        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
+        "subscribers": "3.35M"
+      },
+      {
+        "name": "SKY-HI",
+        "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
+        "subscribers": "1.17M"
       }
     ],
     "ytm_top_songs": [
@@ -853,6 +894,12 @@
           "views": 1543514,
           "likes": 16284,
           "comments": 712
+        },
+        {
+          "date": "2026-04-28",
+          "views": 1564626,
+          "likes": 16320,
+          "comments": 714
         }
       ]
     },
@@ -942,6 +989,12 @@
           "views": 17262801,
           "likes": 86269,
           "comments": 1932
+        },
+        {
+          "date": "2026-04-28",
+          "views": 17295949,
+          "likes": 86345,
+          "comments": 1933
         }
       ]
     },
@@ -1030,6 +1083,12 @@
           "date": "2026-04-27",
           "views": 2751862,
           "likes": 20531,
+          "comments": 609
+        },
+        {
+          "date": "2026-04-28",
+          "views": 2758559,
+          "likes": 20549,
           "comments": 609
         }
       ]
@@ -1120,6 +1179,12 @@
           "views": 2519549,
           "likes": 20402,
           "comments": 525
+        },
+        {
+          "date": "2026-04-28",
+          "views": 2525405,
+          "likes": 20412,
+          "comments": 525
         }
       ]
     },
@@ -1197,6 +1262,12 @@
           "views": 3046688,
           "likes": 26284,
           "comments": 969
+        },
+        {
+          "date": "2026-04-28",
+          "views": 3051610,
+          "likes": 26295,
+          "comments": 969
         }
       ]
     },
@@ -1254,6 +1325,18 @@
       "type": "annotated",
       "related_annotation": "ShowMinorSavage（Aile The Shota×MANATO×SOTA）新曲「ROMEO」配信リリース",
       "detected_at": "2026-04-27T15:47:43.412146+00:00"
+    },
+    {
+      "date": "2026-04-28",
+      "metric": "youtube_total_views",
+      "value": 1518914521,
+      "baseline_mean": 1509461137.1,
+      "baseline_stddev": 4395267.1,
+      "delta": 9453383,
+      "score": 2.15,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-28T16:27:02.503648+00:00"
     }
   ]
 }
