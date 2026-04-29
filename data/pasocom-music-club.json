@@ -575,6 +575,47 @@
       "ytm_subscribers": 36900,
       "ytm_monthly_listeners": 74300,
       "ytm_total_views": 7937580
+    },
+    {
+      "date": "2026-04-29",
+      "monthly_listeners": 51181,
+      "collected_at": "2026-04-29T16:11:16.320829+00:00",
+      "spotify_followers": 50738,
+      "youtube_subscribers": 36900,
+      "youtube_total_views": 8173445,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3601
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1580
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 946
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 942
+        },
+        {
+          "city": "Nakano City",
+          "country": "JP",
+          "listeners": 593
+        }
+      ],
+      "lastfm_listeners": 23577,
+      "lastfm_playcount": 393200,
+      "ytm_subscribers": 36900,
+      "ytm_monthly_listeners": 74300,
+      "ytm_total_views": 7937580
     }
   ],
   "metadata": {
@@ -609,19 +650,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "WEDNESDAY CAMPANELLA",
-        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
-        "subscribers": "1.99M"
-      },
-      {
         "name": "Soutaiseiriron",
         "browse_id": "UC0gooRnprhn2feZyuv2dmGA",
-        "subscribers": "1.27M"
+        "subscribers": "1.23M"
+      },
+      {
+        "name": "Hakushi Hasegawa",
+        "browse_id": "UCPvjq3k_DKTa02GWveuicfg",
+        "subscribers": "74.1K"
+      },
+      {
+        "name": "PAS TASTA",
+        "browse_id": "UCXWyAgpgtm-Ae1E1aud3ajg",
+        "subscribers": "180K"
       },
       {
         "name": "DÉ DÉ MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
-        "subscribers": "122K"
+        "subscribers": "121K"
       },
       {
         "name": "80KIDZ",
@@ -641,22 +687,17 @@
       {
         "name": "Yasutaka Nakata",
         "browse_id": "UC-ijwQ4zsUaNi2LWCS-J0RQ",
-        "subscribers": "4.27M"
+        "subscribers": "4.22M"
       },
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "272K"
+        "subscribers": "271K"
       },
       {
         "name": "MONDO GROSSO",
         "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
         "subscribers": "245K"
-      },
-      {
-        "name": "PAS TASTA",
-        "browse_id": "UCXWyAgpgtm-Ae1E1aud3ajg",
-        "subscribers": "181K"
       }
     ],
     "ytm_top_songs": [
@@ -764,6 +805,12 @@
           "views": 106840,
           "likes": 2286,
           "comments": 23
+        },
+        {
+          "date": "2026-04-29",
+          "views": 107308,
+          "likes": 2295,
+          "comments": 23
         }
       ]
     },
@@ -847,6 +894,12 @@
           "views": 536767,
           "likes": 5056,
           "comments": 16
+        },
+        {
+          "date": "2026-04-29",
+          "views": 537347,
+          "likes": 5061,
+          "comments": 17
         }
       ]
     },
@@ -930,6 +983,12 @@
           "views": 304797,
           "likes": 3288,
           "comments": 5
+        },
+        {
+          "date": "2026-04-29",
+          "views": 305062,
+          "likes": 3292,
+          "comments": 6
         }
       ]
     },
@@ -1011,6 +1070,12 @@
         {
           "date": "2026-04-28",
           "views": 50683,
+          "likes": 168,
+          "comments": 1
+        },
+        {
+          "date": "2026-04-29",
+          "views": 50768,
           "likes": 168,
           "comments": 1
         }
@@ -1096,6 +1161,12 @@
           "views": 111130,
           "likes": 1427,
           "comments": 14
+        },
+        {
+          "date": "2026-04-29",
+          "views": 111316,
+          "likes": 1432,
+          "comments": 14
         }
       ]
     }
@@ -1111,6 +1182,20 @@
       "source": "natalie.mu",
       "confidence": "high",
       "verified": false
+    }
+  ],
+  "buzz_events": [
+    {
+      "date": "2026-04-29",
+      "metric": "monthly_listeners",
+      "value": 51181,
+      "baseline_mean": 50868.1,
+      "baseline_stddev": 143.1,
+      "delta": 312,
+      "score": 2.19,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-29T16:11:18.138795+00:00"
     }
   ]
 }

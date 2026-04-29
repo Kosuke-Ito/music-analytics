@@ -735,6 +735,47 @@
       "ytm_subscribers": 13000,
       "ytm_monthly_listeners": 76300,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-29",
+      "monthly_listeners": 83589,
+      "collected_at": "2026-04-29T16:00:56.045950+00:00",
+      "spotify_followers": 27263,
+      "youtube_subscribers": 13100,
+      "youtube_total_views": 2157376,
+      "youtube_video_count": 76,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5737
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3034
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 2094
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1676
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1549
+        }
+      ],
+      "lastfm_listeners": 5548,
+      "lastfm_playcount": 39352,
+      "ytm_subscribers": 13100,
+      "ytm_monthly_listeners": 76300,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -803,6 +844,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Yonawo",
+        "browse_id": "UCEBVAODOPNiyPNGe5XdI-Yw",
+        "subscribers": "93K"
+      },
+      {
         "name": "reina",
         "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
         "subscribers": "3.19K"
@@ -815,7 +861,7 @@
       {
         "name": "Kan Sano",
         "browse_id": "UC05tnYJ3St7yd3f6lfKdzcg",
-        "subscribers": "134K"
+        "subscribers": "133K"
       },
       {
         "name": "Nao Yoshioka",
@@ -828,29 +874,24 @@
         "subscribers": "10.6K"
       },
       {
+        "name": "SALASA",
+        "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
+        "subscribers": "93.4K"
+      },
+      {
         "name": "Michael Kaneko",
         "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
-        "subscribers": "200K"
+        "subscribers": "192K"
       },
       {
         "name": "Stefan Mahendra",
         "browse_id": "UCMZcGfiJPXZ0plcOCQ2nuPQ",
-        "subscribers": "423"
+        "subscribers": "425"
       },
       {
         "name": "lo-key design",
         "browse_id": "UCn_sJfUaJhyWc70cIgZ8blg",
         "subscribers": "6.86K"
-      },
-      {
-        "name": "luvis",
-        "browse_id": "UCpuCbW_679iOcxPRkqNIO3w",
-        "subscribers": "7.7K"
-      },
-      {
-        "name": "Sweet William",
-        "browse_id": "UCLloo-Tk9tYFMVYaKB8pasg",
-        "subscribers": "792K"
       }
     ],
     "ytm_top_songs": [
@@ -975,6 +1016,12 @@
           "views": 197978,
           "likes": 2669,
           "comments": 8
+        },
+        {
+          "date": "2026-04-29",
+          "views": 198285,
+          "likes": 2673,
+          "comments": 8
         }
       ]
     },
@@ -1074,6 +1121,12 @@
         {
           "date": "2026-04-28",
           "views": 8930,
+          "likes": 163,
+          "comments": 3
+        },
+        {
+          "date": "2026-04-29",
+          "views": 9043,
           "likes": 163,
           "comments": 3
         }
@@ -1177,6 +1230,12 @@
           "views": 69397,
           "likes": 804,
           "comments": 7
+        },
+        {
+          "date": "2026-04-29",
+          "views": 69624,
+          "likes": 806,
+          "comments": 7
         }
       ]
     },
@@ -1265,6 +1324,12 @@
           "date": "2026-04-28",
           "views": 92250,
           "likes": 873,
+          "comments": 3
+        },
+        {
+          "date": "2026-04-29",
+          "views": 92374,
+          "likes": 875,
           "comments": 3
         }
       ]
@@ -1378,6 +1443,12 @@
           "views": 15012,
           "likes": 307,
           "comments": 5
+        },
+        {
+          "date": "2026-04-29",
+          "views": 15418,
+          "likes": 320,
+          "comments": 5
         }
       ]
     },
@@ -1411,6 +1482,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-22T15:13:41.682754+00:00"
+    },
+    {
+      "date": "2026-04-29",
+      "metric": "monthly_listeners",
+      "value": 83589,
+      "baseline_mean": 79189.9,
+      "baseline_stddev": 1401.2,
+      "delta": 4399,
+      "score": 3.14,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-29T16:00:58.562105+00:00"
     }
   ]
 }

@@ -657,6 +657,47 @@
       "ytm_subscribers": 3610000,
       "ytm_monthly_listeners": 7310000,
       "ytm_total_views": 1052439111
+    },
+    {
+      "date": "2026-04-29",
+      "monthly_listeners": 3517476,
+      "collected_at": "2026-04-29T16:10:09.295764+00:00",
+      "spotify_followers": 2959729,
+      "youtube_subscribers": 3610000,
+      "youtube_total_views": 1060072705,
+      "youtube_video_count": 351,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 66025
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 61693
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 48281
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 41480
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 39474
+        }
+      ],
+      "lastfm_listeners": 960922,
+      "lastfm_playcount": 58423950,
+      "ytm_subscribers": 3610000,
+      "ytm_monthly_listeners": 7310000,
+      "ytm_total_views": 1052439111
     }
   ],
   "annotations": [
@@ -746,29 +787,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "BAND-MAID",
-        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
-        "subscribers": "886K"
-      },
-      {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "261K"
+        "subscribers": "266K"
       },
       {
         "name": "Sakura Gakuin",
         "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
-        "subscribers": "7.54K"
+        "subscribers": "7.55K"
       },
       {
         "name": "Ladybaby",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "123K"
+        "subscribers": "125K"
       },
       {
         "name": "STMLT",
         "browse_id": "UCENgueJF_nCoHXjSjZmwbnQ",
-        "subscribers": "1.87K"
+        "subscribers": "1.88K"
       },
       {
         "name": "Bridear",
@@ -791,9 +827,14 @@
         "subscribers": "55.6K"
       },
       {
+        "name": "Unlucky Morpheus",
+        "browse_id": "UCW-Bmb9g_LBGueFEYDBqTkQ",
+        "subscribers": "173K"
+      },
+      {
         "name": "TRiDENT",
         "browse_id": "UCgErNuISenFAQndiEKcBVGQ",
-        "subscribers": "255K"
+        "subscribers": "234K"
       }
     ],
     "ytm_top_songs": [
@@ -913,6 +954,12 @@
           "views": 6243990,
           "likes": 74081,
           "comments": 231
+        },
+        {
+          "date": "2026-04-29",
+          "views": 6272067,
+          "likes": 74331,
+          "comments": 234
         }
       ]
     },
@@ -1007,6 +1054,12 @@
           "date": "2026-04-28",
           "views": 3952724,
           "likes": 82228,
+          "comments": 428
+        },
+        {
+          "date": "2026-04-29",
+          "views": 3967918,
+          "likes": 82442,
           "comments": 428
         }
       ]
@@ -1103,6 +1156,12 @@
           "views": 4369613,
           "likes": 64257,
           "comments": 209
+        },
+        {
+          "date": "2026-04-29",
+          "views": 4386713,
+          "likes": 64423,
+          "comments": 210
         }
       ]
     },
@@ -1198,6 +1257,12 @@
           "views": 1766639,
           "likes": 35199,
           "comments": 198
+        },
+        {
+          "date": "2026-04-29",
+          "views": 1775857,
+          "likes": 35331,
+          "comments": 200
         }
       ]
     },
@@ -1293,6 +1358,12 @@
           "views": 3263742,
           "likes": 64835,
           "comments": 285
+        },
+        {
+          "date": "2026-04-29",
+          "views": 3278806,
+          "likes": 65034,
+          "comments": 285
         }
       ]
     }
@@ -1357,6 +1428,18 @@
       "type": "annotated",
       "related_annotation": "ラテンアメリカツアー完売反響継続とMajor Lazer Remix波及でYTM月間リスナー＋YouTube総再生数が急増（2.91σ・2.24σ）",
       "detected_at": "2026-04-28T16:26:08.103836+00:00"
+    },
+    {
+      "date": "2026-04-29",
+      "metric": "ytm_monthly_listeners",
+      "value": 7310000,
+      "baseline_mean": 6720000,
+      "baseline_stddev": 292937.7,
+      "delta": 590000,
+      "score": 2.01,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-29T16:10:10.783551+00:00"
     }
   ]
 }

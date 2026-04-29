@@ -778,6 +778,47 @@
       "ytm_subscribers": 319000,
       "ytm_monthly_listeners": 1880000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-29",
+      "monthly_listeners": 294379,
+      "collected_at": "2026-04-29T15:56:38.360846+00:00",
+      "spotify_followers": 65452,
+      "youtube_subscribers": 319000,
+      "youtube_total_views": 159350601,
+      "youtube_video_count": 104,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 14291
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 10341
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6999
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5402
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5193
+        }
+      ],
+      "lastfm_listeners": 31084,
+      "lastfm_playcount": 819713,
+      "ytm_subscribers": 319000,
+      "ytm_monthly_listeners": 1880000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -812,34 +853,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "RuLu",
-        "browse_id": "UCJvqtoZba5S3yP-kYDeC25A",
-        "subscribers": "138K"
+        "name": "azami",
+        "browse_id": "UC9Mm5F0VbTQfgr_mKgVvn7A",
+        "subscribers": "22.2K"
       },
       {
-        "name": "CLAN QUEEN",
-        "browse_id": "UCuCIY6NNMyjANg60NEgHONg",
-        "subscribers": "459K"
-      },
-      {
-        "name": "ChoQMay",
-        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
-        "subscribers": "3.18M"
-      },
-      {
-        "name": "suisoh",
-        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "410K"
+        "name": "Hashimero",
+        "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
+        "subscribers": "346K"
       },
       {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "148K"
+        "subscribers": "146K"
       },
       {
         "name": "Shiyui",
         "browse_id": "UCAkYyroRwc9qPuymye_2fNA",
-        "subscribers": "242K"
+        "subscribers": "243K"
       },
       {
         "name": "Room97",
@@ -849,17 +880,27 @@
       {
         "name": "Kuhaku Gokko",
         "browse_id": "UCLT5PBmAgpn2NMu3WG_UNdA",
-        "subscribers": "62.2K"
+        "subscribers": "61.7K"
       },
       {
         "name": "Taku Inoue",
         "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
-        "subscribers": "649K"
+        "subscribers": "639K"
+      },
+      {
+        "name": "RuLu",
+        "browse_id": "UCJvqtoZba5S3yP-kYDeC25A",
+        "subscribers": "138K"
       },
       {
         "name": "shallm",
         "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
         "subscribers": "230K"
+      },
+      {
+        "name": "MIMiNARI",
+        "browse_id": "UCNBWI0bR0NC7VHpeAuoDENA",
+        "subscribers": "117K"
       }
     ],
     "ytm_top_songs": [
@@ -984,6 +1025,12 @@
           "views": 17629594,
           "likes": 122044,
           "comments": 1052
+        },
+        {
+          "date": "2026-04-29",
+          "views": 17643035,
+          "likes": 122088,
+          "comments": 1052
         }
       ]
     },
@@ -1084,6 +1131,12 @@
           "date": "2026-04-28",
           "views": 4980564,
           "likes": 37484,
+          "comments": 80
+        },
+        {
+          "date": "2026-04-29",
+          "views": 4988760,
+          "likes": 37532,
           "comments": 80
         }
       ]
@@ -1186,6 +1239,12 @@
           "views": 4825977,
           "likes": 33932,
           "comments": 159
+        },
+        {
+          "date": "2026-04-29",
+          "views": 4831712,
+          "likes": 33962,
+          "comments": 159
         }
       ]
     },
@@ -1286,6 +1345,12 @@
           "date": "2026-04-28",
           "views": 2023035,
           "likes": 17416,
+          "comments": 41
+        },
+        {
+          "date": "2026-04-29",
+          "views": 2027181,
+          "likes": 17445,
           "comments": 41
         }
       ]
@@ -1393,6 +1458,12 @@
           "views": 4088535,
           "likes": 34574,
           "comments": 314
+        },
+        {
+          "date": "2026-04-29",
+          "views": 4092471,
+          "likes": 34595,
+          "comments": 314
         }
       ]
     }
@@ -1478,6 +1549,18 @@
       "type": "annotated",
       "related_annotation": "THE FIRST TAKE出演波及継続でYTM月間リスナーが増加（+25.6万・2.34σ）",
       "detected_at": "2026-04-28T16:13:02.000570+00:00"
+    },
+    {
+      "date": "2026-04-29",
+      "metric": "monthly_listeners",
+      "value": 294379,
+      "baseline_mean": 290344.5,
+      "baseline_stddev": 832.6,
+      "delta": 4034,
+      "score": 4.85,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-29T15:56:39.616835+00:00"
     }
   ]
 }
