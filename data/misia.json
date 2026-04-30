@@ -813,6 +813,47 @@
       "ytm_subscribers": 716000,
       "ytm_monthly_listeners": 3750000,
       "ytm_total_views": 699401709
+    },
+    {
+      "date": "2026-04-30",
+      "monthly_listeners": 2021508,
+      "collected_at": "2026-04-30T15:44:34.034255+00:00",
+      "spotify_followers": 2088482,
+      "youtube_subscribers": 1550,
+      "youtube_total_views": 115333253,
+      "youtube_video_count": 1207,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 99535
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 84978
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 66032
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35742
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 25878
+        }
+      ],
+      "lastfm_listeners": 96975,
+      "lastfm_playcount": 2994741,
+      "ytm_subscribers": 716000,
+      "ytm_monthly_listeners": 3830000,
+      "ytm_total_views": 699401709
     }
   ],
   "annotations": [
@@ -919,17 +960,7 @@
       {
         "name": "Ms.OOJA",
         "browse_id": "UClifdY12pRQC2yQeh8OBBCw",
-        "subscribers": "1.98M"
-      },
-      {
-        "name": "Southern All Stars",
-        "browse_id": "UCB5fi6Rlvtp9aULvXQT12Yg",
-        "subscribers": "5.49M"
-      },
-      {
-        "name": "Miki Imai",
-        "browse_id": "UCwVgxu4VPGB_56EPWy2NW0w",
-        "subscribers": "597K"
+        "subscribers": "2.1M"
       },
       {
         "name": "Seiko Matsuda",
@@ -937,29 +968,39 @@
         "subscribers": "3.51M"
       },
       {
+        "name": "Miki Imai",
+        "browse_id": "UCwVgxu4VPGB_56EPWy2NW0w",
+        "subscribers": "597K"
+      },
+      {
+        "name": "Southern All Stars",
+        "browse_id": "UCB5fi6Rlvtp9aULvXQT12Yg",
+        "subscribers": "5.36M"
+      },
+      {
+        "name": "Masaharu Fukuyama",
+        "browse_id": "UCOgskNCI49YHsOUTGPJ2QHA",
+        "subscribers": "4.97M"
+      },
+      {
         "name": "Koji Tamaki",
         "browse_id": "UC4KydUSCId5UisP9o0vUlgg",
-        "subscribers": "3.56M"
-      },
-      {
-        "name": "Kiroro",
-        "browse_id": "UC5ftOkhi-5zPpJRrjPD5Nww",
-        "subscribers": "3.19M"
-      },
-      {
-        "name": "Chris Hart",
-        "browse_id": "UCL5QaEb-lo_VeEgCxzufTeA",
-        "subscribers": "923K"
+        "subscribers": "3.65M"
       },
       {
         "name": "JUJU",
         "browse_id": "UCJDDeY50cfuDeivwBFZVxLw",
-        "subscribers": "2.88M"
+        "subscribers": "2.89M"
       },
       {
         "name": "Yo Hitoto",
         "browse_id": "UCjfGjsxFpol70sYJieKUmVQ",
-        "subscribers": "1.14M"
+        "subscribers": "1.21M"
+      },
+      {
+        "name": "Chris Hart",
+        "browse_id": "UCL5QaEb-lo_VeEgCxzufTeA",
+        "subscribers": "828K"
       }
     ],
     "ytm_top_songs": [
@@ -1079,6 +1120,12 @@
           "views": 1530774,
           "likes": 7745,
           "comments": 26
+        },
+        {
+          "date": "2026-04-30",
+          "views": 1532322,
+          "likes": 7751,
+          "comments": 27
         }
       ]
     },
@@ -1186,6 +1233,12 @@
           "views": 2353470,
           "likes": 14043,
           "comments": 51
+        },
+        {
+          "date": "2026-04-30",
+          "views": 2356248,
+          "likes": 14063,
+          "comments": 51
         }
       ]
     },
@@ -1292,6 +1345,12 @@
           "date": "2026-04-29",
           "views": 706661,
           "likes": 6012,
+          "comments": 51
+        },
+        {
+          "date": "2026-04-30",
+          "views": 708552,
+          "likes": 6015,
           "comments": 51
         }
       ]
@@ -1417,6 +1476,12 @@
           "views": 1131185,
           "likes": 6720,
           "comments": 15
+        },
+        {
+          "date": "2026-04-30",
+          "views": 1131448,
+          "likes": 6719,
+          "comments": 15
         }
       ]
     },
@@ -1511,6 +1576,12 @@
           "date": "2026-04-29",
           "views": 84062,
           "likes": 1324,
+          "comments": 46
+        },
+        {
+          "date": "2026-04-30",
+          "views": 86596,
+          "likes": 1368,
           "comments": 46
         }
       ]
@@ -1677,6 +1748,18 @@
       "type": "annotated",
       "related_annotation": "コナン映画4週目継続ヒットとKアリーナ横浜公演（5/2-3）直前でYTM月間リスナー急増（2.49σ）",
       "detected_at": "2026-04-29T15:53:23.098501+00:00"
+    },
+    {
+      "date": "2026-04-30",
+      "metric": "ytm_monthly_listeners",
+      "value": 3830000,
+      "baseline_mean": 3026111.1,
+      "baseline_stddev": 348682.3,
+      "delta": 803888,
+      "score": 2.31,
+      "type": "annotated",
+      "related_annotation": "コナン映画4週目継続ヒットとKアリーナ横浜公演（5/2-3）直前でYTM月間リスナー急増（2.49σ）",
+      "detected_at": "2026-04-30T15:44:35.117494+00:00"
     }
   ]
 }

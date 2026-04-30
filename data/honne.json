@@ -813,6 +813,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 4710000,
       "ytm_total_views": 897414638
+    },
+    {
+      "date": "2026-04-30",
+      "monthly_listeners": 4429054,
+      "collected_at": "2026-04-30T15:55:01.093959+00:00",
+      "spotify_followers": 1649235,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 902286427,
+      "youtube_video_count": 221,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 311858
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 182428
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 153995
+        },
+        {
+          "city": "Medan",
+          "country": "ID",
+          "listeners": 95848
+        },
+        {
+          "city": "Makassar",
+          "country": "ID",
+          "listeners": 92154
+        }
+      ],
+      "lastfm_listeners": 912118,
+      "lastfm_playcount": 23233118,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 4690000,
+      "ytm_total_views": 902239936
     }
   ],
   "annotations": [
@@ -884,7 +925,7 @@
       {
         "name": "Charlie Burg",
         "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
-        "subscribers": "185K"
+        "subscribers": "188K"
       },
       {
         "name": "Phum Viphurit",
@@ -894,7 +935,7 @@
       {
         "name": "Micah Edwards",
         "browse_id": "UCW00dXhsyYvJQAry4hTM7hA",
-        "subscribers": "9.4K"
+        "subscribers": "9.41K"
       },
       {
         "name": "Jeremy Passion",
@@ -904,7 +945,7 @@
       {
         "name": "Sam Wills",
         "browse_id": "UCtS5U-fbarDftLymlNxo3IA",
-        "subscribers": "503K"
+        "subscribers": "511K"
       },
       {
         "name": "Sun Rai",
@@ -914,12 +955,12 @@
       {
         "name": "Public Library Commute",
         "browse_id": "UCHaf5KL3HbX5XRIppowZmiA",
-        "subscribers": "58.4K"
+        "subscribers": "62.5K"
       },
       {
         "name": "Maya Delilah",
         "browse_id": "UCp0Lclt4xm1dvCJ0v50sYFw",
-        "subscribers": "76K"
+        "subscribers": "74.3K"
       },
       {
         "name": "EyeLoveBrandon",
@@ -1061,6 +1102,12 @@
           "views": 2573144,
           "likes": 15960,
           "comments": 27
+        },
+        {
+          "date": "2026-04-30",
+          "views": 2573436,
+          "likes": 15962,
+          "comments": 27
         }
       ]
     },
@@ -1168,6 +1215,12 @@
           "views": 1542851,
           "likes": 16886,
           "comments": 272
+        },
+        {
+          "date": "2026-04-30",
+          "views": 1555973,
+          "likes": 16949,
+          "comments": 272
         }
       ]
     },
@@ -1274,6 +1327,12 @@
           "date": "2026-04-29",
           "views": 46739238,
           "likes": 198892,
+          "comments": 114
+        },
+        {
+          "date": "2026-04-30",
+          "views": 46753445,
+          "likes": 198954,
           "comments": 114
         }
       ]
@@ -1429,6 +1488,12 @@
           "views": 472792,
           "likes": 5844,
           "comments": 11
+        },
+        {
+          "date": "2026-04-30",
+          "views": 472934,
+          "likes": 5843,
+          "comments": 11
         }
       ]
     },
@@ -1494,8 +1559,28 @@
           "views": 13598893,
           "likes": 71571,
           "comments": 35
+        },
+        {
+          "date": "2026-04-30",
+          "views": 13609041,
+          "likes": 71596,
+          "comments": 35
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-04-30",
+      "metric": "youtube_total_views",
+      "value": 902286427,
+      "baseline_mean": 897361986.9,
+      "baseline_stddev": 426571.0,
+      "delta": 4924440,
+      "score": 11.54,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-04-30T15:55:03.346297+00:00"
+    }
+  ]
 }

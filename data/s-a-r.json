@@ -776,6 +776,47 @@
       "ytm_subscribers": 13100,
       "ytm_monthly_listeners": 76300,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-04-30",
+      "monthly_listeners": 84780,
+      "collected_at": "2026-04-30T15:52:11.501237+00:00",
+      "spotify_followers": 27329,
+      "youtube_subscribers": 13100,
+      "youtube_total_views": 2182406,
+      "youtube_video_count": 76,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5769
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3056
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 2124
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1680
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1557
+        }
+      ],
+      "lastfm_listeners": 5561,
+      "lastfm_playcount": 39453,
+      "ytm_subscribers": 13100,
+      "ytm_monthly_listeners": 75500,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -853,11 +894,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Yonawo",
-        "browse_id": "UCEBVAODOPNiyPNGe5XdI-Yw",
-        "subscribers": "93K"
-      },
-      {
         "name": "reina",
         "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
         "subscribers": "3.19K"
@@ -865,7 +901,7 @@
       {
         "name": "Ovall",
         "browse_id": "UCuA82nnWojpMgjBqCnbQDmQ",
-        "subscribers": "498K"
+        "subscribers": "504K"
       },
       {
         "name": "Kan Sano",
@@ -875,7 +911,7 @@
       {
         "name": "Nao Yoshioka",
         "browse_id": "UCs93X0FfTpRlxAMnmO94Kcw",
-        "subscribers": "86.2K"
+        "subscribers": "84.8K"
       },
       {
         "name": "Geloomy",
@@ -885,12 +921,12 @@
       {
         "name": "SALASA",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "93.4K"
+        "subscribers": "90.7K"
       },
       {
         "name": "Michael Kaneko",
         "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
-        "subscribers": "192K"
+        "subscribers": "188K"
       },
       {
         "name": "Stefan Mahendra",
@@ -901,6 +937,11 @@
         "name": "lo-key design",
         "browse_id": "UCn_sJfUaJhyWc70cIgZ8blg",
         "subscribers": "6.86K"
+      },
+      {
+        "name": "luvis",
+        "browse_id": "UCpuCbW_679iOcxPRkqNIO3w",
+        "subscribers": "7.7K"
       }
     ],
     "ytm_top_songs": [
@@ -913,12 +954,12 @@
         "video_id": "dQ6qKIAPaLg"
       },
       {
-        "title": "Uptown",
-        "video_id": "EU7XR3LOIc8"
-      },
-      {
         "title": "Side by Side",
         "video_id": "gB2iGRwA0Wk"
+      },
+      {
+        "title": "Uptown",
+        "video_id": "EU7XR3LOIc8"
       },
       {
         "title": "Tell me (feat. Skaai)",
@@ -1031,6 +1072,12 @@
           "views": 198285,
           "likes": 2673,
           "comments": 8
+        },
+        {
+          "date": "2026-04-30",
+          "views": 198569,
+          "likes": 2675,
+          "comments": 8
         }
       ]
     },
@@ -1138,6 +1185,12 @@
           "views": 9043,
           "likes": 163,
           "comments": 3
+        },
+        {
+          "date": "2026-04-30",
+          "views": 9153,
+          "likes": 164,
+          "comments": 4
         }
       ]
     },
@@ -1245,6 +1298,12 @@
           "views": 69624,
           "likes": 806,
           "comments": 7
+        },
+        {
+          "date": "2026-04-30",
+          "views": 69878,
+          "likes": 807,
+          "comments": 7
         }
       ]
     },
@@ -1339,6 +1398,12 @@
           "date": "2026-04-29",
           "views": 92374,
           "likes": 875,
+          "comments": 3
+        },
+        {
+          "date": "2026-04-30",
+          "views": 92544,
+          "likes": 877,
           "comments": 3
         }
       ]
@@ -1458,6 +1523,12 @@
           "views": 15418,
           "likes": 320,
           "comments": 5
+        },
+        {
+          "date": "2026-04-30",
+          "views": 15825,
+          "likes": 324,
+          "comments": 5
         }
       ]
     },
@@ -1503,6 +1574,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-29T16:00:58.562105+00:00"
+    },
+    {
+      "date": "2026-04-30",
+      "metric": "monthly_listeners",
+      "value": 84780,
+      "baseline_mean": 79421.4,
+      "baseline_stddev": 1680.7,
+      "delta": 5358,
+      "score": 3.19,
+      "type": "annotated",
+      "related_annotation": "「Daylight」効果継続＋メジャー1stアルバム発表でSpotifyリスナー急増（+4,399人・3.14σ）",
+      "detected_at": "2026-04-30T15:52:13.159244+00:00"
     }
   ]
 }

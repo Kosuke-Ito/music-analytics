@@ -698,6 +698,47 @@
       "ytm_subscribers": 3610000,
       "ytm_monthly_listeners": 7310000,
       "ytm_total_views": 1052439111
+    },
+    {
+      "date": "2026-04-30",
+      "monthly_listeners": 3517893,
+      "collected_at": "2026-04-30T16:00:32.621961+00:00",
+      "spotify_followers": 2960720,
+      "youtube_subscribers": 3610000,
+      "youtube_total_views": 1060072705,
+      "youtube_video_count": 351,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 65893
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 61381
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 48143
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 41353
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 39389
+        }
+      ],
+      "lastfm_listeners": 960922,
+      "lastfm_playcount": 58423950,
+      "ytm_subscribers": 3610000,
+      "ytm_monthly_listeners": 7460000,
+      "ytm_total_views": 1052439111
     }
   ],
   "annotations": [
@@ -838,12 +879,12 @@
       {
         "name": "Unlucky Morpheus",
         "browse_id": "UCW-Bmb9g_LBGueFEYDBqTkQ",
-        "subscribers": "173K"
+        "subscribers": "171K"
       },
       {
         "name": "TRiDENT",
         "browse_id": "UCgErNuISenFAQndiEKcBVGQ",
-        "subscribers": "234K"
+        "subscribers": "225K"
       }
     ],
     "ytm_top_songs": [
@@ -969,6 +1010,12 @@
           "views": 6272067,
           "likes": 74331,
           "comments": 234
+        },
+        {
+          "date": "2026-04-30",
+          "views": 6299108,
+          "likes": 74561,
+          "comments": 234
         }
       ]
     },
@@ -1069,6 +1116,12 @@
           "date": "2026-04-29",
           "views": 3967918,
           "likes": 82442,
+          "comments": 428
+        },
+        {
+          "date": "2026-04-30",
+          "views": 3983577,
+          "likes": 82691,
           "comments": 428
         }
       ]
@@ -1171,6 +1224,12 @@
           "views": 4386713,
           "likes": 64423,
           "comments": 210
+        },
+        {
+          "date": "2026-04-30",
+          "views": 4402678,
+          "likes": 64578,
+          "comments": 210
         }
       ]
     },
@@ -1271,6 +1330,12 @@
           "date": "2026-04-29",
           "views": 1775857,
           "likes": 35331,
+          "comments": 200
+        },
+        {
+          "date": "2026-04-30",
+          "views": 1784766,
+          "likes": 35485,
           "comments": 200
         }
       ]
@@ -1373,6 +1438,12 @@
           "views": 3278806,
           "likes": 65034,
           "comments": 285
+        },
+        {
+          "date": "2026-04-30",
+          "views": 3293793,
+          "likes": 65248,
+          "comments": 286
         }
       ]
     }
@@ -1449,6 +1520,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-29T16:10:10.783551+00:00"
+    },
+    {
+      "date": "2026-04-30",
+      "metric": "ytm_monthly_listeners",
+      "value": 7460000,
+      "baseline_mean": 6754705.9,
+      "baseline_stddev": 316285.8,
+      "delta": 705294,
+      "score": 2.23,
+      "type": "annotated",
+      "related_annotation": "ラテンアメリカツアー波及継続でYTM月間リスナーが増加（+590,000・2.01σ）",
+      "detected_at": "2026-04-30T16:00:34.258032+00:00"
     }
   ]
 }
