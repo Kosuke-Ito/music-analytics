@@ -739,6 +739,47 @@
       "ytm_subscribers": 1740000,
       "ytm_monthly_listeners": 5070000,
       "ytm_total_views": 568229729
+    },
+    {
+      "date": "2026-05-01",
+      "monthly_listeners": 813979,
+      "collected_at": "2026-05-01T15:03:22.821155+00:00",
+      "spotify_followers": 966671,
+      "youtube_subscribers": 1740000,
+      "youtube_total_views": 588785912,
+      "youtube_video_count": 392,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20159
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13709
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 11232
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 9259
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7875
+        }
+      ],
+      "lastfm_listeners": 8643,
+      "lastfm_playcount": 402512,
+      "ytm_subscribers": 1740000,
+      "ytm_monthly_listeners": 4780000,
+      "ytm_total_views": 569289336
     }
   ],
   "metadata": {
@@ -773,14 +814,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "genie high",
-        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "543K"
-      },
-      {
         "name": "Masayuki Suzuki",
         "browse_id": "UCEm-B8NivcSNJZUTFvFvWug",
-        "subscribers": "5.17M"
+        "subscribers": "5.09M"
+      },
+      {
+        "name": "Maximum the Hormone",
+        "browse_id": "UC10viXnr5P30UrEb36Y984g",
+        "subscribers": "1.87M"
+      },
+      {
+        "name": "genie high",
+        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
+        "subscribers": "531K"
       },
       {
         "name": "BRADIO",
@@ -788,9 +834,19 @@
         "subscribers": "322K"
       },
       {
+        "name": "Kavka Shishido",
+        "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
+        "subscribers": "101K"
+      },
+      {
+        "name": "NakamuraEmi",
+        "browse_id": "UCEOGqk0O-cOJPmkx7c-dvKA",
+        "subscribers": "54.4K"
+      },
+      {
         "name": "BONNIE PINK",
         "browse_id": "UC3AHT3Fza1XUxhtPJzldtxg",
-        "subscribers": "435K"
+        "subscribers": "438K"
       },
       {
         "name": "GOKUMON(UchikubiGokumonDoukoukai)",
@@ -800,27 +856,12 @@
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "108K"
+        "subscribers": "107K"
       },
       {
         "name": "Tokyo Gegegay",
         "browse_id": "UC21Fghz4scI6wysNAXFWW6Q",
-        "subscribers": "213K"
-      },
-      {
-        "name": "Kavka Shishido",
-        "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
-        "subscribers": "102K"
-      },
-      {
-        "name": "NakamuraEmi",
-        "browse_id": "UCEOGqk0O-cOJPmkx7c-dvKA",
-        "subscribers": "54.1K"
-      },
-      {
-        "name": "Maximum the Hormone",
-        "browse_id": "UC10viXnr5P30UrEb36Y984g",
-        "subscribers": "1.89M"
+        "subscribers": "215K"
       }
     ],
     "ytm_top_songs": [
@@ -952,6 +993,12 @@
           "views": 18663280,
           "likes": 267158,
           "comments": 406
+        },
+        {
+          "date": "2026-05-01",
+          "views": 18672660,
+          "likes": 267293,
+          "comments": 407
         }
       ]
     },
@@ -1059,6 +1106,12 @@
           "views": 5286999,
           "likes": 30754,
           "comments": 136
+        },
+        {
+          "date": "2026-05-01",
+          "views": 5288671,
+          "likes": 30766,
+          "comments": 136
         }
       ]
     },
@@ -1165,6 +1218,12 @@
           "date": "2026-04-30",
           "views": 1943487,
           "likes": 32682,
+          "comments": 96
+        },
+        {
+          "date": "2026-05-01",
+          "views": 1946340,
+          "likes": 32727,
           "comments": 96
         }
       ]
@@ -1332,6 +1391,12 @@
           "views": 2072261,
           "likes": 29740,
           "comments": 139
+        },
+        {
+          "date": "2026-05-01",
+          "views": 2074013,
+          "likes": 29761,
+          "comments": 139
         }
       ]
     },
@@ -1394,6 +1459,12 @@
           "date": "2026-04-30",
           "views": 1831366,
           "likes": 19898,
+          "comments": 145
+        },
+        {
+          "date": "2026-05-01",
+          "views": 1832269,
+          "likes": 19906,
           "comments": 145
         }
       ]
@@ -1469,6 +1540,18 @@
       "type": "annotated",
       "related_annotation": "結成10周年記念ワンマン映像作品「宣誓」Blu-ray・DVD発売",
       "detected_at": "2026-04-25T14:52:15.256379+00:00"
+    },
+    {
+      "date": "2026-05-01",
+      "metric": "youtube_total_views",
+      "value": 588785912,
+      "baseline_mean": 585569349.2,
+      "baseline_stddev": 1475160.5,
+      "delta": 3216562,
+      "score": 2.18,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-01T15:03:24.281756+00:00"
     }
   ]
 }

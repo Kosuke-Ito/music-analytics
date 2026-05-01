@@ -854,6 +854,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 4690000,
       "ytm_total_views": 902239936
+    },
+    {
+      "date": "2026-05-01",
+      "monthly_listeners": 4399970,
+      "collected_at": "2026-05-01T14:58:22.730588+00:00",
+      "spotify_followers": 1649521,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 902286427,
+      "youtube_video_count": 221,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 295080
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 180417
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 152597
+        },
+        {
+          "city": "Medan",
+          "country": "ID",
+          "listeners": 95334
+        },
+        {
+          "city": "Makassar",
+          "country": "ID",
+          "listeners": 91110
+        }
+      ],
+      "lastfm_listeners": 912527,
+      "lastfm_playcount": 23239162,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 4660000,
+      "ytm_total_views": 902239936
     }
   ],
   "annotations": [
@@ -923,9 +964,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Bruno Major",
+        "browse_id": "UCG6TVq74z0InWhOJVtIQZKQ",
+        "subscribers": "1.39M"
+      },
+      {
+        "name": "ADOY",
+        "browse_id": "UCx38UtcmU6vJ7IF1J6epxdA",
+        "subscribers": "219K"
+      },
+      {
         "name": "Charlie Burg",
         "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
-        "subscribers": "188K"
+        "subscribers": "189K"
       },
       {
         "name": "Phum Viphurit",
@@ -955,22 +1006,12 @@
       {
         "name": "Public Library Commute",
         "browse_id": "UCHaf5KL3HbX5XRIppowZmiA",
-        "subscribers": "62.5K"
+        "subscribers": "64.8K"
       },
       {
-        "name": "Maya Delilah",
-        "browse_id": "UCp0Lclt4xm1dvCJ0v50sYFw",
-        "subscribers": "74.3K"
-      },
-      {
-        "name": "EyeLoveBrandon",
-        "browse_id": "UC8Qc4CXUz1geEWz3Pn2jXsQ",
-        "subscribers": "963"
-      },
-      {
-        "name": "Ahv",
-        "browse_id": "UCKZDcKa2hMa8hwX8MKkoi0A",
-        "subscribers": "5.35K"
+        "name": "Devin Kennedy",
+        "browse_id": "UConPcmI6u5L-OzZjQ6PFOXQ",
+        "subscribers": "540K"
       }
     ],
     "ytm_top_songs": [
@@ -1108,6 +1149,12 @@
           "views": 2573436,
           "likes": 15962,
           "comments": 27
+        },
+        {
+          "date": "2026-05-01",
+          "views": 2573928,
+          "likes": 15964,
+          "comments": 27
         }
       ]
     },
@@ -1221,6 +1268,12 @@
           "views": 1555973,
           "likes": 16949,
           "comments": 272
+        },
+        {
+          "date": "2026-05-01",
+          "views": 1574505,
+          "likes": 17032,
+          "comments": 272
         }
       ]
     },
@@ -1333,6 +1386,12 @@
           "date": "2026-04-30",
           "views": 46753445,
           "likes": 198954,
+          "comments": 114
+        },
+        {
+          "date": "2026-05-01",
+          "views": 46767936,
+          "likes": 199025,
           "comments": 114
         }
       ]
@@ -1494,6 +1553,12 @@
           "views": 472934,
           "likes": 5843,
           "comments": 11
+        },
+        {
+          "date": "2026-05-01",
+          "views": 473107,
+          "likes": 5845,
+          "comments": 11
         }
       ]
     },
@@ -1565,6 +1630,12 @@
           "views": 13609041,
           "likes": 71596,
           "comments": 35
+        },
+        {
+          "date": "2026-05-01",
+          "views": 13618865,
+          "likes": 71607,
+          "comments": 35
         }
       ]
     }
@@ -1581,6 +1652,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-30T15:55:03.346297+00:00"
+    },
+    {
+      "date": "2026-05-01",
+      "metric": "youtube_total_views",
+      "value": 902286427,
+      "baseline_mean": 897596484.0,
+      "baseline_stddev": 1128306.8,
+      "delta": 4689942,
+      "score": 4.16,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-01T14:58:24.160436+00:00"
     }
   ]
 }

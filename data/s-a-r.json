@@ -817,6 +817,47 @@
       "ytm_subscribers": 13100,
       "ytm_monthly_listeners": 75500,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-01",
+      "monthly_listeners": 86043,
+      "collected_at": "2026-05-01T14:55:24.913320+00:00",
+      "spotify_followers": 27386,
+      "youtube_subscribers": 13100,
+      "youtube_total_views": 2182406,
+      "youtube_video_count": 76,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5875
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3105
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 2164
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1709
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1581
+        }
+      ],
+      "lastfm_listeners": 5567,
+      "lastfm_playcount": 39522,
+      "ytm_subscribers": 13100,
+      "ytm_monthly_listeners": 75500,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -896,7 +937,7 @@
       {
         "name": "reina",
         "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
-        "subscribers": "3.19K"
+        "subscribers": "3.2K"
       },
       {
         "name": "Ovall",
@@ -906,12 +947,12 @@
       {
         "name": "Kan Sano",
         "browse_id": "UC05tnYJ3St7yd3f6lfKdzcg",
-        "subscribers": "133K"
+        "subscribers": "132K"
       },
       {
         "name": "Nao Yoshioka",
         "browse_id": "UCs93X0FfTpRlxAMnmO94Kcw",
-        "subscribers": "84.8K"
+        "subscribers": "83.9K"
       },
       {
         "name": "Geloomy",
@@ -921,12 +962,12 @@
       {
         "name": "SALASA",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "90.7K"
+        "subscribers": "85.8K"
       },
       {
         "name": "Michael Kaneko",
         "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
-        "subscribers": "188K"
+        "subscribers": "185K"
       },
       {
         "name": "Stefan Mahendra",
@@ -1078,6 +1119,12 @@
           "views": 198569,
           "likes": 2675,
           "comments": 8
+        },
+        {
+          "date": "2026-05-01",
+          "views": 198854,
+          "likes": 2676,
+          "comments": 8
         }
       ]
     },
@@ -1190,6 +1237,12 @@
           "date": "2026-04-30",
           "views": 9153,
           "likes": 164,
+          "comments": 4
+        },
+        {
+          "date": "2026-05-01",
+          "views": 9302,
+          "likes": 165,
           "comments": 4
         }
       ]
@@ -1304,6 +1357,12 @@
           "views": 69878,
           "likes": 807,
           "comments": 7
+        },
+        {
+          "date": "2026-05-01",
+          "views": 70135,
+          "likes": 808,
+          "comments": 7
         }
       ]
     },
@@ -1404,6 +1463,12 @@
           "date": "2026-04-30",
           "views": 92544,
           "likes": 877,
+          "comments": 3
+        },
+        {
+          "date": "2026-05-01",
+          "views": 92707,
+          "likes": 878,
           "comments": 3
         }
       ]
@@ -1529,6 +1594,12 @@
           "views": 15825,
           "likes": 324,
           "comments": 5
+        },
+        {
+          "date": "2026-05-01",
+          "views": 16303,
+          "likes": 338,
+          "comments": 5
         }
       ]
     },
@@ -1586,6 +1657,18 @@
       "type": "annotated",
       "related_annotation": "「Daylight」効果継続＋メジャー1stアルバム発表でSpotifyリスナー急増（+4,399人・3.14σ）",
       "detected_at": "2026-04-30T15:52:13.159244+00:00"
+    },
+    {
+      "date": "2026-05-01",
+      "metric": "monthly_listeners",
+      "value": 86043,
+      "baseline_mean": 79689.4,
+      "baseline_stddev": 2011.9,
+      "delta": 6353,
+      "score": 3.16,
+      "type": "annotated",
+      "related_annotation": "「Daylight」効果継続＋メジャー1stアルバム発表でSpotifyリスナー急増（+4,399人・3.14σ）",
+      "detected_at": "2026-05-01T14:55:26.245217+00:00"
     }
   ]
 }

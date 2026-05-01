@@ -1030,6 +1030,47 @@
       "ytm_subscribers": 2420000,
       "ytm_monthly_listeners": 106000000,
       "ytm_total_views": 1819943660
+    },
+    {
+      "date": "2026-05-01",
+      "monthly_listeners": 6080091,
+      "collected_at": "2026-05-01T14:54:37.223008+00:00",
+      "spotify_followers": 2330150,
+      "youtube_subscribers": 2420000,
+      "youtube_total_views": 1836741794,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 106773
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 100077
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 75404
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 65740
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 62596
+        }
+      ],
+      "lastfm_listeners": 612777,
+      "lastfm_playcount": 21361374,
+      "ytm_subscribers": 2420000,
+      "ytm_monthly_listeners": 103000000,
+      "ytm_total_views": 1822056938
     }
   ],
   "annotations": [
@@ -1171,9 +1212,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Take-M",
+        "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
+        "subscribers": "282K"
+      },
+      {
+        "name": "MILLENNIUM PARADE",
+        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
+        "subscribers": "1.18M"
+      },
+      {
         "name": "KANA-BOON",
         "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "37.6M"
+        "subscribers": "37.2M"
       },
       {
         "name": "nobodyknows+",
@@ -1181,44 +1232,34 @@
         "subscribers": "16.4K"
       },
       {
-        "name": "AKASAKI",
-        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
-        "subscribers": "5.32M"
+        "name": "ano",
+        "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
+        "subscribers": "3.88M"
       },
       {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "9.56M"
+        "name": "RADWIMPS",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "67.3M"
       },
       {
         "name": "King Gnu",
         "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "62.4M"
+        "subscribers": "61.8M"
       },
       {
-        "name": "Umedacypher",
-        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
-        "subscribers": "692K"
-      },
-      {
-        "name": "Take-M",
-        "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
-        "subscribers": "277K"
-      },
-      {
-        "name": "ano",
-        "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
-        "subscribers": "3.93M"
+        "name": "AKASAKI",
+        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
+        "subscribers": "5.31M"
       },
       {
         "name": "PEOPLE 1",
         "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "634K"
+        "subscribers": "626K"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "20.8M"
+        "name": "Umedacypher",
+        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
+        "subscribers": "697K"
       }
     ],
     "ytm_top_songs": [
@@ -1317,6 +1358,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-29T16:00:08.707083+00:00"
+    },
+    {
+      "date": "2026-05-01",
+      "metric": "youtube_total_views",
+      "value": 1836741794,
+      "baseline_mean": 1820757287.5,
+      "baseline_stddev": 7695594.0,
+      "delta": 15984506,
+      "score": 2.08,
+      "type": "annotated",
+      "related_annotation": "「Fright」ミュージックビデオ公開",
+      "detected_at": "2026-05-01T14:54:38.353485+00:00"
     }
   ],
   "song_performance": {
@@ -1430,6 +1483,12 @@
           "views": 19310950,
           "likes": 251097,
           "comments": 797
+        },
+        {
+          "date": "2026-05-01",
+          "views": 19367401,
+          "likes": 251640,
+          "comments": 800
         }
       ]
     },
@@ -1543,6 +1602,12 @@
           "views": 17219546,
           "likes": 233332,
           "comments": 908
+        },
+        {
+          "date": "2026-05-01",
+          "views": 17264914,
+          "likes": 233789,
+          "comments": 913
         }
       ]
     },
@@ -1656,6 +1721,12 @@
           "views": 6503445,
           "likes": 88305,
           "comments": 1078
+        },
+        {
+          "date": "2026-05-01",
+          "views": 6518629,
+          "likes": 88448,
+          "comments": 1083
         }
       ]
     },
@@ -1769,6 +1840,12 @@
           "views": 11697302,
           "likes": 108849,
           "comments": 471
+        },
+        {
+          "date": "2026-05-01",
+          "views": 11706836,
+          "likes": 108939,
+          "comments": 471
         }
       ]
     },
@@ -1845,6 +1922,12 @@
           "date": "2026-04-30",
           "views": 5606933,
           "likes": 52907,
+          "comments": 179
+        },
+        {
+          "date": "2026-05-01",
+          "views": 5610703,
+          "likes": 52931,
           "comments": 179
         }
       ]
