@@ -1071,6 +1071,47 @@
       "ytm_subscribers": 2420000,
       "ytm_monthly_listeners": 103000000,
       "ytm_total_views": 1822056938
+    },
+    {
+      "date": "2026-05-02",
+      "monthly_listeners": 6086141,
+      "collected_at": "2026-05-02T14:48:39.172008+00:00",
+      "spotify_followers": 2331122,
+      "youtube_subscribers": 2420000,
+      "youtube_total_views": 1837912691,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 106858
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 99287
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 75236
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 65463
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 62287
+        }
+      ],
+      "lastfm_listeners": 612777,
+      "lastfm_playcount": 21361374,
+      "ytm_subscribers": 2420000,
+      "ytm_monthly_listeners": 103000000,
+      "ytm_total_views": 1823170871
     }
   ],
   "annotations": [
@@ -1212,9 +1253,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Take-M",
-        "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
-        "subscribers": "282K"
+        "name": "meiyo",
+        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
+        "subscribers": "816K"
       },
       {
         "name": "MILLENNIUM PARADE",
@@ -1222,9 +1263,9 @@
         "subscribers": "1.18M"
       },
       {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "37.2M"
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "9.42M"
       },
       {
         "name": "nobodyknows+",
@@ -1232,24 +1273,19 @@
         "subscribers": "16.4K"
       },
       {
-        "name": "ano",
-        "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
-        "subscribers": "3.88M"
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "53.2M"
       },
       {
-        "name": "RADWIMPS",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "67.3M"
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "36.9M"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "61.8M"
-      },
-      {
-        "name": "AKASAKI",
-        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
-        "subscribers": "5.31M"
+        "name": "Sambomaster",
+        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
+        "subscribers": "4.04M"
       },
       {
         "name": "PEOPLE 1",
@@ -1259,7 +1295,12 @@
       {
         "name": "Umedacypher",
         "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
-        "subscribers": "697K"
+        "subscribers": "692K"
+      },
+      {
+        "name": "RADWIMPS",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "66.8M"
       }
     ],
     "ytm_top_songs": [
@@ -1280,8 +1321,8 @@
         "video_id": "SpgK_2j-h0I"
       },
       {
-        "title": "のびしろ - Nobishiro",
-        "video_id": "qutWSXY8PdM"
+        "title": "Fright",
+        "video_id": "vFVdY3mrh1w"
       }
     ],
     "ytm_description": "Creepy Nuts are a Japanese hip-hop duo consisting of DJ Matsunaga and R-Shitei, currently signed to Onenation and Sony Music Associated Records. The duo rose to international prominence in 2024 with their biggest hit single to date \"Bling-Bang-Bang-Born\", an opening theme for the second season of the anime series Mashle: Magic and Muscles, as their most successful song to date. In Japan, the song was the best-performing song in 2024, topping the Oricon Combined Singles Chart and Billboard Japan Hot 100. It also peaked at number eight on the Billboard Global 200. The duo gained even more worldwide recognition with the release of their second biggest hit single \"Otonoke\", which was included as the opening theme for the hit anime series Dandadan.\n\nFrom Wikipedia ("
@@ -1370,6 +1411,18 @@
       "type": "annotated",
       "related_annotation": "「Fright」ミュージックビデオ公開",
       "detected_at": "2026-05-01T14:54:38.353485+00:00"
+    },
+    {
+      "date": "2026-05-02",
+      "metric": "youtube_total_views",
+      "value": 1837912691,
+      "baseline_mean": 1821396667.8,
+      "baseline_stddev": 8164842.4,
+      "delta": 16516023,
+      "score": 2.02,
+      "type": "annotated",
+      "related_annotation": "「Fright」MV公開翌日のYouTube総再生数急増（+1,502万・2.22σ）",
+      "detected_at": "2026-05-02T14:48:40.414021+00:00"
     }
   ],
   "song_performance": {
@@ -1489,6 +1542,12 @@
           "views": 19367401,
           "likes": 251640,
           "comments": 800
+        },
+        {
+          "date": "2026-05-02",
+          "views": 19424194,
+          "likes": 252184,
+          "comments": 801
         }
       ]
     },
@@ -1608,6 +1667,12 @@
           "views": 17264914,
           "likes": 233789,
           "comments": 913
+        },
+        {
+          "date": "2026-05-02",
+          "views": 17309038,
+          "likes": 234239,
+          "comments": 922
         }
       ]
     },
@@ -1727,6 +1792,12 @@
           "views": 6518629,
           "likes": 88448,
           "comments": 1083
+        },
+        {
+          "date": "2026-05-02",
+          "views": 6533913,
+          "likes": 88607,
+          "comments": 1084
         }
       ]
     },
@@ -1845,6 +1916,12 @@
           "date": "2026-05-01",
           "views": 11706836,
           "likes": 108939,
+          "comments": 471
+        },
+        {
+          "date": "2026-05-02",
+          "views": 11716652,
+          "likes": 109023,
           "comments": 471
         }
       ]
@@ -1970,6 +2047,12 @@
           "views": 124544,
           "likes": 3911,
           "comments": 118
+        },
+        {
+          "date": "2026-05-02",
+          "views": 189842,
+          "likes": 4828,
+          "comments": 134
         }
       ]
     }

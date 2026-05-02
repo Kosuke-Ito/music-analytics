@@ -780,6 +780,47 @@
       "ytm_subscribers": 313000,
       "ytm_monthly_listeners": 3290000,
       "ytm_total_views": 302986479
+    },
+    {
+      "date": "2026-05-02",
+      "monthly_listeners": 1449584,
+      "collected_at": "2026-05-02T14:58:38.949546+00:00",
+      "spotify_followers": 324843,
+      "youtube_subscribers": 313000,
+      "youtube_total_views": 305473262,
+      "youtube_video_count": 215,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 54866
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 45819
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 38009
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 18711
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 17226
+        }
+      ],
+      "lastfm_listeners": 138664,
+      "lastfm_playcount": 2439143,
+      "ytm_subscribers": 313000,
+      "ytm_monthly_listeners": 3230000,
+      "ytm_total_views": 302986479
     }
   ],
   "annotations": [
@@ -849,37 +890,27 @@
       {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "56.1K"
+        "subscribers": "55.5K"
+      },
+      {
+        "name": "Ohashi Chippoke",
+        "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
+        "subscribers": "199K"
       },
       {
         "name": "TAIL",
         "browse_id": "UCdKKyyzAEzwV6cLcYetJcmQ",
-        "subscribers": "81.6K"
-      },
-      {
-        "name": "FIVE NEW OLD",
-        "browse_id": "UCRTLps8iSUF_Z9gfrGcBlsQ",
-        "subscribers": "127K"
+        "subscribers": "82.5K"
       },
       {
         "name": "EISYU",
         "browse_id": "UCQ1dCsHilcsF2YOVXEI-4VA",
-        "subscribers": "162K"
+        "subscribers": "163K"
       },
       {
-        "name": "First Love is Never Returned",
-        "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "156K"
-      },
-      {
-        "name": "androp",
-        "browse_id": "UCwz7EvQmCroWyblXElJfW8w",
-        "subscribers": "197K"
-      },
-      {
-        "name": "KERENMI",
-        "browse_id": "UCacynfHovHzkQJ_1enhaDmw",
-        "subscribers": "2.64K"
+        "name": "BILLY BOO",
+        "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
+        "subscribers": "58.1K"
       },
       {
         "name": "KAMI WA SAIKORO WO FURANAI",
@@ -887,14 +918,24 @@
         "subscribers": "394K"
       },
       {
+        "name": "レトロリロン",
+        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
+        "subscribers": "390K"
+      },
+      {
         "name": "Awesome City Club",
         "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
         "subscribers": "700K"
       },
       {
-        "name": "レトロリロン",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "390K"
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "9.89M"
+      },
+      {
+        "name": "WhaleDontSleep",
+        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
+        "subscribers": "606K"
       }
     ],
     "ytm_top_songs": [
@@ -1032,6 +1073,12 @@
           "views": 10997942,
           "likes": 53060,
           "comments": 199
+        },
+        {
+          "date": "2026-05-02",
+          "views": 11007390,
+          "likes": 53093,
+          "comments": 199
         }
       ]
     },
@@ -1145,6 +1192,12 @@
           "views": 726062,
           "likes": 7835,
           "comments": 88
+        },
+        {
+          "date": "2026-05-02",
+          "views": 727267,
+          "likes": 7840,
+          "comments": 89
         }
       ]
     },
@@ -1258,6 +1311,12 @@
           "views": 2176893,
           "likes": 16409,
           "comments": 58
+        },
+        {
+          "date": "2026-05-02",
+          "views": 2178161,
+          "likes": 16413,
+          "comments": 58
         }
       ]
     },
@@ -1370,6 +1429,12 @@
           "date": "2026-05-01",
           "views": 2870002,
           "likes": 27805,
+          "comments": 111
+        },
+        {
+          "date": "2026-05-02",
+          "views": 2870869,
+          "likes": 27812,
           "comments": 111
         }
       ]
@@ -1489,6 +1554,12 @@
           "views": 974441,
           "likes": 8997,
           "comments": 84
+        },
+        {
+          "date": "2026-05-02",
+          "views": 975064,
+          "likes": 9003,
+          "comments": 84
         }
       ]
     }
@@ -1517,6 +1588,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-01T15:04:47.269694+00:00"
+    },
+    {
+      "date": "2026-05-02",
+      "metric": "monthly_listeners",
+      "value": 1449584,
+      "baseline_mean": 1436162.5,
+      "baseline_stddev": 4787.5,
+      "delta": 13421,
+      "score": 2.8,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-02T14:58:40.593466+00:00"
+    },
+    {
+      "date": "2026-05-02",
+      "metric": "youtube_total_views",
+      "value": 305473262,
+      "baseline_mean": 302792142,
+      "baseline_stddev": 1160959.0,
+      "delta": 2681120,
+      "score": 2.31,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-02T14:58:40.593466+00:00"
     }
   ]
 }

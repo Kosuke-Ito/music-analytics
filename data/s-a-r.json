@@ -858,6 +858,47 @@
       "ytm_subscribers": 13100,
       "ytm_monthly_listeners": 75500,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-02",
+      "monthly_listeners": 87529,
+      "collected_at": "2026-05-02T14:49:26.775340+00:00",
+      "spotify_followers": 27448,
+      "youtube_subscribers": 13200,
+      "youtube_total_views": 2182406,
+      "youtube_video_count": 76,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5926
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3128
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 2226
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1728
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1598
+        }
+      ],
+      "lastfm_listeners": 5577,
+      "lastfm_playcount": 39583,
+      "ytm_subscribers": 13200,
+      "ytm_monthly_listeners": 75500,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -935,24 +976,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "reina",
-        "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
-        "subscribers": "3.2K"
-      },
-      {
         "name": "Ovall",
         "browse_id": "UCuA82nnWojpMgjBqCnbQDmQ",
-        "subscribers": "504K"
-      },
-      {
-        "name": "Kan Sano",
-        "browse_id": "UC05tnYJ3St7yd3f6lfKdzcg",
-        "subscribers": "132K"
-      },
-      {
-        "name": "Nao Yoshioka",
-        "browse_id": "UCs93X0FfTpRlxAMnmO94Kcw",
-        "subscribers": "83.9K"
+        "subscribers": "505K"
       },
       {
         "name": "Geloomy",
@@ -965,9 +991,9 @@
         "subscribers": "85.8K"
       },
       {
-        "name": "Michael Kaneko",
-        "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
-        "subscribers": "185K"
+        "name": "reina",
+        "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
+        "subscribers": "3.2K"
       },
       {
         "name": "Stefan Mahendra",
@@ -975,14 +1001,29 @@
         "subscribers": "425"
       },
       {
-        "name": "lo-key design",
-        "browse_id": "UCn_sJfUaJhyWc70cIgZ8blg",
-        "subscribers": "6.86K"
-      },
-      {
         "name": "luvis",
         "browse_id": "UCpuCbW_679iOcxPRkqNIO3w",
         "subscribers": "7.7K"
+      },
+      {
+        "name": "Michael Kaneko",
+        "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
+        "subscribers": "185K"
+      },
+      {
+        "name": "brkfstblend",
+        "browse_id": "UC50NOIaEJkr_t3BKvPYFXdQ",
+        "subscribers": "3.21K"
+      },
+      {
+        "name": "Nao Yoshioka",
+        "browse_id": "UCs93X0FfTpRlxAMnmO94Kcw",
+        "subscribers": "83.9K"
+      },
+      {
+        "name": "Sweet William",
+        "browse_id": "UCLloo-Tk9tYFMVYaKB8pasg",
+        "subscribers": "762K"
       }
     ],
     "ytm_top_songs": [
@@ -1125,6 +1166,12 @@
           "views": 198854,
           "likes": 2676,
           "comments": 8
+        },
+        {
+          "date": "2026-05-02",
+          "views": 199178,
+          "likes": 2678,
+          "comments": 8
         }
       ]
     },
@@ -1242,6 +1289,12 @@
         {
           "date": "2026-05-01",
           "views": 9302,
+          "likes": 165,
+          "comments": 4
+        },
+        {
+          "date": "2026-05-02",
+          "views": 9454,
           "likes": 165,
           "comments": 4
         }
@@ -1363,6 +1416,12 @@
           "views": 70135,
           "likes": 808,
           "comments": 7
+        },
+        {
+          "date": "2026-05-02",
+          "views": 70414,
+          "likes": 809,
+          "comments": 7
         }
       ]
     },
@@ -1468,6 +1527,12 @@
         {
           "date": "2026-05-01",
           "views": 92707,
+          "likes": 878,
+          "comments": 3
+        },
+        {
+          "date": "2026-05-02",
+          "views": 92957,
           "likes": 878,
           "comments": 3
         }
@@ -1600,6 +1665,12 @@
           "views": 16303,
           "likes": 338,
           "comments": 5
+        },
+        {
+          "date": "2026-05-02",
+          "views": 16822,
+          "likes": 349,
+          "comments": 5
         }
       ]
     },
@@ -1669,6 +1740,18 @@
       "type": "annotated",
       "related_annotation": "「Daylight」効果継続＋メジャー1stアルバム発表でSpotifyリスナー急増（+4,399人・3.14σ）",
       "detected_at": "2026-05-01T14:55:26.245217+00:00"
+    },
+    {
+      "date": "2026-05-02",
+      "metric": "monthly_listeners",
+      "value": 87529,
+      "baseline_mean": 79991.9,
+      "baseline_stddev": 2384.5,
+      "delta": 7537,
+      "score": 3.16,
+      "type": "annotated",
+      "related_annotation": "「Daylight」効果継続＋メジャー1stアルバム発表でSpotifyリスナー急増（+4,399人・3.14σ）",
+      "detected_at": "2026-05-02T14:49:28.374263+00:00"
     }
   ]
 }

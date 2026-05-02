@@ -698,6 +698,47 @@
       "ytm_subscribers": 36900,
       "ytm_monthly_listeners": 72800,
       "ytm_total_views": 7937580
+    },
+    {
+      "date": "2026-05-02",
+      "monthly_listeners": 51464,
+      "collected_at": "2026-05-02T14:59:11.837375+00:00",
+      "spotify_followers": 50775,
+      "youtube_subscribers": 37000,
+      "youtube_total_views": 8173445,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3623
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1545
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 940
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 920
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 582
+        }
+      ],
+      "lastfm_listeners": 23596,
+      "lastfm_playcount": 393648,
+      "ytm_subscribers": 37000,
+      "ytm_monthly_listeners": 72100,
+      "ytm_total_views": 7937580
     }
   ],
   "metadata": {
@@ -732,14 +773,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Soutaiseiriron",
-        "browse_id": "UC0gooRnprhn2feZyuv2dmGA",
-        "subscribers": "1.19M"
-      },
-      {
         "name": "DÉ DÉ MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
         "subscribers": "119K"
+      },
+      {
+        "name": "Skirt",
+        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
+        "subscribers": "127K"
       },
       {
         "name": "80KIDZ",
@@ -747,29 +788,14 @@
         "subscribers": "3.76K"
       },
       {
-        "name": "Dirty Androids",
-        "browse_id": "UChAifL81ox-Tpm-tZ0LU65A",
-        "subscribers": "3.84K"
-      },
-      {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
         "subscribers": "140K"
       },
       {
-        "name": "Yasutaka Nakata",
-        "browse_id": "UC-ijwQ4zsUaNi2LWCS-J0RQ",
-        "subscribers": "4.41M"
-      },
-      {
-        "name": "chelmico",
-        "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "265K"
-      },
-      {
-        "name": "MONDO GROSSO",
-        "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
-        "subscribers": "243K"
+        "name": "Dirty Androids",
+        "browse_id": "UChAifL81ox-Tpm-tZ0LU65A",
+        "subscribers": "3.85K"
       },
       {
         "name": "AAAMYYY",
@@ -777,9 +803,24 @@
         "subscribers": "25.5K"
       },
       {
-        "name": "group inou",
-        "browse_id": "UCDmb95DUOHAbpe2afnxoc1g",
-        "subscribers": "7.8K"
+        "name": "ikkubaru",
+        "browse_id": "UC7jScMdJ0YibkvRT7UxcNRA",
+        "subscribers": "5.73K"
+      },
+      {
+        "name": "Cherryboy Function",
+        "browse_id": "UChSuMG7SvfVS5UECa0IxwBQ",
+        "subscribers": "214"
+      },
+      {
+        "name": "MONDO GROSSO",
+        "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
+        "subscribers": "242K"
+      },
+      {
+        "name": "cero",
+        "browse_id": "UCP5S2nBzNRtJNiqGAYsA_Nw",
+        "subscribers": "106K"
       }
     ],
     "ytm_top_songs": [
@@ -905,6 +946,12 @@
           "views": 108285,
           "likes": 2311,
           "comments": 24
+        },
+        {
+          "date": "2026-05-02",
+          "views": 108890,
+          "likes": 2315,
+          "comments": 24
         }
       ]
     },
@@ -1005,6 +1052,12 @@
           "date": "2026-05-01",
           "views": 538807,
           "likes": 5073,
+          "comments": 17
+        },
+        {
+          "date": "2026-05-02",
+          "views": 539716,
+          "likes": 5079,
           "comments": 17
         }
       ]
@@ -1107,6 +1160,12 @@
           "views": 305681,
           "likes": 3299,
           "comments": 6
+        },
+        {
+          "date": "2026-05-02",
+          "views": 305967,
+          "likes": 3302,
+          "comments": 6
         }
       ]
     },
@@ -1206,6 +1265,12 @@
         {
           "date": "2026-05-01",
           "views": 50909,
+          "likes": 169,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-02",
+          "views": 50987,
           "likes": 169,
           "comments": 1
         }
@@ -1309,6 +1374,12 @@
           "views": 111703,
           "likes": 1437,
           "comments": 14
+        },
+        {
+          "date": "2026-05-02",
+          "views": 111951,
+          "likes": 1440,
+          "comments": 14
         }
       ]
     }
@@ -1362,6 +1433,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-01T15:05:20.961952+00:00"
+    },
+    {
+      "date": "2026-05-02",
+      "metric": "monthly_listeners",
+      "value": 51464,
+      "baseline_mean": 50939.9,
+      "baseline_stddev": 204.4,
+      "delta": 524,
+      "score": 2.56,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-02T14:59:13.546461+00:00"
     }
   ]
 }

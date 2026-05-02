@@ -895,6 +895,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 4660000,
       "ytm_total_views": 902239936
+    },
+    {
+      "date": "2026-05-02",
+      "monthly_listeners": 4398042,
+      "collected_at": "2026-05-02T14:52:20.750998+00:00",
+      "spotify_followers": 1649823,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 902286427,
+      "youtube_video_count": 221,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 286595
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 179491
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 152143
+        },
+        {
+          "city": "Medan",
+          "country": "ID",
+          "listeners": 95469
+        },
+        {
+          "city": "Makassar",
+          "country": "ID",
+          "listeners": 91047
+        }
+      ],
+      "lastfm_listeners": 913301,
+      "lastfm_playcount": 23251809,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 4660000,
+      "ytm_total_views": 902239936
     }
   ],
   "annotations": [
@@ -966,22 +1007,17 @@
       {
         "name": "Bruno Major",
         "browse_id": "UCG6TVq74z0InWhOJVtIQZKQ",
-        "subscribers": "1.39M"
+        "subscribers": "1.38M"
       },
       {
         "name": "ADOY",
         "browse_id": "UCx38UtcmU6vJ7IF1J6epxdA",
-        "subscribers": "219K"
+        "subscribers": "217K"
       },
       {
-        "name": "Charlie Burg",
-        "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
-        "subscribers": "189K"
-      },
-      {
-        "name": "Phum Viphurit",
-        "browse_id": "UCqss9YQhKnV_1ekC347ckDw",
-        "subscribers": "60.3K"
+        "name": "Ahv",
+        "browse_id": "UCKZDcKa2hMa8hwX8MKkoi0A",
+        "subscribers": "5.35K"
       },
       {
         "name": "Micah Edwards",
@@ -989,14 +1025,14 @@
         "subscribers": "9.41K"
       },
       {
-        "name": "Jeremy Passion",
-        "browse_id": "UCzHYmb88lMOw7EAy4cuOy3Q",
-        "subscribers": "46K"
+        "name": "Phum Viphurit",
+        "browse_id": "UCqss9YQhKnV_1ekC347ckDw",
+        "subscribers": "60.3K"
       },
       {
-        "name": "Sam Wills",
-        "browse_id": "UCtS5U-fbarDftLymlNxo3IA",
-        "subscribers": "511K"
+        "name": "Kamal.",
+        "browse_id": "UCpotKFYW7NyEeFkTJFVlS9w",
+        "subscribers": "158K"
       },
       {
         "name": "Sun Rai",
@@ -1004,14 +1040,19 @@
         "subscribers": "7.02K"
       },
       {
-        "name": "Public Library Commute",
-        "browse_id": "UCHaf5KL3HbX5XRIppowZmiA",
-        "subscribers": "64.8K"
+        "name": "Charlie Burg",
+        "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
+        "subscribers": "190K"
       },
       {
-        "name": "Devin Kennedy",
-        "browse_id": "UConPcmI6u5L-OzZjQ6PFOXQ",
-        "subscribers": "540K"
+        "name": "Maya Delilah",
+        "browse_id": "UCp0Lclt4xm1dvCJ0v50sYFw",
+        "subscribers": "73.4K"
+      },
+      {
+        "name": "Sam Ock",
+        "browse_id": "UCavCOy6d5r01dtXdOpEwFSw",
+        "subscribers": "1.39M"
       }
     ],
     "ytm_top_songs": [
@@ -1155,6 +1196,12 @@
           "views": 2573928,
           "likes": 15964,
           "comments": 27
+        },
+        {
+          "date": "2026-05-02",
+          "views": 2574350,
+          "likes": 15967,
+          "comments": 27
         }
       ]
     },
@@ -1274,6 +1321,12 @@
           "views": 1574505,
           "likes": 17032,
           "comments": 272
+        },
+        {
+          "date": "2026-05-02",
+          "views": 1591327,
+          "likes": 17115,
+          "comments": 272
         }
       ]
     },
@@ -1392,6 +1445,12 @@
           "date": "2026-05-01",
           "views": 46767936,
           "likes": 199025,
+          "comments": 114
+        },
+        {
+          "date": "2026-05-02",
+          "views": 46782810,
+          "likes": 199079,
           "comments": 114
         }
       ]
@@ -1559,6 +1618,12 @@
           "views": 473107,
           "likes": 5845,
           "comments": 11
+        },
+        {
+          "date": "2026-05-02",
+          "views": 473301,
+          "likes": 5845,
+          "comments": 11
         }
       ]
     },
@@ -1636,6 +1701,12 @@
           "views": 13618865,
           "likes": 71607,
           "comments": 35
+        },
+        {
+          "date": "2026-05-02",
+          "views": 13627300,
+          "likes": 71627,
+          "comments": 35
         }
       ]
     }
@@ -1664,6 +1735,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-01T14:58:24.160436+00:00"
+    },
+    {
+      "date": "2026-05-02",
+      "metric": "youtube_total_views",
+      "value": 902286427,
+      "baseline_mean": 897809663.3,
+      "baseline_stddev": 1472943.3,
+      "delta": 4476763,
+      "score": 3.04,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-02T14:52:22.373916+00:00"
     }
   ]
 }
