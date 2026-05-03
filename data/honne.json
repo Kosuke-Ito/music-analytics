@@ -936,6 +936,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 4660000,
       "ytm_total_views": 902239936
+    },
+    {
+      "date": "2026-05-03",
+      "monthly_listeners": 4399681,
+      "collected_at": "2026-05-03T14:52:12.342890+00:00",
+      "spotify_followers": 1650107,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 902286427,
+      "youtube_video_count": 221,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 277903
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 179014
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 151718
+        },
+        {
+          "city": "Medan",
+          "country": "ID",
+          "listeners": 95450
+        },
+        {
+          "city": "Makassar",
+          "country": "ID",
+          "listeners": 90939
+        }
+      ],
+      "lastfm_listeners": 913301,
+      "lastfm_playcount": 23251809,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 4600000,
+      "ytm_total_views": 902239936
     }
   ],
   "annotations": [
@@ -1005,19 +1046,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Bruno Major",
-        "browse_id": "UCG6TVq74z0InWhOJVtIQZKQ",
-        "subscribers": "1.38M"
-      },
-      {
-        "name": "ADOY",
-        "browse_id": "UCx38UtcmU6vJ7IF1J6epxdA",
-        "subscribers": "217K"
+        "name": "Anthony Lazaro",
+        "browse_id": "UCFkcSGRkXE9h03Ua7NpGmsw",
+        "subscribers": "1.01M"
       },
       {
         "name": "Ahv",
         "browse_id": "UCKZDcKa2hMa8hwX8MKkoi0A",
-        "subscribers": "5.35K"
+        "subscribers": "5.36K"
       },
       {
         "name": "Micah Edwards",
@@ -1032,7 +1068,7 @@
       {
         "name": "Kamal.",
         "browse_id": "UCpotKFYW7NyEeFkTJFVlS9w",
-        "subscribers": "158K"
+        "subscribers": "157K"
       },
       {
         "name": "Sun Rai",
@@ -1042,7 +1078,7 @@
       {
         "name": "Charlie Burg",
         "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
-        "subscribers": "190K"
+        "subscribers": "189K"
       },
       {
         "name": "Maya Delilah",
@@ -1050,9 +1086,14 @@
         "subscribers": "73.4K"
       },
       {
-        "name": "Sam Ock",
-        "browse_id": "UCavCOy6d5r01dtXdOpEwFSw",
-        "subscribers": "1.39M"
+        "name": "Public Library Commute",
+        "browse_id": "UCHaf5KL3HbX5XRIppowZmiA",
+        "subscribers": "68.1K"
+      },
+      {
+        "name": "Jeremy Passion",
+        "browse_id": "UCzHYmb88lMOw7EAy4cuOy3Q",
+        "subscribers": "46K"
       }
     ],
     "ytm_top_songs": [
@@ -1202,6 +1243,12 @@
           "views": 2574350,
           "likes": 15967,
           "comments": 27
+        },
+        {
+          "date": "2026-05-03",
+          "views": 2574737,
+          "likes": 15967,
+          "comments": 27
         }
       ]
     },
@@ -1327,6 +1374,12 @@
           "views": 1591327,
           "likes": 17115,
           "comments": 272
+        },
+        {
+          "date": "2026-05-03",
+          "views": 1608413,
+          "likes": 17206,
+          "comments": 273
         }
       ]
     },
@@ -1451,6 +1504,12 @@
           "date": "2026-05-02",
           "views": 46782810,
           "likes": 199079,
+          "comments": 114
+        },
+        {
+          "date": "2026-05-03",
+          "views": 46796967,
+          "likes": 199126,
           "comments": 114
         }
       ]
@@ -1624,6 +1683,12 @@
           "views": 473301,
           "likes": 5845,
           "comments": 11
+        },
+        {
+          "date": "2026-05-03",
+          "views": 473470,
+          "likes": 5843,
+          "comments": 11
         }
       ]
     },
@@ -1707,6 +1772,12 @@
           "views": 13627300,
           "likes": 71627,
           "comments": 35
+        },
+        {
+          "date": "2026-05-03",
+          "views": 13634653,
+          "likes": 71653,
+          "comments": 35
         }
       ]
     }
@@ -1747,6 +1818,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-02T14:52:22.373916+00:00"
+    },
+    {
+      "date": "2026-05-03",
+      "metric": "youtube_total_views",
+      "value": 902286427,
+      "baseline_mean": 898004305.2,
+      "baseline_stddev": 1705495.1,
+      "delta": 4282121,
+      "score": 2.51,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-03T14:52:13.621622+00:00"
     }
   ]
 }

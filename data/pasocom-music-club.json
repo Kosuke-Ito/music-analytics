@@ -739,6 +739,47 @@
       "ytm_subscribers": 37000,
       "ytm_monthly_listeners": 72100,
       "ytm_total_views": 7937580
+    },
+    {
+      "date": "2026-05-03",
+      "monthly_listeners": 51620,
+      "collected_at": "2026-05-03T14:58:54.851235+00:00",
+      "spotify_followers": 50788,
+      "youtube_subscribers": 37000,
+      "youtube_total_views": 8173445,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3638
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1546
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 940
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 914
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 586
+        }
+      ],
+      "lastfm_listeners": 23602,
+      "lastfm_playcount": 393801,
+      "ytm_subscribers": 37000,
+      "ytm_monthly_listeners": 71100,
+      "ytm_total_views": 7937580
     }
   ],
   "metadata": {
@@ -756,12 +797,12 @@
         "url": "https://www.last.fm/music/Lausbub"
       },
       {
-        "name": "odol",
-        "url": "https://www.last.fm/music/odol"
-      },
-      {
         "name": "柴田聡子",
         "url": "https://www.last.fm/music/%E6%9F%B4%E7%94%B0%E8%81%A1%E5%AD%90"
+      },
+      {
+        "name": "odol",
+        "url": "https://www.last.fm/music/odol"
       }
     ],
     "lastfm_tags": [
@@ -775,12 +816,17 @@
       {
         "name": "DÉ DÉ MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
-        "subscribers": "119K"
+        "subscribers": "117K"
+      },
+      {
+        "name": "Hakushi Hasegawa",
+        "browse_id": "UCPvjq3k_DKTa02GWveuicfg",
+        "subscribers": "72.3K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "127K"
+        "subscribers": "108K"
       },
       {
         "name": "80KIDZ",
@@ -790,7 +836,7 @@
       {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
-        "subscribers": "140K"
+        "subscribers": "139K"
       },
       {
         "name": "Dirty Androids",
@@ -816,11 +862,6 @@
         "name": "MONDO GROSSO",
         "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
         "subscribers": "242K"
-      },
-      {
-        "name": "cero",
-        "browse_id": "UCP5S2nBzNRtJNiqGAYsA_Nw",
-        "subscribers": "106K"
       }
     ],
     "ytm_top_songs": [
@@ -952,6 +993,12 @@
           "views": 108890,
           "likes": 2315,
           "comments": 24
+        },
+        {
+          "date": "2026-05-03",
+          "views": 109357,
+          "likes": 2323,
+          "comments": 24
         }
       ]
     },
@@ -1058,6 +1105,12 @@
           "date": "2026-05-02",
           "views": 539716,
           "likes": 5079,
+          "comments": 17
+        },
+        {
+          "date": "2026-05-03",
+          "views": 540560,
+          "likes": 5082,
           "comments": 17
         }
       ]
@@ -1166,6 +1219,12 @@
           "views": 305967,
           "likes": 3302,
           "comments": 6
+        },
+        {
+          "date": "2026-05-03",
+          "views": 306260,
+          "likes": 3301,
+          "comments": 6
         }
       ]
     },
@@ -1271,6 +1330,12 @@
         {
           "date": "2026-05-02",
           "views": 50987,
+          "likes": 169,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-03",
+          "views": 51075,
           "likes": 169,
           "comments": 1
         }
@@ -1380,6 +1445,12 @@
           "views": 111951,
           "likes": 1440,
           "comments": 14
+        },
+        {
+          "date": "2026-05-03",
+          "views": 112160,
+          "likes": 1439,
+          "comments": 14
         }
       ]
     }
@@ -1455,6 +1526,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-02T14:59:13.546461+00:00"
+    },
+    {
+      "date": "2026-05-03",
+      "metric": "monthly_listeners",
+      "value": 51620,
+      "baseline_mean": 50969.1,
+      "baseline_stddev": 232.1,
+      "delta": 650,
+      "score": 2.8,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-03T14:58:56.537452+00:00"
     }
   ]
 }

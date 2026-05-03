@@ -1109,6 +1109,47 @@
       "ytm_subscribers": 3390000,
       "ytm_monthly_listeners": 100000000,
       "ytm_total_views": 1158853388
+    },
+    {
+      "date": "2026-05-03",
+      "monthly_listeners": 24739800,
+      "collected_at": "2026-05-03T14:51:57.025667+00:00",
+      "spotify_followers": 10084731,
+      "youtube_subscribers": 3400000,
+      "youtube_total_views": 1208611806,
+      "youtube_video_count": 537,
+      "top_cities": [
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 320381
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 270127
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 258311
+        },
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 250339
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 238718
+        }
+      ],
+      "lastfm_listeners": 2360075,
+      "lastfm_playcount": 265530882,
+      "ytm_subscribers": 3400000,
+      "ytm_monthly_listeners": 100000000,
+      "ytm_total_views": 1158853388
     }
   ],
   "annotations": [
@@ -1281,7 +1322,7 @@
       {
         "name": "Mei Mei The Bunny",
         "browse_id": "UC-1Z-0-3-FYtoOGdUHr0syw",
-        "subscribers": "11.8M"
+        "subscribers": "11.4M"
       },
       {
         "name": "Iceland Symphony Orchestra",
@@ -1291,22 +1332,7 @@
       {
         "name": "Rocco",
         "browse_id": "UCKTYyqZkReYbvRUGYUc19iQ",
-        "subscribers": "145K"
-      },
-      {
-        "name": "aron!",
-        "browse_id": "UCEyRAg81bPs5-_L1mJ1lihg",
-        "subscribers": "299K"
-      },
-      {
-        "name": "Lizzy McAlpine",
-        "browse_id": "UCC1TOSYNYXw1xrwNRxW46dg",
-        "subscribers": "7.8M"
-      },
-      {
-        "name": "Matt Maltese",
-        "browse_id": "UCsEbRHFUuN2065qIWPhLrRQ",
-        "subscribers": "4.56M"
+        "subscribers": "143K"
       },
       {
         "name": "Saga Faye",
@@ -1314,19 +1340,34 @@
         "subscribers": "5.49K"
       },
       {
-        "name": "Ebony Loren",
-        "browse_id": "UCzKhnByfD9-nScA1CNg_EMA",
-        "subscribers": "422K"
+        "name": "aron!",
+        "browse_id": "UCEyRAg81bPs5-_L1mJ1lihg",
+        "subscribers": "352K"
+      },
+      {
+        "name": "Lizzy McAlpine",
+        "browse_id": "UCC1TOSYNYXw1xrwNRxW46dg",
+        "subscribers": "7.67M"
       },
       {
         "name": "Eloise",
         "browse_id": "UCe9WIeu02ZEZocoQImPVWkA",
-        "subscribers": "229K"
+        "subscribers": "232K"
+      },
+      {
+        "name": "Matt Maltese",
+        "browse_id": "UCsEbRHFUuN2065qIWPhLrRQ",
+        "subscribers": "4.78M"
+      },
+      {
+        "name": "Ebony Loren",
+        "browse_id": "UCzKhnByfD9-nScA1CNg_EMA",
+        "subscribers": "420K"
       },
       {
         "name": "Mitski",
         "browse_id": "UCqqY2nAz23oGDMNdiDzKdsA",
-        "subscribers": "156M"
+        "subscribers": "155M"
       }
     ],
     "ytm_top_songs": [
@@ -1476,6 +1517,12 @@
           "views": 72698889,
           "likes": 1096548,
           "comments": 7703
+        },
+        {
+          "date": "2026-05-03",
+          "views": 72840121,
+          "likes": 1098301,
+          "comments": 7676
         }
       ]
     },
@@ -1601,6 +1648,12 @@
           "views": 14145425,
           "likes": 219831,
           "comments": 1018
+        },
+        {
+          "date": "2026-05-03",
+          "views": 14217855,
+          "likes": 220726,
+          "comments": 1023
         }
       ]
     },
@@ -1726,6 +1779,12 @@
           "views": 21168012,
           "likes": 242995,
           "comments": 711
+        },
+        {
+          "date": "2026-05-03",
+          "views": 21204444,
+          "likes": 243337,
+          "comments": 714
         }
       ]
     },
@@ -1851,6 +1910,12 @@
           "views": 44608031,
           "likes": 491684,
           "comments": 1555
+        },
+        {
+          "date": "2026-05-03",
+          "views": 44656742,
+          "likes": 492060,
+          "comments": 1550
         }
       ]
     },
@@ -1981,6 +2046,12 @@
           "views": 2095858,
           "likes": 44760,
           "comments": 411
+        },
+        {
+          "date": "2026-05-03",
+          "views": 2160572,
+          "likes": 45840,
+          "comments": 415
         }
       ]
     }
@@ -2141,6 +2212,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-02T14:52:06.281922+00:00"
+    },
+    {
+      "date": "2026-05-03",
+      "metric": "monthly_listeners",
+      "value": 24739800,
+      "baseline_mean": 23804930.8,
+      "baseline_stddev": 449550.9,
+      "delta": 934869,
+      "score": 2.08,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-03T14:51:58.094901+00:00"
     }
   ]
 }

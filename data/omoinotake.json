@@ -821,6 +821,47 @@
       "ytm_subscribers": 313000,
       "ytm_monthly_listeners": 3230000,
       "ytm_total_views": 302986479
+    },
+    {
+      "date": "2026-05-03",
+      "monthly_listeners": 1458466,
+      "collected_at": "2026-05-03T14:58:20.465606+00:00",
+      "spotify_followers": 324999,
+      "youtube_subscribers": 313000,
+      "youtube_total_views": 305473262,
+      "youtube_video_count": 215,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 54319
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 45880
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 37820
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 18649
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 17277
+        }
+      ],
+      "lastfm_listeners": 138664,
+      "lastfm_playcount": 2439143,
+      "ytm_subscribers": 313000,
+      "ytm_monthly_listeners": 3190000,
+      "ytm_total_views": 302986479
     }
   ],
   "annotations": [
@@ -922,52 +963,52 @@
       {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "55.5K"
-      },
-      {
-        "name": "Ohashi Chippoke",
-        "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "199K"
+        "subscribers": "57.1K"
       },
       {
         "name": "TAIL",
         "browse_id": "UCdKKyyzAEzwV6cLcYetJcmQ",
-        "subscribers": "82.5K"
+        "subscribers": "82.8K"
       },
       {
         "name": "EISYU",
         "browse_id": "UCQ1dCsHilcsF2YOVXEI-4VA",
-        "subscribers": "163K"
+        "subscribers": "162K"
       },
       {
         "name": "BILLY BOO",
         "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
-        "subscribers": "58.1K"
+        "subscribers": "57.3K"
       },
       {
         "name": "KAMI WA SAIKORO WO FURANAI",
         "browse_id": "UCBX3AdkQtdXZkBuM8ojQ8jA",
-        "subscribers": "394K"
+        "subscribers": "406K"
+      },
+      {
+        "name": "4na",
+        "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
+        "subscribers": "296K"
       },
       {
         "name": "レトロリロン",
         "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "390K"
+        "subscribers": "387K"
       },
       {
         "name": "Awesome City Club",
         "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
-        "subscribers": "700K"
+        "subscribers": "679K"
       },
       {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "9.89M"
+        "name": "Ohashi Chippoke",
+        "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
+        "subscribers": "194K"
       },
       {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "606K"
+        "subscribers": "577K"
       }
     ],
     "ytm_top_songs": [
@@ -1111,6 +1152,12 @@
           "views": 11007390,
           "likes": 53093,
           "comments": 199
+        },
+        {
+          "date": "2026-05-03",
+          "views": 11016186,
+          "likes": 53118,
+          "comments": 199
         }
       ]
     },
@@ -1229,6 +1276,12 @@
           "date": "2026-05-02",
           "views": 727267,
           "likes": 7840,
+          "comments": 89
+        },
+        {
+          "date": "2026-05-03",
+          "views": 728314,
+          "likes": 7846,
           "comments": 89
         }
       ]
@@ -1349,6 +1402,12 @@
           "views": 2178161,
           "likes": 16413,
           "comments": 58
+        },
+        {
+          "date": "2026-05-03",
+          "views": 2179167,
+          "likes": 16416,
+          "comments": 58
         }
       ]
     },
@@ -1468,6 +1527,12 @@
           "views": 2870869,
           "likes": 27812,
           "comments": 111
+        },
+        {
+          "date": "2026-05-03",
+          "views": 2871826,
+          "likes": 27818,
+          "comments": 110
         }
       ]
     },
@@ -1592,6 +1657,12 @@
           "views": 975064,
           "likes": 9003,
           "comments": 84
+        },
+        {
+          "date": "2026-05-03",
+          "views": 975843,
+          "likes": 9007,
+          "comments": 84
         }
       ]
     }
@@ -1644,6 +1715,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-02T14:58:40.593466+00:00"
+    },
+    {
+      "date": "2026-05-03",
+      "metric": "monthly_listeners",
+      "value": 1458466,
+      "baseline_mean": 1436833.6,
+      "baseline_stddev": 5507.3,
+      "delta": 21632,
+      "score": 3.93,
+      "type": "annotated",
+      "related_annotation": "「ANI-ROCK FES. 2026 僕のヒーローアカデミア PLUS ULTRA LIVE」出演者発表前日にYouTube総再生数が急増（+約300万, 4.0σ）",
+      "detected_at": "2026-05-03T14:58:22.102523+00:00"
+    },
+    {
+      "date": "2026-05-03",
+      "metric": "youtube_total_views",
+      "value": 305473262,
+      "baseline_mean": 302926198,
+      "baseline_stddev": 1273532.0,
+      "delta": 2547064,
+      "score": 2.0,
+      "type": "annotated",
+      "related_annotation": "「ANI-ROCK FES. 2026 僕のヒーローアカデミア PLUS ULTRA LIVE」出演者発表前日にYouTube総再生数が急増（+約300万, 4.0σ）",
+      "detected_at": "2026-05-03T14:58:22.102523+00:00"
     }
   ]
 }

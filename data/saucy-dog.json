@@ -821,6 +821,47 @@
       "ytm_subscribers": 867000,
       "ytm_monthly_listeners": 2290000,
       "ytm_total_views": 558844389
+    },
+    {
+      "date": "2026-05-03",
+      "monthly_listeners": 1632405,
+      "collected_at": "2026-05-03T14:56:12.803407+00:00",
+      "spotify_followers": 1453327,
+      "youtube_subscribers": 867000,
+      "youtube_total_views": 560512131,
+      "youtube_video_count": 130,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 96283
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 78639
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 62221
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 34308
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 32273
+        }
+      ],
+      "lastfm_listeners": 57798,
+      "lastfm_playcount": 1604040,
+      "ytm_subscribers": 867000,
+      "ytm_monthly_listeners": 2230000,
+      "ytm_total_views": 559225526
     }
   ],
   "annotations": [
@@ -857,16 +898,16 @@
         "url": "https://www.last.fm/music/%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%97%E3%83%8F%E3%82%A4%E3%83%97"
       },
       {
-        "name": "Macaroni Empitsu",
-        "url": "https://www.last.fm/music/Macaroni+Empitsu"
-      },
-      {
         "name": "ねぐせ。",
         "url": "https://www.last.fm/music/%E3%81%AD%E3%81%90%E3%81%9B%E3%80%82"
       },
       {
-        "name": "This is LAST",
-        "url": "https://www.last.fm/music/This+is+LAST"
+        "name": "Macaroni Empitsu",
+        "url": "https://www.last.fm/music/Macaroni+Empitsu"
+      },
+      {
+        "name": "My Hair is Bad",
+        "url": "https://www.last.fm/music/My+Hair+is+Bad"
       }
     ],
     "lastfm_tags": [
@@ -880,17 +921,12 @@
       {
         "name": "the shes gone",
         "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
-        "subscribers": "233K"
+        "subscribers": "235K"
       },
       {
         "name": "KEPURA",
         "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
         "subscribers": "62.2K"
-      },
-      {
-        "name": "moon drop",
-        "browse_id": "UCPqgXlQbbSCVYuzUqN1G5hQ",
-        "subscribers": "191K"
       },
       {
         "name": "Mr.Forte",
@@ -905,7 +941,7 @@
       {
         "name": "TRACK15",
         "browse_id": "UCbTq_K3E9Vz8ehL62WwcwIA",
-        "subscribers": "201K"
+        "subscribers": "216K"
       },
       {
         "name": "bokula.",
@@ -915,17 +951,22 @@
       {
         "name": "Orange Spiny Crab",
         "browse_id": "UC4xFImWROIkfo8YXSgrxliQ",
-        "subscribers": "183K"
+        "subscribers": "186K"
       },
       {
         "name": "YUTORI-SEDAI",
         "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "418K"
+        "subscribers": "407K"
       },
       {
         "name": "YOAKE",
         "browse_id": "UCQE3bQBOx8YoxP3ghcXZs7g",
-        "subscribers": "119K"
+        "subscribers": "114K"
+      },
+      {
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "5.07M"
       }
     ],
     "ytm_top_songs": [
@@ -1069,6 +1110,12 @@
           "views": 3797971,
           "likes": 16159,
           "comments": 36
+        },
+        {
+          "date": "2026-05-03",
+          "views": 3811101,
+          "likes": 16231,
+          "comments": 36
         }
       ]
     },
@@ -1175,6 +1222,12 @@
           "date": "2026-05-02",
           "views": 4261225,
           "likes": 20148,
+          "comments": 40
+        },
+        {
+          "date": "2026-05-03",
+          "views": 4277244,
+          "likes": 20240,
           "comments": 40
         }
       ]
@@ -1295,6 +1348,12 @@
           "views": 2231708,
           "likes": 11968,
           "comments": 35
+        },
+        {
+          "date": "2026-05-03",
+          "views": 2240956,
+          "likes": 12035,
+          "comments": 35
         }
       ]
     },
@@ -1401,6 +1460,12 @@
           "date": "2026-05-02",
           "views": 2659120,
           "likes": 16055,
+          "comments": 38
+        },
+        {
+          "date": "2026-05-03",
+          "views": 2668362,
+          "likes": 16114,
           "comments": 38
         }
       ]
@@ -1521,6 +1586,12 @@
           "views": 1973866,
           "likes": 8422,
           "comments": 27
+        },
+        {
+          "date": "2026-05-03",
+          "views": 1981824,
+          "likes": 8466,
+          "comments": 27
         }
       ]
     },
@@ -1571,6 +1642,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-25T14:51:27.632760+00:00"
+    },
+    {
+      "date": "2026-05-03",
+      "metric": "monthly_listeners",
+      "value": 1632405,
+      "baseline_mean": 1622582.6,
+      "baseline_stddev": 4746.5,
+      "delta": 9822,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-03T14:56:14.419727+00:00"
     }
   ]
 }

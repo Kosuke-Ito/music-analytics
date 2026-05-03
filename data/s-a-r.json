@@ -899,6 +899,47 @@
       "ytm_subscribers": 13200,
       "ytm_monthly_listeners": 75500,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-03",
+      "monthly_listeners": 88729,
+      "collected_at": "2026-05-03T14:49:21.248881+00:00",
+      "spotify_followers": 27526,
+      "youtube_subscribers": 13200,
+      "youtube_total_views": 2182406,
+      "youtube_video_count": 76,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5981
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3170
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 2254
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1746
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1636
+        }
+      ],
+      "lastfm_listeners": 5587,
+      "lastfm_playcount": 39650,
+      "ytm_subscribers": 13200,
+      "ytm_monthly_listeners": 75800,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -988,17 +1029,12 @@
       {
         "name": "SALASA",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "85.8K"
+        "subscribers": "82.1K"
       },
       {
         "name": "reina",
         "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
         "subscribers": "3.2K"
-      },
-      {
-        "name": "Stefan Mahendra",
-        "browse_id": "UCMZcGfiJPXZ0plcOCQ2nuPQ",
-        "subscribers": "425"
       },
       {
         "name": "luvis",
@@ -1008,7 +1044,7 @@
       {
         "name": "Michael Kaneko",
         "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
-        "subscribers": "185K"
+        "subscribers": "180K"
       },
       {
         "name": "brkfstblend",
@@ -1018,12 +1054,17 @@
       {
         "name": "Nao Yoshioka",
         "browse_id": "UCs93X0FfTpRlxAMnmO94Kcw",
-        "subscribers": "83.9K"
+        "subscribers": "82.1K"
       },
       {
         "name": "Sweet William",
         "browse_id": "UCLloo-Tk9tYFMVYaKB8pasg",
-        "subscribers": "762K"
+        "subscribers": "729K"
+      },
+      {
+        "name": "VivaOla",
+        "browse_id": "UCXKPH3GxEmbU_hhK4kCVcUg",
+        "subscribers": "10.3K"
       }
     ],
     "ytm_top_songs": [
@@ -1172,6 +1213,12 @@
           "views": 199178,
           "likes": 2678,
           "comments": 8
+        },
+        {
+          "date": "2026-05-03",
+          "views": 199451,
+          "likes": 2682,
+          "comments": 8
         }
       ]
     },
@@ -1296,6 +1343,12 @@
           "date": "2026-05-02",
           "views": 9454,
           "likes": 165,
+          "comments": 4
+        },
+        {
+          "date": "2026-05-03",
+          "views": 9583,
+          "likes": 166,
           "comments": 4
         }
       ]
@@ -1422,6 +1475,12 @@
           "views": 70414,
           "likes": 809,
           "comments": 7
+        },
+        {
+          "date": "2026-05-03",
+          "views": 70551,
+          "likes": 811,
+          "comments": 7
         }
       ]
     },
@@ -1534,6 +1593,12 @@
           "date": "2026-05-02",
           "views": 92957,
           "likes": 878,
+          "comments": 3
+        },
+        {
+          "date": "2026-05-03",
+          "views": 93127,
+          "likes": 880,
           "comments": 3
         }
       ]
@@ -1671,6 +1736,12 @@
           "views": 16822,
           "likes": 349,
           "comments": 5
+        },
+        {
+          "date": "2026-05-03",
+          "views": 17287,
+          "likes": 360,
+          "comments": 5
         }
       ]
     },
@@ -1752,6 +1823,18 @@
       "type": "annotated",
       "related_annotation": "「Daylight」効果継続＋メジャー1stアルバム発表でSpotifyリスナー急増（+4,399人・3.14σ）",
       "detected_at": "2026-05-02T14:49:28.374263+00:00"
+    },
+    {
+      "date": "2026-05-03",
+      "metric": "monthly_listeners",
+      "value": 88729,
+      "baseline_mean": 80334.5,
+      "baseline_stddev": 2809.3,
+      "delta": 8394,
+      "score": 2.99,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-03T14:49:22.384229+00:00"
     }
   ]
 }

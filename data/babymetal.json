@@ -821,6 +821,47 @@
       "ytm_subscribers": 3610000,
       "ytm_monthly_listeners": 7570000,
       "ytm_total_views": 1052439111
+    },
+    {
+      "date": "2026-05-03",
+      "monthly_listeners": 3517708,
+      "collected_at": "2026-05-03T14:57:48.676638+00:00",
+      "spotify_followers": 2964025,
+      "youtube_subscribers": 3610000,
+      "youtube_total_views": 1060072705,
+      "youtube_video_count": 351,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 65294
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 61259
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 48124
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 41814
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 39867
+        }
+      ],
+      "lastfm_listeners": 962071,
+      "lastfm_playcount": 58511047,
+      "ytm_subscribers": 3610000,
+      "ytm_monthly_listeners": 7710000,
+      "ytm_total_views": 1052439111
     }
   ],
   "annotations": [
@@ -919,16 +960,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Bullet For My Valentine",
-        "browse_id": "UCTmXENHeU8wvjd4I180VdBw",
-        "subscribers": "3.48M"
-      },
-      {
-        "name": "Maximum the Hormone",
-        "browse_id": "UC10viXnr5P30UrEb36Y984g",
-        "subscribers": "1.87M"
-      },
-      {
         "name": "Sakura Gakuin",
         "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
         "subscribers": "7.56K"
@@ -936,7 +967,7 @@
       {
         "name": "Ladybaby",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "126K"
+        "subscribers": "127K"
       },
       {
         "name": "Mellows",
@@ -946,7 +977,7 @@
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "272K"
+        "subscribers": "273K"
       },
       {
         "name": "Bridear",
@@ -966,7 +997,17 @@
       {
         "name": "RYUJIN",
         "browse_id": "UCykkX9zsEkUzPhAifYbn6XA",
-        "subscribers": "165K"
+        "subscribers": "153K"
+      },
+      {
+        "name": "Samurai Pizza Cats",
+        "browse_id": "UCmugf8X2AoaHYIQusakggUQ",
+        "subscribers": "477K"
+      },
+      {
+        "name": "MAZE",
+        "browse_id": "UCRTdGtqdQhbQt4WkWq0BVtg",
+        "subscribers": "1.72K"
       }
     ],
     "ytm_top_songs": [
@@ -1110,6 +1151,12 @@
           "views": 6346423,
           "likes": 74992,
           "comments": 235
+        },
+        {
+          "date": "2026-05-03",
+          "views": 6366874,
+          "likes": 75185,
+          "comments": 236
         }
       ]
     },
@@ -1229,6 +1276,12 @@
           "views": 4014098,
           "likes": 83171,
           "comments": 429
+        },
+        {
+          "date": "2026-05-03",
+          "views": 4027775,
+          "likes": 83378,
+          "comments": 421
         }
       ]
     },
@@ -1348,6 +1401,12 @@
           "views": 4428256,
           "likes": 64830,
           "comments": 212
+        },
+        {
+          "date": "2026-05-03",
+          "views": 4439963,
+          "likes": 64941,
+          "comments": 211
         }
       ]
     },
@@ -1467,6 +1526,12 @@
           "views": 1801307,
           "likes": 35758,
           "comments": 203
+        },
+        {
+          "date": "2026-05-03",
+          "views": 1808890,
+          "likes": 35902,
+          "comments": 204
         }
       ]
     },
@@ -1586,6 +1651,12 @@
           "views": 3319806,
           "likes": 65635,
           "comments": 287
+        },
+        {
+          "date": "2026-05-03",
+          "views": 3332163,
+          "likes": 65827,
+          "comments": 285
         }
       ]
     }
@@ -1674,6 +1745,18 @@
       "type": "annotated",
       "related_annotation": "ラテンアメリカツアー波及継続でYTM月間リスナーが増加（+590,000・2.01σ）",
       "detected_at": "2026-04-30T16:00:34.258032+00:00"
+    },
+    {
+      "date": "2026-05-03",
+      "metric": "ytm_monthly_listeners",
+      "value": 7710000,
+      "baseline_mean": 6867000,
+      "baseline_stddev": 396018.9,
+      "delta": 843000,
+      "score": 2.13,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-03T14:57:49.995306+00:00"
     }
   ]
 }

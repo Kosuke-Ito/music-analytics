@@ -821,6 +821,47 @@
       "ytm_subscribers": 581000,
       "ytm_monthly_listeners": 5020000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-03",
+      "monthly_listeners": 2293927,
+      "collected_at": "2026-05-03T14:55:57.045536+00:00",
+      "spotify_followers": 1919614,
+      "youtube_subscribers": 581000,
+      "youtube_total_views": 476629354,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 135613
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 117695
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 86523
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 50857
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 44911
+        }
+      ],
+      "lastfm_listeners": 7100,
+      "lastfm_playcount": 380907,
+      "ytm_subscribers": 581000,
+      "ytm_monthly_listeners": 5040000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -909,27 +950,12 @@
       {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "5.03M"
+        "subscribers": "5.07M"
       },
       {
         "name": "go!go!vanillas",
         "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
-        "subscribers": "886K"
-      },
-      {
-        "name": "Saucy Dog",
-        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.29M"
-      },
-      {
-        "name": "CreepHyp",
-        "browse_id": "UC0iyL2tAxXXuwfx8VVvCw1A",
-        "subscribers": "2.04M"
-      },
-      {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "14.8M"
+        "subscribers": "898K"
       },
       {
         "name": "SUPER BEAVER",
@@ -937,14 +963,29 @@
         "subscribers": "2.99M"
       },
       {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "9.42M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "14.8M"
+      },
+      {
+        "name": "RADWIMPS",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "66.6M"
+      },
+      {
+        "name": "Saucy Dog",
+        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
+        "subscribers": "2.23M"
       },
       {
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "8.8M"
+        "subscribers": "8.62M"
+      },
+      {
+        "name": "Tele",
+        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
+        "subscribers": "608K"
       },
       {
         "name": "SHISHAMO",
@@ -952,9 +993,9 @@
         "subscribers": "2.1M"
       },
       {
-        "name": "RADWIMPS",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "66.8M"
+        "name": "CreepHyp",
+        "browse_id": "UC0iyL2tAxXXuwfx8VVvCw1A",
+        "subscribers": "2.08M"
       }
     ],
     "ytm_top_songs": [
@@ -1097,6 +1138,12 @@
           "views": 11115762,
           "likes": 64388,
           "comments": 127
+        },
+        {
+          "date": "2026-05-03",
+          "views": 11135192,
+          "likes": 64509,
+          "comments": 127
         }
       ]
     },
@@ -1216,6 +1263,12 @@
           "views": 23252698,
           "likes": 82212,
           "comments": 157
+        },
+        {
+          "date": "2026-05-03",
+          "views": 23275048,
+          "likes": 82353,
+          "comments": 158
         }
       ]
     },
@@ -1322,6 +1375,12 @@
           "date": "2026-05-02",
           "views": 15800574,
           "likes": 56970,
+          "comments": 108
+        },
+        {
+          "date": "2026-05-03",
+          "views": 15817316,
+          "likes": 57068,
           "comments": 108
         }
       ]
@@ -1442,6 +1501,12 @@
           "views": 43944467,
           "likes": 134829,
           "comments": 227
+        },
+        {
+          "date": "2026-05-03",
+          "views": 43961052,
+          "likes": 134927,
+          "comments": 229
         }
       ]
     },
@@ -1583,6 +1648,12 @@
           "views": 14668617,
           "likes": 94220,
           "comments": 487
+        },
+        {
+          "date": "2026-05-03",
+          "views": 14694242,
+          "likes": 94344,
+          "comments": 488
         }
       ]
     }
@@ -1635,6 +1706,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-02T14:56:11.574303+00:00"
+    },
+    {
+      "date": "2026-05-03",
+      "metric": "monthly_listeners",
+      "value": 2293927,
+      "baseline_mean": 2273386.0,
+      "baseline_stddev": 5063.7,
+      "delta": 20541,
+      "score": 4.06,
+      "type": "annotated",
+      "related_annotation": "JAPAN JAM 2026（5/2出演）直前とマカロックツアーvol.22ローチケ先行でYouTube再生数が増加（+525万, 2.27σ）",
+      "detected_at": "2026-05-03T14:55:58.565074+00:00"
     }
   ]
 }
