@@ -945,40 +945,40 @@
       "date": "2026-05-04",
       "monthly_listeners": 88729,
       "collected_at": "2026-05-03T14:49:21.248881+00:00",
-      "spotify_followers": 27526,
-      "youtube_subscribers": 13200,
-      "youtube_total_views": 2182406,
+      "spotify_followers": 27867,
+      "youtube_subscribers": 13300,
+      "youtube_total_views": 2209232,
       "youtube_video_count": 76,
       "top_cities": [
         {
           "city": "Tokyo",
           "country": "JP",
-          "listeners": 5981
+          "listeners": 6034
         },
         {
           "city": "Osaka",
           "country": "JP",
-          "listeners": 3170
+          "listeners": 3212
         },
         {
           "city": "Taipei",
           "country": "TW",
-          "listeners": 2254
+          "listeners": 2314
         },
         {
           "city": "Nagoya",
           "country": "JP",
-          "listeners": 1746
+          "listeners": 1768
         },
         {
           "city": "Yokohama",
           "country": "JP",
-          "listeners": 1636
+          "listeners": 1656
         }
       ],
-      "lastfm_listeners": 5587,
-      "lastfm_playcount": 39650,
-      "ytm_subscribers": 13200,
+      "lastfm_listeners": 5598,
+      "lastfm_playcount": 39838,
+      "ytm_subscribers": 13300,
       "ytm_monthly_listeners": 75800,
       "ytm_total_views": 0
     },
@@ -1109,7 +1109,7 @@
       {
         "name": "Ovall",
         "browse_id": "UCuA82nnWojpMgjBqCnbQDmQ",
-        "subscribers": "505K"
+        "subscribers": "508K"
       },
       {
         "name": "Geloomy",
@@ -1119,12 +1119,12 @@
       {
         "name": "SALASA",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "82.1K"
+        "subscribers": "81.2K"
       },
       {
         "name": "reina",
         "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
-        "subscribers": "3.2K"
+        "subscribers": "3.21K"
       },
       {
         "name": "luvis",
@@ -1134,22 +1134,22 @@
       {
         "name": "Michael Kaneko",
         "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
-        "subscribers": "180K"
+        "subscribers": "179K"
       },
       {
         "name": "brkfstblend",
         "browse_id": "UC50NOIaEJkr_t3BKvPYFXdQ",
-        "subscribers": "3.21K"
+        "subscribers": "3.22K"
       },
       {
         "name": "Nao Yoshioka",
         "browse_id": "UCs93X0FfTpRlxAMnmO94Kcw",
-        "subscribers": "82.1K"
+        "subscribers": "81.4K"
       },
       {
         "name": "Sweet William",
         "browse_id": "UCLloo-Tk9tYFMVYaKB8pasg",
-        "subscribers": "729K"
+        "subscribers": "719K"
       },
       {
         "name": "VivaOla",
@@ -1309,6 +1309,12 @@
           "views": 199451,
           "likes": 2682,
           "comments": 8
+        },
+        {
+          "date": "2026-05-04",
+          "views": 200139,
+          "likes": 2693,
+          "comments": 8
         }
       ]
     },
@@ -1439,6 +1445,12 @@
           "date": "2026-05-03",
           "views": 9583,
           "likes": 166,
+          "comments": 4
+        },
+        {
+          "date": "2026-05-04",
+          "views": 9939,
+          "likes": 172,
           "comments": 4
         }
       ]
@@ -1571,6 +1583,12 @@
           "views": 70551,
           "likes": 811,
           "comments": 7
+        },
+        {
+          "date": "2026-05-04",
+          "views": 71235,
+          "likes": 820,
+          "comments": 7
         }
       ]
     },
@@ -1689,6 +1707,12 @@
           "date": "2026-05-03",
           "views": 93127,
           "likes": 880,
+          "comments": 3
+        },
+        {
+          "date": "2026-05-04",
+          "views": 93627,
+          "likes": 885,
           "comments": 3
         }
       ]
@@ -1832,6 +1856,12 @@
           "views": 17287,
           "likes": 360,
           "comments": 5
+        },
+        {
+          "date": "2026-05-04",
+          "views": 18488,
+          "likes": 385,
+          "comments": 6
         }
       ]
     },
@@ -1925,6 +1955,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-03T14:49:22.384229+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "monthly_listeners",
+      "value": 88729,
+      "baseline_mean": 81034.0,
+      "baseline_stddev": 3552.1,
+      "delta": 7694,
+      "score": 2.17,
+      "type": "annotated",
+      "related_annotation": "「Daylight」・メジャー1stアルバム「Be Kool Rewind」（5/27）プロモーション継続でSpotify月間リスナーが急増（+8,394人・2.99σ）",
+      "detected_at": "2026-05-06T06:03:02.423356+00:00"
     }
   ]
 }

@@ -982,7 +982,7 @@
       "date": "2026-05-04",
       "monthly_listeners": 244105,
       "collected_at": "2026-05-03T14:42:37.502903+00:00",
-      "spotify_followers": 140584,
+      "spotify_followers": 140641,
       "youtube_subscribers": 102000,
       "youtube_total_views": 42856891,
       "youtube_video_count": 243,
@@ -990,33 +990,33 @@
         {
           "city": "Tokyo",
           "country": "JP",
-          "listeners": 10251
+          "listeners": 9990
         },
         {
           "city": "Osaka",
           "country": "JP",
-          "listeners": 8724
+          "listeners": 8512
         },
         {
           "city": "Nagoya",
           "country": "JP",
-          "listeners": 5034
+          "listeners": 4921
         },
         {
           "city": "Yokohama",
           "country": "JP",
-          "listeners": 3536
+          "listeners": 3453
         },
         {
           "city": "Fukuoka",
           "country": "JP",
-          "listeners": 2499
+          "listeners": 2423
         }
       ],
-      "lastfm_listeners": 69329,
-      "lastfm_playcount": 1167496,
+      "lastfm_listeners": 69381,
+      "lastfm_playcount": 1168545,
       "ytm_subscribers": 102000,
-      "ytm_monthly_listeners": 234000,
+      "ytm_monthly_listeners": 232000,
       "ytm_total_views": 42688675
     },
     {
@@ -1087,9 +1087,9 @@
     "lastfm_tags": [
       "rock",
       "japanese",
-      "garage",
       "punk",
-      "J-rock"
+      "garage",
+      "psychedelic"
     ],
     "ytm_top_songs": [
       {
@@ -1117,32 +1117,32 @@
       {
         "name": "genie high",
         "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "526K"
+        "subscribers": "525K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "106K"
+        "subscribers": "107K"
       },
       {
         "name": "Akai Ko-En",
         "browse_id": "UCVPEVqfO021f0jXz3sWNGSA",
-        "subscribers": "90.5K"
+        "subscribers": "90.1K"
       },
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "129K"
+        "subscribers": "127K"
       },
       {
         "name": "Yoru no Honki Dance",
         "browse_id": "UCaZGUqEL8pzFRgLXXJ4dL2Q",
-        "subscribers": "80.8K"
+        "subscribers": "80.7K"
       },
       {
         "name": "w.o.d.",
         "browse_id": "UCiylP7HTmtQZO9hi-B5wnCg",
-        "subscribers": "321K"
+        "subscribers": "319K"
       },
       {
         "name": "The Ricecookers",
@@ -1152,17 +1152,17 @@
       {
         "name": "Wasureranneyo",
         "browse_id": "UCv3Y-_JVxHwYjnMoqGPMuyw",
-        "subscribers": "180K"
+        "subscribers": "187K"
       },
       {
         "name": "yonige",
         "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
-        "subscribers": "225K"
+        "subscribers": "232K"
       },
       {
         "name": "Ryujin Kiyoshi",
         "browse_id": "UCV1w2mpNpuTEM_ttJ0Zd6Ow",
-        "subscribers": "190K"
+        "subscribers": "196K"
       }
     ],
     "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia ("
@@ -1351,6 +1351,12 @@
           "views": 10992,
           "likes": 156,
           "comments": 3
+        },
+        {
+          "date": "2026-05-04",
+          "views": 11148,
+          "likes": 155,
+          "comments": 3
         }
       ]
     },
@@ -1482,6 +1488,12 @@
           "views": 874741,
           "likes": 11194,
           "comments": 28
+        },
+        {
+          "date": "2026-05-04",
+          "views": 876161,
+          "likes": 11206,
+          "comments": 28
         }
       ]
     },
@@ -1611,6 +1623,12 @@
         {
           "date": "2026-05-03",
           "views": 3176,
+          "likes": 30,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-04",
+          "views": 3231,
           "likes": 30,
           "comments": 0
         }
@@ -1744,6 +1762,12 @@
           "views": 212555,
           "likes": 1601,
           "comments": 5
+        },
+        {
+          "date": "2026-05-04",
+          "views": 213110,
+          "likes": 1602,
+          "comments": 5
         }
       ]
     },
@@ -1875,6 +1899,12 @@
           "views": 396064,
           "likes": 5913,
           "comments": 20
+        },
+        {
+          "date": "2026-05-04",
+          "views": 396777,
+          "likes": 5920,
+          "comments": 20
         }
       ]
     }
@@ -1954,6 +1984,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-03T14:42:39.021309+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "youtube_total_views",
+      "value": 42856891,
+      "baseline_mean": 42581252.6,
+      "baseline_stddev": 123423.2,
+      "delta": 275638,
+      "score": 2.23,
+      "type": "annotated",
+      "related_annotation": "5/1急増後（4/30動画追加）のベースライン追い上げ中に再検知（4.21σ）",
+      "detected_at": "2026-05-06T05:56:33.637290+00:00"
     }
   ]
 }
