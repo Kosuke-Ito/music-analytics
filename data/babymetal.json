@@ -908,7 +908,7 @@
       "date": "2026-05-05",
       "monthly_listeners": 3517708,
       "collected_at": "2026-05-03T14:57:48.676638+00:00",
-      "spotify_followers": 2964025,
+      "spotify_followers": 2967244,
       "youtube_subscribers": 3610000,
       "youtube_total_views": 1060072705,
       "youtube_video_count": 351,
@@ -916,33 +916,33 @@
         {
           "city": "Mexico City",
           "country": "MX",
-          "listeners": 65294
+          "listeners": 64282
         },
         {
           "city": "São Paulo",
           "country": "BR",
-          "listeners": 61259
+          "listeners": 60884
         },
         {
           "city": "Santiago",
           "country": "CL",
-          "listeners": 48124
+          "listeners": 48034
         },
         {
           "city": "London",
           "country": "GB",
-          "listeners": 41814
+          "listeners": 42082
         },
         {
           "city": "Frankfurt am Main",
           "country": "DE",
-          "listeners": 39867
+          "listeners": 40184
         }
       ],
-      "lastfm_listeners": 962071,
-      "lastfm_playcount": 58511047,
+      "lastfm_listeners": 963263,
+      "lastfm_playcount": 58587730,
       "ytm_subscribers": 3610000,
-      "ytm_monthly_listeners": 7710000,
+      "ytm_monthly_listeners": 7920000,
       "ytm_total_views": 1052439111
     }
   ],
@@ -1065,6 +1065,11 @@
         "subscribers": "4.11K"
       },
       {
+        "name": "NEMOPHILA",
+        "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
+        "subscribers": "271K"
+      },
+      {
         "name": "Bridear",
         "browse_id": "UCP6kdvZVATSyi1TOmgia5Fg",
         "subscribers": "39.7K"
@@ -1093,11 +1098,6 @@
         "name": "MAZE",
         "browse_id": "UCRTdGtqdQhbQt4WkWq0BVtg",
         "subscribers": "1.73K"
-      },
-      {
-        "name": "Ankor",
-        "browse_id": "UCOqsLFStKGClenRjiN1Ftbg",
-        "subscribers": "375K"
       }
     ],
     "ytm_top_songs": [
@@ -1253,6 +1253,12 @@
           "views": 6429011,
           "likes": 75762,
           "comments": 236
+        },
+        {
+          "date": "2026-05-05",
+          "views": 6429344,
+          "likes": 75765,
+          "comments": 236
         }
       ]
     },
@@ -1383,6 +1389,12 @@
           "date": "2026-05-04",
           "views": 4067687,
           "likes": 84078,
+          "comments": 430
+        },
+        {
+          "date": "2026-05-05",
+          "views": 4067859,
+          "likes": 84081,
           "comments": 430
         }
       ]
@@ -1515,6 +1527,12 @@
           "views": 4475334,
           "likes": 65276,
           "comments": 212
+        },
+        {
+          "date": "2026-05-05",
+          "views": 4475488,
+          "likes": 65279,
+          "comments": 212
         }
       ]
     },
@@ -1646,6 +1664,12 @@
           "views": 1830789,
           "likes": 36262,
           "comments": 210
+        },
+        {
+          "date": "2026-05-05",
+          "views": 1830878,
+          "likes": 36264,
+          "comments": 209
         }
       ]
     },
@@ -1777,6 +1801,12 @@
           "views": 3368695,
           "likes": 66412,
           "comments": 289
+        },
+        {
+          "date": "2026-05-05",
+          "views": 3368829,
+          "likes": 66413,
+          "comments": 289
         }
       ]
     }
@@ -1877,6 +1907,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-03T14:57:49.995306+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "ytm_monthly_listeners",
+      "value": 7920000,
+      "baseline_mean": 6953181.8,
+      "baseline_stddev": 466742.9,
+      "delta": 966818,
+      "score": 2.07,
+      "type": "annotated",
+      "related_annotation": "Copenhell 2026チケット完売報道でYTM月間リスナーが増加（+843,000・2.13σ）",
+      "detected_at": "2026-05-06T06:32:19.669654+00:00"
     }
   ]
 }

@@ -908,42 +908,42 @@
       "date": "2026-05-05",
       "monthly_listeners": 3263278,
       "collected_at": "2026-05-03T14:55:09.430671+00:00",
-      "spotify_followers": 1885897,
+      "spotify_followers": 1892470,
       "youtube_subscribers": 1280000,
-      "youtube_total_views": 1140707537,
-      "youtube_video_count": 496,
+      "youtube_total_views": 1147943202,
+      "youtube_video_count": 497,
       "top_cities": [
         {
           "city": "Tokyo",
           "country": "JP",
-          "listeners": 176548
+          "listeners": 177693
         },
         {
           "city": "Osaka",
           "country": "JP",
-          "listeners": 155018
+          "listeners": 154141
         },
         {
           "city": "Nagoya",
           "country": "JP",
-          "listeners": 101377
+          "listeners": 102390
         },
         {
           "city": "Yokohama",
           "country": "JP",
-          "listeners": 64559
+          "listeners": 64891
         },
         {
           "city": "Fukuoka",
           "country": "JP",
-          "listeners": 40821
+          "listeners": 41572
         }
       ],
-      "lastfm_listeners": 58679,
-      "lastfm_playcount": 15791071,
+      "lastfm_listeners": 58731,
+      "lastfm_playcount": 15798210,
       "ytm_subscribers": 1280000,
-      "ytm_monthly_listeners": 49300000,
-      "ytm_total_views": 1095490674
+      "ytm_monthly_listeners": 50600000,
+      "ytm_total_views": 1101263466
     }
   ],
   "annotations": [
@@ -1070,19 +1070,14 @@
         "subscribers": "3.94M"
       },
       {
-        "name": "Hitsujibungaku",
-        "browse_id": "UCnZK-AT0Yrx8uXcFRqUy87g",
-        "subscribers": "6.2M"
-      },
-      {
         "name": "jo0ji",
         "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
         "subscribers": "2.12M"
       },
       {
-        "name": "Fujifabric",
-        "browse_id": "UCFRvee2fH0Fo6WRKGZuk7SQ",
-        "subscribers": "1.25M"
+        "name": "Hitsujibungaku",
+        "browse_id": "UCnZK-AT0Yrx8uXcFRqUy87g",
+        "subscribers": "6.2M"
       },
       {
         "name": "Quruli",
@@ -1095,14 +1090,14 @@
         "subscribers": "863K"
       },
       {
+        "name": "Fujifabric",
+        "browse_id": "UCFRvee2fH0Fo6WRKGZuk7SQ",
+        "subscribers": "1.25M"
+      },
+      {
         "name": "PEOPLE 1",
         "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
         "subscribers": "618K"
-      },
-      {
-        "name": "MILLENNIUM PARADE",
-        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
-        "subscribers": "1.11M"
       },
       {
         "name": "RADWIMPS",
@@ -1110,9 +1105,14 @@
         "subscribers": "66.7M"
       },
       {
-        "name": "Sheena Ringo",
-        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
-        "subscribers": "6.14M"
+        "name": "MILLENNIUM PARADE",
+        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
+        "subscribers": "1.11M"
+      },
+      {
+        "name": "星野源 Gen Hoshino",
+        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
+        "subscribers": "8.55M"
       }
     ],
     "ytm_top_songs": [
@@ -1268,6 +1268,12 @@
           "views": 63535992,
           "likes": 383421,
           "comments": 1165
+        },
+        {
+          "date": "2026-05-05",
+          "views": 63537978,
+          "likes": 383423,
+          "comments": 1165
         }
       ]
     },
@@ -1398,6 +1404,12 @@
           "date": "2026-05-04",
           "views": 48322481,
           "likes": 184864,
+          "comments": 398
+        },
+        {
+          "date": "2026-05-05",
+          "views": 48323287,
+          "likes": 184867,
           "comments": 398
         }
       ]
@@ -1530,6 +1542,12 @@
           "views": 4537618,
           "likes": 54368,
           "comments": 1544
+        },
+        {
+          "date": "2026-05-05",
+          "views": 4538285,
+          "likes": 54370,
+          "comments": 1544
         }
       ]
     },
@@ -1661,6 +1679,12 @@
           "views": 12669269,
           "likes": 80941,
           "comments": 371
+        },
+        {
+          "date": "2026-05-05",
+          "views": 12672228,
+          "likes": 80978,
+          "comments": 372
         }
       ]
     },
@@ -1791,6 +1815,12 @@
           "date": "2026-05-04",
           "views": 20002815,
           "likes": 112991,
+          "comments": 190
+        },
+        {
+          "date": "2026-05-05",
+          "views": 20003165,
+          "likes": 112996,
           "comments": 190
         }
       ]
@@ -2036,6 +2066,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-06T06:08:34.872307+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "ytm_monthly_listeners",
+      "value": 50600000,
+      "baseline_mean": 43545454.5,
+      "baseline_stddev": 3048505.9,
+      "delta": 7054545,
+      "score": 2.31,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-06T06:29:30.113279+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "youtube_total_views",
+      "value": 1147943202,
+      "baseline_mean": 1123441938.3,
+      "baseline_stddev": 9256748.4,
+      "delta": 24501263,
+      "score": 2.65,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-06T06:29:30.113279+00:00"
     }
   ]
 }

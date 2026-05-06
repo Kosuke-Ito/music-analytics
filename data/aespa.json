@@ -1208,42 +1208,42 @@
       "date": "2026-05-05",
       "monthly_listeners": 9498703,
       "collected_at": "2026-05-03T14:50:07.719562+00:00",
-      "spotify_followers": 10944219,
-      "youtube_subscribers": 8310000,
-      "youtube_total_views": 5853449033,
-      "youtube_video_count": 1571,
+      "spotify_followers": 10972238,
+      "youtube_subscribers": 8320000,
+      "youtube_total_views": 5871231699,
+      "youtube_video_count": 1582,
       "top_cities": [
         {
           "city": "Taipei",
           "country": "TW",
-          "listeners": 197702
+          "listeners": 196200
         },
         {
           "city": "Kuala Lumpur",
           "country": "MY",
-          "listeners": 184343
-        },
-        {
-          "city": "Jakarta",
-          "country": "ID",
-          "listeners": 166571
+          "listeners": 183898
         },
         {
           "city": "Singapore",
           "country": "SG",
-          "listeners": 156938
+          "listeners": 156147
         },
         {
           "city": "Bangkok",
           "country": "TH",
-          "listeners": 154544
+          "listeners": 153697
+        },
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 153281
         }
       ],
-      "lastfm_listeners": 1339464,
-      "lastfm_playcount": 269666955,
-      "ytm_subscribers": 8310000,
-      "ytm_monthly_listeners": 43300000,
-      "ytm_total_views": 5220585031
+      "lastfm_listeners": 1341698,
+      "lastfm_playcount": 270094083,
+      "ytm_subscribers": 8320000,
+      "ytm_monthly_listeners": 43200000,
+      "ytm_total_views": 5232694047
     }
   ],
   "annotations": [
@@ -1375,19 +1375,9 @@
         "subscribers": "7.04M"
       },
       {
-        "name": "NAYEON",
-        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
-        "subscribers": "331K"
-      },
-      {
         "name": "IZ*ONE",
         "browse_id": "UCG81UKNsFg9Perf0uPQOsQw",
         "subscribers": "4.93M"
-      },
-      {
-        "name": "MEOVV",
-        "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
-        "subscribers": "11.1M"
       },
       {
         "name": "JEON SOMI",
@@ -1395,9 +1385,19 @@
         "subscribers": "5.99M"
       },
       {
-        "name": "TWICE",
-        "browse_id": "UCAq0pFGa2w9SjxOq0ZxKVIw",
-        "subscribers": "212M"
+        "name": "MEOVV",
+        "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
+        "subscribers": "11.1M"
+      },
+      {
+        "name": "Red Velvet",
+        "browse_id": "UCHmZYTfdTyVKQEJicLiXEOg",
+        "subscribers": "21.7M"
+      },
+      {
+        "name": "NAYEON",
+        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
+        "subscribers": "331K"
       },
       {
         "name": "fromis_9",
@@ -1410,9 +1410,9 @@
         "subscribers": "74.8M"
       },
       {
-        "name": "Red Velvet",
-        "browse_id": "UCHmZYTfdTyVKQEJicLiXEOg",
-        "subscribers": "21.7M"
+        "name": "izna",
+        "browse_id": "UC9Om0aDfMMzXtElCJWF41FQ",
+        "subscribers": "3.73M"
       }
     ],
     "ytm_top_songs": [
@@ -1574,6 +1574,12 @@
           "views": 67736090,
           "likes": 363625,
           "comments": 1598
+        },
+        {
+          "date": "2026-05-05",
+          "views": 67736512,
+          "likes": 363627,
+          "comments": 1598
         }
       ]
     },
@@ -1710,6 +1716,12 @@
           "date": "2026-05-04",
           "views": 218814956,
           "likes": 803348,
+          "comments": 3309
+        },
+        {
+          "date": "2026-05-05",
+          "views": 218816353,
+          "likes": 803354,
           "comments": 3309
         }
       ]
@@ -1848,6 +1860,12 @@
           "views": 28629193,
           "likes": 161892,
           "comments": 541
+        },
+        {
+          "date": "2026-05-05",
+          "views": 28629439,
+          "likes": 161896,
+          "comments": 541
         }
       ]
     },
@@ -1971,6 +1989,12 @@
         {
           "date": "2026-05-04",
           "views": 27291855,
+          "likes": 161067,
+          "comments": 576
+        },
+        {
+          "date": "2026-05-05",
+          "views": 27292157,
           "likes": 161067,
           "comments": 576
         }
@@ -2127,6 +2151,12 @@
           "views": 15744737,
           "likes": 109894,
           "comments": 1126
+        },
+        {
+          "date": "2026-05-05",
+          "views": 15744913,
+          "likes": 109894,
+          "comments": 1126
         }
       ]
     }
@@ -2227,6 +2257,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-02T14:50:15.936412+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "youtube_total_views",
+      "value": 5871231699,
+      "baseline_mean": 5819943102.5,
+      "baseline_stddev": 22302101.1,
+      "delta": 51288596,
+      "score": 2.3,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-06T06:24:13.063656+00:00"
     }
   ]
 }

@@ -908,42 +908,42 @@
       "date": "2026-05-05",
       "monthly_listeners": 3633009,
       "collected_at": "2026-05-03T14:55:41.203600+00:00",
-      "spotify_followers": 1599764,
+      "spotify_followers": 1604626,
       "youtube_subscribers": 1820000,
-      "youtube_total_views": 1133199671,
+      "youtube_total_views": 1144961843,
       "youtube_video_count": 142,
       "top_cities": [
         {
           "city": "Osaka",
           "country": "JP",
-          "listeners": 187430
+          "listeners": 180954
         },
         {
           "city": "Tokyo",
           "country": "JP",
-          "listeners": 166080
+          "listeners": 163711
         },
         {
           "city": "Nagoya",
           "country": "JP",
-          "listeners": 121043
+          "listeners": 118181
         },
         {
           "city": "Yokohama",
           "country": "JP",
-          "listeners": 66981
+          "listeners": 65601
         },
         {
           "city": "Fukuoka",
           "country": "JP",
-          "listeners": 57403
+          "listeners": 56477
         }
       ],
-      "lastfm_listeners": 12372,
-      "lastfm_playcount": 484255,
+      "lastfm_listeners": 12395,
+      "lastfm_playcount": 485102,
       "ytm_subscribers": 1820000,
-      "ytm_monthly_listeners": 20100000,
-      "ytm_total_views": 1109490628
+      "ytm_monthly_listeners": 19000000,
+      "ytm_total_views": 1120742231
     }
   ],
   "annotations": [
@@ -1048,6 +1048,11 @@
         "subscribers": "573K"
       },
       {
+        "name": "NENE",
+        "browse_id": "UCf9KAcwb8RuJkf6I41eLv-w",
+        "subscribers": "4.93K"
+      },
+      {
         "name": "Kana Nishino",
         "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
         "subscribers": "5.43M"
@@ -1058,24 +1063,19 @@
         "subscribers": "2.2M"
       },
       {
-        "name": "NENE",
-        "browse_id": "UCf9KAcwb8RuJkf6I41eLv-w",
-        "subscribers": "4.93K"
-      },
-      {
         "name": "Thelma Aoyama",
         "browse_id": "UCiQJ6RsG3tyZwn2-m7gnkUg",
         "subscribers": "1.15M"
       },
       {
-        "name": "Awich",
-        "browse_id": "UCvWgKgu9_3GTJulSpz1UN1Q",
-        "subscribers": "2.25M"
-      },
-      {
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
         "subscribers": "1.2M"
+      },
+      {
+        "name": "Awich",
+        "browse_id": "UCvWgKgu9_3GTJulSpz1UN1Q",
+        "subscribers": "2.25M"
       },
       {
         "name": "HANA",
@@ -1235,6 +1235,12 @@
           "date": "2026-05-04",
           "views": 3408522,
           "likes": 38273,
+          "comments": 154
+        },
+        {
+          "date": "2026-05-05",
+          "views": 3408780,
+          "likes": 38274,
           "comments": 154
         }
       ]
@@ -1420,6 +1426,12 @@
           "views": 31090513,
           "likes": 121714,
           "comments": 203
+        },
+        {
+          "date": "2026-05-05",
+          "views": 31090977,
+          "likes": 121713,
+          "comments": 203
         }
       ]
     },
@@ -1550,6 +1562,12 @@
           "date": "2026-05-04",
           "views": 26461443,
           "likes": 109592,
+          "comments": 262
+        },
+        {
+          "date": "2026-05-05",
+          "views": 26461824,
+          "likes": 109593,
           "comments": 262
         }
       ]
@@ -1682,6 +1700,12 @@
           "views": 310687,
           "likes": 2274,
           "comments": 23
+        },
+        {
+          "date": "2026-05-05",
+          "views": 310687,
+          "likes": 2274,
+          "comments": 23
         }
       ]
     },
@@ -1765,6 +1789,12 @@
           "views": 31943704,
           "likes": 122348,
           "comments": 362
+        },
+        {
+          "date": "2026-05-05",
+          "views": 31944216,
+          "likes": 122350,
+          "comments": 362
         }
       ]
     }
@@ -1781,6 +1811,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-25T10:49:55.172962+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "youtube_total_views",
+      "value": 1144961843,
+      "baseline_mean": 1128877177.2,
+      "baseline_stddev": 6728554.3,
+      "delta": 16084665,
+      "score": 2.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-06T06:30:04.245137+00:00"
     }
   ]
 }

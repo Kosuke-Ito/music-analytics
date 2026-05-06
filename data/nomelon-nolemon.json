@@ -1029,41 +1029,41 @@
       "date": "2026-05-05",
       "monthly_listeners": 296271,
       "collected_at": "2026-05-03T14:45:13.138839+00:00",
-      "spotify_followers": 65898,
+      "spotify_followers": 66147,
       "youtube_subscribers": 320000,
-      "youtube_total_views": 159350601,
+      "youtube_total_views": 161048337,
       "youtube_video_count": 104,
       "top_cities": [
         {
           "city": "Tokyo",
           "country": "JP",
-          "listeners": 14215
+          "listeners": 14091
         },
         {
           "city": "Osaka",
           "country": "JP",
-          "listeners": 9992
+          "listeners": 9721
         },
         {
           "city": "Nagoya",
           "country": "JP",
-          "listeners": 6882
-        },
-        {
-          "city": "Yokohama",
-          "country": "JP",
-          "listeners": 5281
+          "listeners": 6751
         },
         {
           "city": "Taipei",
           "country": "TW",
-          "listeners": 5162
+          "listeners": 5152
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5151
         }
       ],
-      "lastfm_listeners": 31229,
-      "lastfm_playcount": 824430,
+      "lastfm_listeners": 31355,
+      "lastfm_playcount": 828549,
       "ytm_subscribers": 320000,
-      "ytm_monthly_listeners": 1820000,
+      "ytm_monthly_listeners": 1830000,
       "ytm_total_views": 0
     }
   ],
@@ -1104,14 +1104,14 @@
         "subscribers": "3.28M"
       },
       {
-        "name": "harha",
-        "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "237K"
-      },
-      {
         "name": "CLAN QUEEN",
         "browse_id": "UCuCIY6NNMyjANg60NEgHONg",
         "subscribers": "480K"
+      },
+      {
+        "name": "harha",
+        "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
+        "subscribers": "237K"
       },
       {
         "name": "Hashimero",
@@ -1307,6 +1307,12 @@
           "views": 17727790,
           "likes": 122311,
           "comments": 1052
+        },
+        {
+          "date": "2026-05-05",
+          "views": 17727937,
+          "likes": 122311,
+          "comments": 1052
         }
       ]
     },
@@ -1442,6 +1448,12 @@
         {
           "date": "2026-05-04",
           "views": 5037469,
+          "likes": 37844,
+          "comments": 81
+        },
+        {
+          "date": "2026-05-05",
+          "views": 5037574,
           "likes": 37844,
           "comments": 81
         }
@@ -1581,6 +1593,12 @@
           "views": 4865089,
           "likes": 34096,
           "comments": 160
+        },
+        {
+          "date": "2026-05-05",
+          "views": 4865159,
+          "likes": 34096,
+          "comments": 160
         }
       ]
     },
@@ -1717,6 +1735,12 @@
           "date": "2026-05-04",
           "views": 2047018,
           "likes": 17585,
+          "comments": 41
+        },
+        {
+          "date": "2026-05-05",
+          "views": 2047068,
+          "likes": 17586,
           "comments": 41
         }
       ]
@@ -1857,6 +1881,12 @@
         },
         {
           "date": "2026-05-04",
+          "views": 4116017,
+          "likes": 34680,
+          "comments": 315
+        },
+        {
+          "date": "2026-05-05",
           "views": 4116017,
           "likes": 34680,
           "comments": 315
@@ -2044,6 +2074,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-03T14:45:14.297830+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "youtube_total_views",
+      "value": 161048337,
+      "baseline_mean": 159075706.8,
+      "baseline_stddev": 650317.8,
+      "delta": 1972630,
+      "score": 3.03,
+      "type": "annotated",
+      "related_annotation": "「THE FIRST TAKE」2nd出演「ミテミテ」（4/29公開）の波及継続でSpotify月間リスナーが増加（+5,091人・2.57σ）",
+      "detected_at": "2026-05-06T06:18:57.917955+00:00"
     }
   ]
 }

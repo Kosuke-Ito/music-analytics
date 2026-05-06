@@ -908,42 +908,42 @@
       "date": "2026-05-05",
       "monthly_listeners": 2648734,
       "collected_at": "2026-05-03T14:56:28.676079+00:00",
-      "spotify_followers": 1519461,
+      "spotify_followers": 1521269,
       "youtube_subscribers": 943000,
-      "youtube_total_views": 892061742,
-      "youtube_video_count": 405,
+      "youtube_total_views": 893755031,
+      "youtube_video_count": 408,
       "top_cities": [
         {
           "city": "Osaka",
           "country": "JP",
-          "listeners": 89461
+          "listeners": 87472
         },
         {
           "city": "Tokyo",
           "country": "JP",
-          "listeners": 85768
+          "listeners": 85322
         },
         {
           "city": "Nagoya",
           "country": "JP",
-          "listeners": 60634
+          "listeners": 60010
         },
         {
           "city": "Yokohama",
           "country": "JP",
-          "listeners": 33791
+          "listeners": 33551
         },
         {
           "city": "Taipei",
           "country": "TW",
-          "listeners": 32555
+          "listeners": 32547
         }
       ],
-      "lastfm_listeners": 16415,
-      "lastfm_playcount": 759469,
+      "lastfm_listeners": 16432,
+      "lastfm_playcount": 760216,
       "ytm_subscribers": 943000,
-      "ytm_monthly_listeners": 8270000,
-      "ytm_total_views": 879211925
+      "ytm_monthly_listeners": 8359999,
+      "ytm_total_views": 880661774
     }
   ],
   "annotations": [
@@ -1042,11 +1042,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Cidergirl",
-        "browse_id": "UCj0gYbIUSGS_m1yqbPi4TIQ",
-        "subscribers": "418K"
-      },
-      {
         "name": "asmi",
         "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
         "subscribers": "3.42M"
@@ -1057,24 +1052,14 @@
         "subscribers": "102K"
       },
       {
+        "name": "Cidergirl",
+        "browse_id": "UCj0gYbIUSGS_m1yqbPi4TIQ",
+        "subscribers": "418K"
+      },
+      {
         "name": "eill",
         "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
         "subscribers": "1.78M"
-      },
-      {
-        "name": "flumpool",
-        "browse_id": "UCz6HdeJpXCtIwMDIjtcaSRg",
-        "subscribers": "847K"
-      },
-      {
-        "name": "YUI",
-        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
-        "subscribers": "5.52M"
-      },
-      {
-        "name": "Ikimonogakari",
-        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
-        "subscribers": "16.2M"
       },
       {
         "name": "miwa",
@@ -1087,9 +1072,24 @@
         "subscribers": "10M"
       },
       {
-        "name": "Lilas Ikuta",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "21.7M"
+        "name": "flumpool",
+        "browse_id": "UCz6HdeJpXCtIwMDIjtcaSRg",
+        "subscribers": "847K"
+      },
+      {
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "3.15M"
+      },
+      {
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "36.1M"
+      },
+      {
+        "name": "Kiro Akiyama",
+        "browse_id": "UCB7j6mxjx2NxAnnBu-YRFdQ",
+        "subscribers": "3.25M"
       }
     ],
     "ytm_top_songs": [
@@ -1245,6 +1245,12 @@
           "views": 29337154,
           "likes": 249417,
           "comments": 624
+        },
+        {
+          "date": "2026-05-05",
+          "views": 29337546,
+          "likes": 249418,
+          "comments": 624
         }
       ]
     },
@@ -1375,6 +1381,12 @@
           "date": "2026-05-04",
           "views": 20482104,
           "likes": 83427,
+          "comments": 190
+        },
+        {
+          "date": "2026-05-05",
+          "views": 20482362,
+          "likes": 83428,
           "comments": 190
         }
       ]
@@ -1507,6 +1519,12 @@
           "views": 1715068,
           "likes": 10554,
           "comments": 57
+        },
+        {
+          "date": "2026-05-05",
+          "views": 1715109,
+          "likes": 10554,
+          "comments": 57
         }
       ]
     },
@@ -1637,6 +1655,12 @@
           "date": "2026-05-04",
           "views": 10925392,
           "likes": 53318,
+          "comments": 127
+        },
+        {
+          "date": "2026-05-05",
+          "views": 10925493,
+          "likes": 53317,
           "comments": 127
         }
       ]
@@ -1774,6 +1798,12 @@
           "views": 103234,
           "likes": 1614,
           "comments": 32
+        },
+        {
+          "date": "2026-05-05",
+          "views": 103276,
+          "likes": 1614,
+          "comments": 32
         }
       ]
     }
@@ -1850,6 +1880,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-03T14:56:30.289682+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "ytm_monthly_listeners",
+      "value": 8359999,
+      "baseline_mean": 8010454.4,
+      "baseline_stddev": 162633.7,
+      "delta": 349544,
+      "score": 2.15,
+      "type": "annotated",
+      "related_annotation": "「緑黄色大夜祭2026」（4/25-26）後の反響継続でYTM月間リスナーが増加（+29万・2.12σ）",
+      "detected_at": "2026-05-06T06:30:54.976872+00:00"
     }
   ]
 }

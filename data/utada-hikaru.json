@@ -908,42 +908,42 @@
       "date": "2026-05-05",
       "monthly_listeners": 7805814,
       "collected_at": "2026-05-03T14:53:00.037581+00:00",
-      "spotify_followers": 4421398,
+      "spotify_followers": 4428242,
       "youtube_subscribers": 2480000,
-      "youtube_total_views": 1727971731,
-      "youtube_video_count": 254,
+      "youtube_total_views": 1742226578,
+      "youtube_video_count": 256,
       "top_cities": [
         {
           "city": "Tokyo",
           "country": "JP",
-          "listeners": 248681
+          "listeners": 246280
         },
         {
           "city": "Osaka",
           "country": "JP",
-          "listeners": 233665
+          "listeners": 226753
         },
         {
           "city": "Taipei",
           "country": "TW",
-          "listeners": 151503
+          "listeners": 150044
         },
         {
           "city": "Nagoya",
           "country": "JP",
-          "listeners": 146234
+          "listeners": 143865
         },
         {
           "city": "Yokohama",
           "country": "JP",
-          "listeners": 91795
+          "listeners": 90472
         }
       ],
-      "lastfm_listeners": 323098,
-      "lastfm_playcount": 31504025,
+      "lastfm_listeners": 323159,
+      "lastfm_playcount": 31508821,
       "ytm_subscribers": 2480000,
-      "ytm_monthly_listeners": 23800000,
-      "ytm_total_views": 1727083438
+      "ytm_monthly_listeners": 23400000,
+      "ytm_total_views": 1740924143
     }
   ],
   "annotations": [
@@ -1018,6 +1018,16 @@
         "subscribers": "5.25M"
       },
       {
+        "name": "Yuko Ando",
+        "browse_id": "UCUW7BA2PIPWn0lQCFfbU3pA",
+        "subscribers": "180K"
+      },
+      {
+        "name": "the brilliant green",
+        "browse_id": "UCEmBZOcH6_8l_7FqhqmupZA",
+        "subscribers": "998K"
+      },
+      {
         "name": "Ayaka",
         "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
         "subscribers": "5.03M"
@@ -1033,19 +1043,9 @@
         "subscribers": "1.7M"
       },
       {
-        "name": "Yuko Ando",
-        "browse_id": "UCUW7BA2PIPWn0lQCFfbU3pA",
-        "subscribers": "180K"
-      },
-      {
-        "name": "the brilliant green",
-        "browse_id": "UCEmBZOcH6_8l_7FqhqmupZA",
-        "subscribers": "998K"
-      },
-      {
-        "name": "Aoi Teshima",
-        "browse_id": "UCh57mO6vxH9lCVtiH-Qtr8Q",
-        "subscribers": "241M"
+        "name": "Chihiro Onitsuka",
+        "browse_id": "UCXAZfW6_7LBpa-HN4suL6ig",
+        "subscribers": "996K"
       },
       {
         "name": "m-flo",
@@ -1053,9 +1053,9 @@
         "subscribers": "3.44M"
       },
       {
-        "name": "Chihiro Onitsuka",
-        "browse_id": "UCXAZfW6_7LBpa-HN4suL6ig",
-        "subscribers": "996K"
+        "name": "Aoi Teshima",
+        "browse_id": "UCh57mO6vxH9lCVtiH-Qtr8Q",
+        "subscribers": "241M"
       },
       {
         "name": "Crystal Kay",
@@ -1216,6 +1216,12 @@
           "views": 51779946,
           "likes": 300391,
           "comments": 2482
+        },
+        {
+          "date": "2026-05-05",
+          "views": 51781108,
+          "likes": 300397,
+          "comments": 2482
         }
       ]
     },
@@ -1346,6 +1352,12 @@
           "date": "2026-05-04",
           "views": 1107345,
           "likes": 12065,
+          "comments": 71
+        },
+        {
+          "date": "2026-05-05",
+          "views": 1107593,
+          "likes": 12067,
           "comments": 71
         }
       ]
@@ -1478,6 +1490,12 @@
           "views": 26167260,
           "likes": 205827,
           "comments": 474
+        },
+        {
+          "date": "2026-05-05",
+          "views": 26167456,
+          "likes": 205829,
+          "comments": 474
         }
       ]
     },
@@ -1607,6 +1625,12 @@
         {
           "date": "2026-05-04",
           "views": 1363172,
+          "likes": 8197,
+          "comments": 43
+        },
+        {
+          "date": "2026-05-05",
+          "views": 1363215,
           "likes": 8197,
           "comments": 43
         }
@@ -1740,8 +1764,28 @@
           "views": 1078426,
           "likes": 7331,
           "comments": 19
+        },
+        {
+          "date": "2026-05-05",
+          "views": 1078438,
+          "likes": 7331,
+          "comments": 19
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-05-05",
+      "metric": "youtube_total_views",
+      "value": 1742226578,
+      "baseline_mean": 1725279814.3,
+      "baseline_stddev": 7146371.8,
+      "delta": 16946763,
+      "score": 2.37,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-06T06:27:17.468423+00:00"
+    }
+  ]
 }

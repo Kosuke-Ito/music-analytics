@@ -1021,41 +1021,41 @@
       "date": "2026-05-05",
       "monthly_listeners": 477100,
       "collected_at": "2026-05-03T14:43:08.983629+00:00",
-      "spotify_followers": 115252,
-      "youtube_subscribers": 98000,
-      "youtube_total_views": 45173032,
+      "spotify_followers": 115604,
+      "youtube_subscribers": 98100,
+      "youtube_total_views": 45577416,
       "youtube_video_count": 88,
       "top_cities": [
         {
           "city": "Tokyo",
           "country": "JP",
-          "listeners": 26055
+          "listeners": 25806
         },
         {
           "city": "Osaka",
           "country": "JP",
-          "listeners": 22476
+          "listeners": 21870
         },
         {
           "city": "Nagoya",
           "country": "JP",
-          "listeners": 14334
+          "listeners": 14052
         },
         {
           "city": "Yokohama",
           "country": "JP",
-          "listeners": 9322
+          "listeners": 9197
         },
         {
           "city": "Sapporo",
           "country": "JP",
-          "listeners": 6981
+          "listeners": 6830
         }
       ],
-      "lastfm_listeners": 9816,
-      "lastfm_playcount": 155758,
-      "ytm_subscribers": 98000,
-      "ytm_monthly_listeners": 736000,
+      "lastfm_listeners": 9830,
+      "lastfm_playcount": 156064,
+      "ytm_subscribers": 98100,
+      "ytm_monthly_listeners": 712000,
       "ytm_total_views": 0
     }
   ],
@@ -1094,11 +1094,6 @@
         "subscribers": "5.5M"
       },
       {
-        "name": "genie high",
-        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "525K"
-      },
-      {
         "name": "nishina",
         "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
         "subscribers": "314K"
@@ -1107,6 +1102,16 @@
         "name": "Furui Riho",
         "browse_id": "UC_INWDSkrIjnmqUi5D6zi4Q",
         "subscribers": "218K"
+      },
+      {
+        "name": "genie high",
+        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
+        "subscribers": "525K"
+      },
+      {
+        "name": "Lucky Kilimanjaro",
+        "browse_id": "UCiVXhIDW-3GNIyL5wsydr1Q",
+        "subscribers": "1.25M"
       },
       {
         "name": "TAIKING",
@@ -1132,11 +1137,6 @@
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
         "subscribers": "127K"
-      },
-      {
-        "name": "MHRJ",
-        "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "107K"
       }
     ],
     "ytm_top_songs": [
@@ -1297,6 +1297,12 @@
           "views": 44217,
           "likes": 405,
           "comments": 6
+        },
+        {
+          "date": "2026-05-05",
+          "views": 44226,
+          "likes": 405,
+          "comments": 6
         }
       ]
     },
@@ -1432,6 +1438,12 @@
         {
           "date": "2026-05-04",
           "views": 36333,
+          "likes": 401,
+          "comments": 2
+        },
+        {
+          "date": "2026-05-05",
+          "views": 36330,
           "likes": 401,
           "comments": 2
         }
@@ -1571,6 +1583,12 @@
           "views": 210983,
           "likes": 1901,
           "comments": 12
+        },
+        {
+          "date": "2026-05-05",
+          "views": 210985,
+          "likes": 1901,
+          "comments": 12
         }
       ]
     },
@@ -1696,6 +1714,12 @@
           "views": 58658,
           "likes": 479,
           "comments": 4
+        },
+        {
+          "date": "2026-05-05",
+          "views": 58652,
+          "likes": 479,
+          "comments": 4
         }
       ]
     },
@@ -1815,6 +1839,12 @@
           "views": 71924,
           "likes": 739,
           "comments": 8
+        },
+        {
+          "date": "2026-05-05",
+          "views": 71930,
+          "likes": 739,
+          "comments": 8
         }
       ]
     },
@@ -1932,6 +1962,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数が増加（+67万・2.45σ）（原因調査中）",
       "detected_at": "2026-04-28T16:10:49.123263+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "youtube_total_views",
+      "value": 45577416,
+      "baseline_mean": 44731043.7,
+      "baseline_stddev": 413789.1,
+      "delta": 846372,
+      "score": 2.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-06T06:16:45.926091+00:00"
     }
   ]
 }

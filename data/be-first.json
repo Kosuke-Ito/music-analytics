@@ -908,42 +908,42 @@
       "date": "2026-05-05",
       "monthly_listeners": 2239265,
       "collected_at": "2026-05-03T14:58:36.024274+00:00",
-      "spotify_followers": 607372,
+      "spotify_followers": 609100,
       "youtube_subscribers": 1230000,
-      "youtube_total_views": 1518914521,
+      "youtube_total_views": 1529324094,
       "youtube_video_count": 482,
       "top_cities": [
         {
           "city": "Osaka",
           "country": "JP",
-          "listeners": 114126
+          "listeners": 110369
         },
         {
           "city": "Tokyo",
           "country": "JP",
-          "listeners": 95230
+          "listeners": 94370
         },
         {
           "city": "Nagoya",
           "country": "JP",
-          "listeners": 76993
+          "listeners": 75640
         },
         {
           "city": "Yokohama",
           "country": "JP",
-          "listeners": 40213
+          "listeners": 39503
         },
         {
           "city": "Fukuoka",
           "country": "JP",
-          "listeners": 34045
+          "listeners": 33509
         }
       ],
-      "lastfm_listeners": 71506,
-      "lastfm_playcount": 1325441,
+      "lastfm_listeners": 71613,
+      "lastfm_playcount": 1328330,
       "ytm_subscribers": 1230000,
-      "ytm_monthly_listeners": 7020000,
-      "ytm_total_views": 1432524462
+      "ytm_monthly_listeners": 6900000,
+      "ytm_total_views": 1441462838
     }
   ],
   "metadata": {
@@ -983,9 +983,9 @@
         "subscribers": "1.2M"
       },
       {
-        "name": "CHANMINA",
-        "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
-        "subscribers": "19M"
+        "name": "Number_i",
+        "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
+        "subscribers": "2.15M"
       },
       {
         "name": "Da-iCE",
@@ -993,9 +993,9 @@
         "subscribers": "4.49M"
       },
       {
-        "name": "Number_i",
-        "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
-        "subscribers": "2.15M"
+        "name": "CHANMINA",
+        "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
+        "subscribers": "19M"
       },
       {
         "name": "NiziU",
@@ -1003,14 +1003,14 @@
         "subscribers": "11M"
       },
       {
-        "name": "INI",
-        "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
-        "subscribers": "8.76M"
-      },
-      {
         "name": "HANA",
         "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
         "subscribers": "13.9M"
+      },
+      {
+        "name": "INI",
+        "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
+        "subscribers": "8.76M"
       },
       {
         "name": "MAZZEL",
@@ -1261,6 +1261,12 @@
           "views": 1726833,
           "likes": 16814,
           "comments": 728
+        },
+        {
+          "date": "2026-05-05",
+          "views": 1727192,
+          "likes": 16816,
+          "comments": 728
         }
       ]
     },
@@ -1392,6 +1398,12 @@
           "views": 17529633,
           "likes": 86997,
           "comments": 1950
+        },
+        {
+          "date": "2026-05-05",
+          "views": 17530248,
+          "likes": 86999,
+          "comments": 1950
         }
       ]
     },
@@ -1522,6 +1534,12 @@
           "date": "2026-05-04",
           "views": 2805342,
           "likes": 20653,
+          "comments": 611
+        },
+        {
+          "date": "2026-05-05",
+          "views": 2805500,
+          "likes": 20654,
           "comments": 611
         }
       ]
@@ -1767,6 +1785,12 @@
           "views": 3087559,
           "likes": 26385,
           "comments": 973
+        },
+        {
+          "date": "2026-05-05",
+          "views": 3087630,
+          "likes": 26385,
+          "comments": 973
         }
       ]
     },
@@ -1789,6 +1813,12 @@
           "date": "2026-05-04",
           "views": 2645688,
           "likes": 17964,
+          "comments": 416
+        },
+        {
+          "date": "2026-05-05",
+          "views": 2645784,
+          "likes": 17965,
           "comments": 416
         }
       ]
@@ -1842,6 +1872,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-28T16:27:02.503648+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "youtube_total_views",
+      "value": 1529324094,
+      "baseline_mean": 1512942194.4,
+      "baseline_stddev": 6584833.6,
+      "delta": 16381899,
+      "score": 2.49,
+      "type": "annotated",
+      "related_annotation": "9thシングル『BE:FIRST ALL DAY』収録曲「Rondo」先行配信リリース",
+      "detected_at": "2026-05-06T06:33:09.437297+00:00"
     }
   ]
 }

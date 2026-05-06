@@ -1208,42 +1208,42 @@
       "date": "2026-05-05",
       "monthly_listeners": 3682343,
       "collected_at": "2026-05-03T14:46:30.436240+00:00",
-      "spotify_followers": 6126319,
+      "spotify_followers": 6130642,
       "youtube_subscribers": 5020000,
-      "youtube_total_views": 2413269343,
-      "youtube_video_count": 543,
+      "youtube_total_views": 2421375324,
+      "youtube_video_count": 544,
       "top_cities": [
         {
           "city": "Tokyo",
           "country": "JP",
-          "listeners": 120070
+          "listeners": 117527
         },
         {
           "city": "Osaka",
           "country": "JP",
-          "listeners": 114415
+          "listeners": 111579
         },
         {
           "city": "Taipei",
           "country": "TW",
-          "listeners": 84352
+          "listeners": 85150
         },
         {
           "city": "Nagoya",
           "country": "JP",
-          "listeners": 71316
+          "listeners": 70074
         },
         {
           "city": "Singapore",
           "country": "SG",
-          "listeners": 48186
+          "listeners": 48188
         }
       ],
-      "lastfm_listeners": 628873,
-      "lastfm_playcount": 54377631,
+      "lastfm_listeners": 629619,
+      "lastfm_playcount": 54436031,
       "ytm_subscribers": 5020000,
       "ytm_monthly_listeners": 10200000,
-      "ytm_total_views": 2383137502
+      "ytm_total_views": 2390648121
     }
   ],
   "annotations": [
@@ -1408,14 +1408,14 @@
         "subscribers": "571K"
       },
       {
-        "name": "TENBLANK",
-        "browse_id": "UCjUG0SZyIEsZZSc2beo4n7A",
-        "subscribers": "53.6K"
-      },
-      {
         "name": "DEAN FUJIOKA",
         "browse_id": "UCzNkz-qhUmxdCrhy0A47sIA",
         "subscribers": "126K"
+      },
+      {
+        "name": "TENBLANK",
+        "browse_id": "UCjUG0SZyIEsZZSc2beo4n7A",
+        "subscribers": "53.6K"
       },
       {
         "name": "UVERworld",
@@ -1428,19 +1428,19 @@
         "subscribers": "10M"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.4M"
-      },
-      {
-        "name": "Survive Said The Prophet",
-        "browse_id": "UC8bEQYItOTE07wpU3_j-YDQ",
-        "subscribers": "798K"
-      },
-      {
         "name": "RADWIMPS",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
         "subscribers": "66.7M"
+      },
+      {
+        "name": "coldrain",
+        "browse_id": "UC1WV_zQ6vd52xitFX2cANYg",
+        "subscribers": "846K"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.4M"
       }
     ],
     "ytm_top_songs": [
@@ -1602,6 +1602,12 @@
           "views": 6296605,
           "likes": 35682,
           "comments": 85
+        },
+        {
+          "date": "2026-05-05",
+          "views": 6296933,
+          "likes": 35685,
+          "comments": 85
         }
       ]
     },
@@ -1738,6 +1744,12 @@
           "date": "2026-05-04",
           "views": 10266166,
           "likes": 57918,
+          "comments": 354
+        },
+        {
+          "date": "2026-05-05",
+          "views": 10266926,
+          "likes": 57921,
           "comments": 354
         }
       ]
@@ -1876,6 +1888,12 @@
           "views": 5392933,
           "likes": 25219,
           "comments": 54
+        },
+        {
+          "date": "2026-05-05",
+          "views": 5393246,
+          "likes": 25220,
+          "comments": 54
         }
       ]
     },
@@ -2013,6 +2031,12 @@
           "views": 15085281,
           "likes": 131767,
           "comments": 351
+        },
+        {
+          "date": "2026-05-05",
+          "views": 15085384,
+          "likes": 131766,
+          "comments": 351
         }
       ]
     },
@@ -2148,6 +2172,12 @@
         {
           "date": "2026-05-04",
           "views": 26333643,
+          "likes": 230599,
+          "comments": 2177
+        },
+        {
+          "date": "2026-05-05",
+          "views": 26333933,
           "likes": 230599,
           "comments": 2177
         }
@@ -2334,6 +2364,18 @@
       "type": "annotated",
       "related_annotation": "ライブEP「Live from DETOX JAPAN TOUR 2025」配信リリース",
       "detected_at": "2026-05-03T14:46:31.559638+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "youtube_total_views",
+      "value": 2421375324,
+      "baseline_mean": 2396396541.0,
+      "baseline_stddev": 11642097.2,
+      "delta": 24978782,
+      "score": 2.15,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-06T06:20:20.831024+00:00"
     }
   ]
 }

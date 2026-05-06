@@ -1020,42 +1020,42 @@
       "date": "2026-05-05",
       "monthly_listeners": 933902,
       "collected_at": "2026-05-03T14:43:55.252050+00:00",
-      "spotify_followers": 414091,
+      "spotify_followers": 414346,
       "youtube_subscribers": 7390000,
-      "youtube_total_views": 6567412502,
-      "youtube_video_count": 293,
+      "youtube_total_views": 6590880311,
+      "youtube_video_count": 295,
       "top_cities": [
         {
           "city": "Tokyo",
           "country": "JP",
-          "listeners": 29361
+          "listeners": 29106
         },
         {
           "city": "Osaka",
           "country": "JP",
-          "listeners": 28680
+          "listeners": 27973
         },
         {
           "city": "Nagoya",
           "country": "JP",
-          "listeners": 19628
+          "listeners": 19372
         },
         {
           "city": "Taipei",
           "country": "TW",
-          "listeners": 12661
+          "listeners": 12759
         },
         {
           "city": "Yokohama",
           "country": "JP",
-          "listeners": 11329
+          "listeners": 11183
         }
       ],
-      "lastfm_listeners": 98995,
-      "lastfm_playcount": 1777777,
-      "ytm_subscribers": 59000,
+      "lastfm_listeners": 99109,
+      "lastfm_playcount": 1780386,
+      "ytm_subscribers": 59100,
       "ytm_monthly_listeners": 0,
-      "ytm_total_views": 88593137
+      "ytm_total_views": 88678243
     }
   ],
   "metadata": {
@@ -1125,19 +1125,19 @@
         "subscribers": "215K"
       },
       {
-        "name": "hitorie",
-        "browse_id": "UCxMijt1N7bsZEslRHpVOkHw",
-        "subscribers": "1.46M"
-      },
-      {
         "name": "THREEE",
         "browse_id": "UCekuD5lZYEm4XUto7ggbVSg",
         "subscribers": "2.42M"
       },
       {
-        "name": "jon-YAKITORY",
-        "browse_id": "UCkLsbUdFJW7CFX5ZqcqOKBg",
-        "subscribers": "7.36M"
+        "name": "hitorie",
+        "browse_id": "UCxMijt1N7bsZEslRHpVOkHw",
+        "subscribers": "1.46M"
+      },
+      {
+        "name": "JIN",
+        "browse_id": "UCoevh_x8j8VepBc1i4Bbqtg",
+        "subscribers": "1.58M"
       }
     ],
     "ytm_top_songs": [
@@ -1293,6 +1293,12 @@
           "views": 28819464,
           "likes": 139032,
           "comments": 0
+        },
+        {
+          "date": "2026-05-05",
+          "views": 28819572,
+          "likes": 139032,
+          "comments": 0
         }
       ]
     },
@@ -1424,6 +1430,12 @@
           "views": 15087133,
           "likes": 70374,
           "comments": 0
+        },
+        {
+          "date": "2026-05-05",
+          "views": 15087176,
+          "likes": 70375,
+          "comments": 0
         }
       ]
     },
@@ -1553,6 +1565,12 @@
         {
           "date": "2026-05-04",
           "views": 14587269,
+          "likes": 61067,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-05",
+          "views": 14587329,
           "likes": 61067,
           "comments": 0
         }
@@ -1686,6 +1704,12 @@
           "views": 7697210,
           "likes": 38454,
           "comments": 0
+        },
+        {
+          "date": "2026-05-05",
+          "views": 7697251,
+          "likes": 38454,
+          "comments": 0
         }
       ]
     },
@@ -1817,6 +1841,12 @@
           "views": 1262515,
           "likes": 11898,
           "comments": 36
+        },
+        {
+          "date": "2026-05-05",
+          "views": 1262524,
+          "likes": 11898,
+          "comments": 36
         }
       ]
     },
@@ -1944,6 +1974,18 @@
       "type": "annotated",
       "related_annotation": "YOASOBI「NEVER ENDING STORIES」北米ツアー関連の波及でSpotify月間リスナーが増加（+6,821人・2.66σ）",
       "detected_at": "2026-05-06T05:57:49.355400+00:00"
+    },
+    {
+      "date": "2026-05-05",
+      "metric": "youtube_total_views",
+      "value": 6590880311,
+      "baseline_mean": 6553312832.9,
+      "baseline_stddev": 17509954.0,
+      "delta": 37567478,
+      "score": 2.15,
+      "type": "annotated",
+      "related_annotation": "YOASOBI「NEVER ENDING STORIES」北米ツアー関連の波及でSpotify月間リスナーが増加（+6,821人・2.66σ）",
+      "detected_at": "2026-05-06T06:17:34.861476+00:00"
     }
   ]
 }
