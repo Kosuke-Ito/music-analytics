@@ -37,7 +37,7 @@ jobs:
         run: playwright install chromium
 
       - name: Run collector
-        timeout-minutes: 20
+        timeout-minutes: 28
         run: |
           ARGS=""
           if [ -n "${{ inputs.artist_id }}" ]; then
