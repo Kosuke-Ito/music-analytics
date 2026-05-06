@@ -944,6 +944,47 @@
       "ytm_subscribers": 3610000,
       "ytm_monthly_listeners": 7920000,
       "ytm_total_views": 1052439111
+    },
+    {
+      "date": "2026-05-06",
+      "monthly_listeners": 3526791,
+      "collected_at": "2026-05-06T16:16:15.566719+00:00",
+      "spotify_followers": 2967244,
+      "youtube_subscribers": 3610000,
+      "youtube_total_views": 1060072705,
+      "youtube_video_count": 351,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 63508
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 60838
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 48058
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 42266
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 40307
+        }
+      ],
+      "lastfm_listeners": 963716,
+      "lastfm_playcount": 58615945,
+      "ytm_subscribers": 3610000,
+      "ytm_monthly_listeners": 8060000,
+      "ytm_total_views": 1052439111
     }
   ],
   "annotations": [
@@ -1087,12 +1128,12 @@
       {
         "name": "RYUJIN",
         "browse_id": "UCykkX9zsEkUzPhAifYbn6XA",
-        "subscribers": "147K"
+        "subscribers": "139K"
       },
       {
         "name": "Samurai Pizza Cats",
         "browse_id": "UCmugf8X2AoaHYIQusakggUQ",
-        "subscribers": "454K"
+        "subscribers": "436K"
       },
       {
         "name": "MAZE",
@@ -1259,6 +1300,12 @@
           "views": 6429344,
           "likes": 75765,
           "comments": 236
+        },
+        {
+          "date": "2026-05-06",
+          "views": 6438772,
+          "likes": 75856,
+          "comments": 235
         }
       ]
     },
@@ -1395,6 +1442,12 @@
           "date": "2026-05-05",
           "views": 4067859,
           "likes": 84081,
+          "comments": 430
+        },
+        {
+          "date": "2026-05-06",
+          "views": 4073010,
+          "likes": 84180,
           "comments": 430
         }
       ]
@@ -1533,6 +1586,12 @@
           "views": 4475488,
           "likes": 65279,
           "comments": 212
+        },
+        {
+          "date": "2026-05-06",
+          "views": 4480513,
+          "likes": 65320,
+          "comments": 213
         }
       ]
     },
@@ -1669,6 +1728,12 @@
           "date": "2026-05-05",
           "views": 1830878,
           "likes": 36264,
+          "comments": 209
+        },
+        {
+          "date": "2026-05-06",
+          "views": 1833415,
+          "likes": 36310,
           "comments": 209
         }
       ]
@@ -1807,6 +1872,12 @@
           "views": 3368829,
           "likes": 66413,
           "comments": 289
+        },
+        {
+          "date": "2026-05-06",
+          "views": 3373531,
+          "likes": 66507,
+          "comments": 291
         }
       ]
     }
@@ -1919,6 +1990,18 @@
       "type": "annotated",
       "related_annotation": "Copenhell 2026チケット完売報道でYTM月間リスナーが増加（+843,000・2.13σ）",
       "detected_at": "2026-05-06T06:32:19.669654+00:00"
+    },
+    {
+      "date": "2026-05-06",
+      "metric": "ytm_monthly_listeners",
+      "value": 8060000,
+      "baseline_mean": 6995217.4,
+      "baseline_stddev": 497243.4,
+      "delta": 1064782,
+      "score": 2.14,
+      "type": "annotated",
+      "related_annotation": "Copenhell 2026チケット完売報道でYTM月間リスナーが増加（+843,000・2.13σ）",
+      "detected_at": "2026-05-06T16:16:17.298095+00:00"
     }
   ]
 }

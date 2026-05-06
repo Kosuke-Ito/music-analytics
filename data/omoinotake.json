@@ -944,6 +944,50 @@
       "ytm_subscribers": 313000,
       "ytm_monthly_listeners": 3150000,
       "ytm_total_views": 302986479
+    },
+    {
+      "date": "2026-05-06",
+      "monthly_listeners": 1496366,
+      "collected_at": "2026-05-06T16:16:51.689369+00:00",
+      "spotify_followers": 325493,
+      "youtube_subscribers": 313000,
+      "youtube_total_views": 305473262,
+      "youtube_video_count": 215,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 52544
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 45498
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 37534
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 18488
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 17312
+        }
+      ],
+      "lastfm_listeners": 138811,
+      "lastfm_playcount": 2441900,
+      "ytm_subscribers": 313000,
+      "ytm_monthly_listeners": 3120000,
+      "ytm_total_views": 302986479,
+      "validation_flags": [
+        "unusual_deviation"
+      ]
     }
   ],
   "annotations": [
@@ -1045,17 +1089,17 @@
       {
         "name": "KAMI WA SAIKORO WO FURANAI",
         "browse_id": "UCBX3AdkQtdXZkBuM8ojQ8jA",
-        "subscribers": "407K"
+        "subscribers": "406K"
       },
       {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "58.1K"
+        "subscribers": "58.8K"
       },
       {
         "name": "TAIL",
         "browse_id": "UCdKKyyzAEzwV6cLcYetJcmQ",
-        "subscribers": "83.9K"
+        "subscribers": "85.5K"
       },
       {
         "name": "EISYU",
@@ -1065,27 +1109,27 @@
       {
         "name": "BILLY BOO",
         "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
-        "subscribers": "57.3K"
-      },
-      {
-        "name": "レトロリロン",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "387K"
-      },
-      {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "566K"
+        "subscribers": "57.6K"
       },
       {
         "name": "Awesome City Club",
         "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
-        "subscribers": "651K"
+        "subscribers": "643K"
       },
       {
         "name": "4na",
         "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
-        "subscribers": "294K"
+        "subscribers": "292K"
+      },
+      {
+        "name": "レトロリロン",
+        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
+        "subscribers": "389K"
+      },
+      {
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "10.1M"
       },
       {
         "name": "eill",
@@ -1252,6 +1296,12 @@
           "views": 11042142,
           "likes": 53204,
           "comments": 199
+        },
+        {
+          "date": "2026-05-06",
+          "views": 11047749,
+          "likes": 53215,
+          "comments": 199
         }
       ]
     },
@@ -1389,6 +1439,12 @@
           "views": 732084,
           "likes": 7874,
           "comments": 89
+        },
+        {
+          "date": "2026-05-06",
+          "views": 732785,
+          "likes": 7879,
+          "comments": 89
         }
       ]
     },
@@ -1525,6 +1581,12 @@
           "date": "2026-05-05",
           "views": 2182405,
           "likes": 16442,
+          "comments": 58
+        },
+        {
+          "date": "2026-05-06",
+          "views": 2183054,
+          "likes": 16444,
           "comments": 58
         }
       ]
@@ -1674,6 +1736,12 @@
           "views": 1174543,
           "likes": 8863,
           "comments": 71
+        },
+        {
+          "date": "2026-05-06",
+          "views": 1175128,
+          "likes": 8864,
+          "comments": 71
         }
       ]
     },
@@ -1805,6 +1873,12 @@
           "views": 978155,
           "likes": 9021,
           "comments": 84
+        },
+        {
+          "date": "2026-05-06",
+          "views": 978573,
+          "likes": 9024,
+          "comments": 84
         }
       ]
     }
@@ -1893,6 +1967,18 @@
       "type": "annotated",
       "related_annotation": "ANI-ROCK FES出演発表の余波でSpotify月間リスナーが+13,421（2.8σ）増加",
       "detected_at": "2026-05-06T06:11:42.097573+00:00"
+    },
+    {
+      "date": "2026-05-06",
+      "metric": "monthly_listeners",
+      "value": 1496366,
+      "baseline_mean": 1439655.2,
+      "baseline_stddev": 8913.5,
+      "delta": 56710,
+      "score": 6.36,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-06T16:16:53.110754+00:00"
     }
   ]
 }

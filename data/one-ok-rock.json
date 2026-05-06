@@ -1244,6 +1244,47 @@
       "ytm_subscribers": 5020000,
       "ytm_monthly_listeners": 10200000,
       "ytm_total_views": 2390648121
+    },
+    {
+      "date": "2026-05-06",
+      "monthly_listeners": 3708508,
+      "collected_at": "2026-05-06T16:03:29.531092+00:00",
+      "spotify_followers": 6130642,
+      "youtube_subscribers": 5020000,
+      "youtube_total_views": 2421375324,
+      "youtube_video_count": 544,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 116716
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 109888
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 85265
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 69594
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 48275
+        }
+      ],
+      "lastfm_listeners": 629619,
+      "lastfm_playcount": 54436031,
+      "ytm_subscribers": 5020000,
+      "ytm_monthly_listeners": 10200000,
+      "ytm_total_views": 2390648121
     }
   ],
   "annotations": [
@@ -1400,17 +1441,12 @@
       {
         "name": "Pay money To my Pain",
         "browse_id": "UC3kKm059hewEM_LHXmGULjw",
-        "subscribers": "191K"
-      },
-      {
-        "name": "MIYAVI",
-        "browse_id": "UCnG4qAnVAVzN9CTGJdcE50g",
-        "subscribers": "571K"
+        "subscribers": "192K"
       },
       {
         "name": "DEAN FUJIOKA",
         "browse_id": "UCzNkz-qhUmxdCrhy0A47sIA",
-        "subscribers": "126K"
+        "subscribers": "124K"
       },
       {
         "name": "TENBLANK",
@@ -1418,29 +1454,34 @@
         "subscribers": "53.6K"
       },
       {
-        "name": "UVERworld",
-        "browse_id": "UCvNGvMSDassu8fTA9Vwdzxg",
-        "subscribers": "3.33M"
+        "name": "MIYAVI",
+        "browse_id": "UCnG4qAnVAVzN9CTGJdcE50g",
+        "subscribers": "567K"
       },
       {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "10M"
+        "subscribers": "10.1M"
       },
       {
-        "name": "RADWIMPS",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "66.7M"
+        "name": "UVERworld",
+        "browse_id": "UCvNGvMSDassu8fTA9Vwdzxg",
+        "subscribers": "3.22M"
       },
       {
         "name": "coldrain",
         "browse_id": "UC1WV_zQ6vd52xitFX2cANYg",
-        "subscribers": "846K"
+        "subscribers": "838K"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.4M"
+        "name": "VK Blanka",
+        "browse_id": "UCg2rvXE9x3zg01ZxyIt9DpA",
+        "subscribers": "1.68M"
+      },
+      {
+        "name": "RADWIMPS",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "66.4M"
       }
     ],
     "ytm_top_songs": [
@@ -1608,6 +1649,12 @@
           "views": 6296933,
           "likes": 35685,
           "comments": 85
+        },
+        {
+          "date": "2026-05-06",
+          "views": 6312967,
+          "likes": 35770,
+          "comments": 85
         }
       ]
     },
@@ -1751,6 +1798,12 @@
           "views": 10266926,
           "likes": 57921,
           "comments": 354
+        },
+        {
+          "date": "2026-05-06",
+          "views": 10295502,
+          "likes": 58080,
+          "comments": 356
         }
       ]
     },
@@ -1894,6 +1947,12 @@
           "views": 5393246,
           "likes": 25220,
           "comments": 54
+        },
+        {
+          "date": "2026-05-06",
+          "views": 5405257,
+          "likes": 25276,
+          "comments": 55
         }
       ]
     },
@@ -2037,6 +2096,12 @@
           "views": 15085384,
           "likes": 131766,
           "comments": 351
+        },
+        {
+          "date": "2026-05-06",
+          "views": 15091891,
+          "likes": 131798,
+          "comments": 351
         }
       ]
     },
@@ -2179,6 +2244,12 @@
           "date": "2026-05-05",
           "views": 26333933,
           "likes": 230599,
+          "comments": 2177
+        },
+        {
+          "date": "2026-05-06",
+          "views": 26346133,
+          "likes": 230651,
           "comments": 2177
         }
       ]
@@ -2376,6 +2447,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-06T06:20:20.831024+00:00"
+    },
+    {
+      "date": "2026-05-06",
+      "metric": "monthly_listeners",
+      "value": 3708508,
+      "baseline_mean": 3610456.5,
+      "baseline_stddev": 43031.5,
+      "delta": 98051,
+      "score": 2.28,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-06T16:03:30.850319+00:00"
     }
   ]
 }
