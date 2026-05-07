@@ -1100,6 +1100,47 @@
       "ytm_subscribers": 154,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-07",
+      "monthly_listeners": 465,
+      "collected_at": "2026-05-07T16:07:18.597290+00:00",
+      "spotify_followers": 933,
+      "youtube_subscribers": 364,
+      "youtube_total_views": 65603,
+      "youtube_video_count": 170,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 33
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 11
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 8
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 7
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 7
+        }
+      ],
+      "lastfm_listeners": 736,
+      "lastfm_playcount": 2413,
+      "ytm_subscribers": 154,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -1153,14 +1194,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Seino Kentaro",
-        "browse_id": "UCWZ109ZanZtZwzHcHS5TsfQ",
-        "subscribers": "3.84K"
+        "name": "Broken Kangaroo",
+        "browse_id": "UCaiTJEr-YUPv1W5xiu49bNw",
+        "subscribers": "5.05K"
       },
       {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "58.8K"
+        "subscribers": "59.4K"
       },
       {
         "name": "Offo tokyo",
@@ -1195,7 +1236,7 @@
       {
         "name": "GALALI",
         "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "75.7K"
+        "subscribers": "70.7K"
       },
       {
         "name": "Nolzy",
@@ -1373,6 +1414,12 @@
           "views": 3103,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-05-07",
+          "views": 3116,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -1520,6 +1567,12 @@
         {
           "date": "2026-05-06",
           "views": 5417,
+          "likes": 21,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-07",
+          "views": 5427,
           "likes": 21,
           "comments": 0
         }
@@ -1671,6 +1724,12 @@
           "views": 11902,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-05-07",
+          "views": 11917,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -1820,6 +1879,12 @@
           "views": 31551,
           "likes": 149,
           "comments": 0
+        },
+        {
+          "date": "2026-05-07",
+          "views": 31587,
+          "likes": 149,
+          "comments": 0
         }
       ]
     },
@@ -1963,6 +2028,12 @@
           "views": 7747,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-05-07",
+          "views": 7762,
+          "likes": 60,
+          "comments": 0
         }
       ]
     },
@@ -2098,6 +2169,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-06T16:06:29.683127+00:00"
+    },
+    {
+      "date": "2026-05-07",
+      "metric": "youtube_total_views",
+      "value": 65603,
+      "baseline_mean": 65468.7,
+      "baseline_stddev": 66.3,
+      "delta": 134,
+      "score": 2.03,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-07T16:07:20.035183+00:00"
     }
   ]
 }

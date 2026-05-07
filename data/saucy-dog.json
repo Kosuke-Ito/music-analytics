@@ -988,6 +988,47 @@
       "validation_flags": [
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-05-07",
+      "monthly_listeners": 1667828,
+      "collected_at": "2026-05-07T16:14:49.824442+00:00",
+      "spotify_followers": 1456557,
+      "youtube_subscribers": 867000,
+      "youtube_total_views": 561475864,
+      "youtube_video_count": 133,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 93388
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 77940
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 61863
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 34221
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 32415
+        }
+      ],
+      "lastfm_listeners": 57851,
+      "lastfm_playcount": 1607387,
+      "ytm_subscribers": 867000,
+      "ytm_monthly_listeners": 2170000,
+      "ytm_total_views": 560168930
     }
   ],
   "annotations": [
@@ -1064,14 +1105,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "yangskinny",
+        "browse_id": "UCHxOB06rp3GQXFcPlIfxJOg",
+        "subscribers": "4.13M"
+      },
+      {
         "name": "the shes gone",
         "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
-        "subscribers": "239K"
+        "subscribers": "240K"
       },
       {
         "name": "KEPURA",
         "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
-        "subscribers": "62.5K"
+        "subscribers": "62.9K"
       },
       {
         "name": "Mr.Forte",
@@ -1086,7 +1132,7 @@
       {
         "name": "TRACK15",
         "browse_id": "UCbTq_K3E9Vz8ehL62WwcwIA",
-        "subscribers": "226K"
+        "subscribers": "231K"
       },
       {
         "name": "bokula.",
@@ -1096,22 +1142,17 @@
       {
         "name": "Orange Spiny Crab",
         "browse_id": "UC4xFImWROIkfo8YXSgrxliQ",
-        "subscribers": "190K"
+        "subscribers": "191K"
       },
       {
         "name": "YUTORI-SEDAI",
         "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "397K"
+        "subscribers": "375K"
       },
       {
         "name": "YOAKE",
         "browse_id": "UCQE3bQBOx8YoxP3ghcXZs7g",
-        "subscribers": "110K"
-      },
-      {
-        "name": "yangskinny",
-        "browse_id": "UCHxOB06rp3GQXFcPlIfxJOg",
-        "subscribers": "4.2M"
+        "subscribers": "109K"
       }
     ],
     "ytm_top_songs": [
@@ -1279,6 +1320,12 @@
           "views": 3851380,
           "likes": 16415,
           "comments": 36
+        },
+        {
+          "date": "2026-05-07",
+          "views": 3862629,
+          "likes": 16460,
+          "comments": 36
         }
       ]
     },
@@ -1409,6 +1456,12 @@
           "date": "2026-05-06",
           "views": 4328515,
           "likes": 20471,
+          "comments": 40
+        },
+        {
+          "date": "2026-05-07",
+          "views": 4343381,
+          "likes": 20536,
           "comments": 40
         }
       ]
@@ -1553,6 +1606,12 @@
           "views": 2269445,
           "likes": 12214,
           "comments": 35
+        },
+        {
+          "date": "2026-05-07",
+          "views": 2278200,
+          "likes": 12243,
+          "comments": 35
         }
       ]
     },
@@ -1683,6 +1742,12 @@
           "date": "2026-05-06",
           "views": 2698267,
           "likes": 16283,
+          "comments": 38
+        },
+        {
+          "date": "2026-05-07",
+          "views": 2707474,
+          "likes": 16317,
           "comments": 38
         }
       ]
@@ -1827,6 +1892,12 @@
           "views": 2007186,
           "likes": 8577,
           "comments": 27
+        },
+        {
+          "date": "2026-05-07",
+          "views": 2015191,
+          "likes": 8624,
+          "comments": 27
         }
       ]
     },
@@ -1901,6 +1972,18 @@
       "type": "annotated",
       "related_annotation": "SUMMER SONIC 2026出演・ドームライブ映像公開（4/9）の継続効果でSpotify月間リスナーが増加（+9,822人・2.07σ）",
       "detected_at": "2026-05-06T16:14:32.116465+00:00"
+    },
+    {
+      "date": "2026-05-07",
+      "metric": "monthly_listeners",
+      "value": 1667828,
+      "baseline_mean": 1625251.5,
+      "baseline_stddev": 8576.3,
+      "delta": 42576,
+      "score": 4.96,
+      "type": "annotated",
+      "related_annotation": "RUSH BALL 2026（8月29日・大阪）出演発表",
+      "detected_at": "2026-05-07T16:14:51.276282+00:00"
     }
   ]
 }

@@ -903,6 +903,50 @@
       "ytm_subscribers": 37000,
       "ytm_monthly_listeners": 71000,
       "ytm_total_views": 8022185
+    },
+    {
+      "date": "2026-05-07",
+      "monthly_listeners": 52930,
+      "collected_at": "2026-05-07T16:17:43.184248+00:00",
+      "spotify_followers": 50850,
+      "youtube_subscribers": 37000,
+      "youtube_total_views": 8258778,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3540
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1506
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 932
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 893
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 583
+        }
+      ],
+      "lastfm_listeners": 23630,
+      "lastfm_playcount": 394310,
+      "ytm_subscribers": 37000,
+      "ytm_monthly_listeners": 70700,
+      "ytm_total_views": 8022185,
+      "validation_flags": [
+        "unusual_deviation"
+      ]
     }
   ],
   "metadata": {
@@ -949,7 +993,7 @@
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "124K"
+        "subscribers": "106K"
       },
       {
         "name": "80KIDZ",
@@ -959,7 +1003,7 @@
       {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
-        "subscribers": "139K"
+        "subscribers": "138K"
       },
       {
         "name": "Dirty Androids",
@@ -984,7 +1028,7 @@
       {
         "name": "MONDO GROSSO",
         "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
-        "subscribers": "242K"
+        "subscribers": "241K"
       }
     ],
     "ytm_top_songs": [
@@ -1140,6 +1184,12 @@
           "views": 110598,
           "likes": 2344,
           "comments": 24
+        },
+        {
+          "date": "2026-05-07",
+          "views": 111145,
+          "likes": 2348,
+          "comments": 24
         }
       ]
     },
@@ -1270,6 +1320,12 @@
           "date": "2026-05-06",
           "views": 542825,
           "likes": 5097,
+          "comments": 17
+        },
+        {
+          "date": "2026-05-07",
+          "views": 543552,
+          "likes": 5105,
           "comments": 17
         }
       ]
@@ -1402,6 +1458,12 @@
           "views": 307142,
           "likes": 3309,
           "comments": 6
+        },
+        {
+          "date": "2026-05-07",
+          "views": 307421,
+          "likes": 3313,
+          "comments": 6
         }
       ]
     },
@@ -1531,6 +1593,12 @@
         {
           "date": "2026-05-06",
           "views": 51366,
+          "likes": 169,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-07",
+          "views": 51431,
           "likes": 169,
           "comments": 1
         }
@@ -1664,6 +1732,12 @@
           "views": 112957,
           "likes": 1452,
           "comments": 14
+        },
+        {
+          "date": "2026-05-07",
+          "views": 113218,
+          "likes": 1457,
+          "comments": 14
         }
       ]
     }
@@ -1795,6 +1869,18 @@
       "type": "annotated",
       "related_annotation": "JT Rhythm Loop・スペースシャワーTV特集の継続効果でSpotify月間リスナーが増加（+650人・2.8σ）",
       "detected_at": "2026-05-06T16:17:29.109919+00:00"
+    },
+    {
+      "date": "2026-05-07",
+      "metric": "monthly_listeners",
+      "value": 52930,
+      "baseline_mean": 51102.0,
+      "baseline_stddev": 356.7,
+      "delta": 1827,
+      "score": 5.13,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-07T16:17:44.623161+00:00"
     }
   ]
 }

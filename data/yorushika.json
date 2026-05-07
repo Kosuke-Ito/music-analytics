@@ -985,6 +985,47 @@
       "ytm_subscribers": 3930000,
       "ytm_monthly_listeners": 18700000,
       "ytm_total_views": 3222456516
+    },
+    {
+      "date": "2026-05-07",
+      "monthly_listeners": 4906353,
+      "collected_at": "2026-05-07T16:11:11.634799+00:00",
+      "spotify_followers": 3554870,
+      "youtube_subscribers": 3930000,
+      "youtube_total_views": 3227167061,
+      "youtube_video_count": 129,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 195162
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 170999
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 126700
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 109679
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 71734
+        }
+      ],
+      "lastfm_listeners": 246153,
+      "lastfm_playcount": 11062005,
+      "ytm_subscribers": 3930000,
+      "ytm_monthly_listeners": 18300000,
+      "ytm_total_views": 3222456516
     }
   ],
   "annotations": [
@@ -1110,7 +1151,7 @@
       {
         "name": "asmi",
         "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
-        "subscribers": "3.43M"
+        "subscribers": "3.39M"
       },
       {
         "name": "ChoQMay",
@@ -1118,9 +1159,14 @@
         "subscribers": "3.27M"
       },
       {
+        "name": "yutori",
+        "browse_id": "UCqM8y7cbNcekfXHhvitCLyw",
+        "subscribers": "255K"
+      },
+      {
         "name": "Hitsujibungaku",
         "browse_id": "UCnZK-AT0Yrx8uXcFRqUy87g",
-        "subscribers": "6.21M"
+        "subscribers": "6.11M"
       },
       {
         "name": "suis from Yorushika",
@@ -1128,34 +1174,29 @@
         "subscribers": "28.4K"
       },
       {
-        "name": "ATARAYO",
-        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
-        "subscribers": "1.87M"
-      },
-      {
-        "name": "yutori",
-        "browse_id": "UCqM8y7cbNcekfXHhvitCLyw",
-        "subscribers": "257K"
+        "name": "muque",
+        "browse_id": "UClh_g9tkf_ErD1UclhABZDw",
+        "subscribers": "882K"
       },
       {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "557K"
+        "subscribers": "545K"
       },
       {
         "name": "minami",
         "browse_id": "UCEsOqBVe_DNEUAer9TYk6bw",
-        "subscribers": "2.39M"
+        "subscribers": "2.34M"
+      },
+      {
+        "name": "ATARAYO",
+        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
+        "subscribers": "1.89M"
       },
       {
         "name": "Ayase",
         "browse_id": "UCbqY3RHKkPS8dJCrfAfSk6Q",
         "subscribers": "59.1K"
-      },
-      {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "4.86M"
       }
     ],
     "ytm_top_songs": [
@@ -1323,6 +1364,12 @@
           "views": 5102243,
           "likes": 33006,
           "comments": 121
+        },
+        {
+          "date": "2026-05-07",
+          "views": 5156680,
+          "likes": 33283,
+          "comments": 122
         }
       ]
     },
@@ -1495,6 +1542,12 @@
           "views": 103300776,
           "likes": 355766,
           "comments": 561
+        },
+        {
+          "date": "2026-05-07",
+          "views": 103351383,
+          "likes": 355904,
+          "comments": 562
         }
       ]
     },
@@ -1637,6 +1690,12 @@
           "date": "2026-05-06",
           "views": 32612046,
           "likes": 107076,
+          "comments": 230
+        },
+        {
+          "date": "2026-05-07",
+          "views": 32640587,
+          "likes": 107185,
           "comments": 230
         }
       ]
@@ -1781,6 +1840,12 @@
           "views": 3400952,
           "likes": 32293,
           "comments": 399
+        },
+        {
+          "date": "2026-05-07",
+          "views": 3433930,
+          "likes": 32430,
+          "comments": 399
         }
       ]
     },
@@ -1905,6 +1970,12 @@
           "views": 1944044,
           "likes": 41994,
           "comments": 914
+        },
+        {
+          "date": "2026-05-07",
+          "views": 2036280,
+          "likes": 42935,
+          "comments": 918
         }
       ]
     }
@@ -1945,6 +2016,18 @@
       "type": "annotated",
       "related_annotation": "アニメ「LIAR GAME」OPテーマ「あぶく」がオリコン週間ストリーミングランキングに初登場",
       "detected_at": "2026-05-06T16:10:40.385922+00:00"
+    },
+    {
+      "date": "2026-05-07",
+      "metric": "monthly_listeners",
+      "value": 4906353,
+      "baseline_mean": 4790242.3,
+      "baseline_stddev": 45311.5,
+      "delta": 116110,
+      "score": 2.56,
+      "type": "annotated",
+      "related_annotation": "アニメ「LIAR GAME」OPテーマ「あぶく」がオリコン週間ストリーミングランキングに初登場",
+      "detected_at": "2026-05-07T16:11:15.107331+00:00"
     }
   ]
 }

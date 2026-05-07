@@ -985,6 +985,47 @@
       "ytm_subscribers": 2290000,
       "ytm_monthly_listeners": 7850000,
       "ytm_total_views": 2643492723
+    },
+    {
+      "date": "2026-05-07",
+      "monthly_listeners": 4277718,
+      "collected_at": "2026-05-07T16:12:18.892533+00:00",
+      "spotify_followers": 6249403,
+      "youtube_subscribers": 2290000,
+      "youtube_total_views": 2653221587,
+      "youtube_video_count": 268,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 216812
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 195919
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 138619
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 80161
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 66899
+        }
+      ],
+      "lastfm_listeners": 19512,
+      "lastfm_playcount": 1414157,
+      "ytm_subscribers": 2290000,
+      "ytm_monthly_listeners": 7880000,
+      "ytm_total_views": 2643492723
     }
   ],
   "annotations": [
@@ -1122,22 +1163,22 @@
       {
         "name": "Ayaka",
         "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
-        "subscribers": "5.09M"
-      },
-      {
-        "name": "Ai Otsuka",
-        "browse_id": "UCiQBYPGlDQRHXD8FaryNaFw",
-        "subscribers": "8.61M"
-      },
-      {
-        "name": "Takaya Kawasaki",
-        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
-        "subscribers": "1.98M"
+        "subscribers": "5.11M"
       },
       {
         "name": "Superfly",
         "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
-        "subscribers": "3.83M"
+        "subscribers": "3.99M"
+      },
+      {
+        "name": "Ai Otsuka",
+        "browse_id": "UCiQBYPGlDQRHXD8FaryNaFw",
+        "subscribers": "8.56M"
+      },
+      {
+        "name": "Takaya Kawasaki",
+        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
+        "subscribers": "1.96M"
       },
       {
         "name": "Ken Hirai",
@@ -1150,24 +1191,24 @@
         "subscribers": "10.1M"
       },
       {
-        "name": "Uru",
-        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "21.9M"
+        "name": "aiko",
+        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
+        "subscribers": "6.22M"
       },
       {
         "name": "Ikimonogakari",
         "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
-        "subscribers": "16.2M"
+        "subscribers": "16M"
+      },
+      {
+        "name": "Uru",
+        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
+        "subscribers": "22.5M"
       },
       {
         "name": "Motohiro Hata",
         "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "9.55M"
-      },
-      {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "14.6M"
+        "subscribers": "9.43M"
       }
     ],
     "ytm_top_songs": [
@@ -1335,6 +1376,12 @@
           "views": 104392672,
           "likes": 301392,
           "comments": 660
+        },
+        {
+          "date": "2026-05-07",
+          "views": 104439048,
+          "likes": 301497,
+          "comments": 660
         }
       ]
     },
@@ -1477,6 +1524,12 @@
           "date": "2026-05-06",
           "views": 98926124,
           "likes": 337482,
+          "comments": 402
+        },
+        {
+          "date": "2026-05-07",
+          "views": 98967750,
+          "likes": 337605,
           "comments": 402
         }
       ]
@@ -1621,6 +1674,12 @@
           "views": 61787882,
           "likes": 180163,
           "comments": 230
+        },
+        {
+          "date": "2026-05-07",
+          "views": 61811609,
+          "likes": 180224,
+          "comments": 230
         }
       ]
     },
@@ -1763,6 +1822,12 @@
           "date": "2026-05-06",
           "views": 1966709,
           "likes": 6082,
+          "comments": 39
+        },
+        {
+          "date": "2026-05-07",
+          "views": 1967189,
+          "likes": 6085,
           "comments": 39
         }
       ]
@@ -1912,6 +1977,12 @@
           "views": 35489900,
           "likes": 112415,
           "comments": 221
+        },
+        {
+          "date": "2026-05-07",
+          "views": 35504409,
+          "likes": 112462,
+          "comments": 221
         }
       ]
     }
@@ -2000,6 +2071,18 @@
       "type": "annotated",
       "related_annotation": "VIVA LA ROCK 2026（埼玉）に出演",
       "detected_at": "2026-05-06T16:11:51.112468+00:00"
+    },
+    {
+      "date": "2026-05-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 7880000,
+      "baseline_mean": 7678750,
+      "baseline_stddev": 53643.3,
+      "delta": 201250,
+      "score": 3.75,
+      "type": "annotated",
+      "related_annotation": "VIVA LA ROCK 2026（埼玉）に出演",
+      "detected_at": "2026-05-07T16:12:20.280115+00:00"
     }
   ]
 }
