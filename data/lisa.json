@@ -1026,6 +1026,47 @@
       "ytm_subscribers": 8580000,
       "ytm_monthly_listeners": 93800000,
       "ytm_total_views": 2320449555
+    },
+    {
+      "date": "2026-05-08",
+      "monthly_listeners": 4646187,
+      "collected_at": "2026-05-08T15:28:04.425254+00:00",
+      "spotify_followers": 3787414,
+      "youtube_subscribers": 2930000,
+      "youtube_total_views": 1750389913,
+      "youtube_video_count": 489,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 71341
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 59911
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 53046
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 52835
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 51394
+        }
+      ],
+      "lastfm_listeners": 1973685,
+      "lastfm_playcount": 129895530,
+      "ytm_subscribers": 8580000,
+      "ytm_monthly_listeners": 94600000,
+      "ytm_total_views": 2320449555
     }
   ],
   "metadata": {
@@ -1060,19 +1101,24 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "hannah bahng",
+        "browse_id": "UCPYi7szVOO-kxBwb6RuHy0w",
+        "subscribers": "731K"
+      },
+      {
         "name": "Emily Mei",
         "browse_id": "UCTpDQm3i_pNnjZtmUwXnoxw",
-        "subscribers": "429K"
+        "subscribers": "393K"
       },
       {
         "name": "블랙스완 BLACKSWAN",
         "browse_id": "UC277cpXD9BLeaGgh3yDP40w",
-        "subscribers": "820K"
+        "subscribers": "837K"
       },
       {
         "name": "SOOJIN",
         "browse_id": "UCqCmeJ3RRfpgMF6j_HzqbFQ",
-        "subscribers": "422K"
+        "subscribers": "425K"
       },
       {
         "name": "Jimin",
@@ -1082,17 +1128,17 @@
       {
         "name": "Jessi",
         "browse_id": "UC-sALATQ5O56R1ctGBf9y0Q",
-        "subscribers": "8.06M"
+        "subscribers": "8.21M"
       },
       {
         "name": "BADVILLAIN",
         "browse_id": "UCkw_Pss11Lokw5Ej8cr_4Ew",
-        "subscribers": "717K"
+        "subscribers": "723K"
       },
       {
-        "name": "hannah bahng",
-        "browse_id": "UCPYi7szVOO-kxBwb6RuHy0w",
-        "subscribers": "783K"
+        "name": "ROSÉ",
+        "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
+        "subscribers": "329M"
       },
       {
         "name": "JISOO",
@@ -1100,14 +1146,9 @@
         "subscribers": "181M"
       },
       {
-        "name": "ROSÉ",
-        "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
-        "subscribers": "330M"
-      },
-      {
         "name": "Bella Poarch",
         "browse_id": "UCFV_iW-P1LkSgCxBnZi5nYw",
-        "subscribers": "24.2M"
+        "subscribers": "25.1M"
       }
     ],
     "ytm_top_songs": [
@@ -1292,6 +1333,12 @@
           "views": 20159766,
           "likes": 233987,
           "comments": 1879
+        },
+        {
+          "date": "2026-05-08",
+          "views": 20202842,
+          "likes": 234382,
+          "comments": 1881
         }
       ]
     },
@@ -1441,6 +1488,12 @@
           "views": 264387970,
           "likes": 2672771,
           "comments": 3781
+        },
+        {
+          "date": "2026-05-08",
+          "views": 264462139,
+          "likes": 2673363,
+          "comments": 3783
         }
       ]
     },
@@ -1590,6 +1643,12 @@
           "views": 30043049,
           "likes": 232775,
           "comments": 721
+        },
+        {
+          "date": "2026-05-08",
+          "views": 30087228,
+          "likes": 233008,
+          "comments": 720
         }
       ]
     },
@@ -1739,6 +1798,12 @@
           "views": 24301170,
           "likes": 240314,
           "comments": 2355
+        },
+        {
+          "date": "2026-05-08",
+          "views": 24335743,
+          "likes": 240541,
+          "comments": 2358
         }
       ]
     },
@@ -1888,6 +1953,12 @@
           "views": 5278678,
           "likes": 110369,
           "comments": 1807
+        },
+        {
+          "date": "2026-05-08",
+          "views": 5420458,
+          "likes": 111864,
+          "comments": 1817
         }
       ]
     }
@@ -2054,6 +2125,18 @@
       "type": "annotated",
       "related_annotation": "「LACE UP」リリース＋武道館2DAYSの余韻でYouTube総再生数が継続上昇（2.3σ）",
       "detected_at": "2026-04-25T14:49:34.633685+00:00"
+    },
+    {
+      "date": "2026-05-08",
+      "metric": "youtube_total_views",
+      "value": 1750389913,
+      "baseline_mean": 1739155507.1,
+      "baseline_stddev": 5292873.6,
+      "delta": 11234405,
+      "score": 2.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-08T15:28:05.974656+00:00"
     }
   ]
 }

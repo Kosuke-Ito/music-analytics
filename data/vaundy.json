@@ -1326,6 +1326,47 @@
       "ytm_subscribers": 2510000,
       "ytm_monthly_listeners": 20400000,
       "ytm_total_views": 2556927296
+    },
+    {
+      "date": "2026-05-08",
+      "monthly_listeners": 6223564,
+      "collected_at": "2026-05-08T15:20:46.967771+00:00",
+      "spotify_followers": 3926448,
+      "youtube_subscribers": 2510000,
+      "youtube_total_views": 2594384725,
+      "youtube_video_count": 290,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 254523
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 245073
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 158413
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 103782
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 97177
+        }
+      ],
+      "lastfm_listeners": 524236,
+      "lastfm_playcount": 17318174,
+      "ytm_subscribers": 2510000,
+      "ytm_monthly_listeners": 20400000,
+      "ytm_total_views": 2566404840
     }
   ],
   "annotations": [
@@ -1478,22 +1519,22 @@
       {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.11M"
-      },
-      {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "14.4M"
+        "subscribers": "3.1M"
       },
       {
         "name": "Fujii Kaze",
         "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
-        "subscribers": "37M"
+        "subscribers": "36.8M"
       },
       {
-        "name": "Tele",
-        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "625K"
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "2.69M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "14.3M"
       },
       {
         "name": "RADWIMPS",
@@ -1503,27 +1544,27 @@
       {
         "name": "MILLENNIUM PARADE",
         "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
-        "subscribers": "1.06M"
-      },
-      {
-        "name": "imase",
-        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "58.2M"
+        "subscribers": "1.03M"
       },
       {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.17M"
+        "subscribers": "2.16M"
       },
       {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "2.62M"
+        "name": "Tele",
+        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
+        "subscribers": "658K"
+      },
+      {
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "60.5M"
       },
       {
         "name": "WurtS",
         "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "9.15M"
+        "subscribers": "9.08M"
       }
     ],
     "ytm_top_songs": [
@@ -1703,6 +1744,12 @@
           "views": 62742572,
           "likes": 222742,
           "comments": 803
+        },
+        {
+          "date": "2026-05-08",
+          "views": 62824064,
+          "likes": 222938,
+          "comments": 804
         }
       ]
     },
@@ -1857,6 +1904,12 @@
           "date": "2026-05-07",
           "views": 74502347,
           "likes": 454475,
+          "comments": 854
+        },
+        {
+          "date": "2026-05-08",
+          "views": 74570782,
+          "likes": 454764,
           "comments": 854
         }
       ]
@@ -2013,6 +2066,12 @@
           "views": 36685483,
           "likes": 181114,
           "comments": 295
+        },
+        {
+          "date": "2026-05-08",
+          "views": 36725850,
+          "likes": 181247,
+          "comments": 296
         }
       ]
     },
@@ -2167,6 +2226,12 @@
           "date": "2026-05-07",
           "views": 29030992,
           "likes": 133220,
+          "comments": 274
+        },
+        {
+          "date": "2026-05-08",
+          "views": 29059689,
+          "likes": 133309,
           "comments": 274
         }
       ]
@@ -2328,6 +2393,12 @@
           "views": 4059259,
           "likes": 47931,
           "comments": 643
+        },
+        {
+          "date": "2026-05-08",
+          "views": 4198358,
+          "likes": 48754,
+          "comments": 650
         }
       ]
     }
@@ -2560,6 +2631,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-07T16:05:56.459516+00:00"
+    },
+    {
+      "date": "2026-05-08",
+      "metric": "monthly_listeners",
+      "value": 6223564,
+      "baseline_mean": 6022620.2,
+      "baseline_stddev": 75779.8,
+      "delta": 200943,
+      "score": 2.65,
+      "type": "annotated",
+      "related_annotation": "月9ドラマ「サバ缶、宇宙へ行く」第4話放送後の継続効果でSpotify月間リスナーが急増（+210,394人・3.12σ）",
+      "detected_at": "2026-05-08T15:20:48.224838+00:00"
     }
   ]
 }

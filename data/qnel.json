@@ -1141,6 +1141,47 @@
       "ytm_subscribers": 154,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-08",
+      "monthly_listeners": 465,
+      "collected_at": "2026-05-08T15:22:12.298848+00:00",
+      "spotify_followers": 933,
+      "youtube_subscribers": 364,
+      "youtube_total_views": 65621,
+      "youtube_video_count": 170,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 33
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 11
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 8
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 7
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 7
+        }
+      ],
+      "lastfm_listeners": 736,
+      "lastfm_playcount": 2413,
+      "ytm_subscribers": 154,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -1194,14 +1235,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Broken Kangaroo",
-        "browse_id": "UCaiTJEr-YUPv1W5xiu49bNw",
-        "subscribers": "5.05K"
-      },
-      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "59.4K"
+        "subscribers": "60.2K"
       },
       {
         "name": "Offo tokyo",
@@ -1211,7 +1247,7 @@
       {
         "name": "dawgss",
         "browse_id": "UC0clTcD4YEA0gViF33LumjQ",
-        "subscribers": "747"
+        "subscribers": "748"
       },
       {
         "name": "Yujin Aramaki",
@@ -1236,12 +1272,17 @@
       {
         "name": "GALALI",
         "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "70.7K"
+        "subscribers": "53.7K"
       },
       {
         "name": "Nolzy",
         "browse_id": "UCDg2E8bOoRVGZc-TN0rcJwQ",
-        "subscribers": "4.29K"
+        "subscribers": "4.3K"
+      },
+      {
+        "name": "Cocolashika",
+        "browse_id": "UCc4EvEBa6wAcSP9-K__6_HA",
+        "subscribers": "30K"
       }
     ],
     "ytm_top_songs": [
@@ -1250,12 +1291,12 @@
         "video_id": "gMrPbqFtkbQ"
       },
       {
-        "title": "ムーンライト~夏のVenus~ - Moonlight (feat. You)",
-        "video_id": "5j8n7tJ3Mlk"
-      },
-      {
         "title": "スーパースター - Superstar",
         "video_id": "UWlaQWdCoxY"
+      },
+      {
+        "title": "ムーンライト~夏のVenus~ - Moonlight (feat. You)",
+        "video_id": "5j8n7tJ3Mlk"
       },
       {
         "title": "徒歩圏内 - Tohokennai",
@@ -1420,6 +1461,12 @@
           "views": 3116,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-05-08",
+          "views": 3123,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -1573,6 +1620,12 @@
         {
           "date": "2026-05-07",
           "views": 5427,
+          "likes": 21,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-08",
+          "views": 5432,
           "likes": 21,
           "comments": 0
         }
@@ -1730,6 +1783,12 @@
           "views": 11917,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-05-08",
+          "views": 11931,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -1885,6 +1944,12 @@
           "views": 31587,
           "likes": 149,
           "comments": 0
+        },
+        {
+          "date": "2026-05-08",
+          "views": 31602,
+          "likes": 149,
+          "comments": 0
         }
       ]
     },
@@ -2034,6 +2099,12 @@
           "views": 7762,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-05-08",
+          "views": 7772,
+          "likes": 60,
+          "comments": 0
         }
       ]
     },
@@ -2181,6 +2252,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-07T16:07:20.035183+00:00"
+    },
+    {
+      "date": "2026-05-08",
+      "metric": "youtube_total_views",
+      "value": 65621,
+      "baseline_mean": 65473.5,
+      "baseline_stddev": 69.7,
+      "delta": 147,
+      "score": 2.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-08T15:22:13.666538+00:00"
     }
   ]
 }

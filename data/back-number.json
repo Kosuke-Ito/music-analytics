@@ -1026,6 +1026,47 @@
       "ytm_subscribers": 2080000,
       "ytm_monthly_listeners": 14400000,
       "ytm_total_views": 2652227997
+    },
+    {
+      "date": "2026-05-08",
+      "monthly_listeners": 5895975,
+      "collected_at": "2026-05-08T15:25:55.186988+00:00",
+      "spotify_followers": 6523249,
+      "youtube_subscribers": 2080000,
+      "youtube_total_views": 2694941786,
+      "youtube_video_count": 243,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 367053
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 319126
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 233804
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 133783
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 119028
+        }
+      ],
+      "lastfm_listeners": 126094,
+      "lastfm_playcount": 6113597,
+      "ytm_subscribers": 2080000,
+      "ytm_monthly_listeners": 14300000,
+      "ytm_total_views": 2660135128
     }
   ],
   "annotations": [
@@ -1119,12 +1160,22 @@
       {
         "name": "Superfly",
         "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
-        "subscribers": "3.99M"
+        "subscribers": "4.02M"
+      },
+      {
+        "name": "Remioromen",
+        "browse_id": "UCHzbZw7GxoyFf-_pyS1R6mg",
+        "subscribers": "2.98M"
+      },
+      {
+        "name": "Takaya Kawasaki",
+        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
+        "subscribers": "1.95M"
       },
       {
         "name": "Manato Funatsu",
         "browse_id": "UCHfEbuAKWEgHHXx2cKIKJQQ",
-        "subscribers": "5.86M"
+        "subscribers": "5.84M"
       },
       {
         "name": "YUZU",
@@ -1132,19 +1183,9 @@
         "subscribers": "5.44M"
       },
       {
-        "name": "Remioromen",
-        "browse_id": "UCHzbZw7GxoyFf-_pyS1R6mg",
-        "subscribers": "3.12M"
-      },
-      {
         "name": "Ken Hirai",
         "browse_id": "UCjV108-_g6HUrmoKOt5-QIw",
         "subscribers": "1.69M"
-      },
-      {
-        "name": "Takaya Kawasaki",
-        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
-        "subscribers": "1.96M"
       },
       {
         "name": "あいみょん",
@@ -1154,17 +1195,17 @@
       {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "10.1M"
+        "subscribers": "10M"
       },
       {
-        "name": "aiko",
-        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
-        "subscribers": "6.22M"
+        "name": "Marcy",
+        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
+        "subscribers": "1.71M"
       },
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "9.43M"
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "15.8M"
       }
     ],
     "ytm_top_songs": [
@@ -1338,6 +1379,12 @@
           "views": 55687320,
           "likes": 185518,
           "comments": 551
+        },
+        {
+          "date": "2026-05-08",
+          "views": 55743085,
+          "likes": 185674,
+          "comments": 548
         }
       ]
     },
@@ -1486,6 +1533,12 @@
           "date": "2026-05-07",
           "views": 43676392,
           "likes": 166653,
+          "comments": 701
+        },
+        {
+          "date": "2026-05-08",
+          "views": 43745593,
+          "likes": 166834,
           "comments": 701
         }
       ]
@@ -1636,6 +1689,12 @@
           "views": 61182700,
           "likes": 197237,
           "comments": 563
+        },
+        {
+          "date": "2026-05-08",
+          "views": 61232367,
+          "likes": 197377,
+          "comments": 563
         }
       ]
     },
@@ -1785,6 +1844,12 @@
           "views": 58247407,
           "likes": 197943,
           "comments": 587
+        },
+        {
+          "date": "2026-05-08",
+          "views": 58296731,
+          "likes": 198085,
+          "comments": 589
         }
       ]
     },
@@ -1934,6 +1999,12 @@
           "views": 20702400,
           "likes": 90649,
           "comments": 472
+        },
+        {
+          "date": "2026-05-08",
+          "views": 20743276,
+          "likes": 90776,
+          "comments": 473
         }
       ]
     }
@@ -1986,6 +2057,18 @@
       "type": "annotated",
       "related_annotation": "「Grateful Yesterdays Tour 2026」ツアー前日もYouTube総再生数高水準で推移",
       "detected_at": "2026-05-03T14:52:29.286036+00:00"
+    },
+    {
+      "date": "2026-05-08",
+      "metric": "youtube_total_views",
+      "value": 2694941786,
+      "baseline_mean": 2663237320.4,
+      "baseline_stddev": 15278938.8,
+      "delta": 31704465,
+      "score": 2.08,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-08T15:26:02.752456+00:00"
     }
   ]
 }

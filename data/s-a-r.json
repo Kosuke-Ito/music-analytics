@@ -1104,6 +1104,47 @@
       "ytm_subscribers": 13300,
       "ytm_monthly_listeners": 73500,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-08",
+      "monthly_listeners": 91589,
+      "collected_at": "2026-05-08T15:22:29.303500+00:00",
+      "spotify_followers": 28022,
+      "youtube_subscribers": 13300,
+      "youtube_total_views": 2234334,
+      "youtube_video_count": 76,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5997
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3222
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 2360
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1791
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1657
+        }
+      ],
+      "lastfm_listeners": 5615,
+      "lastfm_playcount": 40053,
+      "ytm_subscribers": 13300,
+      "ytm_monthly_listeners": 71900,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -1189,19 +1230,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Ovall",
-        "browse_id": "UCuA82nnWojpMgjBqCnbQDmQ",
-        "subscribers": "518K"
-      },
-      {
         "name": "Geloomy",
         "browse_id": "UCYypxPpK93FErrKdMcEuppg",
         "subscribers": "10.6K"
       },
       {
+        "name": "Ovall",
+        "browse_id": "UCuA82nnWojpMgjBqCnbQDmQ",
+        "subscribers": "519K"
+      },
+      {
         "name": "SALASA",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "79.2K"
+        "subscribers": "77.9K"
       },
       {
         "name": "reina",
@@ -1216,7 +1257,7 @@
       {
         "name": "Michael Kaneko",
         "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
-        "subscribers": "176K"
+        "subscribers": "172K"
       },
       {
         "name": "brkfstblend",
@@ -1226,12 +1267,12 @@
       {
         "name": "Nao Yoshioka",
         "browse_id": "UCs93X0FfTpRlxAMnmO94Kcw",
-        "subscribers": "81.3K"
+        "subscribers": "82.3K"
       },
       {
         "name": "Sweet William",
         "browse_id": "UCLloo-Tk9tYFMVYaKB8pasg",
-        "subscribers": "701K"
+        "subscribers": "691K"
       },
       {
         "name": "VivaOla",
@@ -1415,6 +1456,12 @@
           "views": 200550,
           "likes": 2698,
           "comments": 8
+        },
+        {
+          "date": "2026-05-08",
+          "views": 200804,
+          "likes": 2698,
+          "comments": 8
         }
       ]
     },
@@ -1568,6 +1615,12 @@
         {
           "date": "2026-05-07",
           "views": 10198,
+          "likes": 171,
+          "comments": 4
+        },
+        {
+          "date": "2026-05-08",
+          "views": 10377,
           "likes": 171,
           "comments": 4
         }
@@ -1725,6 +1778,12 @@
           "views": 71584,
           "likes": 825,
           "comments": 7
+        },
+        {
+          "date": "2026-05-08",
+          "views": 71795,
+          "likes": 826,
+          "comments": 7
         }
       ]
     },
@@ -1866,6 +1925,12 @@
         {
           "date": "2026-05-07",
           "views": 93917,
+          "likes": 886,
+          "comments": 3
+        },
+        {
+          "date": "2026-05-08",
+          "views": 94069,
           "likes": 886,
           "comments": 3
         }
@@ -2034,6 +2099,12 @@
           "views": 19237,
           "likes": 395,
           "comments": 6
+        },
+        {
+          "date": "2026-05-08",
+          "views": 19731,
+          "likes": 404,
+          "comments": 6
         }
       ]
     },
@@ -2163,6 +2234,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-07T16:07:37.039679+00:00"
+    },
+    {
+      "date": "2026-05-08",
+      "metric": "monthly_listeners",
+      "value": 91589,
+      "baseline_mean": 82103.3,
+      "baseline_stddev": 4535.3,
+      "delta": 9485,
+      "score": 2.09,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-08T15:22:30.765230+00:00"
     }
   ]
 }

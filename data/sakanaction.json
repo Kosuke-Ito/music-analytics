@@ -1026,6 +1026,47 @@
       "ytm_subscribers": 1280000,
       "ytm_monthly_listeners": 53800000,
       "ytm_total_views": 1101263466
+    },
+    {
+      "date": "2026-05-08",
+      "monthly_listeners": 3438303,
+      "collected_at": "2026-05-08T15:29:03.348336+00:00",
+      "spotify_followers": 1896262,
+      "youtube_subscribers": 1290000,
+      "youtube_total_views": 1147943202,
+      "youtube_video_count": 497,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 178906
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 157070
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 104873
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 65598
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 43002
+        }
+      ],
+      "lastfm_listeners": 58769,
+      "lastfm_playcount": 15802627,
+      "ytm_subscribers": 1290000,
+      "ytm_monthly_listeners": 57500000,
+      "ytm_total_views": 1101263466
     }
   ],
   "annotations": [
@@ -1167,17 +1208,17 @@
       {
         "name": "Hitsujibungaku",
         "browse_id": "UCnZK-AT0Yrx8uXcFRqUy87g",
-        "subscribers": "6.11M"
+        "subscribers": "5.99M"
       },
       {
         "name": "jo0ji",
         "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "1.93M"
+        "subscribers": "1.8M"
       },
       {
         "name": "Quruli",
         "browse_id": "UCLIFRNQRDAaD5H4REYsRdmA",
-        "subscribers": "729K"
+        "subscribers": "732K"
       },
       {
         "name": "Perfume",
@@ -1187,22 +1228,12 @@
       {
         "name": "Fujifabric",
         "browse_id": "UCFRvee2fH0Fo6WRKGZuk7SQ",
-        "subscribers": "1.31M"
-      },
-      {
-        "name": "ASIAN KUNG-FU GENERATION",
-        "browse_id": "UCx_es_PpRD6fhpNU-vzlQ_g",
-        "subscribers": "4.12M"
+        "subscribers": "1.36M"
       },
       {
         "name": "MILLENNIUM PARADE",
         "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
-        "subscribers": "1.06M"
-      },
-      {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "620K"
+        "subscribers": "1.03M"
       },
       {
         "name": "RADWIMPS",
@@ -1210,9 +1241,19 @@
         "subscribers": "66.5M"
       },
       {
-        "name": "BUMP OF CHICKEN",
-        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
-        "subscribers": "8.99M"
+        "name": "Tokyo Incidents",
+        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
+        "subscribers": "1.3M"
+      },
+      {
+        "name": "PEOPLE 1",
+        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
+        "subscribers": "621K"
+      },
+      {
+        "name": "ASIAN KUNG-FU GENERATION",
+        "browse_id": "UCx_es_PpRD6fhpNU-vzlQ_g",
+        "subscribers": "4.12M"
       }
     ],
     "ytm_top_songs": [
@@ -1386,6 +1427,12 @@
           "views": 63694198,
           "likes": 383901,
           "comments": 1165
+        },
+        {
+          "date": "2026-05-08",
+          "views": 63794807,
+          "likes": 384223,
+          "comments": 1168
         }
       ]
     },
@@ -1535,6 +1582,12 @@
           "views": 48395823,
           "likes": 185111,
           "comments": 399
+        },
+        {
+          "date": "2026-05-08",
+          "views": 48441677,
+          "likes": 185258,
+          "comments": 398
         }
       ]
     },
@@ -1683,6 +1736,12 @@
           "date": "2026-05-07",
           "views": 4586358,
           "likes": 54577,
+          "comments": 1546
+        },
+        {
+          "date": "2026-05-08",
+          "views": 4616223,
+          "likes": 54697,
           "comments": 1546
         }
       ]
@@ -1833,6 +1892,12 @@
           "views": 12929936,
           "likes": 83415,
           "comments": 394
+        },
+        {
+          "date": "2026-05-08",
+          "views": 13094358,
+          "likes": 84886,
+          "comments": 415
         }
       ]
     },
@@ -1981,6 +2046,12 @@
           "date": "2026-05-07",
           "views": 20038628,
           "likes": 113155,
+          "comments": 192
+        },
+        {
+          "date": "2026-05-08",
+          "views": 20062286,
+          "likes": 113253,
           "comments": 192
         }
       ]
@@ -2322,6 +2393,30 @@
       "type": "annotated",
       "related_annotation": "MUSIC AWARDS JAPAN 2026公開投票（4/30〜5/20）×ゴールデンウィーク視聴増でSpotify・YTM月間リスナーが上昇",
       "detected_at": "2026-05-07T16:13:44.271718+00:00"
+    },
+    {
+      "date": "2026-05-08",
+      "metric": "monthly_listeners",
+      "value": 3438303,
+      "baseline_mean": 3177918.0,
+      "baseline_stddev": 84768.2,
+      "delta": 260384,
+      "score": 3.07,
+      "type": "annotated",
+      "related_annotation": "MUSIC AWARDS JAPAN 2026公開投票（4/30〜5/20）×ゴールデンウィーク視聴増でSpotify・YTM月間リスナーが上昇",
+      "detected_at": "2026-05-08T15:29:05.022410+00:00"
+    },
+    {
+      "date": "2026-05-08",
+      "metric": "ytm_monthly_listeners",
+      "value": 57500000,
+      "baseline_mean": 44584000,
+      "baseline_stddev": 4036402.4,
+      "delta": 12916000,
+      "score": 3.2,
+      "type": "annotated",
+      "related_annotation": "MUSIC AWARDS JAPAN 2026公開投票（4/30〜5/20）×ゴールデンウィーク視聴増でSpotify・YTM月間リスナーが上昇",
+      "detected_at": "2026-05-08T15:29:05.022410+00:00"
     }
   ]
 }

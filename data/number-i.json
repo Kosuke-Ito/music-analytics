@@ -1026,6 +1026,47 @@
       "ytm_subscribers": 1050000,
       "ytm_monthly_listeners": 2250000,
       "ytm_total_views": 956870721
+    },
+    {
+      "date": "2026-05-08",
+      "monthly_listeners": 1185734,
+      "collected_at": "2026-05-08T15:31:45.416778+00:00",
+      "spotify_followers": 371682,
+      "youtube_subscribers": 1050000,
+      "youtube_total_views": 1048767785,
+      "youtube_video_count": 460,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 57706
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 48325
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 42799
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 19384
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 15857
+        }
+      ],
+      "lastfm_listeners": 22433,
+      "lastfm_playcount": 561848,
+      "ytm_subscribers": 1050000,
+      "ytm_monthly_listeners": 2270000,
+      "ytm_total_views": 956870721
     }
   ],
   "metadata": {
@@ -1062,32 +1103,42 @@
       {
         "name": "KinKi Kids",
         "browse_id": "UCVKObs9jxjPTzGJVeoH8cDw",
-        "subscribers": "2.71M"
+        "subscribers": "2.6M"
       },
       {
         "name": "NEWS",
         "browse_id": "UCbYM7oBcZNzqQp98PiF5HKw",
-        "subscribers": "2.01M"
-      },
-      {
-        "name": "King & Prince",
-        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "6.38M"
+        "subscribers": "2.03M"
       },
       {
         "name": "SixTONES",
         "browse_id": "UCKlEziFhgHJhkBkZg8Hp6tw",
-        "subscribers": "3.53M"
+        "subscribers": "3.48M"
       },
       {
         "name": "Kento Nakajima",
         "browse_id": "UCD4QqFd_0kqBzEZXTKwCH2g",
-        "subscribers": "8.5M"
+        "subscribers": "8.15M"
+      },
+      {
+        "name": "BE:FIRST",
+        "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
+        "subscribers": "6.59M"
       },
       {
         "name": "Travis Japan",
         "browse_id": "UC0CJ4qxy9mgHNhO2d_sqBuw",
-        "subscribers": "1.8M"
+        "subscribers": "1.81M"
+      },
+      {
+        "name": "Naniwa Danshi",
+        "browse_id": "UC2czdqI9sjz5kz73sU3EGbQ",
+        "subscribers": "3.2M"
+      },
+      {
+        "name": "King & Prince",
+        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
+        "subscribers": "6.36M"
       },
       {
         "name": "Snow Man",
@@ -1095,19 +1146,9 @@
         "subscribers": "21.9M"
       },
       {
-        "name": "BE:FIRST",
-        "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
-        "subscribers": "6.67M"
-      },
-      {
-        "name": "Naniwa Danshi",
-        "browse_id": "UC2czdqI9sjz5kz73sU3EGbQ",
-        "subscribers": "3.21M"
-      },
-      {
         "name": "Hey! Say! JUMP",
         "browse_id": "UCpYHkc4rzWEW7iVXIyxQebA",
-        "subscribers": "2.24M"
+        "subscribers": "2.49M"
       }
     ],
     "ytm_top_songs": [
@@ -1281,6 +1322,12 @@
           "views": 2786321,
           "likes": 45917,
           "comments": 5640
+        },
+        {
+          "date": "2026-05-08",
+          "views": 2796054,
+          "likes": 45928,
+          "comments": 5643
         }
       ]
     },
@@ -1411,6 +1458,12 @@
           "date": "2026-05-07",
           "views": 1753338,
           "likes": 10393,
+          "comments": 102
+        },
+        {
+          "date": "2026-05-08",
+          "views": 1754370,
+          "likes": 10396,
           "comments": 102
         }
       ]
@@ -1839,6 +1892,12 @@
           "views": 552294,
           "likes": 15317,
           "comments": 1194
+        },
+        {
+          "date": "2026-05-08",
+          "views": 578663,
+          "likes": 15457,
+          "comments": 1211
         }
       ]
     },
@@ -1868,6 +1927,12 @@
           "views": 476078,
           "likes": 14145,
           "comments": 1080
+        },
+        {
+          "date": "2026-05-08",
+          "views": 497978,
+          "likes": 14230,
+          "comments": 1105
         }
       ]
     },
@@ -1897,6 +1962,12 @@
           "views": 434788,
           "likes": 12671,
           "comments": 781
+        },
+        {
+          "date": "2026-05-08",
+          "views": 456330,
+          "likes": 12753,
+          "comments": 788
         }
       ]
     }
@@ -2091,6 +2162,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-07T16:16:16.891549+00:00"
+    },
+    {
+      "date": "2026-05-08",
+      "metric": "monthly_listeners",
+      "value": 1185734,
+      "baseline_mean": 1038298.1,
+      "baseline_stddev": 50770.8,
+      "delta": 147435,
+      "score": 2.9,
+      "type": "annotated",
+      "related_annotation": "「3XL」EP がオリコン週間デジタルアルバムランキング1位・2026年度最高初週ダウンロード数（30,419DL）を記録",
+      "detected_at": "2026-05-08T15:31:47.057194+00:00"
     }
   ]
 }

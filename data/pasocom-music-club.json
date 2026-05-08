@@ -947,6 +947,47 @@
       "validation_flags": [
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-05-08",
+      "monthly_listeners": 52930,
+      "collected_at": "2026-05-08T15:33:09.704673+00:00",
+      "spotify_followers": 50870,
+      "youtube_subscribers": 37000,
+      "youtube_total_views": 8258778,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3540
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1506
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 932
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 893
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 583
+        }
+      ],
+      "lastfm_listeners": 23657,
+      "lastfm_playcount": 394687,
+      "ytm_subscribers": 37000,
+      "ytm_monthly_listeners": 71000,
+      "ytm_total_views": 8022185
     }
   ],
   "metadata": {
@@ -981,9 +1022,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "WEDNESDAY CAMPANELLA",
-        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
-        "subscribers": "2.01M"
+        "name": "MHRJ",
+        "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
+        "subscribers": "106K"
       },
       {
         "name": "DÉ DÉ MOUSE",
@@ -993,7 +1034,7 @@
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "106K"
+        "subscribers": "110K"
       },
       {
         "name": "80KIDZ",
@@ -1003,7 +1044,7 @@
       {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
-        "subscribers": "138K"
+        "subscribers": "136K"
       },
       {
         "name": "Dirty Androids",
@@ -1028,7 +1069,7 @@
       {
         "name": "MONDO GROSSO",
         "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
-        "subscribers": "241K"
+        "subscribers": "240K"
       }
     ],
     "ytm_top_songs": [
@@ -1190,6 +1231,12 @@
           "views": 111145,
           "likes": 2348,
           "comments": 24
+        },
+        {
+          "date": "2026-05-08",
+          "views": 111594,
+          "likes": 2353,
+          "comments": 24
         }
       ]
     },
@@ -1326,6 +1373,12 @@
           "date": "2026-05-07",
           "views": 543552,
           "likes": 5105,
+          "comments": 17
+        },
+        {
+          "date": "2026-05-08",
+          "views": 544205,
+          "likes": 5108,
           "comments": 17
         }
       ]
@@ -1464,6 +1517,12 @@
           "views": 307421,
           "likes": 3313,
           "comments": 6
+        },
+        {
+          "date": "2026-05-08",
+          "views": 307668,
+          "likes": 3316,
+          "comments": 6
         }
       ]
     },
@@ -1599,6 +1658,12 @@
         {
           "date": "2026-05-07",
           "views": 51431,
+          "likes": 169,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-08",
+          "views": 51488,
           "likes": 169,
           "comments": 1
         }
@@ -1737,6 +1802,12 @@
           "date": "2026-05-07",
           "views": 113218,
           "likes": 1457,
+          "comments": 14
+        },
+        {
+          "date": "2026-05-08",
+          "views": 113447,
+          "likes": 1459,
           "comments": 14
         }
       ]
@@ -1881,6 +1952,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-07T16:17:44.623161+00:00"
+    },
+    {
+      "date": "2026-05-08",
+      "metric": "monthly_listeners",
+      "value": 52930,
+      "baseline_mean": 51181.5,
+      "baseline_stddev": 510.5,
+      "delta": 1748,
+      "score": 3.42,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-08T15:33:11.461422+00:00"
     }
   ]
 }

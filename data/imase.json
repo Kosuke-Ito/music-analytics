@@ -1026,6 +1026,47 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 58200000,
       "ytm_total_views": 841476296
+    },
+    {
+      "date": "2026-05-08",
+      "monthly_listeners": 3329798,
+      "collected_at": "2026-05-08T15:27:11.624772+00:00",
+      "spotify_followers": 1004931,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 844506408,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 57348
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51549
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 44974
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39298
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 38683
+        }
+      ],
+      "lastfm_listeners": 400646,
+      "lastfm_playcount": 5707533,
+      "ytm_subscribers": 1340000,
+      "ytm_monthly_listeners": 60500000,
+      "ytm_total_views": 841476296
     }
   ],
   "annotations": [
@@ -1084,17 +1125,17 @@
       {
         "name": "tonun",
         "browse_id": "UC9XSYahwHXgJnG_7opHAdmQ",
-        "subscribers": "102K"
+        "subscribers": "105K"
       },
       {
         "name": "G over",
         "browse_id": "UCVRsmPU-XYUpbKIm-Jha_LQ",
-        "subscribers": "92.8K"
+        "subscribers": "93.3K"
       },
       {
         "name": "Rinne",
         "browse_id": "UCbWE8ZDfkixEPbYiCpc3H7A",
-        "subscribers": "410K"
+        "subscribers": "396K"
       },
       {
         "name": "Yaffle",
@@ -1104,22 +1145,22 @@
       {
         "name": "zettakun",
         "browse_id": "UCMVLVZvxO_xJv8l1ov7Ss4Q",
-        "subscribers": "60.2K"
+        "subscribers": "57.3K"
       },
       {
         "name": "Mel",
         "browse_id": "UC3-nhpqJ7oA-Gj0fglYNQ9w",
-        "subscribers": "132K"
+        "subscribers": "131K"
       },
       {
         "name": "Ohashi Chippoke",
         "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "184K"
+        "subscribers": "187K"
       },
       {
         "name": "Awesome City Club",
         "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
-        "subscribers": "637K"
+        "subscribers": "622K"
       }
     ],
     "ytm_top_songs": [
@@ -1293,6 +1334,12 @@
           "views": 137900091,
           "likes": 1084219,
           "comments": 5850
+        },
+        {
+          "date": "2026-05-08",
+          "views": 137958073,
+          "likes": 1084653,
+          "comments": 5853
         }
       ]
     },
@@ -1441,6 +1488,12 @@
           "date": "2026-05-07",
           "views": 7556587,
           "likes": 55863,
+          "comments": 160
+        },
+        {
+          "date": "2026-05-08",
+          "views": 7564782,
+          "likes": 55905,
           "comments": 160
         }
       ]
@@ -1591,6 +1644,12 @@
           "views": 3275363,
           "likes": 36218,
           "comments": 282
+        },
+        {
+          "date": "2026-05-08",
+          "views": 3278450,
+          "likes": 36248,
+          "comments": 282
         }
       ]
     },
@@ -1739,6 +1798,12 @@
           "date": "2026-05-07",
           "views": 11476769,
           "likes": 50995,
+          "comments": 153
+        },
+        {
+          "date": "2026-05-08",
+          "views": 11480223,
+          "likes": 51011,
           "comments": 153
         }
       ]
@@ -1894,6 +1959,12 @@
           "views": 4138895,
           "likes": 38170,
           "comments": 192
+        },
+        {
+          "date": "2026-05-08",
+          "views": 4141605,
+          "likes": 38212,
+          "comments": 192
         }
       ]
     }
@@ -1934,6 +2005,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-07T16:12:03.884986+00:00"
+    },
+    {
+      "date": "2026-05-08",
+      "metric": "ytm_monthly_listeners",
+      "value": 60500000,
+      "baseline_mean": 52688000,
+      "baseline_stddev": 2112878.6,
+      "delta": 7812000,
+      "score": 3.7,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-08T15:27:13.338095+00:00"
     }
   ]
 }

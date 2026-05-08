@@ -1029,6 +1029,47 @@
       "ytm_subscribers": 313000,
       "ytm_monthly_listeners": 3110000,
       "ytm_total_views": 302986479
+    },
+    {
+      "date": "2026-05-08",
+      "monthly_listeners": 1503364,
+      "collected_at": "2026-05-08T15:32:35.358551+00:00",
+      "spotify_followers": 325829,
+      "youtube_subscribers": 313000,
+      "youtube_total_views": 305473262,
+      "youtube_video_count": 215,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 52853
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 45352
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 37692
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 18502
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 17287
+        }
+      ],
+      "lastfm_listeners": 138970,
+      "lastfm_playcount": 2445067,
+      "ytm_subscribers": 313000,
+      "ytm_monthly_listeners": 3100000,
+      "ytm_total_views": 302986479
     }
   ],
   "annotations": [
@@ -1130,17 +1171,17 @@
       {
         "name": "KAMI WA SAIKORO WO FURANAI",
         "browse_id": "UCBX3AdkQtdXZkBuM8ojQ8jA",
-        "subscribers": "406K"
+        "subscribers": "407K"
       },
       {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "59.4K"
+        "subscribers": "60.2K"
       },
       {
         "name": "TAIL",
         "browse_id": "UCdKKyyzAEzwV6cLcYetJcmQ",
-        "subscribers": "86.5K"
+        "subscribers": "87.1K"
       },
       {
         "name": "EISYU",
@@ -1153,29 +1194,29 @@
         "subscribers": "57.1K"
       },
       {
+        "name": "Ayumu Imazu",
+        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
+        "subscribers": "4.47M"
+      },
+      {
         "name": "Awesome City Club",
         "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
-        "subscribers": "637K"
+        "subscribers": "622K"
       },
       {
         "name": "4na",
         "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
-        "subscribers": "289K"
+        "subscribers": "287K"
       },
       {
         "name": "レトロリロン",
         "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "393K"
-      },
-      {
-        "name": "eill",
-        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.6M"
+        "subscribers": "395K"
       },
       {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "10.1M"
+        "subscribers": "10M"
       }
     ],
     "ytm_top_songs": [
@@ -1349,6 +1390,12 @@
           "views": 11058838,
           "likes": 53240,
           "comments": 199
+        },
+        {
+          "date": "2026-05-08",
+          "views": 11070169,
+          "likes": 53274,
+          "comments": 199
         }
       ]
     },
@@ -1498,6 +1545,12 @@
           "views": 734072,
           "likes": 7885,
           "comments": 89
+        },
+        {
+          "date": "2026-05-08",
+          "views": 735558,
+          "likes": 7897,
+          "comments": 89
         }
       ]
     },
@@ -1646,6 +1699,12 @@
           "date": "2026-05-07",
           "views": 2184400,
           "likes": 16452,
+          "comments": 58
+        },
+        {
+          "date": "2026-05-08",
+          "views": 2185678,
+          "likes": 16460,
           "comments": 58
         }
       ]
@@ -1807,6 +1866,12 @@
           "views": 1176332,
           "likes": 8877,
           "comments": 71
+        },
+        {
+          "date": "2026-05-08",
+          "views": 1177544,
+          "likes": 8882,
+          "comments": 71
         }
       ]
     },
@@ -1950,6 +2015,12 @@
           "views": 979540,
           "likes": 9034,
           "comments": 84
+        },
+        {
+          "date": "2026-05-08",
+          "views": 980466,
+          "likes": 9046,
+          "comments": 84
         }
       ]
     }
@@ -2062,6 +2133,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-07T16:17:09.923328+00:00"
+    },
+    {
+      "date": "2026-05-08",
+      "metric": "monthly_listeners",
+      "value": 1503364,
+      "baseline_mean": 1444472,
+      "baseline_stddev": 18463.2,
+      "delta": 58892,
+      "score": 3.19,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-08T15:32:36.946348+00:00"
     }
   ]
 }

@@ -1029,6 +1029,47 @@
       "ytm_subscribers": 867000,
       "ytm_monthly_listeners": 2170000,
       "ytm_total_views": 560168930
+    },
+    {
+      "date": "2026-05-08",
+      "monthly_listeners": 1667828,
+      "collected_at": "2026-05-08T15:30:20.107728+00:00",
+      "spotify_followers": 1457095,
+      "youtube_subscribers": 867000,
+      "youtube_total_views": 561475864,
+      "youtube_video_count": 134,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 93388
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 77940
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 61863
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 34221
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 32415
+        }
+      ],
+      "lastfm_listeners": 57866,
+      "lastfm_playcount": 1608257,
+      "ytm_subscribers": 867000,
+      "ytm_monthly_listeners": 2160000,
+      "ytm_total_views": 560168930
     }
   ],
   "annotations": [
@@ -1107,17 +1148,37 @@
       {
         "name": "yangskinny",
         "browse_id": "UCHxOB06rp3GQXFcPlIfxJOg",
-        "subscribers": "4.13M"
+        "subscribers": "3.61M"
+      },
+      {
+        "name": "shytaupe",
+        "browse_id": "UClT2HzITnq_4MQoY99Gf6Hw",
+        "subscribers": "3.36M"
+      },
+      {
+        "name": "Orange Spiny Crab",
+        "browse_id": "UC4xFImWROIkfo8YXSgrxliQ",
+        "subscribers": "190K"
+      },
+      {
+        "name": "YUTORI-SEDAI",
+        "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
+        "subscribers": "369K"
+      },
+      {
+        "name": "YOAKE",
+        "browse_id": "UCQE3bQBOx8YoxP3ghcXZs7g",
+        "subscribers": "107K"
       },
       {
         "name": "the shes gone",
         "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
-        "subscribers": "240K"
+        "subscribers": "239K"
       },
       {
         "name": "KEPURA",
         "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
-        "subscribers": "62.9K"
+        "subscribers": "63.5K"
       },
       {
         "name": "Mr.Forte",
@@ -1132,27 +1193,7 @@
       {
         "name": "TRACK15",
         "browse_id": "UCbTq_K3E9Vz8ehL62WwcwIA",
-        "subscribers": "231K"
-      },
-      {
-        "name": "bokula.",
-        "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
-        "subscribers": "196K"
-      },
-      {
-        "name": "Orange Spiny Crab",
-        "browse_id": "UC4xFImWROIkfo8YXSgrxliQ",
-        "subscribers": "191K"
-      },
-      {
-        "name": "YUTORI-SEDAI",
-        "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "375K"
-      },
-      {
-        "name": "YOAKE",
-        "browse_id": "UCQE3bQBOx8YoxP3ghcXZs7g",
-        "subscribers": "109K"
+        "subscribers": "237K"
       }
     ],
     "ytm_top_songs": [
@@ -1326,6 +1367,12 @@
           "views": 3862629,
           "likes": 16460,
           "comments": 36
+        },
+        {
+          "date": "2026-05-08",
+          "views": 3874503,
+          "likes": 16511,
+          "comments": 37
         }
       ]
     },
@@ -1462,6 +1509,12 @@
           "date": "2026-05-07",
           "views": 4343381,
           "likes": 20536,
+          "comments": 40
+        },
+        {
+          "date": "2026-05-08",
+          "views": 4358032,
+          "likes": 20608,
           "comments": 40
         }
       ]
@@ -1612,6 +1665,12 @@
           "views": 2278200,
           "likes": 12243,
           "comments": 35
+        },
+        {
+          "date": "2026-05-08",
+          "views": 2286726,
+          "likes": 12293,
+          "comments": 35
         }
       ]
     },
@@ -1748,6 +1807,12 @@
           "date": "2026-05-07",
           "views": 2707474,
           "likes": 16317,
+          "comments": 38
+        },
+        {
+          "date": "2026-05-08",
+          "views": 2716881,
+          "likes": 16370,
           "comments": 38
         }
       ]
@@ -1898,6 +1963,12 @@
           "views": 2015191,
           "likes": 8624,
           "comments": 27
+        },
+        {
+          "date": "2026-05-08",
+          "views": 2023038,
+          "likes": 8650,
+          "comments": 27
         }
       ]
     },
@@ -1984,6 +2055,18 @@
       "type": "annotated",
       "related_annotation": "RUSH BALL 2026（8月29日・大阪）出演発表",
       "detected_at": "2026-05-07T16:14:51.276282+00:00"
+    },
+    {
+      "date": "2026-05-08",
+      "metric": "monthly_listeners",
+      "value": 1667828,
+      "baseline_mean": 1626954.6,
+      "baseline_stddev": 11841.5,
+      "delta": 40873,
+      "score": 3.45,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-08T15:30:21.747414+00:00"
     }
   ]
 }
