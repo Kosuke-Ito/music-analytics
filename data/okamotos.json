@@ -1182,6 +1182,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 235000,
       "ytm_total_views": 42688675
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 242840,
+      "collected_at": "2026-05-09T14:44:16.158426+00:00",
+      "spotify_followers": 140693,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 43008636,
+      "youtube_video_count": 244,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 9682
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8360
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4835
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3376
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2342
+        }
+      ],
+      "lastfm_listeners": 69469,
+      "lastfm_playcount": 1170021,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 235000,
+      "ytm_total_views": 42827606
     }
   ],
   "metadata": {
@@ -1243,9 +1284,14 @@
         "subscribers": "194K"
       },
       {
-        "name": "genie high",
-        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "566K"
+        "name": "ARUKARA",
+        "browse_id": "UCgeAJ43d3Ec835fYhytYvPQ",
+        "subscribers": "516K"
+      },
+      {
+        "name": "Chilli Beans.",
+        "browse_id": "UCkI4roj4YVHrTh7PftDVxmQ",
+        "subscribers": "339K"
       },
       {
         "name": "MHRJ",
@@ -1281,11 +1327,6 @@
         "name": "Wasureranneyo",
         "browse_id": "UCv3Y-_JVxHwYjnMoqGPMuyw",
         "subscribers": "184K"
-      },
-      {
-        "name": "yonige",
-        "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
-        "subscribers": "235K"
       }
     ],
     "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia ("
@@ -1504,6 +1545,12 @@
           "views": 11323,
           "likes": 160,
           "comments": 3
+        },
+        {
+          "date": "2026-05-09",
+          "views": 11388,
+          "likes": 160,
+          "comments": 3
         }
       ]
     },
@@ -1665,6 +1712,12 @@
           "views": 877516,
           "likes": 11225,
           "comments": 28
+        },
+        {
+          "date": "2026-05-09",
+          "views": 878076,
+          "likes": 11229,
+          "comments": 28
         }
       ]
     },
@@ -1824,6 +1877,12 @@
         {
           "date": "2026-05-08",
           "views": 3269,
+          "likes": 31,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-09",
+          "views": 3283,
           "likes": 31,
           "comments": 0
         }
@@ -1987,6 +2046,12 @@
           "views": 213724,
           "likes": 1604,
           "comments": 5
+        },
+        {
+          "date": "2026-05-09",
+          "views": 213907,
+          "likes": 1606,
+          "comments": 5
         }
       ]
     },
@@ -2148,6 +2213,12 @@
           "views": 397393,
           "likes": 5927,
           "comments": 20
+        },
+        {
+          "date": "2026-05-09",
+          "views": 397623,
+          "likes": 5929,
+          "comments": 20
         }
       ]
     }
@@ -2251,6 +2322,18 @@
       "type": "annotated",
       "related_annotation": "5/1急増（4/30動画追加）の残影検知が継続（3.09σ）",
       "detected_at": "2026-05-06T15:59:04.397381+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "youtube_total_views",
+      "value": 43008636,
+      "baseline_mean": 42619271.7,
+      "baseline_stddev": 148883.2,
+      "delta": 389364,
+      "score": 2.62,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-09T14:44:17.493546+00:00"
     }
   ]
 }

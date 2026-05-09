@@ -1070,6 +1070,47 @@
       "ytm_subscribers": 1660000,
       "ytm_monthly_listeners": 9060000,
       "ytm_total_views": 1769849429
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 2435029,
+      "collected_at": "2026-05-09T14:59:20.929969+00:00",
+      "spotify_followers": 1604953,
+      "youtube_subscribers": 1660000,
+      "youtube_total_views": 1785504923,
+      "youtube_video_count": 179,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 104500
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 95694
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 64263
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 40411
+        },
+        {
+          "city": "Kawaguchi",
+          "country": "JP",
+          "listeners": 25637
+        }
+      ],
+      "lastfm_listeners": 305212,
+      "lastfm_playcount": 21224989,
+      "ytm_subscribers": 1660000,
+      "ytm_monthly_listeners": 9060000,
+      "ytm_total_views": 1769849429
     }
   ],
   "metadata": {
@@ -1104,11 +1145,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "ASIAN KUNG-FU GENERATION",
-        "browse_id": "UCx_es_PpRD6fhpNU-vzlQ_g",
-        "subscribers": "4.12M"
-      },
-      {
         "name": "UVERworld",
         "browse_id": "UCvNGvMSDassu8fTA9Vwdzxg",
         "subscribers": "3.1M"
@@ -1119,23 +1155,18 @@
         "subscribers": "814K"
       },
       {
-        "name": "amazarashi",
-        "browse_id": "UCYYblFFBpnZabWlpz9aAIPA",
-        "subscribers": "1.24M"
-      },
-      {
         "name": "Spitz",
         "browse_id": "UCa1Dtbauq3vNdm0osXMScuA",
         "subscribers": "9.3M"
       },
       {
-        "name": "SUPER BEAVER",
-        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
-        "subscribers": "2.98M"
+        "name": "amazarashi",
+        "browse_id": "UCYYblFFBpnZabWlpz9aAIPA",
+        "subscribers": "1.24M"
       },
       {
-        "name": "Remioromen",
-        "browse_id": "UCHzbZw7GxoyFf-_pyS1R6mg",
+        "name": "SUPER BEAVER",
+        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
         "subscribers": "2.98M"
       },
       {
@@ -1144,9 +1175,19 @@
         "subscribers": "1.36M"
       },
       {
-        "name": "RADWIMPS",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "66.5M"
+        "name": "Remioromen",
+        "browse_id": "UCHzbZw7GxoyFf-_pyS1R6mg",
+        "subscribers": "2.98M"
+      },
+      {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "8.1M"
+      },
+      {
+        "name": "ASIAN KUNG-FU GENERATION",
+        "browse_id": "UCx_es_PpRD6fhpNU-vzlQ_g",
+        "subscribers": "4.12M"
       },
       {
         "name": "SUKIMASWITCH",
@@ -1331,6 +1372,12 @@
           "views": 20847561,
           "likes": 68903,
           "comments": 232
+        },
+        {
+          "date": "2026-05-09",
+          "views": 20890349,
+          "likes": 69135,
+          "comments": 233
         }
       ]
     },
@@ -1485,6 +1532,12 @@
           "date": "2026-05-08",
           "views": 11419738,
           "likes": 81145,
+          "comments": 849
+        },
+        {
+          "date": "2026-05-09",
+          "views": 11461857,
+          "likes": 81445,
           "comments": 849
         }
       ]
@@ -1694,6 +1747,12 @@
           "views": 95589147,
           "likes": 470976,
           "comments": 5993
+        },
+        {
+          "date": "2026-05-09",
+          "views": 95626786,
+          "likes": 471109,
+          "comments": 6000
         }
       ]
     },
@@ -1849,6 +1908,12 @@
           "views": 47082029,
           "likes": 130118,
           "comments": 246
+        },
+        {
+          "date": "2026-05-09",
+          "views": 47111504,
+          "likes": 130214,
+          "comments": 246
         }
       ]
     },
@@ -1955,6 +2020,12 @@
           "date": "2026-05-08",
           "views": 5900647,
           "likes": 26594,
+          "comments": 130
+        },
+        {
+          "date": "2026-05-09",
+          "views": 5911072,
+          "likes": 26649,
           "comments": 130
         }
       ]
@@ -2270,6 +2341,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-08T15:31:29.874375+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "monthly_listeners",
+      "value": 2435029,
+      "baseline_mean": 2324767.9,
+      "baseline_stddev": 35323.6,
+      "delta": 110261,
+      "score": 3.12,
+      "type": "annotated",
+      "related_annotation": "ゴールデンウィーク中の30周年記念施策継続効果でSpotify月間リスナー・YouTube総再生数が上昇",
+      "detected_at": "2026-05-09T14:59:22.408094+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "youtube_total_views",
+      "value": 1785504923,
+      "baseline_mean": 1767228065.7,
+      "baseline_stddev": 7746988.2,
+      "delta": 18276857,
+      "score": 2.36,
+      "type": "annotated",
+      "related_annotation": "ゴールデンウィーク中の30周年記念施策継続効果でSpotify月間リスナー・YouTube総再生数が上昇",
+      "detected_at": "2026-05-09T14:59:22.408094+00:00"
     }
   ]
 }

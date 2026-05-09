@@ -1067,6 +1067,47 @@
       "ytm_subscribers": 8580000,
       "ytm_monthly_listeners": 94600000,
       "ytm_total_views": 2320449555
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 4662376,
+      "collected_at": "2026-05-09T14:56:19.643789+00:00",
+      "spotify_followers": 3788118,
+      "youtube_subscribers": 2930000,
+      "youtube_total_views": 1751211966,
+      "youtube_video_count": 490,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 71853
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 60221
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 53066
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 52868
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 51176
+        }
+      ],
+      "lastfm_listeners": 1974538,
+      "lastfm_playcount": 129953706,
+      "ytm_subscribers": 8580000,
+      "ytm_monthly_listeners": 94600000,
+      "ytm_total_views": 2320449555
     }
   ],
   "metadata": {
@@ -1101,11 +1142,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "hannah bahng",
-        "browse_id": "UCPYi7szVOO-kxBwb6RuHy0w",
-        "subscribers": "731K"
-      },
-      {
         "name": "Emily Mei",
         "browse_id": "UCTpDQm3i_pNnjZtmUwXnoxw",
         "subscribers": "393K"
@@ -1136,19 +1172,24 @@
         "subscribers": "723K"
       },
       {
+        "name": "hannah bahng",
+        "browse_id": "UCPYi7szVOO-kxBwb6RuHy0w",
+        "subscribers": "731K"
+      },
+      {
         "name": "ROSÉ",
         "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
         "subscribers": "329M"
       },
       {
-        "name": "JISOO",
-        "browse_id": "UC4I9OFY_9ZYLs0Lj4bfEOvA",
-        "subscribers": "181M"
-      },
-      {
         "name": "Bella Poarch",
         "browse_id": "UCFV_iW-P1LkSgCxBnZi5nYw",
         "subscribers": "25.1M"
+      },
+      {
+        "name": "KARD",
+        "browse_id": "UC3pvfOA4mcHkWYl3n_QfOKA",
+        "subscribers": "1.76M"
       }
     ],
     "ytm_top_songs": [
@@ -1339,6 +1380,12 @@
           "views": 20202842,
           "likes": 234382,
           "comments": 1881
+        },
+        {
+          "date": "2026-05-09",
+          "views": 20246607,
+          "likes": 234851,
+          "comments": 1884
         }
       ]
     },
@@ -1494,6 +1541,12 @@
           "views": 264462139,
           "likes": 2673363,
           "comments": 3783
+        },
+        {
+          "date": "2026-05-09",
+          "views": 264537282,
+          "likes": 2674057,
+          "comments": 3789
         }
       ]
     },
@@ -1649,6 +1702,12 @@
           "views": 30087228,
           "likes": 233008,
           "comments": 720
+        },
+        {
+          "date": "2026-05-09",
+          "views": 30131162,
+          "likes": 233260,
+          "comments": 722
         }
       ]
     },
@@ -1804,6 +1863,12 @@
           "views": 24335743,
           "likes": 240541,
           "comments": 2358
+        },
+        {
+          "date": "2026-05-09",
+          "views": 24369190,
+          "likes": 240807,
+          "comments": 2360
         }
       ]
     },
@@ -1959,6 +2024,12 @@
           "views": 5420458,
           "likes": 111864,
           "comments": 1817
+        },
+        {
+          "date": "2026-05-09",
+          "views": 5563741,
+          "likes": 113408,
+          "comments": 1829
         }
       ]
     }
@@ -2137,6 +2208,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-08T15:28:05.974656+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "youtube_total_views",
+      "value": 1751211966,
+      "baseline_mean": 1739587599.6,
+      "baseline_stddev": 5621799.4,
+      "delta": 11624366,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-09T14:56:20.891175+00:00"
     }
   ]
 }

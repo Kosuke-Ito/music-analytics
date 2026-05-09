@@ -1067,6 +1067,47 @@
       "ytm_subscribers": 1050000,
       "ytm_monthly_listeners": 2270000,
       "ytm_total_views": 956870721
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 1213350,
+      "collected_at": "2026-05-09T14:59:36.357113+00:00",
+      "spotify_followers": 371870,
+      "youtube_subscribers": 1050000,
+      "youtube_total_views": 1050655463,
+      "youtube_video_count": 461,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 59412
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 49590
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 43852
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 19900
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 16418
+        }
+      ],
+      "lastfm_listeners": 22433,
+      "lastfm_playcount": 561848,
+      "ytm_subscribers": 1050000,
+      "ytm_monthly_listeners": 2270000,
+      "ytm_total_views": 958429565
     }
   ],
   "metadata": {
@@ -1106,11 +1147,6 @@
         "subscribers": "2.6M"
       },
       {
-        "name": "NEWS",
-        "browse_id": "UCbYM7oBcZNzqQp98PiF5HKw",
-        "subscribers": "2.03M"
-      },
-      {
         "name": "SixTONES",
         "browse_id": "UCKlEziFhgHJhkBkZg8Hp6tw",
         "subscribers": "3.48M"
@@ -1121,14 +1157,24 @@
         "subscribers": "8.15M"
       },
       {
-        "name": "BE:FIRST",
-        "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
-        "subscribers": "6.59M"
+        "name": "NEWS",
+        "browse_id": "UCbYM7oBcZNzqQp98PiF5HKw",
+        "subscribers": "2.03M"
       },
       {
         "name": "Travis Japan",
         "browse_id": "UC0CJ4qxy9mgHNhO2d_sqBuw",
         "subscribers": "1.81M"
+      },
+      {
+        "name": "Snow Man",
+        "browse_id": "UCDprz5PJZp9PjN0bVGZbAPg",
+        "subscribers": "21.9M"
+      },
+      {
+        "name": "BE:FIRST",
+        "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
+        "subscribers": "6.59M"
       },
       {
         "name": "Naniwa Danshi",
@@ -1139,11 +1185,6 @@
         "name": "King & Prince",
         "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
         "subscribers": "6.36M"
-      },
-      {
-        "name": "Snow Man",
-        "browse_id": "UCDprz5PJZp9PjN0bVGZbAPg",
-        "subscribers": "21.9M"
       },
       {
         "name": "Hey! Say! JUMP",
@@ -1328,6 +1369,12 @@
           "views": 2796054,
           "likes": 45928,
           "comments": 5643
+        },
+        {
+          "date": "2026-05-09",
+          "views": 2806309,
+          "likes": 45941,
+          "comments": 5648
         }
       ]
     },
@@ -1464,6 +1511,12 @@
           "date": "2026-05-08",
           "views": 1754370,
           "likes": 10396,
+          "comments": 102
+        },
+        {
+          "date": "2026-05-09",
+          "views": 1755348,
+          "likes": 10397,
           "comments": 102
         }
       ]
@@ -1898,6 +1951,12 @@
           "views": 578663,
           "likes": 15457,
           "comments": 1211
+        },
+        {
+          "date": "2026-05-09",
+          "views": 604193,
+          "likes": 15566,
+          "comments": 1230
         }
       ]
     },
@@ -1933,6 +1992,12 @@
           "views": 497978,
           "likes": 14230,
           "comments": 1105
+        },
+        {
+          "date": "2026-05-09",
+          "views": 518163,
+          "likes": 14300,
+          "comments": 1128
         }
       ]
     },
@@ -1968,6 +2033,12 @@
           "views": 456330,
           "likes": 12753,
           "comments": 788
+        },
+        {
+          "date": "2026-05-09",
+          "views": 475726,
+          "likes": 12820,
+          "comments": 796
         }
       ]
     }
@@ -2174,6 +2245,18 @@
       "type": "annotated",
       "related_annotation": "「3XL」EP がオリコン週間デジタルアルバムランキング1位・2026年度最高初週ダウンロード数（30,419DL）を記録",
       "detected_at": "2026-05-08T15:31:47.057194+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "monthly_listeners",
+      "value": 1213350,
+      "baseline_mean": 1043968.7,
+      "baseline_stddev": 57292.5,
+      "delta": 169381,
+      "score": 2.96,
+      "type": "annotated",
+      "related_annotation": "「3XL」EP がオリコン週間デジタルアルバムランキング1位・2026年度最高初週ダウンロード数（30,419DL）を記録",
+      "detected_at": "2026-05-09T14:59:37.792063+00:00"
     }
   ]
 }

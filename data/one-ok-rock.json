@@ -1367,6 +1367,47 @@
       "ytm_subscribers": 5020000,
       "ytm_monthly_listeners": 10600000,
       "ytm_total_views": 2390648121
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 3724790,
+      "collected_at": "2026-05-09T14:48:19.070255+00:00",
+      "spotify_followers": 6134020,
+      "youtube_subscribers": 5020000,
+      "youtube_total_views": 2421375324,
+      "youtube_video_count": 545,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 116120
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 110820
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 86083
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 70385
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 48187
+        }
+      ],
+      "lastfm_listeners": 630461,
+      "lastfm_playcount": 54501069,
+      "ytm_subscribers": 5020000,
+      "ytm_monthly_listeners": 10600000,
+      "ytm_total_views": 2390648121
     }
   ],
   "annotations": [
@@ -1539,19 +1580,14 @@
         "subscribers": "197K"
       },
       {
-        "name": "HYDE",
-        "browse_id": "UC2GCnH0vBMJf37p8qz-G68A",
-        "subscribers": "3.65M"
-      },
-      {
         "name": "DEAN FUJIOKA",
         "browse_id": "UCzNkz-qhUmxdCrhy0A47sIA",
         "subscribers": "115K"
       },
       {
-        "name": "milet",
-        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "6.31M"
+        "name": "HYDE",
+        "browse_id": "UC2GCnH0vBMJf37p8qz-G68A",
+        "subscribers": "3.65M"
       },
       {
         "name": "TENBLANK",
@@ -1564,24 +1600,29 @@
         "subscribers": "561K"
       },
       {
-        "name": "UVERworld",
-        "browse_id": "UCvNGvMSDassu8fTA9Vwdzxg",
-        "subscribers": "3.1M"
-      },
-      {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
         "subscribers": "10M"
       },
       {
-        "name": "coldrain",
-        "browse_id": "UC1WV_zQ6vd52xitFX2cANYg",
-        "subscribers": "826K"
-      },
-      {
         "name": "VK Blanka",
         "browse_id": "UCg2rvXE9x3zg01ZxyIt9DpA",
         "subscribers": "1.67M"
+      },
+      {
+        "name": "UVERworld",
+        "browse_id": "UCvNGvMSDassu8fTA9Vwdzxg",
+        "subscribers": "3.1M"
+      },
+      {
+        "name": "coldrain",
+        "browse_id": "UC1WV_zQ6vd52xitFX2cANYg",
+        "subscribers": "825K"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.6M"
       }
     ],
     "ytm_top_songs": [
@@ -1767,6 +1808,12 @@
           "views": 6374351,
           "likes": 36057,
           "comments": 86
+        },
+        {
+          "date": "2026-05-09",
+          "views": 6403743,
+          "likes": 36188,
+          "comments": 87
         }
       ]
     },
@@ -1928,6 +1975,12 @@
           "views": 10398406,
           "likes": 58609,
           "comments": 359
+        },
+        {
+          "date": "2026-05-09",
+          "views": 10451814,
+          "likes": 58878,
+          "comments": 361
         }
       ]
     },
@@ -2089,6 +2142,12 @@
           "views": 5451946,
           "likes": 25471,
           "comments": 55
+        },
+        {
+          "date": "2026-05-09",
+          "views": 5474055,
+          "likes": 25564,
+          "comments": 55
         }
       ]
     },
@@ -2249,6 +2308,12 @@
           "date": "2026-05-08",
           "views": 15117557,
           "likes": 131894,
+          "comments": 352
+        },
+        {
+          "date": "2026-05-09",
+          "views": 15129099,
+          "likes": 131948,
           "comments": 352
         }
       ]
@@ -2416,6 +2481,12 @@
           "views": 103956,
           "likes": 1219,
           "comments": 18
+        },
+        {
+          "date": "2026-05-09",
+          "views": 112477,
+          "likes": 1269,
+          "comments": 19
         }
       ]
     }
@@ -2648,6 +2719,18 @@
       "type": "annotated",
       "related_annotation": "「Party's Over」ライブ映像YouTube公開とDETOX IN CINEMAS全世界公開継続でYouTube総再生数が上昇（+2,498万・2.15σ）",
       "detected_at": "2026-05-08T15:19:21.621331+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "monthly_listeners",
+      "value": 3724790,
+      "baseline_mean": 3627981.3,
+      "baseline_stddev": 46340.6,
+      "delta": 96808,
+      "score": 2.09,
+      "type": "annotated",
+      "related_annotation": "ライブEP「Live from DETOX JAPAN TOUR 2025」（4/30配信）のアルゴリズム効果でSpotify月間リスナーが増加（+98,051・2.28σ）",
+      "detected_at": "2026-05-09T14:48:20.277948+00:00"
     }
   ]
 }

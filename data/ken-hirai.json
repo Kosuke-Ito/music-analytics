@@ -1185,6 +1185,47 @@
       "ytm_subscribers": 497000,
       "ytm_monthly_listeners": 1690000,
       "ytm_total_views": 470344376
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 1266814,
+      "collected_at": "2026-05-09T14:43:59.075282+00:00",
+      "spotify_followers": 1081627,
+      "youtube_subscribers": 497000,
+      "youtube_total_views": 470344394,
+      "youtube_video_count": 86,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 56132
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 50423
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 37526
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 20272
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 15114
+        }
+      ],
+      "lastfm_listeners": 62351,
+      "lastfm_playcount": 3012255,
+      "ytm_subscribers": 497000,
+      "ytm_monthly_listeners": 1690000,
+      "ytm_total_views": 470344376
     }
   ],
   "metadata": {
@@ -1219,24 +1260,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Chris Hart",
-        "browse_id": "UCL5QaEb-lo_VeEgCxzufTeA",
-        "subscribers": "545K"
-      },
-      {
         "name": "Mika Nakashima",
         "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
         "subscribers": "5.7M"
       },
       {
-        "name": "Masaharu Fukuyama",
-        "browse_id": "UCOgskNCI49YHsOUTGPJ2QHA",
-        "subscribers": "4.83M"
-      },
-      {
-        "name": "JUJU",
-        "browse_id": "UCJDDeY50cfuDeivwBFZVxLw",
-        "subscribers": "3.6M"
+        "name": "Chris Hart",
+        "browse_id": "UCL5QaEb-lo_VeEgCxzufTeA",
+        "subscribers": "545K"
       },
       {
         "name": "CHEMISTRY",
@@ -1244,24 +1275,34 @@
         "subscribers": "1.47M"
       },
       {
+        "name": "Hiroji Miyamoto",
+        "browse_id": "UCdGURphNgk4Hbw51IGr2W4A",
+        "subscribers": "732K"
+      },
+      {
         "name": "Masayoshi Yamazaki",
         "browse_id": "UCLzpexgTBDGJXZzNiI_bQKQ",
         "subscribers": "1.06M"
       },
       {
-        "name": "Ayaka",
-        "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
-        "subscribers": "5.12M"
+        "name": "JUJU",
+        "browse_id": "UCJDDeY50cfuDeivwBFZVxLw",
+        "subscribers": "3.6M"
       },
       {
-        "name": "Naotaro Moriyama",
-        "browse_id": "UCdB0obTpnSogmbFqK5j4HFA",
-        "subscribers": "1.69M"
+        "name": "Masaharu Fukuyama",
+        "browse_id": "UCOgskNCI49YHsOUTGPJ2QHA",
+        "subscribers": "4.82M"
       },
       {
-        "name": "Hiroji Miyamoto",
-        "browse_id": "UCdGURphNgk4Hbw51IGr2W4A",
-        "subscribers": "732K"
+        "name": "Bank Band",
+        "browse_id": "UCXnoiYCsBzMUNC2yVrWhhUQ",
+        "subscribers": "16.6K"
+      },
+      {
+        "name": "KOH+",
+        "browse_id": "UC7vjD-p1GRmcjjqU0Viw2bQ",
+        "subscribers": "3.68K"
       },
       {
         "name": "Fukumimi",
@@ -1452,6 +1493,12 @@
           "views": 5575011,
           "likes": 32729,
           "comments": 138
+        },
+        {
+          "date": "2026-05-09",
+          "views": 5579491,
+          "likes": 32755,
+          "comments": 139
         }
       ]
     },
@@ -1612,6 +1659,12 @@
           "date": "2026-05-08",
           "views": 1021294,
           "likes": 6162,
+          "comments": 30
+        },
+        {
+          "date": "2026-05-09",
+          "views": 1021846,
+          "likes": 6165,
           "comments": 30
         }
       ]
@@ -1774,6 +1827,12 @@
           "views": 305837,
           "likes": 2067,
           "comments": 11
+        },
+        {
+          "date": "2026-05-09",
+          "views": 306054,
+          "likes": 2069,
+          "comments": 11
         }
       ]
     },
@@ -1934,6 +1993,12 @@
           "date": "2026-05-08",
           "views": 393415,
           "likes": 1897,
+          "comments": 3
+        },
+        {
+          "date": "2026-05-09",
+          "views": 393766,
+          "likes": 1898,
           "comments": 3
         }
       ]
@@ -2096,6 +2161,12 @@
           "views": 624732,
           "likes": 3348,
           "comments": 12
+        },
+        {
+          "date": "2026-05-09",
+          "views": 625112,
+          "likes": 3348,
+          "comments": 12
         }
       ]
     }
@@ -2237,6 +2308,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-08T15:14:43.007863+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "monthly_listeners",
+      "value": 1266814,
+      "baseline_mean": 1195189.6,
+      "baseline_stddev": 27717.3,
+      "delta": 71624,
+      "score": 2.58,
+      "type": "annotated",
+      "related_annotation": "横浜アリーナ一夜限り30周年ライブ（5/13）直前の期待感＋WOWOW特集継続でSpotify月間リスナーが急増（+70,058人）",
+      "detected_at": "2026-05-09T14:44:01.093651+00:00"
     }
   ]
 }

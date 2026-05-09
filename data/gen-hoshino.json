@@ -1067,6 +1067,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 8770000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 2744137,
+      "collected_at": "2026-05-09T14:56:04.037787+00:00",
+      "spotify_followers": 2408529,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 1406201070,
+      "youtube_video_count": 199,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 115078
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 105903
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 68881
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 45196
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 34571
+        }
+      ],
+      "lastfm_listeners": 21315,
+      "lastfm_playcount": 2996490,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 8770000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -1103,7 +1144,7 @@
       {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.1M"
+        "subscribers": "3.12M"
       },
       {
         "name": "Fujii Kaze",
@@ -1111,24 +1152,9 @@
         "subscribers": "36.8M"
       },
       {
-        "name": "imase",
-        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "60.5M"
-      },
-      {
         "name": "indigo la End",
         "browse_id": "UCNrtDXorquz48idipqfaSKg",
         "subscribers": "997K"
-      },
-      {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "2.69M"
-      },
-      {
-        "name": "iri",
-        "browse_id": "UCtlXP5iI7TgKj_BI636L8Qw",
-        "subscribers": "540K"
       },
       {
         "name": "SEKAI NO OWARI",
@@ -1141,14 +1167,29 @@
         "subscribers": "66.5M"
       },
       {
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "60.5M"
+      },
+      {
+        "name": "iri",
+        "browse_id": "UCtlXP5iI7TgKj_BI636L8Qw",
+        "subscribers": "540K"
+      },
+      {
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "2.69M"
+      },
+      {
         "name": "Tokyo Incidents",
         "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
         "subscribers": "1.3M"
       },
       {
-        "name": "gesunokiwamiotome",
-        "browse_id": "UCC49CEw6fitW1bUIT9NjvSA",
-        "subscribers": "824K"
+        "name": "Sheena Ringo",
+        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
+        "subscribers": "6.14M"
       }
     ],
     "ytm_top_songs": [
@@ -1327,6 +1368,12 @@
           "views": 57927925,
           "likes": 227798,
           "comments": 580
+        },
+        {
+          "date": "2026-05-09",
+          "views": 57960340,
+          "likes": 227931,
+          "comments": 580
         }
       ]
     },
@@ -1482,6 +1529,12 @@
           "views": 4379176,
           "likes": 36482,
           "comments": 0
+        },
+        {
+          "date": "2026-05-09",
+          "views": 4389670,
+          "likes": 36554,
+          "comments": 0
         }
       ]
     },
@@ -1624,6 +1677,12 @@
           "date": "2026-05-08",
           "views": 20756706,
           "likes": 96829,
+          "comments": 88
+        },
+        {
+          "date": "2026-05-09",
+          "views": 20768777,
+          "likes": 96898,
           "comments": 88
         }
       ]
@@ -1768,6 +1827,12 @@
           "views": 9752510,
           "likes": 50026,
           "comments": 46
+        },
+        {
+          "date": "2026-05-09",
+          "views": 9761788,
+          "likes": 50066,
+          "comments": 46
         }
       ]
     },
@@ -1844,6 +1909,12 @@
           "date": "2026-05-08",
           "views": 10621898,
           "likes": 47155,
+          "comments": 169
+        },
+        {
+          "date": "2026-05-09",
+          "views": 10628484,
+          "likes": 47182,
           "comments": 169
         }
       ]
@@ -2042,6 +2113,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-08T15:27:48.952985+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "monthly_listeners",
+      "value": 2744137,
+      "baseline_mean": 2684404.7,
+      "baseline_stddev": 25696.7,
+      "delta": 59732,
+      "score": 2.32,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-09T14:56:05.416288+00:00"
     }
   ]
 }

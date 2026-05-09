@@ -1067,6 +1067,47 @@
       "ytm_subscribers": 4850000,
       "ytm_monthly_listeners": 11100000,
       "ytm_total_views": 1938431588
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 5664736,
+      "collected_at": "2026-05-09T14:55:14.790440+00:00",
+      "spotify_followers": 2582833,
+      "youtube_subscribers": 4850000,
+      "youtube_total_views": 2009424119,
+      "youtube_video_count": 847,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 92670
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 88951
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 84470
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 84223
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 75506
+        }
+      ],
+      "lastfm_listeners": 848508,
+      "lastfm_playcount": 66234557,
+      "ytm_subscribers": 4850000,
+      "ytm_monthly_listeners": 11100000,
+      "ytm_total_views": 1947254968
     }
   ],
   "annotations": [
@@ -1151,29 +1192,14 @@
         "subscribers": "723K"
       },
       {
-        "name": "LEE CHAEYEON",
-        "browse_id": "UCAAUjXlrYZSOX5xGeahfQyw",
-        "subscribers": "6.31M"
-      },
-      {
-        "name": "TZUYU",
-        "browse_id": "UCls4H3jde7_EGZxUt55Woww",
-        "subscribers": "81.8K"
-      },
-      {
         "name": "JIHYO",
         "browse_id": "UCZSRKU2kYtBSL11AhMS-C8Q",
         "subscribers": "109K"
       },
       {
-        "name": "NAYEON",
-        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
-        "subscribers": "331K"
-      },
-      {
-        "name": "LISA",
-        "browse_id": "UCXtPv6CbKfuXPNj3MyKFOig",
-        "subscribers": "94.6M"
+        "name": "LEE CHAEYEON",
+        "browse_id": "UCAAUjXlrYZSOX5xGeahfQyw",
+        "subscribers": "6.31M"
       },
       {
         "name": "STAYC",
@@ -1181,9 +1207,24 @@
         "subscribers": "6.42M"
       },
       {
+        "name": "TZUYU",
+        "browse_id": "UCls4H3jde7_EGZxUt55Woww",
+        "subscribers": "81.8K"
+      },
+      {
+        "name": "LISA",
+        "browse_id": "UCXtPv6CbKfuXPNj3MyKFOig",
+        "subscribers": "94.6M"
+      },
+      {
         "name": "GIRLSET",
         "browse_id": "UCHJn6i4MXz7DwAZp26CAo-w",
         "subscribers": "10.5M"
+      },
+      {
+        "name": "SAY MY NAME",
+        "browse_id": "UC7CkIc8oYTFP85Dxv0tQSKw",
+        "subscribers": "1.97M"
       }
     ],
     "ytm_top_songs": [
@@ -1363,6 +1404,12 @@
           "views": 7314206,
           "likes": 87728,
           "comments": 547
+        },
+        {
+          "date": "2026-05-09",
+          "views": 7360452,
+          "likes": 88039,
+          "comments": 549
         }
       ]
     },
@@ -1517,6 +1564,12 @@
           "date": "2026-05-08",
           "views": 44240808,
           "likes": 376415,
+          "comments": 2008
+        },
+        {
+          "date": "2026-05-09",
+          "views": 44267913,
+          "likes": 376551,
           "comments": 2008
         }
       ]
@@ -1673,6 +1726,12 @@
           "views": 1821305,
           "likes": 22509,
           "comments": 104
+        },
+        {
+          "date": "2026-05-09",
+          "views": 1834980,
+          "likes": 22631,
+          "comments": 105
         }
       ]
     },
@@ -1959,6 +2018,12 @@
           "views": 16942882,
           "likes": 127981,
           "comments": 1063
+        },
+        {
+          "date": "2026-05-09",
+          "views": 16961411,
+          "likes": 128045,
+          "comments": 1063
         }
       ]
     },
@@ -1988,6 +2053,12 @@
           "views": 39699638,
           "likes": 223075,
           "comments": 224
+        },
+        {
+          "date": "2026-05-09",
+          "views": 39716128,
+          "likes": 223127,
+          "comments": 224
         }
       ]
     }
@@ -2004,6 +2075,18 @@
       "type": "annotated",
       "related_annotation": "ワールドツアー「THE CORE」アジア・オーストラリア公演の詳細発表",
       "detected_at": "2026-04-25T10:47:32.097006+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "youtube_total_views",
+      "value": 2009424119,
+      "baseline_mean": 1993582300.5,
+      "baseline_stddev": 6867927.1,
+      "delta": 15841818,
+      "score": 2.31,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-09T14:55:16.186346+00:00"
     }
   ]
 }

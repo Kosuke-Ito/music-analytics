@@ -1070,6 +1070,47 @@
       "ytm_subscribers": 313000,
       "ytm_monthly_listeners": 3100000,
       "ytm_total_views": 302986479
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 1504161,
+      "collected_at": "2026-05-09T15:00:25.881559+00:00",
+      "spotify_followers": 325968,
+      "youtube_subscribers": 313000,
+      "youtube_total_views": 305473262,
+      "youtube_video_count": 215,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 52852
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 45217
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 37742
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 18412
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 17331
+        }
+      ],
+      "lastfm_listeners": 139023,
+      "lastfm_playcount": 2446271,
+      "ytm_subscribers": 313000,
+      "ytm_monthly_listeners": 3120000,
+      "ytm_total_views": 302986479
     }
   ],
   "annotations": [
@@ -1204,9 +1245,9 @@
         "subscribers": "57.1K"
       },
       {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "4.47M"
+        "name": "4na",
+        "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
+        "subscribers": "287K"
       },
       {
         "name": "Awesome City Club",
@@ -1214,19 +1255,19 @@
         "subscribers": "622K"
       },
       {
-        "name": "4na",
-        "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
-        "subscribers": "287K"
-      },
-      {
-        "name": "レトロリロン",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "395K"
-      },
-      {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
         "subscribers": "10M"
+      },
+      {
+        "name": "eill",
+        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
+        "subscribers": "1.57M"
+      },
+      {
+        "name": "LUCKLIFE",
+        "browse_id": "UCIIvOqDHY2Z0J-rgXRKBQZQ",
+        "subscribers": "563K"
       }
     ],
     "ytm_top_songs": [
@@ -1406,6 +1447,12 @@
           "views": 11070169,
           "likes": 53274,
           "comments": 199
+        },
+        {
+          "date": "2026-05-09",
+          "views": 11080580,
+          "likes": 53317,
+          "comments": 199
         }
       ]
     },
@@ -1561,6 +1608,12 @@
           "views": 735558,
           "likes": 7897,
           "comments": 89
+        },
+        {
+          "date": "2026-05-09",
+          "views": 736864,
+          "likes": 7909,
+          "comments": 89
         }
       ]
     },
@@ -1715,6 +1768,12 @@
           "date": "2026-05-08",
           "views": 2185678,
           "likes": 16460,
+          "comments": 58
+        },
+        {
+          "date": "2026-05-09",
+          "views": 2186910,
+          "likes": 16466,
           "comments": 58
         }
       ]
@@ -1882,6 +1941,12 @@
           "views": 1177544,
           "likes": 8882,
           "comments": 71
+        },
+        {
+          "date": "2026-05-09",
+          "views": 1178591,
+          "likes": 8892,
+          "comments": 71
         }
       ]
     },
@@ -2031,6 +2096,12 @@
           "views": 980466,
           "likes": 9046,
           "comments": 84
+        },
+        {
+          "date": "2026-05-09",
+          "views": 981317,
+          "likes": 9055,
+          "comments": 84
         }
       ]
     }
@@ -2155,6 +2226,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-08T15:32:36.946348+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "monthly_listeners",
+      "value": 1504161,
+      "baseline_mean": 1446737.1,
+      "baseline_stddev": 21355.2,
+      "delta": 57423,
+      "score": 2.69,
+      "type": "annotated",
+      "related_annotation": "ヒロアカ10周年スペシャル「More」（5/2放送）余波＋Penthouseとのツーマンライブ大阪公演（5/8）でSpotify月間リスナーが継続上昇",
+      "detected_at": "2026-05-09T15:00:27.578797+00:00"
     }
   ]
 }

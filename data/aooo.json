@@ -1182,6 +1182,47 @@
       "ytm_subscribers": 94400,
       "ytm_monthly_listeners": 512000,
       "ytm_total_views": 23310394
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 165344,
+      "collected_at": "2026-05-09T14:47:14.997828+00:00",
+      "spotify_followers": 56012,
+      "youtube_subscribers": 94500,
+      "youtube_total_views": 28897036,
+      "youtube_video_count": 263,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8497
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6643
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4567
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4179
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2927
+        }
+      ],
+      "lastfm_listeners": 12987,
+      "lastfm_playcount": 272500,
+      "ytm_subscribers": 94500,
+      "ytm_monthly_listeners": 512000,
+      "ytm_total_views": 23407678
     }
   ],
   "annotations": [
@@ -1270,19 +1311,19 @@
         "subscribers": "227K"
       },
       {
-        "name": "Oisicle Melonpan",
-        "browse_id": "UCdEwYgtKNpdCy0eN9ff07VQ",
-        "subscribers": "578K"
-      },
-      {
         "name": "CLAN QUEEN",
         "browse_id": "UCuCIY6NNMyjANg60NEgHONg",
         "subscribers": "476K"
       },
       {
-        "name": "NELKE",
-        "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
-        "subscribers": "554K"
+        "name": "Oisicle Melonpan",
+        "browse_id": "UCdEwYgtKNpdCy0eN9ff07VQ",
+        "subscribers": "578K"
+      },
+      {
+        "name": "yutori",
+        "browse_id": "UCqM8y7cbNcekfXHhvitCLyw",
+        "subscribers": "247K"
       },
       {
         "name": "SIX LOUNGE",
@@ -1290,9 +1331,9 @@
         "subscribers": "710K"
       },
       {
-        "name": "yutori",
-        "browse_id": "UCqM8y7cbNcekfXHhvitCLyw",
-        "subscribers": "247K"
+        "name": "NELKE",
+        "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
+        "subscribers": "554K"
       }
     ],
     "ytm_top_songs": [
@@ -1478,6 +1519,12 @@
           "views": 38500,
           "likes": 659,
           "comments": 21
+        },
+        {
+          "date": "2026-05-09",
+          "views": 38892,
+          "likes": 661,
+          "comments": 21
         }
       ]
     },
@@ -1638,6 +1685,12 @@
           "date": "2026-05-08",
           "views": 259501,
           "likes": 2461,
+          "comments": 43
+        },
+        {
+          "date": "2026-05-09",
+          "views": 260224,
+          "likes": 2464,
           "comments": 43
         }
       ]
@@ -1800,6 +1853,12 @@
           "views": 142653,
           "likes": 1283,
           "comments": 11
+        },
+        {
+          "date": "2026-05-09",
+          "views": 143142,
+          "likes": 1286,
+          "comments": 11
         }
       ]
     },
@@ -1960,6 +2019,12 @@
           "date": "2026-05-08",
           "views": 363990,
           "likes": 3734,
+          "comments": 62
+        },
+        {
+          "date": "2026-05-09",
+          "views": 364488,
+          "likes": 3736,
           "comments": 62
         }
       ]
@@ -2127,6 +2192,12 @@
           "views": 77130,
           "likes": 690,
           "comments": 8
+        },
+        {
+          "date": "2026-05-09",
+          "views": 77303,
+          "likes": 691,
+          "comments": 8
         }
       ]
     }
@@ -2215,6 +2286,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-08T15:18:12.270920+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "youtube_total_views",
+      "value": 28897036,
+      "baseline_mean": 27849507.2,
+      "baseline_stddev": 460550.3,
+      "delta": 1047528,
+      "score": 2.27,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-09T14:47:16.127358+00:00"
     }
   ]
 }

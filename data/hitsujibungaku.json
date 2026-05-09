@@ -1067,6 +1067,47 @@
       "ytm_subscribers": 442000,
       "ytm_monthly_listeners": 5990000,
       "ytm_total_views": 330630462
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 1720503,
+      "collected_at": "2026-05-09T14:58:47.961250+00:00",
+      "spotify_followers": 484499,
+      "youtube_subscribers": 443000,
+      "youtube_total_views": 332673673,
+      "youtube_video_count": 138,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 61947
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 48103
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 33901
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 30896
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 21059
+        }
+      ],
+      "lastfm_listeners": 18116,
+      "lastfm_playcount": 1225721,
+      "ytm_subscribers": 443000,
+      "ytm_monthly_listeners": 5990000,
+      "ytm_total_views": 330630462
     }
   ],
   "annotations": [
@@ -1183,9 +1224,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "tiny yawn",
+        "browse_id": "UCESxrbFra7AVQsdPAnJ99dA",
+        "subscribers": "116K"
+      },
+      {
+        "name": "Regal Lily",
+        "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
+        "subscribers": "227K"
+      },
+      {
         "name": "Chilli Beans.",
         "browse_id": "UCkI4roj4YVHrTh7PftDVxmQ",
-        "subscribers": "338K"
+        "subscribers": "339K"
       },
       {
         "name": "Laura day romance",
@@ -1221,16 +1272,6 @@
         "name": "yonige",
         "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
         "subscribers": "235K"
-      },
-      {
-        "name": "Blooming Bungei",
-        "browse_id": "UCO-XTBzvzhd7FgNoNseKqIw",
-        "subscribers": "182K"
-      },
-      {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "110K"
       }
     ],
     "ytm_top_songs": [
@@ -1410,6 +1451,12 @@
           "views": 18186707,
           "likes": 116390,
           "comments": 344
+        },
+        {
+          "date": "2026-05-09",
+          "views": 18209440,
+          "likes": 116530,
+          "comments": 344
         }
       ]
     },
@@ -1564,6 +1611,12 @@
           "date": "2026-05-08",
           "views": 2435158,
           "likes": 21552,
+          "comments": 155
+        },
+        {
+          "date": "2026-05-09",
+          "views": 2464430,
+          "likes": 21650,
           "comments": 155
         }
       ]
@@ -1720,6 +1773,12 @@
           "views": 73126,
           "likes": 1664,
           "comments": 63
+        },
+        {
+          "date": "2026-05-09",
+          "views": 74041,
+          "likes": 1677,
+          "comments": 63
         }
       ]
     },
@@ -1874,6 +1933,12 @@
           "date": "2026-05-08",
           "views": 1337838,
           "likes": 12692,
+          "comments": 83
+        },
+        {
+          "date": "2026-05-09",
+          "views": 1340197,
+          "likes": 12709,
           "comments": 83
         }
       ]
@@ -2030,6 +2095,12 @@
           "views": 1977417,
           "likes": 15557,
           "comments": 125
+        },
+        {
+          "date": "2026-05-09",
+          "views": 1980116,
+          "likes": 15567,
+          "comments": 125
         }
       ]
     }
@@ -2118,6 +2189,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-30T15:59:30.175123+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "monthly_listeners",
+      "value": 1720503,
+      "baseline_mean": 1667106.8,
+      "baseline_stddev": 12967.3,
+      "delta": 53396,
+      "score": 4.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-09T14:58:49.294926+00:00"
     }
   ]
 }

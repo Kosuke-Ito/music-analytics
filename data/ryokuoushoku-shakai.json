@@ -1067,6 +1067,47 @@
       "ytm_subscribers": 944000,
       "ytm_monthly_listeners": 8580000,
       "ytm_total_views": 881594472
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 2695149,
+      "collected_at": "2026-05-09T14:58:31.647791+00:00",
+      "spotify_followers": 1523055,
+      "youtube_subscribers": 944000,
+      "youtube_total_views": 894855633,
+      "youtube_video_count": 410,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 87255
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 84568
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 60608
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 33457
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 31637
+        }
+      ],
+      "lastfm_listeners": 16471,
+      "lastfm_playcount": 762281,
+      "ytm_subscribers": 944000,
+      "ytm_monthly_listeners": 8580000,
+      "ytm_total_views": 881594472
     }
   ],
   "annotations": [
@@ -1176,9 +1217,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Cidergirl",
-        "browse_id": "UCj0gYbIUSGS_m1yqbPi4TIQ",
-        "subscribers": "467K"
+        "name": "asmi",
+        "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
+        "subscribers": "3.31M"
       },
       {
         "name": "saji",
@@ -1186,9 +1227,9 @@
         "subscribers": "103K"
       },
       {
-        "name": "asmi",
-        "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
-        "subscribers": "3.31M"
+        "name": "Cidergirl",
+        "browse_id": "UCj0gYbIUSGS_m1yqbPi4TIQ",
+        "subscribers": "467K"
       },
       {
         "name": "flumpool",
@@ -1206,14 +1247,9 @@
         "subscribers": "10M"
       },
       {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "35.3M"
-      },
-      {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.1M"
+        "name": "eill",
+        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
+        "subscribers": "1.57M"
       },
       {
         "name": "miwa",
@@ -1221,9 +1257,14 @@
         "subscribers": "1.97M"
       },
       {
-        "name": "eill",
-        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.57M"
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "35.3M"
+      },
+      {
+        "name": "Lilas Ikuta",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "20.8M"
       }
     ],
     "ytm_top_songs": [
@@ -1403,6 +1444,12 @@
           "views": 29415539,
           "likes": 250021,
           "comments": 626
+        },
+        {
+          "date": "2026-05-09",
+          "views": 29447749,
+          "likes": 250270,
+          "comments": 626
         }
       ]
     },
@@ -1557,6 +1604,12 @@
           "date": "2026-05-08",
           "views": 20519778,
           "likes": 83526,
+          "comments": 190
+        },
+        {
+          "date": "2026-05-09",
+          "views": 20532968,
+          "likes": 83566,
           "comments": 190
         }
       ]
@@ -1713,6 +1766,12 @@
           "views": 1720954,
           "likes": 10575,
           "comments": 57
+        },
+        {
+          "date": "2026-05-09",
+          "views": 1722994,
+          "likes": 10581,
+          "comments": 57
         }
       ]
     },
@@ -1867,6 +1926,12 @@
           "date": "2026-05-08",
           "views": 10943112,
           "likes": 53376,
+          "comments": 127
+        },
+        {
+          "date": "2026-05-09",
+          "views": 10949221,
+          "likes": 53399,
           "comments": 127
         }
       ]
@@ -2028,6 +2093,12 @@
           "views": 107957,
           "likes": 1662,
           "comments": 32
+        },
+        {
+          "date": "2026-05-09",
+          "views": 109607,
+          "likes": 1673,
+          "comments": 32
         }
       ]
     }
@@ -2188,6 +2259,30 @@
       "type": "annotated",
       "related_annotation": "日テレ「1億2000万人のありがとう 歌の感謝祭」に出演",
       "detected_at": "2026-05-08T15:30:39.194025+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "monthly_listeners",
+      "value": 2695149,
+      "baseline_mean": 2639734.2,
+      "baseline_stddev": 24563.4,
+      "delta": 55414,
+      "score": 2.26,
+      "type": "annotated",
+      "related_annotation": "日テレ「1億2000万人のありがとう 歌の感謝祭」に出演",
+      "detected_at": "2026-05-09T14:58:32.962643+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "ytm_monthly_listeners",
+      "value": 8580000,
+      "baseline_mean": 8081922.9,
+      "baseline_stddev": 227004.1,
+      "delta": 498077,
+      "score": 2.19,
+      "type": "annotated",
+      "related_annotation": "日テレ「1億2000万人のありがとう 歌の感謝祭」に出演",
+      "detected_at": "2026-05-09T14:58:32.962643+00:00"
     }
   ]
 }

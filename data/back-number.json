@@ -1067,6 +1067,47 @@
       "ytm_subscribers": 2080000,
       "ytm_monthly_listeners": 14300000,
       "ytm_total_views": 2660135128
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 5897926,
+      "collected_at": "2026-05-09T14:54:25.456221+00:00",
+      "spotify_followers": 6526051,
+      "youtube_subscribers": 2080000,
+      "youtube_total_views": 2696992268,
+      "youtube_video_count": 242,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 367819
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 317583
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 234608
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 134034
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 118985
+        }
+      ],
+      "lastfm_listeners": 126177,
+      "lastfm_playcount": 6118307,
+      "ytm_subscribers": 2080000,
+      "ytm_monthly_listeners": 14300000,
+      "ytm_total_views": 2662101688
     }
   ],
   "annotations": [
@@ -1158,14 +1199,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Superfly",
-        "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
-        "subscribers": "4.02M"
-      },
-      {
-        "name": "Remioromen",
-        "browse_id": "UCHzbZw7GxoyFf-_pyS1R6mg",
-        "subscribers": "2.98M"
+        "name": "Manato Funatsu",
+        "browse_id": "UCHfEbuAKWEgHHXx2cKIKJQQ",
+        "subscribers": "5.84M"
       },
       {
         "name": "Takaya Kawasaki",
@@ -1173,14 +1209,9 @@
         "subscribers": "1.95M"
       },
       {
-        "name": "Manato Funatsu",
-        "browse_id": "UCHfEbuAKWEgHHXx2cKIKJQQ",
-        "subscribers": "5.84M"
-      },
-      {
-        "name": "YUZU",
-        "browse_id": "UC-wO8NkDlTY0JfTF9JdVtfQ",
-        "subscribers": "5.44M"
+        "name": "Superfly",
+        "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
+        "subscribers": "4.02M"
       },
       {
         "name": "Ken Hirai",
@@ -1188,14 +1219,24 @@
         "subscribers": "1.69M"
       },
       {
-        "name": "あいみょん",
-        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
-        "subscribers": "7.88M"
+        "name": "YUZU",
+        "browse_id": "UC-wO8NkDlTY0JfTF9JdVtfQ",
+        "subscribers": "5.46M"
       },
       {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
         "subscribers": "10M"
+      },
+      {
+        "name": "あいみょん",
+        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
+        "subscribers": "7.88M"
+      },
+      {
+        "name": "aiko",
+        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
+        "subscribers": "6.27M"
       },
       {
         "name": "Marcy",
@@ -1385,6 +1426,12 @@
           "views": 55743085,
           "likes": 185674,
           "comments": 548
+        },
+        {
+          "date": "2026-05-09",
+          "views": 55802364,
+          "likes": 185931,
+          "comments": 548
         }
       ]
     },
@@ -1540,6 +1587,12 @@
           "views": 43745593,
           "likes": 166834,
           "comments": 701
+        },
+        {
+          "date": "2026-05-09",
+          "views": 43812481,
+          "likes": 167056,
+          "comments": 703
         }
       ]
     },
@@ -1694,6 +1747,12 @@
           "date": "2026-05-08",
           "views": 61232367,
           "likes": 197377,
+          "comments": 563
+        },
+        {
+          "date": "2026-05-09",
+          "views": 61284495,
+          "likes": 197558,
           "comments": 563
         }
       ]
@@ -1850,6 +1909,12 @@
           "views": 58296731,
           "likes": 198085,
           "comments": 589
+        },
+        {
+          "date": "2026-05-09",
+          "views": 58348516,
+          "likes": 198250,
+          "comments": 591
         }
       ]
     },
@@ -2005,6 +2070,12 @@
           "views": 20743276,
           "likes": 90776,
           "comments": 473
+        },
+        {
+          "date": "2026-05-09",
+          "views": 20786476,
+          "likes": 90909,
+          "comments": 474
         }
       ]
     }
@@ -2069,6 +2140,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-08T15:26:02.752456+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "youtube_total_views",
+      "value": 2696992268,
+      "baseline_mean": 2664456722.9,
+      "baseline_stddev": 16175315.8,
+      "delta": 32535545,
+      "score": 2.01,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-09T14:54:26.931807+00:00"
     }
   ]
 }

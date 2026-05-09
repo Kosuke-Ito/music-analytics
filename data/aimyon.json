@@ -1067,6 +1067,47 @@
       "ytm_subscribers": 2290000,
       "ytm_monthly_listeners": 7880000,
       "ytm_total_views": 2649046109
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 4297231,
+      "collected_at": "2026-05-09T14:55:47.149367+00:00",
+      "spotify_followers": 6251704,
+      "youtube_subscribers": 2290000,
+      "youtube_total_views": 2659017731,
+      "youtube_video_count": 269,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 218010
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 196103
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 139811
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 80623
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 67135
+        }
+      ],
+      "lastfm_listeners": 19519,
+      "lastfm_playcount": 1415313,
+      "ytm_subscribers": 2290000,
+      "ytm_monthly_listeners": 7880000,
+      "ytm_total_views": 2649046109
     }
   ],
   "annotations": [
@@ -1227,29 +1268,14 @@
         "subscribers": "4.02M"
       },
       {
-        "name": "Takaya Kawasaki",
-        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
-        "subscribers": "1.95M"
-      },
-      {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "10M"
-      },
-      {
         "name": "Ken Hirai",
         "browse_id": "UCjV108-_g6HUrmoKOt5-QIw",
         "subscribers": "1.69M"
       },
       {
-        "name": "SUKIMASWITCH",
-        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "4.95M"
-      },
-      {
-        "name": "Uru",
-        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "22.7M"
+        "name": "Takaya Kawasaki",
+        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
+        "subscribers": "1.95M"
       },
       {
         "name": "aiko",
@@ -1257,9 +1283,24 @@
         "subscribers": "6.27M"
       },
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "9.07M"
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "10M"
+      },
+      {
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "15.8M"
+      },
+      {
+        "name": "Remioromen",
+        "browse_id": "UCHzbZw7GxoyFf-_pyS1R6mg",
+        "subscribers": "2.98M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "14.3M"
       }
     ],
     "ytm_top_songs": [
@@ -1439,6 +1480,12 @@
           "views": 104486060,
           "likes": 301614,
           "comments": 660
+        },
+        {
+          "date": "2026-05-09",
+          "views": 104533418,
+          "likes": 301762,
+          "comments": 660
         }
       ]
     },
@@ -1593,6 +1640,12 @@
           "date": "2026-05-08",
           "views": 99011108,
           "likes": 337730,
+          "comments": 403
+        },
+        {
+          "date": "2026-05-09",
+          "views": 99056130,
+          "likes": 337858,
           "comments": 403
         }
       ]
@@ -1749,6 +1802,12 @@
           "views": 61835742,
           "likes": 180281,
           "comments": 230
+        },
+        {
+          "date": "2026-05-09",
+          "views": 61858680,
+          "likes": 180348,
+          "comments": 230
         }
       ]
     },
@@ -1903,6 +1962,12 @@
           "date": "2026-05-08",
           "views": 1967640,
           "likes": 6085,
+          "comments": 39
+        },
+        {
+          "date": "2026-05-09",
+          "views": 1968022,
+          "likes": 6084,
           "comments": 39
         }
       ]
@@ -2064,6 +2129,12 @@
           "views": 35518824,
           "likes": 112497,
           "comments": 221
+        },
+        {
+          "date": "2026-05-09",
+          "views": 35533962,
+          "likes": 112550,
+          "comments": 221
         }
       ]
     }
@@ -2188,6 +2259,42 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-08T15:27:31.445521+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "monthly_listeners",
+      "value": 4297231,
+      "baseline_mean": 4229205.4,
+      "baseline_stddev": 29390.1,
+      "delta": 68025,
+      "score": 2.31,
+      "type": "annotated",
+      "related_annotation": "VIVA LA ROCK 2026出演（5/4）後続効果＋メジャーデビュー10周年施策継続でSpotify月間リスナー・YouTube総再生数が上昇",
+      "detected_at": "2026-05-09T14:55:48.700275+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "ytm_monthly_listeners",
+      "value": 7880000,
+      "baseline_mean": 7694230.8,
+      "baseline_stddev": 74378.1,
+      "delta": 185769,
+      "score": 2.5,
+      "type": "annotated",
+      "related_annotation": "VIVA LA ROCK 2026出演（5/4）後続効果＋メジャーデビュー10周年施策継続でSpotify月間リスナー・YouTube総再生数が上昇",
+      "detected_at": "2026-05-09T14:55:48.700275+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "youtube_total_views",
+      "value": 2659017731,
+      "baseline_mean": 2650062713.3,
+      "baseline_stddev": 3254474.4,
+      "delta": 8955017,
+      "score": 2.75,
+      "type": "annotated",
+      "related_annotation": "VIVA LA ROCK 2026出演（5/4）後続効果＋メジャーデビュー10周年施策継続でSpotify月間リスナー・YouTube総再生数が上昇",
+      "detected_at": "2026-05-09T14:55:48.700275+00:00"
     }
   ]
 }

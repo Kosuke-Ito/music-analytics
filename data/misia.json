@@ -1182,6 +1182,47 @@
       "ytm_subscribers": 718000,
       "ytm_monthly_listeners": 4720000,
       "ytm_total_views": 705579089
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 2289436,
+      "collected_at": "2026-05-09T14:43:42.548939+00:00",
+      "spotify_followers": 2094016,
+      "youtube_subscribers": 1550,
+      "youtube_total_views": 116827315,
+      "youtube_video_count": 1207,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 109087
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 93967
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 74669
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 40010
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 28952
+        }
+      ],
+      "lastfm_listeners": 97302,
+      "lastfm_playcount": 2998628,
+      "ytm_subscribers": 719000,
+      "ytm_monthly_listeners": 4720000,
+      "ytm_total_views": 705579089
     }
   ],
   "annotations": [
@@ -1330,14 +1371,14 @@
         "subscribers": "5.7M"
       },
       {
-        "name": "Che'Nelle",
-        "browse_id": "UCHml1Vdy8NsTW8BMqbTQCmQ",
-        "subscribers": "1.12M"
-      },
-      {
         "name": "Chris Hart",
         "browse_id": "UCL5QaEb-lo_VeEgCxzufTeA",
         "subscribers": "545K"
+      },
+      {
+        "name": "Che'Nelle",
+        "browse_id": "UCHml1Vdy8NsTW8BMqbTQCmQ",
+        "subscribers": "1.12M"
       },
       {
         "name": "CHEMISTRY",
@@ -1350,14 +1391,14 @@
         "subscribers": "2.06M"
       },
       {
-        "name": "Ayaka Hirahara",
-        "browse_id": "UC5ZFgd9hHg5HBCkn_dupj7g",
-        "subscribers": "1.2M"
+        "name": "Miki Imai",
+        "browse_id": "UCwVgxu4VPGB_56EPWy2NW0w",
+        "subscribers": "620K"
       },
       {
-        "name": "Ko Shibasaki",
-        "browse_id": "UCYSyfPj4FvtV0-7jJsHzAyg",
-        "subscribers": "1.59M"
+        "name": "JUJU",
+        "browse_id": "UCJDDeY50cfuDeivwBFZVxLw",
+        "subscribers": "3.6M"
       }
     ],
     "ytm_top_songs": [
@@ -1531,6 +1572,12 @@
           "views": 1541399,
           "likes": 7785,
           "comments": 27
+        },
+        {
+          "date": "2026-05-09",
+          "views": 1542518,
+          "likes": 7788,
+          "comments": 27
         }
       ]
     },
@@ -1691,6 +1738,12 @@
           "date": "2026-05-08",
           "views": 2374692,
           "likes": 14177,
+          "comments": 51
+        },
+        {
+          "date": "2026-05-09",
+          "views": 2376767,
+          "likes": 14191,
           "comments": 51
         }
       ]
@@ -1853,6 +1906,12 @@
           "views": 720819,
           "likes": 6087,
           "comments": 53
+        },
+        {
+          "date": "2026-05-09",
+          "views": 722023,
+          "likes": 6093,
+          "comments": 53
         }
       ]
     },
@@ -1953,6 +2012,12 @@
           "date": "2026-05-08",
           "views": 79075,
           "likes": 679,
+          "comments": 4
+        },
+        {
+          "date": "2026-05-09",
+          "views": 79271,
+          "likes": 677,
           "comments": 4
         }
       ]
@@ -2180,6 +2245,12 @@
           "views": 108122,
           "likes": 1644,
           "comments": 49
+        },
+        {
+          "date": "2026-05-09",
+          "views": 110330,
+          "likes": 1665,
+          "comments": 49
         }
       ]
     },
@@ -2405,6 +2476,18 @@
       "type": "annotated",
       "related_annotation": "Kアリーナ横浜ツアーファイナル（5/2〜3）余韻＋コナン映画5週目でYTM月間リスナーが急増（+1,186,400・2.25σ）",
       "detected_at": "2026-05-08T15:14:25.641541+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "ytm_monthly_listeners",
+      "value": 4720000,
+      "baseline_mean": 3390370.4,
+      "baseline_stddev": 613130.9,
+      "delta": 1329629,
+      "score": 2.17,
+      "type": "annotated",
+      "related_annotation": "Kアリーナ横浜ツアーファイナル（5/2〜3）余韻＋コナン映画5週目でYTM月間リスナーが急増（+1,186,400・2.25σ）",
+      "detected_at": "2026-05-09T14:43:43.611489+00:00"
     }
   ]
 }

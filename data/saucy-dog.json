@@ -1070,6 +1070,47 @@
       "ytm_subscribers": 867000,
       "ytm_monthly_listeners": 2160000,
       "ytm_total_views": 560168930
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 1674001,
+      "collected_at": "2026-05-09T14:58:14.990696+00:00",
+      "spotify_followers": 1457706,
+      "youtube_subscribers": 868000,
+      "youtube_total_views": 561475864,
+      "youtube_video_count": 135,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 93881
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 78086
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 62415
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 34409
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 32427
+        }
+      ],
+      "lastfm_listeners": 57877,
+      "lastfm_playcount": 1609211,
+      "ytm_subscribers": 868000,
+      "ytm_monthly_listeners": 2160000,
+      "ytm_total_views": 560168930
     }
   ],
   "annotations": [
@@ -1165,21 +1206,6 @@
         "subscribers": "3.36M"
       },
       {
-        "name": "Orange Spiny Crab",
-        "browse_id": "UC4xFImWROIkfo8YXSgrxliQ",
-        "subscribers": "190K"
-      },
-      {
-        "name": "YUTORI-SEDAI",
-        "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "369K"
-      },
-      {
-        "name": "YOAKE",
-        "browse_id": "UCQE3bQBOx8YoxP3ghcXZs7g",
-        "subscribers": "107K"
-      },
-      {
         "name": "the shes gone",
         "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
         "subscribers": "239K"
@@ -1203,6 +1229,21 @@
         "name": "TRACK15",
         "browse_id": "UCbTq_K3E9Vz8ehL62WwcwIA",
         "subscribers": "237K"
+      },
+      {
+        "name": "bokula.",
+        "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
+        "subscribers": "197K"
+      },
+      {
+        "name": "Orange Spiny Crab",
+        "browse_id": "UC4xFImWROIkfo8YXSgrxliQ",
+        "subscribers": "190K"
+      },
+      {
+        "name": "YUTORI-SEDAI",
+        "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
+        "subscribers": "369K"
       }
     ],
     "ytm_top_songs": [
@@ -1382,6 +1423,12 @@
           "views": 3874503,
           "likes": 16511,
           "comments": 37
+        },
+        {
+          "date": "2026-05-09",
+          "views": 3887412,
+          "likes": 16572,
+          "comments": 39
         }
       ]
     },
@@ -1524,6 +1571,12 @@
           "date": "2026-05-08",
           "views": 4358032,
           "likes": 20608,
+          "comments": 40
+        },
+        {
+          "date": "2026-05-09",
+          "views": 4373205,
+          "likes": 20692,
           "comments": 40
         }
       ]
@@ -1680,6 +1733,12 @@
           "views": 2286726,
           "likes": 12293,
           "comments": 35
+        },
+        {
+          "date": "2026-05-09",
+          "views": 2296201,
+          "likes": 12340,
+          "comments": 35
         }
       ]
     },
@@ -1822,6 +1881,12 @@
           "date": "2026-05-08",
           "views": 2716881,
           "likes": 16370,
+          "comments": 38
+        },
+        {
+          "date": "2026-05-09",
+          "views": 2727078,
+          "likes": 16433,
           "comments": 38
         }
       ]
@@ -1978,6 +2043,12 @@
           "views": 2023038,
           "likes": 8650,
           "comments": 27
+        },
+        {
+          "date": "2026-05-09",
+          "views": 2031277,
+          "likes": 8687,
+          "comments": 27
         }
       ]
     },
@@ -2076,6 +2147,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-08T15:30:21.747414+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "monthly_listeners",
+      "value": 1674001,
+      "baseline_mean": 1628526.6,
+      "baseline_stddev": 14021.8,
+      "delta": 45474,
+      "score": 3.24,
+      "type": "annotated",
+      "related_annotation": "RUSH BALL 2026出演発表（5/4）後続効果＋SUMMER SONIC 2026出演継続注目でSpotify月間リスナーが緩やかに上昇",
+      "detected_at": "2026-05-09T14:58:16.546502+00:00"
     }
   ]
 }

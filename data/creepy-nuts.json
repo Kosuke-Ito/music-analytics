@@ -1358,6 +1358,47 @@
       "ytm_subscribers": 2420000,
       "ytm_monthly_listeners": 102000000,
       "ytm_total_views": 1829710967
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 6110685,
+      "collected_at": "2026-05-09T14:50:25.968649+00:00",
+      "spotify_followers": 2337861,
+      "youtube_subscribers": 2420000,
+      "youtube_total_views": 1845948889,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 106749
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 97370
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 72144
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 64391
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 62628
+        }
+      ],
+      "lastfm_listeners": 615438,
+      "lastfm_playcount": 21475598,
+      "ytm_subscribers": 2420000,
+      "ytm_monthly_listeners": 102000000,
+      "ytm_total_views": 1830781667
     }
   ],
   "annotations": [
@@ -1528,19 +1569,19 @@
         "subscribers": "4.59M"
       },
       {
-        "name": "imase",
-        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "60.5M"
-      },
-      {
         "name": "RADWIMPS",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
         "subscribers": "66.5M"
       },
       {
-        "name": "Umedacypher",
-        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
-        "subscribers": "682K"
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "60.5M"
+      },
+      {
+        "name": "Kocchi no Kento",
+        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
+        "subscribers": "70M"
       },
       {
         "name": "KANA-BOON",
@@ -1548,9 +1589,9 @@
         "subscribers": "35.3M"
       },
       {
-        "name": "gesunokiwamiotome",
-        "browse_id": "UCC49CEw6fitW1bUIT9NjvSA",
-        "subscribers": "824K"
+        "name": "Sambomaster",
+        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
+        "subscribers": "3.92M"
       },
       {
         "name": "MILLENNIUM PARADE",
@@ -1558,14 +1599,14 @@
         "subscribers": "1.03M"
       },
       {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "621K"
+        "name": "Umedacypher",
+        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
+        "subscribers": "682K"
       },
       {
-        "name": "Sambomaster",
-        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
-        "subscribers": "3.92M"
+        "name": "gesunokiwamiotome",
+        "browse_id": "UCC49CEw6fitW1bUIT9NjvSA",
+        "subscribers": "824K"
       }
     ],
     "ytm_top_songs": [
@@ -1712,6 +1753,18 @@
       "type": "annotated",
       "related_annotation": "RUSH BALL 2026（8月30日・大阪）出演発表",
       "detected_at": "2026-05-08T15:21:39.910272+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "youtube_total_views",
+      "value": 1845948889,
+      "baseline_mean": 1826766394.3,
+      "baseline_stddev": 9548101.3,
+      "delta": 19182494,
+      "score": 2.01,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-09T14:50:27.231443+00:00"
     }
   ],
   "song_performance": {
@@ -1873,6 +1926,12 @@
           "views": 19777044,
           "likes": 255672,
           "comments": 816
+        },
+        {
+          "date": "2026-05-09",
+          "views": 19834491,
+          "likes": 256231,
+          "comments": 824
         }
       ]
     },
@@ -2034,6 +2093,12 @@
           "views": 17585420,
           "likes": 236959,
           "comments": 927
+        },
+        {
+          "date": "2026-05-09",
+          "views": 17631053,
+          "likes": 237404,
+          "comments": 931
         }
       ]
     },
@@ -2195,6 +2260,12 @@
           "views": 6628379,
           "likes": 89488,
           "comments": 1089
+        },
+        {
+          "date": "2026-05-09",
+          "views": 6643226,
+          "likes": 89640,
+          "comments": 1089
         }
       ]
     },
@@ -2355,6 +2426,12 @@
           "date": "2026-05-08",
           "views": 11778885,
           "likes": 109475,
+          "comments": 469
+        },
+        {
+          "date": "2026-05-09",
+          "views": 11789916,
+          "likes": 109567,
           "comments": 469
         }
       ]
@@ -2521,6 +2598,12 @@
           "date": "2026-05-08",
           "views": 221090,
           "likes": 5264,
+          "comments": 135
+        },
+        {
+          "date": "2026-05-09",
+          "views": 224391,
+          "likes": 5307,
           "comments": 135
         }
       ]

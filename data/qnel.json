@@ -1182,6 +1182,47 @@
       "ytm_subscribers": 154,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 467,
+      "collected_at": "2026-05-09T14:50:57.750489+00:00",
+      "spotify_followers": 933,
+      "youtube_subscribers": 364,
+      "youtube_total_views": 65629,
+      "youtube_video_count": 170,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 33
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 11
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 9
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 8
+        },
+        {
+          "city": "Kawaguchi",
+          "country": "JP",
+          "listeners": 7
+        }
+      ],
+      "lastfm_listeners": 736,
+      "lastfm_playcount": 2413,
+      "ytm_subscribers": 154,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -1235,6 +1276,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Maica_n",
+        "browse_id": "UCrSagkHSuVCSX3IXs1Z7tuQ",
+        "subscribers": "15K"
+      },
+      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "60.2K"
@@ -1247,7 +1293,7 @@
       {
         "name": "dawgss",
         "browse_id": "UC0clTcD4YEA0gViF33LumjQ",
-        "subscribers": "748"
+        "subscribers": "749"
       },
       {
         "name": "Yujin Aramaki",
@@ -1277,12 +1323,7 @@
       {
         "name": "Nolzy",
         "browse_id": "UCDg2E8bOoRVGZc-TN0rcJwQ",
-        "subscribers": "4.3K"
-      },
-      {
-        "name": "Cocolashika",
-        "browse_id": "UCc4EvEBa6wAcSP9-K__6_HA",
-        "subscribers": "30K"
+        "subscribers": "4.29K"
       }
     ],
     "ytm_top_songs": [
@@ -1467,6 +1508,12 @@
           "views": 3123,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-05-09",
+          "views": 3128,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -1628,6 +1675,12 @@
           "views": 5432,
           "likes": 21,
           "comments": 0
+        },
+        {
+          "date": "2026-05-09",
+          "views": 5440,
+          "likes": 22,
+          "comments": 0
         }
       ]
     },
@@ -1787,6 +1840,12 @@
         {
           "date": "2026-05-08",
           "views": 11931,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-09",
+          "views": 11938,
           "likes": 76,
           "comments": 0
         }
@@ -1950,6 +2009,12 @@
           "views": 31602,
           "likes": 149,
           "comments": 0
+        },
+        {
+          "date": "2026-05-09",
+          "views": 31633,
+          "likes": 149,
+          "comments": 0
         }
       ]
     },
@@ -2103,6 +2168,12 @@
         {
           "date": "2026-05-08",
           "views": 7772,
+          "likes": 60,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-09",
+          "views": 7786,
           "likes": 60,
           "comments": 0
         }
@@ -2264,6 +2335,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-08T15:22:13.666538+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "youtube_total_views",
+      "value": 65629,
+      "baseline_mean": 65478.6,
+      "baseline_stddev": 73.6,
+      "delta": 150,
+      "score": 2.04,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-09T14:50:58.919467+00:00"
     }
   ]
 }

@@ -1079,6 +1079,47 @@
       "ytm_subscribers": 582000,
       "ytm_monthly_listeners": 4770000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-09",
+      "monthly_listeners": 2370442,
+      "collected_at": "2026-05-09T14:57:58.210885+00:00",
+      "spotify_followers": 1927562,
+      "youtube_subscribers": 582000,
+      "youtube_total_views": 479411547,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 134175
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 118636
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 88006
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 51750
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 45508
+        }
+      ],
+      "lastfm_listeners": 7155,
+      "lastfm_playcount": 387167,
+      "ytm_subscribers": 582000,
+      "ytm_monthly_listeners": 4770000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -1190,14 +1231,14 @@
         "subscribers": "5.76M"
       },
       {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "14.3M"
+      },
+      {
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
         "subscribers": "8.1M"
-      },
-      {
-        "name": "go!go!vanillas",
-        "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
-        "subscribers": "939K"
       },
       {
         "name": "RADWIMPS",
@@ -1205,19 +1246,14 @@
         "subscribers": "66.5M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "14.3M"
-      },
-      {
         "name": "SUPER BEAVER",
         "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
         "subscribers": "2.98M"
       },
       {
-        "name": "Tele",
-        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "658K"
+        "name": "go!go!vanillas",
+        "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
+        "subscribers": "939K"
       },
       {
         "name": "Saucy Dog",
@@ -1225,9 +1261,14 @@
         "subscribers": "2.16M"
       },
       {
-        "name": "CreepHyp",
-        "browse_id": "UC0iyL2tAxXXuwfx8VVvCw1A",
-        "subscribers": "2.33M"
+        "name": "Tele",
+        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
+        "subscribers": "658K"
+      },
+      {
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "2.07M"
       },
       {
         "name": "DISH//",
@@ -1411,6 +1452,12 @@
           "views": 11227426,
           "likes": 65014,
           "comments": 129
+        },
+        {
+          "date": "2026-05-09",
+          "views": 11246378,
+          "likes": 65126,
+          "comments": 129
         }
       ]
     },
@@ -1566,6 +1613,12 @@
           "views": 23384614,
           "likes": 82951,
           "comments": 159
+        },
+        {
+          "date": "2026-05-09",
+          "views": 23407051,
+          "likes": 83102,
+          "comments": 159
         }
       ]
     },
@@ -1708,6 +1761,12 @@
           "date": "2026-05-08",
           "views": 15897591,
           "likes": 57472,
+          "comments": 109
+        },
+        {
+          "date": "2026-05-09",
+          "views": 15913769,
+          "likes": 57544,
           "comments": 109
         }
       ]
@@ -1864,6 +1923,12 @@
           "views": 44045441,
           "likes": 135309,
           "comments": 229
+        },
+        {
+          "date": "2026-05-09",
+          "views": 44062603,
+          "likes": 135403,
+          "comments": 232
         }
       ]
     },
@@ -2041,6 +2106,12 @@
           "views": 14853014,
           "likes": 94978,
           "comments": 491
+        },
+        {
+          "date": "2026-05-09",
+          "views": 14891582,
+          "likes": 95121,
+          "comments": 492
         }
       ]
     }
@@ -2153,6 +2224,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-08T15:30:04.303811+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "monthly_listeners",
+      "value": 2370442,
+      "baseline_mean": 2285261.0,
+      "baseline_stddev": 26807.0,
+      "delta": 85180,
+      "score": 3.18,
+      "type": "annotated",
+      "related_annotation": "JAPAN JAM 2026出演（5/2）後続効果＋マカロックツアーvol.21継続でSpotify月間リスナーが上昇",
+      "detected_at": "2026-05-09T14:57:59.797435+00:00"
+    },
+    {
+      "date": "2026-05-09",
+      "metric": "youtube_total_views",
+      "value": 479411547,
+      "baseline_mean": 472695209.8,
+      "baseline_stddev": 3349440.7,
+      "delta": 6716337,
+      "score": 2.01,
+      "type": "annotated",
+      "related_annotation": "JAPAN JAM 2026出演（5/2）後続効果＋マカロックツアーvol.21継続でSpotify月間リスナーが上昇",
+      "detected_at": "2026-05-09T14:57:59.797435+00:00"
     }
   ]
 }
