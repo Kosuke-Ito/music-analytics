@@ -1032,6 +1032,50 @@
       "validation_flags": [
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-05-10",
+      "monthly_listeners": 60610,
+      "collected_at": "2026-05-10T15:02:42.895942+00:00",
+      "spotify_followers": 50908,
+      "youtube_subscribers": 37100,
+      "youtube_total_views": 8258778,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3548
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1494
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 928
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 881
+        },
+        {
+          "city": "Nakano City",
+          "country": "JP",
+          "listeners": 574
+        }
+      ],
+      "lastfm_listeners": 23675,
+      "lastfm_playcount": 394935,
+      "ytm_subscribers": 37100,
+      "ytm_monthly_listeners": 70800,
+      "ytm_total_views": 8022185,
+      "validation_flags": [
+        "unusual_deviation"
+      ]
     }
   ],
   "metadata": {
@@ -1049,12 +1093,12 @@
         "url": "https://www.last.fm/music/Lausbub"
       },
       {
-        "name": "柴田聡子",
-        "url": "https://www.last.fm/music/%E6%9F%B4%E7%94%B0%E8%81%A1%E5%AD%90"
-      },
-      {
         "name": "odol",
         "url": "https://www.last.fm/music/odol"
+      },
+      {
+        "name": "柴田聡子",
+        "url": "https://www.last.fm/music/%E6%9F%B4%E7%94%B0%E8%81%A1%E5%AD%90"
       }
     ],
     "lastfm_tags": [
@@ -1078,12 +1122,12 @@
       {
         "name": "Shin Sakiura",
         "browse_id": "UCwQ0ruE9EWOX38Tc5ouohWA",
-        "subscribers": "180K"
+        "subscribers": "178K"
       },
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "245K"
+        "subscribers": "242K"
       },
       {
         "name": "DÉ DÉ MOUSE",
@@ -1093,17 +1137,17 @@
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "110K"
+        "subscribers": "125K"
       },
       {
         "name": "80KIDZ",
         "browse_id": "UCNX3xsR7gTNXzcG8VyY3Z5g",
-        "subscribers": "3.77K"
+        "subscribers": "3.76K"
       },
       {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
-        "subscribers": "136K"
+        "subscribers": "138K"
       },
       {
         "name": "Dirty Androids",
@@ -1287,6 +1331,12 @@
           "views": 112075,
           "likes": 2360,
           "comments": 24
+        },
+        {
+          "date": "2026-05-10",
+          "views": 112471,
+          "likes": 2371,
+          "comments": 24
         }
       ]
     },
@@ -1435,6 +1485,12 @@
           "date": "2026-05-09",
           "views": 544881,
           "likes": 5112,
+          "comments": 17
+        },
+        {
+          "date": "2026-05-10",
+          "views": 545606,
+          "likes": 5116,
           "comments": 17
         }
       ]
@@ -1585,6 +1641,12 @@
           "views": 307973,
           "likes": 3319,
           "comments": 6
+        },
+        {
+          "date": "2026-05-10",
+          "views": 308249,
+          "likes": 3321,
+          "comments": 6
         }
       ]
     },
@@ -1732,6 +1794,12 @@
         {
           "date": "2026-05-09",
           "views": 51586,
+          "likes": 169,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-10",
+          "views": 51691,
           "likes": 169,
           "comments": 1
         }
@@ -1882,6 +1950,12 @@
           "date": "2026-05-09",
           "views": 113667,
           "likes": 1464,
+          "comments": 14
+        },
+        {
+          "date": "2026-05-10",
+          "views": 113861,
+          "likes": 1467,
           "comments": 14
         }
       ]
@@ -2059,6 +2133,18 @@
       "type": "annotated",
       "related_annotation": "JT Rhythm Loop・スペースシャワーTV特集の継続効果でSpotify月間リスナーが51,620→52,930と上昇",
       "detected_at": "2026-05-09T15:01:00.849279+00:00"
+    },
+    {
+      "date": "2026-05-10",
+      "metric": "monthly_listeners",
+      "value": 60610,
+      "baseline_mean": 51567.9,
+      "baseline_stddev": 1648.2,
+      "delta": 9042,
+      "score": 5.49,
+      "type": "annotated",
+      "related_annotation": "JT Rhythm Loop・スペースシャワーTV特集の継続効果でSpotify月間リスナーが51,620→52,930と上昇",
+      "detected_at": "2026-05-10T15:02:44.854545+00:00"
     }
   ]
 }

@@ -1108,6 +1108,47 @@
       "ytm_subscribers": 1230000,
       "ytm_monthly_listeners": 6590000,
       "ytm_total_views": 1445235574
+    },
+    {
+      "date": "2026-05-10",
+      "monthly_listeners": 2268749,
+      "collected_at": "2026-05-10T15:02:24.996199+00:00",
+      "spotify_followers": 611031,
+      "youtube_subscribers": 1230000,
+      "youtube_total_views": 1535374832,
+      "youtube_video_count": 482,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 108520
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 92658
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 75536
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 38952
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 33190
+        }
+      ],
+      "lastfm_listeners": 71930,
+      "lastfm_playcount": 1336041,
+      "ytm_subscribers": 1230000,
+      "ytm_monthly_listeners": 6570000,
+      "ytm_total_views": 1446873862
     }
   ],
   "metadata": {
@@ -1142,19 +1183,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Number_i",
+        "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
+        "subscribers": "2.28M"
+      },
+      {
         "name": "Da-iCE",
         "browse_id": "UCsgebXKWsxjX216BtZwLdzQ",
         "subscribers": "4.49M"
       },
       {
-        "name": "Number_i",
-        "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
-        "subscribers": "2.27M"
-      },
-      {
         "name": "CHANMINA",
         "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
-        "subscribers": "16.4M"
+        "subscribers": "16.1M"
       },
       {
         "name": "SKY-HI",
@@ -1162,27 +1203,31 @@
         "subscribers": "1.26M"
       },
       {
-        "name": "NiziU",
-        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "8.19M"
-      },
-      {
         "name": "HANA",
         "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "13.2M"
+        "subscribers": "13M"
+      },
+      {
+        "name": "NiziU",
+        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
+        "subscribers": "7.45M"
       },
       {
         "name": "INI",
         "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
-        "subscribers": "9.9M"
+        "subscribers": "10.1M"
       },
       {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "2.32M"
+        "subscribers": "2.06M"
       }
     ],
     "ytm_top_songs": [
+      {
+        "title": "Rondo",
+        "video_id": "U0ndNu0jzkg"
+      },
       {
         "title": "BE:FIRST ALL DAY",
         "video_id": "c5xOUluUadw"
@@ -1190,10 +1235,6 @@
       {
         "title": "夢中 - Muchu",
         "video_id": "jjuSkbNCSsI"
-      },
-      {
-        "title": "Rondo",
-        "video_id": "U0ndNu0jzkg"
       },
       {
         "title": "街灯 - Lighting up the town",
@@ -1466,6 +1507,12 @@
           "views": 1786882,
           "likes": 16986,
           "comments": 736
+        },
+        {
+          "date": "2026-05-10",
+          "views": 1803067,
+          "likes": 17028,
+          "comments": 736
         }
       ]
     },
@@ -1627,6 +1674,12 @@
           "views": 17634588,
           "likes": 87230,
           "comments": 1954
+        },
+        {
+          "date": "2026-05-10",
+          "views": 17664807,
+          "likes": 87311,
+          "comments": 1955
         }
       ]
     },
@@ -1788,6 +1841,12 @@
           "views": 2827688,
           "likes": 20695,
           "comments": 613
+        },
+        {
+          "date": "2026-05-10",
+          "views": 2833954,
+          "likes": 20718,
+          "comments": 614
         }
       ]
     },
@@ -1924,6 +1983,12 @@
           "date": "2026-05-09",
           "views": 2582465,
           "likes": 20529,
+          "comments": 528
+        },
+        {
+          "date": "2026-05-10",
+          "views": 2587778,
+          "likes": 20546,
           "comments": 528
         }
       ]
@@ -2120,6 +2185,12 @@
           "views": 727185,
           "likes": 22532,
           "comments": 1346
+        },
+        {
+          "date": "2026-05-10",
+          "views": 754177,
+          "likes": 22713,
+          "comments": 1348
         }
       ]
     }
@@ -2220,6 +2291,18 @@
       "type": "annotated",
       "related_annotation": "9thシングル「BE:FIRST ALL DAY」CDリリース＋「Rondo」ダンスパフォーマンス動画公開",
       "detected_at": "2026-05-09T15:00:43.378316+00:00"
+    },
+    {
+      "date": "2026-05-10",
+      "metric": "youtube_total_views",
+      "value": 1535374832,
+      "baseline_mean": 1516226619.7,
+      "baseline_stddev": 9130284.5,
+      "delta": 19148212,
+      "score": 2.1,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-10T15:02:27.563891+00:00"
     }
   ]
 }

@@ -1108,6 +1108,47 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 60500000,
       "ytm_total_views": 841476296
+    },
+    {
+      "date": "2026-05-10",
+      "monthly_listeners": 3327866,
+      "collected_at": "2026-05-10T14:56:56.814665+00:00",
+      "spotify_followers": 1005632,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 844506408,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 57135
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51523
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 44928
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39198
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 38547
+        }
+      ],
+      "lastfm_listeners": 401126,
+      "lastfm_playcount": 5714208,
+      "ytm_subscribers": 1340000,
+      "ytm_monthly_listeners": 61700000,
+      "ytm_total_views": 841476296
     }
   ],
   "annotations": [
@@ -1146,12 +1187,12 @@
         "url": "https://www.last.fm/music/Fujii+Kaze"
       },
       {
-        "name": "Tatsuya Kitani",
-        "url": "https://www.last.fm/music/Tatsuya+Kitani"
-      },
-      {
         "name": "なとり",
         "url": "https://www.last.fm/music/%E3%81%AA%E3%81%A8%E3%82%8A"
+      },
+      {
+        "name": "Tatsuya Kitani",
+        "url": "https://www.last.fm/music/Tatsuya+Kitani"
       }
     ],
     "lastfm_tags": [
@@ -1175,27 +1216,27 @@
       {
         "name": "tonun",
         "browse_id": "UC9XSYahwHXgJnG_7opHAdmQ",
-        "subscribers": "105K"
+        "subscribers": "106K"
       },
       {
         "name": "G over",
         "browse_id": "UCVRsmPU-XYUpbKIm-Jha_LQ",
-        "subscribers": "93.3K"
+        "subscribers": "93.4K"
       },
       {
         "name": "Rinne",
         "browse_id": "UCbWE8ZDfkixEPbYiCpc3H7A",
-        "subscribers": "396K"
+        "subscribers": "390K"
       },
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "119K"
+        "subscribers": "125K"
       },
       {
         "name": "zettakun",
         "browse_id": "UCMVLVZvxO_xJv8l1ov7Ss4Q",
-        "subscribers": "57.3K"
+        "subscribers": "56.4K"
       },
       {
         "name": "Mel",
@@ -1205,12 +1246,12 @@
       {
         "name": "Ohashi Chippoke",
         "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "187K"
+        "subscribers": "189K"
       },
       {
         "name": "Awesome City Club",
         "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
-        "subscribers": "622K"
+        "subscribers": "616K"
       }
     ],
     "ytm_top_songs": [
@@ -1396,6 +1437,12 @@
           "views": 138017818,
           "likes": 1085105,
           "comments": 5857
+        },
+        {
+          "date": "2026-05-10",
+          "views": 138076839,
+          "likes": 1085585,
+          "comments": 5860
         }
       ]
     },
@@ -1556,6 +1603,12 @@
           "date": "2026-05-09",
           "views": 7572804,
           "likes": 55960,
+          "comments": 160
+        },
+        {
+          "date": "2026-05-10",
+          "views": 7580807,
+          "likes": 56003,
           "comments": 160
         }
       ]
@@ -1718,6 +1771,12 @@
           "views": 3281451,
           "likes": 36274,
           "comments": 282
+        },
+        {
+          "date": "2026-05-10",
+          "views": 3284162,
+          "likes": 36294,
+          "comments": 282
         }
       ]
     },
@@ -1878,6 +1937,12 @@
           "date": "2026-05-09",
           "views": 11483868,
           "likes": 51022,
+          "comments": 153
+        },
+        {
+          "date": "2026-05-10",
+          "views": 11487446,
+          "likes": 51033,
           "comments": 153
         }
       ]
@@ -2045,6 +2110,12 @@
           "views": 4144222,
           "likes": 38243,
           "comments": 192
+        },
+        {
+          "date": "2026-05-10",
+          "views": 4147060,
+          "likes": 38290,
+          "comments": 192
         }
       ]
     }
@@ -2109,6 +2180,18 @@
       "type": "annotated",
       "related_annotation": "ジャックスCM「惑星ロマンス」全国放映継続でYTM月間リスナーが53.4M→60.5Mへ急増継続",
       "detected_at": "2026-05-09T14:55:32.115674+00:00"
+    },
+    {
+      "date": "2026-05-10",
+      "metric": "ytm_monthly_listeners",
+      "value": 61700000,
+      "baseline_mean": 53266666.7,
+      "baseline_stddev": 2884312.6,
+      "delta": 8433333,
+      "score": 2.92,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-10T14:56:58.826415+00:00"
     }
   ]
 }

@@ -1108,6 +1108,47 @@
       "ytm_subscribers": 3620000,
       "ytm_monthly_listeners": 8150000,
       "ytm_total_views": 1052439111
+    },
+    {
+      "date": "2026-05-10",
+      "monthly_listeners": 3552432,
+      "collected_at": "2026-05-10T15:01:32.459955+00:00",
+      "spotify_followers": 2971551,
+      "youtube_subscribers": 3620000,
+      "youtube_total_views": 1060072705,
+      "youtube_video_count": 351,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 63431
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 60631
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 48247
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 43559
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 40738
+        }
+      ],
+      "lastfm_listeners": 965001,
+      "lastfm_playcount": 58704672,
+      "ytm_subscribers": 3620000,
+      "ytm_monthly_listeners": 8470000,
+      "ytm_total_views": 1052439111
     }
   ],
   "annotations": [
@@ -1214,14 +1255,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Bullet For My Valentine",
+        "browse_id": "UCTmXENHeU8wvjd4I180VdBw",
+        "subscribers": "3.47M"
+      },
+      {
         "name": "Sakura Gakuin",
         "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
-        "subscribers": "7.58K"
+        "subscribers": "7.59K"
       },
       {
         "name": "Ladybaby",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "127K"
+        "subscribers": "129K"
       },
       {
         "name": "Mellows",
@@ -1231,7 +1277,7 @@
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "271K"
+        "subscribers": "270K"
       },
       {
         "name": "Bridear",
@@ -1241,7 +1287,7 @@
       {
         "name": "KAQRIYOTERROR",
         "browse_id": "UCELQIWPXXUmZeTpwXnTjuzA",
-        "subscribers": "2K"
+        "subscribers": "2.01K"
       },
       {
         "name": "Necronomidol",
@@ -1251,17 +1297,12 @@
       {
         "name": "RYUJIN",
         "browse_id": "UCykkX9zsEkUzPhAifYbn6XA",
-        "subscribers": "125K"
+        "subscribers": "122K"
       },
       {
         "name": "Samurai Pizza Cats",
         "browse_id": "UCmugf8X2AoaHYIQusakggUQ",
-        "subscribers": "384K"
-      },
-      {
-        "name": "MAZE",
-        "browse_id": "UCRTdGtqdQhbQt4WkWq0BVtg",
-        "subscribers": "1.73K"
+        "subscribers": "370K"
       }
     ],
     "ytm_top_songs": [
@@ -1447,6 +1488,12 @@
           "views": 6510764,
           "likes": 76497,
           "comments": 238
+        },
+        {
+          "date": "2026-05-10",
+          "views": 6531569,
+          "likes": 76699,
+          "comments": 241
         }
       ]
     },
@@ -1607,6 +1654,12 @@
           "date": "2026-05-09",
           "views": 4118635,
           "likes": 84899,
+          "comments": 441
+        },
+        {
+          "date": "2026-05-10",
+          "views": 4133670,
+          "likes": 85164,
           "comments": 441
         }
       ]
@@ -1769,6 +1822,12 @@
           "views": 4520634,
           "likes": 65710,
           "comments": 215
+        },
+        {
+          "date": "2026-05-10",
+          "views": 4532558,
+          "likes": 65835,
+          "comments": 216
         }
       ]
     },
@@ -1929,6 +1988,12 @@
           "date": "2026-05-09",
           "views": 1858265,
           "likes": 36695,
+          "comments": 217
+        },
+        {
+          "date": "2026-05-10",
+          "views": 1866777,
+          "likes": 36843,
           "comments": 217
         }
       ]
@@ -2091,6 +2156,12 @@
           "views": 3413885,
           "likes": 67092,
           "comments": 296
+        },
+        {
+          "date": "2026-05-10",
+          "views": 3426239,
+          "likes": 67330,
+          "comments": 300
         }
       ]
     }
@@ -2215,6 +2286,18 @@
       "type": "annotated",
       "related_annotation": "Copenhell 2026チケット完売報道でYTM月間リスナーが増加（+843,000・2.13σ）",
       "detected_at": "2026-05-06T16:16:17.298095+00:00"
+    },
+    {
+      "date": "2026-05-10",
+      "metric": "ytm_monthly_listeners",
+      "value": 8470000,
+      "baseline_mean": 7159629.6,
+      "baseline_stddev": 605270.0,
+      "delta": 1310370,
+      "score": 2.16,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-10T15:01:34.264853+00:00"
     }
   ]
 }

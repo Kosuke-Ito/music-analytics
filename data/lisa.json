@@ -1108,6 +1108,47 @@
       "ytm_subscribers": 8580000,
       "ytm_monthly_listeners": 94600000,
       "ytm_total_views": 2320449555
+    },
+    {
+      "date": "2026-05-10",
+      "monthly_listeners": 4661322,
+      "collected_at": "2026-05-10T14:57:47.237262+00:00",
+      "spotify_followers": 3788914,
+      "youtube_subscribers": 2930000,
+      "youtube_total_views": 1752162218,
+      "youtube_video_count": 491,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 72062
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 60269
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 53042
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 52629
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 51151
+        }
+      ],
+      "lastfm_listeners": 1974538,
+      "lastfm_playcount": 129953706,
+      "ytm_subscribers": 8590000,
+      "ytm_monthly_listeners": 94800000,
+      "ytm_total_views": 2343853476
     }
   ],
   "metadata": {
@@ -1144,17 +1185,27 @@
       {
         "name": "Emily Mei",
         "browse_id": "UCTpDQm3i_pNnjZtmUwXnoxw",
-        "subscribers": "393K"
+        "subscribers": "372K"
       },
       {
         "name": "블랙스완 BLACKSWAN",
         "browse_id": "UC277cpXD9BLeaGgh3yDP40w",
-        "subscribers": "837K"
+        "subscribers": "838K"
       },
       {
         "name": "SOOJIN",
         "browse_id": "UCqCmeJ3RRfpgMF6j_HzqbFQ",
-        "subscribers": "425K"
+        "subscribers": "426K"
+      },
+      {
+        "name": "Jessi",
+        "browse_id": "UC-sALATQ5O56R1ctGBf9y0Q",
+        "subscribers": "8.36M"
+      },
+      {
+        "name": "BADVILLAIN",
+        "browse_id": "UCkw_Pss11Lokw5Ej8cr_4Ew",
+        "subscribers": "737K"
       },
       {
         "name": "Jimin",
@@ -1162,34 +1213,24 @@
         "subscribers": "2.26M"
       },
       {
-        "name": "Jessi",
-        "browse_id": "UC-sALATQ5O56R1ctGBf9y0Q",
-        "subscribers": "8.21M"
-      },
-      {
-        "name": "BADVILLAIN",
-        "browse_id": "UCkw_Pss11Lokw5Ej8cr_4Ew",
-        "subscribers": "723K"
-      },
-      {
         "name": "hannah bahng",
         "browse_id": "UCPYi7szVOO-kxBwb6RuHy0w",
-        "subscribers": "731K"
+        "subscribers": "697K"
       },
       {
         "name": "ROSÉ",
         "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
-        "subscribers": "329M"
+        "subscribers": "325M"
       },
       {
         "name": "Bella Poarch",
         "browse_id": "UCFV_iW-P1LkSgCxBnZi5nYw",
-        "subscribers": "25.1M"
+        "subscribers": "26.4M"
       },
       {
-        "name": "KARD",
-        "browse_id": "UC3pvfOA4mcHkWYl3n_QfOKA",
-        "subscribers": "1.76M"
+        "name": "JISOO",
+        "browse_id": "UC4I9OFY_9ZYLs0Lj4bfEOvA",
+        "subscribers": "180M"
       }
     ],
     "ytm_top_songs": [
@@ -1386,6 +1427,12 @@
           "views": 20246607,
           "likes": 234851,
           "comments": 1884
+        },
+        {
+          "date": "2026-05-10",
+          "views": 20291389,
+          "likes": 235343,
+          "comments": 1883
         }
       ]
     },
@@ -1547,6 +1594,12 @@
           "views": 264537282,
           "likes": 2674057,
           "comments": 3789
+        },
+        {
+          "date": "2026-05-10",
+          "views": 264611719,
+          "likes": 2674745,
+          "comments": 3800
         }
       ]
     },
@@ -1708,6 +1761,12 @@
           "views": 30131162,
           "likes": 233260,
           "comments": 722
+        },
+        {
+          "date": "2026-05-10",
+          "views": 30174023,
+          "likes": 233503,
+          "comments": 725
         }
       ]
     },
@@ -1868,6 +1927,12 @@
           "date": "2026-05-09",
           "views": 24369190,
           "likes": 240807,
+          "comments": 2360
+        },
+        {
+          "date": "2026-05-10",
+          "views": 24401247,
+          "likes": 241100,
           "comments": 2360
         }
       ]
@@ -2030,6 +2095,12 @@
           "views": 5563741,
           "likes": 113408,
           "comments": 1829
+        },
+        {
+          "date": "2026-05-10",
+          "views": 5690207,
+          "likes": 114734,
+          "comments": 1841
         }
       ]
     }
@@ -2231,6 +2302,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-09T14:56:20.891175+00:00"
+    },
+    {
+      "date": "2026-05-10",
+      "metric": "youtube_total_views",
+      "value": 1752162218,
+      "baseline_mean": 1740018131.7,
+      "baseline_stddev": 5937456.6,
+      "delta": 12144086,
+      "score": 2.05,
+      "type": "annotated",
+      "related_annotation": "劇場版「魔法科高校の劣等生 四葉継承編」公開・主題歌「YES」MVも同日公開",
+      "detected_at": "2026-05-10T14:57:50.777175+00:00"
     }
   ]
 }

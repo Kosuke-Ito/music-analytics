@@ -1108,6 +1108,47 @@
       "ytm_subscribers": 3930000,
       "ytm_monthly_listeners": 18300000,
       "ytm_total_views": 3222456516
+    },
+    {
+      "date": "2026-05-10",
+      "monthly_listeners": 4925889,
+      "collected_at": "2026-05-10T14:56:06.325400+00:00",
+      "spotify_followers": 3559233,
+      "youtube_subscribers": 3940000,
+      "youtube_total_views": 3227167061,
+      "youtube_video_count": 129,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 195514
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 170981
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 126463
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 110507
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 72028
+        }
+      ],
+      "lastfm_listeners": 246820,
+      "lastfm_playcount": 11098939,
+      "ytm_subscribers": 3940000,
+      "ytm_monthly_listeners": 18300000,
+      "ytm_total_views": 3222456516
     }
   ],
   "annotations": [
@@ -1243,27 +1284,27 @@
       {
         "name": "ChoQMay",
         "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
-        "subscribers": "3.3M"
+        "subscribers": "3.33M"
       },
       {
         "name": "asmi",
         "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
-        "subscribers": "3.31M"
+        "subscribers": "3.27M"
       },
       {
         "name": "Hitsujibungaku",
         "browse_id": "UCnZK-AT0Yrx8uXcFRqUy87g",
-        "subscribers": "5.99M"
+        "subscribers": "5.92M"
       },
       {
         "name": "yutori",
         "browse_id": "UCqM8y7cbNcekfXHhvitCLyw",
-        "subscribers": "247K"
+        "subscribers": "243K"
       },
       {
         "name": "suis from Yorushika",
         "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
-        "subscribers": "28.4K"
+        "subscribers": "28.5K"
       },
       {
         "name": "Ayase",
@@ -1271,24 +1312,24 @@
         "subscribers": "59.1K"
       },
       {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "4.59M"
+        "name": "muque",
+        "browse_id": "UClh_g9tkf_ErD1UclhABZDw",
+        "subscribers": "888K"
       },
       {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "531K"
-      },
-      {
-        "name": "muque",
-        "browse_id": "UClh_g9tkf_ErD1UclhABZDw",
-        "subscribers": "886K"
+        "subscribers": "521K"
       },
       {
         "name": "minami",
         "browse_id": "UCEsOqBVe_DNEUAer9TYk6bw",
         "subscribers": "2.27M"
+      },
+      {
+        "name": "RADWIMPS",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "66.7M"
       }
     ],
     "ytm_top_songs": [
@@ -1473,6 +1514,12 @@
           "date": "2026-05-09",
           "views": 5271740,
           "likes": 33891,
+          "comments": 123
+        },
+        {
+          "date": "2026-05-10",
+          "views": 5333377,
+          "likes": 34240,
           "comments": 123
         }
       ]
@@ -1664,6 +1711,12 @@
           "views": 103459252,
           "likes": 356203,
           "comments": 564
+        },
+        {
+          "date": "2026-05-10",
+          "views": 103510649,
+          "likes": 356397,
+          "comments": 564
         }
       ]
     },
@@ -1824,6 +1877,12 @@
           "date": "2026-05-09",
           "views": 32695094,
           "likes": 107411,
+          "comments": 230
+        },
+        {
+          "date": "2026-05-10",
+          "views": 32721294,
+          "likes": 107526,
           "comments": 230
         }
       ]
@@ -1986,6 +2045,12 @@
           "views": 3496603,
           "likes": 32740,
           "comments": 401
+        },
+        {
+          "date": "2026-05-10",
+          "views": 3525575,
+          "likes": 32920,
+          "comments": 402
         }
       ]
     },
@@ -2128,6 +2193,12 @@
           "views": 2210668,
           "likes": 44626,
           "comments": 923
+        },
+        {
+          "date": "2026-05-10",
+          "views": 2288837,
+          "likes": 45476,
+          "comments": 928
         }
       ]
     }
@@ -2204,6 +2275,18 @@
       "type": "annotated",
       "related_annotation": "LIVE TOUR 2026「一人称」仙台公演（5/7-8）とTVアニメ「LIAR GAME」OP継続でSpotify月間リスナーが上昇",
       "detected_at": "2026-05-09T14:54:42.600393+00:00"
+    },
+    {
+      "date": "2026-05-10",
+      "metric": "monthly_listeners",
+      "value": 4925889,
+      "baseline_mean": 4803743.3,
+      "baseline_stddev": 57355.8,
+      "delta": 122145,
+      "score": 2.13,
+      "type": "annotated",
+      "related_annotation": "LIVE TOUR 2026「一人称」仙台公演（5/7-8）とTVアニメ「LIAR GAME」OP継続でSpotify月間リスナーが上昇",
+      "detected_at": "2026-05-10T14:56:07.988065+00:00"
     }
   ]
 }

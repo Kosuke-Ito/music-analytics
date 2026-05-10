@@ -1396,6 +1396,47 @@
       "ytm_subscribers": 58100000,
       "ytm_monthly_listeners": 408000000,
       "ytm_total_views": 22429930862
+    },
+    {
+      "date": "2026-05-10",
+      "monthly_listeners": 84825375,
+      "collected_at": "2026-05-10T14:53:49.508034+00:00",
+      "spotify_followers": 126276261,
+      "youtube_subscribers": 58100000,
+      "youtube_total_views": 22450330150,
+      "youtube_video_count": 190,
+      "top_cities": [
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1108313
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1102310
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 976520
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 768080
+        },
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 723822
+        }
+      ],
+      "lastfm_listeners": 4246641,
+      "lastfm_playcount": 840688632,
+      "ytm_subscribers": 58100000,
+      "ytm_monthly_listeners": 404000000,
+      "ytm_total_views": 22429930862
     }
   ],
   "annotations": [
@@ -1555,22 +1596,27 @@
       {
         "name": "Adele",
         "browse_id": "UCRw0x9_EfawqmgDI2IgQLLg",
-        "subscribers": "377M"
+        "subscribers": "376M"
       },
       {
         "name": "Noah Cyrus",
         "browse_id": "UCUekv_6fGLPg2V4Lt2-TxWA",
-        "subscribers": "26.1M"
+        "subscribers": "26.2M"
       },
       {
         "name": "Labrinth",
         "browse_id": "UCLx8m3I4zQAQc0tdASjdAfw",
-        "subscribers": "50.2M"
+        "subscribers": "50.5M"
       },
       {
         "name": "AURORA",
         "browse_id": "UC4G-AJa7kn8oumI6TT2WXYw",
         "subscribers": "142M"
+      },
+      {
+        "name": "girl in red",
+        "browse_id": "UCmNtyqQl03eWyvikCMbO3fA",
+        "subscribers": "15.4M"
       },
       {
         "name": "FINNEAS",
@@ -1580,27 +1626,22 @@
       {
         "name": "Lorde",
         "browse_id": "UCILoG0-vdgLDnrwtRuM_0GQ",
-        "subscribers": "21.5M"
+        "subscribers": "21.3M"
       },
       {
         "name": "Miley Cyrus",
         "browse_id": "UCREdEwBdZcnQLIT0ThaAtmQ",
-        "subscribers": "96.2M"
+        "subscribers": "94.1M"
       },
       {
         "name": "Madison Beer",
         "browse_id": "UCpgpoxvgrxyul1uqC9hOF-A",
-        "subscribers": "37.3M"
-      },
-      {
-        "name": "Nessa Barrett",
-        "browse_id": "UCn81HiOrP7OO3SkdGvR6HPA",
-        "subscribers": "6.76M"
+        "subscribers": "36.4M"
       },
       {
         "name": "Melanie Martinez",
         "browse_id": "UC3mgK-SgaPOBGQXxdf8DCAQ",
-        "subscribers": "45.7M"
+        "subscribers": "45.5M"
       }
     ],
     "ytm_top_songs": [
@@ -1792,6 +1833,12 @@
           "views": 461247087,
           "likes": 3444866,
           "comments": 17075
+        },
+        {
+          "date": "2026-05-10",
+          "views": 461651335,
+          "likes": 3447315,
+          "comments": 17086
         }
       ]
     },
@@ -1959,6 +2006,12 @@
           "views": 290551996,
           "likes": 2649904,
           "comments": 13447
+        },
+        {
+          "date": "2026-05-10",
+          "views": 290907984,
+          "likes": 2652679,
+          "comments": 13456
         }
       ]
     },
@@ -2126,6 +2179,12 @@
           "views": 519736683,
           "likes": 4828511,
           "comments": 12045
+        },
+        {
+          "date": "2026-05-10",
+          "views": 519940258,
+          "likes": 4830585,
+          "comments": 12061
         }
       ]
     },
@@ -2293,6 +2352,12 @@
           "views": 148749489,
           "likes": 1380665,
           "comments": 6579
+        },
+        {
+          "date": "2026-05-10",
+          "views": 148896305,
+          "likes": 1381818,
+          "comments": 6585
         }
       ]
     },
@@ -2460,6 +2525,12 @@
           "views": 227574901,
           "likes": 2039446,
           "comments": 6432
+        },
+        {
+          "date": "2026-05-10",
+          "views": 227697274,
+          "likes": 2040570,
+          "comments": 6436
         }
       ]
     }
@@ -2488,6 +2559,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-09T14:52:32.684844+00:00"
+    },
+    {
+      "date": "2026-05-10",
+      "metric": "monthly_listeners",
+      "value": 84825375,
+      "baseline_mean": 84189077.7,
+      "baseline_stddev": 174679.0,
+      "delta": 636297,
+      "score": 3.64,
+      "type": "annotated",
+      "related_annotation": "3Dコンサートフィルム「Hit Me Hard and Soft: The Tour Live in 3D」一般劇場公開開始",
+      "detected_at": "2026-05-10T14:53:50.830479+00:00"
     }
   ]
 }
