@@ -2390,6 +2390,16 @@
       "source": "japanjam.jp, rockinon.com",
       "confidence": "high",
       "verified": false
+    },
+    {
+      "date": "2026-05-07",
+      "title": "YouTube総再生数API凍結（5/5〜5/8）によるデータアーティファクト（2.25σ / 2.03σ）",
+      "description": "YouTube Data APIがyoutube_total_viewsを161,048,337に5月5日〜8日（少なくとも4日間）固定して返し続けた。5月7日・8日のバズ検知は実際の再生増加ではなくAPI凍結中の固定値がベースライン移動平均を上回り続けたことによるアーティファクト。新規バイラルイベントは確認されていない。",
+      "category": "other",
+      "added_at": "2026-05-11T15:00:00Z",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high",
+      "verified": false
     }
   ],
   "buzz_events": [
