@@ -1149,6 +1149,47 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 61700000,
       "ytm_total_views": 841476296
+    },
+    {
+      "date": "2026-05-11",
+      "monthly_listeners": 3324879,
+      "collected_at": "2026-05-11T16:37:37.910975+00:00",
+      "spotify_followers": 1006031,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 844506408,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 57015
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51477
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 45060
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39215
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 38590
+        }
+      ],
+      "lastfm_listeners": 401126,
+      "lastfm_playcount": 5714208,
+      "ytm_subscribers": 1340000,
+      "ytm_monthly_listeners": 63700000,
+      "ytm_total_views": 841476296
     }
   ],
   "annotations": [
@@ -1231,6 +1272,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "4na",
+        "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
+        "subscribers": "277K"
+      },
+      {
         "name": "LUCKY TAPES",
         "browse_id": "UCYvGyI6FqmS5GFnCGEttXdg",
         "subscribers": "212K"
@@ -1248,22 +1294,22 @@
       {
         "name": "G over",
         "browse_id": "UCVRsmPU-XYUpbKIm-Jha_LQ",
-        "subscribers": "93.4K"
+        "subscribers": "94K"
       },
       {
         "name": "Rinne",
         "browse_id": "UCbWE8ZDfkixEPbYiCpc3H7A",
-        "subscribers": "390K"
+        "subscribers": "383K"
       },
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "125K"
+        "subscribers": "145K"
       },
       {
         "name": "zettakun",
         "browse_id": "UCMVLVZvxO_xJv8l1ov7Ss4Q",
-        "subscribers": "56.4K"
+        "subscribers": "56.1K"
       },
       {
         "name": "Mel",
@@ -1274,11 +1320,6 @@
         "name": "Ohashi Chippoke",
         "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
         "subscribers": "189K"
-      },
-      {
-        "name": "Awesome City Club",
-        "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
-        "subscribers": "616K"
       }
     ],
     "ytm_top_songs": [
@@ -1470,6 +1511,12 @@
           "views": 138076839,
           "likes": 1085585,
           "comments": 5860
+        },
+        {
+          "date": "2026-05-11",
+          "views": 138136720,
+          "likes": 1085975,
+          "comments": 5861
         }
       ]
     },
@@ -1636,6 +1683,12 @@
           "date": "2026-05-10",
           "views": 7580807,
           "likes": 56003,
+          "comments": 160
+        },
+        {
+          "date": "2026-05-11",
+          "views": 7589998,
+          "likes": 56060,
           "comments": 160
         }
       ]
@@ -1804,6 +1857,12 @@
           "views": 3284162,
           "likes": 36294,
           "comments": 282
+        },
+        {
+          "date": "2026-05-11",
+          "views": 3287442,
+          "likes": 36326,
+          "comments": 282
         }
       ]
     },
@@ -1970,6 +2029,12 @@
           "date": "2026-05-10",
           "views": 11487446,
           "likes": 51033,
+          "comments": 153
+        },
+        {
+          "date": "2026-05-11",
+          "views": 11491210,
+          "likes": 51055,
           "comments": 153
         }
       ]
@@ -2143,6 +2208,12 @@
           "views": 4147060,
           "likes": 38290,
           "comments": 192
+        },
+        {
+          "date": "2026-05-11",
+          "views": 4150005,
+          "likes": 38334,
+          "comments": 192
         }
       ]
     }
@@ -2219,6 +2290,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-10T14:56:58.826415+00:00"
+    },
+    {
+      "date": "2026-05-11",
+      "metric": "ytm_monthly_listeners",
+      "value": 63700000,
+      "baseline_mean": 53567857.1,
+      "baseline_stddev": 3235964.6,
+      "delta": 10132142,
+      "score": 3.13,
+      "type": "annotated",
+      "related_annotation": "ジャックスCM継続によりYTM月間リスナーが60.5Mに達し最高値更新（3.7σ）",
+      "detected_at": "2026-05-11T16:37:39.447346+00:00"
     }
   ]
 }

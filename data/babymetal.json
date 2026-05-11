@@ -1149,6 +1149,47 @@
       "ytm_subscribers": 3620000,
       "ytm_monthly_listeners": 8470000,
       "ytm_total_views": 1052439111
+    },
+    {
+      "date": "2026-05-11",
+      "monthly_listeners": 3556763,
+      "collected_at": "2026-05-11T16:42:10.627236+00:00",
+      "spotify_followers": 2972631,
+      "youtube_subscribers": 3620000,
+      "youtube_total_views": 1070858680,
+      "youtube_video_count": 351,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 63346
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 60523
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 48247
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 43739
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 40915
+        }
+      ],
+      "lastfm_listeners": 965378,
+      "lastfm_playcount": 58729438,
+      "ytm_subscribers": 3620000,
+      "ytm_monthly_listeners": 8480000,
+      "ytm_total_views": 1062841494
     }
   ],
   "annotations": [
@@ -1255,11 +1296,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Bullet For My Valentine",
-        "browse_id": "UCTmXENHeU8wvjd4I180VdBw",
-        "subscribers": "3.47M"
-      },
-      {
         "name": "Sakura Gakuin",
         "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
         "subscribers": "7.59K"
@@ -1272,12 +1308,12 @@
       {
         "name": "Mellows",
         "browse_id": "UC9BIwJgZn6hJCldEBvxOd-g",
-        "subscribers": "4.13K"
+        "subscribers": "4.14K"
       },
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "270K"
+        "subscribers": "268K"
       },
       {
         "name": "Bridear",
@@ -1297,12 +1333,17 @@
       {
         "name": "RYUJIN",
         "browse_id": "UCykkX9zsEkUzPhAifYbn6XA",
-        "subscribers": "122K"
+        "subscribers": "128K"
       },
       {
         "name": "Samurai Pizza Cats",
         "browse_id": "UCmugf8X2AoaHYIQusakggUQ",
-        "subscribers": "370K"
+        "subscribers": "341K"
+      },
+      {
+        "name": "MAZE",
+        "browse_id": "UCRTdGtqdQhbQt4WkWq0BVtg",
+        "subscribers": "1.73K"
       }
     ],
     "ytm_top_songs": [
@@ -1494,6 +1535,12 @@
           "views": 6531569,
           "likes": 76699,
           "comments": 241
+        },
+        {
+          "date": "2026-05-11",
+          "views": 6554597,
+          "likes": 76913,
+          "comments": 242
         }
       ]
     },
@@ -1660,6 +1707,12 @@
           "date": "2026-05-10",
           "views": 4133670,
           "likes": 85164,
+          "comments": 441
+        },
+        {
+          "date": "2026-05-11",
+          "views": 4148673,
+          "likes": 85393,
           "comments": 441
         }
       ]
@@ -1828,6 +1881,12 @@
           "views": 4532558,
           "likes": 65835,
           "comments": 216
+        },
+        {
+          "date": "2026-05-11",
+          "views": 4545506,
+          "likes": 65980,
+          "comments": 216
         }
       ]
     },
@@ -1994,6 +2053,12 @@
           "date": "2026-05-10",
           "views": 1866777,
           "likes": 36843,
+          "comments": 217
+        },
+        {
+          "date": "2026-05-11",
+          "views": 1875339,
+          "likes": 36975,
           "comments": 217
         }
       ]
@@ -2162,6 +2227,12 @@
           "views": 3426239,
           "likes": 67330,
           "comments": 300
+        },
+        {
+          "date": "2026-05-11",
+          "views": 3439536,
+          "likes": 67510,
+          "comments": 302
         }
       ]
     }
@@ -2298,6 +2369,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-10T15:01:34.264853+00:00"
+    },
+    {
+      "date": "2026-05-11",
+      "metric": "youtube_total_views",
+      "value": 1070858680,
+      "baseline_mean": 1059578418.6,
+      "baseline_stddev": 1060126.3,
+      "delta": 11280261,
+      "score": 10.64,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-11T16:42:12.474357+00:00"
     }
   ]
 }

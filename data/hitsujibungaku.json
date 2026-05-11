@@ -1149,6 +1149,47 @@
       "ytm_subscribers": 443000,
       "ytm_monthly_listeners": 5920000,
       "ytm_total_views": 332485562
+    },
+    {
+      "date": "2026-05-11",
+      "monthly_listeners": 1746413,
+      "collected_at": "2026-05-11T16:41:02.766725+00:00",
+      "spotify_followers": 485223,
+      "youtube_subscribers": 443000,
+      "youtube_total_views": 334752418,
+      "youtube_video_count": 138,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 61793
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 47931
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 33843
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 30834
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 21070
+        }
+      ],
+      "lastfm_listeners": 18125,
+      "lastfm_playcount": 1226376,
+      "ytm_subscribers": 443000,
+      "ytm_monthly_listeners": 5830000,
+      "ytm_total_views": 332485562
     }
   ],
   "annotations": [
@@ -1278,12 +1319,12 @@
       {
         "name": "tiny yawn",
         "browse_id": "UCESxrbFra7AVQsdPAnJ99dA",
-        "subscribers": "114K"
+        "subscribers": "110K"
       },
       {
         "name": "A_o",
         "browse_id": "UCW2Hy3WUVvoj_mlLjrWLRmw",
-        "subscribers": "609K"
+        "subscribers": "397K"
       },
       {
         "name": "Tôko Miura",
@@ -1298,27 +1339,27 @@
       {
         "name": "Laura day romance",
         "browse_id": "UCFrg0aEn8dsLCzYGVSZkT1Q",
-        "subscribers": "134K"
+        "subscribers": "137K"
       },
       {
         "name": "Homecomings",
         "browse_id": "UC5YC9saEogyw6Jg9fq_oGzg",
-        "subscribers": "89.7K"
+        "subscribers": "87.9K"
       },
       {
         "name": "CodyLee",
         "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "318K"
+        "subscribers": "312K"
       },
       {
         "name": "mol-74",
         "browse_id": "UCEvtm90ugC6XKB74g8ukTKg",
-        "subscribers": "176K"
+        "subscribers": "137K"
       },
       {
         "name": "CHIAKI SATO",
         "browse_id": "UCgPeNtXtc4sWEJSqQvNJzmQ",
-        "subscribers": "99.5K"
+        "subscribers": "100K"
       },
       {
         "name": "Brandy Senki",
@@ -1515,6 +1556,12 @@
           "views": 18230566,
           "likes": 116628,
           "comments": 344
+        },
+        {
+          "date": "2026-05-11",
+          "views": 18256793,
+          "likes": 116796,
+          "comments": 344
         }
       ]
     },
@@ -1681,6 +1728,12 @@
           "date": "2026-05-10",
           "views": 2490794,
           "likes": 21755,
+          "comments": 155
+        },
+        {
+          "date": "2026-05-11",
+          "views": 2521420,
+          "likes": 21876,
           "comments": 155
         }
       ]
@@ -1849,6 +1902,12 @@
           "views": 74859,
           "likes": 1681,
           "comments": 64
+        },
+        {
+          "date": "2026-05-11",
+          "views": 75804,
+          "likes": 1688,
+          "comments": 64
         }
       ]
     },
@@ -2015,6 +2074,12 @@
           "date": "2026-05-10",
           "views": 1342386,
           "likes": 12720,
+          "comments": 83
+        },
+        {
+          "date": "2026-05-11",
+          "views": 1345064,
+          "likes": 12741,
           "comments": 83
         }
       ]
@@ -2183,6 +2248,12 @@
           "views": 1982503,
           "likes": 15583,
           "comments": 125
+        },
+        {
+          "date": "2026-05-11",
+          "views": 1985377,
+          "likes": 15602,
+          "comments": 125
         }
       ]
     }
@@ -2295,6 +2366,18 @@
       "type": "annotated",
       "related_annotation": "奇妙礼太郎武道館公演（7/3）への塩塚モエカ出演発表（5/8）でSpotify月間リスナーが急増（+53,396人・4.12σ）",
       "detected_at": "2026-05-10T15:00:24.320432+00:00"
+    },
+    {
+      "date": "2026-05-11",
+      "metric": "monthly_listeners",
+      "value": 1746413,
+      "baseline_mean": 1671390.7,
+      "baseline_stddev": 19944.8,
+      "delta": 75022,
+      "score": 3.76,
+      "type": "annotated",
+      "related_annotation": "奇妙礼太郎武道館公演（7/3）への塩塚モエカ出演発表（5/8）でSpotify月間リスナーが急増（+53,396人・4.12σ）",
+      "detected_at": "2026-05-11T16:41:04.162176+00:00"
     }
   ]
 }

@@ -1149,6 +1149,47 @@
       "ytm_subscribers": 1230000,
       "ytm_monthly_listeners": 6570000,
       "ytm_total_views": 1446873862
+    },
+    {
+      "date": "2026-05-11",
+      "monthly_listeners": 2265767,
+      "collected_at": "2026-05-11T16:43:01.120099+00:00",
+      "spotify_followers": 611594,
+      "youtube_subscribers": 1230000,
+      "youtube_total_views": 1536899466,
+      "youtube_video_count": 482,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 108362
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 92628
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 75479
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 38957
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 32916
+        }
+      ],
+      "lastfm_listeners": 71930,
+      "lastfm_playcount": 1336041,
+      "ytm_subscribers": 1230000,
+      "ytm_monthly_listeners": 6410000,
+      "ytm_total_views": 1448180474
     }
   ],
   "metadata": {
@@ -1185,17 +1226,7 @@
       {
         "name": "Number_i",
         "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
-        "subscribers": "2.28M"
-      },
-      {
-        "name": "Da-iCE",
-        "browse_id": "UCsgebXKWsxjX216BtZwLdzQ",
-        "subscribers": "4.49M"
-      },
-      {
-        "name": "CHANMINA",
-        "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
-        "subscribers": "16.1M"
+        "subscribers": "2.29M"
       },
       {
         "name": "SKY-HI",
@@ -1203,31 +1234,37 @@
         "subscribers": "1.26M"
       },
       {
+        "name": "CHANMINA",
+        "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
+        "subscribers": "15M"
+      },
+      {
+        "name": "Da-iCE",
+        "browse_id": "UCsgebXKWsxjX216BtZwLdzQ",
+        "subscribers": "4.45M"
+      },
+      {
         "name": "HANA",
         "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "13M"
+        "subscribers": "12.8M"
       },
       {
         "name": "NiziU",
         "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "7.45M"
+        "subscribers": "6.66M"
       },
       {
         "name": "INI",
         "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
-        "subscribers": "10.1M"
+        "subscribers": "10.5M"
       },
       {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "2.06M"
+        "subscribers": "2.03M"
       }
     ],
     "ytm_top_songs": [
-      {
-        "title": "Rondo",
-        "video_id": "U0ndNu0jzkg"
-      },
       {
         "title": "BE:FIRST ALL DAY",
         "video_id": "c5xOUluUadw"
@@ -1237,8 +1274,12 @@
         "video_id": "jjuSkbNCSsI"
       },
       {
-        "title": "街灯 - Lighting up the town",
-        "video_id": "qqMPXcQzQN0"
+        "title": "Rain on me ~One of the BE:ST-05 MANATO~",
+        "video_id": "a6Ow0BarHQg"
+      },
+      {
+        "title": "Rondo",
+        "video_id": "U0ndNu0jzkg"
       },
       {
         "title": "Stare In Wonder",
@@ -1513,6 +1554,12 @@
           "views": 1803067,
           "likes": 17028,
           "comments": 736
+        },
+        {
+          "date": "2026-05-11",
+          "views": 1820072,
+          "likes": 17075,
+          "comments": 738
         }
       ]
     },
@@ -1680,6 +1727,12 @@
           "views": 17664807,
           "likes": 87311,
           "comments": 1955
+        },
+        {
+          "date": "2026-05-11",
+          "views": 17695108,
+          "likes": 87369,
+          "comments": 1957
         }
       ]
     },
@@ -1990,6 +2043,12 @@
           "views": 2587778,
           "likes": 20546,
           "comments": 528
+        },
+        {
+          "date": "2026-05-11",
+          "views": 2593411,
+          "likes": 20559,
+          "comments": 528
         }
       ]
     },
@@ -2191,6 +2250,23 @@
           "views": 754177,
           "likes": 22713,
           "comments": 1348
+        },
+        {
+          "date": "2026-05-11",
+          "views": 783883,
+          "likes": 22863,
+          "comments": 1353
+        }
+      ]
+    },
+    "a6Ow0BarHQg": {
+      "title": "Rain on me ~One of the BE:ST-05 MANATO~",
+      "history": [
+        {
+          "date": "2026-05-11",
+          "views": 282415,
+          "likes": 11990,
+          "comments": 772
         }
       ]
     }
@@ -2303,6 +2379,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-10T15:02:27.563891+00:00"
+    },
+    {
+      "date": "2026-05-11",
+      "metric": "youtube_total_views",
+      "value": 1536899466,
+      "baseline_mean": 1516910484.4,
+      "baseline_stddev": 9644272.6,
+      "delta": 19988981,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-11T16:43:02.720111+00:00"
     }
   ]
 }

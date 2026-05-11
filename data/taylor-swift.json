@@ -1437,6 +1437,47 @@
       "ytm_subscribers": 63100000,
       "ytm_monthly_listeners": 427000000,
       "ytm_total_views": 44235421419
+    },
+    {
+      "date": "2026-05-11",
+      "monthly_listeners": 101882595,
+      "collected_at": "2026-05-11T16:34:17.992197+00:00",
+      "spotify_followers": 156777787,
+      "youtube_subscribers": 63200000,
+      "youtube_total_views": 45009104370,
+      "youtube_video_count": 658,
+      "top_cities": [
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1670333
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1123823
+        },
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 1116017
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 1082930
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 1069307
+        }
+      ],
+      "lastfm_listeners": 5957629,
+      "lastfm_playcount": 3690525790,
+      "ytm_subscribers": 63200000,
+      "ytm_monthly_listeners": 426000000,
+      "ytm_total_views": 44235421419
     }
   ],
   "annotations": [
@@ -1582,9 +1623,34 @@
         "subscribers": "123K"
       },
       {
+        "name": "Gracie Abrams",
+        "browse_id": "UCw-0GSqznYHfyfDBBe6a46A",
+        "subscribers": "113M"
+      },
+      {
         "name": "Louis Tomlinson",
         "browse_id": "UCpe3TthvXb8kmRiFbkeDGCQ",
-        "subscribers": "2.74M"
+        "subscribers": "2.85M"
+      },
+      {
+        "name": "Avril Lavigne",
+        "browse_id": "UCdOp8DxiQw6hKZ9b2FY6hbg",
+        "subscribers": "41.9M"
+      },
+      {
+        "name": "Mandy Moore",
+        "browse_id": "UCKrf4hz3_cdUiDTgs79UFtA",
+        "subscribers": "13.6M"
+      },
+      {
+        "name": "Kelly Clarkson",
+        "browse_id": "UCpXP9-cHlJCMapSYCSZThbw",
+        "subscribers": "21.5M"
+      },
+      {
+        "name": "Troye Sivan",
+        "browse_id": "UC11RplprGRVVtT2tgtcYzWg",
+        "subscribers": "29.1M"
       },
       {
         "name": "Niall Horan",
@@ -1592,39 +1658,14 @@
         "subscribers": "4.66M"
       },
       {
-        "name": "Mandy Moore",
-        "browse_id": "UCKrf4hz3_cdUiDTgs79UFtA",
-        "subscribers": "13.4M"
+        "name": "Miley Cyrus",
+        "browse_id": "UCREdEwBdZcnQLIT0ThaAtmQ",
+        "subscribers": "93.6M"
       },
       {
-        "name": "Gracie Abrams",
-        "browse_id": "UCw-0GSqznYHfyfDBBe6a46A",
-        "subscribers": "117M"
-      },
-      {
-        "name": "Troye Sivan",
-        "browse_id": "UC11RplprGRVVtT2tgtcYzWg",
-        "subscribers": "29.3M"
-      },
-      {
-        "name": "Kelly Clarkson",
-        "browse_id": "UCpXP9-cHlJCMapSYCSZThbw",
-        "subscribers": "22M"
-      },
-      {
-        "name": "Avril Lavigne",
-        "browse_id": "UCdOp8DxiQw6hKZ9b2FY6hbg",
-        "subscribers": "42.5M"
-      },
-      {
-        "name": "Bridgit Mendler",
-        "browse_id": "UC5djfoX7NGqehfVaXqf7i4w",
-        "subscribers": "5.48M"
-      },
-      {
-        "name": "Hailee Steinfeld",
-        "browse_id": "UCBNeAoPycNhoRuS01B9Kf5g",
-        "subscribers": "6.58M"
+        "name": "Jonas Brothers",
+        "browse_id": "UC150BpcojVsQJTYogTkKTZQ",
+        "subscribers": "13.2M"
       }
     ],
     "ytm_top_songs": [
@@ -1822,6 +1863,12 @@
           "views": 138979457,
           "likes": 1123382,
           "comments": 8584
+        },
+        {
+          "date": "2026-05-11",
+          "views": 139420020,
+          "likes": 1125420,
+          "comments": 8599
         }
       ]
     },
@@ -1995,6 +2042,12 @@
           "views": 69082986,
           "likes": 453302,
           "comments": 2929
+        },
+        {
+          "date": "2026-05-11",
+          "views": 69122029,
+          "likes": 453480,
+          "comments": 2932
         }
       ]
     },
@@ -2168,6 +2221,12 @@
           "views": 53967403,
           "likes": 354550,
           "comments": 2820
+        },
+        {
+          "date": "2026-05-11",
+          "views": 54142558,
+          "likes": 355227,
+          "comments": 2829
         }
       ]
     },
@@ -2341,6 +2400,12 @@
           "views": 60287510,
           "likes": 410812,
           "comments": 2774
+        },
+        {
+          "date": "2026-05-11",
+          "views": 60320479,
+          "likes": 410963,
+          "comments": 2778
         }
       ]
     },
@@ -2514,8 +2579,28 @@
           "views": 33503942,
           "likes": 203892,
           "comments": 1014
+        },
+        {
+          "date": "2026-05-11",
+          "views": 33529827,
+          "likes": 204031,
+          "comments": 1015
         }
       ]
     }
-  }
+  },
+  "buzz_events": [
+    {
+      "date": "2026-05-11",
+      "metric": "youtube_total_views",
+      "value": 45009104370,
+      "baseline_mean": 44578668809.5,
+      "baseline_stddev": 79929877.0,
+      "delta": 430435560,
+      "score": 5.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-11T16:34:19.091600+00:00"
+    }
+  ]
 }
