@@ -1117,6 +1117,47 @@
       "ytm_subscribers": 37100,
       "ytm_monthly_listeners": 70400,
       "ytm_total_views": 8022185
+    },
+    {
+      "date": "2026-05-12",
+      "monthly_listeners": 61651,
+      "collected_at": "2026-05-12T16:33:57.881368+00:00",
+      "spotify_followers": 50951,
+      "youtube_subscribers": 37100,
+      "youtube_total_views": 8258778,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3552
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1492
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 918
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 874
+        },
+        {
+          "city": "Nakano City",
+          "country": "JP",
+          "listeners": 566
+        }
+      ],
+      "lastfm_listeners": 23705,
+      "lastfm_playcount": 395231,
+      "ytm_subscribers": 37100,
+      "ytm_monthly_listeners": 70400,
+      "ytm_total_views": 8022185
     }
   ],
   "metadata": {
@@ -1145,33 +1186,28 @@
     "lastfm_tags": [
       "japanese",
       "techno",
-      "House",
       "j-pop",
+      "House",
       "japan"
     ],
     "ytm_related_artists": [
       {
-        "name": "Clammbon",
-        "browse_id": "UCl19_P9Md57VyB50SRvWp5A",
-        "subscribers": "141K"
+        "name": "CHERRYBOY FUNCTION",
+        "browse_id": "UChSuMG7SvfVS5UECa0IxwBQ",
+        "subscribers": "214"
       },
       {
-        "name": "Waiai",
-        "browse_id": "UCjgy231BJwVT5wwln561TqA",
-        "subscribers": "1.8K"
+        "name": "WEDNESDAY CAMPANELLA",
+        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
+        "subscribers": "1.99M"
       },
       {
-        "name": "Shin Sakiura",
-        "browse_id": "UCwQ0ruE9EWOX38Tc5ouohWA",
-        "subscribers": "176K"
+        "name": "tofubeats",
+        "browse_id": "UCDsYyiCcQPwmgkDiHsaGB2A",
+        "subscribers": "425K"
       },
       {
-        "name": "chelmico",
-        "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "242K"
-      },
-      {
-        "name": "DÉ DÉ MOUSE",
+        "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
         "subscribers": "119K"
       },
@@ -1183,12 +1219,17 @@
       {
         "name": "80KIDZ",
         "browse_id": "UCNX3xsR7gTNXzcG8VyY3Z5g",
-        "subscribers": "3.76K"
+        "subscribers": "3.77K"
       },
       {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
         "subscribers": "137K"
+      },
+      {
+        "name": "Hakushi Hasegawa",
+        "browse_id": "UCPvjq3k_DKTa02GWveuicfg",
+        "subscribers": "75.9K"
       },
       {
         "name": "Dirty Androids",
@@ -1384,6 +1425,12 @@
           "views": 113066,
           "likes": 2379,
           "comments": 24
+        },
+        {
+          "date": "2026-05-12",
+          "views": 113589,
+          "likes": 2384,
+          "comments": 24
         }
       ]
     },
@@ -1544,6 +1591,12 @@
           "date": "2026-05-11",
           "views": 546184,
           "likes": 5121,
+          "comments": 17
+        },
+        {
+          "date": "2026-05-12",
+          "views": 546796,
+          "likes": 5124,
           "comments": 17
         }
       ]
@@ -1706,6 +1759,12 @@
           "views": 308547,
           "likes": 3325,
           "comments": 6
+        },
+        {
+          "date": "2026-05-12",
+          "views": 308822,
+          "likes": 3327,
+          "comments": 6
         }
       ]
     },
@@ -1865,6 +1924,12 @@
         {
           "date": "2026-05-11",
           "views": 51770,
+          "likes": 169,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-12",
+          "views": 51846,
           "likes": 169,
           "comments": 1
         }
@@ -2027,6 +2092,12 @@
           "date": "2026-05-11",
           "views": 114088,
           "likes": 1469,
+          "comments": 14
+        },
+        {
+          "date": "2026-05-12",
+          "views": 114291,
+          "likes": 1473,
           "comments": 14
         }
       ]
@@ -2237,6 +2308,18 @@
       "type": "annotated",
       "related_annotation": "JT Rhythm Loop・スペースシャワーTV特集継続効果でSpotify月間リスナーが52,930人（3.42σ）に上昇",
       "detected_at": "2026-05-11T16:43:19.542742+00:00"
+    },
+    {
+      "date": "2026-05-12",
+      "metric": "monthly_listeners",
+      "value": 61651,
+      "baseline_mean": 52276.3,
+      "baseline_stddev": 2967.7,
+      "delta": 9374,
+      "score": 3.16,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-12T16:33:59.625350+00:00"
     }
   ]
 }
