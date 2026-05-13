@@ -1234,6 +1234,47 @@
       "ytm_subscribers": 868000,
       "ytm_monthly_listeners": 2330000,
       "ytm_total_views": 561468693
+    },
+    {
+      "date": "2026-05-13",
+      "monthly_listeners": 1690494,
+      "collected_at": "2026-05-13T16:30:34.026898+00:00",
+      "spotify_followers": 1460556,
+      "youtube_subscribers": 868000,
+      "youtube_total_views": 562804523,
+      "youtube_video_count": 135,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 94183
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 78760
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 63500
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35107
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 31619
+        }
+      ],
+      "lastfm_listeners": 57935,
+      "lastfm_playcount": 1613220,
+      "ytm_subscribers": 868000,
+      "ytm_monthly_listeners": 2380000,
+      "ytm_total_views": 561468693
     }
   ],
   "annotations": [
@@ -1329,24 +1370,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "reGretGirl",
-        "browse_id": "UCRzWUISrDwsVPZF87iEFCqw",
-        "subscribers": "412K"
-      },
-      {
-        "name": "shytaupe",
-        "browse_id": "UClT2HzITnq_4MQoY99Gf6Hw",
-        "subscribers": "2.36M"
-      },
-      {
         "name": "the shes gone",
         "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
-        "subscribers": "266K"
+        "subscribers": "268K"
       },
       {
         "name": "KEPURA",
         "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
-        "subscribers": "65.5K"
+        "subscribers": "66.2K"
       },
       {
         "name": "moon drop",
@@ -1356,7 +1387,7 @@
       {
         "name": "Mr.forte",
         "browse_id": "UC7-BeMV8TshWVp0FQK8K0Pg",
-        "subscribers": "55.3K"
+        "subscribers": "56.7K"
       },
       {
         "name": "PERKERS",
@@ -1366,17 +1397,27 @@
       {
         "name": "TRACK15",
         "browse_id": "UCbTq_K3E9Vz8ehL62WwcwIA",
-        "subscribers": "251K"
-      },
-      {
-        "name": "bokula.",
-        "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
-        "subscribers": "201K"
+        "subscribers": "257K"
       },
       {
         "name": "Orange Spiny Crab",
         "browse_id": "UC4xFImWROIkfo8YXSgrxliQ",
-        "subscribers": "186K"
+        "subscribers": "185K"
+      },
+      {
+        "name": "YUTORI-SEDAI",
+        "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
+        "subscribers": "273K"
+      },
+      {
+        "name": "YOAKE",
+        "browse_id": "UCQE3bQBOx8YoxP3ghcXZs7g",
+        "subscribers": "105K"
+      },
+      {
+        "name": "bokula.",
+        "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
+        "subscribers": "206K"
       }
     ],
     "ytm_top_songs": [
@@ -1580,6 +1621,12 @@
           "views": 3927394,
           "likes": 16763,
           "comments": 41
+        },
+        {
+          "date": "2026-05-13",
+          "views": 3940145,
+          "likes": 16818,
+          "comments": 41
         }
       ]
     },
@@ -1746,6 +1793,12 @@
           "date": "2026-05-12",
           "views": 4421879,
           "likes": 20911,
+          "comments": 40
+        },
+        {
+          "date": "2026-05-13",
+          "views": 4437039,
+          "likes": 20985,
           "comments": 40
         }
       ]
@@ -1926,6 +1979,12 @@
           "views": 2325593,
           "likes": 12505,
           "comments": 36
+        },
+        {
+          "date": "2026-05-13",
+          "views": 2334874,
+          "likes": 12552,
+          "comments": 36
         }
       ]
     },
@@ -2092,6 +2151,12 @@
           "date": "2026-05-12",
           "views": 2758435,
           "likes": 16601,
+          "comments": 38
+        },
+        {
+          "date": "2026-05-13",
+          "views": 2767503,
+          "likes": 16643,
           "comments": 38
         }
       ]
@@ -2272,6 +2337,12 @@
           "views": 2058022,
           "likes": 8796,
           "comments": 27
+        },
+        {
+          "date": "2026-05-13",
+          "views": 2066453,
+          "likes": 8822,
+          "comments": 27
         }
       ]
     },
@@ -2418,6 +2489,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-12T16:30:56.301862+00:00"
+    },
+    {
+      "date": "2026-05-13",
+      "metric": "monthly_listeners",
+      "value": 1690494,
+      "baseline_mean": 1635174.1,
+      "baseline_stddev": 21426.0,
+      "delta": 55319,
+      "score": 2.58,
+      "type": "annotated",
+      "related_annotation": "アリーナツアー「NEW GAME +」・RUSH BALL 2026・SUMMER SONIC 2026の継続注目でSpotify月間リスナーが急増（+1,681,571・2.41σ）",
+      "detected_at": "2026-05-13T16:30:35.703142+00:00"
     }
   ]
 }

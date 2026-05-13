@@ -1158,6 +1158,47 @@
       "ytm_subscribers": 37100,
       "ytm_monthly_listeners": 70400,
       "ytm_total_views": 8022185
+    },
+    {
+      "date": "2026-05-13",
+      "monthly_listeners": 64842,
+      "collected_at": "2026-05-13T16:33:23.231179+00:00",
+      "spotify_followers": 50966,
+      "youtube_subscribers": 37100,
+      "youtube_total_views": 8258778,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3523
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1480
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 922
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 857
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 583
+        }
+      ],
+      "lastfm_listeners": 23713,
+      "lastfm_playcount": 395397,
+      "ytm_subscribers": 37100,
+      "ytm_monthly_listeners": 69700,
+      "ytm_total_views": 8022185
     }
   ],
   "metadata": {
@@ -1192,24 +1233,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "CHERRYBOY FUNCTION",
-        "browse_id": "UChSuMG7SvfVS5UECa0IxwBQ",
-        "subscribers": "214"
-      },
-      {
-        "name": "WEDNESDAY CAMPANELLA",
-        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
-        "subscribers": "1.99M"
-      },
-      {
-        "name": "tofubeats",
-        "browse_id": "UCDsYyiCcQPwmgkDiHsaGB2A",
-        "subscribers": "425K"
-      },
-      {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
-        "subscribers": "119K"
+        "subscribers": "121K"
       },
       {
         "name": "Skirt",
@@ -1224,12 +1250,12 @@
       {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
-        "subscribers": "137K"
+        "subscribers": "139K"
       },
       {
         "name": "Hakushi Hasegawa",
         "browse_id": "UCPvjq3k_DKTa02GWveuicfg",
-        "subscribers": "75.9K"
+        "subscribers": "75.4K"
       },
       {
         "name": "Dirty Androids",
@@ -1240,6 +1266,21 @@
         "name": "AAAMYYY",
         "browse_id": "UC6Ydky9GghVtUi0QqqoxPoA",
         "subscribers": "25.5K"
+      },
+      {
+        "name": "ikkubaru",
+        "browse_id": "UC7jScMdJ0YibkvRT7UxcNRA",
+        "subscribers": "5.73K"
+      },
+      {
+        "name": "CHERRYBOY FUNCTION",
+        "browse_id": "UChSuMG7SvfVS5UECa0IxwBQ",
+        "subscribers": "215"
+      },
+      {
+        "name": "MONDO GROSSO",
+        "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
+        "subscribers": "241K"
       }
     ],
     "ytm_top_songs": [
@@ -1431,6 +1472,12 @@
           "views": 113589,
           "likes": 2384,
           "comments": 24
+        },
+        {
+          "date": "2026-05-13",
+          "views": 114098,
+          "likes": 2386,
+          "comments": 24
         }
       ]
     },
@@ -1597,6 +1644,12 @@
           "date": "2026-05-12",
           "views": 546796,
           "likes": 5124,
+          "comments": 17
+        },
+        {
+          "date": "2026-05-13",
+          "views": 547422,
+          "likes": 5127,
           "comments": 17
         }
       ]
@@ -1765,6 +1818,12 @@
           "views": 308822,
           "likes": 3327,
           "comments": 6
+        },
+        {
+          "date": "2026-05-13",
+          "views": 309057,
+          "likes": 3331,
+          "comments": 6
         }
       ]
     },
@@ -1930,6 +1989,12 @@
         {
           "date": "2026-05-12",
           "views": 51846,
+          "likes": 169,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-13",
+          "views": 51945,
           "likes": 169,
           "comments": 1
         }
@@ -2098,6 +2163,12 @@
           "date": "2026-05-12",
           "views": 114291,
           "likes": 1473,
+          "comments": 14
+        },
+        {
+          "date": "2026-05-13",
+          "views": 114531,
+          "likes": 1476,
           "comments": 14
         }
       ]
@@ -2330,6 +2401,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-12T16:33:59.625350+00:00"
+    },
+    {
+      "date": "2026-05-13",
+      "metric": "monthly_listeners",
+      "value": 64842,
+      "baseline_mean": 52611.1,
+      "baseline_stddev": 3394.0,
+      "delta": 12230,
+      "score": 3.6,
+      "type": "annotated",
+      "related_annotation": "Spotify月間リスナーが61,651人に急増（+8,721・3.16σ）——Summer Sonic 2026出演への注目再燃か",
+      "detected_at": "2026-05-13T16:33:24.878536+00:00"
     }
   ]
 }
