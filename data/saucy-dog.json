@@ -1275,6 +1275,47 @@
       "ytm_subscribers": 868000,
       "ytm_monthly_listeners": 2380000,
       "ytm_total_views": 561468693
+    },
+    {
+      "date": "2026-05-14",
+      "monthly_listeners": 1690494,
+      "collected_at": "2026-05-14T16:21:07.901413+00:00",
+      "spotify_followers": 1461242,
+      "youtube_subscribers": 868000,
+      "youtube_total_views": 562804523,
+      "youtube_video_count": 135,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 94183
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 78760
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 63500
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35107
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 31619
+        }
+      ],
+      "lastfm_listeners": 57946,
+      "lastfm_playcount": 1614076,
+      "ytm_subscribers": 868000,
+      "ytm_monthly_listeners": 2380000,
+      "ytm_total_views": 561468693
     }
   ],
   "annotations": [
@@ -1415,9 +1456,9 @@
         "subscribers": "105K"
       },
       {
-        "name": "bokula.",
-        "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
-        "subscribers": "206K"
+        "name": "berry meet",
+        "browse_id": "UCud_FSuguBJsPDCq5xo9SoQ",
+        "subscribers": "184K"
       }
     ],
     "ytm_top_songs": [
@@ -1627,6 +1668,12 @@
           "views": 3940145,
           "likes": 16818,
           "comments": 41
+        },
+        {
+          "date": "2026-05-14",
+          "views": 3953586,
+          "likes": 16882,
+          "comments": 41
         }
       ]
     },
@@ -1799,6 +1846,12 @@
           "date": "2026-05-13",
           "views": 4437039,
           "likes": 20985,
+          "comments": 40
+        },
+        {
+          "date": "2026-05-14",
+          "views": 4453058,
+          "likes": 21066,
           "comments": 40
         }
       ]
@@ -1985,6 +2038,12 @@
           "views": 2334874,
           "likes": 12552,
           "comments": 36
+        },
+        {
+          "date": "2026-05-14",
+          "views": 2344160,
+          "likes": 12608,
+          "comments": 36
         }
       ]
     },
@@ -2158,6 +2217,12 @@
           "views": 2767503,
           "likes": 16643,
           "comments": 38
+        },
+        {
+          "date": "2026-05-14",
+          "views": 2777505,
+          "likes": 16693,
+          "comments": 39
         }
       ]
     },
@@ -2343,6 +2408,12 @@
           "views": 2066453,
           "likes": 8822,
           "comments": 27
+        },
+        {
+          "date": "2026-05-14",
+          "views": 2074918,
+          "likes": 8864,
+          "comments": 27
         }
       ]
     },
@@ -2501,6 +2572,18 @@
       "type": "annotated",
       "related_annotation": "アリーナツアー「NEW GAME +」・RUSH BALL 2026・SUMMER SONIC 2026の継続注目でSpotify月間リスナーが急増（+1,681,571・2.41σ）",
       "detected_at": "2026-05-13T16:30:35.703142+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "monthly_listeners",
+      "value": 1690494,
+      "baseline_mean": 1637234.7,
+      "baseline_stddev": 23567.5,
+      "delta": 53259,
+      "score": 2.26,
+      "type": "annotated",
+      "related_annotation": "アリーナツアー「NEW GAME +」・RUSH BALL 2026・SUMMER SONIC 2026の継続注目でSpotify月間リスナーが急増（+1,681,571・2.41σ）",
+      "detected_at": "2026-05-14T16:21:09.873903+00:00"
     }
   ]
 }

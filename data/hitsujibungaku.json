@@ -1272,6 +1272,47 @@
       "ytm_subscribers": 443000,
       "ytm_monthly_listeners": 5930000,
       "ytm_total_views": 332485562
+    },
+    {
+      "date": "2026-05-14",
+      "monthly_listeners": 1780839,
+      "collected_at": "2026-05-14T16:21:39.944300+00:00",
+      "spotify_followers": 486338,
+      "youtube_subscribers": 444000,
+      "youtube_total_views": 334752418,
+      "youtube_video_count": 138,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 61627
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 47593
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 33650
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 30845
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 21039
+        }
+      ],
+      "lastfm_listeners": 18152,
+      "lastfm_playcount": 1229261,
+      "ytm_subscribers": 444000,
+      "ytm_monthly_listeners": 5930000,
+      "ytm_total_views": 332485562
     }
   ],
   "annotations": [
@@ -1675,6 +1716,12 @@
           "views": 18318427,
           "likes": 117811,
           "comments": 349
+        },
+        {
+          "date": "2026-05-14",
+          "views": 18349049,
+          "likes": 118081,
+          "comments": 349
         }
       ]
     },
@@ -1859,6 +1906,12 @@
           "date": "2026-05-13",
           "views": 2587221,
           "likes": 22169,
+          "comments": 155
+        },
+        {
+          "date": "2026-05-14",
+          "views": 2637465,
+          "likes": 22365,
           "comments": 155
         }
       ]
@@ -2045,6 +2098,12 @@
           "views": 77361,
           "likes": 1707,
           "comments": 64
+        },
+        {
+          "date": "2026-05-14",
+          "views": 78085,
+          "likes": 1718,
+          "comments": 65
         }
       ]
     },
@@ -2229,6 +2288,12 @@
           "date": "2026-05-13",
           "views": 1349965,
           "likes": 12767,
+          "comments": 83
+        },
+        {
+          "date": "2026-05-14",
+          "views": 1352471,
+          "likes": 12777,
           "comments": 83
         }
       ]
@@ -2415,6 +2480,12 @@
           "views": 1991564,
           "likes": 15637,
           "comments": 125
+        },
+        {
+          "date": "2026-05-14",
+          "views": 1994321,
+          "likes": 15653,
+          "comments": 125
         }
       ]
     }
@@ -2563,6 +2634,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-13T16:31:09.333839+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "monthly_listeners",
+      "value": 1780839,
+      "baseline_mean": 1680959.9,
+      "baseline_stddev": 32075.9,
+      "delta": 99879,
+      "score": 3.11,
+      "type": "annotated",
+      "related_annotation": "全国ホールツアー「すーーーはーーー」チケット先行（5/3〜5/17）継続とLP盤発売接近でSpotify月間リスナーが再上昇（+34,426人・3.89σ）",
+      "detected_at": "2026-05-14T16:21:41.432070+00:00"
     }
   ]
 }

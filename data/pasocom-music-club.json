@@ -1199,6 +1199,47 @@
       "ytm_subscribers": 37100,
       "ytm_monthly_listeners": 69700,
       "ytm_total_views": 8022185
+    },
+    {
+      "date": "2026-05-14",
+      "monthly_listeners": 64842,
+      "collected_at": "2026-05-14T16:23:54.448033+00:00",
+      "spotify_followers": 50990,
+      "youtube_subscribers": 37100,
+      "youtube_total_views": 8258778,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3523
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1480
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 922
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 857
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 583
+        }
+      ],
+      "lastfm_listeners": 23724,
+      "lastfm_playcount": 395605,
+      "ytm_subscribers": 37100,
+      "ytm_monthly_listeners": 69700,
+      "ytm_total_views": 8022185
     }
   ],
   "metadata": {
@@ -1478,6 +1519,12 @@
           "views": 114098,
           "likes": 2386,
           "comments": 24
+        },
+        {
+          "date": "2026-05-14",
+          "views": 114517,
+          "likes": 2389,
+          "comments": 24
         }
       ]
     },
@@ -1650,6 +1697,12 @@
           "date": "2026-05-13",
           "views": 547422,
           "likes": 5127,
+          "comments": 17
+        },
+        {
+          "date": "2026-05-14",
+          "views": 548085,
+          "likes": 5132,
           "comments": 17
         }
       ]
@@ -1824,6 +1877,12 @@
           "views": 309057,
           "likes": 3331,
           "comments": 6
+        },
+        {
+          "date": "2026-05-14",
+          "views": 309311,
+          "likes": 3332,
+          "comments": 6
         }
       ]
     },
@@ -1995,6 +2054,12 @@
         {
           "date": "2026-05-13",
           "views": 51945,
+          "likes": 169,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-14",
+          "views": 52014,
           "likes": 169,
           "comments": 1
         }
@@ -2169,6 +2234,12 @@
           "date": "2026-05-13",
           "views": 114531,
           "likes": 1476,
+          "comments": 14
+        },
+        {
+          "date": "2026-05-14",
+          "views": 114709,
+          "likes": 1480,
           "comments": 14
         }
       ]
@@ -2440,6 +2511,18 @@
       "type": "annotated",
       "related_annotation": "Spotify月間リスナーが61,651人に急増（+8,721・3.16σ）——Summer Sonic 2026出演への注目再燃か",
       "detected_at": "2026-05-13T16:33:24.878536+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "monthly_listeners",
+      "value": 64842,
+      "baseline_mean": 53032.8,
+      "baseline_stddev": 4012.8,
+      "delta": 11809,
+      "score": 2.94,
+      "type": "annotated",
+      "related_annotation": "Spotify月間リスナーが61,651人に急増（+8,721・3.16σ）——Summer Sonic 2026出演への注目再燃か",
+      "detected_at": "2026-05-14T16:23:56.230280+00:00"
     }
   ]
 }

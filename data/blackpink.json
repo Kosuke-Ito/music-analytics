@@ -1560,6 +1560,47 @@
       "ytm_subscribers": 101000000,
       "ytm_monthly_listeners": 227000000,
       "ytm_total_views": 42065917671
+    },
+    {
+      "date": "2026-05-14",
+      "monthly_listeners": 22585634,
+      "collected_at": "2026-05-14T16:14:26.917719+00:00",
+      "spotify_followers": 59175651,
+      "youtube_subscribers": 101000000,
+      "youtube_total_views": 42179904251,
+      "youtube_video_count": 666,
+      "top_cities": [
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 354262
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 323018
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 283346
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 241544
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 236533
+        }
+      ],
+      "lastfm_listeners": 2018497,
+      "lastfm_playcount": 316152374,
+      "ytm_subscribers": 101000000,
+      "ytm_monthly_listeners": 227000000,
+      "ytm_total_views": 42065917671
     }
   ],
   "annotations": [
@@ -1719,11 +1760,6 @@
         "subscribers": "10.6M"
       },
       {
-        "name": "MEOVV",
-        "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
-        "subscribers": "9.93M"
-      },
-      {
         "name": "ROSÉ",
         "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
         "subscribers": "322M"
@@ -1732,6 +1768,11 @@
         "name": "JISOO",
         "browse_id": "UC4I9OFY_9ZYLs0Lj4bfEOvA",
         "subscribers": "179M"
+      },
+      {
+        "name": "MEOVV",
+        "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
+        "subscribers": "9.93M"
       },
       {
         "name": "TREASURE",
@@ -1744,24 +1785,24 @@
         "subscribers": "7.25M"
       },
       {
-        "name": "BTS",
-        "browse_id": "UC9vrvNSL3xcWGSkV86REBSg",
-        "subscribers": "314M"
+        "name": "LISA",
+        "browse_id": "UCXtPv6CbKfuXPNj3MyKFOig",
+        "subscribers": "93.5M"
       },
       {
-        "name": "EVERGLOW",
-        "browse_id": "UCT4Z6ZLJisGUy0z2LHzi2jQ",
-        "subscribers": "4.5M"
-      },
-      {
-        "name": "NewJeans",
-        "browse_id": "UCxOqS3cYg4FaHbobICo7nFQ",
-        "subscribers": "75.9M"
+        "name": "JENNIE",
+        "browse_id": "UCAl7xQ6q0PEgZMQD7zr4AKQ",
+        "subscribers": "316M"
       },
       {
         "name": "BABYMONSTER",
         "browse_id": "UC47Wz6S14mj_6Jy-T59m6IQ",
         "subscribers": "100M"
+      },
+      {
+        "name": "NewJeans",
+        "browse_id": "UCxOqS3cYg4FaHbobICo7nFQ",
+        "subscribers": "75.9M"
       }
     ],
     "ytm_top_songs": [
@@ -1977,6 +2018,12 @@
           "views": 222269404,
           "likes": 1562183,
           "comments": 18983
+        },
+        {
+          "date": "2026-05-14",
+          "views": 222619121,
+          "likes": 1563548,
+          "comments": 19004
         }
       ]
     },
@@ -2168,6 +2215,12 @@
           "views": 25542150,
           "likes": 295798,
           "comments": 4937
+        },
+        {
+          "date": "2026-05-14",
+          "views": 25679701,
+          "likes": 296326,
+          "comments": 4947
         }
       ]
     },
@@ -2359,6 +2412,12 @@
           "views": 300011610,
           "likes": 2503779,
           "comments": 16408
+        },
+        {
+          "date": "2026-05-14",
+          "views": 300097186,
+          "likes": 2504354,
+          "comments": 16418
         }
       ]
     },
@@ -2550,6 +2609,12 @@
           "views": 164652245,
           "likes": 945359,
           "comments": 3735
+        },
+        {
+          "date": "2026-05-14",
+          "views": 164710397,
+          "likes": 945755,
+          "comments": 3736
         }
       ]
     },
@@ -2741,6 +2806,12 @@
           "views": 114853422,
           "likes": 1363556,
           "comments": 5282
+        },
+        {
+          "date": "2026-05-14",
+          "views": 114887885,
+          "likes": 1363886,
+          "comments": 5287
         }
       ]
     }
@@ -2769,6 +2840,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-13T16:23:36.966235+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "youtube_total_views",
+      "value": 42179904251,
+      "baseline_mean": 41798780937.8,
+      "baseline_stddev": 127041104.4,
+      "delta": 381123313,
+      "score": 3.0,
+      "type": "annotated",
+      "related_annotation": "JENNIEが参加したTame Impala「Dracula」がBillboard Hot 100で10位デビュー",
+      "detected_at": "2026-05-14T16:14:28.095465+00:00"
     }
   ]
 }

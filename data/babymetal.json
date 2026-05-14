@@ -1272,6 +1272,47 @@
       "ytm_subscribers": 3620000,
       "ytm_monthly_listeners": 8810000,
       "ytm_total_views": 1062841494
+    },
+    {
+      "date": "2026-05-14",
+      "monthly_listeners": 3557615,
+      "collected_at": "2026-05-14T16:22:47.663222+00:00",
+      "spotify_followers": 2975711,
+      "youtube_subscribers": 3620000,
+      "youtube_total_views": 1070858680,
+      "youtube_video_count": 351,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 63431
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 60140
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 48061
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 44066
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 41178
+        }
+      ],
+      "lastfm_listeners": 967068,
+      "lastfm_playcount": 58837400,
+      "ytm_subscribers": 3620000,
+      "ytm_monthly_listeners": 8810000,
+      "ytm_total_views": 1062841494
     }
   ],
   "annotations": [
@@ -1398,14 +1439,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "LADYBABY",
-        "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "126K"
+        "name": "Ironbunny",
+        "browse_id": "UCOXQpHNB7kPqNibN8_5dCNQ",
+        "subscribers": "24.9K"
       },
       {
         "name": "Sakura Gakuin",
         "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
         "subscribers": "7.59K"
+      },
+      {
+        "name": "LADYBABY",
+        "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
+        "subscribers": "126K"
       },
       {
         "name": "Mellows",
@@ -1441,11 +1487,6 @@
         "name": "NEON ONI",
         "browse_id": "UCtxGRL3vlL4N1buEUkDCJxA",
         "subscribers": "15K"
-      },
-      {
-        "name": "Samurai Pizza Cats",
-        "browse_id": "UCmugf8X2AoaHYIQusakggUQ",
-        "subscribers": "313K"
       }
     ],
     "ytm_top_songs": [
@@ -1655,6 +1696,12 @@
           "views": 6604173,
           "likes": 77347,
           "comments": 246
+        },
+        {
+          "date": "2026-05-14",
+          "views": 6628868,
+          "likes": 77571,
+          "comments": 246
         }
       ]
     },
@@ -1840,6 +1887,12 @@
           "views": 4178943,
           "likes": 85833,
           "comments": 446
+        },
+        {
+          "date": "2026-05-14",
+          "views": 4194249,
+          "likes": 86047,
+          "comments": 449
         }
       ]
     },
@@ -2024,6 +2077,12 @@
           "date": "2026-05-13",
           "views": 4573451,
           "likes": 66255,
+          "comments": 217
+        },
+        {
+          "date": "2026-05-14",
+          "views": 4587902,
+          "likes": 66399,
           "comments": 217
         }
       ]
@@ -2210,6 +2269,12 @@
           "views": 1892123,
           "likes": 37200,
           "comments": 220
+        },
+        {
+          "date": "2026-05-14",
+          "views": 1900120,
+          "likes": 37327,
+          "comments": 220
         }
       ]
     },
@@ -2395,6 +2460,12 @@
           "views": 3466442,
           "likes": 67889,
           "comments": 306
+        },
+        {
+          "date": "2026-05-14",
+          "views": 3479592,
+          "likes": 68071,
+          "comments": 307
         }
       ]
     }
@@ -2591,6 +2662,18 @@
       "type": "annotated",
       "related_annotation": "METALVERSEが初ストリーミングシングル「GIZA」リリース（5/8）でBABYMETAL注目上昇・YTM月間リスナー増加（+1,310,370・2.16σ）",
       "detected_at": "2026-05-13T16:32:16.776315+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "youtube_total_views",
+      "value": 1070858680,
+      "baseline_mean": 1060782235.3,
+      "baseline_stddev": 3485953.5,
+      "delta": 10076444,
+      "score": 2.89,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数API凍結（27日間）→解凍によるデータアーティファクト（10.64σ）",
+      "detected_at": "2026-05-14T16:22:49.103761+00:00"
     }
   ]
 }

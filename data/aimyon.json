@@ -1272,6 +1272,47 @@
       "ytm_subscribers": 2290000,
       "ytm_monthly_listeners": 8170000,
       "ytm_total_views": 2650449733
+    },
+    {
+      "date": "2026-05-14",
+      "monthly_listeners": 4325324,
+      "collected_at": "2026-05-14T16:18:37.012092+00:00",
+      "spotify_followers": 6258226,
+      "youtube_subscribers": 2290000,
+      "youtube_total_views": 2660449760,
+      "youtube_video_count": 270,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 217968
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 197230
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 141429
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 81344
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 65979
+        }
+      ],
+      "lastfm_listeners": 19551,
+      "lastfm_playcount": 1418334,
+      "ytm_subscribers": 2290000,
+      "ytm_monthly_listeners": 8170000,
+      "ytm_total_views": 2650449733
     }
   ],
   "annotations": [
@@ -1432,11 +1473,6 @@
         "subscribers": "1.64M"
       },
       {
-        "name": "Uru",
-        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "23.6M"
-      },
-      {
         "name": "Ayaka",
         "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
         "subscribers": "5.14M"
@@ -1457,14 +1493,14 @@
         "subscribers": "6.26M"
       },
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "8.43M"
-      },
-      {
         "name": "Superfly",
         "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
         "subscribers": "4.02M"
+      },
+      {
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "8.43M"
       },
       {
         "name": "Masaki Suda",
@@ -1472,9 +1508,14 @@
         "subscribers": "8.19M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "13.2M"
+        "name": "Takaya Kawasaki",
+        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
+        "subscribers": "1.89M"
+      },
+      {
+        "name": "Remioromen",
+        "browse_id": "UCHzbZw7GxoyFf-_pyS1R6mg",
+        "subscribers": "2.61M"
       }
     ],
     "ytm_top_songs": [
@@ -1684,6 +1725,12 @@
           "views": 104716158,
           "likes": 302249,
           "comments": 662
+        },
+        {
+          "date": "2026-05-14",
+          "views": 104762481,
+          "likes": 302388,
+          "comments": 663
         }
       ]
     },
@@ -1868,6 +1915,12 @@
           "date": "2026-05-13",
           "views": 99234802,
           "likes": 338450,
+          "comments": 404
+        },
+        {
+          "date": "2026-05-14",
+          "views": 99278710,
+          "likes": 338607,
           "comments": 404
         }
       ]
@@ -2054,6 +2107,12 @@
           "views": 61953482,
           "likes": 180644,
           "comments": 231
+        },
+        {
+          "date": "2026-05-14",
+          "views": 61977152,
+          "likes": 180710,
+          "comments": 232
         }
       ]
     },
@@ -2238,6 +2297,12 @@
           "date": "2026-05-13",
           "views": 1969782,
           "likes": 6093,
+          "comments": 39
+        },
+        {
+          "date": "2026-05-14",
+          "views": 1970199,
+          "likes": 6095,
           "comments": 39
         }
       ]
@@ -2429,6 +2494,12 @@
           "views": 35594821,
           "likes": 112748,
           "comments": 222
+        },
+        {
+          "date": "2026-05-14",
+          "views": 35609226,
+          "likes": 112793,
+          "comments": 223
         }
       ]
     }
@@ -2721,6 +2792,30 @@
       "type": "annotated",
       "related_annotation": "アナログ盤「瞬間的シックスセンス」（5/20発売）直前とMTV特番（5/13）前日でSpotify・YTM・YouTube全指標が上昇",
       "detected_at": "2026-05-13T16:27:49.727600+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "monthly_listeners",
+      "value": 4325324,
+      "baseline_mean": 4241739,
+      "baseline_stddev": 40556.2,
+      "delta": 83585,
+      "score": 2.06,
+      "type": "annotated",
+      "related_annotation": "アナログ盤「瞬間的シックスセンス」（5/20発売）直前とMTV特番（5/13）前日でSpotify・YTM・YouTube全指標が上昇",
+      "detected_at": "2026-05-14T16:18:38.364016+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 8170000,
+      "baseline_mean": 7749666.7,
+      "baseline_stddev": 138912.0,
+      "delta": 420333,
+      "score": 3.03,
+      "type": "annotated",
+      "related_annotation": "アナログ盤「瞬間的シックスセンス」（5/20発売）直前とMTV特番（5/13）前日でSpotify・YTM・YouTube全指標が上昇",
+      "detected_at": "2026-05-14T16:18:38.364016+00:00"
     }
   ]
 }

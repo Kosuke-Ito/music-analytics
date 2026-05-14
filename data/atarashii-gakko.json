@@ -1272,6 +1272,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 4680000,
       "ytm_total_views": 570509046
+    },
+    {
+      "date": "2026-05-14",
+      "monthly_listeners": 853175,
+      "collected_at": "2026-05-14T16:21:56.359846+00:00",
+      "spotify_followers": 968891,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 590640173,
+      "youtube_video_count": 395,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 19790
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13539
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 11830
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 9866
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7891
+        }
+      ],
+      "lastfm_listeners": 8685,
+      "lastfm_playcount": 403689,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 4680000,
+      "ytm_total_views": 570509046
     }
   ],
   "metadata": {
@@ -1370,12 +1411,12 @@
         "video_id": "7g8m3JNgMTM"
       },
       {
-        "title": "Giri Giri",
-        "video_id": "fRCYMxll16U"
+        "title": "Chanka Chanka",
+        "video_id": "O1lfjPAlLak"
       },
       {
-        "title": "青春を切り裂く波動 - SEISHUN WO KIRISAKU HADO",
-        "video_id": "1GAXIRPpJQc"
+        "title": "Giri Giri",
+        "video_id": "fRCYMxll16U"
       }
     ],
     "ytm_description": "Whirlwind group ATARASHII GAKKO! represent a new generation of Japanese youth (seishun in their native language), one embracing personal expression and pushing against traditional boundaries a little at a time. The outlandish quartet — comprised of kawaii-but- fierce MIZYU, wildcard SUZUKA, graceful KANON and funky RIN — break genre walls to create music mixing elements of pop, jazz, hip-hop, rock and more, delivered with punk energy and featuring frantic dance moves, choreographed by the four members themselves.\n\n「新しい学校のリーダーズ」\n海外名義 「ATARASHIIGAKKO!」\n個性と自由ではみ出す4人組ダンスヴォーカルユニット\n自称\"青春日本代表\"\nパワフルなダンスを武器に、全曲メンバー振り付けで構成されたライブが、おでんの中の大根より熱いと支持され、\nアジアのカルチャーを世界に発信するレーベル88risingより2021年世界デビュー。\nそれ相応のざわつきを生み出し、SNS総フォロワーは1400万人Over、動画のクリエイションにも個性を発揮。\n振り付け師集団としても多数のオファーを受け、活動の幅を広げている。"
@@ -1563,6 +1604,12 @@
           "views": 18790388,
           "likes": 268616,
           "comments": 412
+        },
+        {
+          "date": "2026-05-14",
+          "views": 18801701,
+          "likes": 268760,
+          "comments": 413
         }
       ]
     },
@@ -1747,6 +1794,12 @@
           "date": "2026-05-13",
           "views": 5309548,
           "likes": 30930,
+          "comments": 135
+        },
+        {
+          "date": "2026-05-14",
+          "views": 5311578,
+          "likes": 30950,
           "comments": 135
         }
       ]
@@ -1933,6 +1986,12 @@
           "views": 1982491,
           "likes": 33206,
           "comments": 99
+        },
+        {
+          "date": "2026-05-14",
+          "views": 1986223,
+          "likes": 33287,
+          "comments": 100
         }
       ]
     },
@@ -2294,6 +2353,12 @@
           "views": 1846836,
           "likes": 20090,
           "comments": 144
+        },
+        {
+          "date": "2026-05-14",
+          "views": 1848495,
+          "likes": 20117,
+          "comments": 144
         }
       ]
     },
@@ -2328,6 +2393,12 @@
           "views": 52318,
           "likes": 3542,
           "comments": 156
+        },
+        {
+          "date": "2026-05-14",
+          "views": 96751,
+          "likes": 4579,
+          "comments": 166
         }
       ]
     }
@@ -2538,6 +2609,18 @@
       "type": "annotated",
       "related_annotation": "新曲「Chanka Chanka」リリース（5/8）後のSpotify月間リスナーが増加（+16,680・2.44σ）",
       "detected_at": "2026-05-13T16:31:26.496611+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "monthly_listeners",
+      "value": 853175,
+      "baseline_mean": 824922.3,
+      "baseline_stddev": 10038.9,
+      "delta": 28252,
+      "score": 2.81,
+      "type": "annotated",
+      "related_annotation": "「Chanka Chanka」リリース（5/8）の継続波及でSpotify月間リスナーが上昇（+20,330・2.75σ）",
+      "detected_at": "2026-05-14T16:21:58.028885+00:00"
     }
   ]
 }

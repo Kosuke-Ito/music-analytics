@@ -1560,6 +1560,47 @@
       "ytm_subscribers": 12400000,
       "ytm_monthly_listeners": 264000000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-14",
+      "monthly_listeners": 10966299,
+      "collected_at": "2026-05-14T16:16:22.818727+00:00",
+      "spotify_followers": 704932,
+      "youtube_subscribers": 12400000,
+      "youtube_total_views": 9756142510,
+      "youtube_video_count": 40,
+      "top_cities": [
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 208289
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 207022
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 176448
+        },
+        {
+          "city": "New York City",
+          "country": "US",
+          "listeners": 152839
+        },
+        {
+          "city": "Toronto",
+          "country": "CA",
+          "listeners": 128822
+        }
+      ],
+      "lastfm_listeners": 507985,
+      "lastfm_playcount": 9096569,
+      "ytm_subscribers": 12400000,
+      "ytm_monthly_listeners": 264000000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -1659,6 +1700,11 @@
         "subscribers": "3.83M"
       },
       {
+        "name": "Denzel Curry",
+        "browse_id": "UCzN1vzi9iELop5XH53ud6Gw",
+        "subscribers": "8.14M"
+      },
+      {
         "name": "Chance The Rapper",
         "browse_id": "UC5w8FMeCcC6DG2oWjGgyHKQ",
         "subscribers": "1.73M"
@@ -1674,29 +1720,24 @@
         "subscribers": "49.3M"
       },
       {
-        "name": "Denzel Curry",
-        "browse_id": "UCzN1vzi9iELop5XH53ud6Gw",
-        "subscribers": "8.14M"
-      },
-      {
         "name": "Bas",
         "browse_id": "UC3oN3GTQE2Dw5QVteykZSzA",
         "subscribers": "1.13M"
       },
       {
-        "name": "Joey Bada$$",
-        "browse_id": "UCCQZCaEwq3-mc5pj8be31Uw",
-        "subscribers": "1.95M"
+        "name": "Logic",
+        "browse_id": "UCKC7Xqy0UXT370RvFR2kXYg",
+        "subscribers": "6.46M"
+      },
+      {
+        "name": "Isaiah Rashad",
+        "browse_id": "UCnadtBjRhVZzRhro9CZPcSg",
+        "subscribers": "3.2M"
       },
       {
         "name": "Kid Cudi",
         "browse_id": "UCo2-dPLJcpbZK84FIt0vD-w",
         "subscribers": "29.6M"
-      },
-      {
-        "name": "Logic",
-        "browse_id": "UCKC7Xqy0UXT370RvFR2kXYg",
-        "subscribers": "6.46M"
       }
     ],
     "ytm_top_songs": [
@@ -2132,6 +2173,12 @@
           "views": 141462858,
           "likes": 1409940,
           "comments": 16662
+        },
+        {
+          "date": "2026-05-14",
+          "views": 141600555,
+          "likes": 1411055,
+          "comments": 16674
         }
       ]
     },
@@ -2323,6 +2370,12 @@
           "views": 68220150,
           "likes": 630386,
           "comments": 3524
+        },
+        {
+          "date": "2026-05-14",
+          "views": 68327597,
+          "likes": 630988,
+          "comments": 3529
         }
       ]
     },
@@ -2508,6 +2561,12 @@
           "views": 193343466,
           "likes": 1476375,
           "comments": 5659
+        },
+        {
+          "date": "2026-05-14",
+          "views": 193486050,
+          "likes": 1477320,
+          "comments": 5537
         }
       ]
     },
@@ -2645,6 +2704,12 @@
           "views": 44628441,
           "likes": 417404,
           "comments": 2334
+        },
+        {
+          "date": "2026-05-14",
+          "views": 44666694,
+          "likes": 417711,
+          "comments": 2343
         }
       ]
     },
@@ -2680,6 +2745,12 @@
           "views": 155602719,
           "likes": 1655435,
           "comments": 44287
+        },
+        {
+          "date": "2026-05-14",
+          "views": 155751530,
+          "likes": 1656591,
+          "comments": 44303
         }
       ]
     },
@@ -2755,6 +2826,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-13T16:25:35.501428+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "youtube_total_views",
+      "value": 9756142510,
+      "baseline_mean": 9645953756.7,
+      "baseline_stddev": 47542955.5,
+      "delta": 110188753,
+      "score": 2.32,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-14T16:16:24.138237+00:00"
     }
   ]
 }

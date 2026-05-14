@@ -1558,6 +1558,47 @@
       "ytm_subscribers": 3640000,
       "ytm_monthly_listeners": 42700000,
       "ytm_total_views": 4388578387
+    },
+    {
+      "date": "2026-05-14",
+      "monthly_listeners": 5599992,
+      "collected_at": "2026-05-14T16:11:39.559853+00:00",
+      "spotify_followers": 7718498,
+      "youtube_subscribers": 3640000,
+      "youtube_total_views": 4417200908,
+      "youtube_video_count": 218,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 237693
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 235324
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 158676
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 96042
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 68069
+        }
+      ],
+      "lastfm_listeners": 27400,
+      "lastfm_playcount": 2042476,
+      "ytm_subscribers": 3640000,
+      "ytm_monthly_listeners": 42700000,
+      "ytm_total_views": 4388578387
     }
   ],
   "annotations": [
@@ -1708,9 +1749,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.03M"
+        "name": "YUZU",
+        "browse_id": "UC-wO8NkDlTY0JfTF9JdVtfQ",
+        "subscribers": "5.33M"
       },
       {
         "name": "Motohiro Hata",
@@ -1718,19 +1759,19 @@
         "subscribers": "8.43M"
       },
       {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "8.19M"
-      },
-      {
         "name": "SUKIMASWITCH",
         "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
         "subscribers": "4.92M"
       },
       {
-        "name": "aimyon",
-        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
-        "subscribers": "8.17M"
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "3.03M"
+      },
+      {
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "8.19M"
       },
       {
         "name": "Penthouse",
@@ -1738,9 +1779,9 @@
         "subscribers": "2.67M"
       },
       {
-        "name": "YUZU",
-        "browse_id": "UC-wO8NkDlTY0JfTF9JdVtfQ",
-        "subscribers": "5.33M"
+        "name": "aimyon",
+        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
+        "subscribers": "8.17M"
       },
       {
         "name": "imase",
@@ -1753,9 +1794,9 @@
         "subscribers": "19.4M"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "11.2M"
+        "name": "Da-iCE",
+        "browse_id": "UCsgebXKWsxjX216BtZwLdzQ",
+        "subscribers": "4.4M"
       }
     ],
     "ytm_top_songs": [
@@ -1971,6 +2012,12 @@
           "views": 212862239,
           "likes": 585299,
           "comments": 1983
+        },
+        {
+          "date": "2026-05-14",
+          "views": 213076457,
+          "likes": 585967,
+          "comments": 1986
         }
       ]
     },
@@ -2161,6 +2208,12 @@
           "date": "2026-05-13",
           "views": 2565795,
           "likes": 22910,
+          "comments": 310
+        },
+        {
+          "date": "2026-05-14",
+          "views": 2600189,
+          "likes": 23077,
           "comments": 310
         }
       ]
@@ -2353,6 +2406,12 @@
           "views": 18785428,
           "likes": 94857,
           "comments": 2627
+        },
+        {
+          "date": "2026-05-14",
+          "views": 18838201,
+          "likes": 94995,
+          "comments": 2627
         }
       ]
     },
@@ -2543,6 +2602,12 @@
           "date": "2026-05-13",
           "views": 86368138,
           "likes": 392248,
+          "comments": 853
+        },
+        {
+          "date": "2026-05-14",
+          "views": 86406100,
+          "likes": 392393,
           "comments": 853
         }
       ]
@@ -2740,6 +2805,12 @@
           "views": 2531401,
           "likes": 30300,
           "comments": 1129
+        },
+        {
+          "date": "2026-05-14",
+          "views": 2571319,
+          "likes": 30455,
+          "comments": 1131
         }
       ]
     }
@@ -2900,6 +2971,18 @@
       "type": "annotated",
       "related_annotation": "「one-man tour 2026」大分公演（iichiko グランシアタ）",
       "detected_at": "2026-05-13T16:20:50.332670+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 42700000,
+      "baseline_mean": 37683333.3,
+      "baseline_stddev": 2464830.4,
+      "delta": 5016666,
+      "score": 2.04,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-14T16:11:40.886138+00:00"
     }
   ]
 }

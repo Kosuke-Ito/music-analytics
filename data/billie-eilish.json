@@ -1560,6 +1560,47 @@
       "ytm_subscribers": 58100000,
       "ytm_monthly_listeners": 405000000,
       "ytm_total_views": 22429930862
+    },
+    {
+      "date": "2026-05-14",
+      "monthly_listeners": 84939048,
+      "collected_at": "2026-05-14T16:15:16.665960+00:00",
+      "spotify_followers": 126464098,
+      "youtube_subscribers": 58100000,
+      "youtube_total_views": 22450330150,
+      "youtube_video_count": 190,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1112680
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1112630
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 979927
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 762937
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 718894
+        }
+      ],
+      "lastfm_listeners": 4252387,
+      "lastfm_playcount": 842432324,
+      "ytm_subscribers": 58100000,
+      "ytm_monthly_listeners": 405000000,
+      "ytm_total_views": 22429930862
     }
   ],
   "annotations": [
@@ -1717,14 +1758,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Lorde",
+        "browse_id": "UCILoG0-vdgLDnrwtRuM_0GQ",
+        "subscribers": "20.5M"
+      },
+      {
         "name": "Adele",
         "browse_id": "UCRw0x9_EfawqmgDI2IgQLLg",
         "subscribers": "371M"
       },
       {
-        "name": "Lorde",
-        "browse_id": "UCILoG0-vdgLDnrwtRuM_0GQ",
-        "subscribers": "20.5M"
+        "name": "benny blanco",
+        "browse_id": "UCzqz_ksRu_WkIzmivMdIS7A",
+        "subscribers": "24.7M"
       },
       {
         "name": "Labrinth",
@@ -1737,14 +1783,9 @@
         "subscribers": "25.8M"
       },
       {
-        "name": "Madison Beer",
-        "browse_id": "UCpgpoxvgrxyul1uqC9hOF-A",
-        "subscribers": "35.7M"
-      },
-      {
-        "name": "Ashe",
-        "browse_id": "UCu4DT36ncDBhuBo1w_vZsFg",
-        "subscribers": "27M"
+        "name": "AURORA",
+        "browse_id": "UC4G-AJa7kn8oumI6TT2WXYw",
+        "subscribers": "142M"
       },
       {
         "name": "Reneé Rapp",
@@ -1752,19 +1793,19 @@
         "subscribers": "2.58M"
       },
       {
+        "name": "Miley Cyrus",
+        "browse_id": "UCREdEwBdZcnQLIT0ThaAtmQ",
+        "subscribers": "91.7M"
+      },
+      {
         "name": "FINNEAS",
         "browse_id": "UCrbZcTv3iAHqMHWGbk0IYFA",
         "subscribers": "2.66M"
       },
       {
-        "name": "AURORA",
-        "browse_id": "UC4G-AJa7kn8oumI6TT2WXYw",
-        "subscribers": "142M"
-      },
-      {
-        "name": "benny blanco",
-        "browse_id": "UCzqz_ksRu_WkIzmivMdIS7A",
-        "subscribers": "24.7M"
+        "name": "Ashe",
+        "browse_id": "UCu4DT36ncDBhuBo1w_vZsFg",
+        "subscribers": "27M"
       }
     ],
     "ytm_top_songs": [
@@ -1980,6 +2021,12 @@
           "views": 462887834,
           "likes": 3453987,
           "comments": 17118
+        },
+        {
+          "date": "2026-05-14",
+          "views": 463311260,
+          "likes": 3456125,
+          "comments": 17130
         }
       ]
     },
@@ -2171,6 +2218,12 @@
           "views": 292034671,
           "likes": 2660352,
           "comments": 13485
+        },
+        {
+          "date": "2026-05-14",
+          "views": 292399120,
+          "likes": 2662842,
+          "comments": 13498
         }
       ]
     },
@@ -2362,6 +2415,12 @@
           "views": 520541531,
           "likes": 4835561,
           "comments": 12099
+        },
+        {
+          "date": "2026-05-14",
+          "views": 520749339,
+          "likes": 4837332,
+          "comments": 12103
         }
       ]
     },
@@ -2553,6 +2612,12 @@
           "views": 149352559,
           "likes": 1384915,
           "comments": 6603
+        },
+        {
+          "date": "2026-05-14",
+          "views": 149503743,
+          "likes": 1385884,
+          "comments": 6607
         }
       ]
     },
@@ -2744,6 +2809,12 @@
           "views": 228076177,
           "likes": 2043600,
           "comments": 6466
+        },
+        {
+          "date": "2026-05-14",
+          "views": 228201367,
+          "likes": 2044575,
+          "comments": 6471
         }
       ]
     }
@@ -2820,6 +2891,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-13T16:24:30.332020+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "monthly_listeners",
+      "value": 84939048,
+      "baseline_mean": 84272316.8,
+      "baseline_stddev": 301779.4,
+      "delta": 666731,
+      "score": 2.21,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-14T16:15:17.828280+00:00"
     }
   ]
 }

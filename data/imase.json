@@ -1272,6 +1272,47 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 65099999,
       "ytm_total_views": 841476296
+    },
+    {
+      "date": "2026-05-14",
+      "monthly_listeners": 3319963,
+      "collected_at": "2026-05-14T16:18:20.497039+00:00",
+      "spotify_followers": 1007073,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 844506408,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 57298
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51296
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 45106
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39098
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 38417
+        }
+      ],
+      "lastfm_listeners": 402147,
+      "lastfm_playcount": 5727890,
+      "ytm_subscribers": 1340000,
+      "ytm_monthly_listeners": 65099999,
+      "ytm_total_views": 841476296
     }
   ],
   "annotations": [
@@ -1611,6 +1652,12 @@
           "views": 138246487,
           "likes": 1086743,
           "comments": 5868
+        },
+        {
+          "date": "2026-05-14",
+          "views": 138306859,
+          "likes": 1087168,
+          "comments": 5872
         }
       ]
     },
@@ -1795,6 +1842,12 @@
           "date": "2026-05-13",
           "views": 7607949,
           "likes": 56165,
+          "comments": 160
+        },
+        {
+          "date": "2026-05-14",
+          "views": 7616838,
+          "likes": 56236,
           "comments": 160
         }
       ]
@@ -1981,6 +2034,12 @@
           "views": 3293701,
           "likes": 36360,
           "comments": 284
+        },
+        {
+          "date": "2026-05-14",
+          "views": 3296619,
+          "likes": 36372,
+          "comments": 284
         }
       ]
     },
@@ -2165,6 +2224,12 @@
           "date": "2026-05-13",
           "views": 11498707,
           "likes": 51078,
+          "comments": 153
+        },
+        {
+          "date": "2026-05-14",
+          "views": 11502446,
+          "likes": 51089,
           "comments": 153
         }
       ]
@@ -2356,6 +2421,12 @@
           "views": 4155423,
           "likes": 38403,
           "comments": 192
+        },
+        {
+          "date": "2026-05-14",
+          "views": 4158127,
+          "likes": 38438,
+          "comments": 192
         }
       ]
     }
@@ -2468,6 +2539,18 @@
       "type": "annotated",
       "related_annotation": "ジャックスCM継続効果によるYTM月間リスナー高水準維持（2.92σ）",
       "detected_at": "2026-05-13T16:27:33.073689+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 65099999,
+      "baseline_mean": 54823333.3,
+      "baseline_stddev": 4391634.6,
+      "delta": 10276665,
+      "score": 2.34,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-14T16:18:21.840559+00:00"
     }
   ]
 }

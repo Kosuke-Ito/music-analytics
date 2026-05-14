@@ -1284,6 +1284,47 @@
       "ytm_subscribers": 583000,
       "ytm_monthly_listeners": 4340000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-14",
+      "monthly_listeners": 2395966,
+      "collected_at": "2026-05-14T16:20:50.944880+00:00",
+      "spotify_followers": 1933430,
+      "youtube_subscribers": 583000,
+      "youtube_total_views": 480668736,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 135082
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 120210
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 89758
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 53034
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 44488
+        }
+      ],
+      "lastfm_listeners": 7210,
+      "lastfm_playcount": 391990,
+      "ytm_subscribers": 583000,
+      "ytm_monthly_listeners": 4340000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -1420,11 +1461,6 @@
         "subscribers": "639K"
       },
       {
-        "name": "Koresawa",
-        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "5.82M"
-      },
-      {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
         "subscribers": "2.38M"
@@ -1435,14 +1471,19 @@
         "subscribers": "4.95M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "13.2M"
-      },
-      {
         "name": "sumika",
         "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
         "subscribers": "5.2M"
+      },
+      {
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "5.82M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "13.2M"
       },
       {
         "name": "SHISHAMO",
@@ -1656,6 +1697,12 @@
           "views": 11321378,
           "likes": 65521,
           "comments": 128
+        },
+        {
+          "date": "2026-05-14",
+          "views": 11338545,
+          "likes": 65602,
+          "comments": 128
         }
       ]
     },
@@ -1841,6 +1888,12 @@
           "views": 23495551,
           "likes": 83555,
           "comments": 159
+        },
+        {
+          "date": "2026-05-14",
+          "views": 23516900,
+          "likes": 83675,
+          "comments": 159
         }
       ]
     },
@@ -2013,6 +2066,12 @@
           "date": "2026-05-13",
           "views": 15978819,
           "likes": 57872,
+          "comments": 109
+        },
+        {
+          "date": "2026-05-14",
+          "views": 15994802,
+          "likes": 57966,
           "comments": 109
         }
       ]
@@ -2382,6 +2441,12 @@
           "views": 15060138,
           "likes": 95718,
           "comments": 494
+        },
+        {
+          "date": "2026-05-14",
+          "views": 15098283,
+          "likes": 95841,
+          "comments": 497
         }
       ]
     },
@@ -2410,6 +2475,12 @@
           "date": "2026-05-13",
           "views": 2248633,
           "likes": 22192,
+          "comments": 156
+        },
+        {
+          "date": "2026-05-14",
+          "views": 2263027,
+          "likes": 22341,
           "comments": 156
         }
       ]
@@ -2607,6 +2678,18 @@
       "type": "annotated",
       "related_annotation": "TVアニメ「World is Dancing」OP「終宵」発表効果でSpotify月間リスナーが急増（+2,383,691・2.36σ）",
       "detected_at": "2026-05-13T16:30:18.740103+00:00"
+    },
+    {
+      "date": "2026-05-14",
+      "metric": "monthly_listeners",
+      "value": 2395966,
+      "baseline_mean": 2301405.6,
+      "baseline_stddev": 43980.3,
+      "delta": 94560,
+      "score": 2.15,
+      "type": "annotated",
+      "related_annotation": "TVアニメ「World is Dancing」OP「終宵」発表効果でSpotify月間リスナーが急増（+2,383,691・2.36σ）",
+      "detected_at": "2026-05-14T16:20:52.578217+00:00"
     }
   ]
 }
