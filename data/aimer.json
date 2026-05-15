@@ -1313,6 +1313,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 10800000,
       "ytm_total_views": 1822580531
+    },
+    {
+      "date": "2026-05-15",
+      "monthly_listeners": 3507256,
+      "collected_at": "2026-05-15T16:10:54.275484+00:00",
+      "spotify_followers": 2839582,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1824098223,
+      "youtube_video_count": 191,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 83005
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 81898
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 76688
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 51368
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40168
+        }
+      ],
+      "lastfm_listeners": 486403,
+      "lastfm_playcount": 24969643,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 10800000,
+      "ytm_total_views": 1822580531
     }
   ],
   "metadata": {
@@ -1347,6 +1388,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "sayuri",
+        "browse_id": "UCj-s48Irk1pcgnqvYIh4Xuw",
+        "subscribers": "2M"
+      },
+      {
         "name": "Rei Yasuda",
         "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
         "subscribers": "259K"
@@ -1354,7 +1400,7 @@
       {
         "name": "Chiai Fujikawa",
         "browse_id": "UCpzy28Kw66pBn5o8uP3m4tA",
-        "subscribers": "546K"
+        "subscribers": "542K"
       },
       {
         "name": "Tielle",
@@ -1364,7 +1410,7 @@
       {
         "name": "YOURNESS",
         "browse_id": "UCjAUZTGqk_ggJmFMNurtgng",
-        "subscribers": "251K"
+        "subscribers": "248K"
       },
       {
         "name": "krage",
@@ -1374,27 +1420,22 @@
       {
         "name": "Miyuna",
         "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
-        "subscribers": "167K"
-      },
-      {
-        "name": "majiko",
-        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "693K"
-      },
-      {
-        "name": "sayuri",
-        "browse_id": "UCj-s48Irk1pcgnqvYIh4Xuw",
-        "subscribers": "2.01M"
+        "subscribers": "166K"
       },
       {
         "name": "EGOIST",
         "browse_id": "UCKZLPAAyImrkYnDVR0O2UXQ",
-        "subscribers": "1.31M"
+        "subscribers": "1.33M"
       },
       {
-        "name": "Daoko",
-        "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
-        "subscribers": "3.92M"
+        "name": "majiko",
+        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
+        "subscribers": "701K"
+      },
+      {
+        "name": "TK from Ling tosite sigure",
+        "browse_id": "UC8Du0rASQFHx7CxziS4OuIA",
+        "subscribers": "113K"
       }
     ],
     "ytm_top_songs": [
@@ -1610,6 +1651,12 @@
           "views": 38634654,
           "likes": 274345,
           "comments": 1526
+        },
+        {
+          "date": "2026-05-15",
+          "views": 38673755,
+          "likes": 274557,
+          "comments": 1527
         }
       ]
     },
@@ -1800,6 +1847,12 @@
           "date": "2026-05-14",
           "views": 32917308,
           "likes": 152745,
+          "comments": 149
+        },
+        {
+          "date": "2026-05-15",
+          "views": 32932088,
+          "likes": 152774,
           "comments": 149
         }
       ]
@@ -1992,6 +2045,12 @@
           "views": 20018589,
           "likes": 111330,
           "comments": 272
+        },
+        {
+          "date": "2026-05-15",
+          "views": 20031545,
+          "likes": 111387,
+          "comments": 272
         }
       ]
     },
@@ -2182,6 +2241,12 @@
           "date": "2026-05-14",
           "views": 5304036,
           "likes": 55431,
+          "comments": 896
+        },
+        {
+          "date": "2026-05-15",
+          "views": 5310919,
+          "likes": 55459,
           "comments": 896
         }
       ]
@@ -2379,6 +2444,12 @@
           "views": 29931428,
           "likes": 129227,
           "comments": 726
+        },
+        {
+          "date": "2026-05-15",
+          "views": 29952433,
+          "likes": 129273,
+          "comments": 728
         }
       ]
     }
@@ -2471,6 +2542,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-08T15:28:26.851915+00:00"
+    },
+    {
+      "date": "2026-05-15",
+      "metric": "monthly_listeners",
+      "value": 3507256,
+      "baseline_mean": 3487337.4,
+      "baseline_stddev": 9586.5,
+      "delta": 19918,
+      "score": 2.08,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-15T16:10:55.723105+00:00"
     }
   ]
 }

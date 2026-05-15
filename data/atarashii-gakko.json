@@ -1313,6 +1313,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 4680000,
       "ytm_total_views": 570509046
+    },
+    {
+      "date": "2026-05-15",
+      "monthly_listeners": 864805,
+      "collected_at": "2026-05-15T16:13:23.751566+00:00",
+      "spotify_followers": 969223,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 590640173,
+      "youtube_video_count": 395,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20136
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 14692
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12020
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10054
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8020
+        }
+      ],
+      "lastfm_listeners": 8687,
+      "lastfm_playcount": 403774,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 4750000,
+      "ytm_total_views": 570509046
     }
   ],
   "metadata": {
@@ -1347,19 +1388,39 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "WEDNESDAY CAMPANELLA",
+        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
+        "subscribers": "2M"
+      },
+      {
+        "name": "BABYMETAL",
+        "browse_id": "UCCbekeZYV4LhXTxJYrHf9lg",
+        "subscribers": "8.95M"
+      },
+      {
+        "name": "Uchikubi Gokumon Doukoukai",
+        "browse_id": "UCfp91acTgHFcI9WZOOudwCQ",
+        "subscribers": "456K"
+      },
+      {
+        "name": "Rinne Amano",
+        "browse_id": "UCilIfSkrtkGFRsHWTBepAAw",
+        "subscribers": "5.29K"
+      },
+      {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "242K"
+        "subscribers": "241K"
       },
       {
         "name": "DONGURIZU",
         "browse_id": "UCTecU-10wvm8HJ3yXQLHmZA",
-        "subscribers": "98.5K"
+        "subscribers": "99.5K"
       },
       {
         "name": "SHISHIDO KAVKA",
         "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
-        "subscribers": "98.1K"
+        "subscribers": "97.7K"
       },
       {
         "name": "LADYBABY",
@@ -1369,32 +1430,12 @@
       {
         "name": "MINA",
         "browse_id": "UCx8OKIY88mu8pM1QtDDFXVw",
-        "subscribers": "265K"
+        "subscribers": "267K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "106K"
-      },
-      {
-        "name": "Akiko Wada",
-        "browse_id": "UC-o0qVSpZLpHmsOTh66YfXw",
-        "subscribers": "509K"
-      },
-      {
-        "name": "Uchikubi Gokumon Doukoukai",
-        "browse_id": "UCfp91acTgHFcI9WZOOudwCQ",
-        "subscribers": "460K"
-      },
-      {
-        "name": "Rinne Amano",
-        "browse_id": "UCilIfSkrtkGFRsHWTBepAAw",
-        "subscribers": "5.29K"
-      },
-      {
-        "name": "WEDNESDAY CAMPANELLA",
-        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
-        "subscribers": "1.99M"
+        "subscribers": "105K"
       }
     ],
     "ytm_top_songs": [
@@ -1610,6 +1651,12 @@
           "views": 18801701,
           "likes": 268760,
           "comments": 413
+        },
+        {
+          "date": "2026-05-15",
+          "views": 18813176,
+          "likes": 268930,
+          "comments": 413
         }
       ]
     },
@@ -1801,6 +1848,12 @@
           "views": 5311578,
           "likes": 30950,
           "comments": 135
+        },
+        {
+          "date": "2026-05-15",
+          "views": 5313507,
+          "likes": 30974,
+          "comments": 135
         }
       ]
     },
@@ -1991,6 +2044,12 @@
           "date": "2026-05-14",
           "views": 1986223,
           "likes": 33287,
+          "comments": 100
+        },
+        {
+          "date": "2026-05-15",
+          "views": 1989944,
+          "likes": 33338,
           "comments": 100
         }
       ]
@@ -2359,6 +2418,12 @@
           "views": 1848495,
           "likes": 20117,
           "comments": 144
+        },
+        {
+          "date": "2026-05-15",
+          "views": 1850127,
+          "likes": 20141,
+          "comments": 144
         }
       ]
     },
@@ -2399,6 +2464,12 @@
           "views": 96751,
           "likes": 4579,
           "comments": 166
+        },
+        {
+          "date": "2026-05-15",
+          "views": 105625,
+          "likes": 4839,
+          "comments": 169
         }
       ]
     }
@@ -2621,6 +2692,18 @@
       "type": "annotated",
       "related_annotation": "「Chanka Chanka」リリース（5/8）の継続波及でSpotify月間リスナーが上昇（+20,330・2.75σ）",
       "detected_at": "2026-05-14T16:21:58.028885+00:00"
+    },
+    {
+      "date": "2026-05-15",
+      "metric": "monthly_listeners",
+      "value": 864805,
+      "baseline_mean": 825621,
+      "baseline_stddev": 11186.0,
+      "delta": 39184,
+      "score": 3.5,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-15T16:13:25.158203+00:00"
     }
   ]
 }

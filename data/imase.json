@@ -1313,6 +1313,47 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 65099999,
       "ytm_total_views": 841476296
+    },
+    {
+      "date": "2026-05-15",
+      "monthly_listeners": 3327072,
+      "collected_at": "2026-05-15T16:09:48.765027+00:00",
+      "spotify_followers": 1007423,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 844506408,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 57846
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51424
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 45416
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39153
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 38587
+        }
+      ],
+      "lastfm_listeners": 402415,
+      "lastfm_playcount": 5731464,
+      "ytm_subscribers": 1340000,
+      "ytm_monthly_listeners": 65400000,
+      "ytm_total_views": 841476296
     }
   ],
   "annotations": [
@@ -1406,7 +1447,7 @@
       {
         "name": "4na",
         "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
-        "subscribers": "277K"
+        "subscribers": "275K"
       },
       {
         "name": "LUCKY TAPES",
@@ -1426,12 +1467,12 @@
       {
         "name": "G over",
         "browse_id": "UCVRsmPU-XYUpbKIm-Jha_LQ",
-        "subscribers": "94.8K"
+        "subscribers": "95.9K"
       },
       {
         "name": "Rinne",
         "browse_id": "UCbWE8ZDfkixEPbYiCpc3H7A",
-        "subscribers": "378K"
+        "subscribers": "376K"
       },
       {
         "name": "Yaffle",
@@ -1441,7 +1482,7 @@
       {
         "name": "Zettakun",
         "browse_id": "UCMVLVZvxO_xJv8l1ov7Ss4Q",
-        "subscribers": "57.8K"
+        "subscribers": "58.3K"
       },
       {
         "name": "Mel",
@@ -1451,7 +1492,7 @@
       {
         "name": "Ohashi Chippoke",
         "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "189K"
+        "subscribers": "190K"
       }
     ],
     "ytm_top_songs": [
@@ -1667,6 +1708,12 @@
           "views": 138306859,
           "likes": 1087168,
           "comments": 5872
+        },
+        {
+          "date": "2026-05-15",
+          "views": 138369463,
+          "likes": 1087720,
+          "comments": 5876
         }
       ]
     },
@@ -1857,6 +1904,12 @@
           "date": "2026-05-14",
           "views": 7616838,
           "likes": 56236,
+          "comments": 160
+        },
+        {
+          "date": "2026-05-15",
+          "views": 7625997,
+          "likes": 56299,
           "comments": 160
         }
       ]
@@ -2049,6 +2102,12 @@
           "views": 3296619,
           "likes": 36372,
           "comments": 284
+        },
+        {
+          "date": "2026-05-15",
+          "views": 3299741,
+          "likes": 36392,
+          "comments": 284
         }
       ]
     },
@@ -2239,6 +2298,12 @@
           "date": "2026-05-14",
           "views": 11502446,
           "likes": 51089,
+          "comments": 153
+        },
+        {
+          "date": "2026-05-15",
+          "views": 11506269,
+          "likes": 51107,
           "comments": 153
         }
       ]
@@ -2436,6 +2501,12 @@
           "views": 4158127,
           "likes": 38438,
           "comments": 192
+        },
+        {
+          "date": "2026-05-15",
+          "views": 4160883,
+          "likes": 38474,
+          "comments": 191
         }
       ]
     }
@@ -2560,6 +2631,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-14T16:18:21.840559+00:00"
+    },
+    {
+      "date": "2026-05-15",
+      "metric": "ytm_monthly_listeners",
+      "value": 65400000,
+      "baseline_mean": 55303333.2,
+      "baseline_stddev": 4691444.7,
+      "delta": 10096666,
+      "score": 2.15,
+      "type": "annotated",
+      "related_annotation": "ジャックスCM「惑星ロマンス」放映継続でYTM月間リスナー65.1Mを維持（2.34σ）",
+      "detected_at": "2026-05-15T16:09:50.248161+00:00"
     }
   ]
 }
