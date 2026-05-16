@@ -1469,6 +1469,47 @@
       "ytm_subscribers": 154,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-16",
+      "monthly_listeners": 483,
+      "collected_at": "2026-05-16T14:56:19.452441+00:00",
+      "spotify_followers": 935,
+      "youtube_subscribers": 364,
+      "youtube_total_views": 65673,
+      "youtube_video_count": 170,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 32
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 11
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 10
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 8
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 7
+        }
+      ],
+      "lastfm_listeners": 737,
+      "lastfm_playcount": 2416,
+      "ytm_subscribers": 154,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -1566,14 +1607,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Seino Kentaro",
-        "browse_id": "UCWZ109ZanZtZwzHcHS5TsfQ",
-        "subscribers": "3.85K"
+        "name": "Souvenir",
+        "browse_id": "UC2-cczOy1b3JlJIEXuMleHQ",
+        "subscribers": "1.65K"
       },
       {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "59.9K"
+        "subscribers": "58.9K"
       },
       {
         "name": "Offo tokyo",
@@ -1589,11 +1630,6 @@
         "name": "Yujin Aramaki",
         "browse_id": "UC7y02F84Rxxu1Ifa0BFMKXg",
         "subscribers": "22.3K"
-      },
-      {
-        "name": "Souvenir",
-        "browse_id": "UC2-cczOy1b3JlJIEXuMleHQ",
-        "subscribers": "1.65K"
       },
       {
         "name": "Deep Sea Diving Club",
@@ -1614,6 +1650,11 @@
         "name": "Nolzy",
         "browse_id": "UCDg2E8bOoRVGZc-TN0rcJwQ",
         "subscribers": "4.29K"
+      },
+      {
+        "name": "Cocolashika",
+        "browse_id": "UCc4EvEBa6wAcSP9-K__6_HA",
+        "subscribers": "30K"
       }
     ],
     "ytm_top_songs": [
@@ -1834,6 +1875,12 @@
           "views": 3179,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-05-16",
+          "views": 3183,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -2029,6 +2076,12 @@
         {
           "date": "2026-05-15",
           "views": 5493,
+          "likes": 22,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-16",
+          "views": 5501,
           "likes": 22,
           "comments": 0
         }
@@ -2228,6 +2281,12 @@
           "views": 12069,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-05-16",
+          "views": 12086,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -2425,6 +2484,12 @@
           "views": 31817,
           "likes": 150,
           "comments": 0
+        },
+        {
+          "date": "2026-05-16",
+          "views": 31844,
+          "likes": 150,
+          "comments": 0
         }
       ]
     },
@@ -2616,6 +2681,12 @@
           "views": 7855,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-05-16",
+          "views": 7862,
+          "likes": 60,
+          "comments": 0
         }
       ]
     },
@@ -2799,6 +2870,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-15T16:05:07.066237+00:00"
+    },
+    {
+      "date": "2026-05-16",
+      "metric": "monthly_listeners",
+      "value": 483,
+      "baseline_mean": 452.5,
+      "baseline_stddev": 13.8,
+      "delta": 30,
+      "score": 2.2,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-05-16T14:56:20.744319+00:00"
     }
   ]
 }

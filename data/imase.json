@@ -1354,6 +1354,47 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 65400000,
       "ytm_total_views": 841476296
+    },
+    {
+      "date": "2026-05-16",
+      "monthly_listeners": 3332960,
+      "collected_at": "2026-05-16T15:01:02.365292+00:00",
+      "spotify_followers": 1007811,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 844506408,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 58128
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51535
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 45640
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39234
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 38748
+        }
+      ],
+      "lastfm_listeners": 402415,
+      "lastfm_playcount": 5731464,
+      "ytm_subscribers": 1340000,
+      "ytm_monthly_listeners": 66300000,
+      "ytm_total_views": 841476296
     }
   ],
   "annotations": [
@@ -1445,14 +1486,24 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Mel",
+        "browse_id": "UC3-nhpqJ7oA-Gj0fglYNQ9w",
+        "subscribers": "131K"
+      },
+      {
+        "name": "Ohashi Chippoke",
+        "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
+        "subscribers": "191K"
+      },
+      {
         "name": "4na",
         "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
-        "subscribers": "275K"
+        "subscribers": "267K"
       },
       {
         "name": "LUCKY TAPES",
         "browse_id": "UCYvGyI6FqmS5GFnCGEttXdg",
-        "subscribers": "210K"
+        "subscribers": "208K"
       },
       {
         "name": "KERENMI",
@@ -1467,32 +1518,22 @@
       {
         "name": "G over",
         "browse_id": "UCVRsmPU-XYUpbKIm-Jha_LQ",
-        "subscribers": "95.9K"
+        "subscribers": "97.1K"
       },
       {
         "name": "Rinne",
         "browse_id": "UCbWE8ZDfkixEPbYiCpc3H7A",
-        "subscribers": "376K"
+        "subscribers": "373K"
       },
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "146K"
+        "subscribers": "147K"
       },
       {
         "name": "Zettakun",
         "browse_id": "UCMVLVZvxO_xJv8l1ov7Ss4Q",
-        "subscribers": "58.3K"
-      },
-      {
-        "name": "Mel",
-        "browse_id": "UC3-nhpqJ7oA-Gj0fglYNQ9w",
-        "subscribers": "131K"
-      },
-      {
-        "name": "Ohashi Chippoke",
-        "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "190K"
+        "subscribers": "64.4K"
       }
     ],
     "ytm_top_songs": [
@@ -1714,6 +1755,12 @@
           "views": 138369463,
           "likes": 1087720,
           "comments": 5876
+        },
+        {
+          "date": "2026-05-16",
+          "views": 138430583,
+          "likes": 1088286,
+          "comments": 5879
         }
       ]
     },
@@ -1910,6 +1957,12 @@
           "date": "2026-05-15",
           "views": 7625997,
           "likes": 56299,
+          "comments": 160
+        },
+        {
+          "date": "2026-05-16",
+          "views": 7634495,
+          "likes": 56354,
           "comments": 160
         }
       ]
@@ -2108,6 +2161,12 @@
           "views": 3299741,
           "likes": 36392,
           "comments": 284
+        },
+        {
+          "date": "2026-05-16",
+          "views": 3302464,
+          "likes": 36415,
+          "comments": 284
         }
       ]
     },
@@ -2304,6 +2363,12 @@
           "date": "2026-05-15",
           "views": 11506269,
           "likes": 51107,
+          "comments": 153
+        },
+        {
+          "date": "2026-05-16",
+          "views": 11510187,
+          "likes": 51125,
           "comments": 153
         }
       ]
@@ -2507,6 +2572,12 @@
           "views": 4160883,
           "likes": 38474,
           "comments": 191
+        },
+        {
+          "date": "2026-05-16",
+          "views": 4163536,
+          "likes": 38517,
+          "comments": 192
         }
       ]
     }
@@ -2643,6 +2714,18 @@
       "type": "annotated",
       "related_annotation": "ジャックスCM「惑星ロマンス」放映継続でYTM月間リスナー65.1Mを維持（2.34σ）",
       "detected_at": "2026-05-15T16:09:50.248161+00:00"
+    },
+    {
+      "date": "2026-05-16",
+      "metric": "ytm_monthly_listeners",
+      "value": 66300000,
+      "baseline_mean": 55793333.2,
+      "baseline_stddev": 4945835.3,
+      "delta": 10506666,
+      "score": 2.12,
+      "type": "annotated",
+      "related_annotation": "ジャックスCM「惑星ロマンス」放映継続でYTM月間リスナー65.1Mを維持（2.34σ）",
+      "detected_at": "2026-05-16T15:01:05.308213+00:00"
     }
   ]
 }

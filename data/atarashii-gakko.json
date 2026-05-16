@@ -1354,6 +1354,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 4750000,
       "ytm_total_views": 570509046
+    },
+    {
+      "date": "2026-05-16",
+      "monthly_listeners": 868136,
+      "collected_at": "2026-05-16T15:04:44.877306+00:00",
+      "spotify_followers": 969566,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 590640173,
+      "youtube_video_count": 396,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20252
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 15144
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12147
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10068
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8043
+        }
+      ],
+      "lastfm_listeners": 8687,
+      "lastfm_playcount": 403859,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 4770000,
+      "ytm_total_views": 570509046
     }
   ],
   "metadata": {
@@ -1388,54 +1429,54 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "MAXIMUM THE HORMONE",
+        "browse_id": "UC10viXnr5P30UrEb36Y984g",
+        "subscribers": "1.65M"
+      },
+      {
+        "name": "Genie High",
+        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
+        "subscribers": "556K"
+      },
+      {
         "name": "WEDNESDAY CAMPANELLA",
         "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
-        "subscribers": "2M"
-      },
-      {
-        "name": "BABYMETAL",
-        "browse_id": "UCCbekeZYV4LhXTxJYrHf9lg",
-        "subscribers": "8.95M"
-      },
-      {
-        "name": "Uchikubi Gokumon Doukoukai",
-        "browse_id": "UCfp91acTgHFcI9WZOOudwCQ",
-        "subscribers": "456K"
-      },
-      {
-        "name": "Rinne Amano",
-        "browse_id": "UCilIfSkrtkGFRsHWTBepAAw",
-        "subscribers": "5.29K"
+        "subscribers": "1.99M"
       },
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "241K"
+        "subscribers": "239K"
       },
       {
         "name": "DONGURIZU",
         "browse_id": "UCTecU-10wvm8HJ3yXQLHmZA",
-        "subscribers": "99.5K"
+        "subscribers": "101K"
       },
       {
         "name": "SHISHIDO KAVKA",
         "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
-        "subscribers": "97.7K"
+        "subscribers": "96.9K"
       },
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "126K"
+        "subscribers": "125K"
       },
       {
         "name": "MINA",
         "browse_id": "UCx8OKIY88mu8pM1QtDDFXVw",
-        "subscribers": "267K"
+        "subscribers": "265K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "105K"
+        "subscribers": "104K"
+      },
+      {
+        "name": "Akiko Wada",
+        "browse_id": "UC-o0qVSpZLpHmsOTh66YfXw",
+        "subscribers": "468K"
       }
     ],
     "ytm_top_songs": [
@@ -1657,6 +1698,12 @@
           "views": 18813176,
           "likes": 268930,
           "comments": 413
+        },
+        {
+          "date": "2026-05-16",
+          "views": 18823781,
+          "likes": 269065,
+          "comments": 413
         }
       ]
     },
@@ -1854,6 +1901,12 @@
           "views": 5313507,
           "likes": 30974,
           "comments": 135
+        },
+        {
+          "date": "2026-05-16",
+          "views": 5315302,
+          "likes": 30993,
+          "comments": 135
         }
       ]
     },
@@ -2050,6 +2103,12 @@
           "date": "2026-05-15",
           "views": 1989944,
           "likes": 33338,
+          "comments": 100
+        },
+        {
+          "date": "2026-05-16",
+          "views": 1993396,
+          "likes": 33403,
           "comments": 100
         }
       ]
@@ -2424,6 +2483,12 @@
           "views": 1850127,
           "likes": 20141,
           "comments": 144
+        },
+        {
+          "date": "2026-05-16",
+          "views": 1851738,
+          "likes": 20167,
+          "comments": 144
         }
       ]
     },
@@ -2469,6 +2534,12 @@
           "date": "2026-05-15",
           "views": 105625,
           "likes": 4839,
+          "comments": 169
+        },
+        {
+          "date": "2026-05-16",
+          "views": 111988,
+          "likes": 5045,
           "comments": 169
         }
       ]
@@ -2725,6 +2796,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-15T16:13:25.158203+00:00"
+    },
+    {
+      "date": "2026-05-16",
+      "metric": "monthly_listeners",
+      "value": 868136,
+      "baseline_mean": 826696.6,
+      "baseline_stddev": 13174.0,
+      "delta": 41439,
+      "score": 3.15,
+      "type": "annotated",
+      "related_annotation": "初の中南米ツアー＋Primavera Sound Barcelona 2026出演を発表",
+      "detected_at": "2026-05-16T15:04:46.388942+00:00"
     }
   ]
 }

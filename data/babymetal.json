@@ -1354,6 +1354,47 @@
       "ytm_subscribers": 3620000,
       "ytm_monthly_listeners": 8950000,
       "ytm_total_views": 1062841494
+    },
+    {
+      "date": "2026-05-16",
+      "monthly_listeners": 3519853,
+      "collected_at": "2026-05-16T15:05:37.026668+00:00",
+      "spotify_followers": 2978174,
+      "youtube_subscribers": 3620000,
+      "youtube_total_views": 1070858680,
+      "youtube_video_count": 351,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 62795
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 59033
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 47940
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 43442
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 40269
+        }
+      ],
+      "lastfm_listeners": 967557,
+      "lastfm_playcount": 58865398,
+      "ytm_subscribers": 3620000,
+      "ytm_monthly_listeners": 8930000,
+      "ytm_total_views": 1062841494
     }
   ],
   "annotations": [
@@ -1489,29 +1530,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Ankor",
-        "browse_id": "UCOqsLFStKGClenRjiN1Ftbg",
-        "subscribers": "320K"
+        "name": "MAXIMUM THE HORMONE",
+        "browse_id": "UC10viXnr5P30UrEb36Y984g",
+        "subscribers": "1.65M"
       },
       {
         "name": "Bullet For My Valentine",
         "browse_id": "UCTmXENHeU8wvjd4I180VdBw",
-        "subscribers": "3.79M"
+        "subscribers": "3.91M"
       },
       {
         "name": "DragonForce",
         "browse_id": "UCDademfIkaXZGd2Ww-S60Tw",
-        "subscribers": "6.3M"
+        "subscribers": "6.29M"
       },
       {
-        "name": "Ironbunny",
-        "browse_id": "UCOXQpHNB7kPqNibN8_5dCNQ",
-        "subscribers": "24.9K"
-      },
-      {
-        "name": "Passcode",
-        "browse_id": "UCf7G8LOCgwZs3cU5CQsyjZQ",
-        "subscribers": "139K"
+        "name": "ARCH ENEMY",
+        "browse_id": "UCrflfrfvAw_s8fGcVXUtnPA",
+        "subscribers": "1.07M"
       },
       {
         "name": "Sakura Gakuin",
@@ -1521,22 +1557,27 @@
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "126K"
+        "subscribers": "125K"
       },
       {
         "name": "Mellows",
         "browse_id": "UC9BIwJgZn6hJCldEBvxOd-g",
-        "subscribers": "4.14K"
+        "subscribers": "4.15K"
       },
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "292K"
+        "subscribers": "294K"
       },
       {
         "name": "Bridear",
         "browse_id": "UCP6kdvZVATSyi1TOmgia5Fg",
         "subscribers": "39.7K"
+      },
+      {
+        "name": "KAQRIYOTERROR",
+        "browse_id": "UCELQIWPXXUmZeTpwXnTjuzA",
+        "subscribers": "2.01K"
       }
     ],
     "ytm_top_songs": [
@@ -1758,6 +1799,12 @@
           "views": 6653658,
           "likes": 77830,
           "comments": 246
+        },
+        {
+          "date": "2026-05-16",
+          "views": 6677502,
+          "likes": 78033,
+          "comments": 248
         }
       ]
     },
@@ -1955,6 +2002,12 @@
           "views": 4210582,
           "likes": 86354,
           "comments": 453
+        },
+        {
+          "date": "2026-05-16",
+          "views": 4225808,
+          "likes": 86607,
+          "comments": 454
         }
       ]
     },
@@ -2151,6 +2204,12 @@
           "date": "2026-05-15",
           "views": 4602439,
           "likes": 66551,
+          "comments": 218
+        },
+        {
+          "date": "2026-05-16",
+          "views": 4615776,
+          "likes": 66670,
           "comments": 218
         }
       ]
@@ -2349,6 +2408,12 @@
           "views": 1908740,
           "likes": 37519,
           "comments": 224
+        },
+        {
+          "date": "2026-05-16",
+          "views": 1917179,
+          "likes": 37684,
+          "comments": 225
         }
       ]
     },
@@ -2545,6 +2610,12 @@
           "date": "2026-05-15",
           "views": 3493110,
           "likes": 68283,
+          "comments": 307
+        },
+        {
+          "date": "2026-05-16",
+          "views": 3505739,
+          "likes": 68462,
           "comments": 307
         }
       ]
@@ -2766,6 +2837,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-15T16:14:13.635344+00:00"
+    },
+    {
+      "date": "2026-05-16",
+      "metric": "youtube_total_views",
+      "value": 1070858680,
+      "baseline_mean": 1061685833.9,
+      "baseline_stddev": 4159104.2,
+      "delta": 9172846,
+      "score": 2.21,
+      "type": "annotated",
+      "related_annotation": "5/11解凍後もYouTube総再生数が同値で推移、ベースライン追い上げによる統計的残影（2.49σ）",
+      "detected_at": "2026-05-16T15:05:38.671084+00:00"
     }
   ]
 }
