@@ -1469,6 +1469,47 @@
       "ytm_subscribers": 165000,
       "ytm_monthly_listeners": 3000000,
       "ytm_total_views": 74468970
+    },
+    {
+      "date": "2026-05-17",
+      "monthly_listeners": 242716,
+      "collected_at": "2026-05-17T14:53:46.015974+00:00",
+      "spotify_followers": 111067,
+      "youtube_subscribers": 165000,
+      "youtube_total_views": 75522331,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 7843
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6892
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4642
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 3891
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2900
+        }
+      ],
+      "lastfm_listeners": 34478,
+      "lastfm_playcount": 513500,
+      "ytm_subscribers": 165000,
+      "ytm_monthly_listeners": 2990000,
+      "ytm_total_views": 74952211
     }
   ],
   "metadata": {
@@ -1503,14 +1544,29 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Sano ibuki",
+        "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
+        "subscribers": "59K"
+      },
+      {
+        "name": "tota",
+        "browse_id": "UCc95RA4CPcWdTRBk5YunwRA",
+        "subscribers": "4.93M"
+      },
+      {
         "name": "igarashi haru",
         "browse_id": "UCdnkel5QOLJTPkCd2TfYfqw",
         "subscribers": "85.5K"
       },
       {
+        "name": "Conton Candy",
+        "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
+        "subscribers": "2.07M"
+      },
+      {
         "name": "hockrockb",
         "browse_id": "UCkgOP8Xy2stY3WbSzILWBNQ",
-        "subscribers": "60.1K"
+        "subscribers": "61.4K"
       },
       {
         "name": "POP ART TOWN",
@@ -1530,27 +1586,12 @@
       {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "102K"
+        "subscribers": "100K"
       },
       {
         "name": "R+...",
         "browse_id": "UChB6sMlO_Thevm3k01WBJkQ",
-        "subscribers": "141K"
-      },
-      {
-        "name": "harha",
-        "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "180K"
-      },
-      {
-        "name": "Yui Nishio",
-        "browse_id": "UCMzyh64hvTumNd2uu-huW0g",
-        "subscribers": "72.9K"
-      },
-      {
-        "name": "Sano ibuki",
-        "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "58.9K"
+        "subscribers": "142K"
       }
     ],
     "ytm_top_songs": [
@@ -1778,6 +1819,12 @@
           "views": 1017709,
           "likes": 9927,
           "comments": 190
+        },
+        {
+          "date": "2026-05-17",
+          "views": 1018255,
+          "likes": 9929,
+          "comments": 190
         }
       ]
     },
@@ -1980,6 +2027,12 @@
           "date": "2026-05-16",
           "views": 831355,
           "likes": 8044,
+          "comments": 37
+        },
+        {
+          "date": "2026-05-17",
+          "views": 831955,
+          "likes": 8051,
           "comments": 37
         }
       ]
@@ -2184,6 +2237,12 @@
           "views": 385029,
           "likes": 3666,
           "comments": 46
+        },
+        {
+          "date": "2026-05-17",
+          "views": 385801,
+          "likes": 3667,
+          "comments": 47
         }
       ]
     },
@@ -2386,6 +2445,12 @@
           "date": "2026-05-16",
           "views": 1066234,
           "likes": 11414,
+          "comments": 140
+        },
+        {
+          "date": "2026-05-17",
+          "views": 1066709,
+          "likes": 11417,
           "comments": 140
         }
       ]
@@ -2595,6 +2660,12 @@
           "views": 30294,
           "likes": 480,
           "comments": 13
+        },
+        {
+          "date": "2026-05-17",
+          "views": 30644,
+          "likes": 486,
+          "comments": 14
         }
       ]
     }
@@ -2665,6 +2736,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-27T15:34:33.546501+00:00"
+    },
+    {
+      "date": "2026-05-17",
+      "metric": "youtube_total_views",
+      "value": 75522331,
+      "baseline_mean": 74855728.4,
+      "baseline_stddev": 200934.4,
+      "delta": 666602,
+      "score": 3.32,
+      "type": "annotated",
+      "related_annotation": "テレビ東京「ポケットモンスター音楽祭」に出演",
+      "detected_at": "2026-05-17T14:53:47.380981+00:00"
     }
   ]
 }

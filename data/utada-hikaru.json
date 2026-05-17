@@ -1395,6 +1395,47 @@
       "ytm_subscribers": 2490000,
       "ytm_monthly_listeners": 21800000,
       "ytm_total_views": 1740924143
+    },
+    {
+      "date": "2026-05-17",
+      "monthly_listeners": 7638871,
+      "collected_at": "2026-05-17T15:01:17.157453+00:00",
+      "spotify_followers": 4450639,
+      "youtube_subscribers": 2500000,
+      "youtube_total_views": 1754731667,
+      "youtube_video_count": 258,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 245887
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 226467
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 148888
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 145789
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 90755
+        }
+      ],
+      "lastfm_listeners": 323407,
+      "lastfm_playcount": 31528344,
+      "ytm_subscribers": 2500000,
+      "ytm_monthly_listeners": 21800000,
+      "ytm_total_views": 1752434183
     }
   ],
   "annotations": [
@@ -1497,17 +1538,12 @@
       {
         "name": "Mika Nakashima",
         "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
-        "subscribers": "5.95M"
-      },
-      {
-        "name": "Yuko Ando",
-        "browse_id": "UCUW7BA2PIPWn0lQCFfbU3pA",
-        "subscribers": "179K"
+        "subscribers": "5.87M"
       },
       {
         "name": "m-flo",
         "browse_id": "UCZeNdH-qUza0BlYSVhbSe7g",
-        "subscribers": "3.32M"
+        "subscribers": "3.29M"
       },
       {
         "name": "Perfume",
@@ -1517,7 +1553,7 @@
       {
         "name": "Ayaka",
         "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
-        "subscribers": "5.16M"
+        "subscribers": "5.14M"
       },
       {
         "name": "MISIA",
@@ -1527,12 +1563,7 @@
       {
         "name": "Chihiro Onitsuka",
         "browse_id": "UCXAZfW6_7LBpa-HN4suL6ig",
-        "subscribers": "885K"
-      },
-      {
-        "name": "Crystal Kay",
-        "browse_id": "UC44J7DCoUfVJ7IwYKqrG8Rw",
-        "subscribers": "1.57M"
+        "subscribers": "895K"
       },
       {
         "name": "Ken Hirai",
@@ -1542,7 +1573,17 @@
       {
         "name": "Do As Infinity",
         "browse_id": "UCkjeaOEoXXgoKGoMDEWCs7Q",
-        "subscribers": "1.43M"
+        "subscribers": "1.36M"
+      },
+      {
+        "name": "Crystal Kay",
+        "browse_id": "UC44J7DCoUfVJ7IwYKqrG8Rw",
+        "subscribers": "1.57M"
+      },
+      {
+        "name": "Yuko Ando",
+        "browse_id": "UCUW7BA2PIPWn0lQCFfbU3pA",
+        "subscribers": "179K"
       }
     ],
     "ytm_top_songs": [
@@ -1770,6 +1811,12 @@
           "views": 52843290,
           "likes": 303715,
           "comments": 2496
+        },
+        {
+          "date": "2026-05-17",
+          "views": 52930416,
+          "likes": 303972,
+          "comments": 2497
         }
       ]
     },
@@ -1973,6 +2020,12 @@
           "views": 1272166,
           "likes": 13238,
           "comments": 76
+        },
+        {
+          "date": "2026-05-17",
+          "views": 1284320,
+          "likes": 13330,
+          "comments": 76
         }
       ]
     },
@@ -2175,6 +2228,12 @@
           "date": "2026-05-16",
           "views": 26322349,
           "likes": 206731,
+          "comments": 479
+        },
+        {
+          "date": "2026-05-17",
+          "views": 26336166,
+          "likes": 206825,
           "comments": 479
         }
       ]
@@ -2522,6 +2581,12 @@
           "views": 1091994,
           "likes": 7433,
           "comments": 19
+        },
+        {
+          "date": "2026-05-17",
+          "views": 1093117,
+          "likes": 7445,
+          "comments": 19
         }
       ]
     },
@@ -2581,6 +2646,12 @@
           "views": 85434,
           "likes": 1713,
           "comments": 32
+        },
+        {
+          "date": "2026-05-17",
+          "views": 88408,
+          "likes": 1762,
+          "comments": 32
         }
       ]
     },
@@ -2620,6 +2691,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-06T16:10:58.227598+00:00"
+    },
+    {
+      "date": "2026-05-17",
+      "metric": "youtube_total_views",
+      "value": 1754731667,
+      "baseline_mean": 1733658984.6,
+      "baseline_stddev": 7931409.9,
+      "delta": 21072682,
+      "score": 2.66,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-17T15:01:18.668390+00:00"
     }
   ]
 }

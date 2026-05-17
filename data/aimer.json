@@ -1395,6 +1395,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 10800000,
       "ytm_total_views": 1822580531
+    },
+    {
+      "date": "2026-05-17",
+      "monthly_listeners": 3509532,
+      "collected_at": "2026-05-17T15:02:58.041443+00:00",
+      "spotify_followers": 2840591,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1824098223,
+      "youtube_video_count": 191,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 82876
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 81842
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 76606
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 51304
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40177
+        }
+      ],
+      "lastfm_listeners": 486906,
+      "lastfm_playcount": 24988484,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 10800000,
+      "ytm_total_views": 1822580531
     }
   ],
   "metadata": {
@@ -1431,17 +1472,22 @@
       {
         "name": "sayuri",
         "browse_id": "UCj-s48Irk1pcgnqvYIh4Xuw",
-        "subscribers": "1.98M"
+        "subscribers": "1.97M"
       },
       {
         "name": "Rei Yasuda",
         "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
-        "subscribers": "258K"
+        "subscribers": "246K"
       },
       {
         "name": "Chiai Fujikawa",
         "browse_id": "UCpzy28Kw66pBn5o8uP3m4tA",
         "subscribers": "530K"
+      },
+      {
+        "name": "majiko",
+        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
+        "subscribers": "708K"
       },
       {
         "name": "Tielle",
@@ -1464,14 +1510,9 @@
         "subscribers": "165K"
       },
       {
-        "name": "Hiroyuki SAWANO",
-        "browse_id": "UCy3Lx1fNl4XnxleZBJK_PXw",
-        "subscribers": "62.2M"
-      },
-      {
-        "name": "majiko",
-        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "706K"
+        "name": "Eir Aoi",
+        "browse_id": "UCG5E8GexF7f2u44J3Rjn0fw",
+        "subscribers": "4.32M"
       },
       {
         "name": "TK from Ling tosite sigure",
@@ -1704,6 +1745,12 @@
           "views": 38708584,
           "likes": 274759,
           "comments": 1527
+        },
+        {
+          "date": "2026-05-17",
+          "views": 38744281,
+          "likes": 274991,
+          "comments": 1529
         }
       ]
     },
@@ -1906,6 +1953,12 @@
           "date": "2026-05-16",
           "views": 32945292,
           "likes": 152825,
+          "comments": 150
+        },
+        {
+          "date": "2026-05-17",
+          "views": 32958744,
+          "likes": 152889,
           "comments": 150
         }
       ]
@@ -2110,6 +2163,12 @@
           "views": 20042738,
           "likes": 111444,
           "comments": 272
+        },
+        {
+          "date": "2026-05-17",
+          "views": 20054321,
+          "likes": 111499,
+          "comments": 272
         }
       ]
     },
@@ -2313,6 +2372,12 @@
           "views": 5317092,
           "likes": 55491,
           "comments": 897
+        },
+        {
+          "date": "2026-05-17",
+          "views": 5323157,
+          "likes": 55524,
+          "comments": 897
         }
       ]
     },
@@ -2461,6 +2526,12 @@
           "date": "2026-05-16",
           "views": 16874970,
           "likes": 85150,
+          "comments": 149
+        },
+        {
+          "date": "2026-05-17",
+          "views": 16886906,
+          "likes": 85211,
           "comments": 149
         }
       ]
@@ -2647,6 +2718,18 @@
       "type": "annotated",
       "related_annotation": "SAO新作ゲーム主題歌発表（5/11）＋SACRA MUSIC 10周年コンピ配信（5/13）効果が継続（+19,918・2.08σ）",
       "detected_at": "2026-05-16T15:02:13.080741+00:00"
+    },
+    {
+      "date": "2026-05-17",
+      "metric": "monthly_listeners",
+      "value": 3509532,
+      "baseline_mean": 3487973.9,
+      "baseline_stddev": 10597.5,
+      "delta": 21558,
+      "score": 2.03,
+      "type": "annotated",
+      "related_annotation": "SAO新作ゲーム主題歌発表（5/11）＋SACRA MUSIC 10周年コンピ配信（5/13）効果が継続（+19,918・2.08σ）",
+      "detected_at": "2026-05-17T15:02:59.846516+00:00"
     }
   ]
 }

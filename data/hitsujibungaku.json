@@ -1395,6 +1395,47 @@
       "ytm_subscribers": 444000,
       "ytm_monthly_listeners": 5810000,
       "ytm_total_views": 332485562
+    },
+    {
+      "date": "2026-05-17",
+      "monthly_listeners": 1789395,
+      "collected_at": "2026-05-17T15:05:16.383077+00:00",
+      "spotify_followers": 487627,
+      "youtube_subscribers": 444000,
+      "youtube_total_views": 334752418,
+      "youtube_video_count": 138,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 61390
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 47480
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 33530
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 30787
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 20916
+        }
+      ],
+      "lastfm_listeners": 18181,
+      "lastfm_playcount": 1231529,
+      "ytm_subscribers": 444000,
+      "ytm_monthly_listeners": 5810000,
+      "ytm_total_views": 332485562
     }
   ],
   "annotations": [
@@ -1528,8 +1569,8 @@
         "url": "https://www.last.fm/music/tomoo"
       },
       {
-        "name": "緑黄色社会",
-        "url": "https://www.last.fm/music/%E7%B7%91%E9%BB%84%E8%89%B2%E7%A4%BE%E4%BC%9A"
+        "name": "ずっと真夜中でいいのに。",
+        "url": "https://www.last.fm/music/%E3%81%9A%E3%81%A3%E3%81%A8%E7%9C%9F%E5%A4%9C%E4%B8%AD%E3%81%A7%E3%81%84%E3%81%84%E3%81%AE%E3%81%AB%E3%80%82"
       }
     ],
     "lastfm_tags": [
@@ -1541,14 +1582,29 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "regallily",
-        "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
-        "subscribers": "237K"
+        "name": "Nishina",
+        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
+        "subscribers": "305K"
+      },
+      {
+        "name": "Chilli Beans.",
+        "browse_id": "UCkI4roj4YVHrTh7PftDVxmQ",
+        "subscribers": "342K"
       },
       {
         "name": "chilldspot",
         "browse_id": "UCpAYVXySypaqfb2JA_papUA",
-        "subscribers": "147K"
+        "subscribers": "148K"
+      },
+      {
+        "name": "Asian Kung-Fu Generation",
+        "browse_id": "UCx_es_PpRD6fhpNU-vzlQ_g",
+        "subscribers": "4.15M"
+      },
+      {
+        "name": "regallily",
+        "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
+        "subscribers": "236K"
       },
       {
         "name": "Laura day romance",
@@ -1563,32 +1619,17 @@
       {
         "name": "CodyLee",
         "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "277K"
+        "subscribers": "261K"
       },
       {
         "name": "mol-74",
         "browse_id": "UCEvtm90ugC6XKB74g8ukTKg",
-        "subscribers": "107K"
+        "subscribers": "106K"
       },
       {
         "name": "CHIAKI SATO",
         "browse_id": "UCgPeNtXtc4sWEJSqQvNJzmQ",
         "subscribers": "100K"
-      },
-      {
-        "name": "yonige",
-        "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
-        "subscribers": "318K"
-      },
-      {
-        "name": "bungeitengoku",
-        "browse_id": "UCO-XTBzvzhd7FgNoNseKqIw",
-        "subscribers": "259K"
-      },
-      {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "117K"
       }
     ],
     "ytm_top_songs": [
@@ -1816,6 +1857,12 @@
           "views": 18407773,
           "likes": 118568,
           "comments": 350
+        },
+        {
+          "date": "2026-05-17",
+          "views": 18433885,
+          "likes": 118800,
+          "comments": 350
         }
       ]
     },
@@ -2019,6 +2066,12 @@
           "views": 2744540,
           "likes": 22796,
           "comments": 156
+        },
+        {
+          "date": "2026-05-17",
+          "views": 2784951,
+          "likes": 22962,
+          "comments": 158
         }
       ]
     },
@@ -2221,6 +2274,12 @@
           "date": "2026-05-16",
           "views": 79360,
           "likes": 1733,
+          "comments": 65
+        },
+        {
+          "date": "2026-05-17",
+          "views": 79974,
+          "likes": 1737,
           "comments": 65
         }
       ]
@@ -2425,6 +2484,12 @@
           "views": 1357017,
           "likes": 12791,
           "comments": 83
+        },
+        {
+          "date": "2026-05-17",
+          "views": 1359134,
+          "likes": 12806,
+          "comments": 83
         }
       ]
     },
@@ -2628,6 +2693,12 @@
           "views": 1999758,
           "likes": 15677,
           "comments": 125
+        },
+        {
+          "date": "2026-05-17",
+          "views": 2002206,
+          "likes": 15696,
+          "comments": 125
         }
       ]
     }
@@ -2812,6 +2883,18 @@
       "type": "annotated",
       "related_annotation": "全国ホールツアー「すーーーはーーー」チケット先行（5/3〜5/17）継続とLP盤発売接近でSpotify月間リスナーが再上昇（+34,426人・3.89σ）",
       "detected_at": "2026-05-16T15:04:29.380086+00:00"
+    },
+    {
+      "date": "2026-05-17",
+      "metric": "monthly_listeners",
+      "value": 1789395,
+      "baseline_mean": 1693405.3,
+      "baseline_stddev": 44312.0,
+      "delta": 95989,
+      "score": 2.17,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-17T15:05:17.920216+00:00"
     }
   ]
 }
