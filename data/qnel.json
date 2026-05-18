@@ -1551,6 +1551,47 @@
       "ytm_subscribers": 154,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-18",
+      "monthly_listeners": 486,
+      "collected_at": "2026-05-18T16:51:27.880159+00:00",
+      "spotify_followers": 937,
+      "youtube_subscribers": 364,
+      "youtube_total_views": 65682,
+      "youtube_video_count": 170,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 33
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 12
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 10
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 9
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8
+        }
+      ],
+      "lastfm_listeners": 737,
+      "lastfm_playcount": 2419,
+      "ytm_subscribers": 154,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -1650,17 +1691,17 @@
       {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "59K"
+        "subscribers": "58.9K"
       },
       {
         "name": "Offo tokyo",
         "browse_id": "UCFUndaCSveHB7RS3ULvATfw",
-        "subscribers": "12.9K"
+        "subscribers": "13K"
       },
       {
         "name": "dawgss",
         "browse_id": "UC0clTcD4YEA0gViF33LumjQ",
-        "subscribers": "751"
+        "subscribers": "752"
       },
       {
         "name": "Yujin Aramaki",
@@ -1928,6 +1969,12 @@
           "views": 3192,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-05-18",
+          "views": 3201,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -2135,6 +2182,12 @@
         {
           "date": "2026-05-17",
           "views": 5509,
+          "likes": 22,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-18",
+          "views": 5522,
           "likes": 22,
           "comments": 0
         }
@@ -2346,6 +2399,12 @@
           "views": 12092,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-05-18",
+          "views": 12095,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -2555,6 +2614,12 @@
           "views": 31873,
           "likes": 150,
           "comments": 0
+        },
+        {
+          "date": "2026-05-18",
+          "views": 31890,
+          "likes": 150,
+          "comments": 0
         }
       ]
     },
@@ -2756,6 +2821,12 @@
         {
           "date": "2026-05-17",
           "views": 7863,
+          "likes": 60,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-18",
+          "views": 7866,
           "likes": 60,
           "comments": 0
         }
@@ -2965,6 +3036,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-05-17T14:57:14.856528+00:00"
+    },
+    {
+      "date": "2026-05-18",
+      "metric": "monthly_listeners",
+      "value": 486,
+      "baseline_mean": 456.3,
+      "baseline_stddev": 14.0,
+      "delta": 29,
+      "score": 2.12,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-05-18T16:51:29.173064+00:00"
     }
   ]
 }
