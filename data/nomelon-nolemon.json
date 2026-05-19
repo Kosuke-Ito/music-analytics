@@ -1598,6 +1598,47 @@
       "ytm_subscribers": 321000,
       "ytm_monthly_listeners": 1460000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-19",
+      "monthly_listeners": 297923,
+      "collected_at": "2026-05-19T16:49:07.532944+00:00",
+      "spotify_followers": 67153,
+      "youtube_subscribers": 321000,
+      "youtube_total_views": 162291647,
+      "youtube_video_count": 105,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 13882
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 9583
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6712
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5156
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4753
+        }
+      ],
+      "lastfm_listeners": 31823,
+      "lastfm_playcount": 845745,
+      "ytm_subscribers": 321000,
+      "ytm_monthly_listeners": 1450000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -1628,53 +1669,53 @@
       "rock",
       "japan",
       "female vocals",
-      "jpf"
+      "female"
     ],
     "ytm_related_artists": [
       {
         "name": "Hashimero",
         "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
-        "subscribers": "328K"
+        "subscribers": "323K"
       },
       {
         "name": "Shiyui",
         "browse_id": "UCAkYyroRwc9qPuymye_2fNA",
-        "subscribers": "309K"
+        "subscribers": "314K"
       },
       {
         "name": "TAKU INOUE",
         "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
-        "subscribers": "385K"
+        "subscribers": "370K"
       },
       {
         "name": "shallm",
         "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
-        "subscribers": "231K"
+        "subscribers": "229K"
       },
       {
         "name": "harha",
         "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "171K"
+        "subscribers": "169K"
       },
       {
         "name": "NELKE",
         "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
-        "subscribers": "540K"
+        "subscribers": "548K"
       },
       {
         "name": "MIMiNARI",
         "browse_id": "UCNBWI0bR0NC7VHpeAuoDENA",
-        "subscribers": "97.2K"
+        "subscribers": "97.3K"
       },
       {
         "name": "Room97",
         "browse_id": "UCfYmK8G568tJsaDHWv94eQQ",
-        "subscribers": "79.2K"
+        "subscribers": "78.6K"
       },
       {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "99.5K"
+        "subscribers": "98.7K"
       },
       {
         "name": "Sangatsu No Phantasia",
@@ -1924,6 +1965,12 @@
           "views": 17885871,
           "likes": 122733,
           "comments": 1051
+        },
+        {
+          "date": "2026-05-19",
+          "views": 17899343,
+          "likes": 122772,
+          "comments": 1051
         }
       ]
     },
@@ -2144,6 +2191,12 @@
           "date": "2026-05-18",
           "views": 5135964,
           "likes": 38412,
+          "comments": 81
+        },
+        {
+          "date": "2026-05-19",
+          "views": 5143883,
+          "likes": 38452,
           "comments": 81
         }
       ]
@@ -2366,6 +2419,12 @@
           "views": 4932559,
           "likes": 34341,
           "comments": 160
+        },
+        {
+          "date": "2026-05-19",
+          "views": 4938912,
+          "likes": 34365,
+          "comments": 160
         }
       ]
     },
@@ -2586,6 +2645,12 @@
           "date": "2026-05-18",
           "views": 2089310,
           "likes": 17888,
+          "comments": 41
+        },
+        {
+          "date": "2026-05-19",
+          "views": 2092976,
+          "likes": 17914,
           "comments": 41
         }
       ]
@@ -2812,6 +2877,12 @@
           "date": "2026-05-18",
           "views": 4165398,
           "likes": 34863,
+          "comments": 315
+        },
+        {
+          "date": "2026-05-19",
+          "views": 4169547,
+          "likes": 34872,
           "comments": 315
         }
       ]
@@ -3100,6 +3171,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-18T16:47:17.995658+00:00"
+    },
+    {
+      "date": "2026-05-19",
+      "metric": "youtube_total_views",
+      "value": 162291647,
+      "baseline_mean": 160271388.1,
+      "baseline_stddev": 989849.2,
+      "delta": 2020258,
+      "score": 2.04,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-19T16:49:08.653723+00:00"
     }
   ]
 }

@@ -1477,6 +1477,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 4770000,
       "ytm_total_views": 572318563
+    },
+    {
+      "date": "2026-05-19",
+      "monthly_listeners": 874198,
+      "collected_at": "2026-05-19T17:01:56.358696+00:00",
+      "spotify_followers": 970482,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 592970453,
+      "youtube_video_count": 397,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20305
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 15533
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12233
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10135
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8100
+        }
+      ],
+      "lastfm_listeners": 8697,
+      "lastfm_playcount": 404091,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 4810000,
+      "ytm_total_views": 572318563
     }
   ],
   "metadata": {
@@ -1507,13 +1548,13 @@
       "japanese",
       "female vocalists",
       "jazz",
-      "pop"
+      "JPop"
     ],
     "ytm_related_artists": [
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "237K"
+        "subscribers": "235K"
       },
       {
         "name": "DONGURIZU",
@@ -1523,22 +1564,22 @@
       {
         "name": "SHISHIDO KAVKA",
         "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
-        "subscribers": "97.1K"
+        "subscribers": "97.2K"
       },
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "124K"
+        "subscribers": "123K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "104K"
+        "subscribers": "103K"
       },
       {
         "name": "Akiko Wada",
         "browse_id": "UC-o0qVSpZLpHmsOTh66YfXw",
-        "subscribers": "465K"
+        "subscribers": "463K"
       },
       {
         "name": "softboiledegg",
@@ -1548,7 +1589,7 @@
       {
         "name": "Uchikubi Gokumon Doukoukai",
         "browse_id": "UCfp91acTgHFcI9WZOOudwCQ",
-        "subscribers": "444K"
+        "subscribers": "446K"
       },
       {
         "name": "Rinne Amano",
@@ -1558,7 +1599,7 @@
       {
         "name": "MAXIMUM THE HORMONE",
         "browse_id": "UC10viXnr5P30UrEb36Y984g",
-        "subscribers": "1.65M"
+        "subscribers": "1.66M"
       }
     ],
     "ytm_top_songs": [
@@ -1798,6 +1839,12 @@
           "views": 18845549,
           "likes": 269422,
           "comments": 415
+        },
+        {
+          "date": "2026-05-19",
+          "views": 18855709,
+          "likes": 269559,
+          "comments": 415
         }
       ]
     },
@@ -2013,6 +2060,12 @@
           "views": 5319215,
           "likes": 31034,
           "comments": 135
+        },
+        {
+          "date": "2026-05-19",
+          "views": 5321083,
+          "likes": 31051,
+          "comments": 135
         }
       ]
     },
@@ -2227,6 +2280,12 @@
           "date": "2026-05-18",
           "views": 2000058,
           "likes": 33509,
+          "comments": 100
+        },
+        {
+          "date": "2026-05-19",
+          "views": 2003553,
+          "likes": 33570,
           "comments": 100
         }
       ]
@@ -2619,6 +2678,12 @@
           "views": 1854708,
           "likes": 20215,
           "comments": 144
+        },
+        {
+          "date": "2026-05-19",
+          "views": 1856151,
+          "likes": 20240,
+          "comments": 144
         }
       ]
     },
@@ -2683,6 +2748,12 @@
           "views": 124085,
           "likes": 5465,
           "comments": 171
+        },
+        {
+          "date": "2026-05-19",
+          "views": 129598,
+          "likes": 5645,
+          "comments": 174
         }
       ]
     }
@@ -2996,6 +3067,18 @@
       "type": "annotated",
       "related_annotation": "Zipangu（米ローズボウル、5/16）前日バズでSpotify月間リスナーが急増（+39,184・3.5σ）",
       "detected_at": "2026-05-18T16:59:49.988080+00:00"
+    },
+    {
+      "date": "2026-05-19",
+      "metric": "monthly_listeners",
+      "value": 874198,
+      "baseline_mean": 830615.2,
+      "baseline_stddev": 18600.5,
+      "delta": 43582,
+      "score": 2.34,
+      "type": "annotated",
+      "related_annotation": "日本音楽フェス「Zipangu」ロサンゼルス公演に出演（Brookside at The Rose Bowl、約35,000人）",
+      "detected_at": "2026-05-19T17:01:58.688465+00:00"
     }
   ]
 }

@@ -1590,6 +1590,47 @@
       "ytm_subscribers": 98800,
       "ytm_monthly_listeners": 440000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-19",
+      "monthly_listeners": 491726,
+      "collected_at": "2026-05-19T16:46:53.635810+00:00",
+      "spotify_followers": 116933,
+      "youtube_subscribers": 98800,
+      "youtube_total_views": 46177448,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 25112
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 20898
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 14012
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 8974
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 6360
+        }
+      ],
+      "lastfm_listeners": 9930,
+      "lastfm_playcount": 158615,
+      "ytm_subscribers": 98800,
+      "ytm_monthly_listeners": 433000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -1629,7 +1670,7 @@
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "85.5K"
+        "subscribers": "86.6K"
       },
       {
         "name": "FRIENDS",
@@ -1639,7 +1680,7 @@
       {
         "name": "First Love is Never Returned",
         "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "126K"
+        "subscribers": "125K"
       },
       {
         "name": "Sakura Fujiwara",
@@ -1649,17 +1690,17 @@
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "125K"
+        "subscribers": "127K"
       },
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "124K"
+        "subscribers": "132K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "104K"
+        "subscribers": "103K"
       },
       {
         "name": "YONA YONA WEEKENDERS",
@@ -1914,6 +1955,12 @@
           "views": 46436,
           "likes": 420,
           "comments": 6
+        },
+        {
+          "date": "2026-05-19",
+          "views": 46603,
+          "likes": 420,
+          "comments": 6
         }
       ]
     },
@@ -2133,6 +2180,12 @@
         {
           "date": "2026-05-18",
           "views": 37954,
+          "likes": 411,
+          "comments": 2
+        },
+        {
+          "date": "2026-05-19",
+          "views": 38056,
           "likes": 411,
           "comments": 2
         }
@@ -2356,6 +2409,12 @@
           "views": 215117,
           "likes": 1921,
           "comments": 12
+        },
+        {
+          "date": "2026-05-19",
+          "views": 215549,
+          "likes": 1924,
+          "comments": 12
         }
       ]
     },
@@ -2557,6 +2616,12 @@
         {
           "date": "2026-05-18",
           "views": 59607,
+          "likes": 482,
+          "comments": 4
+        },
+        {
+          "date": "2026-05-19",
+          "views": 59675,
           "likes": 482,
           "comments": 4
         }
@@ -2762,6 +2827,12 @@
           "views": 73586,
           "likes": 756,
           "comments": 8
+        },
+        {
+          "date": "2026-05-19",
+          "views": 73755,
+          "likes": 757,
+          "comments": 8
         }
       ]
     },
@@ -2944,6 +3015,18 @@
       "type": "annotated",
       "related_annotation": "TVアニメ『ハイスクール！奇面組』放送継続によるYouTube総再生数の上昇（2.48σ）",
       "detected_at": "2026-05-18T16:45:02.119870+00:00"
+    },
+    {
+      "date": "2026-05-19",
+      "metric": "youtube_total_views",
+      "value": 46177448,
+      "baseline_mean": 45304492.3,
+      "baseline_stddev": 408434.7,
+      "delta": 872955,
+      "score": 2.14,
+      "type": "annotated",
+      "related_annotation": "TVアニメ『ハイスクール！奇面組』放送継続によるYouTube総再生数の上昇（2.48σ）",
+      "detected_at": "2026-05-19T16:46:54.994188+00:00"
     }
   ]
 }

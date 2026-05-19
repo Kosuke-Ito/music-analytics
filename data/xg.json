@@ -1477,6 +1477,47 @@
       "ytm_subscribers": 4850000,
       "ytm_monthly_listeners": 11200000,
       "ytm_total_views": 1955738630
+    },
+    {
+      "date": "2026-05-19",
+      "monthly_listeners": 5635025,
+      "collected_at": "2026-05-19T16:57:51.104555+00:00",
+      "spotify_followers": 2594064,
+      "youtube_subscribers": 4850000,
+      "youtube_total_views": 2018577984,
+      "youtube_video_count": 848,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 94480
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 86637
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 82740
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 82117
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 74260
+        }
+      ],
+      "lastfm_listeners": 856113,
+      "lastfm_playcount": 66877094,
+      "ytm_subscribers": 4850000,
+      "ytm_monthly_listeners": 11200000,
+      "ytm_total_views": 1955738630
     }
   ],
   "annotations": [
@@ -1565,24 +1606,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "NAYEON",
-        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
-        "subscribers": "332K"
-      },
-      {
         "name": "SOOJIN",
         "browse_id": "UCqCmeJ3RRfpgMF6j_HzqbFQ",
         "subscribers": "423K"
       },
       {
+        "name": "NAYEON",
+        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
+        "subscribers": "332K"
+      },
+      {
         "name": "Kep1er",
         "browse_id": "UCAKvDuIX3m1AUdPpDSqV_3w",
-        "subscribers": "5.91M"
+        "subscribers": "5.82M"
       },
       {
         "name": "JIHYO",
         "browse_id": "UCZSRKU2kYtBSL11AhMS-C8Q",
-        "subscribers": "109K"
+        "subscribers": "110K"
       },
       {
         "name": "TZUYU",
@@ -1590,29 +1631,29 @@
         "subscribers": "82.1K"
       },
       {
+        "name": "BABYMONSTER",
+        "browse_id": "UC47Wz6S14mj_6Jy-T59m6IQ",
+        "subscribers": "116M"
+      },
+      {
         "name": "SAY MY NAME",
         "browse_id": "UC7CkIc8oYTFP85Dxv0tQSKw",
         "subscribers": "2.07M"
       },
       {
-        "name": "NewJeans",
-        "browse_id": "UCxOqS3cYg4FaHbobICo7nFQ",
-        "subscribers": "76.2M"
+        "name": "BADVILLAIN",
+        "browse_id": "UCkw_Pss11Lokw5Ej8cr_4Ew",
+        "subscribers": "804K"
       },
       {
         "name": "EVERGLOW",
         "browse_id": "UCT4Z6ZLJisGUy0z2LHzi2jQ",
-        "subscribers": "4.49M"
+        "subscribers": "4.7M"
       },
       {
-        "name": "MEOVV",
-        "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
-        "subscribers": "9.85M"
-      },
-      {
-        "name": "BABYMONSTER",
-        "browse_id": "UC47Wz6S14mj_6Jy-T59m6IQ",
-        "subscribers": "113M"
+        "name": "NewJeans",
+        "browse_id": "UCxOqS3cYg4FaHbobICo7nFQ",
+        "subscribers": "75.9M"
       }
     ],
     "ytm_top_songs": [
@@ -1852,6 +1893,12 @@
           "views": 7759058,
           "likes": 90843,
           "comments": 555
+        },
+        {
+          "date": "2026-05-19",
+          "views": 7801176,
+          "likes": 91153,
+          "comments": 556
         }
       ]
     },
@@ -2067,6 +2114,12 @@
           "views": 44515150,
           "likes": 377988,
           "comments": 2015
+        },
+        {
+          "date": "2026-05-19",
+          "views": 44543451,
+          "likes": 378201,
+          "comments": 2020
         }
       ]
     },
@@ -2586,6 +2639,12 @@
           "views": 17143187,
           "likes": 128695,
           "comments": 1065
+        },
+        {
+          "date": "2026-05-19",
+          "views": 17165221,
+          "likes": 128760,
+          "comments": 1065
         }
       ]
     },
@@ -2675,6 +2734,12 @@
           "views": 39861137,
           "likes": 223668,
           "comments": 225
+        },
+        {
+          "date": "2026-05-19",
+          "views": 39878556,
+          "likes": 223755,
+          "comments": 225
         }
       ]
     },
@@ -2722,6 +2787,12 @@
           "views": 376341,
           "likes": 7610,
           "comments": 56
+        },
+        {
+          "date": "2026-05-19",
+          "views": 386001,
+          "likes": 7768,
+          "comments": 57
         }
       ]
     }
@@ -2786,6 +2857,18 @@
       "type": "annotated",
       "related_annotation": "ワールドツアー「THE CORE」バンコク公演チケット一般販売（5/8）の波及でYouTube総再生数が上昇（2.46σ）",
       "detected_at": "2026-05-18T16:55:52.959279+00:00"
+    },
+    {
+      "date": "2026-05-19",
+      "metric": "youtube_total_views",
+      "value": 2018577984,
+      "baseline_mean": 2001576848.0,
+      "baseline_stddev": 7738333.9,
+      "delta": 17001135,
+      "score": 2.2,
+      "type": "annotated",
+      "related_annotation": "ワールドツアー「THE CORE」バンコク公演チケット一般販売（5/8）の波及でYouTube総再生数が上昇（2.46σ）",
+      "detected_at": "2026-05-19T16:57:52.513170+00:00"
     }
   ]
 }

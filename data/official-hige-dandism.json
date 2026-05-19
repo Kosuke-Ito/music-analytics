@@ -1763,6 +1763,47 @@
       "ytm_subscribers": 3640000,
       "ytm_monthly_listeners": 45100000,
       "ytm_total_views": 4398995507
+    },
+    {
+      "date": "2026-05-19",
+      "monthly_listeners": 5577182,
+      "collected_at": "2026-05-19T16:51:26.294027+00:00",
+      "spotify_followers": 7728294,
+      "youtube_subscribers": 3640000,
+      "youtube_total_views": 4431655385,
+      "youtube_video_count": 221,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 233821
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 232118
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 158039
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 94913
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 65798
+        }
+      ],
+      "lastfm_listeners": 27459,
+      "lastfm_playcount": 2050842,
+      "ytm_subscribers": 3640000,
+      "ytm_monthly_listeners": 45800000,
+      "ytm_total_views": 4402851824
     }
   ],
   "annotations": [
@@ -1941,7 +1982,7 @@
       {
         "name": "YUZU",
         "browse_id": "UC-wO8NkDlTY0JfTF9JdVtfQ",
-        "subscribers": "5.77M"
+        "subscribers": "5.82M"
       },
       {
         "name": "Omoinotake",
@@ -1951,42 +1992,42 @@
       {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "7.25M"
-      },
-      {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "7.58M"
+        "subscribers": "6.84M"
       },
       {
         "name": "SUKIMASWITCH",
         "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "4.3M"
+        "subscribers": "4.12M"
+      },
+      {
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "7.44M"
       },
       {
         "name": "Da-iCE",
         "browse_id": "UCsgebXKWsxjX216BtZwLdzQ",
-        "subscribers": "4.44M"
+        "subscribers": "4.42M"
       },
       {
         "name": "King Gnu",
         "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "55.4M"
+        "subscribers": "55M"
       },
       {
         "name": "Yuuri",
         "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "12M"
+        "subscribers": "12.2M"
       },
       {
         "name": "星野源 Gen Hoshino",
         "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
-        "subscribers": "8.66M"
+        "subscribers": "8.62M"
       },
       {
-        "name": "Dish",
-        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
-        "subscribers": "4.66M"
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "66.3M"
       }
     ],
     "ytm_top_songs": [
@@ -2232,6 +2273,12 @@
           "views": 213940011,
           "likes": 588576,
           "comments": 1995
+        },
+        {
+          "date": "2026-05-19",
+          "views": 214157262,
+          "likes": 589178,
+          "comments": 2001
         }
       ]
     },
@@ -2452,6 +2499,12 @@
           "date": "2026-05-18",
           "views": 2733319,
           "likes": 23654,
+          "comments": 313
+        },
+        {
+          "date": "2026-05-19",
+          "views": 2765651,
+          "likes": 23754,
           "comments": 313
         }
       ]
@@ -2674,6 +2727,12 @@
           "views": 19050115,
           "likes": 95611,
           "comments": 2635
+        },
+        {
+          "date": "2026-05-19",
+          "views": 19103062,
+          "likes": 95731,
+          "comments": 2636
         }
       ]
     },
@@ -2895,6 +2954,12 @@
           "views": 86556530,
           "likes": 392957,
           "comments": 853
+        },
+        {
+          "date": "2026-05-19",
+          "views": 86597630,
+          "likes": 393091,
+          "comments": 854
         }
       ]
     },
@@ -3121,6 +3186,12 @@
           "views": 2724760,
           "likes": 31102,
           "comments": 1134
+        },
+        {
+          "date": "2026-05-19",
+          "views": 2763147,
+          "likes": 31232,
+          "comments": 1134
         }
       ]
     }
@@ -3305,6 +3376,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-18T16:49:31.433106+00:00"
+    },
+    {
+      "date": "2026-05-19",
+      "metric": "ytm_monthly_listeners",
+      "value": 45800000,
+      "baseline_mean": 39203333.3,
+      "baseline_stddev": 2785974.8,
+      "delta": 6596666,
+      "score": 2.37,
+      "type": "annotated",
+      "related_annotation": "「one-man tour 2026」山形公演（5/21）直前効果でYTM月間リスナー45.1Mへ急増（2.32σ）",
+      "detected_at": "2026-05-19T16:51:27.545451+00:00"
     }
   ]
 }

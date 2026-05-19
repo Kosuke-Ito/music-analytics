@@ -1477,6 +1477,47 @@
       "ytm_subscribers": 879000,
       "ytm_monthly_listeners": 6870000,
       "ytm_total_views": 633111672
+    },
+    {
+      "date": "2026-05-19",
+      "monthly_listeners": 2457796,
+      "collected_at": "2026-05-19T17:03:06.331811+00:00",
+      "spotify_followers": 1048892,
+      "youtube_subscribers": 879000,
+      "youtube_total_views": 652771004,
+      "youtube_video_count": 284,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 61341
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 57785
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 57065
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 38741
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 25815
+        }
+      ],
+      "lastfm_listeners": 164432,
+      "lastfm_playcount": 5703625,
+      "ytm_subscribers": 879000,
+      "ytm_monthly_listeners": 6950000,
+      "ytm_total_views": 633111672
     }
   ],
   "annotations": [
@@ -1543,17 +1584,12 @@
       {
         "name": "LOZAREENA",
         "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
-        "subscribers": "328K"
-      },
-      {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "7.25M"
+        "subscribers": "324K"
       },
       {
         "name": "Rei Yasuda",
         "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
-        "subscribers": "242K"
+        "subscribers": "239K"
       },
       {
         "name": "Toko Miura",
@@ -1563,12 +1599,12 @@
       {
         "name": "CHIAKI SATO",
         "browse_id": "UCgPeNtXtc4sWEJSqQvNJzmQ",
-        "subscribers": "105K"
+        "subscribers": "109K"
       },
       {
         "name": "Miyuna",
         "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
-        "subscribers": "163K"
+        "subscribers": "161K"
       },
       {
         "name": "Harumi",
@@ -1584,6 +1620,11 @@
         "name": "Kotone",
         "browse_id": "UCZKz-7lju7A3Hi_DSf4oNQw",
         "subscribers": "62K"
+      },
+      {
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "6.84M"
       },
       {
         "name": "Omoinotake",
@@ -1828,6 +1869,12 @@
           "views": 34392129,
           "likes": 251408,
           "comments": 1153
+        },
+        {
+          "date": "2026-05-19",
+          "views": 34418222,
+          "likes": 251539,
+          "comments": 1152
         }
       ]
     },
@@ -2120,6 +2167,12 @@
           "views": 8603933,
           "likes": 60993,
           "comments": 212
+        },
+        {
+          "date": "2026-05-19",
+          "views": 8613979,
+          "likes": 61042,
+          "comments": 212
         }
       ]
     },
@@ -2328,6 +2381,12 @@
           "date": "2026-05-18",
           "views": 1969092,
           "likes": 13614,
+          "comments": 108
+        },
+        {
+          "date": "2026-05-19",
+          "views": 1970552,
+          "likes": 13619,
           "comments": 108
         }
       ]
@@ -2544,6 +2603,12 @@
           "views": 7220531,
           "likes": 52483,
           "comments": 66
+        },
+        {
+          "date": "2026-05-19",
+          "views": 7224323,
+          "likes": 52510,
+          "comments": 66
         }
       ]
     },
@@ -2687,6 +2752,12 @@
           "views": 1383521,
           "likes": 24004,
           "comments": 301
+        },
+        {
+          "date": "2026-05-19",
+          "views": 1392875,
+          "likes": 24082,
+          "comments": 301
         }
       ]
     },
@@ -2738,6 +2809,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（Blu-ray「Ray of Water」6/17発売告知・秋ツアー発表との複合効果の可能性）",
       "detected_at": "2026-05-18T17:00:57.980779+00:00"
+    },
+    {
+      "date": "2026-05-19",
+      "metric": "youtube_total_views",
+      "value": 652771004,
+      "baseline_mean": 648493159.2,
+      "baseline_stddev": 1604902.5,
+      "delta": 4277844,
+      "score": 2.67,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（Blu-ray「Ray of Water」6/17発売告知・秋ツアー発表との複合効果の可能性）",
+      "detected_at": "2026-05-19T17:03:07.958714+00:00"
     }
   ]
 }

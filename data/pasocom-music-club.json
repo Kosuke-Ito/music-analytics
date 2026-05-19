@@ -1404,6 +1404,47 @@
       "ytm_subscribers": 37200,
       "ytm_monthly_listeners": 67900,
       "ytm_total_views": 8114437
+    },
+    {
+      "date": "2026-05-19",
+      "monthly_listeners": 66104,
+      "collected_at": "2026-05-19T17:03:59.985410+00:00",
+      "spotify_followers": 51086,
+      "youtube_subscribers": 37200,
+      "youtube_total_views": 8351868,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3546
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1476
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 951
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 882
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 588
+        }
+      ],
+      "lastfm_listeners": 23759,
+      "lastfm_playcount": 396313,
+      "ytm_subscribers": 37200,
+      "ytm_monthly_listeners": 67500,
+      "ytm_total_views": 8114437
     }
   ],
   "metadata": {
@@ -1432,20 +1473,40 @@
     "lastfm_tags": [
       "japanese",
       "techno",
-      "j-pop",
       "House",
+      "j-pop",
       "japan"
     ],
     "ytm_related_artists": [
       {
+        "name": "clammbon",
+        "browse_id": "UCl19_P9Md57VyB50SRvWp5A",
+        "subscribers": "135K"
+      },
+      {
+        "name": "waiai",
+        "browse_id": "UCjgy231BJwVT5wwln561TqA",
+        "subscribers": "1.8K"
+      },
+      {
+        "name": "Shin Sakiura",
+        "browse_id": "UCwQ0ruE9EWOX38Tc5ouohWA",
+        "subscribers": "175K"
+      },
+      {
+        "name": "chelmico",
+        "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
+        "subscribers": "235K"
+      },
+      {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
-        "subscribers": "133K"
+        "subscribers": "136K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "125K"
+        "subscribers": "127K"
       },
       {
         "name": "80KIDZ",
@@ -1460,32 +1521,12 @@
       {
         "name": "Hakushi Hasegawa",
         "browse_id": "UCPvjq3k_DKTa02GWveuicfg",
-        "subscribers": "84.3K"
+        "subscribers": "90.8K"
       },
       {
         "name": "Dirty Androids",
         "browse_id": "UChAifL81ox-Tpm-tZ0LU65A",
         "subscribers": "3.88K"
-      },
-      {
-        "name": "AAAMYYY",
-        "browse_id": "UC6Ydky9GghVtUi0QqqoxPoA",
-        "subscribers": "25.5K"
-      },
-      {
-        "name": "ikkubaru",
-        "browse_id": "UC7jScMdJ0YibkvRT7UxcNRA",
-        "subscribers": "5.73K"
-      },
-      {
-        "name": "CHERRYBOY FUNCTION",
-        "browse_id": "UChSuMG7SvfVS5UECa0IxwBQ",
-        "subscribers": "215"
-      },
-      {
-        "name": "MONDO GROSSO",
-        "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
-        "subscribers": "242K"
       }
     ],
     "ytm_top_songs": [
@@ -1713,6 +1754,12 @@
           "views": 116153,
           "likes": 2417,
           "comments": 24
+        },
+        {
+          "date": "2026-05-19",
+          "views": 116586,
+          "likes": 2418,
+          "comments": 24
         }
       ]
     },
@@ -1915,6 +1962,12 @@
           "date": "2026-05-18",
           "views": 550839,
           "likes": 5158,
+          "comments": 18
+        },
+        {
+          "date": "2026-05-19",
+          "views": 551519,
+          "likes": 5160,
           "comments": 18
         }
       ]
@@ -2119,6 +2172,12 @@
           "views": 310462,
           "likes": 3342,
           "comments": 6
+        },
+        {
+          "date": "2026-05-19",
+          "views": 310806,
+          "likes": 3348,
+          "comments": 6
         }
       ]
     },
@@ -2320,6 +2379,12 @@
         {
           "date": "2026-05-18",
           "views": 52328,
+          "likes": 174,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-19",
+          "views": 52392,
           "likes": 174,
           "comments": 1
         }
@@ -2524,6 +2589,12 @@
           "date": "2026-05-18",
           "views": 115436,
           "likes": 1488,
+          "comments": 14
+        },
+        {
+          "date": "2026-05-19",
+          "views": 115621,
+          "likes": 1490,
           "comments": 14
         }
       ]
@@ -2878,6 +2949,18 @@
       "type": "annotated",
       "related_annotation": "Summer Sonic 2026 ステージ割発表（5/15）で「Alter JP After Hours」出演確定、Spotify月間リスナーが急増（+11,959・2.40σ）",
       "detected_at": "2026-05-18T17:01:49.571055+00:00"
+    },
+    {
+      "date": "2026-05-19",
+      "metric": "youtube_total_views",
+      "value": 8351868,
+      "baseline_mean": 8211274.0,
+      "baseline_stddev": 69002.8,
+      "delta": 140593,
+      "score": 2.04,
+      "type": "annotated",
+      "related_annotation": "Summer Sonic 2026 ステージ割発表（5/15）で「Alter JP After Hours」出演確定、Spotify月間リスナーが急増（+11,959・2.40σ）",
+      "detected_at": "2026-05-19T17:04:01.518199+00:00"
     }
   ]
 }

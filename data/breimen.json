@@ -1588,6 +1588,47 @@
       "ytm_subscribers": 28900,
       "ytm_monthly_listeners": 124000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-19",
+      "monthly_listeners": 70954,
+      "collected_at": "2026-05-19T16:46:36.569816+00:00",
+      "spotify_followers": 35459,
+      "youtube_subscribers": 28900,
+      "youtube_total_views": 14889897,
+      "youtube_video_count": 168,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3090
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1967
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1376
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 941
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 636
+        }
+      ],
+      "lastfm_listeners": 19472,
+      "lastfm_playcount": 207943,
+      "ytm_subscribers": 28900,
+      "ytm_monthly_listeners": 132000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -1614,8 +1655,8 @@
       }
     ],
     "lastfm_tags": [
-      "japanese",
       "soul",
+      "japanese",
       "rnb",
       "indie"
     ],
@@ -1623,17 +1664,17 @@
       {
         "name": "Doona",
         "browse_id": "UCv5rkoYXfATqAncZ01WR1QQ",
-        "subscribers": "98.5K"
+        "subscribers": "97.8K"
       },
       {
         "name": "Okamoto's",
         "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
-        "subscribers": "234K"
+        "subscribers": "236K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "104K"
+        "subscribers": "103K"
       },
       {
         "name": "Kayoko Yoshizawa",
@@ -1643,7 +1684,7 @@
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "148K"
+        "subscribers": "149K"
       },
       {
         "name": "BACARDI RECORDS",
@@ -1653,7 +1694,7 @@
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "85.5K"
+        "subscribers": "86.6K"
       },
       {
         "name": "oops cool",
@@ -1668,10 +1709,14 @@
       {
         "name": "Ryukku to Soine Gohan",
         "browse_id": "UCVzZe7OGO34_Y239YPq1VSQ",
-        "subscribers": "245K"
+        "subscribers": "242K"
       }
     ],
     "ytm_top_songs": [
+      {
+        "title": "めんどいな... - Men Do It Up!",
+        "video_id": "KQk2kMK5RYw"
+      },
       {
         "title": "Rolling Stone (Anime Version)",
         "video_id": "A7iLh2MC1Ok"
@@ -1679,10 +1724,6 @@
       {
         "title": "ファンキースパイス - Funky Spice (feat. TOMOO)",
         "video_id": "rcBPfzTIKuE"
-      },
-      {
-        "title": "めんどいな... - Men Do It Up!",
-        "video_id": "KQk2kMK5RYw"
       },
       {
         "title": "Rolling Stone (Dr.STONE Season 4 SCIENCE FUTURE Part 1 Ending Theme Song)",
@@ -1913,6 +1954,12 @@
           "views": 14397,
           "likes": 135,
           "comments": 3
+        },
+        {
+          "date": "2026-05-19",
+          "views": 14455,
+          "likes": 135,
+          "comments": 3
         }
       ]
     },
@@ -2132,6 +2179,12 @@
         {
           "date": "2026-05-18",
           "views": 36927,
+          "likes": 315,
+          "comments": 9
+        },
+        {
+          "date": "2026-05-19",
+          "views": 37089,
           "likes": 315,
           "comments": 9
         }
@@ -2355,6 +2408,12 @@
           "views": 190066,
           "likes": 2350,
           "comments": 33
+        },
+        {
+          "date": "2026-05-19",
+          "views": 190373,
+          "likes": 2351,
+          "comments": 33
         }
       ]
     },
@@ -2562,6 +2621,12 @@
         {
           "date": "2026-05-18",
           "views": 3314,
+          "likes": 51,
+          "comments": 5
+        },
+        {
+          "date": "2026-05-19",
+          "views": 3320,
           "likes": 51,
           "comments": 5
         }
@@ -2812,6 +2877,12 @@
           "views": 561,
           "likes": 11,
           "comments": 1
+        },
+        {
+          "date": "2026-05-19",
+          "views": 762,
+          "likes": 11,
+          "comments": 1
         }
       ]
     }
@@ -2917,6 +2988,30 @@
       "type": "annotated",
       "related_annotation": "「めんどいな…」（5/13リリース）の波及継続でYouTube総再生数が上昇（2.22σ）",
       "detected_at": "2026-05-18T16:44:45.825631+00:00"
+    },
+    {
+      "date": "2026-05-19",
+      "metric": "monthly_listeners",
+      "value": 70954,
+      "baseline_mean": 67417,
+      "baseline_stddev": 1204.0,
+      "delta": 3537,
+      "score": 2.94,
+      "type": "annotated",
+      "related_annotation": "「めんどいな…」（5/13リリース）の波及継続でYouTube総再生数が上昇（2.22σ）",
+      "detected_at": "2026-05-19T16:46:38.405457+00:00"
+    },
+    {
+      "date": "2026-05-19",
+      "metric": "youtube_total_views",
+      "value": 14889897,
+      "baseline_mean": 14677978.2,
+      "baseline_stddev": 87521.8,
+      "delta": 211918,
+      "score": 2.42,
+      "type": "annotated",
+      "related_annotation": "「めんどいな…」（5/13リリース）の波及継続でYouTube総再生数が上昇（2.22σ）",
+      "detected_at": "2026-05-19T16:46:38.405457+00:00"
     }
   ]
 }

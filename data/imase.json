@@ -1477,6 +1477,47 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 66599999,
       "ytm_total_views": 851338322
+    },
+    {
+      "date": "2026-05-19",
+      "monthly_listeners": 3338031,
+      "collected_at": "2026-05-19T16:58:07.764866+00:00",
+      "spotify_followers": 1008990,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 854518583,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 58042
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51429
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 45792
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39316
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 38776
+        }
+      ],
+      "lastfm_listeners": 403209,
+      "lastfm_playcount": 5741896,
+      "ytm_subscribers": 1340000,
+      "ytm_monthly_listeners": 66300000,
+      "ytm_total_views": 851338322
     }
   ],
   "annotations": [
@@ -1578,12 +1619,12 @@
       {
         "name": "4na",
         "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
-        "subscribers": "257K"
+        "subscribers": "255K"
       },
       {
         "name": "LUCKY TAPES",
         "browse_id": "UCYvGyI6FqmS5GFnCGEttXdg",
-        "subscribers": "205K"
+        "subscribers": "204K"
       },
       {
         "name": "KERENMI",
@@ -1598,32 +1639,32 @@
       {
         "name": "G over",
         "browse_id": "UCVRsmPU-XYUpbKIm-Jha_LQ",
-        "subscribers": "98.3K"
+        "subscribers": "97.9K"
       },
       {
         "name": "Rinne",
         "browse_id": "UCbWE8ZDfkixEPbYiCpc3H7A",
-        "subscribers": "365K"
+        "subscribers": "362K"
       },
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "148K"
+        "subscribers": "149K"
       },
       {
         "name": "Zettakun",
         "browse_id": "UCMVLVZvxO_xJv8l1ov7Ss4Q",
-        "subscribers": "66K"
+        "subscribers": "66.3K"
       },
       {
         "name": "Mel",
         "browse_id": "UC3-nhpqJ7oA-Gj0fglYNQ9w",
-        "subscribers": "131K"
+        "subscribers": "132K"
       },
       {
         "name": "Ohashi Chippoke",
         "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "193K"
+        "subscribers": "192K"
       }
     ],
     "ytm_top_songs": [
@@ -1863,6 +1904,12 @@
           "views": 138566219,
           "likes": 1089434,
           "comments": 5878
+        },
+        {
+          "date": "2026-05-19",
+          "views": 138633163,
+          "likes": 1090041,
+          "comments": 5882
         }
       ]
     },
@@ -2077,6 +2124,12 @@
           "date": "2026-05-18",
           "views": 7653060,
           "likes": 56459,
+          "comments": 160
+        },
+        {
+          "date": "2026-05-19",
+          "views": 7663380,
+          "likes": 56521,
           "comments": 160
         }
       ]
@@ -2293,6 +2346,12 @@
           "views": 3308283,
           "likes": 36463,
           "comments": 284
+        },
+        {
+          "date": "2026-05-19",
+          "views": 3311409,
+          "likes": 36487,
+          "comments": 284
         }
       ]
     },
@@ -2507,6 +2566,12 @@
           "date": "2026-05-18",
           "views": 11518662,
           "likes": 51150,
+          "comments": 153
+        },
+        {
+          "date": "2026-05-19",
+          "views": 11522874,
+          "likes": 51160,
           "comments": 153
         }
       ]
@@ -2728,6 +2793,12 @@
           "views": 4169431,
           "likes": 38593,
           "comments": 193
+        },
+        {
+          "date": "2026-05-19",
+          "views": 4172197,
+          "likes": 38619,
+          "comments": 193
         }
       ]
     }
@@ -2900,6 +2971,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-18T16:56:09.291320+00:00"
+    },
+    {
+      "date": "2026-05-19",
+      "metric": "youtube_total_views",
+      "value": 854518583,
+      "baseline_mean": 845173886.3,
+      "baseline_stddev": 2497475.2,
+      "delta": 9344696,
+      "score": 3.74,
+      "type": "annotated",
+      "related_annotation": "ジャックスCM継続効果：Spotify月間リスナー2.03σ上昇、YouTube総再生回数5.39σ急増",
+      "detected_at": "2026-05-19T16:58:09.162214+00:00"
     }
   ]
 }

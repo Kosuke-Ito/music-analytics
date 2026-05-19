@@ -1777,6 +1777,47 @@
       "ytm_subscribers": 2510000,
       "ytm_monthly_listeners": 19900000,
       "ytm_total_views": 2581313715
+    },
+    {
+      "date": "2026-05-19",
+      "monthly_listeners": 6261460,
+      "collected_at": "2026-05-19T16:52:00.110134+00:00",
+      "spotify_followers": 3945037,
+      "youtube_subscribers": 2510000,
+      "youtube_total_views": 2613310054,
+      "youtube_video_count": 299,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 252332
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 241525
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 160352
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 102988
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 97469
+        }
+      ],
+      "lastfm_listeners": 527530,
+      "lastfm_playcount": 17458044,
+      "ytm_subscribers": 2510000,
+      "ytm_monthly_listeners": 19800000,
+      "ytm_total_views": 2584470206
     }
   ],
   "annotations": [
@@ -1941,7 +1982,7 @@
       "j-pop",
       "japan",
       "JPop",
-      "J-Indie"
+      "male vocalist"
     ],
     "ytm_related_artists": [
       {
@@ -1952,17 +1993,12 @@
       {
         "name": "King Gnu",
         "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "55.4M"
+        "subscribers": "55M"
       },
       {
         "name": "Soushi Sakiyama",
         "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "3.74M"
-      },
-      {
-        "name": "星野源 Gen Hoshino",
-        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
-        "subscribers": "8.66M"
+        "subscribers": "3.61M"
       },
       {
         "name": "millennium parade",
@@ -1972,27 +2008,32 @@
       {
         "name": "Mega Shinnosuke",
         "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
-        "subscribers": "6.89M"
+        "subscribers": "6.66M"
+      },
+      {
+        "name": "星野源 Gen Hoshino",
+        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
+        "subscribers": "8.62M"
+      },
+      {
+        "name": "Saucy Dog",
+        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
+        "subscribers": "2.57M"
       },
       {
         "name": "Fujii Kaze",
         "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
-        "subscribers": "40.3M"
-      },
-      {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "8.91M"
-      },
-      {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "7.41M"
+        "subscribers": "41.6M"
       },
       {
         "name": "Official hige dandism",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "45.1M"
+        "subscribers": "45.8M"
+      },
+      {
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "66.3M"
       }
     ],
     "ytm_top_songs": [
@@ -2238,6 +2279,12 @@
           "views": 63686050,
           "likes": 225655,
           "comments": 812
+        },
+        {
+          "date": "2026-05-19",
+          "views": 63780893,
+          "likes": 225953,
+          "comments": 817
         }
       ]
     },
@@ -2459,6 +2506,12 @@
           "views": 75256817,
           "likes": 457851,
           "comments": 856
+        },
+        {
+          "date": "2026-05-19",
+          "views": 75330208,
+          "likes": 458167,
+          "comments": 857
         }
       ]
     },
@@ -2680,6 +2733,12 @@
           "views": 37138340,
           "likes": 182956,
           "comments": 300
+        },
+        {
+          "date": "2026-05-19",
+          "views": 37185845,
+          "likes": 183157,
+          "comments": 301
         }
       ]
     },
@@ -2900,6 +2959,12 @@
           "date": "2026-05-18",
           "views": 29360207,
           "likes": 134580,
+          "comments": 274
+        },
+        {
+          "date": "2026-05-19",
+          "views": 29395087,
+          "likes": 134706,
           "comments": 274
         }
       ]
@@ -3127,6 +3192,12 @@
           "views": 5589824,
           "likes": 57184,
           "comments": 730
+        },
+        {
+          "date": "2026-05-19",
+          "views": 5729279,
+          "likes": 57915,
+          "comments": 733
         }
       ]
     }
@@ -3419,6 +3490,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-17T14:55:55.505804+00:00"
+    },
+    {
+      "date": "2026-05-19",
+      "metric": "youtube_total_views",
+      "value": 2613310054,
+      "baseline_mean": 2585512906.8,
+      "baseline_stddev": 13427761.7,
+      "delta": 27797147,
+      "score": 2.07,
+      "type": "annotated",
+      "related_annotation": "「黄泉のツガイ」第7話放送（5/16）＋月9「サバ缶、宇宙へ行く」継続でYouTube総再生数が上昇（2.12σ）",
+      "detected_at": "2026-05-19T16:52:01.014379+00:00"
     }
   ]
 }

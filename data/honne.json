@@ -1592,6 +1592,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 3960000,
       "ytm_total_views": 906630451
+    },
+    {
+      "date": "2026-05-19",
+      "monthly_listeners": 4321787,
+      "collected_at": "2026-05-19T16:56:42.318072+00:00",
+      "spotify_followers": 1654071,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 906679262,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 212576
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 166721
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 136230
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 128632
+        },
+        {
+          "city": "East Jakarta",
+          "country": "ID",
+          "listeners": 104123
+        }
+      ],
+      "lastfm_listeners": 918443,
+      "lastfm_playcount": 23372280,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 3940000,
+      "ytm_total_views": 906630451
     }
   ],
   "annotations": [
@@ -1683,6 +1724,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Devin Kennedy",
+        "browse_id": "UConPcmI6u5L-OzZjQ6PFOXQ",
+        "subscribers": "542K"
+      },
+      {
         "name": "Ahv",
         "browse_id": "UCKZDcKa2hMa8hwX8MKkoi0A",
         "subscribers": "5.36K"
@@ -1710,7 +1756,7 @@
       {
         "name": "ADOY",
         "browse_id": "UCx38UtcmU6vJ7IF1J6epxdA",
-        "subscribers": "241K"
+        "subscribers": "242K"
       },
       {
         "name": "Charlie Burg",
@@ -1720,17 +1766,12 @@
       {
         "name": "Maya Delilah",
         "browse_id": "UCp0Lclt4xm1dvCJ0v50sYFw",
-        "subscribers": "74K"
+        "subscribers": "74.2K"
       },
       {
         "name": "Public Library Commute",
         "browse_id": "UCHaf5KL3HbX5XRIppowZmiA",
-        "subscribers": "84.7K"
-      },
-      {
-        "name": "JEREMY PASSION",
-        "browse_id": "UCzHYmb88lMOw7EAy4cuOy3Q",
-        "subscribers": "46K"
+        "subscribers": "86.3K"
       }
     ],
     "ytm_top_songs": [
@@ -1976,6 +2017,12 @@
           "views": 2580014,
           "likes": 15980,
           "comments": 27
+        },
+        {
+          "date": "2026-05-19",
+          "views": 2580280,
+          "likes": 15982,
+          "comments": 27
         }
       ]
     },
@@ -2190,6 +2237,12 @@
           "date": "2026-05-18",
           "views": 1761813,
           "likes": 17979,
+          "comments": 274
+        },
+        {
+          "date": "2026-05-19",
+          "views": 1768071,
+          "likes": 18011,
           "comments": 274
         }
       ]
@@ -2411,6 +2464,12 @@
           "date": "2026-05-18",
           "views": 47003263,
           "likes": 199729,
+          "comments": 114
+        },
+        {
+          "date": "2026-05-19",
+          "views": 47016832,
+          "likes": 199759,
           "comments": 114
         }
       ]
@@ -2638,6 +2697,12 @@
           "views": 475833,
           "likes": 5857,
           "comments": 11
+        },
+        {
+          "date": "2026-05-19",
+          "views": 475968,
+          "likes": 5858,
+          "comments": 11
         }
       ]
     },
@@ -2811,6 +2876,12 @@
           "views": 13791646,
           "likes": 72111,
           "comments": 36
+        },
+        {
+          "date": "2026-05-19",
+          "views": 13802580,
+          "likes": 72143,
+          "comments": 36
         }
       ]
     },
@@ -2951,6 +3022,18 @@
       "type": "annotated",
       "related_annotation": "10周年記念アルバム「HONNE - 10」リリース",
       "detected_at": "2026-05-18T16:54:45.413990+00:00"
+    },
+    {
+      "date": "2026-05-19",
+      "metric": "youtube_total_views",
+      "value": 906679262,
+      "baseline_mean": 900809537.4,
+      "baseline_stddev": 2765334.9,
+      "delta": 5869724,
+      "score": 2.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-19T16:56:44.322924+00:00"
     }
   ]
 }
