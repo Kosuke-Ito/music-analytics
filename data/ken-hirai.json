@@ -3004,6 +3004,17 @@
       "source": "usen.com, yokohama-arena.co.jp",
       "confidence": "high",
       "verified": false
+    },
+    {
+      "date": "2026-05-18",
+      "title": "YouTube総再生数急増はAPIカウンター一時停止からの解除によるデータアーティファクト（5.39σ・3.74σ・3.00σ）",
+      "description": "5/18の+5,070,979（5.39σ）、5/19の+4,896,118（3.74σ）、5/20の+4,721,256（3.00σ）はいずれも実際のバズではなく、YouTube Data APIのカウンター一時停止（~5/10〜5/16）からの解除で累積増分が一括計上されたデータアーティファクト。同一の5.39σシグネチャがAimer・imaseなど複数アーティストで同時期に発生しており、プラットフォーム側の技術的事象と判断。直近のリアルな施策としては5月13日の横浜アリーナでのデビュー30周年記念ライブがあるが、YouTube急増はその2〜5日後であり別要因と分離できる。",
+      "url": "https://youtube.com/@KenHiraiOfficial",
+      "category": "other",
+      "added_at": "2026-05-20T15:00:00Z",
+      "source": "youtube.com (data artifact)",
+      "confidence": "high",
+      "verified": false
     }
   ],
   "buzz_events": [
