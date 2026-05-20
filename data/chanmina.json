@@ -1518,6 +1518,47 @@
       "ytm_subscribers": 1820000,
       "ytm_monthly_listeners": 11100000,
       "ytm_total_views": 1131843649
+    },
+    {
+      "date": "2026-05-20",
+      "monthly_listeners": 3650009,
+      "collected_at": "2026-05-20T17:02:43.427239+00:00",
+      "spotify_followers": 1622614,
+      "youtube_subscribers": 1820000,
+      "youtube_total_views": 1156965854,
+      "youtube_video_count": 142,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 172837
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 157291
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 117067
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 63851
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 53144
+        }
+      ],
+      "lastfm_listeners": 12496,
+      "lastfm_playcount": 491788,
+      "ytm_subscribers": 1820000,
+      "ytm_monthly_listeners": 11000000,
+      "ytm_total_views": 1131843649
     }
   ],
   "annotations": [
@@ -1657,29 +1698,14 @@
         "subscribers": "6.52M"
       },
       {
+        "name": "Kana Nishino",
+        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
+        "subscribers": "8.97M"
+      },
+      {
         "name": "Thelma Aoyama",
         "browse_id": "UCiQJ6RsG3tyZwn2-m7gnkUg",
         "subscribers": "1.09M"
-      },
-      {
-        "name": "Elle Teresa",
-        "browse_id": "UCh5lKTm6k6DSQ61fP7UbKPA",
-        "subscribers": "807K"
-      },
-      {
-        "name": "HANA",
-        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "12.5M"
-      },
-      {
-        "name": "Kana Nishino",
-        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
-        "subscribers": "7.55M"
-      },
-      {
-        "name": "MINMI",
-        "browse_id": "UCOi-UdY8K_1-x9ohwERcw8g",
-        "subscribers": "547K"
       },
       {
         "name": "WHITE JAM",
@@ -1687,14 +1713,29 @@
         "subscribers": "2.39M"
       },
       {
-        "name": "SKY-HI",
-        "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "1.17M"
+        "name": "MINMI",
+        "browse_id": "UCOi-UdY8K_1-x9ohwERcw8g",
+        "subscribers": "546K"
       },
       {
-        "name": "Awich",
-        "browse_id": "UCvWgKgu9_3GTJulSpz1UN1Q",
-        "subscribers": "2.58M"
+        "name": "HANA",
+        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
+        "subscribers": "12.4M"
+      },
+      {
+        "name": "Elle Teresa",
+        "browse_id": "UCh5lKTm6k6DSQ61fP7UbKPA",
+        "subscribers": "785K"
+      },
+      {
+        "name": "LANA",
+        "browse_id": "UCFiKkRhK9arjKDxPBQdloDA",
+        "subscribers": "2.13M"
+      },
+      {
+        "name": "AiNA THE END",
+        "browse_id": "UCr_slw4yAD3LI3KQrmnRD8Q",
+        "subscribers": "18.5M"
       }
     ],
     "ytm_top_songs": [
@@ -1939,6 +1980,12 @@
           "date": "2026-05-19",
           "views": 3672710,
           "likes": 40188,
+          "comments": 155
+        },
+        {
+          "date": "2026-05-20",
+          "views": 3692467,
+          "likes": 40301,
           "comments": 155
         }
       ]
@@ -2214,6 +2261,12 @@
           "views": 31480951,
           "likes": 123017,
           "comments": 207
+        },
+        {
+          "date": "2026-05-20",
+          "views": 31511534,
+          "likes": 123100,
+          "comments": 207
         }
       ]
     },
@@ -2434,6 +2487,12 @@
           "date": "2026-05-19",
           "views": 26690584,
           "likes": 110143,
+          "comments": 265
+        },
+        {
+          "date": "2026-05-20",
+          "views": 26709060,
+          "likes": 110195,
           "comments": 265
         }
       ]
@@ -2656,6 +2715,12 @@
           "views": 319714,
           "likes": 2322,
           "comments": 25
+        },
+        {
+          "date": "2026-05-20",
+          "views": 320313,
+          "likes": 2324,
+          "comments": 25
         }
       ]
     },
@@ -2829,6 +2894,12 @@
           "views": 32264699,
           "likes": 123257,
           "comments": 368
+        },
+        {
+          "date": "2026-05-20",
+          "views": 32289005,
+          "likes": 123318,
+          "comments": 368
         }
       ]
     }
@@ -2893,6 +2964,18 @@
       "type": "annotated",
       "related_annotation": "日本音楽フェス「Zipangu」ロサンゼルス公演に出演（Brookside at The Rose Bowl、約35,000人）",
       "detected_at": "2026-05-19T17:00:26.898255+00:00"
+    },
+    {
+      "date": "2026-05-20",
+      "metric": "youtube_total_views",
+      "value": 1156965854,
+      "baseline_mean": 1139481563.2,
+      "baseline_stddev": 8494343.1,
+      "delta": 17484290,
+      "score": 2.06,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-20T17:02:45.005288+00:00"
     }
   ]
 }

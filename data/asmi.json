@@ -1592,6 +1592,47 @@
       "ytm_subscribers": 165000,
       "ytm_monthly_listeners": 2980000,
       "ytm_total_views": 74952211
+    },
+    {
+      "date": "2026-05-20",
+      "monthly_listeners": 245291,
+      "collected_at": "2026-05-20T16:51:33.502597+00:00",
+      "spotify_followers": 111209,
+      "youtube_subscribers": 165000,
+      "youtube_total_views": 75522331,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 7854
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6893
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4732
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 3861
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2954
+        }
+      ],
+      "lastfm_listeners": 34523,
+      "lastfm_playcount": 514513,
+      "ytm_subscribers": 165000,
+      "ytm_monthly_listeners": 3000000,
+      "ytm_total_views": 74952211
     }
   ],
   "metadata": {
@@ -1626,14 +1667,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "harha",
-        "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "169K"
+        "name": "natsumi",
+        "browse_id": "UCv6Qr1vb7sUkthY0co7oq1g",
+        "subscribers": "472K"
       },
       {
         "name": "igarashi haru",
         "browse_id": "UCdnkel5QOLJTPkCd2TfYfqw",
-        "subscribers": "94.1K"
+        "subscribers": "94.3K"
       },
       {
         "name": "hockrockb",
@@ -1651,29 +1692,29 @@
         "subscribers": "192K"
       },
       {
-        "name": "Cidergirl",
-        "browse_id": "UCj0gYbIUSGS_m1yqbPi4TIQ",
-        "subscribers": "602K"
-      },
-      {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "98.7K"
+        "subscribers": "98.8K"
       },
       {
         "name": "R+...",
         "browse_id": "UChB6sMlO_Thevm3k01WBJkQ",
-        "subscribers": "145K"
+        "subscribers": "144K"
+      },
+      {
+        "name": "harha",
+        "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
+        "subscribers": "168K"
       },
       {
         "name": "Yui Nishio",
         "browse_id": "UCMzyh64hvTumNd2uu-huW0g",
-        "subscribers": "70.5K"
+        "subscribers": "70.4K"
       },
       {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "58.8K"
+        "subscribers": "58.4K"
       }
     ],
     "ytm_top_songs": [
@@ -1919,6 +1960,12 @@
           "views": 1019280,
           "likes": 9936,
           "comments": 190
+        },
+        {
+          "date": "2026-05-20",
+          "views": 1019801,
+          "likes": 9937,
+          "comments": 190
         }
       ]
     },
@@ -2140,6 +2187,12 @@
           "views": 833344,
           "likes": 8066,
           "comments": 37
+        },
+        {
+          "date": "2026-05-20",
+          "views": 833964,
+          "likes": 8079,
+          "comments": 37
         }
       ]
     },
@@ -2360,6 +2413,12 @@
           "date": "2026-05-19",
           "views": 387542,
           "likes": 3679,
+          "comments": 47
+        },
+        {
+          "date": "2026-05-20",
+          "views": 388313,
+          "likes": 3687,
           "comments": 47
         }
       ]
@@ -2802,6 +2861,12 @@
           "views": 31685,
           "likes": 496,
           "comments": 14
+        },
+        {
+          "date": "2026-05-20",
+          "views": 32129,
+          "likes": 500,
+          "comments": 14
         }
       ]
     },
@@ -2812,6 +2877,12 @@
           "date": "2026-05-19",
           "views": 6649,
           "likes": 315,
+          "comments": 12
+        },
+        {
+          "date": "2026-05-20",
+          "views": 7479,
+          "likes": 342,
           "comments": 12
         }
       ]
@@ -2930,6 +3001,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-19T16:49:49.049481+00:00"
+    },
+    {
+      "date": "2026-05-20",
+      "metric": "youtube_total_views",
+      "value": 75522331,
+      "baseline_mean": 74961437.8,
+      "baseline_stddev": 241445.2,
+      "delta": 560893,
+      "score": 2.32,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-20T16:51:34.729171+00:00"
     }
   ]
 }

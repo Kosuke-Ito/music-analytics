@@ -1636,6 +1636,47 @@
       "ytm_subscribers": 497000,
       "ytm_monthly_listeners": 1610000,
       "ytm_total_views": 475590217
+    },
+    {
+      "date": "2026-05-20",
+      "monthly_listeners": 1294338,
+      "collected_at": "2026-05-20T16:47:43.590700+00:00",
+      "spotify_followers": 1084047,
+      "youtube_subscribers": 497000,
+      "youtube_total_views": 475590235,
+      "youtube_video_count": 86,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 55875
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 50656
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 38008
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 20596
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 14647
+        }
+      ],
+      "lastfm_listeners": 62395,
+      "lastfm_playcount": 3013601,
+      "ytm_subscribers": 497000,
+      "ytm_monthly_listeners": 1600000,
+      "ytm_total_views": 475590217
     }
   ],
   "metadata": {
@@ -1670,14 +1711,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Hiroji Miyamoto",
-        "browse_id": "UCdGURphNgk4Hbw51IGr2W4A",
-        "subscribers": "764K"
+        "name": "SUKIMASWITCH",
+        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
+        "subscribers": "4.06M"
       },
       {
         "name": "Mika Nakashima",
         "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
-        "subscribers": "5.34M"
+        "subscribers": "5.14M"
       },
       {
         "name": "Chemistry",
@@ -1692,7 +1733,17 @@
       {
         "name": "Ko Shibasaki",
         "browse_id": "UCYSyfPj4FvtV0-7jJsHzAyg",
-        "subscribers": "1.57M"
+        "subscribers": "1.52M"
+      },
+      {
+        "name": "Hiroji Miyamoto",
+        "browse_id": "UCdGURphNgk4Hbw51IGr2W4A",
+        "subscribers": "763K"
+      },
+      {
+        "name": "Fukumimi",
+        "browse_id": "UCRDL1cDP-DNPIUEOPasZYog",
+        "subscribers": "1.63K"
       },
       {
         "name": "Bank Band with Salyu",
@@ -1705,19 +1756,9 @@
         "subscribers": "3.69K"
       },
       {
-        "name": "Fukumimi",
-        "browse_id": "UCRDL1cDP-DNPIUEOPasZYog",
-        "subscribers": "1.62K"
-      },
-      {
-        "name": "Yo Hitoto",
-        "browse_id": "UCjfGjsxFpol70sYJieKUmVQ",
-        "subscribers": "1.24M"
-      },
-      {
-        "name": "Masaharu Fukuyama",
-        "browse_id": "UCOgskNCI49YHsOUTGPJ2QHA",
-        "subscribers": "5.25M"
+        "name": "Kohmi Hirose x Night Tempo",
+        "browse_id": "UCYJo9UmdzwrsF98BK1IQHsw",
+        "subscribers": "2.51M"
       }
     ],
     "ytm_top_songs": [
@@ -1969,6 +2010,12 @@
           "views": 5626720,
           "likes": 32969,
           "comments": 140
+        },
+        {
+          "date": "2026-05-20",
+          "views": 5631378,
+          "likes": 32990,
+          "comments": 140
         }
       ]
     },
@@ -2195,6 +2242,12 @@
           "date": "2026-05-19",
           "views": 1027340,
           "likes": 6182,
+          "comments": 30
+        },
+        {
+          "date": "2026-05-20",
+          "views": 1027892,
+          "likes": 6187,
           "comments": 30
         }
       ]
@@ -2423,6 +2476,12 @@
           "views": 308734,
           "likes": 2080,
           "comments": 11
+        },
+        {
+          "date": "2026-05-20",
+          "views": 309015,
+          "likes": 2081,
+          "comments": 11
         }
       ]
     },
@@ -2649,6 +2708,12 @@
           "date": "2026-05-19",
           "views": 397180,
           "likes": 1915,
+          "comments": 3
+        },
+        {
+          "date": "2026-05-20",
+          "views": 397549,
+          "likes": 1916,
           "comments": 3
         }
       ]
@@ -2882,6 +2947,12 @@
           "views": 127960,
           "likes": 893,
           "comments": 5
+        },
+        {
+          "date": "2026-05-20",
+          "views": 128038,
+          "likes": 893,
+          "comments": 5
         }
       ]
     }
@@ -3103,6 +3174,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-19T16:46:04.805338+00:00"
+    },
+    {
+      "date": "2026-05-20",
+      "metric": "youtube_total_views",
+      "value": 475590235,
+      "baseline_mean": 470868978.1,
+      "baseline_stddev": 1573752.3,
+      "delta": 4721256,
+      "score": 3.0,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-20T16:47:44.979142+00:00"
     }
   ]
 }

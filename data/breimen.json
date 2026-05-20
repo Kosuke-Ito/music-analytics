@@ -1629,6 +1629,47 @@
       "ytm_subscribers": 28900,
       "ytm_monthly_listeners": 132000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-20",
+      "monthly_listeners": 71581,
+      "collected_at": "2026-05-20T16:48:18.020642+00:00",
+      "spotify_followers": 35475,
+      "youtube_subscribers": 28900,
+      "youtube_total_views": 14889897,
+      "youtube_video_count": 169,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3137
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 2018
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1384
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 947
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 640
+        }
+      ],
+      "lastfm_listeners": 19483,
+      "lastfm_playcount": 208155,
+      "ytm_subscribers": 28900,
+      "ytm_monthly_listeners": 138000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -1662,14 +1703,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Doona",
-        "browse_id": "UCv5rkoYXfATqAncZ01WR1QQ",
-        "subscribers": "97.8K"
+        "name": "Ryukku to Soine Gohan",
+        "browse_id": "UCVzZe7OGO34_Y239YPq1VSQ",
+        "subscribers": "240K"
       },
       {
-        "name": "Okamoto's",
-        "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
-        "subscribers": "236K"
+        "name": "Doona",
+        "browse_id": "UCv5rkoYXfATqAncZ01WR1QQ",
+        "subscribers": "97.2K"
       },
       {
         "name": "MHRJ",
@@ -1677,9 +1718,14 @@
         "subscribers": "103K"
       },
       {
+        "name": "Okamoto's",
+        "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
+        "subscribers": "233K"
+      },
+      {
         "name": "Kayoko Yoshizawa",
         "browse_id": "UCbyPRq7zMUVjKiY2teAETNg",
-        "subscribers": "294K"
+        "subscribers": "293K"
       },
       {
         "name": "Yaffle",
@@ -1689,12 +1735,12 @@
       {
         "name": "BACARDI RECORDS",
         "browse_id": "UCWA1tdUUThQQnI0keyAOSqQ",
-        "subscribers": "532"
+        "subscribers": "533"
       },
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "86.6K"
+        "subscribers": "86.9K"
       },
       {
         "name": "oops cool",
@@ -1705,11 +1751,6 @@
         "name": "HATENA",
         "browse_id": "UC6erv9sE3EPrBagY-yL4rPQ",
         "subscribers": "2.01M"
-      },
-      {
-        "name": "Ryukku to Soine Gohan",
-        "browse_id": "UCVzZe7OGO34_Y239YPq1VSQ",
-        "subscribers": "242K"
       }
     ],
     "ytm_top_songs": [
@@ -1960,6 +2001,12 @@
           "views": 14455,
           "likes": 135,
           "comments": 3
+        },
+        {
+          "date": "2026-05-20",
+          "views": 14495,
+          "likes": 136,
+          "comments": 3
         }
       ]
     },
@@ -2186,6 +2233,12 @@
           "date": "2026-05-19",
           "views": 37089,
           "likes": 315,
+          "comments": 9
+        },
+        {
+          "date": "2026-05-20",
+          "views": 37225,
+          "likes": 317,
           "comments": 9
         }
       ]
@@ -2414,6 +2467,12 @@
           "views": 190373,
           "likes": 2351,
           "comments": 33
+        },
+        {
+          "date": "2026-05-20",
+          "views": 190678,
+          "likes": 2356,
+          "comments": 33
         }
       ]
     },
@@ -2627,6 +2686,12 @@
         {
           "date": "2026-05-19",
           "views": 3320,
+          "likes": 51,
+          "comments": 5
+        },
+        {
+          "date": "2026-05-20",
+          "views": 3324,
           "likes": 51,
           "comments": 5
         }
@@ -2883,6 +2948,12 @@
           "views": 762,
           "likes": 11,
           "comments": 1
+        },
+        {
+          "date": "2026-05-20",
+          "views": 943,
+          "likes": 12,
+          "comments": 1
         }
       ]
     }
@@ -3012,6 +3083,30 @@
       "type": "annotated",
       "related_annotation": "「めんどいな…」（5/13リリース）の波及継続でYouTube総再生数が上昇（2.22σ）",
       "detected_at": "2026-05-19T16:46:38.405457+00:00"
+    },
+    {
+      "date": "2026-05-20",
+      "metric": "monthly_listeners",
+      "value": 71581,
+      "baseline_mean": 67486.8,
+      "baseline_stddev": 1338.8,
+      "delta": 4094,
+      "score": 3.06,
+      "type": "annotated",
+      "related_annotation": "「めんどいな…」（5/13リリース）の波及継続でYouTube総再生数が上昇（2.22σ）",
+      "detected_at": "2026-05-20T16:48:19.505419+00:00"
+    },
+    {
+      "date": "2026-05-20",
+      "metric": "youtube_total_views",
+      "value": 14889897,
+      "baseline_mean": 14690979.4,
+      "baseline_stddev": 89053.3,
+      "delta": 198917,
+      "score": 2.23,
+      "type": "annotated",
+      "related_annotation": "「めんどいな…」（5/13リリース）の波及継続でYouTube総再生数が上昇（2.22σ）",
+      "detected_at": "2026-05-20T16:48:19.505419+00:00"
     }
   ]
 }

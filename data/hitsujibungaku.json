@@ -1518,6 +1518,47 @@
       "ytm_subscribers": 445000,
       "ytm_monthly_listeners": 5690000,
       "ytm_total_views": 336017705
+    },
+    {
+      "date": "2026-05-20",
+      "monthly_listeners": 1789149,
+      "collected_at": "2026-05-20T17:03:55.875446+00:00",
+      "spotify_followers": 488900,
+      "youtube_subscribers": 445000,
+      "youtube_total_views": 338339210,
+      "youtube_video_count": 138,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 61295
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 47098
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 33250
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 30723
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 20905
+        }
+      ],
+      "lastfm_listeners": 18213,
+      "lastfm_playcount": 1233506,
+      "ytm_subscribers": 445000,
+      "ytm_monthly_listeners": 5580000,
+      "ytm_total_views": 336017705
     }
   ],
   "annotations": [
@@ -1707,27 +1748,32 @@
       {
         "name": "regallily",
         "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
-        "subscribers": "240K"
+        "subscribers": "244K"
+      },
+      {
+        "name": "chilldspot",
+        "browse_id": "UCpAYVXySypaqfb2JA_papUA",
+        "subscribers": "148K"
       },
       {
         "name": "Laura day romance",
         "browse_id": "UCFrg0aEn8dsLCzYGVSZkT1Q",
-        "subscribers": "140K"
+        "subscribers": "139K"
       },
       {
         "name": "Homecomings",
         "browse_id": "UC5YC9saEogyw6Jg9fq_oGzg",
-        "subscribers": "78K"
+        "subscribers": "76.9K"
       },
       {
         "name": "CodyLee",
         "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "234K"
+        "subscribers": "232K"
       },
       {
         "name": "mol-74",
         "browse_id": "UCEvtm90ugC6XKB74g8ukTKg",
-        "subscribers": "101K"
+        "subscribers": "99K"
       },
       {
         "name": "CHIAKI SATO",
@@ -1737,22 +1783,17 @@
       {
         "name": "yonige",
         "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
-        "subscribers": "315K"
+        "subscribers": "324K"
       },
       {
         "name": "bungeitengoku",
         "browse_id": "UCO-XTBzvzhd7FgNoNseKqIw",
-        "subscribers": "284K"
+        "subscribers": "285K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "127K"
-      },
-      {
-        "name": "tiny yawn",
-        "browse_id": "UCESxrbFra7AVQsdPAnJ99dA",
-        "subscribers": "110K"
+        "subscribers": "128K"
       }
     ],
     "ytm_top_songs": [
@@ -1998,6 +2039,12 @@
           "views": 18499880,
           "likes": 119252,
           "comments": 351
+        },
+        {
+          "date": "2026-05-20",
+          "views": 18531762,
+          "likes": 119501,
+          "comments": 351
         }
       ]
     },
@@ -2218,6 +2265,12 @@
           "date": "2026-05-19",
           "views": 2854829,
           "likes": 23289,
+          "comments": 158
+        },
+        {
+          "date": "2026-05-20",
+          "views": 2886458,
+          "likes": 23423,
           "comments": 158
         }
       ]
@@ -2440,6 +2493,12 @@
           "views": 81463,
           "likes": 1749,
           "comments": 65
+        },
+        {
+          "date": "2026-05-20",
+          "views": 81985,
+          "likes": 1752,
+          "comments": 65
         }
       ]
     },
@@ -2660,6 +2719,12 @@
           "date": "2026-05-19",
           "views": 1364423,
           "likes": 12836,
+          "comments": 83
+        },
+        {
+          "date": "2026-05-20",
+          "views": 1366990,
+          "likes": 12857,
           "comments": 83
         }
       ]
@@ -2882,6 +2947,12 @@
           "views": 2009055,
           "likes": 15732,
           "comments": 125
+        },
+        {
+          "date": "2026-05-20",
+          "views": 2012358,
+          "likes": 15756,
+          "comments": 125
         }
       ]
     }
@@ -3090,6 +3161,18 @@
       "type": "annotated",
       "related_annotation": "アニメ「サイレント・ウィッチ」ED「mild days」配信（5/14）＋MV公開（5/16）でSpotify月間リスナーが急増（2.17σ）",
       "detected_at": "2026-05-19T17:01:41.009315+00:00"
+    },
+    {
+      "date": "2026-05-20",
+      "metric": "youtube_total_views",
+      "value": 338339210,
+      "baseline_mean": 331784225.7,
+      "baseline_stddev": 3136014.7,
+      "delta": 6554984,
+      "score": 2.09,
+      "type": "annotated",
+      "related_annotation": "アニメ「サイレント・ウィッチ」ED「mild days」配信（5/14）＋MV公開（5/16）でSpotify月間リスナーが急増（2.17σ）",
+      "detected_at": "2026-05-20T17:03:58.013118+00:00"
     }
   ]
 }
