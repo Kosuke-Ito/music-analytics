@@ -3086,6 +3086,24 @@
       "source": "youtube.com (data artifact)",
       "confidence": "high",
       "verified": false
+    },
+    {
+      "date": "2026-05-19",
+      "title": "YouTube総再生数API凍結継続（同値475,590,235・3.74σ）データアーティファクト",
+      "description": "5月18日のAPIカウンター解除アーティファクト（5.39σ）と同一値475,590,235が5月19日も継続。delta: +4,896,118（3.74σ）は実際の再生増加ではなく凍結値がベースライン移動平均を上回り続けたことによるアーティファクト。5月13日の横浜アリーナ30周年ライブ（Ken's Bar - One Night Special!!、ライブ・ビューイング合計24,000人）の余波はSpotify月間リスナー増加として別途観測済み。",
+      "category": "other",
+      "added_at": "2026-05-21T15:00:00Z",
+      "source": "youtube.com (data artifact)",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "YouTube総再生数API凍結継続（同値475,590,235・3.00σ）データアーティファクト",
+      "description": "5月18日〜20日にわたってYouTube Data APIが475,590,235に固定。5月20日のdelta: +4,721,256（3.00σ）もアーティファクト。σ値が縮小傾向にあり（5/18: 5.39σ→5/19: 3.74σ→5/20: 3.00σ）収束段階に入りつつある。",
+      "category": "other",
+      "added_at": "2026-05-21T15:00:00Z",
+      "source": "youtube.com (data artifact)",
+      "confidence": "high"
     }
   ],
   "buzz_events": [

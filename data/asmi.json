@@ -3010,6 +3010,33 @@
       "source": "natalie.mu",
       "confidence": "high",
       "verified": false
+    },
+    {
+      "date": "2026-05-19",
+      "title": "YouTube総再生数API凍結継続（同値75,522,331・2.56σ）—「ポケモン音楽祭」（5/15）出演後のAPI凍結延長アーティファクト",
+      "description": "5月15日のテレビ東京「ポケットモンスター音楽祭」出演で上昇した75,522,331に5月17日〜21日もAPI値が固定。5/17（3.32σ）・5/18（2.89σ）はポケモン音楽祭に起因するバズとして連動アノテーションに分類されたが、5/19（2.56σ）はポケモン音楽祭効果が収束した後もAPI値が固定し続けたアーティファクト。実際の再生増加は軽微とみられる。",
+      "category": "other",
+      "added_at": "2026-05-21T15:00:00Z",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "YouTube総再生数API凍結継続（同値75,522,331・2.32σ）アーティファクト",
+      "description": "5月17日から続くYouTube Data APIの凍結（75,522,331固定）が5月20日も継続（delta: +560,893・2.32σ）。σ値が縮小傾向にあり（2.56σ→2.32σ）収束段階に入りつつある。",
+      "category": "other",
+      "added_at": "2026-05-21T15:00:00Z",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-05-21",
+      "title": "YouTube総再生数API凍結継続（同値75,522,331・2.12σ）アーティファクト",
+      "description": "5月17日から続くYouTube Data APIの凍結（75,522,331固定）が5月21日も継続（delta: +528,636・2.12σ）。σ値がさらに縮小（2.32σ→2.12σ）しており間もなく閾値2.0σを下回り終息する見込み。",
+      "category": "other",
+      "added_at": "2026-05-21T15:00:00Z",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "buzz_events": [

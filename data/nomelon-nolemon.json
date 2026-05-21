@@ -3119,6 +3119,33 @@
       "added_at": "2026-05-13T16:00:00Z",
       "source": "データ検証（daily records確認）",
       "confidence": "high"
+    },
+    {
+      "date": "2026-05-17",
+      "title": "YouTube総再生数API凍結（5/5〜5/19）の継続アーティファクト（2.54σ）",
+      "description": "YouTube Data APIがyoutube_total_viewsを162,291,647に5月17日〜19日も固定して返し続けた。5/5〜5/8の第1次凍結（161,048,337で固定）終了後、新しい固定値で第2次凍結が発生したもの。5月17日のバズ検知（2.54σ）は実際の再生増加ではなくAPI凍結中の固定値がベースライン移動平均を上回り続けたことによるアーティファクト。4月17日・29日のTHE FIRST TAKE出演波及はすでに5月上旬に収束済み。",
+      "category": "other",
+      "added_at": "2026-05-21T15:00:00Z",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-05-18",
+      "title": "YouTube総再生数API第2次凍結（162,291,647）継続アーティファクト（2.26σ）",
+      "description": "5月17日から続くYouTube Data APIの第2次凍結（162,291,647固定）が5月18日も継続。バズ検知（2.26σ）は固定値がベースライン移動平均を上回り続けたことによるアーティファクトで、実際の再生増加は発生していない。",
+      "category": "other",
+      "added_at": "2026-05-21T15:00:00Z",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-05-19",
+      "title": "YouTube総再生数API第2次凍結（162,291,647）継続アーティファクト（2.04σ）",
+      "description": "5月17日から続くYouTube Data APIの第2次凍結（162,291,647固定）が5月19日も継続。バズ検知（2.04σ）は固定値がベースライン移動平均を上回り続けたことによるアーティファクト。σ値が縮小しており収束段階に入りつつある。",
+      "category": "other",
+      "added_at": "2026-05-21T15:00:00Z",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "buzz_events": [
