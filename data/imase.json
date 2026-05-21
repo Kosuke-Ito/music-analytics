@@ -1559,6 +1559,44 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 66300000,
       "ytm_total_views": 851338322
+    },
+    {
+      "date": "2026-05-21",
+      "monthly_listeners": 3344330,
+      "collected_at": "2026-05-21T16:48:33.919139+00:00",
+      "spotify_followers": 1009612,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 854518583,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 58181
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51494
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 46100
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39519
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 38759
+        }
+      ],
+      "lastfm_listeners": 403983,
+      "lastfm_playcount": 5752741
     }
   ],
   "annotations": [
@@ -2883,6 +2921,61 @@
           "comments": 193
         }
       ]
+    },
+    "0qr0Q2OIsKc": {
+      "title": "HYPNOTIZE",
+      "history": [
+        {
+          "date": "2026-05-21",
+          "views": 7886655,
+          "likes": 91723,
+          "comments": 558
+        }
+      ]
+    },
+    "Q06IepqwpVc": {
+      "title": "WOKE UP",
+      "history": [
+        {
+          "date": "2026-05-21",
+          "views": 44600923,
+          "likes": 378501,
+          "comments": 2020
+        }
+      ]
+    },
+    "wAdUATabyt0": {
+      "title": "GALA",
+      "history": [
+        {
+          "date": "2026-05-21",
+          "views": 405364,
+          "likes": 8063,
+          "comments": 57
+        }
+      ]
+    },
+    "7o2S-GO26aU": {
+      "title": "IS THIS LOVE",
+      "history": [
+        {
+          "date": "2026-05-21",
+          "views": 17207388,
+          "likes": 128921,
+          "comments": 1065
+        }
+      ]
+    },
+    "w-p4B1Si31s": {
+      "title": "LEFT RIGHT",
+      "history": [
+        {
+          "date": "2026-05-21",
+          "views": 39912880,
+          "likes": 223881,
+          "comments": 225
+        }
+      ]
     }
   },
   "buzz_events": [
@@ -3077,6 +3170,30 @@
       "type": "annotated",
       "related_annotation": "ジャックスCM継続効果：Spotify月間リスナー2.03σ上昇、YouTube総再生回数5.39σ急増",
       "detected_at": "2026-05-20T17:00:21.167238+00:00"
+    },
+    {
+      "date": "2026-05-21",
+      "metric": "monthly_listeners",
+      "value": 3344330,
+      "baseline_mean": 3320103.5,
+      "baseline_stddev": 11037.4,
+      "delta": 24226,
+      "score": 2.19,
+      "type": "annotated",
+      "related_annotation": "ジャックスCM継続効果：Spotify月間リスナー2.03σ上昇、YouTube総再生回数5.39σ急増",
+      "detected_at": "2026-05-21T16:48:35.186584+00:00"
+    },
+    {
+      "date": "2026-05-21",
+      "metric": "youtube_total_views",
+      "value": 854518583,
+      "baseline_mean": 845841364.7,
+      "baseline_stddev": 3403485.0,
+      "delta": 8677218,
+      "score": 2.55,
+      "type": "annotated",
+      "related_annotation": "ジャックスCM継続効果：Spotify月間リスナー2.03σ上昇、YouTube総再生回数5.39σ急増",
+      "detected_at": "2026-05-21T16:48:35.186584+00:00"
     }
   ]
 }

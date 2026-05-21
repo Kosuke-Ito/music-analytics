@@ -1847,6 +1847,47 @@
       "ytm_subscribers": 9230000,
       "ytm_monthly_listeners": 36800000,
       "ytm_total_views": 5302687740
+    },
+    {
+      "date": "2026-05-21",
+      "monthly_listeners": 6752671,
+      "collected_at": "2026-05-21T16:42:31.061169+00:00",
+      "spotify_followers": 7594742,
+      "youtube_subscribers": 9230000,
+      "youtube_total_views": 5356115638,
+      "youtube_video_count": 698,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 112007
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 103587
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 88663
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 77292
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 70690
+        }
+      ],
+      "lastfm_listeners": 712764,
+      "lastfm_playcount": 84841241,
+      "ytm_subscribers": 9230000,
+      "ytm_monthly_listeners": 36700000,
+      "ytm_total_views": 5311681528
     }
   ],
   "annotations": [
@@ -2073,24 +2114,29 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Toaka",
-        "browse_id": "UCaBbPiMpdL5z86bWCFgCItA",
-        "subscribers": "256K"
-      },
-      {
         "name": "jon-YAKITORY",
         "browse_id": "UCkLsbUdFJW7CFX5ZqcqOKBg",
-        "subscribers": "7.36M"
+        "subscribers": "7.32M"
+      },
+      {
+        "name": "Toaka",
+        "browse_id": "UCaBbPiMpdL5z86bWCFgCItA",
+        "subscribers": "255K"
       },
       {
         "name": "Eve",
         "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
-        "subscribers": "18M"
+        "subscribers": "17.9M"
       },
       {
         "name": "Minami",
         "browse_id": "UCEsOqBVe_DNEUAer9TYk6bw",
-        "subscribers": "2.25M"
+        "subscribers": "2.24M"
+      },
+      {
+        "name": "Kanaria",
+        "browse_id": "UCeqjRAl_a1ZrrwJ_IbIwjWQ",
+        "subscribers": "4.77M"
       },
       {
         "name": "YOASOBI",
@@ -2098,19 +2144,9 @@
         "subscribers": "40.4M"
       },
       {
-        "name": "Kanaria",
-        "browse_id": "UCeqjRAl_a1ZrrwJ_IbIwjWQ",
-        "subscribers": "4.79M"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "6.18M"
-      },
-      {
         "name": "Kocchi no Kento",
         "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
-        "subscribers": "72.2M"
+        "subscribers": "72.6M"
       },
       {
         "name": "natori",
@@ -2118,9 +2154,14 @@
         "subscribers": "15.5M"
       },
       {
+        "name": "Creepy Nuts",
+        "browse_id": "UC7z9phtXAFRixEvdlRhv-hg",
+        "subscribers": "102M"
+      },
+      {
         "name": "Reol",
         "browse_id": "UCknW0jP_BkALWACMQ44cJ1A",
-        "subscribers": "3.03M"
+        "subscribers": "3.04M"
       }
     ],
     "ytm_top_songs": [
@@ -2378,6 +2419,12 @@
           "views": 5580408,
           "likes": 143789,
           "comments": 2554
+        },
+        {
+          "date": "2026-05-21",
+          "views": 5625441,
+          "likes": 144223,
+          "comments": 2559
         }
       ]
     },
@@ -2611,6 +2658,12 @@
           "views": 29900895,
           "likes": 196843,
           "comments": 760
+        },
+        {
+          "date": "2026-05-21",
+          "views": 29948099,
+          "likes": 197119,
+          "comments": 761
         }
       ]
     },
@@ -2844,6 +2897,12 @@
           "views": 51077269,
           "likes": 471309,
           "comments": 2033
+        },
+        {
+          "date": "2026-05-21",
+          "views": 51118717,
+          "likes": 471623,
+          "comments": 2035
         }
       ]
     },
@@ -3166,6 +3225,12 @@
           "views": 66627304,
           "likes": 350167,
           "comments": 698
+        },
+        {
+          "date": "2026-05-21",
+          "views": 66668181,
+          "likes": 350380,
+          "comments": 699
         }
       ]
     },
@@ -3320,6 +3385,12 @@
           "views": 715039,
           "likes": 28289,
           "comments": 641
+        },
+        {
+          "date": "2026-05-21",
+          "views": 760519,
+          "likes": 29067,
+          "comments": 643
         }
       ]
     }
@@ -3504,6 +3575,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-20T16:54:11.044916+00:00"
+    },
+    {
+      "date": "2026-05-21",
+      "metric": "monthly_listeners",
+      "value": 6752671,
+      "baseline_mean": 6629433.0,
+      "baseline_stddev": 39794.5,
+      "delta": 123238,
+      "score": 3.1,
+      "type": "annotated",
+      "related_annotation": "日産スタジアム公演タイトル「Ao」決定・ORIHARA描き下ろしキービジュアル公開",
+      "detected_at": "2026-05-21T16:42:32.370930+00:00"
     }
   ]
 }

@@ -1562,6 +1562,47 @@
       "ytm_subscribers": 313000,
       "ytm_monthly_listeners": 3010000,
       "ytm_total_views": 306134040
+    },
+    {
+      "date": "2026-05-21",
+      "monthly_listeners": 1514028,
+      "collected_at": "2026-05-21T16:53:44.734817+00:00",
+      "spotify_followers": 327866,
+      "youtube_subscribers": 313000,
+      "youtube_total_views": 308665580,
+      "youtube_video_count": 215,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 51685
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 44784
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 37671
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 18530
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 17496
+        }
+      ],
+      "lastfm_listeners": 139614,
+      "lastfm_playcount": 2458265,
+      "ytm_subscribers": 313000,
+      "ytm_monthly_listeners": 3000000,
+      "ytm_total_views": 306134040
     }
   ],
   "annotations": [
@@ -1720,9 +1761,24 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "6.55M"
+      },
+      {
+        "name": "4na",
+        "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
+        "subscribers": "249K"
+      },
+      {
+        "name": "BILLY BOO",
+        "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
+        "subscribers": "158K"
+      },
+      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "58.4K"
+        "subscribers": "58.9K"
       },
       {
         "name": "Ohashi Chippoke",
@@ -1737,37 +1793,22 @@
       {
         "name": "EISYU",
         "browse_id": "UCQ1dCsHilcsF2YOVXEI-4VA",
-        "subscribers": "173K"
+        "subscribers": "175K"
       },
       {
-        "name": "4na",
-        "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
-        "subscribers": "251K"
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "54M"
       },
       {
-        "name": "BILLY BOO",
-        "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
-        "subscribers": "157K"
-      },
-      {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "6.72M"
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "3.21M"
       },
       {
         "name": "VK Blanka",
         "browse_id": "UCg2rvXE9x3zg01ZxyIt9DpA",
-        "subscribers": "1.88M"
-      },
-      {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "483K"
-      },
-      {
-        "name": "KAMI WA SAIKORO WO FURANAI",
-        "browse_id": "UCBX3AdkQtdXZkBuM8ojQ8jA",
-        "subscribers": "377K"
+        "subscribers": "1.87M"
       }
     ],
     "ytm_top_songs": [
@@ -2019,6 +2060,12 @@
           "views": 11199905,
           "likes": 53653,
           "comments": 200
+        },
+        {
+          "date": "2026-05-21",
+          "views": 11210668,
+          "likes": 53692,
+          "comments": 200
         }
       ]
     },
@@ -2246,6 +2293,12 @@
           "views": 753374,
           "likes": 8005,
           "comments": 89
+        },
+        {
+          "date": "2026-05-21",
+          "views": 754854,
+          "likes": 8021,
+          "comments": 89
         }
       ]
     },
@@ -2472,6 +2525,12 @@
           "date": "2026-05-20",
           "views": 2201462,
           "likes": 16539,
+          "comments": 58
+        },
+        {
+          "date": "2026-05-21",
+          "views": 2202786,
+          "likes": 16547,
           "comments": 58
         }
       ]
@@ -2711,6 +2770,12 @@
           "views": 1190129,
           "likes": 8950,
           "comments": 71
+        },
+        {
+          "date": "2026-05-21",
+          "views": 1191080,
+          "likes": 8954,
+          "comments": 71
         }
       ]
     },
@@ -2926,6 +2991,12 @@
           "views": 990361,
           "likes": 9131,
           "comments": 84
+        },
+        {
+          "date": "2026-05-21",
+          "views": 991239,
+          "likes": 9137,
+          "comments": 84
         }
       ]
     },
@@ -3133,6 +3204,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-20T17:05:51.843364+00:00"
+    },
+    {
+      "date": "2026-05-21",
+      "metric": "youtube_total_views",
+      "value": 308665580,
+      "baseline_mean": 304837061.9,
+      "baseline_stddev": 1725625.1,
+      "delta": 3828518,
+      "score": 2.22,
+      "type": "annotated",
+      "related_annotation": "「僕のヒーローアカデミア」FINAL SEASON Blu-ray Vol.2発売（5/20）＋「蕾」Season 7 EDとしての継続露出でYouTube急増（+4,041,056・2.48σ）",
+      "detected_at": "2026-05-21T16:53:46.721332+00:00"
     }
   ]
 }

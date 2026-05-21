@@ -1559,6 +1559,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 4830000,
       "ytm_total_views": 572602195
+    },
+    {
+      "date": "2026-05-21",
+      "monthly_listeners": 879655,
+      "collected_at": "2026-05-21T16:52:16.642928+00:00",
+      "spotify_followers": 970924,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 593329784,
+      "youtube_video_count": 398,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20547
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 15860
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12456
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10210
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 8300
+        }
+      ],
+      "lastfm_listeners": 8704,
+      "lastfm_playcount": 404202,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 4840000,
+      "ytm_total_views": 572602195
     }
   ],
   "metadata": {
@@ -1610,7 +1651,7 @@
       {
         "name": "SHISHIDO KAVKA",
         "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
-        "subscribers": "98.4K"
+        "subscribers": "98.7K"
       },
       {
         "name": "LADYBABY",
@@ -1620,12 +1661,12 @@
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "103K"
+        "subscribers": "102K"
       },
       {
         "name": "Akiko Wada",
         "browse_id": "UC-o0qVSpZLpHmsOTh66YfXw",
-        "subscribers": "456K"
+        "subscribers": "451K"
       },
       {
         "name": "softboiledegg",
@@ -1635,7 +1676,7 @@
       {
         "name": "Uchikubi Gokumon Doukoukai",
         "browse_id": "UCfp91acTgHFcI9WZOOudwCQ",
-        "subscribers": "454K"
+        "subscribers": "461K"
       },
       {
         "name": "Rinne Amano",
@@ -1892,6 +1933,12 @@
           "views": 18866530,
           "likes": 269711,
           "comments": 415
+        },
+        {
+          "date": "2026-05-21",
+          "views": 18877093,
+          "likes": 269845,
+          "comments": 415
         }
       ]
     },
@@ -2119,6 +2166,12 @@
           "views": 5323197,
           "likes": 31077,
           "comments": 135
+        },
+        {
+          "date": "2026-05-21",
+          "views": 5325298,
+          "likes": 31092,
+          "comments": 135
         }
       ]
     },
@@ -2345,6 +2398,12 @@
           "date": "2026-05-20",
           "views": 2007185,
           "likes": 33648,
+          "comments": 100
+        },
+        {
+          "date": "2026-05-21",
+          "views": 2010571,
+          "likes": 33699,
           "comments": 100
         }
       ]
@@ -2749,6 +2808,12 @@
           "views": 1857585,
           "likes": 20261,
           "comments": 144
+        },
+        {
+          "date": "2026-05-21",
+          "views": 1858970,
+          "likes": 20276,
+          "comments": 144
         }
       ]
     },
@@ -2825,6 +2890,12 @@
           "views": 134988,
           "likes": 5824,
           "comments": 177
+        },
+        {
+          "date": "2026-05-21",
+          "views": 140018,
+          "likes": 5981,
+          "comments": 179
         }
       ]
     }
@@ -3173,6 +3244,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-20T17:04:15.710050+00:00"
+    },
+    {
+      "date": "2026-05-21",
+      "metric": "monthly_listeners",
+      "value": 879655,
+      "baseline_mean": 833814.6,
+      "baseline_stddev": 21639.8,
+      "delta": 45840,
+      "score": 2.12,
+      "type": "annotated",
+      "related_annotation": "Zipangu LA「Chanka Chanka」ライブデビュー後の海外ファン流入継続でSpotify月間リスナーが急増（+44,246・2.19σ）",
+      "detected_at": "2026-05-21T16:52:18.414415+00:00"
     }
   ]
 }
