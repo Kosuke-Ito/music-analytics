@@ -1600,6 +1600,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 10600000,
       "ytm_total_views": 1841143945
+    },
+    {
+      "date": "2026-05-22",
+      "monthly_listeners": 3518695,
+      "collected_at": "2026-05-22T16:29:29.516818+00:00",
+      "spotify_followers": 2842712,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1842670062,
+      "youtube_video_count": 191,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 82499
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 81196
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 75959
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 51325
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40392
+        }
+      ],
+      "lastfm_listeners": 488294,
+      "lastfm_playcount": 25047311,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 10700000,
+      "ytm_total_views": 1841143945
     }
   ],
   "metadata": {
@@ -1634,19 +1675,39 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Rei Yasuda",
+        "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
+        "subscribers": "240K"
+      },
+      {
+        "name": "Chiai Fujikawa",
+        "browse_id": "UCpzy28Kw66pBn5o8uP3m4tA",
+        "subscribers": "507K"
+      },
+      {
+        "name": "majiko",
+        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
+        "subscribers": "690K"
+      },
+      {
+        "name": "Tielle",
+        "browse_id": "UCc0K8GT24B9QjG9Pidchn4A",
+        "subscribers": "51.4K"
+      },
+      {
         "name": "YOURNESS",
         "browse_id": "UCjAUZTGqk_ggJmFMNurtgng",
-        "subscribers": "225K"
+        "subscribers": "222K"
       },
       {
         "name": "krage",
         "browse_id": "UCg3fieU_nWIdFBOrqVqNUGQ",
-        "subscribers": "291K"
+        "subscribers": "292K"
       },
       {
         "name": "Miyuna",
         "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
-        "subscribers": "159K"
+        "subscribers": "158K"
       },
       {
         "name": "sayuri",
@@ -1656,12 +1717,12 @@
       {
         "name": "Daoko",
         "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
-        "subscribers": "3.84M"
+        "subscribers": "3.81M"
       },
       {
-        "name": "supercell",
-        "browse_id": "UCjlifcVO6r-V5RSh3eB1lLg",
-        "subscribers": "7.67M"
+        "name": "TK from Ling tosite sigure",
+        "browse_id": "UC8Du0rASQFHx7CxziS4OuIA",
+        "subscribers": "113K"
       }
     ],
     "ytm_top_songs": [
@@ -1919,6 +1980,12 @@
           "views": 38920834,
           "likes": 276038,
           "comments": 1532
+        },
+        {
+          "date": "2026-05-22",
+          "views": 38963232,
+          "likes": 276283,
+          "comments": 1534
         }
       ]
     },
@@ -2152,6 +2219,12 @@
           "views": 33028349,
           "likes": 153121,
           "comments": 150
+        },
+        {
+          "date": "2026-05-22",
+          "views": 33046567,
+          "likes": 153194,
+          "comments": 150
         }
       ]
     },
@@ -2384,6 +2457,12 @@
           "date": "2026-05-21",
           "views": 20113088,
           "likes": 111785,
+          "comments": 272
+        },
+        {
+          "date": "2026-05-22",
+          "views": 20128536,
+          "likes": 111860,
           "comments": 272
         }
       ]
@@ -2779,6 +2858,12 @@
           "views": 16951036,
           "likes": 85542,
           "comments": 150
+        },
+        {
+          "date": "2026-05-22",
+          "views": 16965736,
+          "likes": 85609,
+          "comments": 150
         }
       ]
     },
@@ -2855,6 +2940,12 @@
           "date": "2026-05-21",
           "views": 30068225,
           "likes": 129652,
+          "comments": 729
+        },
+        {
+          "date": "2026-05-22",
+          "views": 30087971,
+          "likes": 129719,
           "comments": 729
         }
       ]
@@ -3086,6 +3177,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数急増はAPIカウンター一時停止からの解除によるデータアーティファクト（5.39σ）＋SAO主題歌・SACRA10周年コンピ効果でSpotify月間リスナーも継続上昇",
       "detected_at": "2026-05-21T16:49:42.625479+00:00"
+    },
+    {
+      "date": "2026-05-22",
+      "metric": "youtube_total_views",
+      "value": 1842670062,
+      "baseline_mean": 1826574468.2,
+      "baseline_stddev": 6313211.3,
+      "delta": 16095593,
+      "score": 2.55,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数急増はAPIカウンター一時停止からの解除によるデータアーティファクト（5.39σ）＋SAO主題歌・SACRA10周年コンピ効果でSpotify月間リスナーも継続上昇",
+      "detected_at": "2026-05-22T16:29:31.662923+00:00"
     }
   ]
 }

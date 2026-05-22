@@ -1715,6 +1715,47 @@
       "ytm_subscribers": 462000,
       "ytm_monthly_listeners": 987000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-22",
+      "monthly_listeners": 93940,
+      "collected_at": "2026-05-22T16:15:34.912130+00:00",
+      "spotify_followers": 229117,
+      "youtube_subscribers": 462000,
+      "youtube_total_views": 211007459,
+      "youtube_video_count": 47,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 3751
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 2317
+        },
+        {
+          "city": "Bogotá",
+          "country": "CO",
+          "listeners": 1485
+        },
+        {
+          "city": "Madrid",
+          "country": "ES",
+          "listeners": 1410
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 1310
+        }
+      ],
+      "lastfm_listeners": 143835,
+      "lastfm_playcount": 2272019,
+      "ytm_subscribers": 462000,
+      "ytm_monthly_listeners": 988000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -1749,9 +1790,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3M"
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "3.16M"
       },
       {
         "name": "ꉈꀧ꒒꒒ꁄꍈꍈꀧ꒦ꉈ ꉣꅔꎡꅔꁕꁄ",
@@ -1761,7 +1802,7 @@
       {
         "name": "illion",
         "browse_id": "UC9vbsrHnodkYC4hdfJN3mAg",
-        "subscribers": "1.07M"
+        "subscribers": "1.02M"
       },
       {
         "name": "boku no lyric no bouyomi",
@@ -1776,7 +1817,7 @@
       {
         "name": "Okamoto's",
         "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
-        "subscribers": "233K"
+        "subscribers": "234K"
       },
       {
         "name": "Yaffle",
@@ -1784,19 +1825,19 @@
         "subscribers": "149K"
       },
       {
-        "name": "jo0ji",
-        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "1.31M"
-      },
-      {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "54M"
-      },
-      {
         "name": "Kroi",
         "browse_id": "UCssoAGLly9DaABecIZoht_g",
-        "subscribers": "617K"
+        "subscribers": "641K"
+      },
+      {
+        "name": "jo0ji",
+        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
+        "subscribers": "1.77M"
+      },
+      {
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "2.98M"
       }
     ],
     "ytm_top_songs": [
@@ -2059,6 +2100,12 @@
           "views": 7296982,
           "likes": 68282,
           "comments": 235
+        },
+        {
+          "date": "2026-05-22",
+          "views": 7306350,
+          "likes": 68338,
+          "comments": 235
         }
       ]
     },
@@ -2297,6 +2344,12 @@
           "date": "2026-05-21",
           "views": 1964365,
           "likes": 24401,
+          "comments": 45
+        },
+        {
+          "date": "2026-05-22",
+          "views": 1966558,
+          "likes": 24430,
           "comments": 45
         }
       ]
@@ -2537,6 +2590,12 @@
           "views": 21347093,
           "likes": 222460,
           "comments": 594
+        },
+        {
+          "date": "2026-05-22",
+          "views": 21354237,
+          "likes": 222509,
+          "comments": 595
         }
       ]
     },
@@ -2776,6 +2835,12 @@
           "views": 137420,
           "likes": 1136,
           "comments": 8
+        },
+        {
+          "date": "2026-05-22",
+          "views": 137611,
+          "likes": 1137,
+          "comments": 8
         }
       ]
     },
@@ -2967,6 +3032,12 @@
           "views": 94469,
           "likes": 1448,
           "comments": 10
+        },
+        {
+          "date": "2026-05-22",
+          "views": 94694,
+          "likes": 1451,
+          "comments": 10
         }
       ]
     },
@@ -3059,6 +3130,18 @@
       "type": "annotated",
       "related_annotation": "King Gnu CEN+RAL Tour 2026の波及効果でYouTube総再生数が上昇（2.83σ）",
       "detected_at": "2026-04-20T15:10:27.150463+00:00"
+    },
+    {
+      "date": "2026-05-22",
+      "metric": "youtube_total_views",
+      "value": 211007459,
+      "baseline_mean": 208973906.5,
+      "baseline_stddev": 377621.2,
+      "delta": 2033552,
+      "score": 5.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-22T16:15:36.289195+00:00"
     }
   ]
 }

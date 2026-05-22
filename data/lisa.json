@@ -1600,6 +1600,47 @@
       "ytm_subscribers": 8610000,
       "ytm_monthly_listeners": 87000000,
       "ytm_total_views": 2343853476
+    },
+    {
+      "date": "2026-05-22",
+      "monthly_listeners": 4662605,
+      "collected_at": "2026-05-22T16:29:12.598666+00:00",
+      "spotify_followers": 3797517,
+      "youtube_subscribers": 2940000,
+      "youtube_total_views": 1761487078,
+      "youtube_video_count": 498,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 72711
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 60394
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 53594
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 52362
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 50978
+        }
+      ],
+      "lastfm_listeners": 1986816,
+      "lastfm_playcount": 130782400,
+      "ytm_subscribers": 8620000,
+      "ytm_monthly_listeners": 86400000,
+      "ytm_total_views": 2343853476
     }
   ],
   "metadata": {
@@ -1634,29 +1675,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "BLACKPINK",
-        "browse_id": "UCkbbMCA40i18i7UdjayMPAg",
-        "subscribers": "215M"
-      },
-      {
         "name": "Emily Mei",
         "browse_id": "UCTpDQm3i_pNnjZtmUwXnoxw",
-        "subscribers": "312K"
+        "subscribers": "308K"
       },
       {
         "name": "BLACKSWAN",
         "browse_id": "UC277cpXD9BLeaGgh3yDP40w",
-        "subscribers": "662K"
+        "subscribers": "646K"
       },
       {
         "name": "SOOJIN",
         "browse_id": "UCqCmeJ3RRfpgMF6j_HzqbFQ",
-        "subscribers": "430K"
-      },
-      {
-        "name": "JEON SOMI",
-        "browse_id": "UCDnYJA3OXXhRKYPe3jzLGeQ",
-        "subscribers": "7.47M"
+        "subscribers": "435K"
       },
       {
         "name": "XLOV",
@@ -1664,24 +1695,34 @@
         "subscribers": "4.54M"
       },
       {
-        "name": "JISOO",
-        "browse_id": "UC4I9OFY_9ZYLs0Lj4bfEOvA",
-        "subscribers": "175M"
-      },
-      {
-        "name": "j-hope",
-        "browse_id": "UChLNWcjgBfZ9RPnzR5LM1mQ",
-        "subscribers": "2.21M"
-      },
-      {
         "name": "XG",
         "browse_id": "UCafINmoeAbZbK5M4dtQzBww",
-        "subscribers": "11.2M"
+        "subscribers": "11.3M"
       },
       {
         "name": "Jung Kook",
         "browse_id": "UC-pOuHFcndLpyfWSPVqXt_A",
         "subscribers": "4.18M"
+      },
+      {
+        "name": "Jimin",
+        "browse_id": "UCE6l2NHQkpgF_P96isfOu4Q",
+        "subscribers": "2.26M"
+      },
+      {
+        "name": "Hwa Sa",
+        "browse_id": "UCUvwlcYiGH78yDWofEvRQ2A",
+        "subscribers": "49.9M"
+      },
+      {
+        "name": "JISOO",
+        "browse_id": "UC4I9OFY_9ZYLs0Lj4bfEOvA",
+        "subscribers": "175M"
+      },
+      {
+        "name": "BLACKPINK",
+        "browse_id": "UCkbbMCA40i18i7UdjayMPAg",
+        "subscribers": "213M"
       }
     ],
     "ytm_top_songs": [
@@ -1950,6 +1991,12 @@
           "views": 20818570,
           "likes": 240753,
           "comments": 1939
+        },
+        {
+          "date": "2026-05-22",
+          "views": 20868549,
+          "likes": 241243,
+          "comments": 1942
         }
       ]
     },
@@ -2183,6 +2230,12 @@
           "views": 265422714,
           "likes": 2681690,
           "comments": 3865
+        },
+        {
+          "date": "2026-05-22",
+          "views": 265499430,
+          "likes": 2682456,
+          "comments": 3871
         }
       ]
     },
@@ -2416,6 +2469,12 @@
           "views": 30642549,
           "likes": 236029,
           "comments": 732
+        },
+        {
+          "date": "2026-05-22",
+          "views": 30685601,
+          "likes": 236264,
+          "comments": 733
         }
       ]
     },
@@ -2649,6 +2708,12 @@
           "views": 24739905,
           "likes": 243474,
           "comments": 2393
+        },
+        {
+          "date": "2026-05-22",
+          "views": 24771096,
+          "likes": 243699,
+          "comments": 2395
         }
       ]
     },
@@ -2882,6 +2947,12 @@
           "views": 6962261,
           "likes": 126153,
           "comments": 1916
+        },
+        {
+          "date": "2026-05-22",
+          "views": 7070032,
+          "likes": 127139,
+          "comments": 1919
         }
       ]
     }
@@ -3147,6 +3218,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-17T15:02:43.067808+00:00"
+    },
+    {
+      "date": "2026-05-22",
+      "metric": "youtube_total_views",
+      "value": 1761487078,
+      "baseline_mean": 1748259556.3,
+      "baseline_stddev": 6380839.2,
+      "delta": 13227521,
+      "score": 2.07,
+      "type": "annotated",
+      "related_annotation": "アリーナツアー「LiVE is Smile Always～15～」名古屋・日本ガイシホール最終公演（2DAYS千秋楽）",
+      "detected_at": "2026-05-22T16:29:14.001748+00:00"
     }
   ]
 }

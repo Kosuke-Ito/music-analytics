@@ -1603,6 +1603,47 @@
       "ytm_subscribers": 868000,
       "ytm_monthly_listeners": 2590000,
       "ytm_total_views": 561468693
+    },
+    {
+      "date": "2026-05-22",
+      "monthly_listeners": 1751485,
+      "collected_at": "2026-05-22T16:31:12.541019+00:00",
+      "spotify_followers": 1467288,
+      "youtube_subscribers": 868000,
+      "youtube_total_views": 562804523,
+      "youtube_video_count": 134,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 96427
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 81716
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65858
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 36905
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 31024
+        }
+      ],
+      "lastfm_listeners": 58075,
+      "lastfm_playcount": 1621387,
+      "ytm_subscribers": 868000,
+      "ytm_monthly_listeners": 2590000,
+      "ytm_total_views": 561468693
     }
   ],
   "annotations": [
@@ -1729,11 +1770,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "reGretGirl",
-        "browse_id": "UCRzWUISrDwsVPZF87iEFCqw",
-        "subscribers": "372K"
-      },
-      {
         "name": "the shes gone",
         "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
         "subscribers": "273K"
@@ -1741,7 +1777,7 @@
       {
         "name": "KEPURA",
         "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
-        "subscribers": "67.9K"
+        "subscribers": "66.7K"
       },
       {
         "name": "moon drop",
@@ -1751,7 +1787,7 @@
       {
         "name": "Mr.forte",
         "browse_id": "UC7-BeMV8TshWVp0FQK8K0Pg",
-        "subscribers": "63.3K"
+        "subscribers": "63.2K"
       },
       {
         "name": "PERKERS",
@@ -1761,22 +1797,27 @@
       {
         "name": "TRACK15",
         "browse_id": "UCbTq_K3E9Vz8ehL62WwcwIA",
-        "subscribers": "324K"
+        "subscribers": "332K"
       },
       {
         "name": "bokula.",
         "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
-        "subscribers": "229K"
+        "subscribers": "231K"
       },
       {
         "name": "Orange Spiny Crab",
         "browse_id": "UC4xFImWROIkfo8YXSgrxliQ",
-        "subscribers": "200K"
+        "subscribers": "201K"
       },
       {
         "name": "YUTORI-SEDAI",
         "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "243K"
+        "subscribers": "242K"
+      },
+      {
+        "name": "YOAKE",
+        "browse_id": "UCQE3bQBOx8YoxP3ghcXZs7g",
+        "subscribers": "106K"
       }
     ],
     "ytm_top_songs": [
@@ -2034,6 +2075,12 @@
           "views": 4059335,
           "likes": 17359,
           "comments": 41
+        },
+        {
+          "date": "2026-05-22",
+          "views": 4075592,
+          "likes": 17418,
+          "comments": 41
         }
       ]
     },
@@ -2254,6 +2301,12 @@
           "date": "2026-05-21",
           "views": 4575153,
           "likes": 21616,
+          "comments": 40
+        },
+        {
+          "date": "2026-05-22",
+          "views": 4592027,
+          "likes": 21684,
           "comments": 40
         }
       ]
@@ -2488,6 +2541,12 @@
           "views": 2413854,
           "likes": 12948,
           "comments": 36
+        },
+        {
+          "date": "2026-05-22",
+          "views": 2423580,
+          "likes": 13004,
+          "comments": 36
         }
       ]
     },
@@ -2708,6 +2767,12 @@
           "date": "2026-05-21",
           "views": 2849474,
           "likes": 17110,
+          "comments": 41
+        },
+        {
+          "date": "2026-05-22",
+          "views": 2859599,
+          "likes": 17173,
           "comments": 41
         }
       ]
@@ -2941,6 +3006,12 @@
           "date": "2026-05-21",
           "views": 2140818,
           "likes": 9134,
+          "comments": 27
+        },
+        {
+          "date": "2026-05-22",
+          "views": 2150521,
+          "likes": 9166,
           "comments": 27
         }
       ]
@@ -3196,6 +3267,18 @@
       "type": "annotated",
       "related_annotation": "「ワンダーランド」MV公開（5/16）の後続拡散でSpotify月間リスナーが急増（+84,504・2.19σ）",
       "detected_at": "2026-05-21T16:51:27.395072+00:00"
+    },
+    {
+      "date": "2026-05-22",
+      "metric": "monthly_listeners",
+      "value": 1751485,
+      "baseline_mean": 1663115,
+      "baseline_stddev": 43467.8,
+      "delta": 88370,
+      "score": 2.03,
+      "type": "annotated",
+      "related_annotation": "「ワンダーランド」MV公開（5/16）の後続拡散でSpotify月間リスナーが急増（+84,504・2.19σ）",
+      "detected_at": "2026-05-22T16:31:14.182254+00:00"
     }
   ]
 }

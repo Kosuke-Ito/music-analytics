@@ -1600,6 +1600,47 @@
       "ytm_subscribers": 879000,
       "ytm_monthly_listeners": 7000000,
       "ytm_total_views": 633878224
+    },
+    {
+      "date": "2026-05-22",
+      "monthly_listeners": 2432580,
+      "collected_at": "2026-05-22T16:33:14.773756+00:00",
+      "spotify_followers": 1049592,
+      "youtube_subscribers": 879000,
+      "youtube_total_views": 653582761,
+      "youtube_video_count": 286,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 60694
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 56851
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 56105
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 38346
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 25592
+        }
+      ],
+      "lastfm_listeners": 164714,
+      "lastfm_playcount": 5714358,
+      "ytm_subscribers": 879000,
+      "ytm_monthly_listeners": 7090000,
+      "ytm_total_views": 633878224
     }
   ],
   "annotations": [
@@ -1675,22 +1716,12 @@
       {
         "name": "LOZAREENA",
         "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
-        "subscribers": "314K"
+        "subscribers": "310K"
       },
       {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "6.55M"
-      },
-      {
-        "name": "Daizy",
-        "browse_id": "UCH46ajYQda9dr1Itiy4176A",
-        "subscribers": "184K"
-      },
-      {
-        "name": "Kotone",
-        "browse_id": "UCZKz-7lju7A3Hi_DSf4oNQw",
-        "subscribers": "62K"
+        "subscribers": "6.43M"
       },
       {
         "name": "Rei Yasuda",
@@ -1705,12 +1736,12 @@
       {
         "name": "CHIAKI SATO",
         "browse_id": "UCgPeNtXtc4sWEJSqQvNJzmQ",
-        "subscribers": "109K"
+        "subscribers": "108K"
       },
       {
         "name": "Miyuna",
         "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
-        "subscribers": "159K"
+        "subscribers": "158K"
       },
       {
         "name": "Harumi",
@@ -1718,9 +1749,19 @@
         "subscribers": "44.3K"
       },
       {
+        "name": "Daizy",
+        "browse_id": "UCH46ajYQda9dr1Itiy4176A",
+        "subscribers": "185K"
+      },
+      {
+        "name": "Kotone",
+        "browse_id": "UCZKz-7lju7A3Hi_DSf4oNQw",
+        "subscribers": "62K"
+      },
+      {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3M"
+        "subscribers": "2.98M"
       }
     ],
     "ytm_top_songs": [
@@ -1978,6 +2019,12 @@
           "views": 34471443,
           "likes": 251790,
           "comments": 1152
+        },
+        {
+          "date": "2026-05-22",
+          "views": 34497724,
+          "likes": 251960,
+          "comments": 1153
         }
       ]
     },
@@ -2288,6 +2335,12 @@
           "views": 8634053,
           "likes": 61165,
           "comments": 212
+        },
+        {
+          "date": "2026-05-22",
+          "views": 8644462,
+          "likes": 61223,
+          "comments": 212
         }
       ]
     },
@@ -2514,6 +2567,12 @@
           "date": "2026-05-21",
           "views": 1973321,
           "likes": 13637,
+          "comments": 108
+        },
+        {
+          "date": "2026-05-22",
+          "views": 1974740,
+          "likes": 13644,
           "comments": 108
         }
       ]
@@ -2748,6 +2807,12 @@
           "views": 7232060,
           "likes": 52547,
           "comments": 66
+        },
+        {
+          "date": "2026-05-22",
+          "views": 7236073,
+          "likes": 52566,
+          "comments": 66
         }
       ]
     },
@@ -2909,6 +2974,12 @@
           "views": 1411186,
           "likes": 24262,
           "comments": 302
+        },
+        {
+          "date": "2026-05-22",
+          "views": 1420615,
+          "likes": 24344,
+          "comments": 303
         }
       ]
     },
@@ -2996,6 +3067,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-21T16:53:29.911929+00:00"
+    },
+    {
+      "date": "2026-05-22",
+      "metric": "youtube_total_views",
+      "value": 653582761,
+      "baseline_mean": 649255623.6,
+      "baseline_stddev": 1882588.6,
+      "delta": 4327137,
+      "score": 2.3,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数API凍結継続（同値653,582,761・2.54σ）データアーティファクト",
+      "detected_at": "2026-05-22T16:33:16.800170+00:00"
     }
   ]
 }
