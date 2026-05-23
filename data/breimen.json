@@ -1752,6 +1752,47 @@
       "ytm_subscribers": 28900,
       "ytm_monthly_listeners": 151000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-23",
+      "monthly_listeners": 73617,
+      "collected_at": "2026-05-23T14:55:16.022611+00:00",
+      "spotify_followers": 35514,
+      "youtube_subscribers": 28900,
+      "youtube_total_views": 14938596,
+      "youtube_video_count": 171,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3256
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 2107
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1436
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 984
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 656
+        }
+      ],
+      "lastfm_listeners": 19508,
+      "lastfm_playcount": 208664,
+      "ytm_subscribers": 28900,
+      "ytm_monthly_listeners": 151000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -1785,9 +1826,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Doona",
-        "browse_id": "UCv5rkoYXfATqAncZ01WR1QQ",
-        "subscribers": "98.1K"
+        "name": "jo0ji",
+        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
+        "subscribers": "1.77M"
+      },
+      {
+        "name": "Kroi",
+        "browse_id": "UCssoAGLly9DaABecIZoht_g",
+        "subscribers": "641K"
       },
       {
         "name": "MHRJ",
@@ -1800,6 +1846,11 @@
         "subscribers": "234K"
       },
       {
+        "name": "Doona",
+        "browse_id": "UCv5rkoYXfATqAncZ01WR1QQ",
+        "subscribers": "98.1K"
+      },
+      {
         "name": "Kayoko Yoshizawa",
         "browse_id": "UCbyPRq7zMUVjKiY2teAETNg",
         "subscribers": "285K"
@@ -1807,7 +1858,7 @@
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "149K"
+        "subscribers": "148K"
       },
       {
         "name": "BACARDI RECORDS",
@@ -1823,16 +1874,6 @@
         "name": "oops cool",
         "browse_id": "UCzY8jNag1B45hW5J-HwhWKQ",
         "subscribers": "18.9K"
-      },
-      {
-        "name": "HATENA",
-        "browse_id": "UC6erv9sE3EPrBagY-yL4rPQ",
-        "subscribers": "2.02M"
-      },
-      {
-        "name": "Ryukku to Soine Gohan",
-        "browse_id": "UCVzZe7OGO34_Y239YPq1VSQ",
-        "subscribers": "216K"
       }
     ],
     "ytm_top_songs": [
@@ -2101,6 +2142,12 @@
           "views": 14570,
           "likes": 136,
           "comments": 3
+        },
+        {
+          "date": "2026-05-23",
+          "views": 14592,
+          "likes": 136,
+          "comments": 3
         }
       ]
     },
@@ -2344,6 +2391,12 @@
         {
           "date": "2026-05-22",
           "views": 37482,
+          "likes": 318,
+          "comments": 9
+        },
+        {
+          "date": "2026-05-23",
+          "views": 37600,
           "likes": 318,
           "comments": 9
         }
@@ -2591,6 +2644,12 @@
           "views": 191309,
           "likes": 2361,
           "comments": 33
+        },
+        {
+          "date": "2026-05-23",
+          "views": 191539,
+          "likes": 2363,
+          "comments": 33
         }
       ]
     },
@@ -2822,6 +2881,12 @@
         {
           "date": "2026-05-22",
           "views": 3337,
+          "likes": 52,
+          "comments": 5
+        },
+        {
+          "date": "2026-05-23",
+          "views": 3339,
           "likes": 52,
           "comments": 5
         }
@@ -3096,6 +3161,12 @@
           "views": 1183,
           "likes": 13,
           "comments": 1
+        },
+        {
+          "date": "2026-05-23",
+          "views": 1211,
+          "likes": 14,
+          "comments": 1
         }
       ]
     }
@@ -3305,6 +3376,30 @@
       "type": "annotated",
       "related_annotation": "新曲「めんどいな…」（5/13リリース）の継続効果でSpotify月間リスナーが急増（+5,126・3.39σ）",
       "detected_at": "2026-05-22T16:16:59.472828+00:00"
+    },
+    {
+      "date": "2026-05-23",
+      "metric": "monthly_listeners",
+      "value": 73617,
+      "baseline_mean": 67859.1,
+      "baseline_stddev": 2007.7,
+      "delta": 5757,
+      "score": 2.87,
+      "type": "annotated",
+      "related_annotation": "新曲「めんどいな…」（5/13リリース）の継続効果でSpotify月間リスナーが急増（+5,126・3.39σ）",
+      "detected_at": "2026-05-23T14:55:17.676074+00:00"
+    },
+    {
+      "date": "2026-05-23",
+      "metric": "youtube_total_views",
+      "value": 14938596,
+      "baseline_mean": 14732616.1,
+      "baseline_stddev": 87511.4,
+      "delta": 205979,
+      "score": 2.35,
+      "type": "annotated",
+      "related_annotation": "新曲「めんどいな…」（5/13リリース）の継続効果でSpotify月間リスナーが急増（+5,126・3.39σ）",
+      "detected_at": "2026-05-23T14:55:17.676074+00:00"
     }
   ]
 }

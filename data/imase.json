@@ -1638,6 +1638,47 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 66000000,
       "ytm_total_views": 851338322
+    },
+    {
+      "date": "2026-05-23",
+      "monthly_listeners": 3344238,
+      "collected_at": "2026-05-23T15:06:45.538949+00:00",
+      "spotify_followers": 1010306,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 854518583,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 58264
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51384
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 45931
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39528
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 38643
+        }
+      ],
+      "lastfm_listeners": 404225,
+      "lastfm_playcount": 5756304,
+      "ytm_subscribers": 1340000,
+      "ytm_monthly_listeners": 66000000,
+      "ytm_total_views": 851338322
     }
   ],
   "annotations": [
@@ -1791,12 +1832,12 @@
       {
         "name": "Rinne",
         "browse_id": "UCbWE8ZDfkixEPbYiCpc3H7A",
-        "subscribers": "334K"
+        "subscribers": "324K"
       },
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "149K"
+        "subscribers": "148K"
       },
       {
         "name": "Zettakun",
@@ -2064,6 +2105,12 @@
           "views": 138836492,
           "likes": 1091851,
           "comments": 5886
+        },
+        {
+          "date": "2026-05-23",
+          "views": 138906256,
+          "likes": 1092448,
+          "comments": 5893
         }
       ]
     },
@@ -2296,6 +2343,12 @@
           "date": "2026-05-22",
           "views": 7693968,
           "likes": 56720,
+          "comments": 160
+        },
+        {
+          "date": "2026-05-23",
+          "views": 7702904,
+          "likes": 56769,
           "comments": 160
         }
       ]
@@ -2530,6 +2583,12 @@
           "views": 3321721,
           "likes": 36564,
           "comments": 284
+        },
+        {
+          "date": "2026-05-23",
+          "views": 3324615,
+          "likes": 36582,
+          "comments": 283
         }
       ]
     },
@@ -2762,6 +2821,12 @@
           "date": "2026-05-22",
           "views": 11535336,
           "likes": 51204,
+          "comments": 153
+        },
+        {
+          "date": "2026-05-23",
+          "views": 11539330,
+          "likes": 51219,
           "comments": 153
         }
       ]
@@ -3000,6 +3065,12 @@
           "date": "2026-05-22",
           "views": 4180543,
           "likes": 38696,
+          "comments": 193
+        },
+        {
+          "date": "2026-05-23",
+          "views": 4183103,
+          "likes": 38718,
           "comments": 193
         }
       ]
@@ -3288,6 +3359,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-22T16:28:22.926338+00:00"
+    },
+    {
+      "date": "2026-05-23",
+      "metric": "youtube_total_views",
+      "value": 854518583,
+      "baseline_mean": 846508843,
+      "baseline_stddev": 4004870.0,
+      "delta": 8009740,
+      "score": 2.0,
+      "type": "annotated",
+      "related_annotation": "ジャックスCM「惑星ロマンス」継続放映によるYouTube総再生回数の高水準維持（2.24σ）",
+      "detected_at": "2026-05-23T15:06:47.419205+00:00"
     }
   ]
 }

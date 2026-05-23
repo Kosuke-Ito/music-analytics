@@ -1644,6 +1644,47 @@
       "ytm_subscribers": 868000,
       "ytm_monthly_listeners": 2590000,
       "ytm_total_views": 561468693
+    },
+    {
+      "date": "2026-05-23",
+      "monthly_listeners": 1753772,
+      "collected_at": "2026-05-23T15:09:35.658041+00:00",
+      "spotify_followers": 1467964,
+      "youtube_subscribers": 868000,
+      "youtube_total_views": 567395094,
+      "youtube_video_count": 134,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 96327
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 81457
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65809
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 37018
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 31223
+        }
+      ],
+      "lastfm_listeners": 58096,
+      "lastfm_playcount": 1622235,
+      "ytm_subscribers": 868000,
+      "ytm_monthly_listeners": 2590000,
+      "ytm_total_views": 565964892
     }
   ],
   "annotations": [
@@ -1770,6 +1811,21 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "reGretGirl",
+        "browse_id": "UCRzWUISrDwsVPZF87iEFCqw",
+        "subscribers": "366K"
+      },
+      {
+        "name": "shytaupe",
+        "browse_id": "UClT2HzITnq_4MQoY99Gf6Hw",
+        "subscribers": "3.98M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "13.5M"
+      },
+      {
         "name": "the shes gone",
         "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
         "subscribers": "273K"
@@ -1803,21 +1859,6 @@
         "name": "bokula.",
         "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
         "subscribers": "231K"
-      },
-      {
-        "name": "Orange Spiny Crab",
-        "browse_id": "UC4xFImWROIkfo8YXSgrxliQ",
-        "subscribers": "201K"
-      },
-      {
-        "name": "YUTORI-SEDAI",
-        "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "242K"
-      },
-      {
-        "name": "YOAKE",
-        "browse_id": "UCQE3bQBOx8YoxP3ghcXZs7g",
-        "subscribers": "106K"
       }
     ],
     "ytm_top_songs": [
@@ -2081,6 +2122,12 @@
           "views": 4075592,
           "likes": 17418,
           "comments": 41
+        },
+        {
+          "date": "2026-05-23",
+          "views": 4091917,
+          "likes": 17493,
+          "comments": 41
         }
       ]
     },
@@ -2307,6 +2354,12 @@
           "date": "2026-05-22",
           "views": 4592027,
           "likes": 21684,
+          "comments": 40
+        },
+        {
+          "date": "2026-05-23",
+          "views": 4608914,
+          "likes": 21767,
           "comments": 40
         }
       ]
@@ -2547,6 +2600,12 @@
           "views": 2423580,
           "likes": 13004,
           "comments": 36
+        },
+        {
+          "date": "2026-05-23",
+          "views": 2433203,
+          "likes": 13048,
+          "comments": 36
         }
       ]
     },
@@ -2774,6 +2833,12 @@
           "views": 2859599,
           "likes": 17173,
           "comments": 41
+        },
+        {
+          "date": "2026-05-23",
+          "views": 2869593,
+          "likes": 17233,
+          "comments": 42
         }
       ]
     },
@@ -3012,6 +3077,12 @@
           "date": "2026-05-22",
           "views": 2150521,
           "likes": 9166,
+          "comments": 27
+        },
+        {
+          "date": "2026-05-23",
+          "views": 2159944,
+          "likes": 9201,
           "comments": 27
         }
       ]
@@ -3279,6 +3350,18 @@
       "type": "annotated",
       "related_annotation": "「ワンダーランド」MV公開（5/16）の後続拡散でSpotify月間リスナーが急増（+84,504・2.19σ）",
       "detected_at": "2026-05-22T16:31:14.182254+00:00"
+    },
+    {
+      "date": "2026-05-23",
+      "metric": "youtube_total_views",
+      "value": 567395094,
+      "baseline_mean": 560855048.8,
+      "baseline_stddev": 2155998.8,
+      "delta": 6540045,
+      "score": 3.03,
+      "type": "annotated",
+      "related_annotation": "「ワンダーランド」MV公開（5/16）の後続拡散でSpotify月間リスナーが急増（+84,504・2.19σ）",
+      "detected_at": "2026-05-23T15:09:37.317064+00:00"
     }
   ]
 }

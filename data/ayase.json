@@ -1756,6 +1756,47 @@
       "ytm_subscribers": 59600,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 89191499
+    },
+    {
+      "date": "2026-05-23",
+      "monthly_listeners": 976331,
+      "collected_at": "2026-05-23T14:56:24.598506+00:00",
+      "spotify_followers": 416307,
+      "youtube_subscribers": 7390000,
+      "youtube_total_views": 6595447177,
+      "youtube_video_count": 295,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 29888
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 27787
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 19653
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 13634
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 11655
+        }
+      ],
+      "lastfm_listeners": 100080,
+      "lastfm_playcount": 1798056,
+      "ytm_subscribers": 59600,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 89242986
     }
   ],
   "metadata": {
@@ -1790,14 +1831,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "jon-YAKITORY",
-        "browse_id": "UCkLsbUdFJW7CFX5ZqcqOKBg",
-        "subscribers": "7.31M"
+        "name": "Three",
+        "browse_id": "UCekuD5lZYEm4XUto7ggbVSg",
+        "subscribers": "2.23M"
+      },
+      {
+        "name": "Mafumafu",
+        "browse_id": "UCvHOSjgsLj_p0lUuQ2VmhZw",
+        "subscribers": "165K"
       },
       {
         "name": "meiyo",
         "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
-        "subscribers": "886K"
+        "subscribers": "910K"
       },
       {
         "name": "Sou",
@@ -1833,11 +1879,6 @@
         "name": "EVO+",
         "browse_id": "UC_YgchlOXrff__BizLqvE7w",
         "subscribers": "205K"
-      },
-      {
-        "name": "Eve",
-        "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
-        "subscribers": "17.8M"
       }
     ],
     "ytm_top_songs": [
@@ -2100,6 +2141,12 @@
           "date": "2026-05-22",
           "views": 28955051,
           "likes": 139664,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-23",
+          "views": 28962651,
+          "likes": 139704,
           "comments": 0
         }
       ]
@@ -2543,6 +2590,12 @@
           "views": 14675421,
           "likes": 61357,
           "comments": 0
+        },
+        {
+          "date": "2026-05-23",
+          "views": 14680340,
+          "likes": 61375,
+          "comments": 0
         }
       ]
     },
@@ -2781,6 +2834,12 @@
           "date": "2026-05-22",
           "views": 7747736,
           "likes": 38643,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-23",
+          "views": 7750837,
+          "likes": 38657,
           "comments": 0
         }
       ]
@@ -3021,6 +3080,12 @@
           "views": 1287181,
           "likes": 12099,
           "comments": 36
+        },
+        {
+          "date": "2026-05-23",
+          "views": 1288704,
+          "likes": 12109,
+          "comments": 36
         }
       ]
     },
@@ -3116,6 +3181,12 @@
           "date": "2026-05-22",
           "views": 3610823,
           "likes": 21286,
+          "comments": 22
+        },
+        {
+          "date": "2026-05-23",
+          "views": 3611988,
+          "likes": 21293,
           "comments": 22
         }
       ]
@@ -3332,6 +3403,18 @@
       "type": "annotated",
       "related_annotation": "先行シングル「うるさ」配信リリース",
       "detected_at": "2026-05-22T16:18:06.605319+00:00"
+    },
+    {
+      "date": "2026-05-23",
+      "metric": "monthly_listeners",
+      "value": 976331,
+      "baseline_mean": 939577.7,
+      "baseline_stddev": 11214.9,
+      "delta": 36753,
+      "score": 3.28,
+      "type": "annotated",
+      "related_annotation": "先行シングル「うるさ」配信リリース",
+      "detected_at": "2026-05-23T14:56:25.848424+00:00"
     }
   ]
 }

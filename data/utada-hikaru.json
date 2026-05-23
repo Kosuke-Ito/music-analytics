@@ -1641,6 +1641,47 @@
       "ytm_subscribers": 2500000,
       "ytm_monthly_listeners": 20300000,
       "ytm_total_views": 1752434183
+    },
+    {
+      "date": "2026-05-23",
+      "monthly_listeners": 7571200,
+      "collected_at": "2026-05-23T15:06:12.435024+00:00",
+      "spotify_followers": 4461911,
+      "youtube_subscribers": 2500000,
+      "youtube_total_views": 1760245434,
+      "youtube_video_count": 259,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 243985
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 224220
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 145819
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 145605
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 91240
+        }
+      ],
+      "lastfm_listeners": 323543,
+      "lastfm_playcount": 31538943,
+      "ytm_subscribers": 2500000,
+      "ytm_monthly_listeners": 20300000,
+      "ytm_total_views": 1757856301
     }
   ],
   "annotations": [
@@ -1798,14 +1839,14 @@
         "subscribers": "5.11M"
       },
       {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "53.5M"
+      },
+      {
         "name": "MISIA",
         "browse_id": "UCJbz6GhYvW-ov7OLEO32Jng",
         "subscribers": "4.95M"
-      },
-      {
-        "name": "m-flo",
-        "browse_id": "UCZeNdH-qUza0BlYSVhbSe7g",
-        "subscribers": "3.14M"
       },
       {
         "name": "Yuko Ando",
@@ -1813,9 +1854,19 @@
         "subscribers": "179K"
       },
       {
+        "name": "m-flo",
+        "browse_id": "UCZeNdH-qUza0BlYSVhbSe7g",
+        "subscribers": "3.08M"
+      },
+      {
         "name": "the brilliant green",
         "browse_id": "UCEmBZOcH6_8l_7FqhqmupZA",
         "subscribers": "1.73M"
+      },
+      {
+        "name": "Ayaka",
+        "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
+        "subscribers": "4.49M"
       },
       {
         "name": "Crystal Kay",
@@ -1823,24 +1874,14 @@
         "subscribers": "1.7M"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "53.7M"
-      },
-      {
-        "name": "Ayaka",
-        "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
-        "subscribers": "4.68M"
-      },
-      {
-        "name": "Perfume",
-        "browse_id": "UCrht-oKwaPy5TqVp80yOuLg",
-        "subscribers": "3.84M"
-      },
-      {
         "name": "Chihiro Onitsuka",
         "browse_id": "UCXAZfW6_7LBpa-HN4suL6ig",
-        "subscribers": "891K"
+        "subscribers": "885K"
+      },
+      {
+        "name": "Aoi Teshima",
+        "browse_id": "UCh57mO6vxH9lCVtiH-Qtr8Q",
+        "subscribers": "227M"
       }
     ],
     "ytm_top_songs": [
@@ -2104,6 +2145,12 @@
           "views": 53450643,
           "likes": 305527,
           "comments": 2498
+        },
+        {
+          "date": "2026-05-23",
+          "views": 53544883,
+          "likes": 305800,
+          "comments": 2499
         }
       ]
     },
@@ -2342,6 +2389,12 @@
           "date": "2026-05-22",
           "views": 1349601,
           "likes": 13762,
+          "comments": 77
+        },
+        {
+          "date": "2026-05-23",
+          "views": 1361785,
+          "likes": 13837,
           "comments": 77
         }
       ]
@@ -2582,6 +2635,12 @@
           "views": 26416992,
           "likes": 207293,
           "comments": 479
+        },
+        {
+          "date": "2026-05-23",
+          "views": 26430962,
+          "likes": 207376,
+          "comments": 480
         }
       ]
     },
@@ -2964,6 +3023,12 @@
           "views": 1099130,
           "likes": 7478,
           "comments": 21
+        },
+        {
+          "date": "2026-05-23",
+          "views": 1099995,
+          "likes": 7487,
+          "comments": 21
         }
       ]
     },
@@ -3059,6 +3124,12 @@
           "views": 103351,
           "likes": 2030,
           "comments": 35
+        },
+        {
+          "date": "2026-05-23",
+          "views": 106808,
+          "likes": 2052,
+          "comments": 36
         }
       ]
     },
@@ -3134,6 +3205,18 @@
       "type": "annotated",
       "related_annotation": "「パッパパラダイス」MV公開（5/6）＋CDTVパフォーマンス（5/11）の継続波及でYouTube総再生数が上昇（2.66σ）",
       "detected_at": "2026-05-19T16:57:36.310472+00:00"
+    },
+    {
+      "date": "2026-05-23",
+      "metric": "youtube_total_views",
+      "value": 1760245434,
+      "baseline_mean": 1739500818.6,
+      "baseline_stddev": 9917287.7,
+      "delta": 20744615,
+      "score": 2.09,
+      "type": "annotated",
+      "related_annotation": "「パッパパラダイス」リリース記念ソニーストアコラボイベント開始",
+      "detected_at": "2026-05-23T15:06:13.935967+00:00"
     }
   ]
 }

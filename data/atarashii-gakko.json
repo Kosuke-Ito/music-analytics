@@ -1641,6 +1641,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 4840000,
       "ytm_total_views": 572602195
+    },
+    {
+      "date": "2026-05-23",
+      "monthly_listeners": 883131,
+      "collected_at": "2026-05-23T15:10:26.442021+00:00",
+      "spotify_followers": 971282,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 594524066,
+      "youtube_video_count": 398,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20747
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 15864
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12581
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10233
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 8290
+        }
+      ],
+      "lastfm_listeners": 8705,
+      "lastfm_playcount": 404356,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 4840000,
+      "ytm_total_views": 573439165
     }
   ],
   "metadata": {
@@ -1675,24 +1716,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Daoko",
+        "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
+        "subscribers": "3.79M"
+      },
+      {
         "name": "MAXIMUM THE HORMONE",
         "browse_id": "UC10viXnr5P30UrEb36Y984g",
-        "subscribers": "1.68M"
-      },
-      {
-        "name": "Uchikubi Gokumon Doukoukai",
-        "browse_id": "UCfp91acTgHFcI9WZOOudwCQ",
-        "subscribers": "470K"
-      },
-      {
-        "name": "Rinne Amano",
-        "browse_id": "UCilIfSkrtkGFRsHWTBepAAw",
-        "subscribers": "5.29K"
+        "subscribers": "1.69M"
       },
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "234K"
+        "subscribers": "232K"
       },
       {
         "name": "DONGURIZU",
@@ -1717,12 +1753,17 @@
       {
         "name": "Akiko Wada",
         "browse_id": "UC-o0qVSpZLpHmsOTh66YfXw",
-        "subscribers": "446K"
+        "subscribers": "447K"
       },
       {
         "name": "softboiledegg",
         "browse_id": "UCW-WcMooQa9nk6NZJPpB2-A",
         "subscribers": "12.5K"
+      },
+      {
+        "name": "Uchikubi Gokumon Doukoukai",
+        "browse_id": "UCfp91acTgHFcI9WZOOudwCQ",
+        "subscribers": "483K"
       }
     ],
     "ytm_top_songs": [
@@ -1986,6 +2027,12 @@
           "views": 18887466,
           "likes": 269979,
           "comments": 415
+        },
+        {
+          "date": "2026-05-23",
+          "views": 18896986,
+          "likes": 270086,
+          "comments": 415
         }
       ]
     },
@@ -2225,6 +2272,12 @@
           "views": 5327426,
           "likes": 31112,
           "comments": 135
+        },
+        {
+          "date": "2026-05-23",
+          "views": 5329370,
+          "likes": 31139,
+          "comments": 135
         }
       ]
     },
@@ -2463,6 +2516,12 @@
           "date": "2026-05-22",
           "views": 2013949,
           "likes": 33747,
+          "comments": 101
+        },
+        {
+          "date": "2026-05-23",
+          "views": 2017192,
+          "likes": 33785,
           "comments": 101
         }
       ]
@@ -2879,6 +2938,12 @@
           "views": 1860306,
           "likes": 20295,
           "comments": 144
+        },
+        {
+          "date": "2026-05-23",
+          "views": 1861659,
+          "likes": 20312,
+          "comments": 144
         }
       ]
     },
@@ -2967,6 +3032,12 @@
           "views": 144698,
           "likes": 6109,
           "comments": 184
+        },
+        {
+          "date": "2026-05-23",
+          "views": 148800,
+          "likes": 6187,
+          "comments": 189
         }
       ]
     }
@@ -3327,6 +3398,18 @@
       "type": "annotated",
       "related_annotation": "Zipangu LA「Chanka Chanka」ライブデビュー後の海外ファン流入継続でSpotify月間リスナーが急増（+44,246・2.19σ）",
       "detected_at": "2026-05-21T16:52:18.414415+00:00"
+    },
+    {
+      "date": "2026-05-23",
+      "metric": "youtube_total_views",
+      "value": 594524066,
+      "baseline_mean": 590013153.1,
+      "baseline_stddev": 2065758.6,
+      "delta": 4510912,
+      "score": 2.18,
+      "type": "annotated",
+      "related_annotation": "Zipangu LA「Chanka Chanka」ライブデビュー後の海外ファン流入継続でSpotify月間リスナーが急増（+44,246・2.19σ）",
+      "detected_at": "2026-05-23T15:10:28.292899+00:00"
     }
   ]
 }
