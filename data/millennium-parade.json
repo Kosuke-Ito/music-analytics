@@ -1800,6 +1800,47 @@
       "validation_flags": [
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-05-24",
+      "monthly_listeners": 91783,
+      "collected_at": "2026-05-24T14:55:31.230498+00:00",
+      "spotify_followers": 229131,
+      "youtube_subscribers": 462000,
+      "youtube_total_views": 211007459,
+      "youtube_video_count": 47,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 3721
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 2316
+        },
+        {
+          "city": "Bogotá",
+          "country": "CO",
+          "listeners": 1471
+        },
+        {
+          "city": "Madrid",
+          "country": "ES",
+          "listeners": 1404
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 1275
+        }
+      ],
+      "lastfm_listeners": 143848,
+      "lastfm_playcount": 2272191,
+      "ytm_subscribers": 462000,
+      "ytm_monthly_listeners": 965000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -1834,21 +1875,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "2.98M"
-      },
-      {
-        "name": "jo0ji",
-        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "1.77M"
-      },
-      {
-        "name": "Kroi",
-        "browse_id": "UCssoAGLly9DaABecIZoht_g",
-        "subscribers": "641K"
-      },
-      {
         "name": "ꉈꀧ꒒꒒ꁄꍈꍈꀧ꒦ꉈ ꉣꅔꎡꅔꁕꁄ",
         "browse_id": "UCaA9RWPJq5CRlW7pYAaMP0w",
         "subscribers": "134"
@@ -1856,32 +1882,47 @@
       {
         "name": "illion",
         "browse_id": "UC9vbsrHnodkYC4hdfJN3mAg",
-        "subscribers": "1.02M"
+        "subscribers": "968K"
       },
       {
         "name": "boku no lyric no bouyomi",
         "browse_id": "UCw1r5leUGRTKJ4iSZ33kB9A",
-        "subscribers": "65.6K"
+        "subscribers": "64.6K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "102K"
+        "subscribers": "99.3K"
       },
       {
         "name": "Okamoto's",
         "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
-        "subscribers": "234K"
+        "subscribers": "230K"
       },
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "148K"
+        "subscribers": "145K"
       },
       {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "82.3M"
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "2.88M"
+      },
+      {
+        "name": "Kroi",
+        "browse_id": "UCssoAGLly9DaABecIZoht_g",
+        "subscribers": "639K"
+      },
+      {
+        "name": "jo0ji",
+        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
+        "subscribers": "1.75M"
+      },
+      {
+        "name": "muque",
+        "browse_id": "UClh_g9tkf_ErD1UclhABZDw",
+        "subscribers": "658K"
       }
     ],
     "ytm_top_songs": [
@@ -2156,6 +2197,12 @@
           "views": 7314497,
           "likes": 68375,
           "comments": 235
+        },
+        {
+          "date": "2026-05-24",
+          "views": 7322472,
+          "likes": 68430,
+          "comments": 236
         }
       ]
     },
@@ -2407,6 +2454,12 @@
           "views": 1968422,
           "likes": 24451,
           "comments": 45
+        },
+        {
+          "date": "2026-05-24",
+          "views": 1970252,
+          "likes": 24474,
+          "comments": 46
         }
       ]
     },
@@ -2657,6 +2710,12 @@
           "date": "2026-05-23",
           "views": 21361065,
           "likes": 222549,
+          "comments": 594
+        },
+        {
+          "date": "2026-05-24",
+          "views": 21368034,
+          "likes": 222597,
           "comments": 594
         }
       ]
@@ -2909,6 +2968,12 @@
           "views": 137762,
           "likes": 1139,
           "comments": 8
+        },
+        {
+          "date": "2026-05-24",
+          "views": 137906,
+          "likes": 1140,
+          "comments": 8
         }
       ]
     },
@@ -3112,6 +3177,12 @@
           "views": 94843,
           "likes": 1454,
           "comments": 10
+        },
+        {
+          "date": "2026-05-24",
+          "views": 95022,
+          "likes": 1454,
+          "comments": 10
         }
       ]
     },
@@ -3239,6 +3310,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）—YouTube総再生数が5.39σ急増",
       "detected_at": "2026-05-23T14:53:52.526895+00:00"
+    },
+    {
+      "date": "2026-05-24",
+      "metric": "youtube_total_views",
+      "value": 211007459,
+      "baseline_mean": 209114151.5,
+      "baseline_stddev": 631102.5,
+      "delta": 1893307,
+      "score": 3.0,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）—YouTube総再生数が5.39σ急増",
+      "detected_at": "2026-05-24T14:55:32.252509+00:00"
     }
   ]
 }
