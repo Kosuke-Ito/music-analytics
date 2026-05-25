@@ -1726,6 +1726,47 @@
       "ytm_subscribers": 869000,
       "ytm_monthly_listeners": 2540000,
       "ytm_total_views": 565964892
+    },
+    {
+      "date": "2026-05-25",
+      "monthly_listeners": 1760549,
+      "collected_at": "2026-05-25T16:31:11.203539+00:00",
+      "spotify_followers": 1469788,
+      "youtube_subscribers": 869000,
+      "youtube_total_views": 567395094,
+      "youtube_video_count": 134,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 96967
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 81199
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 66096
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 37122
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 31402
+        }
+      ],
+      "lastfm_listeners": 58129,
+      "lastfm_playcount": 1623905,
+      "ytm_subscribers": 869000,
+      "ytm_monthly_listeners": 2540000,
+      "ytm_total_views": 565964892
     }
   ],
   "annotations": [
@@ -1861,6 +1902,16 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "reGretGirl",
+        "browse_id": "UCRzWUISrDwsVPZF87iEFCqw",
+        "subscribers": "346K"
+      },
+      {
+        "name": "Neguse",
+        "browse_id": "UC4yQSddIVINUHNRT_4rOHcg",
+        "subscribers": "3.51M"
+      },
+      {
         "name": "the shes gone",
         "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
         "subscribers": "266K"
@@ -1899,16 +1950,6 @@
         "name": "Orange Spiny Crab",
         "browse_id": "UC4xFImWROIkfo8YXSgrxliQ",
         "subscribers": "197K"
-      },
-      {
-        "name": "YUTORI-SEDAI",
-        "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "235K"
-      },
-      {
-        "name": "YOAKE",
-        "browse_id": "UCQE3bQBOx8YoxP3ghcXZs7g",
-        "subscribers": "104K"
       }
     ],
     "ytm_top_songs": [
@@ -2184,6 +2225,12 @@
           "views": 4108527,
           "likes": 17576,
           "comments": 41
+        },
+        {
+          "date": "2026-05-25",
+          "views": 4124999,
+          "likes": 17646,
+          "comments": 41
         }
       ]
     },
@@ -2422,6 +2469,12 @@
           "date": "2026-05-24",
           "views": 4626586,
           "likes": 21840,
+          "comments": 40
+        },
+        {
+          "date": "2026-05-25",
+          "views": 4644488,
+          "likes": 21910,
           "comments": 40
         }
       ]
@@ -2674,6 +2727,12 @@
           "views": 2443508,
           "likes": 13099,
           "comments": 36
+        },
+        {
+          "date": "2026-05-25",
+          "views": 2454337,
+          "likes": 13153,
+          "comments": 36
         }
       ]
     },
@@ -2912,6 +2971,12 @@
           "date": "2026-05-24",
           "views": 2880438,
           "likes": 17291,
+          "comments": 42
+        },
+        {
+          "date": "2026-05-25",
+          "views": 2891756,
+          "likes": 17348,
           "comments": 42
         }
       ]
@@ -3163,6 +3228,12 @@
           "date": "2026-05-24",
           "views": 2169521,
           "likes": 9247,
+          "comments": 28
+        },
+        {
+          "date": "2026-05-25",
+          "views": 2180259,
+          "likes": 9280,
           "comments": 28
         }
       ]
@@ -3454,6 +3525,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-24T15:11:10.717653+00:00"
+    },
+    {
+      "date": "2026-05-25",
+      "metric": "youtube_total_views",
+      "value": 567395094,
+      "baseline_mean": 561498423.6,
+      "baseline_stddev": 2537879.7,
+      "delta": 5896670,
+      "score": 2.32,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数が前日同値（567,395,094）でAPIカウンター凍結によるデータアーティファクト（+6,218,357・2.62σ）",
+      "detected_at": "2026-05-25T16:31:12.847609+00:00"
     }
   ]
 }

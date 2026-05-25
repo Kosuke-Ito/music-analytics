@@ -1720,6 +1720,47 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 64800000,
       "ytm_total_views": 851338322
+    },
+    {
+      "date": "2026-05-25",
+      "monthly_listeners": 3350424,
+      "collected_at": "2026-05-25T16:28:24.369115+00:00",
+      "spotify_followers": 1011095,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 854518583,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 57998
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51191
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 45652
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39555
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 38572
+        }
+      ],
+      "lastfm_listeners": 405059,
+      "lastfm_playcount": 5766964,
+      "ytm_subscribers": 1340000,
+      "ytm_monthly_listeners": 64800000,
+      "ytm_total_views": 851338322
     }
   ],
   "annotations": [
@@ -1841,6 +1882,16 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Fujii Kaze",
+        "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
+        "subscribers": "41.3M"
+      },
+      {
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "2.88M"
+      },
+      {
         "name": "4na",
         "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
         "subscribers": "238K"
@@ -1879,16 +1930,6 @@
         "name": "Zettakun",
         "browse_id": "UCMVLVZvxO_xJv8l1ov7Ss4Q",
         "subscribers": "66.2K"
-      },
-      {
-        "name": "Mel",
-        "browse_id": "UC3-nhpqJ7oA-Gj0fglYNQ9w",
-        "subscribers": "131K"
-      },
-      {
-        "name": "Ohashi Chippoke",
-        "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "187K"
       }
     ],
     "ytm_top_songs": [
@@ -2152,6 +2193,12 @@
           "views": 138906256,
           "likes": 1092448,
           "comments": 5893
+        },
+        {
+          "date": "2026-05-25",
+          "views": 139052124,
+          "likes": 1093757,
+          "comments": 5901
         }
       ]
     },
@@ -2390,6 +2437,12 @@
           "date": "2026-05-23",
           "views": 7702904,
           "likes": 56769,
+          "comments": 160
+        },
+        {
+          "date": "2026-05-25",
+          "views": 7721894,
+          "likes": 56906,
           "comments": 160
         }
       ]
@@ -2630,6 +2683,12 @@
           "views": 3324615,
           "likes": 36582,
           "comments": 283
+        },
+        {
+          "date": "2026-05-25",
+          "views": 3330626,
+          "likes": 36633,
+          "comments": 283
         }
       ]
     },
@@ -2868,6 +2927,12 @@
           "date": "2026-05-23",
           "views": 11539330,
           "likes": 51219,
+          "comments": 153
+        },
+        {
+          "date": "2026-05-25",
+          "views": 11547713,
+          "likes": 51256,
           "comments": 153
         }
       ]
@@ -3112,6 +3177,12 @@
           "date": "2026-05-23",
           "views": 4183103,
           "likes": 38718,
+          "comments": 193
+        },
+        {
+          "date": "2026-05-25",
+          "views": 4188673,
+          "likes": 38763,
           "comments": 193
         }
       ]
@@ -3412,6 +3483,18 @@
       "type": "annotated",
       "related_annotation": "ジャックスCM「惑星ロマンス」継続放映によるYouTube総再生回数の高水準維持（2.24σ）",
       "detected_at": "2026-05-23T15:06:47.419205+00:00"
+    },
+    {
+      "date": "2026-05-25",
+      "metric": "monthly_listeners",
+      "value": 3350424,
+      "baseline_mean": 3324308.4,
+      "baseline_stddev": 12972.7,
+      "delta": 26115,
+      "score": 2.01,
+      "type": "annotated",
+      "related_annotation": "ジャックスCM「惑星ロマンス」継続放映によるYouTube総再生回数の高水準維持（2.24σ）",
+      "detected_at": "2026-05-25T16:28:25.889535+00:00"
     }
   ]
 }

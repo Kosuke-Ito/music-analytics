@@ -1839,6 +1839,47 @@
       "ytm_subscribers": 1230000,
       "ytm_monthly_listeners": 12300000,
       "ytm_total_views": 1497244832
+    },
+    {
+      "date": "2026-05-25",
+      "monthly_listeners": 3365475,
+      "collected_at": "2026-05-25T16:16:13.161700+00:00",
+      "spotify_followers": 3376038,
+      "youtube_subscribers": 1230000,
+      "youtube_total_views": 1499743630,
+      "youtube_video_count": 59,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 132268
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 113564
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 91584
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 73129
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 48736
+        }
+      ],
+      "lastfm_listeners": 31447,
+      "lastfm_playcount": 669872,
+      "ytm_subscribers": 1230000,
+      "ytm_monthly_listeners": 12300000,
+      "ytm_total_views": 1497244832
     }
   ],
   "annotations": [
@@ -1943,11 +1984,6 @@
         "subscribers": "6.13M"
       },
       {
-        "name": "Manato Funatsu",
-        "browse_id": "UCHfEbuAKWEgHHXx2cKIKJQQ",
-        "subscribers": "6.15M"
-      },
-      {
         "name": "Masanori Otoda",
         "browse_id": "UCCmU7XwwWAM0j5TVhcTERLg",
         "subscribers": "1.66M"
@@ -1958,14 +1994,14 @@
         "subscribers": "2.88M"
       },
       {
+        "name": "Manato Funatsu",
+        "browse_id": "UCHfEbuAKWEgHHXx2cKIKJQQ",
+        "subscribers": "6.15M"
+      },
+      {
         "name": "wacci",
         "browse_id": "UCQuH389KXNJFIPycd_icVdg",
         "subscribers": "1.72M"
-      },
-      {
-        "name": "Takaya Kawasaki",
-        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
-        "subscribers": "1.69M"
       },
       {
         "name": "Miwa",
@@ -1973,19 +2009,24 @@
         "subscribers": "1.77M"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "69.9M"
+        "name": "Takaya Kawasaki",
+        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
+        "subscribers": "1.69M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "13.3M"
+      },
+      {
+        "name": "Official hige dandism",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "48.8M"
       },
       {
         "name": "Tani Yuuki",
         "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
         "subscribers": "6.3M"
-      },
-      {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.33M"
       }
     ],
     "ytm_top_songs": [
@@ -2261,6 +2302,12 @@
           "views": 103219629,
           "likes": 337414,
           "comments": 144
+        },
+        {
+          "date": "2026-05-25",
+          "views": 103280511,
+          "likes": 337524,
+          "comments": 144
         }
       ]
     },
@@ -2517,6 +2564,12 @@
           "date": "2026-05-24",
           "views": 37110859,
           "likes": 134822,
+          "comments": 57
+        },
+        {
+          "date": "2026-05-25",
+          "views": 37134409,
+          "likes": 134873,
           "comments": 57
         }
       ]
@@ -2775,6 +2828,12 @@
           "views": 20702491,
           "likes": 143979,
           "comments": 507
+        },
+        {
+          "date": "2026-05-25",
+          "views": 20734027,
+          "likes": 144145,
+          "comments": 508
         }
       ]
     },
@@ -3031,6 +3090,12 @@
           "date": "2026-05-24",
           "views": 10086093,
           "likes": 32898,
+          "comments": 17
+        },
+        {
+          "date": "2026-05-25",
+          "views": 10095396,
+          "likes": 32921,
           "comments": 17
         }
       ]
@@ -3305,6 +3370,12 @@
           "views": 28214688,
           "likes": 88906,
           "comments": 45
+        },
+        {
+          "date": "2026-05-25",
+          "views": 28234166,
+          "likes": 88938,
+          "comments": 45
         }
       ]
     }
@@ -3501,6 +3572,18 @@
       "type": "annotated",
       "related_annotation": "METROCK 2026（5/17）出演余波継続（YTM +153万・2.37σ／YouTube +1,561万・2.79σ）",
       "detected_at": "2026-05-24T14:55:48.960388+00:00"
+    },
+    {
+      "date": "2026-05-25",
+      "metric": "youtube_total_views",
+      "value": 1499743630,
+      "baseline_mean": 1485111857.8,
+      "baseline_stddev": 6565514.5,
+      "delta": 14631772,
+      "score": 2.23,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-25T16:16:14.478045+00:00"
     }
   ]
 }
