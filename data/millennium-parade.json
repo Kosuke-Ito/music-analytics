@@ -3402,6 +3402,15 @@
       "source": "kinggnu.jp / natalie.mu",
       "confidence": "low",
       "verified": false
+    },
+    {
+      "date": "2026-05-26",
+      "title": "YouTube Data APIカウンター凍結継続（5/21〜5/26・5日間同値211,007,459）の統計的残影（2.24σ）",
+      "description": "5月21日の急増（5.39σ）により211,007,459に切り替わったYouTube Data APIカウンターが5月26日も同値（実値変化なし）。delta: +1,753,062（2.24σ）は実際の新規再生増加ではなく、ベースライン移動平均（209,254,397）がまだ凍結値に追いついていないための統計的再検知。King Gnu CEN+RAL Tour 2026アジア公演（バンコク5/23、香港5/29-30予定）の盛り上がりは別途観察中。",
+      "category": "other",
+      "added_at": "2026-05-26T17:30:00Z",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "buzz_events": [

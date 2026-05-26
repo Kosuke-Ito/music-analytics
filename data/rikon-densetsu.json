@@ -3438,6 +3438,15 @@
       "category": "release",
       "source": "natalie.mu",
       "confidence": "low"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "YouTube Data APIカウンター凍結（5/17〜5/25・9日間）解除による蓄積分一括計上アーティファクト（2.42σ）",
+      "description": "YouTube Data APIがyoutube_total_viewsを46,177,448に5月17日〜5月25日（9日間）固定した後、5月26日に解凍。9日分の蓄積再生数（+443,373回）が一括計上されてバズ検知スコア2.42σを記録したが、実際の新規バイラルイベントは確認されていない。5月17日の急増（2.48σ）以降、同一の凍結パターンが継続していたもの。",
+      "category": "other",
+      "added_at": "2026-05-26T17:30:00Z",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "buzz_events": [

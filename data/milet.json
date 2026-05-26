@@ -1844,6 +1844,15 @@
       "added_at": "2026-05-21T15:00:00Z",
       "source": "sonymusic.co.jp / milet.jp",
       "confidence": "high"
+    },
+    {
+      "date": "2026-05-26",
+      "title": "YouTube Data API定期バッチ計上パターン継続（5/23・5/26とも数日おきの蓄積解放・2.06σ）",
+      "description": "miletのYouTube総再生数は5月17日以降、数日おきのバッチで蓄積分が計上されるパターンが続いている（5/17: +376万、5/20: +81万、5/23: +59万、5/26: +61万）。5月26日のdelta: +4,595,844（2.06σ）はベースライン移動平均（650,185,338）が現在値（654,781,182）に追いついていないための統計的検知で、実際のバイラルイベントは確認されていない。6月17日発売のBlu-ray「milet Live at Nippon Budokan 'Ray of Water'」のプロモーション期間中の実需再生がベースラインおよび定期バッチ計上値を引き上げている。",
+      "category": "other",
+      "added_at": "2026-05-26T17:30:00Z",
+      "source": "データ検証（daily records確認） / milet.jp",
+      "confidence": "high"
     }
   ],
   "metadata": {
