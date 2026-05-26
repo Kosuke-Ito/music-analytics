@@ -1767,6 +1767,47 @@
       "ytm_subscribers": 869000,
       "ytm_monthly_listeners": 2540000,
       "ytm_total_views": 565964892
+    },
+    {
+      "date": "2026-05-26",
+      "monthly_listeners": 1762067,
+      "collected_at": "2026-05-26T17:36:43.649452+00:00",
+      "spotify_followers": 1470465,
+      "youtube_subscribers": 869000,
+      "youtube_total_views": 567395094,
+      "youtube_video_count": 134,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 97109
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 80947
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 66329
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 37180
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 31293
+        }
+      ],
+      "lastfm_listeners": 58149,
+      "lastfm_playcount": 1624755,
+      "ytm_subscribers": 869000,
+      "ytm_monthly_listeners": 2530000,
+      "ytm_total_views": 565964892
     }
   ],
   "annotations": [
@@ -1896,20 +1937,40 @@
     "lastfm_tags": [
       "japanese",
       "rock",
-      "indie rock",
       "indie",
+      "indie rock",
       "J-rock"
     ],
     "ytm_related_artists": [
       {
         "name": "reGretGirl",
         "browse_id": "UCRzWUISrDwsVPZF87iEFCqw",
-        "subscribers": "346K"
+        "subscribers": "337K"
+      },
+      {
+        "name": "shytaupe",
+        "browse_id": "UClT2HzITnq_4MQoY99Gf6Hw",
+        "subscribers": "3.96M"
+      },
+      {
+        "name": "Second backer",
+        "browse_id": "UCZgg9_VmBAYupqk5ObECmng",
+        "subscribers": "1.55M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "13.2M"
       },
       {
         "name": "Neguse",
         "browse_id": "UC4yQSddIVINUHNRT_4rOHcg",
-        "subscribers": "3.51M"
+        "subscribers": "3.47M"
+      },
+      {
+        "name": "macaroni enpitsu",
+        "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
+        "subscribers": "4.47M"
       },
       {
         "name": "the shes gone",
@@ -1924,32 +1985,12 @@
       {
         "name": "moon drop",
         "browse_id": "UCPqgXlQbbSCVYuzUqN1G5hQ",
-        "subscribers": "232K"
+        "subscribers": "229K"
       },
       {
         "name": "Mr.forte",
         "browse_id": "UC7-BeMV8TshWVp0FQK8K0Pg",
-        "subscribers": "61.8K"
-      },
-      {
-        "name": "PERKERS",
-        "browse_id": "UCDuET5BNAZkXySSy4RU-QHw",
-        "subscribers": "18.7K"
-      },
-      {
-        "name": "TRACK15",
-        "browse_id": "UCbTq_K3E9Vz8ehL62WwcwIA",
-        "subscribers": "321K"
-      },
-      {
-        "name": "bokula.",
-        "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
-        "subscribers": "230K"
-      },
-      {
-        "name": "Orange Spiny Crab",
-        "browse_id": "UC4xFImWROIkfo8YXSgrxliQ",
-        "subscribers": "197K"
+        "subscribers": "61.6K"
       }
     ],
     "ytm_top_songs": [
@@ -2231,6 +2272,12 @@
           "views": 4124999,
           "likes": 17646,
           "comments": 41
+        },
+        {
+          "date": "2026-05-26",
+          "views": 4141787,
+          "likes": 17716,
+          "comments": 41
         }
       ]
     },
@@ -2475,6 +2522,12 @@
           "date": "2026-05-25",
           "views": 4644488,
           "likes": 21910,
+          "comments": 40
+        },
+        {
+          "date": "2026-05-26",
+          "views": 4660942,
+          "likes": 21975,
           "comments": 40
         }
       ]
@@ -2733,6 +2786,12 @@
           "views": 2454337,
           "likes": 13153,
           "comments": 36
+        },
+        {
+          "date": "2026-05-26",
+          "views": 2464391,
+          "likes": 13196,
+          "comments": 36
         }
       ]
     },
@@ -2977,6 +3036,12 @@
           "date": "2026-05-25",
           "views": 2891756,
           "likes": 17348,
+          "comments": 42
+        },
+        {
+          "date": "2026-05-26",
+          "views": 2902135,
+          "likes": 17417,
           "comments": 42
         }
       ]
@@ -3234,6 +3299,12 @@
           "date": "2026-05-25",
           "views": 2180259,
           "likes": 9280,
+          "comments": 28
+        },
+        {
+          "date": "2026-05-26",
+          "views": 2189898,
+          "likes": 9320,
           "comments": 28
         }
       ]
@@ -3537,6 +3608,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数が前日同値（567,395,094）でAPIカウンター凍結によるデータアーティファクト（+6,218,357・2.62σ）",
       "detected_at": "2026-05-25T16:31:12.847609+00:00"
+    },
+    {
+      "date": "2026-05-26",
+      "metric": "youtube_total_views",
+      "value": 567395094,
+      "baseline_mean": 561820111,
+      "baseline_stddev": 2650780.3,
+      "delta": 5574983,
+      "score": 2.1,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数が前日同値（567,395,094）でAPIカウンター凍結によるデータアーティファクト（+6,218,357・2.62σ）",
+      "detected_at": "2026-05-26T17:36:45.242434+00:00"
     }
   ]
 }
