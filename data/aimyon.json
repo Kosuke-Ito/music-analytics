@@ -1846,6 +1846,47 @@
       "ytm_subscribers": 2290000,
       "ytm_monthly_listeners": 7930000,
       "ytm_total_views": 2671534246
+    },
+    {
+      "date": "2026-05-28",
+      "monthly_listeners": 4648929,
+      "collected_at": "2026-05-28T17:44:17.435037+00:00",
+      "spotify_followers": 6276678,
+      "youtube_subscribers": 2290000,
+      "youtube_total_views": 2681936936,
+      "youtube_video_count": 276,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 232183
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 207233
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 153375
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 88172
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 69678
+        }
+      ],
+      "lastfm_listeners": 19691,
+      "lastfm_playcount": 1429132,
+      "ytm_subscribers": 2290000,
+      "ytm_monthly_listeners": 7960000,
+      "ytm_total_views": 2671534246
     }
   ],
   "annotations": [
@@ -2067,29 +2108,24 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "5.76M"
+      },
+      {
+        "name": "Uru",
+        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
+        "subscribers": "24.3M"
+      },
+      {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "6.01M"
-      },
-      {
-        "name": "Ai Otsuka",
-        "browse_id": "UCiQBYPGlDQRHXD8FaryNaFw",
-        "subscribers": "7.11M"
-      },
-      {
-        "name": "Ken Hirai",
-        "browse_id": "UCjV108-_g6HUrmoKOt5-QIw",
-        "subscribers": "1.57M"
+        "subscribers": "5.62M"
       },
       {
         "name": "Superfly",
         "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
         "subscribers": "4.12M"
-      },
-      {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "6.62M"
       },
       {
         "name": "Yuuri",
@@ -2102,19 +2138,24 @@
         "subscribers": "4.29M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "13.2M"
+        "name": "Ai Otsuka",
+        "browse_id": "UCiQBYPGlDQRHXD8FaryNaFw",
+        "subscribers": "6.43M"
       },
       {
-        "name": "wacci",
-        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
-        "subscribers": "1.7M"
+        "name": "Miwa",
+        "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
+        "subscribers": "1.78M"
       },
       {
         "name": "Kana Nishino",
         "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
         "subscribers": "12.3M"
+      },
+      {
+        "name": "wacci",
+        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
+        "subscribers": "1.92M"
       }
     ],
     "ytm_top_songs": [
@@ -2408,6 +2449,12 @@
           "views": 105377395,
           "likes": 304143,
           "comments": 673
+        },
+        {
+          "date": "2026-05-28",
+          "views": 105421837,
+          "likes": 304267,
+          "comments": 671
         }
       ]
     },
@@ -2677,6 +2724,12 @@
           "views": 99889643,
           "likes": 340618,
           "comments": 407
+        },
+        {
+          "date": "2026-05-28",
+          "views": 99936067,
+          "likes": 340800,
+          "comments": 408
         }
       ]
     },
@@ -2946,6 +2999,12 @@
           "views": 62315420,
           "likes": 181733,
           "comments": 233
+        },
+        {
+          "date": "2026-05-28",
+          "views": 62341883,
+          "likes": 181794,
+          "comments": 233
         }
       ]
     },
@@ -3214,6 +3273,12 @@
           "date": "2026-05-27",
           "views": 1975588,
           "likes": 6129,
+          "comments": 39
+        },
+        {
+          "date": "2026-05-28",
+          "views": 1975992,
+          "likes": 6130,
           "comments": 39
         }
       ]
@@ -3488,6 +3553,12 @@
           "date": "2026-05-27",
           "views": 35807533,
           "likes": 113552,
+          "comments": 229
+        },
+        {
+          "date": "2026-05-28",
+          "views": 35822139,
+          "likes": 113590,
           "comments": 229
         }
       ]
@@ -4069,6 +4140,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-27T17:10:44.358457+00:00"
+    },
+    {
+      "date": "2026-05-28",
+      "metric": "monthly_listeners",
+      "value": 4648929,
+      "baseline_mean": 4350590.5,
+      "baseline_stddev": 137834.8,
+      "delta": 298338,
+      "score": 2.16,
+      "type": "annotated",
+      "related_annotation": "10周年アナログ盤・空間オーディオ＋Stationheadリスニングパーティーの累積効果",
+      "detected_at": "2026-05-28T17:44:18.990068+00:00"
+    },
+    {
+      "date": "2026-05-28",
+      "metric": "youtube_total_views",
+      "value": 2681936936,
+      "baseline_mean": 2661949684.5,
+      "baseline_stddev": 9059317.0,
+      "delta": 19987251,
+      "score": 2.21,
+      "type": "annotated",
+      "related_annotation": "10周年アナログ盤・空間オーディオ＋Stationheadリスニングパーティーの累積効果",
+      "detected_at": "2026-05-28T17:44:18.990068+00:00"
     }
   ]
 }
