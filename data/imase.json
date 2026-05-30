@@ -1925,6 +1925,47 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 63600000,
       "ytm_total_views": 851338322
+    },
+    {
+      "date": "2026-05-30",
+      "monthly_listeners": 3355633,
+      "collected_at": "2026-05-30T15:11:27.948692+00:00",
+      "spotify_followers": 1012769,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 854518583,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 58367
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 50108
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 44873
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39534
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 39014
+        }
+      ],
+      "lastfm_listeners": 406609,
+      "lastfm_playcount": 5787328,
+      "ytm_subscribers": 1340000,
+      "ytm_monthly_listeners": 63300000,
+      "ytm_total_views": 851338322
     }
   ],
   "annotations": [
@@ -2046,24 +2087,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "eill",
-        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.69M"
-      },
-      {
         "name": "SIRUP",
         "browse_id": "UCNOawli2PNwt-9L_mqjCxUA",
         "subscribers": "627K"
       },
       {
-        "name": "iri",
-        "browse_id": "UCtlXP5iI7TgKj_BI636L8Qw",
-        "subscribers": "475K"
+        "name": "eill",
+        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
+        "subscribers": "1.69M"
       },
       {
         "name": "4na",
         "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
-        "subscribers": "260K"
+        "subscribers": "268K"
       },
       {
         "name": "KERENMI",
@@ -2073,12 +2109,12 @@
       {
         "name": "LUCKY TAPES",
         "browse_id": "UCYvGyI6FqmS5GFnCGEttXdg",
-        "subscribers": "196K"
+        "subscribers": "195K"
       },
       {
         "name": "tonun",
         "browse_id": "UC9XSYahwHXgJnG_7opHAdmQ",
-        "subscribers": "102K"
+        "subscribers": "101K"
       },
       {
         "name": "Rinne",
@@ -2088,12 +2124,17 @@
       {
         "name": "Ohashi Chippoke",
         "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "179K"
+        "subscribers": "178K"
       },
       {
         "name": "DURDN",
         "browse_id": "UC_wwk0oTYSA2nyXutkLk_PA",
-        "subscribers": "94.1K"
+        "subscribers": "95.1K"
+      },
+      {
+        "name": "Mel",
+        "browse_id": "UC3-nhpqJ7oA-Gj0fglYNQ9w",
+        "subscribers": "51.7K"
       }
     ],
     "ytm_top_songs": [
@@ -2387,6 +2428,12 @@
           "views": 139331987,
           "likes": 1096413,
           "comments": 5917
+        },
+        {
+          "date": "2026-05-30",
+          "views": 139398890,
+          "likes": 1097014,
+          "comments": 5921
         }
       ]
     },
@@ -2655,6 +2702,12 @@
           "date": "2026-05-29",
           "views": 7760536,
           "likes": 57167,
+          "comments": 160
+        },
+        {
+          "date": "2026-05-30",
+          "views": 7768990,
+          "likes": 57217,
           "comments": 160
         }
       ]
@@ -2925,6 +2978,12 @@
           "views": 3344324,
           "likes": 36729,
           "comments": 284
+        },
+        {
+          "date": "2026-05-30",
+          "views": 3347153,
+          "likes": 36749,
+          "comments": 284
         }
       ]
     },
@@ -3193,6 +3252,12 @@
           "date": "2026-05-29",
           "views": 11564436,
           "likes": 51296,
+          "comments": 153
+        },
+        {
+          "date": "2026-05-30",
+          "views": 11568797,
+          "likes": 51309,
           "comments": 153
         }
       ]
@@ -3467,6 +3532,12 @@
           "date": "2026-05-29",
           "views": 4200054,
           "likes": 38872,
+          "comments": 194
+        },
+        {
+          "date": "2026-05-30",
+          "views": 4202635,
+          "likes": 38896,
           "comments": 194
         }
       ]
@@ -3779,6 +3850,18 @@
       "type": "annotated",
       "related_annotation": "ジャックスCM「惑星ロマンス」継続放映によるYouTube総再生回数の高水準維持（2.24σ）",
       "detected_at": "2026-05-25T16:28:25.889535+00:00"
+    },
+    {
+      "date": "2026-05-30",
+      "metric": "monthly_listeners",
+      "value": 3355633,
+      "baseline_mean": 3331651.7,
+      "baseline_stddev": 11271.8,
+      "delta": 23981,
+      "score": 2.13,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-30T15:11:29.641952+00:00"
     }
   ]
 }

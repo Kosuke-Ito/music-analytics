@@ -2041,6 +2041,47 @@
       "ytm_subscribers": 974000,
       "ytm_monthly_listeners": 19400000,
       "ytm_total_views": 956299991
+    },
+    {
+      "date": "2026-05-30",
+      "monthly_listeners": 3909723,
+      "collected_at": "2026-05-30T15:02:00.367129+00:00",
+      "spotify_followers": 838775,
+      "youtube_subscribers": 974000,
+      "youtube_total_views": 968212133,
+      "youtube_video_count": 257,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 90929
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 73883
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 52540
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 51242
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 45958
+        }
+      ],
+      "lastfm_listeners": 121344,
+      "lastfm_playcount": 2541961,
+      "ytm_subscribers": 974000,
+      "ytm_monthly_listeners": 19400000,
+      "ytm_total_views": 959779323
     }
   ],
   "annotations": [
@@ -2221,12 +2262,12 @@
       {
         "name": "Dios",
         "browse_id": "UCjv0kMpF3ee-nqO6UqUsNkA",
-        "subscribers": "164K"
+        "subscribers": "163K"
       },
       {
         "name": "Sasanomaly",
         "browse_id": "UCK8DhDqtYgzSHf-krbesrEw",
-        "subscribers": "217K"
+        "subscribers": "216K"
       },
       {
         "name": "suisoh",
@@ -2234,19 +2275,19 @@
         "subscribers": "364K"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "51.1M"
+        "name": "Ayase",
+        "browse_id": "UCbqY3RHKkPS8dJCrfAfSk6Q",
+        "subscribers": "71.7K"
+      },
+      {
+        "name": "ewe",
+        "browse_id": "UCHdEh1-tnKz_nFLeFgEFGhA",
+        "subscribers": "975K"
       },
       {
         "name": "hitorie",
         "browse_id": "UCxMijt1N7bsZEslRHpVOkHw",
-        "subscribers": "1.34M"
-      },
-      {
-        "name": "Mulasaki Ima",
-        "browse_id": "UC3atnuaadwis0OEvtk0p_aA",
-        "subscribers": "5.97M"
+        "subscribers": "1.33M"
       },
       {
         "name": "yama",
@@ -2254,19 +2295,19 @@
         "subscribers": "5.78M"
       },
       {
-        "name": "NOMELON NOLEMON",
-        "browse_id": "UC42-y14_2cA9PAaqe-mAHjA",
-        "subscribers": "1.75M"
+        "name": "GEMN",
+        "browse_id": "UC_JKYrXIr6lgJNLnB_Q2fBA",
+        "subscribers": "10.3K"
       },
       {
-        "name": "Queen Bee",
-        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
-        "subscribers": "4.5M"
+        "name": "Akiyama Kiro",
+        "browse_id": "UCB7j6mxjx2NxAnnBu-YRFdQ",
+        "subscribers": "3.14M"
       },
       {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.1M"
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "50.6M"
       }
     ],
     "ytm_top_songs": [
@@ -2578,6 +2619,12 @@
           "views": 52762840,
           "likes": 346234,
           "comments": 1752
+        },
+        {
+          "date": "2026-05-30",
+          "views": 52816980,
+          "likes": 346558,
+          "comments": 1758
         }
       ]
     },
@@ -2864,6 +2911,12 @@
           "date": "2026-05-29",
           "views": 11244364,
           "likes": 78455,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-30",
+          "views": 11252327,
+          "likes": 78490,
           "comments": 0
         }
       ]
@@ -3152,6 +3205,12 @@
           "views": 2392296,
           "likes": 30199,
           "comments": 360
+        },
+        {
+          "date": "2026-05-30",
+          "views": 2399823,
+          "likes": 30244,
+          "comments": 360
         }
       ]
     },
@@ -3439,6 +3498,12 @@
           "views": 723491,
           "likes": 11626,
           "comments": 101
+        },
+        {
+          "date": "2026-05-30",
+          "views": 730898,
+          "likes": 11697,
+          "comments": 101
         }
       ]
     },
@@ -3624,6 +3689,12 @@
           "views": 2352515,
           "likes": 15677,
           "comments": 47
+        },
+        {
+          "date": "2026-05-30",
+          "views": 2354447,
+          "likes": 15686,
+          "comments": 47
         }
       ]
     },
@@ -3800,6 +3871,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-27T17:00:40.517687+00:00"
+    },
+    {
+      "date": "2026-05-30",
+      "metric": "youtube_total_views",
+      "value": 968212133,
+      "baseline_mean": 953393234.0,
+      "baseline_stddev": 6643403.8,
+      "delta": 14818898,
+      "score": 2.23,
+      "type": "annotated",
+      "related_annotation": "「森、道、市場2026」後続効果＋複数アニメタイアップ同時放送でYouTube総再生数が急増",
+      "detected_at": "2026-05-30T15:02:01.619199+00:00"
     }
   ]
 }

@@ -1855,6 +1855,47 @@
       "ytm_subscribers": 37300,
       "ytm_monthly_listeners": 64300,
       "ytm_total_views": 8114437
+    },
+    {
+      "date": "2026-05-30",
+      "monthly_listeners": 65996,
+      "collected_at": "2026-05-30T15:16:58.736607+00:00",
+      "spotify_followers": 51291,
+      "youtube_subscribers": 37400,
+      "youtube_total_views": 8451762,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3453
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1439
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 908
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 905
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 595
+        }
+      ],
+      "lastfm_listeners": 23869,
+      "lastfm_playcount": 398840,
+      "ytm_subscribers": 37400,
+      "ytm_monthly_listeners": 64599,
+      "ytm_total_views": 8213357
     }
   ],
   "metadata": {
@@ -1889,24 +1930,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Anna Takeuchi",
-        "browse_id": "UCrnPUsM_nIMgxmkwOU-jdbw",
-        "subscribers": "45K"
+        "name": "ako",
+        "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
+        "subscribers": "267K"
       },
       {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
-        "subscribers": "159K"
+        "subscribers": "161K"
       },
       {
         "name": "CAPSULE",
         "browse_id": "UCZsrsPpiAC4-aXPXSRzFJhQ",
-        "subscribers": "949K"
+        "subscribers": "923K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "96.6K"
+        "subscribers": "97K"
       },
       {
         "name": "Skirt",
@@ -1916,7 +1957,7 @@
       {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
-        "subscribers": "134K"
+        "subscribers": "141K"
       },
       {
         "name": "80KIDZ",
@@ -1926,17 +1967,17 @@
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "224K"
+        "subscribers": "225K"
       },
       {
         "name": "cero",
         "browse_id": "UCP5S2nBzNRtJNiqGAYsA_Nw",
-        "subscribers": "99.3K"
+        "subscribers": "99K"
       },
       {
         "name": "Satoko Shibata",
         "browse_id": "UCHXbv9-c9QQow0_n5WKx5QQ",
-        "subscribers": "212K"
+        "subscribers": "198K"
       }
     ],
     "ytm_top_songs": [
@@ -2230,6 +2271,12 @@
           "views": 121043,
           "likes": 2498,
           "comments": 24
+        },
+        {
+          "date": "2026-05-30",
+          "views": 121358,
+          "likes": 2502,
+          "comments": 24
         }
       ]
     },
@@ -2498,6 +2545,12 @@
           "date": "2026-05-29",
           "views": 557571,
           "likes": 5210,
+          "comments": 18
+        },
+        {
+          "date": "2026-05-30",
+          "views": 558176,
+          "likes": 5211,
           "comments": 18
         }
       ]
@@ -2768,6 +2821,12 @@
           "views": 313957,
           "likes": 3376,
           "comments": 6
+        },
+        {
+          "date": "2026-05-30",
+          "views": 314185,
+          "likes": 3382,
+          "comments": 6
         }
       ]
     },
@@ -3035,6 +3094,12 @@
         {
           "date": "2026-05-29",
           "views": 53345,
+          "likes": 180,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-30",
+          "views": 53476,
           "likes": 180,
           "comments": 1
         }
@@ -3305,6 +3370,12 @@
           "date": "2026-05-29",
           "views": 117679,
           "likes": 1509,
+          "comments": 14
+        },
+        {
+          "date": "2026-05-30",
+          "views": 117837,
+          "likes": 1510,
           "comments": 14
         }
       ]
@@ -3682,6 +3753,18 @@
       "type": "annotated",
       "related_annotation": "Summer Sonic 2026 ステージ割発表（5/15）で「Alter JP After Hours」出演確定、Spotify月間リスナーが急増（+11,959・2.40σ）",
       "detected_at": "2026-05-19T17:04:01.518199+00:00"
+    },
+    {
+      "date": "2026-05-30",
+      "metric": "youtube_total_views",
+      "value": 8451762,
+      "baseline_mean": 8287739.3,
+      "baseline_stddev": 62348.2,
+      "delta": 164022,
+      "score": 2.63,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-30T15:17:00.555142+00:00"
     }
   ]
 }

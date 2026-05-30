@@ -2039,6 +2039,47 @@
       "ytm_subscribers": 29000,
       "ytm_monthly_listeners": 148000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-30",
+      "monthly_listeners": 74291,
+      "collected_at": "2026-05-30T15:00:22.923028+00:00",
+      "spotify_followers": 35656,
+      "youtube_subscribers": 29000,
+      "youtube_total_views": 15029645,
+      "youtube_video_count": 173,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3279
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 2100
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1504
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1030
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 646
+        }
+      ],
+      "lastfm_listeners": 19560,
+      "lastfm_playcount": 209983,
+      "ytm_subscribers": 29000,
+      "ytm_monthly_listeners": 149000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -2072,19 +2113,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Suchmos",
-        "browse_id": "UCTjMLOtWrtmd9c2K_H3KQHw",
-        "subscribers": "838K"
-      },
-      {
-        "name": "Aooo",
-        "browse_id": "UCbX-GbG3bg17Mdm_RltoWqg",
-        "subscribers": "534K"
-      },
-      {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "96.6K"
+        "subscribers": "97K"
       },
       {
         "name": "Okamoto's",
@@ -2094,7 +2125,7 @@
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "89.1K"
+        "subscribers": "89.3K"
       },
       {
         "name": "Neo Tokyo",
@@ -2109,7 +2140,7 @@
       {
         "name": "Doona",
         "browse_id": "UCv5rkoYXfATqAncZ01WR1QQ",
-        "subscribers": "93.4K"
+        "subscribers": "92.4K"
       },
       {
         "name": "HATENA",
@@ -2119,7 +2150,17 @@
       {
         "name": "7thVega",
         "browse_id": "UC_W5BfNNzkxWj911JSDAu9g",
-        "subscribers": "87.9K"
+        "subscribers": "88.1K"
+      },
+      {
+        "name": "FRIENDS",
+        "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
+        "subscribers": "78.7K"
+      },
+      {
+        "name": "oops cool",
+        "browse_id": "UCzY8jNag1B45hW5J-HwhWKQ",
+        "subscribers": "18.9K"
       }
     ],
     "ytm_top_songs": [
@@ -2430,6 +2471,12 @@
           "views": 14805,
           "likes": 136,
           "comments": 3
+        },
+        {
+          "date": "2026-05-30",
+          "views": 14844,
+          "likes": 136,
+          "comments": 3
         }
       ]
     },
@@ -2716,6 +2763,12 @@
           "date": "2026-05-29",
           "views": 38485,
           "likes": 326,
+          "comments": 9
+        },
+        {
+          "date": "2026-05-30",
+          "views": 38625,
+          "likes": 327,
           "comments": 9
         }
       ]
@@ -3004,6 +3057,12 @@
           "views": 193405,
           "likes": 2382,
           "comments": 33
+        },
+        {
+          "date": "2026-05-30",
+          "views": 193654,
+          "likes": 2385,
+          "comments": 33
         }
       ]
     },
@@ -3277,6 +3336,12 @@
         {
           "date": "2026-05-29",
           "views": 3378,
+          "likes": 53,
+          "comments": 5
+        },
+        {
+          "date": "2026-05-30",
+          "views": 3379,
           "likes": 53,
           "comments": 5
         }
@@ -3591,6 +3656,12 @@
         {
           "date": "2026-05-29",
           "views": 1354,
+          "likes": 17,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-30",
+          "views": 1373,
           "likes": 17,
           "comments": 1
         }
@@ -3908,6 +3979,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-26T17:22:21.499845+00:00"
+    },
+    {
+      "date": "2026-05-30",
+      "metric": "youtube_total_views",
+      "value": 15029645,
+      "baseline_mean": 14803299.1,
+      "baseline_stddev": 110634.1,
+      "delta": 226345,
+      "score": 2.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-30T15:00:24.869400+00:00"
     }
   ]
 }

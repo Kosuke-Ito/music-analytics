@@ -2226,6 +2226,47 @@
       "ytm_subscribers": 7400000,
       "ytm_monthly_listeners": 38500000,
       "ytm_total_views": 6586537703
+    },
+    {
+      "date": "2026-05-30",
+      "monthly_listeners": 7156415,
+      "collected_at": "2026-05-30T15:01:12.050046+00:00",
+      "spotify_followers": 10034976,
+      "youtube_subscribers": 7400000,
+      "youtube_total_views": 6646870825,
+      "youtube_video_count": 295,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 157722
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 140430
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 137668
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 97349
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 94059
+        }
+      ],
+      "lastfm_listeners": 906968,
+      "lastfm_playcount": 55082511,
+      "ytm_subscribers": 7400000,
+      "ytm_monthly_listeners": 38200000,
+      "ytm_total_views": 6636391607
     }
   ],
   "annotations": [
@@ -2391,17 +2432,22 @@
       {
         "name": "Daoko",
         "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
-        "subscribers": "4.51M"
+        "subscribers": "4.54M"
       },
       {
-        "name": "Aimer",
-        "browse_id": "UC_gksw7NEueO_u3lPL372hA",
-        "subscribers": "10.4M"
+        "name": "majiko",
+        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
+        "subscribers": "600K"
       },
       {
         "name": "Yuuri",
         "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "12.4M"
+        "subscribers": "12.1M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.78M"
       },
       {
         "name": "suis from Yorushika",
@@ -2409,29 +2455,24 @@
         "subscribers": "28.8K"
       },
       {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "2.78M"
-      },
-      {
         "name": "milet",
         "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
         "subscribers": "7.16M"
       },
       {
-        "name": "majiko",
-        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "608K"
+        "name": "Aimer",
+        "browse_id": "UC_gksw7NEueO_u3lPL372hA",
+        "subscribers": "10.4M"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "51.1M"
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "2.74M"
       },
       {
-        "name": "LiSA",
-        "browse_id": "UCt4rbOMLsVxeMsoaRdTfr5A",
-        "subscribers": "27.6M"
+        "name": "AiNA THE END",
+        "browse_id": "UCr_slw4yAD3LI3KQrmnRD8Q",
+        "subscribers": "14.6M"
       }
     ],
     "ytm_top_songs": [
@@ -2743,6 +2784,12 @@
           "views": 307759485,
           "likes": 1564964,
           "comments": 11525
+        },
+        {
+          "date": "2026-05-30",
+          "views": 307880361,
+          "likes": 1565598,
+          "comments": 11530
         }
       ]
     },
@@ -3030,6 +3077,12 @@
           "views": 238870485,
           "likes": 1077664,
           "comments": 3813
+        },
+        {
+          "date": "2026-05-30",
+          "views": 238960588,
+          "likes": 1078007,
+          "comments": 3816
         }
       ]
     },
@@ -3316,6 +3369,12 @@
           "date": "2026-05-29",
           "views": 58719877,
           "likes": 414943,
+          "comments": 880
+        },
+        {
+          "date": "2026-05-30",
+          "views": 58750628,
+          "likes": 415115,
           "comments": 880
         }
       ]
@@ -3604,6 +3663,12 @@
           "views": 62315141,
           "likes": 257825,
           "comments": 776
+        },
+        {
+          "date": "2026-05-30",
+          "views": 62368721,
+          "likes": 258042,
+          "comments": 777
         }
       ]
     },
@@ -3867,6 +3932,12 @@
           "views": 74392316,
           "likes": 341608,
           "comments": 4387
+        },
+        {
+          "date": "2026-05-30",
+          "views": 74445433,
+          "likes": 341721,
+          "comments": 4386
         }
       ]
     },
@@ -3977,6 +4048,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-07T16:01:15.450788+00:00"
+    },
+    {
+      "date": "2026-05-30",
+      "metric": "youtube_total_views",
+      "value": 6646870825,
+      "baseline_mean": 6591252533.7,
+      "baseline_stddev": 9448967.9,
+      "delta": 55618291,
+      "score": 5.89,
+      "type": "annotated",
+      "related_annotation": "ゲーム「オーバーウォッチ」とのコラボ発表——新曲「オリオン」書き下ろし",
+      "detected_at": "2026-05-30T15:01:13.420845+00:00"
     }
   ]
 }

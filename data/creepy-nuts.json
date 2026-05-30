@@ -2219,6 +2219,47 @@
       "ytm_subscribers": 2430000,
       "ytm_monthly_listeners": 105000000,
       "ytm_total_views": 1776342749
+    },
+    {
+      "date": "2026-05-30",
+      "monthly_listeners": 5953274,
+      "collected_at": "2026-05-30T15:06:19.388720+00:00",
+      "spotify_followers": 2357806,
+      "youtube_subscribers": 2430000,
+      "youtube_total_views": 1804742359,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 102544
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 92255
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 70063
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 61456
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 60749
+        }
+      ],
+      "lastfm_listeners": 624772,
+      "lastfm_playcount": 21828698,
+      "ytm_subscribers": 2430000,
+      "ytm_monthly_listeners": 106000000,
+      "ytm_total_views": 1788866115
     }
   ],
   "annotations": [
@@ -2422,54 +2463,54 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "meiyo",
-        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
-        "subscribers": "1.03M"
-      },
-      {
-        "name": "Sambomaster",
-        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
-        "subscribers": "3.49M"
-      },
-      {
         "name": "BRADIO",
         "browse_id": "UCZeMAO9OSESrC6Til4L53BQ",
-        "subscribers": "302K"
+        "subscribers": "305K"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "51.1M"
-      },
-      {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "31M"
-      },
-      {
-        "name": "WEDNESDAY CAMPANELLA",
-        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
-        "subscribers": "1.64M"
-      },
-      {
-        "name": "Queen Bee",
-        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
-        "subscribers": "4.5M"
-      },
-      {
-        "name": "Shinsei Kamattechan",
-        "browse_id": "UCjtNm_gZ8oVVwSpfBi-pGtw",
-        "subscribers": "3.15M"
-      },
-      {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "2.92M"
+        "name": "meiyo",
+        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
+        "subscribers": "1.4M"
       },
       {
         "name": "sakanaction",
         "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "93M"
+        "subscribers": "96.8M"
+      },
+      {
+        "name": "Sambomaster",
+        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
+        "subscribers": "3.45M"
+      },
+      {
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "31.3M"
+      },
+      {
+        "name": "WEDNESDAY CAMPANELLA",
+        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
+        "subscribers": "1.62M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "18.6M"
+      },
+      {
+        "name": "Mega Shinnosuke",
+        "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
+        "subscribers": "5.57M"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "50.6M"
+      },
+      {
+        "name": "millennium parade",
+        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
+        "subscribers": "973K"
       }
     ],
     "ytm_top_songs": [
@@ -2628,6 +2669,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-09T14:50:27.231443+00:00"
+    },
+    {
+      "date": "2026-05-30",
+      "metric": "ytm_monthly_listeners",
+      "value": 106000000,
+      "baseline_mean": 102000000,
+      "baseline_stddev": 1505545.3,
+      "delta": 4000000,
+      "score": 2.66,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-30T15:06:20.521830+00:00"
     }
   ],
   "song_performance": {
@@ -2915,6 +2968,12 @@
           "views": 21098658,
           "likes": 269724,
           "comments": 904
+        },
+        {
+          "date": "2026-05-30",
+          "views": 21155698,
+          "likes": 270351,
+          "comments": 906
         }
       ]
     },
@@ -3202,6 +3261,12 @@
           "views": 18602027,
           "likes": 247604,
           "comments": 956
+        },
+        {
+          "date": "2026-05-30",
+          "views": 18643715,
+          "likes": 248061,
+          "comments": 958
         }
       ]
     },
@@ -3488,6 +3553,12 @@
           "date": "2026-05-29",
           "views": 6927564,
           "likes": 92248,
+          "comments": 1103
+        },
+        {
+          "date": "2026-05-30",
+          "views": 6939067,
+          "likes": 92356,
           "comments": 1103
         }
       ]
@@ -3776,6 +3847,12 @@
           "views": 12015880,
           "likes": 111392,
           "comments": 476
+        },
+        {
+          "date": "2026-05-30",
+          "views": 12025065,
+          "likes": 111452,
+          "comments": 476
         }
       ]
     },
@@ -3942,6 +4019,12 @@
           "date": "2026-05-29",
           "views": 5717488,
           "likes": 53676,
+          "comments": 185
+        },
+        {
+          "date": "2026-05-30",
+          "views": 5720725,
+          "likes": 53696,
           "comments": 185
         }
       ]

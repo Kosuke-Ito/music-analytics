@@ -2236,6 +2236,47 @@
       "ytm_subscribers": 18200,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 693257
+    },
+    {
+      "date": "2026-05-30",
+      "monthly_listeners": 42152,
+      "collected_at": "2026-05-30T15:06:35.150684+00:00",
+      "spotify_followers": 19064,
+      "youtube_subscribers": 18200,
+      "youtube_total_views": 747222,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1816
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1030
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 651
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 486
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 443
+        }
+      ],
+      "lastfm_listeners": 7842,
+      "lastfm_playcount": 47097,
+      "ytm_subscribers": 18200,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 701618
     }
   ],
   "annotations": [
@@ -2480,6 +2521,18 @@
       "type": "annotated",
       "related_annotation": "映画「炎上」口コミ拡散継続でSpotify・YouTube指標が再度急上昇（2.39σ / 2.12σ）",
       "detected_at": "2026-04-18T14:43:29.325308+00:00"
+    },
+    {
+      "date": "2026-05-30",
+      "metric": "youtube_total_views",
+      "value": 747222,
+      "baseline_mean": 730747.0,
+      "baseline_stddev": 7636.3,
+      "delta": 16474,
+      "score": 2.16,
+      "type": "annotated",
+      "related_annotation": "「sign」6月10日配信・ワンマンツアー「LAUSBUB Concert Tour 2026」詳細発表",
+      "detected_at": "2026-05-30T15:06:36.888233+00:00"
     }
   ],
   "song_performance": {
@@ -2765,6 +2818,12 @@
         {
           "date": "2026-05-29",
           "views": 2648,
+          "likes": 62,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-30",
+          "views": 2676,
           "likes": 62,
           "comments": 1
         }
@@ -3054,6 +3113,12 @@
           "views": 6663,
           "likes": 175,
           "comments": 6
+        },
+        {
+          "date": "2026-05-30",
+          "views": 6675,
+          "likes": 175,
+          "comments": 6
         }
       ]
     },
@@ -3339,6 +3404,12 @@
         {
           "date": "2026-05-29",
           "views": 21218,
+          "likes": 193,
+          "comments": 2
+        },
+        {
+          "date": "2026-05-30",
+          "views": 21240,
           "likes": 193,
           "comments": 2
         }
@@ -3628,6 +3699,12 @@
           "views": 12764,
           "likes": 200,
           "comments": 0
+        },
+        {
+          "date": "2026-05-30",
+          "views": 12773,
+          "likes": 201,
+          "comments": 0
         }
       ]
     },
@@ -3859,6 +3936,12 @@
         {
           "date": "2026-05-29",
           "views": 9426,
+          "likes": 116,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-30",
+          "views": 9432,
           "likes": 116,
           "comments": 0
         }

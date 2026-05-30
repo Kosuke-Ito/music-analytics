@@ -2002,6 +2002,47 @@
       "ytm_subscribers": 166000,
       "ytm_monthly_listeners": 2930000,
       "ytm_total_views": 74952211
+    },
+    {
+      "date": "2026-05-30",
+      "monthly_listeners": 245715,
+      "collected_at": "2026-05-30T15:03:21.056921+00:00",
+      "spotify_followers": 111577,
+      "youtube_subscribers": 166000,
+      "youtube_total_views": 75958379,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 7733
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6694
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4659
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 3594
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2963
+        }
+      ],
+      "lastfm_listeners": 34704,
+      "lastfm_playcount": 517749,
+      "ytm_subscribers": 166000,
+      "ytm_monthly_listeners": 2900000,
+      "ytm_total_views": 75375935
     }
   ],
   "metadata": {
@@ -2038,27 +2079,27 @@
       {
         "name": "LOZAREENA",
         "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
-        "subscribers": "265K"
+        "subscribers": "262K"
       },
       {
         "name": "Yuaru",
         "browse_id": "UC_Yxw4oOjaaHtauxKDsnzaQ",
-        "subscribers": "493K"
+        "subscribers": "496K"
       },
       {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "88.7K"
+        "subscribers": "88.6K"
       },
       {
         "name": "Yui Nishio",
         "browse_id": "UCMzyh64hvTumNd2uu-huW0g",
-        "subscribers": "65.4K"
+        "subscribers": "65K"
       },
       {
         "name": "harha",
         "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "155K"
+        "subscribers": "151K"
       },
       {
         "name": "Atashi",
@@ -2073,7 +2114,7 @@
       {
         "name": "hockrockb",
         "browse_id": "UCkgOP8Xy2stY3WbSzILWBNQ",
-        "subscribers": "74.9K"
+        "subscribers": "75.7K"
       },
       {
         "name": "RIRIKO",
@@ -2389,6 +2430,12 @@
           "views": 1024780,
           "likes": 9968,
           "comments": 190
+        },
+        {
+          "date": "2026-05-30",
+          "views": 1025264,
+          "likes": 9975,
+          "comments": 190
         }
       ]
     },
@@ -2670,6 +2717,12 @@
           "views": 839771,
           "likes": 8133,
           "comments": 37
+        },
+        {
+          "date": "2026-05-30",
+          "views": 840402,
+          "likes": 8139,
+          "comments": 37
         }
       ]
     },
@@ -2950,6 +3003,12 @@
           "date": "2026-05-29",
           "views": 394385,
           "likes": 3720,
+          "comments": 47
+        },
+        {
+          "date": "2026-05-30",
+          "views": 394901,
+          "likes": 3722,
           "comments": 47
         }
       ]
@@ -3452,6 +3511,12 @@
           "views": 36141,
           "likes": 543,
           "comments": 14
+        },
+        {
+          "date": "2026-05-30",
+          "views": 36464,
+          "likes": 547,
+          "comments": 14
         }
       ]
     },
@@ -3522,6 +3587,12 @@
           "date": "2026-05-29",
           "views": 12475,
           "likes": 448,
+          "comments": 18
+        },
+        {
+          "date": "2026-05-30",
+          "views": 12809,
+          "likes": 452,
           "comments": 18
         }
       ]
@@ -3691,6 +3762,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-21T16:39:59.025186+00:00"
+    },
+    {
+      "date": "2026-05-30",
+      "metric": "youtube_total_views",
+      "value": 75958379,
+      "baseline_mean": 75230313.6,
+      "baseline_stddev": 256330.9,
+      "delta": 728065,
+      "score": 2.84,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-30T15:03:22.444056+00:00"
     }
   ]
 }

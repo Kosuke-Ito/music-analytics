@@ -1928,6 +1928,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 5010000,
       "ytm_total_views": 573686558
+    },
+    {
+      "date": "2026-05-30",
+      "monthly_listeners": 890754,
+      "collected_at": "2026-05-30T15:15:02.595880+00:00",
+      "spotify_followers": 972221,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 596643208,
+      "youtube_video_count": 402,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 21190
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 16322
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12840
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10371
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 8184
+        }
+      ],
+      "lastfm_listeners": 8732,
+      "lastfm_playcount": 404814,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 5020000,
+      "ytm_total_views": 575060618
     }
   ],
   "metadata": {
@@ -1964,12 +2005,27 @@
       {
         "name": "Masayuki",
         "browse_id": "UCEm-B8NivcSNJZUTFvFvWug",
-        "subscribers": "3.73M"
+        "subscribers": "3.72M"
+      },
+      {
+        "name": "Sheena Ringo",
+        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
+        "subscribers": "6.81M"
+      },
+      {
+        "name": "WEDNESDAY CAMPANELLA",
+        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
+        "subscribers": "1.62M"
       },
       {
         "name": "Daoko",
         "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
-        "subscribers": "4.51M"
+        "subscribers": "4.54M"
+      },
+      {
+        "name": "BAND-MAID",
+        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
+        "subscribers": "700K"
       },
       {
         "name": "MAXIMUM THE HORMONE",
@@ -1977,14 +2033,9 @@
         "subscribers": "1.56M"
       },
       {
-        "name": "WEDNESDAY CAMPANELLA",
-        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
-        "subscribers": "1.64M"
-      },
-      {
         "name": "SHISHIDO KAVKA",
         "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
-        "subscribers": "90.7K"
+        "subscribers": "91.4K"
       },
       {
         "name": "H ZETTRIO",
@@ -1994,22 +2045,12 @@
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "114K"
+        "subscribers": "112K"
       },
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "292K"
-      },
-      {
-        "name": "BRADIO",
-        "browse_id": "UCZeMAO9OSESrC6Til4L53BQ",
-        "subscribers": "302K"
-      },
-      {
-        "name": "Uchikubi Gokumon Doukoukai",
-        "browse_id": "UCfp91acTgHFcI9WZOOudwCQ",
-        "subscribers": "480K"
+        "subscribers": "288K"
       }
     ],
     "ytm_top_songs": [
@@ -2315,6 +2356,12 @@
           "views": 18955549,
           "likes": 270812,
           "comments": 416
+        },
+        {
+          "date": "2026-05-30",
+          "views": 18963880,
+          "likes": 270902,
+          "comments": 416
         }
       ]
     },
@@ -2595,6 +2642,12 @@
           "date": "2026-05-29",
           "views": 5340896,
           "likes": 31242,
+          "comments": 135
+        },
+        {
+          "date": "2026-05-30",
+          "views": 5342746,
+          "likes": 31250,
           "comments": 135
         }
       ]
@@ -2877,6 +2930,12 @@
           "views": 2036386,
           "likes": 34036,
           "comments": 102
+        },
+        {
+          "date": "2026-05-30",
+          "views": 2039081,
+          "likes": 34078,
+          "comments": 103
         }
       ]
     },
@@ -3334,6 +3393,12 @@
           "views": 1869279,
           "likes": 20410,
           "comments": 144
+        },
+        {
+          "date": "2026-05-30",
+          "views": 1870332,
+          "likes": 20419,
+          "comments": 144
         }
       ]
     },
@@ -3463,6 +3528,12 @@
           "date": "2026-05-29",
           "views": 170825,
           "likes": 6584,
+          "comments": 194
+        },
+        {
+          "date": "2026-05-30",
+          "views": 173517,
+          "likes": 6625,
           "comments": 194
         }
       ]
@@ -3869,6 +3940,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-24T15:12:02.032536+00:00"
+    },
+    {
+      "date": "2026-05-30",
+      "metric": "youtube_total_views",
+      "value": 596643208,
+      "baseline_mean": 591789105,
+      "baseline_stddev": 2160846.5,
+      "delta": 4854103,
+      "score": 2.25,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-30T15:15:04.256796+00:00"
     }
   ]
 }

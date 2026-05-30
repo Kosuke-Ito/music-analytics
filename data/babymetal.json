@@ -1928,6 +1928,47 @@
       "ytm_subscribers": 3630000,
       "ytm_monthly_listeners": 8500000,
       "ytm_total_views": 1062841494
+    },
+    {
+      "date": "2026-05-30",
+      "monthly_listeners": 3538397,
+      "collected_at": "2026-05-30T15:15:52.526068+00:00",
+      "spotify_followers": 2991796,
+      "youtube_subscribers": 3630000,
+      "youtube_total_views": 1078836175,
+      "youtube_video_count": 352,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 62212
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 58828
+        },
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 46337
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 46141
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 45240
+        }
+      ],
+      "lastfm_listeners": 974365,
+      "lastfm_playcount": 59279286,
+      "ytm_subscribers": 3630000,
+      "ytm_monthly_listeners": 8460000,
+      "ytm_total_views": 1070621042
     }
   ],
   "annotations": [
@@ -2074,34 +2115,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Mellows",
-        "browse_id": "UC9BIwJgZn6hJCldEBvxOd-g",
-        "subscribers": "4.24K"
-      },
-      {
-        "name": "JILUKA",
-        "browse_id": "UC1FVXpsDUD1LR_ZqBqrmrjw",
-        "subscribers": "23K"
-      },
-      {
-        "name": "Avenged Sevenfold",
-        "browse_id": "UCJls2FMEbRYxi28jcuKe2vA",
-        "subscribers": "21.5M"
-      },
-      {
-        "name": "the GazettE",
-        "browse_id": "UCXitUzRS2J4mznhd6qYLaHw",
-        "subscribers": "251K"
+        "name": "BAND-MAID",
+        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
+        "subscribers": "700K"
       },
       {
         "name": "MAXIMUM THE HORMONE",
         "browse_id": "UC10viXnr5P30UrEb36Y984g",
         "subscribers": "1.56M"
-      },
-      {
-        "name": "Poppy",
-        "browse_id": "UCwJcp-qqo0pVvvRwPXIXKyQ",
-        "subscribers": "3.67M"
       },
       {
         "name": "Sakura Gakuin",
@@ -2111,17 +2132,37 @@
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "114K"
+        "subscribers": "112K"
       },
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "292K"
+        "subscribers": "288K"
+      },
+      {
+        "name": "Mellows",
+        "browse_id": "UC9BIwJgZn6hJCldEBvxOd-g",
+        "subscribers": "4.25K"
       },
       {
         "name": "STMLT",
         "browse_id": "UCENgueJF_nCoHXjSjZmwbnQ",
         "subscribers": "2.18K"
+      },
+      {
+        "name": "Crossfaith",
+        "browse_id": "UCwwxFOapyq3llnz1OgxM6hA",
+        "subscribers": "207K"
+      },
+      {
+        "name": "Bridear",
+        "browse_id": "UCP6kdvZVATSyi1TOmgia5Fg",
+        "subscribers": "39.8K"
+      },
+      {
+        "name": "Passcode",
+        "browse_id": "UCf7G8LOCgwZs3cU5CQsyjZQ",
+        "subscribers": "131K"
       }
     ],
     "ytm_top_songs": [
@@ -2427,6 +2468,12 @@
           "views": 6998180,
           "likes": 80801,
           "comments": 255
+        },
+        {
+          "date": "2026-05-30",
+          "views": 7019997,
+          "likes": 80987,
+          "comments": 255
         }
       ]
     },
@@ -2708,6 +2755,12 @@
           "views": 4441883,
           "likes": 90031,
           "comments": 488
+        },
+        {
+          "date": "2026-05-30",
+          "views": 4456301,
+          "likes": 90227,
+          "comments": 489
         }
       ]
     },
@@ -2989,6 +3042,12 @@
           "views": 4794805,
           "likes": 68515,
           "comments": 223
+        },
+        {
+          "date": "2026-05-30",
+          "views": 4806380,
+          "likes": 68627,
+          "comments": 224
         }
       ]
     },
@@ -3270,6 +3329,12 @@
           "views": 2022599,
           "likes": 39556,
           "comments": 244
+        },
+        {
+          "date": "2026-05-30",
+          "views": 2029496,
+          "likes": 39671,
+          "comments": 246
         }
       ]
     },
@@ -3551,6 +3616,12 @@
           "views": 3676755,
           "likes": 71052,
           "comments": 320
+        },
+        {
+          "date": "2026-05-30",
+          "views": 3687198,
+          "likes": 71205,
+          "comments": 321
         }
       ]
     }
@@ -3783,6 +3854,18 @@
       "type": "annotated",
       "related_annotation": "5/11解凍後もYouTube総再生数が同値で推移、ベースライン追い上げによる統計的残影（2.49σ）",
       "detected_at": "2026-05-16T15:05:38.671084+00:00"
+    },
+    {
+      "date": "2026-05-30",
+      "metric": "youtube_total_views",
+      "value": 1078836175,
+      "baseline_mean": 1066903822.5,
+      "baseline_stddev": 5197701.1,
+      "delta": 11932352,
+      "score": 2.3,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-30T15:15:54.160968+00:00"
     }
   ]
 }
