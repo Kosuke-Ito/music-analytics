@@ -2260,6 +2260,47 @@
       "ytm_subscribers": 2430000,
       "ytm_monthly_listeners": 106000000,
       "ytm_total_views": 1788866115
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 5946101,
+      "collected_at": "2026-05-31T15:19:47.868144+00:00",
+      "spotify_followers": 2358722,
+      "youtube_subscribers": 2430000,
+      "youtube_total_views": 1804742359,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 102193
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 91688
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 70251
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 61440
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 60356
+        }
+      ],
+      "lastfm_listeners": 625202,
+      "lastfm_playcount": 21844397,
+      "ytm_subscribers": 2430000,
+      "ytm_monthly_listeners": 106000000,
+      "ytm_total_views": 1788866115
     }
   ],
   "annotations": [
@@ -2448,20 +2489,20 @@
         "url": "https://www.last.fm/music/Tatsuya+Kitani"
       },
       {
-        "name": "米津玄師",
-        "url": "https://www.last.fm/music/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB"
-      },
-      {
         "name": "Kocchi no Kento",
         "url": "https://www.last.fm/music/Kocchi+no+Kento"
       },
       {
-        "name": "Aina The End",
-        "url": "https://www.last.fm/music/Aina+The+End"
+        "name": "米津玄師",
+        "url": "https://www.last.fm/music/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB"
       },
       {
         "name": "Vaundy",
         "url": "https://www.last.fm/music/Vaundy"
+      },
+      {
+        "name": "Aina The End",
+        "url": "https://www.last.fm/music/Aina+The+End"
       }
     ],
     "lastfm_tags": [
@@ -2478,14 +2519,9 @@
         "subscribers": "305K"
       },
       {
-        "name": "meiyo",
-        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
-        "subscribers": "1.4M"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "96.8M"
+        "name": "millennium parade",
+        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
+        "subscribers": "973K"
       },
       {
         "name": "Sambomaster",
@@ -2493,34 +2529,39 @@
         "subscribers": "3.45M"
       },
       {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "31.3M"
+        "name": "meiyo",
+        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
+        "subscribers": "1.71M"
       },
       {
         "name": "WEDNESDAY CAMPANELLA",
         "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
-        "subscribers": "1.62M"
+        "subscribers": "1.61M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "18.6M"
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "96.8M"
       },
       {
-        "name": "Mega Shinnosuke",
-        "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
-        "subscribers": "5.57M"
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.08M"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "50.6M"
+        "name": "Kocchi no Kento",
+        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
+        "subscribers": "75.9M"
       },
       {
-        "name": "millennium parade",
-        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
-        "subscribers": "973K"
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "31.6M"
+      },
+      {
+        "name": "Queen Bee",
+        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
+        "subscribers": "4.4M"
       }
     ],
     "ytm_top_songs": [
@@ -2691,6 +2732,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-30T15:06:20.521830+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "ytm_monthly_listeners",
+      "value": 106000000,
+      "baseline_mean": 102000000,
+      "baseline_stddev": 1505545.3,
+      "delta": 4000000,
+      "score": 2.66,
+      "type": "annotated",
+      "related_annotation": "「よふかしのうた」Season 2 OP「Mirage」放送開始波及でYTM月間リスナーが急増（+400万・2.66σ）",
+      "detected_at": "2026-05-31T15:19:49.470203+00:00"
     }
   ],
   "song_performance": {
@@ -2984,6 +3037,12 @@
           "views": 21155698,
           "likes": 270351,
           "comments": 906
+        },
+        {
+          "date": "2026-05-31",
+          "views": 21216900,
+          "likes": 271040,
+          "comments": 905
         }
       ]
     },
@@ -3277,6 +3336,12 @@
           "views": 18643715,
           "likes": 248061,
           "comments": 958
+        },
+        {
+          "date": "2026-05-31",
+          "views": 18687791,
+          "likes": 248565,
+          "comments": 957
         }
       ]
     },
@@ -3570,6 +3635,12 @@
           "views": 6939067,
           "likes": 92356,
           "comments": 1103
+        },
+        {
+          "date": "2026-05-31",
+          "views": 6950743,
+          "likes": 92475,
+          "comments": 1104
         }
       ]
     },
@@ -3863,6 +3934,12 @@
           "views": 12025065,
           "likes": 111452,
           "comments": 476
+        },
+        {
+          "date": "2026-05-31",
+          "views": 12034838,
+          "likes": 111543,
+          "comments": 476
         }
       ]
     },
@@ -4035,6 +4112,12 @@
           "date": "2026-05-30",
           "views": 5720725,
           "likes": 53696,
+          "comments": 185
+        },
+        {
+          "date": "2026-05-31",
+          "views": 5723816,
+          "likes": 53723,
           "comments": 185
         }
       ]

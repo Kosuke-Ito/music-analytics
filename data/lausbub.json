@@ -2277,6 +2277,47 @@
       "ytm_subscribers": 18200,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 701618
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 41876,
+      "collected_at": "2026-05-31T15:20:04.280996+00:00",
+      "spotify_followers": 19077,
+      "youtube_subscribers": 18200,
+      "youtube_total_views": 747222,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1800
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1014
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 630
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 482
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 448
+        }
+      ],
+      "lastfm_listeners": 7856,
+      "lastfm_playcount": 47146,
+      "ytm_subscribers": 18200,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 701618
     }
   ],
   "annotations": [
@@ -2428,12 +2469,12 @@
         "url": "https://www.last.fm/music/%E9%9B%BB%E6%B0%97%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4"
       },
       {
-        "name": "石野卓球",
-        "url": "https://www.last.fm/music/%E7%9F%B3%E9%87%8E%E5%8D%93%E7%90%83"
-      },
-      {
         "name": "カネコアヤノ",
         "url": "https://www.last.fm/music/%E3%82%AB%E3%83%8D%E3%82%B3%E3%82%A2%E3%83%A4%E3%83%8E"
+      },
+      {
+        "name": "Muque",
+        "url": "https://www.last.fm/music/Muque"
       }
     ]
   },
@@ -2533,6 +2574,18 @@
       "type": "annotated",
       "related_annotation": "「sign」6月10日配信・ワンマンツアー「LAUSBUB Concert Tour 2026」詳細発表",
       "detected_at": "2026-05-30T15:06:36.888233+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "youtube_total_views",
+      "value": 747222,
+      "baseline_mean": 731890.2,
+      "baseline_stddev": 7447.7,
+      "delta": 15331,
+      "score": 2.06,
+      "type": "annotated",
+      "related_annotation": "「sign」6月10日配信・ワンマンツアー「LAUSBUB Concert Tour 2026」詳細発表",
+      "detected_at": "2026-05-31T15:20:05.871547+00:00"
     }
   ],
   "song_performance": {
@@ -2824,6 +2877,12 @@
         {
           "date": "2026-05-30",
           "views": 2676,
+          "likes": 62,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-31",
+          "views": 2696,
           "likes": 62,
           "comments": 1
         }
@@ -3119,6 +3178,12 @@
           "views": 6675,
           "likes": 175,
           "comments": 6
+        },
+        {
+          "date": "2026-05-31",
+          "views": 6685,
+          "likes": 175,
+          "comments": 6
         }
       ]
     },
@@ -3410,6 +3475,12 @@
         {
           "date": "2026-05-30",
           "views": 21240,
+          "likes": 193,
+          "comments": 2
+        },
+        {
+          "date": "2026-05-31",
+          "views": 21256,
           "likes": 193,
           "comments": 2
         }
@@ -3705,6 +3776,12 @@
           "views": 12773,
           "likes": 201,
           "comments": 0
+        },
+        {
+          "date": "2026-05-31",
+          "views": 12780,
+          "likes": 201,
+          "comments": 0
         }
       ]
     },
@@ -3942,6 +4019,12 @@
         {
           "date": "2026-05-30",
           "views": 9432,
+          "likes": 116,
+          "comments": 0
+        },
+        {
+          "date": "2026-05-31",
+          "views": 9434,
           "likes": 116,
           "comments": 0
         }

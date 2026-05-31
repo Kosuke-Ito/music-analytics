@@ -2084,6 +2084,47 @@
       "ytm_subscribers": 71700,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 89746503
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 1048187,
+      "collected_at": "2026-05-31T15:14:56.656999+00:00",
+      "spotify_followers": 417780,
+      "youtube_subscribers": 7400000,
+      "youtube_total_views": 6646870825,
+      "youtube_video_count": 295,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 32629
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 29057
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 20603
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 16081
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 12518
+        }
+      ],
+      "lastfm_listeners": 100935,
+      "lastfm_playcount": 1809938,
+      "ytm_subscribers": 72500,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 89746503
     }
   ],
   "metadata": {
@@ -2101,8 +2142,8 @@
         "url": "https://www.last.fm/music/Chinozo"
       },
       {
-        "name": "ぬゆり",
-        "url": "https://www.last.fm/music/%E3%81%AC%E3%82%86%E3%82%8A"
+        "name": "Kanaria",
+        "url": "https://www.last.fm/music/Kanaria"
       },
       {
         "name": "R Sound Design",
@@ -2118,14 +2159,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "KANKAN",
-        "browse_id": "UCfJFBnBR1MzZKyZr2MI8ixQ",
-        "subscribers": "285K"
-      },
-      {
         "name": "DUSTCELL",
         "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
-        "subscribers": "844K"
+        "subscribers": "831K"
+      },
+      {
+        "name": "meiyo",
+        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
+        "subscribers": "1.71M"
+      },
+      {
+        "name": "KANKAN",
+        "browse_id": "UCfJFBnBR1MzZKyZr2MI8ixQ",
+        "subscribers": "287K"
       },
       {
         "name": "Sou",
@@ -2161,11 +2207,6 @@
         "name": "BotchiBoromaru",
         "browse_id": "UC5tXBBTgrpXMBvvXY_PGiYQ",
         "subscribers": "827K"
-      },
-      {
-        "name": "rerulili",
-        "browse_id": "UCW9vY52b2DaKw2rpXDu6KXw",
-        "subscribers": "12.7K"
       }
     ],
     "ytm_top_songs": [
@@ -2477,6 +2518,12 @@
           "views": 29023722,
           "likes": 139994,
           "comments": 4
+        },
+        {
+          "date": "2026-05-31",
+          "views": 29032123,
+          "likes": 140035,
+          "comments": 7
         }
       ]
     },
@@ -2722,6 +2769,12 @@
           "views": 15199567,
           "likes": 70822,
           "comments": 2
+        },
+        {
+          "date": "2026-05-31",
+          "views": 15204076,
+          "likes": 70842,
+          "comments": 3
         }
       ]
     },
@@ -3284,6 +3337,12 @@
           "views": 7775389,
           "likes": 38753,
           "comments": 0
+        },
+        {
+          "date": "2026-05-31",
+          "views": 7778534,
+          "likes": 38766,
+          "comments": 1
         }
       ]
     },
@@ -3571,6 +3630,12 @@
           "views": 1298212,
           "likes": 12177,
           "comments": 36
+        },
+        {
+          "date": "2026-05-31",
+          "views": 1299305,
+          "likes": 12187,
+          "comments": 36
         }
       ]
     },
@@ -3690,6 +3755,12 @@
           "views": 127995,
           "likes": 2741,
           "comments": 4
+        },
+        {
+          "date": "2026-05-31",
+          "views": 131901,
+          "likes": 2802,
+          "comments": 5
         }
       ]
     }
@@ -4034,6 +4105,30 @@
       "type": "annotated",
       "related_annotation": "初ソロEP『dialogue』配信リリース＆YouTubeチャンネル新設",
       "detected_at": "2026-05-30T15:01:29.337637+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "monthly_listeners",
+      "value": 1048187,
+      "baseline_mean": 959755.0,
+      "baseline_stddev": 27667.4,
+      "delta": 88432,
+      "score": 3.2,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-31T15:14:57.910553+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "youtube_total_views",
+      "value": 6646870825,
+      "baseline_mean": 6593901144.5,
+      "baseline_stddev": 12901011.4,
+      "delta": 52969680,
+      "score": 4.11,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-31T15:14:57.910553+00:00"
     }
   ]
 }

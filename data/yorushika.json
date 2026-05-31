@@ -1966,6 +1966,47 @@
       "ytm_subscribers": 3960000,
       "ytm_monthly_listeners": 18100000,
       "ytm_total_views": 3260553633
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 4930215,
+      "collected_at": "2026-05-31T15:24:06.297502+00:00",
+      "spotify_followers": 3590136,
+      "youtube_subscribers": 3970000,
+      "youtube_total_views": 3299692104,
+      "youtube_video_count": 129,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 194611
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 167629
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 118858
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 112520
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 73865
+        }
+      ],
+      "lastfm_listeners": 250876,
+      "lastfm_playcount": 11334854,
+      "ytm_subscribers": 3970000,
+      "ytm_monthly_listeners": 17700000,
+      "ytm_total_views": 3292788032
     }
   ],
   "annotations": [
@@ -2116,20 +2157,20 @@
         "url": "https://www.last.fm/music/%E3%81%9A%E3%81%A3%E3%81%A8%E7%9C%9F%E5%A4%9C%E4%B8%AD%E3%81%A7%E3%81%84%E3%81%84%E3%81%AE%E3%81%AB%E3%80%82"
       },
       {
-        "name": "あたらよ",
-        "url": "https://www.last.fm/music/%E3%81%82%E3%81%9F%E3%82%89%E3%82%88"
-      },
-      {
         "name": "Yorushika",
         "url": "https://www.last.fm/music/Yorushika"
+      },
+      {
+        "name": "あたらよ",
+        "url": "https://www.last.fm/music/%E3%81%82%E3%81%9F%E3%82%89%E3%82%88"
       },
       {
         "name": "n-buna",
         "url": "https://www.last.fm/music/n-buna"
       },
       {
-        "name": "ロクデナシ",
-        "url": "https://www.last.fm/music/%E3%83%AD%E3%82%AF%E3%83%87%E3%83%8A%E3%82%B7"
+        "name": "tuki.",
+        "url": "https://www.last.fm/music/tuki."
       }
     ],
     "lastfm_tags": [
@@ -2141,34 +2182,24 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "56.5M"
+      },
+      {
         "name": "Aimer",
         "browse_id": "UC_gksw7NEueO_u3lPL372hA",
-        "subscribers": "10.4M"
-      },
-      {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "479K"
-      },
-      {
-        "name": "suis from Yorushika",
-        "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
-        "subscribers": "28.8K"
-      },
-      {
-        "name": "YUTORI",
-        "browse_id": "UCqM8y7cbNcekfXHhvitCLyw",
-        "subscribers": "234K"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.78M"
+        "subscribers": "10.3M"
       },
       {
         "name": "tuki.",
         "browse_id": "UCtrbtNbdI4jwRQPG35Mtn2A",
         "subscribers": "15.2M"
+      },
+      {
+        "name": "WhaleDontSleep",
+        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
+        "subscribers": "479K"
       },
       {
         "name": "MAISONdes ",
@@ -2181,14 +2212,24 @@
         "subscribers": "15.1M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "18.6M"
+        "name": "suis from Yorushika",
+        "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
+        "subscribers": "28.8K"
       },
       {
-        "name": "Hitsujibungaku",
-        "browse_id": "UCnZK-AT0Yrx8uXcFRqUy87g",
-        "subscribers": "4.87M"
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.78M"
+      },
+      {
+        "name": "Ryokuousyoku Syakai",
+        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
+        "subscribers": "6.75M"
+      },
+      {
+        "name": "YUTORI",
+        "browse_id": "UCqM8y7cbNcekfXHhvitCLyw",
+        "subscribers": "234K"
       }
     ],
     "ytm_top_songs": [
@@ -2493,6 +2534,12 @@
           "date": "2026-05-30",
           "views": 6613497,
           "likes": 40483,
+          "comments": 142
+        },
+        {
+          "date": "2026-05-31",
+          "views": 6671593,
+          "likes": 40735,
           "comments": 142
         }
       ]
@@ -2803,6 +2850,12 @@
           "date": "2026-05-30",
           "views": 104725903,
           "likes": 360401,
+          "comments": 576
+        },
+        {
+          "date": "2026-05-31",
+          "views": 104781528,
+          "likes": 360599,
           "comments": 576
         }
       ]
@@ -3264,6 +3317,12 @@
           "views": 4172299,
           "likes": 36559,
           "comments": 421
+        },
+        {
+          "date": "2026-05-31",
+          "views": 4201803,
+          "likes": 36767,
+          "comments": 421
         }
       ]
     },
@@ -3412,6 +3471,12 @@
           "date": "2026-05-30",
           "views": 70198645,
           "likes": 256166,
+          "comments": 351
+        },
+        {
+          "date": "2026-05-31",
+          "views": 70227049,
+          "likes": 256264,
           "comments": 351
         }
       ]
@@ -3621,6 +3686,12 @@
           "date": "2026-05-30",
           "views": 3814784,
           "likes": 57932,
+          "comments": 987
+        },
+        {
+          "date": "2026-05-31",
+          "views": 3878274,
+          "likes": 58420,
           "comments": 987
         }
       ]
@@ -3872,6 +3943,18 @@
       "type": "annotated",
       "related_annotation": "「あぶく」MV国際バイラル800万再生突破＋「LIAR GAME」OP継続露出でYouTube総再生数が急増（+4,738万〜+4,400万・2.42〜2.48σ）",
       "detected_at": "2026-05-21T16:47:42.470861+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "youtube_total_views",
+      "value": 3299692104,
+      "baseline_mean": 3245534622.9,
+      "baseline_stddev": 19852124.2,
+      "delta": 54157481,
+      "score": 2.73,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-31T15:24:07.729689+00:00"
     }
   ]
 }

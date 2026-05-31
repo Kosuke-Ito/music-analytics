@@ -1966,6 +1966,47 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 63300000,
       "ytm_total_views": 851338322
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 3356800,
+      "collected_at": "2026-05-31T15:24:55.546966+00:00",
+      "spotify_followers": 1013165,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 854518583,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 58508
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 49834
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 44984
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39475
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 39189
+        }
+      ],
+      "lastfm_listeners": 406944,
+      "lastfm_playcount": 5791227,
+      "ytm_subscribers": 1340000,
+      "ytm_monthly_listeners": 63300000,
+      "ytm_total_views": 851338322
     }
   ],
   "annotations": [
@@ -2087,9 +2128,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "SIRUP",
-        "browse_id": "UCNOawli2PNwt-9L_mqjCxUA",
-        "subscribers": "627K"
+        "name": "I Don't Like Mondays.",
+        "browse_id": "UCGNCaU3Q1WV31GmdDjX5b7Q",
+        "subscribers": "705K"
       },
       {
         "name": "eill",
@@ -2109,7 +2150,7 @@
       {
         "name": "LUCKY TAPES",
         "browse_id": "UCYvGyI6FqmS5GFnCGEttXdg",
-        "subscribers": "195K"
+        "subscribers": "193K"
       },
       {
         "name": "tonun",
@@ -2124,7 +2165,7 @@
       {
         "name": "Ohashi Chippoke",
         "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "178K"
+        "subscribers": "177K"
       },
       {
         "name": "DURDN",
@@ -2434,6 +2475,12 @@
           "views": 139398890,
           "likes": 1097014,
           "comments": 5921
+        },
+        {
+          "date": "2026-05-31",
+          "views": 139468073,
+          "likes": 1097749,
+          "comments": 5926
         }
       ]
     },
@@ -2708,6 +2755,12 @@
           "date": "2026-05-30",
           "views": 7768990,
           "likes": 57217,
+          "comments": 160
+        },
+        {
+          "date": "2026-05-31",
+          "views": 7777239,
+          "likes": 57286,
           "comments": 160
         }
       ]
@@ -2984,6 +3037,12 @@
           "views": 3347153,
           "likes": 36749,
           "comments": 284
+        },
+        {
+          "date": "2026-05-31",
+          "views": 3350072,
+          "likes": 36776,
+          "comments": 284
         }
       ]
     },
@@ -3258,6 +3317,12 @@
           "date": "2026-05-30",
           "views": 11568797,
           "likes": 51309,
+          "comments": 153
+        },
+        {
+          "date": "2026-05-31",
+          "views": 11573041,
+          "likes": 51323,
           "comments": 153
         }
       ]
@@ -3538,6 +3603,12 @@
           "date": "2026-05-30",
           "views": 4202635,
           "likes": 38896,
+          "comments": 194
+        },
+        {
+          "date": "2026-05-31",
+          "views": 4205225,
+          "likes": 38925,
           "comments": 194
         }
       ]
@@ -3862,6 +3933,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-30T15:11:29.641952+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "monthly_listeners",
+      "value": 3356800,
+      "baseline_mean": 3333089.3,
+      "baseline_stddev": 11486.5,
+      "delta": 23710,
+      "score": 2.06,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-31T15:24:57.005989+00:00"
     }
   ]
 }

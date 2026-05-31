@@ -1969,6 +1969,44 @@
       "ytm_subscribers": 1050000,
       "ytm_monthly_listeners": 1920000,
       "ytm_total_views": 968879009
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 1318486,
+      "collected_at": "2026-05-31T15:29:02.121850+00:00",
+      "spotify_followers": 374544,
+      "youtube_subscribers": 1050000,
+      "youtube_total_views": 1063176701,
+      "youtube_video_count": 470,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 63881
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54403
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 46498
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 22311
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 18577
+        }
+      ],
+      "lastfm_listeners": 22928,
+      "lastfm_playcount": 599393
     }
   ],
   "metadata": {
@@ -3532,6 +3570,61 @@
           "comments": 806
         }
       ]
+    },
+    "KxaM3RMTWI0": {
+      "title": "I",
+      "history": [
+        {
+          "date": "2026-05-31",
+          "views": 12373137,
+          "likes": 86356,
+          "comments": 902
+        }
+      ]
+    },
+    "9khpyvTIBBc": {
+      "title": "Ray",
+      "history": [
+        {
+          "date": "2026-05-31",
+          "views": 21797900,
+          "likes": 73058,
+          "comments": 263
+        }
+      ]
+    },
+    "4dnT-kKIO6Y": {
+      "title": "アカシア - Acacia",
+      "history": [
+        {
+          "date": "2026-05-31",
+          "views": 96481151,
+          "likes": 473972,
+          "comments": 6038
+        }
+      ]
+    },
+    "M_Uz5SKGxs4": {
+      "title": "天体観測 - Tentaikansoku",
+      "history": [
+        {
+          "date": "2026-05-31",
+          "views": 47717937,
+          "likes": 132029,
+          "comments": 257
+        }
+      ]
+    },
+    "XidXQwvKrds": {
+      "title": "クロノスタシス - Chronostasis",
+      "history": [
+        {
+          "date": "2026-05-31",
+          "views": 6104217,
+          "likes": 27594,
+          "comments": 136
+        }
+      ]
     }
   },
   "annotations": [
@@ -3917,6 +4010,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-30T15:15:37.196728+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "youtube_total_views",
+      "value": 1063176701,
+      "baseline_mean": 1053636574.4,
+      "baseline_stddev": 4609870.2,
+      "delta": 9540126,
+      "score": 2.07,
+      "type": "annotated",
+      "related_annotation": "「to HEROes ~TOBE 3rd Super Live~」Amazon Prime Videoで独占配信開始",
+      "detected_at": "2026-05-31T15:29:03.273128+00:00"
     }
   ]
 }

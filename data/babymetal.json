@@ -1969,6 +1969,47 @@
       "ytm_subscribers": 3630000,
       "ytm_monthly_listeners": 8460000,
       "ytm_total_views": 1070621042
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 3552104,
+      "collected_at": "2026-05-31T15:29:18.179327+00:00",
+      "spotify_followers": 2992864,
+      "youtube_subscribers": 3630000,
+      "youtube_total_views": 1078836175,
+      "youtube_video_count": 352,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 62399
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 58873
+        },
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 48071
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 46093
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 45197
+        }
+      ],
+      "lastfm_listeners": 974813,
+      "lastfm_playcount": 59306839,
+      "ytm_subscribers": 3630000,
+      "ytm_monthly_listeners": 8310000,
+      "ytm_total_views": 1070621042
     }
   ],
   "annotations": [
@@ -2148,17 +2189,17 @@
       {
         "name": "Sakura Gakuin",
         "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
-        "subscribers": "7.63K"
+        "subscribers": "7.64K"
       },
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "112K"
+        "subscribers": "111K"
       },
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "288K"
+        "subscribers": "285K"
       },
       {
         "name": "Mellows",
@@ -2495,6 +2536,12 @@
           "views": 7019997,
           "likes": 80987,
           "comments": 255
+        },
+        {
+          "date": "2026-05-31",
+          "views": 7041900,
+          "likes": 81207,
+          "comments": 257
         }
       ]
     },
@@ -2782,6 +2829,12 @@
           "views": 4456301,
           "likes": 90227,
           "comments": 489
+        },
+        {
+          "date": "2026-05-31",
+          "views": 4471094,
+          "likes": 90436,
+          "comments": 492
         }
       ]
     },
@@ -3068,6 +3121,12 @@
           "date": "2026-05-30",
           "views": 4806380,
           "likes": 68627,
+          "comments": 224
+        },
+        {
+          "date": "2026-05-31",
+          "views": 4817852,
+          "likes": 68757,
           "comments": 224
         }
       ]
@@ -3356,6 +3415,12 @@
           "views": 2029496,
           "likes": 39671,
           "comments": 246
+        },
+        {
+          "date": "2026-05-31",
+          "views": 2036833,
+          "likes": 39801,
+          "comments": 246
         }
       ]
     },
@@ -3643,6 +3708,12 @@
           "views": 3687198,
           "likes": 71205,
           "comments": 321
+        },
+        {
+          "date": "2026-05-31",
+          "views": 3698043,
+          "likes": 71361,
+          "comments": 322
         }
       ]
     }
@@ -3887,6 +3958,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-30T15:15:54.160968+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "youtube_total_views",
+      "value": 1078836175,
+      "baseline_mean": 1067529271.5,
+      "baseline_stddev": 5460354.6,
+      "delta": 11306903,
+      "score": 2.07,
+      "type": "annotated",
+      "related_annotation": "Jordan Fish Remix配信リリース＆国内盤METAL FORTH DELUXE JAPAN EDITION発表",
+      "detected_at": "2026-05-31T15:29:19.934555+00:00"
     }
   ]
 }

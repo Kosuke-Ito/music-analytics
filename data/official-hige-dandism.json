@@ -2255,6 +2255,47 @@
       "ytm_subscribers": 3650000,
       "ytm_monthly_listeners": 55500000,
       "ytm_total_views": 4423942882
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 5404469,
+      "collected_at": "2026-05-31T15:18:27.221812+00:00",
+      "spotify_followers": 7748502,
+      "youtube_subscribers": 3650000,
+      "youtube_total_views": 4453380209,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 220983
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 220162
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 149785
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 91866
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 62861
+        }
+      ],
+      "lastfm_listeners": 27592,
+      "lastfm_playcount": 2070772,
+      "ytm_subscribers": 3650000,
+      "ytm_monthly_listeners": 56500000,
+      "ytm_total_views": 4423942882
     }
   ],
   "annotations": [
@@ -2501,29 +2542,14 @@
         "subscribers": "5.44M"
       },
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "5.44M"
-      },
-      {
         "name": "eill",
         "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
         "subscribers": "1.69M"
       },
       {
-        "name": "Fujii Kaze",
-        "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
-        "subscribers": "41.6M"
-      },
-      {
-        "name": "aimyon",
-        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
-        "subscribers": "8.04M"
-      },
-      {
-        "name": "wacci",
-        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
-        "subscribers": "2.04M"
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "5.44M"
       },
       {
         "name": "Omoinotake",
@@ -2531,9 +2557,24 @@
         "subscribers": "2.74M"
       },
       {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "19.4M"
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "11.9M"
+      },
+      {
+        "name": "aimyon",
+        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
+        "subscribers": "8.04M"
+      },
+      {
+        "name": "Fujii Kaze",
+        "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
+        "subscribers": "41.7M"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "50.6M"
       },
       {
         "name": "suis from Yorushika",
@@ -2541,9 +2582,9 @@
         "subscribers": "28.8K"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "12.1M"
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "14M"
       }
     ],
     "ytm_top_songs": [
@@ -2861,6 +2902,12 @@
           "views": 216591025,
           "likes": 597213,
           "comments": 2041
+        },
+        {
+          "date": "2026-05-31",
+          "views": 216775113,
+          "likes": 597924,
+          "comments": 2046
         }
       ]
     },
@@ -3411,6 +3458,12 @@
           "views": 19681254,
           "likes": 97468,
           "comments": 2649
+        },
+        {
+          "date": "2026-05-31",
+          "views": 19729761,
+          "likes": 97619,
+          "comments": 2650
         }
       ]
     },
@@ -3704,6 +3757,12 @@
           "views": 87033110,
           "likes": 394618,
           "comments": 865
+        },
+        {
+          "date": "2026-05-31",
+          "views": 87069427,
+          "likes": 394775,
+          "comments": 866
         }
       ]
     },
@@ -3786,6 +3845,12 @@
           "date": "2026-05-30",
           "views": 93250244,
           "likes": 265306,
+          "comments": 509
+        },
+        {
+          "date": "2026-05-31",
+          "views": 93283585,
+          "likes": 265399,
           "comments": 509
         }
       ]
@@ -4038,6 +4103,12 @@
           "views": 3152558,
           "likes": 32693,
           "comments": 1140
+        },
+        {
+          "date": "2026-05-31",
+          "views": 3182048,
+          "likes": 32827,
+          "comments": 1143
         }
       ]
     }
@@ -4330,6 +4401,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-30T15:04:59.839086+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "ytm_monthly_listeners",
+      "value": 56500000,
+      "baseline_mean": 44216666.7,
+      "baseline_stddev": 4824526.5,
+      "delta": 12283333,
+      "score": 2.55,
+      "type": "annotated",
+      "related_annotation": "「らしさ」がストリーミング累計1億回を突破——自身21作目の快挙",
+      "detected_at": "2026-05-31T15:18:28.347216+00:00"
     }
   ]
 }

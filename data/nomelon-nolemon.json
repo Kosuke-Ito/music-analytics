@@ -2090,6 +2090,47 @@
       "ytm_subscribers": 322000,
       "ytm_monthly_listeners": 1720000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 294202,
+      "collected_at": "2026-05-31T15:16:18.093503+00:00",
+      "spotify_followers": 67940,
+      "youtube_subscribers": 322000,
+      "youtube_total_views": 163846600,
+      "youtube_video_count": 106,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 13710
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 9296
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6652
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5119
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4415
+        }
+      ],
+      "lastfm_listeners": 32233,
+      "lastfm_playcount": 860293,
+      "ytm_subscribers": 322000,
+      "ytm_monthly_listeners": 1710000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -2126,7 +2167,7 @@
       {
         "name": "DUSTCELL",
         "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
-        "subscribers": "844K"
+        "subscribers": "831K"
       },
       {
         "name": "Yu Orie",
@@ -2136,12 +2177,12 @@
       {
         "name": "PAS TASTA",
         "browse_id": "UCXWyAgpgtm-Ae1E1aud3ajg",
-        "subscribers": "175K"
+        "subscribers": "174K"
       },
       {
         "name": "shallm",
         "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
-        "subscribers": "213K"
+        "subscribers": "212K"
       },
       {
         "name": "Rene Ryugasaki",
@@ -2156,7 +2197,7 @@
       {
         "name": "TAKU INOUE",
         "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
-        "subscribers": "322K"
+        "subscribers": "319K"
       },
       {
         "name": "yoei.",
@@ -2488,6 +2529,12 @@
           "views": 18043809,
           "likes": 123214,
           "comments": 1053
+        },
+        {
+          "date": "2026-05-31",
+          "views": 18055539,
+          "likes": 123246,
+          "comments": 1053
         }
       ]
     },
@@ -2780,6 +2827,12 @@
           "date": "2026-05-30",
           "views": 5228110,
           "likes": 38931,
+          "comments": 81
+        },
+        {
+          "date": "2026-05-31",
+          "views": 5234885,
+          "likes": 38975,
           "comments": 81
         }
       ]
@@ -3074,6 +3127,12 @@
           "views": 5008874,
           "likes": 34687,
           "comments": 163
+        },
+        {
+          "date": "2026-05-31",
+          "views": 5014446,
+          "likes": 34706,
+          "comments": 163
         }
       ]
     },
@@ -3366,6 +3425,12 @@
           "date": "2026-05-30",
           "views": 2131479,
           "likes": 18177,
+          "comments": 42
+        },
+        {
+          "date": "2026-05-31",
+          "views": 2134280,
+          "likes": 18195,
           "comments": 42
         }
       ]
@@ -3664,6 +3729,12 @@
           "date": "2026-05-30",
           "views": 4214194,
           "likes": 35026,
+          "comments": 315
+        },
+        {
+          "date": "2026-05-31",
+          "views": 4217468,
+          "likes": 35040,
           "comments": 315
         }
       ]
@@ -3991,6 +4062,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-19T16:49:08.653723+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "youtube_total_views",
+      "value": 163846600,
+      "baseline_mean": 161458774.7,
+      "baseline_stddev": 917144.6,
+      "delta": 2387825,
+      "score": 2.6,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-31T15:16:19.344402+00:00"
     }
   ]
 }

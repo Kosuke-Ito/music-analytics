@@ -2084,6 +2084,47 @@
       "ytm_subscribers": 96000,
       "ytm_monthly_listeners": 534000,
       "ytm_total_views": 24478142
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 176844,
+      "collected_at": "2026-05-31T15:16:33.762893+00:00",
+      "spotify_followers": 57530,
+      "youtube_subscribers": 96100,
+      "youtube_total_views": 30256284,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 9284
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6896
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4740
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4534
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3230
+        }
+      ],
+      "lastfm_listeners": 13421,
+      "lastfm_playcount": 285655,
+      "ytm_subscribers": 96100,
+      "ytm_monthly_listeners": 531000,
+      "ytm_total_views": 24533083
     }
   ],
   "annotations": [
@@ -2242,14 +2283,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "shallm",
-        "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
-        "subscribers": "213K"
+        "name": "MEIYO DENSETSU",
+        "browse_id": "UCvvAMx8fgKUmb_Zb-kemFgA",
+        "subscribers": "255K"
       },
       {
-        "name": "7thVega",
-        "browse_id": "UC_W5BfNNzkxWj911JSDAu9g",
-        "subscribers": "88.1K"
+        "name": "Brandy Senki",
+        "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
+        "subscribers": "215K"
+      },
+      {
+        "name": "Chevon",
+        "browse_id": "UCF6NzjP0uC5zlENFfvDJ0yA",
+        "subscribers": "933K"
       },
       {
         "name": "NELKE",
@@ -2264,7 +2310,7 @@
       {
         "name": "Conton Candy",
         "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
-        "subscribers": "1.97M"
+        "subscribers": "1.96M"
       },
       {
         "name": "Necry Talkie",
@@ -2284,12 +2330,7 @@
       {
         "name": "PompadollS",
         "browse_id": "UCmu5lpe6Wt-7yCHe2rA4zYQ",
-        "subscribers": "178K"
-      },
-      {
-        "name": "Passepied",
-        "browse_id": "UCe3gbnhf3tesVdTxVyKEIkw",
-        "subscribers": "59.7K"
+        "subscribers": "172K"
       }
     ],
     "ytm_top_songs": [
@@ -2314,7 +2355,7 @@
         "video_id": "uBA6voYhTg0"
       }
     ],
-    "ytm_description": "Aooo is a Japanese rock band formed in Tokyo in August 2023. It consists of Riko Ishino, Surii/Threee, Hikaru Yamamoto, and Tsumiki. The band made their major-label debut with Echoes and Sony Music Entertainment Japan in October 2024 with their debut studio album Aooo.\n\nFrom Wikipedia ("
+    "ytm_description": "Aooo is a Japanese rock band formed in Tokyo in August 2023. It consists of Riko Ishino, Surii/Threee itar, backing vocals, Hikaru Yamamoto, and Tsumiki. The band made their major-label debut with Echoes and Sony Music Entertainment Japan in October 2024 with their debut studio album Aooo.\n\nFrom Wikipedia ("
   },
   "song_performance": {
     "yykxL9rRrbc": {
@@ -2864,6 +2905,12 @@
           "views": 274476,
           "likes": 2550,
           "comments": 43
+        },
+        {
+          "date": "2026-05-31",
+          "views": 275171,
+          "likes": 2557,
+          "comments": 43
         }
       ]
     },
@@ -3156,6 +3203,12 @@
           "date": "2026-05-30",
           "views": 152286,
           "likes": 1325,
+          "comments": 11
+        },
+        {
+          "date": "2026-05-31",
+          "views": 152898,
+          "likes": 1331,
           "comments": 11
         }
       ]
@@ -3450,6 +3503,12 @@
           "views": 374788,
           "likes": 3787,
           "comments": 63
+        },
+        {
+          "date": "2026-05-31",
+          "views": 375310,
+          "likes": 3788,
+          "comments": 63
         }
       ]
     },
@@ -3623,6 +3682,12 @@
           "views": 152859,
           "likes": 1639,
           "comments": 24
+        },
+        {
+          "date": "2026-05-31",
+          "views": 153289,
+          "likes": 1641,
+          "comments": 24
         }
       ]
     },
@@ -3789,6 +3854,12 @@
           "views": 22874,
           "likes": 371,
           "comments": 13
+        },
+        {
+          "date": "2026-05-31",
+          "views": 23349,
+          "likes": 376,
+          "comments": 13
         }
       ]
     }
@@ -3937,6 +4008,18 @@
       "type": "annotated",
       "related_annotation": "Zepp Namba大阪公演——初Zeppツアー「RINGRING」第3公演",
       "detected_at": "2026-05-18T16:47:34.899082+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "monthly_listeners",
+      "value": 176844,
+      "baseline_mean": 170086.8,
+      "baseline_stddev": 3320.0,
+      "delta": 6757,
+      "score": 2.04,
+      "type": "annotated",
+      "related_annotation": "初Zeppツアー「RINGRING」東京・Zepp Haneda公演——ツアー最終公演",
+      "detected_at": "2026-05-31T15:16:34.928740+00:00"
     }
   ]
 }

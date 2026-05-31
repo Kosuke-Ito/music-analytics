@@ -2082,6 +2082,47 @@
       "ytm_subscribers": 1000000,
       "ytm_monthly_listeners": 19400000,
       "ytm_total_views": 406109027
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 3102641,
+      "collected_at": "2026-05-31T15:15:12.821277+00:00",
+      "spotify_followers": 1004618,
+      "youtube_subscribers": 1000000,
+      "youtube_total_views": 407414786,
+      "youtube_video_count": 53,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 98914
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 95984
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 69807
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 52195
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 39510
+        }
+      ],
+      "lastfm_listeners": 19378,
+      "lastfm_playcount": 341557,
+      "ytm_subscribers": 1000000,
+      "ytm_monthly_listeners": 19300000,
+      "ytm_total_views": 406109027
     }
   ],
   "annotations": [
@@ -2254,14 +2295,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Ai Higuchi",
-        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
-        "subscribers": "15.1M"
-      },
-      {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
         "subscribers": "24.1M"
+      },
+      {
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "2.74M"
       },
       {
         "name": "eill",
@@ -2276,22 +2317,22 @@
       {
         "name": "Zarame",
         "browse_id": "UCsXbUCnV9SqRGkaO2ifzkBw",
-        "subscribers": "335K"
+        "subscribers": "331K"
       },
       {
-        "name": "ATARAYO",
-        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
-        "subscribers": "1.62M"
-      },
-      {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "2.74M"
+        "name": "aimyon",
+        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
+        "subscribers": "8.04M"
       },
       {
         "name": "UshioReira",
         "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
-        "subscribers": "776K"
+        "subscribers": "775K"
+      },
+      {
+        "name": "suis from Yorushika",
+        "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
+        "subscribers": "28.8K"
       },
       {
         "name": "yama",
@@ -2299,9 +2340,9 @@
         "subscribers": "5.78M"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "12.1M"
+        "name": "milet",
+        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
+        "subscribers": "7.17M"
       }
     ],
     "ytm_top_songs": [
@@ -2619,6 +2660,12 @@
           "views": 2485300,
           "likes": 22034,
           "comments": 39
+        },
+        {
+          "date": "2026-05-31",
+          "views": 2510231,
+          "likes": 22260,
+          "comments": 39
         }
       ]
     },
@@ -2905,6 +2952,12 @@
           "date": "2026-05-30",
           "views": 17526985,
           "likes": 84135,
+          "comments": 552
+        },
+        {
+          "date": "2026-05-31",
+          "views": 17555641,
+          "likes": 84199,
           "comments": 552
         }
       ]
@@ -3199,6 +3252,12 @@
           "views": 27250890,
           "likes": 178073,
           "comments": 1785
+        },
+        {
+          "date": "2026-05-31",
+          "views": 27261946,
+          "likes": 178071,
+          "comments": 1785
         }
       ]
     },
@@ -3492,6 +3551,12 @@
           "views": 4054246,
           "likes": 35147,
           "comments": 372
+        },
+        {
+          "date": "2026-05-31",
+          "views": 4067019,
+          "likes": 35187,
+          "comments": 371
         }
       ]
     },
@@ -3785,6 +3850,12 @@
           "views": 30289569,
           "likes": 127946,
           "comments": 307
+        },
+        {
+          "date": "2026-05-31",
+          "views": 30304964,
+          "likes": 127992,
+          "comments": 307
         }
       ]
     },
@@ -3896,6 +3967,18 @@
       "type": "annotated",
       "related_annotation": "大泉洋30周年記念EP「感謝しかございません」へ「なんてことない日々」書き下ろし提供が発表",
       "detected_at": "2026-05-30T15:01:45.787096+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "youtube_total_views",
+      "value": 407414786,
+      "baseline_mean": 401710120.4,
+      "baseline_stddev": 2381735.2,
+      "delta": 5704665,
+      "score": 2.4,
+      "type": "annotated",
+      "related_annotation": "大泉洋30周年記念EP「感謝しかございません」へ「なんてことない日々」書き下ろし提供が発表",
+      "detected_at": "2026-05-31T15:15:14.325620+00:00"
     }
   ]
 }

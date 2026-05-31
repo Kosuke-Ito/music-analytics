@@ -1896,6 +1896,47 @@
       "ytm_subscribers": 37400,
       "ytm_monthly_listeners": 64599,
       "ytm_total_views": 8213357
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 65868,
+      "collected_at": "2026-05-31T15:30:23.743164+00:00",
+      "spotify_followers": 51305,
+      "youtube_subscribers": 37400,
+      "youtube_total_views": 8451762,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3455
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1416
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 905
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 900
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 586
+        }
+      ],
+      "lastfm_listeners": 23877,
+      "lastfm_playcount": 399146,
+      "ytm_subscribers": 37400,
+      "ytm_monthly_listeners": 64099,
+      "ytm_total_views": 8213357
     }
   ],
   "metadata": {
@@ -1917,8 +1958,8 @@
         "url": "https://www.last.fm/music/odol"
       },
       {
-        "name": "柴田聡子",
-        "url": "https://www.last.fm/music/%E6%9F%B4%E7%94%B0%E8%81%A1%E5%AD%90"
+        "name": "DE DE MOUSE",
+        "url": "https://www.last.fm/music/DE+DE+MOUSE"
       }
     ],
     "lastfm_tags": [
@@ -1930,11 +1971,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "ako",
-        "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "267K"
-      },
-      {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
         "subscribers": "161K"
@@ -1942,12 +1978,12 @@
       {
         "name": "CAPSULE",
         "browse_id": "UCZsrsPpiAC4-aXPXSRzFJhQ",
-        "subscribers": "923K"
+        "subscribers": "872K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "97K"
+        "subscribers": "96.5K"
       },
       {
         "name": "Skirt",
@@ -1962,7 +1998,7 @@
       {
         "name": "80KIDZ",
         "browse_id": "UCNX3xsR7gTNXzcG8VyY3Z5g",
-        "subscribers": "3.8K"
+        "subscribers": "3.81K"
       },
       {
         "name": "chelmico",
@@ -1978,6 +2014,11 @@
         "name": "Satoko Shibata",
         "browse_id": "UCHXbv9-c9QQow0_n5WKx5QQ",
         "subscribers": "198K"
+      },
+      {
+        "name": "FRIENDS",
+        "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
+        "subscribers": "78.3K"
       }
     ],
     "ytm_top_songs": [
@@ -2277,6 +2318,12 @@
           "views": 121358,
           "likes": 2502,
           "comments": 24
+        },
+        {
+          "date": "2026-05-31",
+          "views": 121744,
+          "likes": 2505,
+          "comments": 24
         }
       ]
     },
@@ -2551,6 +2598,12 @@
           "date": "2026-05-30",
           "views": 558176,
           "likes": 5211,
+          "comments": 18
+        },
+        {
+          "date": "2026-05-31",
+          "views": 558771,
+          "likes": 5213,
           "comments": 18
         }
       ]
@@ -2827,6 +2880,12 @@
           "views": 314185,
           "likes": 3382,
           "comments": 6
+        },
+        {
+          "date": "2026-05-31",
+          "views": 314467,
+          "likes": 3383,
+          "comments": 6
         }
       ]
     },
@@ -3100,6 +3159,12 @@
         {
           "date": "2026-05-30",
           "views": 53476,
+          "likes": 180,
+          "comments": 1
+        },
+        {
+          "date": "2026-05-31",
+          "views": 53566,
           "likes": 180,
           "comments": 1
         }
@@ -3376,6 +3441,12 @@
           "date": "2026-05-30",
           "views": 117837,
           "likes": 1510,
+          "comments": 14
+        },
+        {
+          "date": "2026-05-31",
+          "views": 118130,
+          "likes": 1515,
           "comments": 14
         }
       ]
@@ -3765,6 +3836,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-30T15:17:00.555142+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "youtube_total_views",
+      "value": 8451762,
+      "baseline_mean": 8297016.5,
+      "baseline_stddev": 65288.4,
+      "delta": 154745,
+      "score": 2.37,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-05-31T15:30:26.043871+00:00"
     }
   ]
 }

@@ -2257,6 +2257,47 @@
       "ytm_subscribers": 3460000,
       "ytm_monthly_listeners": 88500000,
       "ytm_total_views": 1207786733
+    },
+    {
+      "date": "2026-05-31",
+      "monthly_listeners": 23872688,
+      "collected_at": "2026-05-31T15:23:18.306157+00:00",
+      "spotify_followers": 10322669,
+      "youtube_subscribers": 3470000,
+      "youtube_total_views": 1259576962,
+      "youtube_video_count": 543,
+      "top_cities": [
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 285847
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 260165
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 241765
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 240021
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 220526
+        }
+      ],
+      "lastfm_listeners": 2403783,
+      "lastfm_playcount": 273535239,
+      "ytm_subscribers": 3470000,
+      "ytm_monthly_listeners": 88500000,
+      "ytm_total_views": 1207786733
     }
   ],
   "annotations": [
@@ -2504,11 +2545,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Ricky Montgomery",
-        "browse_id": "UCOvPGAEfPlHip7J1V6WI0jA",
-        "subscribers": "44.4M"
-      },
-      {
         "name": "Iceland Symphony Orchestra",
         "browse_id": "UC1SwLg9GHOdVh59rhFibxcg",
         "subscribers": "2.24K"
@@ -2534,14 +2570,9 @@
         "subscribers": "333K"
       },
       {
-        "name": "Clairo",
-        "browse_id": "UChC2OO1dG5Vge1Kuc-1QZRg",
-        "subscribers": "14.6M"
-      },
-      {
         "name": "beabadoobee",
         "browse_id": "UCcGMuu89vageEKV8zUKhwdA",
-        "subscribers": "33.6M"
+        "subscribers": "34.2M"
       },
       {
         "name": "Lyn Lapid",
@@ -2549,9 +2580,19 @@
         "subscribers": "1.77M"
       },
       {
-        "name": "Liana Flores",
-        "browse_id": "UCOOKbAPgT8xKwM6V9GLHiEg",
-        "subscribers": "16.9M"
+        "name": "Clairo",
+        "browse_id": "UChC2OO1dG5Vge1Kuc-1QZRg",
+        "subscribers": "14.6M"
+      },
+      {
+        "name": "The Marías",
+        "browse_id": "UCVV5M4OEFsKnB9HBhwOhHbA",
+        "subscribers": "53.5M"
+      },
+      {
+        "name": "Matt Maltese",
+        "browse_id": "UCsEbRHFUuN2065qIWPhLrRQ",
+        "subscribers": "4.25M"
       }
     ],
     "ytm_top_songs": [
@@ -2869,6 +2910,12 @@
           "views": 76925637,
           "likes": 1144021,
           "comments": 8026
+        },
+        {
+          "date": "2026-05-31",
+          "views": 77072778,
+          "likes": 1145690,
+          "comments": 8037
         }
       ]
     },
@@ -3162,6 +3209,12 @@
           "views": 16206459,
           "likes": 244409,
           "comments": 1148
+        },
+        {
+          "date": "2026-05-31",
+          "views": 16275909,
+          "likes": 245224,
+          "comments": 1151
         }
       ]
     },
@@ -3455,6 +3508,12 @@
           "views": 22282930,
           "likes": 252627,
           "comments": 743
+        },
+        {
+          "date": "2026-05-31",
+          "views": 22318806,
+          "likes": 252940,
+          "comments": 744
         }
       ]
     },
@@ -3748,6 +3807,12 @@
           "views": 46229513,
           "likes": 504792,
           "comments": 1584
+        },
+        {
+          "date": "2026-05-31",
+          "views": 46278252,
+          "likes": 505207,
+          "comments": 1593
         }
       ]
     },
@@ -4046,6 +4111,12 @@
           "views": 3027523,
           "likes": 56321,
           "comments": 465
+        },
+        {
+          "date": "2026-05-31",
+          "views": 3049051,
+          "likes": 56515,
+          "comments": 466
         }
       ]
     }
@@ -4254,6 +4325,18 @@
       "type": "annotated",
       "related_annotation": "「A Matter of Time Tour」マニラ公演 Day3（追加公演・3DAYS完走）",
       "detected_at": "2026-05-30T15:09:51.710403+00:00"
+    },
+    {
+      "date": "2026-05-31",
+      "metric": "youtube_total_views",
+      "value": 1259576962,
+      "baseline_mean": 1227801315.9,
+      "baseline_stddev": 15341683.5,
+      "delta": 31775646,
+      "score": 2.07,
+      "type": "annotated",
+      "related_annotation": "「A Matter of Time Tour」マニラ公演 Day3（追加公演・3DAYS完走）",
+      "detected_at": "2026-05-31T15:23:19.366144+00:00"
     }
   ]
 }
