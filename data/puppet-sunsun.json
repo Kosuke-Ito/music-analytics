@@ -2127,6 +2127,47 @@
       "ytm_subscribers": 7100,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-01",
+      "monthly_listeners": 184922,
+      "collected_at": "2026-06-01T19:20:44.251463+00:00",
+      "spotify_followers": 31022,
+      "youtube_subscribers": 870000,
+      "youtube_total_views": 152660805,
+      "youtube_video_count": 466,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6934
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5834
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5240
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2927
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2272
+        }
+      ],
+      "lastfm_listeners": 939,
+      "lastfm_playcount": 5322,
+      "ytm_subscribers": 7110,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -2183,7 +2224,7 @@
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "634"
+        "subscribers": "638"
       },
       {
         "name": "Yuria Nara",
@@ -2203,12 +2244,12 @@
       {
         "name": "TV Senshi",
         "browse_id": "UCFKdZVD2Jbh6Kv2nS72pW5A",
-        "subscribers": "4.67K"
+        "subscribers": "4.68K"
       },
       {
         "name": "Senasuke",
         "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
-        "subscribers": "456K"
+        "subscribers": "445K"
       },
       {
         "name": "Rolly",
@@ -2218,7 +2259,7 @@
       {
         "name": "MADAMADA",
         "browse_id": "UCEzNOrBjotEn6POsgTYdqLA",
-        "subscribers": "6.59K"
+        "subscribers": "6.6K"
       },
       {
         "name": "弥七（マユリカ中谷）",
@@ -2239,6 +2280,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-25T10:40:12.725299+00:00"
+    },
+    {
+      "date": "2026-06-01",
+      "metric": "monthly_listeners",
+      "value": 184922,
+      "baseline_mean": 180142.3,
+      "baseline_stddev": 2106.5,
+      "delta": 4779,
+      "score": 2.27,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-01T19:20:45.520028+00:00"
     }
   ]
 }

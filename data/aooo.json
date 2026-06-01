@@ -2125,6 +2125,47 @@
       "ytm_subscribers": 96100,
       "ytm_monthly_listeners": 531000,
       "ytm_total_views": 24533083
+    },
+    {
+      "date": "2026-06-01",
+      "monthly_listeners": 177785,
+      "collected_at": "2026-06-01T19:20:11.268228+00:00",
+      "spotify_followers": 57620,
+      "youtube_subscribers": 96400,
+      "youtube_total_views": 30392763,
+      "youtube_video_count": 277,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 9343
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6945
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4771
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4618
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3265
+        }
+      ],
+      "lastfm_listeners": 13437,
+      "lastfm_playcount": 286128,
+      "ytm_subscribers": 96400,
+      "ytm_monthly_listeners": 522000,
+      "ytm_total_views": 24625007
     }
   ],
   "annotations": [
@@ -2283,54 +2324,54 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "MEIYO DENSETSU",
-        "browse_id": "UCvvAMx8fgKUmb_Zb-kemFgA",
-        "subscribers": "255K"
-      },
-      {
-        "name": "Brandy Senki",
-        "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
-        "subscribers": "215K"
-      },
-      {
-        "name": "Chevon",
-        "browse_id": "UCF6NzjP0uC5zlENFfvDJ0yA",
-        "subscribers": "933K"
-      },
-      {
         "name": "NELKE",
         "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
-        "subscribers": "525K"
+        "subscribers": "488K"
       },
       {
         "name": "regallily",
         "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
-        "subscribers": "240K"
+        "subscribers": "236K"
       },
       {
         "name": "Conton Candy",
         "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
-        "subscribers": "1.96M"
+        "subscribers": "1.95M"
       },
       {
         "name": "Necry Talkie",
         "browse_id": "UCh7MXW8z8oudTJ3rS9kUflA",
-        "subscribers": "259K"
+        "subscribers": "252K"
       },
       {
         "name": "ねぎ塩豚丼",
         "browse_id": "UCb15VymqPPdgK9nnISoDDCg",
-        "subscribers": "221K"
+        "subscribers": "219K"
       },
       {
         "name": "harha",
         "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "151K"
+        "subscribers": "144K"
       },
       {
         "name": "PompadollS",
         "browse_id": "UCmu5lpe6Wt-7yCHe2rA4zYQ",
-        "subscribers": "172K"
+        "subscribers": "170K"
+      },
+      {
+        "name": "Passepied",
+        "browse_id": "UCe3gbnhf3tesVdTxVyKEIkw",
+        "subscribers": "57.2K"
+      },
+      {
+        "name": "Akai Ko-En",
+        "browse_id": "UCVPEVqfO021f0jXz3sWNGSA",
+        "subscribers": "85K"
+      },
+      {
+        "name": "sanetii",
+        "browse_id": "UCC4DaSQOF1wDYZQMZ1Ir5ew",
+        "subscribers": "266K"
       }
     ],
     "ytm_top_songs": [
@@ -2911,6 +2952,12 @@
           "views": 275171,
           "likes": 2557,
           "comments": 43
+        },
+        {
+          "date": "2026-06-01",
+          "views": 276174,
+          "likes": 2570,
+          "comments": 43
         }
       ]
     },
@@ -3209,6 +3256,12 @@
           "date": "2026-05-31",
           "views": 152898,
           "likes": 1331,
+          "comments": 11
+        },
+        {
+          "date": "2026-06-01",
+          "views": 153599,
+          "likes": 1337,
           "comments": 11
         }
       ]
@@ -3509,6 +3562,12 @@
           "views": 375310,
           "likes": 3788,
           "comments": 63
+        },
+        {
+          "date": "2026-06-01",
+          "views": 376123,
+          "likes": 3794,
+          "comments": 63
         }
       ]
     },
@@ -3688,6 +3747,12 @@
           "views": 153289,
           "likes": 1641,
           "comments": 24
+        },
+        {
+          "date": "2026-06-01",
+          "views": 153867,
+          "likes": 1643,
+          "comments": 24
         }
       ]
     },
@@ -3860,6 +3925,12 @@
           "views": 23349,
           "likes": 376,
           "comments": 13
+        },
+        {
+          "date": "2026-06-01",
+          "views": 23915,
+          "likes": 379,
+          "comments": 13
         }
       ]
     }
@@ -4020,6 +4091,18 @@
       "type": "annotated",
       "related_annotation": "初Zeppツアー「RINGRING」東京・Zepp Haneda公演——ツアー最終公演",
       "detected_at": "2026-05-31T15:16:34.928740+00:00"
+    },
+    {
+      "date": "2026-06-01",
+      "metric": "monthly_listeners",
+      "value": 177785,
+      "baseline_mean": 170196.2,
+      "baseline_stddev": 3482.8,
+      "delta": 7588,
+      "score": 2.18,
+      "type": "annotated",
+      "related_annotation": "初Zeppツアー「RINGRING」東京・Zepp Haneda公演——ツアー最終公演",
+      "detected_at": "2026-06-01T19:20:12.482840+00:00"
     }
   ]
 }

@@ -2010,6 +2010,47 @@
       "ytm_subscribers": 446000,
       "ytm_monthly_listeners": 4870000,
       "ytm_total_views": 339841321
+    },
+    {
+      "date": "2026-06-01",
+      "monthly_listeners": 1785095,
+      "collected_at": "2026-06-01T19:32:24.129743+00:00",
+      "spotify_followers": 492487,
+      "youtube_subscribers": 446000,
+      "youtube_total_views": 343014616,
+      "youtube_video_count": 138,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 59677
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 45523
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 33023
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 29585
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 20623
+        }
+      ],
+      "lastfm_listeners": 18324,
+      "lastfm_playcount": 1241119,
+      "ytm_subscribers": 446000,
+      "ytm_monthly_listeners": 4800000,
+      "ytm_total_views": 340672510
     }
   ],
   "annotations": [
@@ -2241,34 +2282,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Galileo Galilei",
-        "browse_id": "UCuRm3UyWIIiPmIbRYK4fuLw",
-        "subscribers": "619K"
-      },
-      {
-        "name": "Nishina",
-        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
-        "subscribers": "375K"
+        "name": "Kinokoteikoku",
+        "browse_id": "UClJbEh-JJDXCjtQLQMi_gjA",
+        "subscribers": "40.4K"
       },
       {
         "name": "regallily",
         "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
-        "subscribers": "240K"
+        "subscribers": "236K"
       },
       {
         "name": "Homecomings",
         "browse_id": "UC5YC9saEogyw6Jg9fq_oGzg",
-        "subscribers": "68.8K"
-      },
-      {
-        "name": "Laura day romance",
-        "browse_id": "UCFrg0aEn8dsLCzYGVSZkT1Q",
-        "subscribers": "195K"
+        "subscribers": "66.3K"
       },
       {
         "name": "chilldspot",
         "browse_id": "UCpAYVXySypaqfb2JA_papUA",
-        "subscribers": "145K"
+        "subscribers": "144K"
       },
       {
         "name": "tiny yawn",
@@ -2278,17 +2309,27 @@
       {
         "name": "yonige",
         "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
-        "subscribers": "342K"
+        "subscribers": "344K"
       },
       {
         "name": "mol-74",
         "browse_id": "UCEvtm90ugC6XKB74g8ukTKg",
-        "subscribers": "88.3K"
+        "subscribers": "86.3K"
       },
       {
         "name": "CodyLee",
         "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "234K"
+        "subscribers": "237K"
+      },
+      {
+        "name": "Conton Candy",
+        "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
+        "subscribers": "1.95M"
+      },
+      {
+        "name": "Skirt",
+        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
+        "subscribers": "130K"
       }
     ],
     "ytm_top_songs": [
@@ -2606,6 +2647,12 @@
           "views": 18841752,
           "likes": 121441,
           "comments": 358
+        },
+        {
+          "date": "2026-06-01",
+          "views": 18873239,
+          "likes": 121610,
+          "comments": 359
         }
       ]
     },
@@ -2899,6 +2946,12 @@
           "views": 3177363,
           "likes": 24843,
           "comments": 167
+        },
+        {
+          "date": "2026-06-01",
+          "views": 3213809,
+          "likes": 25007,
+          "comments": 169
         }
       ]
     },
@@ -3425,6 +3478,12 @@
           "views": 1393369,
           "likes": 13023,
           "comments": 84
+        },
+        {
+          "date": "2026-06-01",
+          "views": 1395781,
+          "likes": 13039,
+          "comments": 84
         }
       ]
     },
@@ -3718,6 +3777,12 @@
           "views": 2045363,
           "likes": 15929,
           "comments": 125
+        },
+        {
+          "date": "2026-06-01",
+          "views": 2048535,
+          "likes": 15943,
+          "comments": 125
         }
       ]
     },
@@ -3782,6 +3847,12 @@
           "date": "2026-05-31",
           "views": 3975430,
           "likes": 32733,
+          "comments": 263
+        },
+        {
+          "date": "2026-06-01",
+          "views": 3979256,
+          "likes": 32749,
           "comments": 263
         }
       ]
@@ -4027,6 +4098,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-31T15:28:13.402064+00:00"
+    },
+    {
+      "date": "2026-06-01",
+      "metric": "youtube_total_views",
+      "value": 343014616,
+      "baseline_mean": 335937617.6,
+      "baseline_stddev": 2917547.8,
+      "delta": 7076998,
+      "score": 2.43,
+      "type": "annotated",
+      "related_annotation": "MUSIC AWARDS JAPAN 2026 Grand Ceremony パフォーマンスアーティスト発表（5/29）の翌日でYouTube総再生数が急増（2.65σ）",
+      "detected_at": "2026-06-01T19:32:25.575854+00:00"
     }
   ]
 }

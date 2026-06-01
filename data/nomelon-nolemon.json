@@ -2131,6 +2131,47 @@
       "ytm_subscribers": 322000,
       "ytm_monthly_listeners": 1710000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-01",
+      "monthly_listeners": 294228,
+      "collected_at": "2026-06-01T19:19:54.062845+00:00",
+      "spotify_followers": 68002,
+      "youtube_subscribers": 323000,
+      "youtube_total_views": 163846600,
+      "youtube_video_count": 106,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 13776
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 9355
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6669
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5146
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4405
+        }
+      ],
+      "lastfm_listeners": 32258,
+      "lastfm_playcount": 861679,
+      "ytm_subscribers": 323000,
+      "ytm_monthly_listeners": 1690000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -2165,11 +2206,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "DUSTCELL",
-        "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
-        "subscribers": "831K"
-      },
-      {
         "name": "Yu Orie",
         "browse_id": "UCYOxU6oCIwEWfwOngYgBHgQ",
         "subscribers": "3.34K"
@@ -2177,42 +2213,47 @@
       {
         "name": "PAS TASTA",
         "browse_id": "UCXWyAgpgtm-Ae1E1aud3ajg",
-        "subscribers": "174K"
+        "subscribers": "171K"
       },
       {
         "name": "shallm",
         "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
-        "subscribers": "212K"
+        "subscribers": "208K"
       },
       {
         "name": "Rene Ryugasaki",
         "browse_id": "UCzyu5haaRpHnW7hX7ENoGrA",
-        "subscribers": "314K"
+        "subscribers": "309K"
       },
       {
         "name": "Hashimero",
         "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
-        "subscribers": "397K"
+        "subscribers": "396K"
       },
       {
         "name": "TAKU INOUE",
         "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
-        "subscribers": "319K"
+        "subscribers": "315K"
       },
       {
         "name": "yoei.",
         "browse_id": "UCnC9xc35C06kNIO0gNUcleA",
-        "subscribers": "244K"
+        "subscribers": "238K"
       },
       {
         "name": "Rei",
         "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
-        "subscribers": "679K"
+        "subscribers": "494K"
       },
       {
         "name": "Dios",
         "browse_id": "UCjv0kMpF3ee-nqO6UqUsNkA",
-        "subscribers": "163K"
+        "subscribers": "157K"
+      },
+      {
+        "name": "RuLu",
+        "browse_id": "UCJvqtoZba5S3yP-kYDeC25A",
+        "subscribers": "80K"
       }
     ],
     "ytm_top_songs": [
@@ -2535,6 +2576,12 @@
           "views": 18055539,
           "likes": 123246,
           "comments": 1053
+        },
+        {
+          "date": "2026-06-01",
+          "views": 18069348,
+          "likes": 123296,
+          "comments": 1053
         }
       ]
     },
@@ -2833,6 +2880,12 @@
           "date": "2026-05-31",
           "views": 5234885,
           "likes": 38975,
+          "comments": 81
+        },
+        {
+          "date": "2026-06-01",
+          "views": 5242888,
+          "likes": 39013,
           "comments": 81
         }
       ]
@@ -3133,6 +3186,12 @@
           "views": 5014446,
           "likes": 34706,
           "comments": 163
+        },
+        {
+          "date": "2026-06-01",
+          "views": 5021064,
+          "likes": 34747,
+          "comments": 163
         }
       ]
     },
@@ -3431,6 +3490,12 @@
           "date": "2026-05-31",
           "views": 2134280,
           "likes": 18195,
+          "comments": 42
+        },
+        {
+          "date": "2026-06-01",
+          "views": 2138117,
+          "likes": 18218,
           "comments": 42
         }
       ]
@@ -3735,6 +3800,12 @@
           "date": "2026-05-31",
           "views": 4217468,
           "likes": 35040,
+          "comments": 315
+        },
+        {
+          "date": "2026-06-01",
+          "views": 4221588,
+          "likes": 35059,
           "comments": 315
         }
       ]
@@ -4083,6 +4154,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-31T15:16:19.344402+00:00"
+    },
+    {
+      "date": "2026-06-01",
+      "metric": "youtube_total_views",
+      "value": 163846600,
+      "baseline_mean": 161608641.4,
+      "baseline_stddev": 927687.8,
+      "delta": 2237958,
+      "score": 2.41,
+      "type": "annotated",
+      "related_annotation": "YouTube Data APIカウンター第2次凍結（5/20〜5/30）解除による蓄積分一括計上アーティファクト（2.6σ）",
+      "detected_at": "2026-06-01T19:19:55.373817+00:00"
     }
   ]
 }
