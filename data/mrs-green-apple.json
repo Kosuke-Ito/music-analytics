@@ -2436,6 +2436,47 @@
       "ytm_subscribers": 6360000,
       "ytm_monthly_listeners": 33500000,
       "ytm_total_views": 6527649629
+    },
+    {
+      "date": "2026-06-04",
+      "monthly_listeners": 7366222,
+      "collected_at": "2026-06-04T16:50:22.635116+00:00",
+      "spotify_followers": 7190235,
+      "youtube_subscribers": 6360000,
+      "youtube_total_views": 6731522704,
+      "youtube_video_count": 805,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 356932
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 343642
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 236118
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 143658
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 101146
+        }
+      ],
+      "lastfm_listeners": 443711,
+      "lastfm_playcount": 12357747,
+      "ytm_subscribers": 6360000,
+      "ytm_monthly_listeners": 33200000,
+      "ytm_total_views": 6527649629
     }
   ],
   "annotations": [
@@ -2784,39 +2825,29 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Tomona Yabiku",
+        "browse_id": "UCKmOHLP4CftjRa3sIYUWxSg",
+        "subscribers": "1.15K"
+      },
+      {
         "name": "Yuuri",
         "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
         "subscribers": "11.7M"
       },
       {
-        "name": "Tomona Yabiku",
-        "browse_id": "UCKmOHLP4CftjRa3sIYUWxSg",
-        "subscribers": "1.14K"
-      },
-      {
-        "name": "FRUITS ZIPPER",
-        "browse_id": "UCB_jIxmkTjjAHyVZUD-kf4w",
-        "subscribers": "10.5M"
-      },
-      {
         "name": "Takaya Kawasaki",
         "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
-        "subscribers": "1.6M"
+        "subscribers": "1.59M"
       },
       {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "9.64M"
+        "name": "Novelbright",
+        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
+        "subscribers": "4.53M"
       },
       {
         "name": "星野源 Gen Hoshino",
         "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
         "subscribers": "8.39M"
-      },
-      {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "18.9M"
       },
       {
         "name": "Lilas",
@@ -2829,9 +2860,19 @@
         "subscribers": "82.8M"
       },
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "58.5M"
+        "name": "Tani Yuuki",
+        "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
+        "subscribers": "6.06M"
+      },
+      {
+        "name": "FRUITS ZIPPER",
+        "browse_id": "UCB_jIxmkTjjAHyVZUD-kf4w",
+        "subscribers": "10.3M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "12.9M"
       }
     ],
     "ytm_top_songs": [
@@ -3173,6 +3214,12 @@
           "views": 24931004,
           "likes": 149506,
           "comments": 2244
+        },
+        {
+          "date": "2026-06-04",
+          "views": 25020008,
+          "likes": 149712,
+          "comments": 2249
         }
       ]
     },
@@ -3490,6 +3537,12 @@
           "views": 146395195,
           "likes": 537662,
           "comments": 5969
+        },
+        {
+          "date": "2026-06-04",
+          "views": 146517882,
+          "likes": 537895,
+          "comments": 5971
         }
       ]
     },
@@ -3807,6 +3860,12 @@
           "views": 58715835,
           "likes": 226966,
           "comments": 424
+        },
+        {
+          "date": "2026-06-04",
+          "views": 58748861,
+          "likes": 227088,
+          "comments": 424
         }
       ]
     },
@@ -4112,6 +4171,12 @@
           "views": 44895271,
           "likes": 201766,
           "comments": 2890
+        },
+        {
+          "date": "2026-06-04",
+          "views": 44954013,
+          "likes": 201884,
+          "comments": 2889
         }
       ]
     },
@@ -4451,6 +4516,12 @@
           "views": 6198473,
           "likes": 71057,
           "comments": 2934
+        },
+        {
+          "date": "2026-06-04",
+          "views": 6248309,
+          "likes": 71186,
+          "comments": 2933
         }
       ]
     }
@@ -4575,6 +4646,18 @@
       "type": "annotated",
       "related_annotation": "スタジアムツアーファイナル公演を全国300館以上の映画館でライブビューイング・生配信",
       "detected_at": "2026-06-03T18:22:54.189873+00:00"
+    },
+    {
+      "date": "2026-06-04",
+      "metric": "youtube_total_views",
+      "value": 6731522704,
+      "baseline_mean": 6646981270.5,
+      "baseline_stddev": 36757591.0,
+      "delta": 84541433,
+      "score": 2.3,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-04T16:50:24.059356+00:00"
     }
   ]
 }

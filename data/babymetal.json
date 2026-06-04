@@ -2133,6 +2133,47 @@
       "ytm_subscribers": 3630000,
       "ytm_monthly_listeners": 7810000,
       "ytm_total_views": 1070621042
+    },
+    {
+      "date": "2026-06-04",
+      "monthly_listeners": 3583980,
+      "collected_at": "2026-06-04T17:01:53.241081+00:00",
+      "spotify_followers": 2996504,
+      "youtube_subscribers": 3630000,
+      "youtube_total_views": 1078836175,
+      "youtube_video_count": 352,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 62811
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 58739
+        },
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 54243
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 46056
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 45496
+        }
+      ],
+      "lastfm_listeners": 976141,
+      "lastfm_playcount": 59390001,
+      "ytm_subscribers": 3630000,
+      "ytm_monthly_listeners": 7700000,
+      "ytm_total_views": 1070621042
     }
   ],
   "annotations": [
@@ -2322,19 +2363,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Bridear",
-        "browse_id": "UCP6kdvZVATSyi1TOmgia5Fg",
-        "subscribers": "39.8K"
+        "name": "MAXIMUM THE HORMONE",
+        "browse_id": "UC10viXnr5P30UrEb36Y984g",
+        "subscribers": "2.02M"
       },
       {
-        "name": "Passcode",
-        "browse_id": "UCf7G8LOCgwZs3cU5CQsyjZQ",
-        "subscribers": "134K"
+        "name": "the GazettE",
+        "browse_id": "UCXitUzRS2J4mznhd6qYLaHw",
+        "subscribers": "245K"
       },
       {
-        "name": "ATARASHII GAKKO!",
-        "browse_id": "UCGjPxZv5YraYh_EJk1sH8Tg",
-        "subscribers": "5.33M"
+        "name": "HANABIE.",
+        "browse_id": "UCIC2G1KVHvWY4HL0S05qHVQ",
+        "subscribers": "432K"
       },
       {
         "name": "Sakura Gakuin",
@@ -2344,7 +2385,7 @@
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "108K"
+        "subscribers": "109K"
       },
       {
         "name": "NEMOPHILA",
@@ -2359,7 +2400,7 @@
       {
         "name": "STMLT",
         "browse_id": "UCENgueJF_nCoHXjSjZmwbnQ",
-        "subscribers": "2.19K"
+        "subscribers": "2.2K"
       },
       {
         "name": "Crossfaith",
@@ -2367,9 +2408,9 @@
         "subscribers": "204K"
       },
       {
-        "name": "TRiDENT",
-        "browse_id": "UCgErNuISenFAQndiEKcBVGQ",
-        "subscribers": "143K"
+        "name": "Bridear",
+        "browse_id": "UCP6kdvZVATSyi1TOmgia5Fg",
+        "subscribers": "39.8K"
       }
     ],
     "ytm_top_songs": [
@@ -2705,6 +2746,12 @@
           "views": 7122137,
           "likes": 81911,
           "comments": 259
+        },
+        {
+          "date": "2026-06-04",
+          "views": 7144666,
+          "likes": 82115,
+          "comments": 259
         }
       ]
     },
@@ -3016,6 +3063,12 @@
           "views": 4519718,
           "likes": 91175,
           "comments": 501
+        },
+        {
+          "date": "2026-06-04",
+          "views": 4534301,
+          "likes": 91412,
+          "comments": 505
         }
       ]
     },
@@ -3326,6 +3379,12 @@
           "date": "2026-06-03",
           "views": 4860100,
           "likes": 69194,
+          "comments": 224
+        },
+        {
+          "date": "2026-06-04",
+          "views": 4872525,
+          "likes": 69318,
           "comments": 224
         }
       ]
@@ -3638,6 +3697,12 @@
           "views": 2059778,
           "likes": 40170,
           "comments": 248
+        },
+        {
+          "date": "2026-06-04",
+          "views": 2066528,
+          "likes": 40277,
+          "comments": 248
         }
       ]
     },
@@ -3949,6 +4014,12 @@
           "views": 3734838,
           "likes": 71885,
           "comments": 323
+        },
+        {
+          "date": "2026-06-04",
+          "views": 3745850,
+          "likes": 72028,
+          "comments": 324
         }
       ]
     }
@@ -4205,6 +4276,18 @@
       "type": "annotated",
       "related_annotation": "Jordan Fish Remix配信リリース＆国内盤METAL FORTH DELUXE JAPAN EDITION発表",
       "detected_at": "2026-05-31T15:29:19.934555+00:00"
+    },
+    {
+      "date": "2026-06-04",
+      "metric": "monthly_listeners",
+      "value": 3583980,
+      "baseline_mean": 3527216.0,
+      "baseline_stddev": 26351.6,
+      "delta": 56764,
+      "score": 2.15,
+      "type": "annotated",
+      "related_annotation": "ワールドツアー北米公演——カナダ・トロント「コカ・コーラ・コロシアム」で開催",
+      "detected_at": "2026-06-04T17:01:55.275538+00:00"
     }
   ]
 }
