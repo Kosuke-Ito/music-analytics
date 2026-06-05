@@ -2289,6 +2289,47 @@
       "ytm_subscribers": 96900,
       "ytm_monthly_listeners": 529000,
       "ytm_total_views": 24775953
+    },
+    {
+      "date": "2026-06-05",
+      "monthly_listeners": 180833,
+      "collected_at": "2026-06-05T16:29:45.182027+00:00",
+      "spotify_followers": 58073,
+      "youtube_subscribers": 97100,
+      "youtube_total_views": 30738636,
+      "youtube_video_count": 282,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 9934
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7039
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4819
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4778
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3344
+        }
+      ],
+      "lastfm_listeners": 13540,
+      "lastfm_playcount": 293572,
+      "ytm_subscribers": 97100,
+      "ytm_monthly_listeners": 528000,
+      "ytm_total_views": 24895204
     }
   ],
   "annotations": [
@@ -2469,34 +2510,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "sanetii",
-        "browse_id": "UCC4DaSQOF1wDYZQMZ1Ir5ew",
-        "subscribers": "260K"
-      },
-      {
-        "name": "muque",
-        "browse_id": "UClh_g9tkf_ErD1UclhABZDw",
-        "subscribers": "482K"
+        "name": "PompadollS",
+        "browse_id": "UCmu5lpe6Wt-7yCHe2rA4zYQ",
+        "subscribers": "165K"
       },
       {
         "name": "NELKE",
         "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
-        "subscribers": "427K"
+        "subscribers": "411K"
       },
       {
         "name": "regallily",
         "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
-        "subscribers": "236K"
+        "subscribers": "235K"
       },
       {
         "name": "Conton Candy",
         "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
-        "subscribers": "1.95M"
-      },
-      {
-        "name": "OddRe:",
-        "browse_id": "UCLRAvTum9DcWeJQtHn1D3WA",
-        "subscribers": "350K"
+        "subscribers": "1.94M"
       },
       {
         "name": "Necry Talkie",
@@ -2511,12 +2542,22 @@
       {
         "name": "harha",
         "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "138K"
+        "subscribers": "139K"
       },
       {
-        "name": "PompadollS",
-        "browse_id": "UCmu5lpe6Wt-7yCHe2rA4zYQ",
-        "subscribers": "167K"
+        "name": "Passepied",
+        "browse_id": "UCe3gbnhf3tesVdTxVyKEIkw",
+        "subscribers": "55.1K"
+      },
+      {
+        "name": "Akai Ko-En",
+        "browse_id": "UCVPEVqfO021f0jXz3sWNGSA",
+        "subscribers": "84.5K"
+      },
+      {
+        "name": "nakigoto",
+        "browse_id": "UC4sq6m-foW44E1QTMzW6GsA",
+        "subscribers": "61.5K"
       }
     ],
     "ytm_top_songs": [
@@ -3121,6 +3162,12 @@
           "views": 278379,
           "likes": 2579,
           "comments": 43
+        },
+        {
+          "date": "2026-06-05",
+          "views": 279338,
+          "likes": 2585,
+          "comments": 43
         }
       ]
     },
@@ -3443,6 +3490,12 @@
           "date": "2026-06-04",
           "views": 155260,
           "likes": 1351,
+          "comments": 11
+        },
+        {
+          "date": "2026-06-05",
+          "views": 155956,
+          "likes": 1358,
           "comments": 11
         }
       ]
@@ -3767,6 +3820,12 @@
           "views": 377769,
           "likes": 3802,
           "comments": 63
+        },
+        {
+          "date": "2026-06-05",
+          "views": 378363,
+          "likes": 3805,
+          "comments": 63
         }
       ]
     },
@@ -4005,6 +4064,12 @@
           "views": 84010,
           "likes": 721,
           "comments": 8
+        },
+        {
+          "date": "2026-06-05",
+          "views": 84319,
+          "likes": 723,
+          "comments": 8
         }
       ]
     },
@@ -4165,6 +4230,12 @@
           "date": "2026-06-04",
           "views": 24913,
           "likes": 383,
+          "comments": 13
+        },
+        {
+          "date": "2026-06-05",
+          "views": 25453,
+          "likes": 384,
           "comments": 13
         }
       ]
@@ -4362,6 +4433,18 @@
       "type": "annotated",
       "related_annotation": "2ndアルバム「Rooom」（6/3発売）前日の期待感でSpotify月間リスナーが上昇（+7,832・2.1σ）",
       "detected_at": "2026-06-03T18:21:12.645652+00:00"
+    },
+    {
+      "date": "2026-06-05",
+      "metric": "monthly_listeners",
+      "value": 180833,
+      "baseline_mean": 171312.4,
+      "baseline_stddev": 4453.2,
+      "delta": 9520,
+      "score": 2.14,
+      "type": "annotated",
+      "related_annotation": "2ndアルバム「Rooom」（6/3発売）前日の期待感でSpotify月間リスナーが上昇（+7,832・2.1σ）",
+      "detected_at": "2026-06-05T16:29:46.328977+00:00"
     }
   ]
 }

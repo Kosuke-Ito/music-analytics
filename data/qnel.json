@@ -2289,6 +2289,47 @@
       "ytm_subscribers": 154,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-05",
+      "monthly_listeners": 478,
+      "collected_at": "2026-06-05T16:33:34.845418+00:00",
+      "spotify_followers": 936,
+      "youtube_subscribers": 364,
+      "youtube_total_views": 65804,
+      "youtube_video_count": 170,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 27
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 13
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 12
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 11
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 9
+        }
+      ],
+      "lastfm_listeners": 740,
+      "lastfm_playcount": 2425,
+      "ytm_subscribers": 154,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -2386,14 +2427,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "OSTRIP",
+        "browse_id": "UCw_WY0q696x646eM2l1GFig",
+        "subscribers": "99"
+      },
+      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "52.6K"
+        "subscribers": "51K"
       },
       {
         "name": "Deep Sea Diving Club",
         "browse_id": "UCIdG21qIjwsOfGGkvfbgYfg",
-        "subscribers": "8.65K"
+        "subscribers": "8.66K"
       },
       {
         "name": "HATAKE",
@@ -2401,29 +2447,14 @@
         "subscribers": "944"
       },
       {
-        "name": "OSTRIP",
-        "browse_id": "UCw_WY0q696x646eM2l1GFig",
-        "subscribers": "99"
-      },
-      {
         "name": "Offo tokyo",
         "browse_id": "UCFUndaCSveHB7RS3ULvATfw",
         "subscribers": "13.2K"
       },
       {
-        "name": "Souvenir",
-        "browse_id": "UC2-cczOy1b3JlJIEXuMleHQ",
-        "subscribers": "1.65K"
-      },
-      {
         "name": "zenya",
         "browse_id": "UCo4roqqKdMVG02RRM4n-MMw",
         "subscribers": "127"
-      },
-      {
-        "name": "Kawaguchi Takuma",
-        "browse_id": "UC16c0SCZvOqrlL76EMDptzw",
-        "subscribers": "209"
       },
       {
         "name": "GALALI",
@@ -2434,6 +2465,16 @@
         "name": "Kinopoppo",
         "browse_id": "UCWkG_vuZkHrzANDUBOVvi6A",
         "subscribers": "19.1K"
+      },
+      {
+        "name": "okano_skywalker",
+        "browse_id": "UCSLhxfc6h-i8Uty6kW3HUZA",
+        "subscribers": "260"
+      },
+      {
+        "name": "nagatani",
+        "browse_id": "UCrwRVTP_REv7pBKy3azuMaA",
+        "subscribers": "406"
       }
     ],
     "ytm_top_songs": [
@@ -2774,6 +2815,12 @@
           "views": 3357,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-06-05",
+          "views": 3367,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -3089,6 +3136,12 @@
         {
           "date": "2026-06-04",
           "views": 5701,
+          "likes": 22,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-05",
+          "views": 5712,
           "likes": 22,
           "comments": 0
         }
@@ -3408,6 +3461,12 @@
           "views": 12187,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-06-05",
+          "views": 12198,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -3725,6 +3784,12 @@
           "views": 32170,
           "likes": 151,
           "comments": 0
+        },
+        {
+          "date": "2026-06-05",
+          "views": 32177,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -4036,6 +4101,12 @@
           "views": 7954,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-06-05",
+          "views": 7960,
+          "likes": 60,
+          "comments": 0
         }
       ]
     },
@@ -4255,6 +4326,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-05-18T16:51:29.173064+00:00"
+    },
+    {
+      "date": "2026-06-05",
+      "metric": "youtube_total_views",
+      "value": 65804,
+      "baseline_mean": 65694.5,
+      "baseline_stddev": 53.7,
+      "delta": 109,
+      "score": 2.04,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-05T16:33:36.606928+00:00"
     }
   ]
 }

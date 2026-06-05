@@ -2174,6 +2174,47 @@
       "ytm_subscribers": 1830000,
       "ytm_monthly_listeners": 9440000,
       "ytm_total_views": 1143485998
+    },
+    {
+      "date": "2026-06-05",
+      "monthly_listeners": 3464667,
+      "collected_at": "2026-06-05T16:40:30.168898+00:00",
+      "spotify_followers": 1640590,
+      "youtube_subscribers": 1830000,
+      "youtube_total_views": 1168914712,
+      "youtube_video_count": 142,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 160628
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 148862
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 109576
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 60727
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 47669
+        }
+      ],
+      "lastfm_listeners": 12623,
+      "lastfm_playcount": 498478,
+      "ytm_subscribers": 1830000,
+      "ytm_monthly_listeners": 9440000,
+      "ytm_total_views": 1143485998
     }
   ],
   "annotations": [
@@ -2353,14 +2394,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "HANA",
-        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "11.4M"
-      },
-      {
         "name": "NENE",
         "browse_id": "UCf9KAcwb8RuJkf6I41eLv-w",
-        "subscribers": "5.51K"
+        "subscribers": "5.53K"
+      },
+      {
+        "name": "HANA",
+        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
+        "subscribers": "11.2M"
       },
       {
         "name": "WHITE JAM",
@@ -2373,14 +2414,19 @@
         "subscribers": "14.2M"
       },
       {
-        "name": "LANA",
-        "browse_id": "UCFiKkRhK9arjKDxPBQdloDA",
-        "subscribers": "1.77M"
+        "name": "Thelma Aoyama",
+        "browse_id": "UCiQJ6RsG3tyZwn2-m7gnkUg",
+        "subscribers": "830K"
       },
       {
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "1.11M"
+        "subscribers": "1.1M"
+      },
+      {
+        "name": "Kana Nishino",
+        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
+        "subscribers": "14.6M"
       },
       {
         "name": "Awich",
@@ -2388,19 +2434,14 @@
         "subscribers": "2.39M"
       },
       {
-        "name": "Thelma Aoyama",
-        "browse_id": "UCiQJ6RsG3tyZwn2-m7gnkUg",
-        "subscribers": "841K"
+        "name": "LANA",
+        "browse_id": "UCFiKkRhK9arjKDxPBQdloDA",
+        "subscribers": "1.76M"
       },
       {
         "name": "OZworld",
         "browse_id": "UCnMNufO6kkcw_YHGxJunJbw",
-        "subscribers": "615K"
-      },
-      {
-        "name": "Kana Nishino",
-        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
-        "subscribers": "14.6M"
+        "subscribers": "603K"
       }
     ],
     "ytm_top_songs": [
@@ -2741,6 +2782,12 @@
           "date": "2026-06-04",
           "views": 3954384,
           "likes": 42237,
+          "comments": 163
+        },
+        {
+          "date": "2026-06-05",
+          "views": 3973238,
+          "likes": 42349,
           "comments": 163
         }
       ]
@@ -3112,6 +3159,12 @@
           "views": 31941609,
           "likes": 124269,
           "comments": 209
+        },
+        {
+          "date": "2026-06-05",
+          "views": 31970628,
+          "likes": 124349,
+          "comments": 209
         }
       ]
     },
@@ -3428,6 +3481,12 @@
           "date": "2026-06-04",
           "views": 26964298,
           "likes": 110737,
+          "comments": 266
+        },
+        {
+          "date": "2026-06-05",
+          "views": 26982305,
+          "likes": 110780,
           "comments": 266
         }
       ]
@@ -3746,6 +3805,12 @@
           "views": 328241,
           "likes": 2353,
           "comments": 26
+        },
+        {
+          "date": "2026-06-05",
+          "views": 328846,
+          "likes": 2353,
+          "comments": 26
         }
       ]
     },
@@ -4015,6 +4080,12 @@
           "views": 32640077,
           "likes": 124213,
           "comments": 371
+        },
+        {
+          "date": "2026-06-05",
+          "views": 32663668,
+          "likes": 124275,
+          "comments": 371
         }
       ]
     }
@@ -4115,6 +4186,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-04T16:59:36.636313+00:00"
+    },
+    {
+      "date": "2026-06-05",
+      "metric": "youtube_total_views",
+      "value": 1168914712,
+      "baseline_mean": 1152960840.1,
+      "baseline_stddev": 7149596.0,
+      "delta": 15953871,
+      "score": 2.23,
+      "type": "annotated",
+      "related_annotation": "MUSIC AWARDS JAPAN 2026 Grand Ceremony（6/13）・東京ドーム公演（7/11-12）直前でYouTube総再生数が急増（+1,755万・2.93σ）",
+      "detected_at": "2026-06-05T16:40:31.854170+00:00"
     }
   ]
 }

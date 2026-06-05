@@ -2477,6 +2477,47 @@
       "ytm_subscribers": 6360000,
       "ytm_monthly_listeners": 33200000,
       "ytm_total_views": 6527649629
+    },
+    {
+      "date": "2026-06-05",
+      "monthly_listeners": 7357719,
+      "collected_at": "2026-06-05T16:31:24.524483+00:00",
+      "spotify_followers": 7193129,
+      "youtube_subscribers": 6360000,
+      "youtube_total_views": 6731522704,
+      "youtube_video_count": 805,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 356558
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 346300
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 237027
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 143909
+        },
+        {
+          "city": "Kawaguchi",
+          "country": "JP",
+          "listeners": 102029
+        }
+      ],
+      "lastfm_listeners": 443932,
+      "lastfm_playcount": 12366159,
+      "ytm_subscribers": 6360000,
+      "ytm_monthly_listeners": 33200000,
+      "ytm_total_views": 6527649629
     }
   ],
   "annotations": [
@@ -2848,7 +2889,27 @@
       {
         "name": "Tomona Yabiku",
         "browse_id": "UCKmOHLP4CftjRa3sIYUWxSg",
-        "subscribers": "1.15K"
+        "subscribers": "1.14K"
+      },
+      {
+        "name": "星野源 Gen Hoshino",
+        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
+        "subscribers": "8.4M"
+      },
+      {
+        "name": "Novelbright",
+        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
+        "subscribers": "4.45M"
+      },
+      {
+        "name": "Lilas",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "19M"
+      },
+      {
+        "name": "FRUITS ZIPPER",
+        "browse_id": "UCB_jIxmkTjjAHyVZUD-kf4w",
+        "subscribers": "10.3M"
       },
       {
         "name": "Yuuri",
@@ -2861,34 +2922,14 @@
         "subscribers": "1.59M"
       },
       {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "4.53M"
-      },
-      {
-        "name": "星野源 Gen Hoshino",
-        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
-        "subscribers": "8.39M"
-      },
-      {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "19.2M"
-      },
-      {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "82.8M"
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10M"
       },
       {
         "name": "Tani Yuuki",
         "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
-        "subscribers": "6.06M"
-      },
-      {
-        "name": "FRUITS ZIPPER",
-        "browse_id": "UCB_jIxmkTjjAHyVZUD-kf4w",
-        "subscribers": "10.3M"
+        "subscribers": "6.03M"
       },
       {
         "name": "back number",
@@ -3241,6 +3282,12 @@
           "views": 25020008,
           "likes": 149712,
           "comments": 2249
+        },
+        {
+          "date": "2026-06-05",
+          "views": 25122183,
+          "likes": 149960,
+          "comments": 2253
         }
       ]
     },
@@ -3564,6 +3611,12 @@
           "views": 146517882,
           "likes": 537895,
           "comments": 5971
+        },
+        {
+          "date": "2026-06-05",
+          "views": 146652190,
+          "likes": 538132,
+          "comments": 5973
         }
       ]
     },
@@ -3887,6 +3940,12 @@
           "views": 58748861,
           "likes": 227088,
           "comments": 424
+        },
+        {
+          "date": "2026-06-05",
+          "views": 58785909,
+          "likes": 227202,
+          "comments": 422
         }
       ]
     },
@@ -4198,6 +4257,12 @@
           "views": 44954013,
           "likes": 201884,
           "comments": 2889
+        },
+        {
+          "date": "2026-06-05",
+          "views": 45016427,
+          "likes": 202001,
+          "comments": 2894
         }
       ]
     },
@@ -4543,6 +4608,12 @@
           "views": 6248309,
           "likes": 71186,
           "comments": 2933
+        },
+        {
+          "date": "2026-06-05",
+          "views": 6301161,
+          "likes": 71311,
+          "comments": 2933
         }
       ]
     }
@@ -4679,6 +4750,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-04T16:50:24.059356+00:00"
+    },
+    {
+      "date": "2026-06-05",
+      "metric": "youtube_total_views",
+      "value": 6731522704,
+      "baseline_mean": 6652059060.6,
+      "baseline_stddev": 37555096.7,
+      "delta": 79463643,
+      "score": 2.12,
+      "type": "annotated",
+      "related_annotation": "「Magic」累積再生数5億回突破——自身通算9作目の快挙",
+      "detected_at": "2026-06-05T16:31:26.143602+00:00"
     }
   ]
 }

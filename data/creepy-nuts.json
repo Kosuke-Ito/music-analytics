@@ -2465,6 +2465,47 @@
       "ytm_subscribers": 2430000,
       "ytm_monthly_listeners": 108000000,
       "ytm_total_views": 1788866115
+    },
+    {
+      "date": "2026-06-05",
+      "monthly_listeners": 5863237,
+      "collected_at": "2026-06-05T16:33:02.253427+00:00",
+      "spotify_followers": 2363032,
+      "youtube_subscribers": 2430000,
+      "youtube_total_views": 1804742359,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 101187
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 87765
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 70568
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 61781
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 57780
+        }
+      ],
+      "lastfm_listeners": 627173,
+      "lastfm_playcount": 21927409,
+      "ytm_subscribers": 2430000,
+      "ytm_monthly_listeners": 110000000,
+      "ytm_total_views": 1788866115
     }
   ],
   "annotations": [
@@ -2701,7 +2742,7 @@
       {
         "name": "BRADIO",
         "browse_id": "UCZeMAO9OSESrC6Til4L53BQ",
-        "subscribers": "315K"
+        "subscribers": "316K"
       },
       {
         "name": "meiyo",
@@ -2711,32 +2752,27 @@
       {
         "name": "KANA-BOON",
         "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "32.5M"
+        "subscribers": "34.1M"
       },
       {
-        "name": "Sambomaster",
-        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
-        "subscribers": "3.45M"
+        "name": "Mega Shinnosuke",
+        "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
+        "subscribers": "5.17M"
       },
       {
-        "name": "Queen Bee",
-        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
-        "subscribers": "3.99M"
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "2.55M"
       },
       {
-        "name": "Shinsei Kamattechan",
-        "browse_id": "UCjtNm_gZ8oVVwSpfBi-pGtw",
-        "subscribers": "3.25M"
+        "name": "Kocchi no Kento",
+        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
+        "subscribers": "76.4M"
       },
       {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "104M"
-      },
-      {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "8.15M"
+        "name": "Tomonari Sora",
+        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
+        "subscribers": "6.69M"
       },
       {
         "name": "Tatsuya Kitani",
@@ -2744,9 +2780,14 @@
         "subscribers": "19M"
       },
       {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "2.57M"
+        "name": "WEDNESDAY CAMPANELLA",
+        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
+        "subscribers": "1.6M"
+      },
+      {
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "66.7M"
       }
     ],
     "ytm_top_songs": [
@@ -2953,6 +2994,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-04T16:52:04.889234+00:00"
+    },
+    {
+      "date": "2026-06-05",
+      "metric": "ytm_monthly_listeners",
+      "value": 110000000,
+      "baseline_mean": 102500000,
+      "baseline_stddev": 2171788.8,
+      "delta": 7500000,
+      "score": 3.45,
+      "type": "annotated",
+      "related_annotation": "「ROCK IN JAPAN FESTIVAL 2026」全115組出演者発表——9月12日出演決定",
+      "detected_at": "2026-06-05T16:33:03.412687+00:00"
     }
   ],
   "song_performance": {
@@ -3275,6 +3328,12 @@
           "date": "2026-06-04",
           "views": 21485986,
           "likes": 274077,
+          "comments": 921
+        },
+        {
+          "date": "2026-06-05",
+          "views": 21551780,
+          "likes": 274742,
           "comments": 921
         }
       ]
@@ -3599,6 +3658,12 @@
           "views": 18887778,
           "likes": 250698,
           "comments": 964
+        },
+        {
+          "date": "2026-06-05",
+          "views": 18935750,
+          "likes": 251181,
+          "comments": 965
         }
       ]
     },
@@ -3922,6 +3987,12 @@
           "views": 7004513,
           "likes": 92977,
           "comments": 1105
+        },
+        {
+          "date": "2026-06-05",
+          "views": 7019204,
+          "likes": 93122,
+          "comments": 1108
         }
       ]
     },
@@ -4245,6 +4316,12 @@
           "views": 12079838,
           "likes": 111937,
           "comments": 476
+        },
+        {
+          "date": "2026-06-05",
+          "views": 12091363,
+          "likes": 112037,
+          "comments": 477
         }
       ]
     },
@@ -4447,6 +4524,12 @@
           "date": "2026-06-04",
           "views": 5740007,
           "likes": 53825,
+          "comments": 185
+        },
+        {
+          "date": "2026-06-05",
+          "views": 5744561,
+          "likes": 53861,
           "comments": 185
         }
       ]
