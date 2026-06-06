@@ -2515,6 +2515,47 @@
       "ytm_subscribers": 20200000,
       "ytm_monthly_listeners": 168000000,
       "ytm_total_views": 12321147825
+    },
+    {
+      "date": "2026-06-06",
+      "monthly_listeners": 70438737,
+      "collected_at": "2026-06-06T15:16:10.245912+00:00",
+      "spotify_followers": 48071048,
+      "youtube_subscribers": 20200000,
+      "youtube_total_views": 12321652086,
+      "youtube_video_count": 40,
+      "top_cities": [
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1094949
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 1028487
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 1000454
+        },
+        {
+          "city": "Dallas",
+          "country": "US",
+          "listeners": 819399
+        },
+        {
+          "city": "New York City",
+          "country": "US",
+          "listeners": 785628
+        }
+      ],
+      "lastfm_listeners": 5150671,
+      "lastfm_playcount": 1045485873,
+      "ytm_subscribers": 20200000,
+      "ytm_monthly_listeners": 168000000,
+      "ytm_total_views": 12321147825
     }
   ],
   "annotations": [
@@ -2676,47 +2717,47 @@
       {
         "name": "Cordae",
         "browse_id": "UC4MAxaRDB70jZfXZGe8VKew",
-        "subscribers": "1.42M"
-      },
-      {
-        "name": "ScHoolboy Q",
-        "browse_id": "UC40b2qG4-4d2kwseUrMIW1Q",
-        "subscribers": "3.57M"
+        "subscribers": "1.43M"
       },
       {
         "name": "Jay Rock",
         "browse_id": "UCiKRoVXKO9Fzrjo4eO-XDDQ",
-        "subscribers": "2.94M"
+        "subscribers": "2.9M"
+      },
+      {
+        "name": "Denzel Curry",
+        "browse_id": "UCzN1vzi9iELop5XH53ud6Gw",
+        "subscribers": "8.66M"
+      },
+      {
+        "name": "ScHoolboy Q",
+        "browse_id": "UC40b2qG4-4d2kwseUrMIW1Q",
+        "subscribers": "3.66M"
       },
       {
         "name": "Lupe Fiasco",
         "browse_id": "UCe872mgP4deADPnXtkbS-Cg",
-        "subscribers": "40.7M"
-      },
-      {
-        "name": "Baby Keem",
-        "browse_id": "UCtWW-fcdt2gOE6mGHf-_dlw",
-        "subscribers": "6.41M"
-      },
-      {
-        "name": "Logic",
-        "browse_id": "UCKC7Xqy0UXT370RvFR2kXYg",
-        "subscribers": "5.76M"
-      },
-      {
-        "name": "Joey Bada$$",
-        "browse_id": "UCCQZCaEwq3-mc5pj8be31Uw",
-        "subscribers": "1.88M"
-      },
-      {
-        "name": "Big Sean",
-        "browse_id": "UCm3ai8dGs4olHioc_xL3IXA",
-        "subscribers": "51.6M"
+        "subscribers": "40.3M"
       },
       {
         "name": "Isaiah Rashad",
         "browse_id": "UCnadtBjRhVZzRhro9CZPcSg",
         "subscribers": "2.09M"
+      },
+      {
+        "name": "Childish Gambino",
+        "browse_id": "UC4hvOh5lgkeAJoVRIg40Kgg",
+        "subscribers": "24.4M"
+      },
+      {
+        "name": "Big Sean",
+        "browse_id": "UCm3ai8dGs4olHioc_xL3IXA",
+        "subscribers": "51.4M"
+      },
+      {
+        "name": "Baby Keem",
+        "browse_id": "UCtWW-fcdt2gOE6mGHf-_dlw",
+        "subscribers": "6.34M"
       }
     ],
     "ytm_top_songs": [
@@ -3070,6 +3111,12 @@
           "views": 103166370,
           "likes": 917959,
           "comments": 2946
+        },
+        {
+          "date": "2026-06-06",
+          "views": 103232370,
+          "likes": 918322,
+          "comments": 2948
         }
       ]
     },
@@ -3399,6 +3446,12 @@
           "views": 398913369,
           "likes": 3890228,
           "comments": 44315
+        },
+        {
+          "date": "2026-06-06",
+          "views": 399140550,
+          "likes": 3891581,
+          "comments": 44321
         }
       ]
     },
@@ -3728,6 +3781,12 @@
           "views": 205003352,
           "likes": 1598676,
           "comments": 5347
+        },
+        {
+          "date": "2026-06-06",
+          "views": 205190046,
+          "likes": 1599479,
+          "comments": 5350
         }
       ]
     },
@@ -4057,6 +4116,12 @@
           "views": 190948506,
           "likes": 1206825,
           "comments": 9721
+        },
+        {
+          "date": "2026-06-06",
+          "views": 191042741,
+          "likes": 1207175,
+          "comments": 9728
         }
       ]
     },
@@ -4386,6 +4451,12 @@
           "views": 330581401,
           "likes": 2370418,
           "comments": 4711
+        },
+        {
+          "date": "2026-06-06",
+          "views": 330740221,
+          "likes": 2371216,
+          "comments": 4711
         }
       ]
     }
@@ -4546,6 +4617,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-05T16:35:47.867386+00:00"
+    },
+    {
+      "date": "2026-06-06",
+      "metric": "youtube_total_views",
+      "value": 12321652086,
+      "baseline_mean": 12219753616,
+      "baseline_stddev": 45570381.1,
+      "delta": 101898470,
+      "score": 2.24,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-06T15:16:11.162333+00:00"
     }
   ]
 }

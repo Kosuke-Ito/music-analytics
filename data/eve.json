@@ -2209,6 +2209,47 @@
       "ytm_subscribers": 869000,
       "ytm_monthly_listeners": 10300000,
       "ytm_total_views": 908537447
+    },
+    {
+      "date": "2026-06-06",
+      "monthly_listeners": 3916127,
+      "collected_at": "2026-06-06T15:20:05.276542+00:00",
+      "spotify_followers": 2788328,
+      "youtube_subscribers": 5580000,
+      "youtube_total_views": 3473924564,
+      "youtube_video_count": 208,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 63061
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 49972
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 48884
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 42333
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39557
+        }
+      ],
+      "lastfm_listeners": 1834206,
+      "lastfm_playcount": 53513590,
+      "ytm_subscribers": 869000,
+      "ytm_monthly_listeners": 10600000,
+      "ytm_total_views": 908537447
     }
   ],
   "annotations": [
@@ -2356,12 +2397,12 @@
       {
         "name": "Angie Martinez",
         "browse_id": "UCUA6tA2G-D-mShZR-I2RAIw",
-        "subscribers": "9.69K"
+        "subscribers": "9.7K"
       },
       {
         "name": "Mr.Cheeks",
         "browse_id": "UCkVDNc0e-pY2SLkUOCfbu6w",
-        "subscribers": "429K"
+        "subscribers": "428K"
       },
       {
         "name": "City High",
@@ -2374,6 +2415,11 @@
         "subscribers": "16.2K"
       },
       {
+        "name": "Mark Morrison",
+        "browse_id": "UCZqVeM2LxdgvCyncrg_qTGw",
+        "subscribers": "9.74M"
+      },
+      {
         "name": "Blackstreet",
         "browse_id": "UCgE7QvJb7ZQy91_gu2Ld9Zw",
         "subscribers": "5.58M"
@@ -2381,12 +2427,7 @@
       {
         "name": "Da Brat",
         "browse_id": "UCrGJmt56tmeXke3ypLqr_JQ",
-        "subscribers": "905K"
-      },
-      {
-        "name": "Mark Morrison",
-        "browse_id": "UCZqVeM2LxdgvCyncrg_qTGw",
-        "subscribers": "9.48M"
+        "subscribers": "932K"
       },
       {
         "name": "Montell Jordan",
@@ -2394,9 +2435,9 @@
         "subscribers": "5.22M"
       },
       {
-        "name": "J-Kwon",
-        "browse_id": "UC70_SxaiX5enHOHc4ofPGbg",
-        "subscribers": "3.72K"
+        "name": "Diddy",
+        "browse_id": "UCa7UEhon5aHfncjkOWgwRDA",
+        "subscribers": "18.4M"
       }
     ],
     "ytm_top_songs": [
@@ -2732,6 +2773,12 @@
           "views": 133026201,
           "likes": 1302186,
           "comments": 1613
+        },
+        {
+          "date": "2026-06-06",
+          "views": 133105927,
+          "likes": 1302751,
+          "comments": 1614
         }
       ]
     },
@@ -3042,6 +3089,12 @@
           "date": "2026-06-05",
           "views": 15441604,
           "likes": 179278,
+          "comments": 372
+        },
+        {
+          "date": "2026-06-06",
+          "views": 15453713,
+          "likes": 179392,
           "comments": 372
         }
       ]
@@ -3354,6 +3407,12 @@
           "views": 19603904,
           "likes": 208885,
           "comments": 308
+        },
+        {
+          "date": "2026-06-06",
+          "views": 19614826,
+          "likes": 208976,
+          "comments": 308
         }
       ]
     },
@@ -3664,6 +3723,12 @@
           "date": "2026-06-05",
           "views": 10995654,
           "likes": 143417,
+          "comments": 512
+        },
+        {
+          "date": "2026-06-06",
+          "views": 11005704,
+          "likes": 143488,
           "comments": 512
         }
       ]
@@ -3976,6 +4041,12 @@
           "views": 27243168,
           "likes": 216036,
           "comments": 538
+        },
+        {
+          "date": "2026-06-06",
+          "views": 27251381,
+          "likes": 216135,
+          "comments": 538
         }
       ]
     },
@@ -4113,6 +4184,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-25T14:50:07.360740+00:00"
+    },
+    {
+      "date": "2026-06-06",
+      "metric": "youtube_total_views",
+      "value": 3473924564,
+      "baseline_mean": 3450323635,
+      "baseline_stddev": 4595482.8,
+      "delta": 23600929,
+      "score": 5.14,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-06T15:20:06.794870+00:00"
     }
   ]
 }

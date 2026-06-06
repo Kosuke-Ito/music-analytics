@@ -2215,6 +2215,47 @@
       "ytm_subscribers": 947000,
       "ytm_monthly_listeners": 6440000,
       "ytm_total_views": 893654150
+    },
+    {
+      "date": "2026-06-06",
+      "monthly_listeners": 2670456,
+      "collected_at": "2026-06-06T15:21:42.997028+00:00",
+      "spotify_followers": 1539015,
+      "youtube_subscribers": 947000,
+      "youtube_total_views": 907821017,
+      "youtube_video_count": 418,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 82123
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 80474
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 57895
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 32777
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 28455
+        }
+      ],
+      "lastfm_listeners": 16741,
+      "lastfm_playcount": 775744,
+      "ytm_subscribers": 947000,
+      "ytm_monthly_listeners": 6340000,
+      "ytm_total_views": 893654150
     }
   ],
   "annotations": [
@@ -2392,12 +2433,7 @@
       {
         "name": "Zarame",
         "browse_id": "UCsXbUCnV9SqRGkaO2ifzkBw",
-        "subscribers": "328K"
-      },
-      {
-        "name": "YUI",
-        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
-        "subscribers": "4.36M"
+        "subscribers": "326K"
       },
       {
         "name": "WhaleDontSleep",
@@ -2405,14 +2441,9 @@
         "subscribers": "484K"
       },
       {
-        "name": "UshioReira",
-        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
-        "subscribers": "703K"
-      },
-      {
-        "name": "Dish",
-        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
-        "subscribers": "3.19M"
+        "name": "YUI",
+        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
+        "subscribers": "4.38M"
       },
       {
         "name": "eill",
@@ -2425,9 +2456,14 @@
         "subscribers": "34.1M"
       },
       {
-        "name": "Ai Higuchi",
-        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
-        "subscribers": "15.4M"
+        "name": "Dish",
+        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
+        "subscribers": "3.04M"
+      },
+      {
+        "name": "UshioReira",
+        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
+        "subscribers": "703K"
       },
       {
         "name": "Aimer",
@@ -2435,9 +2471,14 @@
         "subscribers": "10.5M"
       },
       {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "19M"
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "2.73M"
+      },
+      {
+        "name": "suis from Yorushika",
+        "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
+        "subscribers": "28.9K"
       }
     ],
     "ytm_top_songs": [
@@ -2785,6 +2826,12 @@
           "views": 30370532,
           "likes": 257869,
           "comments": 643
+        },
+        {
+          "date": "2026-06-06",
+          "views": 30400067,
+          "likes": 258120,
+          "comments": 644
         }
       ]
     },
@@ -3107,6 +3154,12 @@
           "date": "2026-06-05",
           "views": 20920075,
           "likes": 84634,
+          "comments": 195
+        },
+        {
+          "date": "2026-06-06",
+          "views": 20932732,
+          "likes": 84660,
           "comments": 195
         }
       ]
@@ -3431,6 +3484,12 @@
           "views": 1779552,
           "likes": 10832,
           "comments": 58
+        },
+        {
+          "date": "2026-06-06",
+          "views": 1781218,
+          "likes": 10842,
+          "comments": 58
         }
       ]
     },
@@ -3753,6 +3812,12 @@
           "date": "2026-06-05",
           "views": 11130218,
           "likes": 54149,
+          "comments": 129
+        },
+        {
+          "date": "2026-06-06",
+          "views": 11135826,
+          "likes": 54167,
           "comments": 129
         }
       ]
@@ -4082,6 +4147,12 @@
           "views": 151298,
           "likes": 2016,
           "comments": 32
+        },
+        {
+          "date": "2026-06-06",
+          "views": 152351,
+          "likes": 2026,
+          "comments": 32
         }
       ]
     }
@@ -4290,6 +4361,18 @@
       "type": "annotated",
       "related_annotation": "「2026 FNS歌謡祭 夏」（7月1日放送）第1弾出演者に決定",
       "detected_at": "2026-06-05T16:41:22.793365+00:00"
+    },
+    {
+      "date": "2026-06-06",
+      "metric": "youtube_total_views",
+      "value": 907821017,
+      "baseline_mean": 899906965.6,
+      "baseline_stddev": 3134251.5,
+      "delta": 7914051,
+      "score": 2.53,
+      "type": "annotated",
+      "related_annotation": "「2026 FNS歌謡祭 夏」（7月1日放送）第1弾出演者に決定",
+      "detected_at": "2026-06-06T15:21:44.437737+00:00"
     }
   ]
 }

@@ -2515,6 +2515,47 @@
       "ytm_subscribers": 5030000,
       "ytm_monthly_listeners": 9920000,
       "ytm_total_views": 2414236181
+    },
+    {
+      "date": "2026-06-06",
+      "monthly_listeners": 3699541,
+      "collected_at": "2026-06-06T15:11:15.717383+00:00",
+      "spotify_followers": 6166138,
+      "youtube_subscribers": 5030000,
+      "youtube_total_views": 2457779941,
+      "youtube_video_count": 550,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 112566
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 103435
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 73735
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 68305
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 47357
+        }
+      ],
+      "lastfm_listeners": 637785,
+      "lastfm_playcount": 55065860,
+      "ytm_subscribers": 5030000,
+      "ytm_monthly_listeners": 9920000,
+      "ytm_total_views": 2425761760
     }
   ],
   "annotations": [
@@ -2717,7 +2758,7 @@
       {
         "name": "Miyavi",
         "browse_id": "UCnG4qAnVAVzN9CTGJdcE50g",
-        "subscribers": "523K"
+        "subscribers": "537K"
       },
       {
         "name": "Taka",
@@ -2735,24 +2776,19 @@
         "subscribers": "588K"
       },
       {
-        "name": "Pay money To my Pain",
-        "browse_id": "UC3kKm059hewEM_LHXmGULjw",
-        "subscribers": "169K"
-      },
-      {
-        "name": "YUI",
-        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
-        "subscribers": "4.36M"
-      },
-      {
         "name": "Ellegarden",
         "browse_id": "UCnqsbIboKQDp3Icn0qWPbHQ",
-        "subscribers": "818K"
+        "subscribers": "840K"
+      },
+      {
+        "name": "Pay money To my Pain",
+        "browse_id": "UC3kKm059hewEM_LHXmGULjw",
+        "subscribers": "171K"
       },
       {
         "name": "VK Blanka",
         "browse_id": "UCg2rvXE9x3zg01ZxyIt9DpA",
-        "subscribers": "1.74M"
+        "subscribers": "1.76M"
       },
       {
         "name": "KANA-BOON",
@@ -2760,9 +2796,14 @@
         "subscribers": "34.1M"
       },
       {
-        "name": "SiM",
-        "browse_id": "UCZ3k79bJuQd5w9qAiH4VPwQ",
-        "subscribers": "10M"
+        "name": "YUI",
+        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
+        "subscribers": "4.38M"
+      },
+      {
+        "name": "Aimer",
+        "browse_id": "UC_gksw7NEueO_u3lPL372hA",
+        "subscribers": "10.5M"
       }
     ],
     "ytm_top_songs": [
@@ -2783,8 +2824,8 @@
         "video_id": "DowLEpo7A18"
       },
       {
-        "title": "Renegades",
-        "video_id": "YKh878q7H0I"
+        "title": "Make It Out Alive",
+        "video_id": "NIioTc_Yz_0"
       }
     ],
     "ytm_description": "ONE OK ROCK is a Japanese rock band formed in 2005 and is represented by 10969 Inc."
@@ -3109,6 +3150,12 @@
           "date": "2026-06-05",
           "views": 7221771,
           "likes": 40054,
+          "comments": 98
+        },
+        {
+          "date": "2026-06-06",
+          "views": 7247124,
+          "likes": 40153,
           "comments": 98
         }
       ]
@@ -3439,6 +3486,12 @@
           "views": 11921517,
           "likes": 65861,
           "comments": 411
+        },
+        {
+          "date": "2026-06-06",
+          "views": 11968217,
+          "likes": 66084,
+          "comments": 411
         }
       ]
     },
@@ -3767,6 +3820,12 @@
           "date": "2026-06-05",
           "views": 6139885,
           "likes": 28230,
+          "comments": 57
+        },
+        {
+          "date": "2026-06-06",
+          "views": 6162345,
+          "likes": 28311,
           "comments": 57
         }
       ]
@@ -4097,6 +4156,12 @@
           "views": 15446544,
           "likes": 133566,
           "comments": 357
+        },
+        {
+          "date": "2026-06-06",
+          "views": 15456372,
+          "likes": 133607,
+          "comments": 357
         }
       ]
     },
@@ -4330,6 +4395,12 @@
           "views": 26983713,
           "likes": 233514,
           "comments": 2185
+        },
+        {
+          "date": "2026-06-06",
+          "views": 27072879,
+          "likes": 233924,
+          "comments": 2188
         }
       ]
     },
@@ -4686,6 +4757,18 @@
       "type": "annotated",
       "related_annotation": "ライブEP「Live from DETOX JAPAN TOUR 2025」（4/30配信）のアルゴリズム効果でSpotify月間リスナーが増加（+98,051・2.28σ）",
       "detected_at": "2026-05-09T14:48:20.277948+00:00"
+    },
+    {
+      "date": "2026-06-06",
+      "metric": "youtube_total_views",
+      "value": 2457779941,
+      "baseline_mean": 2436496487,
+      "baseline_stddev": 8890044.5,
+      "delta": 21283454,
+      "score": 2.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-06T15:11:16.781424+00:00"
     }
   ]
 }

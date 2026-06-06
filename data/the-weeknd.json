@@ -2515,6 +2515,47 @@
       "ytm_subscribers": 39700000,
       "ytm_monthly_listeners": 234000000,
       "ytm_total_views": 36711888229
+    },
+    {
+      "date": "2026-06-06",
+      "monthly_listeners": 114366611,
+      "collected_at": "2026-06-06T15:15:53.733001+00:00",
+      "spotify_followers": 123438013,
+      "youtube_subscribers": 39700000,
+      "youtube_total_views": 36721228108,
+      "youtube_video_count": 204,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1753081
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1556891
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1553598
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 1053699
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 1019878
+        }
+      ],
+      "lastfm_listeners": 5378503,
+      "lastfm_playcount": 1142212250,
+      "ytm_subscribers": 39700000,
+      "ytm_monthly_listeners": 238000000,
+      "ytm_total_views": 36711888229
     }
   ],
   "annotations": [
@@ -2694,19 +2735,24 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Majid Jordan",
+        "browse_id": "UC9O01oPBHyEbwTaFy1zwIRA",
+        "subscribers": "4.25M"
+      },
+      {
         "name": "Lily Rose Depp",
         "browse_id": "UChGTI8sivCDh1AWues5lrDA",
-        "subscribers": "24.8K"
+        "subscribers": "24.9K"
       },
       {
         "name": "Jaden",
         "browse_id": "UCRCRHG4OKZDdvIdRZj4jVBQ",
-        "subscribers": "1.61M"
+        "subscribers": "1.6M"
       },
       {
-        "name": "Majid Jordan",
-        "browse_id": "UC9O01oPBHyEbwTaFy1zwIRA",
-        "subscribers": "4.16M"
+        "name": "070 Shake",
+        "browse_id": "UC4CVrwAB1TblttvcZi7-qcw",
+        "subscribers": "12.7M"
       },
       {
         "name": "Selena Gomez & The Scene",
@@ -2719,9 +2765,14 @@
         "subscribers": "52.3M"
       },
       {
-        "name": "070 Shake",
-        "browse_id": "UC4CVrwAB1TblttvcZi7-qcw",
-        "subscribers": "12.9M"
+        "name": "Labrinth",
+        "browse_id": "UCLx8m3I4zQAQc0tdASjdAfw",
+        "subscribers": "46.3M"
+      },
+      {
+        "name": "Khalid",
+        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
+        "subscribers": "200M"
       },
       {
         "name": "Nick Jonas",
@@ -2729,19 +2780,9 @@
         "subscribers": "10M"
       },
       {
-        "name": "Labrinth",
-        "browse_id": "UCLx8m3I4zQAQc0tdASjdAfw",
-        "subscribers": "45M"
-      },
-      {
-        "name": "Khalid",
-        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
-        "subscribers": "195M"
-      },
-      {
-        "name": "benny blanco",
-        "browse_id": "UCzqz_ksRu_WkIzmivMdIS7A",
-        "subscribers": "20.8M"
+        "name": "Metro Boomin",
+        "browse_id": "UCFYaIRiUe_1hvOtXu5IiBWQ",
+        "subscribers": "84.7M"
       }
     ],
     "ytm_top_songs": [
@@ -2888,6 +2929,18 @@
       "type": "annotated",
       "related_annotation": "日本追加公演（9/19ベルーナドーム）決定——Creepy Nutsがゲスト出演",
       "detected_at": "2026-06-05T16:35:31.876618+00:00"
+    },
+    {
+      "date": "2026-06-06",
+      "metric": "youtube_total_views",
+      "value": 36721228108,
+      "baseline_mean": 36414637844.7,
+      "baseline_stddev": 137111334.0,
+      "delta": 306590263,
+      "score": 2.24,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-06T15:15:54.975256+00:00"
     }
   ],
   "song_performance": {
@@ -3217,6 +3270,12 @@
           "views": 581541688,
           "likes": 3839281,
           "comments": 6812
+        },
+        {
+          "date": "2026-06-06",
+          "views": 581859702,
+          "likes": 3840903,
+          "comments": 6819
         }
       ]
     },
@@ -3540,6 +3599,12 @@
           "views": 621652964,
           "likes": 4224005,
           "comments": 9248
+        },
+        {
+          "date": "2026-06-06",
+          "views": 622027005,
+          "likes": 4226059,
+          "comments": 9263
         }
       ]
     },
@@ -3869,6 +3934,12 @@
           "views": 348577935,
           "likes": 2867833,
           "comments": 7493
+        },
+        {
+          "date": "2026-06-06",
+          "views": 348842993,
+          "likes": 2869378,
+          "comments": 7493
         }
       ]
     },
@@ -4192,6 +4263,12 @@
           "views": 953819155,
           "likes": 6562388,
           "comments": 22812
+        },
+        {
+          "date": "2026-06-06",
+          "views": 954160045,
+          "likes": 6564222,
+          "comments": 22822
         }
       ]
     },
@@ -4479,6 +4556,12 @@
           "views": 140985741,
           "likes": 1133528,
           "comments": 4507
+        },
+        {
+          "date": "2026-06-06",
+          "views": 141184916,
+          "likes": 1134680,
+          "comments": 4512
         }
       ]
     },

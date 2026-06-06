@@ -2503,6 +2503,47 @@
       "ytm_subscribers": 3540000,
       "ytm_monthly_listeners": 84200000,
       "ytm_total_views": 3354071910
+    },
+    {
+      "date": "2026-06-06",
+      "monthly_listeners": 7067279,
+      "collected_at": "2026-06-06T15:11:32.109993+00:00",
+      "spotify_followers": 5230725,
+      "youtube_subscribers": 3540000,
+      "youtube_total_views": 3363923362,
+      "youtube_video_count": 611,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 222042
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 201246
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 132938
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 86936
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 71824
+        }
+      ],
+      "lastfm_listeners": 715749,
+      "lastfm_playcount": 43364222,
+      "ytm_subscribers": 3540000,
+      "ytm_monthly_listeners": 84800000,
+      "ytm_total_views": 3354071910
     }
   ],
   "annotations": [
@@ -2670,6 +2711,11 @@
         "subscribers": "588K"
       },
       {
+        "name": "jo0ji",
+        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
+        "subscribers": "4.98M"
+      },
+      {
         "name": "SUPER BEAVER",
         "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
         "subscribers": "2.35M"
@@ -2680,11 +2726,6 @@
         "subscribers": "34.1M"
       },
       {
-        "name": "jo0ji",
-        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "4.86M"
-      },
-      {
         "name": "Soushi Sakiyama",
         "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
         "subscribers": "2.55M"
@@ -2692,7 +2733,12 @@
       {
         "name": "Ai Higuchi",
         "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
-        "subscribers": "15.4M"
+        "subscribers": "15.8M"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "47.9M"
       },
       {
         "name": "suis from Yorushika",
@@ -2700,19 +2746,14 @@
         "subscribers": "28.9K"
       },
       {
-        "name": "BUMP OF CHICKEN",
-        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
-        "subscribers": "8.85M"
-      },
-      {
         "name": "Hump Back",
         "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
         "subscribers": "4.3M"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "11.7M"
+        "name": "BUMP OF CHICKEN",
+        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
+        "subscribers": "8.85M"
       }
     ],
     "ytm_top_songs": [
@@ -3066,6 +3107,12 @@
           "views": 63037935,
           "likes": 446072,
           "comments": 3178
+        },
+        {
+          "date": "2026-06-06",
+          "views": 63065567,
+          "likes": 446251,
+          "comments": 3182
         }
       ]
     },
@@ -3323,6 +3370,12 @@
           "views": 79958934,
           "likes": 1032338,
           "comments": 4893
+        },
+        {
+          "date": "2026-06-06",
+          "views": 80007289,
+          "likes": 1032905,
+          "comments": 4897
         }
       ]
     },
@@ -3795,6 +3848,12 @@
           "views": 43798965,
           "likes": 241658,
           "comments": 673
+        },
+        {
+          "date": "2026-06-06",
+          "views": 43819736,
+          "likes": 241747,
+          "comments": 673
         }
       ]
     },
@@ -4124,6 +4183,12 @@
           "views": 79102142,
           "likes": 610492,
           "comments": 3918
+        },
+        {
+          "date": "2026-06-06",
+          "views": 79127412,
+          "likes": 610627,
+          "comments": 3920
         }
       ]
     },
@@ -4339,6 +4404,12 @@
           "views": 25048128,
           "likes": 275685,
           "comments": 1827
+        },
+        {
+          "date": "2026-06-06",
+          "views": 25096370,
+          "likes": 276023,
+          "comments": 1834
         }
       ]
     },
@@ -4689,6 +4760,18 @@
       "type": "annotated",
       "related_annotation": "Netflix世界独占配信（6/20）発表（6/1）の翌日波及でYTM月間リスナー・YouTube総再生数が急増（+1,221万・2.95σ）",
       "detected_at": "2026-06-05T16:31:09.383499+00:00"
+    },
+    {
+      "date": "2026-06-06",
+      "metric": "ytm_monthly_listeners",
+      "value": 84800000,
+      "baseline_mean": 71763333.3,
+      "baseline_stddev": 5911823.4,
+      "delta": 13036666,
+      "score": 2.21,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-06T15:11:33.249513+00:00"
     }
   ]
 }

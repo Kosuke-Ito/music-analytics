@@ -2330,6 +2330,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 5570000,
       "ytm_total_views": 906630451
+    },
+    {
+      "date": "2026-06-06",
+      "monthly_listeners": 4182368,
+      "collected_at": "2026-06-06T15:17:16.788457+00:00",
+      "spotify_followers": 1658457,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 906679262,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 195314
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 156044
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 142636
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 130783
+        },
+        {
+          "city": "East Jakarta",
+          "country": "ID",
+          "listeners": 90266
+        }
+      ],
+      "lastfm_listeners": 924125,
+      "lastfm_playcount": 23499085,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 5740000,
+      "ytm_total_views": 906630451
     }
   ],
   "annotations": [
@@ -2423,12 +2464,12 @@
       {
         "name": "92914",
         "browse_id": "UCsywq73qRVQY0pBqEK6_2RA",
-        "subscribers": "1.09M"
+        "subscribers": "1.13M"
       },
       {
-        "name": "ADOY",
-        "browse_id": "UCx38UtcmU6vJ7IF1J6epxdA",
-        "subscribers": "202K"
+        "name": "Sarah Kang",
+        "browse_id": "UCh6uvA0sKmQ4FYEBJuFPpig",
+        "subscribers": "1.52M"
       },
       {
         "name": "Phum Viphurit",
@@ -2453,7 +2494,7 @@
       {
         "name": "Bren Joy",
         "browse_id": "UChIwocHYRaPUGmZnNdX0RVQ",
-        "subscribers": "500K"
+        "subscribers": "529K"
       },
       {
         "name": "babychair",
@@ -2463,7 +2504,7 @@
       {
         "name": "Sam Wills",
         "browse_id": "UCtS5U-fbarDftLymlNxo3IA",
-        "subscribers": "475K"
+        "subscribers": "484K"
       },
       {
         "name": "Charlie Burg",
@@ -2816,6 +2857,12 @@
           "views": 2584789,
           "likes": 15998,
           "comments": 27
+        },
+        {
+          "date": "2026-06-06",
+          "views": 2585056,
+          "likes": 15998,
+          "comments": 27
         }
       ]
     },
@@ -3132,6 +3179,12 @@
           "date": "2026-06-05",
           "views": 1870539,
           "likes": 18485,
+          "comments": 276
+        },
+        {
+          "date": "2026-06-06",
+          "views": 1875706,
+          "likes": 18508,
           "comments": 276
         }
       ]
@@ -3455,6 +3508,12 @@
           "date": "2026-06-05",
           "views": 47243492,
           "likes": 200373,
+          "comments": 115
+        },
+        {
+          "date": "2026-06-06",
+          "views": 47255678,
+          "likes": 200425,
           "comments": 115
         }
       ]
@@ -3784,6 +3843,12 @@
           "views": 478188,
           "likes": 5877,
           "comments": 11
+        },
+        {
+          "date": "2026-06-06",
+          "views": 478328,
+          "likes": 5881,
+          "comments": 11
         }
       ]
     },
@@ -4059,6 +4124,12 @@
           "views": 13981962,
           "likes": 72663,
           "comments": 37
+        },
+        {
+          "date": "2026-06-06",
+          "views": 13991046,
+          "likes": 72682,
+          "comments": 37
         }
       ]
     },
@@ -4271,6 +4342,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-05T16:36:53.585741+00:00"
+    },
+    {
+      "date": "2026-06-06",
+      "metric": "ytm_monthly_listeners",
+      "value": 5740000,
+      "baseline_mean": 4308999.9,
+      "baseline_stddev": 549480.7,
+      "delta": 1431000,
+      "score": 2.6,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-06T15:17:18.344531+00:00"
     }
   ]
 }

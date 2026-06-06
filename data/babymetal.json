@@ -2215,6 +2215,47 @@
       "ytm_subscribers": 3630000,
       "ytm_monthly_listeners": 7520000,
       "ytm_total_views": 1070621042
+    },
+    {
+      "date": "2026-06-06",
+      "monthly_listeners": 3602402,
+      "collected_at": "2026-06-06T15:23:05.682453+00:00",
+      "spotify_followers": 2998465,
+      "youtube_subscribers": 3630000,
+      "youtube_total_views": 1078836175,
+      "youtube_video_count": 352,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 63455
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 57981
+        },
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 55675
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 47635
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 45864
+        }
+      ],
+      "lastfm_listeners": 977058,
+      "lastfm_playcount": 59448441,
+      "ytm_subscribers": 3630000,
+      "ytm_monthly_listeners": 7520000,
+      "ytm_total_views": 1070621042
     }
   ],
   "annotations": [
@@ -2422,7 +2463,7 @@
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "109K"
+        "subscribers": "108K"
       },
       {
         "name": "NEMOPHILA",
@@ -2447,12 +2488,12 @@
       {
         "name": "Passcode",
         "browse_id": "UCf7G8LOCgwZs3cU5CQsyjZQ",
-        "subscribers": "133K"
+        "subscribers": "136K"
       },
       {
         "name": "TRiDENT",
         "browse_id": "UCgErNuISenFAQndiEKcBVGQ",
-        "subscribers": "143K"
+        "subscribers": "145K"
       },
       {
         "name": "JILUKA",
@@ -2479,8 +2520,8 @@
         "video_id": "2-4GK9YqL0Y"
       },
       {
-        "title": "BxMxC",
-        "video_id": "mamKQo4yM8Q"
+        "title": "PA PA YA!! (feat. F.HERO)",
+        "video_id": "EivQ8dpCphM"
       },
       {
         "title": "Headbangeeeeerrrrr!!!!!",
@@ -2810,6 +2851,12 @@
           "views": 7170938,
           "likes": 82386,
           "comments": 261
+        },
+        {
+          "date": "2026-06-06",
+          "views": 7194349,
+          "likes": 82581,
+          "comments": 262
         }
       ]
     },
@@ -3133,6 +3180,12 @@
           "views": 4549961,
           "likes": 91679,
           "comments": 507
+        },
+        {
+          "date": "2026-06-06",
+          "views": 4564237,
+          "likes": 91921,
+          "comments": 511
         }
       ]
     },
@@ -3455,6 +3508,12 @@
           "date": "2026-06-05",
           "views": 4886561,
           "likes": 69445,
+          "comments": 224
+        },
+        {
+          "date": "2026-06-06",
+          "views": 4898863,
+          "likes": 69547,
           "comments": 224
         }
       ]
@@ -4102,6 +4161,23 @@
           "views": 3758593,
           "likes": 72204,
           "comments": 324
+        },
+        {
+          "date": "2026-06-06",
+          "views": 3770010,
+          "likes": 72344,
+          "comments": 324
+        }
+      ]
+    },
+    "EivQ8dpCphM": {
+      "title": "PA PA YA!! (feat. F.HERO)",
+      "history": [
+        {
+          "date": "2026-06-06",
+          "views": 1457851,
+          "likes": 19834,
+          "comments": 68
         }
       ]
     }
@@ -4382,6 +4458,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-05T16:42:46.102170+00:00"
+    },
+    {
+      "date": "2026-06-06",
+      "metric": "monthly_listeners",
+      "value": 3602402,
+      "baseline_mean": 3531558.6,
+      "baseline_stddev": 30243.9,
+      "delta": 70843,
+      "score": 2.34,
+      "type": "annotated",
+      "related_annotation": "Sweden Rock Festival 2026でヘッドライン出演——欧米フェス史上最長14曲セット",
+      "detected_at": "2026-06-06T15:23:07.087945+00:00"
     }
   ]
 }

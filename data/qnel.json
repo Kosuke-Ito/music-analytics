@@ -2330,6 +2330,47 @@
       "ytm_subscribers": 154,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-06",
+      "monthly_listeners": 474,
+      "collected_at": "2026-06-06T15:13:59.287034+00:00",
+      "spotify_followers": 936,
+      "youtube_subscribers": 364,
+      "youtube_total_views": 65824,
+      "youtube_video_count": 170,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 26
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 13
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 12
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 11
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 9
+        }
+      ],
+      "lastfm_listeners": 740,
+      "lastfm_playcount": 2425,
+      "ytm_subscribers": 154,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -2427,14 +2468,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "OSTRIP",
-        "browse_id": "UCw_WY0q696x646eM2l1GFig",
-        "subscribers": "99"
+        "name": "Souvenir",
+        "browse_id": "UC2-cczOy1b3JlJIEXuMleHQ",
+        "subscribers": "1.65K"
       },
       {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "51K"
+        "subscribers": "53K"
       },
       {
         "name": "Deep Sea Diving Club",
@@ -2445,6 +2486,11 @@
         "name": "HATAKE",
         "browse_id": "UCOuWkJ8UjlXKsM0D7Ya5W0Q",
         "subscribers": "944"
+      },
+      {
+        "name": "OSTRIP",
+        "browse_id": "UCw_WY0q696x646eM2l1GFig",
+        "subscribers": "99"
       },
       {
         "name": "Offo tokyo",
@@ -2470,33 +2516,28 @@
         "name": "okano_skywalker",
         "browse_id": "UCSLhxfc6h-i8Uty6kW3HUZA",
         "subscribers": "260"
-      },
-      {
-        "name": "nagatani",
-        "browse_id": "UCrwRVTP_REv7pBKy3azuMaA",
-        "subscribers": "406"
       }
     ],
     "ytm_top_songs": [
       {
-        "title": "スーパースター - Superstar",
-        "video_id": "UWlaQWdCoxY"
+        "title": "徒歩圏内 - Tohokennai",
+        "video_id": "LtzN4QKvyTk"
       },
       {
         "title": "ムーンライト~夏のVenus~ - Moonlight (feat. You)",
         "video_id": "5j8n7tJ3Mlk"
       },
       {
-        "title": "徒歩圏内 - Tohokennai",
-        "video_id": "LtzN4QKvyTk"
-      },
-      {
-        "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
-        "video_id": "vcXhVJqD_u8"
+        "title": "スーパースター - Superstar",
+        "video_id": "UWlaQWdCoxY"
       },
       {
         "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
         "video_id": "gMrPbqFtkbQ"
+      },
+      {
+        "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
+        "video_id": "vcXhVJqD_u8"
       }
     ]
   },
@@ -2819,6 +2860,12 @@
         {
           "date": "2026-06-05",
           "views": 3367,
+          "likes": 19,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-06",
+          "views": 3371,
           "likes": 19,
           "comments": 0
         }
@@ -3144,6 +3191,12 @@
           "views": 5712,
           "likes": 22,
           "comments": 0
+        },
+        {
+          "date": "2026-06-06",
+          "views": 5716,
+          "likes": 22,
+          "comments": 0
         }
       ]
     },
@@ -3465,6 +3518,12 @@
         {
           "date": "2026-06-05",
           "views": 12198,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-06",
+          "views": 12207,
           "likes": 76,
           "comments": 0
         }
@@ -3790,6 +3849,12 @@
           "views": 32177,
           "likes": 152,
           "comments": 0
+        },
+        {
+          "date": "2026-06-06",
+          "views": 32186,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -4107,6 +4172,12 @@
           "views": 7960,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-06-06",
+          "views": 7966,
+          "likes": 60,
+          "comments": 0
         }
       ]
     },
@@ -4338,6 +4409,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-05T16:33:36.606928+00:00"
+    },
+    {
+      "date": "2026-06-06",
+      "metric": "youtube_total_views",
+      "value": 65824,
+      "baseline_mean": 65702.0,
+      "baseline_stddev": 52.6,
+      "delta": 121,
+      "score": 2.32,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-06T15:14:00.871172+00:00"
     }
   ]
 }
