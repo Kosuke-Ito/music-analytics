@@ -2547,6 +2547,47 @@
       "ytm_subscribers": 2430000,
       "ytm_monthly_listeners": 117000000,
       "ytm_total_views": 1795035195
+    },
+    {
+      "date": "2026-06-07",
+      "monthly_listeners": 5858938,
+      "collected_at": "2026-06-07T15:26:05.943144+00:00",
+      "spotify_followers": 2364665,
+      "youtube_subscribers": 2440000,
+      "youtube_total_views": 1811168783,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 101624
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 87458
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 71032
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 61835
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 57661
+        }
+      ],
+      "lastfm_listeners": 627542,
+      "lastfm_playcount": 21943141,
+      "ytm_subscribers": 2440000,
+      "ytm_monthly_listeners": 115000000,
+      "ytm_total_views": 1795035195
     }
   ],
   "annotations": [
@@ -2756,20 +2797,20 @@
         "url": "https://www.last.fm/music/Tatsuya+Kitani"
       },
       {
-        "name": "Kocchi no Kento",
-        "url": "https://www.last.fm/music/Kocchi+no+Kento"
-      },
-      {
         "name": "米津玄師",
         "url": "https://www.last.fm/music/%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB"
       },
       {
-        "name": "Vaundy",
-        "url": "https://www.last.fm/music/Vaundy"
+        "name": "Kocchi no Kento",
+        "url": "https://www.last.fm/music/Kocchi+no+Kento"
       },
       {
-        "name": "Aina The End",
-        "url": "https://www.last.fm/music/Aina+The+End"
+        "name": "imase",
+        "url": "https://www.last.fm/music/imase"
+      },
+      {
+        "name": "Vaundy",
+        "url": "https://www.last.fm/music/Vaundy"
       }
     ],
     "lastfm_tags": [
@@ -2781,9 +2822,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "106M"
+        "name": "umedacypher",
+        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
+        "subscribers": "648K"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "46.9M"
       },
       {
         "name": "BRADIO",
@@ -2791,44 +2837,39 @@
         "subscribers": "323K"
       },
       {
-        "name": "meiyo",
-        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
-        "subscribers": "2.05M"
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "106M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "20.7M"
+      },
+      {
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "87.6M"
       },
       {
         "name": "Soushi Sakiyama",
         "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "2.55M"
+        "subscribers": "2.6M"
       },
       {
         "name": "KANA-BOON",
         "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "34.1M"
-      },
-      {
-        "name": "Mega Shinnosuke",
-        "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
-        "subscribers": "5.01M"
-      },
-      {
-        "name": "Kocchi no Kento",
-        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
-        "subscribers": "76.3M"
-      },
-      {
-        "name": "Sambomaster",
-        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
-        "subscribers": "3.43M"
-      },
-      {
-        "name": "Tomonari Sora",
-        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
-        "subscribers": "6.76M"
+        "subscribers": "35.5M"
       },
       {
         "name": "Kenshi Yonezu",
         "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "66.3M"
+        "subscribers": "66.6M"
+      },
+      {
+        "name": "Queen Bee",
+        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
+        "subscribers": "3.99M"
       }
     ],
     "ytm_top_songs": [
@@ -3059,6 +3100,18 @@
       "type": "annotated",
       "related_annotation": "「ROCK IN JAPAN FESTIVAL 2026」全115組出演者発表——9月12日出演決定",
       "detected_at": "2026-06-06T15:13:27.212192+00:00"
+    },
+    {
+      "date": "2026-06-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 115000000,
+      "baseline_mean": 103166666.7,
+      "baseline_stddev": 3615552.8,
+      "delta": 11833333,
+      "score": 3.27,
+      "type": "annotated",
+      "related_annotation": "ROCK IN JAPAN FESTIVAL 2026出演発表（6/3）の反響継続でYTM月間リスナーが更に急増（108,000,000・2.95σ）",
+      "detected_at": "2026-06-07T15:26:06.950892+00:00"
     }
   ],
   "song_performance": {
@@ -3393,6 +3446,12 @@
           "date": "2026-06-06",
           "views": 21608584,
           "likes": 275347,
+          "comments": 925
+        },
+        {
+          "date": "2026-06-07",
+          "views": 21667093,
+          "likes": 275973,
           "comments": 925
         }
       ]
@@ -3729,6 +3788,12 @@
           "views": 18978211,
           "likes": 251588,
           "comments": 968
+        },
+        {
+          "date": "2026-06-07",
+          "views": 19021821,
+          "likes": 252056,
+          "comments": 971
         }
       ]
     },
@@ -4064,6 +4129,12 @@
           "views": 7032280,
           "likes": 93254,
           "comments": 1108
+        },
+        {
+          "date": "2026-06-07",
+          "views": 7044930,
+          "likes": 93378,
+          "comments": 1109
         }
       ]
     },
@@ -4399,6 +4470,12 @@
           "views": 12101100,
           "likes": 112114,
           "comments": 477
+        },
+        {
+          "date": "2026-06-07",
+          "views": 12111180,
+          "likes": 112211,
+          "comments": 477
         }
       ]
     },
@@ -4613,6 +4690,12 @@
           "date": "2026-06-06",
           "views": 5748436,
           "likes": 53889,
+          "comments": 185
+        },
+        {
+          "date": "2026-06-07",
+          "views": 5752241,
+          "likes": 53926,
           "comments": 185
         }
       ]

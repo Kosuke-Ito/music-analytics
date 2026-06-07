@@ -2371,6 +2371,47 @@
       "ytm_subscribers": 154,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-07",
+      "monthly_listeners": 483,
+      "collected_at": "2026-06-07T15:26:38.887615+00:00",
+      "spotify_followers": 936,
+      "youtube_subscribers": 364,
+      "youtube_total_views": 65830,
+      "youtube_video_count": 170,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 28
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 13
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 13
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 12
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 9
+        }
+      ],
+      "lastfm_listeners": 740,
+      "lastfm_playcount": 2426,
+      "ytm_subscribers": 154,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -2458,19 +2499,24 @@
         "url": "https://www.last.fm/music/%E6%96%B0%E6%9D%B1%E4%BA%AC"
       },
       {
-        "name": "TAIKING",
-        "url": "https://www.last.fm/music/TAIKING"
+        "name": "えんぷてい",
+        "url": "https://www.last.fm/music/%E3%81%88%E3%82%93%E3%81%B7%E3%81%A6%E3%81%84"
       },
       {
-        "name": "Geloomy",
-        "url": "https://www.last.fm/music/Geloomy"
+        "name": "TAIKING",
+        "url": "https://www.last.fm/music/TAIKING"
       }
     ],
     "ytm_related_artists": [
       {
-        "name": "Souvenir",
-        "browse_id": "UC2-cczOy1b3JlJIEXuMleHQ",
-        "subscribers": "1.65K"
+        "name": "Ohashi Chippoke",
+        "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
+        "subscribers": "243K"
+      },
+      {
+        "name": "okano_skywalker",
+        "browse_id": "UCSLhxfc6h-i8Uty6kW3HUZA",
+        "subscribers": "260"
       },
       {
         "name": "Sano ibuki",
@@ -2498,24 +2544,19 @@
         "subscribers": "13.2K"
       },
       {
+        "name": "Souvenir",
+        "browse_id": "UC2-cczOy1b3JlJIEXuMleHQ",
+        "subscribers": "1.65K"
+      },
+      {
         "name": "zenya",
         "browse_id": "UCo4roqqKdMVG02RRM4n-MMw",
         "subscribers": "127"
       },
       {
-        "name": "GALALI",
-        "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "49.5K"
-      },
-      {
         "name": "Kinopoppo",
         "browse_id": "UCWkG_vuZkHrzANDUBOVvi6A",
         "subscribers": "19.1K"
-      },
-      {
-        "name": "okano_skywalker",
-        "browse_id": "UCSLhxfc6h-i8Uty6kW3HUZA",
-        "subscribers": "260"
       }
     ],
     "ytm_top_songs": [
@@ -2868,6 +2909,12 @@
           "views": 3371,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-06-07",
+          "views": 3374,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -3195,6 +3242,12 @@
         {
           "date": "2026-06-06",
           "views": 5716,
+          "likes": 22,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-07",
+          "views": 5722,
           "likes": 22,
           "comments": 0
         }
@@ -3526,6 +3579,12 @@
           "views": 12207,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-06-07",
+          "views": 12212,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -3855,6 +3914,12 @@
           "views": 32186,
           "likes": 152,
           "comments": 0
+        },
+        {
+          "date": "2026-06-07",
+          "views": 32193,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -4178,6 +4243,12 @@
           "views": 7966,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-06-07",
+          "views": 7972,
+          "likes": 60,
+          "comments": 0
         }
       ]
     },
@@ -4421,6 +4492,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-06T15:14:00.871172+00:00"
+    },
+    {
+      "date": "2026-06-07",
+      "metric": "youtube_total_views",
+      "value": 65830,
+      "baseline_mean": 65709.4,
+      "baseline_stddev": 53.7,
+      "delta": 120,
+      "score": 2.24,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-07T15:26:40.147294+00:00"
     }
   ]
 }

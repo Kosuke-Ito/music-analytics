@@ -2253,6 +2253,47 @@
       "ytm_subscribers": 1340000,
       "ytm_monthly_listeners": 56400000,
       "ytm_total_views": 851338322
+    },
+    {
+      "date": "2026-06-07",
+      "monthly_listeners": 3418948,
+      "collected_at": "2026-06-07T15:31:17.482404+00:00",
+      "spotify_followers": 1015879,
+      "youtube_subscribers": 1340000,
+      "youtube_total_views": 854518583,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 58850
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 48738
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 46055
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 40281
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39798
+        }
+      ],
+      "lastfm_listeners": 409620,
+      "lastfm_playcount": 5821514,
+      "ytm_subscribers": 1340000,
+      "ytm_monthly_listeners": 56400000,
+      "ytm_total_views": 851338322
     }
   ],
   "annotations": [
@@ -2421,19 +2462,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "KERENMI",
-        "browse_id": "UCacynfHovHzkQJ_1enhaDmw",
-        "subscribers": "2.66K"
+        "name": "4na",
+        "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
+        "subscribers": "342K"
       },
       {
         "name": "LUCKY TAPES",
         "browse_id": "UCYvGyI6FqmS5GFnCGEttXdg",
-        "subscribers": "368K"
-      },
-      {
-        "name": "tonun",
-        "browse_id": "UC9XSYahwHXgJnG_7opHAdmQ",
-        "subscribers": "94K"
+        "subscribers": "562K"
       },
       {
         "name": "Rinne",
@@ -2443,12 +2479,12 @@
       {
         "name": "Ohashi Chippoke",
         "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "212K"
+        "subscribers": "243K"
       },
       {
         "name": "DURDN",
         "browse_id": "UC_wwk0oTYSA2nyXutkLk_PA",
-        "subscribers": "157K"
+        "subscribers": "681K"
       },
       {
         "name": "Mel",
@@ -2461,14 +2497,19 @@
         "subscribers": "212K"
       },
       {
-        "name": "4na",
-        "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
-        "subscribers": "317K"
+        "name": "eill",
+        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
+        "subscribers": "1.73M"
       },
       {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "484K"
+        "name": "tonun",
+        "browse_id": "UC9XSYahwHXgJnG_7opHAdmQ",
+        "subscribers": "92.9K"
+      },
+      {
+        "name": "Nishina",
+        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
+        "subscribers": "380K"
       }
     ],
     "ytm_top_songs": [
@@ -2810,6 +2851,12 @@
           "views": 139923633,
           "likes": 1102636,
           "comments": 5979
+        },
+        {
+          "date": "2026-06-07",
+          "views": 140008696,
+          "likes": 1104076,
+          "comments": 5984
         }
       ]
     },
@@ -3126,6 +3173,12 @@
           "date": "2026-06-06",
           "views": 7832699,
           "likes": 57647,
+          "comments": 161
+        },
+        {
+          "date": "2026-06-07",
+          "views": 7842401,
+          "likes": 57718,
           "comments": 161
         }
       ]
@@ -3444,6 +3497,12 @@
           "views": 3369514,
           "likes": 36895,
           "comments": 285
+        },
+        {
+          "date": "2026-06-07",
+          "views": 3372566,
+          "likes": 36912,
+          "comments": 285
         }
       ]
     },
@@ -3761,6 +3820,12 @@
           "views": 11599464,
           "likes": 51424,
           "comments": 153
+        },
+        {
+          "date": "2026-06-07",
+          "views": 11604262,
+          "likes": 51444,
+          "comments": 153
         }
       ]
     },
@@ -3819,6 +3884,12 @@
           "date": "2026-06-06",
           "views": 4838584,
           "likes": 28300,
+          "comments": 81
+        },
+        {
+          "date": "2026-06-07",
+          "views": 4841346,
+          "likes": 28318,
           "comments": 81
         }
       ]
@@ -4478,6 +4549,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-06T15:18:42.251232+00:00"
+    },
+    {
+      "date": "2026-06-07",
+      "metric": "monthly_listeners",
+      "value": 3418948,
+      "baseline_mean": 3344835.7,
+      "baseline_stddev": 18169.3,
+      "delta": 74112,
+      "score": 4.08,
+      "type": "annotated",
+      "related_annotation": "「ヤニすう」ABEMA全12話一挙配信（6/3）のED「NIGHT DANCER」効果でSpotify月間リスナーが急増（+31,783・2.47σ）",
+      "detected_at": "2026-06-07T15:31:19.379840+00:00"
     }
   ]
 }
