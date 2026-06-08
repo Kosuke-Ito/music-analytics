@@ -2588,6 +2588,47 @@
       "ytm_subscribers": 2440000,
       "ytm_monthly_listeners": 115000000,
       "ytm_total_views": 1795035195
+    },
+    {
+      "date": "2026-06-08",
+      "monthly_listeners": 5851338,
+      "collected_at": "2026-06-08T17:25:30.373944+00:00",
+      "spotify_followers": 2365526,
+      "youtube_subscribers": 2440000,
+      "youtube_total_views": 1813211959,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 101498
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 86826
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 71341
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 61923
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 57320
+        }
+      ],
+      "lastfm_listeners": 627945,
+      "lastfm_playcount": 21957993,
+      "ytm_subscribers": 2440000,
+      "ytm_monthly_listeners": 115000000,
+      "ytm_total_views": 1797008373
     }
   ],
   "annotations": [
@@ -2822,29 +2863,39 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "umedacypher",
-        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
-        "subscribers": "648K"
-      },
-      {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "46.9M"
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "105M"
       },
       {
         "name": "BRADIO",
         "browse_id": "UCZeMAO9OSESrC6Til4L53BQ",
-        "subscribers": "323K"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "106M"
+        "subscribers": "313K"
       },
       {
         "name": "Vaundy",
         "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "20.7M"
+        "subscribers": "20.4M"
+      },
+      {
+        "name": "Kocchi no Kento",
+        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
+        "subscribers": "78.1M"
+      },
+      {
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "19.4M"
+      },
+      {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "2.51M"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "46.4M"
       },
       {
         "name": "Radwimps",
@@ -2852,24 +2903,14 @@
         "subscribers": "87.6M"
       },
       {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "2.6M"
-      },
-      {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "35.5M"
+        "name": "WEDNESDAY CAMPANELLA",
+        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
+        "subscribers": "1.62M"
       },
       {
         "name": "Kenshi Yonezu",
         "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "66.6M"
-      },
-      {
-        "name": "Queen Bee",
-        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
-        "subscribers": "3.99M"
+        "subscribers": "66.5M"
       }
     ],
     "ytm_top_songs": [
@@ -3112,6 +3153,18 @@
       "type": "annotated",
       "related_annotation": "ROCK IN JAPAN FESTIVAL 2026出演発表（6/3）の反響継続でYTM月間リスナーが更に急増（108,000,000・2.95σ）",
       "detected_at": "2026-06-07T15:26:06.950892+00:00"
+    },
+    {
+      "date": "2026-06-08",
+      "metric": "ytm_monthly_listeners",
+      "value": 115000000,
+      "baseline_mean": 103600000,
+      "baseline_stddev": 4184096.9,
+      "delta": 11400000,
+      "score": 2.72,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-08T17:25:31.562171+00:00"
     }
   ],
   "song_performance": {
@@ -3453,6 +3506,12 @@
           "views": 21667093,
           "likes": 275973,
           "comments": 925
+        },
+        {
+          "date": "2026-06-08",
+          "views": 21732322,
+          "likes": 276639,
+          "comments": 928
         }
       ]
     },
@@ -3794,6 +3853,12 @@
           "views": 19021821,
           "likes": 252056,
           "comments": 971
+        },
+        {
+          "date": "2026-06-08",
+          "views": 19072826,
+          "likes": 252579,
+          "comments": 975
         }
       ]
     },
@@ -4135,6 +4200,12 @@
           "views": 7044930,
           "likes": 93378,
           "comments": 1109
+        },
+        {
+          "date": "2026-06-08",
+          "views": 7059751,
+          "likes": 93513,
+          "comments": 1111
         }
       ]
     },
@@ -4476,6 +4547,12 @@
           "views": 12111180,
           "likes": 112211,
           "comments": 477
+        },
+        {
+          "date": "2026-06-08",
+          "views": 12123437,
+          "likes": 112303,
+          "comments": 477
         }
       ]
     },
@@ -4697,6 +4774,12 @@
           "views": 5752241,
           "likes": 53926,
           "comments": 185
+        },
+        {
+          "date": "2026-06-08",
+          "views": 5756825,
+          "likes": 53957,
+          "comments": 186
         }
       ]
     },

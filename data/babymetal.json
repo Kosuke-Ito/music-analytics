@@ -2297,6 +2297,47 @@
       "ytm_subscribers": 3630000,
       "ytm_monthly_listeners": 7520000,
       "ytm_total_views": 1070621042
+    },
+    {
+      "date": "2026-06-08",
+      "monthly_listeners": 3627452,
+      "collected_at": "2026-06-08T17:35:32.309721+00:00",
+      "spotify_followers": 3000371,
+      "youtube_subscribers": 3630000,
+      "youtube_total_views": 1078836175,
+      "youtube_video_count": 352,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 63640
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 57844
+        },
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 57437
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 49923
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 46038
+        }
+      ],
+      "lastfm_listeners": 978410,
+      "lastfm_playcount": 59526790,
+      "ytm_subscribers": 3630000,
+      "ytm_monthly_listeners": 6980000,
+      "ytm_total_views": 1070621042
     }
   ],
   "annotations": [
@@ -2508,6 +2549,21 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "BAND-MAID",
+        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
+        "subscribers": "784K"
+      },
+      {
+        "name": "the GazettE",
+        "browse_id": "UCXitUzRS2J4mznhd6qYLaHw",
+        "subscribers": "244K"
+      },
+      {
+        "name": "Avenged Sevenfold",
+        "browse_id": "UCJls2FMEbRYxi28jcuKe2vA",
+        "subscribers": "19.7M"
+      },
+      {
         "name": "Sakura Gakuin",
         "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
         "subscribers": "7.65K"
@@ -2515,17 +2571,17 @@
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "112K"
+        "subscribers": "108K"
       },
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "293K"
+        "subscribers": "292K"
       },
       {
         "name": "TRiDENT",
         "browse_id": "UCgErNuISenFAQndiEKcBVGQ",
-        "subscribers": "156K"
+        "subscribers": "152K"
       },
       {
         "name": "JILUKA",
@@ -2541,21 +2597,6 @@
         "name": "Mary's Blood",
         "browse_id": "UCZ6AuCNazfkPNTb5hNQMpMQ",
         "subscribers": "43.6K"
-      },
-      {
-        "name": "Not Secured,Loose Ends",
-        "browse_id": "UCICdhvSPJOnni7CIePx30DA",
-        "subscribers": "921"
-      },
-      {
-        "name": "KAQRIYOTERROR",
-        "browse_id": "UCELQIWPXXUmZeTpwXnTjuzA",
-        "subscribers": "2.04K"
-      },
-      {
-        "name": "Ironbunny",
-        "browse_id": "UCOXQpHNB7kPqNibN8_5dCNQ",
-        "subscribers": "24.9K"
       }
     ],
     "ytm_top_songs": [
@@ -2915,6 +2956,12 @@
           "views": 7215069,
           "likes": 82777,
           "comments": 263
+        },
+        {
+          "date": "2026-06-08",
+          "views": 7238854,
+          "likes": 82977,
+          "comments": 264
         }
       ]
     },
@@ -3249,6 +3296,12 @@
           "date": "2026-06-07",
           "views": 4578071,
           "likes": 92145,
+          "comments": 514
+        },
+        {
+          "date": "2026-06-08",
+          "views": 4593473,
+          "likes": 92381,
           "comments": 514
         }
       ]
@@ -3585,6 +3638,12 @@
           "views": 4910107,
           "likes": 69655,
           "comments": 225
+        },
+        {
+          "date": "2026-06-08",
+          "views": 4922883,
+          "likes": 69763,
+          "comments": 229
         }
       ]
     },
@@ -4243,6 +4302,12 @@
           "views": 3781006,
           "likes": 72509,
           "comments": 324
+        },
+        {
+          "date": "2026-06-08",
+          "views": 3793225,
+          "likes": 72673,
+          "comments": 326
         }
       ]
     },
@@ -4259,6 +4324,12 @@
           "date": "2026-06-07",
           "views": 1462654,
           "likes": 19898,
+          "comments": 69
+        },
+        {
+          "date": "2026-06-08",
+          "views": 1468154,
+          "likes": 19948,
           "comments": 69
         }
       ]
@@ -4564,6 +4635,18 @@
       "type": "annotated",
       "related_annotation": "Rock am Ring 2026（ドイツ・ニュルブルクリンク）出演——スウェーデン・ロック（6/3）に続く欧州フェス連続出演でSpotify月間リスナー上昇（+61,373・2.18σ）",
       "detected_at": "2026-06-07T15:35:53.634144+00:00"
+    },
+    {
+      "date": "2026-06-08",
+      "metric": "monthly_listeners",
+      "value": 3627452,
+      "baseline_mean": 3536791.2,
+      "baseline_stddev": 36125.1,
+      "delta": 90660,
+      "score": 2.51,
+      "type": "annotated",
+      "related_annotation": "Rock am Ring 2026（ドイツ・ニュルブルクリンク）出演——スウェーデン・ロック（6/3）に続く欧州フェス連続出演でSpotify月間リスナー上昇（+61,373・2.18σ）",
+      "detected_at": "2026-06-08T17:35:34.057637+00:00"
     }
   ]
 }
