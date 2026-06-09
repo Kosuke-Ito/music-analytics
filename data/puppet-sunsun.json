@@ -2455,6 +2455,47 @@
       "ytm_subscribers": 7220,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-09",
+      "monthly_listeners": 186233,
+      "collected_at": "2026-06-09T16:30:31.524000+00:00",
+      "spotify_followers": 31553,
+      "youtube_subscribers": 878000,
+      "youtube_total_views": 154766743,
+      "youtube_video_count": 468,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6801
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6098
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5171
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2843
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2196
+        }
+      ],
+      "lastfm_listeners": 955,
+      "lastfm_playcount": 5470,
+      "ytm_subscribers": 7240,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -2529,19 +2570,34 @@
         "subscribers": "22.8K"
       },
       {
+        "name": "Nishiyama Daddy Daddy",
+        "browse_id": "UCJ_LOaZ1IvM06s0oArHJmWA",
+        "subscribers": "1.45K"
+      },
+      {
+        "name": "あめんぼぷらす",
+        "browse_id": "UCrVrP-fAjWo5qQgyAwrxmMg",
+        "subscribers": "2.15K"
+      },
+      {
+        "name": "Tomona Yabiku",
+        "browse_id": "UCKmOHLP4CftjRa3sIYUWxSg",
+        "subscribers": "1.18K"
+      },
+      {
         "name": "Matsuya Onoe",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
-        "subscribers": "479"
+        "subscribers": "480"
       },
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "703"
+        "subscribers": "712"
       },
       {
         "name": "Yuria Nara",
         "browse_id": "UCjIZWl36NHeA7QhciQMAZ_A",
-        "subscribers": "1.47K"
+        "subscribers": "1.48K"
       },
       {
         "name": "strawberry flower",
@@ -2557,21 +2613,6 @@
         "name": "TV Senshi",
         "browse_id": "UCFKdZVD2Jbh6Kv2nS72pW5A",
         "subscribers": "4.7K"
-      },
-      {
-        "name": "Mari Natsuki",
-        "browse_id": "UCpSWcFIyibycyHcURifUNsg",
-        "subscribers": "832"
-      },
-      {
-        "name": "DOZLE-sha Supporters",
-        "browse_id": "UCAtkzr-vGJ-giZAaMgbe7Ig",
-        "subscribers": "858"
-      },
-      {
-        "name": "Fischers",
-        "browse_id": "UCf4SncCsLDI7A7AQ_BprkkA",
-        "subscribers": "12.6K"
       }
     ]
   },
@@ -2599,6 +2640,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-01T19:20:45.520028+00:00"
+    },
+    {
+      "date": "2026-06-09",
+      "metric": "monthly_listeners",
+      "value": 186233,
+      "baseline_mean": 180821.1,
+      "baseline_stddev": 2430.0,
+      "delta": 5411,
+      "score": 2.23,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-09T16:30:33.100189+00:00"
     }
   ]
 }

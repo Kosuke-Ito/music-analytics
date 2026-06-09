@@ -2629,6 +2629,47 @@
       "ytm_subscribers": 2440000,
       "ytm_monthly_listeners": 115000000,
       "ytm_total_views": 1797008373
+    },
+    {
+      "date": "2026-06-09",
+      "monthly_listeners": 5847831,
+      "collected_at": "2026-06-09T16:33:14.948010+00:00",
+      "spotify_followers": 2366259,
+      "youtube_subscribers": 2440000,
+      "youtube_total_views": 1813211959,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 101320
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 86441
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 71324
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 61938
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 57234
+        }
+      ],
+      "lastfm_listeners": 628334,
+      "lastfm_playcount": 21971925,
+      "ytm_subscribers": 2440000,
+      "ytm_monthly_listeners": 121000000,
+      "ytm_total_views": 1797008373
     }
   ],
   "annotations": [
@@ -2872,9 +2913,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "105M"
+        "name": "meiyo",
+        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
+        "subscribers": "2.44M"
+      },
+      {
+        "name": "Shinsei Kamattechan",
+        "browse_id": "UCjtNm_gZ8oVVwSpfBi-pGtw",
+        "subscribers": "3.26M"
       },
       {
         "name": "BRADIO",
@@ -2882,44 +2928,39 @@
         "subscribers": "313K"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "20.4M"
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "106M"
       },
       {
-        "name": "Kocchi no Kento",
-        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
-        "subscribers": "78.1M"
-      },
-      {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "19.4M"
-      },
-      {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "2.51M"
-      },
-      {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "46.4M"
+        "name": "millennium parade",
+        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
+        "subscribers": "930K"
       },
       {
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "87.6M"
+        "subscribers": "88.3M"
       },
       {
-        "name": "WEDNESDAY CAMPANELLA",
-        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
-        "subscribers": "1.62M"
+        "name": "Queen Bee",
+        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
+        "subscribers": "4M"
+      },
+      {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.18M"
       },
       {
         "name": "Kenshi Yonezu",
         "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "66.5M"
+        "subscribers": "67M"
+      },
+      {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "2.65M"
       }
     ],
     "ytm_top_songs": [
@@ -3174,6 +3215,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-08T17:25:31.562171+00:00"
+    },
+    {
+      "date": "2026-06-09",
+      "metric": "ytm_monthly_listeners",
+      "value": 121000000,
+      "baseline_mean": 104033333.3,
+      "baseline_stddev": 4643872.9,
+      "delta": 16966666,
+      "score": 3.65,
+      "type": "annotated",
+      "related_annotation": "TBSドラマ「時すでにおスシ!?」最終回（6/9放送）前日の「Fright」再生急増でYTM月間リスナーが115Mを維持（+1,140万・2.72σ）",
+      "detected_at": "2026-06-09T16:33:16.166293+00:00"
     }
   ],
   "song_performance": {
@@ -3521,6 +3574,12 @@
           "views": 21732322,
           "likes": 276639,
           "comments": 928
+        },
+        {
+          "date": "2026-06-09",
+          "views": 21790215,
+          "likes": 277208,
+          "comments": 932
         }
       ]
     },
@@ -3868,6 +3927,12 @@
           "views": 19072826,
           "likes": 252579,
           "comments": 975
+        },
+        {
+          "date": "2026-06-09",
+          "views": 19119235,
+          "likes": 253035,
+          "comments": 976
         }
       ]
     },
@@ -4215,6 +4280,12 @@
           "views": 7059751,
           "likes": 93513,
           "comments": 1111
+        },
+        {
+          "date": "2026-06-09",
+          "views": 7073688,
+          "likes": 93668,
+          "comments": 1112
         }
       ]
     },
@@ -4562,6 +4633,12 @@
           "views": 12123437,
           "likes": 112303,
           "comments": 477
+        },
+        {
+          "date": "2026-06-09",
+          "views": 12135106,
+          "likes": 112410,
+          "comments": 477
         }
       ]
     },
@@ -4788,6 +4865,12 @@
           "date": "2026-06-08",
           "views": 5756825,
           "likes": 53957,
+          "comments": 186
+        },
+        {
+          "date": "2026-06-09",
+          "views": 5761010,
+          "likes": 53987,
           "comments": 186
         }
       ]
