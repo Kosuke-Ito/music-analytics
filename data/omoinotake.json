@@ -2581,6 +2581,24 @@
       "source": "natalie.mu",
       "confidence": "high",
       "verified": false
+    },
+    {
+      "date": "2026-06-09",
+      "title": "YouTube Data APIカウンター凍結（308,665,580・6/1〜6/8）解除——311,780,684に更新されアーティファクト計上（2.78σ）",
+      "description": "6月1〜8日の8日間にわたり308,665,580で固定していたYouTube Data APIカウンターが6月9日に311,780,684へ更新。凍結中に蓄積した実再生分（+3,115,104）が一括計上されベースライン乖離（2.78σ）が発生した（データアーティファクト）。",
+      "category": "other",
+      "added_at": "2026-06-10T00:00:00Z",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "YouTube Data APIカウンター凍結後の翌日同値（311,780,684）継続アーティファクト（2.45σ）",
+      "description": "6月9日に解除されたYouTube Data APIカウンターが再び311,780,684で固定し、ベースライン移動平均との乖離（2.45σ）が継続して検出された（データアーティファクト）。",
+      "category": "other",
+      "added_at": "2026-06-10T00:00:00Z",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "metadata": {
