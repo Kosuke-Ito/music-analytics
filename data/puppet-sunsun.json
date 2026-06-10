@@ -2496,6 +2496,47 @@
       "ytm_subscribers": 7240,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-10",
+      "monthly_listeners": 187544,
+      "collected_at": "2026-06-10T16:59:23.286088+00:00",
+      "spotify_followers": 31607,
+      "youtube_subscribers": 879000,
+      "youtube_total_views": 155123787,
+      "youtube_video_count": 468,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6850
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6132
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5191
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2833
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2212
+        }
+      ],
+      "lastfm_listeners": 960,
+      "lastfm_playcount": 5484,
+      "ytm_subscribers": 7250,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -2567,32 +2608,22 @@
       {
         "name": "yamino oneesan",
         "browse_id": "UCZP704L6_ZSyUKxxmSXGlkw",
-        "subscribers": "22.8K"
+        "subscribers": "22.9K"
       },
       {
-        "name": "Nishiyama Daddy Daddy",
-        "browse_id": "UCJ_LOaZ1IvM06s0oArHJmWA",
-        "subscribers": "1.45K"
-      },
-      {
-        "name": "あめんぼぷらす",
-        "browse_id": "UCrVrP-fAjWo5qQgyAwrxmMg",
-        "subscribers": "2.15K"
-      },
-      {
-        "name": "Tomona Yabiku",
-        "browse_id": "UCKmOHLP4CftjRa3sIYUWxSg",
-        "subscribers": "1.18K"
+        "name": "Mrs. GREEN APPLE",
+        "browse_id": "UCFB0qxwNwayGQ4Ksj8QpCXg",
+        "subscribers": "32.6M"
       },
       {
         "name": "Matsuya Onoe",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
-        "subscribers": "480"
+        "subscribers": "482"
       },
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "712"
+        "subscribers": "717"
       },
       {
         "name": "Yuria Nara",
@@ -2602,17 +2633,27 @@
       {
         "name": "strawberry flower",
         "browse_id": "UCcfe0G1YIpvLuNu4OJlwzBg",
-        "subscribers": "8.48K"
-      },
-      {
-        "name": "Tesesaku",
-        "browse_id": "UCxMfaJk6D2pde7PBChZEzfg",
-        "subscribers": "6.65K"
+        "subscribers": "8.49K"
       },
       {
         "name": "TV Senshi",
         "browse_id": "UCFKdZVD2Jbh6Kv2nS72pW5A",
         "subscribers": "4.7K"
+      },
+      {
+        "name": "Senasuke",
+        "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
+        "subscribers": "437K"
+      },
+      {
+        "name": "Rolly",
+        "browse_id": "UCDYK_cePWKdqMjverqNulMw",
+        "subscribers": "221"
+      },
+      {
+        "name": "MADAMADA",
+        "browse_id": "UCEzNOrBjotEn6POsgTYdqLA",
+        "subscribers": "6.64K"
       }
     ]
   },
@@ -2652,6 +2693,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-09T16:30:33.100189+00:00"
+    },
+    {
+      "date": "2026-06-10",
+      "metric": "monthly_listeners",
+      "value": 187544,
+      "baseline_mean": 181110.6,
+      "baseline_stddev": 2537.8,
+      "delta": 6433,
+      "score": 2.53,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-10T16:59:24.421848+00:00"
     }
   ]
 }

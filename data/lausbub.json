@@ -2687,6 +2687,47 @@
       "ytm_subscribers": 18300,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 701618
+    },
+    {
+      "date": "2026-06-10",
+      "monthly_listeners": 40971,
+      "collected_at": "2026-06-10T17:02:46.411097+00:00",
+      "spotify_followers": 19189,
+      "youtube_subscribers": 18300,
+      "youtube_total_views": 754448,
+      "youtube_video_count": 31,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1832
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 954
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 584
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 462
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 445
+        }
+      ],
+      "lastfm_listeners": 8003,
+      "lastfm_playcount": 48001,
+      "ytm_subscribers": 18300,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 708328
     }
   ],
   "annotations": [
@@ -2966,6 +3007,18 @@
       "type": "annotated",
       "related_annotation": "「sign」6月10日配信・ワンマンツアー「LAUSBUB Concert Tour 2026」詳細発表",
       "detected_at": "2026-05-31T15:20:05.871547+00:00"
+    },
+    {
+      "date": "2026-06-10",
+      "metric": "youtube_total_views",
+      "value": 754448,
+      "baseline_mean": 739813.2,
+      "baseline_stddev": 6465.7,
+      "delta": 14634,
+      "score": 2.26,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-10T17:02:47.877236+00:00"
     }
   ],
   "song_performance": {
@@ -3317,6 +3370,12 @@
         {
           "date": "2026-06-09",
           "views": 2920,
+          "likes": 69,
+          "comments": 1
+        },
+        {
+          "date": "2026-06-10",
+          "views": 2971,
           "likes": 69,
           "comments": 1
         }
@@ -3672,6 +3731,12 @@
           "views": 6804,
           "likes": 177,
           "comments": 6
+        },
+        {
+          "date": "2026-06-10",
+          "views": 6816,
+          "likes": 177,
+          "comments": 6
         }
       ]
     },
@@ -4025,6 +4090,12 @@
           "views": 21491,
           "likes": 194,
           "comments": 2
+        },
+        {
+          "date": "2026-06-10",
+          "views": 21520,
+          "likes": 194,
+          "comments": 2
         }
       ]
     },
@@ -4376,6 +4447,12 @@
         {
           "date": "2026-06-09",
           "views": 12871,
+          "likes": 201,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-10",
+          "views": 12880,
           "likes": 201,
           "comments": 0
         }
@@ -4734,6 +4811,12 @@
         {
           "date": "2026-06-09",
           "views": 8392,
+          "likes": 133,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-10",
+          "views": 8397,
           "likes": 133,
           "comments": 0
         }

@@ -2667,6 +2667,47 @@
       "ytm_subscribers": 12500000,
       "ytm_monthly_listeners": 255000000,
       "ytm_total_views": 9852836982
+    },
+    {
+      "date": "2026-06-10",
+      "monthly_listeners": 8046089,
+      "collected_at": "2026-06-10T17:05:56.295629+00:00",
+      "spotify_followers": 720874,
+      "youtube_subscribers": 12500000,
+      "youtube_total_views": 9871626301,
+      "youtube_video_count": 41,
+      "top_cities": [
+        {
+          "city": "Istanbul",
+          "country": "TR",
+          "listeners": 167198
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 138365
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 134522
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 113819
+        },
+        {
+          "city": "New York City",
+          "country": "US",
+          "listeners": 106418
+        }
+      ],
+      "lastfm_listeners": 511340,
+      "lastfm_playcount": 9249311,
+      "ytm_subscribers": 12500000,
+      "ytm_monthly_listeners": 255000000,
+      "ytm_total_views": 9868559555
     }
   ],
   "annotations": [
@@ -3511,6 +3552,12 @@
           "views": 144821427,
           "likes": 1438767,
           "comments": 16901
+        },
+        {
+          "date": "2026-06-10",
+          "views": 144947129,
+          "likes": 1439748,
+          "comments": 16911
         }
       ]
     },
@@ -3864,6 +3911,12 @@
           "views": 71003763,
           "likes": 646928,
           "comments": 3589
+        },
+        {
+          "date": "2026-06-10",
+          "views": 71104871,
+          "likes": 647513,
+          "comments": 3591
         }
       ]
     },
@@ -4211,6 +4264,12 @@
           "views": 196989137,
           "likes": 1498592,
           "comments": 5646
+        },
+        {
+          "date": "2026-06-10",
+          "views": 197116821,
+          "likes": 1499172,
+          "comments": 5648
         }
       ]
     },
@@ -4510,6 +4569,12 @@
           "views": 45540152,
           "likes": 424389,
           "comments": 2373
+        },
+        {
+          "date": "2026-06-10",
+          "views": 45572317,
+          "likes": 424625,
+          "comments": 2373
         }
       ]
     },
@@ -4707,6 +4772,12 @@
           "views": 159479876,
           "likes": 1679755,
           "comments": 43940
+        },
+        {
+          "date": "2026-06-10",
+          "views": 159622183,
+          "likes": 1680598,
+          "comments": 43953
         }
       ]
     },
@@ -4866,6 +4937,18 @@
       "type": "annotated",
       "related_annotation": "オランダ・アーネム「GelreDome」公演を開催——欧州ツアー事実上の初戦",
       "detected_at": "2026-06-09T16:36:33.744643+00:00"
+    },
+    {
+      "date": "2026-06-10",
+      "metric": "youtube_total_views",
+      "value": 9871626301,
+      "baseline_mean": 9766108572.7,
+      "baseline_stddev": 39511779.1,
+      "delta": 105517728,
+      "score": 2.67,
+      "type": "annotated",
+      "related_annotation": "49歳の誕生日に「GEMINI SEASON」MVを公開・アルバム「BULLY」デラックス版を6月19日発売予告",
+      "detected_at": "2026-06-10T17:05:57.409673+00:00"
     }
   ]
 }
