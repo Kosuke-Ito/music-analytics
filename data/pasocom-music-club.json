@@ -2344,6 +2344,47 @@
       "ytm_subscribers": 37500,
       "ytm_monthly_listeners": 62700,
       "ytm_total_views": 8213357
+    },
+    {
+      "date": "2026-06-11",
+      "monthly_listeners": 51601,
+      "collected_at": "2026-06-11T17:51:21.692126+00:00",
+      "spotify_followers": 51456,
+      "youtube_subscribers": 37500,
+      "youtube_total_views": 8543575,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3379
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1344
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 887
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 864
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 520
+        }
+      ],
+      "lastfm_listeners": 23946,
+      "lastfm_playcount": 400990,
+      "ytm_subscribers": 37500,
+      "ytm_monthly_listeners": 62700,
+      "ytm_total_views": 8304498
     }
   ],
   "metadata": {
@@ -2378,9 +2419,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "muque",
-        "browse_id": "UClh_g9tkf_ErD1UclhABZDw",
-        "subscribers": "440K"
+        "name": "punipunidenki",
+        "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
+        "subscribers": "227K"
       },
       {
         "name": "DE DE MOUSE",
@@ -2390,7 +2431,7 @@
       {
         "name": "CAPSULE",
         "browse_id": "UCZsrsPpiAC4-aXPXSRzFJhQ",
-        "subscribers": "724K"
+        "subscribers": "710K"
       },
       {
         "name": "MHRJ",
@@ -2400,7 +2441,7 @@
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "126K"
+        "subscribers": "125K"
       },
       {
         "name": "80KIDZ",
@@ -2415,12 +2456,12 @@
       {
         "name": "cero",
         "browse_id": "UCP5S2nBzNRtJNiqGAYsA_Nw",
-        "subscribers": "115K"
+        "subscribers": "118K"
       },
       {
         "name": "Satoko Shibata",
         "browse_id": "UCHXbv9-c9QQow0_n5WKx5QQ",
-        "subscribers": "173K"
+        "subscribers": "169K"
       },
       {
         "name": "FRIENDS",
@@ -2785,6 +2826,12 @@
           "views": 126220,
           "likes": 2561,
           "comments": 25
+        },
+        {
+          "date": "2026-06-11",
+          "views": 126628,
+          "likes": 2566,
+          "comments": 25
         }
       ]
     },
@@ -3119,6 +3166,12 @@
           "date": "2026-06-10",
           "views": 564963,
           "likes": 5238,
+          "comments": 18
+        },
+        {
+          "date": "2026-06-11",
+          "views": 565581,
+          "likes": 5242,
           "comments": 18
         }
       ]
@@ -3455,6 +3508,12 @@
           "views": 317483,
           "likes": 3413,
           "comments": 6
+        },
+        {
+          "date": "2026-06-11",
+          "views": 317884,
+          "likes": 3416,
+          "comments": 6
         }
       ]
     },
@@ -3788,6 +3847,12 @@
         {
           "date": "2026-06-10",
           "views": 54478,
+          "likes": 184,
+          "comments": 1
+        },
+        {
+          "date": "2026-06-11",
+          "views": 54552,
           "likes": 184,
           "comments": 1
         }
@@ -4124,6 +4189,12 @@
           "date": "2026-06-10",
           "views": 120175,
           "likes": 1532,
+          "comments": 14
+        },
+        {
+          "date": "2026-06-11",
+          "views": 120401,
+          "likes": 1534,
           "comments": 14
         }
       ]
@@ -4626,6 +4697,18 @@
       "type": "annotated",
       "related_annotation": "Summer Sonic 2026一般チケット発売（5/30）直前の盛り上がりでYouTube総再生数が上昇（2.63σ）",
       "detected_at": "2026-06-02T18:18:12.637696+00:00"
+    },
+    {
+      "date": "2026-06-11",
+      "metric": "youtube_total_views",
+      "value": 8543575,
+      "baseline_mean": 8376310.6,
+      "baseline_stddev": 69558.4,
+      "delta": 167264,
+      "score": 2.4,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-11T17:51:23.155167+00:00"
     }
   ]
 }

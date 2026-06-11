@@ -2711,6 +2711,47 @@
       "ytm_subscribers": 2440000,
       "ytm_monthly_listeners": 124000000,
       "ytm_total_views": 1798739172
+    },
+    {
+      "date": "2026-06-11",
+      "monthly_listeners": 5847309,
+      "collected_at": "2026-06-11T17:40:19.298298+00:00",
+      "spotify_followers": 2367703,
+      "youtube_subscribers": 2440000,
+      "youtube_total_views": 1814996543,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 101244
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 86060
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 71082
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 61934
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 57065
+        }
+      ],
+      "lastfm_listeners": 629451,
+      "lastfm_playcount": 22020079,
+      "ytm_subscribers": 2440000,
+      "ytm_monthly_listeners": 127000000,
+      "ytm_total_views": 1798739172
     }
   ],
   "annotations": [
@@ -2965,29 +3006,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "67M"
+        "name": "BRADIO",
+        "browse_id": "UCZeMAO9OSESrC6Til4L53BQ",
+        "subscribers": "312K"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "20.9M"
-      },
-      {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "19M"
-      },
-      {
-        "name": "Queen Bee",
-        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
-        "subscribers": "4.04M"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "107M"
+        "name": "umedacypher",
+        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
+        "subscribers": "635K"
       },
       {
         "name": "meiyo",
@@ -2995,24 +3021,39 @@
         "subscribers": "3.19M"
       },
       {
+        "name": "Queen Bee",
+        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
+        "subscribers": "3.82M"
+      },
+      {
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "36.1M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "21.4M"
+      },
+      {
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "107M"
+      },
+      {
         "name": "MAISONdes ",
         "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.19M"
+        "subscribers": "3.18M"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "47M"
+        "name": "Shinsei Kamattechan",
+        "browse_id": "UCjtNm_gZ8oVVwSpfBi-pGtw",
+        "subscribers": "3.3M"
       },
       {
-        "name": "BRADIO",
-        "browse_id": "UCZeMAO9OSESrC6Til4L53BQ",
-        "subscribers": "313K"
-      },
-      {
-        "name": "umedacypher",
-        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
-        "subscribers": "634K"
+        "name": "millennium parade",
+        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
+        "subscribers": "890K"
       }
     ],
     "ytm_top_songs": [
@@ -3291,6 +3332,18 @@
       "type": "annotated",
       "related_annotation": "TBSドラマ「時すでにおスシ!?」最終回（6/9放送）前日の「Fright」再生急増でYTM月間リスナーが115Mを維持（+1,140万・2.72σ）",
       "detected_at": "2026-06-10T17:02:28.391251+00:00"
+    },
+    {
+      "date": "2026-06-11",
+      "metric": "ytm_monthly_listeners",
+      "value": 127000000,
+      "baseline_mean": 105500000,
+      "baseline_stddev": 6438167.4,
+      "delta": 21500000,
+      "score": 3.34,
+      "type": "annotated",
+      "related_annotation": "TBSドラマ「時すでにおスシ!?」最終回（6/9放送）前日の「Fright」再生急増でYTM月間リスナーが115Mを維持（+1,140万・2.72σ）",
+      "detected_at": "2026-06-11T17:40:20.734295+00:00"
     }
   ],
   "song_performance": {
@@ -3650,6 +3703,12 @@
           "views": 21854192,
           "likes": 277872,
           "comments": 933
+        },
+        {
+          "date": "2026-06-11",
+          "views": 21918793,
+          "likes": 278538,
+          "comments": 935
         }
       ]
     },
@@ -4009,6 +4068,12 @@
           "views": 19169594,
           "likes": 253598,
           "comments": 976
+        },
+        {
+          "date": "2026-06-11",
+          "views": 19220664,
+          "likes": 254135,
+          "comments": 979
         }
       ]
     },
@@ -4367,6 +4432,12 @@
           "date": "2026-06-10",
           "views": 7088703,
           "likes": 93815,
+          "comments": 1112
+        },
+        {
+          "date": "2026-06-11",
+          "views": 7103838,
+          "likes": 93954,
           "comments": 1112
         }
       ]
@@ -4727,6 +4798,12 @@
           "views": 12147931,
           "likes": 112509,
           "comments": 478
+        },
+        {
+          "date": "2026-06-11",
+          "views": 12160370,
+          "likes": 112627,
+          "comments": 478
         }
       ]
     },
@@ -4966,6 +5043,12 @@
           "views": 5765312,
           "likes": 54019,
           "comments": 186
+        },
+        {
+          "date": "2026-06-11",
+          "views": 5769430,
+          "likes": 54045,
+          "comments": 185
         }
       ]
     },

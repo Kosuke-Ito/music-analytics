@@ -2414,6 +2414,44 @@
       "ytm_subscribers": 870000,
       "ytm_monthly_listeners": 10200000,
       "ytm_total_views": 908537447
+    },
+    {
+      "date": "2026-06-11",
+      "monthly_listeners": 3898526,
+      "collected_at": "2026-06-11T17:47:05.464999+00:00",
+      "spotify_followers": 2792239,
+      "youtube_subscribers": 5580000,
+      "youtube_total_views": 3475080982,
+      "youtube_video_count": 208,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 62967
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 49605
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 48163
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 41922
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39450
+        }
+      ],
+      "lastfm_listeners": 1838639,
+      "lastfm_playcount": 53676215
     }
   ],
   "annotations": [
@@ -4366,6 +4404,12 @@
           "views": 39001706,
           "likes": 276502,
           "comments": 1537
+        },
+        {
+          "date": "2026-06-11",
+          "views": 39727806,
+          "likes": 280616,
+          "comments": 1559
         }
       ]
     },
@@ -4383,6 +4427,12 @@
           "views": 33062440,
           "likes": 153245,
           "comments": 150
+        },
+        {
+          "date": "2026-06-11",
+          "views": 33380626,
+          "likes": 154281,
+          "comments": 152
         }
       ]
     },
@@ -4400,6 +4450,12 @@
           "views": 20141940,
           "likes": 111934,
           "comments": 272
+        },
+        {
+          "date": "2026-06-11",
+          "views": 20411918,
+          "likes": 113309,
+          "comments": 277
         }
       ]
     },
@@ -4434,6 +4490,23 @@
           "views": 30105525,
           "likes": 129775,
           "comments": 729
+        },
+        {
+          "date": "2026-06-11",
+          "views": 30471602,
+          "likes": 131071,
+          "comments": 741
+        }
+      ]
+    },
+    "rspzC40lGVk": {
+      "title": "太陽が昇らない世界 - A World Where the Sun Never Rises",
+      "history": [
+        {
+          "date": "2026-06-11",
+          "views": 5470458,
+          "likes": 56193,
+          "comments": 906
         }
       ]
     }
@@ -4546,6 +4619,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-10T17:09:25.818408+00:00"
+    },
+    {
+      "date": "2026-06-11",
+      "metric": "youtube_total_views",
+      "value": 3475080982,
+      "baseline_mean": 3455561495.1,
+      "baseline_stddev": 9265007.0,
+      "delta": 19519486,
+      "score": 2.11,
+      "type": "annotated",
+      "related_annotation": "「風のアンセム」スペシャルアニメMV余波継続——YouTube総再生数は6/7より同値（3,475,080,982）のAPIカウンター凍結アーティファクト継続（2.35σ）",
+      "detected_at": "2026-06-11T17:47:06.802233+00:00"
     }
   ]
 }

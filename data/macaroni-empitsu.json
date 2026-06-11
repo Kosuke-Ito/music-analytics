@@ -2429,6 +2429,47 @@
       "ytm_subscribers": 588000,
       "ytm_monthly_listeners": 4330000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-11",
+      "monthly_listeners": 2447094,
+      "collected_at": "2026-06-11T17:48:12.662056+00:00",
+      "spotify_followers": 1967073,
+      "youtube_subscribers": 588000,
+      "youtube_total_views": 491493971,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 135858
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 127100
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 92098
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 53768
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 41783
+        }
+      ],
+      "lastfm_listeners": 7414,
+      "lastfm_playcount": 418814,
+      "ytm_subscribers": 588000,
+      "ytm_monthly_listeners": 4380000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -2631,22 +2672,17 @@
       {
         "name": "go!go!vanillas",
         "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
-        "subscribers": "726K"
+        "subscribers": "723K"
+      },
+      {
+        "name": "Hump Back",
+        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
+        "subscribers": "5.19M"
       },
       {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.37M"
-      },
-      {
-        "name": "SHISHAMO",
-        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "2.31M"
-      },
-      {
-        "name": "Koresawa",
-        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "5.01M"
+        "subscribers": "2.34M"
       },
       {
         "name": "back number",
@@ -2654,19 +2690,19 @@
         "subscribers": "11.8M"
       },
       {
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "2.35M"
+      },
+      {
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
         "subscribers": "89.2M"
       },
       {
-        "name": "Hump Back",
-        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
-        "subscribers": "5.04M"
-      },
-      {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "8.1M"
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "5.01M"
       },
       {
         "name": "sumika",
@@ -2676,7 +2712,12 @@
       {
         "name": "Tele",
         "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "564K"
+        "subscribers": "532K"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "8.13M"
       }
     ],
     "ytm_top_songs": [
@@ -3047,6 +3088,12 @@
           "views": 11820172,
           "likes": 67901,
           "comments": 136
+        },
+        {
+          "date": "2026-06-11",
+          "views": 11838651,
+          "likes": 67984,
+          "comments": 136
         }
       ]
     },
@@ -3394,6 +3441,12 @@
           "views": 24131447,
           "likes": 86809,
           "comments": 163
+        },
+        {
+          "date": "2026-06-11",
+          "views": 24152852,
+          "likes": 86915,
+          "comments": 163
         }
       ]
     },
@@ -3729,6 +3782,12 @@
           "views": 16449764,
           "likes": 60118,
           "comments": 113
+        },
+        {
+          "date": "2026-06-11",
+          "views": 16466047,
+          "likes": 60191,
+          "comments": 113
         }
       ]
     },
@@ -3986,6 +4045,12 @@
           "views": 44656136,
           "likes": 137863,
           "comments": 233
+        },
+        {
+          "date": "2026-06-11",
+          "views": 44674798,
+          "likes": 137926,
+          "comments": 233
         }
       ]
     },
@@ -4224,6 +4289,12 @@
           "views": 13378308,
           "likes": 77369,
           "comments": 417
+        },
+        {
+          "date": "2026-06-11",
+          "views": 13410568,
+          "likes": 77542,
+          "comments": 420
         }
       ]
     },
@@ -4797,6 +4868,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-10T17:10:33.922535+00:00"
+    },
+    {
+      "date": "2026-06-11",
+      "metric": "youtube_total_views",
+      "value": 491493971,
+      "baseline_mean": 484701203.1,
+      "baseline_stddev": 2828194.8,
+      "delta": 6792767,
+      "score": 2.4,
+      "type": "annotated",
+      "related_annotation": "YouTube Data APIカウンター凍結（486,329,756・6/1〜6/8）解除——491,493,971に更新されアーティファクト計上（3.13σ）",
+      "detected_at": "2026-06-11T17:48:14.976345+00:00"
     }
   ]
 }

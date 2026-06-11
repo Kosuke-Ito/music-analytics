@@ -2728,6 +2728,47 @@
       "ytm_subscribers": 18300,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 708328
+    },
+    {
+      "date": "2026-06-11",
+      "monthly_listeners": 40971,
+      "collected_at": "2026-06-11T17:40:36.644058+00:00",
+      "spotify_followers": 19222,
+      "youtube_subscribers": 18400,
+      "youtube_total_views": 754448,
+      "youtube_video_count": 31,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1832
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 954
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 584
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 462
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 445
+        }
+      ],
+      "lastfm_listeners": 8018,
+      "lastfm_playcount": 48125,
+      "ytm_subscribers": 18400,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 708328
     }
   ],
   "annotations": [
@@ -3029,6 +3070,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-10T17:02:47.877236+00:00"
+    },
+    {
+      "date": "2026-06-11",
+      "metric": "youtube_total_views",
+      "value": 754448,
+      "baseline_mean": 740639.2,
+      "baseline_stddev": 6695.6,
+      "delta": 13808,
+      "score": 2.06,
+      "type": "annotated",
+      "related_annotation": "Prime Videoドラマ「クロエマ」主題歌「sign」配信リリース（6/10）でYouTube総再生数が上昇（+14,634・2.26σ）",
+      "detected_at": "2026-06-11T17:40:37.943196+00:00"
     }
   ],
   "song_performance": {
@@ -3388,6 +3441,12 @@
           "views": 2971,
           "likes": 69,
           "comments": 1
+        },
+        {
+          "date": "2026-06-11",
+          "views": 3006,
+          "likes": 70,
+          "comments": 1
         }
       ]
     },
@@ -3745,6 +3804,12 @@
         {
           "date": "2026-06-10",
           "views": 6816,
+          "likes": 177,
+          "comments": 6
+        },
+        {
+          "date": "2026-06-11",
+          "views": 6828,
           "likes": 177,
           "comments": 6
         }
@@ -4106,6 +4171,12 @@
           "views": 21520,
           "likes": 194,
           "comments": 2
+        },
+        {
+          "date": "2026-06-11",
+          "views": 21539,
+          "likes": 194,
+          "comments": 2
         }
       ]
     },
@@ -4463,6 +4534,12 @@
         {
           "date": "2026-06-10",
           "views": 12880,
+          "likes": 201,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-11",
+          "views": 12888,
           "likes": 201,
           "comments": 0
         }
@@ -4828,6 +4905,12 @@
           "date": "2026-06-10",
           "views": 8397,
           "likes": 133,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-11",
+          "views": 8409,
+          "likes": 134,
           "comments": 0
         }
       ]

@@ -2537,6 +2537,47 @@
       "ytm_subscribers": 7250,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-11",
+      "monthly_listeners": 187544,
+      "collected_at": "2026-06-11T17:37:29.566087+00:00",
+      "spotify_followers": 31651,
+      "youtube_subscribers": 880000,
+      "youtube_total_views": 155312633,
+      "youtube_video_count": 469,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6850
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6132
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5191
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2833
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2212
+        }
+      ],
+      "lastfm_listeners": 960,
+      "lastfm_playcount": 5496,
+      "ytm_subscribers": 7260,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -2625,24 +2666,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "yamino oneesan",
-        "browse_id": "UCZP704L6_ZSyUKxxmSXGlkw",
-        "subscribers": "22.9K"
-      },
-      {
-        "name": "Mrs. GREEN APPLE",
-        "browse_id": "UCFB0qxwNwayGQ4Ksj8QpCXg",
-        "subscribers": "32.6M"
+        "name": "Tesesaku",
+        "browse_id": "UCxMfaJk6D2pde7PBChZEzfg",
+        "subscribers": "6.66K"
       },
       {
         "name": "Matsuya Onoe",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
-        "subscribers": "482"
+        "subscribers": "481"
       },
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "717"
+        "subscribers": "721"
       },
       {
         "name": "Yuria Nara",
@@ -2657,12 +2693,12 @@
       {
         "name": "TV Senshi",
         "browse_id": "UCFKdZVD2Jbh6Kv2nS72pW5A",
-        "subscribers": "4.7K"
+        "subscribers": "4.71K"
       },
       {
         "name": "Senasuke",
         "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
-        "subscribers": "437K"
+        "subscribers": "440K"
       },
       {
         "name": "Rolly",
@@ -2673,6 +2709,11 @@
         "name": "MADAMADA",
         "browse_id": "UCEzNOrBjotEn6POsgTYdqLA",
         "subscribers": "6.64K"
+      },
+      {
+        "name": "弥七（マユリカ中谷）",
+        "browse_id": "UC8j2YM_b4W6UozZA97R5Aog",
+        "subscribers": "2.04K"
       }
     ]
   },
@@ -2724,6 +2765,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-10T16:59:24.421848+00:00"
+    },
+    {
+      "date": "2026-06-11",
+      "metric": "monthly_listeners",
+      "value": 187544,
+      "baseline_mean": 181438.8,
+      "baseline_stddev": 2706.3,
+      "delta": 6105,
+      "score": 2.26,
+      "type": "annotated",
+      "related_annotation": "アーティストデビュー発表＆デビュー曲「とてと」（6/25配信予定）公表でSpotify月間リスナーが増加（+5,411・2.23σ）",
+      "detected_at": "2026-06-11T17:37:30.755284+00:00"
     }
   ]
 }
