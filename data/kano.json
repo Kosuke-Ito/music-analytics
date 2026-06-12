@@ -2570,6 +2570,47 @@
       "ytm_subscribers": 102,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-12",
+      "monthly_listeners": 9757,
+      "collected_at": "2026-06-12T16:43:41.880574+00:00",
+      "spotify_followers": 517,
+      "youtube_subscribers": 3240,
+      "youtube_total_views": 1963785,
+      "youtube_video_count": 100,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 299
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 245
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 220
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 151
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 139
+        }
+      ],
+      "lastfm_listeners": 260,
+      "lastfm_playcount": 1128,
+      "ytm_subscribers": 103,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -2975,6 +3016,12 @@
           "views": 334191,
           "likes": 3011,
           "comments": 21
+        },
+        {
+          "date": "2026-06-12",
+          "views": 335637,
+          "likes": 3027,
+          "comments": 21
         }
       ]
     },
@@ -3332,6 +3379,12 @@
         {
           "date": "2026-06-11",
           "views": 11358,
+          "likes": 72,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-12",
+          "views": 11601,
           "likes": 72,
           "comments": 0
         }
@@ -3693,6 +3746,12 @@
           "views": 5073,
           "likes": 49,
           "comments": 0
+        },
+        {
+          "date": "2026-06-12",
+          "views": 5096,
+          "likes": 49,
+          "comments": 0
         }
       ]
     },
@@ -3924,6 +3983,12 @@
         {
           "date": "2026-06-11",
           "views": 1534,
+          "likes": 34,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-12",
+          "views": 1553,
           "likes": 34,
           "comments": 0
         }
@@ -4279,6 +4344,12 @@
           "views": 1215,
           "likes": 20,
           "comments": 0
+        },
+        {
+          "date": "2026-06-12",
+          "views": 1222,
+          "likes": 20,
+          "comments": 0
         }
       ]
     },
@@ -4482,6 +4553,18 @@
       "type": "annotated",
       "related_annotation": "タワーレコード渋谷店リリースイベントでYouTube総再生数が上昇（2.21σ）",
       "detected_at": "2026-04-20T15:15:31.327657+00:00"
+    },
+    {
+      "date": "2026-06-12",
+      "metric": "youtube_total_views",
+      "value": 1963785,
+      "baseline_mean": 1895279.2,
+      "baseline_stddev": 31717.5,
+      "delta": 68505,
+      "score": 2.16,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-12T16:43:43.205460+00:00"
     }
   ]
 }

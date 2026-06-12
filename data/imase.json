@@ -2458,6 +2458,44 @@
       "ytm_subscribers": 1350000,
       "ytm_monthly_listeners": 49900000,
       "ytm_total_views": 851338322
+    },
+    {
+      "date": "2026-06-12",
+      "monthly_listeners": 3551778,
+      "collected_at": "2026-06-12T16:51:24.646418+00:00",
+      "spotify_followers": 1019555,
+      "youtube_subscribers": 1350000,
+      "youtube_total_views": 863256348,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 60356
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51412
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 46956
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 42462
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 41592
+        }
+      ],
+      "lastfm_listeners": 412359,
+      "lastfm_playcount": 5851927
     }
   ],
   "annotations": [
@@ -4467,6 +4505,12 @@
           "views": 7886655,
           "likes": 91723,
           "comments": 558
+        },
+        {
+          "date": "2026-06-12",
+          "views": 8759320,
+          "likes": 97791,
+          "comments": 578
         }
       ]
     },
@@ -4478,6 +4522,12 @@
           "views": 44600923,
           "likes": 378501,
           "comments": 2020
+        },
+        {
+          "date": "2026-06-12",
+          "views": 45204216,
+          "likes": 381833,
+          "comments": 2030
         }
       ]
     },
@@ -4489,6 +4539,12 @@
           "views": 405364,
           "likes": 8063,
           "comments": 57
+        },
+        {
+          "date": "2026-06-12",
+          "views": 591505,
+          "likes": 10643,
+          "comments": 61
         }
       ]
     },
@@ -4500,6 +4556,12 @@
           "views": 17207388,
           "likes": 128921,
           "comments": 1065
+        },
+        {
+          "date": "2026-06-12",
+          "views": 17635001,
+          "likes": 130630,
+          "comments": 1067
         }
       ]
     },
@@ -4511,6 +4573,12 @@
           "views": 39912880,
           "likes": 223881,
           "comments": 225
+        },
+        {
+          "date": "2026-06-12",
+          "views": 40297330,
+          "likes": 225478,
+          "comments": 229
         }
       ]
     }
@@ -4911,6 +4979,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-11T17:45:42.118487+00:00"
+    },
+    {
+      "date": "2026-06-12",
+      "metric": "monthly_listeners",
+      "value": 3551778,
+      "baseline_mean": 3369641.0,
+      "baseline_stddev": 52792.1,
+      "delta": 182136,
+      "score": 3.45,
+      "type": "annotated",
+      "related_annotation": "「ヤニすう」ABEMA配信（6/3）ED「NIGHT DANCER」バイラル継続——Spotify月間リスナーがベースライン比+161,315（4.5σ）に到達",
+      "detected_at": "2026-06-12T16:51:26.107275+00:00"
+    },
+    {
+      "date": "2026-06-12",
+      "metric": "youtube_total_views",
+      "value": 863256348,
+      "baseline_mean": 853183626.3,
+      "baseline_stddev": 3403485.0,
+      "delta": 10072721,
+      "score": 2.96,
+      "type": "annotated",
+      "related_annotation": "「ヤニすう」ABEMA配信（6/3）ED「NIGHT DANCER」バイラル継続——Spotify月間リスナーがベースライン比+161,315（4.5σ）に到達",
+      "detected_at": "2026-06-12T16:51:26.107275+00:00"
     }
   ]
 }

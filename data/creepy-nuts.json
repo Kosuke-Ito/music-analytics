@@ -2752,6 +2752,47 @@
       "ytm_subscribers": 2440000,
       "ytm_monthly_listeners": 127000000,
       "ytm_total_views": 1798739172
+    },
+    {
+      "date": "2026-06-12",
+      "monthly_listeners": 5832651,
+      "collected_at": "2026-06-12T16:46:08.280577+00:00",
+      "spotify_followers": 2368467,
+      "youtube_subscribers": 2440000,
+      "youtube_total_views": 1817834539,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 100886
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 85495
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 71149
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 61880
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 56850
+        }
+      ],
+      "lastfm_listeners": 629852,
+      "lastfm_playcount": 22035790,
+      "ytm_subscribers": 2440000,
+      "ytm_monthly_listeners": 127000000,
+      "ytm_total_views": 1800929244
     }
   ],
   "annotations": [
@@ -3006,34 +3047,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "BRADIO",
-        "browse_id": "UCZeMAO9OSESrC6Til4L53BQ",
-        "subscribers": "312K"
-      },
-      {
-        "name": "umedacypher",
-        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
-        "subscribers": "635K"
-      },
-      {
-        "name": "meiyo",
-        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
-        "subscribers": "3.19M"
-      },
-      {
-        "name": "Queen Bee",
-        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
-        "subscribers": "3.82M"
-      },
-      {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "36.1M"
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "8.13M"
       },
       {
         "name": "Vaundy",
         "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "21.4M"
+        "subscribers": "21.9M"
+      },
+      {
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "19.1M"
+      },
+      {
+        "name": "BRADIO",
+        "browse_id": "UCZeMAO9OSESrC6Til4L53BQ",
+        "subscribers": "312K"
       },
       {
         "name": "sakanaction",
@@ -3041,19 +3072,29 @@
         "subscribers": "107M"
       },
       {
+        "name": "meiyo",
+        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
+        "subscribers": "3.62M"
+      },
+      {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "3.32M"
+      },
+      {
+        "name": "Queen Bee",
+        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
+        "subscribers": "3.7M"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "46.6M"
+      },
+      {
         "name": "MAISONdes ",
         "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.18M"
-      },
-      {
-        "name": "Shinsei Kamattechan",
-        "browse_id": "UCjtNm_gZ8oVVwSpfBi-pGtw",
-        "subscribers": "3.3M"
-      },
-      {
-        "name": "millennium parade",
-        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
-        "subscribers": "890K"
+        "subscribers": "3.19M"
       }
     ],
     "ytm_top_songs": [
@@ -3344,6 +3385,18 @@
       "type": "annotated",
       "related_annotation": "TBSドラマ「時すでにおスシ!?」最終回（6/9放送）前日の「Fright」再生急増でYTM月間リスナーが115Mを維持（+1,140万・2.72σ）",
       "detected_at": "2026-06-11T17:40:20.734295+00:00"
+    },
+    {
+      "date": "2026-06-12",
+      "metric": "ytm_monthly_listeners",
+      "value": 127000000,
+      "baseline_mean": 106400000,
+      "baseline_stddev": 7418894.8,
+      "delta": 20600000,
+      "score": 2.78,
+      "type": "annotated",
+      "related_annotation": "「Fright」CDTVライブ！ライブ！ヘリポートパフォーマンス映像を期間限定公開",
+      "detected_at": "2026-06-12T16:46:09.612365+00:00"
     }
   ],
   "song_performance": {
@@ -3709,6 +3762,12 @@
           "views": 21918793,
           "likes": 278538,
           "comments": 935
+        },
+        {
+          "date": "2026-06-12",
+          "views": 21979118,
+          "likes": 279166,
+          "comments": 939
         }
       ]
     },
@@ -4074,6 +4133,12 @@
           "views": 19220664,
           "likes": 254135,
           "comments": 979
+        },
+        {
+          "date": "2026-06-12",
+          "views": 19267735,
+          "likes": 254642,
+          "comments": 981
         }
       ]
     },
@@ -4438,6 +4503,12 @@
           "date": "2026-06-11",
           "views": 7103838,
           "likes": 93954,
+          "comments": 1112
+        },
+        {
+          "date": "2026-06-12",
+          "views": 7118338,
+          "likes": 94108,
           "comments": 1112
         }
       ]
@@ -4804,6 +4875,12 @@
           "views": 12160370,
           "likes": 112627,
           "comments": 478
+        },
+        {
+          "date": "2026-06-12",
+          "views": 12171703,
+          "likes": 112703,
+          "comments": 478
         }
       ]
     },
@@ -5049,6 +5126,12 @@
           "views": 5769430,
           "likes": 54045,
           "comments": 185
+        },
+        {
+          "date": "2026-06-12",
+          "views": 5773592,
+          "likes": 54080,
+          "comments": 186
         }
       ]
     },
