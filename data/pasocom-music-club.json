@@ -2426,6 +2426,47 @@
       "ytm_subscribers": 37600,
       "ytm_monthly_listeners": 62400,
       "ytm_total_views": 8304498
+    },
+    {
+      "date": "2026-06-13",
+      "monthly_listeners": 50160,
+      "collected_at": "2026-06-13T15:44:05.938110+00:00",
+      "spotify_followers": 51483,
+      "youtube_subscribers": 37600,
+      "youtube_total_views": 8543575,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3356
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1335
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 868
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 826
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 517
+        }
+      ],
+      "lastfm_listeners": 23956,
+      "lastfm_playcount": 401265,
+      "ytm_subscribers": 37600,
+      "ytm_monthly_listeners": 62400,
+      "ytm_total_views": 8304498
     }
   ],
   "metadata": {
@@ -2460,29 +2501,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "muque",
-        "browse_id": "UClh_g9tkf_ErD1UclhABZDw",
-        "subscribers": "433K"
-      },
-      {
-        "name": "Lucky Kilimanjaro",
-        "browse_id": "UCiVXhIDW-3GNIyL5wsydr1Q",
-        "subscribers": "2.35M"
-      },
-      {
-        "name": "ako",
-        "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "311K"
-      },
-      {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
-        "subscribers": "170K"
+        "subscribers": "169K"
       },
       {
         "name": "CAPSULE",
         "browse_id": "UCZsrsPpiAC4-aXPXSRzFJhQ",
-        "subscribers": "710K"
+        "subscribers": "663K"
       },
       {
         "name": "MHRJ",
@@ -2492,7 +2518,12 @@
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "125K"
+        "subscribers": "124K"
+      },
+      {
+        "name": "punipunidenki",
+        "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
+        "subscribers": "238K"
       },
       {
         "name": "80KIDZ",
@@ -2502,12 +2533,22 @@
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "217K"
+        "subscribers": "218K"
       },
       {
         "name": "cero",
         "browse_id": "UCP5S2nBzNRtJNiqGAYsA_Nw",
-        "subscribers": "119K"
+        "subscribers": "122K"
+      },
+      {
+        "name": "Satoko Shibata",
+        "browse_id": "UCHXbv9-c9QQow0_n5WKx5QQ",
+        "subscribers": "158K"
+      },
+      {
+        "name": "FRIENDS",
+        "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
+        "subscribers": "74.3K"
       }
     ],
     "ytm_top_songs": [
@@ -2879,6 +2920,12 @@
           "views": 127052,
           "likes": 2571,
           "comments": 25
+        },
+        {
+          "date": "2026-06-13",
+          "views": 127434,
+          "likes": 2573,
+          "comments": 25
         }
       ]
     },
@@ -3225,6 +3272,12 @@
           "date": "2026-06-12",
           "views": 566198,
           "likes": 5247,
+          "comments": 18
+        },
+        {
+          "date": "2026-06-13",
+          "views": 566895,
+          "likes": 5254,
           "comments": 18
         }
       ]
@@ -3573,6 +3626,12 @@
           "views": 318164,
           "likes": 3419,
           "comments": 6
+        },
+        {
+          "date": "2026-06-13",
+          "views": 318504,
+          "likes": 3420,
+          "comments": 6
         }
       ]
     },
@@ -3918,6 +3977,12 @@
         {
           "date": "2026-06-12",
           "views": 54618,
+          "likes": 184,
+          "comments": 1
+        },
+        {
+          "date": "2026-06-13",
+          "views": 54704,
           "likes": 184,
           "comments": 1
         }
@@ -4266,6 +4331,12 @@
           "date": "2026-06-12",
           "views": 120604,
           "likes": 1538,
+          "comments": 14
+        },
+        {
+          "date": "2026-06-13",
+          "views": 120841,
+          "likes": 1541,
           "comments": 14
         }
       ]
@@ -4792,6 +4863,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-12T16:57:06.169481+00:00"
+    },
+    {
+      "date": "2026-06-13",
+      "metric": "youtube_total_views",
+      "value": 8543575,
+      "baseline_mean": 8395297.1,
+      "baseline_stddev": 73635.0,
+      "delta": 148277,
+      "score": 2.01,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-13T15:44:07.493240+00:00"
     }
   ]
 }

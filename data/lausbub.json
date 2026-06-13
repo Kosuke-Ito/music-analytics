@@ -2810,6 +2810,50 @@
       "ytm_subscribers": 18400,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 715704
+    },
+    {
+      "date": "2026-06-13",
+      "monthly_listeners": 48373,
+      "collected_at": "2026-06-13T15:33:36.564883+00:00",
+      "spotify_followers": 19301,
+      "youtube_subscribers": 18500,
+      "youtube_total_views": 761948,
+      "youtube_video_count": 31,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2303
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1185
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 693
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 547
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 524
+        }
+      ],
+      "lastfm_listeners": 8086,
+      "lastfm_playcount": 48448,
+      "ytm_subscribers": 18500,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 715704,
+      "validation_flags": [
+        "unusual_deviation"
+      ]
     }
   ],
   "annotations": [
@@ -3146,6 +3190,30 @@
       "type": "annotated",
       "related_annotation": "Prime Videoドラマ「クロエマ」主題歌「sign」配信リリース（6/10）でYouTube総再生数が上昇（+14,634・2.26σ）",
       "detected_at": "2026-06-12T16:46:26.540784+00:00"
+    },
+    {
+      "date": "2026-06-13",
+      "metric": "monthly_listeners",
+      "value": 48373,
+      "baseline_mean": 41173.6,
+      "baseline_stddev": 555.6,
+      "delta": 7199,
+      "score": 12.96,
+      "type": "annotated",
+      "related_annotation": "Prime Videoドラマ「クロエマ」主題歌「sign」配信リリース（6/10）でYouTube総再生数が上昇（+14,634・2.26σ）",
+      "detected_at": "2026-06-13T15:33:37.746462+00:00"
+    },
+    {
+      "date": "2026-06-13",
+      "metric": "youtube_total_views",
+      "value": 761948,
+      "baseline_mean": 742541.3,
+      "baseline_stddev": 7394.5,
+      "delta": 19406,
+      "score": 2.62,
+      "type": "annotated",
+      "related_annotation": "Prime Videoドラマ「クロエマ」主題歌「sign」配信リリース（6/10）でYouTube総再生数が上昇（+14,634・2.26σ）",
+      "detected_at": "2026-06-13T15:33:37.746462+00:00"
     }
   ],
   "song_performance": {
@@ -3515,6 +3583,12 @@
         {
           "date": "2026-06-12",
           "views": 3044,
+          "likes": 70,
+          "comments": 1
+        },
+        {
+          "date": "2026-06-13",
+          "views": 3071,
           "likes": 70,
           "comments": 1
         }
@@ -3888,6 +3962,12 @@
           "views": 6843,
           "likes": 177,
           "comments": 6
+        },
+        {
+          "date": "2026-06-13",
+          "views": 6862,
+          "likes": 177,
+          "comments": 6
         }
       ]
     },
@@ -4259,6 +4339,12 @@
           "views": 21578,
           "likes": 194,
           "comments": 2
+        },
+        {
+          "date": "2026-06-13",
+          "views": 21606,
+          "likes": 195,
+          "comments": 2
         }
       ]
     },
@@ -4628,6 +4714,12 @@
         {
           "date": "2026-06-12",
           "views": 12898,
+          "likes": 201,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-13",
+          "views": 12909,
           "likes": 201,
           "comments": 0
         }
@@ -5004,6 +5096,12 @@
         {
           "date": "2026-06-12",
           "views": 8415,
+          "likes": 134,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-13",
+          "views": 8423,
           "likes": 134,
           "comments": 0
         }

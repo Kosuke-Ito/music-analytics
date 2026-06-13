@@ -2425,6 +2425,44 @@
       "ytm_subscribers": 5760,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-13",
+      "monthly_listeners": 83202,
+      "collected_at": "2026-06-13T15:29:29.702609+00:00",
+      "spotify_followers": 9970,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2866
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 2355
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1606
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1344
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1021
+        }
+      ],
+      "lastfm_listeners": 8400,
+      "lastfm_playcount": 103918,
+      "ytm_subscribers": 5760,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -2452,14 +2490,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "otoha",
-        "browse_id": "UC1LpUkuPpAwDSzfxAJKLs8w",
-        "subscribers": "162K"
-      },
-      {
-        "name": "9Lana",
-        "browse_id": "UClZMIQn97IcvrdGviWz-qRw",
-        "subscribers": "18.3M"
+        "name": "NOMELON NOLEMON",
+        "browse_id": "UC42-y14_2cA9PAaqe-mAHjA",
+        "subscribers": "1.69M"
       },
       {
         "name": "MARUMOCHI from HoneyWorks",
@@ -2469,27 +2502,27 @@
       {
         "name": "shallm",
         "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
-        "subscribers": "235K"
+        "subscribers": "242K"
       },
       {
         "name": "MIMiNARI",
         "browse_id": "UCNBWI0bR0NC7VHpeAuoDENA",
-        "subscribers": "92.7K"
+        "subscribers": "92.3K"
       },
       {
         "name": "Rei",
         "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
-        "subscribers": "517K"
+        "subscribers": "521K"
       },
       {
         "name": "Neko The Sappiness",
         "browse_id": "UCKylr-FibIXTecuZZvhIbLw",
-        "subscribers": "206K"
+        "subscribers": "200K"
       },
       {
         "name": "Shiyui",
         "browse_id": "UCAkYyroRwc9qPuymye_2fNA",
-        "subscribers": "473K"
+        "subscribers": "475K"
       },
       {
         "name": "Tsuzuri",
@@ -2499,7 +2532,12 @@
       {
         "name": "Suu Usuwa",
         "browse_id": "UCi-wYABsTateGYJWf06KV3Q",
-        "subscribers": "256K"
+        "subscribers": "260K"
+      },
+      {
+        "name": "Hashimero",
+        "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
+        "subscribers": "377K"
       }
     ],
     "ytm_top_songs": [
@@ -2894,6 +2932,12 @@
           "views": 4006964,
           "likes": 31370,
           "comments": 0
+        },
+        {
+          "date": "2026-06-13",
+          "views": 4012776,
+          "likes": 31397,
+          "comments": 0
         }
       ]
     },
@@ -3264,6 +3308,12 @@
           "date": "2026-06-12",
           "views": 394897,
           "likes": 3207,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-13",
+          "views": 395854,
+          "likes": 3213,
           "comments": 0
         }
       ]
@@ -3636,6 +3686,12 @@
           "views": 223303,
           "likes": 3276,
           "comments": 0
+        },
+        {
+          "date": "2026-06-13",
+          "views": 224823,
+          "likes": 3287,
+          "comments": 0
         }
       ]
     },
@@ -4006,6 +4062,12 @@
           "date": "2026-06-12",
           "views": 689820,
           "likes": 5914,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-13",
+          "views": 690626,
+          "likes": 5917,
           "comments": 0
         }
       ]
@@ -4393,6 +4455,12 @@
           "views": 43020,
           "likes": 693,
           "comments": 0
+        },
+        {
+          "date": "2026-06-13",
+          "views": 43891,
+          "likes": 702,
+          "comments": 0
         }
       ]
     }
@@ -4523,6 +4591,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-04-22T15:09:00.789349+00:00"
+    },
+    {
+      "date": "2026-06-13",
+      "metric": "monthly_listeners",
+      "value": 83202,
+      "baseline_mean": 78530.9,
+      "baseline_stddev": 1941.1,
+      "delta": 4671,
+      "score": 2.41,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-13T15:29:30.796275+00:00"
     }
   ]
 }

@@ -2611,6 +2611,47 @@
       "ytm_subscribers": 103,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-13",
+      "monthly_listeners": 9742,
+      "collected_at": "2026-06-13T15:30:50.518990+00:00",
+      "spotify_followers": 518,
+      "youtube_subscribers": 3250,
+      "youtube_total_views": 1978951,
+      "youtube_video_count": 100,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 298
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 249
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 220
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 154
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 140
+        }
+      ],
+      "lastfm_listeners": 262,
+      "lastfm_playcount": 1131,
+      "ytm_subscribers": 104,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3022,6 +3063,12 @@
           "views": 335637,
           "likes": 3027,
           "comments": 21
+        },
+        {
+          "date": "2026-06-13",
+          "views": 336837,
+          "likes": 3042,
+          "comments": 21
         }
       ]
     },
@@ -3386,6 +3433,12 @@
           "date": "2026-06-12",
           "views": 11601,
           "likes": 72,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-13",
+          "views": 11905,
+          "likes": 75,
           "comments": 0
         }
       ]
@@ -3752,6 +3805,12 @@
           "views": 5096,
           "likes": 49,
           "comments": 0
+        },
+        {
+          "date": "2026-06-13",
+          "views": 5115,
+          "likes": 49,
+          "comments": 0
         }
       ]
     },
@@ -3989,6 +4048,12 @@
         {
           "date": "2026-06-12",
           "views": 1553,
+          "likes": 34,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-13",
+          "views": 1565,
           "likes": 34,
           "comments": 0
         }
@@ -4350,6 +4415,12 @@
           "views": 1222,
           "likes": 20,
           "comments": 0
+        },
+        {
+          "date": "2026-06-13",
+          "views": 1235,
+          "likes": 20,
+          "comments": 0
         }
       ]
     },
@@ -4574,6 +4645,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-12T16:43:43.205460+00:00"
+    },
+    {
+      "date": "2026-06-13",
+      "metric": "youtube_total_views",
+      "value": 1978951,
+      "baseline_mean": 1899451.4,
+      "baseline_stddev": 32218.2,
+      "delta": 79499,
+      "score": 2.47,
+      "type": "annotated",
+      "related_annotation": "チャンネル新規動画アップロード（6/8〜6/10・3本）後の視聴増でYouTube総再生数が上昇（+68,505・2.16σ）",
+      "detected_at": "2026-06-13T15:30:52.491004+00:00"
     }
   ]
 }

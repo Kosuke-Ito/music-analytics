@@ -2619,6 +2619,47 @@
       "ytm_subscribers": 7260,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-13",
+      "monthly_listeners": 189310,
+      "collected_at": "2026-06-13T15:30:34.125009+00:00",
+      "spotify_followers": 31763,
+      "youtube_subscribers": 882000,
+      "youtube_total_views": 155964669,
+      "youtube_video_count": 469,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6874
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6212
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5173
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2820
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2269
+        }
+      ],
+      "lastfm_listeners": 967,
+      "lastfm_playcount": 5526,
+      "ytm_subscribers": 7290,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -2709,12 +2750,7 @@
       {
         "name": "Mrs. GREEN APPLE",
         "browse_id": "UCFB0qxwNwayGQ4Ksj8QpCXg",
-        "subscribers": "32.5M"
-      },
-      {
-        "name": "yamino oneesan",
-        "browse_id": "UCZP704L6_ZSyUKxxmSXGlkw",
-        "subscribers": "22.9K"
+        "subscribers": "32.3M"
       },
       {
         "name": "Matsuya Onoe",
@@ -2724,12 +2760,12 @@
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "726"
+        "subscribers": "738"
       },
       {
         "name": "Yuria Nara",
         "browse_id": "UCjIZWl36NHeA7QhciQMAZ_A",
-        "subscribers": "1.48K"
+        "subscribers": "1.49K"
       },
       {
         "name": "strawberry flower",
@@ -2737,9 +2773,14 @@
         "subscribers": "8.49K"
       },
       {
+        "name": "Tesesaku",
+        "browse_id": "UCxMfaJk6D2pde7PBChZEzfg",
+        "subscribers": "6.66K"
+      },
+      {
         "name": "TV Senshi",
         "browse_id": "UCFKdZVD2Jbh6Kv2nS72pW5A",
-        "subscribers": "4.71K"
+        "subscribers": "4.72K"
       },
       {
         "name": "Senasuke",
@@ -2754,7 +2795,7 @@
       {
         "name": "MADAMADA",
         "browse_id": "UCEzNOrBjotEn6POsgTYdqLA",
-        "subscribers": "6.64K"
+        "subscribers": "6.65K"
       }
     ]
   },
@@ -2830,6 +2871,18 @@
       "type": "annotated",
       "related_annotation": "アーティストデビュー発表＆デビュー曲「とてと」（6/25配信予定）公表でSpotify月間リスナーが増加（+5,411・2.23σ）",
       "detected_at": "2026-06-12T16:43:26.488382+00:00"
+    },
+    {
+      "date": "2026-06-13",
+      "metric": "monthly_listeners",
+      "value": 189310,
+      "baseline_mean": 182140.3,
+      "baseline_stddev": 2948.3,
+      "delta": 7169,
+      "score": 2.43,
+      "type": "annotated",
+      "related_annotation": "全国12都市ポップアップ「HELLO! PUPPET SUNSUN」（7/1〜）開催発表でアーティストデビュー注目が継続——Spotify月間リスナーが上昇（+6,433・2.53σ）",
+      "detected_at": "2026-06-13T15:30:35.138143+00:00"
     }
   ]
 }
