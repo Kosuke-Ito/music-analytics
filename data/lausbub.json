@@ -2854,6 +2854,47 @@
       "validation_flags": [
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-06-14",
+      "monthly_listeners": 48373,
+      "collected_at": "2026-06-14T15:50:31.913725+00:00",
+      "spotify_followers": 19338,
+      "youtube_subscribers": 18500,
+      "youtube_total_views": 761948,
+      "youtube_video_count": 31,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2303
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1185
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 693
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 547
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 524
+        }
+      ],
+      "lastfm_listeners": 8103,
+      "lastfm_playcount": 48565,
+      "ytm_subscribers": 18500,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 715704
     }
   ],
   "annotations": [
@@ -3214,6 +3255,30 @@
       "type": "annotated",
       "related_annotation": "Prime Videoドラマ「クロエマ」主題歌「sign」配信リリース（6/10）でYouTube総再生数が上昇（+14,634・2.26σ）",
       "detected_at": "2026-06-13T15:33:37.746462+00:00"
+    },
+    {
+      "date": "2026-06-14",
+      "metric": "monthly_listeners",
+      "value": 48373,
+      "baseline_mean": 41391.7,
+      "baseline_stddev": 1405.2,
+      "delta": 6981,
+      "score": 4.97,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-14T15:50:33.076887+00:00"
+    },
+    {
+      "date": "2026-06-14",
+      "metric": "youtube_total_views",
+      "value": 761948,
+      "baseline_mean": 743617.3,
+      "baseline_stddev": 7781.4,
+      "delta": 18330,
+      "score": 2.36,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-14T15:50:33.076887+00:00"
     }
   ],
   "song_performance": {
@@ -3589,6 +3654,12 @@
         {
           "date": "2026-06-13",
           "views": 3071,
+          "likes": 70,
+          "comments": 1
+        },
+        {
+          "date": "2026-06-14",
+          "views": 3109,
           "likes": 70,
           "comments": 1
         }
@@ -3968,6 +4039,12 @@
           "views": 6862,
           "likes": 177,
           "comments": 6
+        },
+        {
+          "date": "2026-06-14",
+          "views": 6881,
+          "likes": 178,
+          "comments": 6
         }
       ]
     },
@@ -4345,6 +4422,12 @@
           "views": 21606,
           "likes": 195,
           "comments": 2
+        },
+        {
+          "date": "2026-06-14",
+          "views": 21628,
+          "likes": 195,
+          "comments": 2
         }
       ]
     },
@@ -4720,6 +4803,12 @@
         {
           "date": "2026-06-13",
           "views": 12909,
+          "likes": 201,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-14",
+          "views": 12936,
           "likes": 201,
           "comments": 0
         }
@@ -5102,6 +5191,12 @@
         {
           "date": "2026-06-13",
           "views": 8423,
+          "likes": 134,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-14",
+          "views": 8431,
           "likes": 134,
           "comments": 0
         }

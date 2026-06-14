@@ -2660,6 +2660,47 @@
       "ytm_subscribers": 7290,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-14",
+      "monthly_listeners": 189310,
+      "collected_at": "2026-06-14T15:47:29.130879+00:00",
+      "spotify_followers": 31848,
+      "youtube_subscribers": 883000,
+      "youtube_total_views": 156289872,
+      "youtube_video_count": 469,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6874
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6212
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5173
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2820
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2269
+        }
+      ],
+      "lastfm_listeners": 969,
+      "lastfm_playcount": 5536,
+      "ytm_subscribers": 7300,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -2748,19 +2789,39 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "弥七（マユリカ中谷）",
+        "browse_id": "UC8j2YM_b4W6UozZA97R5Aog",
+        "subscribers": "2.04K"
+      },
+      {
         "name": "Mrs. GREEN APPLE",
         "browse_id": "UCFB0qxwNwayGQ4Ksj8QpCXg",
         "subscribers": "32.3M"
       },
       {
+        "name": "Nishiyama Daddy Daddy",
+        "browse_id": "UCJ_LOaZ1IvM06s0oArHJmWA",
+        "subscribers": "1.45K"
+      },
+      {
+        "name": "あめんぼぷらす",
+        "browse_id": "UCrVrP-fAjWo5qQgyAwrxmMg",
+        "subscribers": "2.15K"
+      },
+      {
+        "name": "Tomona Yabiku",
+        "browse_id": "UCKmOHLP4CftjRa3sIYUWxSg",
+        "subscribers": "1.18K"
+      },
+      {
         "name": "Matsuya Onoe",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
-        "subscribers": "481"
+        "subscribers": "482"
       },
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "738"
+        "subscribers": "745"
       },
       {
         "name": "Yuria Nara",
@@ -2776,26 +2837,6 @@
         "name": "Tesesaku",
         "browse_id": "UCxMfaJk6D2pde7PBChZEzfg",
         "subscribers": "6.66K"
-      },
-      {
-        "name": "TV Senshi",
-        "browse_id": "UCFKdZVD2Jbh6Kv2nS72pW5A",
-        "subscribers": "4.72K"
-      },
-      {
-        "name": "Senasuke",
-        "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
-        "subscribers": "442K"
-      },
-      {
-        "name": "Rolly",
-        "browse_id": "UCDYK_cePWKdqMjverqNulMw",
-        "subscribers": "221"
-      },
-      {
-        "name": "MADAMADA",
-        "browse_id": "UCEzNOrBjotEn6POsgTYdqLA",
-        "subscribers": "6.65K"
       }
     ]
   },
@@ -2883,6 +2924,18 @@
       "type": "annotated",
       "related_annotation": "全国12都市ポップアップ「HELLO! PUPPET SUNSUN」（7/1〜）開催発表でアーティストデビュー注目が継続——Spotify月間リスナーが上昇（+6,433・2.53σ）",
       "detected_at": "2026-06-13T15:30:35.138143+00:00"
+    },
+    {
+      "date": "2026-06-14",
+      "metric": "monthly_listeners",
+      "value": 189310,
+      "baseline_mean": 182540.9,
+      "baseline_stddev": 3076.1,
+      "delta": 6769,
+      "score": 2.2,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-14T15:47:30.639842+00:00"
     }
   ]
 }

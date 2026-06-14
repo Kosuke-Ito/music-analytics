@@ -2658,6 +2658,47 @@
       "ytm_subscribers": 98100,
       "ytm_monthly_listeners": 1070000,
       "ytm_total_views": 25686876
+    },
+    {
+      "date": "2026-06-14",
+      "monthly_listeners": 199875,
+      "collected_at": "2026-06-14T15:46:55.923859+00:00",
+      "spotify_followers": 59465,
+      "youtube_subscribers": 98200,
+      "youtube_total_views": 31702945,
+      "youtube_video_count": 290,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 11468
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7290
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5268
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4980
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3530
+        }
+      ],
+      "lastfm_listeners": 14038,
+      "lastfm_playcount": 308564,
+      "ytm_subscribers": 98200,
+      "ytm_monthly_listeners": 1070000,
+      "ytm_total_views": 25686876
     }
   ],
   "annotations": [
@@ -2857,19 +2898,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "NELKE",
-        "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
-        "subscribers": "439K"
-      },
-      {
         "name": "sanetii",
         "browse_id": "UCC4DaSQOF1wDYZQMZ1Ir5ew",
         "subscribers": "177K"
       },
       {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.19M"
+      },
+      {
         "name": "Mulasaki Ima",
         "browse_id": "UC3atnuaadwis0OEvtk0p_aA",
         "subscribers": "5.55M"
+      },
+      {
+        "name": "NELKE",
+        "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
+        "subscribers": "439K"
       },
       {
         "name": "regallily",
@@ -2894,17 +2940,12 @@
       {
         "name": "Brandy Senki",
         "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
-        "subscribers": "176K"
+        "subscribers": "184K"
       },
       {
         "name": "Necry Talkie",
         "browse_id": "UCh7MXW8z8oudTJ3rS9kUflA",
         "subscribers": "265K"
-      },
-      {
-        "name": "ねぎ塩豚丼",
-        "browse_id": "UCb15VymqPPdgK9nnISoDDCg",
-        "subscribers": "166K"
       }
     ],
     "ytm_top_songs": [
@@ -3563,6 +3604,12 @@
           "views": 287456,
           "likes": 2634,
           "comments": 44
+        },
+        {
+          "date": "2026-06-14",
+          "views": 287963,
+          "likes": 2637,
+          "comments": 44
         }
       ]
     },
@@ -3938,6 +3985,12 @@
         {
           "date": "2026-06-13",
           "views": 160890,
+          "likes": 1397,
+          "comments": 12
+        },
+        {
+          "date": "2026-06-14",
+          "views": 161315,
           "likes": 1397,
           "comments": 12
         }
@@ -4532,6 +4585,12 @@
           "views": 165460,
           "likes": 1723,
           "comments": 24
+        },
+        {
+          "date": "2026-06-14",
+          "views": 166346,
+          "likes": 1730,
+          "comments": 24
         }
       ]
     },
@@ -4800,6 +4859,12 @@
           "views": 29732,
           "likes": 413,
           "comments": 13
+        },
+        {
+          "date": "2026-06-14",
+          "views": 30007,
+          "likes": 416,
+          "comments": 13
         }
       ]
     },
@@ -4829,6 +4894,12 @@
           "views": 41468,
           "likes": 818,
           "comments": 62
+        },
+        {
+          "date": "2026-06-14",
+          "views": 42597,
+          "likes": 845,
+          "comments": 65
         }
       ]
     }
@@ -5313,6 +5384,30 @@
       "type": "annotated",
       "related_annotation": "2ndアルバム「Rooom」（6/3発売）1週間後の継続効果＋日本武道館公演（11/22）への注目でSpotify・YTM月間リスナーが上昇——YouTube総再生数は前日同値のAPIカウンター凍結アーティファクト",
       "detected_at": "2026-06-13T15:30:04.532572+00:00"
+    },
+    {
+      "date": "2026-06-14",
+      "metric": "monthly_listeners",
+      "value": 199875,
+      "baseline_mean": 178896.7,
+      "baseline_stddev": 9276.8,
+      "delta": 20978,
+      "score": 2.26,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-14T15:46:57.186605+00:00"
+    },
+    {
+      "date": "2026-06-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 1070000,
+      "baseline_mean": 577433.3,
+      "baseline_stddev": 112435.7,
+      "delta": 492566,
+      "score": 4.38,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-14T15:46:57.186605+00:00"
     }
   ]
 }

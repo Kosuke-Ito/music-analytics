@@ -2617,6 +2617,47 @@
       "ytm_subscribers": 166000,
       "ytm_monthly_listeners": 2560000,
       "ytm_total_views": 75842403
+    },
+    {
+      "date": "2026-06-14",
+      "monthly_listeners": 250554,
+      "collected_at": "2026-06-14T15:47:12.701376+00:00",
+      "spotify_followers": 112240,
+      "youtube_subscribers": 166000,
+      "youtube_total_views": 76517737,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8256
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6773
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4795
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 3687
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2977
+        }
+      ],
+      "lastfm_listeners": 34918,
+      "lastfm_playcount": 522910,
+      "ytm_subscribers": 166000,
+      "ytm_monthly_listeners": 2560000,
+      "ytm_total_views": 75889873
     }
   ],
   "metadata": {
@@ -2651,19 +2692,34 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Mulasaki Ima",
-        "browse_id": "UC3atnuaadwis0OEvtk0p_aA",
-        "subscribers": "5.55M"
-      },
-      {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
         "subscribers": "492K"
       },
       {
+        "name": "Awesome City Club",
+        "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
+        "subscribers": "518K"
+      },
+      {
         "name": "tota",
         "browse_id": "UCc95RA4CPcWdTRBk5YunwRA",
-        "subscribers": "2.69M"
+        "subscribers": "2.63M"
+      },
+      {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.19M"
+      },
+      {
+        "name": "Ryokuousyoku Syakai",
+        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
+        "subscribers": "6.5M"
+      },
+      {
+        "name": "Mulasaki Ima",
+        "browse_id": "UC3atnuaadwis0OEvtk0p_aA",
+        "subscribers": "5.55M"
       },
       {
         "name": "suisougurashi",
@@ -2684,21 +2740,6 @@
         "name": "Atashi",
         "browse_id": "UCJijtFbU-8Xx46pwwwWOJXw",
         "subscribers": "69.6K"
-      },
-      {
-        "name": "Conton Candy",
-        "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
-        "subscribers": "1.88M"
-      },
-      {
-        "name": "703goushitsu",
-        "browse_id": "UCb-IpTqX5VlD4l4gp8yLWpw",
-        "subscribers": "1.14M"
-      },
-      {
-        "name": "hockrockb",
-        "browse_id": "UCkgOP8Xy2stY3WbSzILWBNQ",
-        "subscribers": "79.5K"
       }
     ],
     "ytm_top_songs": [
@@ -3094,6 +3135,12 @@
           "views": 1032700,
           "likes": 10026,
           "comments": 191
+        },
+        {
+          "date": "2026-06-14",
+          "views": 1033327,
+          "likes": 10031,
+          "comments": 191
         }
       ]
     },
@@ -3465,6 +3512,12 @@
           "views": 850203,
           "likes": 8234,
           "comments": 40
+        },
+        {
+          "date": "2026-06-14",
+          "views": 850921,
+          "likes": 8240,
+          "comments": 40
         }
       ]
     },
@@ -3835,6 +3888,12 @@
           "date": "2026-06-13",
           "views": 403663,
           "likes": 3778,
+          "comments": 47
+        },
+        {
+          "date": "2026-06-14",
+          "views": 404196,
+          "likes": 3780,
           "comments": 47
         }
       ]
@@ -4475,6 +4534,12 @@
           "views": 42774,
           "likes": 590,
           "comments": 14
+        },
+        {
+          "date": "2026-06-14",
+          "views": 43229,
+          "likes": 595,
+          "comments": 14
         }
       ]
     },
@@ -4587,6 +4652,12 @@
           "date": "2026-06-13",
           "views": 17511,
           "likes": 513,
+          "comments": 18
+        },
+        {
+          "date": "2026-06-14",
+          "views": 17960,
+          "likes": 521,
           "comments": 18
         }
       ]
@@ -4856,6 +4927,18 @@
       "type": "annotated",
       "related_annotation": "Mrs. GREEN APPLE presents「CEREMONY」Day1に出演",
       "detected_at": "2026-06-13T15:30:20.035575+00:00"
+    },
+    {
+      "date": "2026-06-14",
+      "metric": "monthly_listeners",
+      "value": 250554,
+      "baseline_mean": 246008.2,
+      "baseline_stddev": 2014.6,
+      "delta": 4545,
+      "score": 2.26,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-14T15:47:14.029477+00:00"
     }
   ]
 }

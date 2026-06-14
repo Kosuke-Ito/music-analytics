@@ -2463,6 +2463,44 @@
       "ytm_subscribers": 5760,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-14",
+      "monthly_listeners": 83202,
+      "collected_at": "2026-06-14T15:46:23.015443+00:00",
+      "spotify_followers": 9987,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2866
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 2355
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1606
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1344
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1021
+        }
+      ],
+      "lastfm_listeners": 8417,
+      "lastfm_playcount": 104197,
+      "ytm_subscribers": 5760,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -2490,9 +2528,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "NOMELON NOLEMON",
-        "browse_id": "UC42-y14_2cA9PAaqe-mAHjA",
-        "subscribers": "1.69M"
+        "name": "Suu Usuwa",
+        "browse_id": "UCi-wYABsTateGYJWf06KV3Q",
+        "subscribers": "260K"
       },
       {
         "name": "MARUMOCHI from HoneyWorks",
@@ -2500,9 +2538,14 @@
         "subscribers": "2.67K"
       },
       {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.19M"
+      },
+      {
         "name": "shallm",
         "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
-        "subscribers": "242K"
+        "subscribers": "244K"
       },
       {
         "name": "MIMiNARI",
@@ -2528,11 +2571,6 @@
         "name": "Tsuzuri",
         "browse_id": "UCDWmY3afuSAXfoNyMBTYm_g",
         "subscribers": "4.46K"
-      },
-      {
-        "name": "Suu Usuwa",
-        "browse_id": "UCi-wYABsTateGYJWf06KV3Q",
-        "subscribers": "260K"
       },
       {
         "name": "Hashimero",
@@ -2938,6 +2976,12 @@
           "views": 4012776,
           "likes": 31397,
           "comments": 0
+        },
+        {
+          "date": "2026-06-14",
+          "views": 4017953,
+          "likes": 31417,
+          "comments": 0
         }
       ]
     },
@@ -3314,6 +3358,12 @@
           "date": "2026-06-13",
           "views": 395854,
           "likes": 3213,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-14",
+          "views": 397048,
+          "likes": 3222,
           "comments": 0
         }
       ]
@@ -3692,6 +3742,12 @@
           "views": 224823,
           "likes": 3287,
           "comments": 0
+        },
+        {
+          "date": "2026-06-14",
+          "views": 226265,
+          "likes": 3297,
+          "comments": 0
         }
       ]
     },
@@ -4068,6 +4124,12 @@
           "date": "2026-06-13",
           "views": 690626,
           "likes": 5917,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-14",
+          "views": 691544,
+          "likes": 5921,
           "comments": 0
         }
       ]
@@ -4461,6 +4523,12 @@
           "views": 43891,
           "likes": 702,
           "comments": 0
+        },
+        {
+          "date": "2026-06-14",
+          "views": 44567,
+          "likes": 703,
+          "comments": 0
         }
       ]
     }
@@ -4603,6 +4671,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-13T15:29:30.796275+00:00"
+    },
+    {
+      "date": "2026-06-14",
+      "metric": "monthly_listeners",
+      "value": 83202,
+      "baseline_mean": 78594,
+      "baseline_stddev": 2057.7,
+      "delta": 4608,
+      "score": 2.24,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-14T15:46:24.350652+00:00"
     }
   ]
 }

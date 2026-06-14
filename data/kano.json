@@ -2652,6 +2652,47 @@
       "ytm_subscribers": 104,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-14",
+      "monthly_listeners": 9742,
+      "collected_at": "2026-06-14T15:47:45.435148+00:00",
+      "spotify_followers": 519,
+      "youtube_subscribers": 3250,
+      "youtube_total_views": 1999461,
+      "youtube_video_count": 100,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 298
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 249
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 220
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 154
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 140
+        }
+      ],
+      "lastfm_listeners": 262,
+      "lastfm_playcount": 1131,
+      "ytm_subscribers": 104,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -2687,12 +2728,12 @@
         "video_id": "BX9NmIjpjVQ"
       },
       {
-        "title": "Day&Night - Day＆Night",
-        "video_id": "aWTO11fznyQ"
-      },
-      {
         "title": "お気の毒様ね。",
         "video_id": "SNHlT4eeGjo"
+      },
+      {
+        "title": "Day&Night - Day＆Night",
+        "video_id": "aWTO11fznyQ"
       },
       {
         "title": "執着地点",
@@ -3069,6 +3110,12 @@
           "views": 336837,
           "likes": 3042,
           "comments": 21
+        },
+        {
+          "date": "2026-06-14",
+          "views": 338137,
+          "likes": 3052,
+          "comments": 21
         }
       ]
     },
@@ -3439,6 +3486,12 @@
           "date": "2026-06-13",
           "views": 11905,
           "likes": 75,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-14",
+          "views": 12198,
+          "likes": 77,
           "comments": 0
         }
       ]
@@ -3811,6 +3864,12 @@
           "views": 5115,
           "likes": 49,
           "comments": 0
+        },
+        {
+          "date": "2026-06-14",
+          "views": 5139,
+          "likes": 49,
+          "comments": 0
         }
       ]
     },
@@ -4054,6 +4113,12 @@
         {
           "date": "2026-06-13",
           "views": 1565,
+          "likes": 34,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-14",
+          "views": 1578,
           "likes": 34,
           "comments": 0
         }
@@ -4421,6 +4486,12 @@
           "views": 1235,
           "likes": 20,
           "comments": 0
+        },
+        {
+          "date": "2026-06-14",
+          "views": 1237,
+          "likes": 20,
+          "comments": 0
         }
       ]
     },
@@ -4657,6 +4728,18 @@
       "type": "annotated",
       "related_annotation": "チャンネル新規動画アップロード（6/8〜6/10・3本）後の視聴増でYouTube総再生数が上昇（+68,505・2.16σ）",
       "detected_at": "2026-06-13T15:30:52.491004+00:00"
+    },
+    {
+      "date": "2026-06-14",
+      "metric": "youtube_total_views",
+      "value": 1999461,
+      "baseline_mean": 1904015.6,
+      "baseline_stddev": 33435.4,
+      "delta": 95445,
+      "score": 2.85,
+      "type": "annotated",
+      "related_annotation": "チャンネル新規動画アップロード（6/8〜6/10・3本）後の視聴増でYouTube総再生数が上昇（+68,505・2.16σ）",
+      "detected_at": "2026-06-14T15:47:47.373308+00:00"
     }
   ]
 }

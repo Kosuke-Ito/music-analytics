@@ -2540,6 +2540,47 @@
       "ytm_subscribers": 1050000,
       "ytm_monthly_listeners": 1430000,
       "ytm_total_views": 971639628
+    },
+    {
+      "date": "2026-06-14",
+      "monthly_listeners": 1105925,
+      "collected_at": "2026-06-14T15:59:40.823631+00:00",
+      "spotify_followers": 375312,
+      "youtube_subscribers": 1050000,
+      "youtube_total_views": 1069807241,
+      "youtube_video_count": 472,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 50687
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 46801
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 38043
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 17782
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 15008
+        }
+      ],
+      "lastfm_listeners": 23063,
+      "lastfm_playcount": 621089,
+      "ytm_subscribers": 1050000,
+      "ytm_monthly_listeners": 1430000,
+      "ytm_total_views": 974869388
     }
   ],
   "metadata": {
@@ -2574,9 +2615,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "JO1",
-        "browse_id": "UCWyo-2Efw9aSmemM3LluERg",
-        "subscribers": "7.39M"
+        "name": "King & Prince",
+        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
+        "subscribers": "5.22M"
       },
       {
         "name": "BE:FIRST",
@@ -2584,14 +2625,9 @@
         "subscribers": "5.04M"
       },
       {
-        "name": "King & Prince",
-        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "5.22M"
-      },
-      {
-        "name": "SixTONES",
-        "browse_id": "UCKlEziFhgHJhkBkZg8Hp6tw",
-        "subscribers": "3.85M"
+        "name": "JO1",
+        "browse_id": "UCWyo-2Efw9aSmemM3LluERg",
+        "subscribers": "7.22M"
       },
       {
         "name": "Naniwa Danshi",
@@ -2604,14 +2640,19 @@
         "subscribers": "2.97M"
       },
       {
-        "name": "NiziU",
-        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "4.98M"
+        "name": "SixTONES",
+        "browse_id": "UCKlEziFhgHJhkBkZg8Hp6tw",
+        "subscribers": "3.85M"
       },
       {
         "name": "Snow Man",
         "browse_id": "UCDprz5PJZp9PjN0bVGZbAPg",
         "subscribers": "12.6M"
+      },
+      {
+        "name": "NiziU",
+        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
+        "subscribers": "4.98M"
       },
       {
         "name": "Travis Japan",
@@ -3011,6 +3052,12 @@
           "views": 3074582,
           "likes": 46400,
           "comments": 5740
+        },
+        {
+          "date": "2026-06-14",
+          "views": 3080571,
+          "likes": 46402,
+          "comments": 5742
         }
       ]
     },
@@ -3358,6 +3405,12 @@
           "views": 1790090,
           "likes": 10528,
           "comments": 102
+        },
+        {
+          "date": "2026-06-14",
+          "views": 1791064,
+          "likes": 10531,
+          "comments": 102
         }
       ]
     },
@@ -3681,6 +3734,12 @@
           "views": 790109,
           "likes": 5299,
           "comments": 54
+        },
+        {
+          "date": "2026-06-14",
+          "views": 792193,
+          "likes": 5305,
+          "comments": 54
         }
       ]
     },
@@ -3901,6 +3960,12 @@
           "date": "2026-06-13",
           "views": 730873,
           "likes": 4559,
+          "comments": 49
+        },
+        {
+          "date": "2026-06-14",
+          "views": 732008,
+          "likes": 4562,
           "comments": 49
         }
       ]
@@ -4229,6 +4294,12 @@
           "date": "2026-06-13",
           "views": 902723,
           "likes": 14654,
+          "comments": 362
+        },
+        {
+          "date": "2026-06-14",
+          "views": 904034,
+          "likes": 14656,
           "comments": 362
         }
       ]
@@ -4990,6 +5061,18 @@
       "type": "annotated",
       "related_annotation": "「2026 FNS歌謡祭 夏」（7月1日放送）第1弾出演者に決定",
       "detected_at": "2026-06-06T15:22:50.307814+00:00"
+    },
+    {
+      "date": "2026-06-14",
+      "metric": "youtube_total_views",
+      "value": 1069807241,
+      "baseline_mean": 1060880021.0,
+      "baseline_stddev": 4278242.6,
+      "delta": 8927220,
+      "score": 2.09,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-14T15:59:42.457519+00:00"
     }
   ]
 }

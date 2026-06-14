@@ -2543,6 +2543,47 @@
       "ytm_subscribers": 948000,
       "ytm_monthly_listeners": 6500000,
       "ytm_total_views": 897031999
+    },
+    {
+      "date": "2026-06-14",
+      "monthly_listeners": 2667679,
+      "collected_at": "2026-06-14T15:58:33.806075+00:00",
+      "spotify_followers": 1543161,
+      "youtube_subscribers": 948000,
+      "youtube_total_views": 911306444,
+      "youtube_video_count": 422,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 82757
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 78567
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 57072
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 31850
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 28418
+        }
+      ],
+      "lastfm_listeners": 16805,
+      "lastfm_playcount": 779391,
+      "ytm_subscribers": 948000,
+      "ytm_monthly_listeners": 6500000,
+      "ytm_total_views": 897031999
     }
   ],
   "annotations": [
@@ -2748,14 +2789,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Aimer",
-        "browse_id": "UC_gksw7NEueO_u3lPL372hA",
-        "subscribers": "10.5M"
+        "name": "suis from Yorushika",
+        "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
+        "subscribers": "29K"
       },
       {
         "name": "Miwa",
         "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
         "subscribers": "1.79M"
+      },
+      {
+        "name": "Aimer",
+        "browse_id": "UC_gksw7NEueO_u3lPL372hA",
+        "subscribers": "10.6M"
+      },
+      {
+        "name": "WhaleDontSleep",
+        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
+        "subscribers": "492K"
       },
       {
         "name": "eill",
@@ -2768,34 +2819,24 @@
         "subscribers": "14.1M"
       },
       {
-        "name": "suis from Yorushika",
-        "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
-        "subscribers": "29K"
+        "name": "Lilas",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "18.2M"
       },
       {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "492K"
-      },
-      {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "36.5M"
-      },
-      {
-        "name": "Zarame",
-        "browse_id": "UCsXbUCnV9SqRGkaO2ifzkBw",
-        "subscribers": "299K"
-      },
-      {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "67.5M"
+        "name": "YUI",
+        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
+        "subscribers": "4.87M"
       },
       {
         "name": "Awesome City Club",
         "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
         "subscribers": "518K"
+      },
+      {
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "67.5M"
       }
     ],
     "ytm_top_songs": [
@@ -3191,6 +3232,12 @@
           "views": 30637114,
           "likes": 260090,
           "comments": 645
+        },
+        {
+          "date": "2026-06-14",
+          "views": 30665196,
+          "likes": 260360,
+          "comments": 648
         }
       ]
     },
@@ -3561,6 +3608,12 @@
           "date": "2026-06-13",
           "views": 21033620,
           "likes": 84930,
+          "comments": 197
+        },
+        {
+          "date": "2026-06-14",
+          "views": 21045229,
+          "likes": 84950,
           "comments": 197
         }
       ]
@@ -3933,6 +3986,12 @@
           "views": 1795874,
           "likes": 10914,
           "comments": 58
+        },
+        {
+          "date": "2026-06-14",
+          "views": 1797519,
+          "likes": 10921,
+          "comments": 58
         }
       ]
     },
@@ -4303,6 +4362,12 @@
           "date": "2026-06-13",
           "views": 11179722,
           "likes": 54327,
+          "comments": 129
+        },
+        {
+          "date": "2026-06-14",
+          "views": 11184767,
+          "likes": 54348,
           "comments": 129
         }
       ]
@@ -4685,6 +4750,12 @@
           "views": 2682602,
           "likes": 12945,
           "comments": 56
+        },
+        {
+          "date": "2026-06-14",
+          "views": 2684092,
+          "likes": 12948,
+          "comments": 56
         }
       ]
     }
@@ -4953,6 +5024,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-13T15:41:36.880086+00:00"
+    },
+    {
+      "date": "2026-06-14",
+      "metric": "youtube_total_views",
+      "value": 911306444,
+      "baseline_mean": 903343906.9,
+      "baseline_stddev": 3726508.8,
+      "delta": 7962537,
+      "score": 2.14,
+      "type": "annotated",
+      "related_annotation": "日テレ「夜の音」スタジオライブ（6/9放送）効果継続でYouTube総再生数ベースライン超過（+844万・2.35σ）",
+      "detected_at": "2026-06-14T15:58:35.441124+00:00"
     }
   ]
 }
