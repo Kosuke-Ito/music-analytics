@@ -4934,6 +4934,16 @@
       "verified": false
     },
     {
+      "date": "2026-05-27",
+      "title": "YouTube総再生数に異常急増——データ収集エラー（キタニタツヤのチャンネルデータ混入）",
+      "description": "OKAMOTO'SのYouTube総再生数が5月27日に964,644,923（2.08σ）と急増を記録。実際のOKAMOTO'SのYouTube総再生数は約43〜44M回だが、スクレイパーがキタニタツヤのYouTubeチャンネル（UCgP3GbgbuVzAhlctGU5yuPA）のデータを誤って取得したことによるデータ収集エラー。",
+      "category": "other",
+      "added_at": "2026-06-15T15:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high",
+      "verified": false
+    },
+    {
       "date": "2026-05-31",
       "title": "オカモトショウ、マンガ大賞2026審査員としてReal Soundにインタビュー掲載",
       "description": "OKAMOTO'Sのボーカル・オカモトショウがマンガ大賞2026の審査員として話題作を語るインタビューがReal Soundに掲載された。",
@@ -4962,6 +4972,16 @@
       "category": "release",
       "added_at": "2026-06-15T00:00:00+09:00",
       "source": "oricon.co.jp, natalie.mu",
+      "confidence": "high",
+      "verified": false
+    },
+    {
+      "date": "2026-06-15",
+      "title": "YouTube総再生数に異常急増——データ収集エラー（キタニタツヤのチャンネルデータ混入）再発",
+      "description": "6月12日（43,560,392・+30万・2.04σ）は実際のOKAMOTO'Sデータだったが、6月15日には再びキタニタツヤのYouTubeチャンネル（UCgP3GbgbuVzAhlctGU5yuPA）のデータが混入し、YouTube総再生数が981,367,630（2.15σ）と誤記録された。5月27日頃から続く断続的なデータ収集エラーの再発（実際のOKAMOTO'SのYouTube総再生数は約44M回）。",
+      "category": "other",
+      "added_at": "2026-06-15T15:00:00+00:00",
+      "source": "データ検証（daily records確認）",
       "confidence": "high",
       "verified": false
     }
