@@ -2701,6 +2701,47 @@
       "ytm_subscribers": 7300,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-15",
+      "monthly_listeners": 189567,
+      "collected_at": "2026-06-15T18:25:34.728677+00:00",
+      "spotify_followers": 31916,
+      "youtube_subscribers": 883000,
+      "youtube_total_views": 156570916,
+      "youtube_video_count": 470,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6815
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6269
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5082
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2796
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2348
+        }
+      ],
+      "lastfm_listeners": 972,
+      "lastfm_playcount": 5548,
+      "ytm_subscribers": 7310,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -2789,29 +2830,29 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "弥七（マユリカ中谷）",
-        "browse_id": "UC8j2YM_b4W6UozZA97R5Aog",
-        "subscribers": "2.04K"
-      },
-      {
         "name": "Mrs. GREEN APPLE",
         "browse_id": "UCFB0qxwNwayGQ4Ksj8QpCXg",
-        "subscribers": "32.3M"
+        "subscribers": "33.1M"
       },
       {
-        "name": "Nishiyama Daddy Daddy",
-        "browse_id": "UCJ_LOaZ1IvM06s0oArHJmWA",
-        "subscribers": "1.45K"
+        "name": "MONAKI",
+        "browse_id": "UCO-nYtU_R0wWunK2j6W53qQ",
+        "subscribers": "6.72M"
       },
       {
-        "name": "あめんぼぷらす",
-        "browse_id": "UCrVrP-fAjWo5qQgyAwrxmMg",
-        "subscribers": "2.15K"
+        "name": "MON7A",
+        "browse_id": "UCb1o75JUe9TLcfm5A1JH5fA",
+        "subscribers": "1.22M"
       },
       {
-        "name": "Tomona Yabiku",
-        "browse_id": "UCKmOHLP4CftjRa3sIYUWxSg",
-        "subscribers": "1.18K"
+        "name": "HIKAKIN & SEIKIN",
+        "browse_id": "UCJ8miSfGoAyQDpW-itFEJgg",
+        "subscribers": "18.9K"
+      },
+      {
+        "name": "yamino oneesan",
+        "browse_id": "UCZP704L6_ZSyUKxxmSXGlkw",
+        "subscribers": "22.9K"
       },
       {
         "name": "Matsuya Onoe",
@@ -2821,7 +2862,7 @@
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "745"
+        "subscribers": "748"
       },
       {
         "name": "Yuria Nara",
@@ -2936,6 +2977,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-14T15:47:30.639842+00:00"
+    },
+    {
+      "date": "2026-06-15",
+      "metric": "monthly_listeners",
+      "value": 189567,
+      "baseline_mean": 182939.5,
+      "baseline_stddev": 3151.8,
+      "delta": 6627,
+      "score": 2.1,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-15T18:25:35.974705+00:00"
     }
   ]
 }

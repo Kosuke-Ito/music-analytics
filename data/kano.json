@@ -2693,10 +2693,55 @@
       "ytm_subscribers": 104,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-15",
+      "monthly_listeners": 9752,
+      "collected_at": "2026-06-15T18:25:53.264620+00:00",
+      "spotify_followers": 520,
+      "youtube_subscribers": 3260,
+      "youtube_total_views": 2016410,
+      "youtube_video_count": 100,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 299
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 242
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 216
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 152
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 141
+        }
+      ],
+      "lastfm_listeners": 262,
+      "lastfm_playcount": 1132,
+      "ytm_subscribers": 105,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
     "lastfm_similar_artists": [
+      {
+        "name": "山内総一郎",
+        "url": "https://www.last.fm/music/%E5%B1%B1%E5%86%85%E7%B7%8F%E4%B8%80%E9%83%8E"
+      },
       {
         "name": "MAISONdes, MIMI & 華乃",
         "url": "https://www.last.fm/music/MAISONdes,+MIMI+&+%E8%8F%AF%E4%B9%83"
@@ -2704,10 +2749,6 @@
       {
         "name": "稀羽すう",
         "url": "https://www.last.fm/music/%E7%A8%80%E7%BE%BD%E3%81%99%E3%81%86"
-      },
-      {
-        "name": "山内総一郎",
-        "url": "https://www.last.fm/music/%E5%B1%B1%E5%86%85%E7%B7%8F%E4%B8%80%E9%83%8E"
       },
       {
         "name": "gaogao",
@@ -3116,6 +3157,12 @@
           "views": 338137,
           "likes": 3052,
           "comments": 21
+        },
+        {
+          "date": "2026-06-15",
+          "views": 339656,
+          "likes": 3066,
+          "comments": 21
         }
       ]
     },
@@ -3492,6 +3539,12 @@
           "date": "2026-06-14",
           "views": 12198,
           "likes": 77,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-15",
+          "views": 12451,
+          "likes": 79,
           "comments": 0
         }
       ]
@@ -3870,6 +3923,12 @@
           "views": 5139,
           "likes": 49,
           "comments": 0
+        },
+        {
+          "date": "2026-06-15",
+          "views": 5161,
+          "likes": 49,
+          "comments": 0
         }
       ]
     },
@@ -4119,6 +4178,12 @@
         {
           "date": "2026-06-14",
           "views": 1578,
+          "likes": 34,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-15",
+          "views": 1602,
           "likes": 34,
           "comments": 0
         }
@@ -4492,6 +4557,12 @@
           "views": 1237,
           "likes": 20,
           "comments": 0
+        },
+        {
+          "date": "2026-06-15",
+          "views": 1250,
+          "likes": 20,
+          "comments": 0
         }
       ]
     },
@@ -4740,6 +4811,18 @@
       "type": "annotated",
       "related_annotation": "チャンネル新規動画アップロード（6/8〜6/10・3本）後の視聴増でYouTube総再生数が上昇（+68,505・2.16σ）",
       "detected_at": "2026-06-14T15:47:47.373308+00:00"
+    },
+    {
+      "date": "2026-06-15",
+      "metric": "youtube_total_views",
+      "value": 2016410,
+      "baseline_mean": 1909101.2,
+      "baseline_stddev": 35874.2,
+      "delta": 107308,
+      "score": 2.99,
+      "type": "annotated",
+      "related_annotation": "チャンネル新規動画アップロード（6/8〜6/10・3本）後の視聴増でYouTube総再生数が上昇（+68,505・2.16σ）",
+      "detected_at": "2026-06-15T18:25:54.827988+00:00"
     }
   ]
 }

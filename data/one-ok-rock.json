@@ -2884,6 +2884,47 @@
       "ytm_subscribers": 5030000,
       "ytm_monthly_listeners": 10000000,
       "ytm_total_views": 2429663388
+    },
+    {
+      "date": "2026-06-15",
+      "monthly_listeners": 3659871,
+      "collected_at": "2026-06-15T18:26:13.918970+00:00",
+      "spotify_followers": 6175825,
+      "youtube_subscribers": 5030000,
+      "youtube_total_views": 2466878281,
+      "youtube_video_count": 552,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 112733
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 100618
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 71133
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 66786
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 46661
+        }
+      ],
+      "lastfm_listeners": 639625,
+      "lastfm_playcount": 55212114,
+      "ytm_subscribers": 5030000,
+      "ytm_monthly_listeners": 10100000,
+      "ytm_total_views": 2434603697
     }
   ],
   "annotations": [
@@ -3564,6 +3605,12 @@
           "views": 7455972,
           "likes": 41080,
           "comments": 98
+        },
+        {
+          "date": "2026-06-15",
+          "views": 7484047,
+          "likes": 41219,
+          "comments": 98
         }
       ]
     },
@@ -3947,6 +3994,12 @@
           "views": 12357573,
           "likes": 67988,
           "comments": 423
+        },
+        {
+          "date": "2026-06-15",
+          "views": 12409258,
+          "likes": 68237,
+          "comments": 425
         }
       ]
     },
@@ -4329,6 +4382,12 @@
           "date": "2026-06-14",
           "views": 6342379,
           "likes": 29034,
+          "comments": 57
+        },
+        {
+          "date": "2026-06-15",
+          "views": 6366524,
+          "likes": 29125,
           "comments": 57
         }
       ]
@@ -4713,6 +4772,12 @@
           "views": 15539589,
           "likes": 133994,
           "comments": 359
+        },
+        {
+          "date": "2026-06-15",
+          "views": 15550719,
+          "likes": 134041,
+          "comments": 359
         }
       ]
     },
@@ -4999,6 +5064,12 @@
           "date": "2026-06-14",
           "views": 27240199,
           "likes": 234671,
+          "comments": 2188
+        },
+        {
+          "date": "2026-06-15",
+          "views": 27261436,
+          "likes": 234759,
           "comments": 2188
         }
       ]
@@ -5404,6 +5475,18 @@
       "type": "annotated",
       "related_annotation": "DETOX World Tour 北米公演 トロント・コカ・コーラ・コロシアム 最終日",
       "detected_at": "2026-06-10T16:59:59.740825+00:00"
+    },
+    {
+      "date": "2026-06-15",
+      "metric": "youtube_total_views",
+      "value": 2466878281,
+      "baseline_mean": 2447024695.1,
+      "baseline_stddev": 9656757.0,
+      "delta": 19853585,
+      "score": 2.06,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-15T18:26:15.158472+00:00"
     }
   ]
 }

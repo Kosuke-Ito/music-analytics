@@ -2895,6 +2895,50 @@
       "ytm_subscribers": 18500,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 715704
+    },
+    {
+      "date": "2026-06-15",
+      "monthly_listeners": 51352,
+      "collected_at": "2026-06-15T18:28:56.628408+00:00",
+      "spotify_followers": 19375,
+      "youtube_subscribers": 18500,
+      "youtube_total_views": 771332,
+      "youtube_video_count": 31,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2439
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1265
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 764
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 576
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 551
+        }
+      ],
+      "lastfm_listeners": 8123,
+      "lastfm_playcount": 48669,
+      "ytm_subscribers": 18500,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 724855,
+      "validation_flags": [
+        "unusual_deviation"
+      ]
     }
   ],
   "annotations": [
@@ -3065,12 +3109,12 @@
         "video_id": "4lbafutZHSU"
       },
       {
-        "title": "Wind City",
-        "video_id": "ZVGTzh2JyiY"
+        "title": "sign",
+        "video_id": "Ndt_zsupPMg"
       },
       {
-        "title": "Dancer in the Snow",
-        "video_id": "m8cQ4Mw6s-A"
+        "title": "Wind City",
+        "video_id": "ZVGTzh2JyiY"
       }
     ],
     "ytm_description": "LAUSBUB is newwave & Techno pop band from Sapporo, Japan, formed by Rico and Mei.",
@@ -3080,20 +3124,20 @@
         "url": "https://www.last.fm/music/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E9%9F%B3%E6%A5%BD%E3%82%AF%E3%83%A9%E3%83%96"
       },
       {
-        "name": "Cho Co Pa Co Cho Co Quin Quin",
-        "url": "https://www.last.fm/music/Cho+Co+Pa+Co+Cho+Co+Quin+Quin"
-      },
-      {
         "name": "電気グルーヴ",
         "url": "https://www.last.fm/music/%E9%9B%BB%E6%B0%97%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4"
       },
       {
-        "name": "DE DE MOUSE",
-        "url": "https://www.last.fm/music/DE+DE+MOUSE"
-      },
-      {
         "name": "石野卓球",
         "url": "https://www.last.fm/music/%E7%9F%B3%E9%87%8E%E5%8D%93%E7%90%83"
+      },
+      {
+        "name": "Muque",
+        "url": "https://www.last.fm/music/Muque"
+      },
+      {
+        "name": "Cho Co Pa Co Cho Co Quin Quin",
+        "url": "https://www.last.fm/music/Cho+Co+Pa+Co+Cho+Co+Quin+Quin"
       }
     ]
   },
@@ -3289,6 +3333,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-14T15:50:33.076887+00:00"
+    },
+    {
+      "date": "2026-06-15",
+      "metric": "monthly_listeners",
+      "value": 51352,
+      "baseline_mean": 41640.3,
+      "baseline_stddev": 1878.8,
+      "delta": 9711,
+      "score": 5.17,
+      "type": "annotated",
+      "related_annotation": "Prime Original「クロエマ」配信開始（6/12）初週末効果——Spotify月間リスナー（+6,981・4.97σ）・YouTube総再生数が上昇",
+      "detected_at": "2026-06-15T18:28:57.684098+00:00"
+    },
+    {
+      "date": "2026-06-15",
+      "metric": "youtube_total_views",
+      "value": 771332,
+      "baseline_mean": 744693.3,
+      "baseline_stddev": 8006.6,
+      "delta": 26638,
+      "score": 3.33,
+      "type": "annotated",
+      "related_annotation": "Prime Original「クロエマ」配信開始（6/12）初週末効果——Spotify月間リスナー（+6,981・4.97σ）・YouTube総再生数が上昇",
+      "detected_at": "2026-06-15T18:28:57.684098+00:00"
     }
   ],
   "song_performance": {
@@ -3670,6 +3738,12 @@
         {
           "date": "2026-06-14",
           "views": 3109,
+          "likes": 70,
+          "comments": 1
+        },
+        {
+          "date": "2026-06-15",
+          "views": 3146,
           "likes": 70,
           "comments": 1
         }
@@ -4055,6 +4129,12 @@
           "views": 6881,
           "likes": 178,
           "comments": 6
+        },
+        {
+          "date": "2026-06-15",
+          "views": 6899,
+          "likes": 178,
+          "comments": 6
         }
       ]
     },
@@ -4436,6 +4516,12 @@
         {
           "date": "2026-06-14",
           "views": 21628,
+          "likes": 195,
+          "comments": 2
+        },
+        {
+          "date": "2026-06-15",
+          "views": 21663,
           "likes": 195,
           "comments": 2
         }
@@ -4820,6 +4906,12 @@
           "date": "2026-06-14",
           "views": 12936,
           "likes": 201,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-15",
+          "views": 12946,
+          "likes": 202,
           "comments": 0
         }
       ]
@@ -5209,6 +5301,17 @@
           "views": 8431,
           "likes": 134,
           "comments": 0
+        }
+      ]
+    },
+    "Ndt_zsupPMg": {
+      "title": "sign",
+      "history": [
+        {
+          "date": "2026-06-15",
+          "views": 1303,
+          "likes": 47,
+          "comments": 2
         }
       ]
     }
