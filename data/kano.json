@@ -2734,6 +2734,44 @@
       "ytm_subscribers": 105,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-16",
+      "monthly_listeners": 9820,
+      "collected_at": "2026-06-16T18:29:51.734824+00:00",
+      "spotify_followers": 520,
+      "youtube_subscribers": 3260,
+      "youtube_total_views": 2033817,
+      "youtube_video_count": 100,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 294
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 236
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 211
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 156
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 148
+        }
+      ],
+      "lastfm_listeners": 263,
+      "lastfm_playcount": 1136
     }
   ],
   "metadata": {
@@ -4823,6 +4861,18 @@
       "type": "annotated",
       "related_annotation": "チャンネル新規動画アップロード（6/8〜6/10・3本）後の視聴増でYouTube総再生数が上昇（+68,505・2.16σ）",
       "detected_at": "2026-06-15T18:25:54.827988+00:00"
+    },
+    {
+      "date": "2026-06-16",
+      "metric": "youtube_total_views",
+      "value": 2033817,
+      "baseline_mean": 1914583.6,
+      "baseline_stddev": 39138.4,
+      "delta": 119233,
+      "score": 3.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-16T18:29:52.788220+00:00"
     }
   ]
 }

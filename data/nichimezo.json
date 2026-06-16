@@ -2539,6 +2539,44 @@
       "ytm_subscribers": 5770,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-16",
+      "monthly_listeners": 85022,
+      "collected_at": "2026-06-16T18:28:30.158946+00:00",
+      "spotify_followers": 10009,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2941
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 2404
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1612
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1397
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1038
+        }
+      ],
+      "lastfm_listeners": 8437,
+      "lastfm_playcount": 104564,
+      "ytm_subscribers": 5780,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -2566,6 +2604,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "shallm",
+        "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
+        "subscribers": "263K"
+      },
+      {
         "name": "9Lana",
         "browse_id": "UClZMIQn97IcvrdGviWz-qRw",
         "subscribers": "17.9M"
@@ -2574,26 +2617,6 @@
         "name": "Tsukuyomi",
         "browse_id": "UCYtEcAV_sbx-YrHFqg-KrDg",
         "subscribers": "1.03M"
-      },
-      {
-        "name": "NOMELON NOLEMON",
-        "browse_id": "UC42-y14_2cA9PAaqe-mAHjA",
-        "subscribers": "1.73M"
-      },
-      {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.07M"
-      },
-      {
-        "name": "MARUMOCHI from HoneyWorks",
-        "browse_id": "UCJxr7YkgS2mEZBFyq39Wkhg",
-        "subscribers": "2.67K"
-      },
-      {
-        "name": "shallm",
-        "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
-        "subscribers": "263K"
       },
       {
         "name": "MIMiNARI",
@@ -2614,6 +2637,21 @@
         "name": "Shiyui",
         "browse_id": "UCAkYyroRwc9qPuymye_2fNA",
         "subscribers": "597K"
+      },
+      {
+        "name": "Tsuzuri",
+        "browse_id": "UCDWmY3afuSAXfoNyMBTYm_g",
+        "subscribers": "4.46K"
+      },
+      {
+        "name": "Suu Usuwa",
+        "browse_id": "UCi-wYABsTateGYJWf06KV3Q",
+        "subscribers": "268K"
+      },
+      {
+        "name": "Hashimero",
+        "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
+        "subscribers": "374K"
       }
     ],
     "ytm_top_songs": [
@@ -3026,6 +3064,12 @@
           "views": 4025154,
           "likes": 31448,
           "comments": 0
+        },
+        {
+          "date": "2026-06-16",
+          "views": 4032340,
+          "likes": 31475,
+          "comments": 0
         }
       ]
     },
@@ -3414,6 +3458,12 @@
           "date": "2026-06-15",
           "views": 398273,
           "likes": 3228,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-16",
+          "views": 399595,
+          "likes": 3235,
           "comments": 0
         }
       ]
@@ -3804,6 +3854,12 @@
           "views": 228138,
           "likes": 3316,
           "comments": 0
+        },
+        {
+          "date": "2026-06-16",
+          "views": 229877,
+          "likes": 3324,
+          "comments": 0
         }
       ]
     },
@@ -4192,6 +4248,12 @@
           "date": "2026-06-15",
           "views": 692630,
           "likes": 5930,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-16",
+          "views": 693752,
+          "likes": 5937,
           "comments": 0
         }
       ]
@@ -4597,6 +4659,12 @@
           "views": 45545,
           "likes": 712,
           "comments": 0
+        },
+        {
+          "date": "2026-06-16",
+          "views": 46472,
+          "likes": 715,
+          "comments": 0
         }
       ]
     }
@@ -4773,6 +4841,18 @@
       "type": "annotated",
       "related_annotation": "「アイズ」（5/27配信）2週間後ロングテール＋「MAISONdes LIVE #3」（6/6）余波でSpotify月間リスナーが上昇（83,202・2.41σ）",
       "detected_at": "2026-06-15T18:24:24.468267+00:00"
+    },
+    {
+      "date": "2026-06-16",
+      "metric": "monthly_listeners",
+      "value": 85022,
+      "baseline_mean": 78841.5,
+      "baseline_stddev": 2418.4,
+      "delta": 6180,
+      "score": 2.56,
+      "type": "annotated",
+      "related_annotation": "「アイズ」（5/27配信）2週間後ロングテール＋「MAISONdes LIVE #3」（6/6）余波でSpotify月間リスナーが上昇（83,202・2.41σ）",
+      "detected_at": "2026-06-16T18:28:31.273098+00:00"
     }
   ]
 }

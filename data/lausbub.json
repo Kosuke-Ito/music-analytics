@@ -2939,6 +2939,47 @@
       "validation_flags": [
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-06-16",
+      "monthly_listeners": 52641,
+      "collected_at": "2026-06-16T18:32:36.560028+00:00",
+      "spotify_followers": 19408,
+      "youtube_subscribers": 18600,
+      "youtube_total_views": 771332,
+      "youtube_video_count": 31,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2521
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1300
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 794
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 591
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 571
+        }
+      ],
+      "lastfm_listeners": 8150,
+      "lastfm_playcount": 48771,
+      "ytm_subscribers": 18600,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 724855
     }
   ],
   "annotations": [
@@ -3097,6 +3138,10 @@
     ],
     "ytm_top_songs": [
       {
+        "title": "sign",
+        "video_id": "Ndt_zsupPMg"
+      },
+      {
         "title": "higher",
         "video_id": "QHb9J4x7Dpo"
       },
@@ -3107,10 +3152,6 @@
       {
         "title": "golden lighter",
         "video_id": "4lbafutZHSU"
-      },
-      {
-        "title": "sign",
-        "video_id": "Ndt_zsupPMg"
       },
       {
         "title": "Wind City",
@@ -3357,6 +3398,30 @@
       "type": "annotated",
       "related_annotation": "Prime Original「クロエマ」配信開始（6/12）初週末効果——Spotify月間リスナー（+6,981・4.97σ）・YouTube総再生数が上昇",
       "detected_at": "2026-06-15T18:28:57.684098+00:00"
+    },
+    {
+      "date": "2026-06-16",
+      "metric": "monthly_listeners",
+      "value": 52641,
+      "baseline_mean": 41993.0,
+      "baseline_stddev": 2554.2,
+      "delta": 10648,
+      "score": 4.17,
+      "type": "annotated",
+      "related_annotation": "Prime Original「クロエマ」配信開始（6/12）初週末効果——Spotify月間リスナー（+6,981・4.97σ）・YouTube総再生数が上昇",
+      "detected_at": "2026-06-16T18:32:37.461214+00:00"
+    },
+    {
+      "date": "2026-06-16",
+      "metric": "youtube_total_views",
+      "value": 771332,
+      "baseline_mean": 746082.2,
+      "baseline_stddev": 8849.0,
+      "delta": 25249,
+      "score": 2.85,
+      "type": "annotated",
+      "related_annotation": "Prime Original「クロエマ」配信開始（6/12）初週末効果——Spotify月間リスナー（+6,981・4.97σ）・YouTube総再生数が上昇",
+      "detected_at": "2026-06-16T18:32:37.461214+00:00"
     }
   ],
   "song_performance": {
@@ -3746,6 +3811,12 @@
           "views": 3146,
           "likes": 70,
           "comments": 1
+        },
+        {
+          "date": "2026-06-16",
+          "views": 3169,
+          "likes": 71,
+          "comments": 1
         }
       ]
     },
@@ -4133,6 +4204,12 @@
         {
           "date": "2026-06-15",
           "views": 6899,
+          "likes": 178,
+          "comments": 6
+        },
+        {
+          "date": "2026-06-16",
+          "views": 6912,
           "likes": 178,
           "comments": 6
         }
@@ -4524,6 +4601,12 @@
           "views": 21663,
           "likes": 195,
           "comments": 2
+        },
+        {
+          "date": "2026-06-16",
+          "views": 21691,
+          "likes": 195,
+          "comments": 2
         }
       ]
     },
@@ -4911,6 +4994,12 @@
         {
           "date": "2026-06-15",
           "views": 12946,
+          "likes": 202,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-16",
+          "views": 12965,
           "likes": 202,
           "comments": 0
         }
@@ -5311,6 +5400,12 @@
           "date": "2026-06-15",
           "views": 1303,
           "likes": 47,
+          "comments": 2
+        },
+        {
+          "date": "2026-06-16",
+          "views": 1871,
+          "likes": 52,
           "comments": 2
         }
       ]

@@ -2740,6 +2740,47 @@
       "ytm_subscribers": 98300,
       "ytm_monthly_listeners": 1440000,
       "ytm_total_views": 25889977
+    },
+    {
+      "date": "2026-06-16",
+      "monthly_listeners": 201435,
+      "collected_at": "2026-06-16T18:29:03.132556+00:00",
+      "spotify_followers": 59650,
+      "youtube_subscribers": 98400,
+      "youtube_total_views": 32015871,
+      "youtube_video_count": 292,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 11643
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7286
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5358
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4938
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3566
+        }
+      ],
+      "lastfm_listeners": 14091,
+      "lastfm_playcount": 310691,
+      "ytm_subscribers": 98400,
+      "ytm_monthly_listeners": 1440000,
+      "ytm_total_views": 25948948
     }
   ],
   "annotations": [
@@ -2975,19 +3016,14 @@
         "subscribers": "438K"
       },
       {
-        "name": "NOMELON NOLEMON",
-        "browse_id": "UC42-y14_2cA9PAaqe-mAHjA",
-        "subscribers": "1.73M"
+        "name": "PompadollS",
+        "browse_id": "UCmu5lpe6Wt-7yCHe2rA4zYQ",
+        "subscribers": "163K"
       },
       {
-        "name": "Mulasaki Ima",
-        "browse_id": "UC3atnuaadwis0OEvtk0p_aA",
-        "subscribers": "5.53M"
-      },
-      {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.07M"
+        "name": "Polkadot Stingray",
+        "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
+        "subscribers": "860K"
       },
       {
         "name": "regallily",
@@ -3000,14 +3036,19 @@
         "subscribers": "1.9M"
       },
       {
-        "name": "YUTORI",
-        "browse_id": "UCqM8y7cbNcekfXHhvitCLyw",
-        "subscribers": "218K"
-      },
-      {
         "name": "OddRe:",
         "browse_id": "UCLRAvTum9DcWeJQtHn1D3WA",
         "subscribers": "378K"
+      },
+      {
+        "name": "Brandy Senki",
+        "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
+        "subscribers": "324K"
+      },
+      {
+        "name": "Necry Talkie",
+        "browse_id": "UCh7MXW8z8oudTJ3rS9kUflA",
+        "subscribers": "279K"
       }
     ],
     "ytm_top_songs": [
@@ -3028,8 +3069,8 @@
         "video_id": "sSLXI1h6h0U"
       },
       {
-        "title": "CALL",
-        "video_id": "ZpGXa_gYf3Y"
+        "title": "Geeek",
+        "video_id": "530e-M3Mt34"
       }
     ],
     "ytm_description": "Aooo is a Japanese rock band formed in Tokyo in August 2023. It consists of Riko Ishino, Surii/Threee, Hikaru Yamamoto, and Tsumiki. The band made their major-label debut with Echoes and Sony Music Entertainment Japan in October 2024 with their debut studio album Aooo.\n\nFrom Wikipedia ("
@@ -3678,6 +3719,12 @@
           "views": 288744,
           "likes": 2641,
           "comments": 44
+        },
+        {
+          "date": "2026-06-16",
+          "views": 289394,
+          "likes": 2647,
+          "comments": 44
         }
       ]
     },
@@ -4066,6 +4113,12 @@
           "date": "2026-06-15",
           "views": 161887,
           "likes": 1404,
+          "comments": 12
+        },
+        {
+          "date": "2026-06-16",
+          "views": 162371,
+          "likes": 1408,
           "comments": 12
         }
       ]
@@ -4671,6 +4724,12 @@
           "views": 167045,
           "likes": 1735,
           "comments": 24
+        },
+        {
+          "date": "2026-06-16",
+          "views": 167699,
+          "likes": 1739,
+          "comments": 24
         }
       ]
     },
@@ -4992,6 +5051,23 @@
           "views": 43907,
           "likes": 876,
           "comments": 69
+        },
+        {
+          "date": "2026-06-16",
+          "views": 45126,
+          "likes": 896,
+          "comments": 71
+        }
+      ]
+    },
+    "530e-M3Mt34": {
+      "title": "Geeek",
+      "history": [
+        {
+          "date": "2026-06-16",
+          "views": 118587,
+          "likes": 840,
+          "comments": 15
         }
       ]
     }
@@ -5536,6 +5612,30 @@
       "type": "annotated",
       "related_annotation": "TVアニメ「グロウアップショウ」EDテーマ「DAYS!」担当が発表",
       "detected_at": "2026-06-15T18:24:59.382848+00:00"
+    },
+    {
+      "date": "2026-06-16",
+      "metric": "ytm_monthly_listeners",
+      "value": 1440000,
+      "baseline_mean": 623200,
+      "baseline_stddev": 208397.6,
+      "delta": 816800,
+      "score": 3.92,
+      "type": "annotated",
+      "related_annotation": "TVアニメ「グロウアップショウ」EDテーマ「DAYS!」担当が発表",
+      "detected_at": "2026-06-16T18:29:04.178279+00:00"
+    },
+    {
+      "date": "2026-06-16",
+      "metric": "youtube_total_views",
+      "value": 32015871,
+      "baseline_mean": 30448796.4,
+      "baseline_stddev": 769527.9,
+      "delta": 1567074,
+      "score": 2.04,
+      "type": "annotated",
+      "related_annotation": "TVアニメ「グロウアップショウ」EDテーマ「DAYS!」担当が発表",
+      "detected_at": "2026-06-16T18:29:04.178279+00:00"
     }
   ]
 }

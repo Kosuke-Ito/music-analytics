@@ -2619,6 +2619,47 @@
       "ytm_subscribers": 1760000,
       "ytm_monthly_listeners": 8800000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-16",
+      "monthly_listeners": 2711384,
+      "collected_at": "2026-06-16T18:38:05.158306+00:00",
+      "spotify_followers": 2439676,
+      "youtube_subscribers": 1760000,
+      "youtube_total_views": 1421591755,
+      "youtube_video_count": 200,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 114022
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 96558
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 64614
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 42603
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 31003
+        }
+      ],
+      "lastfm_listeners": 21451,
+      "lastfm_playcount": 3001871,
+      "ytm_subscribers": 1760000,
+      "ytm_monthly_listeners": 8800000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -2673,9 +2714,19 @@
         "subscribers": "12.4M"
       },
       {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "105M"
+        "name": "Sheena Ringo",
+        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
+        "subscribers": "6.83M"
+      },
+      {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10.5M"
+      },
+      {
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "646K"
       },
       {
         "name": "Tokyo Incidents",
@@ -2683,24 +2734,14 @@
         "subscribers": "1.13M"
       },
       {
-        "name": "Sheena Ringo",
-        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
-        "subscribers": "6.83M"
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "2.09M"
       },
       {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "68.4M"
-      },
-      {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "22.4M"
-      },
-      {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "646K"
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "73.3M"
       }
     ],
     "ytm_top_songs": [
@@ -3095,6 +3136,12 @@
           "views": 59205997,
           "likes": 233098,
           "comments": 580
+        },
+        {
+          "date": "2026-06-16",
+          "views": 59242027,
+          "likes": 233244,
+          "comments": 580
         }
       ]
     },
@@ -3466,6 +3513,12 @@
           "views": 4799462,
           "likes": 39454,
           "comments": 0
+        },
+        {
+          "date": "2026-06-16",
+          "views": 4811877,
+          "likes": 39542,
+          "comments": 0
         }
       ]
     },
@@ -3824,6 +3877,12 @@
           "date": "2026-06-15",
           "views": 21248771,
           "likes": 99578,
+          "comments": 88
+        },
+        {
+          "date": "2026-06-16",
+          "views": 21262312,
+          "likes": 99642,
           "comments": 88
         }
       ]
@@ -4285,6 +4344,12 @@
           "views": 10860650,
           "likes": 48528,
           "comments": 169
+        },
+        {
+          "date": "2026-06-16",
+          "views": 10866968,
+          "likes": 48559,
+          "comments": 169
         }
       ]
     },
@@ -4571,6 +4636,12 @@
           "date": "2026-06-15",
           "views": 5952744,
           "likes": 23814,
+          "comments": 48
+        },
+        {
+          "date": "2026-06-16",
+          "views": 5957795,
+          "likes": 23825,
           "comments": 48
         }
       ]
@@ -5081,6 +5152,18 @@
       "type": "annotated",
       "related_annotation": "MUSIC AWARDS JAPAN 2026で「2 (feat. Lee Youngji)」が最優秀クロスボーダー・コラボレーション楽曲賞を受賞",
       "detected_at": "2026-06-15T18:34:44.050382+00:00"
+    },
+    {
+      "date": "2026-06-16",
+      "metric": "ytm_monthly_listeners",
+      "value": 8800000,
+      "baseline_mean": 8533928.6,
+      "baseline_stddev": 131918.2,
+      "delta": 266071,
+      "score": 2.02,
+      "type": "annotated",
+      "related_annotation": "MUSIC AWARDS JAPAN 2026で「2 (feat. Lee Youngji)」が最優秀クロスボーダー・コラボレーション楽曲賞を受賞",
+      "detected_at": "2026-06-16T18:38:07.065460+00:00"
     }
   ]
 }

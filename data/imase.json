@@ -2619,6 +2619,44 @@
       "ytm_subscribers": 1350000,
       "ytm_monthly_listeners": 57500000,
       "ytm_total_views": 859973275
+    },
+    {
+      "date": "2026-06-16",
+      "monthly_listeners": 3698499,
+      "collected_at": "2026-06-16T18:37:31.875149+00:00",
+      "spotify_followers": 1022241,
+      "youtube_subscribers": 1350000,
+      "youtube_total_views": 863256348,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 62169
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 55452
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 48221
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 44355
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 43739
+        }
+      ],
+      "lastfm_listeners": 414372,
+      "lastfm_playcount": 5877687
     }
   ],
   "annotations": [
@@ -2797,11 +2835,11 @@
       }
     ],
     "lastfm_tags": [
-      "pop",
       "j-pop",
+      "pop",
       "indie pop",
       "japanese",
-      "singer-songwriter"
+      "japan"
     ],
     "ytm_related_artists": [
       {
@@ -4718,6 +4756,12 @@
           "views": 8759320,
           "likes": 97791,
           "comments": 578
+        },
+        {
+          "date": "2026-06-16",
+          "views": 8906909,
+          "likes": 98875,
+          "comments": 579
         }
       ]
     },
@@ -4735,6 +4779,12 @@
           "views": 45204216,
           "likes": 381833,
           "comments": 2030
+        },
+        {
+          "date": "2026-06-16",
+          "views": 45307942,
+          "likes": 382377,
+          "comments": 2032
         }
       ]
     },
@@ -4751,6 +4801,12 @@
           "date": "2026-06-12",
           "views": 591505,
           "likes": 10643,
+          "comments": 61
+        },
+        {
+          "date": "2026-06-16",
+          "views": 623220,
+          "likes": 11056,
           "comments": 61
         }
       ]
@@ -4769,6 +4825,12 @@
           "views": 17635001,
           "likes": 130630,
           "comments": 1067
+        },
+        {
+          "date": "2026-06-16",
+          "views": 17706363,
+          "likes": 130906,
+          "comments": 1067
         }
       ]
     },
@@ -4785,6 +4847,12 @@
           "date": "2026-06-12",
           "views": 40297330,
           "likes": 225478,
+          "comments": 229
+        },
+        {
+          "date": "2026-06-16",
+          "views": 40366413,
+          "likes": 225712,
           "comments": 229
         }
       ]
@@ -5293,6 +5361,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-15T18:34:09.227993+00:00"
+    },
+    {
+      "date": "2026-06-16",
+      "metric": "monthly_listeners",
+      "value": 3698499,
+      "baseline_mean": 3407681.5,
+      "baseline_stddev": 94931.8,
+      "delta": 290817,
+      "score": 3.06,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-16T18:37:33.374290+00:00"
+    },
+    {
+      "date": "2026-06-16",
+      "metric": "youtube_total_views",
+      "value": 863256348,
+      "baseline_mean": 855683618.3,
+      "baseline_stddev": 2970268.9,
+      "delta": 7572729,
+      "score": 2.55,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-16T18:37:33.374290+00:00"
     }
   ]
 }

@@ -2625,6 +2625,47 @@
       "ytm_subscribers": 1380000,
       "ytm_monthly_listeners": 105000000,
       "ytm_total_views": 1178368852
+    },
+    {
+      "date": "2026-06-16",
+      "monthly_listeners": 4198686,
+      "collected_at": "2026-06-16T18:39:12.751883+00:00",
+      "spotify_followers": 1974699,
+      "youtube_subscribers": 1390000,
+      "youtube_total_views": 1251293509,
+      "youtube_video_count": 515,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 228944
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 188811
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 131463
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 81284
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 56359
+        }
+      ],
+      "lastfm_listeners": 59430,
+      "lastfm_playcount": 15903784,
+      "ytm_subscribers": 1390000,
+      "ytm_monthly_listeners": 105000000,
+      "ytm_total_views": 1189029675
     }
   ],
   "annotations": [
@@ -2939,19 +2980,9 @@
         "subscribers": "4.73M"
       },
       {
-        "name": "QURULI",
-        "browse_id": "UCLIFRNQRDAaD5H4REYsRdmA",
-        "subscribers": "685K"
-      },
-      {
-        "name": "Tokyo Incidents",
-        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
-        "subscribers": "1.13M"
-      },
-      {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "68.4M"
+        "name": "Asian Kung-Fu Generation",
+        "browse_id": "UCx_es_PpRD6fhpNU-vzlQ_g",
+        "subscribers": "4.54M"
       },
       {
         "name": "Fujifabric",
@@ -2964,14 +2995,14 @@
         "subscribers": "8.83M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "22.4M"
+        "name": "QURULI",
+        "browse_id": "UCLIFRNQRDAaD5H4REYsRdmA",
+        "subscribers": "685K"
       },
       {
-        "name": "Hitsujibungaku",
-        "browse_id": "UCnZK-AT0Yrx8uXcFRqUy87g",
-        "subscribers": "4.49M"
+        "name": "Tokyo Incidents",
+        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
+        "subscribers": "1.13M"
       },
       {
         "name": "Sheena Ringo",
@@ -2979,9 +3010,19 @@
         "subscribers": "6.83M"
       },
       {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "3.44M"
+      },
+      {
         "name": "gesunokiwami otome",
         "browse_id": "UCC49CEw6fitW1bUIT9NjvSA",
         "subscribers": "2.66M"
+      },
+      {
+        "name": "[Alexandros]",
+        "browse_id": "UCbzcUjXa4yX3k5CD8bioDmg",
+        "subscribers": "9.49M"
       }
     ],
     "ytm_top_songs": [
@@ -3389,6 +3430,12 @@
           "views": 67774633,
           "likes": 397351,
           "comments": 1240
+        },
+        {
+          "date": "2026-06-16",
+          "views": 67889670,
+          "likes": 397868,
+          "comments": 1243
         }
       ]
     },
@@ -3771,6 +3818,12 @@
           "date": "2026-06-15",
           "views": 50439933,
           "likes": 192542,
+          "comments": 437
+        },
+        {
+          "date": "2026-06-16",
+          "views": 50490377,
+          "likes": 192742,
           "comments": 437
         }
       ]
@@ -4155,6 +4208,12 @@
           "views": 5745283,
           "likes": 60386,
           "comments": 1555
+        },
+        {
+          "date": "2026-06-16",
+          "views": 5771355,
+          "likes": 60505,
+          "comments": 1555
         }
       ]
     },
@@ -4538,6 +4597,12 @@
           "views": 20714139,
           "likes": 151545,
           "comments": 1080
+        },
+        {
+          "date": "2026-06-16",
+          "views": 20870172,
+          "likes": 152391,
+          "comments": 1085
         }
       ]
     },
@@ -4921,6 +4986,12 @@
           "views": 21020679,
           "likes": 117176,
           "comments": 209
+        },
+        {
+          "date": "2026-06-16",
+          "views": 21044789,
+          "likes": 117269,
+          "comments": 211
         }
       ]
     }
@@ -5801,6 +5872,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-02T18:14:14.760407+00:00"
+    },
+    {
+      "date": "2026-06-16",
+      "metric": "youtube_total_views",
+      "value": 1251293509,
+      "baseline_mean": 1209577363,
+      "baseline_stddev": 19474496.8,
+      "delta": 41716146,
+      "score": 2.14,
+      "type": "annotated",
+      "related_annotation": "MUSIC AWARDS JAPAN 2026で「怪獣」が最優秀楽曲賞ほか最多8冠を獲得",
+      "detected_at": "2026-06-16T18:39:14.298634+00:00"
     }
   ]
 }
