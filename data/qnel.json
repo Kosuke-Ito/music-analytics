@@ -2781,6 +2781,50 @@
       "ytm_subscribers": 153,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-17",
+      "monthly_listeners": 530,
+      "collected_at": "2026-06-17T16:58:56.621372+00:00",
+      "spotify_followers": 940,
+      "youtube_subscribers": 368,
+      "youtube_total_views": 66163,
+      "youtube_video_count": 173,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 30
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 23
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 16
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 12
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 9
+        }
+      ],
+      "lastfm_listeners": 740,
+      "lastfm_playcount": 2427,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0,
+      "validation_flags": [
+        "unusual_deviation"
+      ]
     }
   ],
   "annotations": [
@@ -2902,6 +2946,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "dawgss",
+        "browse_id": "UC0clTcD4YEA0gViF33LumjQ",
+        "subscribers": "762"
+      },
+      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "27.1K"
@@ -2945,11 +2994,6 @@
         "name": "GALALI",
         "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
         "subscribers": "65.8K"
-      },
-      {
-        "name": "Kinopoppo",
-        "browse_id": "UCWkG_vuZkHrzANDUBOVvi6A",
-        "subscribers": "19.1K"
       }
     ],
     "ytm_top_songs": [
@@ -3362,6 +3406,12 @@
           "views": 3392,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-06-17",
+          "views": 3395,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -3749,6 +3799,12 @@
         {
           "date": "2026-06-16",
           "views": 5802,
+          "likes": 22,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-17",
+          "views": 5808,
           "likes": 22,
           "comments": 0
         }
@@ -4140,6 +4196,12 @@
           "views": 12285,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-06-17",
+          "views": 12292,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -4529,6 +4591,12 @@
           "views": 32261,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-06-17",
+          "views": 32264,
+          "likes": 153,
+          "comments": 0
         }
       ]
     },
@@ -4912,6 +4980,12 @@
           "views": 8020,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-06-17",
+          "views": 8021,
+          "likes": 60,
+          "comments": 0
         }
       ]
     },
@@ -5203,6 +5277,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-16T18:32:53.483053+00:00"
+    },
+    {
+      "date": "2026-06-17",
+      "metric": "monthly_listeners",
+      "value": 530,
+      "baseline_mean": 477.4,
+      "baseline_stddev": 5.6,
+      "delta": 52,
+      "score": 9.45,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-17T16:58:58.249958+00:00"
+    },
+    {
+      "date": "2026-06-17",
+      "metric": "youtube_total_views",
+      "value": 66163,
+      "baseline_mean": 65779.7,
+      "baseline_stddev": 67.1,
+      "delta": 383,
+      "score": 5.71,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-17T16:58:58.249958+00:00"
     }
   ]
 }
