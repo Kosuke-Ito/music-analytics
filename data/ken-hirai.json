@@ -2903,6 +2903,15 @@
       "added_at": "2026-05-21T15:00:00Z",
       "source": "youtube.com (data artifact)",
       "confidence": "high"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "YouTube総再生数API凍結解除アーティファクト（5.39σ・+474万再生）",
+      "description": "YouTube総再生数が475,753,747→480,495,576（+4,741,829・5.39σ）に急増。2026年5月18日に確認されたAPIカウンター凍結/解除サイクルと同一の5.39σシグネチャ（5/18: +5,070,979・5.39σ）が再現しており、実際の視聴バズではなくYouTube Data APIの技術的事象（カウンター一時停止→解除による累積計上）と判断。同日にQnelでも類似の高σイベント（5.71σ）が発生しており、プラットフォーム側の事象と整合する。",
+      "category": "other",
+      "added_at": "2026-06-17T15:00:00Z",
+      "source": "youtube.com (data artifact)",
+      "confidence": "high"
     }
   ],
   "metadata": {
