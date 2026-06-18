@@ -3021,6 +3021,47 @@
       "ytm_subscribers": 18600,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 724855
+    },
+    {
+      "date": "2026-06-18",
+      "monthly_listeners": 53822,
+      "collected_at": "2026-06-18T16:59:31.620076+00:00",
+      "spotify_followers": 19463,
+      "youtube_subscribers": 18600,
+      "youtube_total_views": 780593,
+      "youtube_video_count": 31,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2616
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1340
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 810
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 607
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 594
+        }
+      ],
+      "lastfm_listeners": 8213,
+      "lastfm_playcount": 49052,
+      "ytm_subscribers": 18600,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 733922
     }
   ],
   "annotations": [
@@ -3487,6 +3528,30 @@
       "type": "annotated",
       "related_annotation": "Prime Original「クロエマ」配信開始（6/12）初週末効果——Spotify月間リスナー（+6,981・4.97σ）・YouTube総再生数が上昇",
       "detected_at": "2026-06-17T16:58:41.286018+00:00"
+    },
+    {
+      "date": "2026-06-18",
+      "metric": "monthly_listeners",
+      "value": 53822,
+      "baseline_mean": 42835.8,
+      "baseline_stddev": 3758.2,
+      "delta": 10986,
+      "score": 2.92,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-18T16:59:33.466252+00:00"
+    },
+    {
+      "date": "2026-06-18",
+      "metric": "youtube_total_views",
+      "value": 780593,
+      "baseline_mean": 748289.2,
+      "baseline_stddev": 10574.7,
+      "delta": 32303,
+      "score": 3.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-18T16:59:33.466252+00:00"
     }
   ],
   "song_performance": {
@@ -3887,6 +3952,12 @@
           "date": "2026-06-17",
           "views": 3208,
           "likes": 71,
+          "comments": 1
+        },
+        {
+          "date": "2026-06-18",
+          "views": 3257,
+          "likes": 72,
           "comments": 1
         }
       ]
@@ -4289,6 +4360,12 @@
           "views": 6930,
           "likes": 178,
           "comments": 6
+        },
+        {
+          "date": "2026-06-18",
+          "views": 6957,
+          "likes": 179,
+          "comments": 6
         }
       ]
     },
@@ -4690,6 +4767,12 @@
           "views": 21726,
           "likes": 195,
           "comments": 2
+        },
+        {
+          "date": "2026-06-18",
+          "views": 21750,
+          "likes": 195,
+          "comments": 2
         }
       ]
     },
@@ -5089,6 +5172,12 @@
         {
           "date": "2026-06-17",
           "views": 12977,
+          "likes": 203,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-18",
+          "views": 12990,
           "likes": 203,
           "comments": 0
         }
@@ -5501,6 +5590,12 @@
           "date": "2026-06-17",
           "views": 2346,
           "likes": 59,
+          "comments": 2
+        },
+        {
+          "date": "2026-06-18",
+          "views": 2604,
+          "likes": 62,
           "comments": 2
         }
       ]

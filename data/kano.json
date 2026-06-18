@@ -2813,6 +2813,47 @@
       "ytm_subscribers": 105,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-18",
+      "monthly_listeners": 9956,
+      "collected_at": "2026-06-18T16:56:45.938218+00:00",
+      "spotify_followers": 540,
+      "youtube_subscribers": 3280,
+      "youtube_total_views": 2049291,
+      "youtube_video_count": 100,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 295
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 240
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 218
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 153
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 150
+        }
+      ],
+      "lastfm_listeners": 264,
+      "lastfm_playcount": 1138,
+      "ytm_subscribers": 106,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3248,6 +3289,12 @@
           "views": 342887,
           "likes": 3087,
           "comments": 21
+        },
+        {
+          "date": "2026-06-18",
+          "views": 344324,
+          "likes": 3096,
+          "comments": 21
         }
       ]
     },
@@ -3636,6 +3683,12 @@
           "date": "2026-06-17",
           "views": 12959,
           "likes": 80,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-18",
+          "views": 13221,
+          "likes": 81,
           "comments": 0
         }
       ]
@@ -4026,6 +4079,12 @@
           "views": 5202,
           "likes": 49,
           "comments": 0
+        },
+        {
+          "date": "2026-06-18",
+          "views": 5218,
+          "likes": 49,
+          "comments": 0
         }
       ]
     },
@@ -4288,6 +4347,12 @@
           "date": "2026-06-17",
           "views": 1623,
           "likes": 34,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-18",
+          "views": 1652,
+          "likes": 35,
           "comments": 0
         }
       ]
@@ -4672,6 +4737,12 @@
           "views": 1267,
           "likes": 20,
           "comments": 0
+        },
+        {
+          "date": "2026-06-18",
+          "views": 1278,
+          "likes": 20,
+          "comments": 0
         }
       ]
     },
@@ -4974,6 +5045,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-17T16:55:56.589851+00:00"
+    },
+    {
+      "date": "2026-06-18",
+      "metric": "youtube_total_views",
+      "value": 2049291,
+      "baseline_mean": 1926435.1,
+      "baseline_stddev": 46961.1,
+      "delta": 122855,
+      "score": 2.62,
+      "type": "annotated",
+      "related_annotation": "「エクリプス feat. 華乃」リリース前日にYouTube総再生数が急増（+119,233・3.05σ）",
+      "detected_at": "2026-06-18T16:56:47.460767+00:00"
     }
   ]
 }

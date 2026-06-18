@@ -2825,6 +2825,47 @@
       "validation_flags": [
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-06-18",
+      "monthly_listeners": 530,
+      "collected_at": "2026-06-18T16:59:48.864752+00:00",
+      "spotify_followers": 944,
+      "youtube_subscribers": 368,
+      "youtube_total_views": 66240,
+      "youtube_video_count": 173,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 30
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 23
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 16
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 12
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 9
+        }
+      ],
+      "lastfm_listeners": 742,
+      "lastfm_playcount": 2435,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -2962,11 +3003,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "dawgss",
-        "browse_id": "UC0clTcD4YEA0gViF33LumjQ",
-        "subscribers": "762"
-      },
-      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "27.1K"
@@ -2989,7 +3025,7 @@
       {
         "name": "Offo tokyo",
         "browse_id": "UCFUndaCSveHB7RS3ULvATfw",
-        "subscribers": "13.3K"
+        "subscribers": "13.4K"
       },
       {
         "name": "Souvenir",
@@ -3009,10 +3045,19 @@
       {
         "name": "GALALI",
         "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "65.8K"
+        "subscribers": "69.9K"
+      },
+      {
+        "name": "Kinopoppo",
+        "browse_id": "UCWkG_vuZkHrzANDUBOVvi6A",
+        "subscribers": "19.1K"
       }
     ],
     "ytm_top_songs": [
+      {
+        "title": "徒歩圏内 - Tohokennai",
+        "video_id": "LtzN4QKvyTk"
+      },
       {
         "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
         "video_id": "gMrPbqFtkbQ"
@@ -3022,16 +3067,12 @@
         "video_id": "UWlaQWdCoxY"
       },
       {
-        "title": "徒歩圏内 - Tohokennai",
-        "video_id": "LtzN4QKvyTk"
-      },
-      {
         "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
         "video_id": "vcXhVJqD_u8"
       },
       {
-        "title": "ムーンライト~夏のVenus~ - Moonlight (feat. You)",
-        "video_id": "5j8n7tJ3Mlk"
+        "title": "OSC",
+        "video_id": "g2mRMLbTR08"
       }
     ]
   },
@@ -3823,6 +3864,12 @@
           "views": 5808,
           "likes": 22,
           "comments": 0
+        },
+        {
+          "date": "2026-06-18",
+          "views": 5817,
+          "likes": 22,
+          "comments": 0
         }
       ]
     },
@@ -4216,6 +4263,12 @@
         {
           "date": "2026-06-17",
           "views": 12292,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-18",
+          "views": 12294,
           "likes": 76,
           "comments": 0
         }
@@ -4613,6 +4666,12 @@
           "views": 32264,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-06-18",
+          "views": 32272,
+          "likes": 153,
+          "comments": 0
         }
       ]
     },
@@ -5002,6 +5061,12 @@
           "views": 8021,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-06-18",
+          "views": 8026,
+          "likes": 60,
+          "comments": 0
         }
       ]
     },
@@ -5012,6 +5077,17 @@
           "date": "2026-04-24",
           "views": 11705,
           "likes": 42,
+          "comments": 0
+        }
+      ]
+    },
+    "g2mRMLbTR08": {
+      "title": "OSC",
+      "history": [
+        {
+          "date": "2026-06-18",
+          "views": 638,
+          "likes": 2,
           "comments": 0
         }
       ]
@@ -5317,6 +5393,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-17T16:58:58.249958+00:00"
+    },
+    {
+      "date": "2026-06-18",
+      "metric": "monthly_listeners",
+      "value": 530,
+      "baseline_mean": 478.9,
+      "baseline_stddev": 10.9,
+      "delta": 51,
+      "score": 4.7,
+      "type": "annotated",
+      "related_annotation": "数値上の統計的外れ値を検知（原因不明）",
+      "detected_at": "2026-06-18T16:59:50.156683+00:00"
+    },
+    {
+      "date": "2026-06-18",
+      "metric": "youtube_total_views",
+      "value": 66240,
+      "baseline_mean": 65795.7,
+      "baseline_stddev": 93.9,
+      "delta": 444,
+      "score": 4.73,
+      "type": "annotated",
+      "related_annotation": "数値上の統計的外れ値を検知（原因不明）",
+      "detected_at": "2026-06-18T16:59:50.156683+00:00"
     }
   ]
 }
