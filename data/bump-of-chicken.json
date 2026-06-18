@@ -4984,6 +4984,15 @@
       "added_at": "2026-06-14T15:50:00+00:00",
       "source": "bumpofchicken.com",
       "confidence": "medium"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "YouTube Data APIカウンター凍結継続（同値1,814,267,512・2.36σ）——「BUMP OF CHICKEN HISTORY #1」（6/12）スパイク後のAPIアーティファクト",
+      "description": "6月14日に「BUMP OF CHICKEN HISTORY #1」インタビュー動画公開（6/12）後にYouTube総再生数が1,814,267,512（+2,020万・4.72σ）に急増した後、APIカウンターが同値で凍結。6月18日も1,814,267,512が継続（delta: +1,637万・2.36σ）しており、API凍結継続によるアーティファクト。σ値の縮小傾向（4.72σ→2.36σ）から収束段階にあるとみられる。",
+      "category": "other",
+      "added_at": "2026-06-18T17:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "buzz_events": [
