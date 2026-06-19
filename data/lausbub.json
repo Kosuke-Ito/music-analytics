@@ -3062,6 +3062,47 @@
       "ytm_subscribers": 18600,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 733922
+    },
+    {
+      "date": "2026-06-19",
+      "monthly_listeners": 55960,
+      "collected_at": "2026-06-19T16:36:08.737033+00:00",
+      "spotify_followers": 19492,
+      "youtube_subscribers": 18600,
+      "youtube_total_views": 783273,
+      "youtube_video_count": 31,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2753
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1398
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 847
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 651
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 642
+        }
+      ],
+      "lastfm_listeners": 8239,
+      "lastfm_playcount": 49184,
+      "ytm_subscribers": 18600,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 736261
     }
   ],
   "annotations": [
@@ -3562,6 +3603,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-18T16:59:33.466252+00:00"
+    },
+    {
+      "date": "2026-06-19",
+      "metric": "monthly_listeners",
+      "value": 55960,
+      "baseline_mean": 43282.9,
+      "baseline_stddev": 4213.1,
+      "delta": 12677,
+      "score": 3.01,
+      "type": "annotated",
+      "related_annotation": "「クロエマ」（6/12配信開始）1週間継続効果——Spotify月間リスナー（53,822・2.92σ）＋YouTube総再生数（+9,261・3.05σ）が高水準維持",
+      "detected_at": "2026-06-19T16:36:10.279151+00:00"
+    },
+    {
+      "date": "2026-06-19",
+      "metric": "youtube_total_views",
+      "value": 783273,
+      "baseline_mean": 749701.4,
+      "baseline_stddev": 11884.4,
+      "delta": 33571,
+      "score": 2.82,
+      "type": "annotated",
+      "related_annotation": "「クロエマ」（6/12配信開始）1週間継続効果——Spotify月間リスナー（53,822・2.92σ）＋YouTube総再生数（+9,261・3.05σ）が高水準維持",
+      "detected_at": "2026-06-19T16:36:10.279151+00:00"
     }
   ],
   "song_performance": {
@@ -3967,6 +4032,12 @@
         {
           "date": "2026-06-18",
           "views": 3257,
+          "likes": 72,
+          "comments": 1
+        },
+        {
+          "date": "2026-06-19",
+          "views": 3285,
           "likes": 72,
           "comments": 1
         }
@@ -4376,6 +4447,12 @@
           "views": 6957,
           "likes": 179,
           "comments": 6
+        },
+        {
+          "date": "2026-06-19",
+          "views": 6983,
+          "likes": 179,
+          "comments": 6
         }
       ]
     },
@@ -4783,6 +4860,12 @@
           "views": 21750,
           "likes": 195,
           "comments": 2
+        },
+        {
+          "date": "2026-06-19",
+          "views": 21785,
+          "likes": 195,
+          "comments": 2
         }
       ]
     },
@@ -5188,6 +5271,12 @@
         {
           "date": "2026-06-18",
           "views": 12990,
+          "likes": 203,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-19",
+          "views": 13001,
           "likes": 203,
           "comments": 0
         }
@@ -5606,6 +5695,12 @@
           "date": "2026-06-18",
           "views": 2604,
           "likes": 62,
+          "comments": 2
+        },
+        {
+          "date": "2026-06-19",
+          "views": 2782,
+          "likes": 65,
           "comments": 2
         }
       ]

@@ -2745,6 +2745,47 @@
       "ytm_subscribers": 1240000,
       "ytm_monthly_listeners": 4450000,
       "ytm_total_views": 1482210426
+    },
+    {
+      "date": "2026-06-19",
+      "monthly_listeners": 2090940,
+      "collected_at": "2026-06-19T16:46:29.628375+00:00",
+      "spotify_followers": 627837,
+      "youtube_subscribers": 1240000,
+      "youtube_total_views": 1583441099,
+      "youtube_video_count": 490,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 93320
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 88827
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 67145
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 34649
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 31210
+        }
+      ],
+      "lastfm_listeners": 73579,
+      "lastfm_playcount": 1382182,
+      "ytm_subscribers": 1240000,
+      "ytm_monthly_listeners": 4280000,
+      "ytm_total_views": 1489290237
     }
   ],
   "metadata": {
@@ -2781,37 +2822,37 @@
       {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "1.4M"
+        "subscribers": "1.39M"
       },
       {
         "name": "INI",
         "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
-        "subscribers": "6.46M"
-      },
-      {
-        "name": "King & Prince",
-        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "5.12M"
-      },
-      {
-        "name": "NiziU",
-        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "4.94M"
-      },
-      {
-        "name": "Nissy",
-        "browse_id": "UCkv76wCrBDQNn7ctcbn6Qeg",
-        "subscribers": "2.92M"
+        "subscribers": "6.32M"
       },
       {
         "name": "Number_i",
         "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
-        "subscribers": "1.33M"
+        "subscribers": "1.3M"
+      },
+      {
+        "name": "King & Prince",
+        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
+        "subscribers": "5.09M"
+      },
+      {
+        "name": "Nissy",
+        "browse_id": "UCkv76wCrBDQNn7ctcbn6Qeg",
+        "subscribers": "2.88M"
+      },
+      {
+        "name": "NiziU",
+        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
+        "subscribers": "4.96M"
       },
       {
         "name": "HANA",
         "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "11.1M"
+        "subscribers": "11.2M"
       },
       {
         "name": "SKY-HI",
@@ -3433,6 +3474,12 @@
           "views": 2289513,
           "likes": 17995,
           "comments": 761
+        },
+        {
+          "date": "2026-06-19",
+          "views": 2298889,
+          "likes": 18005,
+          "comments": 761
         }
       ]
     },
@@ -3828,6 +3875,12 @@
           "views": 18799951,
           "likes": 90111,
           "comments": 2021
+        },
+        {
+          "date": "2026-06-19",
+          "views": 18825474,
+          "likes": 90181,
+          "comments": 2022
         }
       ]
     },
@@ -4216,6 +4269,12 @@
           "date": "2026-06-18",
           "views": 3065284,
           "likes": 21141,
+          "comments": 629
+        },
+        {
+          "date": "2026-06-19",
+          "views": 3070416,
+          "likes": 21149,
           "comments": 629
         }
       ]
@@ -4879,6 +4938,12 @@
           "views": 1334897,
           "likes": 24880,
           "comments": 1390
+        },
+        {
+          "date": "2026-06-19",
+          "views": 1342134,
+          "likes": 24901,
+          "comments": 1391
         }
       ]
     },
@@ -5027,6 +5092,12 @@
           "date": "2026-06-18",
           "views": 616740,
           "likes": 13527,
+          "comments": 917
+        },
+        {
+          "date": "2026-06-19",
+          "views": 619719,
+          "likes": 13533,
           "comments": 917
         }
       ]
@@ -5243,6 +5314,18 @@
       "type": "annotated",
       "related_annotation": "初スタジアムライブ「We are the 'BE:ST'」初日開催（味の素スタジアム）＋ニューアルバム「BE:4U」・ドームツアー2027発表",
       "detected_at": "2026-05-18T17:01:32.931582+00:00"
+    },
+    {
+      "date": "2026-06-19",
+      "metric": "youtube_total_views",
+      "value": 1583441099,
+      "baseline_mean": 1564596264.9,
+      "baseline_stddev": 8806086.6,
+      "delta": 18844834,
+      "score": 2.14,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-19T16:46:31.615597+00:00"
     }
   ]
 }

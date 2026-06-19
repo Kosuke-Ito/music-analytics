@@ -2866,6 +2866,51 @@
       "ytm_subscribers": 153,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-19",
+      "monthly_listeners": 1474,
+      "collected_at": "2026-06-19T16:36:25.595914+00:00",
+      "spotify_followers": 945,
+      "youtube_subscribers": 367,
+      "youtube_total_views": 66430,
+      "youtube_video_count": 175,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 98
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 44
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 32
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 31
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 24
+        }
+      ],
+      "lastfm_listeners": 745,
+      "lastfm_playcount": 2441,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0,
+      "validation_flags": [
+        "large_monthly_listener_delta",
+        "unusual_deviation"
+      ]
     }
   ],
   "annotations": [
@@ -3030,7 +3075,7 @@
       {
         "name": "Souvenir",
         "browse_id": "UC2-cczOy1b3JlJIEXuMleHQ",
-        "subscribers": "1.68K"
+        "subscribers": "1.69K"
       },
       {
         "name": "zenya",
@@ -3045,7 +3090,7 @@
       {
         "name": "GALALI",
         "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "69.9K"
+        "subscribers": "77.6K"
       },
       {
         "name": "Kinopoppo",
@@ -3870,6 +3915,12 @@
           "views": 5817,
           "likes": 22,
           "comments": 0
+        },
+        {
+          "date": "2026-06-19",
+          "views": 5829,
+          "likes": 22,
+          "comments": 0
         }
       ]
     },
@@ -4269,6 +4320,12 @@
         {
           "date": "2026-06-18",
           "views": 12294,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-19",
+          "views": 12302,
           "likes": 76,
           "comments": 0
         }
@@ -4672,6 +4729,12 @@
           "views": 32272,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-06-19",
+          "views": 32288,
+          "likes": 153,
+          "comments": 0
         }
       ]
     },
@@ -5067,6 +5130,12 @@
           "views": 8026,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-06-19",
+          "views": 8033,
+          "likes": 60,
+          "comments": 0
         }
       ]
     },
@@ -5087,6 +5156,12 @@
         {
           "date": "2026-06-18",
           "views": 638,
+          "likes": 2,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-19",
+          "views": 642,
           "likes": 2,
           "comments": 0
         }
@@ -5417,6 +5492,30 @@
       "type": "annotated",
       "related_annotation": "数値上の統計的外れ値を検知（原因不明）",
       "detected_at": "2026-06-18T16:59:50.156683+00:00"
+    },
+    {
+      "date": "2026-06-19",
+      "metric": "monthly_listeners",
+      "value": 1474,
+      "baseline_mean": 480.3,
+      "baseline_stddev": 14.2,
+      "delta": 993,
+      "score": 69.93,
+      "type": "annotated",
+      "related_annotation": "数値上の統計的外れ値を検知（原因不明）",
+      "detected_at": "2026-06-19T16:36:27.074427+00:00"
+    },
+    {
+      "date": "2026-06-19",
+      "metric": "youtube_total_views",
+      "value": 66430,
+      "baseline_mean": 65814.0,
+      "baseline_stddev": 121.2,
+      "delta": 615,
+      "score": 5.08,
+      "type": "annotated",
+      "related_annotation": "数値上の統計的外れ値を検知（原因不明）",
+      "detected_at": "2026-06-19T16:36:27.074427+00:00"
     }
   ]
 }
