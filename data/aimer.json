@@ -2786,6 +2786,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 10300000,
       "ytm_total_views": 1859881093
+    },
+    {
+      "date": "2026-06-20",
+      "monthly_listeners": 3427832,
+      "collected_at": "2026-06-20T15:42:19.417025+00:00",
+      "spotify_followers": 2855094,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1861415154,
+      "youtube_video_count": 191,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 82915
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 79401
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68214
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 47328
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40228
+        }
+      ],
+      "lastfm_listeners": 494041,
+      "lastfm_playcount": 25287640,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 10300000,
+      "ytm_total_views": 1859881093
     }
   ],
   "metadata": {
@@ -2825,19 +2866,14 @@
         "subscribers": "5.69M"
       },
       {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "6.72M"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.49M"
-      },
-      {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "27M"
+        "subscribers": "27.6M"
+      },
+      {
+        "name": "SennaRin",
+        "browse_id": "UCkGZW-PXbJXaSsIZJSHCUDQ",
+        "subscribers": "1.51M"
       },
       {
         "name": "LiSA",
@@ -2845,29 +2881,34 @@
         "subscribers": "27.7M"
       },
       {
-        "name": "SennaRin",
-        "browse_id": "UCkGZW-PXbJXaSsIZJSHCUDQ",
-        "subscribers": "1.52M"
+        "name": "Ryokuousyoku Syakai",
+        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
+        "subscribers": "6.99M"
       },
       {
         "name": "Hiroyuki SAWANO",
         "browse_id": "UCy3Lx1fNl4XnxleZBJK_PXw",
-        "subscribers": "62.5M"
+        "subscribers": "62M"
       },
       {
-        "name": "Ai Higuchi",
-        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
-        "subscribers": "14.6M"
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.47M"
+      },
+      {
+        "name": "Chiai Fujikawa",
+        "browse_id": "UCpzy28Kw66pBn5o8uP3m4tA",
+        "subscribers": "447K"
+      },
+      {
+        "name": "ATARAYO",
+        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
+        "subscribers": "1.84M"
       },
       {
         "name": "seven oops",
         "browse_id": "UCDn74YHmuuKczNpHHd3ENtA",
         "subscribers": "29.8K"
-      },
-      {
-        "name": "ReoNa",
-        "browse_id": "UCv8_ZHaN1nPlQfS8F2CRgYg",
-        "subscribers": "1.8M"
       }
     ],
     "ytm_top_songs": [
@@ -3293,6 +3334,12 @@
           "views": 40033652,
           "likes": 282445,
           "comments": 1562
+        },
+        {
+          "date": "2026-06-20",
+          "views": 40069536,
+          "likes": 282680,
+          "comments": 1562
         }
       ]
     },
@@ -3693,6 +3740,12 @@
           "date": "2026-06-19",
           "views": 33504490,
           "likes": 154679,
+          "comments": 150
+        },
+        {
+          "date": "2026-06-20",
+          "views": 33518272,
+          "likes": 154726,
           "comments": 150
         }
       ]
@@ -4095,6 +4148,12 @@
           "views": 20517309,
           "likes": 113898,
           "comments": 278
+        },
+        {
+          "date": "2026-06-20",
+          "views": 20528995,
+          "likes": 113958,
+          "comments": 281
         }
       ]
     },
@@ -4441,6 +4500,12 @@
           "date": "2026-06-19",
           "views": 5514805,
           "likes": 56371,
+          "comments": 905
+        },
+        {
+          "date": "2026-06-20",
+          "views": 5520232,
+          "likes": 56394,
           "comments": 905
         }
       ]
@@ -4902,6 +4967,12 @@
           "views": 30617737,
           "likes": 131578,
           "comments": 748
+        },
+        {
+          "date": "2026-06-20",
+          "views": 30634554,
+          "likes": 131637,
+          "comments": 754
         }
       ]
     },
@@ -5301,6 +5372,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-19T16:42:17.146908+00:00"
+    },
+    {
+      "date": "2026-06-20",
+      "metric": "youtube_total_views",
+      "value": 1861415154,
+      "baseline_mean": 1843919734.8,
+      "baseline_stddev": 4675847.5,
+      "delta": 17495419,
+      "score": 3.74,
+      "type": "annotated",
+      "related_annotation": "劇場版「鬼滅の刃」無限城編 第一章 BD/DVD発売告知でYouTube総再生数が急増（5.39σ）",
+      "detected_at": "2026-06-20T15:42:21.138013+00:00"
     }
   ]
 }

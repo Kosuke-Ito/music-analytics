@@ -2907,6 +2907,47 @@
       "ytm_subscribers": 499000,
       "ytm_monthly_listeners": 1470000,
       "ytm_total_views": 480495557
+    },
+    {
+      "date": "2026-06-20",
+      "monthly_listeners": 1294438,
+      "collected_at": "2026-06-20T15:29:19.218266+00:00",
+      "spotify_followers": 1090603,
+      "youtube_subscribers": 499000,
+      "youtube_total_views": 480495576,
+      "youtube_video_count": 86,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 53601
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 52851
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 36902
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 19999
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 15158
+        }
+      ],
+      "lastfm_listeners": 62542,
+      "lastfm_playcount": 3017787,
+      "ytm_subscribers": 499000,
+      "ytm_monthly_listeners": 1500000,
+      "ytm_total_views": 480495557
     }
   ],
   "annotations": [
@@ -3030,17 +3071,7 @@
       {
         "name": "Mr.Children",
         "browse_id": "UCNL-6VGm61Y_dkVB89ZkYIA",
-        "subscribers": "5.86M"
-      },
-      {
-        "name": "Superfly",
-        "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
-        "subscribers": "4.69M"
-      },
-      {
-        "name": "Masaharu Fukuyama",
-        "browse_id": "UCOgskNCI49YHsOUTGPJ2QHA",
-        "subscribers": "4.04M"
+        "subscribers": "5.95M"
       },
       {
         "name": "Yu Takahashi",
@@ -3048,24 +3079,24 @@
         "subscribers": "1.06M"
       },
       {
+        "name": "Superfly",
+        "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
+        "subscribers": "5.06M"
+      },
+      {
+        "name": "Masaharu Fukuyama",
+        "browse_id": "UCOgskNCI49YHsOUTGPJ2QHA",
+        "subscribers": "3.97M"
+      },
+      {
+        "name": "Remioromen",
+        "browse_id": "UCHzbZw7GxoyFf-_pyS1R6mg",
+        "subscribers": "1.93M"
+      },
+      {
         "name": "Mika Nakashima",
         "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
         "subscribers": "5.44M"
-      },
-      {
-        "name": "Kohmi Hirose x Night Tempo",
-        "browse_id": "UCYJo9UmdzwrsF98BK1IQHsw",
-        "subscribers": "1.34M"
-      },
-      {
-        "name": "DREAMS COME TRUE",
-        "browse_id": "UC9xvTTa_TJKg83umVsxoA8g",
-        "subscribers": "2.84M"
-      },
-      {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "7.6M"
       },
       {
         "name": "JUJU",
@@ -3073,9 +3104,19 @@
         "subscribers": "1.82M"
       },
       {
+        "name": "DREAMS COME TRUE",
+        "browse_id": "UC9xvTTa_TJKg83umVsxoA8g",
+        "subscribers": "2.84M"
+      },
+      {
+        "name": "Kohmi Hirose x Night Tempo",
+        "browse_id": "UCYJo9UmdzwrsF98BK1IQHsw",
+        "subscribers": "1.33M"
+      },
+      {
         "name": "Chemistry",
         "browse_id": "UCQh1WcnXjTmIQWIdoWE2k-g",
-        "subscribers": "1.27M"
+        "subscribers": "1.31M"
       }
     ],
     "ytm_top_songs": [
@@ -3513,6 +3554,12 @@
           "views": 5759679,
           "likes": 33520,
           "comments": 141
+        },
+        {
+          "date": "2026-06-20",
+          "views": 5763639,
+          "likes": 33540,
+          "comments": 141
         }
       ]
     },
@@ -3926,6 +3973,12 @@
           "views": 1045193,
           "likes": 6281,
           "comments": 29
+        },
+        {
+          "date": "2026-06-20",
+          "views": 1045734,
+          "likes": 6287,
+          "comments": 29
         }
       ]
     },
@@ -4338,6 +4391,12 @@
           "date": "2026-06-19",
           "views": 316134,
           "likes": 2107,
+          "comments": 11
+        },
+        {
+          "date": "2026-06-20",
+          "views": 316338,
+          "likes": 2108,
           "comments": 11
         }
       ]
@@ -4955,6 +5014,12 @@
           "views": 640190,
           "likes": 3403,
           "comments": 12
+        },
+        {
+          "date": "2026-06-20",
+          "views": 640501,
+          "likes": 3403,
+          "comments": 12
         }
       ]
     },
@@ -5169,6 +5234,12 @@
           "date": "2026-06-19",
           "views": 130535,
           "likes": 901,
+          "comments": 5
+        },
+        {
+          "date": "2026-06-20",
+          "views": 130625,
+          "likes": 903,
           "comments": 5
         }
       ]
@@ -5426,6 +5497,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数API凍結解除アーティファクト（5.39σ・+474万再生）",
       "detected_at": "2026-06-19T16:29:12.833027+00:00"
+    },
+    {
+      "date": "2026-06-20",
+      "metric": "youtube_total_views",
+      "value": 480495576,
+      "baseline_mean": 476244280.5,
+      "baseline_stddev": 1667495.3,
+      "delta": 4251295,
+      "score": 2.55,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数API凍結解除アーティファクト（5.39σ・+474万再生）",
+      "detected_at": "2026-06-20T15:29:20.879183+00:00"
     }
   ]
 }

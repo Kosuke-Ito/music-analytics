@@ -2895,29 +2895,70 @@
       "ytm_subscribers": 106,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-20",
+      "monthly_listeners": 10223,
+      "collected_at": "2026-06-20T15:33:27.138062+00:00",
+      "spotify_followers": 546,
+      "youtube_subscribers": 3300,
+      "youtube_total_views": 2078438,
+      "youtube_video_count": 100,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 315
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 232
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 216
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 156
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 153
+        }
+      ],
+      "lastfm_listeners": 266,
+      "lastfm_playcount": 1144,
+      "ytm_subscribers": 106,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
     "lastfm_similar_artists": [
       {
-        "name": "山内総一郎",
-        "url": "https://www.last.fm/music/%E5%B1%B1%E5%86%85%E7%B7%8F%E4%B8%80%E9%83%8E"
-      },
-      {
         "name": "MAISONdes, MIMI & 華乃",
         "url": "https://www.last.fm/music/MAISONdes,+MIMI+&+%E8%8F%AF%E4%B9%83"
       },
       {
-        "name": "稀羽すう",
-        "url": "https://www.last.fm/music/%E7%A8%80%E7%BE%BD%E3%81%99%E3%81%86"
+        "name": "The Luv Bugs",
+        "url": "https://www.last.fm/music/The+Luv+Bugs"
+      },
+      {
+        "name": "山内総一郎",
+        "url": "https://www.last.fm/music/%E5%B1%B1%E5%86%85%E7%B7%8F%E4%B8%80%E9%83%8E"
       },
       {
         "name": "gaogao",
         "url": "https://www.last.fm/music/gaogao"
       },
       {
-        "name": "The Luv Bugs",
-        "url": "https://www.last.fm/music/The+Luv+Bugs"
+        "name": "MEGAMI Party",
+        "url": "https://www.last.fm/music/MEGAMI+Party"
       }
     ],
     "ytm_top_songs": [
@@ -3342,6 +3383,12 @@
           "views": 345496,
           "likes": 3103,
           "comments": 21
+        },
+        {
+          "date": "2026-06-20",
+          "views": 346570,
+          "likes": 3111,
+          "comments": 21
         }
       ]
     },
@@ -3742,6 +3789,12 @@
           "date": "2026-06-19",
           "views": 13481,
           "likes": 81,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-20",
+          "views": 13740,
+          "likes": 82,
           "comments": 0
         }
       ]
@@ -4144,6 +4197,12 @@
           "views": 5255,
           "likes": 49,
           "comments": 0
+        },
+        {
+          "date": "2026-06-20",
+          "views": 5273,
+          "likes": 49,
+          "comments": 0
         }
       ]
     },
@@ -4417,6 +4476,12 @@
         {
           "date": "2026-06-19",
           "views": 1673,
+          "likes": 35,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-20",
+          "views": 1696,
           "likes": 35,
           "comments": 0
         }
@@ -4814,6 +4879,12 @@
           "views": 1289,
           "likes": 20,
           "comments": 0
+        },
+        {
+          "date": "2026-06-20",
+          "views": 1293,
+          "likes": 20,
+          "comments": 0
         }
       ]
     },
@@ -5140,6 +5211,18 @@
       "type": "annotated",
       "related_annotation": "「エクリプス feat. 華乃」リリース前日にYouTube総再生数が急増（+119,233・3.05σ）",
       "detected_at": "2026-06-19T16:33:23.779541+00:00"
+    },
+    {
+      "date": "2026-06-20",
+      "metric": "youtube_total_views",
+      "value": 2078438,
+      "baseline_mean": 1939270.5,
+      "baseline_stddev": 54321.7,
+      "delta": 139167,
+      "score": 2.56,
+      "type": "annotated",
+      "related_annotation": "「エクリプス feat. 華乃」シングルリリース・MV公開",
+      "detected_at": "2026-06-20T15:33:29.217151+00:00"
     }
   ]
 }

@@ -2911,6 +2911,51 @@
         "large_monthly_listener_delta",
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-06-20",
+      "monthly_listeners": 2705,
+      "collected_at": "2026-06-20T15:36:31.053113+00:00",
+      "spotify_followers": 948,
+      "youtube_subscribers": 367,
+      "youtube_total_views": 66612,
+      "youtube_video_count": 175,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 138
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 76
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 46
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 45
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 37
+        }
+      ],
+      "lastfm_listeners": 749,
+      "lastfm_playcount": 2445,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0,
+      "validation_flags": [
+        "large_monthly_listener_delta",
+        "unusual_deviation"
+      ]
     }
   ],
   "annotations": [
@@ -3038,15 +3083,40 @@
         "url": "https://www.last.fm/music/TAIKING"
       },
       {
-        "name": "新東京",
-        "url": "https://www.last.fm/music/%E6%96%B0%E6%9D%B1%E4%BA%AC"
+        "name": "Geloomy",
+        "url": "https://www.last.fm/music/Geloomy"
       },
       {
-        "name": "えんぷてい",
-        "url": "https://www.last.fm/music/%E3%81%88%E3%82%93%E3%81%B7%E3%81%A6%E3%81%84"
+        "name": "マコトコンドウ",
+        "url": "https://www.last.fm/music/%E3%83%9E%E3%82%B3%E3%83%88%E3%82%B3%E3%83%B3%E3%83%89%E3%82%A6"
       }
     ],
     "ytm_related_artists": [
+      {
+        "name": "Cocolashika",
+        "browse_id": "UCc4EvEBa6wAcSP9-K__6_HA",
+        "subscribers": "30K"
+      },
+      {
+        "name": "zinbazi",
+        "browse_id": "UCgU0fSKVhoqTF5JPMB0QTnw",
+        "subscribers": "5K"
+      },
+      {
+        "name": "wonderful radio station",
+        "browse_id": "UCIQ9g5CwQvJ4bDdEeimwn7A",
+        "subscribers": "2.37K"
+      },
+      {
+        "name": "Seino Kentaro",
+        "browse_id": "UCWZ109ZanZtZwzHcHS5TsfQ",
+        "subscribers": "3.91K"
+      },
+      {
+        "name": "dawgss",
+        "browse_id": "UC0clTcD4YEA0gViF33LumjQ",
+        "subscribers": "762"
+      },
       {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
@@ -3060,7 +3130,7 @@
       {
         "name": "HATAKE",
         "browse_id": "UCOuWkJ8UjlXKsM0D7Ya5W0Q",
-        "subscribers": "944"
+        "subscribers": "945"
       },
       {
         "name": "OSTRIP",
@@ -3071,31 +3141,6 @@
         "name": "Offo tokyo",
         "browse_id": "UCFUndaCSveHB7RS3ULvATfw",
         "subscribers": "13.4K"
-      },
-      {
-        "name": "Souvenir",
-        "browse_id": "UC2-cczOy1b3JlJIEXuMleHQ",
-        "subscribers": "1.69K"
-      },
-      {
-        "name": "zenya",
-        "browse_id": "UCo4roqqKdMVG02RRM4n-MMw",
-        "subscribers": "127"
-      },
-      {
-        "name": "Kawaguchi Takuma",
-        "browse_id": "UC16c0SCZvOqrlL76EMDptzw",
-        "subscribers": "211"
-      },
-      {
-        "name": "GALALI",
-        "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "77.6K"
-      },
-      {
-        "name": "Kinopoppo",
-        "browse_id": "UCWkG_vuZkHrzANDUBOVvi6A",
-        "subscribers": "19.1K"
       }
     ],
     "ytm_top_songs": [
@@ -3921,6 +3966,12 @@
           "views": 5829,
           "likes": 22,
           "comments": 0
+        },
+        {
+          "date": "2026-06-20",
+          "views": 5838,
+          "likes": 22,
+          "comments": 0
         }
       ]
     },
@@ -4326,6 +4377,12 @@
         {
           "date": "2026-06-19",
           "views": 12302,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-20",
+          "views": 12309,
           "likes": 76,
           "comments": 0
         }
@@ -4735,6 +4792,12 @@
           "views": 32288,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-06-20",
+          "views": 32294,
+          "likes": 153,
+          "comments": 0
         }
       ]
     },
@@ -5136,6 +5199,12 @@
           "views": 8033,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-06-20",
+          "views": 8039,
+          "likes": 60,
+          "comments": 0
         }
       ]
     },
@@ -5162,6 +5231,12 @@
         {
           "date": "2026-06-19",
           "views": 642,
+          "likes": 2,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-20",
+          "views": 645,
           "likes": 2,
           "comments": 0
         }
@@ -5516,6 +5591,30 @@
       "type": "annotated",
       "related_annotation": "数値上の統計的外れ値を検知（原因不明）",
       "detected_at": "2026-06-19T16:36:27.074427+00:00"
+    },
+    {
+      "date": "2026-06-20",
+      "metric": "monthly_listeners",
+      "value": 2705,
+      "baseline_mean": 513.4,
+      "baseline_stddev": 178.9,
+      "delta": 2191,
+      "score": 12.25,
+      "type": "annotated",
+      "related_annotation": "YouTube高σ外れ値（+383再生・5.71σ）および月間リスナー増加（+52人・9.45σ）",
+      "detected_at": "2026-06-20T15:36:32.375370+00:00"
+    },
+    {
+      "date": "2026-06-20",
+      "metric": "youtube_total_views",
+      "value": 66612,
+      "baseline_mean": 65838.6,
+      "baseline_stddev": 162.0,
+      "delta": 773,
+      "score": 4.77,
+      "type": "annotated",
+      "related_annotation": "YouTube高σ外れ値（+383再生・5.71σ）および月間リスナー増加（+52人・9.45σ）",
+      "detected_at": "2026-06-20T15:36:32.375370+00:00"
     }
   ]
 }

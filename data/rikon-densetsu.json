@@ -2902,6 +2902,47 @@
       "ytm_subscribers": 100000,
       "ytm_monthly_listeners": 400000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-20",
+      "monthly_listeners": 437864,
+      "collected_at": "2026-06-20T15:30:08.395063+00:00",
+      "spotify_followers": 120404,
+      "youtube_subscribers": 100000,
+      "youtube_total_views": 47954918,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 23556
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 17715
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 12189
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 7840
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 5783
+        }
+      ],
+      "lastfm_listeners": 10101,
+      "lastfm_playcount": 163515,
+      "ytm_subscribers": 100000,
+      "ytm_monthly_listeners": 400000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3418,6 +3459,12 @@
           "views": 50356,
           "likes": 448,
           "comments": 6
+        },
+        {
+          "date": "2026-06-20",
+          "views": 50446,
+          "likes": 449,
+          "comments": 6
         }
       ]
     },
@@ -3830,6 +3877,12 @@
           "date": "2026-06-19",
           "views": 41285,
           "likes": 430,
+          "comments": 3
+        },
+        {
+          "date": "2026-06-20",
+          "views": 41403,
+          "likes": 431,
           "comments": 3
         }
       ]
@@ -4244,6 +4297,12 @@
           "views": 226092,
           "likes": 2006,
           "comments": 12
+        },
+        {
+          "date": "2026-06-20",
+          "views": 226363,
+          "likes": 2006,
+          "comments": 12
         }
       ]
     },
@@ -4638,6 +4697,12 @@
           "date": "2026-06-19",
           "views": 61666,
           "likes": 494,
+          "comments": 4
+        },
+        {
+          "date": "2026-06-20",
+          "views": 61715,
+          "likes": 495,
           "comments": 4
         }
       ]
@@ -5034,6 +5099,12 @@
           "views": 80881,
           "likes": 788,
           "comments": 8
+        },
+        {
+          "date": "2026-06-20",
+          "views": 81103,
+          "likes": 790,
+          "comments": 8
         }
       ]
     },
@@ -5362,6 +5433,18 @@
       "type": "annotated",
       "related_annotation": "テレビ朝日「ミュージックステーション」初出演告知（6/27放送・「紫陽花」披露）でYouTube総再生数が上昇（+102万・2.33σ）",
       "detected_at": "2026-06-17T16:52:39.195870+00:00"
+    },
+    {
+      "date": "2026-06-20",
+      "metric": "youtube_total_views",
+      "value": 47954918,
+      "baseline_mean": 46932498.6,
+      "baseline_stddev": 471845.0,
+      "delta": 1022419,
+      "score": 2.17,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-20T15:30:10.258389+00:00"
     }
   ]
 }

@@ -3103,6 +3103,47 @@
       "ytm_subscribers": 18600,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 736261
+    },
+    {
+      "date": "2026-06-20",
+      "monthly_listeners": 56719,
+      "collected_at": "2026-06-20T15:36:14.450233+00:00",
+      "spotify_followers": 19520,
+      "youtube_subscribers": 18600,
+      "youtube_total_views": 776927,
+      "youtube_video_count": 31,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2817
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1388
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 877
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 663
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 656
+        }
+      ],
+      "lastfm_listeners": 8263,
+      "lastfm_playcount": 49330,
+      "ytm_subscribers": 18600,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 733029
     }
   ],
   "annotations": [
@@ -3298,20 +3339,20 @@
         "url": "https://www.last.fm/music/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E9%9F%B3%E6%A5%BD%E3%82%AF%E3%83%A9%E3%83%96"
       },
       {
+        "name": "ZAZEN BOYS",
+        "url": "https://www.last.fm/music/ZAZEN+BOYS"
+      },
+      {
         "name": "電気グルーヴ",
         "url": "https://www.last.fm/music/%E9%9B%BB%E6%B0%97%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4"
       },
       {
-        "name": "石野卓球",
-        "url": "https://www.last.fm/music/%E7%9F%B3%E9%87%8E%E5%8D%93%E7%90%83"
+        "name": "Cho Co Pa Co Cho Co Quin Quin",
+        "url": "https://www.last.fm/music/Cho+Co+Pa+Co+Cho+Co+Quin+Quin"
       },
       {
         "name": "Muque",
         "url": "https://www.last.fm/music/Muque"
-      },
-      {
-        "name": "Cho Co Pa Co Cho Co Quin Quin",
-        "url": "https://www.last.fm/music/Cho+Co+Pa+Co+Cho+Co+Quin+Quin"
       }
     ]
   },
@@ -3627,6 +3668,18 @@
       "type": "annotated",
       "related_annotation": "「クロエマ」（6/12配信開始）1週間継続効果——Spotify月間リスナー（53,822・2.92σ）＋YouTube総再生数（+9,261・3.05σ）が高水準維持",
       "detected_at": "2026-06-19T16:36:10.279151+00:00"
+    },
+    {
+      "date": "2026-06-20",
+      "metric": "monthly_listeners",
+      "value": 56719,
+      "baseline_mean": 43803.5,
+      "baseline_stddev": 4748.5,
+      "delta": 12915,
+      "score": 2.72,
+      "type": "annotated",
+      "related_annotation": "「クロエマ」（6/12配信開始）1週間継続効果——Spotify月間リスナー（53,822・2.92σ）＋YouTube総再生数（+9,261・3.05σ）が高水準維持",
+      "detected_at": "2026-06-20T15:36:16.073589+00:00"
     }
   ],
   "song_performance": {
@@ -4038,6 +4091,12 @@
         {
           "date": "2026-06-19",
           "views": 3285,
+          "likes": 72,
+          "comments": 1
+        },
+        {
+          "date": "2026-06-20",
+          "views": 3324,
           "likes": 72,
           "comments": 1
         }
@@ -4453,6 +4512,12 @@
           "views": 6983,
           "likes": 179,
           "comments": 6
+        },
+        {
+          "date": "2026-06-20",
+          "views": 7001,
+          "likes": 179,
+          "comments": 6
         }
       ]
     },
@@ -4866,6 +4931,12 @@
           "views": 21785,
           "likes": 195,
           "comments": 2
+        },
+        {
+          "date": "2026-06-20",
+          "views": 21815,
+          "likes": 195,
+          "comments": 2
         }
       ]
     },
@@ -5277,6 +5348,12 @@
         {
           "date": "2026-06-19",
           "views": 13001,
+          "likes": 203,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-20",
+          "views": 13010,
           "likes": 203,
           "comments": 0
         }
@@ -5701,6 +5778,12 @@
           "date": "2026-06-19",
           "views": 2782,
           "likes": 65,
+          "comments": 2
+        },
+        {
+          "date": "2026-06-20",
+          "views": 2976,
+          "likes": 72,
           "comments": 2
         }
       ]
