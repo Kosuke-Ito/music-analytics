@@ -5102,6 +5102,24 @@
       "source": "summersonic.com/news/2026-05-27-41176/",
       "confidence": "low",
       "added_at": "2026-06-16T18:00:00Z"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "YouTube Data APIキャッシュ継続（2.18σ）——6月11日急増から同値8,543,575で推移",
+      "description": "6月11日に更新されたYouTube Data APIカウンター（8,543,575）が6月12日も同値で推移（APIキャッシュ）。実際の新規再生増加ではなく、前日値がベースライン移動平均（8,385,804）を上回り続けたことによる継続アーティファクト（2.18σ）。",
+      "category": "other",
+      "added_at": "2026-06-21T00:00:00+09:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-13",
+      "title": "YouTube Data APIキャッシュ終息（2.01σ）——6月11日更新値（8,543,575）の継続最終日",
+      "description": "6月11日更新のYouTube Data APIカウンター（8,543,575）が6月13日も同値で推移し、アーティファクト検出の最終日となった（2.01σ）。翌6月14日以降は実際のカウンター更新が再開したとみられる。",
+      "category": "other",
+      "added_at": "2026-06-21T00:00:00+09:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "buzz_events": [
