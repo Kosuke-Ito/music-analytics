@@ -3121,6 +3121,47 @@
       "ytm_subscribers": 2440000,
       "ytm_monthly_listeners": 132000000,
       "ytm_total_views": 1803907882
+    },
+    {
+      "date": "2026-06-21",
+      "monthly_listeners": 5781994,
+      "collected_at": "2026-06-21T15:53:44.383361+00:00",
+      "spotify_followers": 2375781,
+      "youtube_subscribers": 2440000,
+      "youtube_total_views": 1827385274,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 101566
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 82325
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 69228
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 62638
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 55287
+        }
+      ],
+      "lastfm_listeners": 633015,
+      "lastfm_playcount": 22158480,
+      "ytm_subscribers": 2440000,
+      "ytm_monthly_listeners": 140000000,
+      "ytm_total_views": 1809589014
     }
   ],
   "annotations": [
@@ -3385,44 +3426,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "1.35M"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "101M"
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "23.4M"
       },
       {
         "name": "millennium parade",
         "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
-        "subscribers": "875K"
+        "subscribers": "900K"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "22.6M"
-      },
-      {
-        "name": "Sambomaster",
-        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
-        "subscribers": "3.71M"
-      },
-      {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "45M"
-      },
-      {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "19M"
-      },
-      {
-        "name": "umedacypher",
-        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
-        "subscribers": "625K"
+        "name": "PEOPLE 1",
+        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
+        "subscribers": "1.33M"
       },
       {
         "name": "meiyo",
@@ -3430,9 +3446,34 @@
         "subscribers": "6.74M"
       },
       {
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "101M"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "45.2M"
+      },
+      {
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "45.9M"
+      },
+      {
+        "name": "Queen Bee",
+        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
+        "subscribers": "3.86M"
+      },
+      {
         "name": "Kenshi Yonezu",
         "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "67.1M"
+        "subscribers": "70.1M"
+      },
+      {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "3.23M"
       }
     ],
     "ytm_top_songs": [
@@ -3771,6 +3812,18 @@
       "type": "annotated",
       "related_annotation": "MUSIC AWARDS JAPAN 2026最優秀ヒップホップ賞2冠受賞＋「オトノケ」MV1億回突破でYTM月間リスナーが1億2800万人に急増（+2,070万・2.53σ）",
       "detected_at": "2026-06-15T18:28:38.920454+00:00"
+    },
+    {
+      "date": "2026-06-21",
+      "metric": "ytm_monthly_listeners",
+      "value": 140000000,
+      "baseline_mean": 114900000,
+      "baseline_stddev": 11255665.2,
+      "delta": 25100000,
+      "score": 2.23,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-21T15:53:45.624434+00:00"
     }
   ],
   "song_performance": {
@@ -4190,6 +4243,12 @@
           "views": 22472514,
           "likes": 284420,
           "comments": 961
+        },
+        {
+          "date": "2026-06-21",
+          "views": 22529849,
+          "likes": 285066,
+          "comments": 963
         }
       ]
     },
@@ -4609,6 +4668,12 @@
           "views": 19647187,
           "likes": 258640,
           "comments": 1000
+        },
+        {
+          "date": "2026-06-21",
+          "views": 19690835,
+          "likes": 259132,
+          "comments": 1004
         }
       ]
     },
@@ -5027,6 +5092,12 @@
           "date": "2026-06-20",
           "views": 7232011,
           "likes": 95286,
+          "comments": 1119
+        },
+        {
+          "date": "2026-06-21",
+          "views": 7244907,
+          "likes": 95409,
           "comments": 1119
         }
       ]
@@ -5447,6 +5518,12 @@
           "views": 12262098,
           "likes": 113442,
           "comments": 485
+        },
+        {
+          "date": "2026-06-21",
+          "views": 12272191,
+          "likes": 113526,
+          "comments": 486
         }
       ]
     },
@@ -5745,6 +5822,12 @@
           "date": "2026-06-20",
           "views": 5804079,
           "likes": 54285,
+          "comments": 190
+        },
+        {
+          "date": "2026-06-21",
+          "views": 5807463,
+          "likes": 54311,
           "comments": 190
         }
       ]

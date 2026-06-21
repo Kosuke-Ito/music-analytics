@@ -2956,6 +2956,50 @@
         "large_monthly_listener_delta",
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-06-21",
+      "monthly_listeners": 3265,
+      "collected_at": "2026-06-21T15:54:16.598285+00:00",
+      "spotify_followers": 949,
+      "youtube_subscribers": 367,
+      "youtube_total_views": 66658,
+      "youtube_video_count": 175,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 164
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 96
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 59
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 55
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 39
+        }
+      ],
+      "lastfm_listeners": 750,
+      "lastfm_playcount": 2449,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0,
+      "validation_flags": [
+        "unusual_deviation"
+      ]
     }
   ],
   "annotations": [
@@ -3093,31 +3137,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Cocolashika",
-        "browse_id": "UCc4EvEBa6wAcSP9-K__6_HA",
-        "subscribers": "30K"
-      },
-      {
-        "name": "zinbazi",
-        "browse_id": "UCgU0fSKVhoqTF5JPMB0QTnw",
-        "subscribers": "5K"
-      },
-      {
-        "name": "wonderful radio station",
-        "browse_id": "UCIQ9g5CwQvJ4bDdEeimwn7A",
-        "subscribers": "2.37K"
-      },
-      {
-        "name": "Seino Kentaro",
-        "browse_id": "UCWZ109ZanZtZwzHcHS5TsfQ",
-        "subscribers": "3.91K"
-      },
-      {
-        "name": "dawgss",
-        "browse_id": "UC0clTcD4YEA0gViF33LumjQ",
-        "subscribers": "762"
-      },
-      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "27.1K"
@@ -3141,6 +3160,31 @@
         "name": "Offo tokyo",
         "browse_id": "UCFUndaCSveHB7RS3ULvATfw",
         "subscribers": "13.4K"
+      },
+      {
+        "name": "Souvenir",
+        "browse_id": "UC2-cczOy1b3JlJIEXuMleHQ",
+        "subscribers": "1.69K"
+      },
+      {
+        "name": "zenya",
+        "browse_id": "UCo4roqqKdMVG02RRM4n-MMw",
+        "subscribers": "127"
+      },
+      {
+        "name": "Kawaguchi Takuma",
+        "browse_id": "UC16c0SCZvOqrlL76EMDptzw",
+        "subscribers": "211"
+      },
+      {
+        "name": "GALALI",
+        "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
+        "subscribers": "96.1K"
+      },
+      {
+        "name": "Kinopoppo",
+        "browse_id": "UCWkG_vuZkHrzANDUBOVvi6A",
+        "subscribers": "19.1K"
       }
     ],
     "ytm_top_songs": [
@@ -3149,12 +3193,12 @@
         "video_id": "LtzN4QKvyTk"
       },
       {
-        "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
-        "video_id": "gMrPbqFtkbQ"
-      },
-      {
         "title": "スーパースター - Superstar",
         "video_id": "UWlaQWdCoxY"
+      },
+      {
+        "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
+        "video_id": "gMrPbqFtkbQ"
       },
       {
         "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
@@ -3972,6 +4016,12 @@
           "views": 5838,
           "likes": 22,
           "comments": 0
+        },
+        {
+          "date": "2026-06-21",
+          "views": 5849,
+          "likes": 22,
+          "comments": 0
         }
       ]
     },
@@ -4383,6 +4433,12 @@
         {
           "date": "2026-06-20",
           "views": 12309,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-21",
+          "views": 12319,
           "likes": 76,
           "comments": 0
         }
@@ -4798,6 +4854,12 @@
           "views": 32294,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-06-21",
+          "views": 32303,
+          "likes": 153,
+          "comments": 0
         }
       ]
     },
@@ -5205,6 +5267,12 @@
           "views": 8039,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-06-21",
+          "views": 8049,
+          "likes": 60,
+          "comments": 0
         }
       ]
     },
@@ -5237,6 +5305,12 @@
         {
           "date": "2026-06-20",
           "views": 645,
+          "likes": 2,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-21",
+          "views": 647,
           "likes": 2,
           "comments": 0
         }
@@ -5615,6 +5689,30 @@
       "type": "annotated",
       "related_annotation": "YouTube高σ外れ値（+383再生・5.71σ）および月間リスナー増加（+52人・9.45σ）",
       "detected_at": "2026-06-20T15:36:32.375370+00:00"
+    },
+    {
+      "date": "2026-06-21",
+      "metric": "monthly_listeners",
+      "value": 3265,
+      "baseline_mean": 587.5,
+      "baseline_stddev": 432.0,
+      "delta": 2677,
+      "score": 6.2,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-21T15:54:17.896112+00:00"
+    },
+    {
+      "date": "2026-06-21",
+      "metric": "youtube_total_views",
+      "value": 66658,
+      "baseline_mean": 65869,
+      "baseline_stddev": 211.2,
+      "delta": 789,
+      "score": 3.73,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-21T15:54:17.896112+00:00"
     }
   ]
 }

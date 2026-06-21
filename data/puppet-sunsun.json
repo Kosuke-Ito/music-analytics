@@ -2947,6 +2947,47 @@
       "ytm_subscribers": 7370,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-21",
+      "monthly_listeners": 192044,
+      "collected_at": "2026-06-21T15:51:00.378966+00:00",
+      "spotify_followers": 32245,
+      "youtube_subscribers": 888000,
+      "youtube_total_views": 158368190,
+      "youtube_video_count": 472,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6836
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6422
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5128
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2763
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2416
+        }
+      ],
+      "lastfm_listeners": 983,
+      "lastfm_playcount": 5625,
+      "ytm_subscribers": 7390,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3063,31 +3104,6 @@
         "subscribers": "22.9K"
       },
       {
-        "name": "HIKAKIN & SEIKIN",
-        "browse_id": "UCJ8miSfGoAyQDpW-itFEJgg",
-        "subscribers": "19K"
-      },
-      {
-        "name": "Nishiyama Daddy Daddy",
-        "browse_id": "UCJ_LOaZ1IvM06s0oArHJmWA",
-        "subscribers": "1.45K"
-      },
-      {
-        "name": "あめんぼぷらす",
-        "browse_id": "UCrVrP-fAjWo5qQgyAwrxmMg",
-        "subscribers": "2.15K"
-      },
-      {
-        "name": "Tatsuhito Nomoto",
-        "browse_id": "UCDs8OJ0M_4Yo9BUJRDc4SOg",
-        "subscribers": "67"
-      },
-      {
-        "name": "Tomona Yabiku",
-        "browse_id": "UCKmOHLP4CftjRa3sIYUWxSg",
-        "subscribers": "1.19K"
-      },
-      {
         "name": "Matsuya Onoe",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
         "subscribers": "482"
@@ -3095,12 +3111,37 @@
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "773"
+        "subscribers": "780"
       },
       {
         "name": "Yuria Nara",
         "browse_id": "UCjIZWl36NHeA7QhciQMAZ_A",
-        "subscribers": "1.49K"
+        "subscribers": "1.5K"
+      },
+      {
+        "name": "strawberry flower",
+        "browse_id": "UCcfe0G1YIpvLuNu4OJlwzBg",
+        "subscribers": "8.51K"
+      },
+      {
+        "name": "Tesesaku",
+        "browse_id": "UCxMfaJk6D2pde7PBChZEzfg",
+        "subscribers": "6.67K"
+      },
+      {
+        "name": "TV Senshi",
+        "browse_id": "UCFKdZVD2Jbh6Kv2nS72pW5A",
+        "subscribers": "4.76K"
+      },
+      {
+        "name": "Senasuke",
+        "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
+        "subscribers": "485K"
+      },
+      {
+        "name": "Rolly",
+        "browse_id": "UCDYK_cePWKdqMjverqNulMw",
+        "subscribers": "221"
       }
     ]
   },
@@ -3212,6 +3253,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-15T18:25:35.974705+00:00"
+    },
+    {
+      "date": "2026-06-21",
+      "metric": "monthly_listeners",
+      "value": 192044,
+      "baseline_mean": 185080.2,
+      "baseline_stddev": 3252.6,
+      "delta": 6963,
+      "score": 2.14,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-21T15:51:01.776646+00:00"
     }
   ]
 }

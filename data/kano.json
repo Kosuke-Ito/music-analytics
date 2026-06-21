@@ -2936,6 +2936,47 @@
       "ytm_subscribers": 106,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-21",
+      "monthly_listeners": 10244,
+      "collected_at": "2026-06-21T15:51:16.732012+00:00",
+      "spotify_followers": 546,
+      "youtube_subscribers": 3310,
+      "youtube_total_views": 2089571,
+      "youtube_video_count": 100,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 318
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 235
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 217
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 159
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 156
+        }
+      ],
+      "lastfm_listeners": 266,
+      "lastfm_playcount": 1144,
+      "ytm_subscribers": 107,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -2967,16 +3008,16 @@
         "video_id": "wdYYw8bLUKg"
       },
       {
+        "title": "エクリプス - Eclipse (feat. Kano)",
+        "video_id": "-rNZchqFoN8"
+      },
+      {
         "title": "トキメキ詐欺 - Love Scam",
         "video_id": "BX9NmIjpjVQ"
       },
       {
         "title": "お気の毒様ね。",
         "video_id": "SNHlT4eeGjo"
-      },
-      {
-        "title": "Day&Night - Day＆Night",
-        "video_id": "aWTO11fznyQ"
       },
       {
         "title": "執着地点",
@@ -3389,6 +3430,12 @@
           "views": 346570,
           "likes": 3111,
           "comments": 21
+        },
+        {
+          "date": "2026-06-21",
+          "views": 347405,
+          "likes": 3117,
+          "comments": 21
         }
       ]
     },
@@ -3795,6 +3842,12 @@
           "date": "2026-06-20",
           "views": 13740,
           "likes": 82,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-21",
+          "views": 13950,
+          "likes": 84,
           "comments": 0
         }
       ]
@@ -4203,6 +4256,12 @@
           "views": 5273,
           "likes": 49,
           "comments": 0
+        },
+        {
+          "date": "2026-06-21",
+          "views": 5287,
+          "likes": 49,
+          "comments": 0
         }
       ]
     },
@@ -4483,6 +4542,12 @@
           "date": "2026-06-20",
           "views": 1696,
           "likes": 35,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-21",
+          "views": 1720,
+          "likes": 36,
           "comments": 0
         }
       ]
@@ -5029,6 +5094,17 @@
           "comments": 0
         }
       ]
+    },
+    "-rNZchqFoN8": {
+      "title": "エクリプス - Eclipse (feat. Kano)",
+      "history": [
+        {
+          "date": "2026-06-21",
+          "views": 5517,
+          "likes": 182,
+          "comments": 0
+        }
+      ]
     }
   },
   "annotations": [
@@ -5223,6 +5299,18 @@
       "type": "annotated",
       "related_annotation": "「エクリプス feat. 華乃」シングルリリース・MV公開",
       "detected_at": "2026-06-20T15:33:29.217151+00:00"
+    },
+    {
+      "date": "2026-06-21",
+      "metric": "youtube_total_views",
+      "value": 2089571,
+      "baseline_mean": 1946215,
+      "baseline_stddev": 58212.9,
+      "delta": 143356,
+      "score": 2.46,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-21T15:51:18.282966+00:00"
     }
   ]
 }
