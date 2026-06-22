@@ -5405,6 +5405,26 @@
       "source": "テレビ朝日 ミュージックステーション",
       "confidence": "medium",
       "verified": false
+    },
+    {
+      "date": "2026-06-20",
+      "title": "YouTube Data APIカウンター凍結（6/15〜6/19・5日間）解除による蓄積分一括計上アーティファクト（+27万・2.17σ）",
+      "description": "6月15日から19日にかけてYouTube Data APIカウンターが47,683,834に5日間固定。6月20日に47,954,918へ更新（+271,084）され、蓄積5日分が一括計上された統計的アーティファクト（2.17σ）。6月27日のMステ初出演告知（6/15）後の実需も含まれると推定されるが、API凍結中のため分離不可。",
+      "category": "other",
+      "added_at": "2026-06-22T15:00:00+09:00",
+      "source": "youtube.com (data artifact)",
+      "confidence": "high",
+      "verified": false
+    },
+    {
+      "date": "2026-06-22",
+      "title": "YouTube Data APIカウンター第2次凍結（6/21・1日）解除による蓄積分一括計上アーティファクト（+7.8万・2.0σ）",
+      "description": "6月21日に47,954,918で再凍結したYouTube Data APIカウンターが6月22日に48,032,584へ更新（+77,666）。1日分の蓄積が一括計上されたアーティファクト（2.0σ）。6月27日のMステ初出演に向けた自然流入も含まれる可能性がある。",
+      "category": "other",
+      "added_at": "2026-06-22T15:00:00+09:00",
+      "source": "youtube.com (data artifact)",
+      "confidence": "high",
+      "verified": false
     }
   ],
   "buzz_events": [
