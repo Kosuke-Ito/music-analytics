@@ -2877,6 +2877,47 @@
       "ytm_subscribers": 590000,
       "ytm_monthly_listeners": 4520000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-22",
+      "monthly_listeners": 2425016,
+      "collected_at": "2026-06-22T18:24:16.542125+00:00",
+      "spotify_followers": 1981276,
+      "youtube_subscribers": 590000,
+      "youtube_total_views": 496513406,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 131077
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 129740
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 89278
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 51441
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 41224
+        }
+      ],
+      "lastfm_listeners": 7485,
+      "lastfm_playcount": 428026,
+      "ytm_subscribers": 590000,
+      "ytm_monthly_listeners": 4480000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3095,7 +3136,12 @@
       {
         "name": "SHISHAMO",
         "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "2.64M"
+        "subscribers": "2.85M"
+      },
+      {
+        "name": "Tele",
+        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
+        "subscribers": "469K"
       },
       {
         "name": "Saucy Dog",
@@ -3105,12 +3151,7 @@
       {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "12.5M"
-      },
-      {
-        "name": "Tele",
-        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "469K"
+        "subscribers": "12.9M"
       },
       {
         "name": "Hump Back",
@@ -3120,12 +3161,12 @@
       {
         "name": "sumika",
         "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
-        "subscribers": "3.15M"
+        "subscribers": "3.24M"
       },
       {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "5.38M"
+        "subscribers": "5.44M"
       },
       {
         "name": "Radwimps",
@@ -3566,6 +3607,12 @@
           "views": 12009732,
           "likes": 68838,
           "comments": 143
+        },
+        {
+          "date": "2026-06-22",
+          "views": 12028306,
+          "likes": 68932,
+          "comments": 143
         }
       ]
     },
@@ -3973,6 +4020,12 @@
           "views": 24378738,
           "likes": 88086,
           "comments": 170
+        },
+        {
+          "date": "2026-06-22",
+          "views": 24402712,
+          "likes": 88207,
+          "comments": 170
         }
       ]
     },
@@ -4368,6 +4421,12 @@
           "views": 16633476,
           "likes": 60988,
           "comments": 114
+        },
+        {
+          "date": "2026-06-22",
+          "views": 16652106,
+          "likes": 61054,
+          "comments": 114
         }
       ]
     },
@@ -4685,6 +4744,12 @@
           "views": 44871919,
           "likes": 138709,
           "comments": 236
+        },
+        {
+          "date": "2026-06-22",
+          "views": 44893204,
+          "likes": 138808,
+          "comments": 236
         }
       ]
     },
@@ -4983,6 +5048,12 @@
           "views": 13749657,
           "likes": 79504,
           "comments": 430
+        },
+        {
+          "date": "2026-06-22",
+          "views": 13789024,
+          "likes": 79724,
+          "comments": 431
         }
       ]
     },
@@ -5634,6 +5705,18 @@
       "type": "annotated",
       "related_annotation": "TVアニメ「ワールド イズ ダンシング」OP「終宵」放送2週間前の話題高まりでYTM月間リスナー急増（+21万・2.53σ）",
       "detected_at": "2026-06-16T18:40:04.297505+00:00"
+    },
+    {
+      "date": "2026-06-22",
+      "metric": "youtube_total_views",
+      "value": 496513406,
+      "baseline_mean": 488224472.3,
+      "baseline_stddev": 3023890.4,
+      "delta": 8288933,
+      "score": 2.74,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-22T18:24:18.360799+00:00"
     }
   ]
 }

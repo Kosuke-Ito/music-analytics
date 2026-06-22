@@ -3000,6 +3000,47 @@
       "validation_flags": [
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-06-22",
+      "monthly_listeners": 3692,
+      "collected_at": "2026-06-22T18:17:02.869706+00:00",
+      "spotify_followers": 951,
+      "youtube_subscribers": 368,
+      "youtube_total_views": 66744,
+      "youtube_video_count": 176,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 181
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 110
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 67
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 58
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 42
+        }
+      ],
+      "lastfm_listeners": 750,
+      "lastfm_playcount": 2451,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3137,6 +3178,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Yujin Aramaki",
+        "browse_id": "UC7y02F84Rxxu1Ifa0BFMKXg",
+        "subscribers": "22.4K"
+      },
+      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "27.1K"
@@ -3159,7 +3205,7 @@
       {
         "name": "Offo tokyo",
         "browse_id": "UCFUndaCSveHB7RS3ULvATfw",
-        "subscribers": "13.4K"
+        "subscribers": "13.5K"
       },
       {
         "name": "Souvenir",
@@ -3179,12 +3225,7 @@
       {
         "name": "GALALI",
         "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "96.1K"
-      },
-      {
-        "name": "Kinopoppo",
-        "browse_id": "UCWkG_vuZkHrzANDUBOVvi6A",
-        "subscribers": "19.1K"
+        "subscribers": "110K"
       }
     ],
     "ytm_top_songs": [
@@ -4022,6 +4063,12 @@
           "views": 5849,
           "likes": 22,
           "comments": 0
+        },
+        {
+          "date": "2026-06-22",
+          "views": 5859,
+          "likes": 22,
+          "comments": 0
         }
       ]
     },
@@ -4439,6 +4486,12 @@
         {
           "date": "2026-06-21",
           "views": 12319,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-22",
+          "views": 12328,
           "likes": 76,
           "comments": 0
         }
@@ -4860,6 +4913,12 @@
           "views": 32303,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-06-22",
+          "views": 32312,
+          "likes": 153,
+          "comments": 0
         }
       ]
     },
@@ -5273,6 +5332,12 @@
           "views": 8049,
           "likes": 60,
           "comments": 0
+        },
+        {
+          "date": "2026-06-22",
+          "views": 8056,
+          "likes": 60,
+          "comments": 0
         }
       ]
     },
@@ -5311,6 +5376,12 @@
         {
           "date": "2026-06-21",
           "views": 647,
+          "likes": 2,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-22",
+          "views": 653,
           "likes": 2,
           "comments": 0
         }
@@ -5713,6 +5784,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-21T15:54:17.896112+00:00"
+    },
+    {
+      "date": "2026-06-22",
+      "metric": "monthly_listeners",
+      "value": 3692,
+      "baseline_mean": 680.3,
+      "baseline_stddev": 645.4,
+      "delta": 3011,
+      "score": 4.67,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-22T18:17:04.263265+00:00"
+    },
+    {
+      "date": "2026-06-22",
+      "metric": "youtube_total_views",
+      "value": 66744,
+      "baseline_mean": 65900.7,
+      "baseline_stddev": 252.0,
+      "delta": 843,
+      "score": 3.35,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-22T18:17:04.263265+00:00"
     }
   ]
 }

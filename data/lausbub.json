@@ -3185,6 +3185,47 @@
       "ytm_subscribers": 18700,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 733029
+    },
+    {
+      "date": "2026-06-22",
+      "monthly_listeners": 57554,
+      "collected_at": "2026-06-22T18:16:46.930168+00:00",
+      "spotify_followers": 19579,
+      "youtube_subscribers": 18700,
+      "youtube_total_views": 776927,
+      "youtube_video_count": 31,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2905
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1404
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 881
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 713
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 675
+        }
+      ],
+      "lastfm_listeners": 8313,
+      "lastfm_playcount": 49544,
+      "ytm_subscribers": 18700,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 733029
     }
   ],
   "annotations": [
@@ -3733,6 +3774,18 @@
       "type": "annotated",
       "related_annotation": "「クロエマ」（6/12配信開始）1週間継続効果——Spotify月間リスナー（53,822・2.92σ）＋YouTube総再生数（+9,261・3.05σ）が高水準維持",
       "detected_at": "2026-06-21T15:54:02.014548+00:00"
+    },
+    {
+      "date": "2026-06-22",
+      "metric": "monthly_listeners",
+      "value": 57554,
+      "baseline_mean": 44907.6,
+      "baseline_stddev": 5666.2,
+      "delta": 12646,
+      "score": 2.23,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-22T18:16:47.962712+00:00"
     }
   ],
   "song_performance": {
@@ -4157,6 +4210,12 @@
           "date": "2026-06-21",
           "views": 3362,
           "likes": 73,
+          "comments": 1
+        },
+        {
+          "date": "2026-06-22",
+          "views": 3418,
+          "likes": 74,
           "comments": 1
         }
       ]
@@ -4583,6 +4642,12 @@
           "views": 7032,
           "likes": 179,
           "comments": 6
+        },
+        {
+          "date": "2026-06-22",
+          "views": 7051,
+          "likes": 180,
+          "comments": 6
         }
       ]
     },
@@ -5008,6 +5073,12 @@
           "views": 21840,
           "likes": 195,
           "comments": 2
+        },
+        {
+          "date": "2026-06-22",
+          "views": 21873,
+          "likes": 196,
+          "comments": 2
         }
       ]
     },
@@ -5432,6 +5503,12 @@
           "date": "2026-06-21",
           "views": 13025,
           "likes": 203,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-22",
+          "views": 13033,
+          "likes": 204,
           "comments": 0
         }
       ]
@@ -5866,6 +5943,12 @@
         {
           "date": "2026-06-21",
           "views": 3183,
+          "likes": 74,
+          "comments": 2
+        },
+        {
+          "date": "2026-06-22",
+          "views": 3396,
           "likes": 74,
           "comments": 2
         }
