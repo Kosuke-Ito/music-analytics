@@ -5262,6 +5262,24 @@
       "added_at": "2026-06-21T00:00:00+09:00",
       "source": "データ検証（daily records確認）",
       "confidence": "high"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "YouTube Data APIカウンター凍結解除（6/13〜6/22・9日間蓄積+88,762再生・2.34σ）——Summer Sonic 2026 Spotifyステージ効果継続による有機的増加",
+      "description": "6月13日から9日間凍結していたYouTube Data APIカウンターが6月22日に8,543,575→8,632,337（+88,762再生）に更新。蓄積分一括計上によるアーティファクト（2.34σ）。4月24日発表のSummer Sonic 2026「Altar JP After Hours」（8月15日・幕張）出演への継続的な注目がYouTube視聴増の背景とみられる。同一パターン（9〜13日周期の凍結→解除）が本ファイルで繰り返し確認されている。",
+      "category": "other",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high",
+      "added_at": "2026-06-23T16:00:00Z"
+    },
+    {
+      "date": "2026-06-23",
+      "title": "YouTube Data APIカウンター再凍結（6/22解除直後・同値8,632,337・2.12σ）",
+      "description": "6月22日に更新された8,632,337が6月23日も同値。YouTube Data APIカウンターが解除直後に再凍結したデータアーティファクト（2.12σ）。実際の再生増加ではなく、APIキャッシュの挙動によるもの。",
+      "category": "other",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high",
+      "added_at": "2026-06-23T16:00:00Z"
     }
   ],
   "buzz_events": [
