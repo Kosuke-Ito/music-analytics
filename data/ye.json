@@ -3200,6 +3200,47 @@
       "ytm_subscribers": 12500000,
       "ytm_monthly_listeners": 269000000,
       "ytm_total_views": 9868559555
+    },
+    {
+      "date": "2026-06-23",
+      "monthly_listeners": 9621432,
+      "collected_at": "2026-06-23T16:32:06.285653+00:00",
+      "spotify_followers": 738749,
+      "youtube_subscribers": 12500000,
+      "youtube_total_views": 9871626301,
+      "youtube_video_count": 41,
+      "top_cities": [
+        {
+          "city": "Istanbul",
+          "country": "TR",
+          "listeners": 177247
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 158399
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 158151
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 132788
+        },
+        {
+          "city": "New York City",
+          "country": "US",
+          "listeners": 124150
+        }
+      ],
+      "lastfm_listeners": 513050,
+      "lastfm_playcount": 9320259,
+      "ytm_subscribers": 12500000,
+      "ytm_monthly_listeners": 269000000,
+      "ytm_total_views": 9868559555
     }
   ],
   "annotations": [
@@ -3425,29 +3466,9 @@
         "subscribers": "116M"
       },
       {
-        "name": "Baby Keem",
-        "browse_id": "UCtWW-fcdt2gOE6mGHf-_dlw",
-        "subscribers": "5.96M"
-      },
-      {
         "name": "¥$",
         "browse_id": "UCI-4sezWoZmtJXoW7E5k7Zw",
-        "subscribers": "83.6K"
-      },
-      {
-        "name": "Kendrick Lamar",
-        "browse_id": "UCprAFmT0C6O4X0ToEXpeFTQ",
-        "subscribers": "168M"
-      },
-      {
-        "name": "Big Sean",
-        "browse_id": "UCm3ai8dGs4olHioc_xL3IXA",
-        "subscribers": "49.6M"
-      },
-      {
-        "name": "Tyler, The Creator",
-        "browse_id": "UCo1DYcm1IZ9v3UPkpiAcgtg",
-        "subscribers": "100M"
+        "subscribers": "83.7K"
       },
       {
         "name": "Kid Cudi",
@@ -3455,9 +3476,29 @@
         "subscribers": "26.4M"
       },
       {
+        "name": "Baby Keem",
+        "browse_id": "UCtWW-fcdt2gOE6mGHf-_dlw",
+        "subscribers": "5.96M"
+      },
+      {
+        "name": "Tyler, The Creator",
+        "browse_id": "UCo1DYcm1IZ9v3UPkpiAcgtg",
+        "subscribers": "100M"
+      },
+      {
+        "name": "ScHoolboy Q",
+        "browse_id": "UC40b2qG4-4d2kwseUrMIW1Q",
+        "subscribers": "3.75M"
+      },
+      {
         "name": "Lupe Fiasco",
         "browse_id": "UCe872mgP4deADPnXtkbS-Cg",
         "subscribers": "33.9M"
+      },
+      {
+        "name": "Kendrick Lamar",
+        "browse_id": "UCprAFmT0C6O4X0ToEXpeFTQ",
+        "subscribers": "168M"
       }
     ],
     "ytm_top_songs": [
@@ -4133,6 +4174,12 @@
           "views": 146400437,
           "likes": 1452142,
           "comments": 17059
+        },
+        {
+          "date": "2026-06-23",
+          "views": 146502962,
+          "likes": 1452969,
+          "comments": 17072
         }
       ]
     },
@@ -4564,6 +4611,12 @@
           "views": 72316202,
           "likes": 654804,
           "comments": 3629
+        },
+        {
+          "date": "2026-06-23",
+          "views": 72406333,
+          "likes": 655301,
+          "comments": 3632
         }
       ]
     },
@@ -4989,6 +5042,12 @@
           "views": 198612572,
           "likes": 1506535,
           "comments": 5699
+        },
+        {
+          "date": "2026-06-23",
+          "views": 198716820,
+          "likes": 1506972,
+          "comments": 5699
         }
       ]
     },
@@ -5366,6 +5425,12 @@
           "views": 45931516,
           "likes": 427091,
           "comments": 2380
+        },
+        {
+          "date": "2026-06-23",
+          "views": 45957614,
+          "likes": 427282,
+          "comments": 2381
         }
       ]
     },
@@ -5623,6 +5688,12 @@
           "views": 161231050,
           "likes": 1690000,
           "comments": 44151
+        },
+        {
+          "date": "2026-06-23",
+          "views": 161347960,
+          "likes": 1690630,
+          "comments": 44171
         }
       ]
     },
@@ -5913,6 +5984,30 @@
       "type": "annotated",
       "related_annotation": "アルバム「BULLY」デラックス版リリース——新曲2曲とDon Toliver参加、「Kings」MV公開",
       "detected_at": "2026-06-22T18:19:49.781331+00:00"
+    },
+    {
+      "date": "2026-06-23",
+      "metric": "monthly_listeners",
+      "value": 9621432,
+      "baseline_mean": 8385490.1,
+      "baseline_stddev": 422973.5,
+      "delta": 1235941,
+      "score": 2.92,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-23T16:32:07.671497+00:00"
+    },
+    {
+      "date": "2026-06-23",
+      "metric": "ytm_monthly_listeners",
+      "value": 269000000,
+      "baseline_mean": 255533333.3,
+      "baseline_stddev": 4595166.5,
+      "delta": 13466666,
+      "score": 2.93,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-23T16:32:07.671497+00:00"
     }
   ]
 }

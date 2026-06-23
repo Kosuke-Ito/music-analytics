@@ -3200,6 +3200,47 @@
       "ytm_subscribers": 8670000,
       "ytm_monthly_listeners": 70100000,
       "ytm_total_views": 8683263776
+    },
+    {
+      "date": "2026-06-23",
+      "monthly_listeners": 9656489,
+      "collected_at": "2026-06-23T16:27:32.299089+00:00",
+      "spotify_followers": 8517166,
+      "youtube_subscribers": 8670000,
+      "youtube_total_views": 8837859015,
+      "youtube_video_count": 378,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 318977
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 257441
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 178617
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 167927
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 109345
+        }
+      ],
+      "lastfm_listeners": 57065,
+      "lastfm_playcount": 5611034,
+      "ytm_subscribers": 8670000,
+      "ytm_monthly_listeners": 70100000,
+      "ytm_total_views": 8683263776
     }
   ],
   "annotations": [
@@ -3484,28 +3525,18 @@
       "japanese",
       "J-rock",
       "rock",
-      "niconico"
+      "male vocalists"
     ],
     "ytm_related_artists": [
-      {
-        "name": "ZUTOMAYO",
-        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
-        "subscribers": "5.81M"
-      },
-      {
-        "name": "Keina Suda",
-        "browse_id": "UCeHkvVCNEAUvpBtuApZJCrg",
-        "subscribers": "2.54M"
-      },
       {
         "name": "Kocchi no Kento",
         "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
         "subscribers": "75.8M"
       },
       {
-        "name": "Ado",
-        "browse_id": "UC5DHwv9N4OQ9AWtKr8YSefw",
-        "subscribers": "31.5M"
+        "name": "ZUTOMAYO",
+        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
+        "subscribers": "5.81M"
       },
       {
         "name": "natori",
@@ -3513,19 +3544,19 @@
         "subscribers": "15.2M"
       },
       {
-        "name": "Yorushika",
-        "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
-        "subscribers": "15.7M"
-      },
-      {
         "name": "Eve",
         "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
         "subscribers": "17.8M"
       },
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.58M"
+        "name": "Yorushika",
+        "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
+        "subscribers": "15.7M"
+      },
+      {
+        "name": "Ado",
+        "browse_id": "UC5DHwv9N4OQ9AWtKr8YSefw",
+        "subscribers": "31.5M"
       },
       {
         "name": "OFFICIAL HIGE DANDISM",
@@ -3536,6 +3567,16 @@
         "name": "Vaundy",
         "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
         "subscribers": "23.4M"
+      },
+      {
+        "name": "AKASAKI",
+        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
+        "subscribers": "5.92M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.58M"
       }
     ],
     "ytm_top_songs": [
@@ -3991,6 +4032,12 @@
           "views": 119978247,
           "likes": 653990,
           "comments": 4920
+        },
+        {
+          "date": "2026-06-23",
+          "views": 120187026,
+          "likes": 654690,
+          "comments": 4924
         }
       ]
     },
@@ -4421,6 +4468,12 @@
           "date": "2026-06-22",
           "views": 56116174,
           "likes": 313739,
+          "comments": 2539
+        },
+        {
+          "date": "2026-06-23",
+          "views": 56191091,
+          "likes": 313984,
           "comments": 2539
         }
       ]
@@ -4853,6 +4906,12 @@
           "views": 226828230,
           "likes": 1531353,
           "comments": 7469
+        },
+        {
+          "date": "2026-06-23",
+          "views": 226927003,
+          "likes": 1531698,
+          "comments": 7470
         }
       ]
     },
@@ -5283,6 +5342,12 @@
           "date": "2026-06-22",
           "views": 119969017,
           "likes": 441664,
+          "comments": 1203
+        },
+        {
+          "date": "2026-06-23",
+          "views": 120039963,
+          "likes": 441838,
           "comments": 1203
         }
       ]
@@ -5730,6 +5795,12 @@
           "views": 748629,
           "likes": 20509,
           "comments": 504
+        },
+        {
+          "date": "2026-06-23",
+          "views": 806079,
+          "likes": 21134,
+          "comments": 504
         }
       ]
     }
@@ -5950,6 +6021,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-22T18:15:23.931090+00:00"
+    },
+    {
+      "date": "2026-06-23",
+      "metric": "youtube_total_views",
+      "value": 8837859015,
+      "baseline_mean": 8747150704.1,
+      "baseline_stddev": 42896998.5,
+      "delta": 90708310,
+      "score": 2.11,
+      "type": "annotated",
+      "related_annotation": "「烏」MV公開・FIFA W杯日本4-0大勝でYouTube急上昇（2.35σ）",
+      "detected_at": "2026-06-23T16:27:33.535884+00:00"
     }
   ]
 }

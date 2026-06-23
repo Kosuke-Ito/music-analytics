@@ -2836,6 +2836,47 @@
       "ytm_subscribers": 37700,
       "ytm_monthly_listeners": 62900,
       "ytm_total_views": 8392546
+    },
+    {
+      "date": "2026-06-23",
+      "monthly_listeners": 47689,
+      "collected_at": "2026-06-23T16:39:47.272089+00:00",
+      "spotify_followers": 51612,
+      "youtube_subscribers": 37700,
+      "youtube_total_views": 8632337,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3174
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1239
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 789
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 774
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 478
+        }
+      ],
+      "lastfm_listeners": 24017,
+      "lastfm_playcount": 402649,
+      "ytm_subscribers": 37700,
+      "ytm_monthly_listeners": 62900,
+      "ytm_total_views": 8392546
     }
   ],
   "metadata": {
@@ -2862,11 +2903,11 @@
       }
     ],
     "lastfm_tags": [
-      "techno",
       "japanese",
+      "techno",
       "j-pop",
       "House",
-      "japan"
+      "shibuya-kei"
     ],
     "ytm_related_artists": [
       {
@@ -2880,24 +2921,19 @@
         "subscribers": "437K"
       },
       {
+        "name": "ako",
+        "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
+        "subscribers": "302K"
+      },
+      {
         "name": "Lovely Summer-Chan",
         "browse_id": "UC_wA9BfubcP2P74SPKTSV7Q",
         "subscribers": "531K"
       },
       {
-        "name": "Lucky Kilimanjaro",
-        "browse_id": "UCiVXhIDW-3GNIyL5wsydr1Q",
-        "subscribers": "3.2M"
-      },
-      {
         "name": "tofubeats",
         "browse_id": "UCDsYyiCcQPwmgkDiHsaGB2A",
         "subscribers": "624K"
-      },
-      {
-        "name": "ako",
-        "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "302K"
       },
       {
         "name": "DE DE MOUSE",
@@ -2918,6 +2954,11 @@
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
         "subscribers": "110K"
+      },
+      {
+        "name": "punipunidenki",
+        "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
+        "subscribers": "286K"
       }
     ],
     "ytm_top_songs": [
@@ -3349,6 +3390,12 @@
           "views": 130838,
           "likes": 2611,
           "comments": 25
+        },
+        {
+          "date": "2026-06-23",
+          "views": 131175,
+          "likes": 2614,
+          "comments": 25
         }
       ]
     },
@@ -3755,6 +3802,12 @@
           "date": "2026-06-22",
           "views": 572842,
           "likes": 5295,
+          "comments": 18
+        },
+        {
+          "date": "2026-06-23",
+          "views": 573538,
+          "likes": 5300,
           "comments": 18
         }
       ]
@@ -4163,6 +4216,12 @@
           "views": 321453,
           "likes": 3446,
           "comments": 6
+        },
+        {
+          "date": "2026-06-23",
+          "views": 321729,
+          "likes": 3448,
+          "comments": 6
         }
       ]
     },
@@ -4568,6 +4627,12 @@
         {
           "date": "2026-06-22",
           "views": 55444,
+          "likes": 186,
+          "comments": 1
+        },
+        {
+          "date": "2026-06-23",
+          "views": 55487,
           "likes": 186,
           "comments": 1
         }
@@ -4976,6 +5041,12 @@
           "date": "2026-06-22",
           "views": 122502,
           "likes": 1556,
+          "comments": 14
+        },
+        {
+          "date": "2026-06-23",
+          "views": 122700,
+          "likes": 1560,
           "comments": 14
         }
       ]
@@ -5553,6 +5624,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-22T18:27:22.810729+00:00"
+    },
+    {
+      "date": "2026-06-23",
+      "metric": "youtube_total_views",
+      "value": 8632337,
+      "baseline_mean": 8471467.1,
+      "baseline_stddev": 76060.8,
+      "delta": 160869,
+      "score": 2.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-23T16:39:49.120989+00:00"
     }
   ]
 }

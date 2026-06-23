@@ -3028,6 +3028,47 @@
       "ytm_subscribers": 1240000,
       "ytm_monthly_listeners": 9530000,
       "ytm_total_views": 1512370725
+    },
+    {
+      "date": "2026-06-23",
+      "monthly_listeners": 3169443,
+      "collected_at": "2026-06-23T16:21:20.487863+00:00",
+      "spotify_followers": 3401928,
+      "youtube_subscribers": 1240000,
+      "youtube_total_views": 1514881057,
+      "youtube_video_count": 59,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 115626
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 112126
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 81938
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 71048
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 42735
+        }
+      ],
+      "lastfm_listeners": 31607,
+      "lastfm_playcount": 676680,
+      "ytm_subscribers": 1240000,
+      "ytm_monthly_listeners": 9530000,
+      "ytm_total_views": 1512370725
     }
   ],
   "annotations": [
@@ -3169,14 +3210,19 @@
         "subscribers": "1.53M"
       },
       {
+        "name": "tuki.",
+        "browse_id": "UCtrbtNbdI4jwRQPG35Mtn2A",
+        "subscribers": "15.3M"
+      },
+      {
         "name": "TOMIOKA AI",
         "browse_id": "UCfliu30UZ2IOK_ctR_Ok_9w",
         "subscribers": "2.16M"
       },
       {
-        "name": "tuki.",
-        "browse_id": "UCtrbtNbdI4jwRQPG35Mtn2A",
-        "subscribers": "15.3M"
+        "name": "Novelbright",
+        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
+        "subscribers": "4.97M"
       },
       {
         "name": "back number",
@@ -3189,29 +3235,24 @@
         "subscribers": "5.78M"
       },
       {
+        "name": "yukasong",
+        "browse_id": "UCMkVJ99SxSdl7mZi43FB49Q",
+        "subscribers": "5.88M"
+      },
+      {
+        "name": "Marcy",
+        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
+        "subscribers": "1.4M"
+      },
+      {
         "name": "Mosawo",
         "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
         "subscribers": "886K"
       },
       {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "4.97M"
-      },
-      {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.21M"
-      },
-      {
-        "name": "TakaseToya",
-        "browse_id": "UC2AMNa5ERr83V61nupAkE6w",
-        "subscribers": "913K"
-      },
-      {
-        "name": "yukasong",
-        "browse_id": "UCMkVJ99SxSdl7mZi43FB49Q",
-        "subscribers": "5.88M"
+        "name": "Masanori Otoda",
+        "browse_id": "UCCmU7XwwWAM0j5TVhcTERLg",
+        "subscribers": "1.83M"
       }
     ],
     "ytm_top_songs": [
@@ -3661,6 +3702,12 @@
           "views": 104883881,
           "likes": 341157,
           "comments": 150
+        },
+        {
+          "date": "2026-06-23",
+          "views": 104937264,
+          "likes": 341242,
+          "comments": 150
         }
       ]
     },
@@ -4091,6 +4138,12 @@
           "date": "2026-06-22",
           "views": 37758255,
           "likes": 136462,
+          "comments": 60
+        },
+        {
+          "date": "2026-06-23",
+          "views": 37780174,
+          "likes": 136519,
           "comments": 60
         }
       ]
@@ -4523,6 +4576,12 @@
           "views": 21563845,
           "likes": 148358,
           "comments": 554
+        },
+        {
+          "date": "2026-06-23",
+          "views": 21589771,
+          "likes": 148467,
+          "comments": 554
         }
       ]
     },
@@ -4953,6 +5012,12 @@
           "date": "2026-06-22",
           "views": 10320420,
           "likes": 33360,
+          "comments": 18
+        },
+        {
+          "date": "2026-06-23",
+          "views": 10328448,
+          "likes": 33372,
           "comments": 18
         }
       ]
@@ -5401,6 +5466,12 @@
           "views": 28713464,
           "likes": 89850,
           "comments": 48
+        },
+        {
+          "date": "2026-06-23",
+          "views": 28730082,
+          "likes": 89879,
+          "comments": 49
         }
       ]
     }
@@ -5681,6 +5752,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-22T18:09:14.976794+00:00"
+    },
+    {
+      "date": "2026-06-23",
+      "metric": "youtube_total_views",
+      "value": 1514881057,
+      "baseline_mean": 1502266534.5,
+      "baseline_stddev": 5641386.0,
+      "delta": 12614522,
+      "score": 2.24,
+      "type": "annotated",
+      "related_annotation": "新曲「輪廻転生」6/28リリース告知によるYouTube再生増（2.54σ）",
+      "detected_at": "2026-06-23T16:21:22.281845+00:00"
     }
   ]
 }

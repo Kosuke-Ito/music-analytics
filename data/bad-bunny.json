@@ -3200,6 +3200,47 @@
       "ytm_subscribers": 52900000,
       "ytm_monthly_listeners": 194000000,
       "ytm_total_views": 48282860337
+    },
+    {
+      "date": "2026-06-23",
+      "monthly_listeners": 99479413,
+      "collected_at": "2026-06-23T16:31:49.771972+00:00",
+      "spotify_followers": 118658131,
+      "youtube_subscribers": 53000000,
+      "youtube_total_views": 48286547741,
+      "youtube_video_count": 190,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 4360789
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 2487549
+        },
+        {
+          "city": "Bogotá",
+          "country": "CO",
+          "listeners": 2416836
+        },
+        {
+          "city": "Madrid",
+          "country": "ES",
+          "listeners": 2190299
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 1780590
+        }
+      ],
+      "lastfm_listeners": 2654994,
+      "lastfm_playcount": 424496670,
+      "ytm_subscribers": 53000000,
+      "ytm_monthly_listeners": 194000000,
+      "ytm_total_views": 48282860337
     }
   ],
   "annotations": [
@@ -3499,9 +3540,9 @@
         "subscribers": "4.05M"
       },
       {
-        "name": "Pepe Quintana",
-        "browse_id": "UCxOascdOCWFBIkHFIobOi0A",
-        "subscribers": "187K"
+        "name": "Anuel AA",
+        "browse_id": "UCbBaYg2UToDaoOwo-R6xi4g",
+        "subscribers": "65M"
       },
       {
         "name": "Eladio Carrion",
@@ -3514,14 +3555,9 @@
         "subscribers": "35M"
       },
       {
-        "name": "Farruko",
-        "browse_id": "UC6QXZsAOOweLfhVPbqMyG4g",
-        "subscribers": "136M"
-      },
-      {
-        "name": "Reggaeton Urbano",
-        "browse_id": "UCv7Q36bWPcaC-OAWxqBeBbA",
-        "subscribers": "7.31K"
+        "name": "Pepe Quintana",
+        "browse_id": "UCxOascdOCWFBIkHFIobOi0A",
+        "subscribers": "187K"
       },
       {
         "name": "Young Miko",
@@ -3529,19 +3565,24 @@
         "subscribers": "17.8M"
       },
       {
-        "name": "Anuel AA",
-        "browse_id": "UCbBaYg2UToDaoOwo-R6xi4g",
-        "subscribers": "65M"
-      },
-      {
         "name": "Mora",
         "browse_id": "UCgDpp8Ex8Yz6hhHjbl3W5mg",
         "subscribers": "16.2M"
       },
       {
-        "name": "Myke Towers",
-        "browse_id": "UCYPsIfSIEwWcoynHBP5k1dg",
-        "subscribers": "68.4M"
+        "name": "Farruko",
+        "browse_id": "UC6QXZsAOOweLfhVPbqMyG4g",
+        "subscribers": "136M"
+      },
+      {
+        "name": "Rauw Alejandro",
+        "browse_id": "UCw_m17sBd4GHxuK83-AZtuA",
+        "subscribers": "72M"
+      },
+      {
+        "name": "Jhayco",
+        "browse_id": "UChZEzxer-QvRMbADJJGOMuQ",
+        "subscribers": "28M"
       }
     ],
     "ytm_top_songs": [
@@ -3997,6 +4038,12 @@
           "views": 258613879,
           "likes": 1885838,
           "comments": 12822
+        },
+        {
+          "date": "2026-06-23",
+          "views": 258884848,
+          "likes": 1887362,
+          "comments": 12829
         }
       ]
     },
@@ -4428,6 +4475,12 @@
           "views": 358009031,
           "likes": 2807752,
           "comments": 23164
+        },
+        {
+          "date": "2026-06-23",
+          "views": 358427933,
+          "likes": 2809703,
+          "comments": 23175
         }
       ]
     },
@@ -4721,6 +4774,12 @@
           "views": 517346201,
           "likes": 3574242,
           "comments": 9257
+        },
+        {
+          "date": "2026-06-23",
+          "views": 517530426,
+          "likes": 3575191,
+          "comments": 9262
         }
       ]
     },
@@ -4996,6 +5055,12 @@
           "views": 160148949,
           "likes": 1139935,
           "comments": 4716
+        },
+        {
+          "date": "2026-06-23",
+          "views": 160343859,
+          "likes": 1141044,
+          "comments": 4723
         }
       ]
     },
@@ -5642,6 +5707,12 @@
           "views": 173759735,
           "likes": 897087,
           "comments": 1640
+        },
+        {
+          "date": "2026-06-23",
+          "views": 173894637,
+          "likes": 897800,
+          "comments": 1641
         }
       ]
     },
@@ -5860,6 +5931,18 @@
       "type": "annotated",
       "related_annotation": "ラテンアーティスト史上初、ツアー総収益10億ドル突破を達成",
       "detected_at": "2026-06-22T18:19:33.632618+00:00"
+    },
+    {
+      "date": "2026-06-23",
+      "metric": "youtube_total_views",
+      "value": 48286547741,
+      "baseline_mean": 47847843971.3,
+      "baseline_stddev": 146234589.9,
+      "delta": 438703769,
+      "score": 3.0,
+      "type": "annotated",
+      "related_annotation": "ラテンアーティスト史上初、ツアー総収益10億ドル突破を達成",
+      "detected_at": "2026-06-23T16:31:50.980634+00:00"
     }
   ]
 }

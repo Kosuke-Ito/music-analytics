@@ -2918,6 +2918,47 @@
       "ytm_subscribers": 590000,
       "ytm_monthly_listeners": 4480000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-23",
+      "monthly_listeners": 2429285,
+      "collected_at": "2026-06-23T16:36:38.717970+00:00",
+      "spotify_followers": 1982402,
+      "youtube_subscribers": 590000,
+      "youtube_total_views": 496513406,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 130970
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 130341
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 89613
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 51510
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 41381
+        }
+      ],
+      "lastfm_listeners": 7490,
+      "lastfm_playcount": 428945,
+      "ytm_subscribers": 590000,
+      "ytm_monthly_listeners": 4480000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3146,19 +3187,24 @@
       }
     ],
     "lastfm_tags": [
-      "macaroni enpitsu",
-      "japanese"
+      "japanese",
+      "macaroni enpitsu"
     ],
     "ytm_related_artists": [
+      {
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "2.85M"
+      },
       {
         "name": "go!go!vanillas",
         "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
         "subscribers": "653K"
       },
       {
-        "name": "SHISHAMO",
-        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "2.85M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "12.9M"
       },
       {
         "name": "Tele",
@@ -3169,11 +3215,6 @@
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
         "subscribers": "2.27M"
-      },
-      {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "12.9M"
       },
       {
         "name": "Hump Back",
@@ -3635,6 +3676,12 @@
           "views": 12028306,
           "likes": 68932,
           "comments": 143
+        },
+        {
+          "date": "2026-06-23",
+          "views": 12043903,
+          "likes": 69016,
+          "comments": 143
         }
       ]
     },
@@ -4048,6 +4095,12 @@
           "views": 24402712,
           "likes": 88207,
           "comments": 170
+        },
+        {
+          "date": "2026-06-23",
+          "views": 24423216,
+          "likes": 88316,
+          "comments": 170
         }
       ]
     },
@@ -4449,6 +4502,12 @@
           "views": 16652106,
           "likes": 61054,
           "comments": 114
+        },
+        {
+          "date": "2026-06-23",
+          "views": 16668392,
+          "likes": 61135,
+          "comments": 114
         }
       ]
     },
@@ -4772,6 +4831,12 @@
           "views": 44893204,
           "likes": 138808,
           "comments": 236
+        },
+        {
+          "date": "2026-06-23",
+          "views": 44911281,
+          "likes": 138884,
+          "comments": 236
         }
       ]
     },
@@ -5075,6 +5140,12 @@
           "date": "2026-06-22",
           "views": 13789024,
           "likes": 79724,
+          "comments": 431
+        },
+        {
+          "date": "2026-06-23",
+          "views": 13821845,
+          "likes": 79954,
           "comments": 431
         }
       ]
@@ -5739,6 +5810,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-22T18:24:18.360799+00:00"
+    },
+    {
+      "date": "2026-06-23",
+      "metric": "youtube_total_views",
+      "value": 496513406,
+      "baseline_mean": 488678297.4,
+      "baseline_stddev": 3206663.7,
+      "delta": 7835108,
+      "score": 2.44,
+      "type": "annotated",
+      "related_annotation": "TVアニメ「ワールド イズ ダンシング」OP主題歌「終宵」7月3日配信リリース決定",
+      "detected_at": "2026-06-23T16:36:40.748225+00:00"
     }
   ]
 }
