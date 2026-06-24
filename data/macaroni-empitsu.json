@@ -2959,6 +2959,47 @@
       "ytm_subscribers": 590000,
       "ytm_monthly_listeners": 4480000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-24",
+      "monthly_listeners": 2429285,
+      "collected_at": "2026-06-24T16:26:03.968654+00:00",
+      "spotify_followers": 1983548,
+      "youtube_subscribers": 591000,
+      "youtube_total_views": 496513406,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 130970
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 130341
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 89613
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 51510
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 41381
+        }
+      ],
+      "lastfm_listeners": 7495,
+      "lastfm_playcount": 429862,
+      "ytm_subscribers": 591000,
+      "ytm_monthly_listeners": 4480000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3192,19 +3233,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "SHISHAMO",
-        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "2.85M"
-      },
-      {
         "name": "go!go!vanillas",
         "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
         "subscribers": "653K"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "12.9M"
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "2.85M"
       },
       {
         "name": "Tele",
@@ -3217,14 +3253,24 @@
         "subscribers": "2.27M"
       },
       {
-        "name": "Hump Back",
-        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
-        "subscribers": "6.15M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "12.9M"
       },
       {
         "name": "sumika",
         "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
         "subscribers": "3.24M"
+      },
+      {
+        "name": "Hump Back",
+        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
+        "subscribers": "6.15M"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "8.06M"
       },
       {
         "name": "Koresawa",
@@ -3235,11 +3281,6 @@
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
         "subscribers": "87.5M"
-      },
-      {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "8.06M"
       }
     ],
     "ytm_top_songs": [
@@ -3682,6 +3723,12 @@
           "views": 12043903,
           "likes": 69016,
           "comments": 143
+        },
+        {
+          "date": "2026-06-24",
+          "views": 12059548,
+          "likes": 69096,
+          "comments": 143
         }
       ]
     },
@@ -4101,6 +4148,12 @@
           "views": 24423216,
           "likes": 88316,
           "comments": 170
+        },
+        {
+          "date": "2026-06-24",
+          "views": 24445508,
+          "likes": 88435,
+          "comments": 169
         }
       ]
     },
@@ -4508,6 +4561,12 @@
           "views": 16668392,
           "likes": 61135,
           "comments": 114
+        },
+        {
+          "date": "2026-06-24",
+          "views": 16685120,
+          "likes": 61213,
+          "comments": 114
         }
       ]
     },
@@ -4837,6 +4896,12 @@
           "views": 44911281,
           "likes": 138884,
           "comments": 236
+        },
+        {
+          "date": "2026-06-24",
+          "views": 44930013,
+          "likes": 138950,
+          "comments": 236
         }
       ]
     },
@@ -5146,6 +5211,12 @@
           "date": "2026-06-23",
           "views": 13821845,
           "likes": 79954,
+          "comments": 431
+        },
+        {
+          "date": "2026-06-24",
+          "views": 13857833,
+          "likes": 80233,
           "comments": 431
         }
       ]
@@ -5822,6 +5893,18 @@
       "type": "annotated",
       "related_annotation": "TVアニメ「ワールド イズ ダンシング」OP主題歌「終宵」7月3日配信リリース決定",
       "detected_at": "2026-06-23T16:36:40.748225+00:00"
+    },
+    {
+      "date": "2026-06-24",
+      "metric": "youtube_total_views",
+      "value": 496513406,
+      "baseline_mean": 489132122.4,
+      "baseline_stddev": 3318065.2,
+      "delta": 7381283,
+      "score": 2.22,
+      "type": "annotated",
+      "related_annotation": "TVアニメ「ワールド イズ ダンシング」OP主題歌「終宵」7月3日配信リリース決定",
+      "detected_at": "2026-06-24T16:26:05.684830+00:00"
     }
   ]
 }

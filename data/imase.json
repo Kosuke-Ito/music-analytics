@@ -2944,6 +2944,47 @@
       "ytm_subscribers": 1350000,
       "ytm_monthly_listeners": 63300000,
       "ytm_total_views": 859973275
+    },
+    {
+      "date": "2026-06-24",
+      "monthly_listeners": 3948528,
+      "collected_at": "2026-06-24T16:23:27.624199+00:00",
+      "spotify_followers": 1027004,
+      "youtube_subscribers": 1350000,
+      "youtube_total_views": 863256348,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 65838
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 62544
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 50870
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 47794
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 47337
+        }
+      ],
+      "lastfm_listeners": 418774,
+      "lastfm_playcount": 5927354,
+      "ytm_subscribers": 1350000,
+      "ytm_monthly_listeners": 63300000,
+      "ytm_total_views": 859973275
     }
   ],
   "annotations": [
@@ -3174,11 +3215,6 @@
         "subscribers": "1.45M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "23.4M"
-      },
-      {
         "name": "Penthouse",
         "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
         "subscribers": "2M"
@@ -3189,9 +3225,9 @@
         "subscribers": "5.58M"
       },
       {
-        "name": "AKASAKI",
-        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
-        "subscribers": "5.92M"
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "23.4M"
       },
       {
         "name": "eill",
@@ -3199,14 +3235,9 @@
         "subscribers": "1.53M"
       },
       {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "3.41M"
-      },
-      {
-        "name": "iri",
-        "browse_id": "UCtlXP5iI7TgKj_BI636L8Qw",
-        "subscribers": "598K"
+        "name": "AKASAKI",
+        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
+        "subscribers": "5.92M"
       },
       {
         "name": "WhaleDontSleep",
@@ -3214,9 +3245,19 @@
         "subscribers": "508K"
       },
       {
+        "name": "Ayumu Imazu",
+        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
+        "subscribers": "3.41M"
+      },
+      {
         "name": "Nishina",
         "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
         "subscribers": "329K"
+      },
+      {
+        "name": "Ai Higuchi",
+        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
+        "subscribers": "14.9M"
       }
     ],
     "ytm_top_songs": [
@@ -3648,6 +3689,12 @@
           "views": 142013670,
           "likes": 1133347,
           "comments": 6121
+        },
+        {
+          "date": "2026-06-24",
+          "views": 142143156,
+          "likes": 1134876,
+          "comments": 6130
         }
       ]
     },
@@ -4054,6 +4101,12 @@
           "date": "2026-06-23",
           "views": 8013649,
           "likes": 58955,
+          "comments": 164
+        },
+        {
+          "date": "2026-06-24",
+          "views": 8023129,
+          "likes": 59012,
           "comments": 164
         }
       ]
@@ -4462,6 +4515,12 @@
           "views": 3432153,
           "likes": 37452,
           "comments": 287
+        },
+        {
+          "date": "2026-06-24",
+          "views": 3435459,
+          "likes": 37482,
+          "comments": 287
         }
       ]
     },
@@ -4869,6 +4928,12 @@
           "views": 11684574,
           "likes": 51721,
           "comments": 153
+        },
+        {
+          "date": "2026-06-24",
+          "views": 11689805,
+          "likes": 51742,
+          "comments": 154
         }
       ]
     },
@@ -5400,6 +5465,12 @@
           "date": "2026-06-23",
           "views": 6636208,
           "likes": 38446,
+          "comments": 211
+        },
+        {
+          "date": "2026-06-24",
+          "views": 6642975,
+          "likes": 38490,
           "comments": 211
         }
       ]
@@ -6029,6 +6100,18 @@
       "type": "annotated",
       "related_annotation": "「ヤニすう」バイラル継続——Spotify月間リスナーが3,849,343（+387,947・2.72σ）に上昇し過去最高値を更新",
       "detected_at": "2026-06-23T16:34:06.592216+00:00"
+    },
+    {
+      "date": "2026-06-24",
+      "metric": "monthly_listeners",
+      "value": 3948528,
+      "baseline_mean": 3535545.4,
+      "baseline_stddev": 197283.7,
+      "delta": 412982,
+      "score": 2.09,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-24T16:23:29.551217+00:00"
     }
   ]
 }

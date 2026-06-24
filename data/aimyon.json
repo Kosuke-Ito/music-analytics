@@ -2953,6 +2953,47 @@
       "ytm_subscribers": 2290000,
       "ytm_monthly_listeners": 7670000,
       "ytm_total_views": 2683185112
+    },
+    {
+      "date": "2026-06-24",
+      "monthly_listeners": 4694771,
+      "collected_at": "2026-06-24T16:23:45.181322+00:00",
+      "spotify_followers": 6312381,
+      "youtube_subscribers": 2290000,
+      "youtube_total_views": 2702767235,
+      "youtube_video_count": 281,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 228030
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 227451
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 154443
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 85800
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 71260
+        }
+      ],
+      "lastfm_listeners": 19923,
+      "lastfm_playcount": 1450302,
+      "ytm_subscribers": 2290000,
+      "ytm_monthly_listeners": 7670000,
+      "ytm_total_views": 2691418246
     }
   ],
   "annotations": [
@@ -3217,24 +3258,14 @@
         "subscribers": "1.99M"
       },
       {
-        "name": "Uru",
-        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "28.8M"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "9.53M"
-      },
-      {
         "name": "Ken Hirai",
         "browse_id": "UCjV108-_g6HUrmoKOt5-QIw",
         "subscribers": "1.57M"
       },
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "8.21M"
+        "name": "Uru",
+        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
+        "subscribers": "28.8M"
       },
       {
         "name": "back number",
@@ -3247,14 +3278,24 @@
         "subscribers": "73.8M"
       },
       {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "9.53M"
+      },
+      {
         "name": "Kana Nishino",
         "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
         "subscribers": "8.11M"
       },
       {
-        "name": "SUKIMASWITCH",
-        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "3.98M"
+        "name": "Superfly",
+        "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
+        "subscribers": "5.54M"
+      },
+      {
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "8.21M"
       }
     ],
     "ytm_top_songs": [
@@ -3710,6 +3751,12 @@
           "views": 106590961,
           "likes": 307627,
           "comments": 679
+        },
+        {
+          "date": "2026-06-24",
+          "views": 106634533,
+          "likes": 307746,
+          "comments": 680
         }
       ]
     },
@@ -4141,6 +4188,12 @@
           "views": 101173458,
           "likes": 345143,
           "comments": 413
+        },
+        {
+          "date": "2026-06-24",
+          "views": 101221873,
+          "likes": 345286,
+          "comments": 412
         }
       ]
     },
@@ -4572,6 +4625,12 @@
           "views": 62985748,
           "likes": 183670,
           "comments": 233
+        },
+        {
+          "date": "2026-06-24",
+          "views": 63009817,
+          "likes": 183729,
+          "comments": 233
         }
       ]
     },
@@ -5002,6 +5061,12 @@
           "date": "2026-06-23",
           "views": 1985701,
           "likes": 6174,
+          "comments": 39
+        },
+        {
+          "date": "2026-06-24",
+          "views": 1986073,
+          "likes": 6176,
           "comments": 39
         }
       ]
@@ -5438,6 +5503,12 @@
           "date": "2026-06-23",
           "views": 36216037,
           "likes": 115287,
+          "comments": 232
+        },
+        {
+          "date": "2026-06-24",
+          "views": 36231258,
+          "likes": 115350,
           "comments": 232
         }
       ]
@@ -6055,6 +6126,18 @@
       "type": "annotated",
       "related_annotation": "10周年アナログ盤・空間オーディオ＋Stationheadリスニングパーティーの累積効果",
       "detected_at": "2026-05-30T15:11:46.020936+00:00"
+    },
+    {
+      "date": "2026-06-24",
+      "metric": "youtube_total_views",
+      "value": 2702767235,
+      "baseline_mean": 2689332839.4,
+      "baseline_stddev": 4739319.2,
+      "delta": 13434395,
+      "score": 2.83,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-24T16:23:46.763406+00:00"
     }
   ]
 }

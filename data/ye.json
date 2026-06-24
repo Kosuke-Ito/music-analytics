@@ -3241,6 +3241,47 @@
       "ytm_subscribers": 12500000,
       "ytm_monthly_listeners": 269000000,
       "ytm_total_views": 9868559555
+    },
+    {
+      "date": "2026-06-24",
+      "monthly_listeners": 9621432,
+      "collected_at": "2026-06-24T16:21:25.971020+00:00",
+      "spotify_followers": 739932,
+      "youtube_subscribers": 12500000,
+      "youtube_total_views": 9871626301,
+      "youtube_video_count": 41,
+      "top_cities": [
+        {
+          "city": "Istanbul",
+          "country": "TR",
+          "listeners": 177247
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 158399
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 158151
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 132788
+        },
+        {
+          "city": "New York City",
+          "country": "US",
+          "listeners": 124150
+        }
+      ],
+      "lastfm_listeners": 513050,
+      "lastfm_playcount": 9320259,
+      "ytm_subscribers": 12500000,
+      "ytm_monthly_listeners": 269000000,
+      "ytm_total_views": 9868559555
     }
   ],
   "annotations": [
@@ -3472,19 +3513,14 @@
         "subscribers": "155M"
       },
       {
-        "name": "J. Cole",
-        "browse_id": "UC0ajkOzj8xE3Gs3LHCE243A",
-        "subscribers": "116M"
-      },
-      {
         "name": "¥$",
         "browse_id": "UCI-4sezWoZmtJXoW7E5k7Zw",
         "subscribers": "83.7K"
       },
       {
-        "name": "Kid Cudi",
-        "browse_id": "UCo2-dPLJcpbZK84FIt0vD-w",
-        "subscribers": "26.4M"
+        "name": "J. Cole",
+        "browse_id": "UC0ajkOzj8xE3Gs3LHCE243A",
+        "subscribers": "116M"
       },
       {
         "name": "Baby Keem",
@@ -3492,14 +3528,19 @@
         "subscribers": "5.96M"
       },
       {
-        "name": "Tyler, The Creator",
-        "browse_id": "UCo1DYcm1IZ9v3UPkpiAcgtg",
-        "subscribers": "100M"
+        "name": "Big Sean",
+        "browse_id": "UCm3ai8dGs4olHioc_xL3IXA",
+        "subscribers": "49.6M"
       },
       {
-        "name": "ScHoolboy Q",
-        "browse_id": "UC40b2qG4-4d2kwseUrMIW1Q",
-        "subscribers": "3.75M"
+        "name": "Kendrick Lamar",
+        "browse_id": "UCprAFmT0C6O4X0ToEXpeFTQ",
+        "subscribers": "168M"
+      },
+      {
+        "name": "Travis Scott",
+        "browse_id": "UCf_gP4AMRSgAfyzbkeS9k4g",
+        "subscribers": "125M"
       },
       {
         "name": "Lupe Fiasco",
@@ -3507,9 +3548,9 @@
         "subscribers": "33.9M"
       },
       {
-        "name": "Kendrick Lamar",
-        "browse_id": "UCprAFmT0C6O4X0ToEXpeFTQ",
-        "subscribers": "168M"
+        "name": "Rae Sremmurd",
+        "browse_id": "UC8wglGUW3qSjbvqVdX6JUZA",
+        "subscribers": "39.8M"
       }
     ],
     "ytm_top_songs": [
@@ -4191,6 +4232,12 @@
           "views": 146502962,
           "likes": 1452969,
           "comments": 17072
+        },
+        {
+          "date": "2026-06-24",
+          "views": 146614427,
+          "likes": 1453928,
+          "comments": 17084
         }
       ]
     },
@@ -4628,6 +4675,12 @@
           "views": 72406333,
           "likes": 655301,
           "comments": 3632
+        },
+        {
+          "date": "2026-06-24",
+          "views": 72504769,
+          "likes": 655799,
+          "comments": 3633
         }
       ]
     },
@@ -5059,6 +5112,12 @@
           "views": 198716820,
           "likes": 1506972,
           "comments": 5699
+        },
+        {
+          "date": "2026-06-24",
+          "views": 198832541,
+          "likes": 1507430,
+          "comments": 5703
         }
       ]
     },
@@ -5442,6 +5501,12 @@
           "views": 45957614,
           "likes": 427282,
           "comments": 2381
+        },
+        {
+          "date": "2026-06-24",
+          "views": 45986668,
+          "likes": 427453,
+          "comments": 2382
         }
       ]
     },
@@ -5705,6 +5770,12 @@
           "views": 161347960,
           "likes": 1690630,
           "comments": 44171
+        },
+        {
+          "date": "2026-06-24",
+          "views": 161477429,
+          "likes": 1691310,
+          "comments": 44179
         }
       ]
     },
@@ -6019,6 +6090,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-23T16:32:07.671497+00:00"
+    },
+    {
+      "date": "2026-06-24",
+      "metric": "monthly_listeners",
+      "value": 9621432,
+      "baseline_mean": 8418763.0,
+      "baseline_stddev": 476270.5,
+      "delta": 1202669,
+      "score": 2.53,
+      "type": "annotated",
+      "related_annotation": "サンアントニオ市長がアラモドーム公演のキャンセルを要求——7月4日公演めぐり",
+      "detected_at": "2026-06-24T16:21:27.843524+00:00"
+    },
+    {
+      "date": "2026-06-24",
+      "metric": "ytm_monthly_listeners",
+      "value": 269000000,
+      "baseline_mean": 256100000,
+      "baseline_stddev": 5140363.2,
+      "delta": 12900000,
+      "score": 2.51,
+      "type": "annotated",
+      "related_annotation": "サンアントニオ市長がアラモドーム公演のキャンセルを要求——7月4日公演めぐり",
+      "detected_at": "2026-06-24T16:21:27.843524+00:00"
     }
   ]
 }

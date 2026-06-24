@@ -2947,6 +2947,47 @@
       "ytm_subscribers": 2520000,
       "ytm_monthly_listeners": 18600000,
       "ytm_total_views": 1784985897
+    },
+    {
+      "date": "2026-06-24",
+      "monthly_listeners": 7003191,
+      "collected_at": "2026-06-24T16:22:52.896500+00:00",
+      "spotify_followers": 4520786,
+      "youtube_subscribers": 2520000,
+      "youtube_total_views": 1787689297,
+      "youtube_video_count": 266,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 234093
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 188240
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 128770
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 126694
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 78422
+        }
+      ],
+      "lastfm_listeners": 324191,
+      "lastfm_playcount": 31586975,
+      "ytm_subscribers": 2520000,
+      "ytm_monthly_listeners": 18600000,
+      "ytm_total_views": 1784985897
     }
   ],
   "annotations": [
@@ -3173,6 +3214,21 @@
         "subscribers": "1.57M"
       },
       {
+        "name": "ayumi hamasaki",
+        "browse_id": "UCknY-5bw6RbEXOu18telw9g",
+        "subscribers": "4.23M"
+      },
+      {
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "16.5M"
+      },
+      {
+        "name": "Every Little Thing",
+        "browse_id": "UCXQ4_uJcp-BgYeqb-FCCjtw",
+        "subscribers": "3.69M"
+      },
+      {
         "name": "Crystal Kay",
         "browse_id": "UC44J7DCoUfVJ7IwYKqrG8Rw",
         "subscribers": "1.17M"
@@ -3183,34 +3239,19 @@
         "subscribers": "5.01M"
       },
       {
-        "name": "Ikimonogakari",
-        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
-        "subscribers": "16.5M"
-      },
-      {
         "name": "milet",
         "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
         "subscribers": "5.74M"
       },
       {
-        "name": "Chemistry",
-        "browse_id": "UCQh1WcnXjTmIQWIdoWE2k-g",
-        "subscribers": "1.42M"
+        "name": "Do As Infinity",
+        "browse_id": "UCkjeaOEoXXgoKGoMDEWCs7Q",
+        "subscribers": "1.26M"
       },
       {
-        "name": "Perfume",
-        "browse_id": "UCrht-oKwaPy5TqVp80yOuLg",
-        "subscribers": "5.21M"
-      },
-      {
-        "name": "Every Little Thing",
-        "browse_id": "UCXQ4_uJcp-BgYeqb-FCCjtw",
-        "subscribers": "3.69M"
-      },
-      {
-        "name": "ayumi hamasaki",
-        "browse_id": "UCknY-5bw6RbEXOu18telw9g",
-        "subscribers": "4.23M"
+        "name": "Superfly",
+        "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
+        "subscribers": "5.54M"
       }
     ],
     "ytm_top_songs": [
@@ -3654,6 +3695,12 @@
           "views": 56191668,
           "likes": 313985,
           "comments": 2539
+        },
+        {
+          "date": "2026-06-24",
+          "views": 56268050,
+          "likes": 314284,
+          "comments": 2540
         }
       ]
     },
@@ -4072,6 +4119,12 @@
           "date": "2026-06-23",
           "views": 1702963,
           "likes": 15976,
+          "comments": 84
+        },
+        {
+          "date": "2026-06-24",
+          "views": 1712607,
+          "likes": 16028,
           "comments": 84
         }
       ]
@@ -4492,6 +4545,12 @@
           "views": 26886730,
           "likes": 210248,
           "comments": 488
+        },
+        {
+          "date": "2026-06-24",
+          "views": 26901592,
+          "likes": 210332,
+          "comments": 488
         }
       ]
     },
@@ -4652,6 +4711,12 @@
           "date": "2026-06-23",
           "views": 1509367,
           "likes": 9021,
+          "comments": 46
+        },
+        {
+          "date": "2026-06-24",
+          "views": 1511951,
+          "likes": 9033,
           "comments": 46
         }
       ]
@@ -5065,6 +5130,12 @@
           "date": "2026-06-23",
           "views": 1133755,
           "likes": 7756,
+          "comments": 21
+        },
+        {
+          "date": "2026-06-24",
+          "views": 1134937,
+          "likes": 7763,
           "comments": 21
         }
       ]
@@ -5537,6 +5608,18 @@
       "type": "annotated",
       "related_annotation": "「Utada」名義アルバム初LP化（6/24発売）直前——YouTube総再生数が急増（17.86億・5.45σ）",
       "detected_at": "2026-06-23T16:33:32.439976+00:00"
+    },
+    {
+      "date": "2026-06-24",
+      "metric": "youtube_total_views",
+      "value": 1787689297,
+      "baseline_mean": 1769272058.5,
+      "baseline_stddev": 6435042.9,
+      "delta": 18417238,
+      "score": 2.86,
+      "type": "annotated",
+      "related_annotation": "「Utada」名義アルバム初LP化（6/24発売）直前——YouTube総再生数が急増（17.86億・5.45σ）",
+      "detected_at": "2026-06-24T16:22:54.853835+00:00"
     }
   ]
 }
