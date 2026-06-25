@@ -3112,6 +3112,47 @@
       "ytm_subscribers": 463000,
       "ytm_monthly_listeners": 900000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-25",
+      "monthly_listeners": 85225,
+      "collected_at": "2026-06-25T16:15:27.355602+00:00",
+      "spotify_followers": 229761,
+      "youtube_subscribers": 463000,
+      "youtube_total_views": 213145697,
+      "youtube_video_count": 47,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 3617
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 2219
+        },
+        {
+          "city": "Madrid",
+          "country": "ES",
+          "listeners": 1262
+        },
+        {
+          "city": "Bogotá",
+          "country": "CO",
+          "listeners": 1261
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 1193
+        }
+      ],
+      "lastfm_listeners": 144082,
+      "lastfm_playcount": 2274966,
+      "ytm_subscribers": 463000,
+      "ytm_monthly_listeners": 900000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3151,9 +3192,9 @@
         "subscribers": "17.8M"
       },
       {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "102M"
+        "name": "PEOPLE 1",
+        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
+        "subscribers": "1.32M"
       },
       {
         "name": "Vaundy",
@@ -3161,14 +3202,9 @@
         "subscribers": "23.4M"
       },
       {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "19.4M"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.58M"
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "102M"
       },
       {
         "name": "King Gnu",
@@ -3176,24 +3212,29 @@
         "subscribers": "45.2M"
       },
       {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.58M"
+      },
+      {
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "19.4M"
+      },
+      {
         "name": "Sheena Ringo",
         "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
         "subscribers": "6.07M"
       },
       {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "1.32M"
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "3.23M"
       },
       {
         "name": "Suchmos",
         "browse_id": "UCTjMLOtWrtmd9c2K_H3KQHw",
         "subscribers": "1.45M"
-      },
-      {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "3.23M"
       }
     ],
     "ytm_top_songs": [
@@ -3660,6 +3701,12 @@
           "views": 7615909,
           "likes": 70580,
           "comments": 246
+        },
+        {
+          "date": "2026-06-25",
+          "views": 7626786,
+          "likes": 70662,
+          "comments": 246
         }
       ]
     },
@@ -4102,6 +4149,12 @@
           "date": "2026-06-24",
           "views": 2039807,
           "likes": 25170,
+          "comments": 48
+        },
+        {
+          "date": "2026-06-25",
+          "views": 2042317,
+          "likes": 25196,
           "comments": 48
         }
       ]
@@ -4546,6 +4599,12 @@
           "views": 21572104,
           "likes": 223654,
           "comments": 610
+        },
+        {
+          "date": "2026-06-25",
+          "views": 21578443,
+          "likes": 223687,
+          "comments": 610
         }
       ]
     },
@@ -4989,6 +5048,12 @@
           "views": 144437,
           "likes": 1189,
           "comments": 8
+        },
+        {
+          "date": "2026-06-25",
+          "views": 144719,
+          "likes": 1193,
+          "comments": 8
         }
       ]
     },
@@ -5384,6 +5449,12 @@
           "views": 101445,
           "likes": 1537,
           "comments": 10
+        },
+        {
+          "date": "2026-06-25",
+          "views": 101723,
+          "likes": 1543,
+          "comments": 10
         }
       ]
     },
@@ -5590,6 +5661,18 @@
       "type": "annotated",
       "related_annotation": "YouTube Data APIカウンター凍結継続（5/21〜5/26・5日間同値211,007,459）の統計的残影（2.24σ）",
       "detected_at": "2026-05-27T16:57:35.862082+00:00"
+    },
+    {
+      "date": "2026-06-25",
+      "metric": "youtube_total_views",
+      "value": 213145697,
+      "baseline_mean": 211078733.6,
+      "baseline_stddev": 383825.5,
+      "delta": 2066963,
+      "score": 5.39,
+      "type": "annotated",
+      "related_annotation": "「Blue」の7月8日配信リリース日が正式確定・PV第4弾も公開",
+      "detected_at": "2026-06-25T16:15:28.769334+00:00"
     }
   ]
 }

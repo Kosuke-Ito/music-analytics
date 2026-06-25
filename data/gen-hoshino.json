@@ -2988,6 +2988,47 @@
       "ytm_subscribers": 1760000,
       "ytm_monthly_listeners": 8510000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-25",
+      "monthly_listeners": 2701039,
+      "collected_at": "2026-06-25T16:29:24.764465+00:00",
+      "spotify_followers": 2446401,
+      "youtube_subscribers": 1760000,
+      "youtube_total_views": 1431623967,
+      "youtube_video_count": 201,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 116179
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 94797
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 64411
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 41955
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 30568
+        }
+      ],
+      "lastfm_listeners": 21479,
+      "lastfm_playcount": 3003005,
+      "ytm_subscribers": 1760000,
+      "ytm_monthly_listeners": 8510000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3047,19 +3088,19 @@
         "subscribers": "2M"
       },
       {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.1M"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "102M"
-      },
-      {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
         "subscribers": "12.9M"
+      },
+      {
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "73.8M"
+      },
+      {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10.1M"
       },
       {
         "name": "Fujii Kaze",
@@ -3518,6 +3559,12 @@
           "views": 59531771,
           "likes": 234467,
           "comments": 579
+        },
+        {
+          "date": "2026-06-25",
+          "views": 59569672,
+          "likes": 234614,
+          "comments": 579
         }
       ]
     },
@@ -3943,6 +3990,12 @@
           "views": 4907335,
           "likes": 40249,
           "comments": 0
+        },
+        {
+          "date": "2026-06-25",
+          "views": 4920354,
+          "likes": 40335,
+          "comments": 0
         }
       ]
     },
@@ -4356,6 +4409,12 @@
           "views": 21372338,
           "likes": 100318,
           "comments": 88
+        },
+        {
+          "date": "2026-06-25",
+          "views": 21385866,
+          "likes": 100375,
+          "comments": 88
         }
       ]
     },
@@ -4661,6 +4720,12 @@
           "views": 10190318,
           "likes": 52163,
           "comments": 46
+        },
+        {
+          "date": "2026-06-25",
+          "views": 10200043,
+          "likes": 52206,
+          "comments": 46
         }
       ]
     },
@@ -4893,6 +4958,12 @@
           "date": "2026-06-24",
           "views": 10918909,
           "likes": 48861,
+          "comments": 169
+        },
+        {
+          "date": "2026-06-25",
+          "views": 10925624,
+          "likes": 48896,
           "comments": 169
         }
       ]
@@ -5743,6 +5814,18 @@
       "type": "annotated",
       "related_annotation": "MUSIC AWARDS JAPAN 2026で「2 (feat. Lee Youngji)」が最優秀クロスボーダー・コラボレーション楽曲賞を受賞",
       "detected_at": "2026-06-16T18:38:07.065460+00:00"
+    },
+    {
+      "date": "2026-06-25",
+      "metric": "youtube_total_views",
+      "value": 1431623967,
+      "baseline_mean": 1419539663.7,
+      "baseline_stddev": 5231826.9,
+      "delta": 12084303,
+      "score": 2.31,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-25T16:29:26.520558+00:00"
     }
   ]
 }

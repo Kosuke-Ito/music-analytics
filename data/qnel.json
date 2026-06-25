@@ -3123,6 +3123,47 @@
       "ytm_subscribers": 153,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-25",
+      "monthly_listeners": 4650,
+      "collected_at": "2026-06-25T16:23:59.936135+00:00",
+      "spotify_followers": 954,
+      "youtube_subscribers": 368,
+      "youtube_total_views": 66969,
+      "youtube_video_count": 177,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 228
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 133
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 91
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 69
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 54
+        }
+      ],
+      "lastfm_listeners": 762,
+      "lastfm_playcount": 2478,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3298,16 +3339,6 @@
         "subscribers": "22.4K"
       },
       {
-        "name": "OSTRIP",
-        "browse_id": "UCw_WY0q696x646eM2l1GFig",
-        "subscribers": "98"
-      },
-      {
-        "name": "SpendyMily",
-        "browse_id": "UCQk7kSeOA-QXlCx5KyDqnrw",
-        "subscribers": "467"
-      },
-      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "27.1K"
@@ -3320,7 +3351,12 @@
       {
         "name": "HATAKE",
         "browse_id": "UCOuWkJ8UjlXKsM0D7Ya5W0Q",
-        "subscribers": "945"
+        "subscribers": "944"
+      },
+      {
+        "name": "OSTRIP",
+        "browse_id": "UCw_WY0q696x646eM2l1GFig",
+        "subscribers": "98"
       },
       {
         "name": "Offo tokyo",
@@ -3340,7 +3376,12 @@
       {
         "name": "Kawaguchi Takuma",
         "browse_id": "UC16c0SCZvOqrlL76EMDptzw",
-        "subscribers": "211"
+        "subscribers": "212"
+      },
+      {
+        "name": "GALALI",
+        "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
+        "subscribers": "110K"
       }
     ],
     "ytm_top_songs": [
@@ -3763,6 +3804,12 @@
         {
           "date": "2026-06-24",
           "views": 3412,
+          "likes": 19,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-25",
+          "views": 3418,
           "likes": 19,
           "comments": 0
         }
@@ -4202,6 +4249,12 @@
           "views": 5868,
           "likes": 22,
           "comments": 0
+        },
+        {
+          "date": "2026-06-25",
+          "views": 5876,
+          "likes": 22,
+          "comments": 0
         }
       ]
     },
@@ -4637,6 +4690,12 @@
         {
           "date": "2026-06-24",
           "views": 12353,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-25",
+          "views": 12360,
           "likes": 76,
           "comments": 0
         }
@@ -5076,6 +5135,12 @@
           "views": 32324,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-06-25",
+          "views": 32334,
+          "likes": 153,
+          "comments": 0
         }
       ]
     },
@@ -5505,6 +5570,12 @@
         {
           "date": "2026-06-24",
           "views": 8086,
+          "likes": 60,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-25",
+          "views": 8087,
           "likes": 60,
           "comments": 0
         }
@@ -6031,6 +6102,30 @@
       "type": "annotated",
       "related_annotation": "「&Dream」リリース後Spotifyプレイリスト掲載と推定——月間リスナーが6.2σ急増",
       "detected_at": "2026-06-24T16:18:33.706760+00:00"
+    },
+    {
+      "date": "2026-06-25",
+      "metric": "monthly_listeners",
+      "value": 4650,
+      "baseline_mean": 1033.8,
+      "baseline_stddev": 1185.2,
+      "delta": 3616,
+      "score": 3.05,
+      "type": "annotated",
+      "related_annotation": "「&Dream」Spotifyプレイリスト効果継続——月間リスナー3,692人（4.67σ）",
+      "detected_at": "2026-06-25T16:24:03.989931+00:00"
+    },
+    {
+      "date": "2026-06-25",
+      "metric": "youtube_total_views",
+      "value": 66969,
+      "baseline_mean": 66010.6,
+      "baseline_stddev": 364.6,
+      "delta": 958,
+      "score": 2.63,
+      "type": "annotated",
+      "related_annotation": "「&Dream」Spotifyプレイリスト効果継続——月間リスナー3,692人（4.67σ）",
+      "detected_at": "2026-06-25T16:24:03.989931+00:00"
     }
   ]
 }

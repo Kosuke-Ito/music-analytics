@@ -2997,6 +2997,47 @@
       "ytm_subscribers": 314000,
       "ytm_monthly_listeners": 2760000,
       "ytm_total_views": 309226207
+    },
+    {
+      "date": "2026-06-25",
+      "monthly_listeners": 1371571,
+      "collected_at": "2026-06-25T16:34:00.001154+00:00",
+      "spotify_followers": 332375,
+      "youtube_subscribers": 314000,
+      "youtube_total_views": 314085825,
+      "youtube_video_count": 215,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 43079
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 41938
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 32243
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 16916
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 16026
+        }
+      ],
+      "lastfm_listeners": 141461,
+      "lastfm_playcount": 2492915,
+      "ytm_subscribers": 314000,
+      "ytm_monthly_listeners": 2760000,
+      "ytm_total_views": 311510789
     }
   ],
   "annotations": [
@@ -3236,24 +3277,9 @@
         "subscribers": "23.4M"
       },
       {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "4.97M"
-      },
-      {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "73.8M"
-      },
-      {
         "name": "yama",
         "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
         "subscribers": "5.58M"
-      },
-      {
-        "name": "AKASAKI",
-        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
-        "subscribers": "5.92M"
       },
       {
         "name": "WhaleDontSleep",
@@ -3261,9 +3287,24 @@
         "subscribers": "508K"
       },
       {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.21M"
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "73.8M"
+      },
+      {
+        "name": "AKASAKI",
+        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
+        "subscribers": "5.92M"
+      },
+      {
+        "name": "Novelbright",
+        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
+        "subscribers": "4.97M"
+      },
+      {
+        "name": "Ayumu Imazu",
+        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
+        "subscribers": "3.41M"
       }
     ],
     "ytm_top_songs": [
@@ -3725,6 +3766,12 @@
           "views": 11547498,
           "likes": 54724,
           "comments": 204
+        },
+        {
+          "date": "2026-06-25",
+          "views": 11557168,
+          "likes": 54761,
+          "comments": 204
         }
       ]
     },
@@ -4162,6 +4209,12 @@
           "views": 797471,
           "likes": 8293,
           "comments": 89
+        },
+        {
+          "date": "2026-06-25",
+          "views": 798610,
+          "likes": 8303,
+          "comments": 89
         }
       ]
     },
@@ -4598,6 +4651,12 @@
           "date": "2026-06-24",
           "views": 2241592,
           "likes": 16739,
+          "comments": 60
+        },
+        {
+          "date": "2026-06-25",
+          "views": 2242788,
+          "likes": 16745,
           "comments": 60
         }
       ]
@@ -5047,6 +5106,12 @@
           "views": 1228162,
           "likes": 9156,
           "comments": 73
+        },
+        {
+          "date": "2026-06-25",
+          "views": 1229426,
+          "likes": 9160,
+          "comments": 73
         }
       ]
     },
@@ -5472,6 +5537,12 @@
           "views": 1016948,
           "likes": 9408,
           "comments": 84
+        },
+        {
+          "date": "2026-06-25",
+          "views": 1017839,
+          "likes": 9413,
+          "comments": 84
         }
       ]
     },
@@ -5751,6 +5822,18 @@
       "type": "annotated",
       "related_annotation": "YouTube Data APIカウンター凍結（308,665,580・6/1〜6/8）解除——311,780,684に更新されアーティファクト計上（2.78σ）",
       "detected_at": "2026-06-12T16:56:29.579852+00:00"
+    },
+    {
+      "date": "2026-06-25",
+      "metric": "youtube_total_views",
+      "value": 314085825,
+      "baseline_mean": 310326968.8,
+      "baseline_stddev": 1554086.9,
+      "delta": 3758856,
+      "score": 2.42,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-25T16:34:01.480990+00:00"
     }
   ]
 }

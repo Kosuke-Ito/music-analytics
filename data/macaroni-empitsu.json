@@ -3000,6 +3000,47 @@
       "ytm_subscribers": 591000,
       "ytm_monthly_listeners": 4480000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-25",
+      "monthly_listeners": 2455734,
+      "collected_at": "2026-06-25T16:31:25.234499+00:00",
+      "spotify_followers": 1984750,
+      "youtube_subscribers": 591000,
+      "youtube_total_views": 496513406,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 131657
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 131513
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 90484
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 51752
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 41710
+        }
+      ],
+      "lastfm_listeners": 7502,
+      "lastfm_playcount": 430726,
+      "ytm_subscribers": 591000,
+      "ytm_monthly_listeners": 4480000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3244,14 +3285,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "go!go!vanillas",
-        "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
-        "subscribers": "653K"
-      },
-      {
         "name": "SHISHAMO",
         "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
         "subscribers": "2.85M"
+      },
+      {
+        "name": "go!go!vanillas",
+        "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
+        "subscribers": "653K"
       },
       {
         "name": "Tele",
@@ -3259,14 +3300,14 @@
         "subscribers": "469K"
       },
       {
-        "name": "Saucy Dog",
-        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.27M"
-      },
-      {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
         "subscribers": "12.9M"
+      },
+      {
+        "name": "Saucy Dog",
+        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
+        "subscribers": "2.27M"
       },
       {
         "name": "sumika",
@@ -3274,24 +3315,24 @@
         "subscribers": "3.24M"
       },
       {
-        "name": "Hump Back",
-        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
-        "subscribers": "6.15M"
-      },
-      {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "8.06M"
-      },
-      {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
         "subscribers": "5.44M"
       },
       {
+        "name": "Hump Back",
+        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
+        "subscribers": "6.15M"
+      },
+      {
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
         "subscribers": "87.5M"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "8.06M"
       }
     ],
     "ytm_top_songs": [
@@ -3740,6 +3781,12 @@
           "views": 12059548,
           "likes": 69096,
           "comments": 143
+        },
+        {
+          "date": "2026-06-25",
+          "views": 12076753,
+          "likes": 69166,
+          "comments": 143
         }
       ]
     },
@@ -4165,6 +4212,12 @@
           "views": 24445508,
           "likes": 88435,
           "comments": 169
+        },
+        {
+          "date": "2026-06-25",
+          "views": 24469768,
+          "likes": 88531,
+          "comments": 169
         }
       ]
     },
@@ -4578,6 +4631,12 @@
           "views": 16685120,
           "likes": 61213,
           "comments": 114
+        },
+        {
+          "date": "2026-06-25",
+          "views": 16703305,
+          "likes": 61282,
+          "comments": 115
         }
       ]
     },
@@ -4913,6 +4972,12 @@
           "views": 44930013,
           "likes": 138950,
           "comments": 236
+        },
+        {
+          "date": "2026-06-25",
+          "views": 44950125,
+          "likes": 139033,
+          "comments": 236
         }
       ]
     },
@@ -5229,6 +5294,12 @@
           "views": 13857833,
           "likes": 80233,
           "comments": 431
+        },
+        {
+          "date": "2026-06-25",
+          "views": 13899301,
+          "likes": 80463,
+          "comments": 434
         }
       ]
     },
@@ -5916,6 +5987,18 @@
       "type": "annotated",
       "related_annotation": "TVアニメ「ワールド イズ ダンシング」OP主題歌「終宵」7月3日配信リリース決定",
       "detected_at": "2026-06-24T16:26:05.684830+00:00"
+    },
+    {
+      "date": "2026-06-25",
+      "metric": "youtube_total_views",
+      "value": 496513406,
+      "baseline_mean": 489585947.5,
+      "baseline_stddev": 3365190.5,
+      "delta": 6927458,
+      "score": 2.06,
+      "type": "annotated",
+      "related_annotation": "「終宵」配信リリース告知（6/21）後のYouTube急上昇（2.74σ）",
+      "detected_at": "2026-06-25T16:31:26.812957+00:00"
     }
   ]
 }

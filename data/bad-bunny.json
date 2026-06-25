@@ -3282,6 +3282,47 @@
       "ytm_subscribers": 53000000,
       "ytm_monthly_listeners": 194000000,
       "ytm_total_views": 48282860337
+    },
+    {
+      "date": "2026-06-25",
+      "monthly_listeners": 99430206,
+      "collected_at": "2026-06-25T16:26:34.265640+00:00",
+      "spotify_followers": 118774291,
+      "youtube_subscribers": 53000000,
+      "youtube_total_views": 48286547741,
+      "youtube_video_count": 190,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 4359370
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 2486043
+        },
+        {
+          "city": "Bogotá",
+          "country": "CO",
+          "listeners": 2413127
+        },
+        {
+          "city": "Madrid",
+          "country": "ES",
+          "listeners": 2200026
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 1781072
+        }
+      ],
+      "lastfm_listeners": 2657596,
+      "lastfm_playcount": 425129020,
+      "ytm_subscribers": 53000000,
+      "ytm_monthly_listeners": 194000000,
+      "ytm_total_views": 48282860337
     }
   ],
   "annotations": [
@@ -3603,6 +3644,11 @@
         "subscribers": "4.05M"
       },
       {
+        "name": "Pepe Quintana",
+        "browse_id": "UCxOascdOCWFBIkHFIobOi0A",
+        "subscribers": "187K"
+      },
+      {
         "name": "Eladio Carrion",
         "browse_id": "UC7YJ69rJ9qtVh6SjYFs4cGg",
         "subscribers": "19.7M"
@@ -3613,14 +3659,24 @@
         "subscribers": "35M"
       },
       {
-        "name": "Pepe Quintana",
-        "browse_id": "UCxOascdOCWFBIkHFIobOi0A",
-        "subscribers": "187K"
-      },
-      {
         "name": "Anuel AA",
         "browse_id": "UCbBaYg2UToDaoOwo-R6xi4g",
         "subscribers": "65M"
+      },
+      {
+        "name": "Young Miko",
+        "browse_id": "UCJzwfOuHuaB6DuPfh6rrPoA",
+        "subscribers": "17.8M"
+      },
+      {
+        "name": "Arcangel",
+        "browse_id": "UCVcAt8IIKIeubRSigcYXgtA",
+        "subscribers": "58M"
+      },
+      {
+        "name": "Ozuna",
+        "browse_id": "UCKEFjh4JL-OyMI8z3h5Coaw",
+        "subscribers": "100M"
       },
       {
         "name": "Farruko",
@@ -3631,21 +3687,6 @@
         "name": "Mora",
         "browse_id": "UCgDpp8Ex8Yz6hhHjbl3W5mg",
         "subscribers": "16.2M"
-      },
-      {
-        "name": "Young Miko",
-        "browse_id": "UCJzwfOuHuaB6DuPfh6rrPoA",
-        "subscribers": "17.8M"
-      },
-      {
-        "name": "De La Ghetto",
-        "browse_id": "UCf3TsqO9Ysrw8k63aHg4O5A",
-        "subscribers": "36.4M"
-      },
-      {
-        "name": "Myke Towers",
-        "browse_id": "UCYPsIfSIEwWcoynHBP5k1dg",
-        "subscribers": "68.4M"
       }
     ],
     "ytm_top_songs": [
@@ -4113,6 +4154,12 @@
           "views": 259196539,
           "likes": 1889096,
           "comments": 12852
+        },
+        {
+          "date": "2026-06-25",
+          "views": 259524336,
+          "likes": 1890947,
+          "comments": 12865
         }
       ]
     },
@@ -4556,6 +4603,12 @@
           "views": 358891580,
           "likes": 2811867,
           "comments": 23188
+        },
+        {
+          "date": "2026-06-25",
+          "views": 359385952,
+          "likes": 2814319,
+          "comments": 23210
         }
       ]
     },
@@ -4861,6 +4914,12 @@
           "views": 517741625,
           "likes": 3576254,
           "comments": 9271
+        },
+        {
+          "date": "2026-06-25",
+          "views": 517963383,
+          "likes": 3577385,
+          "comments": 9277
         }
       ]
     },
@@ -5148,6 +5207,12 @@
           "views": 160564959,
           "likes": 1142313,
           "comments": 4728
+        },
+        {
+          "date": "2026-06-25",
+          "views": 160799368,
+          "likes": 1143549,
+          "comments": 4733
         }
       ]
     },
@@ -5806,6 +5871,12 @@
           "views": 174051271,
           "likes": 898596,
           "comments": 1643
+        },
+        {
+          "date": "2026-06-25",
+          "views": 174222256,
+          "likes": 899386,
+          "comments": 1648
         }
       ]
     },
@@ -6048,6 +6119,18 @@
       "type": "annotated",
       "related_annotation": "デュッセルドルフ2日目公演（DeBÍ TiRAR MáS FOToS World Tour）",
       "detected_at": "2026-06-24T16:21:08.677483+00:00"
+    },
+    {
+      "date": "2026-06-25",
+      "metric": "youtube_total_views",
+      "value": 48286547741,
+      "baseline_mean": 47880340546.8,
+      "baseline_stddev": 181661379.8,
+      "delta": 406207194,
+      "score": 2.24,
+      "type": "annotated",
+      "related_annotation": "欧州ツアー アーネム・GelreDome公演 Day1（DeBÍ TiRAR MáS FOToS World Tour）",
+      "detected_at": "2026-06-25T16:26:37.270979+00:00"
     }
   ]
 }

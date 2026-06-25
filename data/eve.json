@@ -2985,6 +2985,47 @@
       "ytm_subscribers": 872000,
       "ytm_monthly_listeners": 10300000,
       "ytm_total_views": 917772060
+    },
+    {
+      "date": "2026-06-25",
+      "monthly_listeners": 3822118,
+      "collected_at": "2026-06-25T16:30:16.046469+00:00",
+      "spotify_followers": 2802621,
+      "youtube_subscribers": 5590000,
+      "youtube_total_views": 3493080470,
+      "youtube_video_count": 209,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 62825
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 48854
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 45835
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 41147
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 38281
+        }
+      ],
+      "lastfm_listeners": 1848596,
+      "lastfm_playcount": 54023982,
+      "ytm_subscribers": 872000,
+      "ytm_monthly_listeners": 10300000,
+      "ytm_total_views": 917772060
     }
   ],
   "annotations": [
@@ -3161,7 +3202,7 @@
       {
         "name": "Angie Martinez",
         "browse_id": "UCUA6tA2G-D-mShZR-I2RAIw",
-        "subscribers": "9.74K"
+        "subscribers": "9.75K"
       },
       {
         "name": "Aaliyah",
@@ -3174,21 +3215,6 @@
         "subscribers": "5.57M"
       },
       {
-        "name": "Foxy Brown",
-        "browse_id": "UCvuXZP247gluPFG4dx8_xcg",
-        "subscribers": "1.94M"
-      },
-      {
-        "name": "Mase",
-        "browse_id": "UC5gdSVYYBOKPgOdVdRG-Vdg",
-        "subscribers": "1.91M"
-      },
-      {
-        "name": "Ja Rule",
-        "browse_id": "UCji7leqOCN06fhLhHPwVKEg",
-        "subscribers": "13M"
-      },
-      {
         "name": "TLC",
         "browse_id": "UCs6cmuHkS7U7Az22s18lQXw",
         "subscribers": "13.2M"
@@ -3199,9 +3225,24 @@
         "subscribers": "38.1K"
       },
       {
-        "name": "Destiny's Child",
-        "browse_id": "UCksv4FYu55EEkyy5Q1W_yUw",
-        "subscribers": "23.9M"
+        "name": "Foxy Brown",
+        "browse_id": "UCvuXZP247gluPFG4dx8_xcg",
+        "subscribers": "1.94M"
+      },
+      {
+        "name": "Blu Cantrell",
+        "browse_id": "UC3uYzN1-8kVfDtHTkikbDUw",
+        "subscribers": "7.53M"
+      },
+      {
+        "name": "Nelly",
+        "browse_id": "UCggm1vqFLAJdYDTc1DQoVKg",
+        "subscribers": "75.2M"
+      },
+      {
+        "name": "Ja Rule",
+        "browse_id": "UCji7leqOCN06fhLhHPwVKEg",
+        "subscribers": "13M"
       }
     ],
     "ytm_top_songs": [
@@ -3645,6 +3686,12 @@
           "views": 134510168,
           "likes": 1314814,
           "comments": 1629
+        },
+        {
+          "date": "2026-06-25",
+          "views": 134599224,
+          "likes": 1315603,
+          "comments": 1631
         }
       ]
     },
@@ -4063,6 +4110,12 @@
           "date": "2026-06-24",
           "views": 15657765,
           "likes": 181487,
+          "comments": 381
+        },
+        {
+          "date": "2026-06-25",
+          "views": 15671429,
+          "likes": 181624,
           "comments": 381
         }
       ]
@@ -4483,6 +4536,12 @@
           "views": 19836124,
           "likes": 210755,
           "comments": 309
+        },
+        {
+          "date": "2026-06-25",
+          "views": 19849421,
+          "likes": 210868,
+          "comments": 309
         }
       ]
     },
@@ -4901,6 +4960,12 @@
           "date": "2026-06-24",
           "views": 11176393,
           "likes": 145498,
+          "comments": 520
+        },
+        {
+          "date": "2026-06-25",
+          "views": 11187005,
+          "likes": 145638,
           "comments": 520
         }
       ]
@@ -5321,6 +5386,12 @@
           "views": 27405069,
           "likes": 217677,
           "comments": 542
+        },
+        {
+          "date": "2026-06-25",
+          "views": 27414256,
+          "likes": 217775,
+          "comments": 537
         }
       ]
     },
@@ -5565,6 +5636,18 @@
       "type": "annotated",
       "related_annotation": "「風のアンセム」スペシャルアニメMV余波継続——YouTube総再生数は6/7より同値（3,475,080,982）のAPIカウンター凍結アーティファクト継続（2.35σ）",
       "detected_at": "2026-06-11T17:47:06.802233+00:00"
+    },
+    {
+      "date": "2026-06-25",
+      "metric": "youtube_total_views",
+      "value": 3493080470,
+      "baseline_mean": 3467148839.5,
+      "baseline_stddev": 10346927.5,
+      "delta": 25931630,
+      "score": 2.51,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-25T16:30:17.693482+00:00"
     }
   ]
 }

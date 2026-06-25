@@ -3283,6 +3283,47 @@
       "ytm_subscribers": 5460000,
       "ytm_monthly_listeners": 43600000,
       "ytm_total_views": 2847834813
+    },
+    {
+      "date": "2026-06-25",
+      "monthly_listeners": 7165463,
+      "collected_at": "2026-06-25T16:23:05.305531+00:00",
+      "spotify_followers": 5106791,
+      "youtube_subscribers": 5460000,
+      "youtube_total_views": 2892543873,
+      "youtube_video_count": 222,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 206228
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 188260
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 137654
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 100507
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 92657
+        }
+      ],
+      "lastfm_listeners": 18259,
+      "lastfm_playcount": 1547187,
+      "ytm_subscribers": 5460000,
+      "ytm_monthly_listeners": 43600000,
+      "ytm_total_views": 2876497066
     }
   ],
   "annotations": [
@@ -3511,6 +3552,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "23.4M"
+      },
+      {
         "name": "Penthouse",
         "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
         "subscribers": "2M"
@@ -3521,14 +3567,9 @@
         "subscribers": "12.9M"
       },
       {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "861K"
-      },
-      {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "23.4M"
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "8.21M"
       },
       {
         "name": "imase",
@@ -3536,14 +3577,9 @@
         "subscribers": "63.3M"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "45.2M"
-      },
-      {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "8.21M"
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "861K"
       },
       {
         "name": "OFFICIAL HIGE DANDISM",
@@ -3551,14 +3587,19 @@
         "subscribers": "73.8M"
       },
       {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "45.2M"
+      },
+      {
+        "name": "Sheena Ringo",
+        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
+        "subscribers": "6.07M"
+      },
+      {
         "name": "Utada",
         "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
         "subscribers": "18.6M"
-      },
-      {
-        "name": "iri",
-        "browse_id": "UCtlXP5iI7TgKj_BI636L8Qw",
-        "subscribers": "598K"
       }
     ],
     "ytm_top_songs": [
@@ -4026,6 +4067,12 @@
           "views": 284160227,
           "likes": 3730926,
           "comments": 18676
+        },
+        {
+          "date": "2026-06-25",
+          "views": 284291515,
+          "likes": 3732431,
+          "comments": 18688
         }
       ]
     },
@@ -4516,6 +4563,12 @@
           "views": 74978376,
           "likes": 363240,
           "comments": 638
+        },
+        {
+          "date": "2026-06-25",
+          "views": 75032214,
+          "likes": 363438,
+          "comments": 638
         }
       ]
     },
@@ -4886,6 +4939,12 @@
           "views": 51600154,
           "likes": 383778,
           "comments": 1099
+        },
+        {
+          "date": "2026-06-25",
+          "views": 51639539,
+          "likes": 384002,
+          "comments": 1100
         }
       ]
     },
@@ -5664,6 +5723,12 @@
           "views": 2215795,
           "likes": 16623,
           "comments": 126
+        },
+        {
+          "date": "2026-06-25",
+          "views": 2245998,
+          "likes": 16815,
+          "comments": 126
         }
       ]
     },
@@ -5823,6 +5888,12 @@
           "views": 437237,
           "likes": 16116,
           "comments": 466
+        },
+        {
+          "date": "2026-06-25",
+          "views": 489400,
+          "likes": 16587,
+          "comments": 468
         }
       ]
     }
@@ -6139,6 +6210,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-23T16:28:27.063644+00:00"
+    },
+    {
+      "date": "2026-06-25",
+      "metric": "youtube_total_views",
+      "value": 2892543873,
+      "baseline_mean": 2852104158.4,
+      "baseline_stddev": 14196262.3,
+      "delta": 40439714,
+      "score": 2.85,
+      "type": "annotated",
+      "related_annotation": "ライブEP「Live at Apple Music Radio」配信リリース",
+      "detected_at": "2026-06-25T16:23:07.822694+00:00"
     }
   ]
 }

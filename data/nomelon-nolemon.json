@@ -3115,6 +3115,47 @@
       "ytm_subscribers": 324000,
       "ytm_monthly_listeners": 1500000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-25",
+      "monthly_listeners": 283862,
+      "collected_at": "2026-06-25T16:19:22.796912+00:00",
+      "spotify_followers": 69507,
+      "youtube_subscribers": 325000,
+      "youtube_total_views": 166627686,
+      "youtube_video_count": 108,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 14068
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8688
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6436
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 4752
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4212
+        }
+      ],
+      "lastfm_listeners": 32917,
+      "lastfm_playcount": 890801,
+      "ytm_subscribers": 325000,
+      "ytm_monthly_listeners": 1500000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3169,9 +3210,19 @@
         "subscribers": "410K"
       },
       {
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "19.4M"
+      },
+      {
         "name": "Aooo",
         "browse_id": "UCbX-GbG3bg17Mdm_RltoWqg",
         "subscribers": "1.74M"
+      },
+      {
+        "name": "Mulasaki Ima",
+        "browse_id": "UC3atnuaadwis0OEvtk0p_aA",
+        "subscribers": "4.52M"
       },
       {
         "name": "Dios",
@@ -3179,24 +3230,14 @@
         "subscribers": "146K"
       },
       {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "19.4M"
-      },
-      {
-        "name": "CLAN QUEEN",
-        "browse_id": "UCuCIY6NNMyjANg60NEgHONg",
-        "subscribers": "326K"
-      },
-      {
         "name": "DUSTCELL",
         "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
         "subscribers": "891K"
       },
       {
-        "name": "Wanuka",
-        "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
-        "subscribers": "1.06M"
+        "name": "CLAN QUEEN",
+        "browse_id": "UCuCIY6NNMyjANg60NEgHONg",
+        "subscribers": "326K"
       }
     ],
     "ytm_top_songs": [
@@ -3663,6 +3704,12 @@
           "views": 18341189,
           "likes": 124025,
           "comments": 1058
+        },
+        {
+          "date": "2026-06-25",
+          "views": 18352934,
+          "likes": 124055,
+          "comments": 1058
         }
       ]
     },
@@ -4105,6 +4152,12 @@
           "date": "2026-06-24",
           "views": 5408570,
           "likes": 39911,
+          "comments": 86
+        },
+        {
+          "date": "2026-06-25",
+          "views": 5415386,
+          "likes": 39953,
           "comments": 86
         }
       ]
@@ -4549,6 +4602,12 @@
           "views": 5152334,
           "likes": 35221,
           "comments": 167
+        },
+        {
+          "date": "2026-06-25",
+          "views": 5157773,
+          "likes": 35244,
+          "comments": 167
         }
       ]
     },
@@ -4991,6 +5050,12 @@
           "date": "2026-06-24",
           "views": 2218107,
           "likes": 18680,
+          "comments": 42
+        },
+        {
+          "date": "2026-06-25",
+          "views": 2221590,
+          "likes": 18692,
           "comments": 42
         }
       ]
@@ -5439,6 +5504,12 @@
           "date": "2026-06-24",
           "views": 4303403,
           "likes": 35314,
+          "comments": 316
+        },
+        {
+          "date": "2026-06-25",
+          "views": 4307131,
+          "likes": 35329,
           "comments": 316
         }
       ]
@@ -5908,6 +5979,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-09T16:29:41.717062+00:00"
+    },
+    {
+      "date": "2026-06-25",
+      "metric": "youtube_total_views",
+      "value": 166627686,
+      "baseline_mean": 164224492.1,
+      "baseline_stddev": 932208.7,
+      "delta": 2403193,
+      "score": 2.58,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-25T16:19:24.649485+00:00"
     }
   ]
 }
