@@ -3041,6 +3041,47 @@
       "ytm_subscribers": 591000,
       "ytm_monthly_listeners": 4480000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-26",
+      "monthly_listeners": 2501418,
+      "collected_at": "2026-06-26T16:22:55.180989+00:00",
+      "spotify_followers": 1985982,
+      "youtube_subscribers": 591000,
+      "youtube_total_views": 496513406,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 134247
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 132699
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 91700
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 52099
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 42286
+        }
+      ],
+      "lastfm_listeners": 7509,
+      "lastfm_playcount": 431627,
+      "ytm_subscribers": 591000,
+      "ytm_monthly_listeners": 4480000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3295,9 +3336,9 @@
         "subscribers": "653K"
       },
       {
-        "name": "Tele",
-        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "469K"
+        "name": "Saucy Dog",
+        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
+        "subscribers": "2.27M"
       },
       {
         "name": "back number",
@@ -3305,9 +3346,9 @@
         "subscribers": "12.9M"
       },
       {
-        "name": "Saucy Dog",
-        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.27M"
+        "name": "Tele",
+        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
+        "subscribers": "469K"
       },
       {
         "name": "sumika",
@@ -3325,14 +3366,14 @@
         "subscribers": "6.15M"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "87.5M"
-      },
-      {
         "name": "WurtS",
         "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
         "subscribers": "8.06M"
+      },
+      {
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "87.5M"
       }
     ],
     "ytm_top_songs": [
@@ -3787,6 +3828,12 @@
           "views": 12076753,
           "likes": 69166,
           "comments": 143
+        },
+        {
+          "date": "2026-06-26",
+          "views": 12092103,
+          "likes": 69244,
+          "comments": 143
         }
       ]
     },
@@ -4218,6 +4265,12 @@
           "views": 24469768,
           "likes": 88531,
           "comments": 169
+        },
+        {
+          "date": "2026-06-26",
+          "views": 24491880,
+          "likes": 88656,
+          "comments": 169
         }
       ]
     },
@@ -4637,6 +4690,12 @@
           "views": 16703305,
           "likes": 61282,
           "comments": 115
+        },
+        {
+          "date": "2026-06-26",
+          "views": 16720034,
+          "likes": 61362,
+          "comments": 115
         }
       ]
     },
@@ -4978,6 +5037,12 @@
           "views": 44950125,
           "likes": 139033,
           "comments": 236
+        },
+        {
+          "date": "2026-06-26",
+          "views": 44968120,
+          "likes": 139122,
+          "comments": 237
         }
       ]
     },
@@ -5300,6 +5365,12 @@
           "views": 13899301,
           "likes": 80463,
           "comments": 434
+        },
+        {
+          "date": "2026-06-26",
+          "views": 13937818,
+          "likes": 80736,
+          "comments": 435
         }
       ]
     },
@@ -5999,6 +6070,18 @@
       "type": "annotated",
       "related_annotation": "「終宵」配信リリース告知（6/21）後のYouTube急上昇（2.74σ）",
       "detected_at": "2026-06-25T16:31:26.812957+00:00"
+    },
+    {
+      "date": "2026-06-26",
+      "metric": "monthly_listeners",
+      "value": 2501418,
+      "baseline_mean": 2445922.9,
+      "baseline_stddev": 17320.3,
+      "delta": 55495,
+      "score": 3.2,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-26T16:22:57.263035+00:00"
     }
   ]
 }

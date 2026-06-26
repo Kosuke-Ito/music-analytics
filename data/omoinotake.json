@@ -3038,6 +3038,47 @@
       "ytm_subscribers": 314000,
       "ytm_monthly_listeners": 2760000,
       "ytm_total_views": 311510789
+    },
+    {
+      "date": "2026-06-26",
+      "monthly_listeners": 1369278,
+      "collected_at": "2026-06-26T16:25:32.634801+00:00",
+      "spotify_followers": 332470,
+      "youtube_subscribers": 314000,
+      "youtube_total_views": 314085825,
+      "youtube_video_count": 215,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 42841
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 42139
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 32261
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 16918
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 15940
+        }
+      ],
+      "lastfm_listeners": 141514,
+      "lastfm_playcount": 2493853,
+      "ytm_subscribers": 314000,
+      "ytm_monthly_listeners": 2760000,
+      "ytm_total_views": 311510789
     }
   ],
   "annotations": [
@@ -3262,14 +3303,19 @@
         "subscribers": "390K"
       },
       {
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "73.8M"
+      },
+      {
         "name": "Penthouse",
         "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
         "subscribers": "2M"
       },
       {
-        "name": "eill",
-        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.53M"
+        "name": "Novelbright",
+        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
+        "subscribers": "4.97M"
       },
       {
         "name": "Vaundy",
@@ -3282,29 +3328,24 @@
         "subscribers": "5.58M"
       },
       {
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "63.3M"
+      },
+      {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
         "subscribers": "508K"
       },
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "73.8M"
+        "name": "eill",
+        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
+        "subscribers": "1.53M"
       },
       {
         "name": "AKASAKI",
         "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
         "subscribers": "5.92M"
-      },
-      {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "4.97M"
-      },
-      {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "3.41M"
       }
     ],
     "ytm_top_songs": [
@@ -3772,6 +3813,12 @@
           "views": 11557168,
           "likes": 54761,
           "comments": 204
+        },
+        {
+          "date": "2026-06-26",
+          "views": 11566711,
+          "likes": 54781,
+          "comments": 204
         }
       ]
     },
@@ -4215,6 +4262,12 @@
           "views": 798610,
           "likes": 8303,
           "comments": 89
+        },
+        {
+          "date": "2026-06-26",
+          "views": 799941,
+          "likes": 8310,
+          "comments": 89
         }
       ]
     },
@@ -4657,6 +4710,12 @@
           "date": "2026-06-25",
           "views": 2242788,
           "likes": 16745,
+          "comments": 60
+        },
+        {
+          "date": "2026-06-26",
+          "views": 2243998,
+          "likes": 16750,
           "comments": 60
         }
       ]
@@ -5112,6 +5171,12 @@
           "views": 1229426,
           "likes": 9160,
           "comments": 73
+        },
+        {
+          "date": "2026-06-26",
+          "views": 1230661,
+          "likes": 9166,
+          "comments": 73
         }
       ]
     },
@@ -5543,6 +5608,12 @@
           "views": 1017839,
           "likes": 9413,
           "comments": 84
+        },
+        {
+          "date": "2026-06-26",
+          "views": 1018729,
+          "likes": 9422,
+          "comments": 84
         }
       ]
     },
@@ -5834,6 +5905,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-25T16:34:01.480990+00:00"
+    },
+    {
+      "date": "2026-06-26",
+      "metric": "youtube_total_views",
+      "value": 314085825,
+      "baseline_mean": 310507643.6,
+      "baseline_stddev": 1661776.9,
+      "delta": 3578181,
+      "score": 2.15,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-26T16:25:35.228582+00:00"
     }
   ]
 }

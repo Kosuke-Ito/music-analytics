@@ -3150,6 +3150,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 6810000,
       "ytm_total_views": 915854336
+    },
+    {
+      "date": "2026-06-26",
+      "monthly_listeners": 4080409,
+      "collected_at": "2026-06-26T16:18:48.062532+00:00",
+      "spotify_followers": 1663132,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 915904108,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 181469
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 153293
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 136919
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 134562
+        },
+        {
+          "city": "East Jakarta",
+          "country": "ID",
+          "listeners": 95234
+        }
+      ],
+      "lastfm_listeners": 929049,
+      "lastfm_playcount": 23618153,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 6810000,
+      "ytm_total_views": 915854336
     }
   ],
   "annotations": [
@@ -3323,6 +3364,11 @@
         "subscribers": "251K"
       },
       {
+        "name": "Jesse Barrera",
+        "browse_id": "UCIdvXeEwoWA2LUc_-_nK2Mg",
+        "subscribers": "1.17M"
+      },
+      {
         "name": "Ruel",
         "browse_id": "UCo5Hx6tOkjyWHmJDucjtB0A",
         "subscribers": "1.57M"
@@ -3333,14 +3379,9 @@
         "subscribers": "3.39M"
       },
       {
-        "name": "Jesse Barrera",
-        "browse_id": "UCIdvXeEwoWA2LUc_-_nK2Mg",
-        "subscribers": "1.17M"
-      },
-      {
         "name": "88rising",
         "browse_id": "UCeMMeHKzG19IxAaRbfO4tyA",
-        "subscribers": "33.5K"
+        "subscribers": "33.6K"
       },
       {
         "name": "Johnny Stimson",
@@ -3353,19 +3394,19 @@
         "subscribers": "1.19M"
       },
       {
-        "name": "Jeff Bernat",
-        "browse_id": "UCleL_cOHP8y7UDe9oJb_fVw",
-        "subscribers": "1.03M"
+        "name": "Peach Tree Rascals",
+        "browse_id": "UCOGH6iT5yzmuKMy8fD0LW-A",
+        "subscribers": "648K"
+      },
+      {
+        "name": "Mina Okabe",
+        "browse_id": "UCdwuOm1Z7_1UyhMsTjgmxeg",
+        "subscribers": "8.46M"
       },
       {
         "name": "slchld",
         "browse_id": "UCeH_AbA_uetIVR8Q61TIL8g",
         "subscribers": "915K"
-      },
-      {
-        "name": "Peach Tree Rascals",
-        "browse_id": "UCOGH6iT5yzmuKMy8fD0LW-A",
-        "subscribers": "648K"
       }
     ],
     "ytm_top_songs": [
@@ -3833,6 +3874,12 @@
           "views": 2590282,
           "likes": 16013,
           "comments": 27
+        },
+        {
+          "date": "2026-06-26",
+          "views": 2590582,
+          "likes": 16015,
+          "comments": 27
         }
       ]
     },
@@ -4269,6 +4316,12 @@
           "date": "2026-06-25",
           "views": 1959076,
           "likes": 18868,
+          "comments": 277
+        },
+        {
+          "date": "2026-06-26",
+          "views": 1963838,
+          "likes": 18887,
           "comments": 277
         }
       ]
@@ -4712,6 +4765,12 @@
           "date": "2026-06-25",
           "views": 47499431,
           "likes": 201086,
+          "comments": 116
+        },
+        {
+          "date": "2026-06-26",
+          "views": 47512151,
+          "likes": 201130,
           "comments": 116
         }
       ]
@@ -5490,6 +5549,12 @@
           "views": 14199336,
           "likes": 73308,
           "comments": 38
+        },
+        {
+          "date": "2026-06-26",
+          "views": 14210742,
+          "likes": 73342,
+          "comments": 38
         }
       ]
     },
@@ -5624,6 +5689,12 @@
           "date": "2026-06-25",
           "views": 15651572,
           "likes": 79909,
+          "comments": 63
+        },
+        {
+          "date": "2026-06-26",
+          "views": 15655133,
+          "likes": 79919,
           "comments": 63
         }
       ]
@@ -5809,6 +5880,18 @@
       "type": "annotated",
       "related_annotation": "10周年アニバーサリーツアー シアトル・ネプチューン・シアター公演",
       "detected_at": "2026-06-25T16:27:27.718045+00:00"
+    },
+    {
+      "date": "2026-06-26",
+      "metric": "youtube_total_views",
+      "value": 915904108,
+      "baseline_mean": 907294251.7,
+      "baseline_stddev": 2301080.9,
+      "delta": 8609856,
+      "score": 3.74,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-26T16:18:49.351406+00:00"
     }
   ]
 }

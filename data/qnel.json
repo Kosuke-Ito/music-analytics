@@ -3164,6 +3164,47 @@
       "ytm_subscribers": 153,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-26",
+      "monthly_listeners": 5082,
+      "collected_at": "2026-06-26T16:15:25.703019+00:00",
+      "spotify_followers": 955,
+      "youtube_subscribers": 368,
+      "youtube_total_views": 66977,
+      "youtube_video_count": 178,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 251
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 144
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 95
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 76
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 60
+        }
+      ],
+      "lastfm_listeners": 763,
+      "lastfm_playcount": 2480,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3812,6 +3853,12 @@
           "views": 3418,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-06-26",
+          "views": 3418,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -4253,6 +4300,12 @@
         {
           "date": "2026-06-25",
           "views": 5876,
+          "likes": 22,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-26",
+          "views": 5888,
           "likes": 22,
           "comments": 0
         }
@@ -4698,6 +4751,12 @@
           "views": 12360,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-06-26",
+          "views": 12367,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -5141,6 +5200,12 @@
           "views": 32334,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-06-26",
+          "views": 32347,
+          "likes": 153,
+          "comments": 0
         }
       ]
     },
@@ -5576,6 +5641,12 @@
         {
           "date": "2026-06-25",
           "views": 8087,
+          "likes": 60,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-26",
+          "views": 8093,
           "likes": 60,
           "comments": 0
         }
@@ -6126,6 +6197,30 @@
       "type": "annotated",
       "related_annotation": "「&Dream」Spotifyプレイリスト効果継続——月間リスナー3,692人（4.67σ）",
       "detected_at": "2026-06-25T16:24:03.989931+00:00"
+    },
+    {
+      "date": "2026-06-26",
+      "metric": "monthly_listeners",
+      "value": 5082,
+      "baseline_mean": 1173.1,
+      "baseline_stddev": 1345.6,
+      "delta": 3908,
+      "score": 2.91,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-26T16:15:27.474589+00:00"
+    },
+    {
+      "date": "2026-06-26",
+      "metric": "youtube_total_views",
+      "value": 66977,
+      "baseline_mean": 66052.1,
+      "baseline_stddev": 398.8,
+      "delta": 924,
+      "score": 2.32,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-26T16:15:27.474589+00:00"
     }
   ]
 }

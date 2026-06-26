@@ -3029,6 +3029,47 @@
       "ytm_subscribers": 1760000,
       "ytm_monthly_listeners": 8510000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-26",
+      "monthly_listeners": 2705894,
+      "collected_at": "2026-06-26T16:20:51.641774+00:00",
+      "spotify_followers": 2447086,
+      "youtube_subscribers": 1760000,
+      "youtube_total_views": 1431623967,
+      "youtube_video_count": 201,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 117253
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 94874
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 64599
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 41840
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 30565
+        }
+      ],
+      "lastfm_listeners": 21480,
+      "lastfm_playcount": 3003072,
+      "ytm_subscribers": 1760000,
+      "ytm_monthly_listeners": 8510000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3068,6 +3109,11 @@
         "subscribers": "2.85M"
       },
       {
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "2M"
+      },
+      {
         "name": "aiko",
         "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
         "subscribers": "5.05M"
@@ -3076,16 +3122,6 @@
         "name": "BUMP OF CHICKEN",
         "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
         "subscribers": "9.02M"
-      },
-      {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "23.4M"
-      },
-      {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "2M"
       },
       {
         "name": "back number",
@@ -3101,6 +3137,11 @@
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
         "subscribers": "10.1M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "23.4M"
       },
       {
         "name": "Fujii Kaze",
@@ -3565,6 +3606,12 @@
           "views": 59569672,
           "likes": 234614,
           "comments": 579
+        },
+        {
+          "date": "2026-06-26",
+          "views": 59604569,
+          "likes": 234757,
+          "comments": 579
         }
       ]
     },
@@ -3996,6 +4043,12 @@
           "views": 4920354,
           "likes": 40335,
           "comments": 0
+        },
+        {
+          "date": "2026-06-26",
+          "views": 4932728,
+          "likes": 40420,
+          "comments": 0
         }
       ]
     },
@@ -4415,6 +4468,12 @@
           "views": 21385866,
           "likes": 100375,
           "comments": 88
+        },
+        {
+          "date": "2026-06-26",
+          "views": 21397674,
+          "likes": 100428,
+          "comments": 88
         }
       ]
     },
@@ -4726,6 +4785,12 @@
           "views": 10200043,
           "likes": 52206,
           "comments": 46
+        },
+        {
+          "date": "2026-06-26",
+          "views": 10208934,
+          "likes": 52258,
+          "comments": 46
         }
       ]
     },
@@ -4964,6 +5029,12 @@
           "date": "2026-06-25",
           "views": 10925624,
           "likes": 48896,
+          "comments": 169
+        },
+        {
+          "date": "2026-06-26",
+          "views": 10932105,
+          "likes": 48935,
           "comments": 169
         }
       ]
@@ -5826,6 +5897,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-25T16:29:26.520558+00:00"
+    },
+    {
+      "date": "2026-06-26",
+      "metric": "youtube_total_views",
+      "value": 1431623967,
+      "baseline_mean": 1420387093.6,
+      "baseline_stddev": 5058750.0,
+      "delta": 11236873,
+      "score": 2.22,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-26T16:20:53.123139+00:00"
     }
   ]
 }

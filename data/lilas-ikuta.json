@@ -3148,6 +3148,47 @@
       "ytm_subscribers": 1010000,
       "ytm_monthly_listeners": 18500000,
       "ytm_total_views": 423733728
+    },
+    {
+      "date": "2026-06-26",
+      "monthly_listeners": 2864357,
+      "collected_at": "2026-06-26T16:10:02.456514+00:00",
+      "spotify_followers": 1014298,
+      "youtube_subscribers": 1010000,
+      "youtube_total_views": 425098015,
+      "youtube_video_count": 54,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 93089
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 84210
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 61515
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 48795
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 33489
+        }
+      ],
+      "lastfm_listeners": 19599,
+      "lastfm_playcount": 347785,
+      "ytm_subscribers": 1010000,
+      "ytm_monthly_listeners": 18500000,
+      "ytm_total_views": 423733728
     }
   ],
   "annotations": [
@@ -3398,24 +3439,9 @@
         "subscribers": "73.8M"
       },
       {
-        "name": "tuki.",
-        "browse_id": "UCtrbtNbdI4jwRQPG35Mtn2A",
-        "subscribers": "15.3M"
-      },
-      {
         "name": "yama",
         "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
         "subscribers": "5.58M"
-      },
-      {
-        "name": "ATARAYO",
-        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
-        "subscribers": "1.9M"
-      },
-      {
-        "name": "Tani Yuuki",
-        "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
-        "subscribers": "5.78M"
       },
       {
         "name": "Uru",
@@ -3423,24 +3449,39 @@
         "subscribers": "28.8M"
       },
       {
+        "name": "ATARAYO",
+        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
+        "subscribers": "1.9M"
+      },
+      {
         "name": "eill",
         "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
         "subscribers": "1.53M"
       },
       {
-        "name": "suis from Yorushika",
-        "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
-        "subscribers": "29.2K"
+        "name": "Tani Yuuki",
+        "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
+        "subscribers": "5.78M"
       },
       {
-        "name": "milet",
-        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "5.74M"
+        "name": "tuki.",
+        "browse_id": "UCtrbtNbdI4jwRQPG35Mtn2A",
+        "subscribers": "15.3M"
       },
       {
-        "name": "Ai Higuchi",
-        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
-        "subscribers": "14.9M"
+        "name": "Mosawo",
+        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
+        "subscribers": "886K"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "9.53M"
+      },
+      {
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "63.3M"
       }
     ],
     "ytm_top_songs": [
@@ -3914,6 +3955,12 @@
           "views": 3218490,
           "likes": 28420,
           "comments": 52
+        },
+        {
+          "date": "2026-06-26",
+          "views": 3250796,
+          "likes": 28703,
+          "comments": 52
         }
       ]
     },
@@ -4356,6 +4403,12 @@
           "date": "2026-06-25",
           "views": 18328005,
           "likes": 85816,
+          "comments": 552
+        },
+        {
+          "date": "2026-06-26",
+          "views": 18359408,
+          "likes": 85900,
           "comments": 552
         }
       ]
@@ -4806,6 +4859,12 @@
           "views": 27508746,
           "likes": 178268,
           "comments": 1794
+        },
+        {
+          "date": "2026-06-26",
+          "views": 27517809,
+          "likes": 178277,
+          "comments": 1795
         }
       ]
     },
@@ -5255,6 +5314,12 @@
           "views": 4349274,
           "likes": 36221,
           "comments": 380
+        },
+        {
+          "date": "2026-06-26",
+          "views": 4358588,
+          "likes": 36234,
+          "comments": 381
         }
       ]
     },
@@ -5704,6 +5769,12 @@
           "views": 30701434,
           "likes": 129226,
           "comments": 313
+        },
+        {
+          "date": "2026-06-26",
+          "views": 30716406,
+          "likes": 129263,
+          "comments": 313
         }
       ]
     },
@@ -5899,6 +5970,18 @@
       "type": "annotated",
       "related_annotation": "YouTube APIカウンター凍結（6/10〜6/21・12日間）解除による蓄積分一括計上アーティファクト（+1,490万・6.83σ）",
       "detected_at": "2026-06-25T16:18:16.599183+00:00"
+    },
+    {
+      "date": "2026-06-26",
+      "metric": "youtube_total_views",
+      "value": 425098015,
+      "baseline_mean": 410750148.3,
+      "baseline_stddev": 5816422.1,
+      "delta": 14347866,
+      "score": 2.47,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-26T16:10:04.057680+00:00"
     }
   ]
 }

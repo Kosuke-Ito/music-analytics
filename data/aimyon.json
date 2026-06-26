@@ -3035,6 +3035,47 @@
       "ytm_subscribers": 2290000,
       "ytm_monthly_listeners": 7670000,
       "ytm_total_views": 2692122323
+    },
+    {
+      "date": "2026-06-26",
+      "monthly_listeners": 4705318,
+      "collected_at": "2026-06-26T16:20:34.830823+00:00",
+      "spotify_followers": 6314745,
+      "youtube_subscribers": 2290000,
+      "youtube_total_views": 2703499665,
+      "youtube_video_count": 282,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 230985
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 227397
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 155019
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 85854
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 71650
+        }
+      ],
+      "lastfm_listeners": 19939,
+      "lastfm_playcount": 1451791,
+      "ytm_subscribers": 2290000,
+      "ytm_monthly_listeners": 7670000,
+      "ytm_total_views": 2692122323
     }
   ],
   "annotations": [
@@ -3294,6 +3335,26 @@
         "subscribers": "1.99M"
       },
       {
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "8.21M"
+      },
+      {
+        "name": "Uru",
+        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
+        "subscribers": "28.8M"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "9.53M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "12.9M"
+      },
+      {
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
         "subscribers": "10.1M"
@@ -3304,34 +3365,14 @@
         "subscribers": "1.57M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "12.9M"
-      },
-      {
-        "name": "Uru",
-        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "28.8M"
-      },
-      {
         "name": "OFFICIAL HIGE DANDISM",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
         "subscribers": "73.8M"
       },
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "8.21M"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "9.53M"
-      },
-      {
-        "name": "Kana Nishino",
-        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
-        "subscribers": "8.11M"
+        "name": "Superfly",
+        "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
+        "subscribers": "5.54M"
       },
       {
         "name": "Ikimonogakari",
@@ -3804,6 +3845,12 @@
           "views": 106679606,
           "likes": 307865,
           "comments": 680
+        },
+        {
+          "date": "2026-06-26",
+          "views": 106723650,
+          "likes": 307959,
+          "comments": 681
         }
       ]
     },
@@ -4246,6 +4293,12 @@
           "date": "2026-06-25",
           "views": 101273143,
           "likes": 345442,
+          "comments": 412
+        },
+        {
+          "date": "2026-06-26",
+          "views": 101322417,
+          "likes": 345607,
           "comments": 412
         }
       ]
@@ -4690,6 +4743,12 @@
           "views": 63035174,
           "likes": 183795,
           "comments": 233
+        },
+        {
+          "date": "2026-06-26",
+          "views": 63059788,
+          "likes": 183847,
+          "comments": 233
         }
       ]
     },
@@ -5132,6 +5191,12 @@
           "date": "2026-06-25",
           "views": 1986446,
           "likes": 6178,
+          "comments": 39
+        },
+        {
+          "date": "2026-06-26",
+          "views": 1986876,
+          "likes": 6181,
           "comments": 39
         }
       ]
@@ -5581,6 +5646,12 @@
           "views": 36246887,
           "likes": 115401,
           "comments": 232
+        },
+        {
+          "date": "2026-06-26",
+          "views": 36261745,
+          "likes": 115463,
+          "comments": 234
         }
       ]
     }
@@ -6221,6 +6292,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-25T16:29:09.476117+00:00"
+    },
+    {
+      "date": "2026-06-26",
+      "metric": "youtube_total_views",
+      "value": 2703499665,
+      "baseline_mean": 2690794364.1,
+      "baseline_stddev": 5347701.2,
+      "delta": 12705300,
+      "score": 2.38,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-26T16:20:36.483352+00:00"
     }
   ]
 }
