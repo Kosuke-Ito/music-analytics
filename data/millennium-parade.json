@@ -3194,6 +3194,47 @@
       "ytm_subscribers": 463000,
       "ytm_monthly_listeners": 900000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-27",
+      "monthly_listeners": 85296,
+      "collected_at": "2026-06-27T15:08:28.625928+00:00",
+      "spotify_followers": 229801,
+      "youtube_subscribers": 463000,
+      "youtube_total_views": 213145697,
+      "youtube_video_count": 47,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 3553
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 2228
+        },
+        {
+          "city": "Madrid",
+          "country": "ES",
+          "listeners": 1278
+        },
+        {
+          "city": "Bogotá",
+          "country": "CO",
+          "listeners": 1238
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 1198
+        }
+      ],
+      "lastfm_listeners": 144090,
+      "lastfm_playcount": 2275116,
+      "ytm_subscribers": 463000,
+      "ytm_monthly_listeners": 900000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3238,24 +3279,14 @@
         "subscribers": "23.4M"
       },
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.58M"
-      },
-      {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "45.2M"
-      },
-      {
         "name": "Sheena Ringo",
         "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
         "subscribers": "6.07M"
       },
       {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "102M"
+        "name": "Queen Bee",
+        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
+        "subscribers": "3.86M"
       },
       {
         "name": "Tatsuya Kitani",
@@ -3263,9 +3294,14 @@
         "subscribers": "19.4M"
       },
       {
-        "name": "jo0ji",
-        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "6.24M"
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "45.2M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.58M"
       },
       {
         "name": "PEOPLE 1",
@@ -3273,9 +3309,14 @@
         "subscribers": "1.32M"
       },
       {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "70.1M"
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "102M"
+      },
+      {
+        "name": "Daoko",
+        "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
+        "subscribers": "5.45M"
       }
     ],
     "ytm_top_songs": [
@@ -3754,6 +3795,12 @@
           "views": 7637421,
           "likes": 70739,
           "comments": 246
+        },
+        {
+          "date": "2026-06-27",
+          "views": 7646786,
+          "likes": 70819,
+          "comments": 246
         }
       ]
     },
@@ -4209,6 +4256,12 @@
           "views": 2044648,
           "likes": 25216,
           "comments": 48
+        },
+        {
+          "date": "2026-06-27",
+          "views": 2046562,
+          "likes": 25230,
+          "comments": 49
         }
       ]
     },
@@ -4664,6 +4717,12 @@
           "views": 21584414,
           "likes": 223719,
           "comments": 610
+        },
+        {
+          "date": "2026-06-27",
+          "views": 21589780,
+          "likes": 223748,
+          "comments": 611
         }
       ]
     },
@@ -5119,6 +5178,12 @@
           "views": 145004,
           "likes": 1199,
           "comments": 8
+        },
+        {
+          "date": "2026-06-27",
+          "views": 145267,
+          "likes": 1200,
+          "comments": 8
         }
       ]
     },
@@ -5526,6 +5591,12 @@
           "views": 102034,
           "likes": 1548,
           "comments": 10
+        },
+        {
+          "date": "2026-06-27",
+          "views": 102228,
+          "likes": 1549,
+          "comments": 10
         }
       ]
     },
@@ -5756,6 +5827,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-26T16:07:08.784678+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "youtube_total_views",
+      "value": 213145697,
+      "baseline_mean": 211221282.8,
+      "baseline_stddev": 641471.4,
+      "delta": 1924414,
+      "score": 3.0,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-27T15:08:29.618213+00:00"
     }
   ]
 }

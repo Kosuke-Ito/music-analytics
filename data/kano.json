@@ -3182,6 +3182,47 @@
       "ytm_subscribers": 106,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-27",
+      "monthly_listeners": 10750,
+      "collected_at": "2026-06-27T15:13:24.135555+00:00",
+      "spotify_followers": 549,
+      "youtube_subscribers": 3360,
+      "youtube_total_views": 2102785,
+      "youtube_video_count": 106,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 375
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 237
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 230
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 165
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 156
+        }
+      ],
+      "lastfm_listeners": 267,
+      "lastfm_playcount": 1158,
+      "ytm_subscribers": 106,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3191,20 +3232,20 @@
         "url": "https://www.last.fm/music/MAISONdes,+MIMI+&+%E8%8F%AF%E4%B9%83"
       },
       {
-        "name": "The Luv Bugs",
-        "url": "https://www.last.fm/music/The+Luv+Bugs"
-      },
-      {
         "name": "山内総一郎",
         "url": "https://www.last.fm/music/%E5%B1%B1%E5%86%85%E7%B7%8F%E4%B8%80%E9%83%8E"
       },
       {
-        "name": "gaogao",
-        "url": "https://www.last.fm/music/gaogao"
+        "name": "水槽 & ナナヲアカリ",
+        "url": "https://www.last.fm/music/%E6%B0%B4%E6%A7%BD+&+%E3%83%8A%E3%83%8A%E3%83%B2%E3%82%A2%E3%82%AB%E3%83%AA"
       },
       {
-        "name": "MEGAMI Party",
-        "url": "https://www.last.fm/music/MEGAMI+Party"
+        "name": "The Luv Bugs",
+        "url": "https://www.last.fm/music/The+Luv+Bugs"
+      },
+      {
+        "name": "gaogao",
+        "url": "https://www.last.fm/music/gaogao"
       }
     ],
     "ytm_top_songs": [
@@ -3671,6 +3712,12 @@
           "views": 352710,
           "likes": 3150,
           "comments": 21
+        },
+        {
+          "date": "2026-06-27",
+          "views": 353476,
+          "likes": 3154,
+          "comments": 21
         }
       ]
     },
@@ -4112,6 +4159,12 @@
         {
           "date": "2026-06-26",
           "views": 14970,
+          "likes": 87,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-27",
+          "views": 15167,
           "likes": 87,
           "comments": 0
         }
@@ -4557,6 +4610,12 @@
           "views": 5380,
           "likes": 51,
           "comments": 0
+        },
+        {
+          "date": "2026-06-27",
+          "views": 5392,
+          "likes": 51,
+          "comments": 0
         }
       ]
     },
@@ -4872,6 +4931,12 @@
         {
           "date": "2026-06-26",
           "views": 1825,
+          "likes": 37,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-27",
+          "views": 1835,
           "likes": 37,
           "comments": 0
         }
@@ -5458,6 +5523,12 @@
           "views": 12576,
           "likes": 253,
           "comments": 0
+        },
+        {
+          "date": "2026-06-27",
+          "views": 12976,
+          "likes": 260,
+          "comments": 0
         }
       ]
     }
@@ -5783,6 +5854,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-26T16:12:17.009261+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "monthly_listeners",
+      "value": 10750,
+      "baseline_mean": 9829.1,
+      "baseline_stddev": 415.6,
+      "delta": 920,
+      "score": 2.22,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-27T15:13:25.540176+00:00"
     }
   ]
 }

@@ -3073,6 +3073,47 @@
       "ytm_subscribers": 454000,
       "ytm_monthly_listeners": 4730000,
       "ytm_total_views": 346306555
+    },
+    {
+      "date": "2026-06-27",
+      "monthly_listeners": 1689529,
+      "collected_at": "2026-06-27T15:24:31.268472+00:00",
+      "spotify_followers": 503180,
+      "youtube_subscribers": 454000,
+      "youtube_total_views": 352376098,
+      "youtube_video_count": 144,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 66734
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 44716
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 33226
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 30782
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 20624
+        }
+      ],
+      "lastfm_listeners": 18554,
+      "lastfm_playcount": 1259515,
+      "ytm_subscribers": 454000,
+      "ytm_monthly_listeners": 4730000,
+      "ytm_total_views": 349567633
     }
   ],
   "annotations": [
@@ -3358,9 +3399,19 @@
         "subscribers": "5.12M"
       },
       {
+        "name": "Yorushika",
+        "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
+        "subscribers": "15.7M"
+      },
+      {
         "name": "Vaundy",
         "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
         "subscribers": "23.4M"
+      },
+      {
+        "name": "Kinokoteikoku",
+        "browse_id": "UClJbEh-JJDXCjtQLQMi_gjA",
+        "subscribers": "40.9K"
       },
       {
         "name": "yama",
@@ -3378,24 +3429,14 @@
         "subscribers": "329K"
       },
       {
-        "name": "Kinokoteikoku",
-        "browse_id": "UClJbEh-JJDXCjtQLQMi_gjA",
-        "subscribers": "40.9K"
-      },
-      {
-        "name": "Yorushika",
-        "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
-        "subscribers": "15.7M"
-      },
-      {
         "name": "TOMOO",
         "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
         "subscribers": "861K"
       },
       {
-        "name": "Ai Higuchi",
-        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
-        "subscribers": "14.9M"
+        "name": "muque",
+        "browse_id": "UClh_g9tkf_ErD1UclhABZDw",
+        "subscribers": "437K"
       }
     ],
     "ytm_top_songs": [
@@ -3863,6 +3904,12 @@
           "views": 19523476,
           "likes": 125529,
           "comments": 370
+        },
+        {
+          "date": "2026-06-27",
+          "views": 19547475,
+          "likes": 125731,
+          "comments": 370
         }
       ]
     },
@@ -4305,6 +4352,12 @@
           "date": "2026-06-26",
           "views": 3919050,
           "likes": 28292,
+          "comments": 176
+        },
+        {
+          "date": "2026-06-27",
+          "views": 3944715,
+          "likes": 28425,
           "comments": 176
         }
       ]
@@ -4982,6 +5035,12 @@
           "views": 1454444,
           "likes": 13364,
           "comments": 84
+        },
+        {
+          "date": "2026-06-27",
+          "views": 1456590,
+          "likes": 13378,
+          "comments": 84
         }
       ]
     },
@@ -5425,6 +5484,12 @@
           "views": 2134520,
           "likes": 16614,
           "comments": 124
+        },
+        {
+          "date": "2026-06-27",
+          "views": 2137361,
+          "likes": 16641,
+          "comments": 124
         }
       ]
     },
@@ -5639,6 +5704,12 @@
           "date": "2026-06-26",
           "views": 4063438,
           "likes": 33256,
+          "comments": 267
+        },
+        {
+          "date": "2026-06-27",
+          "views": 4066401,
+          "likes": 33280,
           "comments": 267
         }
       ]
@@ -5975,6 +6046,18 @@
       "type": "annotated",
       "related_annotation": "MUSIC AWARDS JAPAN 2026 Grand Ceremony 出演発表余波の継続でYouTube総再生数が上昇（2.36σ）",
       "detected_at": "2026-06-03T18:33:09.515068+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "youtube_total_views",
+      "value": 352376098,
+      "baseline_mean": 345359996.4,
+      "baseline_stddev": 2966424.6,
+      "delta": 7016101,
+      "score": 2.37,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-27T15:24:33.679503+00:00"
     }
   ]
 }

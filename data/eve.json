@@ -3067,6 +3067,47 @@
       "ytm_subscribers": 873000,
       "ytm_monthly_listeners": 10300000,
       "ytm_total_views": 917772060
+    },
+    {
+      "date": "2026-06-27",
+      "monthly_listeners": 3807081,
+      "collected_at": "2026-06-27T15:22:31.896077+00:00",
+      "spotify_followers": 2804217,
+      "youtube_subscribers": 5590000,
+      "youtube_total_views": 3493080470,
+      "youtube_video_count": 210,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 63477
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 48563
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 45489
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 40883
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 38340
+        }
+      ],
+      "lastfm_listeners": 1850047,
+      "lastfm_playcount": 54078048,
+      "ytm_subscribers": 873000,
+      "ytm_monthly_listeners": 10300000,
+      "ytm_total_views": 917772060
     }
   ],
   "annotations": [
@@ -3248,7 +3289,7 @@
       {
         "name": "Angie Martinez",
         "browse_id": "UCUA6tA2G-D-mShZR-I2RAIw",
-        "subscribers": "9.76K"
+        "subscribers": "9.77K"
       },
       {
         "name": "Blackstreet",
@@ -3266,24 +3307,19 @@
         "subscribers": "7.75M"
       },
       {
+        "name": "City High",
+        "browse_id": "UC7e0DPEo68CUI9rm1I0toCQ",
+        "subscribers": "7.13K"
+      },
+      {
         "name": "Christina Milian",
         "browse_id": "UCa8EZx_EuQwQRFep19WJ7vQ",
         "subscribers": "38.2K"
       },
       {
-        "name": "Foxy Brown",
-        "browse_id": "UCvuXZP247gluPFG4dx8_xcg",
-        "subscribers": "1.94M"
-      },
-      {
         "name": "Mase",
         "browse_id": "UC5gdSVYYBOKPgOdVdRG-Vdg",
         "subscribers": "1.91M"
-      },
-      {
-        "name": "J-Kwon",
-        "browse_id": "UC70_SxaiX5enHOHc4ofPGbg",
-        "subscribers": "3.81K"
       },
       {
         "name": "Sisqo",
@@ -3294,6 +3330,11 @@
         "name": "TLC",
         "browse_id": "UCs6cmuHkS7U7Az22s18lQXw",
         "subscribers": "13.2M"
+      },
+      {
+        "name": "Blu Cantrell",
+        "browse_id": "UC3uYzN1-8kVfDtHTkikbDUw",
+        "subscribers": "7.53M"
       }
     ],
     "ytm_top_songs": [
@@ -3749,6 +3790,12 @@
           "views": 134688963,
           "likes": 1316390,
           "comments": 1632
+        },
+        {
+          "date": "2026-06-27",
+          "views": 134774850,
+          "likes": 1317133,
+          "comments": 1632
         }
       ]
     },
@@ -4179,6 +4226,12 @@
           "date": "2026-06-26",
           "views": 15684149,
           "likes": 181750,
+          "comments": 381
+        },
+        {
+          "date": "2026-06-27",
+          "views": 15697050,
+          "likes": 181902,
           "comments": 381
         }
       ]
@@ -4611,6 +4664,12 @@
           "views": 19862899,
           "likes": 210990,
           "comments": 309
+        },
+        {
+          "date": "2026-06-27",
+          "views": 19876170,
+          "likes": 211121,
+          "comments": 309
         }
       ]
     },
@@ -5041,6 +5100,12 @@
           "date": "2026-06-26",
           "views": 11197580,
           "likes": 145741,
+          "comments": 520
+        },
+        {
+          "date": "2026-06-27",
+          "views": 11207798,
+          "likes": 145873,
           "comments": 520
         }
       ]
@@ -5473,6 +5538,12 @@
           "views": 27422873,
           "likes": 217852,
           "comments": 537
+        },
+        {
+          "date": "2026-06-27",
+          "views": 27431053,
+          "likes": 217932,
+          "comments": 537
         }
       ]
     },
@@ -5741,6 +5812,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-26T16:21:44.916194+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "youtube_total_views",
+      "value": 3493080470,
+      "baseline_mean": 3469784004.5,
+      "baseline_stddev": 11516147.1,
+      "delta": 23296465,
+      "score": 2.02,
+      "type": "annotated",
+      "related_annotation": "新曲「あびすいんざわーるど」リリース前日バズ——YouTube総再生数+2,593万（2.51σ）、翌26日もAPIフリーズで同値維持",
+      "detected_at": "2026-06-27T15:22:33.718558+00:00"
     }
   ]
 }

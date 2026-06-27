@@ -3070,6 +3070,47 @@
       "ytm_subscribers": 1760000,
       "ytm_monthly_listeners": 8510000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-27",
+      "monthly_listeners": 2705831,
+      "collected_at": "2026-06-27T15:21:41.798577+00:00",
+      "spotify_followers": 2447787,
+      "youtube_subscribers": 1760000,
+      "youtube_total_views": 1431623967,
+      "youtube_video_count": 201,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 117077
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 94435
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 64350
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 41779
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 30555
+        }
+      ],
+      "lastfm_listeners": 21480,
+      "lastfm_playcount": 3003072,
+      "ytm_subscribers": 1760000,
+      "ytm_monthly_listeners": 8510000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3109,9 +3150,9 @@
         "subscribers": "2.85M"
       },
       {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "2M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "12.9M"
       },
       {
         "name": "aiko",
@@ -3124,19 +3165,14 @@
         "subscribers": "9.02M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "12.9M"
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "2M"
       },
       {
         "name": "OFFICIAL HIGE DANDISM",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
         "subscribers": "73.8M"
-      },
-      {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.1M"
       },
       {
         "name": "Vaundy",
@@ -3147,6 +3183,11 @@
         "name": "Fujii Kaze",
         "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
         "subscribers": "43.6M"
+      },
+      {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10.1M"
       },
       {
         "name": "TOMOO",
@@ -3612,6 +3653,12 @@
           "views": 59604569,
           "likes": 234757,
           "comments": 579
+        },
+        {
+          "date": "2026-06-27",
+          "views": 59644704,
+          "likes": 234932,
+          "comments": 579
         }
       ]
     },
@@ -4049,6 +4096,12 @@
           "views": 4932728,
           "likes": 40420,
           "comments": 0
+        },
+        {
+          "date": "2026-06-27",
+          "views": 4943853,
+          "likes": 40498,
+          "comments": 0
         }
       ]
     },
@@ -4474,6 +4527,12 @@
           "views": 21397674,
           "likes": 100428,
           "comments": 88
+        },
+        {
+          "date": "2026-06-27",
+          "views": 21411311,
+          "likes": 100503,
+          "comments": 88
         }
       ]
     },
@@ -4791,6 +4850,12 @@
           "views": 10208934,
           "likes": 52258,
           "comments": 46
+        },
+        {
+          "date": "2026-06-27",
+          "views": 10219439,
+          "likes": 52330,
+          "comments": 46
         }
       ]
     },
@@ -5035,6 +5100,12 @@
           "date": "2026-06-26",
           "views": 10932105,
           "likes": 48935,
+          "comments": 169
+        },
+        {
+          "date": "2026-06-27",
+          "views": 10939598,
+          "likes": 48976,
           "comments": 169
         }
       ]
@@ -5909,6 +5980,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-26T16:20:53.123139+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "youtube_total_views",
+      "value": 1431623967,
+      "baseline_mean": 1421234523.5,
+      "baseline_stddev": 4730075.7,
+      "delta": 10389443,
+      "score": 2.2,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-27T15:21:43.369838+00:00"
     }
   ]
 }

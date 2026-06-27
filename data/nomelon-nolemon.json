@@ -3197,17 +3197,58 @@
       "ytm_subscribers": 325000,
       "ytm_monthly_listeners": 1500000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-27",
+      "monthly_listeners": 282153,
+      "collected_at": "2026-06-27T15:12:17.868813+00:00",
+      "spotify_followers": 69596,
+      "youtube_subscribers": 325000,
+      "youtube_total_views": 166627686,
+      "youtube_video_count": 108,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 14073
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8585
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6324
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 4735
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4161
+        }
+      ],
+      "lastfm_listeners": 32969,
+      "lastfm_playcount": 893060,
+      "ytm_subscribers": 325000,
+      "ytm_monthly_listeners": 1500000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
     "lastfm_similar_artists": [
       {
-        "name": "MAISONdes",
-        "url": "https://www.last.fm/music/MAISONdes"
-      },
-      {
         "name": "Empty old City",
         "url": "https://www.last.fm/music/Empty+old+City"
+      },
+      {
+        "name": "MAISONdes",
+        "url": "https://www.last.fm/music/MAISONdes"
       },
       {
         "name": "DUSTCELL",
@@ -3241,14 +3282,14 @@
         "subscribers": "5.81M"
       },
       {
-        "name": "Polkadot Stingray",
-        "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
-        "subscribers": "937K"
-      },
-      {
         "name": "Tatsuya Kitani",
         "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
         "subscribers": "19.4M"
+      },
+      {
+        "name": "Polkadot Stingray",
+        "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
+        "subscribers": "937K"
       },
       {
         "name": "suisoh",
@@ -3261,6 +3302,16 @@
         "subscribers": "146K"
       },
       {
+        "name": "DUSTCELL",
+        "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
+        "subscribers": "891K"
+      },
+      {
+        "name": "CLAN QUEEN",
+        "browse_id": "UCuCIY6NNMyjANg60NEgHONg",
+        "subscribers": "326K"
+      },
+      {
         "name": "Aooo",
         "browse_id": "UCbX-GbG3bg17Mdm_RltoWqg",
         "subscribers": "1.74M"
@@ -3269,16 +3320,6 @@
         "name": "Wanuka",
         "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
         "subscribers": "1.06M"
-      },
-      {
-        "name": "KMNZ",
-        "browse_id": "UCEvNH3KHFXfUeZ7uJzLZT_g",
-        "subscribers": "657K"
-      },
-      {
-        "name": "DUSTCELL",
-        "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
-        "subscribers": "891K"
       }
     ],
     "ytm_top_songs": [
@@ -3757,6 +3798,12 @@
           "views": 18364369,
           "likes": 124092,
           "comments": 1058
+        },
+        {
+          "date": "2026-06-27",
+          "views": 18374556,
+          "likes": 124109,
+          "comments": 1058
         }
       ]
     },
@@ -4211,6 +4258,12 @@
           "date": "2026-06-26",
           "views": 5421914,
           "likes": 39988,
+          "comments": 87
+        },
+        {
+          "date": "2026-06-27",
+          "views": 5427551,
+          "likes": 40026,
           "comments": 87
         }
       ]
@@ -4667,6 +4720,12 @@
           "views": 5163119,
           "likes": 35262,
           "comments": 167
+        },
+        {
+          "date": "2026-06-27",
+          "views": 5167697,
+          "likes": 35281,
+          "comments": 167
         }
       ]
     },
@@ -5121,6 +5180,12 @@
           "date": "2026-06-26",
           "views": 2224830,
           "likes": 18707,
+          "comments": 42
+        },
+        {
+          "date": "2026-06-27",
+          "views": 2227400,
+          "likes": 18716,
           "comments": 42
         }
       ]
@@ -5581,6 +5646,12 @@
           "date": "2026-06-26",
           "views": 4310746,
           "likes": 35342,
+          "comments": 316
+        },
+        {
+          "date": "2026-06-27",
+          "views": 4313865,
+          "likes": 35353,
           "comments": 316
         }
       ]
@@ -6083,6 +6154,18 @@
       "type": "annotated",
       "related_annotation": "YouTube Data APIカウンター第4次凍結（164,883,659・6/9〜6/24）解除による蓄積分一括計上アーティファクト（2.58σ）",
       "detected_at": "2026-06-26T16:11:10.503501+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "youtube_total_views",
+      "value": 166627686,
+      "baseline_mean": 164513561.4,
+      "baseline_stddev": 959903.9,
+      "delta": 2114124,
+      "score": 2.2,
+      "type": "annotated",
+      "related_annotation": "YouTube Data APIカウンター第4次凍結（164,883,659・6/9〜6/24）解除による蓄積分一括計上アーティファクト（2.58σ）",
+      "detected_at": "2026-06-27T15:12:19.056672+00:00"
     }
   ]
 }

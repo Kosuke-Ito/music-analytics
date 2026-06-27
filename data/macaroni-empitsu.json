@@ -3082,6 +3082,47 @@
       "ytm_subscribers": 591000,
       "ytm_monthly_listeners": 4480000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-27",
+      "monthly_listeners": 2520206,
+      "collected_at": "2026-06-27T15:23:39.465979+00:00",
+      "spotify_followers": 1987266,
+      "youtube_subscribers": 591000,
+      "youtube_total_views": 496513406,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 134492
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 132482
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 91950
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 52294
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 42569
+        }
+      ],
+      "lastfm_listeners": 7517,
+      "lastfm_playcount": 432265,
+      "ytm_subscribers": 591000,
+      "ytm_monthly_listeners": 4480000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3318,16 +3359,16 @@
         "url": "https://www.last.fm/music/%E3%81%AD%E3%81%90%E3%81%9B%E3%80%82"
       },
       {
+        "name": "Saucy dog",
+        "url": "https://www.last.fm/music/Saucy+dog"
+      },
+      {
         "name": "My Hair is Bad",
         "url": "https://www.last.fm/music/My+Hair+is+Bad"
       },
       {
         "name": "Mrs. GREEN APPLE",
         "url": "https://www.last.fm/music/Mrs.+GREEN+APPLE"
-      },
-      {
-        "name": "SUPER BEAVER",
-        "url": "https://www.last.fm/music/SUPER+BEAVER"
       }
     ],
     "lastfm_tags": [
@@ -3346,6 +3387,11 @@
         "subscribers": "653K"
       },
       {
+        "name": "Tele",
+        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
+        "subscribers": "469K"
+      },
+      {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
         "subscribers": "2.27M"
@@ -3354,11 +3400,6 @@
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
         "subscribers": "12.9M"
-      },
-      {
-        "name": "Tele",
-        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "469K"
       },
       {
         "name": "sumika",
@@ -3376,14 +3417,14 @@
         "subscribers": "6.15M"
       },
       {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "8.06M"
-      },
-      {
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
         "subscribers": "87.5M"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "8.06M"
       }
     ],
     "ytm_top_songs": [
@@ -3844,6 +3885,12 @@
           "views": 12092103,
           "likes": 69244,
           "comments": 143
+        },
+        {
+          "date": "2026-06-27",
+          "views": 12108352,
+          "likes": 69323,
+          "comments": 143
         }
       ]
     },
@@ -4281,6 +4328,12 @@
           "views": 24491880,
           "likes": 88656,
           "comments": 169
+        },
+        {
+          "date": "2026-06-27",
+          "views": 24514804,
+          "likes": 88771,
+          "comments": 169
         }
       ]
     },
@@ -4706,6 +4759,12 @@
           "views": 16720034,
           "likes": 61362,
           "comments": 115
+        },
+        {
+          "date": "2026-06-27",
+          "views": 16737102,
+          "likes": 61456,
+          "comments": 115
         }
       ]
     },
@@ -5053,6 +5112,12 @@
           "views": 44968120,
           "likes": 139122,
           "comments": 237
+        },
+        {
+          "date": "2026-06-27",
+          "views": 44988695,
+          "likes": 139213,
+          "comments": 237
         }
       ]
     },
@@ -5381,6 +5446,12 @@
           "views": 13937818,
           "likes": 80736,
           "comments": 435
+        },
+        {
+          "date": "2026-06-27",
+          "views": 13981367,
+          "likes": 81104,
+          "comments": 438
         }
       ]
     },
@@ -6092,6 +6163,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-26T16:22:57.263035+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "monthly_listeners",
+      "value": 2520206,
+      "baseline_mean": 2446594.3,
+      "baseline_stddev": 18987.9,
+      "delta": 73611,
+      "score": 3.88,
+      "type": "annotated",
+      "related_annotation": "「ワールド イズ ダンシング」OP放映6日前・「終宵」配信7日前の注目高まりでSpotify月間リスナー急増（+5.5万・3.2σ）",
+      "detected_at": "2026-06-27T15:23:41.816566+00:00"
     }
   ]
 }

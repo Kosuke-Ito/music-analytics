@@ -3364,6 +3364,47 @@
       "ytm_subscribers": 12500000,
       "ytm_monthly_listeners": 269000000,
       "ytm_total_views": 9868559555
+    },
+    {
+      "date": "2026-06-27",
+      "monthly_listeners": 10428739,
+      "collected_at": "2026-06-27T15:19:12.040527+00:00",
+      "spotify_followers": 742525,
+      "youtube_subscribers": 12500000,
+      "youtube_total_views": 9871626301,
+      "youtube_video_count": 41,
+      "top_cities": [
+        {
+          "city": "Istanbul",
+          "country": "TR",
+          "listeners": 177418
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 171463
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 168785
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 143435
+        },
+        {
+          "city": "New York City",
+          "country": "US",
+          "listeners": 132627
+        }
+      ],
+      "lastfm_listeners": 513561,
+      "lastfm_playcount": 9337236,
+      "ytm_subscribers": 12500000,
+      "ytm_monthly_listeners": 269000000,
+      "ytm_total_views": 9868559555
     }
   ],
   "annotations": [
@@ -3595,9 +3636,9 @@
         "subscribers": "155M"
       },
       {
-        "name": "¥$",
-        "browse_id": "UCI-4sezWoZmtJXoW7E5k7Zw",
-        "subscribers": "83.7K"
+        "name": "Baby Keem",
+        "browse_id": "UCtWW-fcdt2gOE6mGHf-_dlw",
+        "subscribers": "5.96M"
       },
       {
         "name": "J. Cole",
@@ -3605,14 +3646,19 @@
         "subscribers": "116M"
       },
       {
-        "name": "Baby Keem",
-        "browse_id": "UCtWW-fcdt2gOE6mGHf-_dlw",
-        "subscribers": "5.96M"
+        "name": "¥$",
+        "browse_id": "UCI-4sezWoZmtJXoW7E5k7Zw",
+        "subscribers": "83.7K"
       },
       {
         "name": "Big Sean",
         "browse_id": "UCm3ai8dGs4olHioc_xL3IXA",
         "subscribers": "49.6M"
+      },
+      {
+        "name": "Kendrick Lamar",
+        "browse_id": "UCprAFmT0C6O4X0ToEXpeFTQ",
+        "subscribers": "168M"
       },
       {
         "name": "Jay Rock",
@@ -3628,11 +3674,6 @@
         "name": "Lupe Fiasco",
         "browse_id": "UCe872mgP4deADPnXtkbS-Cg",
         "subscribers": "33.9M"
-      },
-      {
-        "name": "Kendrick Lamar",
-        "browse_id": "UCprAFmT0C6O4X0ToEXpeFTQ",
-        "subscribers": "168M"
       }
     ],
     "ytm_top_songs": [
@@ -4332,6 +4373,12 @@
           "views": 146845937,
           "likes": 1455969,
           "comments": 17113
+        },
+        {
+          "date": "2026-06-27",
+          "views": 146957889,
+          "likes": 1456930,
+          "comments": 17122
         }
       ]
     },
@@ -4787,6 +4834,12 @@
           "views": 72704723,
           "likes": 656911,
           "comments": 3649
+        },
+        {
+          "date": "2026-06-27",
+          "views": 72801669,
+          "likes": 657435,
+          "comments": 3650
         }
       ]
     },
@@ -5236,6 +5289,12 @@
           "views": 199073506,
           "likes": 1508630,
           "comments": 5706
+        },
+        {
+          "date": "2026-06-27",
+          "views": 199190914,
+          "likes": 1509205,
+          "comments": 5712
         }
       ]
     },
@@ -5637,6 +5696,12 @@
           "views": 46048577,
           "likes": 427902,
           "comments": 2383
+        },
+        {
+          "date": "2026-06-27",
+          "views": 46078592,
+          "likes": 428133,
+          "comments": 2382
         }
       ]
     },
@@ -5918,6 +5983,12 @@
           "views": 161748383,
           "likes": 1692896,
           "comments": 44213
+        },
+        {
+          "date": "2026-06-27",
+          "views": 161877314,
+          "likes": 1693667,
+          "comments": 44227
         }
       ]
     },
@@ -6292,6 +6363,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-26T16:18:16.414090+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "monthly_listeners",
+      "value": 10428739,
+      "baseline_mean": 8564454.8,
+      "baseline_stddev": 633409.8,
+      "delta": 1864284,
+      "score": 2.94,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-27T15:19:13.639617+00:00"
     }
   ]
 }

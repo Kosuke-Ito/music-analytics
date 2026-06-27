@@ -3364,6 +3364,47 @@
       "ytm_subscribers": 3520000,
       "ytm_monthly_listeners": 89300000,
       "ytm_total_views": 1238231176
+    },
+    {
+      "date": "2026-06-27",
+      "monthly_listeners": 22980962,
+      "collected_at": "2026-06-27T15:19:29.010241+00:00",
+      "spotify_followers": 10534523,
+      "youtube_subscribers": 3520000,
+      "youtube_total_views": 1304177342,
+      "youtube_video_count": 545,
+      "top_cities": [
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 259009
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 252404
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 234721
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 225021
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 219178
+        }
+      ],
+      "lastfm_listeners": 2439553,
+      "lastfm_playcount": 280309577,
+      "ytm_subscribers": 3520000,
+      "ytm_monthly_listeners": 89300000,
+      "ytm_total_views": 1251003384
     }
   ],
   "annotations": [
@@ -3677,14 +3718,29 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Malcolm Todd",
-        "browse_id": "UCRLE_fwmN2CQw1vuWPwo6eA",
-        "subscribers": "60.3M"
+        "name": "Cody Fry",
+        "browse_id": "UCQK6-xoJjoKcLZPlT2Imo7A",
+        "subscribers": "6.18M"
       },
       {
         "name": "Lizzy McAlpine",
         "browse_id": "UCC1TOSYNYXw1xrwNRxW46dg",
         "subscribers": "7.22M"
+      },
+      {
+        "name": "Malcolm Todd",
+        "browse_id": "UCRLE_fwmN2CQw1vuWPwo6eA",
+        "subscribers": "60.3M"
+      },
+      {
+        "name": "Daniel Caesar",
+        "browse_id": "UCcbtSIy5DlnpVIxW8hIvxBw",
+        "subscribers": "26.5M"
+      },
+      {
+        "name": "Rex Orange County",
+        "browse_id": "UCRI-Ds5eY70A4oeHggAFBbg",
+        "subscribers": "81.2M"
       },
       {
         "name": "Ricky Montgomery",
@@ -3697,19 +3753,9 @@
         "subscribers": "12.2M"
       },
       {
-        "name": "Rex Orange County",
-        "browse_id": "UCRI-Ds5eY70A4oeHggAFBbg",
-        "subscribers": "81.2M"
-      },
-      {
         "name": "The Marías",
         "browse_id": "UCVV5M4OEFsKnB9HBhwOhHbA",
         "subscribers": "55.8M"
-      },
-      {
-        "name": "grentperez",
-        "browse_id": "UC3CyxyxdZLGrcpHUuaZolVw",
-        "subscribers": "831K"
       },
       {
         "name": "Clairo",
@@ -3720,11 +3766,6 @@
         "name": "beabadoobee",
         "browse_id": "UCcGMuu89vageEKV8zUKhwdA",
         "subscribers": "41.1M"
-      },
-      {
-        "name": "Wasia Project",
-        "browse_id": "UCPziehcInXuXsqIsUquQRmA",
-        "subscribers": "341K"
       }
     ],
     "ytm_top_songs": [
@@ -4204,6 +4245,12 @@
           "views": 80680851,
           "likes": 1186208,
           "comments": 8388
+        },
+        {
+          "date": "2026-06-27",
+          "views": 80806432,
+          "likes": 1187548,
+          "comments": 8397
         }
       ]
     },
@@ -4659,6 +4706,12 @@
           "views": 18114790,
           "likes": 267225,
           "comments": 1230
+        },
+        {
+          "date": "2026-06-27",
+          "views": 18176037,
+          "likes": 267935,
+          "comments": 1233
         }
       ]
     },
@@ -5114,6 +5167,12 @@
           "views": 23289787,
           "likes": 261911,
           "comments": 771
+        },
+        {
+          "date": "2026-06-27",
+          "views": 23322930,
+          "likes": 262212,
+          "comments": 772
         }
       ]
     },
@@ -5502,6 +5561,12 @@
           "date": "2026-06-26",
           "views": 47597244,
           "likes": 516120,
+          "comments": 1629
+        },
+        {
+          "date": "2026-06-27",
+          "views": 47643723,
+          "likes": 516526,
           "comments": 1629
         }
       ]
@@ -6034,6 +6099,12 @@
           "views": 4679271,
           "likes": 61546,
           "comments": 1071
+        },
+        {
+          "date": "2026-06-27",
+          "views": 4701809,
+          "likes": 61804,
+          "comments": 1077
         }
       ]
     }
@@ -6302,6 +6373,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-18T17:02:58.158152+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "youtube_total_views",
+      "value": 1304177342,
+      "baseline_mean": 1274737350.9,
+      "baseline_stddev": 13772122.7,
+      "delta": 29439991,
+      "score": 2.14,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-27T15:19:30.053007+00:00"
     }
   ]
 }

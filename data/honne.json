@@ -3191,6 +3191,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 6810000,
       "ytm_total_views": 915854336
+    },
+    {
+      "date": "2026-06-27",
+      "monthly_listeners": 4066037,
+      "collected_at": "2026-06-27T15:19:45.519367+00:00",
+      "spotify_followers": 1663319,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 915904108,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 180967
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 153109
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 137259
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 134314
+        },
+        {
+          "city": "East Jakarta",
+          "country": "ID",
+          "listeners": 95827
+        }
+      ],
+      "lastfm_listeners": 929262,
+      "lastfm_playcount": 23623079,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 6810000,
+      "ytm_total_views": 915854336
     }
   ],
   "annotations": [
@@ -3330,12 +3371,12 @@
   "metadata": {
     "lastfm_similar_artists": [
       {
-        "name": "No Rome",
-        "url": "https://www.last.fm/music/No+Rome"
-      },
-      {
         "name": "Lany",
         "url": "https://www.last.fm/music/Lany"
+      },
+      {
+        "name": "No Rome",
+        "url": "https://www.last.fm/music/No+Rome"
       },
       {
         "name": "Peach Tree Rascals",
@@ -3346,8 +3387,8 @@
         "url": "https://www.last.fm/music/FKJ"
       },
       {
-        "name": "Leisure",
-        "url": "https://www.last.fm/music/Leisure"
+        "name": "Wim",
+        "url": "https://www.last.fm/music/Wim"
       }
     ],
     "lastfm_tags": [
@@ -3384,9 +3425,9 @@
         "subscribers": "33.6K"
       },
       {
-        "name": "Johnny Stimson",
-        "browse_id": "UCNLvis5zsu6lLZLRrE4qJgQ",
-        "subscribers": "1.43M"
+        "name": "Peach Tree Rascals",
+        "browse_id": "UCOGH6iT5yzmuKMy8fD0LW-A",
+        "subscribers": "648K"
       },
       {
         "name": "PREP",
@@ -3394,9 +3435,9 @@
         "subscribers": "1.19M"
       },
       {
-        "name": "Peach Tree Rascals",
-        "browse_id": "UCOGH6iT5yzmuKMy8fD0LW-A",
-        "subscribers": "648K"
+        "name": "Johnny Stimson",
+        "browse_id": "UCNLvis5zsu6lLZLRrE4qJgQ",
+        "subscribers": "1.43M"
       },
       {
         "name": "Mina Okabe",
@@ -3404,9 +3445,9 @@
         "subscribers": "8.46M"
       },
       {
-        "name": "slchld",
-        "browse_id": "UCeH_AbA_uetIVR8Q61TIL8g",
-        "subscribers": "915K"
+        "name": "Colde",
+        "browse_id": "UCDG5Gd2xB3sQwVcciOQlnwg",
+        "subscribers": "4.37M"
       }
     ],
     "ytm_top_songs": [
@@ -3880,6 +3921,12 @@
           "views": 2590582,
           "likes": 16015,
           "comments": 27
+        },
+        {
+          "date": "2026-06-27",
+          "views": 2590885,
+          "likes": 16015,
+          "comments": 27
         }
       ]
     },
@@ -4322,6 +4369,12 @@
           "date": "2026-06-26",
           "views": 1963838,
           "likes": 18887,
+          "comments": 277
+        },
+        {
+          "date": "2026-06-27",
+          "views": 1968324,
+          "likes": 18910,
           "comments": 277
         }
       ]
@@ -4771,6 +4824,12 @@
           "date": "2026-06-26",
           "views": 47512151,
           "likes": 201130,
+          "comments": 116
+        },
+        {
+          "date": "2026-06-27",
+          "views": 47524508,
+          "likes": 201168,
           "comments": 116
         }
       ]
@@ -5555,6 +5614,12 @@
           "views": 14210742,
           "likes": 73342,
           "comments": 38
+        },
+        {
+          "date": "2026-06-27",
+          "views": 14219905,
+          "likes": 73367,
+          "comments": 38
         }
       ]
     },
@@ -5695,6 +5760,12 @@
           "date": "2026-06-26",
           "views": 15655133,
           "likes": 79919,
+          "comments": 63
+        },
+        {
+          "date": "2026-06-27",
+          "views": 15658665,
+          "likes": 79928,
           "comments": 63
         }
       ]
@@ -5892,6 +5963,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-26T16:18:49.351406+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "youtube_total_views",
+      "value": 915904108,
+      "baseline_mean": 907601746.6,
+      "baseline_stddev": 2767453.8,
+      "delta": 8302361,
+      "score": 3.0,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-27T15:19:46.572066+00:00"
     }
   ]
 }

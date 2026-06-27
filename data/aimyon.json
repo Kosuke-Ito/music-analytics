@@ -3076,6 +3076,47 @@
       "ytm_subscribers": 2290000,
       "ytm_monthly_listeners": 7670000,
       "ytm_total_views": 2692122323
+    },
+    {
+      "date": "2026-06-27",
+      "monthly_listeners": 4701966,
+      "collected_at": "2026-06-27T15:21:24.681719+00:00",
+      "spotify_followers": 6315988,
+      "youtube_subscribers": 2290000,
+      "youtube_total_views": 2704863502,
+      "youtube_video_count": 282,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 230804
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 226038
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 154506
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 85638
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 71558
+        }
+      ],
+      "lastfm_listeners": 19939,
+      "lastfm_playcount": 1451791,
+      "ytm_subscribers": 2290000,
+      "ytm_monthly_listeners": 7670000,
+      "ytm_total_views": 2693438832
     }
   ],
   "annotations": [
@@ -3345,19 +3386,14 @@
         "subscribers": "1.99M"
       },
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "8.21M"
-      },
-      {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
         "subscribers": "28.8M"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "9.53M"
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "8.21M"
       },
       {
         "name": "back number",
@@ -3375,9 +3411,14 @@
         "subscribers": "1.57M"
       },
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "73.8M"
+        "name": "Kana Nishino",
+        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
+        "subscribers": "8.11M"
+      },
+      {
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "16.5M"
       },
       {
         "name": "Superfly",
@@ -3385,9 +3426,9 @@
         "subscribers": "5.54M"
       },
       {
-        "name": "Ikimonogakari",
-        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
-        "subscribers": "16.5M"
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "73.8M"
       }
     ],
     "ytm_top_songs": [
@@ -3861,6 +3902,12 @@
           "views": 106723650,
           "likes": 307959,
           "comments": 681
+        },
+        {
+          "date": "2026-06-27",
+          "views": 106767667,
+          "likes": 308111,
+          "comments": 681
         }
       ]
     },
@@ -4309,6 +4356,12 @@
           "date": "2026-06-26",
           "views": 101322417,
           "likes": 345607,
+          "comments": 412
+        },
+        {
+          "date": "2026-06-27",
+          "views": 101370915,
+          "likes": 345820,
           "comments": 412
         }
       ]
@@ -4759,6 +4812,12 @@
           "views": 63059788,
           "likes": 183847,
           "comments": 233
+        },
+        {
+          "date": "2026-06-27",
+          "views": 63084564,
+          "likes": 183934,
+          "comments": 233
         }
       ]
     },
@@ -5207,6 +5266,12 @@
           "date": "2026-06-26",
           "views": 1986876,
           "likes": 6181,
+          "comments": 39
+        },
+        {
+          "date": "2026-06-27",
+          "views": 1987247,
+          "likes": 6183,
           "comments": 39
         }
       ]
@@ -5661,6 +5726,12 @@
           "date": "2026-06-26",
           "views": 36261745,
           "likes": 115463,
+          "comments": 234
+        },
+        {
+          "date": "2026-06-27",
+          "views": 36277009,
+          "likes": 115545,
           "comments": 234
         }
       ]
@@ -6314,6 +6385,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-26T16:20:36.483352+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "youtube_total_views",
+      "value": 2704863502,
+      "baseline_mean": 2691513121.8,
+      "baseline_stddev": 5554006.1,
+      "delta": 13350380,
+      "score": 2.4,
+      "type": "annotated",
+      "related_annotation": "3rdアルバム「おいしいパスタがあると聞いて」アナログ盤発売でYouTube総再生数急増（+1,343万・2.83σ）",
+      "detected_at": "2026-06-27T15:21:26.388466+00:00"
     }
   ]
 }

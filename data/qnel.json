@@ -3205,6 +3205,47 @@
       "ytm_subscribers": 153,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-27",
+      "monthly_listeners": 5231,
+      "collected_at": "2026-06-27T15:16:28.416280+00:00",
+      "spotify_followers": 955,
+      "youtube_subscribers": 368,
+      "youtube_total_views": 67279,
+      "youtube_video_count": 178,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 262
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 149
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 95
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 74
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 63
+        }
+      ],
+      "lastfm_listeners": 764,
+      "lastfm_playcount": 2481,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3369,8 +3410,8 @@
         "url": "https://www.last.fm/music/Geloomy"
       },
       {
-        "name": "マコトコンドウ",
-        "url": "https://www.last.fm/music/%E3%83%9E%E3%82%B3%E3%83%88%E3%82%B3%E3%83%B3%E3%83%89%E3%82%A6"
+        "name": "新東京",
+        "url": "https://www.last.fm/music/%E6%96%B0%E6%9D%B1%E4%BA%AC"
       }
     ],
     "ytm_related_artists": [
@@ -3392,7 +3433,7 @@
       {
         "name": "HATAKE",
         "browse_id": "UCOuWkJ8UjlXKsM0D7Ya5W0Q",
-        "subscribers": "944"
+        "subscribers": "945"
       },
       {
         "name": "OSTRIP",
@@ -3859,6 +3900,12 @@
           "views": 3418,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-06-27",
+          "views": 3420,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -4306,6 +4353,12 @@
         {
           "date": "2026-06-26",
           "views": 5888,
+          "likes": 22,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-27",
+          "views": 5896,
           "likes": 22,
           "comments": 0
         }
@@ -4757,6 +4810,12 @@
           "views": 12367,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-06-27",
+          "views": 12375,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -5206,6 +5265,12 @@
           "views": 32347,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-06-27",
+          "views": 32356,
+          "likes": 153,
+          "comments": 0
         }
       ]
     },
@@ -5647,6 +5712,12 @@
         {
           "date": "2026-06-26",
           "views": 8093,
+          "likes": 60,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-27",
+          "views": 8100,
           "likes": 60,
           "comments": 0
         }
@@ -6221,6 +6292,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-26T16:15:27.474589+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "monthly_listeners",
+      "value": 5231,
+      "baseline_mean": 1326.7,
+      "baseline_stddev": 1509.9,
+      "delta": 3904,
+      "score": 2.59,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-27T15:16:29.637085+00:00"
+    },
+    {
+      "date": "2026-06-27",
+      "metric": "youtube_total_views",
+      "value": 67279,
+      "baseline_mean": 66093.8,
+      "baseline_stddev": 427.0,
+      "delta": 1185,
+      "score": 2.78,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-27T15:16:29.637085+00:00"
     }
   ]
 }
