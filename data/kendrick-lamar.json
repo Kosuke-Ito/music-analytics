@@ -3417,6 +3417,47 @@
       "ytm_subscribers": 20200000,
       "ytm_monthly_listeners": 168000000,
       "ytm_total_views": 12321147825
+    },
+    {
+      "date": "2026-06-28",
+      "monthly_listeners": 69285114,
+      "collected_at": "2026-06-28T15:22:36.433783+00:00",
+      "spotify_followers": 48306782,
+      "youtube_subscribers": 20200000,
+      "youtube_total_views": 12445064981,
+      "youtube_video_count": 40,
+      "top_cities": [
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1036714
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 1008998
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 911147
+        },
+        {
+          "city": "Dallas",
+          "country": "US",
+          "listeners": 778185
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 748413
+        }
+      ],
+      "lastfm_listeners": 5180190,
+      "lastfm_playcount": 1052901312,
+      "ytm_subscribers": 20200000,
+      "ytm_monthly_listeners": 168000000,
+      "ytm_total_views": 12444560713
     }
   ],
   "annotations": [
@@ -3561,12 +3602,12 @@
         "url": "https://www.last.fm/music/Jay+Rock"
       },
       {
-        "name": "JID",
-        "url": "https://www.last.fm/music/JID"
-      },
-      {
         "name": "Tyler, The Creator",
         "url": "https://www.last.fm/music/Tyler,+The+Creator"
+      },
+      {
+        "name": "JID",
+        "url": "https://www.last.fm/music/JID"
       },
       {
         "name": "Kanye West",
@@ -3587,16 +3628,6 @@
         "subscribers": "155M"
       },
       {
-        "name": "Denzel Curry",
-        "browse_id": "UCzN1vzi9iELop5XH53ud6Gw",
-        "subscribers": "5.8M"
-      },
-      {
-        "name": "Kanye West",
-        "browse_id": "UCRY5dYsbIN5TylSbd7gVnZg",
-        "subscribers": "269M"
-      },
-      {
         "name": "J. Cole",
         "browse_id": "UC0ajkOzj8xE3Gs3LHCE243A",
         "subscribers": "116M"
@@ -3612,14 +3643,14 @@
         "subscribers": "49.6M"
       },
       {
+        "name": "Kid Cudi",
+        "browse_id": "UCo2-dPLJcpbZK84FIt0vD-w",
+        "subscribers": "26.4M"
+      },
+      {
         "name": "Jay Rock",
         "browse_id": "UCiKRoVXKO9Fzrjo4eO-XDDQ",
         "subscribers": "2.47M"
-      },
-      {
-        "name": "Lupe Fiasco",
-        "browse_id": "UCe872mgP4deADPnXtkbS-Cg",
-        "subscribers": "33.9M"
       },
       {
         "name": "Isaiah Rashad",
@@ -3627,9 +3658,19 @@
         "subscribers": "1.51M"
       },
       {
-        "name": "Kid Cudi",
-        "browse_id": "UCo2-dPLJcpbZK84FIt0vD-w",
-        "subscribers": "26.4M"
+        "name": "Lupe Fiasco",
+        "browse_id": "UCe872mgP4deADPnXtkbS-Cg",
+        "subscribers": "33.9M"
+      },
+      {
+        "name": "Frank Ocean",
+        "browse_id": "UCETYiBLjt2v-pcKSgf8pe6g",
+        "subscribers": "30M"
+      },
+      {
+        "name": "Tyler, The Creator",
+        "browse_id": "UCo1DYcm1IZ9v3UPkpiAcgtg",
+        "subscribers": "100M"
       }
     ],
     "ytm_top_songs": [
@@ -4115,6 +4156,12 @@
           "views": 104629836,
           "likes": 926742,
           "comments": 2968
+        },
+        {
+          "date": "2026-06-28",
+          "views": 104711628,
+          "likes": 927269,
+          "comments": 2968
         }
       ]
     },
@@ -4576,6 +4623,12 @@
           "views": 403963191,
           "likes": 3921304,
           "comments": 44447
+        },
+        {
+          "date": "2026-06-28",
+          "views": 404191536,
+          "likes": 3922764,
+          "comments": 44464
         }
       ]
     },
@@ -5037,6 +5090,12 @@
           "views": 209128575,
           "likes": 1617633,
           "comments": 5388
+        },
+        {
+          "date": "2026-06-28",
+          "views": 209304907,
+          "likes": 1618405,
+          "comments": 5387
         }
       ]
     },
@@ -5498,6 +5557,12 @@
           "views": 192985863,
           "likes": 1215322,
           "comments": 9835
+        },
+        {
+          "date": "2026-06-28",
+          "views": 193087015,
+          "likes": 1215691,
+          "comments": 9832
         }
       ]
     },
@@ -5959,6 +6024,12 @@
           "views": 334240614,
           "likes": 2389777,
           "comments": 4742
+        },
+        {
+          "date": "2026-06-28",
+          "views": 334394465,
+          "likes": 2390588,
+          "comments": 4742
         }
       ]
     }
@@ -6143,6 +6214,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-07T15:28:50.589375+00:00"
+    },
+    {
+      "date": "2026-06-28",
+      "metric": "youtube_total_views",
+      "value": 12445064981,
+      "baseline_mean": 12309424269.6,
+      "baseline_stddev": 36683449.2,
+      "delta": 135640711,
+      "score": 3.7,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-28T15:22:37.799294+00:00"
     }
   ]
 }

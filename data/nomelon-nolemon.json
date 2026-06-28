@@ -3238,6 +3238,47 @@
       "ytm_subscribers": 325000,
       "ytm_monthly_listeners": 1500000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-28",
+      "monthly_listeners": 282153,
+      "collected_at": "2026-06-28T15:15:48.818233+00:00",
+      "spotify_followers": 69658,
+      "youtube_subscribers": 325000,
+      "youtube_total_views": 166627686,
+      "youtube_video_count": 108,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 14073
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8585
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6324
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 4735
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4161
+        }
+      ],
+      "lastfm_listeners": 32989,
+      "lastfm_playcount": 894123,
+      "ytm_subscribers": 325000,
+      "ytm_monthly_listeners": 1500000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3287,14 +3328,14 @@
         "subscribers": "19.4M"
       },
       {
-        "name": "Polkadot Stingray",
-        "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
-        "subscribers": "937K"
-      },
-      {
         "name": "suisoh",
         "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
         "subscribers": "410K"
+      },
+      {
+        "name": "Polkadot Stingray",
+        "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
+        "subscribers": "937K"
       },
       {
         "name": "Dios",
@@ -3302,14 +3343,9 @@
         "subscribers": "146K"
       },
       {
-        "name": "DUSTCELL",
-        "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
-        "subscribers": "891K"
-      },
-      {
-        "name": "CLAN QUEEN",
-        "browse_id": "UCuCIY6NNMyjANg60NEgHONg",
-        "subscribers": "326K"
+        "name": "Wanuka",
+        "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
+        "subscribers": "1.06M"
       },
       {
         "name": "Aooo",
@@ -3317,9 +3353,14 @@
         "subscribers": "1.74M"
       },
       {
-        "name": "Wanuka",
-        "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
-        "subscribers": "1.06M"
+        "name": "DUSTCELL",
+        "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
+        "subscribers": "891K"
+      },
+      {
+        "name": "kei sugawara",
+        "browse_id": "UCteJs3TEbPFxDObB-4s7Y6w",
+        "subscribers": "247K"
       }
     ],
     "ytm_top_songs": [
@@ -3804,6 +3845,12 @@
           "views": 18374556,
           "likes": 124109,
           "comments": 1058
+        },
+        {
+          "date": "2026-06-28",
+          "views": 18384320,
+          "likes": 124135,
+          "comments": 1059
         }
       ]
     },
@@ -4264,6 +4311,12 @@
           "date": "2026-06-27",
           "views": 5427551,
           "likes": 40026,
+          "comments": 87
+        },
+        {
+          "date": "2026-06-28",
+          "views": 5434110,
+          "likes": 40068,
           "comments": 87
         }
       ]
@@ -4726,6 +4779,12 @@
           "views": 5167697,
           "likes": 35281,
           "comments": 167
+        },
+        {
+          "date": "2026-06-28",
+          "views": 5172429,
+          "likes": 35298,
+          "comments": 167
         }
       ]
     },
@@ -5186,6 +5245,12 @@
           "date": "2026-06-27",
           "views": 2227400,
           "likes": 18716,
+          "comments": 42
+        },
+        {
+          "date": "2026-06-28",
+          "views": 2230249,
+          "likes": 18735,
           "comments": 42
         }
       ]
@@ -5652,6 +5717,12 @@
           "date": "2026-06-27",
           "views": 4313865,
           "likes": 35353,
+          "comments": 316
+        },
+        {
+          "date": "2026-06-28",
+          "views": 4316939,
+          "likes": 35364,
           "comments": 316
         }
       ]
@@ -6166,6 +6237,18 @@
       "type": "annotated",
       "related_annotation": "YouTube Data APIカウンター第4次凍結（164,883,659・6/9〜6/24）解除による蓄積分一括計上アーティファクト（2.58σ）",
       "detected_at": "2026-06-27T15:12:19.056672+00:00"
+    },
+    {
+      "date": "2026-06-28",
+      "metric": "youtube_total_views",
+      "value": 166627686,
+      "baseline_mean": 164658096,
+      "baseline_stddev": 940715.6,
+      "delta": 1969590,
+      "score": 2.09,
+      "type": "annotated",
+      "related_annotation": "YouTube Data APIカウンター第4次凍結（164,883,659・6/9〜6/24）解除による蓄積分一括計上アーティファクト（2.58σ）",
+      "detected_at": "2026-06-28T15:15:50.564555+00:00"
     }
   ]
 }

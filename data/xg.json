@@ -3111,6 +3111,47 @@
       "ytm_subscribers": 4850000,
       "ytm_monthly_listeners": 10000000,
       "ytm_total_views": 1988133975
+    },
+    {
+      "date": "2026-06-28",
+      "monthly_listeners": 5327952,
+      "collected_at": "2026-06-28T15:24:58.045016+00:00",
+      "spotify_followers": 2632519,
+      "youtube_subscribers": 4850000,
+      "youtube_total_views": 2057710043,
+      "youtube_video_count": 853,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 88381
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 81841
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 77989
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 77868
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 70956
+        }
+      ],
+      "lastfm_listeners": 881253,
+      "lastfm_playcount": 69061132,
+      "ytm_subscribers": 4850000,
+      "ytm_monthly_listeners": 10000000,
+      "ytm_total_views": 1992196129
     }
   ],
   "annotations": [
@@ -3314,14 +3355,14 @@
         "subscribers": "1.58K"
       },
       {
-        "name": "GIRLSET",
-        "browse_id": "UCHJn6i4MXz7DwAZp26CAo-w",
-        "subscribers": "6.08M"
-      },
-      {
         "name": "BABYMONSTER",
         "browse_id": "UC47Wz6S14mj_6Jy-T59m6IQ",
         "subscribers": "148M"
+      },
+      {
+        "name": "aespa",
+        "browse_id": "UCEdZAdnnKqbaHOlv8nM6OtA",
+        "subscribers": "90.3M"
       },
       {
         "name": "LE SSERAFIM",
@@ -3329,24 +3370,9 @@
         "subscribers": "168M"
       },
       {
-        "name": "NMIXX",
-        "browse_id": "UC_Cx288SDUD9liYn7CiJLAA",
-        "subscribers": "28.2M"
-      },
-      {
-        "name": "KARLEE GIRL",
-        "browse_id": "UC8UZsrgT9O8KgKzRLH4C-Ww",
-        "subscribers": "3.92M"
-      },
-      {
-        "name": "izna",
-        "browse_id": "UC9Om0aDfMMzXtElCJWF41FQ",
-        "subscribers": "12.9M"
-      },
-      {
-        "name": "Kep1er",
-        "browse_id": "UCAKvDuIX3m1AUdPpDSqV_3w",
-        "subscribers": "4.19M"
+        "name": "GIRLSET",
+        "browse_id": "UCHJn6i4MXz7DwAZp26CAo-w",
+        "subscribers": "6.08M"
       },
       {
         "name": "ILLIT",
@@ -3354,9 +3380,24 @@
         "subscribers": "368M"
       },
       {
-        "name": "aespa",
-        "browse_id": "UCEdZAdnnKqbaHOlv8nM6OtA",
-        "subscribers": "90.3M"
+        "name": "JENNIE",
+        "browse_id": "UCAl7xQ6q0PEgZMQD7zr4AKQ",
+        "subscribers": "257M"
+      },
+      {
+        "name": "MEOVV",
+        "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
+        "subscribers": "37.7M"
+      },
+      {
+        "name": "NMIXX",
+        "browse_id": "UC_Cx288SDUD9liYn7CiJLAA",
+        "subscribers": "28.2M"
+      },
+      {
+        "name": "TWICE",
+        "browse_id": "UCAq0pFGa2w9SjxOq0ZxKVIw",
+        "subscribers": "165M"
       }
     ],
     "ytm_top_songs": [
@@ -3824,6 +3865,12 @@
           "views": 9307104,
           "likes": 101739,
           "comments": 585
+        },
+        {
+          "date": "2026-06-28",
+          "views": 9340199,
+          "likes": 101979,
+          "comments": 585
         }
       ]
     },
@@ -4266,6 +4313,12 @@
           "date": "2026-06-27",
           "views": 45587658,
           "likes": 384086,
+          "comments": 2038
+        },
+        {
+          "date": "2026-06-28",
+          "views": 45612432,
+          "likes": 384263,
           "comments": 2038
         }
       ]
@@ -5014,6 +5067,12 @@
           "views": 17891018,
           "likes": 131700,
           "comments": 1067
+        },
+        {
+          "date": "2026-06-28",
+          "views": 17906740,
+          "likes": 131774,
+          "comments": 1067
         }
       ]
     },
@@ -5331,6 +5390,12 @@
           "views": 40547497,
           "likes": 226474,
           "comments": 231
+        },
+        {
+          "date": "2026-06-28",
+          "views": 40562513,
+          "likes": 226525,
+          "comments": 231
         }
       ]
     },
@@ -5606,6 +5671,12 @@
           "views": 706823,
           "likes": 12105,
           "comments": 61
+        },
+        {
+          "date": "2026-06-28",
+          "views": 713607,
+          "likes": 12198,
+          "comments": 61
         }
       ]
     },
@@ -5832,6 +5903,18 @@
       "type": "annotated",
       "related_annotation": "MUSIC AWARDS JAPAN 2026でBest Global Hit from Japanを「HYPNOTIZE」で受賞",
       "detected_at": "2026-06-16T18:37:16.863517+00:00"
+    },
+    {
+      "date": "2026-06-28",
+      "metric": "youtube_total_views",
+      "value": 2057710043,
+      "baseline_mean": 2040718670.2,
+      "baseline_stddev": 8076385.1,
+      "delta": 16991372,
+      "score": 2.1,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-28T15:25:00.117987+00:00"
     }
   ]
 }

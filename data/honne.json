@@ -3232,6 +3232,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 6810000,
       "ytm_total_views": 915854336
+    },
+    {
+      "date": "2026-06-28",
+      "monthly_listeners": 4066037,
+      "collected_at": "2026-06-28T15:23:47.331046+00:00",
+      "spotify_followers": 1663531,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 915904108,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 180967
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 153109
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 137259
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 134314
+        },
+        {
+          "city": "East Jakarta",
+          "country": "ID",
+          "listeners": 95827
+        }
+      ],
+      "lastfm_listeners": 929443,
+      "lastfm_playcount": 23627533,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 6810000,
+      "ytm_total_views": 915854336
     }
   ],
   "annotations": [
@@ -3425,11 +3466,6 @@
         "subscribers": "33.6K"
       },
       {
-        "name": "Peach Tree Rascals",
-        "browse_id": "UCOGH6iT5yzmuKMy8fD0LW-A",
-        "subscribers": "648K"
-      },
-      {
         "name": "PREP",
         "browse_id": "UCjK5AugBIXhtmFr-s3X9kgA",
         "subscribers": "1.19M"
@@ -3445,9 +3481,14 @@
         "subscribers": "8.46M"
       },
       {
-        "name": "Colde",
-        "browse_id": "UCDG5Gd2xB3sQwVcciOQlnwg",
-        "subscribers": "4.37M"
+        "name": "Jeff Bernat",
+        "browse_id": "UCleL_cOHP8y7UDe9oJb_fVw",
+        "subscribers": "1.03M"
+      },
+      {
+        "name": "slchld",
+        "browse_id": "UCeH_AbA_uetIVR8Q61TIL8g",
+        "subscribers": "915K"
       }
     ],
     "ytm_top_songs": [
@@ -3927,6 +3968,12 @@
           "views": 2590885,
           "likes": 16015,
           "comments": 27
+        },
+        {
+          "date": "2026-06-28",
+          "views": 2591140,
+          "likes": 16015,
+          "comments": 27
         }
       ]
     },
@@ -4375,6 +4422,12 @@
           "date": "2026-06-27",
           "views": 1968324,
           "likes": 18910,
+          "comments": 277
+        },
+        {
+          "date": "2026-06-28",
+          "views": 1972539,
+          "likes": 18932,
           "comments": 277
         }
       ]
@@ -4831,6 +4884,12 @@
           "views": 47524508,
           "likes": 201168,
           "comments": 116
+        },
+        {
+          "date": "2026-06-28",
+          "views": 47536533,
+          "likes": 201196,
+          "comments": 117
         }
       ]
     },
@@ -5620,6 +5679,12 @@
           "views": 14219905,
           "likes": 73367,
           "comments": 38
+        },
+        {
+          "date": "2026-06-28",
+          "views": 14228970,
+          "likes": 73403,
+          "comments": 38
         }
       ]
     },
@@ -5766,6 +5831,12 @@
           "date": "2026-06-27",
           "views": 15658665,
           "likes": 79928,
+          "comments": 63
+        },
+        {
+          "date": "2026-06-28",
+          "views": 15662199,
+          "likes": 79940,
           "comments": 63
         }
       ]
@@ -5975,6 +6046,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-27T15:19:46.572066+00:00"
+    },
+    {
+      "date": "2026-06-28",
+      "metric": "youtube_total_views",
+      "value": 915904108,
+      "baseline_mean": 907909241.5,
+      "baseline_stddev": 3135844.7,
+      "delta": 7994866,
+      "score": 2.55,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-28T15:23:48.654809+00:00"
     }
   ]
 }

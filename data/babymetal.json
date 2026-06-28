@@ -3114,6 +3114,47 @@
       "ytm_subscribers": 3640000,
       "ytm_monthly_listeners": 5320000,
       "ytm_total_views": 1070621042
+    },
+    {
+      "date": "2026-06-28",
+      "monthly_listeners": 3709380,
+      "collected_at": "2026-06-28T15:29:56.335933+00:00",
+      "spotify_followers": 3019967,
+      "youtube_subscribers": 3640000,
+      "youtube_total_views": 1089836105,
+      "youtube_video_count": 352,
+      "top_cities": [
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 65017
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 61863
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 54882
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 52857
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 50691
+        }
+      ],
+      "lastfm_listeners": 987178,
+      "lastfm_playcount": 60053931,
+      "ytm_subscribers": 3640000,
+      "ytm_monthly_listeners": 5320000,
+      "ytm_total_views": 1081033206
     }
   ],
   "annotations": [
@@ -3390,11 +3431,6 @@
         "subscribers": "20.5M"
       },
       {
-        "name": "Poppy",
-        "browse_id": "UCwJcp-qqo0pVvvRwPXIXKyQ",
-        "subscribers": "3.91M"
-      },
-      {
         "name": "the GazettE",
         "browse_id": "UCXitUzRS2J4mznhd6qYLaHw",
         "subscribers": "250K"
@@ -3403,6 +3439,11 @@
         "name": "DragonForce",
         "browse_id": "UCDademfIkaXZGd2Ww-S60Tw",
         "subscribers": "2.91M"
+      },
+      {
+        "name": "Poppy",
+        "browse_id": "UCwJcp-qqo0pVvvRwPXIXKyQ",
+        "subscribers": "3.91M"
       },
       {
         "name": "BAND-MAID",
@@ -3417,7 +3458,7 @@
       {
         "name": "Sakura Gakuin",
         "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
-        "subscribers": "7.69K"
+        "subscribers": "7.7K"
       },
       {
         "name": "LADYBABY",
@@ -3901,6 +3942,12 @@
           "views": 7716118,
           "likes": 87364,
           "comments": 271
+        },
+        {
+          "date": "2026-06-28",
+          "views": 7736426,
+          "likes": 87556,
+          "comments": 271
         }
       ]
     },
@@ -4350,6 +4397,12 @@
           "views": 4872293,
           "likes": 96844,
           "comments": 531
+        },
+        {
+          "date": "2026-06-28",
+          "views": 4885455,
+          "likes": 97087,
+          "comments": 531
         }
       ]
     },
@@ -4798,6 +4851,12 @@
           "date": "2026-06-27",
           "views": 5159986,
           "likes": 72046,
+          "comments": 237
+        },
+        {
+          "date": "2026-06-28",
+          "views": 5170183,
+          "likes": 72132,
           "comments": 237
         }
       ]
@@ -5666,6 +5725,12 @@
           "views": 1580816,
           "likes": 21233,
           "comments": 73
+        },
+        {
+          "date": "2026-06-28",
+          "views": 1585806,
+          "likes": 21297,
+          "comments": 73
         }
       ]
     },
@@ -5761,6 +5826,12 @@
           "date": "2026-06-27",
           "views": 800638,
           "likes": 12226,
+          "comments": 72
+        },
+        {
+          "date": "2026-06-28",
+          "views": 802147,
+          "likes": 12239,
           "comments": 72
         }
       ]
@@ -6138,6 +6209,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-13T15:43:01.171866+00:00"
+    },
+    {
+      "date": "2026-06-28",
+      "metric": "youtube_total_views",
+      "value": 1089836105,
+      "baseline_mean": 1078570258.5,
+      "baseline_stddev": 1432004.2,
+      "delta": 11265846,
+      "score": 7.87,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-28T15:29:58.261372+00:00"
     }
   ]
 }

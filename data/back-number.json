@@ -3114,6 +3114,47 @@
       "ytm_subscribers": 2110000,
       "ytm_monthly_listeners": 12900000,
       "ytm_total_views": 2761754398
+    },
+    {
+      "date": "2026-06-28",
+      "monthly_listeners": 5968435,
+      "collected_at": "2026-06-28T15:24:04.224164+00:00",
+      "spotify_followers": 6689890,
+      "youtube_subscribers": 2120000,
+      "youtube_total_views": 2801282884,
+      "youtube_video_count": 262,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 351459
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 348892
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 234720
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 132579
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 113762
+        }
+      ],
+      "lastfm_listeners": 130194,
+      "lastfm_playcount": 6359343,
+      "ytm_subscribers": 2120000,
+      "ytm_monthly_listeners": 12900000,
+      "ytm_total_views": 2763668718
     }
   ],
   "annotations": [
@@ -3356,9 +3397,9 @@
         "subscribers": "1.53M"
       },
       {
-        "name": "Saucy Dog",
-        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.27M"
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "23.4M"
       },
       {
         "name": "Motohiro Hata",
@@ -3366,24 +3407,9 @@
         "subscribers": "8.21M"
       },
       {
-        "name": "Tani Yuuki",
-        "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
-        "subscribers": "5.78M"
-      },
-      {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "23.4M"
-      },
-      {
         "name": "OFFICIAL HIGE DANDISM",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
         "subscribers": "73.8M"
-      },
-      {
-        "name": "Ikimonogakari",
-        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
-        "subscribers": "16.5M"
       },
       {
         "name": "Ken Hirai",
@@ -3391,9 +3417,24 @@
         "subscribers": "1.57M"
       },
       {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.1M"
+        "name": "Saucy Dog",
+        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
+        "subscribers": "2.27M"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "9.53M"
+      },
+      {
+        "name": "Dish",
+        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
+        "subscribers": "3.27M"
+      },
+      {
+        "name": "Tani Yuuki",
+        "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
+        "subscribers": "5.78M"
       }
     ],
     "ytm_top_songs": [
@@ -3867,6 +3908,12 @@
           "views": 58653893,
           "likes": 195299,
           "comments": 571
+        },
+        {
+          "date": "2026-06-28",
+          "views": 58710025,
+          "likes": 195508,
+          "comments": 571
         }
       ]
     },
@@ -4310,6 +4357,12 @@
           "views": 46930855,
           "likes": 176368,
           "comments": 742
+        },
+        {
+          "date": "2026-06-28",
+          "views": 46987842,
+          "likes": 176543,
+          "comments": 743
         }
       ]
     },
@@ -4753,6 +4806,12 @@
           "views": 63825481,
           "likes": 206584,
           "comments": 595
+        },
+        {
+          "date": "2026-06-28",
+          "views": 63878580,
+          "likes": 206778,
+          "comments": 598
         }
       ]
     },
@@ -5201,6 +5260,12 @@
           "date": "2026-06-27",
           "views": 60988192,
           "likes": 207018,
+          "comments": 615
+        },
+        {
+          "date": "2026-06-28",
+          "views": 61044341,
+          "likes": 207244,
           "comments": 615
         }
       ]
@@ -5651,6 +5716,12 @@
           "views": 22861519,
           "likes": 97553,
           "comments": 491
+        },
+        {
+          "date": "2026-06-28",
+          "views": 22901226,
+          "likes": 97707,
+          "comments": 491
         }
       ]
     },
@@ -5984,6 +6055,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-27T15:20:03.581792+00:00"
+    },
+    {
+      "date": "2026-06-28",
+      "metric": "youtube_total_views",
+      "value": 2801282884,
+      "baseline_mean": 2762300997.3,
+      "baseline_stddev": 19436686.5,
+      "delta": 38981886,
+      "score": 2.01,
+      "type": "annotated",
+      "related_annotation": "「Grateful Yesterdays Tour 2026」追加公演（熊本・えがお健康スタジアム）でYouTube総再生数が上昇（+3,920万・2.08σ）",
+      "detected_at": "2026-06-28T15:24:05.882085+00:00"
     }
   ]
 }

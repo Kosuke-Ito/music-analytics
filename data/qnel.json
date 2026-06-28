@@ -3246,6 +3246,47 @@
       "ytm_subscribers": 153,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-28",
+      "monthly_listeners": 5231,
+      "collected_at": "2026-06-28T15:20:14.556986+00:00",
+      "spotify_followers": 953,
+      "youtube_subscribers": 368,
+      "youtube_total_views": 67601,
+      "youtube_video_count": 178,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 262
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 149
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 95
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 74
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 63
+        }
+      ],
+      "lastfm_listeners": 764,
+      "lastfm_playcount": 2484,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3433,7 +3474,7 @@
       {
         "name": "HATAKE",
         "browse_id": "UCOuWkJ8UjlXKsM0D7Ya5W0Q",
-        "subscribers": "945"
+        "subscribers": "946"
       },
       {
         "name": "OSTRIP",
@@ -3443,7 +3484,7 @@
       {
         "name": "Offo tokyo",
         "browse_id": "UCFUndaCSveHB7RS3ULvATfw",
-        "subscribers": "13.5K"
+        "subscribers": "13.6K"
       },
       {
         "name": "Souvenir",
@@ -3906,6 +3947,12 @@
           "views": 3420,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-06-28",
+          "views": 3421,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -4359,6 +4406,12 @@
         {
           "date": "2026-06-27",
           "views": 5896,
+          "likes": 22,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-28",
+          "views": 5907,
           "likes": 22,
           "comments": 0
         }
@@ -4816,6 +4869,12 @@
           "views": 12375,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-06-28",
+          "views": 12388,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -5271,6 +5330,12 @@
           "views": 32356,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-06-28",
+          "views": 32357,
+          "likes": 153,
+          "comments": 0
         }
       ]
     },
@@ -5718,6 +5783,12 @@
         {
           "date": "2026-06-27",
           "views": 8100,
+          "likes": 60,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-28",
+          "views": 8102,
           "likes": 60,
           "comments": 0
         }
@@ -6316,6 +6387,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-27T15:16:29.637085+00:00"
+    },
+    {
+      "date": "2026-06-28",
+      "metric": "monthly_listeners",
+      "value": 5231,
+      "baseline_mean": 1485.3,
+      "baseline_stddev": 1654.9,
+      "delta": 3745,
+      "score": 2.26,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-28T15:20:18.918250+00:00"
+    },
+    {
+      "date": "2026-06-28",
+      "metric": "youtube_total_views",
+      "value": 67601,
+      "baseline_mean": 66145.5,
+      "baseline_stddev": 471.2,
+      "delta": 1455,
+      "score": 3.09,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-28T15:20:18.918250+00:00"
     }
   ]
 }

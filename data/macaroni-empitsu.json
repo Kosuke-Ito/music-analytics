@@ -3123,6 +3123,47 @@
       "ytm_subscribers": 591000,
       "ytm_monthly_listeners": 4480000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-28",
+      "monthly_listeners": 2520206,
+      "collected_at": "2026-06-28T15:27:53.655454+00:00",
+      "spotify_followers": 1989025,
+      "youtube_subscribers": 592000,
+      "youtube_total_views": 496513406,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 134492
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 132482
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 91950
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 52294
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 42569
+        }
+      ],
+      "lastfm_listeners": 7526,
+      "lastfm_playcount": 433333,
+      "ytm_subscribers": 592000,
+      "ytm_monthly_listeners": 4480000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3387,14 +3428,14 @@
         "subscribers": "653K"
       },
       {
-        "name": "Tele",
-        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "469K"
-      },
-      {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
         "subscribers": "2.27M"
+      },
+      {
+        "name": "Tele",
+        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
+        "subscribers": "469K"
       },
       {
         "name": "back number",
@@ -3412,6 +3453,11 @@
         "subscribers": "5.44M"
       },
       {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "8.06M"
+      },
+      {
         "name": "Hump Back",
         "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
         "subscribers": "6.15M"
@@ -3420,11 +3466,6 @@
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
         "subscribers": "87.5M"
-      },
-      {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "8.06M"
       }
     ],
     "ytm_top_songs": [
@@ -3891,6 +3932,12 @@
           "views": 12108352,
           "likes": 69323,
           "comments": 143
+        },
+        {
+          "date": "2026-06-28",
+          "views": 12126418,
+          "likes": 69434,
+          "comments": 143
         }
       ]
     },
@@ -4334,6 +4381,12 @@
           "views": 24514804,
           "likes": 88771,
           "comments": 169
+        },
+        {
+          "date": "2026-06-28",
+          "views": 24538984,
+          "likes": 88908,
+          "comments": 169
         }
       ]
     },
@@ -4765,6 +4818,12 @@
           "views": 16737102,
           "likes": 61456,
           "comments": 115
+        },
+        {
+          "date": "2026-06-28",
+          "views": 16755478,
+          "likes": 61546,
+          "comments": 115
         }
       ]
     },
@@ -5118,6 +5177,12 @@
           "views": 44988695,
           "likes": 139213,
           "comments": 237
+        },
+        {
+          "date": "2026-06-28",
+          "views": 45009517,
+          "likes": 139286,
+          "comments": 237
         }
       ]
     },
@@ -5452,6 +5517,12 @@
           "views": 13981367,
           "likes": 81104,
           "comments": 438
+        },
+        {
+          "date": "2026-06-28",
+          "views": 14030876,
+          "likes": 81478,
+          "comments": 442
         }
       ]
     },
@@ -6175,6 +6246,18 @@
       "type": "annotated",
       "related_annotation": "「ワールド イズ ダンシング」OP放映6日前・「終宵」配信7日前の注目高まりでSpotify月間リスナー急増（+5.5万・3.2σ）",
       "detected_at": "2026-06-27T15:23:41.816566+00:00"
+    },
+    {
+      "date": "2026-06-28",
+      "metric": "monthly_listeners",
+      "value": 2520206,
+      "baseline_mean": 2447998.3,
+      "baseline_stddev": 22497.5,
+      "delta": 72207,
+      "score": 3.21,
+      "type": "annotated",
+      "related_annotation": "「ワールド イズ ダンシング」OP放映6日前・「終宵」配信7日前の注目高まりでSpotify月間リスナー急増（+5.5万・3.2σ）",
+      "detected_at": "2026-06-28T15:27:55.372436+00:00"
     }
   ]
 }
