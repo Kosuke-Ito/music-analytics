@@ -3467,6 +3467,47 @@
       "ytm_subscribers": 18800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 740381
+    },
+    {
+      "date": "2026-06-29",
+      "monthly_listeners": 62489,
+      "collected_at": "2026-06-29T16:56:55.030485+00:00",
+      "spotify_followers": 19868,
+      "youtube_subscribers": 18800,
+      "youtube_total_views": 794274,
+      "youtube_video_count": 32,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3296
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1506
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 960
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 830
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 740
+        }
+      ],
+      "lastfm_listeners": 8447,
+      "lastfm_playcount": 50229,
+      "ytm_subscribers": 18800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 749222
     }
   ],
   "annotations": [
@@ -4050,6 +4091,18 @@
       "type": "annotated",
       "related_annotation": "「クロエマ」主題歌「sign」（6/10リリース）の継続効果——Spotify月間リスナー増加（2.23σ）",
       "detected_at": "2026-06-23T16:29:00.785219+00:00"
+    },
+    {
+      "date": "2026-06-29",
+      "metric": "youtube_total_views",
+      "value": 794274,
+      "baseline_mean": 763874.5,
+      "baseline_stddev": 14922.2,
+      "delta": 30399,
+      "score": 2.04,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-29T16:56:56.240021+00:00"
     }
   ],
   "song_performance": {
@@ -4509,6 +4562,12 @@
         {
           "date": "2026-06-28",
           "views": 3611,
+          "likes": 77,
+          "comments": 1
+        },
+        {
+          "date": "2026-06-29",
+          "views": 3650,
           "likes": 77,
           "comments": 1
         }
@@ -4972,6 +5031,12 @@
           "views": 7177,
           "likes": 181,
           "comments": 6
+        },
+        {
+          "date": "2026-06-29",
+          "views": 7198,
+          "likes": 181,
+          "comments": 6
         }
       ]
     },
@@ -5433,6 +5498,12 @@
           "views": 22058,
           "likes": 199,
           "comments": 2
+        },
+        {
+          "date": "2026-06-29",
+          "views": 22083,
+          "likes": 199,
+          "comments": 2
         }
       ]
     },
@@ -5892,6 +5963,12 @@
         {
           "date": "2026-06-28",
           "views": 13106,
+          "likes": 204,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-29",
+          "views": 13121,
           "likes": 204,
           "comments": 0
         }
@@ -6364,6 +6441,12 @@
           "date": "2026-06-28",
           "views": 4233,
           "likes": 96,
+          "comments": 2
+        },
+        {
+          "date": "2026-06-29",
+          "views": 4432,
+          "likes": 99,
           "comments": 2
         }
       ]

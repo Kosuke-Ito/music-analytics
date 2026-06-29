@@ -3273,6 +3273,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 6810000,
       "ytm_total_views": 915854336
+    },
+    {
+      "date": "2026-06-29",
+      "monthly_listeners": 4034370,
+      "collected_at": "2026-06-29T17:00:29.350876+00:00",
+      "spotify_followers": 1663745,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 915904108,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 179172
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 151306
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 135888
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 133710
+        },
+        {
+          "city": "East Jakarta",
+          "country": "ID",
+          "listeners": 96494
+        }
+      ],
+      "lastfm_listeners": 929836,
+      "lastfm_playcount": 23633253,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 6810000,
+      "ytm_total_views": 915854336
     }
   ],
   "annotations": [
@@ -3446,11 +3487,6 @@
         "subscribers": "251K"
       },
       {
-        "name": "Jesse Barrera",
-        "browse_id": "UCIdvXeEwoWA2LUc_-_nK2Mg",
-        "subscribers": "1.17M"
-      },
-      {
         "name": "Ruel",
         "browse_id": "UCo5Hx6tOkjyWHmJDucjtB0A",
         "subscribers": "1.57M"
@@ -3461,14 +3497,9 @@
         "subscribers": "3.39M"
       },
       {
-        "name": "88rising",
-        "browse_id": "UCeMMeHKzG19IxAaRbfO4tyA",
-        "subscribers": "33.6K"
-      },
-      {
-        "name": "PREP",
-        "browse_id": "UCjK5AugBIXhtmFr-s3X9kgA",
-        "subscribers": "1.19M"
+        "name": "Jesse Barrera",
+        "browse_id": "UCIdvXeEwoWA2LUc_-_nK2Mg",
+        "subscribers": "1.17M"
       },
       {
         "name": "Johnny Stimson",
@@ -3476,19 +3507,29 @@
         "subscribers": "1.43M"
       },
       {
+        "name": "88rising",
+        "browse_id": "UCeMMeHKzG19IxAaRbfO4tyA",
+        "subscribers": "33.6K"
+      },
+      {
         "name": "Mina Okabe",
         "browse_id": "UCdwuOm1Z7_1UyhMsTjgmxeg",
         "subscribers": "8.46M"
       },
       {
-        "name": "Jeff Bernat",
-        "browse_id": "UCleL_cOHP8y7UDe9oJb_fVw",
-        "subscribers": "1.03M"
+        "name": "Bruno Major",
+        "browse_id": "UCG6TVq74z0InWhOJVtIQZKQ",
+        "subscribers": "2.98M"
       },
       {
-        "name": "slchld",
-        "browse_id": "UCeH_AbA_uetIVR8Q61TIL8g",
-        "subscribers": "915K"
+        "name": "Colde",
+        "browse_id": "UCDG5Gd2xB3sQwVcciOQlnwg",
+        "subscribers": "4.37M"
+      },
+      {
+        "name": "Peach Tree Rascals",
+        "browse_id": "UCOGH6iT5yzmuKMy8fD0LW-A",
+        "subscribers": "648K"
       }
     ],
     "ytm_top_songs": [
@@ -3974,6 +4015,12 @@
           "views": 2591140,
           "likes": 16015,
           "comments": 27
+        },
+        {
+          "date": "2026-06-29",
+          "views": 2591381,
+          "likes": 16017,
+          "comments": 27
         }
       ]
     },
@@ -4428,6 +4475,12 @@
           "date": "2026-06-28",
           "views": 1972539,
           "likes": 18932,
+          "comments": 277
+        },
+        {
+          "date": "2026-06-29",
+          "views": 1978012,
+          "likes": 18965,
           "comments": 277
         }
       ]
@@ -4890,6 +4943,12 @@
           "views": 47536533,
           "likes": 201196,
           "comments": 117
+        },
+        {
+          "date": "2026-06-29",
+          "views": 47549854,
+          "likes": 201212,
+          "comments": 118
         }
       ]
     },
@@ -5685,6 +5744,12 @@
           "views": 14228970,
           "likes": 73403,
           "comments": 38
+        },
+        {
+          "date": "2026-06-29",
+          "views": 14238739,
+          "likes": 73427,
+          "comments": 38
         }
       ]
     },
@@ -5837,6 +5902,12 @@
           "date": "2026-06-28",
           "views": 15662199,
           "likes": 79940,
+          "comments": 63
+        },
+        {
+          "date": "2026-06-29",
+          "views": 15666053,
+          "likes": 79952,
           "comments": 63
         }
       ]
@@ -6058,6 +6129,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-28T15:23:48.654809+00:00"
+    },
+    {
+      "date": "2026-06-29",
+      "metric": "youtube_total_views",
+      "value": 915904108,
+      "baseline_mean": 908216736.3,
+      "baseline_stddev": 3437897.1,
+      "delta": 7687371,
+      "score": 2.24,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-29T17:00:30.420964+00:00"
     }
   ]
 }

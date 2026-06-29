@@ -3287,6 +3287,47 @@
       "ytm_subscribers": 153,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-29",
+      "monthly_listeners": 5364,
+      "collected_at": "2026-06-29T16:57:11.243811+00:00",
+      "spotify_followers": 953,
+      "youtube_subscribers": 368,
+      "youtube_total_views": 67613,
+      "youtube_video_count": 178,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 265
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 153
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 100
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 74
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 65
+        }
+      ],
+      "lastfm_listeners": 764,
+      "lastfm_playcount": 2484,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3474,7 +3515,7 @@
       {
         "name": "HATAKE",
         "browse_id": "UCOuWkJ8UjlXKsM0D7Ya5W0Q",
-        "subscribers": "946"
+        "subscribers": "945"
       },
       {
         "name": "OSTRIP",
@@ -3953,6 +3994,12 @@
           "views": 3421,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-06-29",
+          "views": 3427,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -4414,6 +4461,12 @@
           "views": 5907,
           "likes": 22,
           "comments": 0
+        },
+        {
+          "date": "2026-06-29",
+          "views": 5916,
+          "likes": 23,
+          "comments": 0
         }
       ]
     },
@@ -4873,6 +4926,12 @@
         {
           "date": "2026-06-28",
           "views": 12388,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-29",
+          "views": 12394,
           "likes": 76,
           "comments": 0
         }
@@ -5336,6 +5395,12 @@
           "views": 32357,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-06-29",
+          "views": 32363,
+          "likes": 153,
+          "comments": 0
         }
       ]
     },
@@ -5789,6 +5854,12 @@
         {
           "date": "2026-06-28",
           "views": 8102,
+          "likes": 60,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-29",
+          "views": 8107,
           "likes": 60,
           "comments": 0
         }
@@ -6411,6 +6482,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-28T15:20:18.918250+00:00"
+    },
+    {
+      "date": "2026-06-29",
+      "metric": "monthly_listeners",
+      "value": 5364,
+      "baseline_mean": 1643.8,
+      "baseline_stddev": 1774.0,
+      "delta": 3720,
+      "score": 2.1,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-29T16:57:12.686624+00:00"
+    },
+    {
+      "date": "2026-06-29",
+      "metric": "youtube_total_views",
+      "value": 67613,
+      "baseline_mean": 66207.5,
+      "baseline_stddev": 532.3,
+      "delta": 1405,
+      "score": 2.64,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-29T16:57:12.686624+00:00"
     }
   ]
 }

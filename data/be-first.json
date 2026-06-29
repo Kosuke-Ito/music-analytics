@@ -3155,6 +3155,47 @@
       "ytm_subscribers": 1240000,
       "ytm_monthly_listeners": 4630000,
       "ytm_total_views": 1499288991
+    },
+    {
+      "date": "2026-06-29",
+      "monthly_listeners": 2066938,
+      "collected_at": "2026-06-29T17:07:16.685851+00:00",
+      "spotify_followers": 631164,
+      "youtube_subscribers": 1240000,
+      "youtube_total_views": 1598081353,
+      "youtube_video_count": 490,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 88608
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 87618
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65072
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 33354
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 30564
+        }
+      ],
+      "lastfm_listeners": 73972,
+      "lastfm_playcount": 1392246,
+      "ytm_subscribers": 1240000,
+      "ytm_monthly_listeners": 4630000,
+      "ytm_total_views": 1502439708
     }
   ],
   "metadata": {
@@ -3189,14 +3230,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "INI",
-        "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
-        "subscribers": "5.9M"
-      },
-      {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
         "subscribers": "1.41M"
+      },
+      {
+        "name": "INI",
+        "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
+        "subscribers": "5.9M"
       },
       {
         "name": "King & Prince",
@@ -3204,9 +3245,9 @@
         "subscribers": "5.17M"
       },
       {
-        "name": "NiziU",
-        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "5.05M"
+        "name": "SKY-HI",
+        "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
+        "subscribers": "1.18M"
       },
       {
         "name": "Nissy",
@@ -3214,9 +3255,9 @@
         "subscribers": "2.59M"
       },
       {
-        "name": "SKY-HI",
-        "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "1.18M"
+        "name": "NiziU",
+        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
+        "subscribers": "5.05M"
       },
       {
         "name": "Number_i",
@@ -3933,6 +3974,12 @@
           "views": 2379350,
           "likes": 18169,
           "comments": 762
+        },
+        {
+          "date": "2026-06-29",
+          "views": 2388502,
+          "likes": 18188,
+          "comments": 763
         }
       ]
     },
@@ -4388,6 +4435,12 @@
           "views": 19048336,
           "likes": 90708,
           "comments": 2038
+        },
+        {
+          "date": "2026-06-29",
+          "views": 19073083,
+          "likes": 90761,
+          "comments": 2040
         }
       ]
     },
@@ -4837,6 +4890,12 @@
           "views": 3113318,
           "likes": 21217,
           "comments": 632
+        },
+        {
+          "date": "2026-06-29",
+          "views": 3118611,
+          "likes": 21232,
+          "comments": 632
         }
       ]
     },
@@ -5111,6 +5170,12 @@
           "date": "2026-06-28",
           "views": 2836019,
           "likes": 21049,
+          "comments": 535
+        },
+        {
+          "date": "2026-06-29",
+          "views": 2840720,
+          "likes": 21058,
           "comments": 535
         }
       ]
@@ -5601,6 +5666,12 @@
           "views": 1405004,
           "likes": 25021,
           "comments": 1390
+        },
+        {
+          "date": "2026-06-29",
+          "views": 1412191,
+          "likes": 25048,
+          "comments": 1390
         }
       ]
     },
@@ -6031,6 +6102,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-25T16:34:19.779528+00:00"
+    },
+    {
+      "date": "2026-06-29",
+      "metric": "youtube_total_views",
+      "value": 1598081353,
+      "baseline_mean": 1576136367,
+      "baseline_stddev": 10428514.7,
+      "delta": 21944986,
+      "score": 2.1,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-29T17:07:18.148971+00:00"
     }
   ]
 }

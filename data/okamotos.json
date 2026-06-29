@@ -3273,6 +3273,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 199000,
       "ytm_total_views": 43469757
+    },
+    {
+      "date": "2026-06-29",
+      "monthly_listeners": 230413,
+      "collected_at": "2026-06-29T16:50:20.128909+00:00",
+      "spotify_followers": 141813,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 43815419,
+      "youtube_video_count": 257,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 9089
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6626
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4202
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2785
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1881
+        }
+      ],
+      "lastfm_listeners": 70417,
+      "lastfm_playcount": 1185401,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 199000,
+      "ytm_total_views": 43565702
     }
   ],
   "metadata": {
@@ -3339,19 +3380,9 @@
         "subscribers": "5.12M"
       },
       {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "1.32M"
-      },
-      {
         "name": "Fujifabric",
         "browse_id": "UCFRvee2fH0Fo6WRKGZuk7SQ",
         "subscribers": "1.03M"
-      },
-      {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "45.9M"
       },
       {
         "name": "Suchmos",
@@ -3359,19 +3390,29 @@
         "subscribers": "1.45M"
       },
       {
-        "name": "NICO Touches the Walls",
-        "browse_id": "UC3CPAQtD8tBisxailRRAg-w",
-        "subscribers": "1.99M"
+        "name": "Queen Bee",
+        "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
+        "subscribers": "3.86M"
       },
       {
-        "name": "Wasureranneyo",
-        "browse_id": "UCv3Y-_JVxHwYjnMoqGPMuyw",
-        "subscribers": "970K"
+        "name": "PEOPLE 1",
+        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
+        "subscribers": "1.32M"
       },
       {
-        "name": "Tempalay",
-        "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
-        "subscribers": "98.2K"
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "45.9M"
+      },
+      {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "3.23M"
+      },
+      {
+        "name": "[Alexandros]",
+        "browse_id": "UCbzcUjXa4yX3k5CD8bioDmg",
+        "subscribers": "9.9M"
       },
       {
         "name": "MHRJ",
@@ -3901,6 +3942,12 @@
           "views": 13562,
           "likes": 189,
           "comments": 3
+        },
+        {
+          "date": "2026-06-29",
+          "views": 13616,
+          "likes": 189,
+          "comments": 3
         }
       ]
     },
@@ -4367,6 +4414,12 @@
           "date": "2026-06-28",
           "views": 905643,
           "likes": 11486,
+          "comments": 31
+        },
+        {
+          "date": "2026-06-29",
+          "views": 906290,
+          "likes": 11497,
           "comments": 31
         }
       ]
@@ -5260,6 +5313,12 @@
           "views": 225467,
           "likes": 1676,
           "comments": 7
+        },
+        {
+          "date": "2026-06-29",
+          "views": 225713,
+          "likes": 1678,
+          "comments": 7
         }
       ]
     },
@@ -5655,6 +5714,12 @@
           "views": 409800,
           "likes": 6067,
           "comments": 21
+        },
+        {
+          "date": "2026-06-29",
+          "views": 410044,
+          "likes": 6067,
+          "comments": 21
         }
       ]
     },
@@ -5778,6 +5843,12 @@
           "date": "2026-06-28",
           "views": 3682,
           "likes": 62,
+          "comments": 2
+        },
+        {
+          "date": "2026-06-29",
+          "views": 3920,
+          "likes": 64,
           "comments": 2
         }
       ]
@@ -6033,6 +6104,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-12T16:39:50.830886+00:00"
+    },
+    {
+      "date": "2026-06-29",
+      "metric": "youtube_total_views",
+      "value": 43815419,
+      "baseline_mean": 43547280.1,
+      "baseline_stddev": 132202.5,
+      "delta": 268138,
+      "score": 2.03,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-29T16:50:21.555151+00:00"
     }
   ]
 }

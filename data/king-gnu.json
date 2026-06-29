@@ -3458,6 +3458,47 @@
       "ytm_subscribers": 2970000,
       "ytm_monthly_listeners": 45200000,
       "ytm_total_views": 2867345756
+    },
+    {
+      "date": "2026-06-29",
+      "monthly_listeners": 6639369,
+      "collected_at": "2026-06-29T16:48:58.452982+00:00",
+      "spotify_followers": 4507769,
+      "youtube_subscribers": 2970000,
+      "youtube_total_views": 2894151932,
+      "youtube_video_count": 142,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 196318
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 155621
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 111412
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 83216
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 66389
+        }
+      ],
+      "lastfm_listeners": 562751,
+      "lastfm_playcount": 21123462,
+      "ytm_subscribers": 2970000,
+      "ytm_monthly_listeners": 45200000,
+      "ytm_total_views": 2867345756
     }
   ],
   "annotations": [
@@ -3756,9 +3797,9 @@
         "subscribers": "15.2M"
       },
       {
-        "name": "Eve",
-        "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
-        "subscribers": "17.8M"
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "2M"
       },
       {
         "name": "Vaundy",
@@ -3771,24 +3812,24 @@
         "subscribers": "43.6M"
       },
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "73.8M"
-      },
-      {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "2M"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.58M"
+        "name": "Eve",
+        "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
+        "subscribers": "17.8M"
       },
       {
         "name": "Yorushika",
         "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
         "subscribers": "15.7M"
+      },
+      {
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "19.4M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.58M"
       }
     ],
     "ytm_top_songs": [
@@ -4280,6 +4321,12 @@
           "views": 38233106,
           "likes": 306815,
           "comments": 5869
+        },
+        {
+          "date": "2026-06-29",
+          "views": 38418184,
+          "likes": 307770,
+          "comments": 5881
         }
       ]
     },
@@ -4747,6 +4794,12 @@
           "views": 49881998,
           "likes": 347565,
           "comments": 1833
+        },
+        {
+          "date": "2026-06-29",
+          "views": 49931275,
+          "likes": 347820,
+          "comments": 1834
         }
       ]
     },
@@ -5214,6 +5267,12 @@
           "views": 17060062,
           "likes": 63982,
           "comments": 157
+        },
+        {
+          "date": "2026-06-29",
+          "views": 17081448,
+          "likes": 64027,
+          "comments": 158
         }
       ]
     },
@@ -5680,6 +5739,12 @@
           "date": "2026-06-28",
           "views": 24570826,
           "likes": 104152,
+          "comments": 270
+        },
+        {
+          "date": "2026-06-29",
+          "views": 24595407,
+          "likes": 104216,
           "comments": 270
         }
       ]
@@ -6148,6 +6213,12 @@
           "views": 5727273,
           "likes": 33641,
           "comments": 300
+        },
+        {
+          "date": "2026-06-29",
+          "views": 5738479,
+          "likes": 33676,
+          "comments": 300
         }
       ]
     }
@@ -6248,6 +6319,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-28T15:11:37.480650+00:00"
+    },
+    {
+      "date": "2026-06-29",
+      "metric": "youtube_total_views",
+      "value": 2894151932,
+      "baseline_mean": 2868446022.4,
+      "baseline_stddev": 12065331.3,
+      "delta": 25705909,
+      "score": 2.13,
+      "type": "annotated",
+      "related_annotation": "CEN+RAL Tour 2026 閉幕（6/21）後の余波でYouTube総再生数が上昇（2.3σ）",
+      "detected_at": "2026-06-29T16:48:59.746047+00:00"
     }
   ]
 }

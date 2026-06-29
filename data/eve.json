@@ -3149,6 +3149,47 @@
       "ytm_subscribers": 873000,
       "ytm_monthly_listeners": 10300000,
       "ytm_total_views": 917772060
+    },
+    {
+      "date": "2026-06-29",
+      "monthly_listeners": 3793787,
+      "collected_at": "2026-06-29T17:03:19.264655+00:00",
+      "spotify_followers": 2805816,
+      "youtube_subscribers": 5590000,
+      "youtube_total_views": 3498005548,
+      "youtube_video_count": 211,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 63465
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 48432
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 44999
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 40535
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 38263
+        }
+      ],
+      "lastfm_listeners": 1851627,
+      "lastfm_playcount": 54136417,
+      "ytm_subscribers": 873000,
+      "ytm_monthly_listeners": 10300000,
+      "ytm_total_views": 917772060
     }
   ],
   "annotations": [
@@ -3338,9 +3379,9 @@
         "subscribers": "5.3M"
       },
       {
-        "name": "TLC",
-        "browse_id": "UCs6cmuHkS7U7Az22s18lQXw",
-        "subscribers": "13.2M"
+        "name": "Aaliyah",
+        "browse_id": "UC5tUz7LmavHn9NOM4Nn3wxQ",
+        "subscribers": "7.75M"
       },
       {
         "name": "Montell Jordan",
@@ -3348,14 +3389,14 @@
         "subscribers": "5.57M"
       },
       {
-        "name": "Aaliyah",
-        "browse_id": "UC5tUz7LmavHn9NOM4Nn3wxQ",
-        "subscribers": "7.75M"
+        "name": "Mase",
+        "browse_id": "UC5gdSVYYBOKPgOdVdRG-Vdg",
+        "subscribers": "1.91M"
       },
       {
-        "name": "Foxy Brown",
-        "browse_id": "UCvuXZP247gluPFG4dx8_xcg",
-        "subscribers": "1.94M"
+        "name": "Sisqo",
+        "browse_id": "UCgJmARnSPH8TXr5HeefJFqQ",
+        "subscribers": "3.46M"
       },
       {
         "name": "Destiny's Child",
@@ -3363,19 +3404,19 @@
         "subscribers": "23.9M"
       },
       {
+        "name": "TLC",
+        "browse_id": "UCs6cmuHkS7U7Az22s18lQXw",
+        "subscribers": "13.2M"
+      },
+      {
+        "name": "Foxy Brown",
+        "browse_id": "UCvuXZP247gluPFG4dx8_xcg",
+        "subscribers": "1.94M"
+      },
+      {
         "name": "Blu Cantrell",
         "browse_id": "UC3uYzN1-8kVfDtHTkikbDUw",
         "subscribers": "7.53M"
-      },
-      {
-        "name": "Christina Milian",
-        "browse_id": "UCa8EZx_EuQwQRFep19WJ7vQ",
-        "subscribers": "38.2K"
-      },
-      {
-        "name": "Truth Hurts",
-        "browse_id": "UC5TDFRoiVSjU_TV2JJBQM-w",
-        "subscribers": "18.6K"
       }
     ],
     "ytm_top_songs": [
@@ -3843,6 +3884,12 @@
           "views": 134853635,
           "likes": 1317772,
           "comments": 1633
+        },
+        {
+          "date": "2026-06-29",
+          "views": 134932104,
+          "likes": 1318414,
+          "comments": 1634
         }
       ]
     },
@@ -4285,6 +4332,12 @@
           "date": "2026-06-28",
           "views": 15709408,
           "likes": 182025,
+          "comments": 381
+        },
+        {
+          "date": "2026-06-29",
+          "views": 15721268,
+          "likes": 182144,
           "comments": 381
         }
       ]
@@ -4729,6 +4782,12 @@
           "views": 19888793,
           "likes": 211242,
           "comments": 309
+        },
+        {
+          "date": "2026-06-29",
+          "views": 19902020,
+          "likes": 211370,
+          "comments": 310
         }
       ]
     },
@@ -5171,6 +5230,12 @@
           "date": "2026-06-28",
           "views": 11217499,
           "likes": 145983,
+          "comments": 521
+        },
+        {
+          "date": "2026-06-29",
+          "views": 11227535,
+          "likes": 146093,
           "comments": 521
         }
       ]
@@ -5615,6 +5680,12 @@
           "views": 27439538,
           "likes": 218029,
           "comments": 537
+        },
+        {
+          "date": "2026-06-29",
+          "views": 27447511,
+          "likes": 218099,
+          "comments": 537
         }
       ]
     },
@@ -5895,6 +5966,18 @@
       "type": "annotated",
       "related_annotation": "新曲「あびすいんざわーるど」リリース前日バズ——YouTube総再生数+2,593万（2.51σ）、翌26日もAPIフリーズで同値維持",
       "detected_at": "2026-06-27T15:22:33.718558+00:00"
+    },
+    {
+      "date": "2026-06-29",
+      "metric": "youtube_total_views",
+      "value": 3498005548,
+      "baseline_mean": 3472419169.5,
+      "baseline_stddev": 12012335.0,
+      "delta": 25586378,
+      "score": 2.13,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-29T17:03:21.273022+00:00"
     }
   ]
 }

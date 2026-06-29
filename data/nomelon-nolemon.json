@@ -3279,6 +3279,47 @@
       "ytm_subscribers": 325000,
       "ytm_monthly_listeners": 1500000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-29",
+      "monthly_listeners": 281059,
+      "collected_at": "2026-06-29T16:53:05.611960+00:00",
+      "spotify_followers": 69758,
+      "youtube_subscribers": 325000,
+      "youtube_total_views": 166627686,
+      "youtube_video_count": 108,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 14020
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8509
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6261
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 4705
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4187
+        }
+      ],
+      "lastfm_listeners": 33005,
+      "lastfm_playcount": 895009,
+      "ytm_subscribers": 325000,
+      "ytm_monthly_listeners": 1500000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3333,9 +3374,24 @@
         "subscribers": "410K"
       },
       {
+        "name": "Aooo",
+        "browse_id": "UCbX-GbG3bg17Mdm_RltoWqg",
+        "subscribers": "1.74M"
+      },
+      {
+        "name": "CLAN QUEEN",
+        "browse_id": "UCuCIY6NNMyjANg60NEgHONg",
+        "subscribers": "326K"
+      },
+      {
         "name": "Polkadot Stingray",
         "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
         "subscribers": "937K"
+      },
+      {
+        "name": "DUSTCELL",
+        "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
+        "subscribers": "891K"
       },
       {
         "name": "Dios",
@@ -3346,21 +3402,6 @@
         "name": "Wanuka",
         "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
         "subscribers": "1.06M"
-      },
-      {
-        "name": "Aooo",
-        "browse_id": "UCbX-GbG3bg17Mdm_RltoWqg",
-        "subscribers": "1.74M"
-      },
-      {
-        "name": "DUSTCELL",
-        "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
-        "subscribers": "891K"
-      },
-      {
-        "name": "kei sugawara",
-        "browse_id": "UCteJs3TEbPFxDObB-4s7Y6w",
-        "subscribers": "247K"
       }
     ],
     "ytm_top_songs": [
@@ -3851,6 +3892,12 @@
           "views": 18384320,
           "likes": 124135,
           "comments": 1059
+        },
+        {
+          "date": "2026-06-29",
+          "views": 18395336,
+          "likes": 124163,
+          "comments": 1059
         }
       ]
     },
@@ -4317,6 +4364,12 @@
           "date": "2026-06-28",
           "views": 5434110,
           "likes": 40068,
+          "comments": 87
+        },
+        {
+          "date": "2026-06-29",
+          "views": 5441838,
+          "likes": 40107,
           "comments": 87
         }
       ]
@@ -4785,6 +4838,12 @@
           "views": 5172429,
           "likes": 35298,
           "comments": 167
+        },
+        {
+          "date": "2026-06-29",
+          "views": 5178109,
+          "likes": 35314,
+          "comments": 167
         }
       ]
     },
@@ -5251,6 +5310,12 @@
           "date": "2026-06-28",
           "views": 2230249,
           "likes": 18735,
+          "comments": 42
+        },
+        {
+          "date": "2026-06-29",
+          "views": 2233795,
+          "likes": 18759,
           "comments": 42
         }
       ]
@@ -5723,6 +5788,12 @@
           "date": "2026-06-28",
           "views": 4316939,
           "likes": 35364,
+          "comments": 316
+        },
+        {
+          "date": "2026-06-29",
+          "views": 4320805,
+          "likes": 35377,
           "comments": 316
         }
       ]
@@ -6249,6 +6320,18 @@
       "type": "annotated",
       "related_annotation": "YouTube Data APIカウンター第4次凍結（164,883,659・6/9〜6/24）解除による蓄積分一括計上アーティファクト（2.58σ）",
       "detected_at": "2026-06-28T15:15:50.564555+00:00"
+    },
+    {
+      "date": "2026-06-29",
+      "metric": "youtube_total_views",
+      "value": 166627686,
+      "baseline_mean": 164802630.6,
+      "baseline_stddev": 898162.4,
+      "delta": 1825055,
+      "score": 2.03,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-29T16:53:07.024076+00:00"
     }
   ]
 }

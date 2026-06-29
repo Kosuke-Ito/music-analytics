@@ -3276,6 +3276,47 @@
       "ytm_subscribers": 463000,
       "ytm_monthly_listeners": 900000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-29",
+      "monthly_listeners": 85230,
+      "collected_at": "2026-06-29T16:49:15.144419+00:00",
+      "spotify_followers": 229821,
+      "youtube_subscribers": 463000,
+      "youtube_total_views": 213145697,
+      "youtube_video_count": 47,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 3558
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 2217
+        },
+        {
+          "city": "Madrid",
+          "country": "ES",
+          "listeners": 1259
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 1220
+        },
+        {
+          "city": "Bogotá",
+          "country": "CO",
+          "listeners": 1214
+        }
+      ],
+      "lastfm_listeners": 144105,
+      "lastfm_playcount": 2275233,
+      "ytm_subscribers": 463000,
+      "ytm_monthly_listeners": 900000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3315,19 +3356,14 @@
         "subscribers": "17.8M"
       },
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.58M"
-      },
-      {
         "name": "Vaundy",
         "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
         "subscribers": "23.4M"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "45.2M"
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.58M"
       },
       {
         "name": "Sheena Ringo",
@@ -3345,19 +3381,24 @@
         "subscribers": "102M"
       },
       {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "1.32M"
-      },
-      {
-        "name": "Daoko",
-        "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
-        "subscribers": "5.45M"
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "45.2M"
       },
       {
         "name": "jo0ji",
         "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
         "subscribers": "6.24M"
+      },
+      {
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "70.1M"
+      },
+      {
+        "name": "Suchmos",
+        "browse_id": "UCTjMLOtWrtmd9c2K_H3KQHw",
+        "subscribers": "1.45M"
       }
     ],
     "ytm_top_songs": [
@@ -3848,6 +3889,12 @@
           "views": 7655056,
           "likes": 70875,
           "comments": 247
+        },
+        {
+          "date": "2026-06-29",
+          "views": 7665526,
+          "likes": 70949,
+          "comments": 249
         }
       ]
     },
@@ -4314,6 +4361,12 @@
           "date": "2026-06-28",
           "views": 2048412,
           "likes": 25248,
+          "comments": 49
+        },
+        {
+          "date": "2026-06-29",
+          "views": 2050638,
+          "likes": 25269,
           "comments": 49
         }
       ]
@@ -4782,6 +4835,12 @@
           "views": 21595274,
           "likes": 223783,
           "comments": 611
+        },
+        {
+          "date": "2026-06-29",
+          "views": 21601212,
+          "likes": 223818,
+          "comments": 611
         }
       ]
     },
@@ -5249,6 +5308,12 @@
           "views": 145524,
           "likes": 1203,
           "comments": 8
+        },
+        {
+          "date": "2026-06-29",
+          "views": 145854,
+          "likes": 1206,
+          "comments": 8
         }
       ]
     },
@@ -5668,6 +5733,12 @@
           "views": 102445,
           "likes": 1555,
           "comments": 10
+        },
+        {
+          "date": "2026-06-29",
+          "views": 102716,
+          "likes": 1561,
+          "comments": 10
         }
       ]
     },
@@ -5922,6 +5993,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-28T15:11:53.474998+00:00"
+    },
+    {
+      "date": "2026-06-29",
+      "metric": "youtube_total_views",
+      "value": 213145697,
+      "baseline_mean": 211363832,
+      "baseline_stddev": 796874.3,
+      "delta": 1781865,
+      "score": 2.24,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-29T16:49:16.135827+00:00"
     }
   ]
 }

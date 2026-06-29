@@ -3155,6 +3155,47 @@
       "ytm_subscribers": 3640000,
       "ytm_monthly_listeners": 5320000,
       "ytm_total_views": 1081033206
+    },
+    {
+      "date": "2026-06-29",
+      "monthly_listeners": 3705789,
+      "collected_at": "2026-06-29T17:06:26.076438+00:00",
+      "spotify_followers": 3020910,
+      "youtube_subscribers": 3640000,
+      "youtube_total_views": 1089836105,
+      "youtube_video_count": 352,
+      "top_cities": [
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 65155
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 61941
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 54819
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 52067
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 50654
+        }
+      ],
+      "lastfm_listeners": 988047,
+      "lastfm_playcount": 60108308,
+      "ytm_subscribers": 3640000,
+      "ytm_monthly_listeners": 5320000,
+      "ytm_total_views": 1081033206
     }
   ],
   "annotations": [
@@ -3423,7 +3464,7 @@
       {
         "name": "Not Secured,Loose Ends",
         "browse_id": "UCICdhvSPJOnni7CIePx30DA",
-        "subscribers": "934"
+        "subscribers": "935"
       },
       {
         "name": "Avenged Sevenfold",
@@ -3431,14 +3472,14 @@
         "subscribers": "20.5M"
       },
       {
-        "name": "the GazettE",
-        "browse_id": "UCXitUzRS2J4mznhd6qYLaHw",
-        "subscribers": "250K"
-      },
-      {
         "name": "DragonForce",
         "browse_id": "UCDademfIkaXZGd2Ww-S60Tw",
         "subscribers": "2.91M"
+      },
+      {
+        "name": "the GazettE",
+        "browse_id": "UCXitUzRS2J4mznhd6qYLaHw",
+        "subscribers": "250K"
       },
       {
         "name": "Poppy",
@@ -3948,6 +3989,12 @@
           "views": 7736426,
           "likes": 87556,
           "comments": 271
+        },
+        {
+          "date": "2026-06-29",
+          "views": 7763940,
+          "likes": 87786,
+          "comments": 271
         }
       ]
     },
@@ -4403,6 +4450,12 @@
           "views": 4885455,
           "likes": 97087,
           "comments": 531
+        },
+        {
+          "date": "2026-06-29",
+          "views": 4900253,
+          "likes": 97313,
+          "comments": 533
         }
       ]
     },
@@ -4857,6 +4910,12 @@
           "date": "2026-06-28",
           "views": 5170183,
           "likes": 72132,
+          "comments": 237
+        },
+        {
+          "date": "2026-06-29",
+          "views": 5182168,
+          "likes": 72262,
           "comments": 237
         }
       ]
@@ -5731,6 +5790,12 @@
           "views": 1585806,
           "likes": 21297,
           "comments": 73
+        },
+        {
+          "date": "2026-06-29",
+          "views": 1591491,
+          "likes": 21369,
+          "comments": 75
         }
       ]
     },
@@ -5832,6 +5897,12 @@
           "date": "2026-06-28",
           "views": 802147,
           "likes": 12239,
+          "comments": 72
+        },
+        {
+          "date": "2026-06-29",
+          "views": 803907,
+          "likes": 12264,
           "comments": 72
         }
       ]
@@ -6221,6 +6292,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-28T15:29:58.261372+00:00"
+    },
+    {
+      "date": "2026-06-29",
+      "metric": "youtube_total_views",
+      "value": 1089836105,
+      "baseline_mean": 1079202839.3,
+      "baseline_stddev": 1974547.9,
+      "delta": 10633265,
+      "score": 5.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-29T17:06:27.426526+00:00"
     }
   ]
 }

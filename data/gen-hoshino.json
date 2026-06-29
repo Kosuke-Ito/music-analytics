@@ -3152,6 +3152,47 @@
       "ytm_subscribers": 1760000,
       "ytm_monthly_listeners": 8510000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-29",
+      "monthly_listeners": 2707543,
+      "collected_at": "2026-06-29T17:02:26.532894+00:00",
+      "spotify_followers": 2449566,
+      "youtube_subscribers": 1760000,
+      "youtube_total_views": 1431623967,
+      "youtube_video_count": 201,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 117654
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 93856
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 63762
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 41836
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 31012
+        }
+      ],
+      "lastfm_listeners": 21489,
+      "lastfm_playcount": 3003382,
+      "ytm_subscribers": 1760000,
+      "ytm_monthly_listeners": 8510000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3196,19 +3237,14 @@
         "subscribers": "5.05M"
       },
       {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "2M"
-      },
-      {
         "name": "BUMP OF CHICKEN",
         "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
         "subscribers": "9.02M"
       },
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "73.8M"
+        "name": "Fujii Kaze",
+        "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
+        "subscribers": "43.6M"
       },
       {
         "name": "back number",
@@ -3216,19 +3252,24 @@
         "subscribers": "12.9M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "23.4M"
-      },
-      {
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
         "subscribers": "10.1M"
       },
       {
-        "name": "Fujii Kaze",
-        "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
-        "subscribers": "43.6M"
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "2M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "23.4M"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "45.2M"
       },
       {
         "name": "TOMOO",
@@ -3706,6 +3747,12 @@
           "views": 59685763,
           "likes": 235118,
           "comments": 579
+        },
+        {
+          "date": "2026-06-29",
+          "views": 59723483,
+          "likes": 235270,
+          "comments": 579
         }
       ]
     },
@@ -4155,6 +4202,12 @@
           "views": 4955615,
           "likes": 40587,
           "comments": 0
+        },
+        {
+          "date": "2026-06-29",
+          "views": 4968089,
+          "likes": 40682,
+          "comments": 0
         }
       ]
     },
@@ -4592,6 +4645,12 @@
           "views": 21427371,
           "likes": 100594,
           "comments": 88
+        },
+        {
+          "date": "2026-06-29",
+          "views": 21442858,
+          "likes": 100668,
+          "comments": 88
         }
       ]
     },
@@ -4921,6 +4980,12 @@
           "views": 10231002,
           "likes": 52395,
           "comments": 46
+        },
+        {
+          "date": "2026-06-29",
+          "views": 10241425,
+          "likes": 52429,
+          "comments": 46
         }
       ]
     },
@@ -5177,6 +5242,12 @@
           "date": "2026-06-28",
           "views": 10946613,
           "likes": 49009,
+          "comments": 169
+        },
+        {
+          "date": "2026-06-29",
+          "views": 10953322,
+          "likes": 49035,
           "comments": 169
         }
       ]
@@ -6075,6 +6146,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-28T15:25:53.578054+00:00"
+    },
+    {
+      "date": "2026-06-29",
+      "metric": "youtube_total_views",
+      "value": 1431623967,
+      "baseline_mean": 1422929383.3,
+      "baseline_stddev": 3410296.3,
+      "delta": 8694583,
+      "score": 2.55,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-29T17:02:28.221697+00:00"
     }
   ]
 }
