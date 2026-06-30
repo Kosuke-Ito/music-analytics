@@ -3328,6 +3328,47 @@
       "ytm_subscribers": 153,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-30",
+      "monthly_listeners": 5431,
+      "collected_at": "2026-06-30T16:24:19.740794+00:00",
+      "spotify_followers": 954,
+      "youtube_subscribers": 368,
+      "youtube_total_views": 67625,
+      "youtube_video_count": 178,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 270
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 158
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 102
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 75
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 65
+        }
+      ],
+      "lastfm_listeners": 765,
+      "lastfm_playcount": 2486,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3503,6 +3544,16 @@
         "subscribers": "22.4K"
       },
       {
+        "name": "GALALI",
+        "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
+        "subscribers": "110K"
+      },
+      {
+        "name": "Tomohiro Oku",
+        "browse_id": "UCnUJfm5g3T-dw8JdpEjaDZw",
+        "subscribers": "48"
+      },
+      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "27.1K"
@@ -3535,17 +3586,7 @@
       {
         "name": "zenya",
         "browse_id": "UCo4roqqKdMVG02RRM4n-MMw",
-        "subscribers": "127"
-      },
-      {
-        "name": "Kawaguchi Takuma",
-        "browse_id": "UC16c0SCZvOqrlL76EMDptzw",
-        "subscribers": "212"
-      },
-      {
-        "name": "GALALI",
-        "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "110K"
+        "subscribers": "128"
       }
     ],
     "ytm_top_songs": [
@@ -3998,6 +4039,12 @@
         {
           "date": "2026-06-29",
           "views": 3427,
+          "likes": 19,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-30",
+          "views": 3437,
           "likes": 19,
           "comments": 0
         }
@@ -4467,6 +4514,12 @@
           "views": 5916,
           "likes": 23,
           "comments": 0
+        },
+        {
+          "date": "2026-06-30",
+          "views": 5927,
+          "likes": 23,
+          "comments": 0
         }
       ]
     },
@@ -4932,6 +4985,12 @@
         {
           "date": "2026-06-29",
           "views": 12394,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-30",
+          "views": 12400,
           "likes": 76,
           "comments": 0
         }
@@ -5401,6 +5460,12 @@
           "views": 32363,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-06-30",
+          "views": 32374,
+          "likes": 153,
+          "comments": 0
         }
       ]
     },
@@ -5860,6 +5925,12 @@
         {
           "date": "2026-06-29",
           "views": 8107,
+          "likes": 60,
+          "comments": 0
+        },
+        {
+          "date": "2026-06-30",
+          "views": 8119,
           "likes": 60,
           "comments": 0
         }
@@ -6506,6 +6577,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-29T16:57:12.686624+00:00"
+    },
+    {
+      "date": "2026-06-30",
+      "metric": "youtube_total_views",
+      "value": 67625,
+      "baseline_mean": 66269.8,
+      "baseline_stddev": 581.5,
+      "delta": 1355,
+      "score": 2.33,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-30T16:24:21.137172+00:00"
     }
   ]
 }

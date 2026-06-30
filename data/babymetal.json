@@ -3196,6 +3196,47 @@
       "ytm_subscribers": 3640000,
       "ytm_monthly_listeners": 5320000,
       "ytm_total_views": 1081033206
+    },
+    {
+      "date": "2026-06-30",
+      "monthly_listeners": 3697402,
+      "collected_at": "2026-06-30T16:33:50.304457+00:00",
+      "spotify_followers": 3021808,
+      "youtube_subscribers": 3640000,
+      "youtube_total_views": 1089836105,
+      "youtube_video_count": 352,
+      "top_cities": [
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 65161
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 61853
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 54415
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 51456
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 50588
+        }
+      ],
+      "lastfm_listeners": 988047,
+      "lastfm_playcount": 60108308,
+      "ytm_subscribers": 3640000,
+      "ytm_monthly_listeners": 5320000,
+      "ytm_total_views": 1081033206
     }
   ],
   "annotations": [
@@ -3483,11 +3524,6 @@
         "subscribers": "20.5M"
       },
       {
-        "name": "DragonForce",
-        "browse_id": "UCDademfIkaXZGd2Ww-S60Tw",
-        "subscribers": "2.91M"
-      },
-      {
         "name": "the GazettE",
         "browse_id": "UCXitUzRS2J4mznhd6qYLaHw",
         "subscribers": "250K"
@@ -3496,6 +3532,11 @@
         "name": "Poppy",
         "browse_id": "UCwJcp-qqo0pVvvRwPXIXKyQ",
         "subscribers": "3.91M"
+      },
+      {
+        "name": "DragonForce",
+        "browse_id": "UCDademfIkaXZGd2Ww-S60Tw",
+        "subscribers": "2.91M"
       },
       {
         "name": "BAND-MAID",
@@ -3508,19 +3549,19 @@
         "subscribers": "2.2M"
       },
       {
-        "name": "Sakura Gakuin",
-        "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
-        "subscribers": "7.7K"
+        "name": "ATARASHII GAKKO!",
+        "browse_id": "UCGjPxZv5YraYh_EJk1sH8Tg",
+        "subscribers": "5.73M"
       },
       {
-        "name": "LADYBABY",
-        "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "111K"
+        "name": "Necronomidol",
+        "browse_id": "UCxUoC8iKwrgW8gD96FfMqvA",
+        "subscribers": "33.2K"
       },
       {
-        "name": "NEMOPHILA",
-        "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "254K"
+        "name": "FATE GEAR",
+        "browse_id": "UCTrnbtG-rJvb_2bwjkVRvNQ",
+        "subscribers": "42.6K"
       }
     ],
     "ytm_top_songs": [
@@ -4006,6 +4047,12 @@
           "views": 7763940,
           "likes": 87786,
           "comments": 271
+        },
+        {
+          "date": "2026-06-30",
+          "views": 7790552,
+          "likes": 88005,
+          "comments": 272
         }
       ]
     },
@@ -4467,6 +4514,12 @@
           "views": 4900253,
           "likes": 97313,
           "comments": 533
+        },
+        {
+          "date": "2026-06-30",
+          "views": 4913774,
+          "likes": 97556,
+          "comments": 534
         }
       ]
     },
@@ -4927,6 +4980,12 @@
           "date": "2026-06-29",
           "views": 5182168,
           "likes": 72262,
+          "comments": 237
+        },
+        {
+          "date": "2026-06-30",
+          "views": 5193439,
+          "likes": 72371,
           "comments": 237
         }
       ]
@@ -5807,6 +5866,12 @@
           "views": 1591491,
           "likes": 21369,
           "comments": 75
+        },
+        {
+          "date": "2026-06-30",
+          "views": 1596778,
+          "likes": 21428,
+          "comments": 75
         }
       ]
     },
@@ -5914,6 +5979,12 @@
           "date": "2026-06-29",
           "views": 803907,
           "likes": 12264,
+          "comments": 72
+        },
+        {
+          "date": "2026-06-30",
+          "views": 805516,
+          "likes": 12278,
           "comments": 72
         }
       ]
@@ -6315,6 +6386,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-29T17:06:27.426526+00:00"
+    },
+    {
+      "date": "2026-06-30",
+      "metric": "youtube_total_views",
+      "value": 1089836105,
+      "baseline_mean": 1079569503.7,
+      "baseline_stddev": 2743864.6,
+      "delta": 10266601,
+      "score": 3.74,
+      "type": "annotated",
+      "related_annotation": "「METAL FORTH (DELUXE EDITION)」6/26全世界リリース後2日目のYouTube総再生数急増（+1,127万・7.87σ）",
+      "detected_at": "2026-06-30T16:33:51.987824+00:00"
     }
   ]
 }

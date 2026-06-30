@@ -3487,6 +3487,47 @@
       "ytm_subscribers": 8680000,
       "ytm_monthly_listeners": 70100000,
       "ytm_total_views": 8705749108
+    },
+    {
+      "date": "2026-06-30",
+      "monthly_listeners": 9817214,
+      "collected_at": "2026-06-30T16:22:37.177310+00:00",
+      "spotify_followers": 8544143,
+      "youtube_subscribers": 8680000,
+      "youtube_total_views": 8863145420,
+      "youtube_video_count": 383,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 334957
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 258614
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 180394
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 170630
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 111629
+        }
+      ],
+      "lastfm_listeners": 57251,
+      "lastfm_playcount": 5632550,
+      "ytm_subscribers": 8680000,
+      "ytm_monthly_listeners": 70100000,
+      "ytm_total_views": 8705749108
     }
   ],
   "annotations": [
@@ -3782,7 +3823,7 @@
       "japanese",
       "J-rock",
       "rock",
-      "male vocalists"
+      "niconico"
     ],
     "ytm_related_artists": [
       {
@@ -3801,14 +3842,14 @@
         "subscribers": "15.2M"
       },
       {
-        "name": "Yorushika",
-        "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
-        "subscribers": "15.7M"
-      },
-      {
         "name": "Ado",
         "browse_id": "UC5DHwv9N4OQ9AWtKr8YSefw",
         "subscribers": "31.5M"
+      },
+      {
+        "name": "Tomonari Sora",
+        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
+        "subscribers": "5.69M"
       },
       {
         "name": "Vaundy",
@@ -3821,19 +3862,19 @@
         "subscribers": "17.8M"
       },
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "73.8M"
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "19.4M"
+      },
+      {
+        "name": "Yorushika",
+        "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
+        "subscribers": "15.7M"
       },
       {
         "name": "yama",
         "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
         "subscribers": "5.58M"
-      },
-      {
-        "name": "AKASAKI",
-        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
-        "subscribers": "5.92M"
       }
     ],
     "ytm_top_songs": [
@@ -4331,6 +4372,12 @@
           "views": 121492395,
           "likes": 659131,
           "comments": 4952
+        },
+        {
+          "date": "2026-06-30",
+          "views": 121701098,
+          "likes": 659764,
+          "comments": 4956
         }
       ]
     },
@@ -4804,6 +4851,12 @@
           "views": 56657927,
           "likes": 315510,
           "comments": 2547
+        },
+        {
+          "date": "2026-06-30",
+          "views": 56741274,
+          "likes": 315773,
+          "comments": 2548
         }
       ]
     },
@@ -5277,6 +5330,12 @@
           "views": 227529191,
           "likes": 1534437,
           "comments": 7484
+        },
+        {
+          "date": "2026-06-30",
+          "views": 227625226,
+          "likes": 1534737,
+          "comments": 7488
         }
       ]
     },
@@ -5749,6 +5808,12 @@
           "date": "2026-06-29",
           "views": 120482220,
           "likes": 442966,
+          "comments": 1207
+        },
+        {
+          "date": "2026-06-30",
+          "views": 120549685,
+          "likes": 443147,
           "comments": 1207
         }
       ]
@@ -6238,6 +6303,12 @@
           "views": 1087787,
           "likes": 23809,
           "comments": 519
+        },
+        {
+          "date": "2026-06-30",
+          "views": 1127791,
+          "likes": 24067,
+          "comments": 522
         }
       ]
     }
@@ -6482,6 +6553,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-29T16:55:33.477779+00:00"
+    },
+    {
+      "date": "2026-06-30",
+      "metric": "monthly_listeners",
+      "value": 9817214,
+      "baseline_mean": 9589604.3,
+      "baseline_stddev": 87228.8,
+      "delta": 227609,
+      "score": 2.61,
+      "type": "annotated",
+      "related_annotation": "「烏」MAPPAショートアニメ（6/25公開）SNS拡散継続＋「折り烏」公開でSpotify月間リスナーが急増（+19.4万・2.34σ）",
+      "detected_at": "2026-06-30T16:22:38.438230+00:00"
     }
   ]
 }

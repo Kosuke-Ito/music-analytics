@@ -3317,6 +3317,47 @@
       "ytm_subscribers": 463000,
       "ytm_monthly_listeners": 900000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-30",
+      "monthly_listeners": 85218,
+      "collected_at": "2026-06-30T16:16:02.803336+00:00",
+      "spotify_followers": 229835,
+      "youtube_subscribers": 463000,
+      "youtube_total_views": 213145697,
+      "youtube_video_count": 47,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 3554
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 2193
+        },
+        {
+          "city": "Madrid",
+          "country": "ES",
+          "listeners": 1258
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 1217
+        },
+        {
+          "city": "Bogotá",
+          "country": "CO",
+          "listeners": 1209
+        }
+      ],
+      "lastfm_listeners": 144119,
+      "lastfm_playcount": 2275334,
+      "ytm_subscribers": 463000,
+      "ytm_monthly_listeners": 900000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3343,11 +3384,11 @@
       }
     ],
     "lastfm_tags": [
-      "japanese",
       "j-pop",
+      "japanese",
       "experimental",
       "electronic",
-      "Soundtrack"
+      "japan"
     ],
     "ytm_related_artists": [
       {
@@ -3356,24 +3397,9 @@
         "subscribers": "17.8M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "23.4M"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.58M"
-      },
-      {
-        "name": "Sheena Ringo",
-        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
-        "subscribers": "6.07M"
-      },
-      {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "19.4M"
+        "name": "jo0ji",
+        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
+        "subscribers": "6.24M"
       },
       {
         "name": "sakanaction",
@@ -3381,19 +3407,34 @@
         "subscribers": "102M"
       },
       {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.58M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "23.4M"
+      },
+      {
         "name": "King Gnu",
         "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
         "subscribers": "45.2M"
       },
       {
-        "name": "jo0ji",
-        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "6.24M"
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "19.4M"
       },
       {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "70.1M"
+        "name": "PEOPLE 1",
+        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
+        "subscribers": "1.32M"
+      },
+      {
+        "name": "Sheena Ringo",
+        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
+        "subscribers": "6.07M"
       },
       {
         "name": "Suchmos",
@@ -3895,6 +3936,12 @@
           "views": 7665526,
           "likes": 70949,
           "comments": 249
+        },
+        {
+          "date": "2026-06-30",
+          "views": 7674836,
+          "likes": 71010,
+          "comments": 251
         }
       ]
     },
@@ -4367,6 +4414,12 @@
           "date": "2026-06-29",
           "views": 2050638,
           "likes": 25269,
+          "comments": 49
+        },
+        {
+          "date": "2026-06-30",
+          "views": 2052776,
+          "likes": 25285,
           "comments": 49
         }
       ]
@@ -4841,6 +4894,12 @@
           "views": 21601212,
           "likes": 223818,
           "comments": 611
+        },
+        {
+          "date": "2026-06-30",
+          "views": 21606988,
+          "likes": 223835,
+          "comments": 611
         }
       ]
     },
@@ -5314,6 +5373,12 @@
           "views": 145854,
           "likes": 1206,
           "comments": 8
+        },
+        {
+          "date": "2026-06-30",
+          "views": 146139,
+          "likes": 1208,
+          "comments": 8
         }
       ]
     },
@@ -5739,6 +5804,12 @@
           "views": 102716,
           "likes": 1561,
           "comments": 10
+        },
+        {
+          "date": "2026-06-30",
+          "views": 103010,
+          "likes": 1564,
+          "comments": 10
         }
       ]
     },
@@ -6005,6 +6076,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-29T16:49:16.135827+00:00"
+    },
+    {
+      "date": "2026-06-30",
+      "metric": "youtube_total_views",
+      "value": 213145697,
+      "baseline_mean": 211435106.6,
+      "baseline_stddev": 855295.2,
+      "delta": 1710590,
+      "score": 2.0,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-30T16:16:04.962432+00:00"
     }
   ]
 }

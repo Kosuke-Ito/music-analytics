@@ -3205,6 +3205,47 @@
       "ytm_subscribers": 592000,
       "ytm_monthly_listeners": 4480000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-06-30",
+      "monthly_listeners": 2589365,
+      "collected_at": "2026-06-30T16:31:46.334908+00:00",
+      "spotify_followers": 1991614,
+      "youtube_subscribers": 592000,
+      "youtube_total_views": 496513406,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 138104
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 133870
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 92816
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 52941
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 44257
+        }
+      ],
+      "lastfm_listeners": 7535,
+      "lastfm_playcount": 435448,
+      "ytm_subscribers": 592000,
+      "ytm_monthly_listeners": 4480000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3454,8 +3495,8 @@
       }
     ],
     "lastfm_tags": [
-      "japanese",
-      "macaroni enpitsu"
+      "macaroni enpitsu",
+      "japanese"
     ],
     "ytm_related_artists": [
       {
@@ -3467,6 +3508,11 @@
         "name": "go!go!vanillas",
         "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
         "subscribers": "653K"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "12.9M"
       },
       {
         "name": "Tele",
@@ -3484,11 +3530,6 @@
         "subscribers": "6.15M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "12.9M"
-      },
-      {
         "name": "sumika",
         "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
         "subscribers": "3.24M"
@@ -3499,14 +3540,14 @@
         "subscribers": "5.44M"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "87.5M"
-      },
-      {
         "name": "WurtS",
         "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
         "subscribers": "8.06M"
+      },
+      {
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "87.5M"
       }
     ],
     "ytm_top_songs": [
@@ -3985,6 +4026,12 @@
           "views": 12144345,
           "likes": 69501,
           "comments": 143
+        },
+        {
+          "date": "2026-06-30",
+          "views": 12159120,
+          "likes": 69595,
+          "comments": 142
         }
       ]
     },
@@ -4440,6 +4487,12 @@
           "views": 24562079,
           "likes": 89000,
           "comments": 169
+        },
+        {
+          "date": "2026-06-30",
+          "views": 24581665,
+          "likes": 89081,
+          "comments": 169
         }
       ]
     },
@@ -4883,6 +4936,12 @@
           "views": 16773289,
           "likes": 61623,
           "comments": 116
+        },
+        {
+          "date": "2026-06-30",
+          "views": 16788159,
+          "likes": 61692,
+          "comments": 116
         }
       ]
     },
@@ -5248,6 +5307,12 @@
           "views": 45030706,
           "likes": 139341,
           "comments": 238
+        },
+        {
+          "date": "2026-06-30",
+          "views": 45048452,
+          "likes": 139404,
+          "comments": 238
         }
       ]
     },
@@ -5594,6 +5659,12 @@
           "views": 14074802,
           "likes": 81746,
           "comments": 440
+        },
+        {
+          "date": "2026-06-30",
+          "views": 14111893,
+          "likes": 82009,
+          "comments": 441
         }
       ]
     },
@@ -6341,6 +6412,18 @@
       "type": "annotated",
       "related_annotation": "「ワールド イズ ダンシング」OP放映6日前・「終宵」配信7日前の注目高まりでSpotify月間リスナー急増（+5.5万・3.2σ）",
       "detected_at": "2026-06-29T17:04:28.943972+00:00"
+    },
+    {
+      "date": "2026-06-30",
+      "metric": "monthly_listeners",
+      "value": 2589365,
+      "baseline_mean": 2452550.9,
+      "baseline_stddev": 33115.8,
+      "delta": 136814,
+      "score": 4.13,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-06-30T16:31:48.259545+00:00"
     }
   ]
 }
