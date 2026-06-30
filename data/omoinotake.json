@@ -3440,6 +3440,15 @@
       "added_at": "2026-06-26T18:00:00+09:00",
       "source": "natalie.mu, animeanime.jp",
       "confidence": "medium"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "YouTube Data APIカウンター凍結（6/25〜6/26・314,085,825固定）継続アーティファクト（2.15σ）",
+      "description": "6月25日にTVアニメ「花ざかりの君たちへ」第2期（7/1放送開始）関連の実需流入によりYouTube総再生数が314,085,825（+376万・2.42σ）に急増した後、6月26日も同値が維持された（YouTube Data APIカウンター凍結）。6月26日のバズ検知（2.15σ）は固定値がベースライン移動平均を上回り続けたことによる統計的アーティファクト。",
+      "category": "other",
+      "added_at": "2026-06-30T00:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "metadata": {

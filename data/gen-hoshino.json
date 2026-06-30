@@ -5939,6 +5939,60 @@
       "source": "prtimes.jp",
       "confidence": "high",
       "verified": false
+    },
+    {
+      "date": "2026-06-25",
+      "title": "YouTube Data APIカウンター長期凍結開始（1,431,623,967・6/25〜6/30）——2.31σ",
+      "description": "YouTube総再生数が6月25日から1,431,623,967に固定され、6月30日まで少なくとも6日間継続（YouTube Data APIカウンター凍結）。6月25日のバズ検知（2.31σ）は固定値がベースライン移動平均（1,419,539,663）を上回り始めたことによる統計的アーティファクト。評論書「星野源論」（6/17発売・発売前重版）の継続注目や、「2 feat. Lee Youngji」の海外アルゴリズム推薦が底流の実需として存在しているとみられる。",
+      "category": "other",
+      "added_at": "2026-06-30T00:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-26",
+      "title": "YouTube Data APIカウンター凍結（1,431,623,967固定）2日目——2.22σ",
+      "description": "YouTube総再生数が6月25日以来1,431,623,967で固定されているYouTube Data APIカウンター凍結が2日目に突入。ベースライン移動平均との乖離が2.22σとして検知された統計的アーティファクト。",
+      "category": "other",
+      "added_at": "2026-06-30T00:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-27",
+      "title": "YouTube Data APIカウンター凍結（1,431,623,967固定）3日目——2.20σ",
+      "description": "YouTube総再生数が1,431,623,967で3日間連続固定（YouTube Data APIカウンター凍結継続）。ベースライン移動平均との乖離が2.20σとして検知された統計的アーティファクト。",
+      "category": "other",
+      "added_at": "2026-06-30T00:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-28",
+      "title": "YouTube Data APIカウンター凍結（1,431,623,967固定）4日目——2.27σ",
+      "description": "YouTube総再生数が1,431,623,967で4日間連続固定（YouTube Data APIカウンター凍結継続）。ベースライン移動平均との乖離が2.27σとして検知された統計的アーティファクト。",
+      "category": "other",
+      "added_at": "2026-06-30T00:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "YouTube Data APIカウンター凍結（1,431,623,967固定）5日目——2.55σ",
+      "description": "YouTube総再生数が1,431,623,967で5日間連続固定（YouTube Data APIカウンター凍結継続）。ベースライン標準偏差が縮小したため乖離スコアが2.55σへと上昇しているが、実際の再生増加は発生していない統計的アーティファクト。",
+      "category": "other",
+      "added_at": "2026-06-30T00:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "YouTube Data APIカウンター凍結（1,431,623,967固定）6日目——2.24σ",
+      "description": "YouTube総再生数が6月25日以来1,431,623,967で6日間連続固定（YouTube Data APIカウンター長期凍結）。ベースライン移動平均との乖離が2.24σとして検知された統計的アーティファクト。",
+      "category": "other",
+      "added_at": "2026-06-30T00:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "buzz_events": [

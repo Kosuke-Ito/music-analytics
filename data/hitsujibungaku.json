@@ -3489,6 +3489,24 @@
       "source": "skream.jp / japan.focustaiwan.tw",
       "confidence": "high",
       "verified": false
+    },
+    {
+      "date": "2026-06-28",
+      "title": "YouTube Data APIカウンター凍結（6/27〜6/29・352,376,098固定）継続アーティファクト（2.24σ）",
+      "description": "第37回金曲奨（6/27・台北アリーナ）出演効果でYouTube総再生数が352,376,098（+7,016,101・2.37σ）に急増した後、6月28日・29日も同値が継続（YouTube Data APIカウンター凍結）。6月28日のバズ検知（2.24σ）は固定値がベースライン移動平均を上回り続けたことによる統計的アーティファクト。",
+      "category": "other",
+      "added_at": "2026-06-30T00:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "YouTube Data APIカウンター凍結（6/27〜6/29）継続アーティファクト（2.16σ）——3日目",
+      "description": "金曲奨出演（6/27）後の352,376,098固定が6月29日も継続（YouTube Data APIカウンター凍結3日目）。ベースライン移動平均との乖離が縮小（2.37σ→2.24σ→2.16σ）しながら収束段階に入った統計的アーティファクト。",
+      "category": "other",
+      "added_at": "2026-06-30T00:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "metadata": {

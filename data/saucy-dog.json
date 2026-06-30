@@ -3386,6 +3386,34 @@
       "source": "liveviewing.jp",
       "confidence": "high",
       "verified": false
+    },
+    {
+      "date": "2026-06-28",
+      "title": "映画「A NEW DAWN」上映最終日——YouTube総再生数が579,048,170（+8,242,450・2.96σ）に急増しAPIカウンター凍結開始",
+      "description": "ドームライブ映画「DOME LIVE 2026 A NEW DAWN」（全国映画館3日間限定上映）が6月28日に最終日を迎え、初日舞台挨拶（6/26）・映画鑑賞後のカタログ視聴促進効果が顕在化してYouTube総再生数が579,048,170（+8,242,450・2.96σ）に急増した。6月29日・30日も同値が継続（YouTube Data APIカウンター凍結）しており、6月28日の急増後に凍結が発生したとみられる。",
+      "url": "https://liveviewing.jp/saucydog-domelive2026/",
+      "category": "other",
+      "added_at": "2026-06-30T00:00:00+00:00",
+      "source": "liveviewing.jp",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "YouTube Data APIカウンター凍結（6/28〜6/30・579,048,170固定）継続アーティファクト（2.55σ）",
+      "description": "6月28日の「A NEW DAWN」映画上映最終日効果で579,048,170に急増した後、6月29日も同値が継続（YouTube Data APIカウンター凍結）。Spotify月間リスナーは1,742,793→1,753,838人（+11,045・継続成長）と実需は本物だが、YouTube指標は凍結によるアーティファクト。",
+      "category": "other",
+      "added_at": "2026-06-30T00:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "YouTube Data APIカウンター凍結（6/28〜6/30）継続アーティファクト（2.26σ）——3日目",
+      "description": "YouTube総再生数579,048,170の凍結が6月30日も継続（YouTube Data APIカウンター凍結3日目）。ベースライン移動平均との乖離が縮小（2.96σ→2.55σ→2.26σ）しながら収束段階に入った統計的アーティファクト。Spotify月間リスナーは1,758,349人まで継続成長。",
+      "category": "other",
+      "added_at": "2026-06-30T00:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "metadata": {
