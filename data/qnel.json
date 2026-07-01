@@ -3369,6 +3369,47 @@
       "ytm_subscribers": 153,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-01",
+      "monthly_listeners": 5431,
+      "collected_at": "2026-07-01T16:24:50.667184+00:00",
+      "spotify_followers": 954,
+      "youtube_subscribers": 368,
+      "youtube_total_views": 67630,
+      "youtube_video_count": 179,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 270
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 158
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 102
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 75
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 65
+        }
+      ],
+      "lastfm_listeners": 767,
+      "lastfm_playcount": 2490,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4098,6 +4139,12 @@
           "views": 3437,
           "likes": 19,
           "comments": 0
+        },
+        {
+          "date": "2026-07-01",
+          "views": 3449,
+          "likes": 19,
+          "comments": 0
         }
       ]
     },
@@ -4569,6 +4616,12 @@
         {
           "date": "2026-06-30",
           "views": 5927,
+          "likes": 23,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-01",
+          "views": 5939,
           "likes": 23,
           "comments": 0
         }
@@ -5044,6 +5097,12 @@
           "views": 12400,
           "likes": 76,
           "comments": 0
+        },
+        {
+          "date": "2026-07-01",
+          "views": 12411,
+          "likes": 76,
+          "comments": 0
         }
       ]
     },
@@ -5517,6 +5576,12 @@
           "views": 32374,
           "likes": 153,
           "comments": 0
+        },
+        {
+          "date": "2026-07-01",
+          "views": 32386,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -5982,6 +6047,12 @@
         {
           "date": "2026-06-30",
           "views": 8119,
+          "likes": 60,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-01",
+          "views": 8129,
           "likes": 60,
           "comments": 0
         }
@@ -6640,6 +6711,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-30T16:24:21.137172+00:00"
+    },
+    {
+      "date": "2026-07-01",
+      "metric": "youtube_total_views",
+      "value": 67630,
+      "baseline_mean": 66332.3,
+      "baseline_stddev": 621.7,
+      "delta": 1297,
+      "score": 2.09,
+      "type": "annotated",
+      "related_annotation": "「&Dream」ロングテール継続——月間リスナー5,231人（同値）をSpotify APIキャッシュで維持",
+      "detected_at": "2026-07-01T16:24:52.493241+00:00"
     }
   ]
 }

@@ -3231,6 +3231,47 @@
       "ytm_subscribers": 873000,
       "ytm_monthly_listeners": 10300000,
       "ytm_total_views": 917772060
+    },
+    {
+      "date": "2026-07-01",
+      "monthly_listeners": 3788683,
+      "collected_at": "2026-07-01T16:31:08.340946+00:00",
+      "spotify_followers": 2807284,
+      "youtube_subscribers": 5590000,
+      "youtube_total_views": 3500350123,
+      "youtube_video_count": 212,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 63772
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 48139
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 44707
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 40455
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 38346
+        }
+      ],
+      "lastfm_listeners": 1852994,
+      "lastfm_playcount": 54192279,
+      "ytm_subscribers": 873000,
+      "ytm_monthly_listeners": 10300000,
+      "ytm_total_views": 917772060
     }
   ],
   "annotations": [
@@ -3451,9 +3492,14 @@
         "subscribers": "5.57M"
       },
       {
-        "name": "Nelly",
-        "browse_id": "UCggm1vqFLAJdYDTc1DQoVKg",
-        "subscribers": "75.2M"
+        "name": "Christina Milian",
+        "browse_id": "UCa8EZx_EuQwQRFep19WJ7vQ",
+        "subscribers": "38.2K"
+      },
+      {
+        "name": "Foxy Brown",
+        "browse_id": "UCvuXZP247gluPFG4dx8_xcg",
+        "subscribers": "1.94M"
       },
       {
         "name": "TLC",
@@ -3466,19 +3512,14 @@
         "subscribers": "1.91M"
       },
       {
-        "name": "Christina Milian",
-        "browse_id": "UCa8EZx_EuQwQRFep19WJ7vQ",
-        "subscribers": "38.2K"
+        "name": "Nelly",
+        "browse_id": "UCggm1vqFLAJdYDTc1DQoVKg",
+        "subscribers": "75.2M"
       },
       {
-        "name": "Sisqo",
-        "browse_id": "UCgJmARnSPH8TXr5HeefJFqQ",
-        "subscribers": "3.46M"
-      },
-      {
-        "name": "Foxy Brown",
-        "browse_id": "UCvuXZP247gluPFG4dx8_xcg",
-        "subscribers": "1.94M"
+        "name": "Ja Rule",
+        "browse_id": "UCji7leqOCN06fhLhHPwVKEg",
+        "subscribers": "13M"
       }
     ],
     "ytm_top_songs": [
@@ -3958,6 +3999,12 @@
           "views": 135002134,
           "likes": 1318970,
           "comments": 1634
+        },
+        {
+          "date": "2026-07-01",
+          "views": 135079717,
+          "likes": 1319674,
+          "comments": 1635
         }
       ]
     },
@@ -4413,6 +4460,12 @@
           "views": 15732731,
           "likes": 182246,
           "comments": 381
+        },
+        {
+          "date": "2026-07-01",
+          "views": 15744652,
+          "likes": 182391,
+          "comments": 382
         }
       ]
     },
@@ -4867,6 +4920,12 @@
           "date": "2026-06-30",
           "views": 19914728,
           "likes": 211488,
+          "comments": 310
+        },
+        {
+          "date": "2026-07-01",
+          "views": 19929463,
+          "likes": 211636,
           "comments": 310
         }
       ]
@@ -5323,6 +5382,12 @@
           "views": 11237003,
           "likes": 146222,
           "comments": 521
+        },
+        {
+          "date": "2026-07-01",
+          "views": 11247053,
+          "likes": 146342,
+          "comments": 521
         }
       ]
     },
@@ -5778,6 +5843,12 @@
           "views": 27454815,
           "likes": 218179,
           "comments": 537
+        },
+        {
+          "date": "2026-07-01",
+          "views": 27463228,
+          "likes": 218257,
+          "comments": 537
         }
       ]
     },
@@ -6070,6 +6141,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-29T17:03:21.273022+00:00"
+    },
+    {
+      "date": "2026-07-01",
+      "metric": "youtube_total_views",
+      "value": 3500350123,
+      "baseline_mean": 3475382673.0,
+      "baseline_stddev": 12467124.3,
+      "delta": 24967449,
+      "score": 2.0,
+      "type": "annotated",
+      "related_annotation": "「あびすいんざわーるど」（6/26リリース）MV公開3日後の拡散継続でYouTube総再生数が上昇（+487万・2.13σ）",
+      "detected_at": "2026-07-01T16:31:10.053229+00:00"
     }
   ]
 }

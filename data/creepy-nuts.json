@@ -3531,6 +3531,47 @@
       "ytm_subscribers": 2440000,
       "ytm_monthly_listeners": 140000000,
       "ytm_total_views": 1878286889
+    },
+    {
+      "date": "2026-07-01",
+      "monthly_listeners": 5700049,
+      "collected_at": "2026-07-01T16:24:17.244546+00:00",
+      "spotify_followers": 2383142,
+      "youtube_subscribers": 2440000,
+      "youtube_total_views": 1896143659,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 102382
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 79320
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 68169
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 61889
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 54011
+        }
+      ],
+      "lastfm_listeners": 637086,
+      "lastfm_playcount": 22323288,
+      "ytm_subscribers": 2440000,
+      "ytm_monthly_listeners": 140000000,
+      "ytm_total_views": 1878286889
     }
   ],
   "annotations": [
@@ -3890,9 +3931,9 @@
         "subscribers": "23.4M"
       },
       {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "1.32M"
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "45.2M"
       },
       {
         "name": "sakanaction",
@@ -3900,9 +3941,9 @@
         "subscribers": "102M"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "45.2M"
+        "name": "PEOPLE 1",
+        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
+        "subscribers": "1.32M"
       },
       {
         "name": "Tatsuya Kitani",
@@ -3910,9 +3951,14 @@
         "subscribers": "19.4M"
       },
       {
-        "name": "nobodyknows+",
-        "browse_id": "UCh1E5xa7wkeb_xzSyM8CkxA",
-        "subscribers": "16.8K"
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "3.23M"
+      },
+      {
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "87.5M"
       },
       {
         "name": "Tomonari Sora",
@@ -3923,11 +3969,6 @@
         "name": "KANA-BOON",
         "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
         "subscribers": "45.9M"
-      },
-      {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "70.1M"
       }
     ],
     "ytm_top_songs": [
@@ -4338,6 +4379,18 @@
       "type": "annotated",
       "related_annotation": "JAPAN JAM 2026 YouTube特番DAY1配信でYouTube総再生数が急増（+8,129万・7.95σ）",
       "detected_at": "2026-06-30T16:23:47.074556+00:00"
+    },
+    {
+      "date": "2026-07-01",
+      "metric": "youtube_total_views",
+      "value": 1896143659,
+      "baseline_mean": 1827903467.4,
+      "baseline_stddev": 27804269.6,
+      "delta": 68240191,
+      "score": 2.45,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-01T16:24:18.512319+00:00"
     }
   ],
   "song_performance": {
@@ -4817,6 +4870,12 @@
           "views": 23080157,
           "likes": 290912,
           "comments": 987
+        },
+        {
+          "date": "2026-07-01",
+          "views": 23147150,
+          "likes": 291635,
+          "comments": 988
         }
       ]
     },
@@ -5296,6 +5355,12 @@
           "views": 20116844,
           "likes": 263697,
           "comments": 1027
+        },
+        {
+          "date": "2026-07-01",
+          "views": 20167612,
+          "likes": 264301,
+          "comments": 1028
         }
       ]
     },
@@ -5775,6 +5840,12 @@
           "views": 7367351,
           "likes": 96688,
           "comments": 1122
+        },
+        {
+          "date": "2026-07-01",
+          "views": 7381835,
+          "likes": 96822,
+          "comments": 1123
         }
       ]
     },
@@ -6254,6 +6325,12 @@
           "views": 12370984,
           "likes": 114383,
           "comments": 489
+        },
+        {
+          "date": "2026-07-01",
+          "views": 12382092,
+          "likes": 114473,
+          "comments": 489
         }
       ]
     },
@@ -6612,6 +6689,12 @@
           "date": "2026-06-30",
           "views": 5842636,
           "likes": 54574,
+          "comments": 191
+        },
+        {
+          "date": "2026-07-01",
+          "views": 5846668,
+          "likes": 54599,
           "comments": 191
         }
       ]

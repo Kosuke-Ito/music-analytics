@@ -3240,6 +3240,47 @@
       "ytm_subscribers": 2290000,
       "ytm_monthly_listeners": 7670000,
       "ytm_total_views": 2695437342
+    },
+    {
+      "date": "2026-07-01",
+      "monthly_listeners": 4713500,
+      "collected_at": "2026-07-01T16:29:58.672024+00:00",
+      "spotify_followers": 6321270,
+      "youtube_subscribers": 2290000,
+      "youtube_total_views": 2707500381,
+      "youtube_video_count": 282,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 233817
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 223577
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 152732
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 85629
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 73452
+        }
+      ],
+      "lastfm_listeners": 19988,
+      "lastfm_playcount": 1455347,
+      "ytm_subscribers": 2290000,
+      "ytm_monthly_listeners": 7670000,
+      "ytm_total_views": 2695910780
     }
   ],
   "annotations": [
@@ -3532,19 +3573,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.1M"
-      },
-      {
-        "name": "Uru",
-        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "28.8M"
-      },
-      {
         "name": "Miwa",
         "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
         "subscribers": "1.99M"
+      },
+      {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10.1M"
       },
       {
         "name": "Ken Hirai",
@@ -3552,9 +3588,9 @@
         "subscribers": "1.57M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "12.9M"
+        "name": "Uru",
+        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
+        "subscribers": "28.8M"
       },
       {
         "name": "OFFICIAL HIGE DANDISM",
@@ -3562,9 +3598,9 @@
         "subscribers": "73.8M"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "9.53M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "12.9M"
       },
       {
         "name": "Motohiro Hata",
@@ -3572,14 +3608,19 @@
         "subscribers": "8.21M"
       },
       {
+        "name": "Superfly",
+        "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
+        "subscribers": "5.54M"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "9.53M"
+      },
+      {
         "name": "Kana Nishino",
         "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
         "subscribers": "8.11M"
-      },
-      {
-        "name": "SUKIMASWITCH",
-        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "3.98M"
       }
     ],
     "ytm_top_songs": [
@@ -4077,6 +4118,12 @@
           "views": 106892502,
           "likes": 308486,
           "comments": 681
+        },
+        {
+          "date": "2026-07-01",
+          "views": 106935453,
+          "likes": 308634,
+          "comments": 682
         }
       ]
     },
@@ -4550,6 +4597,12 @@
           "views": 101512185,
           "likes": 346281,
           "comments": 412
+        },
+        {
+          "date": "2026-07-01",
+          "views": 101559569,
+          "likes": 346442,
+          "comments": 413
         }
       ]
     },
@@ -5023,6 +5076,12 @@
           "views": 63160188,
           "likes": 184166,
           "comments": 234
+        },
+        {
+          "date": "2026-07-01",
+          "views": 63186846,
+          "likes": 184247,
+          "comments": 234
         }
       ]
     },
@@ -5494,6 +5553,12 @@
         {
           "date": "2026-06-30",
           "views": 1988249,
+          "likes": 6184,
+          "comments": 39
+        },
+        {
+          "date": "2026-07-01",
+          "views": 1988623,
           "likes": 6184,
           "comments": 39
         }
@@ -5973,6 +6038,12 @@
           "date": "2026-06-30",
           "views": 36321914,
           "likes": 115740,
+          "comments": 235
+        },
+        {
+          "date": "2026-07-01",
+          "views": 36337092,
+          "likes": 115798,
           "comments": 235
         }
       ]
@@ -6674,6 +6745,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-30T16:29:27.715390+00:00"
+    },
+    {
+      "date": "2026-07-01",
+      "metric": "youtube_total_views",
+      "value": 2707500381,
+      "baseline_mean": 2694535192.2,
+      "baseline_stddev": 6415100.2,
+      "delta": 12965188,
+      "score": 2.02,
+      "type": "annotated",
+      "related_annotation": "YouTube Data APIカウンター凍結（2,706,985,912固定）開始——アナログ盤・FNS歌謡祭（7/1）・THE MUSIC DAY（7/4）複合効果の余波",
+      "detected_at": "2026-07-01T16:30:00.397096+00:00"
     }
   ]
 }

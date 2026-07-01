@@ -3528,6 +3528,47 @@
       "ytm_subscribers": 8680000,
       "ytm_monthly_listeners": 70100000,
       "ytm_total_views": 8705749108
+    },
+    {
+      "date": "2026-07-01",
+      "monthly_listeners": 9817214,
+      "collected_at": "2026-07-01T16:23:05.704419+00:00",
+      "spotify_followers": 8547379,
+      "youtube_subscribers": 8680000,
+      "youtube_total_views": 8877138111,
+      "youtube_video_count": 384,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 334957
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 258614
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 180394
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 170630
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 111629
+        }
+      ],
+      "lastfm_listeners": 57251,
+      "lastfm_playcount": 5632550,
+      "ytm_subscribers": 8680000,
+      "ytm_monthly_listeners": 70100000,
+      "ytm_total_views": 8717614940
     }
   ],
   "annotations": [
@@ -3847,14 +3888,9 @@
         "subscribers": "31.5M"
       },
       {
-        "name": "Tomonari Sora",
-        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
-        "subscribers": "5.69M"
-      },
-      {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "23.4M"
+        "name": "Yorushika",
+        "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
+        "subscribers": "15.7M"
       },
       {
         "name": "Eve",
@@ -3862,19 +3898,24 @@
         "subscribers": "17.8M"
       },
       {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "19.4M"
+        "name": "AKASAKI",
+        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
+        "subscribers": "5.92M"
       },
       {
-        "name": "Yorushika",
-        "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
-        "subscribers": "15.7M"
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "23.4M"
       },
       {
         "name": "yama",
         "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
         "subscribers": "5.58M"
+      },
+      {
+        "name": "Ryokuousyoku Syakai",
+        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
+        "subscribers": "7.21M"
       }
     ],
     "ytm_top_songs": [
@@ -4378,6 +4419,12 @@
           "views": 121701098,
           "likes": 659764,
           "comments": 4956
+        },
+        {
+          "date": "2026-07-01",
+          "views": 121923217,
+          "likes": 660530,
+          "comments": 4960
         }
       ]
     },
@@ -4856,6 +4903,12 @@
           "date": "2026-06-30",
           "views": 56741274,
           "likes": 315773,
+          "comments": 2548
+        },
+        {
+          "date": "2026-07-01",
+          "views": 56833190,
+          "likes": 316095,
           "comments": 2548
         }
       ]
@@ -5336,6 +5389,12 @@
           "views": 227625226,
           "likes": 1534737,
           "comments": 7488
+        },
+        {
+          "date": "2026-07-01",
+          "views": 227731286,
+          "likes": 1535216,
+          "comments": 7495
         }
       ]
     },
@@ -5815,6 +5874,12 @@
           "views": 120549685,
           "likes": 443147,
           "comments": 1207
+        },
+        {
+          "date": "2026-07-01",
+          "views": 120622549,
+          "likes": 443336,
+          "comments": 1208
         }
       ]
     },
@@ -6309,6 +6374,12 @@
           "views": 1127791,
           "likes": 24067,
           "comments": 522
+        },
+        {
+          "date": "2026-07-01",
+          "views": 1167569,
+          "likes": 24285,
+          "comments": 524
         }
       ]
     }
@@ -6565,6 +6636,18 @@
       "type": "annotated",
       "related_annotation": "「烏」MAPPAショートアニメ（6/25公開）SNS拡散継続＋「折り烏」公開でSpotify月間リスナーが急増（+19.4万・2.34σ）",
       "detected_at": "2026-06-30T16:22:38.438230+00:00"
+    },
+    {
+      "date": "2026-07-01",
+      "metric": "monthly_listeners",
+      "value": 9817214,
+      "baseline_mean": 9593407.5,
+      "baseline_stddev": 94296.1,
+      "delta": 223806,
+      "score": 2.37,
+      "type": "annotated",
+      "related_annotation": "「烏」MAPPAショートアニメ（6/25公開）SNS拡散継続＋「折り烏」公開でSpotify月間リスナーが急増（+19.4万・2.34σ）",
+      "detected_at": "2026-07-01T16:23:06.975973+00:00"
     }
   ]
 }

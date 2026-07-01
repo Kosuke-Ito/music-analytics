@@ -3240,6 +3240,47 @@
       "ytm_subscribers": 881000,
       "ytm_monthly_listeners": 5740000,
       "ytm_total_views": 639332187
+    },
+    {
+      "date": "2026-07-01",
+      "monthly_listeners": 2183856,
+      "collected_at": "2026-07-01T16:34:38.562293+00:00",
+      "spotify_followers": 1058457,
+      "youtube_subscribers": 881000,
+      "youtube_total_views": 661846485,
+      "youtube_video_count": 295,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 55525
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 49769
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 44489
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 31252
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 23770
+        }
+      ],
+      "lastfm_listeners": 167809,
+      "lastfm_playcount": 5840237,
+      "ytm_subscribers": 881000,
+      "ytm_monthly_listeners": 5740000,
+      "ytm_total_views": 641599602
     }
   ],
   "annotations": [
@@ -3402,14 +3443,14 @@
         "subscribers": "5.01M"
       },
       {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.58M"
+      },
+      {
         "name": "LiSA",
         "browse_id": "UCt4rbOMLsVxeMsoaRdTfr5A",
         "subscribers": "27.7M"
-      },
-      {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "36.1M"
       },
       {
         "name": "Uru",
@@ -3417,14 +3458,14 @@
         "subscribers": "28.8M"
       },
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.58M"
-      },
-      {
         "name": "Utada",
         "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
         "subscribers": "18.6M"
+      },
+      {
+        "name": "ATARAYO",
+        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
+        "subscribers": "1.9M"
       }
     ],
     "ytm_top_songs": [
@@ -4418,6 +4459,12 @@
           "views": 8984818,
           "likes": 63047,
           "comments": 214
+        },
+        {
+          "date": "2026-07-01",
+          "views": 8993452,
+          "likes": 63099,
+          "comments": 214
         }
       ]
     },
@@ -4884,6 +4931,12 @@
           "date": "2026-06-30",
           "views": 2021640,
           "likes": 13855,
+          "comments": 109
+        },
+        {
+          "date": "2026-07-01",
+          "views": 2022917,
+          "likes": 13856,
           "comments": 109
         }
       ]
@@ -5358,6 +5411,12 @@
           "views": 7365591,
           "likes": 53146,
           "comments": 69
+        },
+        {
+          "date": "2026-07-01",
+          "views": 7368899,
+          "likes": 53162,
+          "comments": 69
         }
       ]
     },
@@ -5759,6 +5818,12 @@
           "views": 1730948,
           "likes": 26942,
           "comments": 311
+        },
+        {
+          "date": "2026-07-01",
+          "views": 1738545,
+          "likes": 26991,
+          "comments": 311
         }
       ]
     },
@@ -5828,6 +5893,12 @@
           "date": "2026-06-30",
           "views": 13867845,
           "likes": 134975,
+          "comments": 2316
+        },
+        {
+          "date": "2026-07-01",
+          "views": 13887405,
+          "likes": 135177,
           "comments": 2316
         }
       ]
@@ -5953,6 +6024,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-26T17:38:45.233911+00:00"
+    },
+    {
+      "date": "2026-07-01",
+      "metric": "youtube_total_views",
+      "value": 661846485,
+      "baseline_mean": 658276459.4,
+      "baseline_stddev": 1238878.6,
+      "delta": 3570025,
+      "score": 2.88,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-01T16:34:40.200298+00:00"
     }
   ]
 }

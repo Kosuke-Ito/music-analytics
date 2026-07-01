@@ -3237,6 +3237,47 @@
       "ytm_subscribers": 3640000,
       "ytm_monthly_listeners": 5320000,
       "ytm_total_views": 1081033206
+    },
+    {
+      "date": "2026-07-01",
+      "monthly_listeners": 3697402,
+      "collected_at": "2026-07-01T16:34:21.031409+00:00",
+      "spotify_followers": 3022756,
+      "youtube_subscribers": 3640000,
+      "youtube_total_views": 1089836105,
+      "youtube_video_count": 352,
+      "top_cities": [
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 65161
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 61853
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 54415
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 51456
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 50588
+        }
+      ],
+      "lastfm_listeners": 988457,
+      "lastfm_playcount": 60137264,
+      "ytm_subscribers": 3640000,
+      "ytm_monthly_listeners": 5320000,
+      "ytm_total_views": 1081033206
     }
   ],
   "annotations": [
@@ -3536,7 +3577,7 @@
       {
         "name": "Not Secured,Loose Ends",
         "browse_id": "UCICdhvSPJOnni7CIePx30DA",
-        "subscribers": "935"
+        "subscribers": "933"
       },
       {
         "name": "Avenged Sevenfold",
@@ -3574,14 +3615,14 @@
         "subscribers": "5.73M"
       },
       {
-        "name": "Necronomidol",
-        "browse_id": "UCxUoC8iKwrgW8gD96FfMqvA",
+        "name": "Yosei Teikoku",
+        "browse_id": "UCT6NZ6tzD-t8hu1XsKWe8iQ",
         "subscribers": "33.2K"
       },
       {
-        "name": "FATE GEAR",
-        "browse_id": "UCTrnbtG-rJvb_2bwjkVRvNQ",
-        "subscribers": "42.6K"
+        "name": "Bloodywood",
+        "browse_id": "UC-KLHz1pX0nPbzMmz5o61Fg",
+        "subscribers": "441K"
       }
     ],
     "ytm_top_songs": [
@@ -4073,6 +4114,12 @@
           "views": 7790552,
           "likes": 88005,
           "comments": 272
+        },
+        {
+          "date": "2026-07-01",
+          "views": 7821193,
+          "likes": 88257,
+          "comments": 274
         }
       ]
     },
@@ -4540,6 +4587,12 @@
           "views": 4913774,
           "likes": 97556,
           "comments": 534
+        },
+        {
+          "date": "2026-07-01",
+          "views": 4928917,
+          "likes": 97795,
+          "comments": 535
         }
       ]
     },
@@ -5007,6 +5060,12 @@
           "views": 5193439,
           "likes": 72371,
           "comments": 237
+        },
+        {
+          "date": "2026-07-01",
+          "views": 5205879,
+          "likes": 72477,
+          "comments": 238
         }
       ]
     },
@@ -5892,6 +5951,12 @@
           "views": 1596778,
           "likes": 21428,
           "comments": 75
+        },
+        {
+          "date": "2026-07-01",
+          "views": 1603132,
+          "likes": 21499,
+          "comments": 75
         }
       ]
     },
@@ -6005,6 +6070,12 @@
           "date": "2026-06-30",
           "views": 805516,
           "likes": 12278,
+          "comments": 72
+        },
+        {
+          "date": "2026-07-01",
+          "views": 807315,
+          "likes": 12299,
           "comments": 72
         }
       ]
@@ -6418,6 +6489,18 @@
       "type": "annotated",
       "related_annotation": "「METAL FORTH (DELUXE EDITION)」6/26全世界リリース後2日目のYouTube総再生数急増（+1,127万・7.87σ）",
       "detected_at": "2026-06-30T16:33:51.987824+00:00"
+    },
+    {
+      "date": "2026-07-01",
+      "metric": "youtube_total_views",
+      "value": 1089836105,
+      "baseline_mean": 1079936168,
+      "baseline_stddev": 3299979.0,
+      "delta": 9899937,
+      "score": 3.0,
+      "type": "annotated",
+      "related_annotation": "「METAL FORTH (DELUXE EDITION)」6/26全世界リリース後2日目のYouTube総再生数急増（+1,127万・7.87σ）",
+      "detected_at": "2026-07-01T16:34:22.838059+00:00"
     }
   ]
 }

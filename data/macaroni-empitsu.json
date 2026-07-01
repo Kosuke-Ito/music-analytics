@@ -3246,6 +3246,47 @@
       "ytm_subscribers": 592000,
       "ytm_monthly_listeners": 4480000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-01",
+      "monthly_listeners": 2589365,
+      "collected_at": "2026-07-01T16:32:18.329989+00:00",
+      "spotify_followers": 1992624,
+      "youtube_subscribers": 592000,
+      "youtube_total_views": 496513406,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 138104
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 133870
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 92816
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 52941
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 44257
+        }
+      ],
+      "lastfm_listeners": 7541,
+      "lastfm_playcount": 436281,
+      "ytm_subscribers": 592000,
+      "ytm_monthly_listeners": 4480000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3531,11 +3572,6 @@
         "subscribers": "653K"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "12.9M"
-      },
-      {
         "name": "Tele",
         "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
         "subscribers": "469K"
@@ -3546,9 +3582,14 @@
         "subscribers": "2.27M"
       },
       {
-        "name": "Hump Back",
-        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
-        "subscribers": "6.15M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "12.9M"
+      },
+      {
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "5.44M"
       },
       {
         "name": "sumika",
@@ -3556,9 +3597,9 @@
         "subscribers": "3.24M"
       },
       {
-        "name": "Koresawa",
-        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "5.44M"
+        "name": "Hump Back",
+        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
+        "subscribers": "6.15M"
       },
       {
         "name": "WurtS",
@@ -4053,6 +4094,12 @@
           "views": 12159120,
           "likes": 69595,
           "comments": 142
+        },
+        {
+          "date": "2026-07-01",
+          "views": 12176615,
+          "likes": 69675,
+          "comments": 143
         }
       ]
     },
@@ -4514,6 +4561,12 @@
           "views": 24581665,
           "likes": 89081,
           "comments": 169
+        },
+        {
+          "date": "2026-07-01",
+          "views": 24603780,
+          "likes": 89198,
+          "comments": 169
         }
       ]
     },
@@ -4963,6 +5016,12 @@
           "views": 16788159,
           "likes": 61692,
           "comments": 116
+        },
+        {
+          "date": "2026-07-01",
+          "views": 16806535,
+          "likes": 61781,
+          "comments": 116
         }
       ]
     },
@@ -5334,6 +5393,12 @@
           "views": 45048452,
           "likes": 139404,
           "comments": 238
+        },
+        {
+          "date": "2026-07-01",
+          "views": 45068442,
+          "likes": 139471,
+          "comments": 238
         }
       ]
     },
@@ -5686,6 +5751,12 @@
           "views": 14111893,
           "likes": 82009,
           "comments": 441
+        },
+        {
+          "date": "2026-07-01",
+          "views": 14156758,
+          "likes": 82341,
+          "comments": 442
         }
       ]
     },
@@ -6445,6 +6516,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-30T16:31:48.259545+00:00"
+    },
+    {
+      "date": "2026-07-01",
+      "metric": "monthly_listeners",
+      "value": 2589365,
+      "baseline_mean": 2456341.9,
+      "baseline_stddev": 41090.8,
+      "delta": 133023,
+      "score": 3.24,
+      "type": "annotated",
+      "related_annotation": "TVアニメ「ワールド イズ ダンシング」OP放映2日前——Spotify月間リスナーが2,589,365人（+136,814・4.13σ）の新高値",
+      "detected_at": "2026-07-01T16:32:20.101399+00:00"
     }
   ]
 }

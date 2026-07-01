@@ -3231,6 +3231,47 @@
       "ytm_subscribers": 1360000,
       "ytm_monthly_listeners": 63300000,
       "ytm_total_views": 868951889
+    },
+    {
+      "date": "2026-07-01",
+      "monthly_listeners": 4094252,
+      "collected_at": "2026-07-01T16:29:41.125433+00:00",
+      "spotify_followers": 1031347,
+      "youtube_subscribers": 1360000,
+      "youtube_total_views": 872336607,
+      "youtube_video_count": 789,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 68258
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67072
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 53019
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 50200
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 50195
+        }
+      ],
+      "lastfm_listeners": 422048,
+      "lastfm_playcount": 5966277,
+      "ytm_subscribers": 1360000,
+      "ytm_monthly_listeners": 63300000,
+      "ytm_total_views": 868951889
     }
   ],
   "annotations": [
@@ -3499,24 +3540,19 @@
         "subscribers": "1.45M"
       },
       {
-        "name": "Nishina",
-        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
-        "subscribers": "329K"
-      },
-      {
         "name": "Penthouse",
         "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
         "subscribers": "2M"
       },
       {
-        "name": "AKASAKI",
-        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
-        "subscribers": "5.92M"
-      },
-      {
         "name": "eill",
         "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
         "subscribers": "1.53M"
+      },
+      {
+        "name": "AKASAKI",
+        "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
+        "subscribers": "5.92M"
       },
       {
         "name": "Vaundy",
@@ -3529,9 +3565,9 @@
         "subscribers": "5.58M"
       },
       {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "3.41M"
+        "name": "Ai Higuchi",
+        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
+        "subscribers": "14.9M"
       },
       {
         "name": "WhaleDontSleep",
@@ -3539,9 +3575,14 @@
         "subscribers": "508K"
       },
       {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "18.5M"
+        "name": "Nishina",
+        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
+        "subscribers": "329K"
+      },
+      {
+        "name": "Ayumu Imazu",
+        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
+        "subscribers": "3.41M"
       }
     ],
     "ytm_top_songs": [
@@ -4015,6 +4056,12 @@
           "views": 142904407,
           "likes": 1143968,
           "comments": 6125
+        },
+        {
+          "date": "2026-07-01",
+          "views": 143032523,
+          "likes": 1145466,
+          "comments": 6133
         }
       ]
     },
@@ -4463,6 +4510,12 @@
           "date": "2026-06-30",
           "views": 8078623,
           "likes": 59347,
+          "comments": 165
+        },
+        {
+          "date": "2026-07-01",
+          "views": 8088359,
+          "likes": 59415,
           "comments": 165
         }
       ]
@@ -4913,6 +4966,12 @@
           "views": 3455795,
           "likes": 37626,
           "comments": 289
+        },
+        {
+          "date": "2026-07-01",
+          "views": 3459165,
+          "likes": 37646,
+          "comments": 289
         }
       ]
     },
@@ -5361,6 +5420,12 @@
           "date": "2026-06-30",
           "views": 11720637,
           "likes": 51838,
+          "comments": 154
+        },
+        {
+          "date": "2026-07-01",
+          "views": 11726376,
+          "likes": 51855,
           "comments": 154
         }
       ]
@@ -5935,6 +6000,12 @@
           "date": "2026-06-30",
           "views": 6683349,
           "likes": 38717,
+          "comments": 211
+        },
+        {
+          "date": "2026-07-01",
+          "views": 6690153,
+          "likes": 38748,
           "comments": 211
         }
       ]
@@ -6624,6 +6695,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-30T16:29:11.240768+00:00"
+    },
+    {
+      "date": "2026-07-01",
+      "metric": "youtube_total_views",
+      "value": 872336607,
+      "baseline_mean": 860657851.4,
+      "baseline_stddev": 5170978.6,
+      "delta": 11678755,
+      "score": 2.26,
+      "type": "annotated",
+      "related_annotation": "YouTube Data APIカウンター凍結（6/25〜6/28・863,256,348固定）解除による蓄積分一括計上（+907万・2.97σ）",
+      "detected_at": "2026-07-01T16:29:43.051036+00:00"
     }
   ]
 }

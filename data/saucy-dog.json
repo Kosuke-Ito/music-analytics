@@ -3243,6 +3243,47 @@
       "ytm_subscribers": 871000,
       "ytm_monthly_listeners": 2270000,
       "ytm_total_views": 577494469
+    },
+    {
+      "date": "2026-07-01",
+      "monthly_listeners": 1758349,
+      "collected_at": "2026-07-01T16:32:35.907481+00:00",
+      "spotify_followers": 1492872,
+      "youtube_subscribers": 871000,
+      "youtube_total_views": 579048170,
+      "youtube_video_count": 134,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 90878
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 90221
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 63350
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35083
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 30350
+        }
+      ],
+      "lastfm_listeners": 58699,
+      "lastfm_playcount": 1654287,
+      "ytm_subscribers": 871000,
+      "ytm_monthly_listeners": 2270000,
+      "ytm_total_views": 577494469
     }
   ],
   "annotations": [
@@ -3458,14 +3499,14 @@
         "subscribers": "12.9M"
       },
       {
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "2.85M"
+      },
+      {
         "name": "This is LAST",
         "browse_id": "UCeSeU_YJnRECa_I8WAbqbHA",
         "subscribers": "705K"
-      },
-      {
-        "name": "yangskinny",
-        "browse_id": "UCHxOB06rp3GQXFcPlIfxJOg",
-        "subscribers": "2.35M"
       },
       {
         "name": "macaroni enpitsu",
@@ -3473,29 +3514,29 @@
         "subscribers": "4.48M"
       },
       {
+        "name": "FOMARE",
+        "browse_id": "UCO5kmsT9xpy-ADoWy0UQX1g",
+        "subscribers": "254K"
+      },
+      {
+        "name": "yangskinny",
+        "browse_id": "UCHxOB06rp3GQXFcPlIfxJOg",
+        "subscribers": "2.35M"
+      },
+      {
         "name": "Tele",
         "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
         "subscribers": "469K"
       },
       {
-        "name": "SHISHAMO",
-        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "2.85M"
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "5.44M"
       },
       {
-        "name": "shytaupe",
-        "browse_id": "UClT2HzITnq_4MQoY99Gf6Hw",
-        "subscribers": "5.52M"
-      },
-      {
-        "name": "Marcy",
-        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.4M"
-      },
-      {
-        "name": "FOMARE",
-        "browse_id": "UCO5kmsT9xpy-ADoWy0UQX1g",
-        "subscribers": "254K"
+        "name": "reGretGirl",
+        "browse_id": "UCRzWUISrDwsVPZF87iEFCqw",
+        "subscribers": "312K"
       }
     ],
     "ytm_top_songs": [
@@ -3993,6 +4034,12 @@
           "views": 4729158,
           "likes": 20397,
           "comments": 46
+        },
+        {
+          "date": "2026-07-01",
+          "views": 4745522,
+          "likes": 20458,
+          "comments": 46
         }
       ]
     },
@@ -4453,6 +4500,12 @@
           "date": "2026-06-30",
           "views": 5230752,
           "likes": 24368,
+          "comments": 45
+        },
+        {
+          "date": "2026-07-01",
+          "views": 5248092,
+          "likes": 24447,
           "comments": 45
         }
       ]
@@ -4927,6 +4980,12 @@
           "views": 2807999,
           "likes": 14857,
           "comments": 38
+        },
+        {
+          "date": "2026-07-01",
+          "views": 2818341,
+          "likes": 14904,
+          "comments": 38
         }
       ]
     },
@@ -5387,6 +5446,12 @@
           "date": "2026-06-30",
           "views": 3240180,
           "likes": 19010,
+          "comments": 42
+        },
+        {
+          "date": "2026-07-01",
+          "views": 3250013,
+          "likes": 19051,
           "comments": 42
         }
       ]
@@ -5900,6 +5965,12 @@
           "views": 2720662,
           "likes": 11208,
           "comments": 29
+        },
+        {
+          "date": "2026-07-01",
+          "views": 2730694,
+          "likes": 11248,
+          "comments": 29
         }
       ]
     }
@@ -6264,6 +6335,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-30T16:32:05.924645+00:00"
+    },
+    {
+      "date": "2026-07-01",
+      "metric": "youtube_total_views",
+      "value": 579048170,
+      "baseline_mean": 571971027.2,
+      "baseline_stddev": 3468073.2,
+      "delta": 7077142,
+      "score": 2.04,
+      "type": "annotated",
+      "related_annotation": "映画「A NEW DAWN」上映最終日——YouTube総再生数が579,048,170（+8,242,450・2.96σ）に急増しAPIカウンター凍結開始",
+      "detected_at": "2026-07-01T16:32:37.788600+00:00"
     }
   ]
 }
