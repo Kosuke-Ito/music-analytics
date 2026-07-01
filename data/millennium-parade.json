@@ -5989,6 +5989,51 @@
       "source": "skream.jp / natalie.mu",
       "confidence": "high",
       "verified": false
+    },
+    {
+      "date": "2026-06-26",
+      "title": "YouTube Data APIカウンター凍結継続（213,145,697固定）2日目——3.74σ",
+      "description": "「Blue」配信日確定発表（6/22）・ライブEP「Live at Apple Music Radio」リリース（6/25）を受けたYouTube総再生数急増後、6月26日もカウンターが同値213,145,697で固定。実際の新規再生増加ではなく、ベースライン移動平均が凍結値に追いついていないための統計的残影。",
+      "category": "other",
+      "added_at": "2026-06-26T16:07:08+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-27",
+      "title": "YouTube Data APIカウンター凍結継続（213,145,697固定）3日目——3.0σ",
+      "description": "YouTube総再生数は6月25日以来同値213,145,697を維持。ベースライン移動平均が徐々に追い上げているための統計的検知（3.0σ）で、実際の新規増加は確認されない。",
+      "category": "other",
+      "added_at": "2026-06-27T15:08:29+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-28",
+      "title": "YouTube Data APIカウンター凍結継続（213,145,697固定）4日目——2.55σ",
+      "description": "YouTube総再生数は6月25日以来同値213,145,697を維持。ベースライン移動平均の追い上げによりスコアは2.55σまで低下。",
+      "category": "other",
+      "added_at": "2026-06-28T15:11:53+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-29",
+      "title": "YouTube Data APIカウンター凍結継続（213,145,697固定）5日目——2.24σ",
+      "description": "YouTube総再生数は6月25日以来同値213,145,697を維持。ベースライン移動平均の追い上げによりスコアは2.24σまで低下。",
+      "category": "other",
+      "added_at": "2026-06-29T16:49:16+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-06-30",
+      "title": "YouTube Data APIカウンター凍結継続（213,145,697固定）6日目——2.0σ",
+      "description": "YouTube総再生数は6月25日以来同値213,145,697を維持。ベースライン移動平均がほぼ追いつき、スコアは2.0σまで低下。",
+      "category": "other",
+      "added_at": "2026-06-30T16:16:04+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "buzz_events": [
