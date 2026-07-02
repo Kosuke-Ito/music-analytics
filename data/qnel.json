@@ -3410,6 +3410,47 @@
       "ytm_subscribers": 153,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-02",
+      "monthly_listeners": 5481,
+      "collected_at": "2026-07-02T16:07:50.637842+00:00",
+      "spotify_followers": 954,
+      "youtube_subscribers": 368,
+      "youtube_total_views": 67821,
+      "youtube_video_count": 179,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 272
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 157
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 103
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 75
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 66
+        }
+      ],
+      "lastfm_listeners": 767,
+      "lastfm_playcount": 2493,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3636,16 +3677,6 @@
         "subscribers": "22.4K"
       },
       {
-        "name": "GALALI",
-        "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "110K"
-      },
-      {
-        "name": "Tomohiro Oku",
-        "browse_id": "UCnUJfm5g3T-dw8JdpEjaDZw",
-        "subscribers": "48"
-      },
-      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "27.1K"
@@ -3653,7 +3684,7 @@
       {
         "name": "Deep Sea Diving Club",
         "browse_id": "UCIdG21qIjwsOfGGkvfbgYfg",
-        "subscribers": "8.67K"
+        "subscribers": "8.68K"
       },
       {
         "name": "HATAKE",
@@ -3679,6 +3710,16 @@
         "name": "zenya",
         "browse_id": "UCo4roqqKdMVG02RRM4n-MMw",
         "subscribers": "128"
+      },
+      {
+        "name": "Kawaguchi Takuma",
+        "browse_id": "UC16c0SCZvOqrlL76EMDptzw",
+        "subscribers": "212"
+      },
+      {
+        "name": "GALALI",
+        "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
+        "subscribers": "110K"
       }
     ],
     "ytm_top_songs": [
@@ -4143,6 +4184,12 @@
         {
           "date": "2026-07-01",
           "views": 3449,
+          "likes": 19,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-02",
+          "views": 3458,
           "likes": 19,
           "comments": 0
         }
@@ -4624,6 +4671,12 @@
           "views": 5939,
           "likes": 23,
           "comments": 0
+        },
+        {
+          "date": "2026-07-02",
+          "views": 5946,
+          "likes": 23,
+          "comments": 0
         }
       ]
     },
@@ -5101,6 +5154,12 @@
         {
           "date": "2026-07-01",
           "views": 12411,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-02",
+          "views": 12423,
           "likes": 76,
           "comments": 0
         }
@@ -5582,6 +5641,12 @@
           "views": 32386,
           "likes": 152,
           "comments": 0
+        },
+        {
+          "date": "2026-07-02",
+          "views": 32400,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -6053,6 +6118,12 @@
         {
           "date": "2026-07-01",
           "views": 8129,
+          "likes": 60,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-02",
+          "views": 8138,
           "likes": 60,
           "comments": 0
         }
@@ -6723,6 +6794,18 @@
       "type": "annotated",
       "related_annotation": "「&Dream」ロングテール継続——月間リスナー5,231人（同値）をSpotify APIキャッシュで維持",
       "detected_at": "2026-07-01T16:24:52.493241+00:00"
+    },
+    {
+      "date": "2026-07-02",
+      "metric": "youtube_total_views",
+      "value": 67821,
+      "baseline_mean": 66394.5,
+      "baseline_stddev": 654.1,
+      "delta": 1426,
+      "score": 2.18,
+      "type": "annotated",
+      "related_annotation": "「&Dream」ロングテール継続——月間リスナーが2σ台で安定推移",
+      "detected_at": "2026-07-02T16:07:52.153648+00:00"
     }
   ]
 }

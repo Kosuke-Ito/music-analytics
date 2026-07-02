@@ -3278,6 +3278,47 @@
       "ytm_subscribers": 3640000,
       "ytm_monthly_listeners": 5320000,
       "ytm_total_views": 1081033206
+    },
+    {
+      "date": "2026-07-02",
+      "monthly_listeners": 3690174,
+      "collected_at": "2026-07-02T16:16:58.846633+00:00",
+      "spotify_followers": 3023678,
+      "youtube_subscribers": 3640000,
+      "youtube_total_views": 1089836105,
+      "youtube_video_count": 352,
+      "top_cities": [
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 64948
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 61810
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 54219
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 50743
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 50435
+        }
+      ],
+      "lastfm_listeners": 988856,
+      "lastfm_playcount": 60166236,
+      "ytm_subscribers": 3640000,
+      "ytm_monthly_listeners": 5320000,
+      "ytm_total_views": 1081033206
     }
   ],
   "annotations": [
@@ -3591,9 +3632,19 @@
         "subscribers": "933"
       },
       {
+        "name": "BAND-MAID",
+        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
+        "subscribers": "904K"
+      },
+      {
         "name": "Avenged Sevenfold",
         "browse_id": "UCJls2FMEbRYxi28jcuKe2vA",
         "subscribers": "20.5M"
+      },
+      {
+        "name": "DragonForce",
+        "browse_id": "UCDademfIkaXZGd2Ww-S60Tw",
+        "subscribers": "2.91M"
       },
       {
         "name": "the GazettE",
@@ -3606,16 +3657,6 @@
         "subscribers": "3.91M"
       },
       {
-        "name": "DragonForce",
-        "browse_id": "UCDademfIkaXZGd2Ww-S60Tw",
-        "subscribers": "2.91M"
-      },
-      {
-        "name": "BAND-MAID",
-        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
-        "subscribers": "904K"
-      },
-      {
         "name": "MAXIMUM THE HORMONE",
         "browse_id": "UC10viXnr5P30UrEb36Y984g",
         "subscribers": "2.2M"
@@ -3626,14 +3667,14 @@
         "subscribers": "5.73M"
       },
       {
-        "name": "Yosei Teikoku",
-        "browse_id": "UCT6NZ6tzD-t8hu1XsKWe8iQ",
-        "subscribers": "33.2K"
-      },
-      {
         "name": "Bloodywood",
         "browse_id": "UC-KLHz1pX0nPbzMmz5o61Fg",
         "subscribers": "441K"
+      },
+      {
+        "name": "Sakura Gakuin",
+        "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
+        "subscribers": "7.71K"
       }
     ],
     "ytm_top_songs": [
@@ -4131,6 +4172,12 @@
           "views": 7821193,
           "likes": 88257,
           "comments": 274
+        },
+        {
+          "date": "2026-07-02",
+          "views": 7848799,
+          "likes": 88503,
+          "comments": 274
         }
       ]
     },
@@ -4604,6 +4651,12 @@
           "views": 4928917,
           "likes": 97795,
           "comments": 535
+        },
+        {
+          "date": "2026-07-02",
+          "views": 4943646,
+          "likes": 98023,
+          "comments": 536
         }
       ]
     },
@@ -5077,6 +5130,12 @@
           "views": 5205879,
           "likes": 72477,
           "comments": 238
+        },
+        {
+          "date": "2026-07-02",
+          "views": 5218933,
+          "likes": 72624,
+          "comments": 237
         }
       ]
     },
@@ -5968,6 +6027,12 @@
           "views": 1603132,
           "likes": 21499,
           "comments": 75
+        },
+        {
+          "date": "2026-07-02",
+          "views": 1608952,
+          "likes": 21573,
+          "comments": 75
         }
       ]
     },
@@ -6087,6 +6152,12 @@
           "date": "2026-07-01",
           "views": 807315,
           "likes": 12299,
+          "comments": 72
+        },
+        {
+          "date": "2026-07-02",
+          "views": 809128,
+          "likes": 12328,
           "comments": 72
         }
       ]
@@ -6512,6 +6583,18 @@
       "type": "annotated",
       "related_annotation": "「METAL FORTH (DELUXE EDITION)」6/26全世界リリース後2日目のYouTube総再生数急増（+1,127万・7.87σ）",
       "detected_at": "2026-07-01T16:34:22.838059+00:00"
+    },
+    {
+      "date": "2026-07-02",
+      "metric": "youtube_total_views",
+      "value": 1089836105,
+      "baseline_mean": 1080302832.3,
+      "baseline_stddev": 3739257.2,
+      "delta": 9533272,
+      "score": 2.55,
+      "type": "annotated",
+      "related_annotation": "YouTube Data APIカウンター凍結（6/28〜6/29・1,089,836,105固定）継続アーティファクト（5.39σ）",
+      "detected_at": "2026-07-02T16:17:00.294535+00:00"
     }
   ]
 }

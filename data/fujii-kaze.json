@@ -3570,6 +3570,47 @@
       "ytm_subscribers": 5460000,
       "ytm_monthly_listeners": 43600000,
       "ytm_total_views": 2880049786
+    },
+    {
+      "date": "2026-07-02",
+      "monthly_listeners": 7368629,
+      "collected_at": "2026-07-02T16:07:01.764800+00:00",
+      "spotify_followers": 5120853,
+      "youtube_subscribers": 5470000,
+      "youtube_total_views": 2895965547,
+      "youtube_video_count": 221,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 209180
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 196047
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 137944
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 104001
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 92856
+        }
+      ],
+      "lastfm_listeners": 18326,
+      "lastfm_playcount": 1555882,
+      "ytm_subscribers": 5470000,
+      "ytm_monthly_listeners": 43600000,
+      "ytm_total_views": 2880049786
     }
   ],
   "annotations": [
@@ -3817,24 +3858,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "73.8M"
-      },
-      {
         "name": "Penthouse",
         "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
         "subscribers": "2M"
       },
       {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "861K"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "12.9M"
       },
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "8.21M"
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "73.8M"
       },
       {
         "name": "Vaundy",
@@ -3842,9 +3878,19 @@
         "subscribers": "23.4M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "12.9M"
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "8.21M"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "45.2M"
+      },
+      {
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "63.3M"
       },
       {
         "name": "Utada",
@@ -3855,11 +3901,6 @@
         "name": "iri",
         "browse_id": "UCtlXP5iI7TgKj_BI636L8Qw",
         "subscribers": "598K"
-      },
-      {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "45.2M"
       },
       {
         "name": "Ayumu Imazu",
@@ -4374,6 +4415,12 @@
           "views": 285086980,
           "likes": 3741055,
           "comments": 18766
+        },
+        {
+          "date": "2026-07-02",
+          "views": 285223330,
+          "likes": 3742257,
+          "comments": 18778
         }
       ]
     },
@@ -4906,6 +4953,12 @@
           "views": 75339781,
           "likes": 364819,
           "comments": 642
+        },
+        {
+          "date": "2026-07-02",
+          "views": 75387882,
+          "likes": 364995,
+          "comments": 642
         }
       ]
     },
@@ -5317,6 +5370,12 @@
           "date": "2026-07-01",
           "views": 51858937,
           "likes": 385275,
+          "comments": 1102
+        },
+        {
+          "date": "2026-07-02",
+          "views": 51895150,
+          "likes": 385476,
           "comments": 1102
         }
       ]
@@ -6138,6 +6197,12 @@
           "views": 2410443,
           "likes": 17876,
           "comments": 127
+        },
+        {
+          "date": "2026-07-02",
+          "views": 2436609,
+          "likes": 18073,
+          "comments": 127
         }
       ]
     },
@@ -6338,6 +6403,12 @@
           "date": "2026-07-01",
           "views": 620267,
           "likes": 17886,
+          "comments": 476
+        },
+        {
+          "date": "2026-07-02",
+          "views": 636215,
+          "likes": 18028,
           "comments": 476
         }
       ]
@@ -6775,6 +6846,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-01T16:24:01.640439+00:00"
+    },
+    {
+      "date": "2026-07-02",
+      "metric": "monthly_listeners",
+      "value": 7368629,
+      "baseline_mean": 7029669.8,
+      "baseline_stddev": 158475.3,
+      "delta": 338959,
+      "score": 2.14,
+      "type": "annotated",
+      "related_annotation": "FUJI ROCKタイムテーブル発表（6/26）長期波及——Spotify月間リスナーが高水準で横ばい維持（2.18σ）",
+      "detected_at": "2026-07-02T16:07:02.889103+00:00"
     }
   ]
 }

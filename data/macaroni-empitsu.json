@@ -3287,6 +3287,47 @@
       "ytm_subscribers": 592000,
       "ytm_monthly_listeners": 4480000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-02",
+      "monthly_listeners": 2607692,
+      "collected_at": "2026-07-02T16:15:01.048613+00:00",
+      "spotify_followers": 1993765,
+      "youtube_subscribers": 592000,
+      "youtube_total_views": 496513406,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 139801
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 134440
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 93314
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 53275
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 44663
+        }
+      ],
+      "lastfm_listeners": 7541,
+      "lastfm_playcount": 436281,
+      "ytm_subscribers": 592000,
+      "ytm_monthly_listeners": 4480000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3587,14 +3628,14 @@
         "subscribers": "12.9M"
       },
       {
-        "name": "Koresawa",
-        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "5.44M"
-      },
-      {
         "name": "sumika",
         "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
         "subscribers": "3.24M"
+      },
+      {
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "5.44M"
       },
       {
         "name": "Hump Back",
@@ -4100,6 +4141,12 @@
           "views": 12176615,
           "likes": 69675,
           "comments": 143
+        },
+        {
+          "date": "2026-07-02",
+          "views": 12192882,
+          "likes": 69760,
+          "comments": 143
         }
       ]
     },
@@ -4567,6 +4614,12 @@
           "views": 24603780,
           "likes": 89198,
           "comments": 169
+        },
+        {
+          "date": "2026-07-02",
+          "views": 24624977,
+          "likes": 89299,
+          "comments": 169
         }
       ]
     },
@@ -5022,6 +5075,12 @@
           "views": 16806535,
           "likes": 61781,
           "comments": 116
+        },
+        {
+          "date": "2026-07-02",
+          "views": 16823565,
+          "likes": 61852,
+          "comments": 116
         }
       ]
     },
@@ -5399,6 +5458,12 @@
           "views": 45068442,
           "likes": 139471,
           "comments": 238
+        },
+        {
+          "date": "2026-07-02",
+          "views": 45088369,
+          "likes": 139542,
+          "comments": 238
         }
       ]
     },
@@ -5756,6 +5821,12 @@
           "date": "2026-07-01",
           "views": 14156758,
           "likes": 82341,
+          "comments": 442
+        },
+        {
+          "date": "2026-07-02",
+          "views": 14198118,
+          "likes": 82703,
           "comments": 442
         }
       ]
@@ -6528,6 +6599,18 @@
       "type": "annotated",
       "related_annotation": "TVアニメ「ワールド イズ ダンシング」OP放映2日前——Spotify月間リスナーが2,589,365人（+136,814・4.13σ）の新高値",
       "detected_at": "2026-07-01T16:32:20.101399+00:00"
+    },
+    {
+      "date": "2026-07-02",
+      "metric": "monthly_listeners",
+      "value": 2607692,
+      "baseline_mean": 2460269.9,
+      "baseline_stddev": 47488.8,
+      "delta": 147422,
+      "score": 3.1,
+      "type": "annotated",
+      "related_annotation": "TVアニメ「ワールド イズ ダンシング」OP放映2日前——Spotify月間リスナーが2,589,365人（+136,814・4.13σ）の新高値",
+      "detected_at": "2026-07-02T16:15:02.985867+00:00"
     }
   ]
 }

@@ -3581,6 +3581,47 @@
       "ytm_subscribers": 20200000,
       "ytm_monthly_listeners": 168000000,
       "ytm_total_views": 12444560713
+    },
+    {
+      "date": "2026-07-02",
+      "monthly_listeners": 69217559,
+      "collected_at": "2026-07-02T16:10:01.342413+00:00",
+      "spotify_followers": 48345774,
+      "youtube_subscribers": 20200000,
+      "youtube_total_views": 12445064981,
+      "youtube_video_count": 40,
+      "top_cities": [
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1031630
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 1011871
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 890973
+        },
+        {
+          "city": "Dallas",
+          "country": "US",
+          "listeners": 774031
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 750986
+        }
+      ],
+      "lastfm_listeners": 5186639,
+      "lastfm_playcount": 1054501505,
+      "ytm_subscribers": 20200000,
+      "ytm_monthly_listeners": 168000000,
+      "ytm_total_views": 12444560713
     }
   ],
   "annotations": [
@@ -3773,14 +3814,29 @@
         "subscribers": "155M"
       },
       {
+        "name": "Baby Keem",
+        "browse_id": "UCtWW-fcdt2gOE6mGHf-_dlw",
+        "subscribers": "5.96M"
+      },
+      {
         "name": "J. Cole",
         "browse_id": "UC0ajkOzj8xE3Gs3LHCE243A",
         "subscribers": "116M"
       },
       {
-        "name": "Baby Keem",
-        "browse_id": "UCtWW-fcdt2gOE6mGHf-_dlw",
-        "subscribers": "5.96M"
+        "name": "Kid Cudi",
+        "browse_id": "UCo2-dPLJcpbZK84FIt0vD-w",
+        "subscribers": "26.4M"
+      },
+      {
+        "name": "Vince Staples",
+        "browse_id": "UCCn7DeREpok-P8lDnYkyZWA",
+        "subscribers": "2.61M"
+      },
+      {
+        "name": "Big Sean",
+        "browse_id": "UCm3ai8dGs4olHioc_xL3IXA",
+        "subscribers": "49.6M"
       },
       {
         "name": "Isaiah Rashad",
@@ -3793,29 +3849,14 @@
         "subscribers": "33.9M"
       },
       {
-        "name": "Kid Cudi",
-        "browse_id": "UCo2-dPLJcpbZK84FIt0vD-w",
-        "subscribers": "26.4M"
-      },
-      {
-        "name": "Big Sean",
-        "browse_id": "UCm3ai8dGs4olHioc_xL3IXA",
-        "subscribers": "49.6M"
-      },
-      {
         "name": "Frank Ocean",
         "browse_id": "UCETYiBLjt2v-pcKSgf8pe6g",
         "subscribers": "30M"
       },
       {
-        "name": "Vince Staples",
-        "browse_id": "UCCn7DeREpok-P8lDnYkyZWA",
-        "subscribers": "2.61M"
-      },
-      {
-        "name": "Tyler, The Creator",
-        "browse_id": "UCo1DYcm1IZ9v3UPkpiAcgtg",
-        "subscribers": "100M"
+        "name": "ScHoolboy Q",
+        "browse_id": "UC40b2qG4-4d2kwseUrMIW1Q",
+        "subscribers": "3.75M"
       }
     ],
     "ytm_top_songs": [
@@ -4325,6 +4366,12 @@
           "views": 104920144,
           "likes": 928480,
           "comments": 2972
+        },
+        {
+          "date": "2026-07-02",
+          "views": 104987081,
+          "likes": 928838,
+          "comments": 2974
         }
       ]
     },
@@ -4810,6 +4857,12 @@
           "views": 404880897,
           "likes": 3926877,
           "comments": 44493
+        },
+        {
+          "date": "2026-07-02",
+          "views": 405111596,
+          "likes": 3928141,
+          "comments": 44515
         }
       ]
     },
@@ -5295,6 +5348,12 @@
           "views": 209823338,
           "likes": 1620647,
           "comments": 5391
+        },
+        {
+          "date": "2026-07-02",
+          "views": 209997910,
+          "likes": 1621359,
+          "comments": 5390
         }
       ]
     },
@@ -5780,6 +5839,12 @@
           "views": 193353851,
           "likes": 1216675,
           "comments": 9846
+        },
+        {
+          "date": "2026-07-02",
+          "views": 193440519,
+          "likes": 1216993,
+          "comments": 9853
         }
       ]
     },
@@ -6265,6 +6330,12 @@
           "views": 334876214,
           "likes": 2393135,
           "comments": 4746
+        },
+        {
+          "date": "2026-07-02",
+          "views": 335041261,
+          "likes": 2393921,
+          "comments": 4747
         }
       ]
     }
@@ -6497,6 +6568,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-01T16:27:07.411194+00:00"
+    },
+    {
+      "date": "2026-07-02",
+      "metric": "youtube_total_views",
+      "value": 12445064981,
+      "baseline_mean": 12338107138.7,
+      "baseline_stddev": 41952317.3,
+      "delta": 106957842,
+      "score": 2.55,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-02T16:10:02.804287+00:00"
     }
   ]
 }

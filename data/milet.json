@@ -3281,6 +3281,47 @@
       "ytm_subscribers": 881000,
       "ytm_monthly_listeners": 5740000,
       "ytm_total_views": 641599602
+    },
+    {
+      "date": "2026-07-02",
+      "monthly_listeners": 2181183,
+      "collected_at": "2026-07-02T16:17:15.110887+00:00",
+      "spotify_followers": 1058687,
+      "youtube_subscribers": 881000,
+      "youtube_total_views": 661846485,
+      "youtube_video_count": 296,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 55651
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 49690
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 44342
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 31227
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 23754
+        }
+      ],
+      "lastfm_listeners": 167866,
+      "lastfm_playcount": 5843285,
+      "ytm_subscribers": 881000,
+      "ytm_monthly_listeners": 5740000,
+      "ytm_total_views": 641599602
     }
   ],
   "annotations": [
@@ -3449,6 +3490,16 @@
         "subscribers": "1.53M"
       },
       {
+        "name": "Utada",
+        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
+        "subscribers": "18.6M"
+      },
+      {
+        "name": "LiSA",
+        "browse_id": "UCt4rbOMLsVxeMsoaRdTfr5A",
+        "subscribers": "27.7M"
+      },
+      {
         "name": "Mika Nakashima",
         "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
         "subscribers": "5.01M"
@@ -3459,24 +3510,14 @@
         "subscribers": "5.58M"
       },
       {
-        "name": "LiSA",
-        "browse_id": "UCt4rbOMLsVxeMsoaRdTfr5A",
-        "subscribers": "27.7M"
+        "name": "Miwa",
+        "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
+        "subscribers": "1.99M"
       },
       {
-        "name": "Uru",
-        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "28.8M"
-      },
-      {
-        "name": "Utada",
-        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "18.6M"
-      },
-      {
-        "name": "ATARAYO",
-        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
-        "subscribers": "1.9M"
+        "name": "Ai Higuchi",
+        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
+        "subscribers": "14.9M"
       }
     ],
     "ytm_top_songs": [
@@ -4476,6 +4517,12 @@
           "views": 8993452,
           "likes": 63099,
           "comments": 214
+        },
+        {
+          "date": "2026-07-02",
+          "views": 9001708,
+          "likes": 63151,
+          "comments": 214
         }
       ]
     },
@@ -4948,6 +4995,12 @@
           "date": "2026-07-01",
           "views": 2022917,
           "likes": 13856,
+          "comments": 109
+        },
+        {
+          "date": "2026-07-02",
+          "views": 2024058,
+          "likes": 13857,
           "comments": 109
         }
       ]
@@ -5428,6 +5481,12 @@
           "views": 7368899,
           "likes": 53162,
           "comments": 69
+        },
+        {
+          "date": "2026-07-02",
+          "views": 7372040,
+          "likes": 53172,
+          "comments": 69
         }
       ]
     },
@@ -5835,6 +5894,12 @@
           "views": 1738545,
           "likes": 26991,
           "comments": 311
+        },
+        {
+          "date": "2026-07-02",
+          "views": 1745447,
+          "likes": 27044,
+          "comments": 311
         }
       ]
     },
@@ -5910,6 +5975,12 @@
           "date": "2026-07-01",
           "views": 13887405,
           "likes": 135177,
+          "comments": 2316
+        },
+        {
+          "date": "2026-07-02",
+          "views": 13905524,
+          "likes": 135373,
           "comments": 2316
         }
       ]
@@ -6047,6 +6118,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-01T16:34:40.200298+00:00"
+    },
+    {
+      "date": "2026-07-02",
+      "metric": "youtube_total_views",
+      "value": 661846485,
+      "baseline_mean": 658480713.2,
+      "baseline_stddev": 1303800.1,
+      "delta": 3365771,
+      "score": 2.58,
+      "type": "annotated",
+      "related_annotation": "デビュー前の未発表曲「海原」MV(Live Recording ver.)をプレミア公開",
+      "detected_at": "2026-07-02T16:17:16.601898+00:00"
     }
   ]
 }

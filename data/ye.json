@@ -3569,6 +3569,47 @@
       "ytm_subscribers": 12500000,
       "ytm_monthly_listeners": 269000000,
       "ytm_total_views": 9868559555
+    },
+    {
+      "date": "2026-07-02",
+      "monthly_listeners": 10920091,
+      "collected_at": "2026-07-02T16:10:34.282972+00:00",
+      "spotify_followers": 745992,
+      "youtube_subscribers": 12500000,
+      "youtube_total_views": 9871626301,
+      "youtube_video_count": 41,
+      "top_cities": [
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 183532
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 174951
+        },
+        {
+          "city": "Istanbul",
+          "country": "TR",
+          "listeners": 151600
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 151254
+        },
+        {
+          "city": "New York City",
+          "country": "US",
+          "listeners": 140113
+        }
+      ],
+      "lastfm_listeners": 514155,
+      "lastfm_playcount": 9362485,
+      "ytm_subscribers": 12500000,
+      "ytm_monthly_listeners": 269000000,
+      "ytm_total_views": 9868559555
     }
   ],
   "annotations": [
@@ -3822,34 +3863,14 @@
         "subscribers": "155M"
       },
       {
-        "name": "J. Cole",
-        "browse_id": "UC0ajkOzj8xE3Gs3LHCE243A",
-        "subscribers": "116M"
-      },
-      {
-        "name": "¥$",
-        "browse_id": "UCI-4sezWoZmtJXoW7E5k7Zw",
-        "subscribers": "83.7K"
-      },
-      {
         "name": "Baby Keem",
         "browse_id": "UCtWW-fcdt2gOE6mGHf-_dlw",
         "subscribers": "5.96M"
       },
       {
-        "name": "Kendrick Lamar",
-        "browse_id": "UCprAFmT0C6O4X0ToEXpeFTQ",
-        "subscribers": "168M"
-      },
-      {
-        "name": "Kid Cudi",
-        "browse_id": "UCo2-dPLJcpbZK84FIt0vD-w",
-        "subscribers": "26.4M"
-      },
-      {
-        "name": "Tyler, The Creator",
-        "browse_id": "UCo1DYcm1IZ9v3UPkpiAcgtg",
-        "subscribers": "100M"
+        "name": "¥$",
+        "browse_id": "UCI-4sezWoZmtJXoW7E5k7Zw",
+        "subscribers": "83.8K"
       },
       {
         "name": "Big Sean",
@@ -3857,9 +3878,29 @@
         "subscribers": "49.6M"
       },
       {
-        "name": "ScHoolboy Q",
-        "browse_id": "UC40b2qG4-4d2kwseUrMIW1Q",
-        "subscribers": "3.75M"
+        "name": "J. Cole",
+        "browse_id": "UC0ajkOzj8xE3Gs3LHCE243A",
+        "subscribers": "116M"
+      },
+      {
+        "name": "Jay Rock",
+        "browse_id": "UCiKRoVXKO9Fzrjo4eO-XDDQ",
+        "subscribers": "2.47M"
+      },
+      {
+        "name": "Travis Scott",
+        "browse_id": "UCf_gP4AMRSgAfyzbkeS9k4g",
+        "subscribers": "125M"
+      },
+      {
+        "name": "Kendrick Lamar",
+        "browse_id": "UCprAFmT0C6O4X0ToEXpeFTQ",
+        "subscribers": "168M"
+      },
+      {
+        "name": "Tyler, The Creator",
+        "browse_id": "UCo1DYcm1IZ9v3UPkpiAcgtg",
+        "subscribers": "100M"
       }
     ],
     "ytm_top_songs": [
@@ -4589,6 +4630,12 @@
           "views": 147408360,
           "likes": 1460942,
           "comments": 17159
+        },
+        {
+          "date": "2026-07-02",
+          "views": 147524078,
+          "likes": 1461857,
+          "comments": 17168
         }
       ]
     },
@@ -5074,6 +5121,12 @@
           "views": 73165027,
           "likes": 659559,
           "comments": 3654
+        },
+        {
+          "date": "2026-07-02",
+          "views": 73254974,
+          "likes": 660107,
+          "comments": 3655
         }
       ]
     },
@@ -5553,6 +5606,12 @@
           "views": 199644023,
           "likes": 1511431,
           "comments": 5723
+        },
+        {
+          "date": "2026-07-02",
+          "views": 199766565,
+          "likes": 1511944,
+          "comments": 5728
         }
       ]
     },
@@ -5984,6 +6043,12 @@
           "views": 46197311,
           "likes": 428991,
           "comments": 2392
+        },
+        {
+          "date": "2026-07-02",
+          "views": 46227466,
+          "likes": 429249,
+          "comments": 2394
         }
       ]
     },
@@ -6295,6 +6360,12 @@
           "views": 162377091,
           "likes": 1696627,
           "comments": 44300
+        },
+        {
+          "date": "2026-07-02",
+          "views": 162506123,
+          "likes": 1697324,
+          "comments": 44312
         }
       ]
     },
@@ -6729,6 +6800,18 @@
       "type": "annotated",
       "related_annotation": "タンパ・レイモンドジェームズスタジアム公演 Day2",
       "detected_at": "2026-07-01T16:27:41.115506+00:00"
+    },
+    {
+      "date": "2026-07-02",
+      "metric": "monthly_listeners",
+      "value": 10920091,
+      "baseline_mean": 8988726.9,
+      "baseline_stddev": 948857.8,
+      "delta": 1931364,
+      "score": 2.04,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-02T16:10:35.536844+00:00"
     }
   ]
 }
