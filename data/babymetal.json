@@ -3319,6 +3319,47 @@
       "ytm_subscribers": 3640000,
       "ytm_monthly_listeners": 5320000,
       "ytm_total_views": 1081033206
+    },
+    {
+      "date": "2026-07-03",
+      "monthly_listeners": 3676885,
+      "collected_at": "2026-07-03T16:07:24.925943+00:00",
+      "spotify_followers": 3023678,
+      "youtube_subscribers": 3640000,
+      "youtube_total_views": 1089836105,
+      "youtube_video_count": 352,
+      "top_cities": [
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 65612
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 61327
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 53894
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 50075
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 49229
+        }
+      ],
+      "lastfm_listeners": 989715,
+      "lastfm_playcount": 60227043,
+      "ytm_subscribers": 3640000,
+      "ytm_monthly_listeners": 4540000,
+      "ytm_total_views": 1081033206
     }
   ],
   "annotations": [
@@ -3629,52 +3670,52 @@
       {
         "name": "Not Secured,Loose Ends",
         "browse_id": "UCICdhvSPJOnni7CIePx30DA",
-        "subscribers": "933"
-      },
-      {
-        "name": "BAND-MAID",
-        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
-        "subscribers": "904K"
+        "subscribers": "934"
       },
       {
         "name": "Avenged Sevenfold",
         "browse_id": "UCJls2FMEbRYxi28jcuKe2vA",
-        "subscribers": "20.5M"
+        "subscribers": "20.2M"
       },
       {
-        "name": "DragonForce",
-        "browse_id": "UCDademfIkaXZGd2Ww-S60Tw",
-        "subscribers": "2.91M"
+        "name": "NEMOPHILA",
+        "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
+        "subscribers": "302K"
       },
       {
         "name": "the GazettE",
         "browse_id": "UCXitUzRS2J4mznhd6qYLaHw",
-        "subscribers": "250K"
+        "subscribers": "248K"
       },
       {
         "name": "Poppy",
         "browse_id": "UCwJcp-qqo0pVvvRwPXIXKyQ",
-        "subscribers": "3.91M"
+        "subscribers": "4.53M"
+      },
+      {
+        "name": "DragonForce",
+        "browse_id": "UCDademfIkaXZGd2Ww-S60Tw",
+        "subscribers": "2.48M"
       },
       {
         "name": "MAXIMUM THE HORMONE",
         "browse_id": "UC10viXnr5P30UrEb36Y984g",
-        "subscribers": "2.2M"
+        "subscribers": "2.05M"
+      },
+      {
+        "name": "BAND-MAID",
+        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
+        "subscribers": "1.14M"
+      },
+      {
+        "name": "Yosei Teikoku",
+        "browse_id": "UCT6NZ6tzD-t8hu1XsKWe8iQ",
+        "subscribers": "33.2K"
       },
       {
         "name": "ATARASHII GAKKO!",
         "browse_id": "UCGjPxZv5YraYh_EJk1sH8Tg",
-        "subscribers": "5.73M"
-      },
-      {
-        "name": "Bloodywood",
-        "browse_id": "UC-KLHz1pX0nPbzMmz5o61Fg",
-        "subscribers": "441K"
-      },
-      {
-        "name": "Sakura Gakuin",
-        "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
-        "subscribers": "7.71K"
+        "subscribers": "4.89M"
       }
     ],
     "ytm_top_songs": [
@@ -4178,6 +4219,12 @@
           "views": 7848799,
           "likes": 88503,
           "comments": 274
+        },
+        {
+          "date": "2026-07-03",
+          "views": 7874752,
+          "likes": 88743,
+          "comments": 276
         }
       ]
     },
@@ -4657,6 +4704,12 @@
           "views": 4943646,
           "likes": 98023,
           "comments": 536
+        },
+        {
+          "date": "2026-07-03",
+          "views": 4958050,
+          "likes": 98245,
+          "comments": 536
         }
       ]
     },
@@ -5135,6 +5188,12 @@
           "date": "2026-07-02",
           "views": 5218933,
           "likes": 72624,
+          "comments": 237
+        },
+        {
+          "date": "2026-07-03",
+          "views": 5232950,
+          "likes": 72753,
           "comments": 237
         }
       ]
@@ -6033,6 +6092,12 @@
           "views": 1608952,
           "likes": 21573,
           "comments": 75
+        },
+        {
+          "date": "2026-07-03",
+          "views": 1614959,
+          "likes": 21626,
+          "comments": 76
         }
       ]
     },
@@ -6158,6 +6223,12 @@
           "date": "2026-07-02",
           "views": 809128,
           "likes": 12328,
+          "comments": 72
+        },
+        {
+          "date": "2026-07-03",
+          "views": 810906,
+          "likes": 12350,
           "comments": 72
         }
       ]
@@ -6595,6 +6666,18 @@
       "type": "annotated",
       "related_annotation": "YouTube Data APIカウンター凍結（6/28〜6/29・1,089,836,105固定）継続アーティファクト（5.39σ）",
       "detected_at": "2026-07-02T16:17:00.294535+00:00"
+    },
+    {
+      "date": "2026-07-03",
+      "metric": "youtube_total_views",
+      "value": 1089836105,
+      "baseline_mean": 1080669496.7,
+      "baseline_stddev": 4099431.9,
+      "delta": 9166608,
+      "score": 2.24,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-03T16:07:26.500615+00:00"
     }
   ]
 }

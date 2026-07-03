@@ -3319,6 +3319,47 @@
       "ytm_subscribers": 1240000,
       "ytm_monthly_listeners": 4630000,
       "ytm_total_views": 1504647828
+    },
+    {
+      "date": "2026-07-03",
+      "monthly_listeners": 2083212,
+      "collected_at": "2026-07-03T16:08:24.027982+00:00",
+      "spotify_followers": 632377,
+      "youtube_subscribers": 1240000,
+      "youtube_total_views": 1605563936,
+      "youtube_video_count": 490,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 90902
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 87536
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65020
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 33505
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 31154
+        }
+      ],
+      "lastfm_listeners": 74214,
+      "lastfm_playcount": 1399119,
+      "ytm_subscribers": 1240000,
+      "ytm_monthly_listeners": 6830000,
+      "ytm_total_views": 1509397767
     }
   ],
   "metadata": {
@@ -3355,32 +3396,32 @@
       {
         "name": "INI",
         "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
-        "subscribers": "5.9M"
+        "subscribers": "8.46M"
       },
       {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "1.41M"
+        "subscribers": "2.22M"
       },
       {
         "name": "Nissy",
         "browse_id": "UCkv76wCrBDQNn7ctcbn6Qeg",
-        "subscribers": "2.59M"
+        "subscribers": "2.15M"
       },
       {
         "name": "King & Prince",
         "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "5.17M"
-      },
-      {
-        "name": "NiziU",
-        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "5.05M"
+        "subscribers": "4.57M"
       },
       {
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "1.18M"
+        "subscribers": "1.28M"
+      },
+      {
+        "name": "NiziU",
+        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
+        "subscribers": "4.77M"
       },
       {
         "name": "Number_i",
@@ -3390,7 +3431,7 @@
       {
         "name": "HANA",
         "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "11.6M"
+        "subscribers": "12M"
       }
     ],
     "ytm_top_songs": [
@@ -4132,6 +4173,12 @@
           "views": 2414314,
           "likes": 18230,
           "comments": 764
+        },
+        {
+          "date": "2026-07-03",
+          "views": 2423275,
+          "likes": 18240,
+          "comments": 764
         }
       ]
     },
@@ -4611,6 +4658,12 @@
           "views": 19144088,
           "likes": 90918,
           "comments": 2046
+        },
+        {
+          "date": "2026-07-03",
+          "views": 19168460,
+          "likes": 90975,
+          "comments": 2046
         }
       ]
     },
@@ -5084,6 +5137,12 @@
           "views": 3133841,
           "likes": 21266,
           "comments": 632
+        },
+        {
+          "date": "2026-07-03",
+          "views": 3139303,
+          "likes": 21277,
+          "comments": 632
         }
       ]
     },
@@ -5383,6 +5442,12 @@
           "views": 2853986,
           "likes": 21092,
           "comments": 535
+        },
+        {
+          "date": "2026-07-03",
+          "views": 2858605,
+          "likes": 21100,
+          "comments": 534
         }
       ]
     },
@@ -5896,6 +5961,12 @@
           "views": 1431434,
           "likes": 25101,
           "comments": 1391
+        },
+        {
+          "date": "2026-07-03",
+          "views": 1437740,
+          "likes": 25111,
+          "comments": 1391
         }
       ]
     },
@@ -6338,6 +6409,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-29T17:07:18.148971+00:00"
+    },
+    {
+      "date": "2026-07-03",
+      "metric": "ytm_monthly_listeners",
+      "value": 6830000,
+      "baseline_mean": 4894333.3,
+      "baseline_stddev": 426963.6,
+      "delta": 1935666,
+      "score": 4.53,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-03T16:08:25.778753+00:00"
+    },
+    {
+      "date": "2026-07-03",
+      "metric": "youtube_total_views",
+      "value": 1605563936,
+      "baseline_mean": 1580971030.2,
+      "baseline_stddev": 11568235.2,
+      "delta": 24592905,
+      "score": 2.13,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-03T16:08:25.778753+00:00"
     }
   ]
 }
