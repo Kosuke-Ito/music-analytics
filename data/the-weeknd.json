@@ -3663,6 +3663,47 @@
       "ytm_subscribers": 39800000,
       "ytm_monthly_listeners": 224000000,
       "ytm_total_views": 37081466047
+    },
+    {
+      "date": "2026-07-04",
+      "monthly_listeners": 113904786,
+      "collected_at": "2026-07-04T15:08:22.008310+00:00",
+      "spotify_followers": 124514216,
+      "youtube_subscribers": 39800000,
+      "youtube_total_views": 37090873902,
+      "youtube_video_count": 204,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1674786
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1511679
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1508015
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 1064808
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 970899
+        }
+      ],
+      "lastfm_listeners": 5422422,
+      "lastfm_playcount": 1155617867,
+      "ytm_subscribers": 39800000,
+      "ytm_monthly_listeners": 224000000,
+      "ytm_total_views": 37081466047
     }
   ],
   "annotations": [
@@ -3886,14 +3927,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Khalid",
-        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
-        "subscribers": "228M"
+        "name": "ZAYN",
+        "browse_id": "UCYR9erHSNBPjjNswR4FrMaw",
+        "subscribers": "54.6M"
       },
       {
-        "name": "Justin Timberlake",
-        "browse_id": "UC6VwktUsQQDCkHG1h6YftAQ",
-        "subscribers": "66.8M"
+        "name": "Bazzi",
+        "browse_id": "UCoBD_yd06t7kBn1wLGH7nzg",
+        "subscribers": "18.4M"
+      },
+      {
+        "name": "Don Toliver",
+        "browse_id": "UCSzWQmDsKG37iKN2vw1G-2Q",
+        "subscribers": "71.2M"
+      },
+      {
+        "name": "Miguel",
+        "browse_id": "UCKskshF_wMq6fCRsQY60kSg",
+        "subscribers": "21.7M"
       },
       {
         "name": "PARTYNEXTDOOR",
@@ -3901,39 +3952,29 @@
         "subscribers": "18.2M"
       },
       {
+        "name": "Khalid",
+        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
+        "subscribers": "228M"
+      },
+      {
+        "name": "Post Malone",
+        "browse_id": "UCyD3XWRK9ko-izf2nBSFitw",
+        "subscribers": "93.3M"
+      },
+      {
         "name": "Ariana Grande",
         "browse_id": "UC0076UMUgEng8HORUw_MYHA",
         "subscribers": "230M"
       },
       {
-        "name": "ZAYN",
-        "browse_id": "UCYR9erHSNBPjjNswR4FrMaw",
-        "subscribers": "56.4M"
+        "name": "Rihanna",
+        "browse_id": "UCvWtix2TtWGe9kffqnwdaMw",
+        "subscribers": "279M"
       },
       {
-        "name": "Drake",
-        "browse_id": "UCU6cE7pdJPc6DU2jSrKEsdQ",
-        "subscribers": "140M"
-      },
-      {
-        "name": "Bazzi",
-        "browse_id": "UCoBD_yd06t7kBn1wLGH7nzg",
-        "subscribers": "18.8M"
-      },
-      {
-        "name": "Post Malone",
-        "browse_id": "UCyD3XWRK9ko-izf2nBSFitw",
-        "subscribers": "96.2M"
-      },
-      {
-        "name": "Don Toliver",
-        "browse_id": "UCSzWQmDsKG37iKN2vw1G-2Q",
-        "subscribers": "73.8M"
-      },
-      {
-        "name": "Doja Cat",
-        "browse_id": "UCwgX_dLqGYna_7Fm8ecf4Ng",
-        "subscribers": "176M"
+        "name": "6LACK",
+        "browse_id": "UCgerUw6uCKCZIYvD5sz5ZNg",
+        "subscribers": "6.62M"
       }
     ],
     "ytm_top_songs": [
@@ -3954,8 +3995,8 @@
         "video_id": "J7p4bzqLvCw"
       },
       {
-        "title": "Die For You (Remix)",
-        "video_id": "AySMGpXQ1Mo"
+        "title": "Timeless",
+        "video_id": "a4O-abCXsfA"
       }
     ],
     "ytm_description": "The Weeknd is a multi-platinum, 7x Diamond certified artist who reshaped R&B and pop, making him one of the most listened-to musicians globally, with over 105 million monthly Spotify listeners. He was named “The Most Popular Artist in the World” by Guinness World Records in 2023. His album \"After Hours\" is the #1 most streamed R&B album ever, while \"Blinding Lights\" is the Diamond-certified Billboard Hot 100 song of all time. An Emmy and Oscar nominee, he has performed on major television platforms alongside a successful global tour amassing almost half a billion dollars to date. As a humanitarian, he has been the United Nations World Food Programme’s esteemed Global Goodwill Ambassador and has donated over $9 million to various causes, including significant contributions to tackle hunger in Ethiopia and Gaza."
@@ -4116,6 +4157,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-03T15:59:33.097267+00:00"
+    },
+    {
+      "date": "2026-07-04",
+      "metric": "youtube_total_views",
+      "value": 37090873902,
+      "baseline_mean": 36745871160.9,
+      "baseline_stddev": 92205861.0,
+      "delta": 345002741,
+      "score": 3.74,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-04T15:08:23.340324+00:00"
     }
   ],
   "song_performance": {
@@ -4613,6 +4666,12 @@
           "views": 590425374,
           "likes": 3886122,
           "comments": 6977
+        },
+        {
+          "date": "2026-07-04",
+          "views": 590720398,
+          "likes": 3887709,
+          "comments": 6979
         }
       ]
     },
@@ -5104,6 +5163,12 @@
           "views": 632167905,
           "likes": 4282899,
           "comments": 9436
+        },
+        {
+          "date": "2026-07-04",
+          "views": 632526325,
+          "likes": 4284941,
+          "comments": 9443
         }
       ]
     },
@@ -5601,6 +5666,12 @@
           "views": 357410101,
           "likes": 2930281,
           "comments": 7635
+        },
+        {
+          "date": "2026-07-04",
+          "views": 357709766,
+          "likes": 2932354,
+          "comments": 7643
         }
       ]
     },
@@ -6092,6 +6163,12 @@
           "views": 963517880,
           "likes": 6618909,
           "comments": 23083
+        },
+        {
+          "date": "2026-07-04",
+          "views": 963843039,
+          "likes": 6620842,
+          "comments": 23092
         }
       ]
     },
@@ -6475,6 +6552,12 @@
           "views": 144271175,
           "likes": 1152770,
           "comments": 4562
+        },
+        {
+          "date": "2026-07-04",
+          "views": 146842254,
+          "likes": 1168260,
+          "comments": 4611
         }
       ]
     },

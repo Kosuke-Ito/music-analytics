@@ -3654,6 +3654,47 @@
       "ytm_subscribers": 2440000,
       "ytm_monthly_listeners": 169000000,
       "ytm_total_views": 1878286889
+    },
+    {
+      "date": "2026-07-04",
+      "monthly_listeners": 5685003,
+      "collected_at": "2026-07-04T15:05:46.685206+00:00",
+      "spotify_followers": 2383873,
+      "youtube_subscribers": 2450000,
+      "youtube_total_views": 1896143659,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 103201
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 78784
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 67593
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 61745
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 53826
+        }
+      ],
+      "lastfm_listeners": 637760,
+      "lastfm_playcount": 22353447,
+      "ytm_subscribers": 2450000,
+      "ytm_monthly_listeners": 166000000,
+      "ytm_total_views": 1878286889
     }
   ],
   "annotations": [
@@ -4012,9 +4053,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "8.12M"
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "41.5M"
+      },
+      {
+        "name": "PEOPLE 1",
+        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
+        "subscribers": "1.03M"
+      },
+      {
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "74.7M"
       },
       {
         "name": "Vaundy",
@@ -4022,14 +4073,19 @@
         "subscribers": "20.6M"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "42.6M"
+        "name": "Tomonari Sora",
+        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
+        "subscribers": "5.81M"
       },
       {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "22.8M"
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "44.6M"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "8.12M"
       },
       {
         "name": "sakanaction",
@@ -4037,29 +4093,14 @@
         "subscribers": "83.2M"
       },
       {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "1.07M"
+        "name": "Sambomaster",
+        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
+        "subscribers": "4.11M"
       },
       {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "2.8M"
-      },
-      {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "45.5M"
-      },
-      {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "90.2M"
-      },
-      {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "76.1M"
+        "name": "ano",
+        "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
+        "subscribers": "4.37M"
       }
     ],
     "ytm_top_songs": [
@@ -4506,6 +4547,18 @@
       "type": "annotated",
       "related_annotation": "JAPAN JAM特番配信（6/27）後のYouTube総再生数、高水準で横ばい継続（2.45σ）",
       "detected_at": "2026-07-03T15:56:57.785845+00:00"
+    },
+    {
+      "date": "2026-07-04",
+      "metric": "ytm_monthly_listeners",
+      "value": 166000000,
+      "baseline_mean": 131566666.7,
+      "baseline_stddev": 11982440.9,
+      "delta": 34433333,
+      "score": 2.87,
+      "type": "annotated",
+      "related_annotation": "JAPAN JAM特番配信（6/27）後のYouTube総再生数、高水準で横ばい継続（2.45σ）",
+      "detected_at": "2026-07-04T15:05:47.987784+00:00"
     }
   ],
   "song_performance": {
@@ -5003,6 +5056,12 @@
           "views": 23267985,
           "likes": 292849,
           "comments": 992
+        },
+        {
+          "date": "2026-07-04",
+          "views": 23326580,
+          "likes": 293495,
+          "comments": 997
         }
       ]
     },
@@ -5500,6 +5559,12 @@
           "views": 20262427,
           "likes": 265393,
           "comments": 1029
+        },
+        {
+          "date": "2026-07-04",
+          "views": 20306492,
+          "likes": 265872,
+          "comments": 1031
         }
       ]
     },
@@ -5997,6 +6062,12 @@
           "views": 7408224,
           "likes": 97050,
           "comments": 1127
+        },
+        {
+          "date": "2026-07-04",
+          "views": 7420335,
+          "likes": 97142,
+          "comments": 1129
         }
       ]
     },
@@ -6494,6 +6565,12 @@
           "views": 12402546,
           "likes": 114636,
           "comments": 490
+        },
+        {
+          "date": "2026-07-04",
+          "views": 12412054,
+          "likes": 114696,
+          "comments": 491
         }
       ]
     },
@@ -6870,6 +6947,12 @@
           "date": "2026-07-03",
           "views": 5854202,
           "likes": 54638,
+          "comments": 193
+        },
+        {
+          "date": "2026-07-04",
+          "views": 5857471,
+          "likes": 54658,
           "comments": 193
         }
       ]
