@@ -3401,6 +3401,47 @@
       "ytm_subscribers": 1250000,
       "ytm_monthly_listeners": 6830000,
       "ytm_total_views": 1509397767
+    },
+    {
+      "date": "2026-07-05",
+      "monthly_listeners": 2114727,
+      "collected_at": "2026-07-05T15:24:10.217818+00:00",
+      "spotify_followers": 633948,
+      "youtube_subscribers": 1250000,
+      "youtube_total_views": 1605563936,
+      "youtube_video_count": 490,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 91647
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 87614
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65141
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 33732
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 31920
+        }
+      ],
+      "lastfm_listeners": 74332,
+      "lastfm_playcount": 1402669,
+      "ytm_subscribers": 1250000,
+      "ytm_monthly_listeners": 6830000,
+      "ytm_total_views": 1509397767
     }
   ],
   "metadata": {
@@ -3435,29 +3476,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "MAZZEL",
-        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "2.22M"
-      },
-      {
         "name": "INI",
         "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
         "subscribers": "8.46M"
       },
       {
-        "name": "Nissy",
-        "browse_id": "UCkv76wCrBDQNn7ctcbn6Qeg",
-        "subscribers": "2.01M"
-      },
-      {
-        "name": "NiziU",
-        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "4.59M"
-      },
-      {
-        "name": "King & Prince",
-        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "4.38M"
+        "name": "MAZZEL",
+        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
+        "subscribers": "2.22M"
       },
       {
         "name": "Number_i",
@@ -3465,14 +3491,29 @@
         "subscribers": "1.25M"
       },
       {
-        "name": "HANA",
-        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "12M"
+        "name": "NiziU",
+        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
+        "subscribers": "4.59M"
+      },
+      {
+        "name": "Nissy",
+        "browse_id": "UCkv76wCrBDQNn7ctcbn6Qeg",
+        "subscribers": "2.01M"
       },
       {
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
         "subscribers": "1.25M"
+      },
+      {
+        "name": "King & Prince",
+        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
+        "subscribers": "4.38M"
+      },
+      {
+        "name": "HANA",
+        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
+        "subscribers": "12M"
       }
     ],
     "ytm_top_songs": [
@@ -4237,6 +4278,12 @@
           "views": 2432003,
           "likes": 18257,
           "comments": 764
+        },
+        {
+          "date": "2026-07-05",
+          "views": 2440908,
+          "likes": 18277,
+          "comments": 765
         }
       ]
     },
@@ -4728,6 +4775,12 @@
           "views": 19194634,
           "likes": 91056,
           "comments": 2047
+        },
+        {
+          "date": "2026-07-05",
+          "views": 19222583,
+          "likes": 91131,
+          "comments": 2048
         }
       ]
     },
@@ -5212,6 +5265,12 @@
           "date": "2026-07-04",
           "views": 3144546,
           "likes": 21283,
+          "comments": 632
+        },
+        {
+          "date": "2026-07-05",
+          "views": 3150140,
+          "likes": 21301,
           "comments": 632
         }
       ]
@@ -6043,6 +6102,12 @@
           "views": 1443614,
           "likes": 25121,
           "comments": 1391
+        },
+        {
+          "date": "2026-07-05",
+          "views": 1449827,
+          "likes": 25143,
+          "comments": 1391
         }
       ]
     },
@@ -6276,6 +6341,12 @@
           "views": 636719,
           "likes": 14666,
           "comments": 551
+        },
+        {
+          "date": "2026-07-05",
+          "views": 688168,
+          "likes": 15114,
+          "comments": 583
         }
       ]
     }
@@ -6532,6 +6603,18 @@
       "type": "annotated",
       "related_annotation": "10thシングル「Missing」正式リリース後チャート席巻でYouTube Music月間リスナー急増",
       "detected_at": "2026-07-04T15:16:44.056859+00:00"
+    },
+    {
+      "date": "2026-07-05",
+      "metric": "ytm_monthly_listeners",
+      "value": 6830000,
+      "baseline_mean": 4965666.7,
+      "baseline_stddev": 613898.4,
+      "delta": 1864333,
+      "score": 3.04,
+      "type": "annotated",
+      "related_annotation": "10thシングル「Missing」正式リリース後チャート席巻でYouTube Music月間リスナー急増",
+      "detected_at": "2026-07-05T15:24:12.525830+00:00"
     }
   ]
 }

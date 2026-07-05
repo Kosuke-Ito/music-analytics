@@ -3410,6 +3410,47 @@
       "ytm_subscribers": 593000,
       "ytm_monthly_listeners": 4480000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-05",
+      "monthly_listeners": 2665708,
+      "collected_at": "2026-07-05T15:21:20.189959+00:00",
+      "spotify_followers": 1997501,
+      "youtube_subscribers": 593000,
+      "youtube_total_views": 496513406,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 143409
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 135938
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 94250
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 54158
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 45876
+        }
+      ],
+      "lastfm_listeners": 7582,
+      "lastfm_playcount": 441249,
+      "ytm_subscribers": 593000,
+      "ytm_monthly_listeners": 4480000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3690,6 +3731,16 @@
         "subscribers": "3.36M"
       },
       {
+        "name": "sumika",
+        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
+        "subscribers": "2.99M"
+      },
+      {
+        "name": "Tele",
+        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
+        "subscribers": "430K"
+      },
+      {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
         "subscribers": "14.3M"
@@ -3700,19 +3751,9 @@
         "subscribers": "2.28M"
       },
       {
-        "name": "Koresawa",
-        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "5.26M"
-      },
-      {
-        "name": "sumika",
-        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
-        "subscribers": "2.99M"
-      },
-      {
-        "name": "Tele",
-        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "430K"
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "90.2M"
       },
       {
         "name": "Hump Back",
@@ -3725,14 +3766,14 @@
         "subscribers": "615K"
       },
       {
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "5.26M"
+      },
+      {
         "name": "WurtS",
         "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
         "subscribers": "8.12M"
-      },
-      {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "90.2M"
       }
     ],
     "ytm_top_songs": [
@@ -4241,6 +4282,12 @@
           "views": 12226178,
           "likes": 69890,
           "comments": 143
+        },
+        {
+          "date": "2026-07-05",
+          "views": 12244733,
+          "likes": 69991,
+          "comments": 143
         }
       ]
     },
@@ -4726,6 +4773,12 @@
           "views": 24668310,
           "likes": 89497,
           "comments": 170
+        },
+        {
+          "date": "2026-07-05",
+          "views": 24693483,
+          "likes": 89624,
+          "comments": 170
         }
       ]
     },
@@ -5199,6 +5252,12 @@
           "views": 16857691,
           "likes": 61968,
           "comments": 116
+        },
+        {
+          "date": "2026-07-05",
+          "views": 16876942,
+          "likes": 62042,
+          "comments": 116
         }
       ]
     },
@@ -5594,6 +5653,12 @@
           "views": 45129537,
           "likes": 139686,
           "comments": 238
+        },
+        {
+          "date": "2026-07-05",
+          "views": 45152246,
+          "likes": 139786,
+          "comments": 239
         }
       ]
     },
@@ -5970,6 +6035,12 @@
           "views": 14282995,
           "likes": 83366,
           "comments": 446
+        },
+        {
+          "date": "2026-07-05",
+          "views": 14332957,
+          "likes": 83725,
+          "comments": 452
         }
       ]
     },
@@ -6777,6 +6848,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-04T15:13:51.261640+00:00"
+    },
+    {
+      "date": "2026-07-05",
+      "metric": "monthly_listeners",
+      "value": 2665708,
+      "baseline_mean": 2477421.6,
+      "baseline_stddev": 66163.4,
+      "delta": 188286,
+      "score": 2.85,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-05T15:21:21.678433+00:00"
     }
   ]
 }

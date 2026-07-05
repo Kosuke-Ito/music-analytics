@@ -3704,6 +3704,47 @@
       "ytm_subscribers": 39800000,
       "ytm_monthly_listeners": 224000000,
       "ytm_total_views": 37081466047
+    },
+    {
+      "date": "2026-07-05",
+      "monthly_listeners": 113909627,
+      "collected_at": "2026-07-05T15:16:01.653966+00:00",
+      "spotify_followers": 124642138,
+      "youtube_subscribers": 39800000,
+      "youtube_total_views": 37090873902,
+      "youtube_video_count": 204,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1656062
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1507695
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1500826
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 1061872
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 972268
+        }
+      ],
+      "lastfm_listeners": 5425275,
+      "lastfm_playcount": 1156508652,
+      "ytm_subscribers": 39800000,
+      "ytm_monthly_listeners": 224000000,
+      "ytm_total_views": 37081466047
     }
   ],
   "annotations": [
@@ -3914,8 +3955,8 @@
         "url": "https://www.last.fm/music/PARTYNEXTDOOR"
       },
       {
-        "name": "Don Toliver",
-        "url": "https://www.last.fm/music/Don+Toliver"
+        "name": "Majid Jordan",
+        "url": "https://www.last.fm/music/Majid+Jordan"
       }
     ],
     "lastfm_tags": [
@@ -3927,39 +3968,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "ZAYN",
-        "browse_id": "UCYR9erHSNBPjjNswR4FrMaw",
-        "subscribers": "54.6M"
-      },
-      {
-        "name": "Bazzi",
-        "browse_id": "UCoBD_yd06t7kBn1wLGH7nzg",
-        "subscribers": "18.4M"
-      },
-      {
-        "name": "Don Toliver",
-        "browse_id": "UCSzWQmDsKG37iKN2vw1G-2Q",
-        "subscribers": "71.2M"
-      },
-      {
-        "name": "Miguel",
-        "browse_id": "UCKskshF_wMq6fCRsQY60kSg",
-        "subscribers": "21.7M"
-      },
-      {
-        "name": "PARTYNEXTDOOR",
-        "browse_id": "UCV8G0JqlvVKkHxNyeog8Ftg",
-        "subscribers": "18.2M"
-      },
-      {
-        "name": "Khalid",
-        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
-        "subscribers": "228M"
-      },
-      {
-        "name": "Post Malone",
-        "browse_id": "UCyD3XWRK9ko-izf2nBSFitw",
-        "subscribers": "93.3M"
+        "name": "Swae Lee",
+        "browse_id": "UCOrhSH-BVuBUAKk_rWRJFqQ",
+        "subscribers": "73.2M"
       },
       {
         "name": "Ariana Grande",
@@ -3972,9 +3983,39 @@
         "subscribers": "279M"
       },
       {
-        "name": "6LACK",
-        "browse_id": "UCgerUw6uCKCZIYvD5sz5ZNg",
-        "subscribers": "6.62M"
+        "name": "PARTYNEXTDOOR",
+        "browse_id": "UCV8G0JqlvVKkHxNyeog8Ftg",
+        "subscribers": "18.2M"
+      },
+      {
+        "name": "Bazzi",
+        "browse_id": "UCoBD_yd06t7kBn1wLGH7nzg",
+        "subscribers": "18.4M"
+      },
+      {
+        "name": "Selena Gomez",
+        "browse_id": "UCeBYRgPhy8kcRmIGQWKuqdQ",
+        "subscribers": "256M"
+      },
+      {
+        "name": "Post Malone",
+        "browse_id": "UCyD3XWRK9ko-izf2nBSFitw",
+        "subscribers": "93.3M"
+      },
+      {
+        "name": "ZAYN",
+        "browse_id": "UCYR9erHSNBPjjNswR4FrMaw",
+        "subscribers": "54.6M"
+      },
+      {
+        "name": "Khalid",
+        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
+        "subscribers": "228M"
+      },
+      {
+        "name": "Doja Cat",
+        "browse_id": "UCwgX_dLqGYna_7Fm8ecf4Ng",
+        "subscribers": "174M"
       }
     ],
     "ytm_top_songs": [
@@ -4169,6 +4210,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-04T15:08:23.340324+00:00"
+    },
+    {
+      "date": "2026-07-05",
+      "metric": "youtube_total_views",
+      "value": 37090873902,
+      "baseline_mean": 36758192687.4,
+      "baseline_stddev": 110893738.2,
+      "delta": 332681214,
+      "score": 3.0,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-05T15:16:02.857912+00:00"
     }
   ],
   "song_performance": {
@@ -4672,6 +4725,12 @@
           "views": 590720398,
           "likes": 3887709,
           "comments": 6979
+        },
+        {
+          "date": "2026-07-05",
+          "views": 591020027,
+          "likes": 3889159,
+          "comments": 6985
         }
       ]
     },
@@ -5169,6 +5228,12 @@
           "views": 632526325,
           "likes": 4284941,
           "comments": 9443
+        },
+        {
+          "date": "2026-07-05",
+          "views": 632895401,
+          "likes": 4286928,
+          "comments": 9445
         }
       ]
     },
@@ -5672,6 +5737,12 @@
           "views": 357709766,
           "likes": 2932354,
           "comments": 7643
+        },
+        {
+          "date": "2026-07-05",
+          "views": 358022368,
+          "likes": 2934419,
+          "comments": 7652
         }
       ]
     },
@@ -6169,6 +6240,12 @@
           "views": 963843039,
           "likes": 6620842,
           "comments": 23092
+        },
+        {
+          "date": "2026-07-05",
+          "views": 964182706,
+          "likes": 6622744,
+          "comments": 23100
         }
       ]
     },
@@ -6558,6 +6635,12 @@
           "views": 146842254,
           "likes": 1168260,
           "comments": 4611
+        },
+        {
+          "date": "2026-07-05",
+          "views": 147036407,
+          "likes": 1169302,
+          "comments": 4614
         }
       ]
     },

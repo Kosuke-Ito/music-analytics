@@ -3398,6 +3398,47 @@
       "ytm_subscribers": 4000000,
       "ytm_monthly_listeners": 15200000,
       "ytm_total_views": 3361102002
+    },
+    {
+      "date": "2026-07-05",
+      "monthly_listeners": 4807980,
+      "collected_at": "2026-07-05T15:17:58.224674+00:00",
+      "spotify_followers": 3634971,
+      "youtube_subscribers": 4000000,
+      "youtube_total_views": 3368180000,
+      "youtube_video_count": 129,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 203247
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 147602
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 117208
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 101892
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 66030
+        }
+      ],
+      "lastfm_listeners": 256387,
+      "lastfm_playcount": 11734573,
+      "ytm_subscribers": 4000000,
+      "ytm_monthly_listeners": 15200000,
+      "ytm_total_views": 3361102002
     }
   ],
   "annotations": [
@@ -4217,6 +4258,12 @@
           "views": 8743597,
           "likes": 50268,
           "comments": 157
+        },
+        {
+          "date": "2026-07-05",
+          "views": 8798049,
+          "likes": 50518,
+          "comments": 157
         }
       ]
     },
@@ -4731,6 +4778,12 @@
           "views": 106770657,
           "likes": 366841,
           "comments": 593
+        },
+        {
+          "date": "2026-07-05",
+          "views": 106828391,
+          "likes": 367021,
+          "comments": 592
         }
       ]
     },
@@ -5395,6 +5448,12 @@
           "views": 5263459,
           "likes": 42018,
           "comments": 435
+        },
+        {
+          "date": "2026-07-05",
+          "views": 5289201,
+          "likes": 42187,
+          "comments": 436
         }
       ]
     },
@@ -5747,6 +5806,12 @@
           "date": "2026-07-04",
           "views": 71321846,
           "likes": 259674,
+          "comments": 358
+        },
+        {
+          "date": "2026-07-05",
+          "views": 71350120,
+          "likes": 259770,
           "comments": 358
         }
       ]
@@ -6161,6 +6226,12 @@
           "views": 5884700,
           "likes": 71506,
           "comments": 1041
+        },
+        {
+          "date": "2026-07-05",
+          "views": 5936073,
+          "likes": 71802,
+          "comments": 1041
         }
       ]
     },
@@ -6549,6 +6620,18 @@
       "type": "annotated",
       "related_annotation": "音楽画集『幻燈』全25曲の配信が解禁",
       "detected_at": "2026-07-04T15:10:21.610042+00:00"
+    },
+    {
+      "date": "2026-07-05",
+      "metric": "youtube_total_views",
+      "value": 3368180000,
+      "baseline_mean": 3324252634.9,
+      "baseline_stddev": 19385507.7,
+      "delta": 43927365,
+      "score": 2.27,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-05T15:18:00.155444+00:00"
     }
   ]
 }

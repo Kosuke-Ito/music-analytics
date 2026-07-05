@@ -3328,6 +3328,47 @@
       "ytm_subscribers": 37900,
       "ytm_monthly_listeners": 61800,
       "ytm_total_views": 8392546
+    },
+    {
+      "date": "2026-07-05",
+      "monthly_listeners": 45352,
+      "collected_at": "2026-07-05T15:24:27.998560+00:00",
+      "spotify_followers": 51753,
+      "youtube_subscribers": 37900,
+      "youtube_total_views": 8720816,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3153
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1124
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 743
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 742
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 461
+        }
+      ],
+      "lastfm_listeners": 24105,
+      "lastfm_playcount": 404518,
+      "ytm_subscribers": 37900,
+      "ytm_monthly_listeners": 61800,
+      "ytm_total_views": 8480403
     }
   ],
   "metadata": {
@@ -3362,19 +3403,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "ako",
-        "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "212K"
-      },
-      {
-        "name": "Lovely Summer-Chan",
-        "browse_id": "UC_wA9BfubcP2P74SPKTSV7Q",
-        "subscribers": "577K"
-      },
-      {
-        "name": "FRIENDS",
-        "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "74.7K"
+        "name": "Hikari Mitsushima",
+        "browse_id": "UCmQX9uNXRj07dI4iZcN9ZMQ",
+        "subscribers": "150K"
       },
       {
         "name": "muque",
@@ -3382,24 +3413,29 @@
         "subscribers": "438K"
       },
       {
-        "name": "WEDNESDAY CAMPANELLA",
-        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
-        "subscribers": "1.53M"
-      },
-      {
         "name": "tofubeats",
         "browse_id": "UCDsYyiCcQPwmgkDiHsaGB2A",
         "subscribers": "637K"
       },
       {
-        "name": "CAPSULE",
-        "browse_id": "UCZsrsPpiAC4-aXPXSRzFJhQ",
-        "subscribers": "807K"
+        "name": "Lovely Summer-Chan",
+        "browse_id": "UC_wA9BfubcP2P74SPKTSV7Q",
+        "subscribers": "577K"
       },
       {
         "name": "Lucky Kilimanjaro",
         "browse_id": "UCiVXhIDW-3GNIyL5wsydr1Q",
         "subscribers": "5.8M"
+      },
+      {
+        "name": "WEDNESDAY CAMPANELLA",
+        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
+        "subscribers": "1.53M"
+      },
+      {
+        "name": "CAPSULE",
+        "browse_id": "UCZsrsPpiAC4-aXPXSRzFJhQ",
+        "subscribers": "807K"
       },
       {
         "name": "DE DE MOUSE",
@@ -3410,6 +3446,11 @@
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
         "subscribers": "95.9K"
+      },
+      {
+        "name": "Skirt",
+        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
+        "subscribers": "101K"
       }
     ],
     "ytm_top_songs": [
@@ -3913,6 +3954,12 @@
           "views": 135198,
           "likes": 2661,
           "comments": 25
+        },
+        {
+          "date": "2026-07-05",
+          "views": 135574,
+          "likes": 2664,
+          "comments": 25
         }
       ]
     },
@@ -4391,6 +4438,12 @@
           "date": "2026-07-04",
           "views": 581601,
           "likes": 5353,
+          "comments": 18
+        },
+        {
+          "date": "2026-07-05",
+          "views": 582221,
+          "likes": 5356,
           "comments": 18
         }
       ]
@@ -4871,6 +4924,12 @@
           "views": 324949,
           "likes": 3481,
           "comments": 6
+        },
+        {
+          "date": "2026-07-05",
+          "views": 325254,
+          "likes": 3484,
+          "comments": 6
         }
       ]
     },
@@ -5348,6 +5407,12 @@
         {
           "date": "2026-07-04",
           "views": 56354,
+          "likes": 187,
+          "comments": 1
+        },
+        {
+          "date": "2026-07-05",
+          "views": 56464,
           "likes": 187,
           "comments": 1
         }
@@ -5828,6 +5893,12 @@
           "date": "2026-07-04",
           "views": 124976,
           "likes": 1586,
+          "comments": 14
+        },
+        {
+          "date": "2026-07-05",
+          "views": 125256,
+          "likes": 1588,
           "comments": 14
         }
       ]
@@ -6435,6 +6506,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-23T16:39:49.120989+00:00"
+    },
+    {
+      "date": "2026-07-05",
+      "metric": "youtube_total_views",
+      "value": 8720816,
+      "baseline_mean": 8563675.9,
+      "baseline_stddev": 68527.2,
+      "delta": 157140,
+      "score": 2.29,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-05T15:24:29.529151+00:00"
     }
   ]
 }
