@@ -3743,6 +3743,47 @@
       "ytm_subscribers": 85000000,
       "ytm_monthly_listeners": 225000000,
       "ytm_total_views": 28291831165
+    },
+    {
+      "date": "2026-07-06",
+      "monthly_listeners": 37040323,
+      "collected_at": "2026-07-06T16:56:33.222626+00:00",
+      "spotify_followers": 87231449,
+      "youtube_subscribers": 85000000,
+      "youtube_total_views": 28573032151,
+      "youtube_video_count": 3071,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 649755
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 516919
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 476484
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 471607
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 408187
+        }
+      ],
+      "lastfm_listeners": 2530185,
+      "lastfm_playcount": 4536406755,
+      "ytm_subscribers": 85000000,
+      "ytm_monthly_listeners": 217000000,
+      "ytm_total_views": 28395076889
     }
   ],
   "annotations": [
@@ -4369,7 +4410,7 @@
       {
         "name": "EXO",
         "browse_id": "UCEUX9tUYqTFfPQdAgVNsKTA",
-        "subscribers": "15.3M"
+        "subscribers": "14.9M"
       },
       {
         "name": "SEVENTEEN",
@@ -4377,34 +4418,14 @@
         "subscribers": "25.6M"
       },
       {
-        "name": "TREASURE",
-        "browse_id": "UCe5f_XquYL3uB-A5mdy-5-A",
-        "subscribers": "124M"
-      },
-      {
-        "name": "Stray Kids",
-        "browse_id": "UCIMmuidNJdncfMEelOU08Fg",
-        "subscribers": "74.9M"
-      },
-      {
         "name": "RM",
         "browse_id": "UCJCAlMsCuld3v96t-9SffdA",
         "subscribers": "2.16M"
       },
       {
-        "name": "iKON",
-        "browse_id": "UCsuyvQXmlEMeV66kphCHCnw",
-        "subscribers": "6.35M"
-      },
-      {
-        "name": "Jimin",
-        "browse_id": "UCE6l2NHQkpgF_P96isfOu4Q",
-        "subscribers": "2.27M"
-      },
-      {
-        "name": "BLACKPINK",
-        "browse_id": "UCkbbMCA40i18i7UdjayMPAg",
-        "subscribers": "196M"
+        "name": "TREASURE",
+        "browse_id": "UCe5f_XquYL3uB-A5mdy-5-A",
+        "subscribers": "124M"
       },
       {
         "name": "TWICE",
@@ -4412,9 +4433,29 @@
         "subscribers": "165M"
       },
       {
-        "name": "j-hope",
-        "browse_id": "UChLNWcjgBfZ9RPnzR5LM1mQ",
-        "subscribers": "2.22M"
+        "name": "Jimin",
+        "browse_id": "UCE6l2NHQkpgF_P96isfOu4Q",
+        "subscribers": "2.28M"
+      },
+      {
+        "name": "BLACKPINK",
+        "browse_id": "UCkbbMCA40i18i7UdjayMPAg",
+        "subscribers": "196M"
+      },
+      {
+        "name": "Stray Kids",
+        "browse_id": "UCIMmuidNJdncfMEelOU08Fg",
+        "subscribers": "79M"
+      },
+      {
+        "name": "iKON",
+        "browse_id": "UCsuyvQXmlEMeV66kphCHCnw",
+        "subscribers": "6.25M"
+      },
+      {
+        "name": "Jin",
+        "browse_id": "UCkX4rp22PPv7V6PKXD7zZFg",
+        "subscribers": "1.87M"
       }
     ],
     "ytm_top_songs": [
@@ -7039,6 +7080,18 @@
       "type": "annotated",
       "related_annotation": "「ARIRANG」ジャカルタ第3公演（12/29）のチケット一般発売開始——需要過多で追加公演",
       "detected_at": "2026-06-22T18:17:37.886010+00:00"
+    },
+    {
+      "date": "2026-07-06",
+      "metric": "youtube_total_views",
+      "value": 28573032151,
+      "baseline_mean": 28380301124.6,
+      "baseline_stddev": 88007724.3,
+      "delta": 192731026,
+      "score": 2.19,
+      "type": "annotated",
+      "related_annotation": "「BTS THE CITY『ARIRANG』LONDON」開幕、韓国文化院で展示イベント開始",
+      "detected_at": "2026-07-06T16:56:34.788367+00:00"
     }
   ]
 }

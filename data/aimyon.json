@@ -3445,6 +3445,47 @@
       "ytm_subscribers": 2290000,
       "ytm_monthly_listeners": 7700000,
       "ytm_total_views": 2697459047
+    },
+    {
+      "date": "2026-07-06",
+      "monthly_listeners": 4814736,
+      "collected_at": "2026-07-06T17:01:05.771174+00:00",
+      "spotify_followers": 6328045,
+      "youtube_subscribers": 2290000,
+      "youtube_total_views": 2711397310,
+      "youtube_video_count": 282,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 242236
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 227088
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 154893
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 87532
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 76684
+        }
+      ],
+      "lastfm_listeners": 20028,
+      "lastfm_playcount": 1458897,
+      "ytm_subscribers": 2290000,
+      "ytm_monthly_listeners": 7520000,
+      "ytm_total_views": 2699609178
     }
   ],
   "annotations": [
@@ -3759,29 +3800,34 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "14.3M"
-      },
-      {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "8.78M"
+        "name": "Ken Hirai",
+        "browse_id": "UCjV108-_g6HUrmoKOt5-QIw",
+        "subscribers": "1.56M"
       },
       {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "30.8M"
+        "subscribers": "29.3M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "15.1M"
+      },
+      {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "8.95M"
       },
       {
         "name": "Kana Nishino",
         "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
-        "subscribers": "5.17M"
+        "subscribers": "5.52M"
       },
       {
-        "name": "SUKIMASWITCH",
-        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "5.31M"
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "9.1M"
       },
       {
         "name": "Motohiro Hata",
@@ -3789,19 +3835,14 @@
         "subscribers": "11.5M"
       },
       {
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "17.6M"
+      },
+      {
         "name": "OFFICIAL HIGE DANDISM",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "77.1M"
-      },
-      {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "19.3M"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "9.18M"
+        "subscribers": "73.4M"
       },
       {
         "name": "Miwa",
@@ -4334,6 +4375,12 @@
           "views": 107116948,
           "likes": 309244,
           "comments": 683
+        },
+        {
+          "date": "2026-07-06",
+          "views": 107162660,
+          "likes": 309389,
+          "comments": 683
         }
       ]
     },
@@ -4836,6 +4883,12 @@
           "date": "2026-07-05",
           "views": 101743287,
           "likes": 347034,
+          "comments": 414
+        },
+        {
+          "date": "2026-07-06",
+          "views": 101790749,
+          "likes": 347213,
           "comments": 414
         }
       ]
@@ -5340,6 +5393,12 @@
           "views": 63295346,
           "likes": 184553,
           "comments": 234
+        },
+        {
+          "date": "2026-07-06",
+          "views": 63323230,
+          "likes": 184648,
+          "comments": 234
         }
       ]
     },
@@ -5842,6 +5901,12 @@
           "date": "2026-07-05",
           "views": 1990020,
           "likes": 6187,
+          "comments": 39
+        },
+        {
+          "date": "2026-07-06",
+          "views": 1990402,
+          "likes": 6188,
           "comments": 39
         }
       ]
@@ -6350,6 +6415,12 @@
           "date": "2026-07-05",
           "views": 36400546,
           "likes": 116065,
+          "comments": 237
+        },
+        {
+          "date": "2026-07-06",
+          "views": 36417091,
+          "likes": 116135,
           "comments": 237
         }
       ]
@@ -7087,6 +7158,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-05T15:19:07.312150+00:00"
+    },
+    {
+      "date": "2026-07-06",
+      "metric": "monthly_listeners",
+      "value": 4814736,
+      "baseline_mean": 4678115.2,
+      "baseline_stddev": 41902.8,
+      "delta": 136620,
+      "score": 3.26,
+      "type": "annotated",
+      "related_annotation": "「THE MUSIC DAY 2026」に5年ぶり出演、「今夜このまま」「マリーゴールド」を披露",
+      "detected_at": "2026-07-06T17:01:08.799245+00:00"
     }
   ]
 }

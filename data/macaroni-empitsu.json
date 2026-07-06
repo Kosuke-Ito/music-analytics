@@ -3451,6 +3451,47 @@
       "ytm_subscribers": 593000,
       "ytm_monthly_listeners": 4480000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-06",
+      "monthly_listeners": 2684164,
+      "collected_at": "2026-07-06T17:03:22.253303+00:00",
+      "spotify_followers": 1999051,
+      "youtube_subscribers": 593000,
+      "youtube_total_views": 501575601,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 144845
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 136745
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 94726
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 54518
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 46300
+        }
+      ],
+      "lastfm_listeners": 7600,
+      "lastfm_playcount": 442435,
+      "ytm_subscribers": 593000,
+      "ytm_monthly_listeners": 4400000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3761,12 +3802,17 @@
       {
         "name": "SHISHAMO",
         "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "3.36M"
+        "subscribers": "3.51M"
       },
       {
         "name": "sumika",
         "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
-        "subscribers": "2.99M"
+        "subscribers": "2.96M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "15.1M"
       },
       {
         "name": "Tele",
@@ -3774,19 +3820,14 @@
         "subscribers": "430K"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "14.3M"
-      },
-      {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.28M"
+        "subscribers": "2.34M"
       },
       {
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "90.2M"
+        "subscribers": "92.2M"
       },
       {
         "name": "Hump Back",
@@ -3819,12 +3860,12 @@
         "video_id": "MzK2sKIfwtU"
       },
       {
-        "title": "ブルーベリー･ナイツ - blueberry nights",
-        "video_id": "3_1RJQhDZ7k"
-      },
-      {
         "title": "愛のレンタル - ainorentaru",
         "video_id": "sKNLJac1gcM"
+      },
+      {
+        "title": "ブルーベリー･ナイツ - blueberry nights",
+        "video_id": "3_1RJQhDZ7k"
       },
       {
         "title": "なんでもないよ、 - Nanndemonaiyo,",
@@ -4321,6 +4362,12 @@
           "views": 12244733,
           "likes": 69991,
           "comments": 143
+        },
+        {
+          "date": "2026-07-06",
+          "views": 12262136,
+          "likes": 70065,
+          "comments": 143
         }
       ]
     },
@@ -4812,6 +4859,12 @@
           "views": 24693483,
           "likes": 89624,
           "comments": 170
+        },
+        {
+          "date": "2026-07-06",
+          "views": 24716730,
+          "likes": 89726,
+          "comments": 170
         }
       ]
     },
@@ -5291,6 +5344,12 @@
           "views": 16876942,
           "likes": 62042,
           "comments": 116
+        },
+        {
+          "date": "2026-07-06",
+          "views": 16895052,
+          "likes": 62114,
+          "comments": 116
         }
       ]
     },
@@ -5692,6 +5751,12 @@
           "views": 45152246,
           "likes": 139786,
           "comments": 239
+        },
+        {
+          "date": "2026-07-06",
+          "views": 45173072,
+          "likes": 139855,
+          "comments": 239
         }
       ]
     },
@@ -6073,6 +6138,12 @@
           "date": "2026-07-05",
           "views": 14332957,
           "likes": 83725,
+          "comments": 452
+        },
+        {
+          "date": "2026-07-06",
+          "views": 14381090,
+          "likes": 84120,
           "comments": 452
         }
       ]
@@ -6893,6 +6964,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-05T15:21:21.678433+00:00"
+    },
+    {
+      "date": "2026-07-06",
+      "metric": "monthly_listeners",
+      "value": 2684164,
+      "baseline_mean": 2484992.6,
+      "baseline_stddev": 73835.7,
+      "delta": 199171,
+      "score": 2.7,
+      "type": "annotated",
+      "related_annotation": "新曲「終宵」配信リリース＆MV公開、TVアニメ『ワールド イズ ダンシング』OPテーマ",
+      "detected_at": "2026-07-06T17:03:24.215544+00:00"
+    },
+    {
+      "date": "2026-07-06",
+      "metric": "youtube_total_views",
+      "value": 501575601,
+      "baseline_mean": 493319952.5,
+      "baseline_stddev": 3330201.6,
+      "delta": 8255648,
+      "score": 2.48,
+      "type": "annotated",
+      "related_annotation": "新曲「終宵」配信リリース＆MV公開、TVアニメ『ワールド イズ ダンシング』OPテーマ",
+      "detected_at": "2026-07-06T17:03:24.215544+00:00"
     }
   ]
 }

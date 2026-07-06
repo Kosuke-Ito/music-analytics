@@ -3733,6 +3733,47 @@
       "ytm_subscribers": 63300000,
       "ytm_monthly_listeners": 421000000,
       "ytm_total_views": 44735838268
+    },
+    {
+      "date": "2026-07-06",
+      "monthly_listeners": 102509280,
+      "collected_at": "2026-07-06T16:57:23.613835+00:00",
+      "spotify_followers": 160343746,
+      "youtube_subscribers": 63300000,
+      "youtube_total_views": 45512098819,
+      "youtube_video_count": 660,
+      "top_cities": [
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1651551
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 1137452
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 1104257
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1089727
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 997094
+        }
+      ],
+      "lastfm_listeners": 6036701,
+      "lastfm_playcount": 3754783378,
+      "ytm_subscribers": 63300000,
+      "ytm_monthly_listeners": 433000000,
+      "ytm_total_views": 44735838268
     }
   ],
   "annotations": [
@@ -4126,24 +4167,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Shawn Mendes",
+        "browse_id": "UC6ZjlLJhqP79nqGr3Ic6Adg",
+        "subscribers": "168M"
+      },
+      {
         "name": "One Direction",
         "browse_id": "UCREhun2tPd7aQnJczZM_Mww",
-        "subscribers": "107M"
+        "subscribers": "103M"
       },
       {
         "name": "Olivia Rodrigo",
         "browse_id": "UCE5XNpliPM-SmyFEp61tL_g",
-        "subscribers": "152M"
-      },
-      {
-        "name": "Avril Lavigne",
-        "browse_id": "UCdOp8DxiQw6hKZ9b2FY6hbg",
-        "subscribers": "34.7M"
-      },
-      {
-        "name": "Hailee Steinfeld",
-        "browse_id": "UCBNeAoPycNhoRuS01B9Kf5g",
-        "subscribers": "7.53M"
+        "subscribers": "154M"
       },
       {
         "name": "5 Seconds of Summer",
@@ -4151,24 +4187,29 @@
         "subscribers": "36.4M"
       },
       {
-        "name": "Chappell Roan",
-        "browse_id": "UC1cYfQGC1eXrSO-hxMd7ESQ",
-        "subscribers": "22.4M"
+        "name": "Hailee Steinfeld",
+        "browse_id": "UCBNeAoPycNhoRuS01B9Kf5g",
+        "subscribers": "7.53M"
       },
       {
-        "name": "Carly Rae Jepsen",
-        "browse_id": "UCexmZthnclJW1aM_o02t5qw",
-        "subscribers": "99.7M"
+        "name": "Avril Lavigne",
+        "browse_id": "UCdOp8DxiQw6hKZ9b2FY6hbg",
+        "subscribers": "34.7M"
       },
       {
-        "name": "Shawn Mendes",
-        "browse_id": "UC6ZjlLJhqP79nqGr3Ic6Adg",
-        "subscribers": "170M"
+        "name": "Niall Horan",
+        "browse_id": "UCxm9sS8Dd2aRthr_O3rVLJQ",
+        "subscribers": "4.37M"
       },
       {
         "name": "Gracie Abrams",
         "browse_id": "UCw-0GSqznYHfyfDBBe6a46A",
-        "subscribers": "114M"
+        "subscribers": "112M"
+      },
+      {
+        "name": "Chappell Roan",
+        "browse_id": "UC1cYfQGC1eXrSO-hxMd7ESQ",
+        "subscribers": "22.7M"
       },
       {
         "name": "Ariana Grande",
@@ -4707,6 +4748,12 @@
           "views": 161702861,
           "likes": 1229949,
           "comments": 9146
+        },
+        {
+          "date": "2026-07-06",
+          "views": 162093758,
+          "likes": 1231847,
+          "comments": 9166
         }
       ]
     },
@@ -5215,6 +5262,12 @@
           "date": "2026-07-05",
           "views": 71026937,
           "likes": 463292,
+          "comments": 3008
+        },
+        {
+          "date": "2026-07-06",
+          "views": 71058281,
+          "likes": 463450,
           "comments": 3008
         }
       ]
@@ -5725,6 +5778,12 @@
           "views": 62399882,
           "likes": 388129,
           "comments": 2996
+        },
+        {
+          "date": "2026-07-06",
+          "views": 62548326,
+          "likes": 388724,
+          "comments": 2998
         }
       ]
     },
@@ -6234,6 +6293,12 @@
           "views": 61865301,
           "likes": 418837,
           "comments": 2854
+        },
+        {
+          "date": "2026-07-06",
+          "views": 61893336,
+          "likes": 418988,
+          "comments": 2858
         }
       ]
     },
@@ -6753,6 +6818,12 @@
           "views": 8890024,
           "likes": 214088,
           "comments": 9035
+        },
+        {
+          "date": "2026-07-06",
+          "views": 9035745,
+          "likes": 215319,
+          "comments": 9049
         }
       ]
     }
@@ -6925,6 +6996,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-05T15:15:30.247515+00:00"
+    },
+    {
+      "date": "2026-07-06",
+      "metric": "ytm_monthly_listeners",
+      "value": 433000000,
+      "baseline_mean": 389333333.3,
+      "baseline_stddev": 13833132.5,
+      "delta": 43666666,
+      "score": 3.16,
+      "type": "annotated",
+      "related_annotation": "テイラー・スウィフトとトラビス・ケルシーがマディソン・スクエア・ガーデンで結婚式",
+      "detected_at": "2026-07-06T16:57:25.143571+00:00"
     }
   ]
 }

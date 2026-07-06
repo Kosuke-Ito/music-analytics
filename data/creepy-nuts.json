@@ -3736,6 +3736,47 @@
       "ytm_subscribers": 2450000,
       "ytm_monthly_listeners": 166000000,
       "ytm_total_views": 1878286889
+    },
+    {
+      "date": "2026-07-06",
+      "monthly_listeners": 5663596,
+      "collected_at": "2026-07-06T16:55:24.698329+00:00",
+      "spotify_followers": 2386664,
+      "youtube_subscribers": 2450000,
+      "youtube_total_views": 1896143659,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 102765
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 77973
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 66316
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 61231
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 53207
+        }
+      ],
+      "lastfm_listeners": 638507,
+      "lastfm_playcount": 22381062,
+      "ytm_subscribers": 2450000,
+      "ytm_monthly_listeners": 166000000,
+      "ytm_total_views": 1878286889
     }
   ],
   "annotations": [
@@ -4112,32 +4153,27 @@
       {
         "name": "Kenshi Yonezu",
         "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "74.7M"
+        "subscribers": "74.6M"
       },
       {
         "name": "sakanaction",
         "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "83.2M"
+        "subscribers": "78.4M"
       },
       {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "44.6M"
+        "name": "Sambomaster",
+        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
+        "subscribers": "4.11M"
       },
       {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "2.93M"
-      },
-      {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "8.12M"
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "92.2M"
       },
       {
         "name": "PEOPLE 1",
         "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "1.03M"
+        "subscribers": "983K"
       },
       {
         "name": "Tatsuya Kitani",
@@ -4145,14 +4181,19 @@
         "subscribers": "22.8M"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "90.2M"
+        "name": "Tomonari Sora",
+        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
+        "subscribers": "5.8M"
       },
       {
-        "name": "Kocchi no Kento",
-        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
-        "subscribers": "71.4M"
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "44.6M"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "41.5M"
       }
     ],
     "ytm_top_songs": [
@@ -4623,6 +4664,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-05T15:13:35.251396+00:00"
+    },
+    {
+      "date": "2026-07-06",
+      "metric": "ytm_monthly_listeners",
+      "value": 166000000,
+      "baseline_mean": 135366666.7,
+      "baseline_stddev": 13197179.8,
+      "delta": 30633333,
+      "score": 2.32,
+      "type": "annotated",
+      "related_annotation": "JAPAN JAM特番配信の遅延波及とみられる（新規要因未確認）",
+      "detected_at": "2026-07-06T16:55:26.006303+00:00"
     }
   ],
   "song_performance": {
@@ -5132,6 +5185,12 @@
           "views": 23386929,
           "likes": 294162,
           "comments": 998
+        },
+        {
+          "date": "2026-07-06",
+          "views": 23444776,
+          "likes": 294735,
+          "comments": 1002
         }
       ]
     },
@@ -5641,6 +5700,12 @@
           "views": 20350899,
           "likes": 266349,
           "comments": 1031
+        },
+        {
+          "date": "2026-07-06",
+          "views": 20395435,
+          "likes": 266861,
+          "comments": 1033
         }
       ]
     },
@@ -6149,6 +6214,12 @@
           "date": "2026-07-05",
           "views": 7432288,
           "likes": 97254,
+          "comments": 1130
+        },
+        {
+          "date": "2026-07-06",
+          "views": 7445118,
+          "likes": 97381,
           "comments": 1130
         }
       ]
@@ -6659,6 +6730,12 @@
           "views": 12421400,
           "likes": 114764,
           "comments": 490
+        },
+        {
+          "date": "2026-07-06",
+          "views": 12431398,
+          "likes": 114854,
+          "comments": 490
         }
       ]
     },
@@ -7047,6 +7124,12 @@
           "date": "2026-07-05",
           "views": 5860675,
           "likes": 54681,
+          "comments": 193
+        },
+        {
+          "date": "2026-07-06",
+          "views": 5864158,
+          "likes": 54702,
           "comments": 193
         }
       ]

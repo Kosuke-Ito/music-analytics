@@ -3733,6 +3733,47 @@
       "ytm_subscribers": 9340000,
       "ytm_monthly_listeners": 29300000,
       "ytm_total_views": 5408572952
+    },
+    {
+      "date": "2026-07-06",
+      "monthly_listeners": 6664806,
+      "collected_at": "2026-07-06T16:54:50.694883+00:00",
+      "spotify_followers": 7765635,
+      "youtube_subscribers": 9340000,
+      "youtube_total_views": 5479564902,
+      "youtube_video_count": 715,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 119746
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 91926
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 90970
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 71585
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 71507
+        }
+      ],
+      "lastfm_listeners": 737020,
+      "lastfm_playcount": 89244883,
+      "ytm_subscribers": 9340000,
+      "ytm_monthly_listeners": 29500000,
+      "ytm_total_views": 5426184163
     }
   ],
   "annotations": [
@@ -4180,7 +4221,7 @@
       {
         "name": "LiSA",
         "browse_id": "UCt4rbOMLsVxeMsoaRdTfr5A",
-        "subscribers": "24.1M"
+        "subscribers": "22.4M"
       },
       {
         "name": "9Lana",
@@ -4188,9 +4229,9 @@
         "subscribers": "12.4M"
       },
       {
-        "name": "Eve",
-        "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
-        "subscribers": "17.2M"
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.87M"
       },
       {
         "name": "YOASOBI",
@@ -4198,9 +4239,14 @@
         "subscribers": "36.3M"
       },
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.87M"
+        "name": "Eve",
+        "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
+        "subscribers": "16.8M"
+      },
+      {
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "74.6M"
       },
       {
         "name": "Reol",
@@ -4208,14 +4254,9 @@
         "subscribers": "2.73M"
       },
       {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "74.7M"
-      },
-      {
         "name": "Minami",
         "browse_id": "UCEsOqBVe_DNEUAer9TYk6bw",
-        "subscribers": "2.04M"
+        "subscribers": "1.98M"
       },
       {
         "name": "Tatsuya Kitani",
@@ -4759,6 +4800,12 @@
           "views": 7312402,
           "likes": 160547,
           "comments": 2657
+        },
+        {
+          "date": "2026-07-06",
+          "views": 7348404,
+          "likes": 160846,
+          "comments": 2659
         }
       ]
     },
@@ -5268,6 +5315,12 @@
           "views": 31989632,
           "likes": 210381,
           "comments": 834
+        },
+        {
+          "date": "2026-07-06",
+          "views": 32035985,
+          "likes": 210695,
+          "comments": 836
         }
       ]
     },
@@ -5777,6 +5830,12 @@
           "views": 52823934,
           "likes": 486755,
           "comments": 2105
+        },
+        {
+          "date": "2026-07-06",
+          "views": 52863409,
+          "likes": 487009,
+          "comments": 2107
         }
       ]
     },
@@ -6375,6 +6434,12 @@
           "views": 68424801,
           "likes": 358676,
           "comments": 739
+        },
+        {
+          "date": "2026-07-06",
+          "views": 68464364,
+          "likes": 358825,
+          "comments": 740
         }
       ]
     },
@@ -6810,6 +6875,12 @@
           "views": 97269273,
           "likes": 540063,
           "comments": 1033
+        },
+        {
+          "date": "2026-07-06",
+          "views": 97305115,
+          "likes": 540204,
+          "comments": 1033
         }
       ]
     }
@@ -7066,6 +7137,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-05T15:13:02.372887+00:00"
+    },
+    {
+      "date": "2026-07-06",
+      "metric": "monthly_listeners",
+      "value": 6664806,
+      "baseline_mean": 6584745.4,
+      "baseline_stddev": 26710.4,
+      "delta": 80060,
+      "score": 3.0,
+      "type": "annotated",
+      "related_annotation": "Ado×つんく♂書き下ろし新曲「Love me forever!」ゲリラ配信スタート",
+      "detected_at": "2026-07-06T16:54:51.859155+00:00"
+    },
+    {
+      "date": "2026-07-06",
+      "metric": "youtube_total_views",
+      "value": 5479564902,
+      "baseline_mean": 5433852870.5,
+      "baseline_stddev": 21145761.8,
+      "delta": 45712031,
+      "score": 2.16,
+      "type": "annotated",
+      "related_annotation": "Ado×つんく♂書き下ろし新曲「Love me forever!」ゲリラ配信スタート",
+      "detected_at": "2026-07-06T16:54:51.859155+00:00"
     }
   ]
 }

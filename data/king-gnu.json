@@ -3745,6 +3745,47 @@
       "ytm_subscribers": 2970000,
       "ytm_monthly_listeners": 41500000,
       "ytm_total_views": 2867345756
+    },
+    {
+      "date": "2026-07-06",
+      "monthly_listeners": 6634194,
+      "collected_at": "2026-07-06T16:47:34.085173+00:00",
+      "spotify_followers": 4517852,
+      "youtube_subscribers": 2970000,
+      "youtube_total_views": 2905632073,
+      "youtube_video_count": 143,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 198024
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 153523
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 109434
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 81873
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 65799
+        }
+      ],
+      "lastfm_listeners": 566388,
+      "lastfm_playcount": 21283518,
+      "ytm_subscribers": 2970000,
+      "ytm_monthly_listeners": 41500000,
+      "ytm_total_views": 2878712852
     }
   ],
   "annotations": [
@@ -4039,19 +4080,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "2.61M"
+        "name": "Sheena Ringo",
+        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
+        "subscribers": "5.82M"
       },
       {
         "name": "Yorushika",
         "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
         "subscribers": "15.2M"
-      },
-      {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.21M"
       },
       {
         "name": "Fujii Kaze",
@@ -4064,9 +4100,19 @@
         "subscribers": "36.3M"
       },
       {
-        "name": "Eve",
-        "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
-        "subscribers": "17.2M"
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.87M"
+      },
+      {
+        "name": "Ryokuousyoku Syakai",
+        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
+        "subscribers": "7.21M"
+      },
+      {
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "2.08M"
       },
       {
         "name": "Vaundy",
@@ -4074,19 +4120,14 @@
         "subscribers": "20.6M"
       },
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "77.1M"
-      },
-      {
         "name": "ZUTOMAYO",
         "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
         "subscribers": "5.09M"
       },
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.87M"
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "2.64M"
       }
     ],
     "ytm_top_songs": [
@@ -4620,6 +4661,12 @@
           "views": 39433556,
           "likes": 313279,
           "comments": 5975
+        },
+        {
+          "date": "2026-07-06",
+          "views": 39600413,
+          "likes": 314242,
+          "comments": 6005
         }
       ]
     },
@@ -5129,6 +5176,12 @@
           "views": 50196526,
           "likes": 349284,
           "comments": 1850
+        },
+        {
+          "date": "2026-07-06",
+          "views": 50242648,
+          "likes": 349568,
+          "comments": 1852
         }
       ]
     },
@@ -5637,6 +5690,12 @@
           "date": "2026-07-05",
           "views": 17192597,
           "likes": 64304,
+          "comments": 161
+        },
+        {
+          "date": "2026-07-06",
+          "views": 17212318,
+          "likes": 64357,
           "comments": 161
         }
       ]
@@ -6147,6 +6206,12 @@
           "views": 24721042,
           "likes": 104560,
           "comments": 274
+        },
+        {
+          "date": "2026-07-06",
+          "views": 24742987,
+          "likes": 104616,
+          "comments": 274
         }
       ]
     },
@@ -6656,6 +6721,12 @@
           "views": 5795113,
           "likes": 33885,
           "comments": 302
+        },
+        {
+          "date": "2026-07-06",
+          "views": 5804963,
+          "likes": 33923,
+          "comments": 302
         }
       ]
     }
@@ -6768,6 +6839,18 @@
       "type": "annotated",
       "related_annotation": "CEN+RAL Tour 2026 閉幕（6/21）後の余波でYouTube総再生数が上昇（2.3σ）",
       "detected_at": "2026-06-29T16:48:59.746047+00:00"
+    },
+    {
+      "date": "2026-07-06",
+      "metric": "youtube_total_views",
+      "value": 2905632073,
+      "baseline_mean": 2878238029.6,
+      "baseline_stddev": 11848081.8,
+      "delta": 27394043,
+      "score": 2.31,
+      "type": "annotated",
+      "related_annotation": "新曲「GO GHOST」がTVアニメ『攻殻機動隊 THE GHOST IN THE SHELL』OPテーマに決定",
+      "detected_at": "2026-07-06T16:47:35.495538+00:00"
     }
   ]
 }

@@ -3745,6 +3745,47 @@
       "ytm_subscribers": 39800000,
       "ytm_monthly_listeners": 224000000,
       "ytm_total_views": 37081466047
+    },
+    {
+      "date": "2026-07-06",
+      "monthly_listeners": 113813492,
+      "collected_at": "2026-07-06T16:57:58.232497+00:00",
+      "spotify_followers": 124684430,
+      "youtube_subscribers": 39800000,
+      "youtube_total_views": 37090873902,
+      "youtube_video_count": 204,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1643892
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1507136
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1502735
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 1061849
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 972298
+        }
+      ],
+      "lastfm_listeners": 5425275,
+      "lastfm_playcount": 1156508652,
+      "ytm_subscribers": 39800000,
+      "ytm_monthly_listeners": 224000000,
+      "ytm_total_views": 37081466047
     }
   ],
   "annotations": [
@@ -3979,31 +4020,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Swae Lee",
-        "browse_id": "UCOrhSH-BVuBUAKk_rWRJFqQ",
-        "subscribers": "73.2M"
-      },
-      {
-        "name": "Ariana Grande",
-        "browse_id": "UC0076UMUgEng8HORUw_MYHA",
-        "subscribers": "230M"
-      },
-      {
-        "name": "Rihanna",
-        "browse_id": "UCvWtix2TtWGe9kffqnwdaMw",
-        "subscribers": "279M"
-      },
-      {
-        "name": "PARTYNEXTDOOR",
-        "browse_id": "UCV8G0JqlvVKkHxNyeog8Ftg",
-        "subscribers": "18.2M"
-      },
-      {
-        "name": "Bazzi",
-        "browse_id": "UCoBD_yd06t7kBn1wLGH7nzg",
-        "subscribers": "18.4M"
-      },
-      {
         "name": "Selena Gomez",
         "browse_id": "UCeBYRgPhy8kcRmIGQWKuqdQ",
         "subscribers": "256M"
@@ -4011,32 +4027,57 @@
       {
         "name": "Post Malone",
         "browse_id": "UCyD3XWRK9ko-izf2nBSFitw",
-        "subscribers": "93.3M"
-      },
-      {
-        "name": "ZAYN",
-        "browse_id": "UCYR9erHSNBPjjNswR4FrMaw",
-        "subscribers": "54.6M"
+        "subscribers": "90.7M"
       },
       {
         "name": "Khalid",
         "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
-        "subscribers": "228M"
+        "subscribers": "232M"
       },
       {
-        "name": "Doja Cat",
-        "browse_id": "UCwgX_dLqGYna_7Fm8ecf4Ng",
-        "subscribers": "174M"
+        "name": "ZAYN",
+        "browse_id": "UCYR9erHSNBPjjNswR4FrMaw",
+        "subscribers": "51.1M"
+      },
+      {
+        "name": "Majid Jordan",
+        "browse_id": "UC9O01oPBHyEbwTaFy1zwIRA",
+        "subscribers": "3.41M"
+      },
+      {
+        "name": "Ariana Grande",
+        "browse_id": "UC0076UMUgEng8HORUw_MYHA",
+        "subscribers": "230M"
+      },
+      {
+        "name": "Bazzi",
+        "browse_id": "UCoBD_yd06t7kBn1wLGH7nzg",
+        "subscribers": "18.4M"
+      },
+      {
+        "name": "Justin Bieber",
+        "browse_id": "UCGvj8kfUV5Q6lzECIrGY19g",
+        "subscribers": "557M"
+      },
+      {
+        "name": "6LACK",
+        "browse_id": "UCgerUw6uCKCZIYvD5sz5ZNg",
+        "subscribers": "6.62M"
+      },
+      {
+        "name": "Travis Scott",
+        "browse_id": "UCf_gP4AMRSgAfyzbkeS9k4g",
+        "subscribers": "118M"
       }
     ],
     "ytm_top_songs": [
       {
-        "title": "Save Your Tears",
-        "video_id": "RmYCOm4ehKs"
-      },
-      {
         "title": "One Of The Girls",
         "video_id": "HgLfYfJtc8M"
+      },
+      {
+        "title": "Save Your Tears",
+        "video_id": "RmYCOm4ehKs"
       },
       {
         "title": "Starboy (feat. Daft Punk)",
@@ -4233,6 +4274,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-05T15:16:02.857912+00:00"
+    },
+    {
+      "date": "2026-07-06",
+      "metric": "youtube_total_views",
+      "value": 37090873902,
+      "baseline_mean": 36770514213.9,
+      "baseline_stddev": 125655407.8,
+      "delta": 320359688,
+      "score": 2.55,
+      "type": "annotated",
+      "related_annotation": "The Weeknd、リールのスタジアムで2夜連続公演を完遂",
+      "detected_at": "2026-07-06T16:57:59.461734+00:00"
     }
   ],
   "song_performance": {
@@ -4742,6 +4795,12 @@
           "views": 591020027,
           "likes": 3889159,
           "comments": 6985
+        },
+        {
+          "date": "2026-07-06",
+          "views": 591303836,
+          "likes": 3890575,
+          "comments": 6994
         }
       ]
     },
@@ -5245,6 +5304,12 @@
           "views": 632895401,
           "likes": 4286928,
           "comments": 9445
+        },
+        {
+          "date": "2026-07-06",
+          "views": 633256849,
+          "likes": 4289046,
+          "comments": 9452
         }
       ]
     },
@@ -5754,6 +5819,12 @@
           "views": 358022368,
           "likes": 2934419,
           "comments": 7652
+        },
+        {
+          "date": "2026-07-06",
+          "views": 358344051,
+          "likes": 2936615,
+          "comments": 7664
         }
       ]
     },
@@ -6257,6 +6328,12 @@
           "views": 964182706,
           "likes": 6622744,
           "comments": 23100
+        },
+        {
+          "date": "2026-07-06",
+          "views": 964518058,
+          "likes": 6624608,
+          "comments": 23110
         }
       ]
     },
@@ -6652,6 +6729,12 @@
           "views": 147036407,
           "likes": 1169302,
           "comments": 4614
+        },
+        {
+          "date": "2026-07-06",
+          "views": 147235427,
+          "likes": 1170568,
+          "comments": 4622
         }
       ]
     },

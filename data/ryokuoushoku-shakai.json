@@ -3363,6 +3363,47 @@
       "ytm_subscribers": 951000,
       "ytm_monthly_listeners": 7210000,
       "ytm_total_views": 899903964
+    },
+    {
+      "date": "2026-07-06",
+      "monthly_listeners": 2641165,
+      "collected_at": "2026-07-06T17:03:56.790060+00:00",
+      "spotify_followers": 1553183,
+      "youtube_subscribers": 951000,
+      "youtube_total_views": 920484956,
+      "youtube_video_count": 425,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 84339
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 71859
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 53475
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 29986
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 27340
+        }
+      ],
+      "lastfm_listeners": 16940,
+      "lastfm_playcount": 787686,
+      "ytm_subscribers": 951000,
+      "ytm_monthly_listeners": 7210000,
+      "ytm_total_views": 905960133
     }
   ],
   "annotations": [
@@ -3616,14 +3657,14 @@
         "subscribers": "5.21M"
       },
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "77.1M"
-      },
-      {
         "name": "yama",
         "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
         "subscribers": "4.87M"
+      },
+      {
+        "name": "sumika",
+        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
+        "subscribers": "2.96M"
       },
       {
         "name": "YOASOBI",
@@ -3631,24 +3672,24 @@
         "subscribers": "36.3M"
       },
       {
+        "name": "YUI",
+        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
+        "subscribers": "7.18M"
+      },
+      {
+        "name": "SPYAIR",
+        "browse_id": "UCpmx2BTCQ51R5MfoR6AAnsg",
+        "subscribers": "9.55M"
+      },
+      {
         "name": "Miwa",
         "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
         "subscribers": "1.99M"
       },
       {
-        "name": "Dish",
-        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
-        "subscribers": "2.84M"
-      },
-      {
-        "name": "Aimer",
-        "browse_id": "UC_gksw7NEueO_u3lPL372hA",
-        "subscribers": "10.1M"
-      },
-      {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "19.3M"
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "17.6M"
       }
     ],
     "ytm_top_songs": [
@@ -4164,6 +4205,12 @@
           "views": 31319579,
           "likes": 266025,
           "comments": 665
+        },
+        {
+          "date": "2026-07-06",
+          "views": 31351581,
+          "likes": 266343,
+          "comments": 666
         }
       ]
     },
@@ -4654,6 +4701,12 @@
           "date": "2026-07-05",
           "views": 21323395,
           "likes": 85656,
+          "comments": 204
+        },
+        {
+          "date": "2026-07-06",
+          "views": 21336744,
+          "likes": 85694,
           "comments": 204
         }
       ]
@@ -5146,6 +5199,12 @@
           "views": 1835926,
           "likes": 11091,
           "comments": 58
+        },
+        {
+          "date": "2026-07-06",
+          "views": 1837635,
+          "likes": 11095,
+          "comments": 58
         }
       ]
     },
@@ -5636,6 +5695,12 @@
           "date": "2026-07-05",
           "views": 11315466,
           "likes": 54878,
+          "comments": 133
+        },
+        {
+          "date": "2026-07-06",
+          "views": 11321920,
+          "likes": 54917,
           "comments": 133
         }
       ]
@@ -6138,6 +6203,12 @@
           "views": 2717070,
           "likes": 13053,
           "comments": 57
+        },
+        {
+          "date": "2026-07-06",
+          "views": 2718725,
+          "likes": 13061,
+          "comments": 57
         }
       ]
     }
@@ -6430,6 +6501,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-20T15:44:18.382986+00:00"
+    },
+    {
+      "date": "2026-07-06",
+      "metric": "youtube_total_views",
+      "value": 920484956,
+      "baseline_mean": 911550479.1,
+      "baseline_stddev": 3120808.2,
+      "delta": 8934476,
+      "score": 2.86,
+      "type": "annotated",
+      "related_annotation": "「THE MUSIC DAY 2026」出演、フィギュア“りくりゅう”とサプライズ共演",
+      "detected_at": "2026-07-06T17:03:58.458375+00:00"
     }
   ]
 }
