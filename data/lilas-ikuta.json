@@ -3599,6 +3599,47 @@
       "ytm_subscribers": 1010000,
       "ytm_monthly_listeners": 19300000,
       "ytm_total_views": 423733728
+    },
+    {
+      "date": "2026-07-07",
+      "monthly_listeners": 2785692,
+      "collected_at": "2026-07-07T16:21:10.371469+00:00",
+      "spotify_followers": 1017973,
+      "youtube_subscribers": 1010000,
+      "youtube_total_views": 425098015,
+      "youtube_video_count": 54,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 91588
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 79133
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 57771
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 47000
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 32197
+        }
+      ],
+      "lastfm_listeners": 19680,
+      "lastfm_playcount": 350174,
+      "ytm_subscribers": 1010000,
+      "ytm_monthly_listeners": 19700000,
+      "ytm_total_views": 423733728
     }
   ],
   "annotations": [
@@ -3900,19 +3941,14 @@
         "subscribers": "29.3M"
       },
       {
-        "name": "UshioReira",
-        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
-        "subscribers": "673K"
+        "name": "YOASOBI",
+        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
+        "subscribers": "36.3M"
       },
       {
         "name": "Tani Yuuki",
         "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
-        "subscribers": "5.16M"
-      },
-      {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "36.3M"
+        "subscribers": "5.18M"
       },
       {
         "name": "OFFICIAL HIGE DANDISM",
@@ -3922,7 +3958,22 @@
       {
         "name": "Ryokuousyoku Syakai",
         "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.21M"
+        "subscribers": "7.43M"
+      },
+      {
+        "name": "aimyon",
+        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
+        "subscribers": "7.52M"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "9.1M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.59M"
       },
       {
         "name": "ATARAYO",
@@ -3932,17 +3983,7 @@
       {
         "name": "milet",
         "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "5.21M"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.87M"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "9.1M"
+        "subscribers": "5.19M"
       }
     ],
     "ytm_top_songs": [
@@ -4482,6 +4523,12 @@
           "views": 3534970,
           "likes": 31246,
           "comments": 56
+        },
+        {
+          "date": "2026-07-07",
+          "views": 3563027,
+          "likes": 31500,
+          "comments": 57
         }
       ]
     },
@@ -4990,6 +5037,12 @@
           "date": "2026-07-06",
           "views": 18634281,
           "likes": 86455,
+          "comments": 551
+        },
+        {
+          "date": "2026-07-07",
+          "views": 18663691,
+          "likes": 86522,
           "comments": 551
         }
       ]
@@ -5506,6 +5559,12 @@
           "views": 27607551,
           "likes": 178264,
           "comments": 1797
+        },
+        {
+          "date": "2026-07-07",
+          "views": 27615984,
+          "likes": 178274,
+          "comments": 1796
         }
       ]
     },
@@ -6020,6 +6079,12 @@
           "date": "2026-07-06",
           "views": 4457630,
           "likes": 36529,
+          "comments": 382
+        },
+        {
+          "date": "2026-07-07",
+          "views": 4466826,
+          "likes": 36558,
           "comments": 382
         }
       ]
@@ -6536,6 +6601,12 @@
           "views": 30853464,
           "likes": 129722,
           "comments": 314
+        },
+        {
+          "date": "2026-07-07",
+          "views": 30867367,
+          "likes": 129760,
+          "comments": 314
         }
       ]
     },
@@ -6767,6 +6838,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-03T15:51:59.795375+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 19700000,
+      "baseline_mean": 18490000,
+      "baseline_stddev": 492848.9,
+      "delta": 1210000,
+      "score": 2.46,
+      "type": "annotated",
+      "related_annotation": "YOASOBI×「オーバーウォッチ」コラボ楽曲「オリオン」ミュージックビデオ公開",
+      "detected_at": "2026-07-07T16:21:11.926008+00:00"
     }
   ]
 }

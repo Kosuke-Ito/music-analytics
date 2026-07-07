@@ -3489,6 +3489,47 @@
       "ytm_subscribers": 871000,
       "ytm_monthly_listeners": 2340000,
       "ytm_total_views": 577494469
+    },
+    {
+      "date": "2026-07-07",
+      "monthly_listeners": 1775798,
+      "collected_at": "2026-07-07T16:34:23.073675+00:00",
+      "spotify_followers": 1496212,
+      "youtube_subscribers": 872000,
+      "youtube_total_views": 579048170,
+      "youtube_video_count": 134,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 93101
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 91303
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 62867
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35651
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 31264
+        }
+      ],
+      "lastfm_listeners": 58796,
+      "lastfm_playcount": 1659060,
+      "ytm_subscribers": 872000,
+      "ytm_monthly_listeners": 2340000,
+      "ytm_total_views": 577494469
     }
   ],
   "annotations": [
@@ -3708,32 +3749,17 @@
       }
     ],
     "lastfm_tags": [
-      "japanese",
       "rock",
-      "indie rock",
+      "japanese",
       "indie",
+      "indie rock",
       "J-rock"
     ],
     "ytm_related_artists": [
       {
-        "name": "Humbreaders",
-        "browse_id": "UCecNvZh5h1ZgJ8vycmMAlGg",
-        "subscribers": "320K"
-      },
-      {
-        "name": "FOMARE",
-        "browse_id": "UCO5kmsT9xpy-ADoWy0UQX1g",
-        "subscribers": "253K"
-      },
-      {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
         "subscribers": "15.1M"
-      },
-      {
-        "name": "CreepHyp",
-        "browse_id": "UC0iyL2tAxXXuwfx8VVvCw1A",
-        "subscribers": "2.52M"
       },
       {
         "name": "Marcy",
@@ -3743,7 +3769,12 @@
       {
         "name": "Tele",
         "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "430K"
+        "subscribers": "440K"
+      },
+      {
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "4.93M"
       },
       {
         "name": "This is LAST",
@@ -3751,9 +3782,14 @@
         "subscribers": "775K"
       },
       {
-        "name": "Koresawa",
-        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "5.26M"
+        "name": "CreepHyp",
+        "browse_id": "UC0iyL2tAxXXuwfx8VVvCw1A",
+        "subscribers": "2.24M"
+      },
+      {
+        "name": "macaroni enpitsu",
+        "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
+        "subscribers": "4.4M"
       },
       {
         "name": "My Hair Is Bad",
@@ -3764,6 +3800,11 @@
         "name": "shytaupe",
         "browse_id": "UClT2HzITnq_4MQoY99Gf6Hw",
         "subscribers": "5.28M"
+      },
+      {
+        "name": "FOMARE",
+        "browse_id": "UCO5kmsT9xpy-ADoWy0UQX1g",
+        "subscribers": "253K"
       }
     ],
     "ytm_top_songs": [
@@ -4297,6 +4338,12 @@
           "views": 4826862,
           "likes": 20831,
           "comments": 50
+        },
+        {
+          "date": "2026-07-07",
+          "views": 4843328,
+          "likes": 20902,
+          "comments": 50
         }
       ]
     },
@@ -4793,6 +4840,12 @@
           "date": "2026-07-06",
           "views": 5328123,
           "likes": 24711,
+          "comments": 45
+        },
+        {
+          "date": "2026-07-07",
+          "views": 5343710,
+          "likes": 24779,
           "comments": 45
         }
       ]
@@ -5303,6 +5356,12 @@
           "views": 2865576,
           "likes": 15075,
           "comments": 38
+        },
+        {
+          "date": "2026-07-07",
+          "views": 2874958,
+          "likes": 15115,
+          "comments": 38
         }
       ]
     },
@@ -5799,6 +5858,12 @@
           "date": "2026-07-06",
           "views": 3296042,
           "likes": 19271,
+          "comments": 42
+        },
+        {
+          "date": "2026-07-07",
+          "views": 3305600,
+          "likes": 19311,
           "comments": 42
         }
       ]
@@ -6348,6 +6413,12 @@
           "views": 2776656,
           "likes": 11434,
           "comments": 29
+        },
+        {
+          "date": "2026-07-07",
+          "views": 2785361,
+          "likes": 11460,
+          "comments": 29
         }
       ]
     }
@@ -6784,6 +6855,18 @@
       "type": "annotated",
       "related_annotation": "映画「A NEW DAWN」効果の継続（Spotify月間リスナー）",
       "detected_at": "2026-07-06T17:03:41.551343+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "monthly_listeners",
+      "value": 1775798,
+      "baseline_mean": 1742185.0,
+      "baseline_stddev": 14872.4,
+      "delta": 33612,
+      "score": 2.26,
+      "type": "annotated",
+      "related_annotation": "映画「A NEW DAWN」効果の継続（Spotify月間リスナー）",
+      "detected_at": "2026-07-07T16:34:24.738917+00:00"
     }
   ]
 }

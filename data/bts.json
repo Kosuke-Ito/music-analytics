@@ -3784,6 +3784,47 @@
       "ytm_subscribers": 85000000,
       "ytm_monthly_listeners": 217000000,
       "ytm_total_views": 28395076889
+    },
+    {
+      "date": "2026-07-07",
+      "monthly_listeners": 36986717,
+      "collected_at": "2026-07-07T16:27:13.730225+00:00",
+      "spotify_followers": 87259927,
+      "youtube_subscribers": 85000000,
+      "youtube_total_views": 28573032151,
+      "youtube_video_count": 3071,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 648211
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 516275
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 476487
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 471964
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 407478
+        }
+      ],
+      "lastfm_listeners": 2531027,
+      "lastfm_playcount": 4542664754,
+      "ytm_subscribers": 85000000,
+      "ytm_monthly_listeners": 217000000,
+      "ytm_total_views": 28395076889
     }
   ],
   "annotations": [
@@ -4415,7 +4456,27 @@
       {
         "name": "SEVENTEEN",
         "browse_id": "UC0gpUnoyhu44aS3-NxYs7rg",
-        "subscribers": "25.6M"
+        "subscribers": "24.8M"
+      },
+      {
+        "name": "TWICE",
+        "browse_id": "UCAq0pFGa2w9SjxOq0ZxKVIw",
+        "subscribers": "165M"
+      },
+      {
+        "name": "iKON",
+        "browse_id": "UCsuyvQXmlEMeV66kphCHCnw",
+        "subscribers": "6.25M"
+      },
+      {
+        "name": "Stray Kids",
+        "browse_id": "UCIMmuidNJdncfMEelOU08Fg",
+        "subscribers": "79M"
+      },
+      {
+        "name": "BLACKPINK",
+        "browse_id": "UCkbbMCA40i18i7UdjayMPAg",
+        "subscribers": "189M"
       },
       {
         "name": "RM",
@@ -4425,12 +4486,7 @@
       {
         "name": "TREASURE",
         "browse_id": "UCe5f_XquYL3uB-A5mdy-5-A",
-        "subscribers": "124M"
-      },
-      {
-        "name": "TWICE",
-        "browse_id": "UCAq0pFGa2w9SjxOq0ZxKVIw",
-        "subscribers": "165M"
+        "subscribers": "115M"
       },
       {
         "name": "Jimin",
@@ -4438,24 +4494,9 @@
         "subscribers": "2.28M"
       },
       {
-        "name": "BLACKPINK",
-        "browse_id": "UCkbbMCA40i18i7UdjayMPAg",
-        "subscribers": "196M"
-      },
-      {
-        "name": "Stray Kids",
-        "browse_id": "UCIMmuidNJdncfMEelOU08Fg",
-        "subscribers": "79M"
-      },
-      {
-        "name": "iKON",
-        "browse_id": "UCsuyvQXmlEMeV66kphCHCnw",
-        "subscribers": "6.25M"
-      },
-      {
-        "name": "Jin",
-        "browse_id": "UCkX4rp22PPv7V6PKXD7zZFg",
-        "subscribers": "1.87M"
+        "name": "EVERGLOW",
+        "browse_id": "UCT4Z6ZLJisGUy0z2LHzi2jQ",
+        "subscribers": "5.09M"
       }
     ],
     "ytm_top_songs": [
@@ -4989,6 +5030,12 @@
           "views": 52320531,
           "likes": 877101,
           "comments": 19523
+        },
+        {
+          "date": "2026-07-07",
+          "views": 52741733,
+          "likes": 879616,
+          "comments": 19539
         }
       ]
     },
@@ -5498,6 +5545,12 @@
           "views": 56688785,
           "likes": 782432,
           "comments": 11948
+        },
+        {
+          "date": "2026-07-07",
+          "views": 57128545,
+          "likes": 785218,
+          "comments": 11989
         }
       ]
     },
@@ -6007,6 +6060,12 @@
           "views": 52467462,
           "likes": 1084441,
           "comments": 31103
+        },
+        {
+          "date": "2026-07-07",
+          "views": 52867172,
+          "likes": 1087248,
+          "comments": 31119
         }
       ]
     },
@@ -6516,6 +6575,12 @@
           "views": 104436373,
           "likes": 1956216,
           "comments": 78989
+        },
+        {
+          "date": "2026-07-07",
+          "views": 105278843,
+          "likes": 1960480,
+          "comments": 79112
         }
       ]
     },
@@ -6939,6 +7004,12 @@
           "views": 360098462,
           "likes": 2723114,
           "comments": 16079
+        },
+        {
+          "date": "2026-07-07",
+          "views": 360384883,
+          "likes": 2724760,
+          "comments": 16091
         }
       ]
     },
@@ -7092,6 +7163,18 @@
       "type": "annotated",
       "related_annotation": "「BTS THE CITY『ARIRANG』LONDON」開幕、韓国文化院で展示イベント開始",
       "detected_at": "2026-07-06T16:56:34.788367+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "youtube_total_views",
+      "value": 28573032151,
+      "baseline_mean": 28392122360.8,
+      "baseline_stddev": 89274896.4,
+      "delta": 180909790,
+      "score": 2.03,
+      "type": "annotated",
+      "related_annotation": "「BTS THE CITY『ARIRANG』LONDON」開幕、韓国文化院で展示イベント開始",
+      "detected_at": "2026-07-07T16:27:14.924891+00:00"
     }
   ]
 }

@@ -3599,6 +3599,47 @@
       "ytm_subscribers": 986000,
       "ytm_monthly_listeners": 22800000,
       "ytm_total_views": 978586947
+    },
+    {
+      "date": "2026-07-07",
+      "monthly_listeners": 3703281,
+      "collected_at": "2026-07-07T16:21:27.966959+00:00",
+      "spotify_followers": 862028,
+      "youtube_subscribers": 986000,
+      "youtube_total_views": 987318739,
+      "youtube_video_count": 265,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 93903
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 64820
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 49703
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 45949
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 45039
+        }
+      ],
+      "lastfm_listeners": 121760,
+      "lastfm_playcount": 2577301,
+      "ytm_subscribers": 986000,
+      "ytm_monthly_listeners": 23100000,
+      "ytm_total_views": 978586947
     }
   ],
   "annotations": [
@@ -3854,32 +3895,17 @@
       }
     ],
     "lastfm_tags": [
-      "J-rock",
       "j-pop",
-      "funk",
+      "J-rock",
       "rock",
+      "funk",
       "math rock"
     ],
     "ytm_related_artists": [
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.87M"
-      },
-      {
         "name": "Keina Suda",
         "browse_id": "UCeHkvVCNEAUvpBtuApZJCrg",
         "subscribers": "2.45M"
-      },
-      {
-        "name": "ZUTOMAYO",
-        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
-        "subscribers": "5.09M"
-      },
-      {
-        "name": "NOMELON NOLEMON",
-        "browse_id": "UC42-y14_2cA9PAaqe-mAHjA",
-        "subscribers": "1.29M"
       },
       {
         "name": "Eve",
@@ -3887,9 +3913,29 @@
         "subscribers": "16.8M"
       },
       {
+        "name": "ZUTOMAYO",
+        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
+        "subscribers": "4.78M"
+      },
+      {
+        "name": "NOMELON NOLEMON",
+        "browse_id": "UC42-y14_2cA9PAaqe-mAHjA",
+        "subscribers": "1.32M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.59M"
+      },
+      {
         "name": "Kenshi Yonezu",
         "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
         "subscribers": "74.6M"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "40.5M"
       },
       {
         "name": "Azsagawa",
@@ -3902,14 +3948,9 @@
         "subscribers": "14.5M"
       },
       {
-        "name": "Cö shu Nie",
-        "browse_id": "UCXQbmowL6Ln_hRqY58_OH4g",
-        "subscribers": "1.62M"
-      },
-      {
-        "name": "john",
-        "browse_id": "UCLI_vItz-HMYnbh1OmKCD6w",
-        "subscribers": "2.12M"
+        "name": "Ayase",
+        "browse_id": "UCbqY3RHKkPS8dJCrfAfSk6Q",
+        "subscribers": "1.72M"
       }
     ],
     "ytm_top_songs": [
@@ -4449,6 +4490,12 @@
           "views": 54946975,
           "likes": 358392,
           "comments": 1835
+        },
+        {
+          "date": "2026-07-07",
+          "views": 55006445,
+          "likes": 358708,
+          "comments": 1837
         }
       ]
     },
@@ -4963,6 +5010,12 @@
           "date": "2026-07-06",
           "views": 11585280,
           "likes": 80178,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-07",
+          "views": 11594416,
+          "likes": 80222,
           "comments": 0
         }
       ]
@@ -5479,6 +5532,12 @@
           "views": 2687893,
           "likes": 32031,
           "comments": 369
+        },
+        {
+          "date": "2026-07-07",
+          "views": 2695642,
+          "likes": 32071,
+          "comments": 370
         }
       ]
     },
@@ -5994,6 +6053,12 @@
           "views": 1014186,
           "likes": 14313,
           "comments": 112
+        },
+        {
+          "date": "2026-07-07",
+          "views": 1022139,
+          "likes": 14384,
+          "comments": 112
         }
       ]
     },
@@ -6407,6 +6472,12 @@
           "views": 2444069,
           "likes": 16162,
           "comments": 49
+        },
+        {
+          "date": "2026-07-07",
+          "views": 2446231,
+          "likes": 16174,
+          "comments": 49
         }
       ]
     },
@@ -6715,6 +6786,18 @@
       "type": "annotated",
       "related_annotation": "TVアニメ『これ描いて死ね』OPテーマ「遺書」放送開始",
       "detected_at": "2026-07-06T16:50:59.855268+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 23100000,
+      "baseline_mean": 19776666.7,
+      "baseline_stddev": 1199356.3,
+      "delta": 3323333,
+      "score": 2.77,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-07T16:21:29.164836+00:00"
     }
   ]
 }

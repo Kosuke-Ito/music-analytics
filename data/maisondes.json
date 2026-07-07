@@ -3604,6 +3604,47 @@
       "ytm_subscribers": 419000,
       "ytm_monthly_listeners": 2930000,
       "ytm_total_views": 408792392
+    },
+    {
+      "date": "2026-07-07",
+      "monthly_listeners": 752684,
+      "collected_at": "2026-07-07T16:21:45.188922+00:00",
+      "spotify_followers": 270642,
+      "youtube_subscribers": 326000,
+      "youtube_total_views": 249068844,
+      "youtube_video_count": 56,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 26639
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 19184
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 13696
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 12139
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 8815
+        }
+      ],
+      "lastfm_listeners": 135639,
+      "lastfm_playcount": 3352033,
+      "ytm_subscribers": 419000,
+      "ytm_monthly_listeners": 3540000,
+      "ytm_total_views": 412948562
     }
   ],
   "metadata": {
@@ -3632,11 +3673,16 @@
     "lastfm_tags": [
       "j-pop",
       "japanese",
-      "electronic",
       "pop",
+      "electronic",
       "japan"
     ],
     "ytm_related_artists": [
+      {
+        "name": "NOMELON NOLEMON",
+        "browse_id": "UC42-y14_2cA9PAaqe-mAHjA",
+        "subscribers": "1.32M"
+      },
       {
         "name": "Keina Suda",
         "browse_id": "UCeHkvVCNEAUvpBtuApZJCrg",
@@ -3645,12 +3691,17 @@
       {
         "name": "yama",
         "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.87M"
+        "subscribers": "4.59M"
       },
       {
-        "name": "NOMELON NOLEMON",
-        "browse_id": "UC42-y14_2cA9PAaqe-mAHjA",
-        "subscribers": "1.29M"
+        "name": "meiyo",
+        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
+        "subscribers": "13.5M"
+      },
+      {
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "23.1M"
       },
       {
         "name": "Eve",
@@ -3658,29 +3709,19 @@
         "subscribers": "16.8M"
       },
       {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "22.8M"
-      },
-      {
-        "name": "meiyo",
-        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
-        "subscribers": "12.2M"
-      },
-      {
         "name": "Tomonari Sora",
         "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
         "subscribers": "5.8M"
       },
       {
+        "name": "kei sugawara",
+        "browse_id": "UCteJs3TEbPFxDObB-4s7Y6w",
+        "subscribers": "246K"
+      },
+      {
         "name": "Ayase",
         "browse_id": "UCbqY3RHKkPS8dJCrfAfSk6Q",
         "subscribers": "1.72M"
-      },
-      {
-        "name": "kei sugawara",
-        "browse_id": "UCteJs3TEbPFxDObB-4s7Y6w",
-        "subscribers": "239K"
       },
       {
         "name": "AKASAKI",
@@ -4225,6 +4266,12 @@
           "views": 6000344,
           "likes": 37229,
           "comments": 81
+        },
+        {
+          "date": "2026-07-07",
+          "views": 6003061,
+          "likes": 37238,
+          "comments": 81
         }
       ]
     },
@@ -4739,6 +4786,12 @@
           "date": "2026-07-06",
           "views": 5410684,
           "likes": 33524,
+          "comments": 62
+        },
+        {
+          "date": "2026-07-07",
+          "views": 5413675,
+          "likes": 33540,
           "comments": 62
         }
       ]
@@ -5255,6 +5308,12 @@
           "views": 2611873,
           "likes": 28956,
           "comments": 509
+        },
+        {
+          "date": "2026-07-07",
+          "views": 2615581,
+          "likes": 28972,
+          "comments": 509
         }
       ]
     },
@@ -5769,6 +5828,12 @@
           "date": "2026-07-06",
           "views": 2846359,
           "likes": 19991,
+          "comments": 62
+        },
+        {
+          "date": "2026-07-07",
+          "views": 2847570,
+          "likes": 20003,
           "comments": 62
         }
       ]
@@ -6285,6 +6350,12 @@
           "views": 3106193,
           "likes": 22333,
           "comments": 132
+        },
+        {
+          "date": "2026-07-07",
+          "views": 3107357,
+          "likes": 22338,
+          "comments": 132
         }
       ]
     }
@@ -6398,6 +6469,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-05-23T14:57:15.648349+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 3540000,
+      "baseline_mean": 3026000,
+      "baseline_stddev": 110048.5,
+      "delta": 514000,
+      "score": 4.67,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-07T16:21:46.695392+00:00"
     }
   ]
 }

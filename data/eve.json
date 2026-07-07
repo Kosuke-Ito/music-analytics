@@ -3477,6 +3477,47 @@
       "ytm_subscribers": 874000,
       "ytm_monthly_listeners": 11100000,
       "ytm_total_views": 917772060
+    },
+    {
+      "date": "2026-07-07",
+      "monthly_listeners": 3779230,
+      "collected_at": "2026-07-07T16:32:56.650370+00:00",
+      "spotify_followers": 2811590,
+      "youtube_subscribers": 5600000,
+      "youtube_total_views": 3506339245,
+      "youtube_video_count": 213,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 65881
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 47739
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 45184
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 40313
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 37925
+        }
+      ],
+      "lastfm_listeners": 1857422,
+      "lastfm_playcount": 54356227,
+      "ytm_subscribers": 874000,
+      "ytm_monthly_listeners": 11100000,
+      "ytm_total_views": 917772060
     }
   ],
   "annotations": [
@@ -3690,7 +3731,12 @@
       {
         "name": "Aaliyah",
         "browse_id": "UC5tUz7LmavHn9NOM4Nn3wxQ",
-        "subscribers": "7.86M"
+        "subscribers": "7.83M"
+      },
+      {
+        "name": "Diddy",
+        "browse_id": "UCa7UEhon5aHfncjkOWgwRDA",
+        "subscribers": "18M"
       },
       {
         "name": "Nelly",
@@ -3708,19 +3754,19 @@
         "subscribers": "21.6M"
       },
       {
-        "name": "Diddy",
-        "browse_id": "UCa7UEhon5aHfncjkOWgwRDA",
-        "subscribers": "18M"
-      },
-      {
         "name": "Da Brat",
         "browse_id": "UCrGJmt56tmeXke3ypLqr_JQ",
-        "subscribers": "2.09M"
+        "subscribers": "1.75M"
       },
       {
         "name": "Blackstreet",
         "browse_id": "UCgE7QvJb7ZQy91_gu2Ld9Zw",
-        "subscribers": "5.33M"
+        "subscribers": "5.3M"
+      },
+      {
+        "name": "Montell Jordan",
+        "browse_id": "UCqxlZOL7_YqtTf9phf4uTRw",
+        "subscribers": "4.72M"
       },
       {
         "name": "Ludacris",
@@ -3728,14 +3774,9 @@
         "subscribers": "14.5M"
       },
       {
-        "name": "Timbaland",
-        "browse_id": "UCStR3TnjvL7CL8ZNFPKmRXw",
-        "subscribers": "71.4M"
-      },
-      {
-        "name": "Missy \"Misdemeanor\" Elliott",
-        "browse_id": "UCKqVP7_535ELJu2OeEd3zzQ",
-        "subscribers": "6.47M"
+        "name": "Mark Morrison",
+        "browse_id": "UCZqVeM2LxdgvCyncrg_qTGw",
+        "subscribers": "8.76M"
       }
     ],
     "ytm_top_songs": [
@@ -4251,6 +4292,12 @@
           "views": 135454108,
           "likes": 1322770,
           "comments": 1642
+        },
+        {
+          "date": "2026-07-07",
+          "views": 135526640,
+          "likes": 1323408,
+          "comments": 1643
         }
       ]
     },
@@ -4742,6 +4789,12 @@
           "views": 15803940,
           "likes": 182988,
           "comments": 385
+        },
+        {
+          "date": "2026-07-07",
+          "views": 15815847,
+          "likes": 183115,
+          "comments": 386
         }
       ]
     },
@@ -5232,6 +5285,12 @@
           "date": "2026-07-06",
           "views": 19998681,
           "likes": 212181,
+          "comments": 312
+        },
+        {
+          "date": "2026-07-07",
+          "views": 20012690,
+          "likes": 212283,
           "comments": 312
         }
       ]
@@ -5724,6 +5783,12 @@
           "views": 11294923,
           "likes": 146953,
           "comments": 523
+        },
+        {
+          "date": "2026-07-07",
+          "views": 11305176,
+          "likes": 147055,
+          "comments": 524
         }
       ]
     },
@@ -6215,6 +6280,12 @@
           "views": 27505320,
           "likes": 218694,
           "comments": 537
+        },
+        {
+          "date": "2026-07-07",
+          "views": 27513743,
+          "likes": 218781,
+          "comments": 537
         }
       ]
     },
@@ -6555,6 +6626,18 @@
       "type": "annotated",
       "related_annotation": "「あびすいんざわーるど」余波継続＋7年ぶりツアー「廻帰」開幕直前でYouTube Music月間リスナー急増",
       "detected_at": "2026-07-06T17:02:16.597030+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 11100000,
+      "baseline_mean": 10324137.9,
+      "baseline_stddev": 280793.4,
+      "delta": 775862,
+      "score": 2.76,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-07T16:32:58.176666+00:00"
     }
   ]
 }

@@ -3774,6 +3774,47 @@
       "ytm_subscribers": 3540000,
       "ytm_monthly_listeners": 93900000,
       "ytm_total_views": 1251003384
+    },
+    {
+      "date": "2026-07-07",
+      "monthly_listeners": 22517663,
+      "collected_at": "2026-07-07T16:29:45.911328+00:00",
+      "spotify_followers": 10599087,
+      "youtube_subscribers": 3540000,
+      "youtube_total_views": 1317917625,
+      "youtube_video_count": 545,
+      "top_cities": [
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 252212
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 245633
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 224238
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 215831
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 214634
+        }
+      ],
+      "lastfm_listeners": 2451609,
+      "lastfm_playcount": 282600383,
+      "ytm_subscribers": 3540000,
+      "ytm_monthly_listeners": 93900000,
+      "ytm_total_views": 1264530165
     }
   ],
   "annotations": [
@@ -4089,7 +4130,7 @@
       {
         "name": "Lizzy McAlpine",
         "browse_id": "UCC1TOSYNYXw1xrwNRxW46dg",
-        "subscribers": "7.3M"
+        "subscribers": "7.02M"
       },
       {
         "name": "wave to earth",
@@ -4097,14 +4138,14 @@
         "subscribers": "13.7M"
       },
       {
-        "name": "grentperez",
-        "browse_id": "UC3CyxyxdZLGrcpHUuaZolVw",
-        "subscribers": "711K"
-      },
-      {
         "name": "Daniel Caesar",
         "browse_id": "UCcbtSIy5DlnpVIxW8hIvxBw",
         "subscribers": "36.8M"
+      },
+      {
+        "name": "grentperez",
+        "browse_id": "UC3CyxyxdZLGrcpHUuaZolVw",
+        "subscribers": "711K"
       },
       {
         "name": "Matt Maltese",
@@ -4112,19 +4153,14 @@
         "subscribers": "2.05M"
       },
       {
-        "name": "Rex Orange County",
-        "browse_id": "UCRI-Ds5eY70A4oeHggAFBbg",
-        "subscribers": "82.6M"
+        "name": "Faye Webster",
+        "browse_id": "UCdKJ6iMnCsPcTDB5p510Ztg",
+        "subscribers": "4.75M"
       },
       {
         "name": "The Marías",
         "browse_id": "UCVV5M4OEFsKnB9HBhwOhHbA",
         "subscribers": "56.4M"
-      },
-      {
-        "name": "Faye Webster",
-        "browse_id": "UCdKJ6iMnCsPcTDB5p510Ztg",
-        "subscribers": "4.79M"
       },
       {
         "name": "Malcolm Todd",
@@ -4134,7 +4170,12 @@
       {
         "name": "beabadoobee",
         "browse_id": "UCcGMuu89vageEKV8zUKhwdA",
-        "subscribers": "36.5M"
+        "subscribers": "35.6M"
+      },
+      {
+        "name": "Rex Orange County",
+        "browse_id": "UCRI-Ds5eY70A4oeHggAFBbg",
+        "subscribers": "78.1M"
       }
     ],
     "ytm_top_songs": [
@@ -4674,6 +4715,12 @@
           "views": 81945597,
           "likes": 1199934,
           "comments": 8498
+        },
+        {
+          "date": "2026-07-07",
+          "views": 82069940,
+          "likes": 1201177,
+          "comments": 8511
         }
       ]
     },
@@ -5189,6 +5236,12 @@
           "views": 18746937,
           "likes": 274733,
           "comments": 1266
+        },
+        {
+          "date": "2026-07-07",
+          "views": 18809552,
+          "likes": 275435,
+          "comments": 1270
         }
       ]
     },
@@ -5704,6 +5757,12 @@
           "views": 23639742,
           "likes": 264988,
           "comments": 785
+        },
+        {
+          "date": "2026-07-07",
+          "views": 23673342,
+          "likes": 265295,
+          "comments": 785
         }
       ]
     },
@@ -6152,6 +6211,12 @@
           "date": "2026-07-06",
           "views": 48076946,
           "likes": 519928,
+          "comments": 1641
+        },
+        {
+          "date": "2026-07-07",
+          "views": 48124493,
+          "likes": 520330,
           "comments": 1641
         }
       ]
@@ -6744,6 +6809,12 @@
           "views": 4902844,
           "likes": 64254,
           "comments": 1162
+        },
+        {
+          "date": "2026-07-07",
+          "views": 4923706,
+          "likes": 64519,
+          "comments": 1172
         }
       ]
     }
@@ -7048,6 +7119,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-06T16:59:07.233476+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 93900000,
+      "baseline_mean": 88770000,
+      "baseline_stddev": 1967257.0,
+      "delta": 5130000,
+      "score": 2.61,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-07T16:29:47.209406+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "youtube_total_views",
+      "value": 1317917625,
+      "baseline_mean": 1290300332.2,
+      "baseline_stddev": 11462013.0,
+      "delta": 27617292,
+      "score": 2.41,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-07T16:29:47.209406+00:00"
     }
   ]
 }

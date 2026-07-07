@@ -3774,6 +3774,47 @@
       "ytm_subscribers": 58400000,
       "ytm_monthly_listeners": 384000000,
       "ytm_total_views": 22831348112
+    },
+    {
+      "date": "2026-07-07",
+      "monthly_listeners": 79328419,
+      "collected_at": "2026-07-07T16:28:21.402954+00:00",
+      "spotify_followers": 128621065,
+      "youtube_subscribers": 58400000,
+      "youtube_total_views": 22854376420,
+      "youtube_video_count": 201,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1004749
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 968393
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 908786
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 718963
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 679562
+        }
+      ],
+      "lastfm_listeners": 4322506,
+      "lastfm_playcount": 860600845,
+      "ytm_subscribers": 58400000,
+      "ytm_monthly_listeners": 389000000,
+      "ytm_total_views": 22831348112
     }
   ],
   "annotations": [
@@ -3971,7 +4012,7 @@
       {
         "name": "Hozier",
         "browse_id": "UCA3Zs9A2IeetfGT3Omi9ivw",
-        "subscribers": "33.5M"
+        "subscribers": "32.4M"
       },
       {
         "name": "Lana Del Rey",
@@ -3979,19 +4020,19 @@
         "subscribers": "308M"
       },
       {
-        "name": "The Neighbourhood",
-        "browse_id": "UC1cnYMXqKdazz-gDPKaDFyg",
-        "subscribers": "100M"
-      },
-      {
         "name": "Conan Gray",
         "browse_id": "UCDfnnzgPNShOXOYM9V4QIsQ",
         "subscribers": "29.6M"
       },
       {
-        "name": "Selena Gomez",
-        "browse_id": "UCeBYRgPhy8kcRmIGQWKuqdQ",
-        "subscribers": "256M"
+        "name": "Adele",
+        "browse_id": "UCRw0x9_EfawqmgDI2IgQLLg",
+        "subscribers": "376M"
+      },
+      {
+        "name": "The Neighbourhood",
+        "browse_id": "UC1cnYMXqKdazz-gDPKaDFyg",
+        "subscribers": "99M"
       },
       {
         "name": "Harry Styles",
@@ -3999,19 +4040,19 @@
         "subscribers": "119M"
       },
       {
-        "name": "Adele",
-        "browse_id": "UCRw0x9_EfawqmgDI2IgQLLg",
-        "subscribers": "382M"
+        "name": "Ariana Grande",
+        "browse_id": "UC0076UMUgEng8HORUw_MYHA",
+        "subscribers": "230M"
+      },
+      {
+        "name": "Camila Cabello",
+        "browse_id": "UCsZIVNwBqtPBX-41kO_rQzQ",
+        "subscribers": "209M"
       },
       {
         "name": "Miley Cyrus",
         "browse_id": "UCREdEwBdZcnQLIT0ThaAtmQ",
-        "subscribers": "76.4M"
-      },
-      {
-        "name": "Madison Beer",
-        "browse_id": "UCpgpoxvgrxyul1uqC9hOF-A",
-        "subscribers": "25.6M"
+        "subscribers": "73.5M"
       }
     ],
     "ytm_top_songs": [
@@ -4551,6 +4592,12 @@
           "views": 485300588,
           "likes": 3568647,
           "comments": 17622
+        },
+        {
+          "date": "2026-07-07",
+          "views": 485657707,
+          "likes": 3570388,
+          "comments": 17626
         }
       ]
     },
@@ -5066,6 +5113,12 @@
           "views": 309112039,
           "likes": 2775970,
           "comments": 14014
+        },
+        {
+          "date": "2026-07-07",
+          "views": 309394638,
+          "likes": 2777864,
+          "comments": 14028
         }
       ]
     },
@@ -5581,6 +5634,12 @@
           "views": 531500151,
           "likes": 4925493,
           "comments": 12279
+        },
+        {
+          "date": "2026-07-07",
+          "views": 531703882,
+          "likes": 4927189,
+          "comments": 12285
         }
       ]
     },
@@ -6096,6 +6155,12 @@
           "views": 156385653,
           "likes": 1429091,
           "comments": 6797
+        },
+        {
+          "date": "2026-07-07",
+          "views": 156499779,
+          "likes": 1429831,
+          "comments": 6801
         }
       ]
     },
@@ -6611,6 +6676,12 @@
           "views": 234510132,
           "likes": 2094278,
           "comments": 6723
+        },
+        {
+          "date": "2026-07-07",
+          "views": 234628599,
+          "likes": 2095196,
+          "comments": 6728
         }
       ]
     }
@@ -6891,6 +6962,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-06T16:57:42.580839+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 389000000,
+      "baseline_mean": 356900000,
+      "baseline_stddev": 14083915.2,
+      "delta": 32100000,
+      "score": 2.28,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-07T16:28:22.627695+00:00"
     }
   ]
 }

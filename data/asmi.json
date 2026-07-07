@@ -3560,6 +3560,47 @@
       "ytm_subscribers": 167000,
       "ytm_monthly_listeners": 3050000,
       "ytm_total_views": 75970788
+    },
+    {
+      "date": "2026-07-07",
+      "monthly_listeners": 247911,
+      "collected_at": "2026-07-07T16:22:53.806704+00:00",
+      "spotify_followers": 112983,
+      "youtube_subscribers": 167000,
+      "youtube_total_views": 76611845,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8659
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6670
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4643
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 3795
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2888
+        }
+      ],
+      "lastfm_listeners": 35273,
+      "lastfm_playcount": 529850,
+      "ytm_subscribers": 167000,
+      "ytm_monthly_listeners": 3040000,
+      "ytm_total_views": 75970788
     }
   ],
   "metadata": {
@@ -3594,14 +3635,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.87M"
-      },
-      {
         "name": "Ryokuousyoku Syakai",
         "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.21M"
+        "subscribers": "7.43M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.59M"
       },
       {
         "name": "Myuk",
@@ -3616,12 +3657,7 @@
       {
         "name": "Awesome City Club",
         "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
-        "subscribers": "479K"
-      },
-      {
-        "name": "tota",
-        "browse_id": "UCc95RA4CPcWdTRBk5YunwRA",
-        "subscribers": "3.7M"
+        "subscribers": "489K"
       },
       {
         "name": "Ai Higuchi",
@@ -3631,7 +3667,7 @@
       {
         "name": "Conton Candy",
         "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
-        "subscribers": "1.8M"
+        "subscribers": "1.76M"
       },
       {
         "name": "WhaleDontSleep",
@@ -3639,9 +3675,14 @@
         "subscribers": "515K"
       },
       {
-        "name": "UshioReira",
-        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
-        "subscribers": "673K"
+        "name": "Yuaru",
+        "browse_id": "UC_Yxw4oOjaaHtauxKDsnzaQ",
+        "subscribers": "545K"
+      },
+      {
+        "name": "tota",
+        "browse_id": "UCc95RA4CPcWdTRBk5YunwRA",
+        "subscribers": "3.7M"
       }
     ],
     "ytm_top_songs": [
@@ -4175,6 +4216,12 @@
           "views": 1044842,
           "likes": 10112,
           "comments": 191
+        },
+        {
+          "date": "2026-07-07",
+          "views": 1045472,
+          "likes": 10115,
+          "comments": 191
         }
       ]
     },
@@ -4683,6 +4730,12 @@
           "date": "2026-07-06",
           "views": 866595,
           "likes": 8370,
+          "comments": 43
+        },
+        {
+          "date": "2026-07-07",
+          "views": 867257,
+          "likes": 8374,
           "comments": 43
         }
       ]
@@ -5193,6 +5246,12 @@
           "views": 414853,
           "likes": 3854,
           "comments": 47
+        },
+        {
+          "date": "2026-07-07",
+          "views": 415329,
+          "likes": 3855,
+          "comments": 47
         }
       ]
     },
@@ -5472,6 +5531,12 @@
         {
           "date": "2026-07-06",
           "views": 1090079,
+          "likes": 11549,
+          "comments": 139
+        },
+        {
+          "date": "2026-07-07",
+          "views": 1090561,
           "likes": 11549,
           "comments": 139
         }
@@ -5987,6 +6052,12 @@
           "date": "2026-07-06",
           "views": 50349,
           "likes": 655,
+          "comments": 14
+        },
+        {
+          "date": "2026-07-07",
+          "views": 50633,
+          "likes": 662,
           "comments": 14
         }
       ]
@@ -6654,6 +6725,18 @@
       "type": "annotated",
       "related_annotation": "全国ツアー「Lovers Weekend」終盤＋アニメEDタイアップ継続露出",
       "detected_at": "2026-07-06T16:52:24.047255+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 3040000,
+      "baseline_mean": 2633333.3,
+      "baseline_stddev": 175960.9,
+      "delta": 406666,
+      "score": 2.31,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-07T16:22:55.199945+00:00"
     }
   ]
 }

@@ -3775,6 +3775,47 @@
       "ytm_subscribers": 5470000,
       "ytm_monthly_listeners": 46400000,
       "ytm_total_views": 2880049786
+    },
+    {
+      "date": "2026-07-07",
+      "monthly_listeners": 7430889,
+      "collected_at": "2026-07-07T16:25:47.514430+00:00",
+      "spotify_followers": 5131094,
+      "youtube_subscribers": 5470000,
+      "youtube_total_views": 2895965547,
+      "youtube_video_count": 222,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 210637
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 201157
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 139598
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 105246
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 93254
+        }
+      ],
+      "lastfm_listeners": 18362,
+      "lastfm_playcount": 1560506,
+      "ytm_subscribers": 5470000,
+      "ytm_monthly_listeners": 47300000,
+      "ytm_total_views": 2880049786
     }
   ],
   "annotations": [
@@ -4044,24 +4085,29 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "1.12M"
-      },
-      {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "36.3M"
-      },
-      {
         "name": "iri",
         "browse_id": "UCtlXP5iI7TgKj_BI636L8Qw",
-        "subscribers": "619K"
+        "subscribers": "623K"
       },
       {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
         "subscribers": "15.1M"
+      },
+      {
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "1.11M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "18.9M"
+      },
+      {
+        "name": "YOASOBI",
+        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
+        "subscribers": "36.3M"
       },
       {
         "name": "SIRUP",
@@ -4074,24 +4120,19 @@
         "subscribers": "2.08M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "20.6M"
-      },
-      {
         "name": "OFFICIAL HIGE DANDISM",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
         "subscribers": "73.4M"
       },
       {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "19.3M"
+        "name": "星野源 Gen Hoshino",
+        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
+        "subscribers": "8M"
       },
       {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "74.6M"
+        "name": "Lilas",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "19.7M"
       }
     ],
     "ytm_top_songs": [
@@ -4631,6 +4672,12 @@
           "views": 285777593,
           "likes": 3747995,
           "comments": 18827
+        },
+        {
+          "date": "2026-07-07",
+          "views": 285912842,
+          "likes": 3749329,
+          "comments": 18841
         }
       ]
     },
@@ -5193,6 +5240,12 @@
           "views": 75587367,
           "likes": 365753,
           "comments": 644
+        },
+        {
+          "date": "2026-07-07",
+          "views": 75638018,
+          "likes": 365945,
+          "comments": 644
         }
       ]
     },
@@ -5635,6 +5688,12 @@
           "views": 52041894,
           "likes": 386276,
           "comments": 1110
+        },
+        {
+          "date": "2026-07-07",
+          "views": 52079413,
+          "likes": 386451,
+          "comments": 1110
         }
       ]
     },
@@ -6017,6 +6076,12 @@
           "date": "2026-07-06",
           "views": 2194451,
           "likes": 15526,
+          "comments": 103
+        },
+        {
+          "date": "2026-07-07",
+          "views": 2218756,
+          "likes": 15680,
           "comments": 103
         }
       ]
@@ -6490,6 +6555,12 @@
           "date": "2026-07-06",
           "views": 2546210,
           "likes": 18779,
+          "comments": 130
+        },
+        {
+          "date": "2026-07-07",
+          "views": 2573033,
+          "likes": 18964,
           "comments": 130
         }
       ]
@@ -7224,6 +7295,18 @@
       "type": "annotated",
       "related_annotation": "Suchmosコラボ映像のSNS拡散が継続・増幅",
       "detected_at": "2026-07-06T16:55:08.450312+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 47300000,
+      "baseline_mean": 43103333.3,
+      "baseline_stddev": 1795082.8,
+      "delta": 4196666,
+      "score": 2.34,
+      "type": "annotated",
+      "related_annotation": "Suchmosコラボ映像のSNS拡散が継続・増幅",
+      "detected_at": "2026-07-07T16:25:49.314077+00:00"
     }
   ]
 }

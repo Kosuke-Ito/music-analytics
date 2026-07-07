@@ -3483,6 +3483,47 @@
       "ytm_subscribers": 2120000,
       "ytm_monthly_listeners": 15100000,
       "ytm_total_views": 2781572464
+    },
+    {
+      "date": "2026-07-07",
+      "monthly_listeners": 6065079,
+      "collected_at": "2026-07-07T16:30:20.169574+00:00",
+      "spotify_followers": 6718639,
+      "youtube_subscribers": 2120000,
+      "youtube_total_views": 2819964440,
+      "youtube_video_count": 263,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 367492
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 344484
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 231134
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 133878
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 120884
+        }
+      ],
+      "lastfm_listeners": 130994,
+      "lastfm_playcount": 6408923,
+      "ytm_subscribers": 2120000,
+      "ytm_monthly_listeners": 15100000,
+      "ytm_total_views": 2781572464
     }
   ],
   "annotations": [
@@ -3742,17 +3783,12 @@
       {
         "name": "Tani Yuuki",
         "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
-        "subscribers": "5.16M"
+        "subscribers": "5.18M"
       },
       {
-        "name": "SUKIMASWITCH",
-        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "5.4M"
-      },
-      {
-        "name": "Takaya Kawasaki",
-        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
-        "subscribers": "1.47M"
+        "name": "Dish",
+        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
+        "subscribers": "2.64M"
       },
       {
         "name": "Mrs. GREEN APPLE",
@@ -3760,14 +3796,9 @@
         "subscribers": "33.2M"
       },
       {
-        "name": "sumika",
-        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
-        "subscribers": "2.96M"
-      },
-      {
-        "name": "Dish",
-        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
-        "subscribers": "2.84M"
+        "name": "Takaya Kawasaki",
+        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
+        "subscribers": "1.46M"
       },
       {
         "name": "SEKAI NO OWARI",
@@ -3775,14 +3806,24 @@
         "subscribers": "8.95M"
       },
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "73.4M"
-      },
-      {
         "name": "aimyon",
         "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
         "subscribers": "7.52M"
+      },
+      {
+        "name": "sumika",
+        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
+        "subscribers": "2.96M"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "9.1M"
+      },
+      {
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "73.4M"
       }
     ],
     "ytm_top_songs": [
@@ -4310,6 +4351,12 @@
           "views": 59145297,
           "likes": 196883,
           "comments": 575
+        },
+        {
+          "date": "2026-07-07",
+          "views": 59200060,
+          "likes": 197047,
+          "comments": 577
         }
       ]
     },
@@ -4806,6 +4853,12 @@
           "date": "2026-07-06",
           "views": 47453810,
           "likes": 177879,
+          "comments": 752
+        },
+        {
+          "date": "2026-07-07",
+          "views": 47512468,
+          "likes": 178018,
           "comments": 752
         }
       ]
@@ -5304,6 +5357,12 @@
           "views": 64287477,
           "likes": 208138,
           "comments": 602
+        },
+        {
+          "date": "2026-07-07",
+          "views": 64339472,
+          "likes": 208311,
+          "comments": 603
         }
       ]
     },
@@ -5807,6 +5866,12 @@
           "views": 61471561,
           "likes": 208781,
           "comments": 621
+        },
+        {
+          "date": "2026-07-07",
+          "views": 61527098,
+          "likes": 208967,
+          "comments": 622
         }
       ]
     },
@@ -6310,6 +6375,12 @@
           "views": 23242503,
           "likes": 99119,
           "comments": 492
+        },
+        {
+          "date": "2026-07-07",
+          "views": 23286512,
+          "likes": 99318,
+          "comments": 492
         }
       ]
     },
@@ -6775,6 +6846,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-06T16:59:40.064995+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "monthly_listeners",
+      "value": 6065079,
+      "baseline_mean": 5941864.9,
+      "baseline_stddev": 48312.8,
+      "delta": 123214,
+      "score": 2.55,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-07T16:30:22.016186+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 15100000,
+      "baseline_mean": 12823333.3,
+      "baseline_stddev": 777467.4,
+      "delta": 2276666,
+      "score": 2.93,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-07T16:30:22.016186+00:00"
     }
   ]
 }

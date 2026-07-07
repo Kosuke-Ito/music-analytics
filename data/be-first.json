@@ -3483,6 +3483,47 @@
       "ytm_subscribers": 1250000,
       "ytm_monthly_listeners": 8070000,
       "ytm_total_views": 1515004114
+    },
+    {
+      "date": "2026-07-07",
+      "monthly_listeners": 2148186,
+      "collected_at": "2026-07-07T16:37:00.780909+00:00",
+      "spotify_followers": 635038,
+      "youtube_subscribers": 1250000,
+      "youtube_total_views": 1612060143,
+      "youtube_video_count": 491,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 93755
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 89230
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 66006
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 34329
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 32273
+        }
+      ],
+      "lastfm_listeners": 74442,
+      "lastfm_playcount": 1405935,
+      "ytm_subscribers": 1250000,
+      "ytm_monthly_listeners": 8070000,
+      "ytm_total_views": 1515004114
     }
   ],
   "metadata": {
@@ -3513,18 +3554,18 @@
       "japanese",
       "pop",
       "JPop",
-      "boygroup"
+      "boybands"
     ],
     "ytm_related_artists": [
       {
-        "name": "MAZZEL",
-        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "2.22M"
-      },
-      {
         "name": "INI",
         "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
-        "subscribers": "8.46M"
+        "subscribers": "7.98M"
+      },
+      {
+        "name": "MAZZEL",
+        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
+        "subscribers": "2.34M"
       },
       {
         "name": "Number_i",
@@ -3532,14 +3573,14 @@
         "subscribers": "1.29M"
       },
       {
-        "name": "Nissy",
-        "browse_id": "UCkv76wCrBDQNn7ctcbn6Qeg",
-        "subscribers": "2.01M"
-      },
-      {
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "1.25M"
+        "subscribers": "1.27M"
+      },
+      {
+        "name": "Nissy",
+        "browse_id": "UCkv76wCrBDQNn7ctcbn6Qeg",
+        "subscribers": "1.88M"
       },
       {
         "name": "NiziU",
@@ -3549,7 +3590,7 @@
       {
         "name": "King & Prince",
         "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "4.38M"
+        "subscribers": "4.19M"
       },
       {
         "name": "HANA",
@@ -4353,6 +4394,12 @@
           "views": 2450160,
           "likes": 18322,
           "comments": 766
+        },
+        {
+          "date": "2026-07-07",
+          "views": 2459666,
+          "likes": 18337,
+          "comments": 766
         }
       ]
     },
@@ -4856,6 +4903,12 @@
           "views": 19248816,
           "likes": 91172,
           "comments": 2049
+        },
+        {
+          "date": "2026-07-07",
+          "views": 19275381,
+          "likes": 91247,
+          "comments": 2051
         }
       ]
     },
@@ -6189,6 +6242,12 @@
           "views": 1456686,
           "likes": 25150,
           "comments": 1392
+        },
+        {
+          "date": "2026-07-07",
+          "views": 1463485,
+          "likes": 25166,
+          "comments": 1392
         }
       ]
     },
@@ -6434,6 +6493,12 @@
           "views": 753073,
           "likes": 15481,
           "comments": 594
+        },
+        {
+          "date": "2026-07-07",
+          "views": 801864,
+          "likes": 15730,
+          "comments": 601
         }
       ]
     },
@@ -6445,6 +6510,12 @@
           "views": 549605,
           "likes": 17507,
           "comments": 1330
+        },
+        {
+          "date": "2026-07-07",
+          "views": 610031,
+          "likes": 17905,
+          "comments": 1405
         }
       ]
     }
@@ -6749,6 +6820,42 @@
       "type": "annotated",
       "related_annotation": "10thシングル「Missing」正式リリース後チャート席巻でYouTube Music月間リスナー急増",
       "detected_at": "2026-07-06T17:06:18.051091+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "monthly_listeners",
+      "value": 2148186,
+      "baseline_mean": 2091694.3,
+      "baseline_stddev": 17016.4,
+      "delta": 56491,
+      "score": 3.32,
+      "type": "annotated",
+      "related_annotation": "BE:FIRST、日本テレビ「THE MUSIC DAY 2026」に出演",
+      "detected_at": "2026-07-07T16:37:02.552290+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 8070000,
+      "baseline_mean": 5085333.3,
+      "baseline_stddev": 876218.1,
+      "delta": 2984666,
+      "score": 3.41,
+      "type": "annotated",
+      "related_annotation": "BE:FIRST、日本テレビ「THE MUSIC DAY 2026」に出演",
+      "detected_at": "2026-07-07T16:37:02.552290+00:00"
+    },
+    {
+      "date": "2026-07-07",
+      "metric": "youtube_total_views",
+      "value": 1612060143,
+      "baseline_mean": 1586863109.8,
+      "baseline_stddev": 12195604.5,
+      "delta": 25197033,
+      "score": 2.07,
+      "type": "annotated",
+      "related_annotation": "BE:FIRST、日本テレビ「THE MUSIC DAY 2026」に出演",
+      "detected_at": "2026-07-07T16:37:02.552290+00:00"
     }
   ]
 }
