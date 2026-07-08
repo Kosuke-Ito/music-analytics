@@ -3818,6 +3818,47 @@
       "ytm_subscribers": 2450000,
       "ytm_monthly_listeners": 172000000,
       "ytm_total_views": 1878286889
+    },
+    {
+      "date": "2026-07-08",
+      "monthly_listeners": 5638624,
+      "collected_at": "2026-07-08T16:04:55.532783+00:00",
+      "spotify_followers": 2387898,
+      "youtube_subscribers": 2450000,
+      "youtube_total_views": 1896143659,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 103188
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 78094
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 65531
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 60913
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 53096
+        }
+      ],
+      "lastfm_listeners": 639117,
+      "lastfm_playcount": 22407733,
+      "ytm_subscribers": 2450000,
+      "ytm_monthly_listeners": 171000000,
+      "ytm_total_views": 1878286889
     }
   ],
   "annotations": [
@@ -4187,54 +4228,54 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "18.9M"
-      },
-      {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "92.2M"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "78.4M"
-      },
-      {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "44M"
+        "name": "Shinsei Kamattechan",
+        "browse_id": "UCjtNm_gZ8oVVwSpfBi-pGtw",
+        "subscribers": "5.14M"
       },
       {
         "name": "Kenshi Yonezu",
         "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "74.6M"
+        "subscribers": "75M"
       },
       {
-        "name": "Sambomaster",
-        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
-        "subscribers": "4.24M"
-      },
-      {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "23.1M"
-      },
-      {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "983K"
-      },
-      {
-        "name": "Tomonari Sora",
-        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
-        "subscribers": "5.8M"
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "92.7M"
       },
       {
         "name": "King Gnu",
         "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
         "subscribers": "40.5M"
+      },
+      {
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "77.5M"
+      },
+      {
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "23.2M"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "8.14M"
+      },
+      {
+        "name": "Kocchi no Kento",
+        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
+        "subscribers": "68M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "18.6M"
+      },
+      {
+        "name": "umedacypher",
+        "browse_id": "UCOwLjzuOl9uZyMCONkd7Ypg",
+        "subscribers": "625K"
       }
     ],
     "ytm_top_songs": [
@@ -4729,6 +4770,18 @@
       "type": "annotated",
       "related_annotation": "JAPAN JAM特番配信の遅延波及とみられる（新規要因未確認）",
       "detected_at": "2026-07-07T16:26:06.537299+00:00"
+    },
+    {
+      "date": "2026-07-08",
+      "metric": "ytm_monthly_listeners",
+      "value": 171000000,
+      "baseline_mean": 138900000,
+      "baseline_stddev": 14581609.4,
+      "delta": 32100000,
+      "score": 2.2,
+      "type": "annotated",
+      "related_annotation": "JAPAN JAM特番配信の遅延波及とみられる（新規要因未確認）",
+      "detected_at": "2026-07-08T16:04:56.820278+00:00"
     }
   ],
   "song_performance": {
@@ -5250,6 +5303,12 @@
           "views": 23505126,
           "likes": 295324,
           "comments": 1003
+        },
+        {
+          "date": "2026-07-08",
+          "views": 23562516,
+          "likes": 295961,
+          "comments": 1004
         }
       ]
     },
@@ -5771,6 +5830,12 @@
           "views": 20442779,
           "likes": 267371,
           "comments": 1036
+        },
+        {
+          "date": "2026-07-08",
+          "views": 20487146,
+          "likes": 267862,
+          "comments": 1040
         }
       ]
     },
@@ -6292,6 +6357,12 @@
           "views": 7458035,
           "likes": 97486,
           "comments": 1131
+        },
+        {
+          "date": "2026-07-08",
+          "views": 7469849,
+          "likes": 97609,
+          "comments": 1133
         }
       ]
     },
@@ -6813,6 +6884,12 @@
           "views": 12441723,
           "likes": 114913,
           "comments": 490
+        },
+        {
+          "date": "2026-07-08",
+          "views": 12451169,
+          "likes": 114972,
+          "comments": 491
         }
       ]
     },
@@ -7213,6 +7290,12 @@
           "date": "2026-07-07",
           "views": 5867714,
           "likes": 54720,
+          "comments": 193
+        },
+        {
+          "date": "2026-07-08",
+          "views": 5871163,
+          "likes": 54742,
           "comments": 193
         }
       ]

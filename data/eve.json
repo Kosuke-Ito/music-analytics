@@ -3518,6 +3518,47 @@
       "ytm_subscribers": 874000,
       "ytm_monthly_listeners": 11100000,
       "ytm_total_views": 917772060
+    },
+    {
+      "date": "2026-07-08",
+      "monthly_listeners": 3771628,
+      "collected_at": "2026-07-08T16:11:37.218491+00:00",
+      "spotify_followers": 2812241,
+      "youtube_subscribers": 5600000,
+      "youtube_total_views": 3506339245,
+      "youtube_video_count": 213,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 66331
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 47596
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 45254
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 40215
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 37922
+        }
+      ],
+      "lastfm_listeners": 1858165,
+      "lastfm_playcount": 54384640,
+      "ytm_subscribers": 875000,
+      "ytm_monthly_listeners": 11200000,
+      "ytm_total_views": 917772060
     }
   ],
   "annotations": [
@@ -3729,11 +3770,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Aaliyah",
-        "browse_id": "UC5tUz7LmavHn9NOM4Nn3wxQ",
-        "subscribers": "7.83M"
-      },
-      {
         "name": "Diddy",
         "browse_id": "UCa7UEhon5aHfncjkOWgwRDA",
         "subscribers": "18M"
@@ -3744,39 +3780,44 @@
         "subscribers": "78.1M"
       },
       {
+        "name": "Aaliyah",
+        "browse_id": "UC5tUz7LmavHn9NOM4Nn3wxQ",
+        "subscribers": "7.83M"
+      },
+      {
+        "name": "Missy \"Misdemeanor\" Elliott",
+        "browse_id": "UCKqVP7_535ELJu2OeEd3zzQ",
+        "subscribers": "6.49M"
+      },
+      {
         "name": "Ja Rule",
         "browse_id": "UCji7leqOCN06fhLhHPwVKEg",
-        "subscribers": "18.3M"
+        "subscribers": "18.7M"
       },
       {
         "name": "Destiny's Child",
         "browse_id": "UCksv4FYu55EEkyy5Q1W_yUw",
-        "subscribers": "21.6M"
-      },
-      {
-        "name": "Da Brat",
-        "browse_id": "UCrGJmt56tmeXke3ypLqr_JQ",
-        "subscribers": "1.75M"
+        "subscribers": "21.3M"
       },
       {
         "name": "Blackstreet",
         "browse_id": "UCgE7QvJb7ZQy91_gu2Ld9Zw",
-        "subscribers": "5.3M"
+        "subscribers": "5.33M"
       },
       {
-        "name": "Montell Jordan",
-        "browse_id": "UCqxlZOL7_YqtTf9phf4uTRw",
-        "subscribers": "4.72M"
+        "name": "Timbaland",
+        "browse_id": "UCStR3TnjvL7CL8ZNFPKmRXw",
+        "subscribers": "68.7M"
       },
       {
-        "name": "Ludacris",
-        "browse_id": "UCrcXT9Gn6zCA4dOqW6XsKUw",
-        "subscribers": "14.5M"
+        "name": "Mase",
+        "browse_id": "UC5gdSVYYBOKPgOdVdRG-Vdg",
+        "subscribers": "2.19M"
       },
       {
-        "name": "Mark Morrison",
-        "browse_id": "UCZqVeM2LxdgvCyncrg_qTGw",
-        "subscribers": "8.76M"
+        "name": "Kelis",
+        "browse_id": "UCFRqSV8SWQwWtEIWknLyf0w",
+        "subscribers": "25M"
       }
     ],
     "ytm_top_songs": [
@@ -4298,6 +4339,12 @@
           "views": 135526640,
           "likes": 1323408,
           "comments": 1643
+        },
+        {
+          "date": "2026-07-08",
+          "views": 135595753,
+          "likes": 1323985,
+          "comments": 1644
         }
       ]
     },
@@ -4795,6 +4842,12 @@
           "views": 15815847,
           "likes": 183115,
           "comments": 386
+        },
+        {
+          "date": "2026-07-08",
+          "views": 15827638,
+          "likes": 183220,
+          "comments": 387
         }
       ]
     },
@@ -5291,6 +5344,12 @@
           "date": "2026-07-07",
           "views": 20012690,
           "likes": 212283,
+          "comments": 312
+        },
+        {
+          "date": "2026-07-08",
+          "views": 20026079,
+          "likes": 212394,
           "comments": 312
         }
       ]
@@ -5789,6 +5848,12 @@
           "views": 11305176,
           "likes": 147055,
           "comments": 524
+        },
+        {
+          "date": "2026-07-08",
+          "views": 11314903,
+          "likes": 147169,
+          "comments": 524
         }
       ]
     },
@@ -6286,6 +6351,12 @@
           "views": 27513743,
           "likes": 218781,
           "comments": 537
+        },
+        {
+          "date": "2026-07-08",
+          "views": 27521494,
+          "likes": 218866,
+          "comments": 537
         }
       ]
     },
@@ -6638,6 +6709,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-07T16:32:58.176666+00:00"
+    },
+    {
+      "date": "2026-07-08",
+      "metric": "ytm_monthly_listeners",
+      "value": 11200000,
+      "baseline_mean": 10341379.3,
+      "baseline_stddev": 310935.5,
+      "delta": 858620,
+      "score": 2.76,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-08T16:11:38.872105+00:00"
     }
   ]
 }
