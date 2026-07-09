@@ -3568,6 +3568,47 @@
       "ytm_subscribers": 2230000,
       "ytm_monthly_listeners": 11800000,
       "ytm_total_views": 1276641641
+    },
+    {
+      "date": "2026-07-09",
+      "monthly_listeners": 2648526,
+      "collected_at": "2026-07-09T16:37:21.275389+00:00",
+      "spotify_followers": 1018258,
+      "youtube_subscribers": 2230000,
+      "youtube_total_views": 1764889939,
+      "youtube_video_count": 122,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 138058
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 129210
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 92345
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 49528
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 46622
+        }
+      ],
+      "lastfm_listeners": 207889,
+      "lastfm_playcount": 3459578,
+      "ytm_subscribers": 2230000,
+      "ytm_monthly_listeners": 11900000,
+      "ytm_total_views": 1278204827
     }
   ],
   "annotations": [
@@ -3969,17 +4010,12 @@
       {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "2.34M"
+        "subscribers": "2.38M"
       },
       {
         "name": "BE:FIRST",
         "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
-        "subscribers": "8.41M"
-      },
-      {
-        "name": "ME:I",
-        "browse_id": "UCmVWcCVzrEgVfNZLY80hfHw",
-        "subscribers": "2.06M"
+        "subscribers": "8.66M"
       },
       {
         "name": "CUTIE STREET",
@@ -3987,14 +4023,19 @@
         "subscribers": "25.2M"
       },
       {
-        "name": "NiziU",
-        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "4.87M"
+        "name": "ME:I",
+        "browse_id": "UCmVWcCVzrEgVfNZLY80hfHw",
+        "subscribers": "2.05M"
       },
       {
         "name": "CHANMINA",
         "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
         "subscribers": "8.79M"
+      },
+      {
+        "name": "NiziU",
+        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
+        "subscribers": "5.92M"
       },
       {
         "name": "SKY-HI",
@@ -4539,6 +4580,12 @@
           "views": 136793,
           "likes": 1153,
           "comments": 25
+        },
+        {
+          "date": "2026-07-09",
+          "views": 137500,
+          "likes": 1155,
+          "comments": 25
         }
       ]
     },
@@ -5053,6 +5100,12 @@
           "date": "2026-07-08",
           "views": 251028,
           "likes": 1907,
+          "comments": 21
+        },
+        {
+          "date": "2026-07-09",
+          "views": 252812,
+          "likes": 1919,
           "comments": 21
         }
       ]
@@ -5928,6 +5981,12 @@
           "views": 416968,
           "likes": 2469,
           "comments": 11
+        },
+        {
+          "date": "2026-07-09",
+          "views": 420186,
+          "likes": 2487,
+          "comments": 11
         }
       ]
     },
@@ -6214,6 +6273,12 @@
           "date": "2026-07-08",
           "views": 101999,
           "likes": 713,
+          "comments": 5
+        },
+        {
+          "date": "2026-07-09",
+          "views": 102442,
+          "likes": 714,
           "comments": 5
         }
       ]
@@ -6604,6 +6669,12 @@
           "views": 455792,
           "likes": 3040,
           "comments": 45
+        },
+        {
+          "date": "2026-07-09",
+          "views": 456453,
+          "likes": 3046,
+          "comments": 45
         }
       ]
     },
@@ -6747,6 +6818,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-08T16:12:12.565077+00:00"
+    },
+    {
+      "date": "2026-07-09",
+      "metric": "youtube_total_views",
+      "value": 1764889939,
+      "baseline_mean": 1737484986.8,
+      "baseline_stddev": 13551110.9,
+      "delta": 27404952,
+      "score": 2.02,
+      "type": "annotated",
+      "related_annotation": "Amazon Music「2026年上半期 Top 50」で「Blue Jeans」が国内7位、計5曲がランクイン",
+      "detected_at": "2026-07-09T16:37:23.535191+00:00"
     }
   ]
 }
