@@ -6863,6 +6863,26 @@
       "source": "natalie.mu, skream.jp, sonymusic.co.jp",
       "confidence": "high",
       "verified": false
+    },
+    {
+      "date": "2026-07-11",
+      "title": "YouTube Data APIカウンター第6次凍結（166,627,686・7/1〜7/10）解除による蓄積分一括計上アーティファクト（2.94σ）",
+      "description": "7月1日に166,627,686へ更新後、7月1日〜7月10日の10日間にわたってYouTube Data APIカウンターが同値で固定される第6次凍結が発生。7月11日に168,372,490へ更新され、凍結期間中の蓄積分（+1,744,804・10日分）が一括計上された。スコア2.94σが計測されたが、これまでの第1〜5次凍結と同様のAPI側の計上アーティファクトであり、単日の新規バイラルイベントではない。",
+      "category": "other",
+      "added_at": "2026-07-11T15:00:00+00:00",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-07-11",
+      "title": "「ユラリユレル」アニメ2話放映・NOMELON NOLEMON×Aoooコラボ発表の反響でSpotify月間リスナー継続増",
+      "description": "7月5日配信リリースの「ユラリユレル」（TVアニメ「グロウアップショウ ～ひまわりのサーカス団～」OPテーマ、毎週金〜日曜放送）が7月10日前後の第2話放映を経て浸透が継続。加えて7月9日前後にNOMELON NOLEMON×Aoooの初対バンイベント（9/16開催）・CD相互カバー収録が発表され話題化。Spotify月間リスナーは7月1日の280,509人から7月11日の293,650人へ10日間で+13,141人（+4.7%）と緩やかな増加が続き、直近3日は加速（+2,437 / +4,357 / +4,438）してバズ検知スコア2.01σを記録した。",
+      "url": "https://natalie.mu/music/news/679212",
+      "category": "release",
+      "added_at": "2026-07-11T15:00:00+00:00",
+      "source": "natalie.mu, skream.jp, growupshow.com（データ検証）",
+      "confidence": "medium",
+      "verified": false
     }
   ],
   "buzz_events": [
