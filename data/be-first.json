@@ -3647,6 +3647,47 @@
       "ytm_subscribers": 1250000,
       "ytm_monthly_listeners": 8860000,
       "ytm_total_views": 1518107761
+    },
+    {
+      "date": "2026-07-11",
+      "monthly_listeners": 2193909,
+      "collected_at": "2026-07-11T15:01:24.909461+00:00",
+      "spotify_followers": 636613,
+      "youtube_subscribers": 1250000,
+      "youtube_total_views": 1620217008,
+      "youtube_video_count": 492,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 95986
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 90266
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 66464
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 34986
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 32143
+        }
+      ],
+      "lastfm_listeners": 74633,
+      "lastfm_playcount": 1411801,
+      "ytm_subscribers": 1250000,
+      "ytm_monthly_listeners": 8860000,
+      "ytm_total_views": 1522201583
     }
   ],
   "metadata": {
@@ -3688,22 +3729,12 @@
       {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "2.39M"
+        "subscribers": "2.4M"
       },
       {
         "name": "King & Prince",
         "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
         "subscribers": "4.15M"
-      },
-      {
-        "name": "NiziU",
-        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "6.52M"
-      },
-      {
-        "name": "Nissy",
-        "browse_id": "UCkv76wCrBDQNn7ctcbn6Qeg",
-        "subscribers": "1.86M"
       },
       {
         "name": "Number_i",
@@ -3716,9 +3747,19 @@
         "subscribers": "11.9M"
       },
       {
+        "name": "NiziU",
+        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
+        "subscribers": "6.52M"
+      },
+      {
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
         "subscribers": "1.27M"
+      },
+      {
+        "name": "Nissy",
+        "browse_id": "UCkv76wCrBDQNn7ctcbn6Qeg",
+        "subscribers": "1.84M"
       },
       {
         "name": "SOTA",
@@ -4557,6 +4598,12 @@
           "views": 2487666,
           "likes": 18378,
           "comments": 767
+        },
+        {
+          "date": "2026-07-11",
+          "views": 2496571,
+          "likes": 18404,
+          "comments": 767
         }
       ]
     },
@@ -5084,6 +5131,12 @@
           "views": 19353997,
           "likes": 91417,
           "comments": 2055
+        },
+        {
+          "date": "2026-07-11",
+          "views": 19380380,
+          "likes": 91492,
+          "comments": 2056
         }
       ]
     },
@@ -6441,6 +6494,12 @@
           "views": 1483447,
           "likes": 25197,
           "comments": 1392
+        },
+        {
+          "date": "2026-07-11",
+          "views": 1489356,
+          "likes": 25211,
+          "comments": 1393
         }
       ]
     },
@@ -6710,6 +6769,12 @@
           "views": 946000,
           "likes": 16415,
           "comments": 625
+        },
+        {
+          "date": "2026-07-11",
+          "views": 989200,
+          "likes": 16605,
+          "comments": 645
         }
       ]
     },
@@ -6745,6 +6810,12 @@
           "views": 753887,
           "likes": 18926,
           "comments": 1543
+        },
+        {
+          "date": "2026-07-11",
+          "views": 787643,
+          "likes": 19139,
+          "comments": 1570
         }
       ]
     }
@@ -7169,6 +7240,42 @@
       "type": "annotated",
       "related_annotation": "「Missing」がオリコン週間ランキングで3冠達成",
       "detected_at": "2026-07-10T16:33:10.537988+00:00"
+    },
+    {
+      "date": "2026-07-11",
+      "metric": "monthly_listeners",
+      "value": 2193909,
+      "baseline_mean": 2099565.8,
+      "baseline_stddev": 31764.7,
+      "delta": 94343,
+      "score": 2.97,
+      "type": "annotated",
+      "related_annotation": "「Missing」がオリコン週間ランキングで3冠達成",
+      "detected_at": "2026-07-11T15:01:27.444638+00:00"
+    },
+    {
+      "date": "2026-07-11",
+      "metric": "ytm_monthly_listeners",
+      "value": 8860000,
+      "baseline_mean": 5518000,
+      "baseline_stddev": 1463637.9,
+      "delta": 3342000,
+      "score": 2.28,
+      "type": "annotated",
+      "related_annotation": "「Missing」がオリコン週間ランキングで3冠達成",
+      "detected_at": "2026-07-11T15:01:27.444638+00:00"
+    },
+    {
+      "date": "2026-07-11",
+      "metric": "youtube_total_views",
+      "value": 1620217008,
+      "baseline_mean": 1592612165.9,
+      "baseline_stddev": 13761525.9,
+      "delta": 27604842,
+      "score": 2.01,
+      "type": "annotated",
+      "related_annotation": "「Missing」がオリコン週間ランキングで3冠達成",
+      "detected_at": "2026-07-11T15:01:27.444638+00:00"
     }
   ]
 }

@@ -3938,6 +3938,47 @@
       "ytm_subscribers": 9350000,
       "ytm_monthly_listeners": 29700000,
       "ytm_total_views": 5434588521
+    },
+    {
+      "date": "2026-07-11",
+      "monthly_listeners": 6698598,
+      "collected_at": "2026-07-11T14:50:56.407347+00:00",
+      "spotify_followers": 7782958,
+      "youtube_subscribers": 9350000,
+      "youtube_total_views": 5488549356,
+      "youtube_video_count": 717,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 121953
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 91827
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 89848
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 72380
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 71507
+        }
+      ],
+      "lastfm_listeners": 739055,
+      "lastfm_playcount": 89622841,
+      "ytm_subscribers": 9350000,
+      "ytm_monthly_listeners": 29900000,
+      "ytm_total_views": 5434588521
     }
   ],
   "annotations": [
@@ -4403,11 +4444,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "75.1M"
-      },
-      {
         "name": "YOASOBI",
         "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
         "subscribers": "36.9M"
@@ -4428,9 +4464,14 @@
         "subscribers": "23.7M"
       },
       {
-        "name": "Kocchi no Kento",
-        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
-        "subscribers": "67.1M"
+        "name": "natori",
+        "browse_id": "UC5hhaaGgz7LKt_abggs0qWQ",
+        "subscribers": "14.3M"
+      },
+      {
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "75.1M"
       },
       {
         "name": "LiSA",
@@ -4438,9 +4479,9 @@
         "subscribers": "22M"
       },
       {
-        "name": "Reol",
-        "browse_id": "UCknW0jP_BkALWACMQ44cJ1A",
-        "subscribers": "2.69M"
+        "name": "Kocchi no Kento",
+        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
+        "subscribers": "66.7M"
       },
       {
         "name": "yama",
@@ -4455,16 +4496,16 @@
     ],
     "ytm_top_songs": [
       {
+        "title": "Love me forever!",
+        "video_id": "TPMdLG7LO-4"
+      },
+      {
         "title": "唱 - Show",
         "video_id": "VJDbgtc692k"
       },
       {
         "title": "うっせぇわ - Usseewa",
         "video_id": "GtPLYvYeZ_4"
-      },
-      {
-        "title": "Love me forever!",
-        "video_id": "TPMdLG7LO-4"
       },
       {
         "title": "逆光 (ウタ from ONE PIECE FILM RED) - Backlight (UTA from ONE PIECE FILM RED)",
@@ -5014,6 +5055,12 @@
           "views": 7486232,
           "likes": 162051,
           "comments": 2663
+        },
+        {
+          "date": "2026-07-11",
+          "views": 7517239,
+          "likes": 162311,
+          "comments": 2664
         }
       ]
     },
@@ -5553,6 +5600,12 @@
           "views": 32221874,
           "likes": 211922,
           "comments": 844
+        },
+        {
+          "date": "2026-07-11",
+          "views": 32265218,
+          "likes": 212152,
+          "comments": 845
         }
       ]
     },
@@ -6092,6 +6145,12 @@
           "views": 53016033,
           "likes": 488177,
           "comments": 2115
+        },
+        {
+          "date": "2026-07-11",
+          "views": 53051455,
+          "likes": 488467,
+          "comments": 2118
         }
       ]
     },
@@ -6720,6 +6779,12 @@
           "views": 68620220,
           "likes": 359565,
           "comments": 741
+        },
+        {
+          "date": "2026-07-11",
+          "views": 68655233,
+          "likes": 359749,
+          "comments": 742
         }
       ]
     },
@@ -7190,6 +7255,12 @@
           "views": 501026,
           "likes": 21470,
           "comments": 517
+        },
+        {
+          "date": "2026-07-11",
+          "views": 549919,
+          "likes": 22544,
+          "comments": 527
         }
       ]
     }
@@ -7542,6 +7613,18 @@
       "type": "annotated",
       "related_annotation": "日産スタジアム公演「Ao」・新曲「Love me forever!」効果の余波でSpotify月間リスナー・YouTube総再生数が継続上昇",
       "detected_at": "2026-07-10T16:21:33.561539+00:00"
+    },
+    {
+      "date": "2026-07-11",
+      "metric": "monthly_listeners",
+      "value": 6698598,
+      "baseline_mean": 6596050.8,
+      "baseline_stddev": 45248.2,
+      "delta": 102547,
+      "score": 2.27,
+      "type": "annotated",
+      "related_annotation": "日産スタジアム公演「Ao」・新曲「Love me forever!」効果の余波でSpotify月間リスナー・YouTube総再生数が継続上昇",
+      "detected_at": "2026-07-11T14:50:57.689580+00:00"
     }
   ]
 }

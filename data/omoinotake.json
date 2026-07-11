@@ -3653,6 +3653,47 @@
       "ytm_subscribers": 314000,
       "ytm_monthly_listeners": 3260000,
       "ytm_total_views": 313244876
+    },
+    {
+      "date": "2026-07-11",
+      "monthly_listeners": 1394654,
+      "collected_at": "2026-07-11T15:01:08.911217+00:00",
+      "spotify_followers": 334233,
+      "youtube_subscribers": 315000,
+      "youtube_total_views": 315998367,
+      "youtube_video_count": 218,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 44240
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 42014
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 31731
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 16757
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 16080
+        }
+      ],
+      "lastfm_listeners": 142270,
+      "lastfm_playcount": 2508431,
+      "ytm_subscribers": 315000,
+      "ytm_monthly_listeners": 3480000,
+      "ytm_total_views": 313244876
     }
   ],
   "annotations": [
@@ -3931,14 +3972,14 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "sumika",
+        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
+        "subscribers": "2.97M"
+      },
+      {
         "name": "Penthouse",
         "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
         "subscribers": "2.08M"
-      },
-      {
-        "name": "sumika",
-        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
-        "subscribers": "2.98M"
       },
       {
         "name": "OFFICIAL HIGE DANDISM",
@@ -3948,27 +3989,22 @@
       {
         "name": "Ryokuousyoku Syakai",
         "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.58M"
+        "subscribers": "7.59M"
       },
       {
         "name": "Vaundy",
         "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "18.2M"
-      },
-      {
-        "name": "RETRORIRON",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "298K"
+        "subscribers": "18.3M"
       },
       {
         "name": "Novelbright",
         "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "5.06M"
+        "subscribers": "5.03M"
       },
       {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "3.02M"
+        "name": "Dish",
+        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
+        "subscribers": "2.62M"
       },
       {
         "name": "yama",
@@ -3976,9 +4012,14 @@
         "subscribers": "4.43M"
       },
       {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "5.71M"
+        "name": "Ayumu Imazu",
+        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
+        "subscribers": "3.07M"
+      },
+      {
+        "name": "RETRORIRON",
+        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
+        "subscribers": "299K"
       }
     ],
     "ytm_top_songs": [
@@ -4536,6 +4577,12 @@
           "views": 11690796,
           "likes": 55159,
           "comments": 203
+        },
+        {
+          "date": "2026-07-11",
+          "views": 11697907,
+          "likes": 55191,
+          "comments": 203
         }
       ]
     },
@@ -5069,6 +5116,12 @@
           "views": 815716,
           "likes": 8419,
           "comments": 89
+        },
+        {
+          "date": "2026-07-11",
+          "views": 816542,
+          "likes": 8433,
+          "comments": 89
         }
       ]
     },
@@ -5601,6 +5654,12 @@
           "date": "2026-07-10",
           "views": 2259914,
           "likes": 16861,
+          "comments": 60
+        },
+        {
+          "date": "2026-07-11",
+          "views": 2260773,
+          "likes": 16865,
           "comments": 60
         }
       ]
@@ -6661,6 +6720,12 @@
           "views": 1030112,
           "likes": 9546,
           "comments": 84
+        },
+        {
+          "date": "2026-07-11",
+          "views": 1030717,
+          "likes": 9554,
+          "comments": 84
         }
       ]
     },
@@ -6682,6 +6747,12 @@
           "date": "2026-07-10",
           "views": 7860,
           "likes": 272,
+          "comments": 10
+        },
+        {
+          "date": "2026-07-11",
+          "views": 8439,
+          "likes": 288,
           "comments": 10
         }
       ]
@@ -7023,6 +7094,18 @@
       "type": "annotated",
       "related_annotation": "「FLASHBULB」ヒットの波及でYouTube Music月間リスナーも急増",
       "detected_at": "2026-07-10T16:32:52.770547+00:00"
+    },
+    {
+      "date": "2026-07-11",
+      "metric": "ytm_monthly_listeners",
+      "value": 3480000,
+      "baseline_mean": 2753666.7,
+      "baseline_stddev": 123840.8,
+      "delta": 726333,
+      "score": 5.87,
+      "type": "annotated",
+      "related_annotation": "「FLASHBULB」ヒットの波及でYouTube Music月間リスナーも急増",
+      "detected_at": "2026-07-11T15:01:10.547390+00:00"
     }
   ]
 }

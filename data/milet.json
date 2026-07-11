@@ -3650,6 +3650,47 @@
       "ytm_subscribers": 881000,
       "ytm_monthly_listeners": 5190000,
       "ytm_total_views": 643603925
+    },
+    {
+      "date": "2026-07-11",
+      "monthly_listeners": 2140011,
+      "collected_at": "2026-07-11T15:00:51.251769+00:00",
+      "spotify_followers": 1060460,
+      "youtube_subscribers": 881000,
+      "youtube_total_views": 664285907,
+      "youtube_video_count": 300,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54507
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 47443
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 42954
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 30010
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 22746
+        }
+      ],
+      "lastfm_listeners": 168504,
+      "lastfm_playcount": 5866971,
+      "ytm_subscribers": 881000,
+      "ytm_monthly_listeners": 5210000,
+      "ytm_total_views": 643822231
     }
   ],
   "annotations": [
@@ -3864,42 +3905,42 @@
       {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "28.9M"
-      },
-      {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "20M"
+        "subscribers": "28.6M"
       },
       {
         "name": "Ryokuousyoku Syakai",
         "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.58M"
-      },
-      {
-        "name": "Miwa",
-        "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
-        "subscribers": "1.96M"
-      },
-      {
-        "name": "YUI",
-        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
-        "subscribers": "7.56M"
-      },
-      {
-        "name": "LiSA",
-        "browse_id": "UCt4rbOMLsVxeMsoaRdTfr5A",
-        "subscribers": "22M"
+        "subscribers": "7.59M"
       },
       {
         "name": "Aimer",
         "browse_id": "UC_gksw7NEueO_u3lPL372hA",
-        "subscribers": "9.55M"
+        "subscribers": "9.51M"
       },
       {
-        "name": "Utada",
-        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "24.3M"
+        "name": "Lilas",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "20.2M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.43M"
+      },
+      {
+        "name": "YU-KA",
+        "browse_id": "UC-3USfEYlYrgjVGHSNY1QWA",
+        "subscribers": "379K"
+      },
+      {
+        "name": "Miwa",
+        "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
+        "subscribers": "1.92M"
+      },
+      {
+        "name": "ATARAYO",
+        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
+        "subscribers": "1.53M"
       },
       {
         "name": "ONE OK ROCK",
@@ -4958,6 +4999,12 @@
           "views": 9065370,
           "likes": 63446,
           "comments": 215
+        },
+        {
+          "date": "2026-07-11",
+          "views": 9071965,
+          "likes": 63467,
+          "comments": 215
         }
       ]
     },
@@ -5483,6 +5530,12 @@
         {
           "date": "2026-07-10",
           "views": 2033055,
+          "likes": 13899,
+          "comments": 109
+        },
+        {
+          "date": "2026-07-11",
+          "views": 2033828,
           "likes": 13899,
           "comments": 109
         }
@@ -6018,6 +6071,12 @@
           "views": 7396209,
           "likes": 53276,
           "comments": 69
+        },
+        {
+          "date": "2026-07-11",
+          "views": 7398428,
+          "likes": 53289,
+          "comments": 69
         }
       ]
     },
@@ -6479,6 +6538,12 @@
           "views": 1800612,
           "likes": 27458,
           "comments": 312
+        },
+        {
+          "date": "2026-07-11",
+          "views": 1806300,
+          "likes": 27515,
+          "comments": 313
         }
       ]
     },
@@ -6608,6 +6673,12 @@
           "date": "2026-07-10",
           "views": 14057364,
           "likes": 137102,
+          "comments": 2317
+        },
+        {
+          "date": "2026-07-11",
+          "views": 14072917,
+          "likes": 137286,
           "comments": 2317
         }
       ]
@@ -6841,6 +6912,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-10T16:32:35.323961+00:00"
+    },
+    {
+      "date": "2026-07-11",
+      "metric": "youtube_total_views",
+      "value": 664285907,
+      "baseline_mean": 660259065.3,
+      "baseline_stddev": 1848261.5,
+      "delta": 4026841,
+      "score": 2.18,
+      "type": "annotated",
+      "related_annotation": "「Made of Glass」発表・「Sunny」告知の効果が3日連続で継続",
+      "detected_at": "2026-07-11T15:00:53.523395+00:00"
     }
   ]
 }

@@ -3641,6 +3641,47 @@
       "ytm_subscribers": 1360000,
       "ytm_monthly_listeners": 62400000,
       "ytm_total_views": 874117100
+    },
+    {
+      "date": "2026-07-11",
+      "monthly_listeners": 4200777,
+      "collected_at": "2026-07-11T14:56:20.241183+00:00",
+      "spotify_followers": 1036237,
+      "youtube_subscribers": 1360000,
+      "youtube_total_views": 878154863,
+      "youtube_video_count": 791,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 71382
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 69720
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54443
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 52095
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 50772
+        }
+      ],
+      "lastfm_listeners": 426188,
+      "lastfm_playcount": 6018849,
+      "ytm_subscribers": 1360000,
+      "ytm_monthly_listeners": 61400000,
+      "ytm_total_views": 874634301
     }
   ],
   "annotations": [
@@ -3937,14 +3978,14 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "noa",
+        "browse_id": "UC0x8PzSHCGN6iKzRR1RFHAg",
+        "subscribers": "5.24M"
+      },
+      {
         "name": "YOASOBI",
         "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
         "subscribers": "36.9M"
-      },
-      {
-        "name": "noa",
-        "browse_id": "UC0x8PzSHCGN6iKzRR1RFHAg",
-        "subscribers": "5.21M"
       },
       {
         "name": "Penthouse",
@@ -3952,34 +3993,34 @@
         "subscribers": "2.08M"
       },
       {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "18.3M"
+      },
+      {
         "name": "yama",
         "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
         "subscribers": "4.43M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "18.2M"
-      },
-      {
         "name": "Lilas",
         "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "20M"
-      },
-      {
-        "name": "RETRORIRON",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "298K"
+        "subscribers": "20.2M"
       },
       {
         "name": "Ayumu Imazu",
         "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "3.02M"
+        "subscribers": "3.07M"
       },
       {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.26M"
+        "name": "RETRORIRON",
+        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
+        "subscribers": "299K"
+      },
+      {
+        "name": "KERENMI",
+        "browse_id": "UCacynfHovHzkQJ_1enhaDmw",
+        "subscribers": "2.69K"
       },
       {
         "name": "WhaleDontSleep",
@@ -4518,6 +4559,12 @@
           "views": 144145282,
           "likes": 1157819,
           "comments": 6195
+        },
+        {
+          "date": "2026-07-11",
+          "views": 144266721,
+          "likes": 1159127,
+          "comments": 6203
         }
       ]
     },
@@ -5026,6 +5073,12 @@
           "date": "2026-07-10",
           "views": 8169858,
           "likes": 59944,
+          "comments": 167
+        },
+        {
+          "date": "2026-07-11",
+          "views": 8178220,
+          "likes": 59987,
           "comments": 167
         }
       ]
@@ -5536,6 +5589,12 @@
           "views": 3486468,
           "likes": 37876,
           "comments": 289
+        },
+        {
+          "date": "2026-07-11",
+          "views": 3489163,
+          "likes": 37902,
+          "comments": 289
         }
       ]
     },
@@ -6044,6 +6103,12 @@
           "date": "2026-07-10",
           "views": 11780016,
           "likes": 52020,
+          "comments": 156
+        },
+        {
+          "date": "2026-07-11",
+          "views": 11787225,
+          "likes": 52042,
           "comments": 156
         }
       ]
@@ -6678,6 +6743,12 @@
           "date": "2026-07-10",
           "views": 6755354,
           "likes": 39098,
+          "comments": 210
+        },
+        {
+          "date": "2026-07-11",
+          "views": 6763188,
+          "likes": 39139,
           "comments": 210
         }
       ]
@@ -7427,6 +7498,18 @@
       "type": "annotated",
       "related_annotation": "imase新曲「Fiction」を配信リリース",
       "detected_at": "2026-07-10T16:27:34.779121+00:00"
+    },
+    {
+      "date": "2026-07-11",
+      "metric": "youtube_total_views",
+      "value": 878154863,
+      "baseline_mean": 866773403.1,
+      "baseline_stddev": 5223723.7,
+      "delta": 11381459,
+      "score": 2.18,
+      "type": "annotated",
+      "related_annotation": "imase新曲「Fiction」を配信リリース",
+      "detected_at": "2026-07-11T14:56:22.074204+00:00"
     }
   ]
 }

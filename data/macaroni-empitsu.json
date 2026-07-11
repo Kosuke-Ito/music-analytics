@@ -3656,6 +3656,47 @@
       "ytm_subscribers": 594000,
       "ytm_monthly_listeners": 4590000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-11",
+      "monthly_listeners": 2776674,
+      "collected_at": "2026-07-11T14:58:40.951054+00:00",
+      "spotify_followers": 2004121,
+      "youtube_subscribers": 594000,
+      "youtube_total_views": 503512572,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 149714
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 139568
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 96487
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 55948
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 47147
+        }
+      ],
+      "lastfm_listeners": 7652,
+      "lastfm_playcount": 447445,
+      "ytm_subscribers": 594000,
+      "ytm_monthly_listeners": 4640000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -3988,22 +4029,22 @@
       {
         "name": "sumika",
         "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
-        "subscribers": "2.98M"
+        "subscribers": "2.97M"
       },
       {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "15.6M"
+        "subscribers": "15.8M"
       },
       {
-        "name": "Koresawa",
-        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "4.91M"
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "3.65M"
       },
       {
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "93.1M"
+        "subscribers": "93.4M"
       },
       {
         "name": "WurtS",
@@ -4013,12 +4054,17 @@
       {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.38M"
+        "subscribers": "2.37M"
       },
       {
-        "name": "SHISHAMO",
-        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "3.63M"
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "4.87M"
+      },
+      {
+        "name": "Hump Back",
+        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
+        "subscribers": "6.12M"
       },
       {
         "name": "Tele",
@@ -4029,11 +4075,6 @@
         "name": "go!go!vanillas",
         "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
         "subscribers": "590K"
-      },
-      {
-        "name": "Hump Back",
-        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
-        "subscribers": "6.1M"
       }
     ],
     "ytm_top_songs": [
@@ -4578,6 +4619,12 @@
           "views": 12327191,
           "likes": 70367,
           "comments": 142
+        },
+        {
+          "date": "2026-07-11",
+          "views": 12343262,
+          "likes": 70466,
+          "comments": 142
         }
       ]
     },
@@ -5099,6 +5146,12 @@
           "views": 24803771,
           "likes": 90087,
           "comments": 172
+        },
+        {
+          "date": "2026-07-11",
+          "views": 24826264,
+          "likes": 90199,
+          "comments": 172
         }
       ]
     },
@@ -5608,6 +5661,12 @@
           "views": 16964011,
           "likes": 62369,
           "comments": 116
+        },
+        {
+          "date": "2026-07-11",
+          "views": 16981664,
+          "likes": 62464,
+          "comments": 116
         }
       ]
     },
@@ -6039,6 +6098,12 @@
           "views": 45253319,
           "likes": 140123,
           "comments": 239
+        },
+        {
+          "date": "2026-07-11",
+          "views": 45273498,
+          "likes": 140206,
+          "comments": 239
         }
       ]
     },
@@ -6451,6 +6516,12 @@
           "views": 14555338,
           "likes": 85476,
           "comments": 464
+        },
+        {
+          "date": "2026-07-11",
+          "views": 14601643,
+          "likes": 85826,
+          "comments": 466
         }
       ]
     },
@@ -7390,6 +7461,42 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-10T16:30:13.604976+00:00"
+    },
+    {
+      "date": "2026-07-11",
+      "metric": "monthly_listeners",
+      "value": 2776674,
+      "baseline_mean": 2531173.7,
+      "baseline_stddev": 111689.3,
+      "delta": 245500,
+      "score": 2.2,
+      "type": "annotated",
+      "related_annotation": "「終宵」配信・「THE STAR JAM 2026」出演の反響が継続——Spotify/YTM月間リスナーが急増",
+      "detected_at": "2026-07-11T14:58:42.600050+00:00"
+    },
+    {
+      "date": "2026-07-11",
+      "metric": "ytm_monthly_listeners",
+      "value": 4640000,
+      "baseline_mean": 4476896.6,
+      "baseline_stddev": 51064.8,
+      "delta": 163103,
+      "score": 3.19,
+      "type": "annotated",
+      "related_annotation": "「終宵」配信・「THE STAR JAM 2026」出演の反響が継続——Spotify/YTM月間リスナーが急増",
+      "detected_at": "2026-07-11T14:58:42.600050+00:00"
+    },
+    {
+      "date": "2026-07-11",
+      "metric": "youtube_total_views",
+      "value": 503512572,
+      "baseline_mean": 495516645.7,
+      "baseline_stddev": 3537726.0,
+      "delta": 7995926,
+      "score": 2.26,
+      "type": "annotated",
+      "related_annotation": "「終宵」配信・「THE STAR JAM 2026」出演の反響が継続——Spotify/YTM月間リスナーが急増",
+      "detected_at": "2026-07-11T14:58:42.600050+00:00"
     }
   ]
 }

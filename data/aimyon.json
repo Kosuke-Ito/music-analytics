@@ -3650,6 +3650,47 @@
       "ytm_subscribers": 2290000,
       "ytm_monthly_listeners": 7410000,
       "ytm_total_views": 2702371263
+    },
+    {
+      "date": "2026-07-11",
+      "monthly_listeners": 4908894,
+      "collected_at": "2026-07-11T14:56:36.017846+00:00",
+      "spotify_followers": 6333105,
+      "youtube_subscribers": 2290000,
+      "youtube_total_views": 2715344007,
+      "youtube_video_count": 282,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 247837
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 230462
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 157087
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 89359
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 77451
+        }
+      ],
+      "lastfm_listeners": 20064,
+      "lastfm_playcount": 1462372,
+      "ytm_subscribers": 2290000,
+      "ytm_monthly_listeners": 7390000,
+      "ytm_total_views": 2703151287
     }
   ],
   "annotations": [
@@ -3988,7 +4029,7 @@
       {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "28.9M"
+        "subscribers": "28.6M"
       },
       {
         "name": "OFFICIAL HIGE DANDISM",
@@ -3998,27 +4039,27 @@
       {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "15.6M"
-      },
-      {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "20M"
-      },
-      {
-        "name": "Ayaka",
-        "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
-        "subscribers": "2.96M"
-      },
-      {
-        "name": "Kana Nishino",
-        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
-        "subscribers": "5.61M"
+        "subscribers": "15.8M"
       },
       {
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "9.24M"
+        "subscribers": "9.3M"
+      },
+      {
+        "name": "wacci",
+        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
+        "subscribers": "1.68M"
+      },
+      {
+        "name": "Lilas",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "20.2M"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "9.37M"
       },
       {
         "name": "Ikimonogakari",
@@ -4028,12 +4069,12 @@
       {
         "name": "Motohiro Hata",
         "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "11.9M"
+        "subscribers": "12M"
       },
       {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "5.86M"
+        "name": "Miwa",
+        "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
+        "subscribers": "1.92M"
       }
     ],
     "ytm_top_songs": [
@@ -4591,6 +4632,12 @@
           "views": 107346358,
           "likes": 309923,
           "comments": 684
+        },
+        {
+          "date": "2026-07-11",
+          "views": 107391784,
+          "likes": 310077,
+          "comments": 684
         }
       ]
     },
@@ -5123,6 +5170,12 @@
           "date": "2026-07-10",
           "views": 101973536,
           "likes": 347706,
+          "comments": 415
+        },
+        {
+          "date": "2026-07-11",
+          "views": 102018101,
+          "likes": 347868,
           "comments": 415
         }
       ]
@@ -5657,6 +5710,12 @@
           "views": 63427128,
           "likes": 184959,
           "comments": 234
+        },
+        {
+          "date": "2026-07-11",
+          "views": 63451603,
+          "likes": 185053,
+          "comments": 234
         }
       ]
     },
@@ -6189,6 +6248,12 @@
           "date": "2026-07-10",
           "views": 1991864,
           "likes": 6191,
+          "comments": 39
+        },
+        {
+          "date": "2026-07-11",
+          "views": 1992212,
+          "likes": 6190,
           "comments": 39
         }
       ]
@@ -6727,6 +6792,12 @@
           "date": "2026-07-10",
           "views": 36480311,
           "likes": 116390,
+          "comments": 238
+        },
+        {
+          "date": "2026-07-11",
+          "views": 36495313,
+          "likes": 116465,
           "comments": 238
         }
       ]
@@ -7524,6 +7595,18 @@
       "type": "annotated",
       "related_annotation": "FM802で甲子園ライブ直前特番「イメージトレーニング」放送",
       "detected_at": "2026-07-10T16:27:52.229667+00:00"
+    },
+    {
+      "date": "2026-07-11",
+      "metric": "monthly_listeners",
+      "value": 4908894,
+      "baseline_mean": 4718507.6,
+      "baseline_stddev": 75173.3,
+      "delta": 190386,
+      "score": 2.53,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-11T14:56:37.612899+00:00"
     }
   ]
 }
