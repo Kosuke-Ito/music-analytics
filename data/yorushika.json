@@ -3685,6 +3685,50 @@
       "ytm_subscribers": 4000000,
       "ytm_monthly_listeners": 15600000,
       "ytm_total_views": 3361102002
+    },
+    {
+      "date": "2026-07-12",
+      "monthly_listeners": 4901180,
+      "collected_at": "2026-07-12T14:59:25.812658+00:00",
+      "spotify_followers": 3644138,
+      "youtube_subscribers": 4000000,
+      "youtube_total_views": 3368180000,
+      "youtube_video_count": 129,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 207311
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 148600
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 115475
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 102242
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 67280
+        }
+      ],
+      "lastfm_listeners": 257846,
+      "lastfm_playcount": 11823238,
+      "ytm_subscribers": 4000000,
+      "ytm_monthly_listeners": 15600000,
+      "ytm_total_views": 3361102002,
+      "validation_flags": [
+        "unusual_deviation"
+      ]
     }
   ],
   "annotations": [
@@ -3982,12 +4026,12 @@
       {
         "name": "YOASOBI",
         "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "36.9M"
+        "subscribers": "38.1M"
       },
       {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.59M"
+        "name": "MEGATERA･ZERO",
+        "browse_id": "UCe0GU9CHeC3hbvgYmzXc7OA",
+        "subscribers": "65.8K"
       },
       {
         "name": "Eve",
@@ -4000,34 +4044,34 @@
         "subscribers": "18.3M"
       },
       {
-        "name": "ChoQMay",
-        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
-        "subscribers": "3.99M"
-      },
-      {
         "name": "Tatsuya Kitani",
         "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "23.7M"
+        "subscribers": "24.1M"
+      },
+      {
+        "name": "tuki.",
+        "browse_id": "UCtrbtNbdI4jwRQPG35Mtn2A",
+        "subscribers": "16.5M"
       },
       {
         "name": "King Gnu",
         "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "40.3M"
+        "subscribers": "41.7M"
       },
       {
         "name": "OFFICIAL HIGE DANDISM",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "71.2M"
+        "subscribers": "71.6M"
       },
       {
-        "name": "Rokudenashi",
-        "browse_id": "UCJ2lqgvSwxX4Osly7R4szNQ",
-        "subscribers": "36.2M"
+        "name": "ChoQMay",
+        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
+        "subscribers": "4.06M"
       },
       {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "20.2M"
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "77.7M"
       }
     ],
     "ytm_top_songs": [
@@ -4578,6 +4622,12 @@
           "date": "2026-07-11",
           "views": 9137281,
           "likes": 52048,
+          "comments": 160
+        },
+        {
+          "date": "2026-07-12",
+          "views": 9190888,
+          "likes": 52310,
           "comments": 160
         }
       ]
@@ -5134,6 +5184,12 @@
           "date": "2026-07-11",
           "views": 107184197,
           "likes": 368131,
+          "comments": 589
+        },
+        {
+          "date": "2026-07-12",
+          "views": 107242687,
+          "likes": 368338,
           "comments": 589
         }
       ]
@@ -5841,6 +5897,12 @@
           "views": 5461195,
           "likes": 43116,
           "comments": 439
+        },
+        {
+          "date": "2026-07-12",
+          "views": 5485384,
+          "likes": 43226,
+          "comments": 439
         }
       ]
     },
@@ -6235,6 +6297,12 @@
           "date": "2026-07-11",
           "views": 71538768,
           "likes": 260356,
+          "comments": 358
+        },
+        {
+          "date": "2026-07-12",
+          "views": 71567038,
+          "likes": 260433,
           "comments": 358
         }
       ]
@@ -6691,6 +6759,12 @@
           "views": 6251787,
           "likes": 73647,
           "comments": 1043
+        },
+        {
+          "date": "2026-07-12",
+          "views": 6299325,
+          "likes": 73933,
+          "comments": 1042
         }
       ]
     },
@@ -7127,6 +7201,18 @@
       "type": "annotated",
       "related_annotation": "「幻燈」全曲配信解禁・「猫日」OP放送の反響が継続——Spotify月間リスナーが急増",
       "detected_at": "2026-07-11T14:55:35.128879+00:00"
+    },
+    {
+      "date": "2026-07-12",
+      "metric": "monthly_listeners",
+      "value": 4901180,
+      "baseline_mean": 4801260.8,
+      "baseline_stddev": 18404.0,
+      "delta": 99919,
+      "score": 5.43,
+      "type": "annotated",
+      "related_annotation": "「幻燈」全曲配信解禁・「猫日」OP放送の反響が継続——Spotify月間リスナーが急増",
+      "detected_at": "2026-07-12T14:59:27.076579+00:00"
     }
   ]
 }

@@ -3694,6 +3694,47 @@
       "ytm_subscribers": 872000,
       "ytm_monthly_listeners": 2370000,
       "ytm_total_views": 577494469
+    },
+    {
+      "date": "2026-07-12",
+      "monthly_listeners": 1780109,
+      "collected_at": "2026-07-12T15:03:06.427252+00:00",
+      "spotify_followers": 1498455,
+      "youtube_subscribers": 872000,
+      "youtube_total_views": 579048170,
+      "youtube_video_count": 134,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 93187
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 90473
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 62272
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35857
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 31416
+        }
+      ],
+      "lastfm_listeners": 58874,
+      "lastfm_playcount": 1664040,
+      "ytm_subscribers": 872000,
+      "ytm_monthly_listeners": 2430000,
+      "ytm_total_views": 577494469
     }
   ],
   "annotations": [
@@ -3932,39 +3973,34 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "15.8M"
+        "name": "My Hair Is Bad",
+        "browse_id": "UCzVlNgM2GEd61K7fbT1kxBg",
+        "subscribers": "1M"
       },
       {
-        "name": "Marcy",
-        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.41M"
+        "name": "FOMARE",
+        "browse_id": "UCO5kmsT9xpy-ADoWy0UQX1g",
+        "subscribers": "256K"
       },
       {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "4.87M"
+        "subscribers": "4.97M"
+      },
+      {
+        "name": "Marcy",
+        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
+        "subscribers": "1.47M"
       },
       {
         "name": "SHISHAMO",
         "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "3.65M"
-      },
-      {
-        "name": "My Hair Is Bad",
-        "browse_id": "UCzVlNgM2GEd61K7fbT1kxBg",
-        "subscribers": "977K"
-      },
-      {
-        "name": "This is LAST",
-        "browse_id": "UCeSeU_YJnRECa_I8WAbqbHA",
-        "subscribers": "777K"
+        "subscribers": "3.75M"
       },
       {
         "name": "CreepHyp",
         "browse_id": "UC0iyL2tAxXXuwfx8VVvCw1A",
-        "subscribers": "2.09M"
+        "subscribers": "2.14M"
       },
       {
         "name": "yangskinny",
@@ -3979,7 +4015,12 @@
       {
         "name": "macaroni enpitsu",
         "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
-        "subscribers": "4.64M"
+        "subscribers": "4.92M"
+      },
+      {
+        "name": "This is LAST",
+        "browse_id": "UCeSeU_YJnRECa_I8WAbqbHA",
+        "subscribers": "822K"
       }
     ],
     "ytm_top_songs": [
@@ -4543,6 +4584,12 @@
           "views": 4909409,
           "likes": 21171,
           "comments": 51
+        },
+        {
+          "date": "2026-07-12",
+          "views": 4925240,
+          "likes": 21249,
+          "comments": 51
         }
       ]
     },
@@ -5070,6 +5117,12 @@
           "views": 5406401,
           "likes": 24989,
           "comments": 46
+        },
+        {
+          "date": "2026-07-12",
+          "views": 5421000,
+          "likes": 25049,
+          "comments": 47
         }
       ]
     },
@@ -5609,6 +5662,12 @@
           "views": 2910090,
           "likes": 15252,
           "comments": 38
+        },
+        {
+          "date": "2026-07-12",
+          "views": 2918882,
+          "likes": 15291,
+          "comments": 38
         }
       ]
     },
@@ -6136,6 +6195,12 @@
           "views": 3342795,
           "likes": 19472,
           "comments": 42
+        },
+        {
+          "date": "2026-07-12",
+          "views": 3351966,
+          "likes": 19528,
+          "comments": 42
         }
       ]
     },
@@ -6536,6 +6601,12 @@
           "date": "2026-07-11",
           "views": 2599521,
           "likes": 10970,
+          "comments": 29
+        },
+        {
+          "date": "2026-07-12",
+          "views": 2607857,
+          "likes": 11007,
           "comments": 29
         }
       ]
@@ -7186,6 +7257,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-10T16:30:31.192751+00:00"
+    },
+    {
+      "date": "2026-07-12",
+      "metric": "ytm_monthly_listeners",
+      "value": 2430000,
+      "baseline_mean": 2279333.3,
+      "baseline_stddev": 49593.9,
+      "delta": 150666,
+      "score": 3.04,
+      "type": "annotated",
+      "related_annotation": "映画「A NEW DAWN」効果・7/21東京ガーデンシアター公演への注目継続でYTM月間リスナーが急増",
+      "detected_at": "2026-07-12T15:03:08.302277+00:00"
     }
   ]
 }
