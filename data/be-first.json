@@ -3729,6 +3729,47 @@
       "ytm_subscribers": 1250000,
       "ytm_monthly_listeners": 9560000,
       "ytm_total_views": 1523866131
+    },
+    {
+      "date": "2026-07-13",
+      "monthly_listeners": 2197349,
+      "collected_at": "2026-07-13T16:39:15.097651+00:00",
+      "spotify_followers": 637501,
+      "youtube_subscribers": 1250000,
+      "youtube_total_views": 1622060652,
+      "youtube_video_count": 492,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 96775
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 91026
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 67063
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35149
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 32642
+        }
+      ],
+      "lastfm_listeners": 74709,
+      "lastfm_playcount": 1414281,
+      "ytm_subscribers": 1250000,
+      "ytm_monthly_listeners": 9560000,
+      "ytm_total_views": 1523866131
     }
   ],
   "metadata": {
@@ -3763,9 +3804,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "MAZZEL",
-        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "2.4M"
+        "name": "Nissy",
+        "browse_id": "UCkv76wCrBDQNn7ctcbn6Qeg",
+        "subscribers": "1.87M"
       },
       {
         "name": "INI",
@@ -3773,8 +3814,8 @@
         "subscribers": "7.36M"
       },
       {
-        "name": "Number_i",
-        "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
+        "name": "SKY-HI",
+        "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
         "subscribers": "1.29M"
       },
       {
@@ -3783,14 +3824,14 @@
         "subscribers": "4.15M"
       },
       {
-        "name": "SKY-HI",
-        "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "1.29M"
+        "name": "MAZZEL",
+        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
+        "subscribers": "2.46M"
       },
       {
         "name": "HANA",
         "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "11.9M"
+        "subscribers": "12.3M"
       },
       {
         "name": "NiziU",
@@ -3803,9 +3844,9 @@
         "subscribers": "2.34K"
       },
       {
-        "name": "Nissy",
-        "browse_id": "UCkv76wCrBDQNn7ctcbn6Qeg",
-        "subscribers": "1.84M"
+        "name": "Number_i",
+        "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
+        "subscribers": "1.29M"
       }
     ],
     "ytm_top_songs": [
@@ -4660,6 +4701,12 @@
           "views": 2504736,
           "likes": 18417,
           "comments": 768
+        },
+        {
+          "date": "2026-07-13",
+          "views": 2513331,
+          "likes": 18436,
+          "comments": 768
         }
       ]
     },
@@ -5199,6 +5246,12 @@
           "views": 19404792,
           "likes": 91548,
           "comments": 2058
+        },
+        {
+          "date": "2026-07-13",
+          "views": 19429540,
+          "likes": 91607,
+          "comments": 2059
         }
       ]
     },
@@ -6568,6 +6621,12 @@
           "views": 1494699,
           "likes": 25222,
           "comments": 1393
+        },
+        {
+          "date": "2026-07-13",
+          "views": 1500856,
+          "likes": 25234,
+          "comments": 1394
         }
       ]
     },
@@ -6849,6 +6908,12 @@
           "views": 1030124,
           "likes": 16817,
           "comments": 684
+        },
+        {
+          "date": "2026-07-13",
+          "views": 1072761,
+          "likes": 17015,
+          "comments": 695
         }
       ]
     },
@@ -6896,6 +6961,12 @@
           "views": 821611,
           "likes": 19346,
           "comments": 1598
+        },
+        {
+          "date": "2026-07-13",
+          "views": 860373,
+          "likes": 19527,
+          "comments": 1612
         }
       ]
     }
@@ -7380,6 +7451,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-12T15:05:39.965127+00:00"
+    },
+    {
+      "date": "2026-07-13",
+      "metric": "monthly_listeners",
+      "value": 2197349,
+      "baseline_mean": 2105783.8,
+      "baseline_stddev": 39207.7,
+      "delta": 91565,
+      "score": 2.34,
+      "type": "annotated",
+      "related_annotation": "「Missing」3冠達成の余波でSpotify/YTM月間リスナーが継続上昇",
+      "detected_at": "2026-07-13T16:39:16.817797+00:00"
+    },
+    {
+      "date": "2026-07-13",
+      "metric": "ytm_monthly_listeners",
+      "value": 9560000,
+      "baseline_mean": 5792666.7,
+      "baseline_stddev": 1723796.1,
+      "delta": 3767333,
+      "score": 2.19,
+      "type": "annotated",
+      "related_annotation": "「Missing」3冠達成の余波でSpotify/YTM月間リスナーが継続上昇",
+      "detected_at": "2026-07-13T16:39:16.817797+00:00"
     }
   ]
 }

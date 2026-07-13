@@ -3735,6 +3735,47 @@
       "ytm_subscribers": 1680000,
       "ytm_monthly_listeners": 7490000,
       "ytm_total_views": 1816494450
+    },
+    {
+      "date": "2026-07-13",
+      "monthly_listeners": 2348550,
+      "collected_at": "2026-07-13T16:37:51.872597+00:00",
+      "spotify_followers": 1643126,
+      "youtube_subscribers": 1680000,
+      "youtube_total_views": 1833175387,
+      "youtube_video_count": 180,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 106827
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 80544
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 57221
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35837
+        },
+        {
+          "city": "Kawaguchi",
+          "country": "JP",
+          "listeners": 23498
+        }
+      ],
+      "lastfm_listeners": 310972,
+      "lastfm_playcount": 21450663,
+      "ytm_subscribers": 1680000,
+      "ytm_monthly_listeners": 7490000,
+      "ytm_total_views": 1816494450
     }
   ],
   "metadata": {
@@ -3771,17 +3812,7 @@
       {
         "name": "Yorushika",
         "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
-        "subscribers": "15.6M"
-      },
-      {
-        "name": "SUPER BEAVER",
-        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
-        "subscribers": "2.91M"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "76.2M"
+        "subscribers": "16M"
       },
       {
         "name": "Spitz",
@@ -3794,29 +3825,39 @@
         "subscribers": "10M"
       },
       {
+        "name": "SUPER BEAVER",
+        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
+        "subscribers": "2.91M"
+      },
+      {
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "76.2M"
+      },
+      {
         "name": "OFFICIAL HIGE DANDISM",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
         "subscribers": "71.6M"
       },
       {
+        "name": "Tokyo Incidents",
+        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
+        "subscribers": "1.16M"
+      },
+      {
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "93.4M"
-      },
-      {
-        "name": "Remioromen",
-        "browse_id": "UCHzbZw7GxoyFf-_pyS1R6mg",
-        "subscribers": "1.93M"
-      },
-      {
-        "name": "Asian Kung-Fu Generation",
-        "browse_id": "UCx_es_PpRD6fhpNU-vzlQ_g",
-        "subscribers": "6.42M"
+        "subscribers": "95.3M"
       },
       {
         "name": "Kenshi Yonezu",
         "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
         "subscribers": "77.7M"
+      },
+      {
+        "name": "UVERworld",
+        "browse_id": "UCvNGvMSDassu8fTA9Vwdzxg",
+        "subscribers": "2.8M"
       }
     ],
     "ytm_top_songs": [
@@ -4386,6 +4427,12 @@
           "views": 23251010,
           "likes": 78099,
           "comments": 275
+        },
+        {
+          "date": "2026-07-13",
+          "views": 23283124,
+          "likes": 78184,
+          "comments": 276
         }
       ]
     },
@@ -4930,6 +4977,12 @@
           "date": "2026-07-12",
           "views": 13854451,
           "likes": 93045,
+          "comments": 926
+        },
+        {
+          "date": "2026-07-13",
+          "views": 13888698,
+          "likes": 93179,
           "comments": 926
         }
       ]
@@ -5529,6 +5582,12 @@
           "views": 97981408,
           "likes": 478669,
           "comments": 6093
+        },
+        {
+          "date": "2026-07-13",
+          "views": 98018535,
+          "likes": 478777,
+          "comments": 6097
         }
       ]
     },
@@ -6074,6 +6133,12 @@
           "views": 48909436,
           "likes": 135703,
           "comments": 278
+        },
+        {
+          "date": "2026-07-13",
+          "views": 48940792,
+          "likes": 135777,
+          "comments": 278
         }
       ]
     },
@@ -6575,6 +6640,12 @@
           "date": "2026-07-12",
           "views": 20534620,
           "likes": 50166,
+          "comments": 70
+        },
+        {
+          "date": "2026-07-13",
+          "views": 20550215,
+          "likes": 50193,
           "comments": 70
         }
       ]
@@ -7195,6 +7266,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-12T15:04:16.091006+00:00"
+    },
+    {
+      "date": "2026-07-13",
+      "metric": "youtube_total_views",
+      "value": 1833175387,
+      "baseline_mean": 1814295622.7,
+      "baseline_stddev": 4774278.9,
+      "delta": 18879764,
+      "score": 3.95,
+      "type": "annotated",
+      "related_annotation": "「セントエルモの火」コラボ映像拡散でYouTube総再生数が急増（+20,112,178回・4.46σ）",
+      "detected_at": "2026-07-13T16:37:53.603268+00:00"
     }
   ]
 }

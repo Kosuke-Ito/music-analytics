@@ -3729,6 +3729,47 @@
       "ytm_subscribers": 2130000,
       "ytm_monthly_listeners": 16900000,
       "ytm_total_views": 2789453054
+    },
+    {
+      "date": "2026-07-13",
+      "monthly_listeners": 6092122,
+      "collected_at": "2026-07-13T16:32:53.534057+00:00",
+      "spotify_followers": 6735218,
+      "youtube_subscribers": 2130000,
+      "youtube_total_views": 2827977491,
+      "youtube_video_count": 264,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 368594
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 342001
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 229861
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 134541
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 122442
+        }
+      ],
+      "lastfm_listeners": 131393,
+      "lastfm_playcount": 6433665,
+      "ytm_subscribers": 2130000,
+      "ytm_monthly_listeners": 16900000,
+      "ytm_total_views": 2789453054
     }
   ],
   "annotations": [
@@ -4039,6 +4080,16 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "18.7M"
+      },
+      {
+        "name": "Marcy",
+        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
+        "subscribers": "1.47M"
+      },
+      {
         "name": "sumika",
         "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
         "subscribers": "3.04M"
@@ -4049,9 +4100,9 @@
         "subscribers": "34.5M"
       },
       {
-        "name": "Tani Yuuki",
-        "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
-        "subscribers": "5.59M"
+        "name": "Saucy Dog",
+        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
+        "subscribers": "2.43M"
       },
       {
         "name": "Motohiro Hata",
@@ -4059,34 +4110,24 @@
         "subscribers": "12.4M"
       },
       {
+        "name": "wacci",
+        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
+        "subscribers": "1.73M"
+      },
+      {
+        "name": "Dish",
+        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
+        "subscribers": "2.76M"
+      },
+      {
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "93.4M"
+        "subscribers": "95.3M"
       },
       {
         "name": "aimyon",
         "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
         "subscribers": "7.55M"
-      },
-      {
-        "name": "Masanori Otoda",
-        "browse_id": "UCCmU7XwwWAM0j5TVhcTERLg",
-        "subscribers": "2.15M"
-      },
-      {
-        "name": "wacci",
-        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
-        "subscribers": "1.68M"
-      },
-      {
-        "name": "Saucy Dog",
-        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.43M"
-      },
-      {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "71.6M"
       }
     ],
     "ytm_top_songs": [
@@ -4650,6 +4691,12 @@
           "views": 59472459,
           "likes": 197950,
           "comments": 582
+        },
+        {
+          "date": "2026-07-13",
+          "views": 59529234,
+          "likes": 198117,
+          "comments": 582
         }
       ]
     },
@@ -5183,6 +5230,12 @@
           "views": 47803077,
           "likes": 178843,
           "comments": 755
+        },
+        {
+          "date": "2026-07-13",
+          "views": 47865445,
+          "likes": 179018,
+          "comments": 756
         }
       ]
     },
@@ -5715,6 +5768,12 @@
           "date": "2026-07-12",
           "views": 64589676,
           "likes": 209309,
+          "comments": 604
+        },
+        {
+          "date": "2026-07-13",
+          "views": 64641224,
+          "likes": 209507,
           "comments": 604
         }
       ]
@@ -6255,6 +6314,12 @@
           "views": 61815952,
           "likes": 210019,
           "comments": 631
+        },
+        {
+          "date": "2026-07-13",
+          "views": 61874130,
+          "likes": 210206,
+          "comments": 632
         }
       ]
     },
@@ -6793,6 +6858,12 @@
           "date": "2026-07-12",
           "views": 23501018,
           "likes": 100307,
+          "comments": 497
+        },
+        {
+          "date": "2026-07-13",
+          "views": 23547585,
+          "likes": 100508,
           "comments": 497
         }
       ]
@@ -7379,6 +7450,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-12T14:59:10.464851+00:00"
+    },
+    {
+      "date": "2026-07-13",
+      "metric": "ytm_monthly_listeners",
+      "value": 16900000,
+      "baseline_mean": 13493333.3,
+      "baseline_stddev": 1328390.8,
+      "delta": 3406666,
+      "score": 2.56,
+      "type": "annotated",
+      "related_annotation": "スタジアムツアー完走の余波が継続、YTM月間リスナーが急増（+357.6万・2.98σ）",
+      "detected_at": "2026-07-13T16:32:55.278290+00:00"
     }
   ]
 }

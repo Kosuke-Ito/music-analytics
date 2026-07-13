@@ -3850,6 +3850,47 @@
       "ytm_subscribers": 501000,
       "ytm_monthly_listeners": 1660000,
       "ytm_total_views": 480495557
+    },
+    {
+      "date": "2026-07-13",
+      "monthly_listeners": 1258666,
+      "collected_at": "2026-07-13T16:22:32.252937+00:00",
+      "spotify_followers": 1095197,
+      "youtube_subscribers": 501000,
+      "youtube_total_views": 480495576,
+      "youtube_video_count": 86,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 53538
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 49984
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 34697
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 18971
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 15659
+        }
+      ],
+      "lastfm_listeners": 62615,
+      "lastfm_playcount": 3020626,
+      "ytm_subscribers": 501000,
+      "ytm_monthly_listeners": 1660000,
+      "ytm_total_views": 480495557
     }
   ],
   "annotations": [
@@ -4006,14 +4047,14 @@
         "subscribers": "2.17M"
       },
       {
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "12.4M"
+      },
+      {
         "name": "Remioromen",
         "browse_id": "UCHzbZw7GxoyFf-_pyS1R6mg",
         "subscribers": "1.93M"
-      },
-      {
-        "name": "MISIA",
-        "browse_id": "UCJbz6GhYvW-ov7OLEO32Jng",
-        "subscribers": "2.75M"
       },
       {
         "name": "JUJU",
@@ -4021,34 +4062,34 @@
         "subscribers": "2.43M"
       },
       {
+        "name": "Ayaka",
+        "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
+        "subscribers": "3.09M"
+      },
+      {
+        "name": "DREAMS COME TRUE",
+        "browse_id": "UC9xvTTa_TJKg83umVsxoA8g",
+        "subscribers": "3.48M"
+      },
+      {
         "name": "YUZU",
         "browse_id": "UC-wO8NkDlTY0JfTF9JdVtfQ",
         "subscribers": "5.44M"
       },
       {
-        "name": "Mr.Children",
-        "browse_id": "UCNL-6VGm61Y_dkVB89ZkYIA",
-        "subscribers": "6.28M"
+        "name": "Superfly",
+        "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
+        "subscribers": "7.24M"
       },
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "12.4M"
+        "name": "Ai Otsuka",
+        "browse_id": "UCiQBYPGlDQRHXD8FaryNaFw",
+        "subscribers": "11.7M"
       },
       {
-        "name": "Kobukuro",
-        "browse_id": "UCT1w5QgHk02SXT3KNY04OCQ",
-        "subscribers": "2.05M"
-      },
-      {
-        "name": "Yu Takahashi",
-        "browse_id": "UCDpSRvfq8DIUTL2TIK2104Q",
-        "subscribers": "1.64M"
-      },
-      {
-        "name": "Chemistry",
-        "browse_id": "UCQh1WcnXjTmIQWIdoWE2k-g",
-        "subscribers": "1.77M"
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "19.4M"
       }
     ],
     "ytm_top_songs": [
@@ -4624,6 +4665,12 @@
           "views": 5854926,
           "likes": 33927,
           "comments": 146
+        },
+        {
+          "date": "2026-07-13",
+          "views": 5859489,
+          "likes": 33947,
+          "comments": 146
         }
       ]
     },
@@ -5175,6 +5222,12 @@
           "views": 1058557,
           "likes": 6361,
           "comments": 30
+        },
+        {
+          "date": "2026-07-13",
+          "views": 1059178,
+          "likes": 6365,
+          "comments": 30
         }
       ]
     },
@@ -5724,6 +5777,12 @@
         {
           "date": "2026-07-12",
           "views": 321528,
+          "likes": 2128,
+          "comments": 11
+        },
+        {
+          "date": "2026-07-13",
+          "views": 321847,
           "likes": 2128,
           "comments": 11
         }
@@ -6480,6 +6539,12 @@
           "views": 647826,
           "likes": 3438,
           "comments": 12
+        },
+        {
+          "date": "2026-07-13",
+          "views": 648122,
+          "likes": 3438,
+          "comments": 12
         }
       ]
     },
@@ -6833,6 +6898,12 @@
           "views": 132399,
           "likes": 913,
           "comments": 5
+        },
+        {
+          "date": "2026-07-13",
+          "views": 132481,
+          "likes": 913,
+          "comments": 5
         }
       ]
     }
@@ -7137,6 +7208,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-12T14:48:33.118291+00:00"
+    },
+    {
+      "date": "2026-07-13",
+      "metric": "ytm_monthly_listeners",
+      "value": 1660000,
+      "baseline_mean": 1554666.7,
+      "baseline_stddev": 47027.2,
+      "delta": 105333,
+      "score": 2.24,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-07-13T16:22:33.746730+00:00"
     }
   ]
 }

@@ -3738,6 +3738,47 @@
       "ytm_subscribers": 594000,
       "ytm_monthly_listeners": 4920000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-13",
+      "monthly_listeners": 2820789,
+      "collected_at": "2026-07-13T16:36:27.178304+00:00",
+      "spotify_followers": 2006905,
+      "youtube_subscribers": 594000,
+      "youtube_total_views": 503512572,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 151474
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 141441
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 97870
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 56905
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 48828
+        }
+      ],
+      "lastfm_listeners": 7676,
+      "lastfm_playcount": 449533,
+      "ytm_subscribers": 594000,
+      "ytm_monthly_listeners": 4920000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4083,14 +4124,14 @@
         "subscribers": "3.75M"
       },
       {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "8.14M"
-      },
-      {
         "name": "Hump Back",
         "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
         "subscribers": "6.25M"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "8.14M"
       },
       {
         "name": "Koresawa",
@@ -4098,9 +4139,9 @@
         "subscribers": "4.97M"
       },
       {
-        "name": "go!go!vanillas",
-        "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
-        "subscribers": "610K"
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "95.3M"
       },
       {
         "name": "Saucy Dog",
@@ -4113,9 +4154,9 @@
         "subscribers": "443K"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "93.4M"
+        "name": "go!go!vanillas",
+        "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
+        "subscribers": "610K"
       }
     ],
     "ytm_top_songs": [
@@ -4672,6 +4713,12 @@
           "views": 12360415,
           "likes": 70553,
           "comments": 143
+        },
+        {
+          "date": "2026-07-13",
+          "views": 12377179,
+          "likes": 70638,
+          "comments": 144
         }
       ]
     },
@@ -5205,6 +5252,12 @@
           "views": 24849699,
           "likes": 90337,
           "comments": 172
+        },
+        {
+          "date": "2026-07-13",
+          "views": 24873071,
+          "likes": 90446,
+          "comments": 172
         }
       ]
     },
@@ -5726,6 +5779,12 @@
           "views": 16999808,
           "likes": 62562,
           "comments": 116
+        },
+        {
+          "date": "2026-07-13",
+          "views": 17018180,
+          "likes": 62641,
+          "comments": 116
         }
       ]
     },
@@ -6169,6 +6228,12 @@
           "views": 45294316,
           "likes": 140287,
           "comments": 239
+        },
+        {
+          "date": "2026-07-13",
+          "views": 45315476,
+          "likes": 140371,
+          "comments": 239
         }
       ]
     },
@@ -6593,6 +6658,12 @@
           "views": 14652629,
           "likes": 86197,
           "comments": 472
+        },
+        {
+          "date": "2026-07-13",
+          "views": 14701597,
+          "likes": 86454,
+          "comments": 475
         }
       ]
     },
@@ -7604,6 +7675,30 @@
       "type": "annotated",
       "related_annotation": "「終宵」配信・「THE STAR JAM 2026」出演の反響が継続——Spotify/YTM月間リスナーが急増",
       "detected_at": "2026-07-12T15:02:50.679936+00:00"
+    },
+    {
+      "date": "2026-07-13",
+      "metric": "monthly_listeners",
+      "value": 2820789,
+      "baseline_mean": 2553960.0,
+      "baseline_stddev": 125777.9,
+      "delta": 266828,
+      "score": 2.12,
+      "type": "annotated",
+      "related_annotation": "「終宵」配信・「THE STAR JAM 2026」出演の反響が継続——Spotify/YTM月間リスナーが急増",
+      "detected_at": "2026-07-13T16:36:28.706110+00:00"
+    },
+    {
+      "date": "2026-07-13",
+      "metric": "ytm_monthly_listeners",
+      "value": 4920000,
+      "baseline_mean": 4504482.8,
+      "baseline_stddev": 94269.8,
+      "delta": 415517,
+      "score": 4.41,
+      "type": "annotated",
+      "related_annotation": "「終宵」配信・「THE STAR JAM 2026」出演の反響が継続——Spotify/YTM月間リスナーが急増",
+      "detected_at": "2026-07-13T16:36:28.706110+00:00"
     }
   ]
 }

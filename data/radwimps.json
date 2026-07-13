@@ -4020,6 +4020,47 @@
       "ytm_subscribers": 3560000,
       "ytm_monthly_listeners": 93400000,
       "ytm_total_views": 3412256504
+    },
+    {
+      "date": "2026-07-13",
+      "monthly_listeners": 7132095,
+      "collected_at": "2026-07-13T16:27:01.633331+00:00",
+      "spotify_followers": 5293518,
+      "youtube_subscribers": 3560000,
+      "youtube_total_views": 3424406717,
+      "youtube_video_count": 620,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 248529
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 193528
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 129784
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 85548
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 71505
+        }
+      ],
+      "lastfm_listeners": 727249,
+      "lastfm_playcount": 43852019,
+      "ytm_subscribers": 3560000,
+      "ytm_monthly_listeners": 95300000,
+      "ytm_total_views": 3412256504
     }
   ],
   "annotations": [
@@ -4235,14 +4276,29 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "18.7M"
+      },
+      {
         "name": "sumika",
         "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
         "subscribers": "3.04M"
       },
       {
+        "name": "SUPER BEAVER",
+        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
+        "subscribers": "2.91M"
+      },
+      {
         "name": "Yorushika",
         "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
-        "subscribers": "15.6M"
+        "subscribers": "16M"
+      },
+      {
+        "name": "Saucy Dog",
+        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
+        "subscribers": "2.43M"
       },
       {
         "name": "back number",
@@ -4255,21 +4311,6 @@
         "subscribers": "8.14M"
       },
       {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "77.7M"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "9.66M"
-      },
-      {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "18.3M"
-      },
-      {
         "name": "OFFICIAL HIGE DANDISM",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
         "subscribers": "71.6M"
@@ -4280,9 +4321,9 @@
         "subscribers": "4.92M"
       },
       {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "918K"
+        "name": "BUMP OF CHICKEN",
+        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
+        "subscribers": "7.49M"
       }
     ],
     "ytm_top_songs": [
@@ -4858,6 +4899,12 @@
           "views": 64137799,
           "likes": 453271,
           "comments": 3278
+        },
+        {
+          "date": "2026-07-13",
+          "views": 64168301,
+          "likes": 453452,
+          "comments": 3277
         }
       ]
     },
@@ -5336,6 +5383,12 @@
           "date": "2026-07-12",
           "views": 81810719,
           "likes": 1056237,
+          "comments": 5064
+        },
+        {
+          "date": "2026-07-13",
+          "views": 81862041,
+          "likes": 1056889,
           "comments": 5064
         }
       ]
@@ -6031,6 +6084,12 @@
           "views": 44587649,
           "likes": 244831,
           "comments": 687
+        },
+        {
+          "date": "2026-07-13",
+          "views": 44610624,
+          "likes": 244940,
+          "comments": 687
         }
       ]
     },
@@ -6582,6 +6641,12 @@
           "views": 80242252,
           "likes": 615588,
           "comments": 3992
+        },
+        {
+          "date": "2026-07-13",
+          "views": 80273920,
+          "likes": 615685,
+          "comments": 3992
         }
       ]
     },
@@ -7019,6 +7084,12 @@
           "views": 27044491,
           "likes": 287972,
           "comments": 1883
+        },
+        {
+          "date": "2026-07-13",
+          "views": 27102427,
+          "likes": 288318,
+          "comments": 1884
         }
       ]
     },
@@ -7453,6 +7524,18 @@
       "type": "annotated",
       "related_annotation": "フコク生命CM「正解」カバー(7/1〜)の効果が継続・浸透",
       "detected_at": "2026-07-06T16:53:30.127887+00:00"
+    },
+    {
+      "date": "2026-07-13",
+      "metric": "ytm_monthly_listeners",
+      "value": 95300000,
+      "baseline_mean": 89770000,
+      "baseline_stddev": 2315908.7,
+      "delta": 5530000,
+      "score": 2.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-13T16:27:02.956950+00:00"
     }
   ]
 }
