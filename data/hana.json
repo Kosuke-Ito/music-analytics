@@ -3773,6 +3773,47 @@
       "ytm_subscribers": 2230000,
       "ytm_monthly_listeners": 12300000,
       "ytm_total_views": 1279598908
+    },
+    {
+      "date": "2026-07-14",
+      "monthly_listeners": 2628186,
+      "collected_at": "2026-07-14T15:31:45.597999+00:00",
+      "spotify_followers": 1023637,
+      "youtube_subscribers": 2230000,
+      "youtube_total_views": 1766837909,
+      "youtube_video_count": 123,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 136995
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 128209
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 91759
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 49360
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 46449
+        }
+      ],
+      "lastfm_listeners": 208168,
+      "lastfm_playcount": 3469675,
+      "ytm_subscribers": 2230000,
+      "ytm_monthly_listeners": 12300000,
+      "ytm_total_views": 1279598908
     }
   ],
   "annotations": [
@@ -4183,19 +4224,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "CHANMINA",
-        "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
-        "subscribers": "9.24M"
-      },
-      {
         "name": "BE:FIRST",
         "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
         "subscribers": "9.56M"
       },
       {
-        "name": "CUTIE STREET",
-        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
-        "subscribers": "25.9M"
+        "name": "CHANMINA",
+        "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
+        "subscribers": "9.24M"
       },
       {
         "name": "MAZZEL",
@@ -4206,6 +4242,11 @@
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
         "subscribers": "1.29M"
+      },
+      {
+        "name": "CUTIE STREET",
+        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
+        "subscribers": "25.9M"
       },
       {
         "name": "ME:I",
@@ -4779,6 +4820,12 @@
           "views": 139534,
           "likes": 1164,
           "comments": 25
+        },
+        {
+          "date": "2026-07-14",
+          "views": 140066,
+          "likes": 1167,
+          "comments": 25
         }
       ]
     },
@@ -5317,6 +5364,12 @@
           "date": "2026-07-13",
           "views": 258899,
           "likes": 1973,
+          "comments": 23
+        },
+        {
+          "date": "2026-07-14",
+          "views": 260344,
+          "likes": 1977,
           "comments": 23
         }
       ]
@@ -6216,6 +6269,12 @@
           "views": 431530,
           "likes": 2547,
           "comments": 10
+        },
+        {
+          "date": "2026-07-14",
+          "views": 434644,
+          "likes": 2557,
+          "comments": 10
         }
       ]
     },
@@ -6525,6 +6584,12 @@
         {
           "date": "2026-07-13",
           "views": 104037,
+          "likes": 728,
+          "comments": 5
+        },
+        {
+          "date": "2026-07-14",
+          "views": 104405,
           "likes": 728,
           "comments": 5
         }
@@ -6940,6 +7005,12 @@
           "views": 458706,
           "likes": 3058,
           "comments": 45
+        },
+        {
+          "date": "2026-07-14",
+          "views": 459250,
+          "likes": 3060,
+          "comments": 45
         }
       ]
     },
@@ -7119,6 +7190,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-13T16:35:56.110418+00:00"
+    },
+    {
+      "date": "2026-07-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 12300000,
+      "baseline_mean": 11620000,
+      "baseline_stddev": 290287.2,
+      "delta": 680000,
+      "score": 2.34,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-14T15:31:47.805924+00:00"
     }
   ]
 }

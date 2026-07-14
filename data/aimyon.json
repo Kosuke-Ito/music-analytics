@@ -3773,6 +3773,47 @@
       "ytm_subscribers": 2290000,
       "ytm_monthly_listeners": 7550000,
       "ytm_total_views": 2704681143
+    },
+    {
+      "date": "2026-07-14",
+      "monthly_listeners": 4952912,
+      "collected_at": "2026-07-14T15:30:02.184613+00:00",
+      "spotify_followers": 6336856,
+      "youtube_subscribers": 2290000,
+      "youtube_total_views": 2717210615,
+      "youtube_video_count": 282,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 250919
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 233297
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 158907
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 90520
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 79989
+        }
+      ],
+      "lastfm_listeners": 20101,
+      "lastfm_playcount": 1465782,
+      "ytm_subscribers": 2290000,
+      "ytm_monthly_listeners": 7550000,
+      "ytm_total_views": 2704681143
     }
   ],
   "annotations": [
@@ -4116,7 +4157,7 @@
       "japanese",
       "female vocalists",
       "rock",
-      "pop rock"
+      "J-rock"
     ],
     "ytm_related_artists": [
       {
@@ -4135,6 +4176,11 @@
         "subscribers": "16.9M"
       },
       {
+        "name": "Kana Nishino",
+        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
+        "subscribers": "5.75M"
+      },
+      {
         "name": "Motohiro Hata",
         "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
         "subscribers": "12.4M"
@@ -4145,19 +4191,9 @@
         "subscribers": "1.73M"
       },
       {
-        "name": "Kana Nishino",
-        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
-        "subscribers": "5.75M"
-      },
-      {
-        "name": "Ayaka",
-        "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
-        "subscribers": "3.09M"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "9.66M"
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "19.4M"
       },
       {
         "name": "Miwa",
@@ -4165,9 +4201,14 @@
         "subscribers": "1.97M"
       },
       {
-        "name": "Ken Hirai",
-        "browse_id": "UCjV108-_g6HUrmoKOt5-QIw",
-        "subscribers": "1.66M"
+        "name": "Ayaka",
+        "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
+        "subscribers": "3.09M"
+      },
+      {
+        "name": "SUKIMASWITCH",
+        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
+        "subscribers": "5.59M"
       }
     ],
     "ytm_top_songs": [
@@ -4743,6 +4784,12 @@
           "views": 107483686,
           "likes": 310342,
           "comments": 685
+        },
+        {
+          "date": "2026-07-14",
+          "views": 107528659,
+          "likes": 310496,
+          "comments": 685
         }
       ]
     },
@@ -5293,6 +5340,12 @@
           "date": "2026-07-13",
           "views": 102109146,
           "likes": 348199,
+          "comments": 418
+        },
+        {
+          "date": "2026-07-14",
+          "views": 102152331,
+          "likes": 348328,
           "comments": 418
         }
       ]
@@ -5845,6 +5898,12 @@
           "views": 63503262,
           "likes": 185228,
           "comments": 234
+        },
+        {
+          "date": "2026-07-14",
+          "views": 63528082,
+          "likes": 185313,
+          "comments": 234
         }
       ]
     },
@@ -6394,6 +6453,12 @@
         {
           "date": "2026-07-13",
           "views": 1992908,
+          "likes": 6191,
+          "comments": 39
+        },
+        {
+          "date": "2026-07-14",
+          "views": 1993290,
           "likes": 6191,
           "comments": 39
         }
@@ -6951,6 +7016,12 @@
           "date": "2026-07-13",
           "views": 36527567,
           "likes": 116658,
+          "comments": 239
+        },
+        {
+          "date": "2026-07-14",
+          "views": 36543143,
+          "likes": 116726,
           "comments": 239
         }
       ]
@@ -7784,6 +7855,18 @@
       "type": "annotated",
       "related_annotation": "阪神甲子園球場ライブ（7/14-15）直前の地元タイアップ企画開始でSpotify月間リスナー継続増",
       "detected_at": "2026-07-13T16:34:17.351070+00:00"
+    },
+    {
+      "date": "2026-07-14",
+      "metric": "monthly_listeners",
+      "value": 4952912,
+      "baseline_mean": 4748167.4,
+      "baseline_stddev": 90783.0,
+      "delta": 204744,
+      "score": 2.26,
+      "type": "annotated",
+      "related_annotation": "阪神甲子園球場ライブ（7/14-15）直前の地元タイアップ企画開始でSpotify月間リスナー継続増",
+      "detected_at": "2026-07-14T15:30:03.914908+00:00"
     }
   ]
 }

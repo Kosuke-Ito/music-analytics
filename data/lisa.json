@@ -3770,6 +3770,47 @@
       "ytm_subscribers": 8730000,
       "ytm_monthly_listeners": 119000000,
       "ytm_total_views": 2417564567
+    },
+    {
+      "date": "2026-07-14",
+      "monthly_listeners": 4329647,
+      "collected_at": "2026-07-14T15:30:36.408047+00:00",
+      "spotify_followers": 3837152,
+      "youtube_subscribers": 2950000,
+      "youtube_total_views": 1795283213,
+      "youtube_video_count": 518,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 68306
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 59450
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 50415
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 48265
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 47449
+        }
+      ],
+      "lastfm_listeners": 2032398,
+      "lastfm_playcount": 134406210,
+      "ytm_subscribers": 8730000,
+      "ytm_monthly_listeners": 119000000,
+      "ytm_total_views": 2417564567
     }
   ],
   "metadata": {
@@ -3804,14 +3845,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Tyla",
-        "browse_id": "UCnZBreGKMYsBpE5Vqxevewg",
-        "subscribers": "146M"
-      },
-      {
         "name": "Ariana Grande",
         "browse_id": "UC0076UMUgEng8HORUw_MYHA",
         "subscribers": "238M"
+      },
+      {
+        "name": "Tyla",
+        "browse_id": "UCnZBreGKMYsBpE5Vqxevewg",
+        "subscribers": "146M"
       },
       {
         "name": "LE SSERAFIM",
@@ -3822,6 +3863,16 @@
         "name": "Camila Cabello",
         "browse_id": "UCsZIVNwBqtPBX-41kO_rQzQ",
         "subscribers": "209M"
+      },
+      {
+        "name": "BLACKPINK",
+        "browse_id": "UCkbbMCA40i18i7UdjayMPAg",
+        "subscribers": "194M"
+      },
+      {
+        "name": "Destiny Rogers",
+        "browse_id": "UCozVtbmuAJsDb6E7T82DdOw",
+        "subscribers": "2.11M"
       },
       {
         "name": "KATSEYE",
@@ -3839,19 +3890,9 @@
         "subscribers": "5.79M"
       },
       {
-        "name": "BLACKPINK",
-        "browse_id": "UCkbbMCA40i18i7UdjayMPAg",
-        "subscribers": "194M"
-      },
-      {
-        "name": "Destiny Rogers",
-        "browse_id": "UCozVtbmuAJsDb6E7T82DdOw",
-        "subscribers": "2.11M"
-      },
-      {
-        "name": "BABYMONSTER",
-        "browse_id": "UC47Wz6S14mj_6Jy-T59m6IQ",
-        "subscribers": "144M"
+        "name": "KARD",
+        "browse_id": "UC3pvfOA4mcHkWYl3n_QfOKA",
+        "subscribers": "1.44M"
       }
     ],
     "ytm_top_songs": [
@@ -4432,6 +4473,12 @@
           "views": 23383726,
           "likes": 266844,
           "comments": 2105
+        },
+        {
+          "date": "2026-07-14",
+          "views": 23429608,
+          "likes": 267321,
+          "comments": 2108
         }
       ]
     },
@@ -4977,6 +5024,12 @@
           "views": 269512104,
           "likes": 2715021,
           "comments": 4183
+        },
+        {
+          "date": "2026-07-14",
+          "views": 269582944,
+          "likes": 2715646,
+          "comments": 4186
         }
       ]
     },
@@ -5522,6 +5575,12 @@
           "views": 32572668,
           "likes": 246233,
           "comments": 776
+        },
+        {
+          "date": "2026-07-14",
+          "views": 32599949,
+          "likes": 246359,
+          "comments": 777
         }
       ]
     },
@@ -6324,6 +6383,12 @@
           "views": 10591456,
           "likes": 152889,
           "comments": 2069
+        },
+        {
+          "date": "2026-07-14",
+          "views": 10637130,
+          "likes": 153172,
+          "comments": 2069
         }
       ]
     },
@@ -6672,6 +6737,12 @@
           "views": 7190780,
           "likes": 139013,
           "comments": 3509
+        },
+        {
+          "date": "2026-07-14",
+          "views": 7267111,
+          "likes": 139769,
+          "comments": 3523
         }
       ]
     }
@@ -7155,6 +7226,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-13T16:34:50.396237+00:00"
+    },
+    {
+      "date": "2026-07-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 119000000,
+      "baseline_mean": 104836666.7,
+      "baseline_stddev": 3932131.2,
+      "delta": 14163333,
+      "score": 3.6,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-14T15:30:38.370027+00:00"
     }
   ]
 }

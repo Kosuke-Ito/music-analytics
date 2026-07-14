@@ -4071,6 +4071,47 @@
       "ytm_subscribers": 7410000,
       "ytm_monthly_listeners": 38100000,
       "ytm_total_views": 6728310453
+    },
+    {
+      "date": "2026-07-14",
+      "monthly_listeners": 7103843,
+      "collected_at": "2026-07-14T15:19:01.635134+00:00",
+      "spotify_followers": 10131197,
+      "youtube_subscribers": 7410000,
+      "youtube_total_views": 6741428477,
+      "youtube_video_count": 309,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 172671
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 142636
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 124550
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 98120
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 87325
+        }
+      ],
+      "lastfm_listeners": 928356,
+      "lastfm_playcount": 56436267,
+      "ytm_subscribers": 7410000,
+      "ytm_monthly_listeners": 38100000,
+      "ytm_total_views": 6728310453
     }
   ],
   "annotations": [
@@ -4338,9 +4379,9 @@
         "subscribers": "18.7M"
       },
       {
-        "name": "Ado",
-        "browse_id": "UC5DHwv9N4OQ9AWtKr8YSefw",
-        "subscribers": "31.1M"
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "3.76M"
       },
       {
         "name": "Yorushika",
@@ -4353,9 +4394,19 @@
         "subscribers": "71.6M"
       },
       {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.76M"
+        "name": "riria.",
+        "browse_id": "UC19b2wLgiw-R2LTd1waSGXQ",
+        "subscribers": "999K"
+      },
+      {
+        "name": "AiNA THE END",
+        "browse_id": "UCr_slw4yAD3LI3KQrmnRD8Q",
+        "subscribers": "12.5M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.55M"
       },
       {
         "name": "MAISONdes ",
@@ -4363,24 +4414,14 @@
         "subscribers": "3.95M"
       },
       {
-        "name": "riria.",
-        "browse_id": "UC19b2wLgiw-R2LTd1waSGXQ",
-        "subscribers": "999K"
-      },
-      {
-        "name": "tuki.",
-        "browse_id": "UCtrbtNbdI4jwRQPG35Mtn2A",
-        "subscribers": "16.5M"
+        "name": "KOBASOLO",
+        "browse_id": "UCukBv_7AJU7AZHcidF0HIvQ",
+        "subscribers": "3.85M"
       },
       {
         "name": "Daoko",
         "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
         "subscribers": "7.27M"
-      },
-      {
-        "name": "KOBASOLO",
-        "browse_id": "UCukBv_7AJU7AZHcidF0HIvQ",
-        "subscribers": "3.85M"
       }
     ],
     "ytm_top_songs": [
@@ -4962,6 +5003,12 @@
           "views": 313257849,
           "likes": 1591000,
           "comments": 11750
+        },
+        {
+          "date": "2026-07-14",
+          "views": 313369944,
+          "likes": 1591535,
+          "comments": 11751
         }
       ]
     },
@@ -5519,6 +5566,12 @@
           "views": 243353965,
           "likes": 1092839,
           "comments": 3880
+        },
+        {
+          "date": "2026-07-14",
+          "views": 243448764,
+          "likes": 1093136,
+          "comments": 3883
         }
       ]
     },
@@ -6076,6 +6129,12 @@
           "views": 60280589,
           "likes": 423842,
           "comments": 923
+        },
+        {
+          "date": "2026-07-14",
+          "views": 60313998,
+          "likes": 424018,
+          "comments": 924
         }
       ]
     },
@@ -6632,6 +6691,12 @@
           "date": "2026-07-13",
           "views": 64792863,
           "likes": 266505,
+          "comments": 815
+        },
+        {
+          "date": "2026-07-14",
+          "views": 64841904,
+          "likes": 266672,
           "comments": 815
         }
       ]
@@ -7205,6 +7270,12 @@
           "views": 1319378,
           "likes": 21529,
           "comments": 406
+        },
+        {
+          "date": "2026-07-14",
+          "views": 1363849,
+          "likes": 21833,
+          "comments": 406
         }
       ]
     }
@@ -7437,6 +7508,18 @@
       "type": "annotated",
       "related_annotation": "「オリオン」英語版MV公開が海外リスナー流入を後押し",
       "detected_at": "2026-07-13T16:23:52.746485+00:00"
+    },
+    {
+      "date": "2026-07-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 38100000,
+      "baseline_mean": 36326666.7,
+      "baseline_stddev": 619641.5,
+      "delta": 1773333,
+      "score": 2.86,
+      "type": "annotated",
+      "related_annotation": "「オリオン」英語版MV公開が海外リスナー流入を後押し",
+      "detected_at": "2026-07-14T15:19:03.032778+00:00"
     }
   ]
 }

@@ -3773,6 +3773,47 @@
       "ytm_subscribers": 882000,
       "ytm_monthly_listeners": 5400000,
       "ytm_total_views": 644206875
+    },
+    {
+      "date": "2026-07-14",
+      "monthly_listeners": 2127931,
+      "collected_at": "2026-07-14T15:34:45.602996+00:00",
+      "spotify_followers": 1061126,
+      "youtube_subscribers": 882000,
+      "youtube_total_views": 665060894,
+      "youtube_video_count": 303,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54173
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 46195
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 42658
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 29940
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 22516
+        }
+      ],
+      "lastfm_listeners": 168722,
+      "lastfm_playcount": 5876244,
+      "ytm_subscribers": 882000,
+      "ytm_monthly_listeners": 5400000,
+      "ytm_total_views": 644499876
     }
   ],
   "annotations": [
@@ -3980,14 +4021,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "38.1M"
-      },
-      {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
         "subscribers": "28.9M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.55M"
+      },
+      {
+        "name": "YOASOBI",
+        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
+        "subscribers": "38.1M"
       },
       {
         "name": "ATARAYO",
@@ -4005,9 +4051,9 @@
         "subscribers": "1.97M"
       },
       {
-        "name": "ONE OK ROCK",
-        "browse_id": "UCYXU4IweiEiwKHzTcaKRAzw",
-        "subscribers": "9.29M"
+        "name": "YUI",
+        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
+        "subscribers": "7.78M"
       },
       {
         "name": "Ryokuousyoku Syakai",
@@ -4020,14 +4066,9 @@
         "subscribers": "20.7M"
       },
       {
-        "name": "LiSA",
-        "browse_id": "UCt4rbOMLsVxeMsoaRdTfr5A",
-        "subscribers": "23.2M"
-      },
-      {
-        "name": "MY FIRST STORY",
-        "browse_id": "UCZtrZ8_Opr4Sa2r61ye_UsQ",
-        "subscribers": "7.76M"
+        "name": "Mika Nakashima",
+        "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
+        "subscribers": "3.84M"
       }
     ],
     "ytm_top_songs": [
@@ -5099,6 +5140,12 @@
           "views": 9087635,
           "likes": 63535,
           "comments": 215
+        },
+        {
+          "date": "2026-07-14",
+          "views": 9095777,
+          "likes": 63586,
+          "comments": 215
         }
       ]
     },
@@ -5643,6 +5690,12 @@
           "date": "2026-07-13",
           "views": 2035941,
           "likes": 13910,
+          "comments": 109
+        },
+        {
+          "date": "2026-07-14",
+          "views": 2037005,
+          "likes": 13912,
           "comments": 109
         }
       ]
@@ -6195,6 +6248,12 @@
           "views": 7404071,
           "likes": 53318,
           "comments": 69
+        },
+        {
+          "date": "2026-07-14",
+          "views": 7407004,
+          "likes": 53330,
+          "comments": 69
         }
       ]
     },
@@ -6674,6 +6733,12 @@
           "views": 1820354,
           "likes": 27633,
           "comments": 313
+        },
+        {
+          "date": "2026-07-14",
+          "views": 1827585,
+          "likes": 27694,
+          "comments": 313
         }
       ]
     },
@@ -6821,6 +6886,12 @@
           "date": "2026-07-13",
           "views": 14106612,
           "likes": 137649,
+          "comments": 2318
+        },
+        {
+          "date": "2026-07-14",
+          "views": 14125039,
+          "likes": 137852,
           "comments": 2318
         }
       ]
@@ -7078,6 +7149,18 @@
       "type": "annotated",
       "related_annotation": "新曲「Sunny」7/12配信を目前に控え期待感が高まりYouTube総再生数が急増",
       "detected_at": "2026-07-13T16:38:43.273089+00:00"
+    },
+    {
+      "date": "2026-07-14",
+      "metric": "youtube_total_views",
+      "value": 665060894,
+      "baseline_mean": 660897385.1,
+      "baseline_stddev": 2063332.6,
+      "delta": 4163508,
+      "score": 2.02,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-14T15:34:47.430416+00:00"
     }
   ]
 }

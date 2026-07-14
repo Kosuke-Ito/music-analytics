@@ -3770,6 +3770,47 @@
       "ytm_subscribers": 459000,
       "ytm_monthly_listeners": 5890000,
       "ytm_total_views": 355181446
+    },
+    {
+      "date": "2026-07-14",
+      "monthly_listeners": 1720464,
+      "collected_at": "2026-07-14T15:33:12.163315+00:00",
+      "spotify_followers": 511008,
+      "youtube_subscribers": 460000,
+      "youtube_total_views": 358112474,
+      "youtube_video_count": 146,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 70057
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 45792
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 38232
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 30840
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 21289
+        }
+      ],
+      "lastfm_listeners": 18714,
+      "lastfm_playcount": 1272805,
+      "ytm_subscribers": 460000,
+      "ytm_monthly_listeners": 5890000,
+      "ytm_total_views": 355181446
     }
   ],
   "annotations": [
@@ -4129,24 +4170,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "18.7M"
-      },
-      {
         "name": "Yorushika",
         "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
         "subscribers": "16M"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "95.3M"
-      },
-      {
-        "name": "AiNA THE END",
-        "browse_id": "UCr_slw4yAD3LI3KQrmnRD8Q",
-        "subscribers": "12.5M"
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "18.7M"
       },
       {
         "name": "yama",
@@ -4159,24 +4190,34 @@
         "subscribers": "583K"
       },
       {
-        "name": "suis from Yorushika",
-        "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
-        "subscribers": "29.7K"
-      },
-      {
-        "name": "Nishina",
-        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
-        "subscribers": "309K"
-      },
-      {
-        "name": "Asian Kung-Fu Generation",
-        "browse_id": "UCx_es_PpRD6fhpNU-vzlQ_g",
-        "subscribers": "6.42M"
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "95.3M"
       },
       {
         "name": "Lovely Summer-Chan",
         "browse_id": "UC_wA9BfubcP2P74SPKTSV7Q",
         "subscribers": "693K"
+      },
+      {
+        "name": "Homecomings",
+        "browse_id": "UC5YC9saEogyw6Jg9fq_oGzg",
+        "subscribers": "54.5K"
+      },
+      {
+        "name": "Laura day romance",
+        "browse_id": "UCFrg0aEn8dsLCzYGVSZkT1Q",
+        "subscribers": "103K"
+      },
+      {
+        "name": "tiny yawn",
+        "browse_id": "UCESxrbFra7AVQsdPAnJ99dA",
+        "subscribers": "218K"
+      },
+      {
+        "name": "Brandy Senki",
+        "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
+        "subscribers": "370K"
       }
     ],
     "ytm_top_songs": [
@@ -4746,6 +4787,12 @@
           "views": 19991451,
           "likes": 128611,
           "comments": 377
+        },
+        {
+          "date": "2026-07-14",
+          "views": 20017814,
+          "likes": 128782,
+          "comments": 377
         }
       ]
     },
@@ -5291,6 +5338,12 @@
           "views": 4425420,
           "likes": 30751,
           "comments": 176
+        },
+        {
+          "date": "2026-07-14",
+          "views": 4466381,
+          "likes": 30946,
+          "comments": 177
         }
       ]
     },
@@ -6069,6 +6122,12 @@
           "views": 1494817,
           "likes": 13667,
           "comments": 84
+        },
+        {
+          "date": "2026-07-14",
+          "views": 1497369,
+          "likes": 13687,
+          "comments": 86
         }
       ]
     },
@@ -6614,6 +6673,12 @@
           "views": 2197601,
           "likes": 17132,
           "comments": 124
+        },
+        {
+          "date": "2026-07-14",
+          "views": 2201385,
+          "likes": 17160,
+          "comments": 124
         }
       ]
     },
@@ -6931,6 +6996,12 @@
           "views": 4120590,
           "likes": 33631,
           "comments": 275
+        },
+        {
+          "date": "2026-07-14",
+          "views": 4124006,
+          "likes": 33647,
+          "comments": 273
         }
       ]
     },
@@ -7410,6 +7481,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-13T16:37:17.879461+00:00"
+    },
+    {
+      "date": "2026-07-14",
+      "metric": "youtube_total_views",
+      "value": 358112474,
+      "baseline_mean": 351472405.7,
+      "baseline_stddev": 3268921.2,
+      "delta": 6640068,
+      "score": 2.03,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-14T15:33:14.304958+00:00"
     }
   ]
 }

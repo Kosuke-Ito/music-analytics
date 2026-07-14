@@ -3770,6 +3770,47 @@
       "ytm_subscribers": 1840000,
       "ytm_monthly_listeners": 9240000,
       "ytm_total_views": 1166874006
+    },
+    {
+      "date": "2026-07-14",
+      "monthly_listeners": 2895115,
+      "collected_at": "2026-07-14T15:32:03.166829+00:00",
+      "spotify_followers": 1681831,
+      "youtube_subscribers": 1840000,
+      "youtube_total_views": 1192522214,
+      "youtube_video_count": 142,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 132824
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 118032
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 82923
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 46353
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 42811
+        }
+      ],
+      "lastfm_listeners": 12814,
+      "lastfm_playcount": 511146,
+      "ytm_subscribers": 1840000,
+      "ytm_monthly_listeners": 9240000,
+      "ytm_total_views": 1166874006
     }
   ],
   "annotations": [
@@ -4040,13 +4081,18 @@
       }
     ],
     "lastfm_tags": [
-      "j-pop",
       "Korean",
-      "japanese",
+      "j-pop",
       "rap",
+      "japanese",
       "j-hiphop"
     ],
     "ytm_related_artists": [
+      {
+        "name": "Kana Nishino",
+        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
+        "subscribers": "5.75M"
+      },
       {
         "name": "LANA",
         "browse_id": "UCFiKkRhK9arjKDxPBQdloDA",
@@ -4058,24 +4104,9 @@
         "subscribers": "589K"
       },
       {
-        "name": "Kana Nishino",
-        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
-        "subscribers": "5.75M"
-      },
-      {
-        "name": "Awich",
-        "browse_id": "UCvWgKgu9_3GTJulSpz1UN1Q",
-        "subscribers": "2.03M"
-      },
-      {
         "name": "HANA",
         "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
         "subscribers": "12.3M"
-      },
-      {
-        "name": "AiNA THE END",
-        "browse_id": "UCr_slw4yAD3LI3KQrmnRD8Q",
-        "subscribers": "12.5M"
       },
       {
         "name": "WHITE JAM",
@@ -4083,14 +4114,24 @@
         "subscribers": "1.52M"
       },
       {
-        "name": "NENE",
-        "browse_id": "UCf9KAcwb8RuJkf6I41eLv-w",
-        "subscribers": "718K"
+        "name": "Awich",
+        "browse_id": "UCvWgKgu9_3GTJulSpz1UN1Q",
+        "subscribers": "2.03M"
       },
       {
         "name": "Thelma Aoyama",
         "browse_id": "UCiQJ6RsG3tyZwn2-m7gnkUg",
         "subscribers": "782K"
+      },
+      {
+        "name": "NENE",
+        "browse_id": "UCf9KAcwb8RuJkf6I41eLv-w",
+        "subscribers": "718K"
+      },
+      {
+        "name": "AiNA THE END",
+        "browse_id": "UCr_slw4yAD3LI3KQrmnRD8Q",
+        "subscribers": "12.5M"
       },
       {
         "name": "SKY-HI",
@@ -4108,12 +4149,12 @@
         "video_id": "gjwHRPupwHY"
       },
       {
-        "title": "B級 - B-list",
-        "video_id": "E9UP1zdCz0A"
-      },
-      {
         "title": "SAD SONG - From THE FIRST TAKE (feat. No No Girls FINALISTS)",
         "video_id": "qjLFT42CtNM"
+      },
+      {
+        "title": "B級 - B-list",
+        "video_id": "E9UP1zdCz0A"
       },
       {
         "title": "Never Grow Up",
@@ -4665,6 +4706,12 @@
           "views": 4567270,
           "likes": 46512,
           "comments": 189
+        },
+        {
+          "date": "2026-07-14",
+          "views": 4581607,
+          "likes": 46600,
+          "comments": 190
         }
       ]
     },
@@ -5263,6 +5310,12 @@
           "views": 32987384,
           "likes": 127240,
           "comments": 215
+        },
+        {
+          "date": "2026-07-14",
+          "views": 33012940,
+          "likes": 127305,
+          "comments": 215
         }
       ]
     },
@@ -5807,6 +5860,12 @@
           "date": "2026-07-13",
           "views": 27593128,
           "likes": 112158,
+          "comments": 264
+        },
+        {
+          "date": "2026-07-14",
+          "views": 27609107,
+          "likes": 112195,
           "comments": 264
         }
       ]
@@ -6353,6 +6412,12 @@
           "views": 345019,
           "likes": 2429,
           "comments": 26
+        },
+        {
+          "date": "2026-07-14",
+          "views": 345379,
+          "likes": 2431,
+          "comments": 26
         }
       ]
     },
@@ -6850,6 +6915,12 @@
           "views": 33494507,
           "likes": 126601,
           "comments": 376
+        },
+        {
+          "date": "2026-07-14",
+          "views": 33518904,
+          "likes": 126673,
+          "comments": 376
         }
       ]
     },
@@ -7161,6 +7232,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-13T16:36:12.455792+00:00"
+    },
+    {
+      "date": "2026-07-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 9240000,
+      "baseline_mean": 8427241.0,
+      "baseline_stddev": 375856.8,
+      "delta": 812758,
+      "score": 2.16,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-14T15:32:04.991025+00:00"
     }
   ]
 }

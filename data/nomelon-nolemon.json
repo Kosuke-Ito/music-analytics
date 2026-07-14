@@ -3894,6 +3894,47 @@
       "ytm_subscribers": 326000,
       "ytm_monthly_listeners": 1340000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-14",
+      "monthly_listeners": 307421,
+      "collected_at": "2026-07-14T15:20:41.684462+00:00",
+      "spotify_followers": 70707,
+      "youtube_subscribers": 326000,
+      "youtube_total_views": 168372490,
+      "youtube_video_count": 108,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 15273
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8893
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6373
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5087
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4589
+        }
+      ],
+      "lastfm_listeners": 33531,
+      "lastfm_playcount": 912983,
+      "ytm_subscribers": 326000,
+      "ytm_monthly_listeners": 1340000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3953,29 +3994,29 @@
         "subscribers": "209K"
       },
       {
-        "name": "Mulasaki Ima",
-        "browse_id": "UC3atnuaadwis0OEvtk0p_aA",
-        "subscribers": "3.68M"
-      },
-      {
-        "name": "NICHIMEZO",
-        "browse_id": "UCF_x9hYjfwQQ6rCe5JAvoRQ",
-        "subscribers": "5.91K"
-      },
-      {
-        "name": "Polkadot Stingray",
-        "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
-        "subscribers": "1.19M"
-      },
-      {
-        "name": "Aooo",
-        "browse_id": "UCbX-GbG3bg17Mdm_RltoWqg",
-        "subscribers": "1.59M"
-      },
-      {
         "name": "Wanuka",
         "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
         "subscribers": "1.04M"
+      },
+      {
+        "name": "Hashimero",
+        "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
+        "subscribers": "223K"
+      },
+      {
+        "name": "TAKU INOUE",
+        "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
+        "subscribers": "280K"
+      },
+      {
+        "name": "yoei.",
+        "browse_id": "UCnC9xc35C06kNIO0gNUcleA",
+        "subscribers": "234K"
+      },
+      {
+        "name": "Rei",
+        "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
+        "subscribers": "424K"
       }
     ],
     "ytm_top_songs": [
@@ -3984,12 +4025,12 @@
         "video_id": "73stcwZC9vk"
       },
       {
-        "title": "SAYONARA MAYBE",
-        "video_id": "fuc6X46FIiM"
-      },
-      {
         "title": "ユラリユレル - yurariyureru",
         "video_id": "2SHNY5v6DnM"
+      },
+      {
+        "title": "SAYONARA MAYBE",
+        "video_id": "fuc6X46FIiM"
       },
       {
         "title": "HALO",
@@ -4556,6 +4597,12 @@
           "views": 18547491,
           "likes": 124613,
           "comments": 1058
+        },
+        {
+          "date": "2026-07-14",
+          "views": 18557118,
+          "likes": 124639,
+          "comments": 1058
         }
       ]
     },
@@ -5112,6 +5159,12 @@
           "date": "2026-07-13",
           "views": 5539516,
           "likes": 40695,
+          "comments": 88
+        },
+        {
+          "date": "2026-07-14",
+          "views": 5546043,
+          "likes": 40742,
           "comments": 88
         }
       ]
@@ -5670,6 +5723,12 @@
           "views": 5249132,
           "likes": 35566,
           "comments": 169
+        },
+        {
+          "date": "2026-07-14",
+          "views": 5253793,
+          "likes": 35577,
+          "comments": 169
         }
       ]
     },
@@ -6226,6 +6285,12 @@
           "date": "2026-07-13",
           "views": 2279649,
           "likes": 19034,
+          "comments": 43
+        },
+        {
+          "date": "2026-07-14",
+          "views": 2282868,
+          "likes": 19055,
           "comments": 43
         }
       ]
@@ -6793,6 +6858,12 @@
           "date": "2026-07-13",
           "views": 30191,
           "likes": 1005,
+          "comments": 19
+        },
+        {
+          "date": "2026-07-14",
+          "views": 33059,
+          "likes": 1061,
           "comments": 19
         }
       ]
@@ -7464,6 +7535,30 @@
       "type": "annotated",
       "related_annotation": "YouTube Data APIカウンター第6次凍結（166,627,686・7/1〜7/10）解除による蓄積分一括計上アーティファクト（2.94σ）",
       "detected_at": "2026-07-13T16:25:27.736388+00:00"
+    },
+    {
+      "date": "2026-07-14",
+      "metric": "monthly_listeners",
+      "value": 307421,
+      "baseline_mean": 286000.8,
+      "baseline_stddev": 5854.2,
+      "delta": 21420,
+      "score": 3.66,
+      "type": "annotated",
+      "related_annotation": "YouTube Data APIカウンター第6次凍結（166,627,686・7/1〜7/10）解除による蓄積分一括計上アーティファクト（2.94σ）",
+      "detected_at": "2026-07-14T15:20:42.938582+00:00"
+    },
+    {
+      "date": "2026-07-14",
+      "metric": "youtube_total_views",
+      "value": 168372490,
+      "baseline_mean": 166162689.8,
+      "baseline_stddev": 1097031.0,
+      "delta": 2209800,
+      "score": 2.01,
+      "type": "annotated",
+      "related_annotation": "YouTube Data APIカウンター第6次凍結（166,627,686・7/1〜7/10）解除による蓄積分一括計上アーティファクト（2.94σ）",
+      "detected_at": "2026-07-14T15:20:42.938582+00:00"
     }
   ]
 }

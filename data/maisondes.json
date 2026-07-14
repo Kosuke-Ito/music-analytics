@@ -3891,6 +3891,47 @@
       "ytm_subscribers": 419000,
       "ytm_monthly_listeners": 3950000,
       "ytm_total_views": 412948562
+    },
+    {
+      "date": "2026-07-14",
+      "monthly_listeners": 744995,
+      "collected_at": "2026-07-14T15:20:09.119039+00:00",
+      "spotify_followers": 271097,
+      "youtube_subscribers": 326000,
+      "youtube_total_views": 249357433,
+      "youtube_video_count": 56,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 26488
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 18919
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 13339
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 11518
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 8712
+        }
+      ],
+      "lastfm_listeners": 135956,
+      "lastfm_playcount": 3361980,
+      "ytm_subscribers": 419000,
+      "ytm_monthly_listeners": 3950000,
+      "ytm_total_views": 412948562
     }
   ],
   "metadata": {
@@ -3919,11 +3960,21 @@
     "lastfm_tags": [
       "j-pop",
       "japanese",
-      "pop",
       "electronic",
-      "japan"
+      "pop",
+      "gnosia"
     ],
     "ytm_related_artists": [
+      {
+        "name": "WhaleDontSleep",
+        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
+        "subscribers": "530K"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.55M"
+      },
       {
         "name": "natori",
         "browse_id": "UC5hhaaGgz7LKt_abggs0qWQ",
@@ -3940,39 +3991,29 @@
         "subscribers": "1.34M"
       },
       {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "530K"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.55M"
-      },
-      {
         "name": "AKASAKI",
         "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
         "subscribers": "7.53M"
       },
       {
+        "name": "Akiyama Kiro",
+        "browse_id": "UCB7j6mxjx2NxAnnBu-YRFdQ",
+        "subscribers": "2.92M"
+      },
+      {
+        "name": "asmi",
+        "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
+        "subscribers": "3.3M"
+      },
+      {
+        "name": "meiyo",
+        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
+        "subscribers": "15.7M"
+      },
+      {
         "name": "Eve",
         "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
         "subscribers": "16.9M"
-      },
-      {
-        "name": "Mulasaki Ima",
-        "browse_id": "UC3atnuaadwis0OEvtk0p_aA",
-        "subscribers": "3.68M"
-      },
-      {
-        "name": "NICHIMEZO",
-        "browse_id": "UCF_x9hYjfwQQ6rCe5JAvoRQ",
-        "subscribers": "5.91K"
-      },
-      {
-        "name": "Three",
-        "browse_id": "UCekuD5lZYEm4XUto7ggbVSg",
-        "subscribers": "2.61M"
       }
     ],
     "ytm_top_songs": [
@@ -4554,6 +4595,12 @@
           "views": 6017041,
           "likes": 37301,
           "comments": 82
+        },
+        {
+          "date": "2026-07-14",
+          "views": 6019285,
+          "likes": 37309,
+          "comments": 82
         }
       ]
     },
@@ -5110,6 +5157,12 @@
           "date": "2026-07-13",
           "views": 5429663,
           "likes": 33619,
+          "comments": 62
+        },
+        {
+          "date": "2026-07-14",
+          "views": 5432326,
+          "likes": 33630,
           "comments": 62
         }
       ]
@@ -5668,6 +5721,12 @@
           "views": 2635007,
           "likes": 29044,
           "comments": 509
+        },
+        {
+          "date": "2026-07-14",
+          "views": 2638181,
+          "likes": 29055,
+          "comments": 509
         }
       ]
     },
@@ -6224,6 +6283,12 @@
           "date": "2026-07-13",
           "views": 2853860,
           "likes": 20051,
+          "comments": 62
+        },
+        {
+          "date": "2026-07-14",
+          "views": 2855037,
+          "likes": 20060,
           "comments": 62
         }
       ]
@@ -6782,6 +6847,12 @@
           "views": 3113987,
           "likes": 22379,
           "comments": 132
+        },
+        {
+          "date": "2026-07-14",
+          "views": 3115059,
+          "likes": 22383,
+          "comments": 132
         }
       ]
     }
@@ -7006,6 +7077,18 @@
       "type": "annotated",
       "related_annotation": "「小豆あらいチャレンジ」拡散が継続、YTM月間リスナーが高水準",
       "detected_at": "2026-07-13T16:24:55.315185+00:00"
+    },
+    {
+      "date": "2026-07-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 3950000,
+      "baseline_mean": 3165333.3,
+      "baseline_stddev": 358475.8,
+      "delta": 784666,
+      "score": 2.19,
+      "type": "annotated",
+      "related_annotation": "「小豆あらいチャレンジ」拡散が継続、YTM月間リスナーが高水準",
+      "detected_at": "2026-07-14T15:20:10.288885+00:00"
     }
   ]
 }

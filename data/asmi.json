@@ -3847,6 +3847,47 @@
       "ytm_subscribers": 167000,
       "ytm_monthly_listeners": 3300000,
       "ytm_total_views": 76743316
+    },
+    {
+      "date": "2026-07-14",
+      "monthly_listeners": 237074,
+      "collected_at": "2026-07-14T15:21:15.418363+00:00",
+      "spotify_followers": 113197,
+      "youtube_subscribers": 167000,
+      "youtube_total_views": 77405715,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8150
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6294
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4396
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 3455
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2789
+        }
+      ],
+      "lastfm_listeners": 35369,
+      "lastfm_playcount": 531694,
+      "ytm_subscribers": 167000,
+      "ytm_monthly_listeners": 3300000,
+      "ytm_total_views": 76743316
     }
   ],
   "metadata": {
@@ -3886,11 +3927,6 @@
         "subscribers": "5.36M"
       },
       {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.95M"
-      },
-      {
         "name": "tota",
         "browse_id": "UCc95RA4CPcWdTRBk5YunwRA",
         "subscribers": "4.09M"
@@ -3901,9 +3937,9 @@
         "subscribers": "4.06M"
       },
       {
-        "name": "Yuaru",
-        "browse_id": "UC_Yxw4oOjaaHtauxKDsnzaQ",
-        "subscribers": "581K"
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.55M"
       },
       {
         "name": "WhaleDontSleep",
@@ -3911,14 +3947,19 @@
         "subscribers": "530K"
       },
       {
+        "name": "Yuaru",
+        "browse_id": "UC_Yxw4oOjaaHtauxKDsnzaQ",
+        "subscribers": "581K"
+      },
+      {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.95M"
+      },
+      {
         "name": "sato.",
         "browse_id": "UCnjhs1YmXT_WrUTs9MNtAFQ",
         "subscribers": "351K"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.55M"
       },
       {
         "name": "Ryokuousyoku Syakai",
@@ -3926,9 +3967,9 @@
         "subscribers": "7.77M"
       },
       {
-        "name": "Mulasaki Ima",
-        "browse_id": "UC3atnuaadwis0OEvtk0p_aA",
-        "subscribers": "3.68M"
+        "name": "UshioReira",
+        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
+        "subscribers": "704K"
       }
     ],
     "ytm_top_songs": [
@@ -4504,6 +4545,12 @@
           "views": 1048418,
           "likes": 10139,
           "comments": 191
+        },
+        {
+          "date": "2026-07-14",
+          "views": 1049029,
+          "likes": 10144,
+          "comments": 191
         }
       ]
     },
@@ -5054,6 +5101,12 @@
           "date": "2026-07-13",
           "views": 870864,
           "likes": 8409,
+          "comments": 43
+        },
+        {
+          "date": "2026-07-14",
+          "views": 871512,
+          "likes": 8416,
           "comments": 43
         }
       ]
@@ -5606,6 +5659,12 @@
           "views": 417823,
           "likes": 3871,
           "comments": 47
+        },
+        {
+          "date": "2026-07-14",
+          "views": 418362,
+          "likes": 3875,
+          "comments": 47
         }
       ]
     },
@@ -5928,6 +5987,12 @@
           "date": "2026-07-13",
           "views": 1092916,
           "likes": 11562,
+          "comments": 139
+        },
+        {
+          "date": "2026-07-14",
+          "views": 1093295,
+          "likes": 11566,
           "comments": 139
         }
       ]
@@ -6484,6 +6549,12 @@
           "date": "2026-07-13",
           "views": 52170,
           "likes": 670,
+          "comments": 14
+        },
+        {
+          "date": "2026-07-14",
+          "views": 52393,
+          "likes": 672,
           "comments": 14
         }
       ]
@@ -7298,6 +7369,18 @@
       "type": "annotated",
       "related_annotation": "ツアー完走＋Mrs. GREEN APPLE主催イベント出演の複合効果で指標上昇継続",
       "detected_at": "2026-07-13T16:25:59.482240+00:00"
+    },
+    {
+      "date": "2026-07-14",
+      "metric": "youtube_total_views",
+      "value": 77405715,
+      "baseline_mean": 76688095.1,
+      "baseline_stddev": 239800.1,
+      "delta": 717619,
+      "score": 2.99,
+      "type": "annotated",
+      "related_annotation": "ツアー完走＋Mrs. GREEN APPLE主催イベント出演の複合効果で指標上昇継続",
+      "detected_at": "2026-07-14T15:21:17.689841+00:00"
     }
   ]
 }
