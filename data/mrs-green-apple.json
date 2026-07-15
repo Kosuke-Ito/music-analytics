@@ -4115,6 +4115,47 @@
       "ytm_subscribers": 6380000,
       "ytm_monthly_listeners": 34500000,
       "ytm_total_views": 6686610263
+    },
+    {
+      "date": "2026-07-15",
+      "monthly_listeners": 7409704,
+      "collected_at": "2026-07-15T15:24:20.024909+00:00",
+      "spotify_followers": 7318964,
+      "youtube_subscribers": 6380000,
+      "youtube_total_views": 6922011406,
+      "youtube_video_count": 845,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 374086
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 324855
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 223283
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 133068
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 108522
+        }
+      ],
+      "lastfm_listeners": 453448,
+      "lastfm_playcount": 12703758,
+      "ytm_subscribers": 6380000,
+      "ytm_monthly_listeners": 34500000,
+      "ytm_total_views": 6706903905
     }
   ],
   "annotations": [
@@ -4688,29 +4729,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "16.9M"
-      },
-      {
         "name": "Tani Yuuki",
         "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
         "subscribers": "5.59M"
       },
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "71.6M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "16.9M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "18.7M"
-      },
-      {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "5.1M"
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "9.66M"
       },
       {
         "name": "FRUITS ZIPPER",
@@ -4723,19 +4754,29 @@
         "subscribers": "4.92M"
       },
       {
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "71.6M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "18.7M"
+      },
+      {
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
         "subscribers": "95.3M"
       },
       {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "9.71M"
+      },
+      {
         "name": "Takaya Kawasaki",
         "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
         "subscribers": "1.51M"
-      },
-      {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "20.7M"
       }
     ],
     "ytm_top_songs": [
@@ -5323,6 +5364,12 @@
           "views": 28439954,
           "likes": 157782,
           "comments": 2359
+        },
+        {
+          "date": "2026-07-15",
+          "views": 28521252,
+          "likes": 157965,
+          "comments": 2362
         }
       ]
     },
@@ -5885,6 +5932,12 @@
           "date": "2026-07-14",
           "views": 151351750,
           "likes": 546859,
+          "comments": 6049
+        },
+        {
+          "date": "2026-07-15",
+          "views": 151462986,
+          "likes": 547043,
           "comments": 6049
         }
       ]
@@ -6449,6 +6502,12 @@
           "views": 59966779,
           "likes": 231249,
           "comments": 441
+        },
+        {
+          "date": "2026-07-15",
+          "views": 59995547,
+          "likes": 231367,
+          "comments": 441
         }
       ]
     },
@@ -7000,6 +7059,12 @@
           "views": 47306813,
           "likes": 206603,
           "comments": 2961
+        },
+        {
+          "date": "2026-07-15",
+          "views": 47361332,
+          "likes": 206706,
+          "comments": 2963
         }
       ]
     },
@@ -7590,6 +7655,12 @@
           "views": 106419441,
           "likes": 349866,
           "comments": 1829
+        },
+        {
+          "date": "2026-07-15",
+          "views": 106490487,
+          "likes": 350086,
+          "comments": 1832
         }
       ]
     }
@@ -7882,6 +7953,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-14T15:22:42.121312+00:00"
+    },
+    {
+      "date": "2026-07-15",
+      "metric": "ytm_monthly_listeners",
+      "value": 34500000,
+      "baseline_mean": 33110000,
+      "baseline_stddev": 470708.7,
+      "delta": 1390000,
+      "score": 2.95,
+      "type": "annotated",
+      "related_annotation": "「Brand New」配信リリース開始、スパイダーマン出演者との対談映像も公開",
+      "detected_at": "2026-07-15T15:24:21.411204+00:00"
+    },
+    {
+      "date": "2026-07-15",
+      "metric": "youtube_total_views",
+      "value": 6922011406,
+      "baseline_mean": 6845159636.0,
+      "baseline_stddev": 36456392.7,
+      "delta": 76851770,
+      "score": 2.11,
+      "type": "annotated",
+      "related_annotation": "「Brand New」配信リリース開始、スパイダーマン出演者との対談映像も公開",
+      "detected_at": "2026-07-15T15:24:21.411204+00:00"
     }
   ]
 }

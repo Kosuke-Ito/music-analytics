@@ -4102,6 +4102,47 @@
       "ytm_subscribers": 9350000,
       "ytm_monthly_listeners": 31100000,
       "ytm_total_views": 5442194332
+    },
+    {
+      "date": "2026-07-15",
+      "monthly_listeners": 6675624,
+      "collected_at": "2026-07-15T15:25:24.817273+00:00",
+      "spotify_followers": 7796773,
+      "youtube_subscribers": 9370000,
+      "youtube_total_views": 5505363010,
+      "youtube_video_count": 721,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 122082
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 91865
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 89837
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 71444
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 70642
+        }
+      ],
+      "lastfm_listeners": 740831,
+      "lastfm_playcount": 89965728,
+      "ytm_subscribers": 9370000,
+      "ytm_monthly_listeners": 31100000,
+      "ytm_total_views": 5449840490
     }
   ],
   "annotations": [
@@ -4578,6 +4619,21 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Reol",
+        "browse_id": "UCknW0jP_BkALWACMQ44cJ1A",
+        "subscribers": "2.84M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.55M"
+      },
+      {
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "24.1M"
+      },
+      {
         "name": "YOASOBI",
         "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
         "subscribers": "38.1M"
@@ -4608,24 +4664,9 @@
         "subscribers": "1.45M"
       },
       {
-        "name": "Reol",
-        "browse_id": "UCknW0jP_BkALWACMQ44cJ1A",
-        "subscribers": "2.84M"
-      },
-      {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "24.1M"
-      },
-      {
         "name": "Kocchi no Kento",
         "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
         "subscribers": "68.1M"
-      },
-      {
-        "name": "9Lana",
-        "browse_id": "UClZMIQn97IcvrdGviWz-qRw",
-        "subscribers": "11.9M"
       }
     ],
     "ytm_top_songs": [
@@ -5213,6 +5254,12 @@
           "views": 7610357,
           "likes": 163227,
           "comments": 2667
+        },
+        {
+          "date": "2026-07-15",
+          "views": 7641317,
+          "likes": 163521,
+          "comments": 2668
         }
       ]
     },
@@ -5776,6 +5823,12 @@
           "views": 32396405,
           "likes": 212887,
           "comments": 849
+        },
+        {
+          "date": "2026-07-15",
+          "views": 32440878,
+          "likes": 213165,
+          "comments": 851
         }
       ]
     },
@@ -6338,6 +6391,12 @@
           "date": "2026-07-14",
           "views": 53159772,
           "likes": 489373,
+          "comments": 2126
+        },
+        {
+          "date": "2026-07-15",
+          "views": 53196126,
+          "likes": 489656,
           "comments": 2126
         }
       ]
@@ -6991,6 +7050,12 @@
           "views": 68767961,
           "likes": 360267,
           "comments": 745
+        },
+        {
+          "date": "2026-07-15",
+          "views": 68807152,
+          "likes": 360457,
+          "comments": 745
         }
       ]
     },
@@ -7485,6 +7550,12 @@
           "views": 686947,
           "likes": 25333,
           "comments": 572
+        },
+        {
+          "date": "2026-07-15",
+          "views": 730913,
+          "likes": 26184,
+          "comments": 590
         }
       ]
     }
@@ -7873,6 +7944,18 @@
       "type": "annotated",
       "related_annotation": "日産スタジアム公演「Ao」・新曲「Love me forever!」効果の余波でSpotify月間リスナー・YouTube総再生数が継続上昇",
       "detected_at": "2026-07-12T14:54:33.083505+00:00"
+    },
+    {
+      "date": "2026-07-15",
+      "metric": "youtube_total_views",
+      "value": 5505363010,
+      "baseline_mean": 5458717779.0,
+      "baseline_stddev": 22760384.2,
+      "delta": 46645230,
+      "score": 2.05,
+      "type": "annotated",
+      "related_annotation": "実写映画「ブルーロック」主題歌「モンストロ」ラジオ先行オンエア開始",
+      "detected_at": "2026-07-15T15:25:26.282113+00:00"
     }
   ]
 }

@@ -3814,6 +3814,47 @@
       "ytm_subscribers": 4000000,
       "ytm_monthly_listeners": 16000000,
       "ytm_total_views": 3361102002
+    },
+    {
+      "date": "2026-07-15",
+      "monthly_listeners": 4992436,
+      "collected_at": "2026-07-15T15:30:19.416768+00:00",
+      "spotify_followers": 3648187,
+      "youtube_subscribers": 4000000,
+      "youtube_total_views": 3368180000,
+      "youtube_video_count": 129,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 210086
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 152071
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 113991
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 104929
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 68312
+        }
+      ],
+      "lastfm_listeners": 258352,
+      "lastfm_playcount": 11855230,
+      "ytm_subscribers": 4000000,
+      "ytm_monthly_listeners": 16000000,
+      "ytm_total_views": 3361102002
     }
   ],
   "annotations": [
@@ -4125,9 +4166,9 @@
         "subscribers": "18.7M"
       },
       {
-        "name": "ChoQMay",
-        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
-        "subscribers": "4.06M"
+        "name": "MEGATERA･ZERO",
+        "browse_id": "UCe0GU9CHeC3hbvgYmzXc7OA",
+        "subscribers": "66K"
       },
       {
         "name": "YOASOBI",
@@ -4135,19 +4176,14 @@
         "subscribers": "38.1M"
       },
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.55M"
-      },
-      {
         "name": "OFFICIAL HIGE DANDISM",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
         "subscribers": "71.6M"
       },
       {
-        "name": "Hitsujibungaku",
-        "browse_id": "UCnZK-AT0Yrx8uXcFRqUy87g",
-        "subscribers": "5.89M"
+        "name": "ChoQMay",
+        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
+        "subscribers": "4.06M"
       },
       {
         "name": "WhaleDontSleep",
@@ -4155,19 +4191,24 @@
         "subscribers": "530K"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "95.3M"
+        "name": "Ai Higuchi",
+        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
+        "subscribers": "14.1M"
       },
       {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.95M"
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.55M"
       },
       {
-        "name": "Rokudenashi",
-        "browse_id": "UCJ2lqgvSwxX4Osly7R4szNQ",
-        "subscribers": "37M"
+        "name": "Hitsujibungaku",
+        "browse_id": "UCnZK-AT0Yrx8uXcFRqUy87g",
+        "subscribers": "5.89M"
+      },
+      {
+        "name": "ZUTOMAYO",
+        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
+        "subscribers": "5.08M"
       }
     ],
     "ytm_top_songs": [
@@ -4737,6 +4778,12 @@
           "views": 9306972,
           "likes": 52820,
           "comments": 160
+        },
+        {
+          "date": "2026-07-15",
+          "views": 9363298,
+          "likes": 53067,
+          "comments": 161
         }
       ]
     },
@@ -5310,6 +5357,12 @@
           "date": "2026-07-14",
           "views": 107364775,
           "likes": 368678,
+          "comments": 591
+        },
+        {
+          "date": "2026-07-15",
+          "views": 107425142,
+          "likes": 368863,
           "comments": 591
         }
       ]
@@ -6035,6 +6088,12 @@
           "views": 5543907,
           "likes": 43510,
           "comments": 441
+        },
+        {
+          "date": "2026-07-15",
+          "views": 5572425,
+          "likes": 43626,
+          "comments": 443
         }
       ]
     },
@@ -6447,6 +6506,12 @@
           "date": "2026-07-14",
           "views": 71631160,
           "likes": 260626,
+          "comments": 360
+        },
+        {
+          "date": "2026-07-15",
+          "views": 71663025,
+          "likes": 260725,
           "comments": 360
         }
       ]
@@ -6921,6 +6986,12 @@
           "views": 6396363,
           "likes": 74451,
           "comments": 1042
+        },
+        {
+          "date": "2026-07-15",
+          "views": 6443717,
+          "likes": 74718,
+          "comments": 1042
         }
       ]
     },
@@ -7393,6 +7464,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-14T15:28:55.391935+00:00"
+    },
+    {
+      "date": "2026-07-15",
+      "metric": "monthly_listeners",
+      "value": 4992436,
+      "baseline_mean": 4814075.1,
+      "baseline_stddev": 44523.7,
+      "delta": 178360,
+      "score": 4.01,
+      "type": "annotated",
+      "related_annotation": "「猫日」配信リリース（7/17）直前の話題拡大、ラジオ初OA発表とアニメ放送局拡大が重なる",
+      "detected_at": "2026-07-15T15:30:21.193543+00:00"
     }
   ]
 }

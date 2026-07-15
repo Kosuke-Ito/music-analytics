@@ -3820,6 +3820,47 @@
       "ytm_subscribers": 595000,
       "ytm_monthly_listeners": 4920000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-15",
+      "monthly_listeners": 2855441,
+      "collected_at": "2026-07-15T15:33:43.093585+00:00",
+      "spotify_followers": 2008856,
+      "youtube_subscribers": 595000,
+      "youtube_total_views": 503512572,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 152934
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 143007
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 99073
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 57533
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 50265
+        }
+      ],
+      "lastfm_listeners": 7697,
+      "lastfm_playcount": 451525,
+      "ytm_subscribers": 595000,
+      "ytm_monthly_listeners": 4920000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4172,9 +4213,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "16.9M"
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "3.75M"
       },
       {
         "name": "sumika",
@@ -4182,14 +4223,14 @@
         "subscribers": "3.04M"
       },
       {
-        "name": "SHISHAMO",
-        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "3.75M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "16.9M"
       },
       {
-        "name": "Koresawa",
-        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "4.97M"
+        "name": "Hump Back",
+        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
+        "subscribers": "6.25M"
       },
       {
         "name": "Saucy Dog",
@@ -4197,19 +4238,19 @@
         "subscribers": "2.43M"
       },
       {
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "4.97M"
+      },
+      {
+        "name": "go!go!vanillas",
+        "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
+        "subscribers": "610K"
+      },
+      {
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
         "subscribers": "95.3M"
-      },
-      {
-        "name": "CreepHyp",
-        "browse_id": "UC0iyL2tAxXXuwfx8VVvCw1A",
-        "subscribers": "2.14M"
-      },
-      {
-        "name": "Hump Back",
-        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
-        "subscribers": "6.25M"
       },
       {
         "name": "WurtS",
@@ -4788,6 +4829,12 @@
           "views": 12391920,
           "likes": 70720,
           "comments": 144
+        },
+        {
+          "date": "2026-07-15",
+          "views": 12408057,
+          "likes": 70811,
+          "comments": 145
         }
       ]
     },
@@ -5333,6 +5380,12 @@
           "views": 24892800,
           "likes": 90545,
           "comments": 172
+        },
+        {
+          "date": "2026-07-15",
+          "views": 24914193,
+          "likes": 90645,
+          "comments": 173
         }
       ]
     },
@@ -5866,6 +5919,12 @@
           "views": 17034383,
           "likes": 62701,
           "comments": 116
+        },
+        {
+          "date": "2026-07-15",
+          "views": 17051395,
+          "likes": 62795,
+          "comments": 116
         }
       ]
     },
@@ -6321,6 +6380,12 @@
           "views": 45334299,
           "likes": 140460,
           "comments": 239
+        },
+        {
+          "date": "2026-07-15",
+          "views": 45353894,
+          "likes": 140551,
+          "comments": 239
         }
       ]
     },
@@ -6757,6 +6822,12 @@
           "views": 14742360,
           "likes": 86710,
           "comments": 476
+        },
+        {
+          "date": "2026-07-15",
+          "views": 14785759,
+          "likes": 86994,
+          "comments": 479
         }
       ]
     },
@@ -7816,6 +7887,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-14T15:32:21.750981+00:00"
+    },
+    {
+      "date": "2026-07-15",
+      "metric": "ytm_monthly_listeners",
+      "value": 4920000,
+      "baseline_mean": 4536333.3,
+      "baseline_stddev": 136271.4,
+      "delta": 383666,
+      "score": 2.82,
+      "type": "annotated",
+      "related_annotation": "「EIGHT-JAM FES 2026」に出演（ノエビアスタジアム神戸）",
+      "detected_at": "2026-07-15T15:33:44.905108+00:00"
     }
   ]
 }

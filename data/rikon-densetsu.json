@@ -3927,6 +3927,47 @@
       "ytm_subscribers": 101000,
       "ytm_monthly_listeners": 387000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-15",
+      "monthly_listeners": 427173,
+      "collected_at": "2026-07-15T15:20:21.296628+00:00",
+      "spotify_followers": 122633,
+      "youtube_subscribers": 101000,
+      "youtube_total_views": 48979065,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 23903
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 16730
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 11644
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 7626
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 5468
+        }
+      ],
+      "lastfm_listeners": 10213,
+      "lastfm_playcount": 167082,
+      "ytm_subscribers": 101000,
+      "ytm_monthly_listeners": 387000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3959,14 +4000,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "12.4M"
-      },
-      {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "18.7M"
+        "name": "Yu Sakai",
+        "browse_id": "UC1WcFC-kH798mP7XK17DulA",
+        "subscribers": "27K"
       },
       {
         "name": "Omoinotake",
@@ -3974,14 +4010,9 @@
         "subscribers": "3.76M"
       },
       {
-        "name": "Yu Sakai",
-        "browse_id": "UC1WcFC-kH798mP7XK17DulA",
-        "subscribers": "27K"
-      },
-      {
-        "name": "RETRORIRON",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "313K"
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "12.4M"
       },
       {
         "name": "Penthouse",
@@ -3989,14 +4020,24 @@
         "subscribers": "2.06M"
       },
       {
-        "name": "Nishina",
-        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
-        "subscribers": "309K"
+        "name": "RETRORIRON",
+        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
+        "subscribers": "313K"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "18.7M"
       },
       {
         "name": "Kroi",
         "browse_id": "UCssoAGLly9DaABecIZoht_g",
         "subscribers": "414K"
+      },
+      {
+        "name": "BIALYSTOCKS",
+        "browse_id": "UCUejusLOJFSbBxhzot8By9w",
+        "subscribers": "230K"
       },
       {
         "name": "TAIKING",
@@ -4593,6 +4634,12 @@
           "views": 53035,
           "likes": 468,
           "comments": 6
+        },
+        {
+          "date": "2026-07-15",
+          "views": 53160,
+          "likes": 470,
+          "comments": 6
         }
       ]
     },
@@ -5154,6 +5201,12 @@
         {
           "date": "2026-07-14",
           "views": 43818,
+          "likes": 440,
+          "comments": 4
+        },
+        {
+          "date": "2026-07-15",
+          "views": 43941,
           "likes": 440,
           "comments": 4
         }
@@ -5719,6 +5772,12 @@
           "views": 233845,
           "likes": 2058,
           "comments": 12
+        },
+        {
+          "date": "2026-07-15",
+          "views": 234200,
+          "likes": 2059,
+          "comments": 12
         }
       ]
     },
@@ -6262,6 +6321,12 @@
         {
           "date": "2026-07-14",
           "views": 63123,
+          "likes": 498,
+          "comments": 4
+        },
+        {
+          "date": "2026-07-15",
+          "views": 63193,
           "likes": 498,
           "comments": 4
         }
@@ -6809,6 +6874,12 @@
           "views": 86215,
           "likes": 814,
           "comments": 8
+        },
+        {
+          "date": "2026-07-15",
+          "views": 86461,
+          "likes": 816,
+          "comments": 8
         }
       ]
     },
@@ -7203,6 +7274,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-22T18:10:39.433036+00:00"
+    },
+    {
+      "date": "2026-07-15",
+      "metric": "youtube_total_views",
+      "value": 48979065,
+      "baseline_mean": 48174931.9,
+      "baseline_stddev": 305520.9,
+      "delta": 804133,
+      "score": 2.63,
+      "type": "annotated",
+      "related_annotation": "秦基博とのツーマンライブ「ライブナタリー 離婚伝説×秦基博」をZepp Hanedaで開催",
+      "detected_at": "2026-07-15T15:20:22.618038+00:00"
     }
   ]
 }

@@ -3814,6 +3814,47 @@
       "ytm_subscribers": 882000,
       "ytm_monthly_listeners": 5400000,
       "ytm_total_views": 644499876
+    },
+    {
+      "date": "2026-07-15",
+      "monthly_listeners": 2125314,
+      "collected_at": "2026-07-15T15:35:57.334297+00:00",
+      "spotify_followers": 1061332,
+      "youtube_subscribers": 882000,
+      "youtube_total_views": 665511743,
+      "youtube_video_count": 304,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54218
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 46068
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 42715
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 29940
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 22448
+        }
+      ],
+      "lastfm_listeners": 168722,
+      "lastfm_playcount": 5876244,
+      "ytm_subscribers": 882000,
+      "ytm_monthly_listeners": 5400000,
+      "ytm_total_views": 644873649
     }
   ],
   "annotations": [
@@ -4048,9 +4089,9 @@
         "subscribers": "28.9M"
       },
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.55M"
+        "name": "Kotone",
+        "browse_id": "UCZKz-7lju7A3Hi_DSf4oNQw",
+        "subscribers": "62K"
       },
       {
         "name": "YOASOBI",
@@ -4063,14 +4104,19 @@
         "subscribers": "1.6M"
       },
       {
+        "name": "Mika Nakashima",
+        "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
+        "subscribers": "3.84M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.55M"
+      },
+      {
         "name": "MONKEY MAJIK",
         "browse_id": "UC3gcufb-KpdT9XbSf0vug3g",
         "subscribers": "1.35M"
-      },
-      {
-        "name": "Miwa",
-        "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
-        "subscribers": "1.97M"
       },
       {
         "name": "YUI",
@@ -4078,19 +4124,14 @@
         "subscribers": "7.78M"
       },
       {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.77M"
+        "name": "Ai Higuchi",
+        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
+        "subscribers": "14.1M"
       },
       {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "20.7M"
-      },
-      {
-        "name": "Mika Nakashima",
-        "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
-        "subscribers": "3.84M"
+        "name": "Rei Yasuda",
+        "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
+        "subscribers": "303K"
       }
     ],
     "ytm_top_songs": [
@@ -5168,6 +5209,12 @@
           "views": 9095777,
           "likes": 63586,
           "comments": 215
+        },
+        {
+          "date": "2026-07-15",
+          "views": 9104158,
+          "likes": 63639,
+          "comments": 216
         }
       ]
     },
@@ -5718,6 +5765,12 @@
           "date": "2026-07-14",
           "views": 2037005,
           "likes": 13912,
+          "comments": 109
+        },
+        {
+          "date": "2026-07-15",
+          "views": 2038115,
+          "likes": 13917,
           "comments": 109
         }
       ]
@@ -6276,6 +6329,12 @@
           "views": 7407004,
           "likes": 53330,
           "comments": 69
+        },
+        {
+          "date": "2026-07-15",
+          "views": 7409995,
+          "likes": 53347,
+          "comments": 69
         }
       ]
     },
@@ -6761,6 +6820,12 @@
           "views": 1827585,
           "likes": 27694,
           "comments": 313
+        },
+        {
+          "date": "2026-07-15",
+          "views": 1834969,
+          "likes": 27738,
+          "comments": 313
         }
       ]
     },
@@ -6915,6 +6980,12 @@
           "views": 14125039,
           "likes": 137852,
           "comments": 2318
+        },
+        {
+          "date": "2026-07-15",
+          "views": 14144517,
+          "likes": 138062,
+          "comments": 2319
         }
       ]
     }
@@ -7183,6 +7254,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-14T15:34:47.430416+00:00"
+    },
+    {
+      "date": "2026-07-15",
+      "metric": "youtube_total_views",
+      "value": 665511743,
+      "baseline_mean": 661116194.6,
+      "baseline_stddev": 2143633.9,
+      "delta": 4395548,
+      "score": 2.05,
+      "type": "annotated",
+      "related_annotation": "新曲「Sunny」配信リリース＆MV公開",
+      "detected_at": "2026-07-15T15:35:58.924437+00:00"
     }
   ]
 }
