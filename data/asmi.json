@@ -7137,6 +7137,15 @@
       "added_at": "2026-07-12T16:00:00Z",
       "source": "billboard-japan.com, realsound.jp, cocotame.jp",
       "confidence": "medium"
+    },
+    {
+      "date": "2026-07-16",
+      "title": "7/11ジャンプの残留検知（実際のYouTube総再生数は77,405,715回で7/11以降変動なし）",
+      "description": "daily records確認の結果、YouTube総再生数は7月11日の77,405,715回から7月16日まで変化していない。7/12にアノテーション済みのツアー完走＋CEREMONY出演効果によるジャンプがベースライン移動平均のウィンドウに残っているため、値そのものは横ばいにもかかわらずscore 2.24σとして再検知された。新規のバイラルイベントは確認されない。",
+      "category": "other",
+      "added_at": "2026-07-16T16:00:00Z",
+      "source": "データ検証（daily records確認）",
+      "confidence": "high"
     }
   ],
   "buzz_events": [
