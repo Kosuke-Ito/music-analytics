@@ -4025,6 +4025,47 @@
       "ytm_subscribers": 153,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-17",
+      "monthly_listeners": 5467,
+      "collected_at": "2026-07-17T15:13:50.606148+00:00",
+      "spotify_followers": 957,
+      "youtube_subscribers": 371,
+      "youtube_total_views": 70234,
+      "youtube_video_count": 184,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 254
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 161
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 106
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 79
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 62
+        }
+      ],
+      "lastfm_listeners": 770,
+      "lastfm_playcount": 2509,
+      "ytm_subscribers": 153,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4288,7 +4329,7 @@
       {
         "name": "GALALI",
         "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "133K"
+        "subscribers": "110K"
       },
       {
         "name": "Kinopoppo",
@@ -4848,6 +4889,12 @@
         {
           "date": "2026-07-16",
           "views": 3543,
+          "likes": 21,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-17",
+          "views": 3549,
           "likes": 21,
           "comments": 0
         }
@@ -5419,6 +5466,12 @@
           "views": 6064,
           "likes": 23,
           "comments": 0
+        },
+        {
+          "date": "2026-07-17",
+          "views": 6070,
+          "likes": 23,
+          "comments": 0
         }
       ]
     },
@@ -5986,6 +6039,12 @@
         {
           "date": "2026-07-16",
           "views": 12546,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-17",
+          "views": 12549,
           "likes": 76,
           "comments": 0
         }
@@ -6557,6 +6616,12 @@
           "views": 32513,
           "likes": 151,
           "comments": 0
+        },
+        {
+          "date": "2026-07-17",
+          "views": 32522,
+          "likes": 151,
+          "comments": 0
         }
       ]
     },
@@ -7118,6 +7183,12 @@
         {
           "date": "2026-07-16",
           "views": 8248,
+          "likes": 62,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-17",
+          "views": 8256,
           "likes": 62,
           "comments": 0
         }
@@ -7800,6 +7871,18 @@
       "type": "annotated",
       "related_annotation": "「&Dream」ロングテール継続——月間リスナーが2σ台で安定推移",
       "detected_at": "2026-07-02T16:07:52.153648+00:00"
+    },
+    {
+      "date": "2026-07-17",
+      "metric": "youtube_total_views",
+      "value": 70234,
+      "baseline_mean": 67577,
+      "baseline_stddev": 737.4,
+      "delta": 2657,
+      "score": 3.6,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-17T15:13:51.671724+00:00"
     }
   ]
 }
