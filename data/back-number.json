@@ -3934,6 +3934,47 @@
       "ytm_subscribers": 2130000,
       "ytm_monthly_listeners": 18300000,
       "ytm_total_views": 2800382338
+    },
+    {
+      "date": "2026-07-18",
+      "monthly_listeners": 6105229,
+      "collected_at": "2026-07-18T14:54:10.330294+00:00",
+      "spotify_followers": 6747532,
+      "youtube_subscribers": 2130000,
+      "youtube_total_views": 2839213149,
+      "youtube_video_count": 265,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 370528
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 343884
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 231101
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 135803
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 125874
+        }
+      ],
+      "lastfm_listeners": 131860,
+      "lastfm_playcount": 6463433,
+      "ytm_subscribers": 2130000,
+      "ytm_monthly_listeners": 18300000,
+      "ytm_total_views": 2800382338
     }
   ],
   "annotations": [
@@ -4254,6 +4295,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "69.2M"
+      },
+      {
         "name": "Mrs. GREEN APPLE",
         "browse_id": "UCFB0qxwNwayGQ4Ksj8QpCXg",
         "subscribers": "34.4M"
@@ -4262,6 +4308,11 @@
         "name": "sumika",
         "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
         "subscribers": "2.92M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "17.8M"
       },
       {
         "name": "Takaya Kawasaki",
@@ -4274,9 +4325,9 @@
         "subscribers": "12.6M"
       },
       {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "69.2M"
+        "name": "wacci",
+        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
+        "subscribers": "1.68M"
       },
       {
         "name": "SEKAI NO OWARI",
@@ -4284,24 +4335,14 @@
         "subscribers": "9.65M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "17.8M"
-      },
-      {
-        "name": "Dish",
-        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
-        "subscribers": "2.97M"
-      },
-      {
         "name": "Marcy",
         "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
         "subscribers": "1.42M"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "9.79M"
+        "name": "Tani Yuuki",
+        "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
+        "subscribers": "5.61M"
       }
     ],
     "ytm_top_songs": [
@@ -4895,6 +4936,12 @@
           "views": 59739275,
           "likes": 198762,
           "comments": 583
+        },
+        {
+          "date": "2026-07-18",
+          "views": 59794357,
+          "likes": 198960,
+          "comments": 583
         }
       ]
     },
@@ -5458,6 +5505,12 @@
           "views": 48102108,
           "likes": 179750,
           "comments": 756
+        },
+        {
+          "date": "2026-07-18",
+          "views": 48156556,
+          "likes": 179959,
+          "comments": 756
         }
       ]
     },
@@ -6020,6 +6073,12 @@
           "date": "2026-07-17",
           "views": 64834104,
           "likes": 210214,
+          "comments": 607
+        },
+        {
+          "date": "2026-07-18",
+          "views": 64884023,
+          "likes": 210419,
           "comments": 607
         }
       ]
@@ -6590,6 +6649,12 @@
           "views": 62100841,
           "likes": 210957,
           "comments": 640
+        },
+        {
+          "date": "2026-07-18",
+          "views": 62165696,
+          "likes": 211183,
+          "comments": 641
         }
       ]
     },
@@ -7158,6 +7223,12 @@
           "date": "2026-07-17",
           "views": 23724473,
           "likes": 101371,
+          "comments": 499
+        },
+        {
+          "date": "2026-07-18",
+          "views": 23768084,
+          "likes": 101623,
           "comments": 499
         }
       ]
@@ -7816,6 +7887,18 @@
       "type": "annotated",
       "related_annotation": "「チェックのワンピース」が自身24作目の累積再生数1億回突破（オリコン報道）でYTM月間リスナーが急増",
       "detected_at": "2026-07-17T15:17:24.976198+00:00"
+    },
+    {
+      "date": "2026-07-18",
+      "metric": "ytm_monthly_listeners",
+      "value": 18300000,
+      "baseline_mean": 14356666.7,
+      "baseline_stddev": 1818916.0,
+      "delta": 3943333,
+      "score": 2.17,
+      "type": "annotated",
+      "related_annotation": "「チェックのワンピース」が自身24作目の累積再生数1億回突破（オリコン報道）でYTM月間リスナーが急増",
+      "detected_at": "2026-07-18T14:54:11.924160+00:00"
     }
   ]
 }

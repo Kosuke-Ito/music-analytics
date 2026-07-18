@@ -3893,6 +3893,47 @@
       "ytm_subscribers": 1250000,
       "ytm_monthly_listeners": 10300000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-18",
+      "monthly_listeners": 2232841,
+      "collected_at": "2026-07-18T15:00:07.498758+00:00",
+      "spotify_followers": 639373,
+      "youtube_subscribers": 1250000,
+      "youtube_total_views": 177444511,
+      "youtube_video_count": 492,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 99530
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 93463
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 68587
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 36238
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 33734
+        }
+      ],
+      "lastfm_listeners": 74917,
+      "lastfm_playcount": 1419968,
+      "ytm_subscribers": 1250000,
+      "ytm_monthly_listeners": 10300000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -3932,6 +3973,11 @@
         "subscribers": "4.01M"
       },
       {
+        "name": "HANA",
+        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
+        "subscribers": "12M"
+      },
+      {
         "name": "INI",
         "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
         "subscribers": "5.07M"
@@ -3940,6 +3986,11 @@
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
         "subscribers": "2.5M"
+      },
+      {
+        "name": "NiziU",
+        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
+        "subscribers": "8.2M"
       },
       {
         "name": "Nissy",
@@ -3952,19 +4003,9 @@
         "subscribers": "1.13M"
       },
       {
-        "name": "NiziU",
-        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "8.2M"
-      },
-      {
-        "name": "HANA",
-        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "12M"
-      },
-      {
         "name": "SOTA",
         "browse_id": "UC713ZFoj3DfmBoI5zsOvK_w",
-        "subscribers": "2.35K"
+        "subscribers": "2.34K"
       },
       {
         "name": "Number_i",
@@ -3982,12 +4023,12 @@
         "video_id": "rAkP84gtJhM"
       },
       {
-        "title": "Why, Why",
-        "video_id": "EpuaeOKrNS8"
-      },
-      {
         "title": "夢中 - Muchu",
         "video_id": "jjuSkbNCSsI"
+      },
+      {
+        "title": "Why, Why",
+        "video_id": "EpuaeOKrNS8"
       },
       {
         "title": "Rondo",
@@ -5416,6 +5457,12 @@
           "views": 19526879,
           "likes": 91814,
           "comments": 2063
+        },
+        {
+          "date": "2026-07-18",
+          "views": 19552879,
+          "likes": 91893,
+          "comments": 2064
         }
       ]
     },
@@ -6809,6 +6856,12 @@
           "views": 1524175,
           "likes": 25284,
           "comments": 1396
+        },
+        {
+          "date": "2026-07-18",
+          "views": 1529501,
+          "likes": 25290,
+          "comments": 1396
         }
       ]
     },
@@ -7114,6 +7167,12 @@
           "views": 1233176,
           "likes": 17578,
           "comments": 737
+        },
+        {
+          "date": "2026-07-18",
+          "views": 1274706,
+          "likes": 17759,
+          "comments": 747
         }
       ]
     },
@@ -7185,6 +7244,12 @@
           "views": 1007218,
           "likes": 20246,
           "comments": 1746
+        },
+        {
+          "date": "2026-07-18",
+          "views": 1035847,
+          "likes": 20393,
+          "comments": 1765
         }
       ]
     },
@@ -7196,6 +7261,12 @@
           "views": 465781,
           "likes": 10547,
           "comments": 699
+        },
+        {
+          "date": "2026-07-18",
+          "views": 475017,
+          "likes": 10579,
+          "comments": 702
         }
       ]
     }
@@ -7752,6 +7823,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-17T15:23:51.741351+00:00"
+    },
+    {
+      "date": "2026-07-18",
+      "metric": "monthly_listeners",
+      "value": 2232841,
+      "baseline_mean": 2120359.7,
+      "baseline_stddev": 54583.0,
+      "delta": 112481,
+      "score": 2.06,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-18T15:00:09.745680+00:00"
     }
   ]
 }

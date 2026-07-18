@@ -4066,6 +4066,47 @@
       "ytm_subscribers": 153,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-18",
+      "monthly_listeners": 5076,
+      "collected_at": "2026-07-18T14:50:55.011183+00:00",
+      "spotify_followers": 957,
+      "youtube_subscribers": 371,
+      "youtube_total_views": 164395,
+      "youtube_video_count": 184,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 225
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 151
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 101
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 68
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 55
+        }
+      ],
+      "lastfm_listeners": 770,
+      "lastfm_playcount": 2509,
+      "ytm_subscribers": 371,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4343,12 +4384,12 @@
         "video_id": "UWlaQWdCoxY"
       },
       {
-        "title": "徒歩圏内 - Tohokennai",
-        "video_id": "LtzN4QKvyTk"
-      },
-      {
         "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
         "video_id": "gMrPbqFtkbQ"
+      },
+      {
+        "title": "徒歩圏内 - Tohokennai",
+        "video_id": "LtzN4QKvyTk"
       },
       {
         "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
@@ -4895,6 +4936,12 @@
         {
           "date": "2026-07-17",
           "views": 3549,
+          "likes": 21,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-18",
+          "views": 3552,
           "likes": 21,
           "comments": 0
         }
@@ -5472,6 +5519,12 @@
           "views": 6070,
           "likes": 23,
           "comments": 0
+        },
+        {
+          "date": "2026-07-18",
+          "views": 6075,
+          "likes": 23,
+          "comments": 0
         }
       ]
     },
@@ -6045,6 +6098,12 @@
         {
           "date": "2026-07-17",
           "views": 12549,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-18",
+          "views": 12555,
           "likes": 76,
           "comments": 0
         }
@@ -6622,6 +6681,12 @@
           "views": 32522,
           "likes": 151,
           "comments": 0
+        },
+        {
+          "date": "2026-07-18",
+          "views": 32529,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -7189,6 +7254,12 @@
         {
           "date": "2026-07-17",
           "views": 8256,
+          "likes": 62,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-18",
+          "views": 8266,
           "likes": 62,
           "comments": 0
         }
@@ -7883,6 +7954,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-17T15:13:51.671724+00:00"
+    },
+    {
+      "date": "2026-07-18",
+      "metric": "youtube_total_views",
+      "value": 164395,
+      "baseline_mean": 67712.7,
+      "baseline_stddev": 833.1,
+      "delta": 96682,
+      "score": 116.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-18T14:50:56.399172+00:00"
     }
   ]
 }

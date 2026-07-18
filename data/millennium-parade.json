@@ -4071,6 +4071,47 @@
       "ytm_subscribers": 465000,
       "ytm_monthly_listeners": 1070000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-18",
+      "monthly_listeners": 616246,
+      "collected_at": "2026-07-18T14:43:39.143281+00:00",
+      "spotify_followers": 232597,
+      "youtube_subscribers": 465000,
+      "youtube_total_views": 214291584,
+      "youtube_video_count": 48,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 7814
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 6326
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 6249
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 5868
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5728
+        }
+      ],
+      "lastfm_listeners": 157021,
+      "lastfm_playcount": 2312379,
+      "ytm_subscribers": 465000,
+      "ytm_monthly_listeners": 1070000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4110,29 +4151,9 @@
         "subscribers": "17.8M"
       },
       {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "72.1M"
-      },
-      {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "76.8M"
-      },
-      {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "24.3M"
-      },
-      {
         "name": "Daoko",
         "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
         "subscribers": "7.4M"
-      },
-      {
-        "name": "Creepy Nuts",
-        "browse_id": "UC7z9phtXAFRixEvdlRhv-hg",
-        "subscribers": "169M"
       },
       {
         "name": "Eve",
@@ -4145,14 +4166,34 @@
         "subscribers": "5.54M"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "42.5M"
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "72.1M"
+      },
+      {
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "24.3M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.22M"
       },
       {
         "name": "Kroi",
         "browse_id": "UCssoAGLly9DaABecIZoht_g",
         "subscribers": "408K"
+      },
+      {
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "76.8M"
+      },
+      {
+        "name": "Sheena Ringo",
+        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
+        "subscribers": "6.24M"
       }
     ],
     "ytm_top_songs": [
@@ -4757,6 +4798,12 @@
           "views": 7835584,
           "likes": 72121,
           "comments": 262
+        },
+        {
+          "date": "2026-07-18",
+          "views": 7844269,
+          "likes": 72204,
+          "comments": 262
         }
       ]
     },
@@ -5337,6 +5384,12 @@
           "date": "2026-07-17",
           "views": 2092156,
           "likes": 25749,
+          "comments": 48
+        },
+        {
+          "date": "2026-07-18",
+          "views": 2094438,
+          "likes": 25771,
           "comments": 48
         }
       ]
@@ -5919,6 +5972,12 @@
           "views": 21715259,
           "likes": 224361,
           "comments": 621
+        },
+        {
+          "date": "2026-07-18",
+          "views": 21721727,
+          "likes": 224406,
+          "comments": 623
         }
       ]
     },
@@ -7061,6 +7120,12 @@
           "views": 122681,
           "likes": 1402,
           "comments": 23
+        },
+        {
+          "date": "2026-07-18",
+          "views": 122970,
+          "likes": 1409,
+          "comments": 23
         }
       ]
     },
@@ -7096,6 +7161,12 @@
           "views": 141433,
           "likes": 4033,
           "comments": 141
+        },
+        {
+          "date": "2026-07-18",
+          "views": 147609,
+          "likes": 4169,
+          "comments": 142
         }
       ]
     }
@@ -7622,6 +7693,30 @@
       "type": "annotated",
       "related_annotation": "「Blue」×『攻殻機動隊』ED効果がさらに拡大、Spotify月間リスナーが約54万人に急増",
       "detected_at": "2026-07-17T15:05:54.219567+00:00"
+    },
+    {
+      "date": "2026-07-18",
+      "metric": "monthly_listeners",
+      "value": 616246,
+      "baseline_mean": 168224.2,
+      "baseline_stddev": 154641.8,
+      "delta": 448021,
+      "score": 2.9,
+      "type": "annotated",
+      "related_annotation": "「Blue」×『攻殻機動隊』ED効果がさらに拡大、Spotify月間リスナーが約54万人に急増",
+      "detected_at": "2026-07-18T14:43:40.650440+00:00"
+    },
+    {
+      "date": "2026-07-18",
+      "metric": "ytm_monthly_listeners",
+      "value": 1070000,
+      "baseline_mean": 928000,
+      "baseline_stddev": 61723.6,
+      "delta": 142000,
+      "score": 2.3,
+      "type": "annotated",
+      "related_annotation": "「Blue」×『攻殻機動隊』ED効果がさらに拡大、Spotify月間リスナーが約54万人に急増",
+      "detected_at": "2026-07-18T14:43:40.650440+00:00"
     }
   ]
 }

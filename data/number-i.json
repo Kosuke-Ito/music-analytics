@@ -3934,6 +3934,47 @@
       "ytm_subscribers": 1050000,
       "ytm_monthly_listeners": 5540000,
       "ytm_total_views": 801486763
+    },
+    {
+      "date": "2026-07-18",
+      "monthly_listeners": 969478,
+      "collected_at": "2026-07-18T14:59:06.430047+00:00",
+      "spotify_followers": 377446,
+      "youtube_subscribers": 1050000,
+      "youtube_total_views": 908391338,
+      "youtube_video_count": 480,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 42006
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 40507
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 31621
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 14809
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 13742
+        }
+      ],
+      "lastfm_listeners": 23475,
+      "lastfm_playcount": 676031,
+      "ytm_subscribers": 1050000,
+      "ytm_monthly_listeners": 5540000,
+      "ytm_total_views": 805260959
     }
   ],
   "metadata": {
@@ -3973,24 +4014,9 @@
         "subscribers": "3.97M"
       },
       {
-        "name": "BE:FIRST",
-        "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
-        "subscribers": "10.3M"
-      },
-      {
-        "name": "Naniwa Danshi",
-        "browse_id": "UC2czdqI9sjz5kz73sU3EGbQ",
-        "subscribers": "4.88M"
-      },
-      {
         "name": "Snow Man",
         "browse_id": "UCDprz5PJZp9PjN0bVGZbAPg",
         "subscribers": "11M"
-      },
-      {
-        "name": "timelesz",
-        "browse_id": "UC5mIZ4PxoBa5aqxEnyLUpDw",
-        "subscribers": "3.22M"
       },
       {
         "name": "King & Prince",
@@ -3998,9 +4024,9 @@
         "subscribers": "4.01M"
       },
       {
-        "name": "MAZZEL",
-        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "2.5M"
+        "name": "Naniwa Danshi",
+        "browse_id": "UC2czdqI9sjz5kz73sU3EGbQ",
+        "subscribers": "4.88M"
       },
       {
         "name": "Nissy",
@@ -4008,14 +4034,29 @@
         "subscribers": "1.65M"
       },
       {
+        "name": "BE:FIRST",
+        "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
+        "subscribers": "10.3M"
+      },
+      {
+        "name": "JO1",
+        "browse_id": "UCWyo-2Efw9aSmemM3LluERg",
+        "subscribers": "4.94M"
+      },
+      {
+        "name": "INI",
+        "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
+        "subscribers": "5.07M"
+      },
+      {
+        "name": "MAZZEL",
+        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
+        "subscribers": "2.5M"
+      },
+      {
         "name": "NiziU",
         "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
         "subscribers": "8.2M"
-      },
-      {
-        "name": "Travis Japan",
-        "browse_id": "UC0CJ4qxy9mgHNhO2d_sqBuw",
-        "subscribers": "1.17M"
       }
     ],
     "ytm_top_songs": [
@@ -6845,6 +6886,12 @@
           "views": 26851,
           "likes": 430,
           "comments": 4
+        },
+        {
+          "date": "2026-07-18",
+          "views": 28396,
+          "likes": 449,
+          "comments": 4
         }
       ]
     },
@@ -6936,6 +6983,12 @@
           "views": 14534,
           "likes": 303,
           "comments": 14
+        },
+        {
+          "date": "2026-07-18",
+          "views": 18474,
+          "likes": 362,
+          "comments": 14
         }
       ]
     },
@@ -6959,6 +7012,12 @@
           "views": 2813,
           "likes": 186,
           "comments": 1
+        },
+        {
+          "date": "2026-07-18",
+          "views": 4381,
+          "likes": 238,
+          "comments": 2
         }
       ]
     },
@@ -6981,6 +7040,12 @@
           "date": "2026-07-17",
           "views": 1976,
           "likes": 184,
+          "comments": 1
+        },
+        {
+          "date": "2026-07-18",
+          "views": 3293,
+          "likes": 209,
           "comments": 1
         }
       ]
@@ -7010,6 +7075,12 @@
           "views": 209238,
           "likes": 12885,
           "comments": 551
+        },
+        {
+          "date": "2026-07-18",
+          "views": 228340,
+          "likes": 13124,
+          "comments": 558
         }
       ]
     }
@@ -7668,6 +7739,18 @@
       "type": "annotated",
       "related_annotation": "「BUGS LIFE」MV公開＆CDTV披露の反響が翌日も継続",
       "detected_at": "2026-07-17T15:22:44.029989+00:00"
+    },
+    {
+      "date": "2026-07-18",
+      "metric": "ytm_monthly_listeners",
+      "value": 5540000,
+      "baseline_mean": 1459666.7,
+      "baseline_stddev": 772314.6,
+      "delta": 4080333,
+      "score": 5.28,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-18T14:59:08.039179+00:00"
     }
   ]
 }
