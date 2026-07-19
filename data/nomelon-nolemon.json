@@ -4099,6 +4099,47 @@
       "ytm_subscribers": 327000,
       "ytm_monthly_listeners": 1290000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-19",
+      "monthly_listeners": 321828,
+      "collected_at": "2026-07-19T14:50:39.377336+00:00",
+      "spotify_followers": 70990,
+      "youtube_subscribers": 327000,
+      "youtube_total_views": 168372490,
+      "youtube_video_count": 108,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 15674
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 9207
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6542
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5304
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5208
+        }
+      ],
+      "lastfm_listeners": 33713,
+      "lastfm_playcount": 919197,
+      "ytm_subscribers": 327000,
+      "ytm_monthly_listeners": 1310000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4133,9 +4174,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.9M"
+        "name": "shallm",
+        "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
+        "subscribers": "228K"
+      },
+      {
+        "name": "Polkadot Stingray",
+        "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
+        "subscribers": "1.12M"
       },
       {
         "name": "Dios",
@@ -4143,24 +4189,14 @@
         "subscribers": "182K"
       },
       {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.91M"
+      },
+      {
         "name": "Tatsuya Kitani",
         "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "24.3M"
-      },
-      {
-        "name": "ZUTOMAYO",
-        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
-        "subscribers": "5.45M"
-      },
-      {
-        "name": "Mulasaki Ima",
-        "browse_id": "UC3atnuaadwis0OEvtk0p_aA",
-        "subscribers": "3.41M"
-      },
-      {
-        "name": "Polkadot Stingray",
-        "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
-        "subscribers": "1.16M"
+        "subscribers": "24.4M"
       },
       {
         "name": "suisoh",
@@ -4170,7 +4206,7 @@
       {
         "name": "Hashimero",
         "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
-        "subscribers": "218K"
+        "subscribers": "217K"
       },
       {
         "name": "TAKU INOUE",
@@ -4180,7 +4216,12 @@
       {
         "name": "yoei.",
         "browse_id": "UCnC9xc35C06kNIO0gNUcleA",
-        "subscribers": "230K"
+        "subscribers": "228K"
+      },
+      {
+        "name": "Rei",
+        "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
+        "subscribers": "419K"
       }
     ],
     "ytm_top_songs": [
@@ -4791,6 +4832,12 @@
           "views": 18597477,
           "likes": 124731,
           "comments": 1059
+        },
+        {
+          "date": "2026-07-19",
+          "views": 18606568,
+          "likes": 124758,
+          "comments": 1060
         }
       ]
     },
@@ -5377,6 +5424,12 @@
           "date": "2026-07-18",
           "views": 5573600,
           "likes": 40898,
+          "comments": 88
+        },
+        {
+          "date": "2026-07-19",
+          "views": 5580426,
+          "likes": 40945,
           "comments": 88
         }
       ]
@@ -5965,6 +6018,12 @@
           "views": 5272711,
           "likes": 35631,
           "comments": 169
+        },
+        {
+          "date": "2026-07-19",
+          "views": 5277041,
+          "likes": 35642,
+          "comments": 169
         }
       ]
     },
@@ -6551,6 +6610,12 @@
           "date": "2026-07-18",
           "views": 2296048,
           "likes": 19135,
+          "comments": 43
+        },
+        {
+          "date": "2026-07-19",
+          "views": 2298884,
+          "likes": 19149,
           "comments": 43
         }
       ]
@@ -7148,6 +7213,12 @@
           "date": "2026-07-18",
           "views": 42784,
           "likes": 1224,
+          "comments": 20
+        },
+        {
+          "date": "2026-07-19",
+          "views": 44983,
+          "likes": 1268,
           "comments": 20
         }
       ]
@@ -7901,6 +7972,18 @@
       "type": "annotated",
       "related_annotation": "「ユラリユレル」アニメOP浸透継続でSpotify月間リスナーが増加（+24,628人・3.55σ）",
       "detected_at": "2026-07-18T14:47:10.733062+00:00"
+    },
+    {
+      "date": "2026-07-19",
+      "metric": "monthly_listeners",
+      "value": 321828,
+      "baseline_mean": 289822.5,
+      "baseline_stddev": 12064.5,
+      "delta": 32005,
+      "score": 2.65,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-19T14:50:40.791431+00:00"
     }
   ]
 }

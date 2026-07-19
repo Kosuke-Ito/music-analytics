@@ -4287,6 +4287,47 @@
       "ytm_subscribers": 19100,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 776312
+    },
+    {
+      "date": "2026-07-19",
+      "monthly_listeners": 73195,
+      "collected_at": "2026-07-19T14:54:04.164116+00:00",
+      "spotify_followers": 20465,
+      "youtube_subscribers": 19200,
+      "youtube_total_views": 825398,
+      "youtube_video_count": 32,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3313
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 2011
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1399
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1010
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 823
+        }
+      ],
+      "lastfm_listeners": 8757,
+      "lastfm_playcount": 52037,
+      "ytm_subscribers": 19200,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 776312
     }
   ],
   "annotations": [
@@ -4513,16 +4554,16 @@
         "url": "https://www.last.fm/music/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E9%9F%B3%E6%A5%BD%E3%82%AF%E3%83%A9%E3%83%96"
       },
       {
-        "name": "柴田聡子",
-        "url": "https://www.last.fm/music/%E6%9F%B4%E7%94%B0%E8%81%A1%E5%AD%90"
-      },
-      {
         "name": "Cho Co Pa Co Cho Co Quin Quin",
         "url": "https://www.last.fm/music/Cho+Co+Pa+Co+Cho+Co+Quin+Quin"
       },
       {
-        "name": "ZAZEN BOYS",
-        "url": "https://www.last.fm/music/ZAZEN+BOYS"
+        "name": "柴田聡子",
+        "url": "https://www.last.fm/music/%E6%9F%B4%E7%94%B0%E8%81%A1%E5%AD%90"
+      },
+      {
+        "name": "石野卓球",
+        "url": "https://www.last.fm/music/%E7%9F%B3%E9%87%8E%E5%8D%93%E7%90%83"
       },
       {
         "name": "電気グルーヴ",
@@ -4926,6 +4967,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-18T14:50:41.140316+00:00"
+    },
+    {
+      "date": "2026-07-19",
+      "metric": "monthly_listeners",
+      "value": 73195,
+      "baseline_mean": 63329.2,
+      "baseline_stddev": 4177.9,
+      "delta": 9865,
+      "score": 2.36,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-19T14:54:05.646215+00:00"
     }
   ],
   "song_performance": {
@@ -5506,6 +5559,12 @@
           "date": "2026-07-18",
           "views": 4286,
           "likes": 89,
+          "comments": 1
+        },
+        {
+          "date": "2026-07-19",
+          "views": 4308,
+          "likes": 90,
           "comments": 1
         }
       ]
@@ -6088,6 +6147,12 @@
           "views": 7567,
           "likes": 188,
           "comments": 6
+        },
+        {
+          "date": "2026-07-19",
+          "views": 7582,
+          "likes": 189,
+          "comments": 6
         }
       ]
     },
@@ -6669,6 +6734,12 @@
           "views": 22807,
           "likes": 205,
           "comments": 2
+        },
+        {
+          "date": "2026-07-19",
+          "views": 22849,
+          "likes": 205,
+          "comments": 2
         }
       ]
     },
@@ -7248,6 +7319,12 @@
         {
           "date": "2026-07-18",
           "views": 13391,
+          "likes": 207,
+          "comments": 1
+        },
+        {
+          "date": "2026-07-19",
+          "views": 13398,
           "likes": 207,
           "comments": 1
         }
@@ -7840,6 +7917,12 @@
           "date": "2026-07-18",
           "views": 6912,
           "likes": 130,
+          "comments": 2
+        },
+        {
+          "date": "2026-07-19",
+          "views": 6982,
+          "likes": 133,
           "comments": 2
         }
       ]

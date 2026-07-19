@@ -4052,6 +4052,47 @@
       "ytm_subscribers": 167000,
       "ytm_monthly_listeners": 3500000,
       "ytm_total_views": 76743316
+    },
+    {
+      "date": "2026-07-19",
+      "monthly_listeners": 229117,
+      "collected_at": "2026-07-19T14:51:08.941121+00:00",
+      "spotify_followers": 113347,
+      "youtube_subscribers": 167000,
+      "youtube_total_views": 77640814,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 7917
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6127
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4272
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 3143
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2723
+        }
+      ],
+      "lastfm_listeners": 35436,
+      "lastfm_playcount": 532934,
+      "ytm_subscribers": 167000,
+      "ytm_monthly_listeners": 3500000,
+      "ytm_total_views": 76967879
     }
   ],
   "metadata": {
@@ -4096,44 +4137,44 @@
         "subscribers": "4.01M"
       },
       {
+        "name": "sato.",
+        "browse_id": "UCnjhs1YmXT_WrUTs9MNtAFQ",
+        "subscribers": "320K"
+      },
+      {
+        "name": "Ai Higuchi",
+        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
+        "subscribers": "14.5M"
+      },
+      {
         "name": "Yuaru",
         "browse_id": "UC_Yxw4oOjaaHtauxKDsnzaQ",
         "subscribers": "579K"
       },
       {
-        "name": "sato.",
-        "browse_id": "UCnjhs1YmXT_WrUTs9MNtAFQ",
-        "subscribers": "331K"
-      },
-      {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.18M"
+        "name": "ChoQMay",
+        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
+        "subscribers": "3.74M"
       },
       {
         "name": "MAISONdes ",
         "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.9M"
+        "subscribers": "3.91M"
       },
       {
-        "name": "ChoQMay",
-        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
-        "subscribers": "3.8M"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.22M"
-      },
-      {
-        "name": "YUTORI",
-        "browse_id": "UCqM8y7cbNcekfXHhvitCLyw",
-        "subscribers": "213K"
+        "name": "Conton Candy",
+        "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
+        "subscribers": "1.84M"
       },
       {
         "name": "UshioReira",
         "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
         "subscribers": "715K"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.24M"
       }
     ],
     "ytm_top_songs": [
@@ -4739,6 +4780,12 @@
           "views": 1050892,
           "likes": 10161,
           "comments": 191
+        },
+        {
+          "date": "2026-07-19",
+          "views": 1051297,
+          "likes": 10162,
+          "comments": 191
         }
       ]
     },
@@ -5319,6 +5366,12 @@
           "date": "2026-07-18",
           "views": 873864,
           "likes": 8432,
+          "comments": 43
+        },
+        {
+          "date": "2026-07-19",
+          "views": 874373,
+          "likes": 8435,
           "comments": 43
         }
       ]
@@ -5901,6 +5954,12 @@
           "views": 420263,
           "likes": 3886,
           "comments": 47
+        },
+        {
+          "date": "2026-07-19",
+          "views": 420650,
+          "likes": 3885,
+          "comments": 47
         }
       ]
     },
@@ -6253,6 +6312,12 @@
           "date": "2026-07-18",
           "views": 1095009,
           "likes": 11574,
+          "comments": 139
+        },
+        {
+          "date": "2026-07-19",
+          "views": 1095413,
+          "likes": 11576,
           "comments": 139
         }
       ]
@@ -6839,6 +6904,12 @@
           "date": "2026-07-18",
           "views": 53371,
           "likes": 673,
+          "comments": 14
+        },
+        {
+          "date": "2026-07-19",
+          "views": 53531,
+          "likes": 674,
           "comments": 14
         }
       ]
@@ -7710,6 +7781,18 @@
       "type": "annotated",
       "related_annotation": "7/11ジャンプの残留検知（実際のYouTube総再生数は77,405,715回で7/11以降変動なし）",
       "detected_at": "2026-07-17T15:10:17.221899+00:00"
+    },
+    {
+      "date": "2026-07-19",
+      "metric": "youtube_total_views",
+      "value": 77640814,
+      "baseline_mean": 76823543.7,
+      "baseline_stddev": 351062.5,
+      "delta": 817270,
+      "score": 2.33,
+      "type": "annotated",
+      "related_annotation": "7/11ジャンプの残留検知（実際のYouTube総再生数は77,405,715回で7/11以降変動なし）",
+      "detected_at": "2026-07-19T14:51:10.087698+00:00"
     }
   ]
 }

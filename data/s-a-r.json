@@ -4056,6 +4056,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-19",
+      "monthly_listeners": 29404,
+      "collected_at": "2026-07-19T14:54:33.399147+00:00",
+      "spotify_followers": 29250,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1444089,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1827
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 892
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 566
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 488
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 423
+        }
+      ],
+      "lastfm_listeners": 5776,
+      "lastfm_playcount": 42589,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4236,7 +4277,7 @@
       {
         "name": "Salasa",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "110K"
+        "subscribers": "113K"
       },
       {
         "name": "reina",
@@ -4251,7 +4292,7 @@
       {
         "name": "Ovall",
         "browse_id": "UCuA82nnWojpMgjBqCnbQDmQ",
-        "subscribers": "347K"
+        "subscribers": "350K"
       },
       {
         "name": "luvis",
@@ -4266,7 +4307,7 @@
       {
         "name": "Stefan Mahendra",
         "browse_id": "UCMZcGfiJPXZ0plcOCQ2nuPQ",
-        "subscribers": "645"
+        "subscribers": "649"
       },
       {
         "name": "Nao Yoshioka",
@@ -4276,7 +4317,7 @@
       {
         "name": "Haruy",
         "browse_id": "UCfjxW631IZ5NGhrGx7IR0Ag",
-        "subscribers": "6.1K"
+        "subscribers": "6.11K"
       },
       {
         "name": "Michael Kaneko",
@@ -4879,6 +4920,12 @@
           "date": "2026-07-18",
           "views": 217066,
           "likes": 2802,
+          "comments": 8
+        },
+        {
+          "date": "2026-07-19",
+          "views": 217257,
+          "likes": 2803,
           "comments": 8
         }
       ]
@@ -5902,6 +5949,12 @@
           "views": 44215,
           "likes": 377,
           "comments": 2
+        },
+        {
+          "date": "2026-07-19",
+          "views": 44267,
+          "likes": 377,
+          "comments": 2
         }
       ]
     },
@@ -6500,6 +6553,12 @@
           "views": 104286,
           "likes": 1252,
           "comments": 6
+        },
+        {
+          "date": "2026-07-19",
+          "views": 104565,
+          "likes": 1255,
+          "comments": 6
         }
       ]
     },
@@ -6959,6 +7018,12 @@
           "views": 46507,
           "likes": 477,
           "comments": 7
+        },
+        {
+          "date": "2026-07-19",
+          "views": 46547,
+          "likes": 478,
+          "comments": 7
         }
       ]
     },
@@ -7240,6 +7305,12 @@
           "views": 58770,
           "likes": 700,
           "comments": 0
+        },
+        {
+          "date": "2026-07-19",
+          "views": 58824,
+          "likes": 700,
+          "comments": 0
         }
       ]
     },
@@ -7451,6 +7522,18 @@
       "type": "annotated",
       "related_annotation": "S.A.R.santaが冨田ラボライブを欠席",
       "detected_at": "2026-07-10T16:23:00.232098+00:00"
+    },
+    {
+      "date": "2026-07-19",
+      "metric": "youtube_total_views",
+      "value": 1444089,
+      "baseline_mean": 1413016.1,
+      "baseline_stddev": 13465.3,
+      "delta": 31072,
+      "score": 2.31,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-19T14:54:34.686634+00:00"
     }
   ]
 }

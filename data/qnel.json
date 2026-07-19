@@ -4107,6 +4107,47 @@
       "ytm_subscribers": 371,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-19",
+      "monthly_listeners": 4031,
+      "collected_at": "2026-07-19T14:54:18.790833+00:00",
+      "spotify_followers": 958,
+      "youtube_subscribers": 482,
+      "youtube_total_views": 164395,
+      "youtube_video_count": 185,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 191
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 125
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 79
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 55
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 48
+        }
+      ],
+      "lastfm_listeners": 771,
+      "lastfm_playcount": 2511,
+      "ytm_subscribers": 482,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4318,12 +4359,12 @@
         "url": "https://www.last.fm/music/TAIKING"
       },
       {
-        "name": "新東京",
-        "url": "https://www.last.fm/music/%E6%96%B0%E6%9D%B1%E4%BA%AC"
-      },
-      {
         "name": "えんぷてい",
         "url": "https://www.last.fm/music/%E3%81%88%E3%82%93%E3%81%B7%E3%81%A6%E3%81%84"
+      },
+      {
+        "name": "Geloomy",
+        "url": "https://www.last.fm/music/Geloomy"
       }
     ],
     "ytm_related_artists": [
@@ -4360,7 +4401,7 @@
       {
         "name": "zenya",
         "browse_id": "UCo4roqqKdMVG02RRM4n-MMw",
-        "subscribers": "128"
+        "subscribers": "129"
       },
       {
         "name": "Kawaguchi Takuma",
@@ -4384,16 +4425,16 @@
         "video_id": "UWlaQWdCoxY"
       },
       {
+        "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
+        "video_id": "vcXhVJqD_u8"
+      },
+      {
         "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
         "video_id": "gMrPbqFtkbQ"
       },
       {
         "title": "徒歩圏内 - Tohokennai",
         "video_id": "LtzN4QKvyTk"
-      },
-      {
-        "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
-        "video_id": "vcXhVJqD_u8"
       },
       {
         "title": "ムーンライト~夏のVenus~ - Moonlight (feat. You)",
@@ -4942,6 +4983,12 @@
         {
           "date": "2026-07-18",
           "views": 3552,
+          "likes": 21,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-19",
+          "views": 3553,
           "likes": 21,
           "comments": 0
         }
@@ -5525,6 +5572,12 @@
           "views": 6075,
           "likes": 23,
           "comments": 0
+        },
+        {
+          "date": "2026-07-19",
+          "views": 6077,
+          "likes": 23,
+          "comments": 0
         }
       ]
     },
@@ -6104,6 +6157,12 @@
         {
           "date": "2026-07-18",
           "views": 12555,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-19",
+          "views": 12566,
           "likes": 76,
           "comments": 0
         }
@@ -6687,6 +6746,12 @@
           "views": 32529,
           "likes": 152,
           "comments": 0
+        },
+        {
+          "date": "2026-07-19",
+          "views": 32537,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -7260,6 +7325,12 @@
         {
           "date": "2026-07-18",
           "views": 8266,
+          "likes": 62,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-19",
+          "views": 8272,
           "likes": 62,
           "comments": 0
         }
@@ -7966,6 +8037,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-18T14:50:56.399172+00:00"
+    },
+    {
+      "date": "2026-07-19",
+      "metric": "youtube_total_views",
+      "value": 164395,
+      "baseline_mean": 70984.5,
+      "baseline_stddev": 17363.7,
+      "delta": 93410,
+      "score": 5.38,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-19T14:54:20.217233+00:00"
     }
   ]
 }
