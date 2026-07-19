@@ -4545,6 +4545,36 @@
       "added_at": "2026-07-12T16:00:00Z",
       "source": "音楽ナタリー, Billboard JAPAN, Skream!, CDJournal, PR TIMES",
       "confidence": "high"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "YTM月間リスナー数がキャッシュ値39,000,000で高止まり",
+      "description": "YouTube Music月間リスナー数（ytmusicapi経由・非公式API）が7/10〜7/16にかけて36.9M→38.1M→37.9M→39.0Mと100万人単位の丸め値で推移した後、7/17〜7/19の3日間39,000,000で完全に固定された。実際の日次リスナー変動ではなく、非公式APIのキャッシュ・丸め処理による解像度限界のアーティファクトとみられる。",
+      "category": "other",
+      "added_at": "2026-07-19T00:00:00+09:00",
+      "source": "ytmusicapi (data artifact)",
+      "confidence": "medium",
+      "verified": false
+    },
+    {
+      "date": "2026-07-18",
+      "title": "YTM月間リスナー数がキャッシュ値39,000,000で高止まり（2日目）",
+      "description": "7/17に続き7/18もYTM月間リスナー数が39,000,000で同値のまま推移。非公式API（ytmusicapi）のキャッシュ・丸め処理によるものとみられ、実際の聴取者数変動を反映したものではないと考えられる。",
+      "category": "other",
+      "added_at": "2026-07-19T00:00:00+09:00",
+      "source": "ytmusicapi (data artifact)",
+      "confidence": "medium",
+      "verified": false
+    },
+    {
+      "date": "2026-07-19",
+      "title": "YTM月間リスナー数がキャッシュ値39,000,000で高止まり（3日目）",
+      "description": "7/17から3日連続でYTM月間リスナー数が39,000,000のまま推移。非公式API（ytmusicapi）のキャッシュ・丸め処理によるアーティファクトとみられる。",
+      "category": "other",
+      "added_at": "2026-07-19T00:00:00+09:00",
+      "source": "ytmusicapi (data artifact)",
+      "confidence": "medium",
+      "verified": false
     }
   ],
   "metadata": {

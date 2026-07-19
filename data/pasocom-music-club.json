@@ -7146,6 +7146,36 @@
       "added_at": "2026-07-12T16:00:00Z",
       "source": "natalie.mu, Spotify Newsroom Japan, SUMMER SONIC公式サイト",
       "confidence": "low"
+    },
+    {
+      "date": "2026-07-17",
+      "title": "YouTube APIカウンター凍結解除アーティファクト（+8.7万再生・2.44σ）",
+      "description": "YouTube総再生数が7/10〜7/16の7日間8,720,816で固定された後、7/17に8,807,757へ一括計上。6/22〜6/23と同様のカウンター凍結解除パターンとみられる。",
+      "category": "other",
+      "added_at": "2026-07-19T00:00:00+09:00",
+      "source": "youtube.com (data artifact)",
+      "confidence": "high",
+      "verified": false
+    },
+    {
+      "date": "2026-07-18",
+      "title": "YouTube APIカウンター凍結継続（同値8,807,757・2日目）",
+      "description": "7/17に一括計上された8,807,757が7/18も同値のまま推移。過去の凍結パターンと同様の挙動。",
+      "category": "other",
+      "added_at": "2026-07-19T00:00:00+09:00",
+      "source": "youtube.com (data artifact)",
+      "confidence": "high",
+      "verified": false
+    },
+    {
+      "date": "2026-07-19",
+      "title": "YouTube APIカウンター凍結継続（同値8,807,757・3日目）",
+      "description": "7/17に一括計上された8,807,757が7/19も同値のまま推移（凍結3日目）。σ値が縮小傾向にあり収束段階とみられる。",
+      "category": "other",
+      "added_at": "2026-07-19T00:00:00+09:00",
+      "source": "youtube.com (data artifact)",
+      "confidence": "high",
+      "verified": false
     }
   ],
   "buzz_events": [

@@ -7348,6 +7348,26 @@
       "source": "Oricon / 映画ナタリー",
       "confidence": "medium",
       "verified": false
+    },
+    {
+      "date": "2026-07-18",
+      "title": "YTM月間リスナー数がキャッシュ値126,000,000で高止まり",
+      "description": "YouTube Music月間リスナー数（ytmusicapi経由・非公式API）が7月に入ってから108M→109M→119M→123M→126Mと100万人単位の丸め値で階段状に推移してきたが、7/18時点で126,000,000に固定。実際の日次リスナー変動というより、非公式APIのキャッシュ・丸め処理による解像度限界のアーティファクトの可能性が高い。",
+      "category": "other",
+      "added_at": "2026-07-19T00:00:00+09:00",
+      "source": "ytmusicapi (data artifact)",
+      "confidence": "medium",
+      "verified": false
+    },
+    {
+      "date": "2026-07-19",
+      "title": "YTM月間リスナー数がキャッシュ値126,000,000で高止まり（2日目）",
+      "description": "7/18に続き7/19もYTM月間リスナー数が126,000,000で同値のまま推移。非公式API（ytmusicapi）のキャッシュ・丸め処理によるものとみられる。",
+      "category": "other",
+      "added_at": "2026-07-19T00:00:00+09:00",
+      "source": "ytmusicapi (data artifact)",
+      "confidence": "medium",
+      "verified": false
     }
   ],
   "buzz_events": [

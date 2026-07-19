@@ -4254,6 +4254,26 @@
       "added_at": "2026-07-12T16:00:00Z",
       "source": "natalie.mu, oricon.co.jp, billboard-japan.com",
       "confidence": "low"
+    },
+    {
+      "date": "2026-07-18",
+      "title": "YouTube APIカウンター凍結解除アーティファクト（+493万再生・5.39σ）",
+      "description": "YouTube総再生数が7/13〜7/16の4日間480,495,576で固定された後、7/17に485,435,444へ一括計上され、以降も同値で推移。6/17・6/21・6/22に確認された凍結・解除パターンと同種のAPI取得アーティファクトとみられる。",
+      "category": "other",
+      "added_at": "2026-07-19T00:00:00+09:00",
+      "source": "youtube.com (data artifact)",
+      "confidence": "high",
+      "verified": false
+    },
+    {
+      "date": "2026-07-19",
+      "title": "YouTube APIカウンター凍結継続（同値485,435,444・2日目・3.74σ）",
+      "description": "7/17に一括計上された485,435,444が7/19も同値のまま推移（凍結2日目）。σ値が5.39→3.74へ縮小しており、過去の凍結パターン（6月）と同様に収束段階に入りつつあるとみられる。",
+      "category": "other",
+      "added_at": "2026-07-19T00:00:00+09:00",
+      "source": "youtube.com (data artifact)",
+      "confidence": "high",
+      "verified": false
     }
   ],
   "metadata": {
