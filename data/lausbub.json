@@ -4328,6 +4328,47 @@
       "ytm_subscribers": 19200,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 776312
+    },
+    {
+      "date": "2026-07-20",
+      "monthly_listeners": 74837,
+      "collected_at": "2026-07-20T15:52:58.618387+00:00",
+      "spotify_followers": 20478,
+      "youtube_subscribers": 19200,
+      "youtube_total_views": 825398,
+      "youtube_video_count": 32,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3333
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 2086
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1462
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1007
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 838
+        }
+      ],
+      "lastfm_listeners": 8769,
+      "lastfm_playcount": 52130,
+      "ytm_subscribers": 19200,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 776312
     }
   ],
   "annotations": [
@@ -5009,6 +5050,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-19T14:54:05.646215+00:00"
+    },
+    {
+      "date": "2026-07-20",
+      "metric": "monthly_listeners",
+      "value": 74837,
+      "baseline_mean": 63903.7,
+      "baseline_stddev": 4308.0,
+      "delta": 10933,
+      "score": 2.54,
+      "type": "annotated",
+      "related_annotation": "メジャーデビュー発表報道の波及効果",
+      "detected_at": "2026-07-20T15:52:59.882818+00:00"
     }
   ],
   "song_performance": {
@@ -5594,6 +5647,12 @@
         {
           "date": "2026-07-19",
           "views": 4308,
+          "likes": 90,
+          "comments": 1
+        },
+        {
+          "date": "2026-07-20",
+          "views": 4331,
           "likes": 90,
           "comments": 1
         }
@@ -6183,6 +6242,12 @@
           "views": 7582,
           "likes": 189,
           "comments": 6
+        },
+        {
+          "date": "2026-07-20",
+          "views": 7598,
+          "likes": 190,
+          "comments": 6
         }
       ]
     },
@@ -6770,6 +6835,12 @@
           "views": 22849,
           "likes": 205,
           "comments": 2
+        },
+        {
+          "date": "2026-07-20",
+          "views": 22881,
+          "likes": 205,
+          "comments": 2
         }
       ]
     },
@@ -7355,6 +7426,12 @@
         {
           "date": "2026-07-19",
           "views": 13398,
+          "likes": 207,
+          "comments": 1
+        },
+        {
+          "date": "2026-07-20",
+          "views": 13410,
           "likes": 207,
           "comments": 1
         }
@@ -7953,6 +8030,12 @@
           "date": "2026-07-19",
           "views": 6982,
           "likes": 133,
+          "comments": 2
+        },
+        {
+          "date": "2026-07-20",
+          "views": 7060,
+          "likes": 134,
           "comments": 2
         }
       ]

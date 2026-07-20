@@ -4097,6 +4097,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-20",
+      "monthly_listeners": 29281,
+      "collected_at": "2026-07-20T15:53:31.761120+00:00",
+      "spotify_followers": 29258,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1444089,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1829
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 883
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 573
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 487
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 431
+        }
+      ],
+      "lastfm_listeners": 5777,
+      "lastfm_playcount": 42607,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4287,7 +4328,7 @@
       {
         "name": "Salasa",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "113K"
+        "subscribers": "114K"
       },
       {
         "name": "reina",
@@ -4297,7 +4338,7 @@
       {
         "name": "Kan Sano",
         "browse_id": "UC05tnYJ3St7yd3f6lfKdzcg",
-        "subscribers": "119K"
+        "subscribers": "118K"
       },
       {
         "name": "Ovall",
@@ -4317,12 +4358,12 @@
       {
         "name": "Stefan Mahendra",
         "browse_id": "UCMZcGfiJPXZ0plcOCQ2nuPQ",
-        "subscribers": "649"
+        "subscribers": "650"
       },
       {
         "name": "Nao Yoshioka",
         "browse_id": "UCs93X0FfTpRlxAMnmO94Kcw",
-        "subscribers": "124K"
+        "subscribers": "111K"
       },
       {
         "name": "Haruy",
@@ -4332,7 +4373,7 @@
       {
         "name": "Michael Kaneko",
         "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
-        "subscribers": "96.7K"
+        "subscribers": "103K"
       }
     ],
     "ytm_top_songs": [
@@ -4936,6 +4977,12 @@
           "date": "2026-07-19",
           "views": 217257,
           "likes": 2803,
+          "comments": 8
+        },
+        {
+          "date": "2026-07-20",
+          "views": 217414,
+          "likes": 2807,
           "comments": 8
         }
       ]
@@ -5965,6 +6012,12 @@
           "views": 44267,
           "likes": 377,
           "comments": 2
+        },
+        {
+          "date": "2026-07-20",
+          "views": 44289,
+          "likes": 377,
+          "comments": 2
         }
       ]
     },
@@ -6569,6 +6622,12 @@
           "views": 104565,
           "likes": 1255,
           "comments": 6
+        },
+        {
+          "date": "2026-07-20",
+          "views": 104852,
+          "likes": 1256,
+          "comments": 6
         }
       ]
     },
@@ -7034,6 +7093,12 @@
           "views": 46547,
           "likes": 478,
           "comments": 7
+        },
+        {
+          "date": "2026-07-20",
+          "views": 46601,
+          "likes": 478,
+          "comments": 7
         }
       ]
     },
@@ -7321,6 +7386,12 @@
           "views": 58824,
           "likes": 700,
           "comments": 0
+        },
+        {
+          "date": "2026-07-20",
+          "views": 58869,
+          "likes": 701,
+          "comments": 0
         }
       ]
     },
@@ -7544,6 +7615,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-19T14:54:34.686634+00:00"
+    },
+    {
+      "date": "2026-07-20",
+      "metric": "youtube_total_views",
+      "value": 1444089,
+      "baseline_mean": 1415018.4,
+      "baseline_stddev": 13470.9,
+      "delta": 29070,
+      "score": 2.16,
+      "type": "annotated",
+      "related_annotation": "活動休止継続下でのファン再生、原因特定できず",
+      "detected_at": "2026-07-20T15:53:33.171056+00:00"
     }
   ]
 }
