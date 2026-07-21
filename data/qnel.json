@@ -4189,6 +4189,47 @@
       "ytm_subscribers": 481,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-21",
+      "monthly_listeners": 3098,
+      "collected_at": "2026-07-21T15:37:02.144001+00:00",
+      "spotify_followers": 959,
+      "youtube_subscribers": 481,
+      "youtube_total_views": 165863,
+      "youtube_video_count": 185,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 152
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 93
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 56
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 44
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 44
+        }
+      ],
+      "lastfm_listeners": 771,
+      "lastfm_playcount": 2511,
+      "ytm_subscribers": 481,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4462,7 +4503,7 @@
       {
         "name": "Offo tokyo",
         "browse_id": "UCFUndaCSveHB7RS3ULvATfw",
-        "subscribers": "13.8K"
+        "subscribers": "13.9K"
       },
       {
         "name": "Souvenir",
@@ -4482,7 +4523,7 @@
       {
         "name": "GALALI",
         "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "97.9K"
+        "subscribers": "97K"
       },
       {
         "name": "Kinopoppo",
@@ -4492,24 +4533,24 @@
     ],
     "ytm_top_songs": [
       {
-        "title": "スーパースター - Superstar",
-        "video_id": "UWlaQWdCoxY"
-      },
-      {
         "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
         "video_id": "vcXhVJqD_u8"
+      },
+      {
+        "title": "スーパースター - Superstar",
+        "video_id": "UWlaQWdCoxY"
       },
       {
         "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
         "video_id": "gMrPbqFtkbQ"
       },
       {
-        "title": "徒歩圏内 - Tohokennai",
-        "video_id": "LtzN4QKvyTk"
-      },
-      {
         "title": "ムーンライト~夏のVenus~ - Moonlight (feat. You)",
         "video_id": "5j8n7tJ3Mlk"
+      },
+      {
+        "title": "徒歩圏内 - Tohokennai",
+        "video_id": "LtzN4QKvyTk"
       }
     ]
   },
@@ -5066,6 +5107,12 @@
         {
           "date": "2026-07-20",
           "views": 3559,
+          "likes": 21,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-21",
+          "views": 3572,
           "likes": 21,
           "comments": 0
         }
@@ -5661,6 +5708,12 @@
           "views": 6081,
           "likes": 23,
           "comments": 0
+        },
+        {
+          "date": "2026-07-21",
+          "views": 6089,
+          "likes": 23,
+          "comments": 0
         }
       ]
     },
@@ -6252,6 +6305,12 @@
         {
           "date": "2026-07-20",
           "views": 12573,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-21",
+          "views": 12580,
           "likes": 76,
           "comments": 0
         }
@@ -6847,6 +6906,12 @@
           "views": 32545,
           "likes": 152,
           "comments": 0
+        },
+        {
+          "date": "2026-07-21",
+          "views": 32551,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -7433,6 +7498,12 @@
           "date": "2026-07-20",
           "views": 8280,
           "likes": 62,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-21",
+          "views": 8287,
+          "likes": 63,
           "comments": 0
         }
       ]
@@ -8162,6 +8233,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-07-20T15:53:17.111291+00:00"
+    },
+    {
+      "date": "2026-07-21",
+      "metric": "youtube_total_views",
+      "value": 165863,
+      "baseline_mean": 77558.4,
+      "baseline_stddev": 29118.2,
+      "delta": 88304,
+      "score": 3.03,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明・大幅上昇）",
+      "detected_at": "2026-07-21T15:37:03.790337+00:00"
     }
   ]
 }
