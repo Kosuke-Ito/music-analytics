@@ -4230,6 +4230,47 @@
       "ytm_subscribers": 481,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-22",
+      "monthly_listeners": 2590,
+      "collected_at": "2026-07-22T15:33:42.284961+00:00",
+      "spotify_followers": 959,
+      "youtube_subscribers": 481,
+      "youtube_total_views": 165863,
+      "youtube_video_count": 185,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 129
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 80
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 46
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 41
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 39
+        }
+      ],
+      "lastfm_listeners": 771,
+      "lastfm_playcount": 2511,
+      "ytm_subscribers": 481,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4493,7 +4534,7 @@
       {
         "name": "HATAKE",
         "browse_id": "UCOuWkJ8UjlXKsM0D7Ya5W0Q",
-        "subscribers": "945"
+        "subscribers": "947"
       },
       {
         "name": "OSTRIP",
@@ -4523,7 +4564,7 @@
       {
         "name": "GALALI",
         "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "97K"
+        "subscribers": "94.4K"
       },
       {
         "name": "Kinopoppo",
@@ -5114,6 +5155,12 @@
           "date": "2026-07-21",
           "views": 3572,
           "likes": 21,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-22",
+          "views": 3586,
+          "likes": 22,
           "comments": 0
         }
       ]
@@ -5714,6 +5761,12 @@
           "views": 6089,
           "likes": 23,
           "comments": 0
+        },
+        {
+          "date": "2026-07-22",
+          "views": 6098,
+          "likes": 24,
+          "comments": 0
         }
       ]
     },
@@ -6311,6 +6364,12 @@
         {
           "date": "2026-07-21",
           "views": 12580,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-22",
+          "views": 12592,
           "likes": 76,
           "comments": 0
         }
@@ -6912,6 +6971,12 @@
           "views": 32551,
           "likes": 152,
           "comments": 0
+        },
+        {
+          "date": "2026-07-22",
+          "views": 32560,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -7503,6 +7568,12 @@
         {
           "date": "2026-07-21",
           "views": 8287,
+          "likes": 63,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-22",
+          "views": 8302,
           "likes": 63,
           "comments": 0
         }
@@ -8245,6 +8316,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明・大幅上昇）",
       "detected_at": "2026-07-21T15:37:03.790337+00:00"
+    },
+    {
+      "date": "2026-07-22",
+      "metric": "youtube_total_views",
+      "value": 165863,
+      "baseline_mean": 80865.2,
+      "baseline_stddev": 33059.0,
+      "delta": 84997,
+      "score": 2.57,
+      "type": "annotated",
+      "related_annotation": "07-18と同値で推移（データ取得キャッシュの可能性）",
+      "detected_at": "2026-07-22T15:33:44.438273+00:00"
     }
   ]
 }

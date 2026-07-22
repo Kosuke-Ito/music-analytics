@@ -4389,6 +4389,47 @@
       "ytm_subscribers": 9380000,
       "ytm_monthly_listeners": 32900000,
       "ytm_total_views": 5455550139
+    },
+    {
+      "date": "2026-07-22",
+      "monthly_listeners": 6609491,
+      "collected_at": "2026-07-22T15:32:35.564280+00:00",
+      "spotify_followers": 7820162,
+      "youtube_subscribers": 9390000,
+      "youtube_total_views": 5511405849,
+      "youtube_video_count": 721,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 122126
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 92882
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 87003
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 69008
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 68745
+        }
+      ],
+      "lastfm_listeners": 743790,
+      "lastfm_playcount": 90567946,
+      "ytm_subscribers": 9390000,
+      "ytm_monthly_listeners": 33000000,
+      "ytm_total_views": 5455550139
     }
   ],
   "annotations": [
@@ -4867,22 +4908,32 @@
       {
         "name": "AKASAKI",
         "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
-        "subscribers": "9.78M"
+        "subscribers": "9.88M"
       },
       {
         "name": "jon-YAKITORY",
         "browse_id": "UCkLsbUdFJW7CFX5ZqcqOKBg",
-        "subscribers": "7.32M"
+        "subscribers": "7.34M"
       },
       {
         "name": "Tomonari Sora",
         "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
-        "subscribers": "5.53M"
+        "subscribers": "5.48M"
       },
       {
         "name": "MAISONdes ",
         "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.93M"
+        "subscribers": "3.96M"
+      },
+      {
+        "name": "YOASOBI",
+        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
+        "subscribers": "40.2M"
+      },
+      {
+        "name": "Kanaria",
+        "browse_id": "UCeqjRAl_a1ZrrwJ_IbIwjWQ",
+        "subscribers": "5.17M"
       },
       {
         "name": "meiyo",
@@ -4890,19 +4941,9 @@
         "subscribers": "18.1M"
       },
       {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "39.8M"
-      },
-      {
-        "name": "Kanaria",
-        "browse_id": "UCeqjRAl_a1ZrrwJ_IbIwjWQ",
-        "subscribers": "5.19M"
-      },
-      {
-        "name": "LiSA",
-        "browse_id": "UCt4rbOMLsVxeMsoaRdTfr5A",
-        "subscribers": "24.5M"
+        "name": "Kocchi no Kento",
+        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
+        "subscribers": "63.5M"
       },
       {
         "name": "yama",
@@ -4912,7 +4953,7 @@
       {
         "name": "natori",
         "browse_id": "UC5hhaaGgz7LKt_abggs0qWQ",
-        "subscribers": "13.2M"
+        "subscribers": "13.3M"
       }
     ],
     "ytm_top_songs": [
@@ -5542,6 +5583,12 @@
           "views": 7821326,
           "likes": 165090,
           "comments": 2672
+        },
+        {
+          "date": "2026-07-22",
+          "views": 7850702,
+          "likes": 165340,
+          "comments": 2674
         }
       ]
     },
@@ -6146,6 +6193,12 @@
           "date": "2026-07-21",
           "views": 32703624,
           "likes": 214849,
+          "comments": 853
+        },
+        {
+          "date": "2026-07-22",
+          "views": 32746433,
+          "likes": 215112,
           "comments": 853
         }
       ]
@@ -7434,6 +7487,12 @@
           "views": 69030482,
           "likes": 361422,
           "comments": 749
+        },
+        {
+          "date": "2026-07-22",
+          "views": 69066519,
+          "likes": 361563,
+          "comments": 748
         }
       ]
     },
@@ -7893,6 +7952,12 @@
           "views": 97812213,
           "likes": 542276,
           "comments": 1046
+        },
+        {
+          "date": "2026-07-22",
+          "views": 97843036,
+          "likes": 542404,
+          "comments": 1046
         }
       ]
     },
@@ -7982,6 +8047,12 @@
           "views": 975756,
           "likes": 29952,
           "comments": 635
+        },
+        {
+          "date": "2026-07-22",
+          "views": 1012448,
+          "likes": 30493,
+          "comments": 641
         }
       ]
     }
@@ -8406,6 +8477,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-21T15:35:56.627278+00:00"
+    },
+    {
+      "date": "2026-07-22",
+      "metric": "ytm_monthly_listeners",
+      "value": 33000000,
+      "baseline_mean": 30943333.3,
+      "baseline_stddev": 1006208.5,
+      "delta": 2056666,
+      "score": 2.04,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-22T15:32:36.686924+00:00"
     }
   ]
 }

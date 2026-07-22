@@ -4214,6 +4214,47 @@
       "ytm_subscribers": 991000,
       "ytm_monthly_listeners": 24000000,
       "ytm_total_views": 997973862
+    },
+    {
+      "date": "2026-07-22",
+      "monthly_listeners": 3731194,
+      "collected_at": "2026-07-22T15:28:45.226507+00:00",
+      "spotify_followers": 870820,
+      "youtube_subscribers": 991000,
+      "youtube_total_views": 1007079396,
+      "youtube_video_count": 269,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 96519
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 65491
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 48496
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 47138
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 45768
+        }
+      ],
+      "lastfm_listeners": 121930,
+      "lastfm_playcount": 2594707,
+      "ytm_subscribers": 991000,
+      "ytm_monthly_listeners": 24000000,
+      "ytm_total_views": 997973862
     }
   ],
   "annotations": [
@@ -4538,12 +4579,7 @@
       {
         "name": "MAISONdes ",
         "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.93M"
-      },
-      {
-        "name": "natori",
-        "browse_id": "UC5hhaaGgz7LKt_abggs0qWQ",
-        "subscribers": "13.2M"
+        "subscribers": "3.96M"
       },
       {
         "name": "yama",
@@ -4551,19 +4587,29 @@
         "subscribers": "4.23M"
       },
       {
-        "name": "kei sugawara",
-        "browse_id": "UCteJs3TEbPFxDObB-4s7Y6w",
-        "subscribers": "341K"
+        "name": "natori",
+        "browse_id": "UC5hhaaGgz7LKt_abggs0qWQ",
+        "subscribers": "13.3M"
       },
       {
         "name": "Wanuka",
         "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
-        "subscribers": "1.01M"
+        "subscribers": "1M"
       },
       {
-        "name": "Cö shu Nie",
-        "browse_id": "UCXQbmowL6Ln_hRqY58_OH4g",
-        "subscribers": "1.75M"
+        "name": "ZUTOMAYO",
+        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
+        "subscribers": "5.63M"
+      },
+      {
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "76.6M"
+      },
+      {
+        "name": "Eve",
+        "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
+        "subscribers": "15.9M"
       },
       {
         "name": "Mulasaki Ima",
@@ -4576,14 +4622,9 @@
         "subscribers": "1.1M"
       },
       {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "76.6M"
-      },
-      {
-        "name": "Dios",
-        "browse_id": "UCjv0kMpF3ee-nqO6UqUsNkA",
-        "subscribers": "182K"
+        "name": "Cö shu Nie",
+        "browse_id": "UCXQbmowL6Ln_hRqY58_OH4g",
+        "subscribers": "1.8M"
       }
     ],
     "ytm_top_songs": [
@@ -5213,6 +5254,12 @@
           "views": 55796486,
           "likes": 363040,
           "comments": 1872
+        },
+        {
+          "date": "2026-07-22",
+          "views": 55851672,
+          "likes": 363355,
+          "comments": 1870
         }
       ]
     },
@@ -5812,6 +5859,12 @@
           "views": 11712184,
           "likes": 80822,
           "comments": 0
+        },
+        {
+          "date": "2026-07-22",
+          "views": 11720638,
+          "likes": 80854,
+          "comments": 0
         }
       ]
     },
@@ -6380,6 +6433,12 @@
           "date": "2026-07-21",
           "views": 2791861,
           "likes": 32641,
+          "comments": 370
+        },
+        {
+          "date": "2026-07-22",
+          "views": 2798687,
+          "likes": 32694,
           "comments": 370
         }
       ]
@@ -6980,6 +7039,12 @@
           "views": 1115504,
           "likes": 15082,
           "comments": 115
+        },
+        {
+          "date": "2026-07-22",
+          "views": 1121642,
+          "likes": 15122,
+          "comments": 115
         }
       ]
     },
@@ -7476,6 +7541,12 @@
           "date": "2026-07-21",
           "views": 2477361,
           "likes": 16346,
+          "comments": 49
+        },
+        {
+          "date": "2026-07-22",
+          "views": 2479543,
+          "likes": 16357,
           "comments": 49
         }
       ]
@@ -8020,6 +8091,18 @@
       "type": "annotated",
       "related_annotation": "新曲「F.A.C.E.」MV公開の反響で総再生数急増",
       "detected_at": "2026-07-21T15:32:02.091503+00:00"
+    },
+    {
+      "date": "2026-07-22",
+      "metric": "youtube_total_views",
+      "value": 1007079396,
+      "baseline_mean": 992846469.1,
+      "baseline_stddev": 6824385.6,
+      "delta": 14232926,
+      "score": 2.09,
+      "type": "annotated",
+      "related_annotation": "新曲「F.A.C.E.」MV公開の反響で総再生数急増",
+      "detected_at": "2026-07-22T15:28:46.467041+00:00"
     }
   ]
 }

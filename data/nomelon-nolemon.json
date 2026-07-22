@@ -4222,6 +4222,47 @@
       "ytm_subscribers": 327000,
       "ytm_monthly_listeners": 1320000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-22",
+      "monthly_listeners": 329024,
+      "collected_at": "2026-07-22T15:29:34.012592+00:00",
+      "spotify_followers": 71153,
+      "youtube_subscribers": 327000,
+      "youtube_total_views": 168372490,
+      "youtube_video_count": 108,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 15774
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 9351
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6716
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5474
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5387
+        }
+      ],
+      "lastfm_listeners": 33876,
+      "lastfm_playcount": 923259,
+      "ytm_subscribers": 327000,
+      "ytm_monthly_listeners": 1320000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4252,18 +4293,13 @@
       "rock",
       "japan",
       "female vocals",
-      "pop rock"
+      "jpf"
     ],
     "ytm_related_artists": [
       {
         "name": "MAISONdes ",
         "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.93M"
-      },
-      {
-        "name": "Polkadot Stingray",
-        "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
-        "subscribers": "1.04M"
+        "subscribers": "3.96M"
       },
       {
         "name": "DUSTCELL",
@@ -4271,9 +4307,14 @@
         "subscribers": "1.18M"
       },
       {
+        "name": "Polkadot Stingray",
+        "browse_id": "UCUSfpWQG8PRpwbE8i7JeElA",
+        "subscribers": "1.03M"
+      },
+      {
         "name": "Wanuka",
         "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
-        "subscribers": "1.01M"
+        "subscribers": "1M"
       },
       {
         "name": "ZUTOMAYO",
@@ -4283,27 +4324,27 @@
       {
         "name": "suisoh",
         "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "449K"
+        "subscribers": "450K"
       },
       {
         "name": "Hashimero",
         "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
-        "subscribers": "266K"
+        "subscribers": "314K"
       },
       {
         "name": "TAKU INOUE",
         "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
-        "subscribers": "267K"
+        "subscribers": "265K"
       },
       {
         "name": "yoei.",
         "browse_id": "UCnC9xc35C06kNIO0gNUcleA",
-        "subscribers": "239K"
+        "subscribers": "242K"
       },
       {
         "name": "Rei",
         "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
-        "subscribers": "401K"
+        "subscribers": "405K"
       }
     ],
     "ytm_top_songs": [
@@ -4932,6 +4973,12 @@
           "views": 18626034,
           "likes": 124791,
           "comments": 1062
+        },
+        {
+          "date": "2026-07-22",
+          "views": 18635285,
+          "likes": 124809,
+          "comments": 1063
         }
       ]
     },
@@ -5536,6 +5583,12 @@
           "date": "2026-07-21",
           "views": 5594515,
           "likes": 41043,
+          "comments": 88
+        },
+        {
+          "date": "2026-07-22",
+          "views": 5601568,
+          "likes": 41077,
           "comments": 88
         }
       ]
@@ -6142,6 +6195,12 @@
           "views": 5286245,
           "likes": 35671,
           "comments": 169
+        },
+        {
+          "date": "2026-07-22",
+          "views": 5290633,
+          "likes": 35686,
+          "comments": 169
         }
       ]
     },
@@ -6746,6 +6805,12 @@
           "date": "2026-07-21",
           "views": 2304684,
           "likes": 19188,
+          "comments": 43
+        },
+        {
+          "date": "2026-07-22",
+          "views": 2307652,
+          "likes": 19205,
           "comments": 43
         }
       ]
@@ -7361,6 +7426,12 @@
           "date": "2026-07-21",
           "views": 50021,
           "likes": 1335,
+          "comments": 20
+        },
+        {
+          "date": "2026-07-22",
+          "views": 52171,
+          "likes": 1366,
           "comments": 20
         }
       ]
@@ -8160,6 +8231,18 @@
       "type": "annotated",
       "related_annotation": "アニメ「グロウアップショウ」第3話放映で浸透継続",
       "detected_at": "2026-07-21T15:32:53.408677+00:00"
+    },
+    {
+      "date": "2026-07-22",
+      "metric": "monthly_listeners",
+      "value": 329024,
+      "baseline_mean": 293571.8,
+      "baseline_stddev": 15764.3,
+      "delta": 35452,
+      "score": 2.25,
+      "type": "annotated",
+      "related_annotation": "アニメ「グロウアップショウ」第3話放映で浸透継続",
+      "detected_at": "2026-07-22T15:29:35.407269+00:00"
     }
   ]
 }

@@ -4101,6 +4101,47 @@
       "ytm_subscribers": 4010000,
       "ytm_monthly_listeners": 16399999,
       "ytm_total_views": 3395397087
+    },
+    {
+      "date": "2026-07-22",
+      "monthly_listeners": 5121014,
+      "collected_at": "2026-07-22T15:37:46.760085+00:00",
+      "spotify_followers": 3657133,
+      "youtube_subscribers": 4010000,
+      "youtube_total_views": 3402524615,
+      "youtube_video_count": 129,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 214995
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 158207
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 111958
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 111517
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 72006
+        }
+      ],
+      "lastfm_listeners": 259380,
+      "lastfm_playcount": 11926496,
+      "ytm_subscribers": 4010000,
+      "ytm_monthly_listeners": 16500000,
+      "ytm_total_views": 3395397087
     }
   ],
   "annotations": [
@@ -4429,12 +4470,12 @@
       {
         "name": "AKASAKI",
         "browse_id": "UCGZE1NclYVog2yv-rOYFeoQ",
-        "subscribers": "9.78M"
+        "subscribers": "9.88M"
       },
       {
         "name": "Ai Higuchi",
         "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
-        "subscribers": "14.7M"
+        "subscribers": "14.8M"
       },
       {
         "name": "asmi",
@@ -4442,14 +4483,14 @@
         "subscribers": "3.48M"
       },
       {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.93M"
-      },
-      {
         "name": "YOASOBI",
         "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "39.8M"
+        "subscribers": "40.2M"
+      },
+      {
+        "name": "Hitsujibungaku",
+        "browse_id": "UCnZK-AT0Yrx8uXcFRqUy87g",
+        "subscribers": "5.12M"
       },
       {
         "name": "ChoQMay",
@@ -4457,24 +4498,24 @@
         "subscribers": "3.69M"
       },
       {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.96M"
+      },
+      {
+        "name": "Aimer",
+        "browse_id": "UC_gksw7NEueO_u3lPL372hA",
+        "subscribers": "10.4M"
+      },
+      {
         "name": "yama",
         "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
         "subscribers": "4.23M"
       },
       {
-        "name": "Aimer",
-        "browse_id": "UC_gksw7NEueO_u3lPL372hA",
-        "subscribers": "10.2M"
-      },
-      {
         "name": "Rokudenashi",
         "browse_id": "UCJ2lqgvSwxX4Osly7R4szNQ",
         "subscribers": "32.8M"
-      },
-      {
-        "name": "Hitsujibungaku",
-        "browse_id": "UCnZK-AT0Yrx8uXcFRqUy87g",
-        "subscribers": "5.12M"
       }
     ],
     "ytm_top_songs": [
@@ -5086,6 +5127,12 @@
           "views": 9705506,
           "likes": 54555,
           "comments": 167
+        },
+        {
+          "date": "2026-07-22",
+          "views": 9762154,
+          "likes": 54814,
+          "comments": 168
         }
       ]
     },
@@ -5701,6 +5748,12 @@
           "date": "2026-07-21",
           "views": 107782135,
           "likes": 370052,
+          "comments": 596
+        },
+        {
+          "date": "2026-07-22",
+          "views": 107841630,
+          "likes": 370259,
           "comments": 596
         }
       ]
@@ -6917,6 +6970,12 @@
           "views": 71845945,
           "likes": 261271,
           "comments": 363
+        },
+        {
+          "date": "2026-07-22",
+          "views": 71876582,
+          "likes": 261350,
+          "comments": 364
         }
       ]
     },
@@ -7432,6 +7491,12 @@
           "views": 6727504,
           "likes": 76270,
           "comments": 1045
+        },
+        {
+          "date": "2026-07-22",
+          "views": 6773715,
+          "likes": 76514,
+          "comments": 1046
         }
       ]
     },
@@ -7538,6 +7603,12 @@
           "date": "2026-07-21",
           "views": 55589693,
           "likes": 267509,
+          "comments": 856
+        },
+        {
+          "date": "2026-07-22",
+          "views": 55618775,
+          "likes": 267655,
           "comments": 856
         }
       ]
@@ -8059,6 +8130,42 @@
       "type": "annotated",
       "related_annotation": "「猫日」配信リリース後の反響が継続",
       "detected_at": "2026-07-21T15:40:56.161789+00:00"
+    },
+    {
+      "date": "2026-07-22",
+      "metric": "monthly_listeners",
+      "value": 5121014,
+      "baseline_mean": 4874484.5,
+      "baseline_stddev": 103515.6,
+      "delta": 246529,
+      "score": 2.38,
+      "type": "annotated",
+      "related_annotation": "「猫日」リリース・MV公開後の反響継続（2日目）",
+      "detected_at": "2026-07-22T15:37:48.404667+00:00"
+    },
+    {
+      "date": "2026-07-22",
+      "metric": "ytm_monthly_listeners",
+      "value": 16500000,
+      "baseline_mean": 15710000.0,
+      "baseline_stddev": 336996.5,
+      "delta": 790000,
+      "score": 2.34,
+      "type": "annotated",
+      "related_annotation": "「猫日」リリース・MV公開後の反響継続（2日目）",
+      "detected_at": "2026-07-22T15:37:48.404667+00:00"
+    },
+    {
+      "date": "2026-07-22",
+      "metric": "youtube_total_views",
+      "value": 3402524615,
+      "baseline_mean": 3357576378.2,
+      "baseline_stddev": 20483446.2,
+      "delta": 44948236,
+      "score": 2.19,
+      "type": "annotated",
+      "related_annotation": "「猫日」リリース・MV公開後の反響継続（2日目）",
+      "detected_at": "2026-07-22T15:37:48.404667+00:00"
     }
   ]
 }
