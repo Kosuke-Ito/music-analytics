@@ -4271,6 +4271,47 @@
       "ytm_subscribers": 481,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-23",
+      "monthly_listeners": 1795,
+      "collected_at": "2026-07-23T15:55:16.030866+00:00",
+      "spotify_followers": 960,
+      "youtube_subscribers": 481,
+      "youtube_total_views": 165863,
+      "youtube_video_count": 185,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 85
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 65
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 34
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 32
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 27
+        }
+      ],
+      "lastfm_listeners": 771,
+      "lastfm_playcount": 2511,
+      "ytm_subscribers": 481,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4522,6 +4563,31 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "GALALI",
+        "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
+        "subscribers": "94.4K"
+      },
+      {
+        "name": "Kawaguchi Takuma",
+        "browse_id": "UC16c0SCZvOqrlL76EMDptzw",
+        "subscribers": "212"
+      },
+      {
+        "name": "nagatani",
+        "browse_id": "UCrwRVTP_REv7pBKy3azuMaA",
+        "subscribers": "409"
+      },
+      {
+        "name": "ideric",
+        "browse_id": "UCUzR4jbAIS-wtd3BZEGbHpw",
+        "subscribers": "1.34K"
+      },
+      {
+        "name": "Ohashi Chippoke",
+        "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
+        "subscribers": "182K"
+      },
+      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "27.2K"
@@ -4545,31 +4611,6 @@
         "name": "Offo tokyo",
         "browse_id": "UCFUndaCSveHB7RS3ULvATfw",
         "subscribers": "13.9K"
-      },
-      {
-        "name": "Souvenir",
-        "browse_id": "UC2-cczOy1b3JlJIEXuMleHQ",
-        "subscribers": "1.7K"
-      },
-      {
-        "name": "zenya",
-        "browse_id": "UCo4roqqKdMVG02RRM4n-MMw",
-        "subscribers": "129"
-      },
-      {
-        "name": "Kawaguchi Takuma",
-        "browse_id": "UC16c0SCZvOqrlL76EMDptzw",
-        "subscribers": "212"
-      },
-      {
-        "name": "GALALI",
-        "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "94.4K"
-      },
-      {
-        "name": "Kinopoppo",
-        "browse_id": "UCWkG_vuZkHrzANDUBOVvi6A",
-        "subscribers": "19.1K"
       }
     ],
     "ytm_top_songs": [
@@ -5160,6 +5201,12 @@
         {
           "date": "2026-07-22",
           "views": 3586,
+          "likes": 22,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-23",
+          "views": 3598,
           "likes": 22,
           "comments": 0
         }
@@ -5767,6 +5814,12 @@
           "views": 6098,
           "likes": 24,
           "comments": 0
+        },
+        {
+          "date": "2026-07-23",
+          "views": 6110,
+          "likes": 24,
+          "comments": 0
         }
       ]
     },
@@ -6370,6 +6423,12 @@
         {
           "date": "2026-07-22",
           "views": 12592,
+          "likes": 76,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-23",
+          "views": 12595,
           "likes": 76,
           "comments": 0
         }
@@ -6977,6 +7036,12 @@
           "views": 32560,
           "likes": 152,
           "comments": 0
+        },
+        {
+          "date": "2026-07-23",
+          "views": 32573,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -7574,6 +7639,12 @@
         {
           "date": "2026-07-22",
           "views": 8302,
+          "likes": 63,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-23",
+          "views": 8310,
           "likes": 63,
           "comments": 0
         }
@@ -8328,6 +8399,18 @@
       "type": "annotated",
       "related_annotation": "07-18と同値で推移（データ取得キャッシュの可能性）",
       "detected_at": "2026-07-22T15:33:44.438273+00:00"
+    },
+    {
+      "date": "2026-07-23",
+      "metric": "youtube_total_views",
+      "value": 165863,
+      "baseline_mean": 84169.2,
+      "baseline_stddev": 36278.8,
+      "delta": 81693,
+      "score": 2.25,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-23T15:55:17.470946+00:00"
     }
   ]
 }
