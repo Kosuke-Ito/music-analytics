@@ -4183,6 +4183,47 @@
       "ytm_subscribers": 882000,
       "ytm_monthly_listeners": 5610000,
       "ytm_total_views": 646998121
+    },
+    {
+      "date": "2026-07-24",
+      "monthly_listeners": 2148179,
+      "collected_at": "2026-07-24T15:38:17.188214+00:00",
+      "spotify_followers": 1063113,
+      "youtube_subscribers": 882000,
+      "youtube_total_views": 668098805,
+      "youtube_video_count": 308,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54794
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 46553
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 43732
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 31280
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 23080
+        }
+      ],
+      "lastfm_listeners": 169402,
+      "lastfm_playcount": 5907222,
+      "ytm_subscribers": 882000,
+      "ytm_monthly_listeners": 5940000,
+      "ytm_total_views": 646998121
     }
   ],
   "annotations": [
@@ -4412,34 +4453,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.02M"
-      },
-      {
-        "name": "ONE OK ROCK",
-        "browse_id": "UCYXU4IweiEiwKHzTcaKRAzw",
-        "subscribers": "8.54M"
-      },
-      {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "22.6M"
+        "subscribers": "21.9M"
       },
       {
-        "name": "suis from Yorushika",
-        "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
-        "subscribers": "32K"
+        "name": "Rei Yasuda",
+        "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
+        "subscribers": "294K"
       },
       {
         "name": "Anly",
         "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
-        "subscribers": "7.44M"
+        "subscribers": "7.17M"
       },
       {
         "name": "LOZAREENA",
         "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
-        "subscribers": "302K"
+        "subscribers": "316K"
       },
       {
         "name": "majiko",
@@ -4460,6 +4491,16 @@
         "name": "ReN",
         "browse_id": "UCXO0zXPtMsrEq6b6c4OZ4zA",
         "subscribers": "90.5K"
+      },
+      {
+        "name": "Lilas",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "19M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.47M"
       }
     ],
     "ytm_top_songs": [
@@ -5590,6 +5631,12 @@
           "date": "2026-07-23",
           "views": 9168554,
           "likes": 63942,
+          "comments": 216
+        },
+        {
+          "date": "2026-07-24",
+          "views": 9176830,
+          "likes": 63984,
           "comments": 216
         }
       ]
@@ -6759,6 +6806,12 @@
           "views": 7433176,
           "likes": 53432,
           "comments": 69
+        },
+        {
+          "date": "2026-07-24",
+          "views": 7436285,
+          "likes": 53441,
+          "comments": 70
         }
       ]
     },
@@ -7298,6 +7351,12 @@
           "views": 1890028,
           "likes": 28135,
           "comments": 314
+        },
+        {
+          "date": "2026-07-24",
+          "views": 1897034,
+          "likes": 28199,
+          "comments": 314
         }
       ]
     },
@@ -7506,6 +7565,12 @@
           "views": 14288049,
           "likes": 139497,
           "comments": 2323
+        },
+        {
+          "date": "2026-07-24",
+          "views": 14306466,
+          "likes": 139685,
+          "comments": 2324
         }
       ]
     },
@@ -7559,6 +7624,12 @@
           "views": 77485,
           "likes": 1602,
           "comments": 21
+        },
+        {
+          "date": "2026-07-24",
+          "views": 80253,
+          "likes": 1643,
+          "comments": 22
         }
       ]
     }
@@ -7839,6 +7910,18 @@
       "type": "annotated",
       "related_annotation": "新曲「Sunny」配信リリース＆MV公開",
       "detected_at": "2026-07-15T15:35:58.924437+00:00"
+    },
+    {
+      "date": "2026-07-24",
+      "metric": "ytm_monthly_listeners",
+      "value": 5940000,
+      "baseline_mean": 5455000,
+      "baseline_stddev": 219890.1,
+      "delta": 485000,
+      "score": 2.21,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-24T15:38:18.649600+00:00"
     }
   ]
 }

@@ -4304,6 +4304,47 @@
       "ytm_subscribers": 327000,
       "ytm_monthly_listeners": 1330000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-24",
+      "monthly_listeners": 335559,
+      "collected_at": "2026-07-24T15:24:32.948943+00:00",
+      "spotify_followers": 71262,
+      "youtube_subscribers": 327000,
+      "youtube_total_views": 168372490,
+      "youtube_video_count": 108,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 15911
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 9538
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6921
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5676
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5439
+        }
+      ],
+      "lastfm_listeners": 33945,
+      "lastfm_playcount": 925342,
+      "ytm_subscribers": 327000,
+      "ytm_monthly_listeners": 1420000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4338,34 +4379,29 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "TAKU INOUE",
-        "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
-        "subscribers": "265K"
-      },
-      {
-        "name": "NICHIMEZO",
-        "browse_id": "UCF_x9hYjfwQQ6rCe5JAvoRQ",
-        "subscribers": "5.95K"
-      },
-      {
-        "name": "RuLu",
-        "browse_id": "UCJvqtoZba5S3yP-kYDeC25A",
-        "subscribers": "79.8K"
+        "name": "shallm",
+        "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
+        "subscribers": "247K"
       },
       {
         "name": "KMNZ",
         "browse_id": "UCEvNH3KHFXfUeZ7uJzLZT_g",
-        "subscribers": "701K"
+        "subscribers": "717K"
       },
       {
         "name": "suisoh",
         "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "450K"
+        "subscribers": "461K"
       },
       {
         "name": "Hashimero",
         "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
         "subscribers": "314K"
+      },
+      {
+        "name": "TAKU INOUE",
+        "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
+        "subscribers": "270K"
       },
       {
         "name": "yoei.",
@@ -4375,12 +4411,17 @@
       {
         "name": "Rei",
         "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
-        "subscribers": "405K"
+        "subscribers": "413K"
       },
       {
         "name": "Dios",
         "browse_id": "UCjv0kMpF3ee-nqO6UqUsNkA",
-        "subscribers": "182K"
+        "subscribers": "187K"
+      },
+      {
+        "name": "RuLu",
+        "browse_id": "UCJvqtoZba5S3yP-kYDeC25A",
+        "subscribers": "79.8K"
       },
       {
         "name": "Maegami Pattsun Shonen",
@@ -5026,6 +5067,12 @@
           "views": 18644837,
           "likes": 124833,
           "comments": 1063
+        },
+        {
+          "date": "2026-07-24",
+          "views": 18654018,
+          "likes": 124856,
+          "comments": 1062
         }
       ]
     },
@@ -5642,6 +5689,12 @@
           "date": "2026-07-23",
           "views": 5608889,
           "likes": 41121,
+          "comments": 88
+        },
+        {
+          "date": "2026-07-24",
+          "views": 5615777,
+          "likes": 41165,
           "comments": 88
         }
       ]
@@ -6260,6 +6313,12 @@
           "views": 5295414,
           "likes": 35706,
           "comments": 169
+        },
+        {
+          "date": "2026-07-24",
+          "views": 5300045,
+          "likes": 35714,
+          "comments": 169
         }
       ]
     },
@@ -6876,6 +6935,12 @@
           "date": "2026-07-23",
           "views": 2310775,
           "likes": 19224,
+          "comments": 43
+        },
+        {
+          "date": "2026-07-24",
+          "views": 2313557,
+          "likes": 19235,
           "comments": 43
         }
       ]
@@ -7503,6 +7568,12 @@
           "date": "2026-07-23",
           "views": 54531,
           "likes": 1390,
+          "comments": 20
+        },
+        {
+          "date": "2026-07-24",
+          "views": 56452,
+          "likes": 1417,
           "comments": 20
         }
       ]
@@ -8326,6 +8397,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-23T15:51:12.155869+00:00"
+    },
+    {
+      "date": "2026-07-24",
+      "metric": "monthly_listeners",
+      "value": 335559,
+      "baseline_mean": 296669.7,
+      "baseline_stddev": 18157.6,
+      "delta": 38889,
+      "score": 2.14,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-24T15:24:34.103689+00:00"
     }
   ]
 }

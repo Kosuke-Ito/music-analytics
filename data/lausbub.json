@@ -4492,6 +4492,47 @@
       "ytm_subscribers": 19200,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 785791
+    },
+    {
+      "date": "2026-07-24",
+      "monthly_listeners": 82442,
+      "collected_at": "2026-07-24T15:28:27.278425+00:00",
+      "spotify_followers": 20570,
+      "youtube_subscribers": 19200,
+      "youtube_total_views": 835495,
+      "youtube_video_count": 32,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3482
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 2472
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1749
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1043
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 907
+        }
+      ],
+      "lastfm_listeners": 8825,
+      "lastfm_playcount": 52438,
+      "ytm_subscribers": 19200,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 785791
     }
   ],
   "annotations": [
@@ -5221,6 +5262,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-23T15:55:01.939924+00:00"
+    },
+    {
+      "date": "2026-07-24",
+      "metric": "monthly_listeners",
+      "value": 82442,
+      "baseline_mean": 66636.7,
+      "baseline_stddev": 5662.1,
+      "delta": 15805,
+      "score": 2.79,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-24T15:28:28.465109+00:00"
     }
   ],
   "song_performance": {
@@ -5832,6 +5885,12 @@
           "views": 4423,
           "likes": 90,
           "comments": 1
+        },
+        {
+          "date": "2026-07-24",
+          "views": 4448,
+          "likes": 92,
+          "comments": 1
         }
       ]
     },
@@ -6441,6 +6500,12 @@
         {
           "date": "2026-07-23",
           "views": 7649,
+          "likes": 190,
+          "comments": 6
+        },
+        {
+          "date": "2026-07-24",
+          "views": 7661,
           "likes": 190,
           "comments": 6
         }
@@ -7054,6 +7119,12 @@
           "views": 23038,
           "likes": 208,
           "comments": 2
+        },
+        {
+          "date": "2026-07-24",
+          "views": 23096,
+          "likes": 209,
+          "comments": 2
         }
       ]
     },
@@ -7664,6 +7735,12 @@
           "date": "2026-07-23",
           "views": 13437,
           "likes": 207,
+          "comments": 1
+        },
+        {
+          "date": "2026-07-24",
+          "views": 13452,
+          "likes": 208,
           "comments": 1
         }
       ]
@@ -8285,6 +8362,12 @@
           "date": "2026-07-23",
           "views": 7342,
           "likes": 137,
+          "comments": 2
+        },
+        {
+          "date": "2026-07-24",
+          "views": 7434,
+          "likes": 139,
           "comments": 2
         }
       ]

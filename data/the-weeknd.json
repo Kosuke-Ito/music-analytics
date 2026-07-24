@@ -4483,6 +4483,47 @@
       "ytm_subscribers": 39800000,
       "ytm_monthly_listeners": 233000000,
       "ytm_total_views": 37081466047
+    },
+    {
+      "date": "2026-07-24",
+      "monthly_listeners": 112947519,
+      "collected_at": "2026-07-24T15:30:40.442966+00:00",
+      "spotify_followers": 125433194,
+      "youtube_subscribers": 39900000,
+      "youtube_total_views": 37090873902,
+      "youtube_video_count": 204,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1598554
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1501370
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1493999
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 998669
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 943806
+        }
+      ],
+      "lastfm_listeners": 5450395,
+      "lastfm_playcount": 1164996731,
+      "ytm_subscribers": 39900000,
+      "ytm_monthly_listeners": 249000000,
+      "ytm_total_views": 37081466047
     }
   ],
   "annotations": [
@@ -4750,19 +4791,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Don Toliver",
-        "browse_id": "UCSzWQmDsKG37iKN2vw1G-2Q",
-        "subscribers": "73.1M"
-      },
-      {
-        "name": "Justin Bieber",
-        "browse_id": "UCGvj8kfUV5Q6lzECIrGY19g",
-        "subscribers": "529M"
-      },
-      {
-        "name": "Miguel",
-        "browse_id": "UCKskshF_wMq6fCRsQY60kSg",
-        "subscribers": "23.2M"
+        "name": "Majid Jordan",
+        "browse_id": "UC9O01oPBHyEbwTaFy1zwIRA",
+        "subscribers": "3.46M"
       },
       {
         "name": "Lily Rose Depp",
@@ -4770,44 +4801,54 @@
         "subscribers": "25.4K"
       },
       {
-        "name": "Majid Jordan",
-        "browse_id": "UC9O01oPBHyEbwTaFy1zwIRA",
-        "subscribers": "3.39M"
-      },
-      {
-        "name": "Swae Lee",
-        "browse_id": "UCOrhSH-BVuBUAKk_rWRJFqQ",
-        "subscribers": "77M"
-      },
-      {
-        "name": "Bazzi",
-        "browse_id": "UCoBD_yd06t7kBn1wLGH7nzg",
-        "subscribers": "22.2M"
+        "name": "Justin Bieber",
+        "browse_id": "UCGvj8kfUV5Q6lzECIrGY19g",
+        "subscribers": "541M"
       },
       {
         "name": "070 Shake",
         "browse_id": "UC4CVrwAB1TblttvcZi7-qcw",
-        "subscribers": "14.4M"
+        "subscribers": "14.7M"
       },
       {
-        "name": "ZAYN",
-        "browse_id": "UCYR9erHSNBPjjNswR4FrMaw",
-        "subscribers": "46.3M"
+        "name": "Swae Lee",
+        "browse_id": "UCOrhSH-BVuBUAKk_rWRJFqQ",
+        "subscribers": "80.5M"
+      },
+      {
+        "name": "Khalid",
+        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
+        "subscribers": "210M"
       },
       {
         "name": "Labrinth",
         "browse_id": "UCLx8m3I4zQAQc0tdASjdAfw",
         "subscribers": "35.3M"
+      },
+      {
+        "name": "Drake",
+        "browse_id": "UCU6cE7pdJPc6DU2jSrKEsdQ",
+        "subscribers": "140M"
+      },
+      {
+        "name": "Jaden",
+        "browse_id": "UCRCRHG4OKZDdvIdRZj4jVBQ",
+        "subscribers": "2.48M"
+      },
+      {
+        "name": "ZAYN",
+        "browse_id": "UCYR9erHSNBPjjNswR4FrMaw",
+        "subscribers": "47.2M"
       }
     ],
     "ytm_top_songs": [
       {
-        "title": "One Of The Girls",
-        "video_id": "HgLfYfJtc8M"
-      },
-      {
         "title": "Save Your Tears",
         "video_id": "RmYCOm4ehKs"
+      },
+      {
+        "title": "One Of The Girls",
+        "video_id": "HgLfYfJtc8M"
       },
       {
         "title": "Starboy (feat. Daft Punk)",
@@ -5028,6 +5069,18 @@
       "type": "annotated",
       "related_annotation": "The Weeknd、リールのスタジアムで2夜連続公演を完遂",
       "detected_at": "2026-07-07T16:28:39.714180+00:00"
+    },
+    {
+      "date": "2026-07-24",
+      "metric": "ytm_monthly_listeners",
+      "value": 249000000,
+      "baseline_mean": 228700000,
+      "baseline_stddev": 3588407.3,
+      "delta": 20300000,
+      "score": 5.66,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-24T15:30:41.657617+00:00"
     }
   ],
   "song_performance": {
@@ -5645,6 +5698,12 @@
           "views": 596436815,
           "likes": 3917534,
           "comments": 7112
+        },
+        {
+          "date": "2026-07-24",
+          "views": 596739521,
+          "likes": 3919231,
+          "comments": 7111
         }
       ]
     },
@@ -6256,6 +6315,12 @@
           "views": 639575238,
           "likes": 4325759,
           "comments": 9604
+        },
+        {
+          "date": "2026-07-24",
+          "views": 639932522,
+          "likes": 4327829,
+          "comments": 9612
         }
       ]
     },
@@ -6873,6 +6938,12 @@
           "views": 363552480,
           "likes": 2971666,
           "comments": 7696
+        },
+        {
+          "date": "2026-07-24",
+          "views": 363840941,
+          "likes": 2973662,
+          "comments": 7699
         }
       ]
     },
@@ -7484,6 +7555,12 @@
           "views": 970323391,
           "likes": 6658499,
           "comments": 23322
+        },
+        {
+          "date": "2026-07-24",
+          "views": 970670970,
+          "likes": 6660679,
+          "comments": 23333
         }
       ]
     },
@@ -7987,6 +8064,12 @@
           "views": 150628794,
           "likes": 1191263,
           "comments": 4675
+        },
+        {
+          "date": "2026-07-24",
+          "views": 150820998,
+          "likes": 1192517,
+          "comments": 4678
         }
       ]
     },
