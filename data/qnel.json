@@ -4577,6 +4577,24 @@
       "source": "収集データの内部整合性（07-18と07-19が同値）",
       "confidence": "low",
       "verified": false
+    },
+    {
+      "date": "2026-07-23",
+      "title": "数値上の異常上昇を検知（原因不明）",
+      "description": "youtube_total_views が score=2.25σ, delta=+81,693 で急上昇。Web検索でTikTok/CM/アニメタイアップ/テレビ出演等の関連ニュースは確認できず、直近リリースは2026年6月17日の新曲「&Dream」のみで時期的に一致しない。原因不明。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-07-24T16:59:52Z"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "数値上の異常上昇を検知（原因不明）",
+      "description": "youtube_total_views が score=2.01σ, delta=+78,389 で急上昇。前日と同様の傾向で同一原因の可能性があるが、Web検索でTikTok/CM/アニメタイアップ/テレビ出演等の関連ニュースは確認できず、原因不明。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-07-24T16:59:52Z"
     }
   ],
   "metadata": {

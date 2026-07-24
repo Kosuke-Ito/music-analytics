@@ -4491,6 +4491,51 @@
       "added_at": "2026-07-16T16:00:00Z",
       "source": "データ検証（daily records確認）",
       "confidence": "high"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "数値上の異常上昇を検知（原因不明）",
+      "description": "monthly_listeners score=2.14σ delta=+27,765。原因調査のためのWeb検索を実施したが、外部要因は未特定。5日連続の継続的上昇のため同一原因の可能性が高い。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-07-24T16:59:52Z"
+    },
+    {
+      "date": "2026-07-21",
+      "title": "数値上の異常上昇を検知（原因不明）",
+      "description": "monthly_listeners score=2.44σ delta=+33,967、youtube_total_views score=3.11σ delta=+4,486,738。原因調査のためのWeb検索を実施したが、外部要因は未特定。5日連続の継続的上昇のため同一原因の可能性が高い。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-07-24T16:59:52Z"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "数値上の異常上昇を検知（原因不明）",
+      "description": "monthly_listeners score=2.85σ delta=+43,316、youtube_total_views score=2.74σ delta=+4,234,837。原因調査のためのWeb検索を実施したが、外部要因は未特定。5日連続の継続的上昇のため同一原因の可能性が高い。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-07-24T16:59:52Z"
+    },
+    {
+      "date": "2026-07-23",
+      "title": "数値上の異常上昇を検知（原因不明）",
+      "description": "monthly_listeners score=2.7σ delta=+45,938、youtube_total_views score=2.78σ delta=+4,439,368。原因調査のためのWeb検索を実施したが、外部要因は未特定。5日連続の継続的上昇のため同一原因の可能性が高い。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-07-24T16:59:52Z"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "数値上の異常上昇を検知（原因不明）",
+      "description": "monthly_listeners score=2.48σ delta=+46,504、ytm_monthly_listeners score=2.12σ delta=+1,118,666、youtube_total_views score=2.54σ delta=+4,172,254。原因調査のためのWeb検索を実施したが、外部要因は未特定。代表曲「SPECIALZ」の継続的人気の可能性はあるが未検証。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-07-24T16:59:52Z"
     }
   ],
   "metadata": {

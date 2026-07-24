@@ -4568,6 +4568,24 @@
       "source": "音楽ナタリー",
       "confidence": "medium",
       "verified": false
+    },
+    {
+      "date": "2026-07-23",
+      "title": "数値上の異常上昇を検知（原因不明）",
+      "description": "youtube_total_views が score=2.33σ、delta=+7,102,067 の異常上昇を記録。原因調査のためのWeb検索を実施したが、具体的な要因（新曲公開、タイアップ、バイラル動画等）は特定できていない。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-07-24T16:59:52Z"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "数値上の異常上昇を検知（原因不明）",
+      "description": "youtube_total_views が score=2.14σ、delta=+6,675,337 の異常上昇を記録。前日23日に続く上昇のため関連の可能性があるが、具体的な要因は特定できていない。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-07-24T16:59:52Z"
     }
   ],
   "metadata": {
