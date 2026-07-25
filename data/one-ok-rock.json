@@ -4524,6 +4524,47 @@
       "ytm_subscribers": 5040000,
       "ytm_monthly_listeners": 8540000,
       "ytm_total_views": 2472450032
+    },
+    {
+      "date": "2026-07-25",
+      "monthly_listeners": 3507483,
+      "collected_at": "2026-07-25T14:59:39.545516+00:00",
+      "spotify_followers": 6215867,
+      "youtube_subscribers": 5040000,
+      "youtube_total_views": 2508942139,
+      "youtube_video_count": 572,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 116371
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 93693
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 64993
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 61037
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 43002
+        }
+      ],
+      "lastfm_listeners": 647282,
+      "lastfm_playcount": 55815482,
+      "ytm_subscribers": 5040000,
+      "ytm_monthly_listeners": 8600000,
+      "ytm_total_views": 2473834562
     }
   ],
   "annotations": [
@@ -4850,9 +4891,14 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "BLUE ENCOUNT",
+        "browse_id": "UCXW5jRbethDETWXJUXy1Qmg",
+        "subscribers": "1.53M"
+      },
+      {
         "name": "taka",
         "browse_id": "UC0KLMGub_J0BSigaBHAAG-Q",
-        "subscribers": "1.06K"
+        "subscribers": "1.07K"
       },
       {
         "name": "Galileo Galilei",
@@ -4860,19 +4906,9 @@
         "subscribers": "700K"
       },
       {
-        "name": "Miyavi",
-        "browse_id": "UCnG4qAnVAVzN9CTGJdcE50g",
-        "subscribers": "751K"
-      },
-      {
-        "name": "Rookiez Is Punk'd",
-        "browse_id": "UCW-Jl8TyWIZ18IZ3fqUdvEQ",
-        "subscribers": "13.4K"
-      },
-      {
         "name": "Ellegarden",
         "browse_id": "UCnqsbIboKQDp3Icn0qWPbHQ",
-        "subscribers": "843K"
+        "subscribers": "877K"
       },
       {
         "name": "SCANDAL",
@@ -4880,24 +4916,29 @@
         "subscribers": "1.96M"
       },
       {
-        "name": "milet",
-        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "5.94M"
+        "name": "coldrain",
+        "browse_id": "UC1WV_zQ6vd52xitFX2cANYg",
+        "subscribers": "685K"
       },
       {
-        "name": "BLUE ENCOUNT",
-        "browse_id": "UCXW5jRbethDETWXJUXy1Qmg",
-        "subscribers": "1.56M"
+        "name": "Pay money To my Pain",
+        "browse_id": "UC3kKm059hewEM_LHXmGULjw",
+        "subscribers": "140K"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "98.3M"
+        "name": "[Alexandros]",
+        "browse_id": "UCbzcUjXa4yX3k5CD8bioDmg",
+        "subscribers": "9.02M"
+      },
+      {
+        "name": "Fear, and Loathing in Las Vegas",
+        "browse_id": "UC9rdhKjcQ-GhrG0dL1BQg0g",
+        "subscribers": "816K"
       },
       {
         "name": "Vaundy",
         "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "18.2M"
+        "subscribers": "17.7M"
       }
     ],
     "ytm_top_songs": [
@@ -5539,6 +5580,12 @@
           "views": 8478078,
           "likes": 45889,
           "comments": 110
+        },
+        {
+          "date": "2026-07-25",
+          "views": 8503050,
+          "likes": 46027,
+          "comments": 111
         }
       ]
     },
@@ -6162,6 +6209,12 @@
           "views": 14142861,
           "likes": 76204,
           "comments": 455
+        },
+        {
+          "date": "2026-07-25",
+          "views": 14183189,
+          "likes": 76375,
+          "comments": 458
         }
       ]
     },
@@ -6785,6 +6838,12 @@
           "views": 7237303,
           "likes": 32502,
           "comments": 62
+        },
+        {
+          "date": "2026-07-25",
+          "views": 7260144,
+          "likes": 32576,
+          "comments": 62
         }
       ]
     },
@@ -7407,6 +7466,12 @@
           "date": "2026-07-24",
           "views": 15912112,
           "likes": 135633,
+          "comments": 365
+        },
+        {
+          "date": "2026-07-25",
+          "views": 15920037,
+          "likes": 135677,
           "comments": 365
         }
       ]
@@ -8057,6 +8122,12 @@
           "views": 5100841,
           "likes": 36765,
           "comments": 72
+        },
+        {
+          "date": "2026-07-25",
+          "views": 5103136,
+          "likes": 36779,
+          "comments": 72
         }
       ]
     }
@@ -8373,6 +8444,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-24T15:25:58.733288+00:00"
+    },
+    {
+      "date": "2026-07-25",
+      "metric": "youtube_total_views",
+      "value": 2508942139,
+      "baseline_mean": 2490800414.9,
+      "baseline_stddev": 8820913.8,
+      "delta": 18141724,
+      "score": 2.06,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-07-25T14:59:40.475255+00:00"
     }
   ]
 }

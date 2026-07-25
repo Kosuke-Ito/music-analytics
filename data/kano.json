@@ -4330,6 +4330,47 @@
       "ytm_subscribers": 3540,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-25",
+      "monthly_listeners": 9296,
+      "collected_at": "2026-07-25T14:59:24.110463+00:00",
+      "spotify_followers": 571,
+      "youtube_subscribers": 3540,
+      "youtube_total_views": 2187163,
+      "youtube_video_count": 112,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 353
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 217
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 216
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 149
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 124
+        }
+      ],
+      "lastfm_listeners": 278,
+      "lastfm_playcount": 1283,
+      "ytm_subscribers": 3540,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4343,16 +4384,16 @@
         "url": "https://www.last.fm/music/%E6%B0%B4%E6%A7%BD+&+%E3%83%8A%E3%83%8A%E3%83%B2%E3%82%A2%E3%82%AB%E3%83%AA"
       },
       {
+        "name": "硝子宮",
+        "url": "https://www.last.fm/music/%E7%A1%9D%E5%AD%90%E5%AE%AE"
+      },
+      {
         "name": "山内総一郎",
         "url": "https://www.last.fm/music/%E5%B1%B1%E5%86%85%E7%B7%8F%E4%B8%80%E9%83%8E"
       },
       {
-        "name": "MEGAMI Party",
-        "url": "https://www.last.fm/music/MEGAMI+Party"
-      },
-      {
-        "name": "gaogao",
-        "url": "https://www.last.fm/music/gaogao"
+        "name": "The Luv Bugs",
+        "url": "https://www.last.fm/music/The+Luv+Bugs"
       }
     ],
     "ytm_top_songs": [
@@ -4987,6 +5028,12 @@
           "views": 381454,
           "likes": 3327,
           "comments": 21
+        },
+        {
+          "date": "2026-07-25",
+          "views": 382614,
+          "likes": 3335,
+          "comments": 21
         }
       ]
     },
@@ -5598,6 +5645,12 @@
           "views": 19560,
           "likes": 96,
           "comments": 0
+        },
+        {
+          "date": "2026-07-25",
+          "views": 19710,
+          "likes": 96,
+          "comments": 0
         }
       ]
     },
@@ -6207,6 +6260,12 @@
         {
           "date": "2026-07-24",
           "views": 6417,
+          "likes": 61,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-25",
+          "views": 6461,
           "likes": 61,
           "comments": 0
         }
@@ -7237,6 +7296,12 @@
           "views": 1213,
           "likes": 25,
           "comments": 0
+        },
+        {
+          "date": "2026-07-25",
+          "views": 1217,
+          "likes": 25,
+          "comments": 0
         }
       ]
     },
@@ -7445,6 +7510,12 @@
           "date": "2026-07-24",
           "views": 24860,
           "likes": 355,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-25",
+          "views": 25220,
+          "likes": 356,
           "comments": 0
         }
       ]
@@ -7824,6 +7895,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-24T15:25:41.767353+00:00"
+    },
+    {
+      "date": "2026-07-25",
+      "metric": "youtube_total_views",
+      "value": 2187163,
+      "baseline_mean": 2129389.5,
+      "baseline_stddev": 19680.3,
+      "delta": 57773,
+      "score": 2.94,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-07-25T14:59:25.656419+00:00"
     }
   ]
 }

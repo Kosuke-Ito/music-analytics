@@ -4227,6 +4227,47 @@
       "ytm_subscribers": 315000,
       "ytm_monthly_listeners": 4330000,
       "ytm_total_views": 316525427
+    },
+    {
+      "date": "2026-07-25",
+      "monthly_listeners": 1433188,
+      "collected_at": "2026-07-25T15:11:43.349876+00:00",
+      "spotify_followers": 335917,
+      "youtube_subscribers": 315000,
+      "youtube_total_views": 319794121,
+      "youtube_video_count": 218,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 44671
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 43383
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 33195
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 16866
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 16473
+        }
+      ],
+      "lastfm_listeners": 142915,
+      "lastfm_playcount": 2521736,
+      "ytm_subscribers": 315000,
+      "ytm_monthly_listeners": 4330000,
+      "ytm_total_views": 316525427
     }
   ],
   "annotations": [
@@ -4568,19 +4609,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Ren",
-        "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
-        "subscribers": "422K"
-      },
-      {
-        "name": "Awesome City Club",
-        "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
-        "subscribers": "550K"
+        "name": "EISYU",
+        "browse_id": "UCQ1dCsHilcsF2YOVXEI-4VA",
+        "subscribers": "146K"
       },
       {
         "name": "FIVE NEW OLD",
         "browse_id": "UCRTLps8iSUF_Z9gfrGcBlsQ",
-        "subscribers": "96.3K"
+        "subscribers": "91.4K"
       },
       {
         "name": "Sano ibuki",
@@ -4598,24 +4634,29 @@
         "subscribers": "68.6K"
       },
       {
-        "name": "EISYU",
-        "browse_id": "UCQ1dCsHilcsF2YOVXEI-4VA",
-        "subscribers": "152K"
-      },
-      {
         "name": "YOURNESS",
         "browse_id": "UCjAUZTGqk_ggJmFMNurtgng",
-        "subscribers": "295K"
+        "subscribers": "306K"
       },
       {
-        "name": "Ohashi Chippoke",
-        "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "186K"
+        "name": "Ren",
+        "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
+        "subscribers": "408K"
       },
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.47M"
+        "name": "WhaleDontSleep",
+        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
+        "subscribers": "528K"
+      },
+      {
+        "name": "RETRORIRON",
+        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
+        "subscribers": "321K"
+      },
+      {
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "55.7M"
       }
     ],
     "ytm_top_songs": [
@@ -5257,6 +5298,12 @@
           "views": 11806473,
           "likes": 55475,
           "comments": 203
+        },
+        {
+          "date": "2026-07-25",
+          "views": 11813617,
+          "likes": 55502,
+          "comments": 203
         }
       ]
     },
@@ -5874,6 +5921,12 @@
           "views": 830546,
           "likes": 8526,
           "comments": 90
+        },
+        {
+          "date": "2026-07-25",
+          "views": 831607,
+          "likes": 8529,
+          "comments": 90
         }
       ]
     },
@@ -6490,6 +6543,12 @@
           "date": "2026-07-24",
           "views": 2274874,
           "likes": 16946,
+          "comments": 60
+        },
+        {
+          "date": "2026-07-25",
+          "views": 2275728,
+          "likes": 16949,
           "comments": 60
         }
       ]
@@ -7634,6 +7693,12 @@
           "views": 1041362,
           "likes": 9665,
           "comments": 84
+        },
+        {
+          "date": "2026-07-25",
+          "views": 1042079,
+          "likes": 9673,
+          "comments": 85
         }
       ]
     },
@@ -7739,6 +7804,12 @@
           "date": "2026-07-24",
           "views": 16305,
           "likes": 382,
+          "comments": 10
+        },
+        {
+          "date": "2026-07-25",
+          "views": 16751,
+          "likes": 387,
           "comments": 10
         }
       ]
@@ -8308,6 +8379,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-24T15:38:36.597179+00:00"
+    },
+    {
+      "date": "2026-07-25",
+      "metric": "monthly_listeners",
+      "value": 1433188,
+      "baseline_mean": 1388675,
+      "baseline_stddev": 20363.8,
+      "delta": 44513,
+      "score": 2.19,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-07-25T15:11:44.952514+00:00"
+    },
+    {
+      "date": "2026-07-25",
+      "metric": "youtube_total_views",
+      "value": 319794121,
+      "baseline_mean": 315888981.5,
+      "baseline_stddev": 1650361.7,
+      "delta": 3905139,
+      "score": 2.37,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-07-25T15:11:44.952514+00:00"
     }
   ]
 }

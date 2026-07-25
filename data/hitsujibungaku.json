@@ -4221,6 +4221,47 @@
       "ytm_subscribers": 461000,
       "ytm_monthly_listeners": 5020000,
       "ytm_total_views": 358717348
+    },
+    {
+      "date": "2026-07-25",
+      "monthly_listeners": 1715367,
+      "collected_at": "2026-07-25T15:10:03.786892+00:00",
+      "spotify_followers": 514419,
+      "youtube_subscribers": 461000,
+      "youtube_total_views": 361693913,
+      "youtube_video_count": 146,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 67030
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 44810
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 40364
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 30137
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 20971
+        }
+      ],
+      "lastfm_listeners": 18788,
+      "lastfm_playcount": 1280608,
+      "ytm_subscribers": 461000,
+      "ytm_monthly_listeners": 5020000,
+      "ytm_total_views": 358717348
     }
   ],
   "annotations": [
@@ -4607,8 +4648,8 @@
         "url": "https://www.last.fm/music/tomoo"
       },
       {
-        "name": "佐藤千亜妃",
-        "url": "https://www.last.fm/music/%E4%BD%90%E8%97%A4%E5%8D%83%E4%BA%9C%E5%A6%83"
+        "name": "カネコアヤノ",
+        "url": "https://www.last.fm/music/%E3%82%AB%E3%83%8D%E3%82%B3%E3%82%A2%E3%83%A4%E3%83%8E"
       }
     ],
     "lastfm_tags": [
@@ -4620,6 +4661,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Skirt",
+        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
+        "subscribers": "110K"
+      },
+      {
         "name": "Kinokoteikoku",
         "browse_id": "UClJbEh-JJDXCjtQLQMi_gjA",
         "subscribers": "41.4K"
@@ -4627,42 +4673,37 @@
       {
         "name": "Homecomings",
         "browse_id": "UC5YC9saEogyw6Jg9fq_oGzg",
-        "subscribers": "53.8K"
+        "subscribers": "51.8K"
       },
       {
         "name": "Laura day romance",
         "browse_id": "UCFrg0aEn8dsLCzYGVSZkT1Q",
-        "subscribers": "93K"
+        "subscribers": "89.8K"
       },
       {
         "name": "chilldspot",
         "browse_id": "UCpAYVXySypaqfb2JA_papUA",
-        "subscribers": "178K"
+        "subscribers": "173K"
       },
       {
         "name": "tiny yawn",
         "browse_id": "UCESxrbFra7AVQsdPAnJ99dA",
-        "subscribers": "213K"
+        "subscribers": "193K"
       },
       {
         "name": "Brandy Senki",
         "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
-        "subscribers": "143K"
+        "subscribers": "138K"
       },
       {
         "name": "mol-74",
         "browse_id": "UCEvtm90ugC6XKB74g8ukTKg",
-        "subscribers": "81.3K"
+        "subscribers": "78.9K"
       },
       {
         "name": "CodyLee",
         "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "201K"
-      },
-      {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "108K"
+        "subscribers": "196K"
       },
       {
         "name": "A_o",
@@ -5303,6 +5344,12 @@
           "views": 20277511,
           "likes": 130239,
           "comments": 385
+        },
+        {
+          "date": "2026-07-25",
+          "views": 20301093,
+          "likes": 130375,
+          "comments": 385
         }
       ]
     },
@@ -5913,6 +5960,12 @@
           "date": "2026-07-24",
           "views": 4779728,
           "likes": 32444,
+          "comments": 183
+        },
+        {
+          "date": "2026-07-25",
+          "views": 4806448,
+          "likes": 32560,
           "comments": 183
         }
       ]
@@ -6758,6 +6811,12 @@
           "views": 1519597,
           "likes": 13806,
           "comments": 86
+        },
+        {
+          "date": "2026-07-25",
+          "views": 1521613,
+          "likes": 13814,
+          "comments": 86
         }
       ]
     },
@@ -7369,6 +7428,12 @@
           "views": 2238343,
           "likes": 17376,
           "comments": 125
+        },
+        {
+          "date": "2026-07-25",
+          "views": 2241415,
+          "likes": 17396,
+          "comments": 125
         }
       ]
     },
@@ -7751,6 +7816,12 @@
           "date": "2026-07-24",
           "views": 4157545,
           "likes": 33861,
+          "comments": 274
+        },
+        {
+          "date": "2026-07-25",
+          "views": 4160532,
+          "likes": 33874,
           "comments": 274
         }
       ]
@@ -8267,6 +8338,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-24T15:36:53.884735+00:00"
+    },
+    {
+      "date": "2026-07-25",
+      "metric": "youtube_total_views",
+      "value": 361693913,
+      "baseline_mean": 355445305.2,
+      "baseline_stddev": 3124297.4,
+      "delta": 6248607,
+      "score": 2.0,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-07-25T15:10:05.268610+00:00"
     }
   ]
 }
