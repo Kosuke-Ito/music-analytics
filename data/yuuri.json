@@ -4381,6 +4381,47 @@
       "ytm_subscribers": 1250000,
       "ytm_monthly_listeners": 10100000,
       "ytm_total_views": 1536006080
+    },
+    {
+      "date": "2026-07-26",
+      "monthly_listeners": 3217749,
+      "collected_at": "2026-07-26T14:57:13.727627+00:00",
+      "spotify_followers": 3428791,
+      "youtube_subscribers": 1250000,
+      "youtube_total_views": 1539003510,
+      "youtube_video_count": 79,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 115212
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 112503
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 81798
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67450
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 43744
+        }
+      ],
+      "lastfm_listeners": 31800,
+      "lastfm_playcount": 685165,
+      "ytm_subscribers": 1250000,
+      "ytm_monthly_listeners": 9820000,
+      "ytm_total_views": 1536006080
     }
   ],
   "annotations": [
@@ -4602,24 +4643,19 @@
         "subscribers": "5.03M"
       },
       {
-        "name": "Takaya Kawasaki",
-        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
-        "subscribers": "2.32M"
+        "name": "Ren",
+        "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
+        "subscribers": "408K"
       },
       {
         "name": "Marcy",
         "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.66M"
+        "subscribers": "1.62M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "19.9M"
-      },
-      {
-        "name": "Ren",
-        "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
-        "subscribers": "408K"
+        "name": "Takaya Kawasaki",
+        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
+        "subscribers": "2.27M"
       },
       {
         "name": "Arekun",
@@ -4632,9 +4668,14 @@
         "subscribers": "289K"
       },
       {
-        "name": "TakaseToya",
-        "browse_id": "UC2AMNa5ERr83V61nupAkE6w",
-        "subscribers": "918K"
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "6.24M"
+      },
+      {
+        "name": "Masanori Otoda",
+        "browse_id": "UCCmU7XwwWAM0j5TVhcTERLg",
+        "subscribers": "2.5M"
       },
       {
         "name": "Ryokuousyoku Syakai",
@@ -4642,9 +4683,9 @@
         "subscribers": "6.63M"
       },
       {
-        "name": "yukasong",
-        "browse_id": "UCMkVJ99SxSdl7mZi43FB49Q",
-        "subscribers": "7.63M"
+        "name": "Mosawo",
+        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
+        "subscribers": "745K"
       }
     ],
     "ytm_top_songs": [
@@ -5292,6 +5333,12 @@
           "views": 106716316,
           "likes": 345024,
           "comments": 163
+        },
+        {
+          "date": "2026-07-26",
+          "views": 106767309,
+          "likes": 345176,
+          "comments": 163
         }
       ]
     },
@@ -5920,6 +5967,12 @@
           "date": "2026-07-25",
           "views": 38487977,
           "likes": 138413,
+          "comments": 68
+        },
+        {
+          "date": "2026-07-26",
+          "views": 38507695,
+          "likes": 138476,
           "comments": 68
         }
       ]
@@ -6550,6 +6603,12 @@
           "views": 22418928,
           "likes": 152438,
           "comments": 608
+        },
+        {
+          "date": "2026-07-26",
+          "views": 22443710,
+          "likes": 152577,
+          "comments": 615
         }
       ]
     },
@@ -7178,6 +7237,12 @@
           "date": "2026-07-25",
           "views": 10573374,
           "likes": 33948,
+          "comments": 19
+        },
+        {
+          "date": "2026-07-26",
+          "views": 10580170,
+          "likes": 33974,
           "comments": 19
         }
       ]
@@ -7824,6 +7889,12 @@
           "views": 29252109,
           "likes": 90898,
           "comments": 51
+        },
+        {
+          "date": "2026-07-26",
+          "views": 29267016,
+          "likes": 90936,
+          "comments": 51
         }
       ]
     }
@@ -8200,6 +8271,18 @@
       "type": "annotated",
       "related_annotation": "アニメ『サンダー3』OPテーマ「サンダーボルト」効果が拡大",
       "detected_at": "2026-07-25T14:54:56.719006+00:00"
+    },
+    {
+      "date": "2026-07-26",
+      "metric": "monthly_listeners",
+      "value": 3217749,
+      "baseline_mean": 3152649.6,
+      "baseline_stddev": 24206.3,
+      "delta": 65099,
+      "score": 2.69,
+      "type": "annotated",
+      "related_annotation": "アニメ『サンダー3』OPテーマ「サンダーボルト」効果が拡大（継続）",
+      "detected_at": "2026-07-26T14:57:14.925091+00:00"
     }
   ]
 }

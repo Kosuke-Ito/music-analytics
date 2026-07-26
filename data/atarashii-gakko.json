@@ -4265,6 +4265,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 3720000,
       "ytm_total_views": 583445275
+    },
+    {
+      "date": "2026-07-26",
+      "monthly_listeners": 850507,
+      "collected_at": "2026-07-26T15:12:25.583155+00:00",
+      "spotify_followers": 980665,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 606916480,
+      "youtube_video_count": 430,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20428
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13850
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 11275
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10833
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7567
+        }
+      ],
+      "lastfm_listeners": 8917,
+      "lastfm_playcount": 410903,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 3610000,
+      "ytm_total_views": 583445275
     }
   ],
   "metadata": {
@@ -4299,24 +4340,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "BAND-MAID",
-        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
-        "subscribers": "1.4M"
-      },
-      {
-        "name": "NEMOPHILA",
-        "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "337K"
-      },
-      {
-        "name": "Perfume",
-        "browse_id": "UCrht-oKwaPy5TqVp80yOuLg",
-        "subscribers": "4.42M"
-      },
-      {
         "name": "SHISHIDO KAVKA",
         "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
-        "subscribers": "100K"
+        "subscribers": "97.8K"
       },
       {
         "name": "H ZETTRIO",
@@ -4329,24 +4355,39 @@
         "subscribers": "123K"
       },
       {
-        "name": "BRADIO",
-        "browse_id": "UCZeMAO9OSESrC6Til4L53BQ",
-        "subscribers": "289K"
-      },
-      {
         "name": "uchikubigokumondoukoukai",
         "browse_id": "UCfp91acTgHFcI9WZOOudwCQ",
         "subscribers": "403K"
       },
       {
-        "name": "ano",
-        "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
-        "subscribers": "4.1M"
+        "name": "Daoko",
+        "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
+        "subscribers": "6.84M"
       },
       {
-        "name": "BiSH",
-        "browse_id": "UC_GFLHEGMjdmFlh5YZTD1lA",
-        "subscribers": "728K"
+        "name": "NEMOPHILA",
+        "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
+        "subscribers": "337K"
+      },
+      {
+        "name": "BAND-MAID",
+        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
+        "subscribers": "1.4M"
+      },
+      {
+        "name": "millennium parade",
+        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
+        "subscribers": "1.1M"
+      },
+      {
+        "name": "BRADIO",
+        "browse_id": "UCZeMAO9OSESrC6Til4L53BQ",
+        "subscribers": "279K"
+      },
+      {
+        "name": "SCANDAL",
+        "browse_id": "UC2RxPIIA8xolka-2FLPCFEA",
+        "subscribers": "1.91M"
       }
     ],
     "ytm_top_songs": [
@@ -4994,6 +5035,12 @@
           "views": 19489144,
           "likes": 277823,
           "comments": 424
+        },
+        {
+          "date": "2026-07-26",
+          "views": 19497415,
+          "likes": 277911,
+          "comments": 424
         }
       ]
     },
@@ -5616,6 +5663,12 @@
           "date": "2026-07-25",
           "views": 5442223,
           "likes": 32014,
+          "comments": 134
+        },
+        {
+          "date": "2026-07-26",
+          "views": 5444693,
+          "likes": 32027,
           "comments": 134
         }
       ]
@@ -6240,6 +6293,12 @@
           "views": 2218417,
           "likes": 36846,
           "comments": 111
+        },
+        {
+          "date": "2026-07-26",
+          "views": 2221269,
+          "likes": 36895,
+          "comments": 111
         }
       ]
     },
@@ -6705,6 +6764,12 @@
           "date": "2026-07-25",
           "views": 2198346,
           "likes": 31079,
+          "comments": 136
+        },
+        {
+          "date": "2026-07-26",
+          "views": 2199519,
+          "likes": 31093,
           "comments": 136
         }
       ]
@@ -7463,6 +7528,12 @@
           "views": 273378,
           "likes": 8253,
           "comments": 219
+        },
+        {
+          "date": "2026-07-26",
+          "views": 274760,
+          "likes": 8269,
+          "comments": 219
         }
       ]
     },
@@ -8191,6 +8262,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-07-25T15:10:21.122037+00:00"
+    },
+    {
+      "date": "2026-07-26",
+      "metric": "monthly_listeners",
+      "value": 850507,
+      "baseline_mean": 815714.9,
+      "baseline_stddev": 9847.6,
+      "delta": 34792,
+      "score": 3.53,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-07-26T15:12:26.889777+00:00"
     }
   ]
 }

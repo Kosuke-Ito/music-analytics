@@ -4565,6 +4565,47 @@
       "ytm_subscribers": 39900000,
       "ytm_monthly_listeners": 243000000,
       "ytm_total_views": 37081466047
+    },
+    {
+      "date": "2026-07-26",
+      "monthly_listeners": 113124169,
+      "collected_at": "2026-07-26T15:06:24.322967+00:00",
+      "spotify_followers": 125520823,
+      "youtube_subscribers": 39900000,
+      "youtube_total_views": 37090873902,
+      "youtube_video_count": 204,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1596465
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1505508
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1483035
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 996220
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 943414
+        }
+      ],
+      "lastfm_listeners": 5453080,
+      "lastfm_playcount": 1165734569,
+      "ytm_subscribers": 39900000,
+      "ytm_monthly_listeners": 243000000,
+      "ytm_total_views": 37081466047
     }
   ],
   "annotations": [
@@ -4807,20 +4848,20 @@
         "url": "https://www.last.fm/music/Tory+Lanez"
       },
       {
-        "name": "Drake",
-        "url": "https://www.last.fm/music/Drake"
-      },
-      {
         "name": "Black Atlass",
         "url": "https://www.last.fm/music/Black+Atlass"
+      },
+      {
+        "name": "Drake",
+        "url": "https://www.last.fm/music/Drake"
       },
       {
         "name": "PARTYNEXTDOOR",
         "url": "https://www.last.fm/music/PARTYNEXTDOOR"
       },
       {
-        "name": "Don Toliver",
-        "url": "https://www.last.fm/music/Don+Toliver"
+        "name": "Majid Jordan",
+        "url": "https://www.last.fm/music/Majid+Jordan"
       }
     ],
     "lastfm_tags": [
@@ -4832,34 +4873,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Lily Rose Depp",
-        "browse_id": "UChGTI8sivCDh1AWues5lrDA",
-        "subscribers": "25.4K"
-      },
-      {
         "name": "Majid Jordan",
         "browse_id": "UC9O01oPBHyEbwTaFy1zwIRA",
         "subscribers": "3.34M"
       },
       {
-        "name": "Bazzi",
-        "browse_id": "UCoBD_yd06t7kBn1wLGH7nzg",
-        "subscribers": "22M"
-      },
-      {
-        "name": "070 Shake",
-        "browse_id": "UC4CVrwAB1TblttvcZi7-qcw",
-        "subscribers": "14.2M"
-      },
-      {
-        "name": "Justin Bieber",
-        "browse_id": "UCGvj8kfUV5Q6lzECIrGY19g",
-        "subscribers": "529M"
-      },
-      {
-        "name": "6LACK",
-        "browse_id": "UCgerUw6uCKCZIYvD5sz5ZNg",
-        "subscribers": "6.59M"
+        "name": "Lily Rose Depp",
+        "browse_id": "UChGTI8sivCDh1AWues5lrDA",
+        "subscribers": "25.4K"
       },
       {
         "name": "Swae Lee",
@@ -4867,19 +4888,39 @@
         "subscribers": "78.8M"
       },
       {
-        "name": "Miguel",
-        "browse_id": "UCKskshF_wMq6fCRsQY60kSg",
-        "subscribers": "23.6M"
+        "name": "070 Shake",
+        "browse_id": "UC4CVrwAB1TblttvcZi7-qcw",
+        "subscribers": "14.2M"
       },
       {
-        "name": "Drake",
-        "browse_id": "UCU6cE7pdJPc6DU2jSrKEsdQ",
-        "subscribers": "136M"
+        "name": "Justin Timberlake",
+        "browse_id": "UC6VwktUsQQDCkHG1h6YftAQ",
+        "subscribers": "66.4M"
       },
       {
-        "name": "ZAYN",
-        "browse_id": "UCYR9erHSNBPjjNswR4FrMaw",
-        "subscribers": "47.2M"
+        "name": "Selena Gomez",
+        "browse_id": "UCeBYRgPhy8kcRmIGQWKuqdQ",
+        "subscribers": "266M"
+      },
+      {
+        "name": "Jaden",
+        "browse_id": "UCRCRHG4OKZDdvIdRZj4jVBQ",
+        "subscribers": "2.42M"
+      },
+      {
+        "name": "Khalid",
+        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
+        "subscribers": "205M"
+      },
+      {
+        "name": "6LACK",
+        "browse_id": "UCgerUw6uCKCZIYvD5sz5ZNg",
+        "subscribers": "6.59M"
+      },
+      {
+        "name": "Labrinth",
+        "browse_id": "UCLx8m3I4zQAQc0tdASjdAfw",
+        "subscribers": "34.3M"
       }
     ],
     "ytm_top_songs": [
@@ -5134,6 +5175,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-25T15:04:10.510984+00:00"
+    },
+    {
+      "date": "2026-07-26",
+      "metric": "ytm_monthly_listeners",
+      "value": 243000000,
+      "baseline_mean": 229633333.3,
+      "baseline_stddev": 5642005.2,
+      "delta": 13366666,
+      "score": 2.37,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-26T15:06:25.374229+00:00"
     }
   ],
   "song_performance": {
@@ -5763,6 +5816,12 @@
           "views": 597045942,
           "likes": 3920952,
           "comments": 7116
+        },
+        {
+          "date": "2026-07-26",
+          "views": 597347127,
+          "likes": 3922566,
+          "comments": 7118
         }
       ]
     },
@@ -6386,6 +6445,12 @@
           "views": 640300322,
           "likes": 4330114,
           "comments": 9626
+        },
+        {
+          "date": "2026-07-26",
+          "views": 640661754,
+          "likes": 4332338,
+          "comments": 9635
         }
       ]
     },
@@ -7015,6 +7080,12 @@
           "views": 364122602,
           "likes": 2975591,
           "comments": 7707
+        },
+        {
+          "date": "2026-07-26",
+          "views": 364401133,
+          "likes": 2977383,
+          "comments": 7709
         }
       ]
     },
@@ -7638,6 +7709,12 @@
           "views": 971024245,
           "likes": 6662965,
           "comments": 23345
+        },
+        {
+          "date": "2026-07-26",
+          "views": 971376148,
+          "likes": 6665100,
+          "comments": 23348
         }
       ]
     },
@@ -8153,6 +8230,12 @@
           "views": 151012586,
           "likes": 1193649,
           "comments": 4683
+        },
+        {
+          "date": "2026-07-26",
+          "views": 151198355,
+          "likes": 1194737,
+          "comments": 4674
         }
       ]
     },
