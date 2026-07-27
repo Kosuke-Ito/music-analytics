@@ -4309,6 +4309,47 @@
       "ytm_subscribers": 315000,
       "ytm_monthly_listeners": 4260000,
       "ytm_total_views": 316525427
+    },
+    {
+      "date": "2026-07-27",
+      "monthly_listeners": 1441034,
+      "collected_at": "2026-07-27T16:25:37.704711+00:00",
+      "spotify_followers": 336189,
+      "youtube_subscribers": 315000,
+      "youtube_total_views": 319794121,
+      "youtube_video_count": 218,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 44765
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 43941
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 33922
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 17171
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 16507
+        }
+      ],
+      "lastfm_listeners": 142969,
+      "lastfm_playcount": 2522446,
+      "ytm_subscribers": 315000,
+      "ytm_monthly_listeners": 4260000,
+      "ytm_total_views": 316525427
     }
   ],
   "annotations": [
@@ -4650,9 +4691,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Ren",
-        "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
-        "subscribers": "408K"
+        "name": "I Don't Like Mondays.",
+        "browse_id": "UCGNCaU3Q1WV31GmdDjX5b7Q",
+        "subscribers": "320K"
       },
       {
         "name": "FIVE NEW OLD",
@@ -4685,19 +4726,19 @@
         "subscribers": "300K"
       },
       {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "6.24M"
+        "name": "Ren",
+        "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
+        "subscribers": "408K"
       },
       {
-        "name": "I Don't Like Mondays.",
-        "browse_id": "UCGNCaU3Q1WV31GmdDjX5b7Q",
-        "subscribers": "320K"
+        "name": "Ohashi Chippoke",
+        "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
+        "subscribers": "181K"
       },
       {
-        "name": "Awesome City Club",
-        "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
-        "subscribers": "535K"
+        "name": "KAMI WA SAIKORO WO FURANAI",
+        "browse_id": "UCBX3AdkQtdXZkBuM8ojQ8jA",
+        "subscribers": "250K"
       }
     ],
     "ytm_top_songs": [
@@ -5351,6 +5392,12 @@
           "views": 11820560,
           "likes": 55517,
           "comments": 203
+        },
+        {
+          "date": "2026-07-27",
+          "views": 11829404,
+          "likes": 55533,
+          "comments": 203
         }
       ]
     },
@@ -5980,6 +6027,12 @@
           "views": 832675,
           "likes": 8536,
           "comments": 90
+        },
+        {
+          "date": "2026-07-27",
+          "views": 833734,
+          "likes": 8540,
+          "comments": 90
         }
       ]
     },
@@ -6608,6 +6661,12 @@
           "date": "2026-07-26",
           "views": 2276675,
           "likes": 16957,
+          "comments": 60
+        },
+        {
+          "date": "2026-07-27",
+          "views": 2277782,
+          "likes": 16962,
           "comments": 60
         }
       ]
@@ -7764,6 +7823,12 @@
           "views": 1042858,
           "likes": 9683,
           "comments": 86
+        },
+        {
+          "date": "2026-07-27",
+          "views": 1043705,
+          "likes": 9692,
+          "comments": 86
         }
       ]
     },
@@ -7881,6 +7946,12 @@
           "date": "2026-07-26",
           "views": 17171,
           "likes": 390,
+          "comments": 10
+        },
+        {
+          "date": "2026-07-27",
+          "views": 17730,
+          "likes": 399,
           "comments": 10
         }
       ]
@@ -8498,6 +8569,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-07-26T15:13:46.809798+00:00"
+    },
+    {
+      "date": "2026-07-27",
+      "metric": "monthly_listeners",
+      "value": 1441034,
+      "baseline_mean": 1393014.1,
+      "baseline_stddev": 22807.1,
+      "delta": 48019,
+      "score": 2.11,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-07-27T16:25:39.201945+00:00"
     }
   ]
 }

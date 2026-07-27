@@ -4427,6 +4427,47 @@
       "ytm_subscribers": 327000,
       "ytm_monthly_listeners": 1380000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-27",
+      "monthly_listeners": 341335,
+      "collected_at": "2026-07-27T16:11:40.755221+00:00",
+      "spotify_followers": 71438,
+      "youtube_subscribers": 327000,
+      "youtube_total_views": 170128717,
+      "youtube_video_count": 108,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 16007
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 9744
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 7084
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5739
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5523
+        }
+      ],
+      "lastfm_listeners": 34003,
+      "lastfm_playcount": 927328,
+      "ytm_subscribers": 327000,
+      "ytm_monthly_listeners": 1380000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4461,19 +4502,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "KMNZ",
-        "browse_id": "UCEvNH3KHFXfUeZ7uJzLZT_g",
-        "subscribers": "699K"
-      },
-      {
-        "name": "suisoh",
-        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "449K"
-      },
-      {
-        "name": "shallm",
-        "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
-        "subscribers": "235K"
+        "name": "kei sugawara",
+        "browse_id": "UCteJs3TEbPFxDObB-4s7Y6w",
+        "subscribers": "355K"
       },
       {
         "name": "Hashimero",
@@ -4509,6 +4540,16 @@
         "name": "Maegami Pattsun Shonen",
         "browse_id": "UCcZb-8Ap9KBTU9r5YCQP22g",
         "subscribers": "10K"
+      },
+      {
+        "name": "LOLUET",
+        "browse_id": "UCZjx32TYLqZO9XxBkPlndwA",
+        "subscribers": "7.98K"
+      },
+      {
+        "name": "EVO+",
+        "browse_id": "UC_YgchlOXrff__BizLqvE7w",
+        "subscribers": "265K"
       }
     ],
     "ytm_top_songs": [
@@ -5167,6 +5208,12 @@
           "views": 18670972,
           "likes": 124891,
           "comments": 1062
+        },
+        {
+          "date": "2026-07-27",
+          "views": 18680189,
+          "likes": 124911,
+          "comments": 1063
         }
       ]
     },
@@ -5801,6 +5848,12 @@
           "date": "2026-07-26",
           "views": 5628278,
           "likes": 41232,
+          "comments": 88
+        },
+        {
+          "date": "2026-07-27",
+          "views": 5635535,
+          "likes": 41294,
           "comments": 88
         }
       ]
@@ -6437,6 +6490,12 @@
           "views": 5307769,
           "likes": 35731,
           "comments": 169
+        },
+        {
+          "date": "2026-07-27",
+          "views": 5311971,
+          "likes": 35742,
+          "comments": 169
         }
       ]
     },
@@ -7071,6 +7130,12 @@
           "date": "2026-07-26",
           "views": 2318356,
           "likes": 19271,
+          "comments": 43
+        },
+        {
+          "date": "2026-07-27",
+          "views": 2321373,
+          "likes": 19285,
           "comments": 43
         }
       ]
@@ -7716,6 +7781,12 @@
           "date": "2026-07-26",
           "views": 60118,
           "likes": 1481,
+          "comments": 21
+        },
+        {
+          "date": "2026-07-27",
+          "views": 62209,
+          "likes": 1516,
           "comments": 21
         }
       ]
@@ -8569,6 +8640,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-24T15:24:34.103689+00:00"
+    },
+    {
+      "date": "2026-07-27",
+      "metric": "youtube_total_views",
+      "value": 170128717,
+      "baseline_mean": 167558248.1,
+      "baseline_stddev": 870461.2,
+      "delta": 2570468,
+      "score": 2.95,
+      "type": "annotated",
+      "related_annotation": "アニメ『グロウアップショウ』OP主題歌タイアップ効果＋Aoooとの企画発表が集中（継続）",
+      "detected_at": "2026-07-27T16:11:42.202772+00:00"
     }
   ]
 }

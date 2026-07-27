@@ -4303,6 +4303,47 @@
       "ytm_subscribers": 3650000,
       "ytm_monthly_listeners": 6740000,
       "ytm_total_views": 1081033206
+    },
+    {
+      "date": "2026-07-27",
+      "monthly_listeners": 3399724,
+      "collected_at": "2026-07-27T16:25:04.851244+00:00",
+      "spotify_followers": 3043517,
+      "youtube_subscribers": 3650000,
+      "youtube_total_views": 1100856729,
+      "youtube_video_count": 352,
+      "top_cities": [
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 59267
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 56530
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 50879
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 42907
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 40486
+        }
+      ],
+      "lastfm_listeners": 998238,
+      "lastfm_playcount": 60779020,
+      "ytm_subscribers": 3650000,
+      "ytm_monthly_listeners": 6740000,
+      "ytm_total_views": 1091865594
     }
   ],
   "annotations": [
@@ -4671,9 +4712,24 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "BAND-MAID",
+        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
+        "subscribers": "1.4M"
+      },
+      {
+        "name": "the GazettE",
+        "browse_id": "UCXitUzRS2J4mznhd6qYLaHw",
+        "subscribers": "249K"
+      },
+      {
+        "name": "NEMOPHILA",
+        "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
+        "subscribers": "337K"
+      },
+      {
         "name": "Sakura Gakuin",
         "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
-        "subscribers": "7.76K"
+        "subscribers": "7.77K"
       },
       {
         "name": "LADYBABY",
@@ -4683,7 +4739,7 @@
       {
         "name": "Mellows",
         "browse_id": "UC9BIwJgZn6hJCldEBvxOd-g",
-        "subscribers": "4.43K"
+        "subscribers": "4.44K"
       },
       {
         "name": "STMLT",
@@ -4704,21 +4760,6 @@
         "name": "Passcode",
         "browse_id": "UCf7G8LOCgwZs3cU5CQsyjZQ",
         "subscribers": "522K"
-      },
-      {
-        "name": "TRiDENT",
-        "browse_id": "UCgErNuISenFAQndiEKcBVGQ",
-        "subscribers": "137K"
-      },
-      {
-        "name": "JILUKA",
-        "browse_id": "UC1FVXpsDUD1LR_ZqBqrmrjw",
-        "subscribers": "24.1K"
-      },
-      {
-        "name": "Yosei Teikoku",
-        "browse_id": "UCT6NZ6tzD-t8hu1XsKWe8iQ",
-        "subscribers": "33.5K"
       }
     ],
     "ytm_top_songs": [
@@ -5336,6 +5377,12 @@
           "views": 8340837,
           "likes": 92570,
           "comments": 292
+        },
+        {
+          "date": "2026-07-27",
+          "views": 8363072,
+          "likes": 92780,
+          "comments": 294
         }
       ]
     },
@@ -5953,6 +6000,12 @@
           "views": 5276167,
           "likes": 103430,
           "comments": 574
+        },
+        {
+          "date": "2026-07-27",
+          "views": 5289097,
+          "likes": 103651,
+          "comments": 577
         }
       ]
     },
@@ -6557,6 +6610,12 @@
           "date": "2026-07-26",
           "views": 5470841,
           "likes": 74814,
+          "comments": 248
+        },
+        {
+          "date": "2026-07-27",
+          "views": 5481291,
+          "likes": 74927,
           "comments": 248
         }
       ]
@@ -7599,6 +7658,12 @@
           "views": 1737554,
           "likes": 22986,
           "comments": 83
+        },
+        {
+          "date": "2026-07-27",
+          "views": 1742552,
+          "likes": 23069,
+          "comments": 83
         }
       ]
     },
@@ -7844,6 +7909,12 @@
           "date": "2026-07-26",
           "views": 844539,
           "likes": 12743,
+          "comments": 74
+        },
+        {
+          "date": "2026-07-27",
+          "views": 845868,
+          "likes": 12775,
           "comments": 74
         }
       ]
@@ -8459,6 +8530,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-24T15:38:01.862433+00:00"
+    },
+    {
+      "date": "2026-07-27",
+      "metric": "youtube_total_views",
+      "value": 1100856729,
+      "baseline_mean": 1089469440.7,
+      "baseline_stddev": 1974547.9,
+      "delta": 11387288,
+      "score": 5.77,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-07-27T16:25:06.747795+00:00"
     }
   ]
 }

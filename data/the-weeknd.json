@@ -4606,6 +4606,47 @@
       "ytm_subscribers": 39900000,
       "ytm_monthly_listeners": 243000000,
       "ytm_total_views": 37081466047
+    },
+    {
+      "date": "2026-07-27",
+      "monthly_listeners": 113182466,
+      "collected_at": "2026-07-27T16:17:39.841939+00:00",
+      "spotify_followers": 125564232,
+      "youtube_subscribers": 39900000,
+      "youtube_total_views": 37090873902,
+      "youtube_video_count": 204,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1580765
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1510129
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1485883
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 992839
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 940875
+        }
+      ],
+      "lastfm_listeners": 5454453,
+      "lastfm_playcount": 1165955821,
+      "ytm_subscribers": 39900000,
+      "ytm_monthly_listeners": 243000000,
+      "ytm_total_views": 37081466047
     }
   ],
   "annotations": [
@@ -4873,19 +4914,14 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Lily Rose Depp",
+        "browse_id": "UChGTI8sivCDh1AWues5lrDA",
+        "subscribers": "25.5K"
+      },
+      {
         "name": "Majid Jordan",
         "browse_id": "UC9O01oPBHyEbwTaFy1zwIRA",
         "subscribers": "3.34M"
-      },
-      {
-        "name": "Lily Rose Depp",
-        "browse_id": "UChGTI8sivCDh1AWues5lrDA",
-        "subscribers": "25.4K"
-      },
-      {
-        "name": "Swae Lee",
-        "browse_id": "UCOrhSH-BVuBUAKk_rWRJFqQ",
-        "subscribers": "78.8M"
       },
       {
         "name": "070 Shake",
@@ -4893,14 +4929,9 @@
         "subscribers": "14.2M"
       },
       {
-        "name": "Justin Timberlake",
-        "browse_id": "UC6VwktUsQQDCkHG1h6YftAQ",
-        "subscribers": "66.4M"
-      },
-      {
-        "name": "Selena Gomez",
-        "browse_id": "UCeBYRgPhy8kcRmIGQWKuqdQ",
-        "subscribers": "266M"
+        "name": "Swae Lee",
+        "browse_id": "UCOrhSH-BVuBUAKk_rWRJFqQ",
+        "subscribers": "78.8M"
       },
       {
         "name": "Jaden",
@@ -4908,19 +4939,29 @@
         "subscribers": "2.42M"
       },
       {
-        "name": "Khalid",
-        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
-        "subscribers": "205M"
-      },
-      {
-        "name": "6LACK",
-        "browse_id": "UCgerUw6uCKCZIYvD5sz5ZNg",
-        "subscribers": "6.59M"
+        "name": "Selena Gomez",
+        "browse_id": "UCeBYRgPhy8kcRmIGQWKuqdQ",
+        "subscribers": "266M"
       },
       {
         "name": "Labrinth",
         "browse_id": "UCLx8m3I4zQAQc0tdASjdAfw",
         "subscribers": "34.3M"
+      },
+      {
+        "name": "ZAYN",
+        "browse_id": "UCYR9erHSNBPjjNswR4FrMaw",
+        "subscribers": "45.6M"
+      },
+      {
+        "name": "Justin Timberlake",
+        "browse_id": "UC6VwktUsQQDCkHG1h6YftAQ",
+        "subscribers": "66.4M"
+      },
+      {
+        "name": "Drake",
+        "browse_id": "UCU6cE7pdJPc6DU2jSrKEsdQ",
+        "subscribers": "136M"
       }
     ],
     "ytm_top_songs": [
@@ -5187,6 +5228,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-26T15:06:25.374229+00:00"
+    },
+    {
+      "date": "2026-07-27",
+      "metric": "ytm_monthly_listeners",
+      "value": 243000000,
+      "baseline_mean": 230000000,
+      "baseline_stddev": 6121002.1,
+      "delta": 13000000,
+      "score": 2.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-27T16:17:41.388771+00:00"
     }
   ],
   "song_performance": {
@@ -5822,6 +5875,12 @@
           "views": 597347127,
           "likes": 3922566,
           "comments": 7118
+        },
+        {
+          "date": "2026-07-27",
+          "views": 597658452,
+          "likes": 3924281,
+          "comments": 7122
         }
       ]
     },
@@ -6451,6 +6510,12 @@
           "views": 640661754,
           "likes": 4332338,
           "comments": 9635
+        },
+        {
+          "date": "2026-07-27",
+          "views": 641037053,
+          "likes": 4334550,
+          "comments": 9641
         }
       ]
     },
@@ -7086,6 +7151,12 @@
           "views": 364401133,
           "likes": 2977383,
           "comments": 7709
+        },
+        {
+          "date": "2026-07-27",
+          "views": 364691956,
+          "likes": 2979171,
+          "comments": 7712
         }
       ]
     },
@@ -7715,6 +7786,12 @@
           "views": 971376148,
           "likes": 6665100,
           "comments": 23348
+        },
+        {
+          "date": "2026-07-27",
+          "views": 971733549,
+          "likes": 6667176,
+          "comments": 23361
         }
       ]
     },
@@ -8236,6 +8313,12 @@
           "views": 151198355,
           "likes": 1194737,
           "comments": 4674
+        },
+        {
+          "date": "2026-07-27",
+          "views": 151393639,
+          "likes": 1195962,
+          "comments": 4682
         }
       ]
     },

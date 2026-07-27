@@ -4615,6 +4615,47 @@
       "ytm_subscribers": 19200,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 785791
+    },
+    {
+      "date": "2026-07-27",
+      "monthly_listeners": 87253,
+      "collected_at": "2026-07-27T16:15:29.808893+00:00",
+      "spotify_followers": 20684,
+      "youtube_subscribers": 19300,
+      "youtube_total_views": 835495,
+      "youtube_video_count": 32,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3606
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 2644
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1932
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1047
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 942
+        }
+      ],
+      "lastfm_listeners": 8858,
+      "lastfm_playcount": 52617,
+      "ytm_subscribers": 19300,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 785791
     }
   ],
   "annotations": [
@@ -5398,6 +5439,18 @@
       "type": "annotated",
       "related_annotation": "フジロック2026出演直前の注目度上昇＋メジャーデビュー発表の余波",
       "detected_at": "2026-07-26T15:04:21.046039+00:00"
+    },
+    {
+      "date": "2026-07-27",
+      "metric": "monthly_listeners",
+      "value": 87253,
+      "baseline_mean": 69028.6,
+      "baseline_stddev": 6854.0,
+      "delta": 18224,
+      "score": 2.66,
+      "type": "annotated",
+      "related_annotation": "フジロックフェスティバル2026開幕とメジャーデビュー発表の余波",
+      "detected_at": "2026-07-27T16:15:31.170684+00:00"
     }
   ],
   "song_performance": {
@@ -6027,6 +6080,12 @@
           "views": 4511,
           "likes": 93,
           "comments": 1
+        },
+        {
+          "date": "2026-07-27",
+          "views": 4539,
+          "likes": 95,
+          "comments": 1
         }
       ]
     },
@@ -6654,6 +6713,12 @@
         {
           "date": "2026-07-26",
           "views": 7687,
+          "likes": 190,
+          "comments": 6
+        },
+        {
+          "date": "2026-07-27",
+          "views": 7702,
           "likes": 190,
           "comments": 6
         }
@@ -7285,6 +7350,12 @@
           "views": 23188,
           "likes": 210,
           "comments": 2
+        },
+        {
+          "date": "2026-07-27",
+          "views": 23246,
+          "likes": 211,
+          "comments": 2
         }
       ]
     },
@@ -7912,6 +7983,12 @@
         {
           "date": "2026-07-26",
           "views": 13462,
+          "likes": 208,
+          "comments": 1
+        },
+        {
+          "date": "2026-07-27",
+          "views": 13466,
           "likes": 208,
           "comments": 1
         }
@@ -8551,6 +8628,12 @@
         {
           "date": "2026-07-26",
           "views": 7601,
+          "likes": 142,
+          "comments": 2
+        },
+        {
+          "date": "2026-07-27",
+          "views": 7706,
           "likes": 142,
           "comments": 2
         }

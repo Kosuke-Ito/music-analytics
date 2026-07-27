@@ -4419,6 +4419,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 305000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-27",
+      "monthly_listeners": 423257,
+      "collected_at": "2026-07-27T16:09:28.818019+00:00",
+      "spotify_followers": 123734,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 49478980,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 23277
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 16428
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 11761
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 7566
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 5554
+        }
+      ],
+      "lastfm_listeners": 10258,
+      "lastfm_playcount": 168692,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 305000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4451,6 +4492,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Furui Riho",
+        "browse_id": "UC_INWDSkrIjnmqUi5D6zi4Q",
+        "subscribers": "329K"
+      },
+      {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
         "subscribers": "94.4K"
@@ -4459,6 +4505,11 @@
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
         "subscribers": "75.8K"
+      },
+      {
+        "name": "Sakura Fujiwara",
+        "browse_id": "UClHAk3e2m5KJpWzVDeaYPCQ",
+        "subscribers": "383K"
       },
       {
         "name": "YONA YONA WEEKENDERS",
@@ -4489,16 +4540,6 @@
         "name": "magora",
         "browse_id": "UCEntI0a-_iCneH4KTOh7lOw",
         "subscribers": "55.8K"
-      },
-      {
-        "name": "Yu Sakai",
-        "browse_id": "UC1WcFC-kH798mP7XK17DulA",
-        "subscribers": "27K"
-      },
-      {
-        "name": "adieu",
-        "browse_id": "UCvDhn0d7NbLomi8rZxt4qKg",
-        "subscribers": "598K"
       }
     ],
     "ytm_top_songs": [
@@ -5151,6 +5192,12 @@
           "views": 54187,
           "likes": 479,
           "comments": 6
+        },
+        {
+          "date": "2026-07-27",
+          "views": 54319,
+          "likes": 480,
+          "comments": 6
         }
       ]
     },
@@ -5778,6 +5825,12 @@
         {
           "date": "2026-07-26",
           "views": 44876,
+          "likes": 444,
+          "comments": 4
+        },
+        {
+          "date": "2026-07-27",
+          "views": 44975,
           "likes": 444,
           "comments": 4
         }
@@ -6408,6 +6461,12 @@
           "date": "2026-07-26",
           "views": 237569,
           "likes": 2087,
+          "comments": 12
+        },
+        {
+          "date": "2026-07-27",
+          "views": 238008,
+          "likes": 2092,
           "comments": 12
         }
       ]
@@ -7607,6 +7666,12 @@
           "views": 89173,
           "likes": 825,
           "comments": 8
+        },
+        {
+          "date": "2026-07-27",
+          "views": 89425,
+          "likes": 826,
+          "comments": 8
         }
       ]
     },
@@ -7664,6 +7729,12 @@
         {
           "date": "2026-07-26",
           "views": 29452,
+          "likes": 261,
+          "comments": 4
+        },
+        {
+          "date": "2026-07-27",
+          "views": 29485,
           "likes": 261,
           "comments": 4
         }
@@ -8106,6 +8177,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-26T14:58:32.352084+00:00"
+    },
+    {
+      "date": "2026-07-27",
+      "metric": "youtube_total_views",
+      "value": 49478980,
+      "baseline_mean": 48643612.1,
+      "baseline_stddev": 396250.9,
+      "delta": 835367,
+      "score": 2.11,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-27T16:09:30.423216+00:00"
     }
   ]
 }
