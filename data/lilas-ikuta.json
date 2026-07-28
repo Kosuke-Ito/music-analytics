@@ -4460,6 +4460,47 @@
       "ytm_subscribers": 1010000,
       "ytm_monthly_listeners": 18400000,
       "ytm_total_views": 428038690
+    },
+    {
+      "date": "2026-07-28",
+      "monthly_listeners": 2674371,
+      "collected_at": "2026-07-28T16:01:11.585114+00:00",
+      "spotify_followers": 1024756,
+      "youtube_subscribers": 1010000,
+      "youtube_total_views": 433874885,
+      "youtube_video_count": 54,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 84273
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 74783
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 55217
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 42773
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 31041
+        }
+      ],
+      "lastfm_listeners": 19811,
+      "lastfm_playcount": 354428,
+      "ytm_subscribers": 1010000,
+      "ytm_monthly_listeners": 18400000,
+      "ytm_total_views": 432490839
     }
   ],
   "annotations": [
@@ -4769,10 +4810,15 @@
     "lastfm_tags": [
       "japan",
       "japanese",
-      "female vocalists",
-      "nippon"
+      "nippon",
+      "female vocalists"
     ],
     "ytm_related_artists": [
+      {
+        "name": "Mosawo",
+        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
+        "subscribers": "745K"
+      },
       {
         "name": "emi noda",
         "browse_id": "UC2mwr8Fe3w-HixrCoruERTg",
@@ -4782,6 +4828,11 @@
         "name": "Zarame",
         "browse_id": "UCsXbUCnV9SqRGkaO2ifzkBw",
         "subscribers": "289K"
+      },
+      {
+        "name": "ATARAYO",
+        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
+        "subscribers": "1.55M"
       },
       {
         "name": "Ren",
@@ -4804,24 +4855,14 @@
         "subscribers": "32.2K"
       },
       {
+        "name": "Ai Higuchi",
+        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
+        "subscribers": "15.1M"
+      },
+      {
         "name": "UshioReira",
         "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
         "subscribers": "709K"
-      },
-      {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "6.63M"
-      },
-      {
-        "name": "Mosawo",
-        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
-        "subscribers": "745K"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.35M"
       }
     ],
     "ytm_top_songs": [
@@ -5487,6 +5528,12 @@
           "views": 4113233,
           "likes": 36873,
           "comments": 73
+        },
+        {
+          "date": "2026-07-28",
+          "views": 4142005,
+          "likes": 37182,
+          "comments": 77
         }
       ]
     },
@@ -6121,6 +6168,12 @@
           "date": "2026-07-27",
           "views": 19178226,
           "likes": 87460,
+          "comments": 554
+        },
+        {
+          "date": "2026-07-28",
+          "views": 19203900,
+          "likes": 87516,
           "comments": 554
         }
       ]
@@ -6762,6 +6815,12 @@
           "date": "2026-07-27",
           "views": 27781873,
           "likes": 178339,
+          "comments": 1805
+        },
+        {
+          "date": "2026-07-28",
+          "views": 27789673,
+          "likes": 178340,
           "comments": 1805
         }
       ]
@@ -7925,6 +7984,12 @@
           "views": 31137967,
           "likes": 130573,
           "comments": 315
+        },
+        {
+          "date": "2026-07-28",
+          "views": 31151182,
+          "likes": 130619,
+          "comments": 315
         }
       ]
     },
@@ -8061,6 +8126,12 @@
           "views": 12325891,
           "likes": 119487,
           "comments": 104
+        },
+        {
+          "date": "2026-07-28",
+          "views": 12338718,
+          "likes": 119597,
+          "comments": 105
         }
       ]
     }
@@ -8377,6 +8448,18 @@
       "type": "annotated",
       "related_annotation": "YOASOBI「アドレナ」CDTV初披露＋Ayase投稿の2ショットが話題化",
       "detected_at": "2026-07-14T15:19:37.218495+00:00"
+    },
+    {
+      "date": "2026-07-28",
+      "metric": "youtube_total_views",
+      "value": 433874885,
+      "baseline_mean": 427831344.2,
+      "baseline_stddev": 2079751.7,
+      "delta": 6043540,
+      "score": 2.91,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-28T16:01:13.210589+00:00"
     }
   ]
 }

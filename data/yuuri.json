@@ -4463,6 +4463,47 @@
       "ytm_subscribers": 1250000,
       "ytm_monthly_listeners": 9820000,
       "ytm_total_views": 1536006080
+    },
+    {
+      "date": "2026-07-28",
+      "monthly_listeners": 3225184,
+      "collected_at": "2026-07-28T15:58:40.148813+00:00",
+      "spotify_followers": 3430433,
+      "youtube_subscribers": 1250000,
+      "youtube_total_views": 1541934052,
+      "youtube_video_count": 81,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 115410
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 113108
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 82763
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67767
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 43794
+        }
+      ],
+      "lastfm_listeners": 31803,
+      "lastfm_playcount": 685321,
+      "ytm_subscribers": 1250000,
+      "ytm_monthly_listeners": 9820000,
+      "ytm_total_views": 1538900728
     }
   ],
   "annotations": [
@@ -4673,9 +4714,9 @@
     "lastfm_tags": [
       "touhou",
       "japanese",
-      "japan",
       "j-pop",
-      "J-rock"
+      "japan",
+      "male vocalists"
     ],
     "ytm_related_artists": [
       {
@@ -4689,6 +4730,11 @@
         "subscribers": "593K"
       },
       {
+        "name": "Mosawo",
+        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
+        "subscribers": "745K"
+      },
+      {
         "name": "Zarame",
         "browse_id": "UCsXbUCnV9SqRGkaO2ifzkBw",
         "subscribers": "289K"
@@ -4699,19 +4745,9 @@
         "subscribers": "408K"
       },
       {
-        "name": "Marcy",
-        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.62M"
-      },
-      {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "6.63M"
-      },
-      {
-        "name": "TakaseToya",
-        "browse_id": "UC2AMNa5ERr83V61nupAkE6w",
-        "subscribers": "892K"
+        "name": "Lilas",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "18.4M"
       },
       {
         "name": "yukasong",
@@ -4719,14 +4755,19 @@
         "subscribers": "7.41M"
       },
       {
+        "name": "Marcy",
+        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
+        "subscribers": "1.62M"
+      },
+      {
         "name": "Masanori Otoda",
         "browse_id": "UCCmU7XwwWAM0j5TVhcTERLg",
         "subscribers": "2.5M"
       },
       {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "6.24M"
+        "name": "TakaseToya",
+        "browse_id": "UC2AMNa5ERr83V61nupAkE6w",
+        "subscribers": "892K"
       }
     ],
     "ytm_top_songs": [
@@ -5386,6 +5427,12 @@
           "views": 106827585,
           "likes": 345271,
           "comments": 163
+        },
+        {
+          "date": "2026-07-28",
+          "views": 106883592,
+          "likes": 345393,
+          "comments": 163
         }
       ]
     },
@@ -6026,6 +6073,12 @@
           "date": "2026-07-27",
           "views": 38531840,
           "likes": 138531,
+          "comments": 68
+        },
+        {
+          "date": "2026-07-28",
+          "views": 38553882,
+          "likes": 138598,
           "comments": 68
         }
       ]
@@ -6668,6 +6721,12 @@
           "views": 22472336,
           "likes": 152701,
           "comments": 615
+        },
+        {
+          "date": "2026-07-28",
+          "views": 22500748,
+          "likes": 152850,
+          "comments": 617
         }
       ]
     },
@@ -7308,6 +7367,12 @@
           "date": "2026-07-27",
           "views": 10588930,
           "likes": 34008,
+          "comments": 19
+        },
+        {
+          "date": "2026-07-28",
+          "views": 10597919,
+          "likes": 34047,
           "comments": 19
         }
       ]
@@ -7966,6 +8031,12 @@
           "views": 29285742,
           "likes": 90974,
           "comments": 51
+        },
+        {
+          "date": "2026-07-28",
+          "views": 29302241,
+          "likes": 90999,
+          "comments": 51
         }
       ]
     }
@@ -8366,6 +8437,18 @@
       "type": "annotated",
       "related_annotation": "アニメ『サンダー3』OPテーマ「サンダーボルト」効果がSpotify/YouTube Musicで同時拡大",
       "detected_at": "2026-07-27T16:08:05.721897+00:00"
+    },
+    {
+      "date": "2026-07-28",
+      "metric": "monthly_listeners",
+      "value": 3225184,
+      "baseline_mean": 3156299.9,
+      "baseline_stddev": 29598.6,
+      "delta": 68884,
+      "score": 2.33,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-28T15:58:41.302829+00:00"
     }
   ]
 }

@@ -4271,6 +4271,47 @@
       "ytm_subscribers": 38100,
       "ytm_monthly_listeners": 62800,
       "ytm_total_views": 8566785
+    },
+    {
+      "date": "2026-07-28",
+      "monthly_listeners": 44588,
+      "collected_at": "2026-07-28T16:17:02.521620+00:00",
+      "spotify_followers": 52080,
+      "youtube_subscribers": 38100,
+      "youtube_total_views": 8900123,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3107
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1237
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 794
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 693
+        },
+        {
+          "city": "Nakano City",
+          "country": "JP",
+          "listeners": 473
+        }
+      ],
+      "lastfm_listeners": 24217,
+      "lastfm_playcount": 407353,
+      "ytm_subscribers": 38100,
+      "ytm_monthly_listeners": 62800,
+      "ytm_total_views": 8658513
     }
   ],
   "metadata": {
@@ -4297,13 +4338,28 @@
       }
     ],
     "lastfm_tags": [
-      "japanese",
       "techno",
+      "japanese",
       "j-pop",
       "House",
-      "japan"
+      "shibuya-kei"
     ],
     "ytm_related_artists": [
+      {
+        "name": "tiny yawn",
+        "browse_id": "UCESxrbFra7AVQsdPAnJ99dA",
+        "subscribers": "193K"
+      },
+      {
+        "name": "Satoko Shibata",
+        "browse_id": "UCHXbv9-c9QQow0_n5WKx5QQ",
+        "subscribers": "125K"
+      },
+      {
+        "name": "Hikari Mitsushima",
+        "browse_id": "UCmQX9uNXRj07dI4iZcN9ZMQ",
+        "subscribers": "143K"
+      },
       {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
@@ -4330,11 +4386,6 @@
         "subscribers": "3.87K"
       },
       {
-        "name": "chelmico",
-        "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "209K"
-      },
-      {
         "name": "ako",
         "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
         "subscribers": "163K"
@@ -4343,16 +4394,6 @@
         "name": "cero",
         "browse_id": "UCP5S2nBzNRtJNiqGAYsA_Nw",
         "subscribers": "82.9K"
-      },
-      {
-        "name": "Satoko Shibata",
-        "browse_id": "UCHXbv9-c9QQow0_n5WKx5QQ",
-        "subscribers": "125K"
-      },
-      {
-        "name": "FRIENDS",
-        "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "75.8K"
       }
     ],
     "ytm_top_songs": [
@@ -4994,6 +5035,12 @@
           "views": 143967,
           "likes": 2761,
           "comments": 25
+        },
+        {
+          "date": "2026-07-28",
+          "views": 144308,
+          "likes": 2764,
+          "comments": 25
         }
       ]
     },
@@ -5610,6 +5657,12 @@
           "date": "2026-07-27",
           "views": 597451,
           "likes": 5479,
+          "comments": 18
+        },
+        {
+          "date": "2026-07-28",
+          "views": 598031,
+          "likes": 5481,
           "comments": 18
         }
       ]
@@ -6228,6 +6281,12 @@
           "views": 331932,
           "likes": 3538,
           "comments": 7
+        },
+        {
+          "date": "2026-07-28",
+          "views": 332234,
+          "likes": 3541,
+          "comments": 7
         }
       ]
     },
@@ -6845,6 +6904,12 @@
           "views": 58271,
           "likes": 192,
           "comments": 1
+        },
+        {
+          "date": "2026-07-28",
+          "views": 58332,
+          "likes": 192,
+          "comments": 1
         }
       ]
     },
@@ -7460,6 +7525,12 @@
         {
           "date": "2026-07-27",
           "views": 129388,
+          "likes": 1622,
+          "comments": 15
+        },
+        {
+          "date": "2026-07-28",
+          "views": 129531,
           "likes": 1622,
           "comments": 15
         }
@@ -8235,6 +8306,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-24T15:39:10.369180+00:00"
+    },
+    {
+      "date": "2026-07-28",
+      "metric": "youtube_total_views",
+      "value": 8900123,
+      "baseline_mean": 8732049.3,
+      "baseline_stddev": 66873.1,
+      "delta": 168073,
+      "score": 2.51,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-28T16:17:04.095925+00:00"
     }
   ]
 }

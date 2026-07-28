@@ -4460,6 +4460,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 305000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-28",
+      "monthly_listeners": 423257,
+      "collected_at": "2026-07-28T16:00:03.111383+00:00",
+      "spotify_followers": 123848,
+      "youtube_subscribers": 103000,
+      "youtube_total_views": 49970662,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 23277
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 16428
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 11761
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 7566
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 5554
+        }
+      ],
+      "lastfm_listeners": 10262,
+      "lastfm_playcount": 168740,
+      "ytm_subscribers": 103000,
+      "ytm_monthly_listeners": 305000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4497,6 +4538,21 @@
         "subscribers": "329K"
       },
       {
+        "name": "Kroi",
+        "browse_id": "UCssoAGLly9DaABecIZoht_g",
+        "subscribers": "477K"
+      },
+      {
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "4.26M"
+      },
+      {
+        "name": "MONKEY MAJIK",
+        "browse_id": "UC3gcufb-KpdT9XbSf0vug3g",
+        "subscribers": "1.11M"
+      },
+      {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
         "subscribers": "94.4K"
@@ -4525,27 +4581,16 @@
         "name": "First Love is Never Returned",
         "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
         "subscribers": "98K"
-      },
-      {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "107K"
-      },
-      {
-        "name": "Nulbarich",
-        "browse_id": "UC9Mr_qx2dUoki2z4VujRImw",
-        "subscribers": "189K"
-      },
-      {
-        "name": "magora",
-        "browse_id": "UCEntI0a-_iCneH4KTOh7lOw",
-        "subscribers": "55.8K"
       }
     ],
     "ytm_top_songs": [
       {
         "title": "ファーストキス - First Kiss",
         "video_id": "GNcmdFABHnU"
+      },
+      {
+        "title": "大空港 - The Terminal",
+        "video_id": "g_w_3gFfUGg"
       },
       {
         "title": "紫陽花 - Honesty",
@@ -4558,10 +4603,6 @@
       {
         "title": "本日のおすすめ - Honjitsuno Osusume",
         "video_id": "rgiZ3aypN20"
-      },
-      {
-        "title": "まるで天使さ - Like An Angel",
-        "video_id": "FlwUDrCis6I"
       }
     ]
   },
@@ -5198,6 +5239,12 @@
           "views": 54319,
           "likes": 480,
           "comments": 6
+        },
+        {
+          "date": "2026-07-28",
+          "views": 54461,
+          "likes": 481,
+          "comments": 6
         }
       ]
     },
@@ -5833,6 +5880,12 @@
           "views": 44975,
           "likes": 444,
           "comments": 4
+        },
+        {
+          "date": "2026-07-28",
+          "views": 45050,
+          "likes": 445,
+          "comments": 4
         }
       ]
     },
@@ -6467,6 +6520,12 @@
           "date": "2026-07-27",
           "views": 238008,
           "likes": 2092,
+          "comments": 12
+        },
+        {
+          "date": "2026-07-28",
+          "views": 238366,
+          "likes": 2095,
           "comments": 12
         }
       ]
@@ -7672,6 +7731,12 @@
           "views": 89425,
           "likes": 826,
           "comments": 8
+        },
+        {
+          "date": "2026-07-28",
+          "views": 89635,
+          "likes": 828,
+          "comments": 8
         }
       ]
     },
@@ -7759,6 +7824,17 @@
           "views": 84143,
           "likes": 380,
           "comments": 13
+        }
+      ]
+    },
+    "g_w_3gFfUGg": {
+      "title": "大空港 - The Terminal",
+      "history": [
+        {
+          "date": "2026-07-28",
+          "views": 9551,
+          "likes": 112,
+          "comments": 2
         }
       ]
     }
@@ -8220,6 +8296,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-27T16:09:30.423216+00:00"
+    },
+    {
+      "date": "2026-07-28",
+      "metric": "youtube_total_views",
+      "value": 49970662,
+      "baseline_mean": 48688554.0,
+      "baseline_stddev": 411689.0,
+      "delta": 1282107,
+      "score": 3.11,
+      "type": "annotated",
+      "related_annotation": "新曲「大空港」がドラマ『大空港～GATE24～』主題歌としてMV公開（7/24）、YouTube総再生数が急増",
+      "detected_at": "2026-07-28T16:00:04.639735+00:00"
     }
   ]
 }

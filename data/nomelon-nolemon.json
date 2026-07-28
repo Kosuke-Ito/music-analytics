@@ -4468,6 +4468,47 @@
       "ytm_subscribers": 327000,
       "ytm_monthly_listeners": 1380000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-28",
+      "monthly_listeners": 341335,
+      "collected_at": "2026-07-28T16:02:22.434630+00:00",
+      "spotify_followers": 71491,
+      "youtube_subscribers": 327000,
+      "youtube_total_views": 170128717,
+      "youtube_video_count": 108,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 16007
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 9744
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 7084
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5739
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5523
+        }
+      ],
+      "lastfm_listeners": 34016,
+      "lastfm_playcount": 927635,
+      "ytm_subscribers": 327000,
+      "ytm_monthly_listeners": 1380000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4502,9 +4543,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "kei sugawara",
-        "browse_id": "UCteJs3TEbPFxDObB-4s7Y6w",
-        "subscribers": "355K"
+        "name": "DUSTCELL",
+        "browse_id": "UCxub7HHCCp0L4tB6FnA3nRg",
+        "subscribers": "1.21M"
+      },
+      {
+        "name": "Maegami Pattsun Shonen",
+        "browse_id": "UCcZb-8Ap9KBTU9r5YCQP22g",
+        "subscribers": "10K"
       },
       {
         "name": "Hashimero",
@@ -4515,11 +4561,6 @@
         "name": "TAKU INOUE",
         "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
         "subscribers": "262K"
-      },
-      {
-        "name": "yoei.",
-        "browse_id": "UCnC9xc35C06kNIO0gNUcleA",
-        "subscribers": "248K"
       },
       {
         "name": "Rei",
@@ -4537,11 +4578,6 @@
         "subscribers": "79.7K"
       },
       {
-        "name": "Maegami Pattsun Shonen",
-        "browse_id": "UCcZb-8Ap9KBTU9r5YCQP22g",
-        "subscribers": "10K"
-      },
-      {
         "name": "LOLUET",
         "browse_id": "UCZjx32TYLqZO9XxBkPlndwA",
         "subscribers": "7.98K"
@@ -4550,6 +4586,11 @@
         "name": "EVO+",
         "browse_id": "UC_YgchlOXrff__BizLqvE7w",
         "subscribers": "265K"
+      },
+      {
+        "name": "Yoshihisa Hirata",
+        "browse_id": "UCrE3-DikeFVVXGWg_76TY6g",
+        "subscribers": "83.8K"
       }
     ],
     "ytm_top_songs": [
@@ -5214,6 +5255,12 @@
           "views": 18680189,
           "likes": 124911,
           "comments": 1063
+        },
+        {
+          "date": "2026-07-28",
+          "views": 18688783,
+          "likes": 124941,
+          "comments": 1063
         }
       ]
     },
@@ -5854,6 +5901,12 @@
           "date": "2026-07-27",
           "views": 5635535,
           "likes": 41294,
+          "comments": 88
+        },
+        {
+          "date": "2026-07-28",
+          "views": 5642386,
+          "likes": 41343,
           "comments": 88
         }
       ]
@@ -6496,6 +6549,12 @@
           "views": 5311971,
           "likes": 35742,
           "comments": 169
+        },
+        {
+          "date": "2026-07-28",
+          "views": 5316276,
+          "likes": 35760,
+          "comments": 169
         }
       ]
     },
@@ -7136,6 +7195,12 @@
           "date": "2026-07-27",
           "views": 2321373,
           "likes": 19285,
+          "comments": 43
+        },
+        {
+          "date": "2026-07-28",
+          "views": 2324526,
+          "likes": 19309,
           "comments": 43
         }
       ]
@@ -7787,6 +7852,12 @@
           "date": "2026-07-27",
           "views": 62209,
           "likes": 1516,
+          "comments": 21
+        },
+        {
+          "date": "2026-07-28",
+          "views": 64401,
+          "likes": 1547,
           "comments": 21
         }
       ]
@@ -8652,6 +8723,18 @@
       "type": "annotated",
       "related_annotation": "アニメ『グロウアップショウ』OP主題歌タイアップ効果＋Aoooとの企画発表が集中（継続）",
       "detected_at": "2026-07-27T16:11:42.202772+00:00"
+    },
+    {
+      "date": "2026-07-28",
+      "metric": "youtube_total_views",
+      "value": 170128717,
+      "baseline_mean": 167674949.2,
+      "baseline_stddev": 967193.0,
+      "delta": 2453767,
+      "score": 2.54,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-28T16:02:23.627498+00:00"
     }
   ]
 }

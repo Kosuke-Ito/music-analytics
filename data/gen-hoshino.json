@@ -4341,6 +4341,47 @@
       "ytm_subscribers": 1760000,
       "ytm_monthly_listeners": 8620000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-28",
+      "monthly_listeners": 2672658,
+      "collected_at": "2026-07-28T16:11:55.076040+00:00",
+      "spotify_followers": 2469910,
+      "youtube_subscribers": 1760000,
+      "youtube_total_views": 1443242213,
+      "youtube_video_count": 201,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 115645
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 91531
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 63259
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 42121
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 34702
+        }
+      ],
+      "lastfm_listeners": 21580,
+      "lastfm_playcount": 3006416,
+      "ytm_subscribers": 1760000,
+      "ytm_monthly_listeners": 8620000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4380,24 +4421,24 @@
         "subscribers": "1.89M"
       },
       {
-        "name": "BUMP OF CHICKEN",
-        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
-        "subscribers": "6.8M"
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "65.4M"
       },
       {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "6.24M"
+        "name": "Fujii Kaze",
+        "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
+        "subscribers": "44.5M"
       },
       {
-        "name": "aiko",
-        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
-        "subscribers": "6.7M"
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "47.4M"
       },
       {
-        "name": "Tokyo Incidents",
-        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
-        "subscribers": "1.49M"
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10.5M"
       },
       {
         "name": "SHISHAMO",
@@ -4410,19 +4451,19 @@
         "subscribers": "648K"
       },
       {
-        "name": "sumika",
-        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
-        "subscribers": "3.07M"
+        "name": "Tokyo Incidents",
+        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
+        "subscribers": "1.49M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "19.9M"
+        "name": "aiko",
+        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
+        "subscribers": "6.7M"
       },
       {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.5M"
+        "name": "BUMP OF CHICKEN",
+        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
+        "subscribers": "6.8M"
       }
     ],
     "ytm_top_songs": [
@@ -5069,6 +5110,12 @@
           "views": 60745547,
           "likes": 239582,
           "comments": 579
+        },
+        {
+          "date": "2026-07-28",
+          "views": 60783138,
+          "likes": 239717,
+          "comments": 579
         }
       ]
     },
@@ -5692,6 +5739,12 @@
           "views": 5275190,
           "likes": 42971,
           "comments": 0
+        },
+        {
+          "date": "2026-07-28",
+          "views": 5285683,
+          "likes": 43066,
+          "comments": 0
         }
       ]
     },
@@ -6303,6 +6356,12 @@
           "views": 21865674,
           "likes": 102967,
           "comments": 88
+        },
+        {
+          "date": "2026-07-28",
+          "views": 21880019,
+          "likes": 103041,
+          "comments": 88
         }
       ]
     },
@@ -6806,6 +6865,12 @@
           "views": 10502175,
           "likes": 53642,
           "comments": 46
+        },
+        {
+          "date": "2026-07-28",
+          "views": 10510567,
+          "likes": 53679,
+          "comments": 46
         }
       ]
     },
@@ -7236,6 +7301,12 @@
           "date": "2026-07-27",
           "views": 11143547,
           "likes": 50140,
+          "comments": 169
+        },
+        {
+          "date": "2026-07-28",
+          "views": 11150510,
+          "likes": 50181,
           "comments": 169
         }
       ]
@@ -8279,6 +8350,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-27T16:20:58.369209+00:00"
+    },
+    {
+      "date": "2026-07-28",
+      "metric": "youtube_total_views",
+      "value": 1443242213,
+      "baseline_mean": 1432785791.6,
+      "baseline_stddev": 3485473.8,
+      "delta": 10456421,
+      "score": 3.0,
+      "type": "annotated",
+      "related_annotation": "新曲「好き」（TBS火曜ドラマ『君の好きは無敵』主題歌）最新ビジュアル公開の反響でYouTube総再生数が急増",
+      "detected_at": "2026-07-28T16:11:56.814719+00:00"
     }
   ]
 }

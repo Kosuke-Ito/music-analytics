@@ -4648,6 +4648,47 @@
       "ytm_subscribers": 6390000,
       "ytm_monthly_listeners": 35400000,
       "ytm_total_views": 6724958287
+    },
+    {
+      "date": "2026-07-28",
+      "monthly_listeners": 7652811,
+      "collected_at": "2026-07-28T16:04:24.993386+00:00",
+      "spotify_followers": 7357990,
+      "youtube_subscribers": 6390000,
+      "youtube_total_views": 6940943909,
+      "youtube_video_count": 847,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 390376
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 340749
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 240849
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 144271
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 118878
+        }
+      ],
+      "lastfm_listeners": 456577,
+      "lastfm_playcount": 12814583,
+      "ytm_subscribers": 6390000,
+      "ytm_monthly_listeners": 35400000,
+      "ytm_total_views": 6724958287
     }
   ],
   "annotations": [
@@ -5254,6 +5295,11 @@
         "subscribers": "1.25K"
       },
       {
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "95.6M"
+      },
+      {
         "name": "FRUITS ZIPPER",
         "browse_id": "UCB_jIxmkTjjAHyVZUD-kf4w",
         "subscribers": "11.2M"
@@ -5274,14 +5320,14 @@
         "subscribers": "19.9M"
       },
       {
-        "name": "Tani Yuuki",
-        "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
-        "subscribers": "5.72M"
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "9.82M"
       },
       {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "4.39M"
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "64.7M"
       },
       {
         "name": "SEKAI NO OWARI",
@@ -5292,11 +5338,6 @@
         "name": "Lilas",
         "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
         "subscribers": "18.4M"
-      },
-      {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "64.7M"
       }
     ],
     "ytm_top_songs": [
@@ -5962,6 +6003,12 @@
           "views": 29501034,
           "likes": 160275,
           "comments": 2392
+        },
+        {
+          "date": "2026-07-28",
+          "views": 29578726,
+          "likes": 160429,
+          "comments": 2392
         }
       ]
     },
@@ -6603,6 +6650,12 @@
           "views": 152838913,
           "likes": 549554,
           "comments": 6079
+        },
+        {
+          "date": "2026-07-28",
+          "views": 152949725,
+          "likes": 549755,
+          "comments": 6082
         }
       ]
     },
@@ -7243,6 +7296,12 @@
           "date": "2026-07-27",
           "views": 60354217,
           "likes": 232622,
+          "comments": 453
+        },
+        {
+          "date": "2026-07-28",
+          "views": 60382276,
+          "likes": 232706,
           "comments": 453
         }
       ]
@@ -8475,6 +8534,12 @@
           "views": 107433173,
           "likes": 352943,
           "comments": 1871
+        },
+        {
+          "date": "2026-07-28",
+          "views": 107506860,
+          "likes": 353156,
+          "comments": 1872
         }
       ]
     },
@@ -8546,6 +8611,12 @@
           "views": 6906265,
           "likes": 122775,
           "comments": 7625
+        },
+        {
+          "date": "2026-07-28",
+          "views": 7179587,
+          "likes": 124463,
+          "comments": 7819
         }
       ]
     }
@@ -9030,6 +9101,18 @@
       "type": "annotated",
       "related_annotation": "新曲「Brand New」が大ヒット、Billboard JAPANストリーミング首位（継続）",
       "detected_at": "2026-07-27T16:13:35.532018+00:00"
+    },
+    {
+      "date": "2026-07-28",
+      "metric": "monthly_listeners",
+      "value": 7652811,
+      "baseline_mean": 7426229.2,
+      "baseline_stddev": 112430.0,
+      "delta": 226581,
+      "score": 2.02,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-28T16:04:26.287718+00:00"
     }
   ]
 }

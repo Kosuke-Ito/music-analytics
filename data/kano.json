@@ -4453,6 +4453,47 @@
       "ytm_subscribers": 3550,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-28",
+      "monthly_listeners": 9153,
+      "collected_at": "2026-07-28T16:03:30.393827+00:00",
+      "spotify_followers": 572,
+      "youtube_subscribers": 3560,
+      "youtube_total_views": 2187163,
+      "youtube_video_count": 113,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 342
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 210
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 206
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 143
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 129
+        }
+      ],
+      "lastfm_listeners": 278,
+      "lastfm_playcount": 1291,
+      "ytm_subscribers": 3560,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4496,8 +4537,8 @@
         "video_id": "SNHlT4eeGjo"
       },
       {
-        "title": "きゅん接近あらーと - Kyun Alert",
-        "video_id": "khBiwRAtUB4"
+        "title": "Day&Night - Day＆Night",
+        "video_id": "aWTO11fznyQ"
       }
     ]
   },
@@ -5128,6 +5169,12 @@
           "views": 384718,
           "likes": 3350,
           "comments": 21
+        },
+        {
+          "date": "2026-07-28",
+          "views": 385940,
+          "likes": 3357,
+          "comments": 21
         }
       ]
     },
@@ -5757,6 +5804,12 @@
           "views": 19972,
           "likes": 97,
           "comments": 0
+        },
+        {
+          "date": "2026-07-28",
+          "views": 20064,
+          "likes": 97,
+          "comments": 0
         }
       ]
     },
@@ -6384,6 +6437,12 @@
         {
           "date": "2026-07-27",
           "views": 6542,
+          "likes": 61,
+          "comments": 0
+        },
+        {
+          "date": "2026-07-28",
+          "views": 6592,
           "likes": 61,
           "comments": 0
         }
@@ -7146,6 +7205,12 @@
           "views": 1293,
           "likes": 20,
           "comments": 0
+        },
+        {
+          "date": "2026-07-28",
+          "views": 1765,
+          "likes": 28,
+          "comments": 0
         }
       ]
     },
@@ -7659,6 +7724,12 @@
           "views": 26001,
           "likes": 362,
           "comments": 0
+        },
+        {
+          "date": "2026-07-28",
+          "views": 26497,
+          "likes": 365,
+          "comments": 0
         }
       ]
     }
@@ -8073,6 +8144,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-07-27T16:12:47.009097+00:00"
+    },
+    {
+      "date": "2026-07-28",
+      "metric": "youtube_total_views",
+      "value": 2187163,
+      "baseline_mean": 2138094.7,
+      "baseline_stddev": 23647.8,
+      "delta": 49068,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-28T16:03:32.147299+00:00"
     }
   ]
 }

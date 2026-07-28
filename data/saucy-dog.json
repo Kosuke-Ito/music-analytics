@@ -4350,6 +4350,47 @@
       "ytm_subscribers": 873000,
       "ytm_monthly_listeners": 2420000,
       "ytm_total_views": 585609323
+    },
+    {
+      "date": "2026-07-28",
+      "monthly_listeners": 1766196,
+      "collected_at": "2026-07-28T16:14:11.450338+00:00",
+      "spotify_followers": 1506757,
+      "youtube_subscribers": 873000,
+      "youtube_total_views": 588727874,
+      "youtube_video_count": 135,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 90574
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 88835
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 62649
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 36703
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 34470
+        }
+      ],
+      "lastfm_listeners": 59062,
+      "lastfm_playcount": 1676234,
+      "ytm_subscribers": 873000,
+      "ytm_monthly_listeners": 2420000,
+      "ytm_total_views": 587162575
     }
   ],
   "annotations": [
@@ -4637,14 +4678,14 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "3.72M"
+      },
+      {
         "name": "KEPURA",
         "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
         "subscribers": "71.1K"
-      },
-      {
-        "name": "moon drop",
-        "browse_id": "UCPqgXlQbbSCVYuzUqN1G5hQ",
-        "subscribers": "130K"
       },
       {
         "name": "Mr.forte",
@@ -4655,11 +4696,6 @@
         "name": "YUTORI-SEDAI",
         "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
         "subscribers": "273K"
-      },
-      {
-        "name": "TRACK15",
-        "browse_id": "UCbTq_K3E9Vz8ehL62WwcwIA",
-        "subscribers": "144K"
       },
       {
         "name": "Orange Spiny Crab",
@@ -4685,6 +4721,11 @@
         "name": "KOHAKU",
         "browse_id": "UCX2InxEN5MTaps9lcfio8Zw",
         "subscribers": "106K"
+      },
+      {
+        "name": "PERKERS",
+        "browse_id": "UCDuET5BNAZkXySSy4RU-QHw",
+        "subscribers": "18.7K"
       }
     ],
     "ytm_top_songs": [
@@ -5344,6 +5385,12 @@
           "views": 5162409,
           "likes": 22288,
           "comments": 55
+        },
+        {
+          "date": "2026-07-28",
+          "views": 5177709,
+          "likes": 22364,
+          "comments": 55
         }
       ]
     },
@@ -5966,6 +6013,12 @@
           "date": "2026-07-27",
           "views": 5657664,
           "likes": 25981,
+          "comments": 47
+        },
+        {
+          "date": "2026-07-28",
+          "views": 5673747,
+          "likes": 26066,
           "comments": 47
         }
       ]
@@ -6602,6 +6655,12 @@
           "views": 3051943,
           "likes": 15881,
           "comments": 39
+        },
+        {
+          "date": "2026-07-28",
+          "views": 3060968,
+          "likes": 15922,
+          "comments": 39
         }
       ]
     },
@@ -7225,6 +7284,12 @@
           "views": 3485134,
           "likes": 20181,
           "comments": 43
+        },
+        {
+          "date": "2026-07-28",
+          "views": 3494109,
+          "likes": 20236,
+          "comments": 43
         }
       ]
     },
@@ -7721,6 +7786,12 @@
           "date": "2026-07-27",
           "views": 2737040,
           "likes": 11520,
+          "comments": 29
+        },
+        {
+          "date": "2026-07-28",
+          "views": 2745479,
+          "likes": 11557,
           "comments": 29
         }
       ]
@@ -8503,6 +8574,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-24T15:36:19.760816+00:00"
+    },
+    {
+      "date": "2026-07-28",
+      "metric": "youtube_total_views",
+      "value": 588727874,
+      "baseline_mean": 581608203.7,
+      "baseline_stddev": 3423411.6,
+      "delta": 7119670,
+      "score": 2.08,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-28T16:14:13.297541+00:00"
     }
   ]
 }
