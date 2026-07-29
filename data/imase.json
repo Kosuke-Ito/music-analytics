@@ -4379,6 +4379,47 @@
       "ytm_subscribers": 1370000,
       "ytm_monthly_listeners": 53400000,
       "ytm_total_views": 874634301
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 4284313,
+      "collected_at": "2026-07-29T15:56:48.840330+00:00",
+      "spotify_followers": 1045122,
+      "youtube_subscribers": 1370000,
+      "youtube_total_views": 887043880,
+      "youtube_video_count": 791,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 70401
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 68266
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 57994
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 53501
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 50270
+        }
+      ],
+      "lastfm_listeners": 432167,
+      "lastfm_playcount": 6097125,
+      "ytm_subscribers": 1370000,
+      "ytm_monthly_listeners": 53400000,
+      "ytm_total_views": 883380594
     }
   ],
   "annotations": [
@@ -4686,9 +4727,24 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "RETRORIRON",
+        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
+        "subscribers": "312K"
+      },
+      {
+        "name": "tonun",
+        "browse_id": "UC9XSYahwHXgJnG_7opHAdmQ",
+        "subscribers": "85K"
+      },
+      {
+        "name": "YOASOBI",
+        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
+        "subscribers": "40.5M"
+      },
+      {
         "name": "4na",
         "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
-        "subscribers": "251K"
+        "subscribers": "259K"
       },
       {
         "name": "KERENMI",
@@ -4708,7 +4764,7 @@
       {
         "name": "DURDN",
         "browse_id": "UC_wwk0oTYSA2nyXutkLk_PA",
-        "subscribers": "128K"
+        "subscribers": "133K"
       },
       {
         "name": "Mel",
@@ -4719,21 +4775,6 @@
         "name": "Kubotakai",
         "browse_id": "UC-3uPwN6iLuQ5-hHMqtFV1A",
         "subscribers": "223K"
-      },
-      {
-        "name": "tonun",
-        "browse_id": "UC9XSYahwHXgJnG_7opHAdmQ",
-        "subscribers": "85K"
-      },
-      {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "40.5M"
-      },
-      {
-        "name": "RETRORIRON",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "312K"
       }
     ],
     "ytm_top_songs": [
@@ -5375,6 +5416,12 @@
           "views": 146255397,
           "likes": 1179550,
           "comments": 6324
+        },
+        {
+          "date": "2026-07-29",
+          "views": 146366659,
+          "likes": 1180692,
+          "comments": 6328
         }
       ]
     },
@@ -5991,6 +6038,12 @@
           "date": "2026-07-28",
           "views": 8331040,
           "likes": 60883,
+          "comments": 169
+        },
+        {
+          "date": "2026-07-29",
+          "views": 8339844,
+          "likes": 60935,
           "comments": 169
         }
       ]
@@ -7136,6 +7189,12 @@
           "views": 11926402,
           "likes": 52417,
           "comments": 157
+        },
+        {
+          "date": "2026-07-29",
+          "views": 11934369,
+          "likes": 52435,
+          "comments": 157
         }
       ]
     },
@@ -7878,6 +7937,12 @@
           "views": 6930045,
           "likes": 39962,
           "comments": 214
+        },
+        {
+          "date": "2026-07-29",
+          "views": 6940175,
+          "likes": 40005,
+          "comments": 214
         }
       ]
     },
@@ -7972,6 +8037,12 @@
           "date": "2026-07-28",
           "views": 222654,
           "likes": 3690,
+          "comments": 62
+        },
+        {
+          "date": "2026-07-29",
+          "views": 230591,
+          "likes": 3765,
           "comments": 62
         }
       ]
@@ -8745,6 +8816,18 @@
       "type": "annotated",
       "related_annotation": "imase新曲「Fiction」を配信リリース",
       "detected_at": "2026-07-12T15:00:17.740395+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "youtube_total_views",
+      "value": 887043880,
+      "baseline_mean": 876003770.9,
+      "baseline_stddev": 2791894.1,
+      "delta": 11040109,
+      "score": 3.95,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-29T15:56:50.272925+00:00"
     }
   ]
 }

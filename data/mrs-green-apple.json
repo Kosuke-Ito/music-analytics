@@ -4689,6 +4689,47 @@
       "ytm_subscribers": 6390000,
       "ytm_monthly_listeners": 35400000,
       "ytm_total_views": 6724958287
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 7657473,
+      "collected_at": "2026-07-29T15:49:59.221177+00:00",
+      "spotify_followers": 7360499,
+      "youtube_subscribers": 6390000,
+      "youtube_total_views": 6940943909,
+      "youtube_video_count": 847,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 389748
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 341945
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 241740
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 144627
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 119350
+        }
+      ],
+      "lastfm_listeners": 456697,
+      "lastfm_playcount": 12817119,
+      "ytm_subscribers": 6390000,
+      "ytm_monthly_listeners": 36100000,
+      "ytm_total_views": 6724958287
     }
   ],
   "annotations": [
@@ -6019,6 +6060,12 @@
           "views": 29578726,
           "likes": 160429,
           "comments": 2392
+        },
+        {
+          "date": "2026-07-29",
+          "views": 29660550,
+          "likes": 160590,
+          "comments": 2395
         }
       ]
     },
@@ -6666,6 +6713,12 @@
           "views": 152949725,
           "likes": 549755,
           "comments": 6082
+        },
+        {
+          "date": "2026-07-29",
+          "views": 153064368,
+          "likes": 549960,
+          "comments": 6082
         }
       ]
     },
@@ -7312,6 +7365,12 @@
           "date": "2026-07-28",
           "views": 60382276,
           "likes": 232706,
+          "comments": 453
+        },
+        {
+          "date": "2026-07-29",
+          "views": 60410952,
+          "likes": 232810,
           "comments": 453
         }
       ]
@@ -8550,6 +8609,12 @@
           "views": 107506860,
           "likes": 353156,
           "comments": 1872
+        },
+        {
+          "date": "2026-07-29",
+          "views": 107585263,
+          "likes": 353399,
+          "comments": 1875
         }
       ]
     },
@@ -8627,6 +8692,12 @@
           "views": 7179587,
           "likes": 124463,
           "comments": 7819
+        },
+        {
+          "date": "2026-07-29",
+          "views": 7462081,
+          "likes": 126210,
+          "comments": 7922
         }
       ]
     }
@@ -9123,6 +9194,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-28T16:04:26.287718+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "ytm_monthly_listeners",
+      "value": 36100000,
+      "baseline_mean": 34090000,
+      "baseline_stddev": 947048.0,
+      "delta": 2010000,
+      "score": 2.12,
+      "type": "annotated",
+      "related_annotation": "新曲「Brand New」がスパイダーマン最新作の日本版主題歌に起用され話題化（継続）",
+      "detected_at": "2026-07-29T15:50:00.181550+00:00"
     }
   ]
 }

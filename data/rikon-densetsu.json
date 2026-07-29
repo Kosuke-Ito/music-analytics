@@ -4501,6 +4501,47 @@
       "ytm_subscribers": 103000,
       "ytm_monthly_listeners": 305000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 427057,
+      "collected_at": "2026-07-29T15:45:54.044490+00:00",
+      "spotify_followers": 123965,
+      "youtube_subscribers": 103000,
+      "youtube_total_views": 50143087,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 23375
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 16515
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 11870
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 7608
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 5557
+        }
+      ],
+      "lastfm_listeners": 10264,
+      "lastfm_playcount": 168789,
+      "ytm_subscribers": 103000,
+      "ytm_monthly_listeners": 305000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4550,12 +4591,17 @@
       {
         "name": "MONKEY MAJIK",
         "browse_id": "UC3gcufb-KpdT9XbSf0vug3g",
-        "subscribers": "1.11M"
+        "subscribers": "1.1M"
+      },
+      {
+        "name": "Suchmos",
+        "browse_id": "UCTjMLOtWrtmd9c2K_H3KQHw",
+        "subscribers": "962K"
       },
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "94.4K"
+        "subscribers": "90.2K"
       },
       {
         "name": "FRIENDS",
@@ -4576,21 +4622,16 @@
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
         "subscribers": "93.2K"
-      },
-      {
-        "name": "First Love is Never Returned",
-        "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "98K"
       }
     ],
     "ytm_top_songs": [
       {
-        "title": "ファーストキス - First Kiss",
-        "video_id": "GNcmdFABHnU"
-      },
-      {
         "title": "大空港 - The Terminal",
         "video_id": "g_w_3gFfUGg"
+      },
+      {
+        "title": "ファーストキス - First Kiss",
+        "video_id": "GNcmdFABHnU"
       },
       {
         "title": "紫陽花 - Honesty",
@@ -5245,6 +5286,12 @@
           "views": 54461,
           "likes": 481,
           "comments": 6
+        },
+        {
+          "date": "2026-07-29",
+          "views": 54701,
+          "likes": 483,
+          "comments": 6
         }
       ]
     },
@@ -5884,6 +5931,12 @@
         {
           "date": "2026-07-28",
           "views": 45050,
+          "likes": 445,
+          "comments": 4
+        },
+        {
+          "date": "2026-07-29",
+          "views": 45147,
           "likes": 445,
           "comments": 4
         }
@@ -6526,6 +6579,12 @@
           "date": "2026-07-28",
           "views": 238366,
           "likes": 2095,
+          "comments": 12
+        },
+        {
+          "date": "2026-07-29",
+          "views": 238724,
+          "likes": 2097,
           "comments": 12
         }
       ]
@@ -7737,6 +7796,12 @@
           "views": 89635,
           "likes": 828,
           "comments": 8
+        },
+        {
+          "date": "2026-07-29",
+          "views": 89904,
+          "likes": 830,
+          "comments": 8
         }
       ]
     },
@@ -7835,6 +7900,12 @@
           "views": 9551,
           "likes": 112,
           "comments": 2
+        },
+        {
+          "date": "2026-07-29",
+          "views": 12643,
+          "likes": 126,
+          "comments": 3
         }
       ]
     }
@@ -8308,6 +8379,18 @@
       "type": "annotated",
       "related_annotation": "新曲「大空港」がドラマ『大空港～GATE24～』主題歌としてMV公開（7/24）、YouTube総再生数が急増",
       "detected_at": "2026-07-28T16:00:04.639735+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "youtube_total_views",
+      "value": 50143087,
+      "baseline_mean": 48749885.3,
+      "baseline_stddev": 458418.1,
+      "delta": 1393201,
+      "score": 3.04,
+      "type": "annotated",
+      "related_annotation": "新曲「大空港」MV公開・ドラマ主題歌起用の反響が継続",
+      "detected_at": "2026-07-29T15:45:55.109305+00:00"
     }
   ]
 }

@@ -4391,6 +4391,47 @@
       "ytm_subscribers": 1680000,
       "ytm_monthly_listeners": 6800000,
       "ytm_total_views": 1821198073
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 2411391,
+      "collected_at": "2026-07-29T16:00:43.830603+00:00",
+      "spotify_followers": 1651371,
+      "youtube_subscribers": 1680000,
+      "youtube_total_views": 1838015486,
+      "youtube_video_count": 182,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 107116
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 84046
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 61237
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 37660
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 25061
+        }
+      ],
+      "lastfm_listeners": 312022,
+      "lastfm_playcount": 21491865,
+      "ytm_subscribers": 1680000,
+      "ytm_monthly_listeners": 6800000,
+      "ytm_total_views": 1821198073
     }
   ],
   "metadata": {
@@ -4427,7 +4468,7 @@
       {
         "name": "星野源 Gen Hoshino",
         "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
-        "subscribers": "8.62M"
+        "subscribers": "8.45M"
       },
       {
         "name": "Remioromen",
@@ -4450,11 +4491,6 @@
         "subscribers": "680K"
       },
       {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "1.78M"
-      },
-      {
         "name": "Kenshi Yonezu",
         "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
         "subscribers": "76.7M"
@@ -4468,6 +4504,11 @@
         "name": "UNISON SQUARE GARDEN",
         "browse_id": "UChFTfYfNgEmGAqMuN7Yxlsg",
         "subscribers": "6.3M"
+      },
+      {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "1.77M"
       },
       {
         "name": "amazarashi",
@@ -5138,6 +5179,12 @@
           "views": 23720011,
           "likes": 79452,
           "comments": 279
+        },
+        {
+          "date": "2026-07-29",
+          "views": 23747051,
+          "likes": 79529,
+          "comments": 282
         }
       ]
     },
@@ -5779,6 +5826,12 @@
           "views": 14381309,
           "likes": 95357,
           "comments": 936
+        },
+        {
+          "date": "2026-07-29",
+          "views": 14415085,
+          "likes": 95504,
+          "comments": 937
         }
       ]
     },
@@ -6473,6 +6526,12 @@
           "views": 98531937,
           "likes": 480365,
           "comments": 6122
+        },
+        {
+          "date": "2026-07-29",
+          "views": 98566560,
+          "likes": 480462,
+          "comments": 6123
         }
       ]
     },
@@ -7114,6 +7173,12 @@
           "views": 49426226,
           "likes": 137213,
           "comments": 284
+        },
+        {
+          "date": "2026-07-29",
+          "views": 49458153,
+          "likes": 137319,
+          "comments": 284
         }
       ]
     },
@@ -7711,6 +7776,12 @@
           "date": "2026-07-28",
           "views": 20787116,
           "likes": 50680,
+          "comments": 69
+        },
+        {
+          "date": "2026-07-29",
+          "views": 20801461,
+          "likes": 50711,
           "comments": 69
         }
       ]
@@ -8610,6 +8681,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-28T16:15:21.340066+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "monthly_listeners",
+      "value": 2411391,
+      "baseline_mean": 2358561.1,
+      "baseline_stddev": 20865.3,
+      "delta": 52829,
+      "score": 2.53,
+      "type": "annotated",
+      "related_annotation": "夏フェス出演と漫画コラボ映像公開が重なり露出増加",
+      "detected_at": "2026-07-29T16:00:46.286257+00:00"
     }
   ]
 }

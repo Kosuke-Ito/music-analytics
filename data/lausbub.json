@@ -4697,6 +4697,47 @@
       "ytm_subscribers": 19300,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 785791
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 88791,
+      "collected_at": "2026-07-29T15:51:55.081365+00:00",
+      "spotify_followers": 20768,
+      "youtube_subscribers": 19300,
+      "youtube_total_views": 843992,
+      "youtube_video_count": 32,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3646
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 2715
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1959
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1067
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 949
+        }
+      ],
+      "lastfm_listeners": 8872,
+      "lastfm_playcount": 52689,
+      "ytm_subscribers": 19300,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 793717
     }
   ],
   "annotations": [
@@ -4962,12 +5003,12 @@
         "video_id": "QHb9J4x7Dpo"
       },
       {
-        "title": "I SYNC",
-        "video_id": "WNuhOOwtvH0"
-      },
-      {
         "title": "golden lighter",
         "video_id": "4lbafutZHSU"
+      },
+      {
+        "title": "I SYNC",
+        "video_id": "WNuhOOwtvH0"
       },
       {
         "title": "Wind City",
@@ -5514,6 +5555,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-28T16:06:25.575342+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "monthly_listeners",
+      "value": 88791,
+      "baseline_mean": 70765.4,
+      "baseline_stddev": 7875.1,
+      "delta": 18025,
+      "score": 2.29,
+      "type": "annotated",
+      "related_annotation": "メジャーデビュー発表とフジロック出演が重なり露出増",
+      "detected_at": "2026-07-29T15:51:56.158321+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "youtube_total_views",
+      "value": 843992,
+      "baseline_mean": 816274.5,
+      "baseline_stddev": 13406.6,
+      "delta": 27717,
+      "score": 2.07,
+      "type": "annotated",
+      "related_annotation": "メジャーデビュー発表とフジロック出演が重なり露出増",
+      "detected_at": "2026-07-29T15:51:56.158321+00:00"
     }
   ],
   "song_performance": {
@@ -6154,6 +6219,12 @@
           "date": "2026-07-28",
           "views": 4568,
           "likes": 95,
+          "comments": 1
+        },
+        {
+          "date": "2026-07-29",
+          "views": 4605,
+          "likes": 96,
           "comments": 1
         }
       ]
@@ -6796,6 +6867,12 @@
           "views": 7724,
           "likes": 190,
           "comments": 6
+        },
+        {
+          "date": "2026-07-29",
+          "views": 7748,
+          "likes": 191,
+          "comments": 6
         }
       ]
     },
@@ -7437,6 +7514,12 @@
           "views": 23304,
           "likes": 211,
           "comments": 2
+        },
+        {
+          "date": "2026-07-29",
+          "views": 23346,
+          "likes": 211,
+          "comments": 2
         }
       ]
     },
@@ -8076,6 +8159,12 @@
         {
           "date": "2026-07-28",
           "views": 13482,
+          "likes": 208,
+          "comments": 1
+        },
+        {
+          "date": "2026-07-29",
+          "views": 13497,
           "likes": 208,
           "comments": 1
         }
@@ -8728,6 +8817,12 @@
           "date": "2026-07-28",
           "views": 7788,
           "likes": 143,
+          "comments": 2
+        },
+        {
+          "date": "2026-07-29",
+          "views": 7861,
+          "likes": 146,
           "comments": 2
         }
       ]

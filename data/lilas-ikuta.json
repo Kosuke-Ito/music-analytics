@@ -4501,6 +4501,47 @@
       "ytm_subscribers": 1010000,
       "ytm_monthly_listeners": 18400000,
       "ytm_total_views": 432490839
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 2672244,
+      "collected_at": "2026-07-29T15:46:58.740678+00:00",
+      "spotify_followers": 1025046,
+      "youtube_subscribers": 1010000,
+      "youtube_total_views": 433874885,
+      "youtube_video_count": 54,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 83782
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 74707
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 55188
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 42788
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 30955
+        }
+      ],
+      "lastfm_listeners": 19818,
+      "lastfm_playcount": 354552,
+      "ytm_subscribers": 1010000,
+      "ytm_monthly_listeners": 18100000,
+      "ytm_total_views": 432490839
     }
   ],
   "annotations": [
@@ -4835,19 +4876,14 @@
         "subscribers": "326K"
       },
       {
+        "name": "ATARAYO",
+        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
+        "subscribers": "1.67M"
+      },
+      {
         "name": "Zarame",
         "browse_id": "UCsXbUCnV9SqRGkaO2ifzkBw",
         "subscribers": "289K"
-      },
-      {
-        "name": "ATARAYO",
-        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
-        "subscribers": "1.55M"
-      },
-      {
-        "name": "Ren",
-        "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
-        "subscribers": "408K"
       },
       {
         "name": "Uru",
@@ -4855,24 +4891,29 @@
         "subscribers": "20.9M"
       },
       {
+        "name": "Ren",
+        "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
+        "subscribers": "408K"
+      },
+      {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
         "subscribers": "4.26M"
       },
       {
-        "name": "suis from Yorushika",
-        "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
-        "subscribers": "32.2K"
-      },
-      {
         "name": "Ai Higuchi",
         "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
-        "subscribers": "15.1M"
+        "subscribers": "14.8M"
       },
       {
-        "name": "UshioReira",
-        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
-        "subscribers": "709K"
+        "name": "suis from Yorushika",
+        "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
+        "subscribers": "32.3K"
+      },
+      {
+        "name": "Ryokuousyoku Syakai",
+        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
+        "subscribers": "6.33M"
       }
     ],
     "ytm_top_songs": [
@@ -5544,6 +5585,12 @@
           "views": 4142005,
           "likes": 37182,
           "comments": 77
+        },
+        {
+          "date": "2026-07-29",
+          "views": 4172431,
+          "likes": 37466,
+          "comments": 77
         }
       ]
     },
@@ -6184,6 +6231,12 @@
           "date": "2026-07-28",
           "views": 19203900,
           "likes": 87516,
+          "comments": 554
+        },
+        {
+          "date": "2026-07-29",
+          "views": 19232144,
+          "likes": 87568,
           "comments": 554
         }
       ]
@@ -6832,6 +6885,12 @@
           "views": 27789673,
           "likes": 178340,
           "comments": 1805
+        },
+        {
+          "date": "2026-07-29",
+          "views": 27798050,
+          "likes": 178337,
+          "comments": 1804
         }
       ]
     },
@@ -8000,6 +8059,12 @@
           "views": 31151182,
           "likes": 130619,
           "comments": 315
+        },
+        {
+          "date": "2026-07-29",
+          "views": 31165038,
+          "likes": 130656,
+          "comments": 315
         }
       ]
     },
@@ -8142,6 +8207,12 @@
           "views": 12338718,
           "likes": 119597,
           "comments": 105
+        },
+        {
+          "date": "2026-07-29",
+          "views": 12351627,
+          "likes": 119702,
+          "comments": 106
         }
       ]
     }
@@ -8470,6 +8541,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-28T16:01:13.210589+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "youtube_total_views",
+      "value": 433874885,
+      "baseline_mean": 428123906.6,
+      "baseline_stddev": 2282152.0,
+      "delta": 5750978,
+      "score": 2.52,
+      "type": "annotated",
+      "related_annotation": "sumikaとのコラボ楽曲「赤春花 (feat. 幾田りら)」MVがプレミア公開",
+      "detected_at": "2026-07-29T15:46:59.931535+00:00"
     }
   ]
 }

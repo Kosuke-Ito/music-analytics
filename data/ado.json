@@ -4676,6 +4676,47 @@
       "ytm_subscribers": 9400000,
       "ytm_monthly_listeners": 33299999,
       "ytm_total_views": 5482299952
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 6573365,
+      "collected_at": "2026-07-29T15:51:06.288232+00:00",
+      "spotify_followers": 7842833,
+      "youtube_subscribers": 9400000,
+      "youtube_total_views": 5540956101,
+      "youtube_video_count": 722,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 120626
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 94417
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 84961
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67933
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 67319
+        }
+      ],
+      "lastfm_listeners": 746394,
+      "lastfm_playcount": 91013085,
+      "ytm_subscribers": 9400000,
+      "ytm_monthly_listeners": 33299999,
+      "ytm_total_views": 5484360103
     }
   ],
   "annotations": [
@@ -5220,7 +5261,7 @@
       {
         "name": "9Lana",
         "browse_id": "UClZMIQn97IcvrdGviWz-qRw",
-        "subscribers": "11.2M"
+        "subscribers": "11M"
       },
       {
         "name": "meiyo",
@@ -5233,11 +5274,6 @@
         "subscribers": "4.03M"
       },
       {
-        "name": "Ayase",
-        "browse_id": "UCbqY3RHKkPS8dJCrfAfSk6Q",
-        "subscribers": "1.45M"
-      },
-      {
         "name": "Eve",
         "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
         "subscribers": "16.5M"
@@ -5245,7 +5281,12 @@
       {
         "name": "Phantom Siita",
         "browse_id": "UCmxhcgwNYxtU7aSbzWGMKVA",
-        "subscribers": "1.43M"
+        "subscribers": "1.35M"
+      },
+      {
+        "name": "Ayase",
+        "browse_id": "UCbqY3RHKkPS8dJCrfAfSk6Q",
+        "subscribers": "1.39M"
       }
     ],
     "ytm_top_songs": [
@@ -6546,6 +6587,12 @@
           "views": 33012830,
           "likes": 216527,
           "comments": 864
+        },
+        {
+          "date": "2026-07-29",
+          "views": 33056665,
+          "likes": 216748,
+          "comments": 867
         }
       ]
     },
@@ -7168,6 +7215,12 @@
           "date": "2026-07-28",
           "views": 53644833,
           "likes": 493164,
+          "comments": 2152
+        },
+        {
+          "date": "2026-07-29",
+          "views": 53681028,
+          "likes": 493501,
           "comments": 2152
         }
       ]
@@ -7905,6 +7958,12 @@
           "views": 69280497,
           "likes": 362511,
           "comments": 751
+        },
+        {
+          "date": "2026-07-29",
+          "views": 69319888,
+          "likes": 362668,
+          "comments": 752
         }
       ]
     },
@@ -8394,6 +8453,12 @@
           "views": 98035454,
           "likes": 543142,
           "comments": 1051
+        },
+        {
+          "date": "2026-07-29",
+          "views": 98068434,
+          "likes": 543281,
+          "comments": 1051
         }
       ]
     },
@@ -8525,6 +8590,12 @@
           "views": 1224690,
           "likes": 33200,
           "comments": 667
+        },
+        {
+          "date": "2026-07-29",
+          "views": 1258076,
+          "likes": 33550,
+          "comments": 676
         }
       ]
     }
@@ -8985,6 +9056,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-28T16:05:34.884562+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "youtube_total_views",
+      "value": 5540956101,
+      "baseline_mean": 5493356517.4,
+      "baseline_stddev": 21545710.6,
+      "delta": 47599583,
+      "score": 2.21,
+      "type": "annotated",
+      "related_annotation": "日産スタジアム公演とW杯アンセム「綺羅」の相乗効果によるチャンネル総再生数の押し上げ",
+      "detected_at": "2026-07-29T15:51:07.831242+00:00"
     }
   ]
 }

@@ -4394,6 +4394,47 @@
       "ytm_subscribers": 597000,
       "ytm_monthly_listeners": 4910000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 3007819,
+      "collected_at": "2026-07-29T15:59:19.146715+00:00",
+      "spotify_followers": 2025384,
+      "youtube_subscribers": 597000,
+      "youtube_total_views": 510192446,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 156894
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 150579
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 107039
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 61647
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 56684
+        }
+      ],
+      "lastfm_listeners": 7814,
+      "lastfm_playcount": 461754,
+      "ytm_subscribers": 597000,
+      "ytm_monthly_listeners": 4910000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4767,7 +4808,7 @@
       {
         "name": "go!go!vanillas",
         "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
-        "subscribers": "636K"
+        "subscribers": "627K"
       },
       {
         "name": "SHISHAMO",
@@ -4777,7 +4818,7 @@
       {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "4.8M"
+        "subscribers": "4.54M"
       },
       {
         "name": "back number",
@@ -5455,6 +5496,12 @@
           "views": 12618846,
           "likes": 71745,
           "comments": 146
+        },
+        {
+          "date": "2026-07-29",
+          "views": 12636331,
+          "likes": 71834,
+          "comments": 146
         }
       ]
     },
@@ -6084,6 +6131,12 @@
           "views": 25196677,
           "likes": 92099,
           "comments": 177
+        },
+        {
+          "date": "2026-07-29",
+          "views": 25218529,
+          "likes": 92180,
+          "comments": 178
         }
       ]
     },
@@ -6701,6 +6754,12 @@
           "views": 17269182,
           "likes": 63750,
           "comments": 117
+        },
+        {
+          "date": "2026-07-29",
+          "views": 17285758,
+          "likes": 63808,
+          "comments": 117
         }
       ]
     },
@@ -7240,6 +7299,12 @@
           "views": 45616888,
           "likes": 141571,
           "comments": 243
+        },
+        {
+          "date": "2026-07-29",
+          "views": 45636524,
+          "likes": 141651,
+          "comments": 244
         }
       ]
     },
@@ -7760,6 +7825,12 @@
           "views": 15370041,
           "likes": 90601,
           "comments": 508
+        },
+        {
+          "date": "2026-07-29",
+          "views": 15414558,
+          "likes": 90886,
+          "comments": 511
         }
       ]
     },
@@ -8891,6 +8962,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-07-27T16:22:51.532032+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "youtube_total_views",
+      "value": 510192446,
+      "baseline_mean": 502278233.7,
+      "baseline_stddev": 3799728.9,
+      "delta": 7914212,
+      "score": 2.08,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-29T15:59:20.585116+00:00"
     }
   ]
 }

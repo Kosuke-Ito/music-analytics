@@ -4688,6 +4688,47 @@
       "ytm_subscribers": 39900000,
       "ytm_monthly_listeners": 243000000,
       "ytm_total_views": 37081466047
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 113317593,
+      "collected_at": "2026-07-29T15:54:07.070036+00:00",
+      "spotify_followers": 125645662,
+      "youtube_subscribers": 39900000,
+      "youtube_total_views": 37090873902,
+      "youtube_video_count": 204,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1575966
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1520684
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1491905
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 991034
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 939645
+        }
+      ],
+      "lastfm_listeners": 5456807,
+      "lastfm_playcount": 1166234786,
+      "ytm_subscribers": 39900000,
+      "ytm_monthly_listeners": 251000000,
+      "ytm_total_views": 37081466047
     }
   ],
   "annotations": [
@@ -4957,7 +4998,7 @@
       {
         "name": "Rihanna",
         "browse_id": "UCvWtix2TtWGe9kffqnwdaMw",
-        "subscribers": "304M"
+        "subscribers": "300M"
       },
       {
         "name": "Lily Rose Depp",
@@ -4980,19 +5021,14 @@
         "subscribers": "176M"
       },
       {
-        "name": "Miguel",
-        "browse_id": "UCKskshF_wMq6fCRsQY60kSg",
-        "subscribers": "22.8M"
-      },
-      {
         "name": "Selena Gomez",
         "browse_id": "UCeBYRgPhy8kcRmIGQWKuqdQ",
         "subscribers": "266M"
       },
       {
-        "name": "Drake",
-        "browse_id": "UCU6cE7pdJPc6DU2jSrKEsdQ",
-        "subscribers": "136M"
+        "name": "Miguel",
+        "browse_id": "UCKskshF_wMq6fCRsQY60kSg",
+        "subscribers": "23.1M"
       },
       {
         "name": "Justin Bieber",
@@ -5000,9 +5036,14 @@
         "subscribers": "529M"
       },
       {
-        "name": "ZAYN",
-        "browse_id": "UCYR9erHSNBPjjNswR4FrMaw",
-        "subscribers": "45.6M"
+        "name": "Drake",
+        "browse_id": "UCU6cE7pdJPc6DU2jSrKEsdQ",
+        "subscribers": "136M"
+      },
+      {
+        "name": "Swae Lee",
+        "browse_id": "UCOrhSH-BVuBUAKk_rWRJFqQ",
+        "subscribers": "78.8M"
       }
     ],
     "ytm_top_songs": [
@@ -5281,6 +5322,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-27T16:17:41.388771+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "ytm_monthly_listeners",
+      "value": 251000000,
+      "baseline_mean": 230733333.3,
+      "baseline_stddev": 6923069.3,
+      "delta": 20266666,
+      "score": 2.93,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-29T15:54:08.258642+00:00"
     }
   ],
   "song_performance": {
@@ -5928,6 +5981,12 @@
           "views": 597968291,
           "likes": 3926048,
           "comments": 7128
+        },
+        {
+          "date": "2026-07-29",
+          "views": 598306919,
+          "likes": 3928021,
+          "comments": 7130
         }
       ]
     },
@@ -6569,6 +6628,12 @@
           "views": 641410474,
           "likes": 4336711,
           "comments": 9646
+        },
+        {
+          "date": "2026-07-29",
+          "views": 641815283,
+          "likes": 4339175,
+          "comments": 9658
         }
       ]
     },
@@ -7216,6 +7281,12 @@
           "views": 364985161,
           "likes": 2981018,
           "comments": 7716
+        },
+        {
+          "date": "2026-07-29",
+          "views": 365306833,
+          "likes": 2983165,
+          "comments": 7721
         }
       ]
     },
@@ -7857,6 +7928,12 @@
           "views": 972089969,
           "likes": 6669316,
           "comments": 23372
+        },
+        {
+          "date": "2026-07-29",
+          "views": 972467061,
+          "likes": 6671650,
+          "comments": 23373
         }
       ]
     },
@@ -8390,6 +8467,12 @@
           "views": 151590183,
           "likes": 1197186,
           "comments": 4683
+        },
+        {
+          "date": "2026-07-29",
+          "views": 151800376,
+          "likes": 1198479,
+          "comments": 4687
         }
       ]
     },

@@ -4385,6 +4385,47 @@
       "ytm_subscribers": 2140000,
       "ytm_monthly_listeners": 19900000,
       "ytm_total_views": 2825738270
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 6169225,
+      "collected_at": "2026-07-29T15:55:42.739761+00:00",
+      "spotify_followers": 6778525,
+      "youtube_subscribers": 2140000,
+      "youtube_total_views": 2866905146,
+      "youtube_video_count": 266,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 367813
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 348359
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 240748
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 140228
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 133000
+        }
+      ],
+      "lastfm_listeners": 132456,
+      "lastfm_playcount": 6503427,
+      "ytm_subscribers": 2140000,
+      "ytm_monthly_listeners": 19900000,
+      "ytm_total_views": 2827469949
     }
   ],
   "annotations": [
@@ -4752,7 +4793,7 @@
       {
         "name": "SUKIMASWITCH",
         "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "4.74M"
+        "subscribers": "4.64M"
       },
       {
         "name": "Motohiro Hata",
@@ -4772,7 +4813,7 @@
       {
         "name": "Marcy",
         "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.62M"
+        "subscribers": "1.75M"
       },
       {
         "name": "Ikimonogakari",
@@ -4780,24 +4821,24 @@
         "subscribers": "18.4M"
       },
       {
-        "name": "Masanori Otoda",
-        "browse_id": "UCCmU7XwwWAM0j5TVhcTERLg",
-        "subscribers": "2.5M"
-      },
-      {
         "name": "Takaya Kawasaki",
         "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
-        "subscribers": "2.27M"
+        "subscribers": "2.33M"
       },
       {
-        "name": "wacci",
-        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
-        "subscribers": "1.64M"
+        "name": "Masanori Otoda",
+        "browse_id": "UCCmU7XwwWAM0j5TVhcTERLg",
+        "subscribers": "2.63M"
       },
       {
         "name": "Ken Hirai",
         "browse_id": "UCjV108-_g6HUrmoKOt5-QIw",
         "subscribers": "1.58M"
+      },
+      {
+        "name": "wacci",
+        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
+        "subscribers": "1.64M"
       }
     ],
     "ytm_top_songs": [
@@ -5457,6 +5498,12 @@
           "views": 60315601,
           "likes": 200608,
           "comments": 594
+        },
+        {
+          "date": "2026-07-29",
+          "views": 60366750,
+          "likes": 200760,
+          "comments": 594
         }
       ]
     },
@@ -6085,6 +6132,12 @@
           "date": "2026-07-28",
           "views": 48724997,
           "likes": 181557,
+          "comments": 759
+        },
+        {
+          "date": "2026-07-29",
+          "views": 48782597,
+          "likes": 181745,
           "comments": 759
         }
       ]
@@ -6715,6 +6768,12 @@
           "views": 65359635,
           "likes": 212042,
           "comments": 615
+        },
+        {
+          "date": "2026-07-29",
+          "views": 65405589,
+          "likes": 212230,
+          "comments": 622
         }
       ]
     },
@@ -7350,6 +7409,12 @@
           "views": 62764950,
           "likes": 213173,
           "comments": 661
+        },
+        {
+          "date": "2026-07-29",
+          "views": 62825338,
+          "likes": 213351,
+          "comments": 661
         }
       ]
     },
@@ -7984,6 +8049,12 @@
           "date": "2026-07-28",
           "views": 24205478,
           "likes": 103737,
+          "comments": 507
+        },
+        {
+          "date": "2026-07-29",
+          "views": 24251593,
+          "likes": 103934,
           "comments": 507
         }
       ]
@@ -8726,6 +8797,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-07-28T16:10:15.503903+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "youtube_total_views",
+      "value": 2866905146,
+      "baseline_mean": 2830303639.2,
+      "baseline_stddev": 17287296.4,
+      "delta": 36601506,
+      "score": 2.12,
+      "type": "annotated",
+      "related_annotation": "前日の急上昇分が同水準で継続（原因不明）",
+      "detected_at": "2026-07-29T15:55:44.498944+00:00"
     }
   ]
 }

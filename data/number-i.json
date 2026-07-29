@@ -4385,6 +4385,47 @@
       "ytm_subscribers": 1050000,
       "ytm_monthly_listeners": 8460000,
       "ytm_total_views": 813093929
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 1091142,
+      "collected_at": "2026-07-29T16:01:02.083575+00:00",
+      "spotify_followers": 378373,
+      "youtube_subscribers": 1050000,
+      "youtube_total_views": 919154982,
+      "youtube_video_count": 485,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 47003
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 46851
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 36855
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 16496
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 15893
+        }
+      ],
+      "lastfm_listeners": 23622,
+      "lastfm_playcount": 693073,
+      "ytm_subscribers": 1050000,
+      "ytm_monthly_listeners": 8460000,
+      "ytm_total_views": 813658355
     }
   ],
   "metadata": {
@@ -4419,14 +4460,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Travis Japan",
-        "browse_id": "UC0CJ4qxy9mgHNhO2d_sqBuw",
-        "subscribers": "1.15M"
-      },
-      {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
         "subscribers": "2.21M"
+      },
+      {
+        "name": "Travis Japan",
+        "browse_id": "UC0CJ4qxy9mgHNhO2d_sqBuw",
+        "subscribers": "1.15M"
       },
       {
         "name": "SixTONES",
@@ -4434,14 +4475,14 @@
         "subscribers": "14.3M"
       },
       {
-        "name": "Naniwa Danshi",
-        "browse_id": "UC2czdqI9sjz5kz73sU3EGbQ",
-        "subscribers": "4.32M"
-      },
-      {
         "name": "INI",
         "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
         "subscribers": "4.14M"
+      },
+      {
+        "name": "Naniwa Danshi",
+        "browse_id": "UC2czdqI9sjz5kz73sU3EGbQ",
+        "subscribers": "4.32M"
       },
       {
         "name": "NiziU",
@@ -4449,14 +4490,14 @@
         "subscribers": "8.29M"
       },
       {
-        "name": "timelesz",
-        "browse_id": "UC5mIZ4PxoBa5aqxEnyLUpDw",
-        "subscribers": "3.52M"
-      },
-      {
         "name": "JO1",
         "browse_id": "UCWyo-2Efw9aSmemM3LluERg",
         "subscribers": "4.14M"
+      },
+      {
+        "name": "timelesz",
+        "browse_id": "UC5mIZ4PxoBa5aqxEnyLUpDw",
+        "subscribers": "3.32M"
       },
       {
         "name": "BE:FIRST",
@@ -7362,6 +7403,12 @@
           "views": 44968,
           "likes": 621,
           "comments": 8
+        },
+        {
+          "date": "2026-07-29",
+          "views": 45958,
+          "likes": 632,
+          "comments": 8
         }
       ]
     },
@@ -7519,6 +7566,12 @@
           "views": 58753,
           "likes": 720,
           "comments": 38
+        },
+        {
+          "date": "2026-07-29",
+          "views": 62174,
+          "likes": 747,
+          "comments": 40
         }
       ]
     },
@@ -7608,6 +7661,12 @@
           "views": 20157,
           "likes": 414,
           "comments": 3
+        },
+        {
+          "date": "2026-07-29",
+          "views": 21487,
+          "likes": 422,
+          "comments": 3
         }
       ]
     },
@@ -7696,6 +7755,12 @@
           "date": "2026-07-28",
           "views": 15895,
           "likes": 372,
+          "comments": 2
+        },
+        {
+          "date": "2026-07-29",
+          "views": 16961,
+          "likes": 382,
           "comments": 2
         }
       ]
@@ -7791,6 +7856,12 @@
           "views": 410774,
           "likes": 14077,
           "comments": 572
+        },
+        {
+          "date": "2026-07-29",
+          "views": 423458,
+          "likes": 14124,
+          "comments": 575
         }
       ]
     }
@@ -8689,6 +8760,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-28T16:15:38.364726+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "monthly_listeners",
+      "value": 1091142,
+      "baseline_mean": 989782.7,
+      "baseline_stddev": 47109.5,
+      "delta": 101359,
+      "score": 2.15,
+      "type": "annotated",
+      "related_annotation": "新曲「BUGS LIFE」リリースで急上昇",
+      "detected_at": "2026-07-29T16:01:04.524763+00:00"
     }
   ]
 }

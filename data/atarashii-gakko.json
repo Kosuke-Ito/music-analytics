@@ -4388,6 +4388,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 3610000,
       "ytm_total_views": 584010076
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 862036,
+      "collected_at": "2026-07-29T16:00:25.046220+00:00",
+      "spotify_followers": 981128,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 607608221,
+      "youtube_video_count": 430,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20438
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13793
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 11523
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10997
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7733
+        }
+      ],
+      "lastfm_listeners": 8923,
+      "lastfm_playcount": 411296,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 3830000,
+      "ytm_total_views": 584010076
     }
   ],
   "metadata": {
@@ -4424,27 +4465,7 @@
       {
         "name": "Sheena Ringo",
         "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
-        "subscribers": "9.36M"
-      },
-      {
-        "name": "SHISHIDO KAVKA",
-        "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
-        "subscribers": "97.8K"
-      },
-      {
-        "name": "H ZETTRIO",
-        "browse_id": "UCJz7oJAi7slItVk-XP5mNPA",
-        "subscribers": "8.97K"
-      },
-      {
-        "name": "LADYBABY",
-        "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "123K"
-      },
-      {
-        "name": "uchikubigokumondoukoukai",
-        "browse_id": "UCfp91acTgHFcI9WZOOudwCQ",
-        "subscribers": "403K"
+        "subscribers": "9.85M"
       },
       {
         "name": "BAND-MAID",
@@ -4457,14 +4478,34 @@
         "subscribers": "733K"
       },
       {
-        "name": "Perfume",
-        "browse_id": "UCrht-oKwaPy5TqVp80yOuLg",
-        "subscribers": "4.33M"
+        "name": "SHISHIDO KAVKA",
+        "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
+        "subscribers": "94.8K"
+      },
+      {
+        "name": "H ZETTRIO",
+        "browse_id": "UCJz7oJAi7slItVk-XP5mNPA",
+        "subscribers": "8.98K"
+      },
+      {
+        "name": "LADYBABY",
+        "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
+        "subscribers": "123K"
+      },
+      {
+        "name": "uchikubigokumondoukoukai",
+        "browse_id": "UCfp91acTgHFcI9WZOOudwCQ",
+        "subscribers": "403K"
       },
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
         "subscribers": "337K"
+      },
+      {
+        "name": "Perfume",
+        "browse_id": "UCrht-oKwaPy5TqVp80yOuLg",
+        "subscribers": "4.33M"
       },
       {
         "name": "BRADIO",
@@ -5135,6 +5176,12 @@
           "views": 19515573,
           "likes": 278114,
           "comments": 425
+        },
+        {
+          "date": "2026-07-29",
+          "views": 19525829,
+          "likes": 278251,
+          "comments": 427
         }
       ]
     },
@@ -5776,6 +5823,12 @@
           "views": 5448499,
           "likes": 32054,
           "comments": 134
+        },
+        {
+          "date": "2026-07-29",
+          "views": 5450320,
+          "likes": 32066,
+          "comments": 134
         }
       ]
     },
@@ -6416,6 +6469,12 @@
           "date": "2026-07-28",
           "views": 2226961,
           "likes": 36966,
+          "comments": 112
+        },
+        {
+          "date": "2026-07-29",
+          "views": 2230318,
+          "likes": 37003,
           "comments": 112
         }
       ]
@@ -7670,6 +7729,12 @@
           "views": 277590,
           "likes": 8300,
           "comments": 220
+        },
+        {
+          "date": "2026-07-29",
+          "views": 279040,
+          "likes": 8316,
+          "comments": 220
         }
       ]
     },
@@ -7728,6 +7793,12 @@
           "date": "2026-07-28",
           "views": 48823,
           "likes": 2862,
+          "comments": 116
+        },
+        {
+          "date": "2026-07-29",
+          "views": 50539,
+          "likes": 2894,
           "comments": 116
         }
       ]
@@ -8462,6 +8533,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-28T16:15:04.218523+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "monthly_listeners",
+      "value": 862036,
+      "baseline_mean": 819778.6,
+      "baseline_stddev": 15760.5,
+      "delta": 42257,
+      "score": 2.68,
+      "type": "annotated",
+      "related_annotation": "4thアルバム『From Tokyo with Love』リリース＆海外フェス・単独公演で話題化",
+      "detected_at": "2026-07-29T16:00:26.996624+00:00"
     }
   ]
 }

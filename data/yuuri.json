@@ -4504,6 +4504,47 @@
       "ytm_subscribers": 1250000,
       "ytm_monthly_listeners": 9820000,
       "ytm_total_views": 1538900728
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 3235306,
+      "collected_at": "2026-07-29T15:44:35.020017+00:00",
+      "spotify_followers": 3431215,
+      "youtube_subscribers": 1250000,
+      "youtube_total_views": 1542473544,
+      "youtube_video_count": 81,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 115391
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 113452
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 83175
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67795
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 43878
+        }
+      ],
+      "lastfm_listeners": 31804,
+      "lastfm_playcount": 685380,
+      "ytm_subscribers": 1250000,
+      "ytm_monthly_listeners": 9820000,
+      "ytm_total_views": 1539432764
     }
   ],
   "annotations": [
@@ -4750,14 +4791,19 @@
         "subscribers": "289K"
       },
       {
+        "name": "Lilas",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "18.1M"
+      },
+      {
         "name": "Ren",
         "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
         "subscribers": "408K"
       },
       {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "18.4M"
+        "name": "Marcy",
+        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
+        "subscribers": "1.75M"
       },
       {
         "name": "yukasong",
@@ -4765,19 +4811,14 @@
         "subscribers": "7.41M"
       },
       {
-        "name": "Marcy",
-        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.62M"
+        "name": "TakaseToya",
+        "browse_id": "UC2AMNa5ERr83V61nupAkE6w",
+        "subscribers": "1.07M"
       },
       {
         "name": "Masanori Otoda",
         "browse_id": "UCCmU7XwwWAM0j5TVhcTERLg",
-        "subscribers": "2.5M"
-      },
-      {
-        "name": "TakaseToya",
-        "browse_id": "UC2AMNa5ERr83V61nupAkE6w",
-        "subscribers": "892K"
+        "subscribers": "2.63M"
       }
     ],
     "ytm_top_songs": [
@@ -5443,6 +5484,12 @@
           "views": 106883592,
           "likes": 345393,
           "comments": 163
+        },
+        {
+          "date": "2026-07-29",
+          "views": 106941357,
+          "likes": 345505,
+          "comments": 163
         }
       ]
     },
@@ -6090,6 +6137,12 @@
           "views": 38553882,
           "likes": 138598,
           "comments": 68
+        },
+        {
+          "date": "2026-07-29",
+          "views": 38576367,
+          "likes": 138660,
+          "comments": 69
         }
       ]
     },
@@ -6737,6 +6790,12 @@
           "views": 22500748,
           "likes": 152850,
           "comments": 617
+        },
+        {
+          "date": "2026-07-29",
+          "views": 22530114,
+          "likes": 152984,
+          "comments": 617
         }
       ]
     },
@@ -7383,6 +7442,12 @@
           "date": "2026-07-28",
           "views": 10597919,
           "likes": 34047,
+          "comments": 19
+        },
+        {
+          "date": "2026-07-29",
+          "views": 10607597,
+          "likes": 34086,
           "comments": 19
         }
       ]
@@ -8047,6 +8112,12 @@
           "views": 29302241,
           "likes": 90999,
           "comments": 51
+        },
+        {
+          "date": "2026-07-29",
+          "views": 29319658,
+          "likes": 91022,
+          "comments": 51
         }
       ]
     }
@@ -8459,6 +8530,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-28T15:58:41.302829+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "monthly_listeners",
+      "value": 3235306,
+      "baseline_mean": 3158504.5,
+      "baseline_stddev": 32080.1,
+      "delta": 76801,
+      "score": 2.39,
+      "type": "annotated",
+      "related_annotation": "新曲「サンダーボルト」がTVアニメ『サンダー3』OPテーマに決定・配信リリース",
+      "detected_at": "2026-07-29T15:44:36.172577+00:00"
     }
   ]
 }

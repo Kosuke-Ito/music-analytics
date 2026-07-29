@@ -4688,6 +4688,47 @@
       "ytm_subscribers": 2980000,
       "ytm_monthly_listeners": 47400000,
       "ytm_total_views": 2894875727
+    },
+    {
+      "date": "2026-07-29",
+      "monthly_listeners": 6597404,
+      "collected_at": "2026-07-29T15:44:02.992179+00:00",
+      "spotify_followers": 4550748,
+      "youtube_subscribers": 2980000,
+      "youtube_total_views": 2922519666,
+      "youtube_video_count": 145,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 190040
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 150514
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 110036
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 70089
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 66171
+        }
+      ],
+      "lastfm_listeners": 575930,
+      "lastfm_playcount": 21683605,
+      "ytm_subscribers": 2980000,
+      "ytm_monthly_listeners": 51200000,
+      "ytm_total_views": 2894875727
     }
   ],
   "annotations": [
@@ -5028,12 +5069,17 @@
       {
         "name": "jo0ji",
         "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "4.83M"
+        "subscribers": "4.8M"
       },
       {
         "name": "natori",
         "browse_id": "UC5hhaaGgz7LKt_abggs0qWQ",
         "subscribers": "13.3M"
+      },
+      {
+        "name": "星野源 Gen Hoshino",
+        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
+        "subscribers": "8.45M"
       },
       {
         "name": "millennium parade",
@@ -5046,29 +5092,24 @@
         "subscribers": "4.03M"
       },
       {
-        "name": "星野源 Gen Hoshino",
-        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
-        "subscribers": "8.62M"
-      },
-      {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "6.63M"
-      },
-      {
         "name": "Soushi Sakiyama",
         "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "1.78M"
-      },
-      {
-        "name": "ZUTOMAYO",
-        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
-        "subscribers": "5.93M"
+        "subscribers": "1.77M"
       },
       {
         "name": "yama",
         "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
         "subscribers": "4.35M"
+      },
+      {
+        "name": "Ryokuousyoku Syakai",
+        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
+        "subscribers": "6.33M"
+      },
+      {
+        "name": "ZUTOMAYO",
+        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
+        "subscribers": "6.23M"
       }
     ],
     "ytm_top_songs": [
@@ -5740,6 +5781,12 @@
           "views": 43100366,
           "likes": 334336,
           "comments": 6411
+        },
+        {
+          "date": "2026-07-29",
+          "views": 43260758,
+          "likes": 335331,
+          "comments": 6429
         }
       ]
     },
@@ -6387,6 +6434,12 @@
           "views": 51193426,
           "likes": 355323,
           "comments": 1881
+        },
+        {
+          "date": "2026-07-29",
+          "views": 51237892,
+          "likes": 355580,
+          "comments": 1882
         }
       ]
     },
@@ -7033,6 +7086,12 @@
           "date": "2026-07-28",
           "views": 17576522,
           "likes": 65281,
+          "comments": 170
+        },
+        {
+          "date": "2026-07-29",
+          "views": 17592529,
+          "likes": 65316,
           "comments": 170
         }
       ]
@@ -7681,6 +7740,12 @@
           "views": 25155014,
           "likes": 105915,
           "comments": 280
+        },
+        {
+          "date": "2026-07-29",
+          "views": 25173728,
+          "likes": 105974,
+          "comments": 280
         }
       ]
     },
@@ -8328,6 +8393,12 @@
           "views": 5999922,
           "likes": 34761,
           "comments": 303
+        },
+        {
+          "date": "2026-07-29",
+          "views": 6008146,
+          "likes": 34794,
+          "comments": 303
         }
       ]
     }
@@ -8524,6 +8595,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-24T15:20:23.636070+00:00"
+    },
+    {
+      "date": "2026-07-29",
+      "metric": "ytm_monthly_listeners",
+      "value": 51200000,
+      "baseline_mean": 43610000,
+      "baseline_stddev": 2537498.8,
+      "delta": 7590000,
+      "score": 2.99,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-29T15:44:04.135997+00:00"
     }
   ]
 }
