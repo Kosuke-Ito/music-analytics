@@ -4545,6 +4545,47 @@
       "ytm_subscribers": 1250000,
       "ytm_monthly_listeners": 9820000,
       "ytm_total_views": 1539432764
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 3245117,
+      "collected_at": "2026-07-30T15:45:48.147985+00:00",
+      "spotify_followers": 3431991,
+      "youtube_subscribers": 1250000,
+      "youtube_total_views": 1542473544,
+      "youtube_video_count": 81,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 115206
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 114016
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 83579
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67967
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 43907
+        }
+      ],
+      "lastfm_listeners": 31809,
+      "lastfm_playcount": 685448,
+      "ytm_subscribers": 1250000,
+      "ytm_monthly_listeners": 9650000,
+      "ytm_total_views": 1539432764
     }
   ],
   "annotations": [
@@ -4771,24 +4812,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Manato Funatsu",
-        "browse_id": "UCHfEbuAKWEgHHXx2cKIKJQQ",
-        "subscribers": "5.03M"
-      },
-      {
         "name": "Arekun",
         "browse_id": "UCbJGxAjDolW6F7NFCXo2-Dw",
-        "subscribers": "593K"
+        "subscribers": "600K"
+      },
+      {
+        "name": "Manato Funatsu",
+        "browse_id": "UCHfEbuAKWEgHHXx2cKIKJQQ",
+        "subscribers": "4.92M"
       },
       {
         "name": "Mosawo",
         "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
-        "subscribers": "745K"
+        "subscribers": "879K"
       },
       {
         "name": "Zarame",
         "browse_id": "UCsXbUCnV9SqRGkaO2ifzkBw",
-        "subscribers": "289K"
+        "subscribers": "285K"
       },
       {
         "name": "Lilas",
@@ -4798,7 +4839,12 @@
       {
         "name": "Ren",
         "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
-        "subscribers": "408K"
+        "subscribers": "391K"
+      },
+      {
+        "name": "yukasong",
+        "browse_id": "UCMkVJ99SxSdl7mZi43FB49Q",
+        "subscribers": "7.22M"
       },
       {
         "name": "Marcy",
@@ -4806,19 +4852,14 @@
         "subscribers": "1.75M"
       },
       {
-        "name": "yukasong",
-        "browse_id": "UCMkVJ99SxSdl7mZi43FB49Q",
-        "subscribers": "7.41M"
-      },
-      {
-        "name": "TakaseToya",
-        "browse_id": "UC2AMNa5ERr83V61nupAkE6w",
-        "subscribers": "1.07M"
-      },
-      {
         "name": "Masanori Otoda",
         "browse_id": "UCCmU7XwwWAM0j5TVhcTERLg",
         "subscribers": "2.63M"
+      },
+      {
+        "name": "Takaya Kawasaki",
+        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
+        "subscribers": "2.33M"
       }
     ],
     "ytm_top_songs": [
@@ -5490,6 +5531,12 @@
           "views": 106941357,
           "likes": 345505,
           "comments": 163
+        },
+        {
+          "date": "2026-07-30",
+          "views": 106997150,
+          "likes": 345660,
+          "comments": 167
         }
       ]
     },
@@ -6142,6 +6189,12 @@
           "date": "2026-07-29",
           "views": 38576367,
           "likes": 138660,
+          "comments": 69
+        },
+        {
+          "date": "2026-07-30",
+          "views": 38598361,
+          "likes": 138736,
           "comments": 69
         }
       ]
@@ -6796,6 +6849,12 @@
           "views": 22530114,
           "likes": 152984,
           "comments": 617
+        },
+        {
+          "date": "2026-07-30",
+          "views": 22558516,
+          "likes": 153105,
+          "comments": 619
         }
       ]
     },
@@ -7448,6 +7507,12 @@
           "date": "2026-07-29",
           "views": 10607597,
           "likes": 34086,
+          "comments": 19
+        },
+        {
+          "date": "2026-07-30",
+          "views": 10616876,
+          "likes": 34125,
           "comments": 19
         }
       ]
@@ -8118,6 +8183,12 @@
           "views": 29319658,
           "likes": 91022,
           "comments": 51
+        },
+        {
+          "date": "2026-07-30",
+          "views": 29335897,
+          "likes": 91055,
+          "comments": 51
         }
       ]
     }
@@ -8542,6 +8613,18 @@
       "type": "annotated",
       "related_annotation": "新曲「サンダーボルト」がTVアニメ『サンダー3』OPテーマに決定・配信リリース",
       "detected_at": "2026-07-29T15:44:36.172577+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "monthly_listeners",
+      "value": 3245117,
+      "baseline_mean": 3161288.7,
+      "baseline_stddev": 34878.2,
+      "delta": 83828,
+      "score": 2.4,
+      "type": "annotated",
+      "related_annotation": "新曲「サンダーボルト」がTVアニメ『サンダー3』OPテーマに決定・配信リリース",
+      "detected_at": "2026-07-30T15:45:49.348000+00:00"
     }
   ]
 }

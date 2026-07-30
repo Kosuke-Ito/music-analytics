@@ -4542,6 +4542,47 @@
       "ytm_subscribers": 103000,
       "ytm_monthly_listeners": 305000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 431746,
+      "collected_at": "2026-07-30T15:47:10.243760+00:00",
+      "spotify_followers": 124083,
+      "youtube_subscribers": 103000,
+      "youtube_total_views": 50321355,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 23437
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 16684
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 11919
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 7630
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 5590
+        }
+      ],
+      "lastfm_listeners": 10269,
+      "lastfm_playcount": 168842,
+      "ytm_subscribers": 103000,
+      "ytm_monthly_listeners": 434000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4576,27 +4617,22 @@
       {
         "name": "Furui Riho",
         "browse_id": "UC_INWDSkrIjnmqUi5D6zi4Q",
-        "subscribers": "329K"
+        "subscribers": "351K"
       },
       {
         "name": "Kroi",
         "browse_id": "UCssoAGLly9DaABecIZoht_g",
-        "subscribers": "477K"
+        "subscribers": "508K"
       },
       {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "4.26M"
+        "subscribers": "4.29M"
       },
       {
         "name": "MONKEY MAJIK",
         "browse_id": "UC3gcufb-KpdT9XbSf0vug3g",
         "subscribers": "1.1M"
-      },
-      {
-        "name": "Suchmos",
-        "browse_id": "UCTjMLOtWrtmd9c2K_H3KQHw",
-        "subscribers": "962K"
       },
       {
         "name": "TAIKING",
@@ -4606,22 +4642,27 @@
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "75.8K"
+        "subscribers": "74.5K"
       },
       {
         "name": "Sakura Fujiwara",
         "browse_id": "UClHAk3e2m5KJpWzVDeaYPCQ",
-        "subscribers": "383K"
+        "subscribers": "381K"
       },
       {
         "name": "YONA YONA WEEKENDERS",
         "browse_id": "UCA2eoqFXKqN2EfB6HiIHIRA",
-        "subscribers": "63.4K"
+        "subscribers": "57.7K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "93.2K"
+        "subscribers": "93.3K"
+      },
+      {
+        "name": "First Love is Never Returned",
+        "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
+        "subscribers": "99.7K"
       }
     ],
     "ytm_top_songs": [
@@ -5292,6 +5333,12 @@
           "views": 54701,
           "likes": 483,
           "comments": 6
+        },
+        {
+          "date": "2026-07-30",
+          "views": 54872,
+          "likes": 485,
+          "comments": 6
         }
       ]
     },
@@ -5937,6 +5984,12 @@
         {
           "date": "2026-07-29",
           "views": 45147,
+          "likes": 445,
+          "comments": 4
+        },
+        {
+          "date": "2026-07-30",
+          "views": 45242,
           "likes": 445,
           "comments": 4
         }
@@ -6585,6 +6638,12 @@
           "date": "2026-07-29",
           "views": 238724,
           "likes": 2097,
+          "comments": 12
+        },
+        {
+          "date": "2026-07-30",
+          "views": 239092,
+          "likes": 2099,
           "comments": 12
         }
       ]
@@ -7802,6 +7861,12 @@
           "views": 89904,
           "likes": 830,
           "comments": 8
+        },
+        {
+          "date": "2026-07-30",
+          "views": 90236,
+          "likes": 834,
+          "comments": 8
         }
       ]
     },
@@ -7906,6 +7971,12 @@
           "views": 12643,
           "likes": 126,
           "comments": 3
+        },
+        {
+          "date": "2026-07-30",
+          "views": 14605,
+          "likes": 142,
+          "comments": 4
         }
       ]
     }
@@ -8391,6 +8462,18 @@
       "type": "annotated",
       "related_annotation": "新曲「大空港」MV公開・ドラマ主題歌起用の反響が継続",
       "detected_at": "2026-07-29T15:45:55.109305+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "youtube_total_views",
+      "value": 50321355,
+      "baseline_mean": 48816964.1,
+      "baseline_stddev": 507512.8,
+      "delta": 1504390,
+      "score": 2.96,
+      "type": "annotated",
+      "related_annotation": "新曲「大空港」の反響が継続",
+      "detected_at": "2026-07-30T15:47:11.591263+00:00"
     }
   ]
 }

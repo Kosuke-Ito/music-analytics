@@ -4429,6 +4429,47 @@
       "ytm_subscribers": 883000,
       "ytm_monthly_listeners": 5820000,
       "ytm_total_views": 648470222
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 2152157,
+      "collected_at": "2026-07-30T16:03:19.069686+00:00",
+      "spotify_followers": 1064404,
+      "youtube_subscribers": 883000,
+      "youtube_total_views": 669941815,
+      "youtube_video_count": 309,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54393
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 46800
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 44404
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 31887
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 23175
+        }
+      ],
+      "lastfm_listeners": 169635,
+      "lastfm_playcount": 5915723,
+      "ytm_subscribers": 883000,
+      "ytm_monthly_listeners": 5990000,
+      "ytm_total_views": 648470222
     }
   ],
   "annotations": [
@@ -4669,7 +4710,7 @@
       {
         "name": "LOZAREENA",
         "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
-        "subscribers": "309K"
+        "subscribers": "316K"
       },
       {
         "name": "YU-KA",
@@ -4684,12 +4725,12 @@
       {
         "name": "Anly",
         "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
-        "subscribers": "6.75M"
+        "subscribers": "6.52M"
       },
       {
         "name": "majiko",
         "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "499K"
+        "subscribers": "494K"
       },
       {
         "name": "Harumi",
@@ -4704,17 +4745,17 @@
       {
         "name": "ReN",
         "browse_id": "UCXO0zXPtMsrEq6b6c4OZ4zA",
-        "subscribers": "91.1K"
-      },
-      {
-        "name": "Mika Nakashima",
-        "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
-        "subscribers": "4.44M"
+        "subscribers": "90.5K"
       },
       {
         "name": "suis from Yorushika",
         "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
         "subscribers": "32.3K"
+      },
+      {
+        "name": "Mika Nakashima",
+        "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
+        "subscribers": "4.58M"
       }
     ],
     "ytm_top_songs": [
@@ -5882,6 +5923,12 @@
           "views": 9216588,
           "likes": 64171,
           "comments": 217
+        },
+        {
+          "date": "2026-07-30",
+          "views": 9225079,
+          "likes": 64221,
+          "comments": 219
         }
       ]
     },
@@ -7086,6 +7133,12 @@
           "views": 7450516,
           "likes": 53493,
           "comments": 70
+        },
+        {
+          "date": "2026-07-30",
+          "views": 7453523,
+          "likes": 53505,
+          "comments": 70
         }
       ]
     },
@@ -7661,6 +7714,12 @@
           "views": 1930545,
           "likes": 28435,
           "comments": 314
+        },
+        {
+          "date": "2026-07-30",
+          "views": 1937292,
+          "likes": 28466,
+          "comments": 314
         }
       ]
     },
@@ -7905,6 +7964,12 @@
           "views": 14396435,
           "likes": 140678,
           "comments": 2325
+        },
+        {
+          "date": "2026-07-30",
+          "views": 14416717,
+          "likes": 140896,
+          "comments": 2325
         }
       ]
     },
@@ -7993,6 +8058,12 @@
           "date": "2026-07-29",
           "views": 92572,
           "likes": 1876,
+          "comments": 23
+        },
+        {
+          "date": "2026-07-30",
+          "views": 94670,
+          "likes": 1906,
           "comments": 23
         }
       ]
@@ -8286,6 +8357,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-24T15:38:18.649600+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "ytm_monthly_listeners",
+      "value": 5990000,
+      "baseline_mean": 5475000,
+      "baseline_stddev": 248498.8,
+      "delta": 515000,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-30T16:03:20.854967+00:00"
     }
   ]
 }

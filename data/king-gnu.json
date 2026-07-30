@@ -4729,6 +4729,47 @@
       "ytm_subscribers": 2980000,
       "ytm_monthly_listeners": 51200000,
       "ytm_total_views": 2894875727
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 6600935,
+      "collected_at": "2026-07-30T15:45:11.890072+00:00",
+      "spotify_followers": 4552246,
+      "youtube_subscribers": 2980000,
+      "youtube_total_views": 2938339347,
+      "youtube_video_count": 145,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 189181
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 150731
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 110285
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 69854
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 65956
+        }
+      ],
+      "lastfm_listeners": 576179,
+      "lastfm_playcount": 21691467,
+      "ytm_subscribers": 2980000,
+      "ytm_monthly_listeners": 51200000,
+      "ytm_total_views": 2910504105
     }
   ],
   "annotations": [
@@ -5073,7 +5114,7 @@
       {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "4.26M"
+        "subscribers": "4.29M"
       },
       {
         "name": "jo0ji",
@@ -5083,7 +5124,7 @@
       {
         "name": "natori",
         "browse_id": "UC5hhaaGgz7LKt_abggs0qWQ",
-        "subscribers": "13.3M"
+        "subscribers": "12.9M"
       },
       {
         "name": "星野源 Gen Hoshino",
@@ -5093,22 +5134,17 @@
       {
         "name": "millennium parade",
         "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
-        "subscribers": "1.1M"
+        "subscribers": "1.16M"
       },
       {
         "name": "MAISONdes ",
         "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "4.03M"
+        "subscribers": "4.01M"
       },
       {
         "name": "Soushi Sakiyama",
         "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
         "subscribers": "1.77M"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.35M"
       },
       {
         "name": "Ryokuousyoku Syakai",
@@ -5119,6 +5155,11 @@
         "name": "ZUTOMAYO",
         "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
         "subscribers": "6.23M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.5M"
       }
     ],
     "ytm_top_songs": [
@@ -5796,6 +5837,12 @@
           "views": 43260758,
           "likes": 335331,
           "comments": 6429
+        },
+        {
+          "date": "2026-07-30",
+          "views": 43412503,
+          "likes": 336316,
+          "comments": 6443
         }
       ]
     },
@@ -6449,6 +6496,12 @@
           "views": 51237892,
           "likes": 355580,
           "comments": 1882
+        },
+        {
+          "date": "2026-07-30",
+          "views": 51282229,
+          "likes": 355862,
+          "comments": 1885
         }
       ]
     },
@@ -7101,6 +7154,12 @@
           "date": "2026-07-29",
           "views": 17592529,
           "likes": 65316,
+          "comments": 170
+        },
+        {
+          "date": "2026-07-30",
+          "views": 17609153,
+          "likes": 65369,
           "comments": 170
         }
       ]
@@ -7755,6 +7814,12 @@
           "views": 25173728,
           "likes": 105974,
           "comments": 280
+        },
+        {
+          "date": "2026-07-30",
+          "views": 25192089,
+          "likes": 106015,
+          "comments": 280
         }
       ]
     },
@@ -8408,6 +8473,12 @@
           "views": 6008146,
           "likes": 34794,
           "comments": 303
+        },
+        {
+          "date": "2026-07-30",
+          "views": 6016549,
+          "likes": 34830,
+          "comments": 303
         }
       ]
     }
@@ -8616,6 +8687,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-29T15:44:04.135997+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "ytm_monthly_listeners",
+      "value": 51200000,
+      "baseline_mean": 43810000,
+      "baseline_stddev": 2869651.5,
+      "delta": 7390000,
+      "score": 2.58,
+      "type": "annotated",
+      "related_annotation": "新曲「GO GHOST」配信リリース（アニメOPタイアップ）",
+      "detected_at": "2026-07-30T15:45:13.211684+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "youtube_total_views",
+      "value": 2938339347,
+      "baseline_mean": 2910601238.2,
+      "baseline_stddev": 11115314.9,
+      "delta": 27738108,
+      "score": 2.5,
+      "type": "annotated",
+      "related_annotation": "新曲「GO GHOST」配信リリース（アニメOPタイアップ）",
+      "detected_at": "2026-07-30T15:45:13.211684+00:00"
     }
   ]
 }

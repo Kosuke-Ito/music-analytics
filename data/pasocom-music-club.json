@@ -4353,6 +4353,47 @@
       "ytm_subscribers": 38200,
       "ytm_monthly_listeners": 62800,
       "ytm_total_views": 8658513
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 44715,
+      "collected_at": "2026-07-30T16:04:10.566818+00:00",
+      "spotify_followers": 52110,
+      "youtube_subscribers": 38200,
+      "youtube_total_views": 8900123,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3085
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1258
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 801
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 702
+        },
+        {
+          "city": "Nakano City",
+          "country": "JP",
+          "listeners": 467
+        }
+      ],
+      "lastfm_listeners": 24228,
+      "lastfm_playcount": 407408,
+      "ytm_subscribers": 38200,
+      "ytm_monthly_listeners": 63600,
+      "ytm_total_views": 8658513
     }
   ],
   "metadata": {
@@ -4389,32 +4430,27 @@
       {
         "name": "tiny yawn",
         "browse_id": "UCESxrbFra7AVQsdPAnJ99dA",
-        "subscribers": "193K"
+        "subscribers": "188K"
       },
       {
         "name": "Hikari Mitsushima",
         "browse_id": "UCmQX9uNXRj07dI4iZcN9ZMQ",
-        "subscribers": "143K"
+        "subscribers": "142K"
       },
       {
         "name": "Satoko Shibata",
         "browse_id": "UCHXbv9-c9QQow0_n5WKx5QQ",
-        "subscribers": "125K"
-      },
-      {
-        "name": "FRIENDS",
-        "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "75.8K"
+        "subscribers": "134K"
       },
       {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
-        "subscribers": "126K"
+        "subscribers": "124K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "93.2K"
+        "subscribers": "93.3K"
       },
       {
         "name": "Skirt",
@@ -4429,12 +4465,17 @@
       {
         "name": "80KIDZ",
         "browse_id": "UCNX3xsR7gTNXzcG8VyY3Z5g",
-        "subscribers": "3.87K"
+        "subscribers": "3.88K"
       },
       {
         "name": "ako",
         "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "163K"
+        "subscribers": "148K"
+      },
+      {
+        "name": "cero",
+        "browse_id": "UCP5S2nBzNRtJNiqGAYsA_Nw",
+        "subscribers": "87K"
       }
     ],
     "ytm_top_songs": [
@@ -5088,6 +5129,12 @@
           "views": 144645,
           "likes": 2774,
           "comments": 25
+        },
+        {
+          "date": "2026-07-30",
+          "views": 144979,
+          "likes": 2779,
+          "comments": 25
         }
       ]
     },
@@ -5716,6 +5763,12 @@
           "date": "2026-07-29",
           "views": 598630,
           "likes": 5487,
+          "comments": 18
+        },
+        {
+          "date": "2026-07-30",
+          "views": 599239,
+          "likes": 5489,
           "comments": 18
         }
       ]
@@ -6346,6 +6399,12 @@
           "views": 332500,
           "likes": 3547,
           "comments": 7
+        },
+        {
+          "date": "2026-07-30",
+          "views": 332822,
+          "likes": 3551,
+          "comments": 7
         }
       ]
     },
@@ -6973,6 +7032,12 @@
         {
           "date": "2026-07-29",
           "views": 58378,
+          "likes": 192,
+          "comments": 1
+        },
+        {
+          "date": "2026-07-30",
+          "views": 58458,
           "likes": 192,
           "comments": 1
         }
@@ -7603,6 +7668,12 @@
           "date": "2026-07-29",
           "views": 129681,
           "likes": 1624,
+          "comments": 15
+        },
+        {
+          "date": "2026-07-30",
+          "views": 129838,
+          "likes": 1626,
           "comments": 15
         }
       ]
@@ -8410,6 +8481,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-07-29T16:02:30.498862+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "youtube_total_views",
+      "value": 8900123,
+      "baseline_mean": 8749901.7,
+      "baseline_stddev": 73305.6,
+      "delta": 150221,
+      "score": 2.05,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-07-30T16:04:12.360692+00:00"
     }
   ]
 }

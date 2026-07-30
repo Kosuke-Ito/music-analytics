@@ -4717,6 +4717,47 @@
       "ytm_subscribers": 9400000,
       "ytm_monthly_listeners": 33299999,
       "ytm_total_views": 5484360103
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 6568761,
+      "collected_at": "2026-07-30T15:52:31.232487+00:00",
+      "spotify_followers": 7845921,
+      "youtube_subscribers": 9410000,
+      "youtube_total_views": 5540956101,
+      "youtube_video_count": 722,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 120131
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 94609
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 84630
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67755
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 67321
+        }
+      ],
+      "lastfm_listeners": 746394,
+      "lastfm_playcount": 91013085,
+      "ytm_subscribers": 9410000,
+      "ytm_monthly_listeners": 33000000,
+      "ytm_total_views": 5484360103
     }
   ],
   "annotations": [
@@ -5241,22 +5282,27 @@
       {
         "name": "natori",
         "browse_id": "UC5hhaaGgz7LKt_abggs0qWQ",
-        "subscribers": "13.3M"
+        "subscribers": "12.9M"
       },
       {
         "name": "yama",
         "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.35M"
+        "subscribers": "4.5M"
       },
       {
         "name": "Yoshino",
         "browse_id": "UCtDYAzJUfkkqPRZebOnoc4g",
-        "subscribers": "466K"
+        "subscribers": "480K"
       },
       {
         "name": "KANKAN",
         "browse_id": "UCfJFBnBR1MzZKyZr2MI8ixQ",
-        "subscribers": "306K"
+        "subscribers": "290K"
+      },
+      {
+        "name": "meiyo",
+        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
+        "subscribers": "21.8M"
       },
       {
         "name": "9Lana",
@@ -5264,24 +5310,19 @@
         "subscribers": "11M"
       },
       {
-        "name": "meiyo",
-        "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
-        "subscribers": "19.6M"
-      },
-      {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "4.03M"
-      },
-      {
         "name": "Eve",
         "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
-        "subscribers": "16.5M"
+        "subscribers": "16.7M"
       },
       {
         "name": "Phantom Siita",
         "browse_id": "UCmxhcgwNYxtU7aSbzWGMKVA",
         "subscribers": "1.35M"
+      },
+      {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "4.01M"
       },
       {
         "name": "Ayase",
@@ -6593,6 +6634,12 @@
           "views": 33056665,
           "likes": 216748,
           "comments": 867
+        },
+        {
+          "date": "2026-07-30",
+          "views": 33099650,
+          "likes": 216994,
+          "comments": 868
         }
       ]
     },
@@ -7222,6 +7269,12 @@
           "views": 53681028,
           "likes": 493501,
           "comments": 2152
+        },
+        {
+          "date": "2026-07-30",
+          "views": 53715975,
+          "likes": 493772,
+          "comments": 2151
         }
       ]
     },
@@ -7964,6 +8017,12 @@
           "views": 69319888,
           "likes": 362668,
           "comments": 752
+        },
+        {
+          "date": "2026-07-30",
+          "views": 69359727,
+          "likes": 362852,
+          "comments": 753
         }
       ]
     },
@@ -8459,6 +8518,12 @@
           "views": 98068434,
           "likes": 543281,
           "comments": 1051
+        },
+        {
+          "date": "2026-07-30",
+          "views": 98100846,
+          "likes": 543390,
+          "comments": 1051
         }
       ]
     },
@@ -8596,6 +8661,12 @@
           "views": 1258076,
           "likes": 33550,
           "comments": 676
+        },
+        {
+          "date": "2026-07-30",
+          "views": 1291583,
+          "likes": 33953,
+          "comments": 679
         }
       ]
     }
@@ -9068,6 +9139,18 @@
       "type": "annotated",
       "related_annotation": "日産スタジアム公演とW杯アンセム「綺羅」の相乗効果によるチャンネル総再生数の押し上げ",
       "detected_at": "2026-07-29T15:51:07.831242+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "youtube_total_views",
+      "value": 5540956101,
+      "baseline_mean": 5496030361.3,
+      "baseline_stddev": 22296472.3,
+      "delta": 44925739,
+      "score": 2.01,
+      "type": "annotated",
+      "related_annotation": "日産スタジアム公演とW杯アンセム「綺羅」の相乗効果によるチャンネル総再生数の押し上げ",
+      "detected_at": "2026-07-30T15:52:32.657939+00:00"
     }
   ]
 }

@@ -4540,6 +4540,47 @@
       "ytm_subscribers": 29300,
       "ytm_monthly_listeners": 74900,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 57452,
+      "collected_at": "2026-07-30T15:46:53.745557+00:00",
+      "spotify_followers": 36376,
+      "youtube_subscribers": 29300,
+      "youtube_total_views": 15456547,
+      "youtube_video_count": 183,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2197
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1362
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 956
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 688
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 469
+        }
+      ],
+      "lastfm_listeners": 19942,
+      "lastfm_playcount": 218930,
+      "ytm_subscribers": 29300,
+      "ytm_monthly_listeners": 74700,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4573,6 +4614,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "FRIENDS",
+        "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
+        "subscribers": "74.5K"
+      },
+      {
         "name": "NIKO NIKO TAN TAN",
         "browse_id": "UCbyzNb5hHmY4dsv2AJWur6A",
         "subscribers": "37.2K"
@@ -4580,17 +4626,22 @@
       {
         "name": "7thVega",
         "browse_id": "UC_W5BfNNzkxWj911JSDAu9g",
-        "subscribers": "112K"
+        "subscribers": "120K"
+      },
+      {
+        "name": "HATENA",
+        "browse_id": "UC6erv9sE3EPrBagY-yL4rPQ",
+        "subscribers": "68.8K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "93.2K"
+        "subscribers": "93.3K"
       },
       {
         "name": "Okamoto's",
         "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
-        "subscribers": "208K"
+        "subscribers": "210K"
       },
       {
         "name": "TAIKING",
@@ -4605,22 +4656,12 @@
       {
         "name": "Doona",
         "browse_id": "UCv5rkoYXfATqAncZ01WR1QQ",
-        "subscribers": "82.8K"
-      },
-      {
-        "name": "FRIENDS",
-        "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "75.8K"
+        "subscribers": "83.4K"
       },
       {
         "name": "oops cool",
         "browse_id": "UCzY8jNag1B45hW5J-HwhWKQ",
         "subscribers": "18.9K"
-      },
-      {
-        "name": "Yaffle",
-        "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "131K"
       }
     ],
     "ytm_top_songs": [
@@ -5297,6 +5338,12 @@
           "views": 16820,
           "likes": 153,
           "comments": 3
+        },
+        {
+          "date": "2026-07-30",
+          "views": 16844,
+          "likes": 153,
+          "comments": 3
         }
       ]
     },
@@ -5949,6 +5996,12 @@
           "date": "2026-07-29",
           "views": 48586,
           "likes": 401,
+          "comments": 9
+        },
+        {
+          "date": "2026-07-30",
+          "views": 48769,
+          "likes": 402,
           "comments": 9
         }
       ]
@@ -6603,6 +6656,12 @@
           "views": 212945,
           "likes": 2547,
           "comments": 36
+        },
+        {
+          "date": "2026-07-30",
+          "views": 213193,
+          "likes": 2552,
+          "comments": 36
         }
       ]
     },
@@ -7236,6 +7295,12 @@
         {
           "date": "2026-07-29",
           "views": 3742,
+          "likes": 57,
+          "comments": 5
+        },
+        {
+          "date": "2026-07-30",
+          "views": 3747,
           "likes": 57,
           "comments": 5
         }
@@ -7924,6 +7989,12 @@
           "views": 2066,
           "likes": 24,
           "comments": 1
+        },
+        {
+          "date": "2026-07-30",
+          "views": 2074,
+          "likes": 24,
+          "comments": 1
         }
       ]
     }
@@ -8394,6 +8465,18 @@
       "type": "annotated",
       "related_annotation": "前日の急上昇分が同水準で継続（原因不明）",
       "detected_at": "2026-07-29T15:45:38.767531+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "youtube_total_views",
+      "value": 15456547,
+      "baseline_mean": 15339899.6,
+      "baseline_stddev": 48357.9,
+      "delta": 116647,
+      "score": 2.41,
+      "type": "annotated",
+      "related_annotation": "同水準を維持（原因不明）",
+      "detected_at": "2026-07-30T15:46:55.016902+00:00"
     }
   ]
 }

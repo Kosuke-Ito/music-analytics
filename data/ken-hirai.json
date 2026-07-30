@@ -4547,6 +4547,47 @@
       "ytm_subscribers": 501000,
       "ytm_monthly_listeners": 1580000,
       "ytm_total_views": 485435419
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 1276071,
+      "collected_at": "2026-07-30T15:46:21.676473+00:00",
+      "spotify_followers": 1098190,
+      "youtube_subscribers": 502000,
+      "youtube_total_views": 485435444,
+      "youtube_video_count": 86,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 51953
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 50727
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 36474
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 19156
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 16647
+        }
+      ],
+      "lastfm_listeners": 62677,
+      "lastfm_playcount": 3022306,
+      "ytm_subscribers": 502000,
+      "ytm_monthly_listeners": 1840000,
+      "ytm_total_views": 485435419
     }
   ],
   "annotations": [
@@ -4718,9 +4759,14 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "The Gospellers",
+        "browse_id": "UCabuLVuQm0GwG_wr5sAQwnQ",
+        "subscribers": "714K"
+      },
+      {
         "name": "Remioromen",
         "browse_id": "UCHzbZw7GxoyFf-_pyS1R6mg",
-        "subscribers": "2.08M"
+        "subscribers": "2.09M"
       },
       {
         "name": "Yu Takahashi",
@@ -4728,14 +4774,9 @@
         "subscribers": "1.41M"
       },
       {
-        "name": "The Gospellers",
-        "browse_id": "UCabuLVuQm0GwG_wr5sAQwnQ",
-        "subscribers": "819K"
-      },
-      {
         "name": "Masaharu Fukuyama",
         "browse_id": "UCOgskNCI49YHsOUTGPJ2QHA",
-        "subscribers": "2.53M"
+        "subscribers": "2.57M"
       },
       {
         "name": "Takuya Ohashi",
@@ -4748,24 +4789,24 @@
         "subscribers": "13.9K"
       },
       {
-        "name": "Ko Shibasaki",
-        "browse_id": "UCYSyfPj4FvtV0-7jJsHzAyg",
-        "subscribers": "750K"
-      },
-      {
         "name": "Mr.Children",
         "browse_id": "UCNL-6VGm61Y_dkVB89ZkYIA",
         "subscribers": "6.36M"
       },
       {
-        "name": "Mika Nakashima",
-        "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
-        "subscribers": "4.44M"
+        "name": "Ko Shibasaki",
+        "browse_id": "UCYSyfPj4FvtV0-7jJsHzAyg",
+        "subscribers": "750K"
       },
       {
-        "name": "Ikimonogakari",
-        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
-        "subscribers": "18.4M"
+        "name": "Mika Nakashima",
+        "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
+        "subscribers": "4.58M"
+      },
+      {
+        "name": "Chemistry",
+        "browse_id": "UCQh1WcnXjTmIQWIdoWE2k-g",
+        "subscribers": "1.5M"
       }
     ],
     "ytm_top_songs": [
@@ -5443,6 +5484,12 @@
           "views": 5929739,
           "likes": 34308,
           "comments": 146
+        },
+        {
+          "date": "2026-07-30",
+          "views": 5934259,
+          "likes": 34328,
+          "comments": 146
         }
       ]
     },
@@ -6096,6 +6143,12 @@
           "views": 1068565,
           "likes": 6416,
           "comments": 30
+        },
+        {
+          "date": "2026-07-30",
+          "views": 1069067,
+          "likes": 6420,
+          "comments": 30
         }
       ]
     },
@@ -6748,6 +6801,12 @@
           "date": "2026-07-29",
           "views": 330518,
           "likes": 2272,
+          "comments": 13
+        },
+        {
+          "date": "2026-07-30",
+          "views": 331001,
+          "likes": 2274,
           "comments": 13
         }
       ]
@@ -7605,6 +7664,12 @@
           "views": 653709,
           "likes": 3463,
           "comments": 12
+        },
+        {
+          "date": "2026-07-30",
+          "views": 654079,
+          "likes": 3468,
+          "comments": 12
         }
       ]
     },
@@ -8060,6 +8125,12 @@
           "views": 134627,
           "likes": 937,
           "comments": 5
+        },
+        {
+          "date": "2026-07-30",
+          "views": 134775,
+          "likes": 938,
+          "comments": 5
         }
       ]
     }
@@ -8448,6 +8519,18 @@
       "type": "annotated",
       "related_annotation": "YouTube APIカウンター凍結継続（同値485,435,444・2日目・3.74σ）",
       "detected_at": "2026-07-22T15:26:34.807898+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "ytm_monthly_listeners",
+      "value": 1840000,
+      "baseline_mean": 1600666.7,
+      "baseline_stddev": 28859.8,
+      "delta": 239333,
+      "score": 8.29,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-30T15:46:22.918875+00:00"
     }
   ]
 }

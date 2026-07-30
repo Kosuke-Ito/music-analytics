@@ -4426,6 +4426,47 @@
       "ytm_subscribers": 3650000,
       "ytm_monthly_listeners": 6830000,
       "ytm_total_views": 1091865594
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 3391711,
+      "collected_at": "2026-07-30T16:03:00.574698+00:00",
+      "spotify_followers": 3045674,
+      "youtube_subscribers": 3650000,
+      "youtube_total_views": 1100856729,
+      "youtube_video_count": 353,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 56255
+        },
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 55501
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 51155
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 42840
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 40520
+        }
+      ],
+      "lastfm_listeners": 999016,
+      "lastfm_playcount": 60812837,
+      "ytm_subscribers": 3650000,
+      "ytm_monthly_listeners": 6830000,
+      "ytm_total_views": 1091865594
     }
   ],
   "annotations": [
@@ -4809,24 +4850,19 @@
         "subscribers": "33.5K"
       },
       {
-        "name": "Bridear",
-        "browse_id": "UCP6kdvZVATSyi1TOmgia5Fg",
-        "subscribers": "39.9K"
+        "name": "KAQRIYOTERROR",
+        "browse_id": "UCELQIWPXXUmZeTpwXnTjuzA",
+        "subscribers": "2.08K"
       },
       {
         "name": "Crossfaith",
         "browse_id": "UCwwxFOapyq3llnz1OgxM6hA",
-        "subscribers": "263K"
+        "subscribers": "261K"
       },
       {
-        "name": "the GazettE",
-        "browse_id": "UCXitUzRS2J4mznhd6qYLaHw",
-        "subscribers": "249K"
-      },
-      {
-        "name": "BAND-MAID",
-        "browse_id": "UCM35rMMfPj1wj1nwe-DxSAg",
-        "subscribers": "1.4M"
+        "name": "Bridear",
+        "browse_id": "UCP6kdvZVATSyi1TOmgia5Fg",
+        "subscribers": "39.9K"
       },
       {
         "name": "Sakura Gakuin",
@@ -4836,7 +4872,7 @@
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "123K"
+        "subscribers": "120K"
       },
       {
         "name": "STMLT",
@@ -4851,7 +4887,12 @@
       {
         "name": "TRiDENT",
         "browse_id": "UCgErNuISenFAQndiEKcBVGQ",
-        "subscribers": "137K"
+        "subscribers": "143K"
+      },
+      {
+        "name": "JILUKA",
+        "browse_id": "UC1FVXpsDUD1LR_ZqBqrmrjw",
+        "subscribers": "24.2K"
       }
     ],
     "ytm_top_songs": [
@@ -5486,6 +5527,12 @@
           "date": "2026-07-29",
           "views": 8411380,
           "likes": 93193,
+          "comments": 296
+        },
+        {
+          "date": "2026-07-30",
+          "views": 8436025,
+          "likes": 93409,
           "comments": 296
         }
       ]
@@ -6122,6 +6169,12 @@
           "views": 5316091,
           "likes": 104126,
           "comments": 577
+        },
+        {
+          "date": "2026-07-30",
+          "views": 5330157,
+          "likes": 104359,
+          "comments": 579
         }
       ]
     },
@@ -6745,6 +6798,12 @@
           "views": 5504629,
           "likes": 75147,
           "comments": 248
+        },
+        {
+          "date": "2026-07-30",
+          "views": 5517081,
+          "likes": 75266,
+          "comments": 249
         }
       ]
     },
@@ -7804,6 +7863,12 @@
           "views": 1753641,
           "likes": 23190,
           "comments": 83
+        },
+        {
+          "date": "2026-07-30",
+          "views": 1758969,
+          "likes": 23234,
+          "comments": 83
         }
       ]
     },
@@ -8067,6 +8132,12 @@
           "date": "2026-07-29",
           "views": 849074,
           "likes": 12813,
+          "comments": 75
+        },
+        {
+          "date": "2026-07-30",
+          "views": 850645,
+          "likes": 12824,
           "comments": 75
         }
       ]
@@ -8718,6 +8789,18 @@
       "type": "annotated",
       "related_annotation": "TV番組「BABYMETAL Music Video Selection」放送によるMV視聴増",
       "detected_at": "2026-07-29T16:01:21.618548+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "youtube_total_views",
+      "value": 1100856729,
+      "baseline_mean": 1090938167.4,
+      "baseline_stddev": 3306187.2,
+      "delta": 9918561,
+      "score": 3.0,
+      "type": "annotated",
+      "related_annotation": "TV番組「BABYMETAL Music Video Selection」放送によるMV視聴増",
+      "detected_at": "2026-07-30T16:03:03.493576+00:00"
     }
   ]
 }

@@ -4507,6 +4507,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 28840,
+      "collected_at": "2026-07-30T15:53:54.663766+00:00",
+      "spotify_followers": 29332,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1459664,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1687
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 820
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 545
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 504
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 417
+        }
+      ],
+      "lastfm_listeners": 5786,
+      "lastfm_playcount": 42797,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4697,27 +4738,22 @@
       {
         "name": "MALIYA",
         "browse_id": "UC2uSxTzih3BDAkJvTQUsLtg",
-        "subscribers": "79.9K"
+        "subscribers": "78K"
       },
       {
         "name": "Sweet William",
         "browse_id": "UCLloo-Tk9tYFMVYaKB8pasg",
-        "subscribers": "532K"
+        "subscribers": "533K"
       },
       {
         "name": "brkfstblend",
         "browse_id": "UC50NOIaEJkr_t3BKvPYFXdQ",
-        "subscribers": "6.93K"
-      },
-      {
-        "name": "yonawo",
-        "browse_id": "UCEBVAODOPNiyPNGe5XdI-Yw",
-        "subscribers": "75.9K"
+        "subscribers": "6.95K"
       },
       {
         "name": "Salasa",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "107K"
+        "subscribers": "112K"
       },
       {
         "name": "reina",
@@ -4727,7 +4763,7 @@
       {
         "name": "Kan Sano",
         "browse_id": "UC05tnYJ3St7yd3f6lfKdzcg",
-        "subscribers": "119K"
+        "subscribers": "125K"
       },
       {
         "name": "Ovall",
@@ -4737,12 +4773,17 @@
       {
         "name": "luvis",
         "browse_id": "UCpuCbW_679iOcxPRkqNIO3w",
-        "subscribers": "7.86K"
+        "subscribers": "7.87K"
       },
       {
         "name": "Geloomy",
         "browse_id": "UCYypxPpK93FErrKdMcEuppg",
         "subscribers": "11.5K"
+      },
+      {
+        "name": "Stefan Mahendra",
+        "browse_id": "UCMZcGfiJPXZ0plcOCQ2nuPQ",
+        "subscribers": "667"
       }
     ],
     "ytm_top_songs": [
@@ -5406,6 +5447,12 @@
           "date": "2026-07-29",
           "views": 219001,
           "likes": 2821,
+          "comments": 8
+        },
+        {
+          "date": "2026-07-30",
+          "views": 219203,
+          "likes": 2822,
           "comments": 8
         }
       ]
@@ -6495,6 +6542,12 @@
           "views": 44677,
           "likes": 377,
           "comments": 2
+        },
+        {
+          "date": "2026-07-30",
+          "views": 44716,
+          "likes": 378,
+          "comments": 2
         }
       ]
     },
@@ -7159,6 +7212,12 @@
           "views": 107055,
           "likes": 1290,
           "comments": 6
+        },
+        {
+          "date": "2026-07-30",
+          "views": 107295,
+          "likes": 1293,
+          "comments": 6
         }
       ]
     },
@@ -7684,6 +7743,12 @@
           "views": 47009,
           "likes": 478,
           "comments": 7
+        },
+        {
+          "date": "2026-07-30",
+          "views": 47049,
+          "likes": 480,
+          "comments": 7
         }
       ]
     },
@@ -8031,6 +8096,12 @@
           "views": 59282,
           "likes": 705,
           "comments": 0
+        },
+        {
+          "date": "2026-07-30",
+          "views": 59318,
+          "likes": 706,
+          "comments": 0
         }
       ]
     },
@@ -8266,6 +8337,18 @@
       "type": "annotated",
       "related_annotation": "活動休止継続下でのファン再生、原因特定できず",
       "detected_at": "2026-07-20T15:53:33.171056+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "youtube_total_views",
+      "value": 1459664,
+      "baseline_mean": 1429849.6,
+      "baseline_stddev": 12529.3,
+      "delta": 29814,
+      "score": 2.38,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-30T15:53:55.959091+00:00"
     }
   ]
 }

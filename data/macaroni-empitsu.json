@@ -4435,6 +4435,47 @@
       "ytm_subscribers": 597000,
       "ytm_monthly_listeners": 4910000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 3010256,
+      "collected_at": "2026-07-30T16:00:56.259254+00:00",
+      "spotify_followers": 2026516,
+      "youtube_subscribers": 597000,
+      "youtube_total_views": 510557899,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 156288
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 150539
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 107135
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 61609
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 56663
+        }
+      ],
+      "lastfm_listeners": 7818,
+      "lastfm_playcount": 462338,
+      "ytm_subscribers": 597000,
+      "ytm_monthly_listeners": 4960000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -4807,12 +4848,12 @@
       {
         "name": "WurtS",
         "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "7.55M"
+        "subscribers": "7.37M"
       },
       {
         "name": "Tele",
         "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "434K"
+        "subscribers": "428K"
       },
       {
         "name": "go!go!vanillas",
@@ -4822,7 +4863,7 @@
       {
         "name": "SHISHAMO",
         "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "3.72M"
+        "subscribers": "4.03M"
       },
       {
         "name": "Koresawa",
@@ -4832,27 +4873,27 @@
       {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "19.9M"
-      },
-      {
-        "name": "sumika",
-        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
-        "subscribers": "3.07M"
+        "subscribers": "20.1M"
       },
       {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.42M"
+        "subscribers": "2.41M"
+      },
+      {
+        "name": "sumika",
+        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
+        "subscribers": "3.4M"
       },
       {
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "95.6M"
+        "subscribers": "96.5M"
       },
       {
         "name": "Hump Back",
         "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
-        "subscribers": "5.46M"
+        "subscribers": "5.57M"
       }
     ],
     "ytm_top_songs": [
@@ -5511,6 +5552,12 @@
           "views": 12636331,
           "likes": 71834,
           "comments": 146
+        },
+        {
+          "date": "2026-07-30",
+          "views": 12653209,
+          "likes": 71921,
+          "comments": 146
         }
       ]
     },
@@ -6146,6 +6193,12 @@
           "views": 25218529,
           "likes": 92180,
           "comments": 178
+        },
+        {
+          "date": "2026-07-30",
+          "views": 25240034,
+          "likes": 92276,
+          "comments": 178
         }
       ]
     },
@@ -6769,6 +6822,12 @@
           "views": 17285758,
           "likes": 63808,
           "comments": 117
+        },
+        {
+          "date": "2026-07-30",
+          "views": 17301811,
+          "likes": 63853,
+          "comments": 117
         }
       ]
     },
@@ -7314,6 +7373,12 @@
           "views": 45636524,
           "likes": 141651,
           "comments": 244
+        },
+        {
+          "date": "2026-07-30",
+          "views": 45655635,
+          "likes": 141707,
+          "comments": 244
         }
       ]
     },
@@ -7840,6 +7905,12 @@
           "views": 15414558,
           "likes": 90886,
           "comments": 511
+        },
+        {
+          "date": "2026-07-30",
+          "views": 15459180,
+          "likes": 91176,
+          "comments": 515
         }
       ]
     },
@@ -8983,6 +9054,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-29T15:59:20.585116+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "youtube_total_views",
+      "value": 510557899,
+      "baseline_mean": 502734201.7,
+      "baseline_stddev": 3900010.7,
+      "delta": 7823697,
+      "score": 2.01,
+      "type": "annotated",
+      "related_annotation": "アニメタイアップ新曲「終宵」の週次放送による累積効果",
+      "detected_at": "2026-07-30T16:00:59.251147+00:00"
     }
   ]
 }

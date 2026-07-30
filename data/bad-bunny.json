@@ -4717,6 +4717,47 @@
       "ytm_subscribers": 53100000,
       "ytm_monthly_listeners": 187000000,
       "ytm_total_views": 48771649977
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 98654483,
+      "collected_at": "2026-07-30T15:56:06.059983+00:00",
+      "spotify_followers": 120746457,
+      "youtube_subscribers": 53100000,
+      "youtube_total_views": 48775471371,
+      "youtube_video_count": 190,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 4057529
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 2419181
+        },
+        {
+          "city": "Bogotá",
+          "country": "CO",
+          "listeners": 2406692
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 1918008
+        },
+        {
+          "city": "Madrid",
+          "country": "ES",
+          "listeners": 1882686
+        }
+      ],
+      "lastfm_listeners": 2699349,
+      "lastfm_playcount": 434497052,
+      "ytm_subscribers": 53100000,
+      "ytm_monthly_listeners": 195000000,
+      "ytm_total_views": 48771649977
     }
   ],
   "annotations": [
@@ -5117,22 +5158,22 @@
       {
         "name": "Sky Rompiendo",
         "browse_id": "UCSTtXdKn1Dmx28ufElKiaqQ",
-        "subscribers": "3.31M"
+        "subscribers": "3.36M"
       },
       {
         "name": "Reggaeton Urbano",
         "browse_id": "UCv7Q36bWPcaC-OAWxqBeBbA",
-        "subscribers": "7.71K"
+        "subscribers": "7.72K"
       },
       {
         "name": "HAZE",
         "browse_id": "UCFV8pv7slPIV_ebs6j6SPHw",
-        "subscribers": "2.16M"
+        "subscribers": "2.23M"
       },
       {
         "name": "Chris Jedi",
         "browse_id": "UCQN0qx3B0J5GWrG7SQyfWQw",
-        "subscribers": "8.22M"
+        "subscribers": "8.35M"
       },
       {
         "name": "Eladio Carrion",
@@ -5142,22 +5183,22 @@
       {
         "name": "Lary Over",
         "browse_id": "UCWpXkaaNdokKbrfXZw6A3IQ",
-        "subscribers": "4.58M"
-      },
-      {
-        "name": "Lunay",
-        "browse_id": "UCPJQHfMDWwUdrKPkZfZNA0Q",
-        "subscribers": "9.3M"
-      },
-      {
-        "name": "Lenny Tavárez",
-        "browse_id": "UCpOtgk_uRB6PZK47wUXXlVQ",
-        "subscribers": "22.1M"
+        "subscribers": "4.66M"
       },
       {
         "name": "Yandel",
         "browse_id": "UCc1QpDE0iT0n6ZLckjflNHw",
-        "subscribers": "33.9M"
+        "subscribers": "34.2M"
+      },
+      {
+        "name": "Lenny Tavárez",
+        "browse_id": "UCpOtgk_uRB6PZK47wUXXlVQ",
+        "subscribers": "22M"
+      },
+      {
+        "name": "Jhayco",
+        "browse_id": "UChZEzxer-QvRMbADJJGOMuQ",
+        "subscribers": "28.4M"
       }
     ],
     "ytm_top_songs": [
@@ -5835,6 +5876,12 @@
           "views": 270288017,
           "likes": 1953036,
           "comments": 13527
+        },
+        {
+          "date": "2026-07-30",
+          "views": 270590841,
+          "likes": 1954707,
+          "comments": 13544
         }
       ]
     },
@@ -6488,6 +6535,12 @@
           "views": 374518773,
           "likes": 2891543,
           "comments": 23835
+        },
+        {
+          "date": "2026-07-30",
+          "views": 374921746,
+          "likes": 2893713,
+          "comments": 23857
         }
       ]
     },
@@ -7003,6 +7056,12 @@
           "views": 525503310,
           "likes": 3620202,
           "comments": 9643
+        },
+        {
+          "date": "2026-07-30",
+          "views": 525728827,
+          "likes": 3621544,
+          "comments": 9651
         }
       ]
     },
@@ -7500,6 +7559,12 @@
           "views": 169013108,
           "likes": 1192284,
           "comments": 4999
+        },
+        {
+          "date": "2026-07-30",
+          "views": 169255531,
+          "likes": 1193668,
+          "comments": 5010
         }
       ]
     },
@@ -8368,6 +8433,12 @@
           "views": 179596774,
           "likes": 926428,
           "comments": 1733
+        },
+        {
+          "date": "2026-07-30",
+          "views": 179758426,
+          "likes": 927247,
+          "comments": 1749
         }
       ]
     },
@@ -8718,6 +8789,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-25T15:04:41.906672+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "ytm_monthly_listeners",
+      "value": 195000000,
+      "baseline_mean": 184600000,
+      "baseline_stddev": 4521061.8,
+      "delta": 10400000,
+      "score": 2.3,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-30T15:56:07.410776+00:00"
     }
   ]
 }

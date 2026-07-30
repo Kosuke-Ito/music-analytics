@@ -4423,6 +4423,47 @@
       "ytm_subscribers": 1760000,
       "ytm_monthly_listeners": 8450000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 2679189,
+      "collected_at": "2026-07-30T15:58:56.243649+00:00",
+      "spotify_followers": 2471285,
+      "youtube_subscribers": 1760000,
+      "youtube_total_views": 1443242213,
+      "youtube_video_count": 201,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 115100
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 91741
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 63560
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 42121
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 35002
+        }
+      ],
+      "lastfm_listeners": 21587,
+      "lastfm_playcount": 3006788,
+      "ytm_subscribers": 1760000,
+      "ytm_monthly_listeners": 8450000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4459,7 +4500,7 @@
       {
         "name": "sakanaction",
         "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "65.4M"
+        "subscribers": "61.8M"
       },
       {
         "name": "Penthouse",
@@ -4472,29 +4513,29 @@
         "subscribers": "43.8M"
       },
       {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10.6M"
+      },
+      {
         "name": "King Gnu",
         "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
         "subscribers": "51.2M"
       },
       {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.5M"
-      },
-      {
-        "name": "Tokyo Incidents",
-        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
-        "subscribers": "1.49M"
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "553K"
       },
       {
         "name": "SHISHAMO",
         "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "3.72M"
+        "subscribers": "4.03M"
       },
       {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "553K"
+        "name": "Tokyo Incidents",
+        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
+        "subscribers": "1.56M"
       },
       {
         "name": "aiko",
@@ -5163,6 +5204,12 @@
           "views": 60819959,
           "likes": 239873,
           "comments": 579
+        },
+        {
+          "date": "2026-07-30",
+          "views": 60856592,
+          "likes": 240036,
+          "comments": 579
         }
       ]
     },
@@ -5798,6 +5845,12 @@
           "views": 5297567,
           "likes": 43135,
           "comments": 0
+        },
+        {
+          "date": "2026-07-30",
+          "views": 5309190,
+          "likes": 43218,
+          "comments": 0
         }
       ]
     },
@@ -6421,6 +6474,12 @@
           "views": 21895560,
           "likes": 103131,
           "comments": 88
+        },
+        {
+          "date": "2026-07-30",
+          "views": 21910826,
+          "likes": 103206,
+          "comments": 88
         }
       ]
     },
@@ -6936,6 +6995,12 @@
           "views": 10519898,
           "likes": 53719,
           "comments": 46
+        },
+        {
+          "date": "2026-07-30",
+          "views": 10529284,
+          "likes": 53762,
+          "comments": 46
         }
       ]
     },
@@ -7378,6 +7443,12 @@
           "date": "2026-07-29",
           "views": 11156947,
           "likes": 50215,
+          "comments": 169
+        },
+        {
+          "date": "2026-07-30",
+          "views": 11163148,
+          "likes": 50261,
           "comments": 169
         }
       ]
@@ -8445,6 +8516,18 @@
       "type": "annotated",
       "related_annotation": "新曲「好き」（TBS火曜ドラマ『君の好きは無敵』主題歌）最新ビジュアル公開の反響でYouTube総再生数が急増",
       "detected_at": "2026-07-29T15:57:23.684382+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "youtube_total_views",
+      "value": 1443242213,
+      "baseline_mean": 1433560341.3,
+      "baseline_stddev": 4329864.6,
+      "delta": 9681871,
+      "score": 2.24,
+      "type": "annotated",
+      "related_annotation": "新曲「好き」発表の反響が継続、7/29配信リリースを控え注目度が持続",
+      "detected_at": "2026-07-30T15:58:57.934667+00:00"
     }
   ]
 }

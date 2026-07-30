@@ -4550,6 +4550,47 @@
       "ytm_subscribers": 327000,
       "ytm_monthly_listeners": 1380000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-07-30",
+      "monthly_listeners": 345114,
+      "collected_at": "2026-07-30T15:49:24.592548+00:00",
+      "spotify_followers": 71611,
+      "youtube_subscribers": 327000,
+      "youtube_total_views": 170128717,
+      "youtube_video_count": 108,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 16082
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 9837
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 7157
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5818
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5571
+        }
+      ],
+      "lastfm_listeners": 34051,
+      "lastfm_playcount": 928643,
+      "ytm_subscribers": 327000,
+      "ytm_monthly_listeners": 1410000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4601,22 +4642,22 @@
       {
         "name": "Hashimero",
         "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
-        "subscribers": "336K"
+        "subscribers": "344K"
       },
       {
         "name": "TAKU INOUE",
         "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
-        "subscribers": "262K"
+        "subscribers": "254K"
       },
       {
         "name": "Rei",
         "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
-        "subscribers": "395K"
+        "subscribers": "383K"
       },
       {
         "name": "Dios",
         "browse_id": "UCjv0kMpF3ee-nqO6UqUsNkA",
-        "subscribers": "181K"
+        "subscribers": "183K"
       },
       {
         "name": "RuLu",
@@ -4626,7 +4667,7 @@
       {
         "name": "LOLUET",
         "browse_id": "UCZjx32TYLqZO9XxBkPlndwA",
-        "subscribers": "8K"
+        "subscribers": "8.01K"
       },
       {
         "name": "EVO+",
@@ -5308,6 +5349,12 @@
           "views": 18698073,
           "likes": 124971,
           "comments": 1063
+        },
+        {
+          "date": "2026-07-30",
+          "views": 18707363,
+          "likes": 124986,
+          "comments": 1063
         }
       ]
     },
@@ -5960,6 +6007,12 @@
           "date": "2026-07-29",
           "views": 5649556,
           "likes": 41383,
+          "comments": 88
+        },
+        {
+          "date": "2026-07-30",
+          "views": 5656991,
+          "likes": 41436,
           "comments": 88
         }
       ]
@@ -6614,6 +6667,12 @@
           "views": 5320391,
           "likes": 35767,
           "comments": 169
+        },
+        {
+          "date": "2026-07-30",
+          "views": 5324555,
+          "likes": 35778,
+          "comments": 169
         }
       ]
     },
@@ -7266,6 +7325,12 @@
           "date": "2026-07-29",
           "views": 2327502,
           "likes": 19330,
+          "comments": 43
+        },
+        {
+          "date": "2026-07-30",
+          "views": 2330775,
+          "likes": 19348,
           "comments": 43
         }
       ]
@@ -7929,6 +7994,12 @@
           "date": "2026-07-29",
           "views": 66292,
           "likes": 1575,
+          "comments": 22
+        },
+        {
+          "date": "2026-07-30",
+          "views": 68197,
+          "likes": 1592,
           "comments": 22
         }
       ]
@@ -8828,6 +8899,18 @@
       "type": "annotated",
       "related_annotation": "アニメ主題歌書き下ろし「ユラリユレル」がヒット、総再生数が急増",
       "detected_at": "2026-07-29T15:48:05.784425+00:00"
+    },
+    {
+      "date": "2026-07-30",
+      "metric": "youtube_total_views",
+      "value": 170128717,
+      "baseline_mean": 167908351.2,
+      "baseline_stddev": 1099666.7,
+      "delta": 2220365,
+      "score": 2.02,
+      "type": "annotated",
+      "related_annotation": "アニメ主題歌書き下ろし「ユラリユレル」がヒット、総再生数が急増",
+      "detected_at": "2026-07-30T15:49:25.959836+00:00"
     }
   ]
 }
