@@ -4470,6 +4470,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 11300000,
       "ytm_total_views": 1300396983
+    },
+    {
+      "date": "2026-07-31",
+      "monthly_listeners": 2887538,
+      "collected_at": "2026-07-31T16:09:32.938255+00:00",
+      "spotify_followers": 1043992,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1793387725,
+      "youtube_video_count": 125,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 133200
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 128455
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 95067
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 49656
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 47971
+        }
+      ],
+      "lastfm_listeners": 208980,
+      "lastfm_playcount": 3493874,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 11300000,
+      "ytm_total_views": 1300396983
     }
   ],
   "annotations": [
@@ -4942,16 +4983,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "CHANMINA",
-        "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
-        "subscribers": "9.57M"
-      },
-      {
-        "name": "MAZZEL",
-        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "1.92M"
-      },
-      {
         "name": "NiziU",
         "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
         "subscribers": "8.23M"
@@ -4962,6 +4993,11 @@
         "subscribers": "5.13M"
       },
       {
+        "name": "IS:SUE",
+        "browse_id": "UCYZICDQsFDgjq1lO58Fy3Ww",
+        "subscribers": "1.17M"
+      },
+      {
         "name": "BE:FIRST",
         "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
         "subscribers": "12.4M"
@@ -4970,6 +5006,16 @@
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
         "subscribers": "919K"
+      },
+      {
+        "name": "MAZZEL",
+        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
+        "subscribers": "1.92M"
+      },
+      {
+        "name": "CHANMINA",
+        "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
+        "subscribers": "9.57M"
       },
       {
         "name": "CUTIE STREET",
@@ -5640,6 +5686,12 @@
           "views": 148269,
           "likes": 1228,
           "comments": 25
+        },
+        {
+          "date": "2026-07-31",
+          "views": 148835,
+          "likes": 1237,
+          "comments": 25
         }
       ]
     },
@@ -6280,6 +6332,12 @@
           "date": "2026-07-30",
           "views": 285315,
           "likes": 2191,
+          "comments": 23
+        },
+        {
+          "date": "2026-07-31",
+          "views": 287158,
+          "likes": 2209,
           "comments": 23
         }
       ]
@@ -7281,6 +7339,12 @@
           "views": 477666,
           "likes": 2871,
           "comments": 10
+        },
+        {
+          "date": "2026-07-31",
+          "views": 480725,
+          "likes": 2893,
+          "comments": 10
         }
       ]
     },
@@ -7693,6 +7757,12 @@
           "date": "2026-07-30",
           "views": 111190,
           "likes": 795,
+          "comments": 7
+        },
+        {
+          "date": "2026-07-31",
+          "views": 111770,
+          "likes": 801,
           "comments": 7
         }
       ]
@@ -8209,6 +8279,12 @@
           "views": 468619,
           "likes": 3125,
           "comments": 46
+        },
+        {
+          "date": "2026-07-31",
+          "views": 469395,
+          "likes": 3133,
+          "comments": 46
         }
       ]
     },
@@ -8460,6 +8536,18 @@
       "type": "annotated",
       "related_annotation": "ILLITとのコラボ曲「I Got Your Back」配信・CD発売",
       "detected_at": "2026-07-30T16:00:23.749094+00:00"
+    },
+    {
+      "date": "2026-07-31",
+      "metric": "monthly_listeners",
+      "value": 2887538,
+      "baseline_mean": 2647478.0,
+      "baseline_stddev": 48231.7,
+      "delta": 240060,
+      "score": 4.98,
+      "type": "annotated",
+      "related_annotation": "ILLITとのコラボ曲「I Got Your Back」配信・CD発売",
+      "detected_at": "2026-07-31T16:09:34.474682+00:00"
     }
   ]
 }

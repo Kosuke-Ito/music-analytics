@@ -4467,6 +4467,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 10500000,
       "ytm_total_views": 1868783184
+    },
+    {
+      "date": "2026-07-31",
+      "monthly_listeners": 3383987,
+      "collected_at": "2026-07-31T16:08:38.791354+00:00",
+      "spotify_followers": 2870707,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1889427657,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 83223
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 73287
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 66576
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 47497
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39383
+        }
+      ],
+      "lastfm_listeners": 501562,
+      "lastfm_playcount": 25597016,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 10500000,
+      "ytm_total_views": 1886716892
     }
   ],
   "metadata": {
@@ -4501,9 +4542,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Anly",
-        "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
-        "subscribers": "6.52M"
+        "name": "Uru",
+        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
+        "subscribers": "19.1M"
+      },
+      {
+        "name": "kobasolo",
+        "browse_id": "UCukBv_7AJU7AZHcidF0HIvQ",
+        "subscribers": "3.63M"
       },
       {
         "name": "Rei Yasuda",
@@ -4526,29 +4572,24 @@
         "subscribers": "305K"
       },
       {
-        "name": "Tielle",
-        "browse_id": "UCc0K8GT24B9QjG9Pidchn4A",
-        "subscribers": "31.6K"
+        "name": "sajou no hana",
+        "browse_id": "UCWNPJK9pQWSRiyr-b6nmQ4Q",
+        "subscribers": "317K"
       },
       {
-        "name": "Miyuna",
+        "name": "MIYUNA",
         "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
         "subscribers": "217K"
       },
       {
-        "name": "Hana Hope",
-        "browse_id": "UCZEjgx64nScw5olfoL1wfAw",
-        "subscribers": "216K"
+        "name": "Anly",
+        "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
+        "subscribers": "6.52M"
       },
       {
-        "name": "Chiai Fujikawa",
-        "browse_id": "UCpzy28Kw66pBn5o8uP3m4tA",
-        "subscribers": "430K"
-      },
-      {
-        "name": "SennaRin",
-        "browse_id": "UCkGZW-PXbJXaSsIZJSHCUDQ",
-        "subscribers": "772K"
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "4.5M"
       }
     ],
     "ytm_top_songs": [
@@ -5220,6 +5261,12 @@
           "views": 41512188,
           "likes": 291134,
           "comments": 1605
+        },
+        {
+          "date": "2026-07-31",
+          "views": 41549940,
+          "likes": 291356,
+          "comments": 1605
         }
       ]
     },
@@ -5866,6 +5913,12 @@
           "date": "2026-07-30",
           "views": 34115594,
           "likes": 156716,
+          "comments": 156
+        },
+        {
+          "date": "2026-07-31",
+          "views": 34130678,
+          "likes": 156761,
           "comments": 156
         }
       ]
@@ -6514,6 +6567,12 @@
           "views": 21062786,
           "likes": 116651,
           "comments": 289
+        },
+        {
+          "date": "2026-07-31",
+          "views": 21076806,
+          "likes": 116720,
+          "comments": 289
         }
       ]
     },
@@ -7106,6 +7165,12 @@
           "date": "2026-07-30",
           "views": 5733374,
           "likes": 57368,
+          "comments": 912
+        },
+        {
+          "date": "2026-07-31",
+          "views": 5740963,
+          "likes": 57437,
           "comments": 912
         }
       ]
@@ -7789,6 +7854,12 @@
           "views": 31316010,
           "likes": 134012,
           "comments": 769
+        },
+        {
+          "date": "2026-07-31",
+          "views": 31333652,
+          "likes": 134077,
+          "comments": 769
         }
       ]
     },
@@ -8306,6 +8377,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-24T15:34:37.936657+00:00"
+    },
+    {
+      "date": "2026-07-31",
+      "metric": "youtube_total_views",
+      "value": 1889427657,
+      "baseline_mean": 1869727640.9,
+      "baseline_stddev": 2221605.6,
+      "delta": 19700016,
+      "score": 8.87,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-07-31T16:08:40.825919+00:00"
     }
   ]
 }
