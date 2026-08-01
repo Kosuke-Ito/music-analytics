@@ -4799,6 +4799,47 @@
       "ytm_subscribers": 63300000,
       "ytm_monthly_listeners": 447000000,
       "ytm_total_views": 45190285976
+    },
+    {
+      "date": "2026-08-01",
+      "monthly_listeners": 100866817,
+      "collected_at": "2026-08-01T15:01:02.628760+00:00",
+      "spotify_followers": 161657992,
+      "youtube_subscribers": 63300000,
+      "youtube_total_views": 45967810245,
+      "youtube_video_count": 660,
+      "top_cities": [
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1639921
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 1232592
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1125949
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 1053492
+        },
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 1044370
+        }
+      ],
+      "lastfm_listeners": 6063963,
+      "lastfm_playcount": 3774982960,
+      "ytm_subscribers": 63300000,
+      "ytm_monthly_listeners": 443000000,
+      "ytm_total_views": 45190285976
     }
   ],
   "annotations": [
@@ -5219,14 +5260,9 @@
         "subscribers": "2.95M"
       },
       {
-        "name": "Jonas Brothers",
-        "browse_id": "UC150BpcojVsQJTYogTkKTZQ",
-        "subscribers": "12.8M"
-      },
-      {
-        "name": "Lorde",
-        "browse_id": "UCILoG0-vdgLDnrwtRuM_0GQ",
-        "subscribers": "17.3M"
+        "name": "One Direction",
+        "browse_id": "UCREhun2tPd7aQnJczZM_Mww",
+        "subscribers": "105M"
       },
       {
         "name": "Maisie Peters",
@@ -5234,24 +5270,24 @@
         "subscribers": "763K"
       },
       {
+        "name": "Ariana Grande",
+        "browse_id": "UC0076UMUgEng8HORUw_MYHA",
+        "subscribers": "248M"
+      },
+      {
+        "name": "Olivia Rodrigo",
+        "browse_id": "UCE5XNpliPM-SmyFEp61tL_g",
+        "subscribers": "155M"
+      },
+      {
         "name": "Katy Perry",
         "browse_id": "UC_7s69e1mDS3lgcTMJEPjCg",
         "subscribers": "256M"
       },
       {
-        "name": "Miley Cyrus",
-        "browse_id": "UCREdEwBdZcnQLIT0ThaAtmQ",
-        "subscribers": "84M"
-      },
-      {
-        "name": "Niall Horan",
-        "browse_id": "UCxm9sS8Dd2aRthr_O3rVLJQ",
-        "subscribers": "3.87M"
-      },
-      {
-        "name": "One Direction",
-        "browse_id": "UCREhun2tPd7aQnJczZM_Mww",
-        "subscribers": "105M"
+        "name": "Lorde",
+        "browse_id": "UCILoG0-vdgLDnrwtRuM_0GQ",
+        "subscribers": "17.3M"
       },
       {
         "name": "Julia Michaels",
@@ -5259,9 +5295,14 @@
         "subscribers": "4.55M"
       },
       {
-        "name": "Avril Lavigne",
-        "browse_id": "UCdOp8DxiQw6hKZ9b2FY6hbg",
-        "subscribers": "34.5M"
+        "name": "Niall Horan",
+        "browse_id": "UCxm9sS8Dd2aRthr_O3rVLJQ",
+        "subscribers": "3.87M"
+      },
+      {
+        "name": "Shawn Mendes",
+        "browse_id": "UC6ZjlLJhqP79nqGr3Ic6Adg",
+        "subscribers": "150M"
       }
     ],
     "ytm_top_songs": [
@@ -5951,6 +5992,12 @@
           "views": 171266541,
           "likes": 1272821,
           "comments": 10092
+        },
+        {
+          "date": "2026-08-01",
+          "views": 171621428,
+          "likes": 1274453,
+          "comments": 10098
         }
       ]
     },
@@ -6616,6 +6663,12 @@
           "views": 71883364,
           "likes": 467569,
           "comments": 3083
+        },
+        {
+          "date": "2026-08-01",
+          "views": 71915755,
+          "likes": 467756,
+          "comments": 3089
         }
       ]
     },
@@ -7281,6 +7334,12 @@
           "views": 65961975,
           "likes": 401599,
           "comments": 3112
+        },
+        {
+          "date": "2026-08-01",
+          "views": 66092778,
+          "likes": 402115,
+          "comments": 3110
         }
       ]
     },
@@ -7946,6 +8005,12 @@
           "views": 62576076,
           "likes": 422209,
           "comments": 2897
+        },
+        {
+          "date": "2026-08-01",
+          "views": 62603577,
+          "likes": 422347,
+          "comments": 2900
         }
       ]
     },
@@ -8621,6 +8686,12 @@
           "views": 11915720,
           "likes": 235085,
           "comments": 9316
+        },
+        {
+          "date": "2026-08-01",
+          "views": 12019882,
+          "likes": 235810,
+          "comments": 9316
         }
       ]
     }
@@ -8913,6 +8984,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-31T16:04:12.050634+00:00"
+    },
+    {
+      "date": "2026-08-01",
+      "metric": "youtube_total_views",
+      "value": 45967810245,
+      "baseline_mean": 45557669961.6,
+      "baseline_stddev": 136713427.8,
+      "delta": 410140283,
+      "score": 3.0,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-01T15:01:03.691700+00:00"
     }
   ]
 }

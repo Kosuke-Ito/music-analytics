@@ -4820,6 +4820,47 @@
       "ytm_subscribers": 19300,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 793717
+    },
+    {
+      "date": "2026-08-01",
+      "monthly_listeners": 92567,
+      "collected_at": "2026-08-01T14:59:28.438777+00:00",
+      "spotify_followers": 20845,
+      "youtube_subscribers": 19300,
+      "youtube_total_views": 843992,
+      "youtube_video_count": 32,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3719
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 2882
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 2091
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1111
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 993
+        }
+      ],
+      "lastfm_listeners": 8887,
+      "lastfm_playcount": 52840,
+      "ytm_subscribers": 19300,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 793717
     }
   ],
   "annotations": [
@@ -5116,8 +5157,8 @@
         "url": "https://www.last.fm/music/%E7%9F%B3%E9%87%8E%E5%8D%93%E7%90%83"
       },
       {
-        "name": "電気グルーヴ",
-        "url": "https://www.last.fm/music/%E9%9B%BB%E6%B0%97%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4"
+        "name": "tofubeats",
+        "url": "https://www.last.fm/music/tofubeats"
       }
     ]
   },
@@ -5685,6 +5726,18 @@
       "type": "annotated",
       "related_annotation": "メジャーデビュー発表とフジロック出演が重なり露出増",
       "detected_at": "2026-07-31T16:02:31.431336+00:00"
+    },
+    {
+      "date": "2026-08-01",
+      "metric": "monthly_listeners",
+      "value": 92567,
+      "baseline_mean": 73494.2,
+      "baseline_stddev": 9256.5,
+      "delta": 19072,
+      "score": 2.06,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-01T14:59:29.348366+00:00"
     }
   ],
   "song_performance": {
@@ -6343,6 +6396,12 @@
           "date": "2026-07-31",
           "views": 4680,
           "likes": 97,
+          "comments": 1
+        },
+        {
+          "date": "2026-08-01",
+          "views": 4700,
+          "likes": 98,
           "comments": 1
         }
       ]
@@ -7003,6 +7062,12 @@
           "views": 7795,
           "likes": 192,
           "comments": 6
+        },
+        {
+          "date": "2026-08-01",
+          "views": 7812,
+          "likes": 193,
+          "comments": 6
         }
       ]
     },
@@ -7662,6 +7727,12 @@
           "views": 23408,
           "likes": 211,
           "comments": 2
+        },
+        {
+          "date": "2026-08-01",
+          "views": 23442,
+          "likes": 211,
+          "comments": 2
         }
       ]
     },
@@ -8319,6 +8390,12 @@
         {
           "date": "2026-07-31",
           "views": 13531,
+          "likes": 208,
+          "comments": 1
+        },
+        {
+          "date": "2026-08-01",
+          "views": 13538,
           "likes": 208,
           "comments": 1
         }
@@ -8989,6 +9066,12 @@
           "date": "2026-07-31",
           "views": 8049,
           "likes": 147,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-01",
+          "views": 8107,
+          "likes": 148,
           "comments": 2
         }
       ]

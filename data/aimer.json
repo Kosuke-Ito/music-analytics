@@ -4508,6 +4508,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 10500000,
       "ytm_total_views": 1886716892
+    },
+    {
+      "date": "2026-08-01",
+      "monthly_listeners": 3381595,
+      "collected_at": "2026-08-01T15:05:22.296925+00:00",
+      "spotify_followers": 2871134,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1889427657,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 82646
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 73182
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 66470
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 47427
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39386
+        }
+      ],
+      "lastfm_listeners": 501562,
+      "lastfm_playcount": 25597016,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 10500000,
+      "ytm_total_views": 1886716892
     }
   ],
   "metadata": {
@@ -4547,9 +4588,14 @@
         "subscribers": "19.1M"
       },
       {
-        "name": "kobasolo",
-        "browse_id": "UCukBv_7AJU7AZHcidF0HIvQ",
-        "subscribers": "3.63M"
+        "name": "ATARAYO",
+        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
+        "subscribers": "1.67M"
+      },
+      {
+        "name": "Chiai Fujikawa",
+        "browse_id": "UCpzy28Kw66pBn5o8uP3m4tA",
+        "subscribers": "430K"
       },
       {
         "name": "Rei Yasuda",
@@ -4585,11 +4631,6 @@
         "name": "Anly",
         "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
         "subscribers": "6.52M"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "4.5M"
       }
     ],
     "ytm_top_songs": [
@@ -5267,6 +5308,12 @@
           "views": 41549940,
           "likes": 291356,
           "comments": 1605
+        },
+        {
+          "date": "2026-08-01",
+          "views": 41582926,
+          "likes": 291597,
+          "comments": 1607
         }
       ]
     },
@@ -5919,6 +5966,12 @@
           "date": "2026-07-31",
           "views": 34130678,
           "likes": 156761,
+          "comments": 156
+        },
+        {
+          "date": "2026-08-01",
+          "views": 34143492,
+          "likes": 156808,
           "comments": 156
         }
       ]
@@ -6573,6 +6626,12 @@
           "views": 21076806,
           "likes": 116720,
           "comments": 289
+        },
+        {
+          "date": "2026-08-01",
+          "views": 21088282,
+          "likes": 116793,
+          "comments": 289
         }
       ]
     },
@@ -7172,6 +7231,12 @@
           "views": 5740963,
           "likes": 57437,
           "comments": 912
+        },
+        {
+          "date": "2026-08-01",
+          "views": 5747882,
+          "likes": 57488,
+          "comments": 913
         }
       ]
     },
@@ -7860,6 +7925,12 @@
           "views": 31333652,
           "likes": 134077,
           "comments": 769
+        },
+        {
+          "date": "2026-08-01",
+          "views": 31347879,
+          "likes": 134132,
+          "comments": 769
         }
       ]
     },
@@ -8399,6 +8470,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-31T16:08:40.825919+00:00"
+    },
+    {
+      "date": "2026-08-01",
+      "metric": "youtube_total_views",
+      "value": 1889427657,
+      "baseline_mean": 1870661391.0,
+      "baseline_stddev": 3833633.9,
+      "delta": 18766265,
+      "score": 4.9,
+      "type": "annotated",
+      "related_annotation": "劇場版「鬼滅の刃」無限城編第一章BD/DVD発売（7/29）の余波でYouTube総再生数が急増",
+      "detected_at": "2026-08-01T15:05:23.811994+00:00"
     }
   ]
 }
