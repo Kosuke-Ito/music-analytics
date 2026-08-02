@@ -4663,6 +4663,47 @@
       "ytm_subscribers": 29300,
       "ytm_monthly_listeners": 74700,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-02",
+      "monthly_listeners": 56909,
+      "collected_at": "2026-08-02T14:55:38.413808+00:00",
+      "spotify_followers": 36399,
+      "youtube_subscribers": 29300,
+      "youtube_total_views": 15475848,
+      "youtube_video_count": 185,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2175
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1333
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 932
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 668
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 447
+        }
+      ],
+      "lastfm_listeners": 19955,
+      "lastfm_playcount": 219230,
+      "ytm_subscribers": 29300,
+      "ytm_monthly_listeners": 74300,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4698,52 +4739,52 @@
       {
         "name": "Penthouse",
         "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "1.85M"
+        "subscribers": "1.84M"
       },
       {
         "name": "Mega Shinnosuke",
         "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
-        "subscribers": "5.51M"
+        "subscribers": "5.62M"
       },
       {
         "name": "Lucky Kilimanjaro",
         "browse_id": "UCiVXhIDW-3GNIyL5wsydr1Q",
-        "subscribers": "4.47M"
+        "subscribers": "4.28M"
       },
       {
         "name": "RETRORIRON",
         "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "312K"
-      },
-      {
-        "name": "Tempalay",
-        "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
-        "subscribers": "115K"
-      },
-      {
-        "name": "DENIMS",
-        "browse_id": "UCe2shYTeqS16Dlw8wGF1DEg",
-        "subscribers": "43.5K"
-      },
-      {
-        "name": "NIKO NIKO TAN TAN",
-        "browse_id": "UCbyzNb5hHmY4dsv2AJWur6A",
-        "subscribers": "37.2K"
+        "subscribers": "310K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "93.3K"
+        "subscribers": "92.2K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "107K"
+        "subscribers": "108K"
       },
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "90.2K"
+        "subscribers": "82.7K"
+      },
+      {
+        "name": "Okamoto's",
+        "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
+        "subscribers": "206K"
+      },
+      {
+        "name": "FRIENDS",
+        "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
+        "subscribers": "74.2K"
+      },
+      {
+        "name": "SHINTOKYO",
+        "browse_id": "UCQVD_dAxVQJ3lf-BL5AkfsQ",
+        "subscribers": "15.7K"
       }
     ],
     "ytm_top_songs": [
@@ -5438,6 +5479,12 @@
           "views": 16882,
           "likes": 153,
           "comments": 3
+        },
+        {
+          "date": "2026-08-02",
+          "views": 16897,
+          "likes": 153,
+          "comments": 3
         }
       ]
     },
@@ -6108,6 +6155,12 @@
           "date": "2026-08-01",
           "views": 49064,
           "likes": 406,
+          "comments": 9
+        },
+        {
+          "date": "2026-08-02",
+          "views": 49189,
+          "likes": 407,
           "comments": 9
         }
       ]
@@ -6780,6 +6833,12 @@
           "views": 213903,
           "likes": 2554,
           "comments": 37
+        },
+        {
+          "date": "2026-08-02",
+          "views": 214214,
+          "likes": 2556,
+          "comments": 37
         }
       ]
     },
@@ -7431,6 +7490,12 @@
         {
           "date": "2026-08-01",
           "views": 3758,
+          "likes": 57,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-02",
+          "views": 3765,
           "likes": 57,
           "comments": 5
         }
@@ -8137,6 +8202,12 @@
           "views": 2079,
           "likes": 24,
           "comments": 1
+        },
+        {
+          "date": "2026-08-02",
+          "views": 2083,
+          "likes": 24,
+          "comments": 1
         }
       ]
     }
@@ -8652,6 +8723,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-08-01T14:53:27.322684+00:00"
+    },
+    {
+      "date": "2026-08-02",
+      "metric": "youtube_total_views",
+      "value": 15475848,
+      "baseline_mean": 15358123.3,
+      "baseline_stddev": 55754.3,
+      "delta": 117724,
+      "score": 2.11,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-08-02T14:55:39.692284+00:00"
     }
   ]
 }
