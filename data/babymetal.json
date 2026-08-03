@@ -4590,6 +4590,47 @@
       "ytm_subscribers": 3650000,
       "ytm_monthly_listeners": 6800000,
       "ytm_total_views": 1093525502
+    },
+    {
+      "date": "2026-08-03",
+      "monthly_listeners": 3381748,
+      "collected_at": "2026-08-03T16:30:48.168891+00:00",
+      "spotify_followers": 3048657,
+      "youtube_subscribers": 3650000,
+      "youtube_total_views": 1102542959,
+      "youtube_video_count": 353,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 55998
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 51020
+        },
+        {
+          "city": "Bonn",
+          "country": "DE",
+          "listeners": 45044
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 42956
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 40273
+        }
+      ],
+      "lastfm_listeners": 999598,
+      "lastfm_playcount": 60838998,
+      "ytm_subscribers": 3650000,
+      "ytm_monthly_listeners": 6700000,
+      "ytm_total_views": 1093525502
     }
   ],
   "annotations": [
@@ -4970,7 +5011,7 @@
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "298K"
+        "subscribers": "293K"
       },
       {
         "name": "Sakura Gakuin",
@@ -4980,7 +5021,7 @@
       {
         "name": "Mellows",
         "browse_id": "UC9BIwJgZn6hJCldEBvxOd-g",
-        "subscribers": "4.45K"
+        "subscribers": "4.46K"
       },
       {
         "name": "LADYBABY",
@@ -5675,6 +5716,12 @@
           "views": 8498334,
           "likes": 93972,
           "comments": 295
+        },
+        {
+          "date": "2026-08-03",
+          "views": 8517437,
+          "likes": 94143,
+          "comments": 296
         }
       ]
     },
@@ -6334,6 +6381,12 @@
           "views": 5369278,
           "likes": 105064,
           "comments": 585
+        },
+        {
+          "date": "2026-08-03",
+          "views": 5381822,
+          "likes": 105289,
+          "comments": 586
         }
       ]
     },
@@ -6980,6 +7033,12 @@
           "date": "2026-08-02",
           "views": 5551746,
           "likes": 75641,
+          "comments": 249
+        },
+        {
+          "date": "2026-08-03",
+          "views": 5562738,
+          "likes": 75741,
           "comments": 249
         }
       ]
@@ -8064,6 +8123,12 @@
           "views": 1774030,
           "likes": 23379,
           "comments": 83
+        },
+        {
+          "date": "2026-08-03",
+          "views": 1778892,
+          "likes": 23447,
+          "comments": 83
         }
       ]
     },
@@ -8352,6 +8417,12 @@
           "views": 855274,
           "likes": 12887,
           "comments": 75
+        },
+        {
+          "date": "2026-08-03",
+          "views": 856784,
+          "likes": 12919,
+          "comments": 76
         }
       ]
     },
@@ -9050,6 +9121,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-02T15:11:42.051241+00:00"
+    },
+    {
+      "date": "2026-08-03",
+      "metric": "youtube_total_views",
+      "value": 1102542959,
+      "baseline_mean": 1092519999.3,
+      "baseline_stddev": 4878867.3,
+      "delta": 10022959,
+      "score": 2.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-03T16:30:49.561904+00:00"
     }
   ]
 }

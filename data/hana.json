@@ -4593,6 +4593,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 11500000,
       "ytm_total_views": 1300396983
+    },
+    {
+      "date": "2026-08-03",
+      "monthly_listeners": 3186733,
+      "collected_at": "2026-08-03T16:28:22.228296+00:00",
+      "spotify_followers": 1048347,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1793387725,
+      "youtube_video_count": 125,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 134211
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 130487
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 96243
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 50268
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 49501
+        }
+      ],
+      "lastfm_listeners": 209071,
+      "lastfm_playcount": 3496447,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 12600000,
+      "ytm_total_views": 1300396983
     }
   ],
   "annotations": [
@@ -5067,42 +5108,42 @@
       {
         "name": "BE:FIRST",
         "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
-        "subscribers": "11.8M"
-      },
-      {
-        "name": "CHANMINA",
-        "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
-        "subscribers": "9.76M"
+        "subscribers": "11.2M"
       },
       {
         "name": "ME:I",
         "browse_id": "UCmVWcCVzrEgVfNZLY80hfHw",
-        "subscribers": "6M"
-      },
-      {
-        "name": "NiziU",
-        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "7.8M"
-      },
-      {
-        "name": "MAZZEL",
-        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "1.86M"
+        "subscribers": "6.25M"
       },
       {
         "name": "IS:SUE",
         "browse_id": "UCYZICDQsFDgjq1lO58Fy3Ww",
-        "subscribers": "996K"
+        "subscribers": "952K"
+      },
+      {
+        "name": "MAZZEL",
+        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
+        "subscribers": "487K"
+      },
+      {
+        "name": "NiziU",
+        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
+        "subscribers": "7.76M"
+      },
+      {
+        "name": "CHANMINA",
+        "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
+        "subscribers": "9.71M"
       },
       {
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "865K"
+        "subscribers": "855K"
       },
       {
         "name": "CUTIE STREET",
         "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
-        "subscribers": "24.8M"
+        "subscribers": "24.6M"
       }
     ],
     "ytm_top_songs": [
@@ -5786,6 +5827,12 @@
           "views": 149803,
           "likes": 1246,
           "comments": 25
+        },
+        {
+          "date": "2026-08-03",
+          "views": 150401,
+          "likes": 1252,
+          "comments": 25
         }
       ]
     },
@@ -6444,6 +6491,12 @@
           "date": "2026-08-02",
           "views": 290682,
           "likes": 2236,
+          "comments": 23
+        },
+        {
+          "date": "2026-08-03",
+          "views": 292451,
+          "likes": 2250,
           "comments": 23
         }
       ]
@@ -7463,6 +7516,12 @@
           "views": 485594,
           "likes": 2931,
           "comments": 12
+        },
+        {
+          "date": "2026-08-03",
+          "views": 488482,
+          "likes": 2954,
+          "comments": 13
         }
       ]
     },
@@ -7893,6 +7952,12 @@
           "date": "2026-08-02",
           "views": 112713,
           "likes": 808,
+          "comments": 7
+        },
+        {
+          "date": "2026-08-03",
+          "views": 113191,
+          "likes": 810,
           "comments": 7
         }
       ]
@@ -8427,6 +8492,12 @@
           "views": 470774,
           "likes": 3144,
           "comments": 46
+        },
+        {
+          "date": "2026-08-03",
+          "views": 471513,
+          "likes": 3152,
+          "comments": 46
         }
       ]
     },
@@ -8714,6 +8785,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-02T15:09:08.003102+00:00"
+    },
+    {
+      "date": "2026-08-03",
+      "metric": "monthly_listeners",
+      "value": 3186733,
+      "baseline_mean": 2676809.8,
+      "baseline_stddev": 111288.5,
+      "delta": 509923,
+      "score": 4.58,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-03T16:28:24.640655+00:00"
+    },
+    {
+      "date": "2026-08-03",
+      "metric": "ytm_monthly_listeners",
+      "value": 12600000,
+      "baseline_mean": 11850000,
+      "baseline_stddev": 275378.5,
+      "delta": 750000,
+      "score": 2.72,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-03T16:28:24.640655+00:00"
     }
   ]
 }

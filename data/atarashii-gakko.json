@@ -4593,6 +4593,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 3920000,
       "ytm_total_views": 584010076
+    },
+    {
+      "date": "2026-08-03",
+      "monthly_listeners": 884404,
+      "collected_at": "2026-08-03T16:29:59.591461+00:00",
+      "spotify_followers": 981934,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 607608221,
+      "youtube_video_count": 431,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20781
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13741
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 11849
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 11373
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8119
+        }
+      ],
+      "lastfm_listeners": 8929,
+      "lastfm_playcount": 411671,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 3930000,
+      "ytm_total_views": 584010076
     }
   ],
   "metadata": {
@@ -4632,14 +4673,14 @@
         "subscribers": "62.4K"
       },
       {
-        "name": "DAOKO",
-        "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
-        "subscribers": "7.77M"
+        "name": "Kocchi no Kento",
+        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
+        "subscribers": "58.9M"
       },
       {
-        "name": "TOKYO SKA PARADISE ORCHESTRA",
-        "browse_id": "UC2EIPYTEx5_RuFQHMdZvI0A",
-        "subscribers": "2.94M"
+        "name": "DAOKO",
+        "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
+        "subscribers": "7.86M"
       },
       {
         "name": "SHISHIDO KAVKA",
@@ -4649,7 +4690,7 @@
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "205K"
+        "subscribers": "204K"
       },
       {
         "name": "MHRJ",
@@ -4659,7 +4700,7 @@
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "120K"
+        "subscribers": "119K"
       },
       {
         "name": "Avantgardey",
@@ -4674,7 +4715,7 @@
       {
         "name": "SOIL & \"PIMP\" SESSIONS",
         "browse_id": "UCjbIpDwFHq2QYh4FsWmhgCg",
-        "subscribers": "238K"
+        "subscribers": "232K"
       }
     ],
     "ytm_top_songs": [
@@ -5370,6 +5411,12 @@
           "views": 19563976,
           "likes": 278768,
           "comments": 428
+        },
+        {
+          "date": "2026-08-03",
+          "views": 19573150,
+          "likes": 278890,
+          "comments": 429
         }
       ]
     },
@@ -6041,6 +6088,12 @@
           "views": 5458317,
           "likes": 32123,
           "comments": 134
+        },
+        {
+          "date": "2026-08-03",
+          "views": 5460298,
+          "likes": 32130,
+          "comments": 134
         }
       ]
     },
@@ -6711,6 +6764,12 @@
           "date": "2026-08-02",
           "views": 2242898,
           "likes": 37197,
+          "comments": 113
+        },
+        {
+          "date": "2026-08-03",
+          "views": 2245886,
+          "likes": 37238,
           "comments": 113
         }
       ]
@@ -7995,6 +8054,12 @@
           "views": 286325,
           "likes": 8434,
           "comments": 221
+        },
+        {
+          "date": "2026-08-03",
+          "views": 288270,
+          "likes": 8472,
+          "comments": 221
         }
       ]
     },
@@ -8083,6 +8148,12 @@
           "date": "2026-08-02",
           "views": 56867,
           "likes": 3062,
+          "comments": 117
+        },
+        {
+          "date": "2026-08-03",
+          "views": 58376,
+          "likes": 3093,
           "comments": 117
         }
       ]
@@ -8877,6 +8948,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-02T15:10:51.544062+00:00"
+    },
+    {
+      "date": "2026-08-03",
+      "metric": "monthly_listeners",
+      "value": 884404,
+      "baseline_mean": 829145.2,
+      "baseline_stddev": 24438.2,
+      "delta": 55258,
+      "score": 2.26,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-03T16:30:01.779065+00:00"
     }
   ]
 }

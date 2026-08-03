@@ -4596,6 +4596,47 @@
       "ytm_subscribers": 1680000,
       "ytm_monthly_listeners": 6720000,
       "ytm_total_views": 1821198073
+    },
+    {
+      "date": "2026-08-03",
+      "monthly_listeners": 2430608,
+      "collected_at": "2026-08-03T16:30:16.417316+00:00",
+      "spotify_followers": 1654116,
+      "youtube_subscribers": 1680000,
+      "youtube_total_views": 1838015486,
+      "youtube_video_count": 182,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 105653
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 85072
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 62164
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 37844
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 26224
+        }
+      ],
+      "lastfm_listeners": 312217,
+      "lastfm_playcount": 21498815,
+      "ytm_subscribers": 1680000,
+      "ytm_monthly_listeners": 6670000,
+      "ytm_total_views": 1821198073
     }
   ],
   "metadata": {
@@ -4637,17 +4678,12 @@
       {
         "name": "Mr.Children",
         "browse_id": "UCNL-6VGm61Y_dkVB89ZkYIA",
-        "subscribers": "5.8M"
-      },
-      {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "60.5M"
+        "subscribers": "5.75M"
       },
       {
         "name": "Fujifabric",
         "browse_id": "UCFRvee2fH0Fo6WRKGZuk7SQ",
-        "subscribers": "1.58M"
+        "subscribers": "1.57M"
       },
       {
         "name": "Remioromen",
@@ -4657,17 +4693,22 @@
       {
         "name": "星野源 Gen Hoshino",
         "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
-        "subscribers": "8.44M"
+        "subscribers": "8.41M"
+      },
+      {
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "95M"
+      },
+      {
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "60.6M"
       },
       {
         "name": "SUKIMASWITCH",
         "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "4.59M"
-      },
-      {
-        "name": "SUPER BEAVER",
-        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
-        "subscribers": "2.42M"
+        "subscribers": "4.58M"
       },
       {
         "name": "Spitz",
@@ -4675,9 +4716,9 @@
         "subscribers": "6.45M"
       },
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "12.3M"
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "18.2M"
       }
     ],
     "ytm_top_songs": [
@@ -5373,6 +5414,12 @@
           "views": 23850807,
           "likes": 79822,
           "comments": 282
+        },
+        {
+          "date": "2026-08-03",
+          "views": 23878373,
+          "likes": 79886,
+          "comments": 282
         }
       ]
     },
@@ -6044,6 +6091,12 @@
           "views": 14542008,
           "likes": 96015,
           "comments": 941
+        },
+        {
+          "date": "2026-08-03",
+          "views": 14576795,
+          "likes": 96158,
+          "comments": 942
         }
       ]
     },
@@ -6768,6 +6821,12 @@
           "views": 98701398,
           "likes": 480852,
           "comments": 6138
+        },
+        {
+          "date": "2026-08-03",
+          "views": 98736501,
+          "likes": 480942,
+          "comments": 6137
         }
       ]
     },
@@ -7439,6 +7498,12 @@
           "views": 49591162,
           "likes": 137662,
           "comments": 285
+        },
+        {
+          "date": "2026-08-03",
+          "views": 49623502,
+          "likes": 137758,
+          "comments": 281
         }
       ]
     },
@@ -8066,6 +8131,12 @@
           "date": "2026-08-02",
           "views": 20857548,
           "likes": 50813,
+          "comments": 68
+        },
+        {
+          "date": "2026-08-03",
+          "views": 20872100,
+          "likes": 50835,
           "comments": 68
         }
       ]
@@ -9025,6 +9096,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-02T15:11:08.731689+00:00"
+    },
+    {
+      "date": "2026-08-03",
+      "metric": "monthly_listeners",
+      "value": 2430608,
+      "baseline_mean": 2371093.3,
+      "baseline_stddev": 29079.6,
+      "delta": 59514,
+      "score": 2.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-03T16:30:17.897028+00:00"
     }
   ]
 }

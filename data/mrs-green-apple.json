@@ -4894,6 +4894,47 @@
       "ytm_subscribers": 6400000,
       "ytm_monthly_listeners": 36600000,
       "ytm_total_views": 6740061813
+    },
+    {
+      "date": "2026-08-03",
+      "monthly_listeners": 7700680,
+      "collected_at": "2026-08-03T16:19:52.472909+00:00",
+      "spotify_followers": 7375265,
+      "youtube_subscribers": 6410000,
+      "youtube_total_views": 6965886432,
+      "youtube_video_count": 851,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 385773
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 347173
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 244713
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 145644
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 123117
+        }
+      ],
+      "lastfm_listeners": 457293,
+      "lastfm_playcount": 12832581,
+      "ytm_subscribers": 6410000,
+      "ytm_monthly_listeners": 36800000,
+      "ytm_total_views": 6745865522
     }
   ],
   "annotations": [
@@ -5512,27 +5553,27 @@
       {
         "name": "OFFICIAL HIGE DANDISM",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "60.5M"
+        "subscribers": "60.6M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "20.8M"
-      },
-      {
-        "name": "BUMP OF CHICKEN",
-        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
-        "subscribers": "6.72M"
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "95M"
       },
       {
         "name": "aimyon",
         "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
-        "subscribers": "6.86M"
+        "subscribers": "6.97M"
       },
       {
         "name": "星野源 Gen Hoshino",
         "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
-        "subscribers": "8.44M"
+        "subscribers": "8.41M"
+      },
+      {
+        "name": "BUMP OF CHICKEN",
+        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
+        "subscribers": "6.67M"
       },
       {
         "name": "Takaya Kawasaki",
@@ -5540,19 +5581,19 @@
         "subscribers": "2.35M"
       },
       {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "21.1M"
+      },
+      {
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
         "subscribers": "10.3M"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "95.4M"
-      },
-      {
-        "name": "macaroni enpitsu",
-        "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
-        "subscribers": "4.99M"
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "77.2M"
       }
     ],
     "ytm_top_songs": [
@@ -6254,6 +6295,12 @@
           "views": 29980207,
           "likes": 161280,
           "comments": 2403
+        },
+        {
+          "date": "2026-08-03",
+          "views": 30065254,
+          "likes": 161460,
+          "comments": 2418
         }
       ]
     },
@@ -6931,6 +6978,12 @@
           "views": 153524731,
           "likes": 550843,
           "comments": 6097
+        },
+        {
+          "date": "2026-08-03",
+          "views": 153641524,
+          "likes": 551092,
+          "comments": 6097
         }
       ]
     },
@@ -7607,6 +7660,12 @@
           "date": "2026-08-02",
           "views": 60525362,
           "likes": 233187,
+          "comments": 455
+        },
+        {
+          "date": "2026-08-03",
+          "views": 60557412,
+          "likes": 233295,
           "comments": 455
         }
       ]
@@ -8875,6 +8934,12 @@
           "views": 107908812,
           "likes": 354348,
           "comments": 1887
+        },
+        {
+          "date": "2026-08-03",
+          "views": 107989982,
+          "likes": 354594,
+          "comments": 1890
         }
       ]
     },
@@ -8982,6 +9047,12 @@
           "views": 8496593,
           "likes": 133477,
           "comments": 8367
+        },
+        {
+          "date": "2026-08-03",
+          "views": 8739610,
+          "likes": 135574,
+          "comments": 8402
         }
       ]
     }
@@ -9502,6 +9573,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-02T14:59:59.451971+00:00"
+    },
+    {
+      "date": "2026-08-03",
+      "metric": "ytm_monthly_listeners",
+      "value": 36800000,
+      "baseline_mean": 34636666.7,
+      "baseline_stddev": 1057507.6,
+      "delta": 2163333,
+      "score": 2.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-03T16:19:53.584305+00:00"
     }
   ]
 }
