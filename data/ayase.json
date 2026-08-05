@@ -4790,6 +4790,47 @@
       "ytm_subscribers": 107000,
       "ytm_monthly_listeners": 1330000,
       "ytm_total_views": 93462798
+    },
+    {
+      "date": "2026-08-05",
+      "monthly_listeners": 957293,
+      "collected_at": "2026-08-05T15:56:47.552889+00:00",
+      "spotify_followers": 426517,
+      "youtube_subscribers": 7420000,
+      "youtube_total_views": 6799180025,
+      "youtube_video_count": 312,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 30758
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 25035
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 18992
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 13658
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 11023
+        }
+      ],
+      "lastfm_listeners": 104696,
+      "lastfm_playcount": 1874095,
+      "ytm_subscribers": 107000,
+      "ytm_monthly_listeners": 1330000,
+      "ytm_total_views": 93462798
     }
   ],
   "metadata": {
@@ -4824,19 +4865,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Reol",
-        "browse_id": "UCknW0jP_BkALWACMQ44cJ1A",
-        "subscribers": "2.88M"
-      },
-      {
-        "name": "ZUTOMAYO",
-        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
-        "subscribers": "6.45M"
+        "name": "suisoh",
+        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
+        "subscribers": "497K"
       },
       {
         "name": "nulut",
         "browse_id": "UCR3k7CGuSIU9DnzQQpJQl_w",
-        "subscribers": "25K"
+        "subscribers": "25.1K"
       },
       {
         "name": "Sou",
@@ -4849,6 +4885,11 @@
         "subscribers": "105K"
       },
       {
+        "name": "EVO+",
+        "browse_id": "UC_YgchlOXrff__BizLqvE7w",
+        "subscribers": "268K"
+      },
+      {
         "name": "Sasanomaly",
         "browse_id": "UCK8DhDqtYgzSHf-krbesrEw",
         "subscribers": "221K"
@@ -4859,14 +4900,14 @@
         "subscribers": "404K"
       },
       {
-        "name": "jon-YAKITORY",
-        "browse_id": "UCkLsbUdFJW7CFX5ZqcqOKBg",
-        "subscribers": "6.79M"
+        "name": "ewe",
+        "browse_id": "UCHdEh1-tnKz_nFLeFgEFGhA",
+        "subscribers": "1.07M"
       },
       {
-        "name": "suisoh",
-        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "494K"
+        "name": "Keina Suda",
+        "browse_id": "UCeHkvVCNEAUvpBtuApZJCrg",
+        "subscribers": "2.46M"
       },
       {
         "name": "Giga",
@@ -5488,6 +5529,12 @@
           "date": "2026-08-04",
           "views": 29640027,
           "likes": 142852,
+          "comments": 34
+        },
+        {
+          "date": "2026-08-05",
+          "views": 29648482,
+          "likes": 142881,
           "comments": 34
         }
       ]
@@ -6130,6 +6177,12 @@
           "views": 15563709,
           "likes": 72796,
           "comments": 19
+        },
+        {
+          "date": "2026-08-05",
+          "views": 15569669,
+          "likes": 72834,
+          "comments": 19
         }
       ]
     },
@@ -6549,6 +6602,12 @@
           "views": 15124473,
           "likes": 63303,
           "comments": 25
+        },
+        {
+          "date": "2026-08-05",
+          "views": 15130819,
+          "likes": 63335,
+          "comments": 26
         }
       ]
     },
@@ -7184,6 +7243,12 @@
           "views": 8002400,
           "likes": 39624,
           "comments": 14
+        },
+        {
+          "date": "2026-08-05",
+          "views": 8005493,
+          "likes": 39638,
+          "comments": 15
         }
       ]
     },
@@ -7866,6 +7931,12 @@
           "date": "2026-08-04",
           "views": 1370597,
           "likes": 12701,
+          "comments": 37
+        },
+        {
+          "date": "2026-08-05",
+          "views": 1371815,
+          "likes": 12712,
           "comments": 37
         }
       ]
@@ -9082,6 +9153,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-04T16:09:44.978324+00:00"
+    },
+    {
+      "date": "2026-08-05",
+      "metric": "youtube_total_views",
+      "value": 6799180025,
+      "baseline_mean": 6756021353.8,
+      "baseline_stddev": 16118298.1,
+      "delta": 43158671,
+      "score": 2.68,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-05T15:56:48.660894+00:00"
     }
   ]
 }

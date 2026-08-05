@@ -4675,6 +4675,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 3990000,
       "ytm_total_views": 584010076
+    },
+    {
+      "date": "2026-08-05",
+      "monthly_listeners": 890659,
+      "collected_at": "2026-08-05T16:10:06.329520+00:00",
+      "spotify_followers": 982210,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 608961044,
+      "youtube_video_count": 432,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 21029
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13736
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12028
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 11439
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8183
+        }
+      ],
+      "lastfm_listeners": 8932,
+      "lastfm_playcount": 411802,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 4139999,
+      "ytm_total_views": 585218071
     }
   ],
   "metadata": {
@@ -4709,29 +4750,34 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Junko Yagami",
+        "browse_id": "UClrt1uflipH-2E2Yo6dY3Tw",
+        "subscribers": "62.4K"
+      },
+      {
+        "name": "DAOKO",
+        "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
+        "subscribers": "8.01M"
+      },
+      {
+        "name": "Yasuha",
+        "browse_id": "UCnmK8YSeUOrNBGtBbxx4wpw",
+        "subscribers": "29.6K"
+      },
+      {
+        "name": "millennium parade",
+        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
+        "subscribers": "1.21M"
+      },
+      {
+        "name": "TOKYO SKA PARADISE ORCHESTRA",
+        "browse_id": "UC2EIPYTEx5_RuFQHMdZvI0A",
+        "subscribers": "2.99M"
+      },
+      {
         "name": "SHISHIDO KAVKA",
         "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
         "subscribers": "95.6K"
-      },
-      {
-        "name": "MAXIMUM THE HORMONE",
-        "browse_id": "UC10viXnr5P30UrEb36Y984g",
-        "subscribers": "3.86M"
-      },
-      {
-        "name": "SOIL & \"PIMP\" SESSIONS",
-        "browse_id": "UCjbIpDwFHq2QYh4FsWmhgCg",
-        "subscribers": "231K"
-      },
-      {
-        "name": "Rinne Amano",
-        "browse_id": "UCilIfSkrtkGFRsHWTBepAAw",
-        "subscribers": "5.29K"
-      },
-      {
-        "name": "Rei",
-        "browse_id": "UCy4jWQAmqVAWhEYpqKENB-A",
-        "subscribers": "72.1K"
       },
       {
         "name": "chelmico",
@@ -4741,7 +4787,7 @@
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "92.4K"
+        "subscribers": "92.8K"
       },
       {
         "name": "LADYBABY",
@@ -4752,11 +4798,6 @@
         "name": "Avantgardey",
         "browse_id": "UCkKOoZ4Cu7Dxqhj2y2JCAgw",
         "subscribers": "6.94K"
-      },
-      {
-        "name": "Shinichi Osawa",
-        "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
-        "subscribers": "218K"
       }
     ],
     "ytm_top_songs": [
@@ -5464,6 +5505,12 @@
           "views": 19581724,
           "likes": 278963,
           "comments": 429
+        },
+        {
+          "date": "2026-08-05",
+          "views": 19590292,
+          "likes": 279075,
+          "comments": 429
         }
       ]
     },
@@ -6147,6 +6194,12 @@
           "views": 5462230,
           "likes": 32146,
           "comments": 134
+        },
+        {
+          "date": "2026-08-05",
+          "views": 5464028,
+          "likes": 32157,
+          "comments": 134
         }
       ]
     },
@@ -6829,6 +6882,12 @@
           "date": "2026-08-04",
           "views": 2248973,
           "likes": 37274,
+          "comments": 113
+        },
+        {
+          "date": "2026-08-05",
+          "views": 2251893,
+          "likes": 37305,
           "comments": 113
         }
       ]
@@ -8125,6 +8184,12 @@
           "views": 290368,
           "likes": 8498,
           "comments": 221
+        },
+        {
+          "date": "2026-08-05",
+          "views": 292117,
+          "likes": 8526,
+          "comments": 221
         }
       ]
     },
@@ -8225,6 +8290,12 @@
           "date": "2026-08-04",
           "views": 59987,
           "likes": 3126,
+          "comments": 117
+        },
+        {
+          "date": "2026-08-05",
+          "views": 61377,
+          "likes": 3146,
           "comments": 117
         }
       ]
@@ -9043,6 +9114,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-04T16:23:53.585102+00:00"
+    },
+    {
+      "date": "2026-08-05",
+      "metric": "monthly_listeners",
+      "value": 890659,
+      "baseline_mean": 834116.1,
+      "baseline_stddev": 27696.8,
+      "delta": 56542,
+      "score": 2.04,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-05T16:10:07.872699+00:00"
+    },
+    {
+      "date": "2026-08-05",
+      "metric": "youtube_total_views",
+      "value": 608961044,
+      "baseline_mean": 605818073.2,
+      "baseline_stddev": 1438637.5,
+      "delta": 3142970,
+      "score": 2.18,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-05T16:10:07.872699+00:00"
     }
   ]
 }

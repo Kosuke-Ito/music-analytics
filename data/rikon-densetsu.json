@@ -4788,6 +4788,47 @@
       "ytm_subscribers": 103000,
       "ytm_monthly_listeners": 853000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-05",
+      "monthly_listeners": 479896,
+      "collected_at": "2026-08-05T15:56:01.440477+00:00",
+      "spotify_followers": 124840,
+      "youtube_subscribers": 103000,
+      "youtube_total_views": 51145038,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 24747
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 18488
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 13128
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 8231
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 6137
+        }
+      ],
+      "lastfm_listeners": 10285,
+      "lastfm_playcount": 169136,
+      "ytm_subscribers": 103000,
+      "ytm_monthly_listeners": 853000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4820,19 +4861,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Raisan",
-        "browse_id": "UCFZPMapEbzaHJ7L1B2nn44Q",
-        "subscribers": "534K"
-      },
-      {
-        "name": "Awesome City Club",
-        "browse_id": "UCqnTZrcjy3a-hTNbVqR6s3g",
-        "subscribers": "540K"
+        "name": "星野源 Gen Hoshino",
+        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
+        "subscribers": "8.43M"
       },
       {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
         "subscribers": "4.13M"
+      },
+      {
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "654K"
+      },
+      {
+        "name": "Bialystocks",
+        "browse_id": "UCUejusLOJFSbBxhzot8By9w",
+        "subscribers": "249K"
       },
       {
         "name": "TAIKING",
@@ -4847,7 +4893,7 @@
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "74K"
+        "subscribers": "73.7K"
       },
       {
         "name": "YONA YONA WEEKENDERS",
@@ -4863,11 +4909,6 @@
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
         "subscribers": "73.3K"
-      },
-      {
-        "name": "Akira Nise",
-        "browse_id": "UCFDPdDPQq3VCoe-KPVvbLow",
-        "subscribers": "1.56K"
       }
     ],
     "ytm_top_songs": [
@@ -5574,6 +5615,12 @@
           "views": 55597,
           "likes": 489,
           "comments": 6
+        },
+        {
+          "date": "2026-08-05",
+          "views": 55774,
+          "likes": 490,
+          "comments": 6
         }
       ]
     },
@@ -6257,6 +6304,12 @@
           "views": 45655,
           "likes": 446,
           "comments": 4
+        },
+        {
+          "date": "2026-08-05",
+          "views": 45755,
+          "likes": 448,
+          "comments": 4
         }
       ]
     },
@@ -6939,6 +6992,12 @@
           "date": "2026-08-04",
           "views": 240700,
           "likes": 2111,
+          "comments": 12
+        },
+        {
+          "date": "2026-08-05",
+          "views": 241072,
+          "likes": 2112,
           "comments": 12
         }
       ]
@@ -8192,6 +8251,12 @@
           "views": 91429,
           "likes": 839,
           "comments": 8
+        },
+        {
+          "date": "2026-08-05",
+          "views": 91699,
+          "likes": 841,
+          "comments": 8
         }
       ]
     },
@@ -8331,6 +8396,12 @@
           "date": "2026-08-04",
           "views": 21903,
           "likes": 198,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-05",
+          "views": 22596,
+          "likes": 205,
           "comments": 5
         }
       ]
@@ -8983,6 +9054,42 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-04T16:08:54.390951+00:00"
+    },
+    {
+      "date": "2026-08-05",
+      "metric": "monthly_listeners",
+      "value": 479896,
+      "baseline_mean": 429709.6,
+      "baseline_stddev": 15165.7,
+      "delta": 50186,
+      "score": 3.31,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-05T15:56:02.613324+00:00"
+    },
+    {
+      "date": "2026-08-05",
+      "metric": "ytm_monthly_listeners",
+      "value": 853000,
+      "baseline_mean": 398666.7,
+      "baseline_stddev": 131477.1,
+      "delta": 454333,
+      "score": 3.46,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-05T15:56:02.613324+00:00"
+    },
+    {
+      "date": "2026-08-05",
+      "metric": "youtube_total_views",
+      "value": 51145038,
+      "baseline_mean": 49321427,
+      "baseline_stddev": 819519.3,
+      "delta": 1823611,
+      "score": 2.23,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-05T15:56:02.613324+00:00"
     }
   ]
 }

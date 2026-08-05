@@ -4672,6 +4672,47 @@
       "ytm_subscribers": 463000,
       "ytm_monthly_listeners": 4880000,
       "ytm_total_views": 361944508
+    },
+    {
+      "date": "2026-08-05",
+      "monthly_listeners": 1741018,
+      "collected_at": "2026-08-05T16:09:51.329884+00:00",
+      "spotify_followers": 518401,
+      "youtube_subscribers": 463000,
+      "youtube_total_views": 365016169,
+      "youtube_video_count": 149,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 65732
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 45300
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 41542
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 30920
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 21100
+        }
+      ],
+      "lastfm_listeners": 18860,
+      "lastfm_playcount": 1284622,
+      "ytm_subscribers": 463000,
+      "ytm_monthly_listeners": 4880000,
+      "ytm_total_views": 361944508
     }
   ],
   "annotations": [
@@ -5071,14 +5112,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "yonige",
-        "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
-        "subscribers": "333K"
+        "name": "Kinokoteikoku",
+        "browse_id": "UClJbEh-JJDXCjtQLQMi_gjA",
+        "subscribers": "41.6K"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "95.1M"
+        "name": "regallily",
+        "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
+        "subscribers": "282K"
+      },
+      {
+        "name": "yonige",
+        "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
+        "subscribers": "332K"
+      },
+      {
+        "name": "Galileo Galilei",
+        "browse_id": "UCuRm3UyWIIiPmIbRYK4fuLw",
+        "subscribers": "737K"
       },
       {
         "name": "chilldspot",
@@ -5103,22 +5154,12 @@
       {
         "name": "mol-74",
         "browse_id": "UCEvtm90ugC6XKB74g8ukTKg",
-        "subscribers": "86.5K"
+        "subscribers": "89.9K"
       },
       {
         "name": "CHIAKI SATO",
         "browse_id": "UCgPeNtXtc4sWEJSqQvNJzmQ",
         "subscribers": "231K"
-      },
-      {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "108K"
-      },
-      {
-        "name": "A_o",
-        "browse_id": "UCW2Hy3WUVvoj_mlLjrWLRmw",
-        "subscribers": "13.9K"
       }
     ],
     "ytm_top_songs": [
@@ -5820,6 +5861,12 @@
           "views": 20541190,
           "likes": 131676,
           "comments": 386
+        },
+        {
+          "date": "2026-08-05",
+          "views": 20566211,
+          "likes": 131829,
+          "comments": 387
         }
       ]
     },
@@ -6497,6 +6544,12 @@
           "views": 5069923,
           "likes": 33799,
           "comments": 185
+        },
+        {
+          "date": "2026-08-05",
+          "views": 5096505,
+          "likes": 33907,
+          "comments": 186
         }
       ]
     },
@@ -7407,6 +7460,12 @@
           "views": 1541832,
           "likes": 13923,
           "comments": 86
+        },
+        {
+          "date": "2026-08-05",
+          "views": 1543808,
+          "likes": 13933,
+          "comments": 86
         }
       ]
     },
@@ -8084,6 +8143,12 @@
           "views": 2270909,
           "likes": 17579,
           "comments": 126
+        },
+        {
+          "date": "2026-08-05",
+          "views": 2273996,
+          "likes": 17592,
+          "comments": 126
         }
       ]
     },
@@ -8532,6 +8597,12 @@
           "date": "2026-08-04",
           "views": 4192391,
           "likes": 34069,
+          "comments": 274
+        },
+        {
+          "date": "2026-08-05",
+          "views": 4195603,
+          "likes": 34087,
           "comments": 274
         }
       ]
@@ -9108,6 +9179,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-04T16:23:36.362464+00:00"
+    },
+    {
+      "date": "2026-08-05",
+      "metric": "monthly_listeners",
+      "value": 1741018,
+      "baseline_mean": 1715058.5,
+      "baseline_stddev": 7590.1,
+      "delta": 25959,
+      "score": 3.42,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-05T16:09:52.912646+00:00"
     }
   ]
 }

@@ -4678,6 +4678,47 @@
       "ytm_subscribers": 315000,
       "ytm_monthly_listeners": 4130000,
       "ytm_total_views": 316525427
+    },
+    {
+      "date": "2026-08-05",
+      "monthly_listeners": 1442913,
+      "collected_at": "2026-08-05T16:11:24.929216+00:00",
+      "spotify_followers": 337175,
+      "youtube_subscribers": 315000,
+      "youtube_total_views": 321665813,
+      "youtube_video_count": 220,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 44352
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 43127
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 34328
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 17806
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 16361
+        }
+      ],
+      "lastfm_listeners": 143167,
+      "lastfm_playcount": 2525266,
+      "ytm_subscribers": 315000,
+      "ytm_monthly_listeners": 4130000,
+      "ytm_total_views": 318387170
     }
   ],
   "annotations": [
@@ -5021,34 +5062,34 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "UshioReira",
+        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
+        "subscribers": "713K"
+      },
+      {
+        "name": "Mosawo",
+        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
+        "subscribers": "1.04M"
+      },
+      {
+        "name": "Tota",
+        "browse_id": "UCc95RA4CPcWdTRBk5YunwRA",
+        "subscribers": "2.39M"
+      },
+      {
         "name": "wacci",
         "browse_id": "UCQuH389KXNJFIPycd_icVdg",
         "subscribers": "1.65M"
       },
       {
-        "name": "RETRORIRON",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "312K"
+        "name": "KAMI WA SAIKORO WO FURANAI",
+        "browse_id": "UCBX3AdkQtdXZkBuM8ojQ8jA",
+        "subscribers": "248K"
       },
       {
-        "name": "Mosawo",
-        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
-        "subscribers": "1.03M"
-      },
-      {
-        "name": "Reini",
-        "browse_id": "UC2PTQOPrZautcQGly-U6Uqw",
-        "subscribers": "75.7K"
-      },
-      {
-        "name": "Absolute area",
-        "browse_id": "UCFuSjXQWPqp1YnVgxG3KLXA",
-        "subscribers": "65.4K"
-      },
-      {
-        "name": "saji",
-        "browse_id": "UCIZ41IoRQHIPuNORLZiGqzA",
-        "subscribers": "99.5K"
+        "name": "Dish",
+        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
+        "subscribers": "3.3M"
       },
       {
         "name": "Sano ibuki",
@@ -5776,6 +5817,12 @@
           "views": 11891281,
           "likes": 55674,
           "comments": 203
+        },
+        {
+          "date": "2026-08-05",
+          "views": 11899121,
+          "likes": 55694,
+          "comments": 203
         }
       ]
     },
@@ -6458,6 +6505,12 @@
           "date": "2026-08-04",
           "views": 842364,
           "likes": 8598,
+          "comments": 90
+        },
+        {
+          "date": "2026-08-05",
+          "views": 843536,
+          "likes": 8611,
           "comments": 90
         }
       ]
@@ -8333,6 +8386,12 @@
           "views": 1050034,
           "likes": 9752,
           "comments": 86
+        },
+        {
+          "date": "2026-08-05",
+          "views": 1050881,
+          "likes": 9757,
+          "comments": 86
         }
       ]
     },
@@ -8505,6 +8564,12 @@
           "views": 21052,
           "likes": 432,
           "comments": 10
+        },
+        {
+          "date": "2026-08-05",
+          "views": 21389,
+          "likes": 435,
+          "comments": 10
         }
       ]
     },
@@ -8527,6 +8592,12 @@
           "date": "2026-08-04",
           "views": 41748,
           "likes": 698,
+          "comments": 21
+        },
+        {
+          "date": "2026-08-05",
+          "views": 42516,
+          "likes": 709,
           "comments": 21
         }
       ]
@@ -9156,6 +9227,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-07-27T16:25:39.201945+00:00"
+    },
+    {
+      "date": "2026-08-05",
+      "metric": "youtube_total_views",
+      "value": 321665813,
+      "baseline_mean": 317865815.3,
+      "baseline_stddev": 1870668.3,
+      "delta": 3799997,
+      "score": 2.03,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-05T16:11:26.544989+00:00"
     }
   ]
 }

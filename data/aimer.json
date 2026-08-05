@@ -4672,6 +4672,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 10900000,
       "ytm_total_views": 1886716892
+    },
+    {
+      "date": "2026-08-05",
+      "monthly_listeners": 3369016,
+      "collected_at": "2026-08-05T16:07:40.803010+00:00",
+      "spotify_followers": 2872947,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1889427657,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 80415
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 72572
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 66309
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 47584
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 39635
+        }
+      ],
+      "lastfm_listeners": 501923,
+      "lastfm_playcount": 25609965,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 10900000,
+      "ytm_total_views": 1886716892
     }
   ],
   "metadata": {
@@ -4706,19 +4747,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "ATARAYO",
-        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
-        "subscribers": "1.73M"
-      },
-      {
-        "name": "EGOIST",
-        "browse_id": "UCKZLPAAyImrkYnDVR0O2UXQ",
-        "subscribers": "1.22M"
-      },
-      {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
         "subscribers": "18.3M"
+      },
+      {
+        "name": "kobasolo",
+        "browse_id": "UCukBv_7AJU7AZHcidF0HIvQ",
+        "subscribers": "3.67M"
       },
       {
         "name": "Rei Yasuda",
@@ -4741,11 +4777,6 @@
         "subscribers": "283K"
       },
       {
-        "name": "sajou no hana",
-        "browse_id": "UCWNPJK9pQWSRiyr-b6nmQ4Q",
-        "subscribers": "328K"
-      },
-      {
         "name": "MIYUNA",
         "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
         "subscribers": "166K"
@@ -4754,6 +4785,16 @@
         "name": "Anly",
         "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
         "subscribers": "5.8M"
+      },
+      {
+        "name": "sajou no hana",
+        "browse_id": "UCWNPJK9pQWSRiyr-b6nmQ4Q",
+        "subscribers": "328K"
+      },
+      {
+        "name": "ATARAYO",
+        "browse_id": "UCZp2Y8QZWzWJRX0AzYU9drA",
+        "subscribers": "1.73M"
       }
     ],
     "ytm_top_songs": [
@@ -5455,6 +5496,12 @@
           "views": 41685193,
           "likes": 292251,
           "comments": 1608
+        },
+        {
+          "date": "2026-08-05",
+          "views": 41722353,
+          "likes": 292500,
+          "comments": 1609
         }
       ]
     },
@@ -6131,6 +6178,12 @@
           "date": "2026-08-04",
           "views": 34186473,
           "likes": 156966,
+          "comments": 156
+        },
+        {
+          "date": "2026-08-05",
+          "views": 34201831,
+          "likes": 157030,
           "comments": 156
         }
       ]
@@ -6809,6 +6862,12 @@
           "views": 21124844,
           "likes": 116973,
           "comments": 290
+        },
+        {
+          "date": "2026-08-05",
+          "views": 21138233,
+          "likes": 117042,
+          "comments": 291
         }
       ]
     },
@@ -7432,6 +7491,12 @@
           "views": 5768655,
           "likes": 57653,
           "comments": 914
+        },
+        {
+          "date": "2026-08-05",
+          "views": 5775651,
+          "likes": 57697,
+          "comments": 915
         }
       ]
     },
@@ -8144,6 +8209,12 @@
           "views": 31396006,
           "likes": 134250,
           "comments": 770
+        },
+        {
+          "date": "2026-08-05",
+          "views": 31416120,
+          "likes": 134318,
+          "comments": 770
         }
       ]
     },
@@ -8731,6 +8802,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-04T16:21:20.756139+00:00"
+    },
+    {
+      "date": "2026-08-05",
+      "metric": "youtube_total_views",
+      "value": 1889427657,
+      "baseline_mean": 1873505767.8,
+      "baseline_stddev": 7120485.3,
+      "delta": 15921889,
+      "score": 2.24,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-05T16:07:42.522037+00:00"
     }
   ]
 }

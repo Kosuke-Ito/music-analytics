@@ -4599,6 +4599,47 @@
       "ytm_subscribers": 38200,
       "ytm_monthly_listeners": 63100,
       "ytm_total_views": 8429604
+    },
+    {
+      "date": "2026-08-05",
+      "monthly_listeners": 45329,
+      "collected_at": "2026-08-05T16:11:57.961591+00:00",
+      "spotify_followers": 52202,
+      "youtube_subscribers": 38200,
+      "youtube_total_views": 8671418,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3127
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1247
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 789
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 708
+        },
+        {
+          "city": "Nakano City",
+          "country": "JP",
+          "listeners": 508
+        }
+      ],
+      "lastfm_listeners": 24243,
+      "lastfm_playcount": 407632,
+      "ytm_subscribers": 38200,
+      "ytm_monthly_listeners": 63100,
+      "ytm_total_views": 8429604
     }
   ],
   "metadata": {
@@ -4633,14 +4674,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Lovely Summer Chan",
-        "browse_id": "UC_wA9BfubcP2P74SPKTSV7Q",
-        "subscribers": "730K"
+        "name": "tofubeats",
+        "browse_id": "UCDsYyiCcQPwmgkDiHsaGB2A",
+        "subscribers": "516K"
       },
       {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "108K"
+        "name": "kiki vivi lily",
+        "browse_id": "UC0J0Cl8pt37WvPZ2V8jRlqw",
+        "subscribers": "1.36M"
       },
       {
         "name": "DE DE MOUSE",
@@ -4670,7 +4711,7 @@
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "92.4K"
+        "subscribers": "92.8K"
       },
       {
         "name": "Ako",
@@ -4678,9 +4719,9 @@
         "subscribers": "129K"
       },
       {
-        "name": "Shinichi Osawa",
-        "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
-        "subscribers": "218K"
+        "name": "Skirt",
+        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
+        "subscribers": "108K"
       }
     ],
     "ytm_top_songs": [
@@ -5370,6 +5411,12 @@
           "views": 146612,
           "likes": 2794,
           "comments": 25
+        },
+        {
+          "date": "2026-08-05",
+          "views": 146895,
+          "likes": 2796,
+          "comments": 25
         }
       ]
     },
@@ -6034,6 +6081,12 @@
           "date": "2026-08-04",
           "views": 602148,
           "likes": 5509,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-05",
+          "views": 602583,
+          "likes": 5512,
           "comments": 18
         }
       ]
@@ -6700,6 +6753,12 @@
           "views": 334091,
           "likes": 3557,
           "comments": 7
+        },
+        {
+          "date": "2026-08-05",
+          "views": 334308,
+          "likes": 3562,
+          "comments": 7
         }
       ]
     },
@@ -7363,6 +7422,12 @@
         {
           "date": "2026-08-04",
           "views": 58839,
+          "likes": 192,
+          "comments": 1
+        },
+        {
+          "date": "2026-08-05",
+          "views": 58910,
           "likes": 192,
           "comments": 1
         }
@@ -8029,6 +8094,12 @@
           "date": "2026-08-04",
           "views": 130569,
           "likes": 1630,
+          "comments": 15
+        },
+        {
+          "date": "2026-08-05",
+          "views": 130714,
+          "likes": 1631,
           "comments": 15
         }
       ]
@@ -8848,6 +8919,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-07-30T16:04:12.360692+00:00"
+    },
+    {
+      "date": "2026-08-05",
+      "metric": "monthly_listeners",
+      "value": 45329,
+      "baseline_mean": 44610,
+      "baseline_stddev": 297.7,
+      "delta": 719,
+      "score": 2.42,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-05T16:11:59.496409+00:00"
     }
   ]
 }

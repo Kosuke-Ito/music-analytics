@@ -4669,6 +4669,47 @@
       "ytm_subscribers": 4860000,
       "ytm_monthly_listeners": 9040000,
       "ytm_total_views": 2020743468
+    },
+    {
+      "date": "2026-08-05",
+      "monthly_listeners": 5045974,
+      "collected_at": "2026-08-05T16:06:19.399660+00:00",
+      "spotify_followers": 2662897,
+      "youtube_subscribers": 4860000,
+      "youtube_total_views": 2091273724,
+      "youtube_video_count": 869,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 88949
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 77122
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 74183
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67582
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 67313
+        }
+      ],
+      "lastfm_listeners": 898198,
+      "lastfm_playcount": 70496576,
+      "ytm_subscribers": 4860000,
+      "ytm_monthly_listeners": 9040000,
+      "ytm_total_views": 2022455222
     }
   ],
   "annotations": [
@@ -4887,6 +4928,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "BADVILLAIN",
+        "browse_id": "UCkw_Pss11Lokw5Ej8cr_4Ew",
+        "subscribers": "700K"
+      },
+      {
         "name": "JURIN ASAYA",
         "browse_id": "UCeMCb5J25RMZibk6SrFDm4Q",
         "subscribers": "1.65K"
@@ -4902,39 +4948,34 @@
         "subscribers": "162"
       },
       {
-        "name": "BADVILLAIN",
-        "browse_id": "UCkw_Pss11Lokw5Ej8cr_4Ew",
-        "subscribers": "700K"
+        "name": "NAYEON",
+        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
+        "subscribers": "336K"
       },
       {
-        "name": "ROSÉ",
-        "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
-        "subscribers": "280M"
+        "name": "Kep1er",
+        "browse_id": "UCAKvDuIX3m1AUdPpDSqV_3w",
+        "subscribers": "3.61M"
       },
       {
-        "name": "NewJeans",
-        "browse_id": "UCxOqS3cYg4FaHbobICo7nFQ",
-        "subscribers": "86.1M"
-      },
-      {
-        "name": "BLACKPINK",
-        "browse_id": "UCkbbMCA40i18i7UdjayMPAg",
-        "subscribers": "200M"
-      },
-      {
-        "name": "izna",
-        "browse_id": "UC9Om0aDfMMzXtElCJWF41FQ",
-        "subscribers": "8.18M"
-      },
-      {
-        "name": "BABYMONSTER",
-        "browse_id": "UC47Wz6S14mj_6Jy-T59m6IQ",
-        "subscribers": "122M"
+        "name": "EVERGLOW",
+        "browse_id": "UCT4Z6ZLJisGUy0z2LHzi2jQ",
+        "subscribers": "4.15M"
       },
       {
         "name": "JIHYO",
         "browse_id": "UCZSRKU2kYtBSL11AhMS-C8Q",
         "subscribers": "113K"
+      },
+      {
+        "name": "GOT the beat",
+        "browse_id": "UCDDpqmryjNunitS05bv7-8w",
+        "subscribers": "924K"
+      },
+      {
+        "name": "izna",
+        "browse_id": "UC9Om0aDfMMzXtElCJWF41FQ",
+        "subscribers": "8.18M"
       }
     ],
     "ytm_top_songs": [
@@ -5630,6 +5671,12 @@
           "views": 10575385,
           "likes": 110558,
           "comments": 609
+        },
+        {
+          "date": "2026-08-05",
+          "views": 10608818,
+          "likes": 110805,
+          "comments": 609
         }
       ]
     },
@@ -6300,6 +6347,12 @@
           "date": "2026-08-04",
           "views": 46572049,
           "likes": 389941,
+          "comments": 2066
+        },
+        {
+          "date": "2026-08-05",
+          "views": 46596984,
+          "likes": 390083,
           "comments": 2066
         }
       ]
@@ -7276,6 +7329,12 @@
           "views": 18535904,
           "likes": 134503,
           "comments": 1070
+        },
+        {
+          "date": "2026-08-05",
+          "views": 18555960,
+          "likes": 134601,
+          "comments": 1071
         }
       ]
     },
@@ -7820,6 +7879,12 @@
           "date": "2026-08-04",
           "views": 41175093,
           "likes": 229035,
+          "comments": 236
+        },
+        {
+          "date": "2026-08-05",
+          "views": 41193289,
+          "likes": 229120,
           "comments": 236
         }
       ]
@@ -8419,6 +8484,12 @@
           "views": 40667882,
           "likes": 250190,
           "comments": 233
+        },
+        {
+          "date": "2026-08-05",
+          "views": 40680481,
+          "likes": 250245,
+          "comments": 233
         }
       ]
     }
@@ -8579,6 +8650,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-03T16:26:14.558236+00:00"
+    },
+    {
+      "date": "2026-08-05",
+      "metric": "youtube_total_views",
+      "value": 2091273724,
+      "baseline_mean": 2076261095.6,
+      "baseline_stddev": 7439060.5,
+      "delta": 15012628,
+      "score": 2.02,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-05T16:06:20.846366+00:00"
     }
   ]
 }
