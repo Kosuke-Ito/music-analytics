@@ -5078,6 +5078,42 @@
       "source": "",
       "confidence": "low",
       "added_at": "2026-07-24T16:59:52Z"
+    },
+    {
+      "date": "2026-08-02",
+      "title": "「Keep Walking」反響とNUMBER SHOT出演効果に加えYouTube APIカウンター一括更新でYouTube総再生数が急増（+691万・2.36σ）",
+      "description": "7/26〜8/1の7日間361,693,913に固定されていたYouTube総再生数が8/2に365,016,169へ一気に更新され、+6,910,273（2.36σ）の急増として検知された。背景には7/29配信の新曲「Keep Walking」（TBS日曜劇場『VIVANT』サイドストーリー『ドラム―VIVANT THE ORIGIN STORY―』主題歌。U-NEXT独占配信ドラマのEpisode.4内でサプライズ解禁されSNSで話題化）と、8/1のフェス「NUMBER SHOT 2026」（福岡・みずほPayPayドーム、UVERworld・Vaundy・WANIMA・ストレイテナーらと共演）出演の反響があるとみられる。ただし7日間固定→一括反映という挙動は、既知のYouTube Data APIカウンター凍結・一括更新パターンと酷似しており、統計的アーティファクトの寄与も大きいと考えられる。",
+      "category": "other",
+      "source": "https://skream.jp/news/2026/07/hitsujibungaku_keep_walking.php, https://www.sonymusic.co.jp/artist/hitsujibungaku/info/584757, https://natalie.mu/music/news/666468",
+      "confidence": "medium",
+      "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "「Keep Walking」ドラマタイアップの話題化が継続しSpotify月間リスナーが増加（+14,987人・2.37σ）",
+      "description": "7/29配信リリースの新曲「Keep Walking」（『ドラム―VIVANT THE ORIGIN STORY―』主題歌）の効果が5日後も継続し、Spotify月間リスナーが1,713,785→1,728,772（+14,987人・2.37σ）に増加。8/1のフェス「NUMBER SHOT 2026」出演の反響も重なっているとみられる。同日YouTube総再生数も高止まりが続き2.11σで再検知されたが、これは前日8/2からの値固定継続によるアーティファクトの可能性が高い。",
+      "category": "collab",
+      "source": "https://www.billboard-japan.com/d_news/detail/164031, https://skream.jp/news/2026/07/hitsujibungaku_keep_walking.php",
+      "confidence": "medium",
+      "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "「Keep Walking」話題化の継続とフェス出演の余波でSpotify月間リスナーが増加（+18,565人・2.71σ）",
+      "description": "7/29配信の新曲「Keep Walking」（ドラマ『ドラム―VIVANT THE ORIGIN STORY―』主題歌）のSNS上での話題化が1週間近く経っても継続し、Spotify月間リスナーが1,714,330→1,732,896（+18,565人・2.71σ）に増加。8/1のフェス「NUMBER SHOT 2026」（福岡）出演の反響も引き続き影響しているとみられるが、単一の明確な新規トリガーは確認できず、複合的な話題継続効果と推測される。",
+      "category": "collab",
+      "source": "https://www.thefirsttimes.jp/news/0000855050/, https://www.billboard-japan.com/d_news/detail/164031",
+      "confidence": "low",
+      "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-08-05",
+      "title": "「SUMMER SONIC 2026」WOWOW配信アーティスト選出発表でSpotify月間リスナーが急増（+25,959人・3.42σ）",
+      "description": "8月5日、音楽ナタリーが『SUMMER SONIC 2026』（8/14〜16・千葉ZOZOマリンスタジアム/幕張メッセ）のWOWOWオンデマンド配信アーティストとして羊文学がBE:FIRST・中島健人・WEST.ら44組とともに選出されたと報道。この露出増に加え、7/29配信「Keep Walking」の話題継続効果も重なり、Spotify月間リスナーが1,715,059→1,741,018（+25,959人・3.42σ）に急増、4日連続の異常上昇となった。",
+      "category": "tv",
+      "source": "https://natalie.mu/music/news/683831",
+      "confidence": "medium",
+      "added_at": "2026-08-05T17:00:00Z"
     }
   ],
   "metadata": {

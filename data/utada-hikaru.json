@@ -4985,6 +4985,42 @@
       "added_at": "2026-07-12T16:00:00Z",
       "source": "音楽ナタリー, オリコン, TOWER RECORDS ONLINE",
       "confidence": "medium"
+    },
+    {
+      "date": "2026-08-02",
+      "title": "YouTube総再生数が1日で約1,210万回急増（動画本数も267→268に増加）",
+      "description": "youtube_total_viewsが2026-07-20〜08-01の間ずっと1,741,715,033で横ばいだったが、08-02の収集で1,753,825,415へ一気に+12,110,382回増加（バズ検知delta=15,987,348、score=3.05σ、type=organic）。同時にyoutube_video_countも267→268へ1本増加しており、新規動画のアップロード（または既存動画の大量再生）が原因と推測される。具体的な新規動画やニュース記事は特定できず、正確な原因は未確認。",
+      "category": "other",
+      "source": "https://natalie.mu/music/news/674205, https://www.youtube.com/watch?v=t0JaQ0nR118",
+      "confidence": "medium",
+      "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "YouTube総再生数がさらに微増（前日バズの継続、+87万回）",
+      "description": "youtube_total_viewsが1,753,825,415→1,754,694,966（+869,551）とさらに増加（delta=15,926,440、score=2.89σ、type=organic）。youtube_video_countは268のまま変化なし。08-02に発生した急増の余波が翌日まで続いたものと考えられるが、新たな外部要因は確認できず。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "統計上のバズ検知（実際の値は横ばい、移動平均の遅れによる誤検知の可能性）",
+      "description": "youtube_total_viewsの実際の値は1,754,694,966のまま08-03から変化なし。移動平均ベースラインが08-02の急増（+1,210万回）にまだ追いついていないため、baseline_mean=1,739,727,969に対しdelta=14,966,996・score=2.63σとしてバズ検知された。実質的には08-02イベントの統計的な尾（ベースライン収束過程）であり、この日単体で新たな出来事が起きたわけではない。原因を特定できず。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-08-05",
+      "title": "統計上のバズ検知（実際の値は横ばい、移動平均の遅れによる誤検知の可能性）",
+      "description": "youtube_total_viewsの実際の値は1,754,694,966のまま08-04から変化なし。baseline_mean=1,740,687,413に対しdelta=14,007,552・score=2.45σで依然バズ判定されているが、これも08-02の急増がベースライン計算に反映しきるまでの統計的な残存効果であり、独立した新規イベントではないとみられる。原因を特定できず。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-08-05T17:00:00Z"
     }
   ],
   "metadata": {

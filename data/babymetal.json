@@ -5057,6 +5057,33 @@
       "source": "thetv.jp, wowow.co.jp, babymetal-news.com, babymetaltimes.com, natalie.mu",
       "confidence": "medium",
       "added_at": "2026-07-28T16:53:02Z"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "WOWOW特集番組の余波とMETAL FORTH日本盤発売前プロモーションでYouTube総再生数が実質増加",
+      "description": "youtube_total_viewsが2026-07-27〜07-31に固定されていた1,100,856,729から1,102,542,959へ約169万回再生増加（2.65σ）。直前の07-29〜07-31には「TV番組『BABYMETAL Music Video Selection』放送によるMV視聴増」がすでにannotated済みで、WOWOWでのBABYMETAL特集番組（O2アリーナ、INTUIT DOME、たまアリ公演を3カ月連続放送）が継続していた時期と重なる。また『METAL FORTH (DELUXE JAPAN EDITION)』が2026-08-05発売予定であり、その直前のプロモーション期間としてMV再生が上向いた可能性がある。特定の単一ニュースイベントは確認できず、複合的な波及効果とみられる。",
+      "category": "tv",
+      "source": "https://natalie.mu/music/news/655792, https://tower.jp/article/feature_item/2026/05/29/0705, https://thetv.jp/program/0001065362/",
+      "confidence": "medium",
+      "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-08-02",
+      "title": "実数値は前日と完全一致、統計的残影によるバズ判定（新規イベントなし）",
+      "description": "youtube_total_viewsの値は1,102,542,959で08-01と完全に同一（実際の増加はゼロ）。移動平均ベースラインが08-01のジャンプに追いつく過程でスコアが2.31σとまだ閾値を超えて検出されている。YouTube側の総再生数カウント更新が数日おきにまとめて反映される仕様上のクセによる統計的アーティファクトの可能性が高い。新たな外部イベントは確認できず。",
+      "category": "other",
+      "source": "",
+      "confidence": "medium",
+      "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "3日連続で値が変化なし、統計的残影が減衰中（新規イベントなし）",
+      "description": "youtube_total_viewsは08-01・08-02と同じ1,102,542,959のまま3日目も変化なし。スコアは2.05σまで減衰しており、08-01のステップ的な増加に対するベースライン追い上げがほぼ完了しつつある段階。8/1〜8/3に該当する新規のBABYMETAL関連ニュースは見つからず、直近の実イベントとしては08-05発売の『METAL FORTH (DELUXE JAPAN EDITION)』と08-09『LuckyFes'26』出演が近い時期にあるのみ。",
+      "category": "other",
+      "source": "https://baby-metal.jpn.org/item/1244232",
+      "confidence": "low",
+      "added_at": "2026-08-05T17:00:00Z"
     }
   ],
   "metadata": {

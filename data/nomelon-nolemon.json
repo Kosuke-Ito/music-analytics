@@ -8711,6 +8711,24 @@
       "source": "tower.jp, skream.jp, sonymusic.co.jp, natalie.mu, ototoy.jp",
       "confidence": "high",
       "added_at": "2026-07-28T16:53:02Z"
+    },
+    {
+      "date": "2026-08-02",
+      "title": "YouTube Music月間リスナーが一時的に上昇（+96,000・2.2σ）、新曲・周年ライブ前の露出が背景",
+      "description": "ytm_monthly_listenersが1,410,000人（7/31〜8/1）から1,430,000人へ一時的に上昇（ベースライン比+96,000人、2.2σ）し、翌8/3には1,410,000人に戻った。8/11開催の結成5周年ワンマンライヴ「DOCUMENTARIUM 2026」（KT Zepp YOKOHAMA）、および8/12発売予定のCDシングル「ユラリユレル」（Aoooとの同日リリース・相互カバー収録）への注目度上昇が背景にあると考えられるが、8/2単独の明確なバイラルトリガーは確認できなかった。",
+      "category": "other",
+      "source": "https://www.sonymusic.co.jp/PR/NOMELONNOLEMON/info/581416, https://tower.jp/article/feature_item/2026/07/21/0711, https://skream.jp/news/2026/07/nomelon_nolemon_aooo_cd_release.php",
+      "confidence": "low",
+      "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "YouTube総再生数API凍結（7/31〜8/2）解除による蓄積分一括計上アーティファクト（2.12σ）",
+      "description": "youtube_total_viewsが170,128,717に7月31日〜8月2日の間固定された後、8月3日に170,908,096へ更新され（+2,532,940）、その後8/3〜8/5も同値で再び固定された。このアーティストのデータで4月以降繰り返し確認されている既知のYouTube Data APIカウンター凍結・解除パターンと一致しており、実際の新規バイラルイベントではなくAPI側の計上アーティファクトである可能性が高い。基調としては「ユラリユレル」アニメタイアップ継続・8/12CD発売・8/11周年ライブに向けた注目度上昇が背景にある。",
+      "category": "other",
+      "source": "",
+      "confidence": "high",
+      "added_at": "2026-08-05T17:00:00Z"
     }
   ],
   "buzz_events": [

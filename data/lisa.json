@@ -8604,6 +8604,42 @@
       "source": "tower.jp/article/feature_item/2026/01/05/0703",
       "confidence": "low",
       "added_at": "2026-07-24T16:59:52Z"
+    },
+    {
+      "date": "2026-08-02",
+      "title": "アジアツアー「LiVE is Smile Always～15～ in Seoul」2DAYS千秋楽",
+      "description": "8月1日〜2日にソウル・Olympic HallでLiSAのアジアツアー「LiVE is Smile Always～15～」ソウル公演（2DAYS）が開催され、8/2が千秋楽だった。台北（6月）・香港（7月）に続くアジアツアーの延長公演。公演後のライブ映像視聴・SNS拡散とみられる動きにより、YouTube総再生数が前日の1,802,365,351から1,810,133,054（+7,767,703）に増加し、baseline比2.98σのorganicバズとして検出された。過去の台北・香港公演後にも同様のYouTube再生数増加パターンが確認されている。",
+      "category": "other",
+      "source": "https://www.sonymusic.co.jp/artist/lisa/info/581758",
+      "confidence": "medium",
+      "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "ソウル公演（8/2千秋楽）後の余波、ただし実測値は横ばい（データ停滞の疑い）",
+      "description": "youtube_total_viewsの実測値は1,810,133,054で8/2と完全に同一のまま変化なし。移動平均ベースラインが8/2の急増（+7,767,703）に追いついていないため2.59σの「buzz」としてスコア上検出されているが、日次の実増加はゼロ。8/1〜2のソウル公演の余波が続いている可能性はあるが、値が3日連続で完全固定されている点から、YouTube Data APIのキャッシュ・未更新によるデータアーティファクトの可能性が高い。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "youtube_total_viewsが3日連続で完全固定（1,810,133,054）— データ収集アーティファクトの疑い",
+      "description": "8/2〜8/4までyoutube_total_viewsが1,810,133,054のまま一切変化しておらず、これは8/1〜2のソウル公演由来の実増加がベースライン算出に反映しきれていないことによるスコア上の残存効果とみられる。特定可能な新規トリガーは検索で確認できず、値自体が更新されていない点からYouTube API側のキャッシュ・収集不具合の可能性が高い。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-08-05",
+      "title": "youtube_total_viewsが4日連続で完全固定（1,810,133,054）— データ収集アーティファクトの疑い",
+      "description": "8/2〜8/5の4日間、youtube_total_viewsが1,810,133,054のまま変化なし。ベースライン（移動平均）が8/2の急増に徐々に追いつく過程でスコアが逓減しながらも2.11σでbuzz検出され続けている。特定の新規ニュース・タイアップ・出演等は確認できず、値が全く更新されていない状況から、実質的な新規バズではなくYouTube総再生数データ取得側の停滞・キャッシュによるアーティファクトと判断した。",
+      "category": "other",
+      "source": "",
+      "confidence": "low",
+      "added_at": "2026-08-05T17:00:00Z"
     }
   ],
   "buzz_events": [
