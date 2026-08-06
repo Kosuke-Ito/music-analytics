@@ -4640,6 +4640,47 @@
       "ytm_subscribers": 38200,
       "ytm_monthly_listeners": 63100,
       "ytm_total_views": 8429604
+    },
+    {
+      "date": "2026-08-06",
+      "monthly_listeners": 45497,
+      "collected_at": "2026-08-06T16:20:18.494221+00:00",
+      "spotify_followers": 52211,
+      "youtube_subscribers": 38300,
+      "youtube_total_views": 8671418,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3150
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1249
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 800
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 708
+        },
+        {
+          "city": "Nakano City",
+          "country": "JP",
+          "listeners": 506
+        }
+      ],
+      "lastfm_listeners": 24251,
+      "lastfm_playcount": 407694,
+      "ytm_subscribers": 38300,
+      "ytm_monthly_listeners": 63200,
+      "ytm_total_views": 8429604
     }
   ],
   "metadata": {
@@ -4676,17 +4717,27 @@
       {
         "name": "tofubeats",
         "browse_id": "UCDsYyiCcQPwmgkDiHsaGB2A",
-        "subscribers": "516K"
+        "subscribers": "506K"
       },
       {
         "name": "kiki vivi lily",
         "browse_id": "UC0J0Cl8pt37WvPZ2V8jRlqw",
-        "subscribers": "1.36M"
+        "subscribers": "1.34M"
+      },
+      {
+        "name": "muque",
+        "browse_id": "UClh_g9tkf_ErD1UclhABZDw",
+        "subscribers": "544K"
+      },
+      {
+        "name": "capsule",
+        "browse_id": "UCZsrsPpiAC4-aXPXSRzFJhQ",
+        "subscribers": "820K"
       },
       {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
-        "subscribers": "116K"
+        "subscribers": "115K"
       },
       {
         "name": "80KIDZ",
@@ -4701,7 +4752,7 @@
       {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
-        "subscribers": "144K"
+        "subscribers": "136K"
       },
       {
         "name": "chelmico",
@@ -4712,16 +4763,6 @@
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
         "subscribers": "92.8K"
-      },
-      {
-        "name": "Ako",
-        "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "129K"
-      },
-      {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "108K"
       }
     ],
     "ytm_top_songs": [
@@ -5417,6 +5458,12 @@
           "views": 146895,
           "likes": 2796,
           "comments": 25
+        },
+        {
+          "date": "2026-08-06",
+          "views": 147209,
+          "likes": 2800,
+          "comments": 25
         }
       ]
     },
@@ -6087,6 +6134,12 @@
           "date": "2026-08-05",
           "views": 602583,
           "likes": 5512,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-06",
+          "views": 602949,
+          "likes": 5515,
           "comments": 18
         }
       ]
@@ -6759,6 +6812,12 @@
           "views": 334308,
           "likes": 3562,
           "comments": 7
+        },
+        {
+          "date": "2026-08-06",
+          "views": 334552,
+          "likes": 3563,
+          "comments": 7
         }
       ]
     },
@@ -7428,6 +7487,12 @@
         {
           "date": "2026-08-05",
           "views": 58910,
+          "likes": 192,
+          "comments": 1
+        },
+        {
+          "date": "2026-08-06",
+          "views": 58968,
           "likes": 192,
           "comments": 1
         }
@@ -8100,6 +8165,12 @@
           "date": "2026-08-05",
           "views": 130714,
           "likes": 1631,
+          "comments": 15
+        },
+        {
+          "date": "2026-08-06",
+          "views": 130811,
+          "likes": 1632,
           "comments": 15
         }
       ]
@@ -8940,6 +9011,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-05T16:11:59.496409+00:00"
+    },
+    {
+      "date": "2026-08-06",
+      "metric": "monthly_listeners",
+      "value": 45497,
+      "baseline_mean": 44615.3,
+      "baseline_stddev": 308.9,
+      "delta": 881,
+      "score": 2.85,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-08-06T16:20:20.191381+00:00"
     }
   ]
 }

@@ -5016,6 +5016,47 @@
       "ytm_subscribers": 2540000,
       "ytm_monthly_listeners": 21800000,
       "ytm_total_views": 2708315469
+    },
+    {
+      "date": "2026-08-06",
+      "monthly_listeners": 5889504,
+      "collected_at": "2026-08-06T16:08:23.840928+00:00",
+      "spotify_followers": 4061032,
+      "youtube_subscribers": 2540000,
+      "youtube_total_views": 2747328287,
+      "youtube_video_count": 345,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 239134
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 205798
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 146217
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 87993
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 86386
+        }
+      ],
+      "lastfm_listeners": 546859,
+      "lastfm_playcount": 18229359,
+      "ytm_subscribers": 2540000,
+      "ytm_monthly_listeners": 22100000,
+      "ytm_total_views": 2709614900
     }
   ],
   "annotations": [
@@ -5402,29 +5443,29 @@
         "subscribers": "1.21M"
       },
       {
-        "name": "Tele",
-        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "415K"
-      },
-      {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "4.13M"
-      },
-      {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "654K"
+        "subscribers": "3.76M"
       },
       {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "6.63M"
+        "subscribers": "6.58M"
       },
       {
         "name": "星野源 Gen Hoshino",
         "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
-        "subscribers": "8.43M"
+        "subscribers": "8.46M"
+      },
+      {
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "810K"
+      },
+      {
+        "name": "Tele",
+        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
+        "subscribers": "416K"
       },
       {
         "name": "Penthouse",
@@ -5432,19 +5473,19 @@
         "subscribers": "1.81M"
       },
       {
-        "name": "imase",
-        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "58M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "21M"
+      },
+      {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10.2M"
       },
       {
         "name": "OFFICIAL HIGE DANDISM",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "60.6M"
-      },
-      {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "6.58M"
+        "subscribers": "60.4M"
       }
     ],
     "ytm_top_songs": [
@@ -6164,6 +6205,12 @@
           "views": 70281429,
           "likes": 243279,
           "comments": 865
+        },
+        {
+          "date": "2026-08-06",
+          "views": 70360749,
+          "likes": 243487,
+          "comments": 865
         }
       ]
     },
@@ -6859,6 +6906,12 @@
           "views": 80421098,
           "likes": 480172,
           "comments": 916
+        },
+        {
+          "date": "2026-08-06",
+          "views": 80481989,
+          "likes": 480451,
+          "comments": 916
         }
       ]
     },
@@ -7553,6 +7606,12 @@
           "date": "2026-08-05",
           "views": 40383341,
           "likes": 195308,
+          "comments": 305
+        },
+        {
+          "date": "2026-08-06",
+          "views": 40422226,
+          "likes": 195452,
           "comments": 305
         }
       ]
@@ -8883,6 +8942,12 @@
           "views": 11349092,
           "likes": 83196,
           "comments": 846
+        },
+        {
+          "date": "2026-08-06",
+          "views": 11394591,
+          "likes": 83352,
+          "comments": 846
         }
       ]
     },
@@ -8958,6 +9023,12 @@
           "date": "2026-08-05",
           "views": 845082,
           "likes": 12997,
+          "comments": 394
+        },
+        {
+          "date": "2026-08-06",
+          "views": 869904,
+          "likes": 13183,
           "comments": 394
         }
       ]
@@ -9515,6 +9586,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-05T16:00:43.721617+00:00"
+    },
+    {
+      "date": "2026-08-06",
+      "metric": "ytm_monthly_listeners",
+      "value": 22100000,
+      "baseline_mean": 18540000,
+      "baseline_stddev": 1155450.8,
+      "delta": 3560000,
+      "score": 3.08,
+      "type": "annotated",
+      "related_annotation": "甲子園開幕直前、「かげろう」露出継続でリスナー増加が加速",
+      "detected_at": "2026-08-06T16:08:24.973967+00:00"
+    },
+    {
+      "date": "2026-08-06",
+      "metric": "youtube_total_views",
+      "value": 2747328287,
+      "baseline_mean": 2719444698.3,
+      "baseline_stddev": 13412978.2,
+      "delta": 27883588,
+      "score": 2.08,
+      "type": "annotated",
+      "related_annotation": "甲子園開幕直前、「かげろう」露出継続でリスナー増加が加速",
+      "detected_at": "2026-08-06T16:08:24.973967+00:00"
     }
   ]
 }

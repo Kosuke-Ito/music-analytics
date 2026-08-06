@@ -4716,6 +4716,47 @@
       "ytm_subscribers": 2250000,
       "ytm_monthly_listeners": 19300000,
       "ytm_total_views": 1300396983
+    },
+    {
+      "date": "2026-08-06",
+      "monthly_listeners": 3472551,
+      "collected_at": "2026-08-06T16:16:36.836569+00:00",
+      "spotify_followers": 1052261,
+      "youtube_subscribers": 2250000,
+      "youtube_total_views": 1809802426,
+      "youtube_video_count": 125,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 135350
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 132486
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 97793
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 50899
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 50190
+        }
+      ],
+      "lastfm_listeners": 209168,
+      "lastfm_playcount": 3499476,
+      "ytm_subscribers": 2250000,
+      "ytm_monthly_listeners": 20400000,
+      "ytm_total_views": 1313706577
     }
   ],
   "annotations": [
@@ -5226,7 +5267,7 @@
       {
         "name": "IS:SUE",
         "browse_id": "UCYZICDQsFDgjq1lO58Fy3Ww",
-        "subscribers": "924K"
+        "subscribers": "886K"
       },
       {
         "name": "SKY-HI",
@@ -5236,22 +5277,22 @@
       {
         "name": "NiziU",
         "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "7.78M"
+        "subscribers": "6.61M"
       },
       {
         "name": "ME:I",
         "browse_id": "UCmVWcCVzrEgVfNZLY80hfHw",
-        "subscribers": "6.8M"
+        "subscribers": "6.99M"
       },
       {
         "name": "BE:FIRST",
         "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
-        "subscribers": "12.1M"
+        "subscribers": "12.5M"
       },
       {
         "name": "CHANMINA",
         "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
-        "subscribers": "9.74M"
+        "subscribers": "9.83M"
       },
       {
         "name": "CUTIE STREET",
@@ -5261,10 +5302,14 @@
       {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "1.81M"
+        "subscribers": "1.79M"
       }
     ],
     "ytm_top_songs": [
+      {
+        "title": "I Got Your Back (feat. JISOO & MOMOKA of HANA)",
+        "video_id": "UCPwHlZ2EDI"
+      },
       {
         "title": "Blue Jeans",
         "video_id": "u8aBtdeb68Q"
@@ -5276,10 +5321,6 @@
       {
         "title": "Tiger",
         "video_id": "JqViYB1Vmck"
-      },
-      {
-        "title": "NON STOP",
-        "video_id": "6xP_85w7gWg"
       },
       {
         "title": "Bad Girl",
@@ -5963,6 +6004,12 @@
           "views": 151565,
           "likes": 1260,
           "comments": 25
+        },
+        {
+          "date": "2026-08-06",
+          "views": 152140,
+          "likes": 1267,
+          "comments": 25
         }
       ]
     },
@@ -6639,6 +6686,12 @@
           "date": "2026-08-05",
           "views": 295855,
           "likes": 2275,
+          "comments": 23
+        },
+        {
+          "date": "2026-08-06",
+          "views": 297677,
+          "likes": 2287,
           "comments": 23
         }
       ]
@@ -7676,6 +7729,12 @@
           "views": 493950,
           "likes": 2981,
           "comments": 14
+        },
+        {
+          "date": "2026-08-06",
+          "views": 496661,
+          "likes": 2997,
+          "comments": 14
         }
       ]
     },
@@ -8676,6 +8735,12 @@
           "views": 472779,
           "likes": 3159,
           "comments": 46
+        },
+        {
+          "date": "2026-08-06",
+          "views": 473543,
+          "likes": 3166,
+          "comments": 46
         }
       ]
     },
@@ -8731,6 +8796,17 @@
           "views": 207557,
           "likes": 3218,
           "comments": 43
+        }
+      ]
+    },
+    "UCPwHlZ2EDI": {
+      "title": "I Got Your Back (feat. JISOO & MOMOKA of HANA)",
+      "history": [
+        {
+          "date": "2026-08-06",
+          "views": 1330060,
+          "likes": 39533,
+          "comments": 1890
         }
       ]
     }
@@ -9035,6 +9111,42 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-05T16:08:30.180338+00:00"
+    },
+    {
+      "date": "2026-08-06",
+      "metric": "monthly_listeners",
+      "value": 3472551,
+      "baseline_mean": 2738516.6,
+      "baseline_stddev": 214863.3,
+      "delta": 734034,
+      "score": 3.42,
+      "type": "annotated",
+      "related_annotation": "ILLITコラボ効果とROSEの累計ストリーミング好調が継続",
+      "detected_at": "2026-08-06T16:16:38.818086+00:00"
+    },
+    {
+      "date": "2026-08-06",
+      "metric": "ytm_monthly_listeners",
+      "value": 20400000,
+      "baseline_mean": 12206666.7,
+      "baseline_stddev": 1431533.8,
+      "delta": 8193333,
+      "score": 5.72,
+      "type": "annotated",
+      "related_annotation": "ILLITコラボ効果とROSEの累計ストリーミング好調が継続",
+      "detected_at": "2026-08-06T16:16:38.818086+00:00"
+    },
+    {
+      "date": "2026-08-06",
+      "metric": "youtube_total_views",
+      "value": 1809802426,
+      "baseline_mean": 1781833734.4,
+      "baseline_stddev": 11687879.1,
+      "delta": 27968691,
+      "score": 2.39,
+      "type": "annotated",
+      "related_annotation": "ILLITコラボ効果とROSEの累計ストリーミング好調が継続",
+      "detected_at": "2026-08-06T16:16:38.818086+00:00"
     }
   ]
 }

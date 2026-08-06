@@ -5014,6 +5014,47 @@
       "ytm_subscribers": 7420000,
       "ytm_monthly_listeners": 41100000,
       "ytm_total_views": 6785110395
+    },
+    {
+      "date": "2026-08-06",
+      "monthly_listeners": 7114853,
+      "collected_at": "2026-08-06T16:03:52.790483+00:00",
+      "spotify_followers": 10171360,
+      "youtube_subscribers": 7420000,
+      "youtube_total_views": 6801174164,
+      "youtube_video_count": 313,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 167473
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 135692
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 129687
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 99853
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 93842
+        }
+      ],
+      "lastfm_listeners": 935666,
+      "lastfm_playcount": 56843424,
+      "ytm_subscribers": 7420000,
+      "ytm_monthly_listeners": 41000000,
+      "ytm_total_views": 6786999671
     }
   ],
   "annotations": [
@@ -5353,17 +5394,27 @@
       {
         "name": "DAOKO",
         "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
-        "subscribers": "8.01M"
+        "subscribers": "8.09M"
       },
       {
         "name": "Aimer",
         "browse_id": "UC_gksw7NEueO_u3lPL372hA",
-        "subscribers": "10.9M"
+        "subscribers": "11M"
       },
       {
         "name": "Ikimonogakari",
         "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
         "subscribers": "18M"
+      },
+      {
+        "name": "milet",
+        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
+        "subscribers": "6.18M"
+      },
+      {
+        "name": "kobasolo",
+        "browse_id": "UCukBv_7AJU7AZHcidF0HIvQ",
+        "subscribers": "3.7M"
       },
       {
         "name": "suis from Yorushika",
@@ -5373,32 +5424,22 @@
       {
         "name": "majiko",
         "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "445K"
-      },
-      {
-        "name": "kobasolo",
-        "browse_id": "UCukBv_7AJU7AZHcidF0HIvQ",
-        "subscribers": "3.67M"
-      },
-      {
-        "name": "milet",
-        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "6.12M"
+        "subscribers": "446K"
       },
       {
         "name": "Ryokuousyoku Syakai",
         "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "6.58M"
+        "subscribers": "6.71M"
+      },
+      {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.34M"
       },
       {
         "name": "Ayase",
         "browse_id": "UCbqY3RHKkPS8dJCrfAfSk6Q",
         "subscribers": "1.33M"
-      },
-      {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.37M"
       }
     ],
     "ytm_top_songs": [
@@ -6118,6 +6159,12 @@
           "views": 315907635,
           "likes": 1603542,
           "comments": 11857
+        },
+        {
+          "date": "2026-08-06",
+          "views": 316026006,
+          "likes": 1604144,
+          "comments": 11859
         }
       ]
     },
@@ -6813,6 +6860,12 @@
           "views": 245701510,
           "likes": 1100406,
           "comments": 3906
+        },
+        {
+          "date": "2026-08-06",
+          "views": 245812218,
+          "likes": 1100738,
+          "comments": 3907
         }
       ]
     },
@@ -7508,6 +7561,12 @@
           "views": 61056643,
           "likes": 428354,
           "comments": 936
+        },
+        {
+          "date": "2026-08-06",
+          "views": 61092440,
+          "likes": 428549,
+          "comments": 938
         }
       ]
     },
@@ -8203,6 +8262,12 @@
           "views": 65990628,
           "likes": 270624,
           "comments": 832
+        },
+        {
+          "date": "2026-08-06",
+          "views": 66050611,
+          "likes": 270831,
+          "comments": 832
         }
       ]
     },
@@ -8842,6 +8907,12 @@
           "views": 134871306,
           "likes": 477609,
           "comments": 941
+        },
+        {
+          "date": "2026-08-06",
+          "views": 134926739,
+          "likes": 477808,
+          "comments": 941
         }
       ]
     },
@@ -9301,6 +9372,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-05T15:56:33.414681+00:00"
+    },
+    {
+      "date": "2026-08-06",
+      "metric": "youtube_total_views",
+      "value": 6801174164,
+      "baseline_mean": 6758366023.6,
+      "baseline_stddev": 17081084.0,
+      "delta": 42808140,
+      "score": 2.51,
+      "type": "annotated",
+      "related_annotation": "Lollapalooza 2026（シカゴ）出演でYouTube総再生数が急増",
+      "detected_at": "2026-08-06T16:03:54.170429+00:00"
     }
   ]
 }

@@ -4829,6 +4829,47 @@
       "ytm_subscribers": 103000,
       "ytm_monthly_listeners": 853000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-06",
+      "monthly_listeners": 487308,
+      "collected_at": "2026-08-06T16:03:15.368534+00:00",
+      "spotify_followers": 124946,
+      "youtube_subscribers": 104000,
+      "youtube_total_views": 51145038,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 25127
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 18866
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 13351
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 8358
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 6278
+        }
+      ],
+      "lastfm_listeners": 10290,
+      "lastfm_playcount": 169184,
+      "ytm_subscribers": 104000,
+      "ytm_monthly_listeners": 965000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4861,54 +4902,54 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "星野源 Gen Hoshino",
-        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
-        "subscribers": "8.43M"
-      },
-      {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "4.13M"
+        "subscribers": "3.76M"
       },
       {
         "name": "TOMOO",
         "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "654K"
+        "subscribers": "810K"
+      },
+      {
+        "name": "星野源 Gen Hoshino",
+        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
+        "subscribers": "8.46M"
+      },
+      {
+        "name": "I Don't Like Mondays.",
+        "browse_id": "UCGNCaU3Q1WV31GmdDjX5b7Q",
+        "subscribers": "353K"
       },
       {
         "name": "Bialystocks",
         "browse_id": "UCUejusLOJFSbBxhzot8By9w",
-        "subscribers": "249K"
+        "subscribers": "250K"
       },
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "79.6K"
+        "subscribers": "78.8K"
       },
       {
         "name": "First Love is Never Returned",
         "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "82.5K"
+        "subscribers": "77K"
       },
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "73.7K"
+        "subscribers": "83.4K"
       },
       {
         "name": "YONA YONA WEEKENDERS",
         "browse_id": "UCA2eoqFXKqN2EfB6HiIHIRA",
-        "subscribers": "56K"
+        "subscribers": "56.6K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
         "subscribers": "108K"
-      },
-      {
-        "name": "FRIENDS",
-        "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "73.3K"
       }
     ],
     "ytm_top_songs": [
@@ -5621,6 +5662,12 @@
           "views": 55774,
           "likes": 490,
           "comments": 6
+        },
+        {
+          "date": "2026-08-06",
+          "views": 55947,
+          "likes": 491,
+          "comments": 6
         }
       ]
     },
@@ -6308,6 +6355,12 @@
         {
           "date": "2026-08-05",
           "views": 45755,
+          "likes": 448,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-06",
+          "views": 45829,
           "likes": 448,
           "comments": 4
         }
@@ -6998,6 +7051,12 @@
           "date": "2026-08-05",
           "views": 241072,
           "likes": 2112,
+          "comments": 12
+        },
+        {
+          "date": "2026-08-06",
+          "views": 241413,
+          "likes": 2114,
           "comments": 12
         }
       ]
@@ -8257,6 +8316,12 @@
           "views": 91699,
           "likes": 841,
           "comments": 8
+        },
+        {
+          "date": "2026-08-06",
+          "views": 91934,
+          "likes": 841,
+          "comments": 8
         }
       ]
     },
@@ -8402,6 +8467,12 @@
           "date": "2026-08-05",
           "views": 22596,
           "likes": 205,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-06",
+          "views": 23156,
+          "likes": 211,
           "comments": 5
         }
       ]
@@ -9108,6 +9179,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-05T15:56:02.613324+00:00"
+    },
+    {
+      "date": "2026-08-06",
+      "metric": "monthly_listeners",
+      "value": 487308,
+      "baseline_mean": 431216.3,
+      "baseline_stddev": 17631.1,
+      "delta": 56091,
+      "score": 3.18,
+      "type": "annotated",
+      "related_annotation": "新曲「大空港」ドラマ主題歌起用効果の継続でmonthly listeners・YTM月間リスナーが上昇",
+      "detected_at": "2026-08-06T16:03:16.729272+00:00"
+    },
+    {
+      "date": "2026-08-06",
+      "metric": "ytm_monthly_listeners",
+      "value": 965000,
+      "baseline_mean": 413866.7,
+      "baseline_stddev": 154711.7,
+      "delta": 551133,
+      "score": 3.56,
+      "type": "annotated",
+      "related_annotation": "新曲「大空港」ドラマ主題歌起用効果の継続でmonthly listeners・YTM月間リスナーが上昇",
+      "detected_at": "2026-08-06T16:03:16.729272+00:00"
     }
   ]
 }

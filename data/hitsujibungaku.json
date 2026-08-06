@@ -4713,6 +4713,47 @@
       "ytm_subscribers": 463000,
       "ytm_monthly_listeners": 4880000,
       "ytm_total_views": 361944508
+    },
+    {
+      "date": "2026-08-06",
+      "monthly_listeners": 1748733,
+      "collected_at": "2026-08-06T16:18:00.764792+00:00",
+      "spotify_followers": 518745,
+      "youtube_subscribers": 464000,
+      "youtube_total_views": 365016169,
+      "youtube_video_count": 149,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 66154
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 45655
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 42164
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 31165
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 21244
+        }
+      ],
+      "lastfm_listeners": 18867,
+      "lastfm_playcount": 1284858,
+      "ytm_subscribers": 464000,
+      "ytm_monthly_listeners": 4890000,
+      "ytm_total_views": 361944508
     }
   ],
   "annotations": [
@@ -5155,22 +5196,22 @@
       {
         "name": "regallily",
         "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
-        "subscribers": "282K"
+        "subscribers": "281K"
       },
       {
         "name": "yonige",
         "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
-        "subscribers": "332K"
+        "subscribers": "333K"
       },
       {
         "name": "Galileo Galilei",
         "browse_id": "UCuRm3UyWIIiPmIbRYK4fuLw",
-        "subscribers": "737K"
+        "subscribers": "752K"
       },
       {
         "name": "chilldspot",
         "browse_id": "UCpAYVXySypaqfb2JA_papUA",
-        "subscribers": "206K"
+        "subscribers": "213K"
       },
       {
         "name": "Homecomings",
@@ -5185,7 +5226,7 @@
       {
         "name": "CodyLee",
         "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "189K"
+        "subscribers": "186K"
       },
       {
         "name": "mol-74",
@@ -5195,7 +5236,7 @@
       {
         "name": "CHIAKI SATO",
         "browse_id": "UCgPeNtXtc4sWEJSqQvNJzmQ",
-        "subscribers": "231K"
+        "subscribers": "233K"
       }
     ],
     "ytm_top_songs": [
@@ -5903,6 +5944,12 @@
           "views": 20566211,
           "likes": 131829,
           "comments": 387
+        },
+        {
+          "date": "2026-08-06",
+          "views": 20592768,
+          "likes": 131937,
+          "comments": 387
         }
       ]
     },
@@ -6586,6 +6633,12 @@
           "views": 5096505,
           "likes": 33907,
           "comments": 186
+        },
+        {
+          "date": "2026-08-06",
+          "views": 5119993,
+          "likes": 34012,
+          "comments": 187
         }
       ]
     },
@@ -7502,6 +7555,12 @@
           "views": 1543808,
           "likes": 13933,
           "comments": 86
+        },
+        {
+          "date": "2026-08-06",
+          "views": 1545837,
+          "likes": 13944,
+          "comments": 86
         }
       ]
     },
@@ -8185,6 +8244,12 @@
           "views": 2273996,
           "likes": 17592,
           "comments": 126
+        },
+        {
+          "date": "2026-08-06",
+          "views": 2276935,
+          "likes": 17608,
+          "comments": 125
         }
       ]
     },
@@ -8639,6 +8704,12 @@
           "date": "2026-08-05",
           "views": 4195603,
           "likes": 34087,
+          "comments": 274
+        },
+        {
+          "date": "2026-08-06",
+          "views": 4199340,
+          "likes": 34111,
           "comments": 274
         }
       ]
@@ -9227,6 +9298,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-05T16:09:52.912646+00:00"
+    },
+    {
+      "date": "2026-08-06",
+      "metric": "monthly_listeners",
+      "value": 1748733,
+      "baseline_mean": 1716027.1,
+      "baseline_stddev": 8877.7,
+      "delta": 32705,
+      "score": 3.68,
+      "type": "annotated",
+      "related_annotation": "「Keep Walking」ドラマタイアップの話題化が継続しSpotify月間リスナーが増加（+14,987人・2.37σ）",
+      "detected_at": "2026-08-06T16:18:02.753174+00:00"
     }
   ]
 }

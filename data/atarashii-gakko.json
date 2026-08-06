@@ -4716,6 +4716,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 4139999,
       "ytm_total_views": 585218071
+    },
+    {
+      "date": "2026-08-06",
+      "monthly_listeners": 894615,
+      "collected_at": "2026-08-06T16:18:17.581052+00:00",
+      "spotify_followers": 982371,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 609097273,
+      "youtube_video_count": 433,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 21229
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13789
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12154
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 11533
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8286
+        }
+      ],
+      "lastfm_listeners": 8934,
+      "lastfm_playcount": 411852,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 4350000,
+      "ytm_total_views": 585332558
     }
   ],
   "metadata": {
@@ -4757,12 +4798,7 @@
       {
         "name": "DAOKO",
         "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
-        "subscribers": "8.01M"
-      },
-      {
-        "name": "Yasuha",
-        "browse_id": "UCnmK8YSeUOrNBGtBbxx4wpw",
-        "subscribers": "29.6K"
+        "subscribers": "8.09M"
       },
       {
         "name": "millennium parade",
@@ -4772,7 +4808,12 @@
       {
         "name": "TOKYO SKA PARADISE ORCHESTRA",
         "browse_id": "UC2EIPYTEx5_RuFQHMdZvI0A",
-        "subscribers": "2.99M"
+        "subscribers": "3.04M"
+      },
+      {
+        "name": "Yasuha",
+        "browse_id": "UCnmK8YSeUOrNBGtBbxx4wpw",
+        "subscribers": "29.6K"
       },
       {
         "name": "SHISHIDO KAVKA",
@@ -4792,7 +4833,7 @@
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "119K"
+        "subscribers": "118K"
       },
       {
         "name": "Avantgardey",
@@ -5511,6 +5552,12 @@
           "views": 19590292,
           "likes": 279075,
           "comments": 429
+        },
+        {
+          "date": "2026-08-06",
+          "views": 19598780,
+          "likes": 279159,
+          "comments": 429
         }
       ]
     },
@@ -6200,6 +6247,12 @@
           "views": 5464028,
           "likes": 32157,
           "comments": 134
+        },
+        {
+          "date": "2026-08-06",
+          "views": 5465863,
+          "likes": 32174,
+          "comments": 134
         }
       ]
     },
@@ -6888,6 +6941,12 @@
           "date": "2026-08-05",
           "views": 2251893,
           "likes": 37305,
+          "comments": 113
+        },
+        {
+          "date": "2026-08-06",
+          "views": 2254734,
+          "likes": 37331,
           "comments": 113
         }
       ]
@@ -8190,6 +8249,12 @@
           "views": 292117,
           "likes": 8526,
           "comments": 221
+        },
+        {
+          "date": "2026-08-06",
+          "views": 293500,
+          "likes": 8543,
+          "comments": 221
         }
       ]
     },
@@ -8297,6 +8362,12 @@
           "views": 61377,
           "likes": 3146,
           "comments": 117
+        },
+        {
+          "date": "2026-08-06",
+          "views": 62748,
+          "likes": 3172,
+          "comments": 118
         }
       ]
     }
@@ -9183,6 +9254,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-05T16:10:07.872699+00:00"
+    },
+    {
+      "date": "2026-08-06",
+      "metric": "ytm_monthly_listeners",
+      "value": 4350000,
+      "baseline_mean": 3839999.9,
+      "baseline_stddev": 230101.4,
+      "delta": 510000,
+      "score": 2.22,
+      "type": "annotated",
+      "related_annotation": "アルバムリリース後の継続的な海外露出でSpotify月間リスナーが上昇（+55,258・2.26σ）",
+      "detected_at": "2026-08-06T16:18:19.311326+00:00"
+    },
+    {
+      "date": "2026-08-06",
+      "metric": "youtube_total_views",
+      "value": 609097273,
+      "baseline_mean": 606009532.6,
+      "baseline_stddev": 1461787.5,
+      "delta": 3087740,
+      "score": 2.11,
+      "type": "annotated",
+      "related_annotation": "アルバムリリース後の継続的な海外露出でSpotify月間リスナーが上昇（+55,258・2.26σ）",
+      "detected_at": "2026-08-06T16:18:19.311326+00:00"
     }
   ]
 }
