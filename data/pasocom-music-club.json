@@ -4681,6 +4681,47 @@
       "ytm_subscribers": 38300,
       "ytm_monthly_listeners": 63200,
       "ytm_total_views": 8429604
+    },
+    {
+      "date": "2026-08-07",
+      "monthly_listeners": 46029,
+      "collected_at": "2026-08-07T15:03:50.736552+00:00",
+      "spotify_followers": 52222,
+      "youtube_subscribers": 38300,
+      "youtube_total_views": 8671418,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3146
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1256
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 798
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 712
+        },
+        {
+          "city": "Nakano City",
+          "country": "JP",
+          "listeners": 506
+        }
+      ],
+      "lastfm_listeners": 24256,
+      "lastfm_playcount": 407734,
+      "ytm_subscribers": 38300,
+      "ytm_monthly_listeners": 63000,
+      "ytm_total_views": 8429604
     }
   ],
   "metadata": {
@@ -4722,22 +4763,12 @@
       {
         "name": "kiki vivi lily",
         "browse_id": "UC0J0Cl8pt37WvPZ2V8jRlqw",
-        "subscribers": "1.34M"
-      },
-      {
-        "name": "muque",
-        "browse_id": "UClh_g9tkf_ErD1UclhABZDw",
-        "subscribers": "544K"
-      },
-      {
-        "name": "capsule",
-        "browse_id": "UCZsrsPpiAC4-aXPXSRzFJhQ",
-        "subscribers": "820K"
+        "subscribers": "1.33M"
       },
       {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
-        "subscribers": "115K"
+        "subscribers": "114K"
       },
       {
         "name": "80KIDZ",
@@ -4757,12 +4788,22 @@
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "204K"
+        "subscribers": "206K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "92.8K"
+        "subscribers": "92.4K"
+      },
+      {
+        "name": "Ako",
+        "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
+        "subscribers": "124K"
+      },
+      {
+        "name": "Skirt",
+        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
+        "subscribers": "107K"
       }
     ],
     "ytm_top_songs": [
@@ -5464,6 +5505,12 @@
           "views": 147209,
           "likes": 2800,
           "comments": 25
+        },
+        {
+          "date": "2026-08-07",
+          "views": 147568,
+          "likes": 2800,
+          "comments": 25
         }
       ]
     },
@@ -6141,6 +6188,12 @@
           "views": 602949,
           "likes": 5515,
           "comments": 18
+        },
+        {
+          "date": "2026-08-07",
+          "views": 603252,
+          "likes": 5516,
+          "comments": 18
         }
       ]
     },
@@ -6816,6 +6869,12 @@
         {
           "date": "2026-08-06",
           "views": 334552,
+          "likes": 3563,
+          "comments": 7
+        },
+        {
+          "date": "2026-08-07",
+          "views": 334791,
           "likes": 3563,
           "comments": 7
         }
@@ -7495,6 +7554,12 @@
           "views": 58968,
           "likes": 192,
           "comments": 1
+        },
+        {
+          "date": "2026-08-07",
+          "views": 59039,
+          "likes": 192,
+          "comments": 1
         }
       ]
     },
@@ -8170,6 +8235,12 @@
         {
           "date": "2026-08-06",
           "views": 130811,
+          "likes": 1632,
+          "comments": 15
+        },
+        {
+          "date": "2026-08-07",
+          "views": 130955,
           "likes": 1632,
           "comments": 15
         }
@@ -9023,6 +9094,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-08-06T16:20:20.191381+00:00"
+    },
+    {
+      "date": "2026-08-07",
+      "metric": "monthly_listeners",
+      "value": 46029,
+      "baseline_mean": 44630.4,
+      "baseline_stddev": 339.1,
+      "delta": 1398,
+      "score": 4.12,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-08-07T15:03:52.477603+00:00"
     }
   ]
 }

@@ -5057,6 +5057,47 @@
       "ytm_subscribers": 5050000,
       "ytm_monthly_listeners": 8100000,
       "ytm_total_views": 2484711631
+    },
+    {
+      "date": "2026-08-07",
+      "monthly_listeners": 3539380,
+      "collected_at": "2026-08-07T14:50:21.259277+00:00",
+      "spotify_followers": 6228202,
+      "youtube_subscribers": 5050000,
+      "youtube_total_views": 2520756188,
+      "youtube_video_count": 578,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 112951
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 96561
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 67426
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 61381
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 44106
+        }
+      ],
+      "lastfm_listeners": 648647,
+      "lastfm_playcount": 55900616,
+      "ytm_subscribers": 5050000,
+      "ytm_monthly_listeners": 8070000,
+      "ytm_total_views": 2484711631
     }
   ],
   "annotations": [
@@ -5394,7 +5435,7 @@
       {
         "name": "MONKEY MAJIK",
         "browse_id": "UC3gcufb-KpdT9XbSf0vug3g",
-        "subscribers": "1.13M"
+        "subscribers": "1.14M"
       },
       {
         "name": "Pay money To my Pain",
@@ -5402,19 +5443,9 @@
         "subscribers": "135K"
       },
       {
-        "name": "taka",
-        "browse_id": "UC0KLMGub_J0BSigaBHAAG-Q",
-        "subscribers": "1.14K"
-      },
-      {
         "name": "WANIMA",
         "browse_id": "UC_SxYlf03VsYYBJTXTZj7kw",
-        "subscribers": "4.99M"
-      },
-      {
-        "name": "milet",
-        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "6.18M"
+        "subscribers": "5.05M"
       },
       {
         "name": "[Alexandros]",
@@ -5422,9 +5453,19 @@
         "subscribers": "8.46M"
       },
       {
+        "name": "taka",
+        "browse_id": "UC0KLMGub_J0BSigaBHAAG-Q",
+        "subscribers": "1.15K"
+      },
+      {
         "name": "SUPER BEAVER",
         "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
-        "subscribers": "2.34M"
+        "subscribers": "2.31M"
+      },
+      {
+        "name": "YUI",
+        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
+        "subscribers": "8.42M"
       },
       {
         "name": "SCANDAL",
@@ -5432,14 +5473,14 @@
         "subscribers": "1.71M"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "97.2M"
+        "name": "MY FIRST STORY",
+        "browse_id": "UCZtrZ8_Opr4Sa2r61ye_UsQ",
+        "subscribers": "8.1M"
       },
       {
-        "name": "YUI",
-        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
-        "subscribers": "8.34M"
+        "name": "milet",
+        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
+        "subscribers": "6.34M"
       }
     ],
     "ytm_top_songs": [
@@ -6159,6 +6200,12 @@
           "views": 8816959,
           "likes": 47578,
           "comments": 114
+        },
+        {
+          "date": "2026-08-07",
+          "views": 8843590,
+          "likes": 47701,
+          "comments": 114
         }
       ]
     },
@@ -6860,6 +6907,12 @@
           "views": 14674221,
           "likes": 78434,
           "comments": 461
+        },
+        {
+          "date": "2026-08-07",
+          "views": 14713493,
+          "likes": 78609,
+          "comments": 463
         }
       ]
     },
@@ -7561,6 +7614,12 @@
           "views": 7521737,
           "likes": 33484,
           "comments": 65
+        },
+        {
+          "date": "2026-08-07",
+          "views": 7543772,
+          "likes": 33560,
+          "comments": 66
         }
       ]
     },
@@ -8261,6 +8320,12 @@
           "date": "2026-08-06",
           "views": 16023054,
           "likes": 136164,
+          "comments": 365
+        },
+        {
+          "date": "2026-08-07",
+          "views": 16031576,
+          "likes": 136193,
           "comments": 365
         }
       ]
@@ -8989,6 +9054,12 @@
           "views": 5131691,
           "likes": 36928,
           "comments": 73
+        },
+        {
+          "date": "2026-08-07",
+          "views": 5133969,
+          "likes": 36945,
+          "comments": 73
         }
       ]
     }
@@ -9341,6 +9412,18 @@
       "type": "annotated",
       "related_annotation": "Spotify月間リスナーが緩やかに上昇（原因不明）",
       "detected_at": "2026-08-06T16:06:59.803407+00:00"
+    },
+    {
+      "date": "2026-08-07",
+      "metric": "monthly_listeners",
+      "value": 3539380,
+      "baseline_mean": 3513674.6,
+      "baseline_stddev": 7830.7,
+      "delta": 25705,
+      "score": 3.28,
+      "type": "annotated",
+      "related_annotation": "Spotify月間リスナーが緩やかに上昇（原因不明）",
+      "detected_at": "2026-08-07T14:50:22.592081+00:00"
     }
   ]
 }

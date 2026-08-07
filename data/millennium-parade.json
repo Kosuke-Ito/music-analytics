@@ -4891,6 +4891,47 @@
       "ytm_subscribers": 466000,
       "ytm_monthly_listeners": 1210000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-07",
+      "monthly_listeners": 1062739,
+      "collected_at": "2026-08-07T14:45:06.497693+00:00",
+      "spotify_followers": 233696,
+      "youtube_subscribers": 466000,
+      "youtube_total_views": 216461926,
+      "youtube_video_count": 48,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 11454
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 11285
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 11194
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 10177
+        },
+        {
+          "city": "Melbourne",
+          "country": "AU",
+          "listeners": 10016
+        }
+      ],
+      "lastfm_listeners": 162598,
+      "lastfm_playcount": 2333837,
+      "ytm_subscribers": 466000,
+      "ytm_monthly_listeners": 1210000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4932,12 +4973,12 @@
       {
         "name": "ꉈꀧ꒒꒒ꁄꍈꍈꀧ꒦ꉈ ꉣꅔꎡꅔꁕꁄ",
         "browse_id": "UCaA9RWPJq5CRlW7pYAaMP0w",
-        "subscribers": "166"
+        "subscribers": "167"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "92.8K"
+        "subscribers": "92.4K"
       },
       {
         "name": "boku no lyric no bouyomi",
@@ -4952,12 +4993,12 @@
       {
         "name": "illion",
         "browse_id": "UC9vbsrHnodkYC4hdfJN3mAg",
-        "subscribers": "689K"
+        "subscribers": "686K"
       },
       {
         "name": "Ako",
         "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "128K"
+        "subscribers": "124K"
       },
       {
         "name": "BREIMEN",
@@ -4970,9 +5011,9 @@
         "subscribers": "155K"
       },
       {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "1.81M"
+        "name": "gesunokiwami otome",
+        "browse_id": "UCC49CEw6fitW1bUIT9NjvSA",
+        "subscribers": "1.11M"
       }
     ],
     "ytm_top_songs": [
@@ -5697,6 +5738,12 @@
           "views": 8012681,
           "likes": 73409,
           "comments": 266
+        },
+        {
+          "date": "2026-08-07",
+          "views": 8020887,
+          "likes": 73458,
+          "comments": 267
         }
       ]
     },
@@ -6398,6 +6445,12 @@
           "views": 2134892,
           "likes": 26204,
           "comments": 48
+        },
+        {
+          "date": "2026-08-07",
+          "views": 2136919,
+          "likes": 26225,
+          "comments": 48
         }
       ]
     },
@@ -7098,6 +7151,12 @@
           "date": "2026-08-06",
           "views": 21845128,
           "likes": 225120,
+          "comments": 632
+        },
+        {
+          "date": "2026-08-07",
+          "views": 21851031,
+          "likes": 225148,
           "comments": 632
         }
       ]
@@ -8255,6 +8314,12 @@
           "views": 114022,
           "likes": 1723,
           "comments": 10
+        },
+        {
+          "date": "2026-08-07",
+          "views": 114307,
+          "likes": 1728,
+          "comments": 10
         }
       ]
     },
@@ -8515,6 +8580,12 @@
           "date": "2026-08-06",
           "views": 252716,
           "likes": 6610,
+          "comments": 192
+        },
+        {
+          "date": "2026-08-07",
+          "views": 258311,
+          "likes": 6721,
           "comments": 192
         }
       ]
@@ -9243,6 +9314,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-06T16:01:30.962965+00:00"
+    },
+    {
+      "date": "2026-08-07",
+      "metric": "youtube_total_views",
+      "value": 216461926,
+      "baseline_mean": 214287536.3,
+      "baseline_stddev": 494503.4,
+      "delta": 2174389,
+      "score": 4.4,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-07T14:45:07.643813+00:00"
     }
   ]
 }

@@ -4754,6 +4754,47 @@
       "ytm_subscribers": 1850000,
       "ytm_monthly_listeners": 9830000,
       "ytm_total_views": 1185649093
+    },
+    {
+      "date": "2026-08-07",
+      "monthly_listeners": 3026450,
+      "collected_at": "2026-08-07T15:00:19.051965+00:00",
+      "spotify_followers": 1708095,
+      "youtube_subscribers": 1850000,
+      "youtube_total_views": 1211783734,
+      "youtube_video_count": 142,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 132763
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 125013
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 89432
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 49831
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 48539
+        }
+      ],
+      "lastfm_listeners": 12910,
+      "lastfm_playcount": 516201,
+      "ytm_subscribers": 1850000,
+      "ytm_monthly_listeners": 9980000,
+      "ytm_total_views": 1185649093
     }
   ],
   "annotations": [
@@ -5132,7 +5173,7 @@
       {
         "name": "Crystal Kay",
         "browse_id": "UC44J7DCoUfVJ7IwYKqrG8Rw",
-        "subscribers": "852K"
+        "subscribers": "854K"
       },
       {
         "name": "AI",
@@ -5140,19 +5181,19 @@
         "subscribers": "2.35M"
       },
       {
-        "name": "WHITE JAM",
-        "browse_id": "UCR5CmiBXq6qkMQOXLU6WYrA",
-        "subscribers": "980K"
-      },
-      {
         "name": "Thelma Aoyama",
         "browse_id": "UCiQJ6RsG3tyZwn2-m7gnkUg",
-        "subscribers": "749K"
+        "subscribers": "747K"
+      },
+      {
+        "name": "WHITE JAM",
+        "browse_id": "UCR5CmiBXq6qkMQOXLU6WYrA",
+        "subscribers": "984K"
       },
       {
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "844K"
+        "subscribers": "847K"
       },
       {
         "name": "Kana Nishino",
@@ -5165,19 +5206,19 @@
         "subscribers": "3.55M"
       },
       {
-        "name": "HIRAIDAI",
-        "browse_id": "UC3NrSfe_yR5XX9zGFxYoV1Q",
-        "subscribers": "17.8M"
-      },
-      {
         "name": "Tani Yuuki",
         "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
-        "subscribers": "5.73M"
+        "subscribers": "5.82M"
+      },
+      {
+        "name": "HIRAIDAI",
+        "browse_id": "UC3NrSfe_yR5XX9zGFxYoV1Q",
+        "subscribers": "17.9M"
       },
       {
         "name": "AiNA THE END",
         "browse_id": "UCr_slw4yAD3LI3KQrmnRD8Q",
-        "subscribers": "9.53M"
+        "subscribers": "9.47M"
       }
     ],
     "ytm_top_songs": [
@@ -5890,6 +5931,12 @@
           "date": "2026-08-06",
           "views": 4905551,
           "likes": 48877,
+          "comments": 195
+        },
+        {
+          "date": "2026-08-07",
+          "views": 4919062,
+          "likes": 48972,
           "comments": 195
         }
       ]
@@ -6633,6 +6680,12 @@
           "views": 33626596,
           "likes": 129163,
           "comments": 212
+        },
+        {
+          "date": "2026-08-07",
+          "views": 33655614,
+          "likes": 129243,
+          "comments": 212
         }
       ]
     },
@@ -7322,6 +7375,12 @@
           "views": 27966189,
           "likes": 112994,
           "comments": 267
+        },
+        {
+          "date": "2026-08-07",
+          "views": 27984376,
+          "likes": 113027,
+          "comments": 267
         }
       ]
     },
@@ -7956,6 +8015,12 @@
           "date": "2026-08-06",
           "views": 353288,
           "likes": 2468,
+          "comments": 26
+        },
+        {
+          "date": "2026-08-07",
+          "views": 353680,
+          "likes": 2469,
           "comments": 26
         }
       ]
@@ -8598,6 +8663,12 @@
           "views": 34067773,
           "likes": 128414,
           "comments": 380
+        },
+        {
+          "date": "2026-08-07",
+          "views": 34092005,
+          "likes": 128487,
+          "comments": 380
         }
       ]
     },
@@ -9160,6 +9231,30 @@
       "type": "annotated",
       "related_annotation": "「アニョハセヨ (ちゃんみな Remix)」バイラル効果が継続、月間リスナー数・YouTube総再生数が上昇",
       "detected_at": "2026-08-06T16:16:55.947072+00:00"
+    },
+    {
+      "date": "2026-08-07",
+      "metric": "monthly_listeners",
+      "value": 3026450,
+      "baseline_mean": 2934527.9,
+      "baseline_stddev": 35504.3,
+      "delta": 91922,
+      "score": 2.59,
+      "type": "annotated",
+      "related_annotation": "「アニョハセヨ (ちゃんみな Remix)」バイラル効果が継続、月間リスナー数・YouTube総再生数が上昇",
+      "detected_at": "2026-08-07T15:00:21.124127+00:00"
+    },
+    {
+      "date": "2026-08-07",
+      "metric": "ytm_monthly_listeners",
+      "value": 9980000,
+      "baseline_mean": 9215333.3,
+      "baseline_stddev": 353682.8,
+      "delta": 764666,
+      "score": 2.16,
+      "type": "annotated",
+      "related_annotation": "「アニョハセヨ (ちゃんみな Remix)」バイラル効果が継続、月間リスナー数・YouTube総再生数が上昇",
+      "detected_at": "2026-08-07T15:00:21.124127+00:00"
     }
   ]
 }
