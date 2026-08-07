@@ -8772,6 +8772,24 @@
       "source": "skream.jp/news/2026/07/millennium_parade_blue.php",
       "confidence": "medium",
       "added_at": "2026-07-24T16:59:52Z"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "YouTube総再生数、データ収集停滞によるバズ誤検知",
+      "description": "YouTube総再生数が2026-08-06と08-07で216,461,926と完全に同一値を記録。実際の視聴数急増ではなく、データ収集が停滞し取得値が更新されなかったことでベースライン統計とのズレが生じ、異常検知スコアが跳ね上がった可能性が高い。Web検索では該当日に紐づく新規の話題性イベント（新曲・TikTokバズ・CM等）は確認できなかった。",
+      "category": "other",
+      "source": "WebSearch: \"MILLENNIUM PARADE 話題 2026年8月\" 等; natalie.mu/music/news/675748",
+      "confidence": "high",
+      "added_at": "2026-08-07T16:00:00+00:00"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "YouTube総再生数、データ収集停滞によるバズ誤検知（継続）",
+      "description": "前日8/6に続き08-07も同一値216,461,926を記録。実測値の停滞とベースライン移動平均のズレによる誤検知が2日連続で発生したとみられる。",
+      "category": "other",
+      "source": "WebSearch: \"MILLENNIUM PARADE 話題 2026年8月\" 等",
+      "confidence": "high",
+      "added_at": "2026-08-07T16:00:00+00:00"
     }
   ],
   "buzz_events": [
