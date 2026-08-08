@@ -4798,6 +4798,47 @@
       "ytm_subscribers": 2250000,
       "ytm_monthly_listeners": 22400000,
       "ytm_total_views": 1313706577
+    },
+    {
+      "date": "2026-08-08",
+      "monthly_listeners": 3639799,
+      "collected_at": "2026-08-08T14:37:41.316614+00:00",
+      "spotify_followers": 1055118,
+      "youtube_subscribers": 2260000,
+      "youtube_total_views": 1809802426,
+      "youtube_video_count": 127,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 136315
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 134020
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 98901
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 51482
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 51363
+        }
+      ],
+      "lastfm_listeners": 209218,
+      "lastfm_playcount": 3501263,
+      "ytm_subscribers": 2260000,
+      "ytm_monthly_listeners": 25100000,
+      "ytm_total_views": 1313706577
     }
   ],
   "annotations": [
@@ -5308,22 +5349,27 @@
       {
         "name": "IS:SUE",
         "browse_id": "UCYZICDQsFDgjq1lO58Fy3Ww",
-        "subscribers": "845K"
+        "subscribers": "796K"
       },
       {
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "847K"
+        "subscribers": "869K"
       },
       {
         "name": "NiziU",
         "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "6.61M"
+        "subscribers": "5.98M"
       },
       {
         "name": "ME:I",
         "browse_id": "UCmVWcCVzrEgVfNZLY80hfHw",
-        "subscribers": "6.99M"
+        "subscribers": "7.65M"
+      },
+      {
+        "name": "CUTIE STREET",
+        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
+        "subscribers": "25.5M"
       },
       {
         "name": "BE:FIRST",
@@ -5333,17 +5379,12 @@
       {
         "name": "CHANMINA",
         "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
-        "subscribers": "9.98M"
-      },
-      {
-        "name": "CUTIE STREET",
-        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
-        "subscribers": "24.7M"
+        "subscribers": "10.2M"
       },
       {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "1.78M"
+        "subscribers": "1.81M"
       }
     ],
     "ytm_top_songs": [
@@ -6057,6 +6098,12 @@
           "views": 152686,
           "likes": 1271,
           "comments": 25
+        },
+        {
+          "date": "2026-08-08",
+          "views": 153196,
+          "likes": 1275,
+          "comments": 25
         }
       ]
     },
@@ -6745,6 +6792,12 @@
           "date": "2026-08-07",
           "views": 299382,
           "likes": 2303,
+          "comments": 23
+        },
+        {
+          "date": "2026-08-08",
+          "views": 300979,
+          "likes": 2316,
           "comments": 23
         }
       ]
@@ -7794,6 +7847,12 @@
           "views": 499367,
           "likes": 3009,
           "comments": 14
+        },
+        {
+          "date": "2026-08-08",
+          "views": 501885,
+          "likes": 3027,
+          "comments": 14
         }
       ]
     },
@@ -8806,6 +8865,12 @@
           "views": 474174,
           "likes": 3171,
           "comments": 46
+        },
+        {
+          "date": "2026-08-08",
+          "views": 474802,
+          "likes": 3177,
+          "comments": 46
         }
       ]
     },
@@ -8878,6 +8943,12 @@
           "views": 1420645,
           "likes": 41049,
           "comments": 1902
+        },
+        {
+          "date": "2026-08-08",
+          "views": 1510024,
+          "likes": 42501,
+          "comments": 1911
         }
       ]
     }
@@ -9254,6 +9325,42 @@
       "type": "annotated",
       "related_annotation": "マクドナルドMcCafé新CM初出演（JISOO・YURI）でYouTube Music指標が急伸",
       "detected_at": "2026-08-07T15:00:03.909169+00:00"
+    },
+    {
+      "date": "2026-08-08",
+      "metric": "monthly_listeners",
+      "value": 3639799,
+      "baseline_mean": 2796016.5,
+      "baseline_stddev": 287914.8,
+      "delta": 843782,
+      "score": 2.93,
+      "type": "annotated",
+      "related_annotation": "McCafé新商品発売とCM継続露出でYouTube Music月間リスナーが急拡大",
+      "detected_at": "2026-08-08T14:37:43.056469+00:00"
+    },
+    {
+      "date": "2026-08-08",
+      "metric": "ytm_monthly_listeners",
+      "value": 25100000,
+      "baseline_mean": 12850000,
+      "baseline_stddev": 2706011.8,
+      "delta": 12250000,
+      "score": 4.53,
+      "type": "annotated",
+      "related_annotation": "McCafé新商品発売とCM継続露出でYouTube Music月間リスナーが急拡大",
+      "detected_at": "2026-08-08T14:37:43.056469+00:00"
+    },
+    {
+      "date": "2026-08-08",
+      "metric": "youtube_total_views",
+      "value": 1809802426,
+      "baseline_mean": 1785095636.4,
+      "baseline_stddev": 12188645.8,
+      "delta": 24706789,
+      "score": 2.03,
+      "type": "annotated",
+      "related_annotation": "McCafé新商品発売とCM継続露出でYouTube Music月間リスナーが急拡大",
+      "detected_at": "2026-08-08T14:37:43.056469+00:00"
     }
   ]
 }

@@ -4792,6 +4792,47 @@
       "ytm_subscribers": 1760000,
       "ytm_monthly_listeners": 8480000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-08",
+      "monthly_listeners": 2789225,
+      "collected_at": "2026-08-08T14:36:18.472114+00:00",
+      "spotify_followers": 2477646,
+      "youtube_subscribers": 1760000,
+      "youtube_total_views": 1443242213,
+      "youtube_video_count": 201,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 117331
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 97555
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 67707
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 44155
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 38558
+        }
+      ],
+      "lastfm_listeners": 21612,
+      "lastfm_playcount": 3009514,
+      "ytm_subscribers": 1760000,
+      "ytm_monthly_listeners": 8620000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4828,12 +4869,27 @@
       {
         "name": "Motohiro Hata",
         "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "12.1M"
+        "subscribers": "12.3M"
       },
       {
         "name": "Spitz",
         "browse_id": "UCa1Dtbauq3vNdm0osXMScuA",
-        "subscribers": "6.77M"
+        "subscribers": "7.07M"
+      },
+      {
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "1.85M"
+      },
+      {
+        "name": "Quruli",
+        "browse_id": "UCLIFRNQRDAaD5H4REYsRdmA",
+        "subscribers": "664K"
+      },
+      {
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "996K"
       },
       {
         "name": "Fujifabric",
@@ -4841,34 +4897,19 @@
         "subscribers": "1.61M"
       },
       {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "906K"
-      },
-      {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "1.81M"
-      },
-      {
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.2M"
-      },
-      {
-        "name": "OFFICIAL HIGE DANDISM",
-        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
-        "subscribers": "60.2M"
-      },
-      {
-        "name": "Quruli",
-        "browse_id": "UCLIFRNQRDAaD5H4REYsRdmA",
-        "subscribers": "630K"
+        "subscribers": "10.4M"
       },
       {
         "name": "Tokyo Incidents",
         "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
         "subscribers": "1.55M"
+      },
+      {
+        "name": "aiko",
+        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
+        "subscribers": "6.75M"
       },
       {
         "name": "aimyon",
@@ -5586,6 +5627,12 @@
           "views": 61147382,
           "likes": 241265,
           "comments": 579
+        },
+        {
+          "date": "2026-08-08",
+          "views": 61184728,
+          "likes": 241425,
+          "comments": 579
         }
       ]
     },
@@ -6275,6 +6322,12 @@
           "views": 5397503,
           "likes": 43885,
           "comments": 0
+        },
+        {
+          "date": "2026-08-08",
+          "views": 5408639,
+          "likes": 43967,
+          "comments": 0
         }
       ]
     },
@@ -6952,6 +7005,12 @@
           "views": 22033607,
           "likes": 103966,
           "comments": 88
+        },
+        {
+          "date": "2026-08-08",
+          "views": 22048547,
+          "likes": 104037,
+          "comments": 88
         }
       ]
     },
@@ -7521,6 +7580,12 @@
           "views": 10603207,
           "likes": 54132,
           "comments": 46
+        },
+        {
+          "date": "2026-08-08",
+          "views": 10612218,
+          "likes": 54174,
+          "comments": 45
         }
       ]
     },
@@ -8017,6 +8082,12 @@
           "date": "2026-08-07",
           "views": 11222345,
           "likes": 50612,
+          "comments": 170
+        },
+        {
+          "date": "2026-08-08",
+          "views": 11230366,
+          "likes": 50663,
           "comments": 170
         }
       ]
@@ -9204,6 +9275,18 @@
       "type": "annotated",
       "related_annotation": "ドラマ『君の好きは無敵』第4話放送(火曜)とSpotify月間リスナー上昇が重なる（2.84σ）",
       "detected_at": "2026-08-07T14:58:35.824068+00:00"
+    },
+    {
+      "date": "2026-08-08",
+      "metric": "monthly_listeners",
+      "value": 2789225,
+      "baseline_mean": 2692216.4,
+      "baseline_stddev": 28310.9,
+      "delta": 97008,
+      "score": 3.43,
+      "type": "annotated",
+      "related_annotation": "新曲「好き」効果によるSpotify月間リスナー上昇がピーク（2.95σ）",
+      "detected_at": "2026-08-08T14:36:20.043292+00:00"
     }
   ]
 }

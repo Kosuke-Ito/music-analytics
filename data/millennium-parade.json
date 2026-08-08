@@ -4932,6 +4932,47 @@
       "ytm_subscribers": 466000,
       "ytm_monthly_listeners": 1210000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-08",
+      "monthly_listeners": 1033634,
+      "collected_at": "2026-08-08T14:23:08.110865+00:00",
+      "spotify_followers": 233753,
+      "youtube_subscribers": 466000,
+      "youtube_total_views": 216461926,
+      "youtube_video_count": 48,
+      "top_cities": [
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 11133
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10962
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 10679
+        },
+        {
+          "city": "Melbourne",
+          "country": "AU",
+          "listeners": 9862
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 9684
+        }
+      ],
+      "lastfm_listeners": 162669,
+      "lastfm_playcount": 2334380,
+      "ytm_subscribers": 466000,
+      "ytm_monthly_listeners": 1210000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4968,7 +5009,7 @@
       {
         "name": "DAOKO",
         "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
-        "subscribers": "8.09M"
+        "subscribers": "8.38M"
       },
       {
         "name": "ꉈꀧ꒒꒒ꁄꍈꍈꀧ꒦ꉈ ꉣꅔꎡꅔꁕꁄ",
@@ -4978,42 +5019,42 @@
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "92.4K"
+        "subscribers": "94K"
       },
       {
         "name": "boku no lyric no bouyomi",
         "browse_id": "UCw1r5leUGRTKJ4iSZ33kB9A",
-        "subscribers": "34.1K"
+        "subscribers": "50K"
       },
       {
         "name": "Okamoto's",
         "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
-        "subscribers": "205K"
+        "subscribers": "212K"
       },
       {
         "name": "illion",
         "browse_id": "UC9vbsrHnodkYC4hdfJN3mAg",
-        "subscribers": "686K"
+        "subscribers": "708K"
       },
       {
         "name": "Ako",
         "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "124K"
+        "subscribers": "125K"
       },
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "83.4K"
+        "subscribers": "92.8K"
+      },
+      {
+        "name": "Tempalay",
+        "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
+        "subscribers": "121K"
       },
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "155K"
-      },
-      {
-        "name": "gesunokiwami otome",
-        "browse_id": "UCC49CEw6fitW1bUIT9NjvSA",
-        "subscribers": "1.11M"
+        "subscribers": "164K"
       }
     ],
     "ytm_top_songs": [
@@ -5744,6 +5785,12 @@
           "views": 8020887,
           "likes": 73458,
           "comments": 267
+        },
+        {
+          "date": "2026-08-08",
+          "views": 8028875,
+          "likes": 73511,
+          "comments": 267
         }
       ]
     },
@@ -6451,6 +6498,12 @@
           "views": 2136919,
           "likes": 26225,
           "comments": 48
+        },
+        {
+          "date": "2026-08-08",
+          "views": 2139009,
+          "likes": 26252,
+          "comments": 48
         }
       ]
     },
@@ -7157,6 +7210,12 @@
           "date": "2026-08-07",
           "views": 21851031,
           "likes": 225148,
+          "comments": 632
+        },
+        {
+          "date": "2026-08-08",
+          "views": 21857341,
+          "likes": 225184,
           "comments": 632
         }
       ]
@@ -8320,6 +8379,12 @@
           "views": 114307,
           "likes": 1728,
           "comments": 10
+        },
+        {
+          "date": "2026-08-08",
+          "views": 114527,
+          "likes": 1731,
+          "comments": 10
         }
       ]
     },
@@ -8586,6 +8651,12 @@
           "date": "2026-08-07",
           "views": 258311,
           "likes": 6721,
+          "comments": 192
+        },
+        {
+          "date": "2026-08-08",
+          "views": 263175,
+          "likes": 6813,
           "comments": 192
         }
       ]
@@ -9344,6 +9415,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-07T14:45:07.643813+00:00"
+    },
+    {
+      "date": "2026-08-08",
+      "metric": "youtube_total_views",
+      "value": 216461926,
+      "baseline_mean": 214398077.2,
+      "baseline_stddev": 588602.9,
+      "delta": 2063848,
+      "score": 3.51,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数、データ収集停滞によるバズ誤検知",
+      "detected_at": "2026-08-08T14:23:09.386920+00:00"
     }
   ]
 }

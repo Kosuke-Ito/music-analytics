@@ -4913,6 +4913,47 @@
       "ytm_subscribers": 107000,
       "ytm_monthly_listeners": 1320000,
       "ytm_total_views": 93462798
+    },
+    {
+      "date": "2026-08-08",
+      "monthly_listeners": 954045,
+      "collected_at": "2026-08-08T14:25:37.417173+00:00",
+      "spotify_followers": 426848,
+      "youtube_subscribers": 7420000,
+      "youtube_total_views": 6803430301,
+      "youtube_video_count": 315,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 30387
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 25276
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 19064
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 13607
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 10969
+        }
+      ],
+      "lastfm_listeners": 104772,
+      "lastfm_playcount": 1875206,
+      "ytm_subscribers": 107000,
+      "ytm_monthly_listeners": 1360000,
+      "ytm_total_views": 93462798
     }
   ],
   "metadata": {
@@ -4952,11 +4993,6 @@
         "subscribers": "2.55M"
       },
       {
-        "name": "Keina Suda",
-        "browse_id": "UCeHkvVCNEAUvpBtuApZJCrg",
-        "subscribers": "2.61M"
-      },
-      {
         "name": "nulut",
         "browse_id": "UCR3k7CGuSIU9DnzQQpJQl_w",
         "subscribers": "25.1K"
@@ -4974,27 +5010,32 @@
       {
         "name": "EVO+",
         "browse_id": "UC_YgchlOXrff__BizLqvE7w",
-        "subscribers": "271K"
+        "subscribers": "244K"
       },
       {
         "name": "Sasanomaly",
         "browse_id": "UCK8DhDqtYgzSHf-krbesrEw",
-        "subscribers": "218K"
+        "subscribers": "224K"
       },
       {
         "name": "164",
         "browse_id": "UCA6Xr_nxXi5S4P4vxSDsKOg",
-        "subscribers": "401K"
+        "subscribers": "417K"
       },
       {
         "name": "suisoh",
         "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "502K"
+        "subscribers": "526K"
       },
       {
-        "name": "NOMELON NOLEMON",
-        "browse_id": "UC42-y14_2cA9PAaqe-mAHjA",
-        "subscribers": "1.41M"
+        "name": "40mP",
+        "browse_id": "UC53Ak_jwlNoJoJfk5tPm95Q",
+        "subscribers": "1.56M"
+      },
+      {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.5M"
       }
     ],
     "ytm_top_songs": [
@@ -5630,6 +5671,12 @@
           "views": 29665769,
           "likes": 142953,
           "comments": 35
+        },
+        {
+          "date": "2026-08-08",
+          "views": 29674112,
+          "likes": 142985,
+          "comments": 36
         }
       ]
     },
@@ -6289,6 +6336,12 @@
           "views": 15582218,
           "likes": 72920,
           "comments": 19
+        },
+        {
+          "date": "2026-08-08",
+          "views": 15588069,
+          "likes": 72966,
+          "comments": 19
         }
       ]
     },
@@ -6725,6 +6778,12 @@
           "date": "2026-08-07",
           "views": 15143318,
           "likes": 63410,
+          "comments": 28
+        },
+        {
+          "date": "2026-08-08",
+          "views": 15149090,
+          "likes": 63429,
           "comments": 28
         }
       ]
@@ -7378,6 +7437,12 @@
           "date": "2026-08-07",
           "views": 8011804,
           "likes": 39675,
+          "comments": 15
+        },
+        {
+          "date": "2026-08-08",
+          "views": 8014944,
+          "likes": 39691,
           "comments": 15
         }
       ]
@@ -8079,6 +8144,12 @@
           "date": "2026-08-07",
           "views": 1374043,
           "likes": 12728,
+          "comments": 38
+        },
+        {
+          "date": "2026-08-08",
+          "views": 1375125,
+          "likes": 12731,
           "comments": 38
         }
       ]
@@ -9369,6 +9440,18 @@
       "type": "annotated",
       "related_annotation": "YOASOBI北米ツアー「NEVER ENDING STORIES」開幕（ボストンTDガーデン）で高水準のYouTube再生数を維持",
       "detected_at": "2026-08-07T14:47:35.720634+00:00"
+    },
+    {
+      "date": "2026-08-08",
+      "metric": "youtube_total_views",
+      "value": 6803430301,
+      "baseline_mean": 6763093912.1,
+      "baseline_stddev": 18687453.9,
+      "delta": 40336388,
+      "score": 2.16,
+      "type": "annotated",
+      "related_annotation": "北米ツアー開幕直後の反響継続でYouTube総再生数がさらに上昇",
+      "detected_at": "2026-08-08T14:25:38.540725+00:00"
     }
   ]
 }
