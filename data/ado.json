@@ -5127,6 +5127,47 @@
       "ytm_subscribers": 9430000,
       "ytm_monthly_listeners": 35400000,
       "ytm_total_views": 5510804636
+    },
+    {
+      "date": "2026-08-09",
+      "monthly_listeners": 6444357,
+      "collected_at": "2026-08-09T14:31:14.075557+00:00",
+      "spotify_followers": 7881269,
+      "youtube_subscribers": 9440000,
+      "youtube_total_views": 5572715867,
+      "youtube_video_count": 731,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 113780
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 96072
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 84388
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 68696
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 66043
+        }
+      ],
+      "lastfm_listeners": 749368,
+      "lastfm_playcount": 91489360,
+      "ytm_subscribers": 9440000,
+      "ytm_monthly_listeners": 35400000,
+      "ytm_total_views": 5513952536
     }
   ],
   "annotations": [
@@ -5690,32 +5731,22 @@
       {
         "name": "Yoshino",
         "browse_id": "UCtDYAzJUfkkqPRZebOnoc4g",
-        "subscribers": "508K"
+        "subscribers": "494K"
       },
       {
         "name": "KANKAN",
         "browse_id": "UCfJFBnBR1MzZKyZr2MI8ixQ",
-        "subscribers": "303K"
+        "subscribers": "294K"
       },
       {
         "name": "Toaka",
         "browse_id": "UCaBbPiMpdL5z86bWCFgCItA",
-        "subscribers": "264K"
-      },
-      {
-        "name": "jon-YAKITORY",
-        "browse_id": "UCkLsbUdFJW7CFX5ZqcqOKBg",
-        "subscribers": "6.64M"
+        "subscribers": "253K"
       },
       {
         "name": "MAISONdes ",
         "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.5M"
-      },
-      {
-        "name": "Ayase",
-        "browse_id": "UCbqY3RHKkPS8dJCrfAfSk6Q",
-        "subscribers": "1.36M"
+        "subscribers": "3.43M"
       },
       {
         "name": "Roce",
@@ -5723,14 +5754,24 @@
         "subscribers": "1.2M"
       },
       {
-        "name": "Kocchi no Kento",
-        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
-        "subscribers": "58.6M"
-      },
-      {
         "name": "Wanuka",
         "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
-        "subscribers": "1.07M"
+        "subscribers": "1.04M"
+      },
+      {
+        "name": "jon-YAKITORY",
+        "browse_id": "UCkLsbUdFJW7CFX5ZqcqOKBg",
+        "subscribers": "6.42M"
+      },
+      {
+        "name": "Mori Calliope",
+        "browse_id": "UCT6fzkIIQuAQIiJK3tt-keg",
+        "subscribers": "2.19M"
+      },
+      {
+        "name": "Kocchi no Kento",
+        "browse_id": "UCz-E15WySZRwsJlrRHRsItg",
+        "subscribers": "56.9M"
       },
       {
         "name": "TOMONARI SORA",
@@ -6431,6 +6472,12 @@
           "views": 8351120,
           "likes": 169816,
           "comments": 2699
+        },
+        {
+          "date": "2026-08-09",
+          "views": 8377987,
+          "likes": 170107,
+          "comments": 2702
         }
       ]
     },
@@ -7144,6 +7191,12 @@
           "views": 33510957,
           "likes": 219515,
           "comments": 879
+        },
+        {
+          "date": "2026-08-09",
+          "views": 33555474,
+          "likes": 219803,
+          "comments": 883
         }
       ]
     },
@@ -7833,6 +7886,12 @@
           "views": 54047033,
           "likes": 496839,
           "comments": 2169
+        },
+        {
+          "date": "2026-08-09",
+          "views": 54081747,
+          "likes": 497174,
+          "comments": 2170
         }
       ]
     },
@@ -8635,6 +8694,12 @@
           "views": 69708622,
           "likes": 364531,
           "comments": 761
+        },
+        {
+          "date": "2026-08-09",
+          "views": 69743062,
+          "likes": 364690,
+          "comments": 761
         }
       ]
     },
@@ -9190,6 +9255,12 @@
           "views": 98388747,
           "likes": 544557,
           "comments": 1054
+        },
+        {
+          "date": "2026-08-09",
+          "views": 98417623,
+          "likes": 544712,
+          "comments": 1055
         }
       ]
     },
@@ -9865,6 +9936,18 @@
       "type": "annotated",
       "related_annotation": "実写映画『ブルーロック』主題歌「モンストロ」プロモーション本格化",
       "detected_at": "2026-08-08T14:30:02.657956+00:00"
+    },
+    {
+      "date": "2026-08-09",
+      "metric": "youtube_total_views",
+      "value": 5572715867,
+      "baseline_mean": 5523450802.8,
+      "baseline_stddev": 23283711.9,
+      "delta": 49265064,
+      "score": 2.12,
+      "type": "annotated",
+      "related_annotation": "実写映画『ブルーロック』主題歌「モンストロ」プロモーション本格化",
+      "detected_at": "2026-08-09T14:31:15.124688+00:00"
     }
   ]
 }

@@ -4836,6 +4836,47 @@
       "ytm_subscribers": 464000,
       "ytm_monthly_listeners": 5110000,
       "ytm_total_views": 361944508
+    },
+    {
+      "date": "2026-08-09",
+      "monthly_listeners": 1758947,
+      "collected_at": "2026-08-09T14:40:09.594720+00:00",
+      "spotify_followers": 519635,
+      "youtube_subscribers": 464000,
+      "youtube_total_views": 367601531,
+      "youtube_video_count": 150,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 66134
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 46036
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 43162
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 31491
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 21384
+        }
+      ],
+      "lastfm_listeners": 18879,
+      "lastfm_playcount": 1286007,
+      "ytm_subscribers": 464000,
+      "ytm_monthly_listeners": 4990000,
+      "ytm_total_views": 364484346
     }
   ],
   "annotations": [
@@ -5282,29 +5323,29 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "yonige",
-        "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
-        "subscribers": "341K"
-      },
-      {
         "name": "Kinokoteikoku",
         "browse_id": "UClJbEh-JJDXCjtQLQMi_gjA",
         "subscribers": "41.7K"
       },
       {
+        "name": "regallily",
+        "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
+        "subscribers": "291K"
+      },
+      {
         "name": "Chilli Beans.",
         "browse_id": "UCkI4roj4YVHrTh7PftDVxmQ",
-        "subscribers": "310K"
+        "subscribers": "301K"
       },
       {
         "name": "chilldspot",
         "browse_id": "UCpAYVXySypaqfb2JA_papUA",
-        "subscribers": "225K"
+        "subscribers": "219K"
       },
       {
         "name": "Homecomings",
         "browse_id": "UC5YC9saEogyw6Jg9fq_oGzg",
-        "subscribers": "94.2K"
+        "subscribers": "51.9K"
       },
       {
         "name": "Brandy Senki",
@@ -5314,22 +5355,22 @@
       {
         "name": "CodyLee",
         "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "187K"
+        "subscribers": "188K"
       },
       {
         "name": "mol-74",
         "browse_id": "UCEvtm90ugC6XKB74g8ukTKg",
-        "subscribers": "98.1K"
+        "subscribers": "95.7K"
       },
       {
         "name": "CHIAKI SATO",
         "browse_id": "UCgPeNtXtc4sWEJSqQvNJzmQ",
-        "subscribers": "242K"
+        "subscribers": "237K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "109K"
+        "subscribers": "106K"
       }
     ],
     "ytm_top_songs": [
@@ -6055,6 +6096,12 @@
           "views": 20642653,
           "likes": 132180,
           "comments": 388
+        },
+        {
+          "date": "2026-08-09",
+          "views": 20665944,
+          "likes": 132322,
+          "comments": 388
         }
       ]
     },
@@ -6756,6 +6803,12 @@
           "views": 5162570,
           "likes": 34212,
           "comments": 187
+        },
+        {
+          "date": "2026-08-09",
+          "views": 5186066,
+          "likes": 34344,
+          "comments": 188
         }
       ]
     },
@@ -7690,6 +7743,12 @@
           "views": 1549563,
           "likes": 13954,
           "comments": 86
+        },
+        {
+          "date": "2026-08-09",
+          "views": 1551319,
+          "likes": 13964,
+          "comments": 86
         }
       ]
     },
@@ -8391,6 +8450,12 @@
           "views": 2282096,
           "likes": 17633,
           "comments": 125
+        },
+        {
+          "date": "2026-08-09",
+          "views": 2284486,
+          "likes": 17651,
+          "comments": 126
         }
       ]
     },
@@ -8863,6 +8928,12 @@
           "date": "2026-08-08",
           "views": 4205218,
           "likes": 34142,
+          "comments": 274
+        },
+        {
+          "date": "2026-08-09",
+          "views": 4208008,
+          "likes": 34159,
           "comments": 274
         }
       ]
@@ -9487,6 +9558,30 @@
       "type": "annotated",
       "related_annotation": "「SUMMER SONIC 2026」WOWOW配信アーティスト選出発表でSpotify月間リスナーが急増（+25,959人・3.42σ）",
       "detected_at": "2026-08-08T14:39:06.113435+00:00"
+    },
+    {
+      "date": "2026-08-09",
+      "metric": "monthly_listeners",
+      "value": 1758947,
+      "baseline_mean": 1720153.9,
+      "baseline_stddev": 13247.6,
+      "delta": 38793,
+      "score": 2.93,
+      "type": "annotated",
+      "related_annotation": "「じゅじゅフェス 2026 -5th anniversary-」出演発表",
+      "detected_at": "2026-08-09T14:40:11.115549+00:00"
+    },
+    {
+      "date": "2026-08-09",
+      "metric": "youtube_total_views",
+      "value": 367601531,
+      "baseline_mean": 360557031.7,
+      "baseline_stddev": 3273752.2,
+      "delta": 7044499,
+      "score": 2.15,
+      "type": "annotated",
+      "related_annotation": "「じゅじゅフェス 2026 -5th anniversary-」出演発表",
+      "detected_at": "2026-08-09T14:40:11.115549+00:00"
     }
   ]
 }

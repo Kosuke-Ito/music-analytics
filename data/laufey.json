@@ -5127,6 +5127,47 @@
       "ytm_subscribers": 3580000,
       "ytm_monthly_listeners": 86800000,
       "ytm_total_views": 1304802229
+    },
+    {
+      "date": "2026-08-09",
+      "monthly_listeners": 20850899,
+      "collected_at": "2026-08-09T14:35:13.674932+00:00",
+      "spotify_followers": 10795017,
+      "youtube_subscribers": 3590000,
+      "youtube_total_views": 1358870418,
+      "youtube_video_count": 545,
+      "top_cities": [
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 249750
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 225042
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 203899
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 202299
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 194795
+        }
+      ],
+      "lastfm_listeners": 2484013,
+      "lastfm_playcount": 287996140,
+      "ytm_subscribers": 3590000,
+      "ytm_monthly_listeners": 84900000,
+      "ytm_total_views": 1304802229
     }
   ],
   "annotations": [
@@ -5475,12 +5516,22 @@
       {
         "name": "Matthew Ifield",
         "browse_id": "UCXRVU7LwK6cOg-akWVoXjcg",
-        "subscribers": "28M"
+        "subscribers": "28.1M"
+      },
+      {
+        "name": "Clairo",
+        "browse_id": "UChC2OO1dG5Vge1Kuc-1QZRg",
+        "subscribers": "15.6M"
+      },
+      {
+        "name": "Matt Maltese",
+        "browse_id": "UCsEbRHFUuN2065qIWPhLrRQ",
+        "subscribers": "2.61M"
       },
       {
         "name": "Rocco",
         "browse_id": "UCKTYyqZkReYbvRUGYUc19iQ",
-        "subscribers": "312K"
+        "subscribers": "302K"
       },
       {
         "name": "Iceland Symphony Orchestra",
@@ -5488,14 +5539,19 @@
         "subscribers": "2.3K"
       },
       {
+        "name": "Wasia Project",
+        "browse_id": "UCPziehcInXuXsqIsUquQRmA",
+        "subscribers": "477K"
+      },
+      {
         "name": "Eloise",
         "browse_id": "UCe9WIeu02ZEZocoQImPVWkA",
-        "subscribers": "174K"
+        "subscribers": "173K"
       },
       {
         "name": "aron!",
         "browse_id": "UCEyRAg81bPs5-_L1mJ1lihg",
-        "subscribers": "310K"
+        "subscribers": "301K"
       },
       {
         "name": "Cowboy Malfoy",
@@ -5503,24 +5559,9 @@
         "subscribers": "406K"
       },
       {
-        "name": "Ebony Loren",
-        "browse_id": "UCzKhnByfD9-nScA1CNg_EMA",
-        "subscribers": "330K"
-      },
-      {
-        "name": "Clairo",
-        "browse_id": "UChC2OO1dG5Vge1Kuc-1QZRg",
-        "subscribers": "16.2M"
-      },
-      {
-        "name": "Wasia Project",
-        "browse_id": "UCPziehcInXuXsqIsUquQRmA",
-        "subscribers": "474K"
-      },
-      {
         "name": "Lyn Lapid",
         "browse_id": "UCtgtcek5bHP9qhiPvXLS0qw",
-        "subscribers": "2.58M"
+        "subscribers": "2.49M"
       }
     ],
     "ytm_top_songs": [
@@ -6258,6 +6299,12 @@
           "views": 86168612,
           "likes": 1247186,
           "comments": 8910
+        },
+        {
+          "date": "2026-08-09",
+          "views": 86298093,
+          "likes": 1248837,
+          "comments": 8922
         }
       ]
     },
@@ -6971,6 +7018,12 @@
           "views": 20797210,
           "likes": 298961,
           "comments": 1359
+        },
+        {
+          "date": "2026-08-09",
+          "views": 20859559,
+          "likes": 299821,
+          "comments": 1360
         }
       ]
     },
@@ -7684,6 +7737,12 @@
           "views": 24775607,
           "likes": 274700,
           "comments": 820
+        },
+        {
+          "date": "2026-08-09",
+          "views": 24807747,
+          "likes": 274999,
+          "comments": 820
         }
       ]
     },
@@ -8331,6 +8390,12 @@
           "views": 49604730,
           "likes": 532022,
           "comments": 1680
+        },
+        {
+          "date": "2026-08-09",
+          "views": 49644771,
+          "likes": 532372,
+          "comments": 1682
         }
       ]
     },
@@ -8396,6 +8461,12 @@
           "views": 30888055,
           "likes": 445256,
           "comments": 1502
+        },
+        {
+          "date": "2026-08-09",
+          "views": 30915027,
+          "likes": 445614,
+          "comments": 1505
         }
       ]
     },
@@ -9568,6 +9639,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-08T14:34:08.642762+00:00"
+    },
+    {
+      "date": "2026-08-09",
+      "metric": "youtube_total_views",
+      "value": 1358870418,
+      "baseline_mean": 1333606731.2,
+      "baseline_stddev": 11141258.5,
+      "delta": 25263686,
+      "score": 2.27,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-09T14:35:14.653101+00:00"
     }
   ]
 }

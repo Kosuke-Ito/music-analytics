@@ -4763,6 +4763,47 @@
       "ytm_subscribers": 38300,
       "ytm_monthly_listeners": 63000,
       "ytm_total_views": 8429604
+    },
+    {
+      "date": "2026-08-09",
+      "monthly_listeners": 46698,
+      "collected_at": "2026-08-09T14:42:18.948778+00:00",
+      "spotify_followers": 52245,
+      "youtube_subscribers": 38300,
+      "youtube_total_views": 8671418,
+      "youtube_video_count": 80,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3120
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1257
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 796
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 715
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 659
+        }
+      ],
+      "lastfm_listeners": 24269,
+      "lastfm_playcount": 407804,
+      "ytm_subscribers": 38300,
+      "ytm_monthly_listeners": 64099,
+      "ytm_total_views": 8429604
     }
   ],
   "metadata": {
@@ -4799,7 +4840,7 @@
       {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
-        "subscribers": "114K"
+        "subscribers": "109K"
       },
       {
         "name": "80KIDZ",
@@ -4814,32 +4855,32 @@
       {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
-        "subscribers": "142K"
+        "subscribers": "138K"
       },
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "210K"
+        "subscribers": "204K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "94K"
+        "subscribers": "90.9K"
       },
       {
         "name": "Ako",
         "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "125K"
+        "subscribers": "120K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "109K"
+        "subscribers": "106K"
       },
       {
         "name": "Shinichi Osawa",
         "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
-        "subscribers": "227K"
+        "subscribers": "220K"
       },
       {
         "name": "Dirty Androids",
@@ -5558,6 +5599,12 @@
           "views": 147864,
           "likes": 2801,
           "comments": 25
+        },
+        {
+          "date": "2026-08-09",
+          "views": 148173,
+          "likes": 2803,
+          "comments": 25
         }
       ]
     },
@@ -6246,6 +6293,12 @@
           "date": "2026-08-08",
           "views": 603657,
           "likes": 5518,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-09",
+          "views": 603986,
+          "likes": 5521,
           "comments": 18
         }
       ]
@@ -6936,6 +6989,12 @@
           "views": 335087,
           "likes": 3566,
           "comments": 7
+        },
+        {
+          "date": "2026-08-09",
+          "views": 335296,
+          "likes": 3568,
+          "comments": 7
         }
       ]
     },
@@ -7623,6 +7682,12 @@
         {
           "date": "2026-08-08",
           "views": 59102,
+          "likes": 192,
+          "comments": 1
+        },
+        {
+          "date": "2026-08-09",
+          "views": 59228,
           "likes": 192,
           "comments": 1
         }
@@ -8313,6 +8378,12 @@
           "date": "2026-08-08",
           "views": 131084,
           "likes": 1633,
+          "comments": 15
+        },
+        {
+          "date": "2026-08-09",
+          "views": 131189,
+          "likes": 1634,
           "comments": 15
         }
       ]
@@ -9189,6 +9260,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-08-08T14:41:20.231582+00:00"
+    },
+    {
+      "date": "2026-08-09",
+      "metric": "monthly_listeners",
+      "value": 46698,
+      "baseline_mean": 44729.8,
+      "baseline_stddev": 534.5,
+      "delta": 1968,
+      "score": 3.68,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-09T14:42:20.346528+00:00"
     }
   ]
 }

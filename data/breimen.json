@@ -4950,6 +4950,47 @@
       "ytm_subscribers": 29300,
       "ytm_monthly_listeners": 92800,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-09",
+      "monthly_listeners": 55622,
+      "collected_at": "2026-08-09T14:26:02.333915+00:00",
+      "spotify_followers": 36440,
+      "youtube_subscribers": 29300,
+      "youtube_total_views": 15515677,
+      "youtube_video_count": 186,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2109
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1300
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 937
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 680
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 428
+        }
+      ],
+      "lastfm_listeners": 19974,
+      "lastfm_playcount": 219724,
+      "ytm_subscribers": 29300,
+      "ytm_monthly_listeners": 92800,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4963,16 +5004,16 @@
         "url": "https://www.last.fm/music/the+band+apart"
       },
       {
-        "name": "Yogee New Waves",
-        "url": "https://www.last.fm/music/Yogee+New+Waves"
+        "name": "OKAMOTO'S",
+        "url": "https://www.last.fm/music/OKAMOTO%27S"
       },
       {
         "name": "藤井 風",
         "url": "https://www.last.fm/music/%E8%97%A4%E4%BA%95+%E9%A2%A8"
       },
       {
-        "name": "OKAMOTO'S",
-        "url": "https://www.last.fm/music/OKAMOTO%27S"
+        "name": "Yogee New Waves",
+        "url": "https://www.last.fm/music/Yogee+New+Waves"
       }
     ],
     "lastfm_tags": [
@@ -4985,7 +5026,7 @@
       {
         "name": "Mega Shinnosuke",
         "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
-        "subscribers": "5.75M"
+        "subscribers": "5.53M"
       },
       {
         "name": "MHRJ",
@@ -4995,22 +5036,22 @@
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "109K"
+        "subscribers": "106K"
       },
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "76.5K"
+        "subscribers": "73.2K"
       },
       {
         "name": "Okamoto's",
         "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
-        "subscribers": "212K"
+        "subscribers": "205K"
       },
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "72.6K"
+        "subscribers": "74.6K"
       },
       {
         "name": "SHINTOKYO",
@@ -5025,12 +5066,12 @@
       {
         "name": "7th Vega",
         "browse_id": "UC_W5BfNNzkxWj911JSDAu9g",
-        "subscribers": "121K"
+        "subscribers": "118K"
       },
       {
         "name": "Kayoko Yoshizawa",
         "browse_id": "UCbyPRq7zMUVjKiY2teAETNg",
-        "subscribers": "246K"
+        "subscribers": "248K"
       }
     ],
     "ytm_top_songs": [
@@ -5767,6 +5808,12 @@
           "views": 17050,
           "likes": 154,
           "comments": 3
+        },
+        {
+          "date": "2026-08-09",
+          "views": 17073,
+          "likes": 154,
+          "comments": 3
         }
       ]
     },
@@ -6479,6 +6526,12 @@
           "date": "2026-08-08",
           "views": 50099,
           "likes": 410,
+          "comments": 9
+        },
+        {
+          "date": "2026-08-09",
+          "views": 50225,
+          "likes": 409,
           "comments": 9
         }
       ]
@@ -7193,6 +7246,12 @@
           "views": 216100,
           "likes": 2574,
           "comments": 37
+        },
+        {
+          "date": "2026-08-09",
+          "views": 216383,
+          "likes": 2575,
+          "comments": 37
         }
       ]
     },
@@ -7886,6 +7945,12 @@
         {
           "date": "2026-08-08",
           "views": 3789,
+          "likes": 57,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-09",
+          "views": 3792,
           "likes": 57,
           "comments": 5
         }
@@ -8634,6 +8699,12 @@
           "views": 2148,
           "likes": 24,
           "comments": 1
+        },
+        {
+          "date": "2026-08-09",
+          "views": 2158,
+          "likes": 24,
+          "comments": 1
         }
       ]
     }
@@ -9215,6 +9286,18 @@
       "type": "annotated",
       "related_annotation": "YTM月間リスナー数2日連続同値、データ収集停滞の疑い",
       "detected_at": "2026-08-08T14:24:32.543098+00:00"
+    },
+    {
+      "date": "2026-08-09",
+      "metric": "ytm_monthly_listeners",
+      "value": 92800,
+      "baseline_mean": 77066.7,
+      "baseline_stddev": 4272.3,
+      "delta": 15733,
+      "score": 3.68,
+      "type": "annotated",
+      "related_annotation": "YTM月間リスナー数2日連続同値、データ収集停滞の疑い",
+      "detected_at": "2026-08-09T14:26:03.514300+00:00"
     }
   ]
 }
