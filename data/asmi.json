@@ -4954,6 +4954,47 @@
       "ytm_subscribers": 167000,
       "ytm_monthly_listeners": 3290000,
       "ytm_total_views": 77542652
+    },
+    {
+      "date": "2026-08-10",
+      "monthly_listeners": 217867,
+      "collected_at": "2026-08-10T14:54:41.354375+00:00",
+      "spotify_followers": 113980,
+      "youtube_subscribers": 167000,
+      "youtube_total_views": 78230918,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6921
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 5826
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4205
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 2815
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2502
+        }
+      ],
+      "lastfm_listeners": 35634,
+      "lastfm_playcount": 535926,
+      "ytm_subscribers": 167000,
+      "ytm_monthly_listeners": 3340000,
+      "ytm_total_views": 77542652
     }
   ],
   "metadata": {
@@ -4988,6 +5029,16 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "UshioReira",
+        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
+        "subscribers": "735K"
+      },
+      {
+        "name": "703goushitsu",
+        "browse_id": "UCb-IpTqX5VlD4l4gp8yLWpw",
+        "subscribers": "1.33M"
+      },
+      {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
         "subscribers": "98.4K"
@@ -5005,7 +5056,7 @@
       {
         "name": "Anna",
         "browse_id": "UCZgFCYyMNjZBYtvZxNEqaKA",
-        "subscribers": "122K"
+        "subscribers": "117K"
       },
       {
         "name": "Sano ibuki",
@@ -5015,33 +5066,23 @@
       {
         "name": "Ami Sakaguchi",
         "browse_id": "UCtf9vzH5ZH02kBzOVL3XmYQ",
-        "subscribers": "151K"
+        "subscribers": "152K"
       },
       {
         "name": "Haru Igarashi",
         "browse_id": "UCdnkel5QOLJTPkCd2TfYfqw",
-        "subscribers": "67.7K"
+        "subscribers": "67K"
       },
       {
         "name": "seiza",
         "browse_id": "UCnajqzr-QM2_sIomAdFfsPA",
         "subscribers": "100K"
-      },
-      {
-        "name": "ちゃんゆ胃",
-        "browse_id": "UCAuKcguClAcMgUvnh2n5XYw",
-        "subscribers": "112K"
-      },
-      {
-        "name": "ayaho",
-        "browse_id": "UCBq3HNB-IwKzDFhSFboMBLw",
-        "subscribers": "31.5K"
       }
     ],
     "ytm_top_songs": [
       {
-        "title": "ドキメキダイアリー - Dokimeki Diary (feat. Chinozo)",
-        "video_id": "XEn8c4G6JXk"
+        "title": "ドキメキダイアリー (Anime Size) - Dokimeki Diary (Anime Size) (feat. Chinozo)",
+        "video_id": "DhNilbNkGDk"
       },
       {
         "title": "PAKU",
@@ -6486,6 +6527,12 @@
           "views": 886185,
           "likes": 8530,
           "comments": 43
+        },
+        {
+          "date": "2026-08-10",
+          "views": 886830,
+          "likes": 8532,
+          "comments": 43
         }
       ]
     },
@@ -7199,6 +7246,12 @@
           "views": 429591,
           "likes": 3936,
           "comments": 47
+        },
+        {
+          "date": "2026-08-10",
+          "views": 430015,
+          "likes": 3937,
+          "comments": 47
         }
       ]
     },
@@ -7683,6 +7736,12 @@
           "date": "2026-08-09",
           "views": 1106106,
           "likes": 11650,
+          "comments": 139
+        },
+        {
+          "date": "2026-08-10",
+          "views": 1106685,
+          "likes": 11656,
           "comments": 139
         }
       ]
@@ -8402,6 +8461,12 @@
           "views": 57910,
           "likes": 711,
           "comments": 14
+        },
+        {
+          "date": "2026-08-10",
+          "views": 58063,
+          "likes": 714,
+          "comments": 14
         }
       ]
     },
@@ -8640,6 +8705,17 @@
           "views": 13190,
           "likes": 213,
           "comments": 6
+        }
+      ]
+    },
+    "DhNilbNkGDk": {
+      "title": "ドキメキダイアリー (Anime Size) - Dokimeki Diary (Anime Size) (feat. Chinozo)",
+      "history": [
+        {
+          "date": "2026-08-10",
+          "views": 70752,
+          "likes": 799,
+          "comments": 15
         }
       ]
     }
@@ -9336,6 +9412,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-09T14:28:54.672299+00:00"
+    },
+    {
+      "date": "2026-08-10",
+      "metric": "youtube_total_views",
+      "value": 78230918,
+      "baseline_mean": 77597791.1,
+      "baseline_stddev": 156510.5,
+      "delta": 633126,
+      "score": 4.05,
+      "type": "annotated",
+      "related_annotation": "新曲「アプデキュート」CANMAKEタイアップ効果か",
+      "detected_at": "2026-08-10T14:54:42.492866+00:00"
     }
   ]
 }

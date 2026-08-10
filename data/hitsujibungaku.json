@@ -4877,6 +4877,47 @@
       "ytm_subscribers": 464000,
       "ytm_monthly_listeners": 4990000,
       "ytm_total_views": 364484346
+    },
+    {
+      "date": "2026-08-10",
+      "monthly_listeners": 1765139,
+      "collected_at": "2026-08-10T15:06:22.258353+00:00",
+      "spotify_followers": 519934,
+      "youtube_subscribers": 464000,
+      "youtube_total_views": 367601531,
+      "youtube_video_count": 150,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 66233
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 46219
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 43627
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 31651
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 21494
+        }
+      ],
+      "lastfm_listeners": 18879,
+      "lastfm_playcount": 1286007,
+      "ytm_subscribers": 464000,
+      "ytm_monthly_listeners": 4990000,
+      "ytm_total_views": 364484346
     }
   ],
   "annotations": [
@@ -5333,44 +5374,44 @@
         "subscribers": "291K"
       },
       {
+        "name": "yonige",
+        "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
+        "subscribers": "339K"
+      },
+      {
+        "name": "Galileo Galilei",
+        "browse_id": "UCuRm3UyWIIiPmIbRYK4fuLw",
+        "subscribers": "753K"
+      },
+      {
         "name": "Chilli Beans.",
         "browse_id": "UCkI4roj4YVHrTh7PftDVxmQ",
-        "subscribers": "301K"
+        "subscribers": "299K"
       },
       {
         "name": "chilldspot",
         "browse_id": "UCpAYVXySypaqfb2JA_papUA",
-        "subscribers": "219K"
+        "subscribers": "222K"
       },
       {
         "name": "Homecomings",
         "browse_id": "UC5YC9saEogyw6Jg9fq_oGzg",
-        "subscribers": "51.9K"
+        "subscribers": "50.3K"
       },
       {
         "name": "Brandy Senki",
         "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
-        "subscribers": "150K"
+        "subscribers": "146K"
       },
       {
         "name": "CodyLee",
         "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "188K"
+        "subscribers": "186K"
       },
       {
         "name": "mol-74",
         "browse_id": "UCEvtm90ugC6XKB74g8ukTKg",
-        "subscribers": "95.7K"
-      },
-      {
-        "name": "CHIAKI SATO",
-        "browse_id": "UCgPeNtXtc4sWEJSqQvNJzmQ",
-        "subscribers": "237K"
-      },
-      {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "106K"
+        "subscribers": "97K"
       }
     ],
     "ytm_top_songs": [
@@ -6102,6 +6143,12 @@
           "views": 20665944,
           "likes": 132322,
           "comments": 388
+        },
+        {
+          "date": "2026-08-10",
+          "views": 20693622,
+          "likes": 132469,
+          "comments": 389
         }
       ]
     },
@@ -6808,6 +6855,12 @@
           "date": "2026-08-09",
           "views": 5186066,
           "likes": 34344,
+          "comments": 188
+        },
+        {
+          "date": "2026-08-10",
+          "views": 5210269,
+          "likes": 34463,
           "comments": 188
         }
       ]
@@ -7749,6 +7802,12 @@
           "views": 1551319,
           "likes": 13964,
           "comments": 86
+        },
+        {
+          "date": "2026-08-10",
+          "views": 1553508,
+          "likes": 13983,
+          "comments": 86
         }
       ]
     },
@@ -8456,6 +8515,12 @@
           "views": 2284486,
           "likes": 17651,
           "comments": 126
+        },
+        {
+          "date": "2026-08-10",
+          "views": 2287411,
+          "likes": 17668,
+          "comments": 126
         }
       ]
     },
@@ -8934,6 +8999,12 @@
           "date": "2026-08-09",
           "views": 4208008,
           "likes": 34159,
+          "comments": 274
+        },
+        {
+          "date": "2026-08-10",
+          "views": 4211276,
+          "likes": 34181,
           "comments": 274
         }
       ]
@@ -9582,6 +9653,18 @@
       "type": "annotated",
       "related_annotation": "「じゅじゅフェス 2026 -5th anniversary-」出演発表",
       "detected_at": "2026-08-09T14:40:11.115549+00:00"
+    },
+    {
+      "date": "2026-08-10",
+      "metric": "monthly_listeners",
+      "value": 1765139,
+      "baseline_mean": 1721612.1,
+      "baseline_stddev": 14923.8,
+      "delta": 43526,
+      "score": 2.92,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-10T15:06:23.544051+00:00"
     }
   ]
 }

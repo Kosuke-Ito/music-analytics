@@ -4958,6 +4958,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-10",
+      "monthly_listeners": 28748,
+      "collected_at": "2026-08-10T14:58:33.332694+00:00",
+      "spotify_followers": 29400,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1474714,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1592
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 793
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 592
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 507
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 381
+        }
+      ],
+      "lastfm_listeners": 5794,
+      "lastfm_playcount": 42841,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5173,17 +5214,17 @@
       {
         "name": "Salasa",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "124K"
+        "subscribers": "126K"
       },
       {
         "name": "Ovall",
         "browse_id": "UCuA82nnWojpMgjBqCnbQDmQ",
-        "subscribers": "412K"
+        "subscribers": "413K"
       },
       {
         "name": "Kan Sano",
         "browse_id": "UC05tnYJ3St7yd3f6lfKdzcg",
-        "subscribers": "125K"
+        "subscribers": "120K"
       },
       {
         "name": "Geloomy",
@@ -5193,7 +5234,7 @@
       {
         "name": "reina",
         "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
-        "subscribers": "3.43K"
+        "subscribers": "3.44K"
       },
       {
         "name": "Michael Kaneko",
@@ -5203,17 +5244,17 @@
       {
         "name": "Nao Yoshioka",
         "browse_id": "UCs93X0FfTpRlxAMnmO94Kcw",
-        "subscribers": "115K"
+        "subscribers": "112K"
       },
       {
         "name": "Sweet William",
         "browse_id": "UCLloo-Tk9tYFMVYaKB8pasg",
-        "subscribers": "544K"
+        "subscribers": "529K"
       },
       {
         "name": "luvis",
         "browse_id": "UCpuCbW_679iOcxPRkqNIO3w",
-        "subscribers": "7.88K"
+        "subscribers": "7.89K"
       }
     ],
     "ytm_top_songs": [
@@ -5943,6 +5984,12 @@
           "date": "2026-08-09",
           "views": 220879,
           "likes": 2830,
+          "comments": 8
+        },
+        {
+          "date": "2026-08-10",
+          "views": 221033,
+          "likes": 2831,
           "comments": 8
         }
       ]
@@ -7098,6 +7145,12 @@
           "views": 45131,
           "likes": 382,
           "comments": 2
+        },
+        {
+          "date": "2026-08-10",
+          "views": 45176,
+          "likes": 382,
+          "comments": 2
         }
       ]
     },
@@ -7828,6 +7881,12 @@
           "views": 109900,
           "likes": 1316,
           "comments": 6
+        },
+        {
+          "date": "2026-08-10",
+          "views": 110171,
+          "likes": 1322,
+          "comments": 6
         }
       ]
     },
@@ -8419,6 +8478,12 @@
           "views": 47506,
           "likes": 481,
           "comments": 7
+        },
+        {
+          "date": "2026-08-10",
+          "views": 47551,
+          "likes": 481,
+          "comments": 7
         }
       ]
     },
@@ -8832,6 +8897,12 @@
           "views": 59728,
           "likes": 709,
           "comments": 0
+        },
+        {
+          "date": "2026-08-10",
+          "views": 59777,
+          "likes": 709,
+          "comments": 0
         }
       ]
     },
@@ -9091,6 +9162,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-31T16:03:04.674536+00:00"
+    },
+    {
+      "date": "2026-08-10",
+      "metric": "youtube_total_views",
+      "value": 1474714,
+      "baseline_mean": 1445804.6,
+      "baseline_stddev": 12077.2,
+      "delta": 28909,
+      "score": 2.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-10T14:58:34.502609+00:00"
     }
   ]
 }

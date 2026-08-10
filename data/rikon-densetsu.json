@@ -4993,6 +4993,47 @@
       "ytm_subscribers": 104000,
       "ytm_monthly_listeners": 979000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-10",
+      "monthly_listeners": 516176,
+      "collected_at": "2026-08-10T14:51:53.615794+00:00",
+      "spotify_followers": 125454,
+      "youtube_subscribers": 104000,
+      "youtube_total_views": 51610131,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 26094
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 20277
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 14428
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 8721
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 6764
+        }
+      ],
+      "lastfm_listeners": 10304,
+      "lastfm_playcount": 169373,
+      "ytm_subscribers": 104000,
+      "ytm_monthly_listeners": 979000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5025,19 +5066,24 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "星野源 Gen Hoshino",
+        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
+        "subscribers": "8.3M"
+      },
+      {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "73.2K"
+        "subscribers": "72.1K"
       },
       {
         "name": "First Love is Never Returned",
         "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "75.9K"
+        "subscribers": "76.1K"
       },
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "92.8K"
+        "subscribers": "90.6K"
       },
       {
         "name": "YONA YONA WEEKENDERS",
@@ -5047,12 +5093,12 @@
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "106K"
+        "subscribers": "105K"
       },
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "74.6K"
+        "subscribers": "71.8K"
       },
       {
         "name": "Akira Nise",
@@ -5067,12 +5113,7 @@
       {
         "name": "Genie High",
         "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "495K"
-      },
-      {
-        "name": "Nulbarich",
-        "browse_id": "UC9Mr_qx2dUoki2z4VujRImw",
-        "subscribers": "190K"
+        "subscribers": "484K"
       }
     ],
     "ytm_top_songs": [
@@ -5809,6 +5850,12 @@
           "views": 56389,
           "likes": 494,
           "comments": 6
+        },
+        {
+          "date": "2026-08-10",
+          "views": 56566,
+          "likes": 494,
+          "comments": 6
         }
       ]
     },
@@ -6520,6 +6567,12 @@
         {
           "date": "2026-08-09",
           "views": 46106,
+          "likes": 448,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-10",
+          "views": 46205,
           "likes": 448,
           "comments": 4
         }
@@ -7234,6 +7287,12 @@
           "date": "2026-08-09",
           "views": 242405,
           "likes": 2119,
+          "comments": 12
+        },
+        {
+          "date": "2026-08-10",
+          "views": 242733,
+          "likes": 2120,
           "comments": 12
         }
       ]
@@ -8517,6 +8576,12 @@
           "views": 92555,
           "likes": 843,
           "comments": 8
+        },
+        {
+          "date": "2026-08-10",
+          "views": 92739,
+          "likes": 845,
+          "comments": 8
         }
       ]
     },
@@ -8686,6 +8751,12 @@
           "date": "2026-08-09",
           "views": 24190,
           "likes": 223,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-10",
+          "views": 24481,
+          "likes": 224,
           "comments": 5
         }
       ]
@@ -9499,6 +9570,18 @@
       "type": "annotated",
       "related_annotation": "テレビ朝日系ドラマ『大空港～GATE24～』第3話放送、視聴率9.1%で好調キープ",
       "detected_at": "2026-08-09T14:26:18.875880+00:00"
+    },
+    {
+      "date": "2026-08-10",
+      "metric": "monthly_listeners",
+      "value": 516176,
+      "baseline_mean": 439588.3,
+      "baseline_stddev": 28903.2,
+      "delta": 76587,
+      "score": 2.65,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-10T14:51:54.883042+00:00"
     }
   ]
 }

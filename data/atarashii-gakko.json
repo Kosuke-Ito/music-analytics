@@ -4880,6 +4880,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 4870000,
       "ytm_total_views": 585799306
+    },
+    {
+      "date": "2026-08-10",
+      "monthly_listeners": 890625,
+      "collected_at": "2026-08-10T15:06:38.199431+00:00",
+      "spotify_followers": 982931,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 609647777,
+      "youtube_video_count": 436,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 21412
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13683
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12365
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 11205
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8172
+        }
+      ],
+      "lastfm_listeners": 8938,
+      "lastfm_playcount": 412261,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 5000000,
+      "ytm_total_views": 585799306
     }
   ],
   "metadata": {
@@ -5699,6 +5740,12 @@
           "views": 19622545,
           "likes": 279451,
           "comments": 430
+        },
+        {
+          "date": "2026-08-10",
+          "views": 19631546,
+          "likes": 279539,
+          "comments": 430
         }
       ]
     },
@@ -6412,6 +6459,12 @@
           "views": 5470967,
           "likes": 32220,
           "comments": 134
+        },
+        {
+          "date": "2026-08-10",
+          "views": 5473071,
+          "likes": 32235,
+          "comments": 134
         }
       ]
     },
@@ -7124,6 +7177,12 @@
           "date": "2026-08-09",
           "views": 2263334,
           "likes": 37470,
+          "comments": 113
+        },
+        {
+          "date": "2026-08-10",
+          "views": 2265990,
+          "likes": 37503,
           "comments": 113
         }
       ]
@@ -8450,6 +8509,12 @@
           "views": 297368,
           "likes": 8591,
           "comments": 221
+        },
+        {
+          "date": "2026-08-10",
+          "views": 298593,
+          "likes": 8611,
+          "comments": 221
         }
       ]
     },
@@ -8580,6 +8645,12 @@
           "date": "2026-08-09",
           "views": 66039,
           "likes": 3229,
+          "comments": 119
+        },
+        {
+          "date": "2026-08-10",
+          "views": 67105,
+          "likes": 3252,
           "comments": 119
         }
       ]
@@ -9560,6 +9631,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-09T14:40:26.809665+00:00"
+    },
+    {
+      "date": "2026-08-10",
+      "metric": "ytm_monthly_listeners",
+      "value": 5000000,
+      "baseline_mean": 3909333.3,
+      "baseline_stddev": 372468.6,
+      "delta": 1090666,
+      "score": 2.93,
+      "type": "annotated",
+      "related_annotation": "新アルバムリリース＋大型ツアー同時展開でYTM急増",
+      "detected_at": "2026-08-10T15:06:39.839411+00:00"
     }
   ]
 }

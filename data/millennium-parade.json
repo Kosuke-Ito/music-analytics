@@ -5014,6 +5014,47 @@
       "ytm_subscribers": 466000,
       "ytm_monthly_listeners": 1150000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-10",
+      "monthly_listeners": 932570,
+      "collected_at": "2026-08-10T14:50:14.884400+00:00",
+      "spotify_followers": 233799,
+      "youtube_subscribers": 466000,
+      "youtube_total_views": 216461926,
+      "youtube_video_count": 48,
+      "top_cities": [
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 10608
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 9616
+        },
+        {
+          "city": "Melbourne",
+          "country": "AU",
+          "listeners": 9406
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 9321
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 9033
+        }
+      ],
+      "lastfm_listeners": 162722,
+      "lastfm_playcount": 2334850,
+      "ytm_subscribers": 466000,
+      "ytm_monthly_listeners": 1130000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5050,7 +5091,12 @@
       {
         "name": "DAOKO",
         "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
-        "subscribers": "8.38M"
+        "subscribers": "8.21M"
+      },
+      {
+        "name": "gesunokiwami otome",
+        "browse_id": "UCC49CEw6fitW1bUIT9NjvSA",
+        "subscribers": "1.14M"
       },
       {
         "name": "ꉈꀧ꒒꒒ꁄꍈꍈꀧ꒦ꉈ ꉣꅔꎡꅔꁕꁄ",
@@ -5060,7 +5106,7 @@
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "94K"
+        "subscribers": "90.9K"
       },
       {
         "name": "boku no lyric no bouyomi",
@@ -5075,27 +5121,22 @@
       {
         "name": "illion",
         "browse_id": "UC9vbsrHnodkYC4hdfJN3mAg",
-        "subscribers": "684K"
+        "subscribers": "679K"
       },
       {
         "name": "Ako",
         "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "120K"
+        "subscribers": "121K"
       },
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "92.8K"
+        "subscribers": "90.6K"
       },
       {
         "name": "Tempalay",
         "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
         "subscribers": "122K"
-      },
-      {
-        "name": "Yaffle",
-        "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "164K"
       }
     ],
     "ytm_top_songs": [
@@ -5838,6 +5879,12 @@
           "views": 8036302,
           "likes": 73575,
           "comments": 267
+        },
+        {
+          "date": "2026-08-10",
+          "views": 8044694,
+          "likes": 73642,
+          "comments": 267
         }
       ]
     },
@@ -6557,6 +6604,12 @@
           "views": 2141135,
           "likes": 26288,
           "comments": 49
+        },
+        {
+          "date": "2026-08-10",
+          "views": 2143607,
+          "likes": 26319,
+          "comments": 49
         }
       ]
     },
@@ -7275,6 +7328,12 @@
           "date": "2026-08-09",
           "views": 21863539,
           "likes": 225233,
+          "comments": 632
+        },
+        {
+          "date": "2026-08-10",
+          "views": 21870456,
+          "likes": 225261,
           "comments": 632
         }
       ]
@@ -8450,6 +8509,12 @@
           "views": 114775,
           "likes": 1734,
           "comments": 10
+        },
+        {
+          "date": "2026-08-10",
+          "views": 115057,
+          "likes": 1741,
+          "comments": 10
         }
       ]
     },
@@ -8729,6 +8794,12 @@
           "views": 267756,
           "likes": 6894,
           "comments": 194
+        },
+        {
+          "date": "2026-08-10",
+          "views": 272765,
+          "likes": 6983,
+          "comments": 196
         }
       ]
     }
@@ -9510,6 +9581,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数、データ収集停滞によるバズ誤検知",
       "detected_at": "2026-08-09T14:24:40.907241+00:00"
+    },
+    {
+      "date": "2026-08-10",
+      "metric": "youtube_total_views",
+      "value": 216461926,
+      "baseline_mean": 214580962.9,
+      "baseline_stddev": 737774.4,
+      "delta": 1880963,
+      "score": 2.55,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数、データ収集停滞によるバズ誤検知（継続）",
+      "detected_at": "2026-08-10T14:50:16.634179+00:00"
     }
   ]
 }

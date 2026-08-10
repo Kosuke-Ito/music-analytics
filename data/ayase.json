@@ -4995,6 +4995,47 @@
       "ytm_subscribers": 107000,
       "ytm_monthly_listeners": 1320000,
       "ytm_total_views": 93462798
+    },
+    {
+      "date": "2026-08-10",
+      "monthly_listeners": 957101,
+      "collected_at": "2026-08-10T14:52:44.359012+00:00",
+      "spotify_followers": 427143,
+      "youtube_subscribers": 7420000,
+      "youtube_total_views": 6810635523,
+      "youtube_video_count": 316,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 30163
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 25306
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 19148
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 13913
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 10997
+        }
+      ],
+      "lastfm_listeners": 104796,
+      "lastfm_playcount": 1875664,
+      "ytm_subscribers": 107000,
+      "ytm_monthly_listeners": 1330000,
+      "ytm_total_views": 93462798
     }
   ],
   "metadata": {
@@ -5031,12 +5072,27 @@
       {
         "name": "Three",
         "browse_id": "UCekuD5lZYEm4XUto7ggbVSg",
-        "subscribers": "2.45M"
+        "subscribers": "2.42M"
       },
       {
-        "name": "NANAOAKARI",
-        "browse_id": "UC160OjZevHTl0K8vk_g1vZQ",
-        "subscribers": "4.31M"
+        "name": "Mikito-P",
+        "browse_id": "UCq6ENGh23SO0wWD67eRTGUw",
+        "subscribers": "3.39M"
+      },
+      {
+        "name": "Keina Suda",
+        "browse_id": "UCeHkvVCNEAUvpBtuApZJCrg",
+        "subscribers": "2.61M"
+      },
+      {
+        "name": "suisoh",
+        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
+        "subscribers": "512K"
+      },
+      {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.43M"
       },
       {
         "name": "nulut",
@@ -5056,27 +5112,12 @@
       {
         "name": "EVO+",
         "browse_id": "UC_YgchlOXrff__BizLqvE7w",
-        "subscribers": "235K"
+        "subscribers": "234K"
       },
       {
         "name": "Sasanomaly",
         "browse_id": "UCK8DhDqtYgzSHf-krbesrEw",
         "subscribers": "217K"
-      },
-      {
-        "name": "164",
-        "browse_id": "UCA6Xr_nxXi5S4P4vxSDsKOg",
-        "subscribers": "404K"
-      },
-      {
-        "name": "40mP",
-        "browse_id": "UC53Ak_jwlNoJoJfk5tPm95Q",
-        "subscribers": "1.52M"
-      },
-      {
-        "name": "suisoh",
-        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "512K"
       }
     ],
     "ytm_top_songs": [
@@ -5723,6 +5764,12 @@
           "date": "2026-08-09",
           "views": 29681605,
           "likes": 143020,
+          "comments": 36
+        },
+        {
+          "date": "2026-08-10",
+          "views": 29690486,
+          "likes": 143066,
           "comments": 36
         }
       ]
@@ -6395,6 +6442,12 @@
           "views": 15593498,
           "likes": 72995,
           "comments": 19
+        },
+        {
+          "date": "2026-08-10",
+          "views": 15599427,
+          "likes": 73032,
+          "comments": 19
         }
       ]
     },
@@ -6843,6 +6896,12 @@
           "date": "2026-08-09",
           "views": 15154528,
           "likes": 63457,
+          "comments": 28
+        },
+        {
+          "date": "2026-08-10",
+          "views": 15160688,
+          "likes": 63494,
           "comments": 28
         }
       ]
@@ -7508,6 +7567,12 @@
           "date": "2026-08-09",
           "views": 8017906,
           "likes": 39707,
+          "comments": 15
+        },
+        {
+          "date": "2026-08-10",
+          "views": 8021352,
+          "likes": 39718,
           "comments": 15
         }
       ]
@@ -8221,6 +8286,12 @@
           "date": "2026-08-09",
           "views": 1376070,
           "likes": 12741,
+          "comments": 38
+        },
+        {
+          "date": "2026-08-10",
+          "views": 1377121,
+          "likes": 12748,
           "comments": 38
         }
       ]
@@ -9523,6 +9594,18 @@
       "type": "annotated",
       "related_annotation": "北米ツアー開幕直後の反響継続でYouTube総再生数がさらに上昇",
       "detected_at": "2026-08-08T14:25:38.540725+00:00"
+    },
+    {
+      "date": "2026-08-10",
+      "metric": "youtube_total_views",
+      "value": 6810635523,
+      "baseline_mean": 6767565055.7,
+      "baseline_stddev": 19739988.2,
+      "delta": 43070467,
+      "score": 2.18,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-10T14:52:45.950974+00:00"
     }
   ]
 }

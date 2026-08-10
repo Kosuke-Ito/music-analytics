@@ -4874,6 +4874,47 @@
       "ytm_subscribers": 1760000,
       "ytm_monthly_listeners": 8380000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-10",
+      "monthly_listeners": 2817957,
+      "collected_at": "2026-08-10T15:03:34.067352+00:00",
+      "spotify_followers": 2479136,
+      "youtube_subscribers": 1760000,
+      "youtube_total_views": 1443242213,
+      "youtube_video_count": 201,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 118058
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 99108
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 68738
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 44563
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 38993
+        }
+      ],
+      "lastfm_listeners": 21613,
+      "lastfm_playcount": 3010055,
+      "ytm_subscribers": 1760000,
+      "ytm_monthly_listeners": 8300000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -4908,14 +4949,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "12.1M"
-      },
-      {
         "name": "Spitz",
         "browse_id": "UCa1Dtbauq3vNdm0osXMScuA",
         "subscribers": "6.91M"
+      },
+      {
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "12.1M"
       },
       {
         "name": "Penthouse",
@@ -4923,19 +4964,24 @@
         "subscribers": "1.8M"
       },
       {
+        "name": "aiko",
+        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
+        "subscribers": "6.81M"
+      },
+      {
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.4M"
+        "subscribers": "10.1M"
       },
       {
         "name": "Quruli",
         "browse_id": "UCLIFRNQRDAaD5H4REYsRdmA",
-        "subscribers": "664K"
+        "subscribers": "642K"
       },
       {
-        "name": "aiko",
-        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
-        "subscribers": "6.76M"
+        "name": "Fujifabric",
+        "browse_id": "UCFRvee2fH0Fo6WRKGZuk7SQ",
+        "subscribers": "1.64M"
       },
       {
         "name": "OFFICIAL HIGE DANDISM",
@@ -4943,19 +4989,14 @@
         "subscribers": "59.6M"
       },
       {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "23.3M"
+      },
+      {
         "name": "aimyon",
         "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
-        "subscribers": "7.77M"
-      },
-      {
-        "name": "Fujifabric",
-        "browse_id": "UCFRvee2fH0Fo6WRKGZuk7SQ",
-        "subscribers": "1.63M"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "61.5M"
+        "subscribers": "7.88M"
       }
     ],
     "ytm_top_songs": [
@@ -5680,6 +5721,12 @@
           "views": 61220570,
           "likes": 241585,
           "comments": 579
+        },
+        {
+          "date": "2026-08-10",
+          "views": 61260629,
+          "likes": 241745,
+          "comments": 579
         }
       ]
     },
@@ -6381,6 +6428,12 @@
           "views": 5419646,
           "likes": 44045,
           "comments": 0
+        },
+        {
+          "date": "2026-08-10",
+          "views": 5432268,
+          "likes": 44145,
+          "comments": 0
         }
       ]
     },
@@ -7070,6 +7123,12 @@
           "views": 22064033,
           "likes": 104125,
           "comments": 88
+        },
+        {
+          "date": "2026-08-10",
+          "views": 22078119,
+          "likes": 104242,
+          "comments": 88
         }
       ]
     },
@@ -7651,6 +7710,12 @@
           "views": 10621715,
           "likes": 54217,
           "comments": 45
+        },
+        {
+          "date": "2026-08-10",
+          "views": 10631594,
+          "likes": 54265,
+          "comments": 45
         }
       ]
     },
@@ -8159,6 +8224,12 @@
           "date": "2026-08-09",
           "views": 11238861,
           "likes": 50717,
+          "comments": 170
+        },
+        {
+          "date": "2026-08-10",
+          "views": 11246563,
+          "likes": 50763,
           "comments": 170
         }
       ]
@@ -9379,6 +9450,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-09T14:37:26.278904+00:00"
+    },
+    {
+      "date": "2026-08-10",
+      "metric": "monthly_listeners",
+      "value": 2817957,
+      "baseline_mean": 2698653.5,
+      "baseline_stddev": 38671.5,
+      "delta": 119303,
+      "score": 3.09,
+      "type": "annotated",
+      "related_annotation": "新曲「好き」ドラマ主題歌の露出蓄積で月間リスナー急増",
+      "detected_at": "2026-08-10T15:03:35.546499+00:00"
     }
   ]
 }

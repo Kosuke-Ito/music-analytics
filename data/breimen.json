@@ -4991,6 +4991,47 @@
       "ytm_subscribers": 29300,
       "ytm_monthly_listeners": 92800,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-10",
+      "monthly_listeners": 55722,
+      "collected_at": "2026-08-10T14:51:36.974398+00:00",
+      "spotify_followers": 36449,
+      "youtube_subscribers": 29400,
+      "youtube_total_views": 15515677,
+      "youtube_video_count": 186,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2129
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1318
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 945
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 693
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 427
+        }
+      ],
+      "lastfm_listeners": 19978,
+      "lastfm_playcount": 219769,
+      "ytm_subscribers": 29400,
+      "ytm_monthly_listeners": 90600,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5026,17 +5067,17 @@
       {
         "name": "Mega Shinnosuke",
         "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
-        "subscribers": "5.53M"
+        "subscribers": "5.49M"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "94K"
+        "subscribers": "90.9K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "106K"
+        "subscribers": "105K"
       },
       {
         "name": "TAIKING",
@@ -5051,7 +5092,7 @@
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "74.6K"
+        "subscribers": "71.8K"
       },
       {
         "name": "SHINTOKYO",
@@ -5061,17 +5102,17 @@
       {
         "name": "Satoko Shibata",
         "browse_id": "UCHXbv9-c9QQow0_n5WKx5QQ",
-        "subscribers": "148K"
+        "subscribers": "142K"
       },
       {
         "name": "7th Vega",
         "browse_id": "UC_W5BfNNzkxWj911JSDAu9g",
-        "subscribers": "118K"
+        "subscribers": "117K"
       },
       {
         "name": "Kayoko Yoshizawa",
         "browse_id": "UCbyPRq7zMUVjKiY2teAETNg",
-        "subscribers": "248K"
+        "subscribers": "249K"
       }
     ],
     "ytm_top_songs": [
@@ -5814,6 +5855,12 @@
           "views": 17073,
           "likes": 154,
           "comments": 3
+        },
+        {
+          "date": "2026-08-10",
+          "views": 17103,
+          "likes": 154,
+          "comments": 3
         }
       ]
     },
@@ -6532,6 +6579,12 @@
           "date": "2026-08-09",
           "views": 50225,
           "likes": 409,
+          "comments": 9
+        },
+        {
+          "date": "2026-08-10",
+          "views": 50335,
+          "likes": 411,
           "comments": 9
         }
       ]
@@ -7252,6 +7305,12 @@
           "views": 216383,
           "likes": 2575,
           "comments": 37
+        },
+        {
+          "date": "2026-08-10",
+          "views": 216702,
+          "likes": 2577,
+          "comments": 38
         }
       ]
     },
@@ -7951,6 +8010,12 @@
         {
           "date": "2026-08-09",
           "views": 3792,
+          "likes": 57,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-10",
+          "views": 3796,
           "likes": 57,
           "comments": 5
         }
@@ -8705,6 +8770,12 @@
           "views": 2158,
           "likes": 24,
           "comments": 1
+        },
+        {
+          "date": "2026-08-10",
+          "views": 2167,
+          "likes": 24,
+          "comments": 1
         }
       ]
     }
@@ -9298,6 +9369,18 @@
       "type": "annotated",
       "related_annotation": "YTM月間リスナー数2日連続同値、データ収集停滞の疑い",
       "detected_at": "2026-08-09T14:26:03.514300+00:00"
+    },
+    {
+      "date": "2026-08-10",
+      "metric": "ytm_monthly_listeners",
+      "value": 90600,
+      "baseline_mean": 77533.3,
+      "baseline_stddev": 5117.2,
+      "delta": 13066,
+      "score": 2.55,
+      "type": "annotated",
+      "related_annotation": "YTM月間リスナー数2日連続同値、データ収集停滞の疑い（継続）",
+      "detected_at": "2026-08-10T14:51:38.321110+00:00"
     }
   ]
 }
