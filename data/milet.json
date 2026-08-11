@@ -4921,6 +4921,47 @@
       "ytm_subscribers": 885000,
       "ytm_monthly_listeners": 6670000,
       "ytm_total_views": 651616792
+    },
+    {
+      "date": "2026-08-11",
+      "monthly_listeners": 2228970,
+      "collected_at": "2026-08-11T15:07:20.069121+00:00",
+      "spotify_followers": 1067220,
+      "youtube_subscribers": 885000,
+      "youtube_total_views": 674031493,
+      "youtube_video_count": 322,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54631
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 50277
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 46322
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 33704
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 24945
+        }
+      ],
+      "lastfm_listeners": 170092,
+      "lastfm_playcount": 5931257,
+      "ytm_subscribers": 885000,
+      "ytm_monthly_listeners": 6670000,
+      "ytm_total_views": 651939794
     }
   ],
   "annotations": [
@@ -5196,29 +5237,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Ikimonogakari",
-        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
-        "subscribers": "18.2M"
-      },
-      {
         "name": "LOZAREENA",
         "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
-        "subscribers": "315K"
+        "subscribers": "317K"
       },
       {
-        "name": "eill",
-        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.53M"
+        "name": "Miwa",
+        "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
+        "subscribers": "1.69M"
       },
       {
-        "name": "Aimer",
-        "browse_id": "UC_gksw7NEueO_u3lPL372hA",
-        "subscribers": "11.4M"
-      },
-      {
-        "name": "Utada",
-        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "24.3M"
+        "name": "suis from Yorushika",
+        "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
+        "subscribers": "32.7K"
       },
       {
         "name": "Uru",
@@ -5226,9 +5257,14 @@
         "subscribers": "18.6M"
       },
       {
-        "name": "Leo Ieiri",
-        "browse_id": "UCuOrtCxSxcmIzNrmmCmQS2w",
-        "subscribers": "1.86M"
+        "name": "eill",
+        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
+        "subscribers": "1.53M"
+      },
+      {
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "18.2M"
       },
       {
         "name": "Rei Yasuda",
@@ -5244,6 +5280,11 @@
         "name": "adieu",
         "browse_id": "UCvDhn0d7NbLomi8rZxt4qKg",
         "subscribers": "414K"
+      },
+      {
+        "name": "Kotone",
+        "browse_id": "UCZKz-7lju7A3Hi_DSf4oNQw",
+        "subscribers": "62K"
       }
     ],
     "ytm_top_songs": [
@@ -6483,6 +6524,12 @@
           "views": 9309928,
           "likes": 64659,
           "comments": 221
+        },
+        {
+          "date": "2026-08-11",
+          "views": 9318429,
+          "likes": 64711,
+          "comments": 222
         }
       ]
     },
@@ -7759,6 +7806,12 @@
           "views": 7488797,
           "likes": 53630,
           "comments": 70
+        },
+        {
+          "date": "2026-08-11",
+          "views": 7493089,
+          "likes": 53657,
+          "comments": 70
         }
       ]
     },
@@ -8406,6 +8459,12 @@
           "views": 2002513,
           "likes": 28906,
           "comments": 317
+        },
+        {
+          "date": "2026-08-11",
+          "views": 2008355,
+          "likes": 28948,
+          "comments": 317
         }
       ]
     },
@@ -8722,6 +8781,12 @@
           "views": 14636885,
           "likes": 143204,
           "comments": 2327
+        },
+        {
+          "date": "2026-08-11",
+          "views": 14658227,
+          "likes": 143421,
+          "comments": 2329
         }
       ]
     },
@@ -8883,6 +8948,12 @@
           "views": 122175,
           "likes": 2317,
           "comments": 28
+        },
+        {
+          "date": "2026-08-11",
+          "views": 125719,
+          "likes": 2383,
+          "comments": 29
         }
       ]
     }
@@ -9319,6 +9390,30 @@
       "type": "annotated",
       "related_annotation": "新曲「Hurricane」先行配信とアニメOP「Sunny」効果で急上昇",
       "detected_at": "2026-08-10T15:07:48.036555+00:00"
+    },
+    {
+      "date": "2026-08-11",
+      "metric": "monthly_listeners",
+      "value": 2228970,
+      "baseline_mean": 2155593.4,
+      "baseline_stddev": 26303.5,
+      "delta": 73376,
+      "score": 2.79,
+      "type": "annotated",
+      "related_annotation": "新曲「Hurricane」先行配信とアニメOP「Sunny」効果で急上昇",
+      "detected_at": "2026-08-11T15:07:21.363002+00:00"
+    },
+    {
+      "date": "2026-08-11",
+      "metric": "ytm_monthly_listeners",
+      "value": 6670000,
+      "baseline_mean": 5823333.3,
+      "baseline_stddev": 383260.9,
+      "delta": 846666,
+      "score": 2.21,
+      "type": "annotated",
+      "related_annotation": "新曲「Hurricane」先行配信とアニメOP「Sunny」効果で急上昇",
+      "detected_at": "2026-08-11T15:07:21.363002+00:00"
     }
   ]
 }

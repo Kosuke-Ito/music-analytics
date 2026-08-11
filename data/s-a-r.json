@@ -4999,6 +4999,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-11",
+      "monthly_listeners": 28652,
+      "collected_at": "2026-08-11T14:58:23.495870+00:00",
+      "spotify_followers": 29403,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1474714,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1589
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 790
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 599
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 507
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 387
+        }
+      ],
+      "lastfm_listeners": 5795,
+      "lastfm_playcount": 42843,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5201,15 +5242,15 @@
     "lastfm_tags": [
       "nsbm",
       "black metal",
-      "japanese",
       "jazz",
+      "japanese",
       "rnb"
     ],
     "ytm_related_artists": [
       {
         "name": "EVISBEATS",
         "browse_id": "UChgfFvoBTKLYjJ1PWVJfPdg",
-        "subscribers": "481K"
+        "subscribers": "487K"
       },
       {
         "name": "Salasa",
@@ -5239,7 +5280,7 @@
       {
         "name": "Michael Kaneko",
         "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
-        "subscribers": "100K"
+        "subscribers": "98.7K"
       },
       {
         "name": "Nao Yoshioka",
@@ -5990,6 +6031,12 @@
           "date": "2026-08-10",
           "views": 221033,
           "likes": 2831,
+          "comments": 8
+        },
+        {
+          "date": "2026-08-11",
+          "views": 221217,
+          "likes": 2833,
           "comments": 8
         }
       ]
@@ -7151,6 +7198,12 @@
           "views": 45176,
           "likes": 382,
           "comments": 2
+        },
+        {
+          "date": "2026-08-11",
+          "views": 45226,
+          "likes": 384,
+          "comments": 2
         }
       ]
     },
@@ -7887,6 +7940,12 @@
           "views": 110171,
           "likes": 1322,
           "comments": 6
+        },
+        {
+          "date": "2026-08-11",
+          "views": 110390,
+          "likes": 1324,
+          "comments": 6
         }
       ]
     },
@@ -8484,6 +8543,12 @@
           "views": 47551,
           "likes": 481,
           "comments": 7
+        },
+        {
+          "date": "2026-08-11",
+          "views": 47610,
+          "likes": 481,
+          "comments": 7
         }
       ]
     },
@@ -8903,6 +8968,12 @@
           "views": 59777,
           "likes": 709,
           "comments": 0
+        },
+        {
+          "date": "2026-08-11",
+          "views": 59817,
+          "likes": 709,
+          "comments": 0
         }
       ]
     },
@@ -9174,6 +9245,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-10T14:58:34.502609+00:00"
+    },
+    {
+      "date": "2026-08-11",
+      "metric": "youtube_total_views",
+      "value": 1474714,
+      "baseline_mean": 1447324.9,
+      "baseline_stddev": 12732.3,
+      "delta": 27389,
+      "score": 2.15,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-11T14:58:24.976536+00:00"
     }
   ]
 }

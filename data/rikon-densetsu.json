@@ -5034,6 +5034,47 @@
       "ytm_subscribers": 104000,
       "ytm_monthly_listeners": 979000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-11",
+      "monthly_listeners": 523675,
+      "collected_at": "2026-08-11T14:51:36.740009+00:00",
+      "spotify_followers": 125577,
+      "youtube_subscribers": 104000,
+      "youtube_total_views": 51610131,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 26323
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 20559
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 14644
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 8873
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 6921
+        }
+      ],
+      "lastfm_listeners": 10307,
+      "lastfm_playcount": 169437,
+      "ytm_subscribers": 104000,
+      "ytm_monthly_listeners": 986000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5066,9 +5107,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "星野源 Gen Hoshino",
-        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
-        "subscribers": "8.3M"
+        "name": "Nishina",
+        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
+        "subscribers": "262K"
+      },
+      {
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "3.32M"
       },
       {
         "name": "TAIKING",
@@ -5083,12 +5129,12 @@
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "90.6K"
+        "subscribers": "91.5K"
       },
       {
         "name": "YONA YONA WEEKENDERS",
         "browse_id": "UCA2eoqFXKqN2EfB6HiIHIRA",
-        "subscribers": "56.9K"
+        "subscribers": "57.1K"
       },
       {
         "name": "Skirt",
@@ -5098,7 +5144,7 @@
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "71.8K"
+        "subscribers": "71.6K"
       },
       {
         "name": "Akira Nise",
@@ -5109,11 +5155,6 @@
         "name": "Moto from Chilli Beans.",
         "browse_id": "UCSKmRJLeme-kE918PHRxhBQ",
         "subscribers": "233"
-      },
-      {
-        "name": "Genie High",
-        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "484K"
       }
     ],
     "ytm_top_songs": [
@@ -5856,6 +5897,12 @@
           "views": 56566,
           "likes": 494,
           "comments": 6
+        },
+        {
+          "date": "2026-08-11",
+          "views": 56711,
+          "likes": 496,
+          "comments": 6
         }
       ]
     },
@@ -6573,6 +6620,12 @@
         {
           "date": "2026-08-10",
           "views": 46205,
+          "likes": 448,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-11",
+          "views": 46273,
           "likes": 448,
           "comments": 4
         }
@@ -7293,6 +7346,12 @@
           "date": "2026-08-10",
           "views": 242733,
           "likes": 2120,
+          "comments": 12
+        },
+        {
+          "date": "2026-08-11",
+          "views": 243161,
+          "likes": 2123,
           "comments": 12
         }
       ]
@@ -8582,6 +8641,12 @@
           "views": 92739,
           "likes": 845,
           "comments": 8
+        },
+        {
+          "date": "2026-08-11",
+          "views": 92849,
+          "likes": 845,
+          "comments": 8
         }
       ]
     },
@@ -8757,6 +8822,12 @@
           "date": "2026-08-10",
           "views": 24481,
           "likes": 224,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-11",
+          "views": 24866,
+          "likes": 229,
           "comments": 5
         }
       ]
@@ -9582,6 +9653,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-10T14:51:54.883042+00:00"
+    },
+    {
+      "date": "2026-08-11",
+      "metric": "monthly_listeners",
+      "value": 523675,
+      "baseline_mean": 442363.8,
+      "baseline_stddev": 31964.5,
+      "delta": 81311,
+      "score": 2.54,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-11T14:51:37.825371+00:00"
     }
   ]
 }

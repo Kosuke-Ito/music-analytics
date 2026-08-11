@@ -4918,6 +4918,47 @@
       "ytm_subscribers": 464000,
       "ytm_monthly_listeners": 4990000,
       "ytm_total_views": 364484346
+    },
+    {
+      "date": "2026-08-11",
+      "monthly_listeners": 1767905,
+      "collected_at": "2026-08-11T15:05:58.167814+00:00",
+      "spotify_followers": 520234,
+      "youtube_subscribers": 465000,
+      "youtube_total_views": 367601531,
+      "youtube_video_count": 150,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 66267
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 46310
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 43701
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 31797
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 21503
+        }
+      ],
+      "lastfm_listeners": 18900,
+      "lastfm_playcount": 1286550,
+      "ytm_subscribers": 465000,
+      "ytm_monthly_listeners": 4990000,
+      "ytm_total_views": 364484346
     }
   ],
   "annotations": [
@@ -5369,19 +5410,19 @@
         "subscribers": "41.7K"
       },
       {
+        "name": "yonige",
+        "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
+        "subscribers": "350K"
+      },
+      {
         "name": "regallily",
         "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
         "subscribers": "291K"
       },
       {
-        "name": "yonige",
-        "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
-        "subscribers": "339K"
-      },
-      {
-        "name": "Galileo Galilei",
-        "browse_id": "UCuRm3UyWIIiPmIbRYK4fuLw",
-        "subscribers": "753K"
+        "name": "Nishina",
+        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
+        "subscribers": "262K"
       },
       {
         "name": "Chilli Beans.",
@@ -5396,7 +5437,7 @@
       {
         "name": "Homecomings",
         "browse_id": "UC5YC9saEogyw6Jg9fq_oGzg",
-        "subscribers": "50.3K"
+        "subscribers": "50.7K"
       },
       {
         "name": "Brandy Senki",
@@ -5406,7 +5447,7 @@
       {
         "name": "CodyLee",
         "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "186K"
+        "subscribers": "192K"
       },
       {
         "name": "mol-74",
@@ -6149,6 +6190,12 @@
           "views": 20693622,
           "likes": 132469,
           "comments": 389
+        },
+        {
+          "date": "2026-08-11",
+          "views": 20722004,
+          "likes": 132613,
+          "comments": 390
         }
       ]
     },
@@ -6861,6 +6908,12 @@
           "date": "2026-08-10",
           "views": 5210269,
           "likes": 34463,
+          "comments": 188
+        },
+        {
+          "date": "2026-08-11",
+          "views": 5228608,
+          "likes": 34543,
           "comments": 188
         }
       ]
@@ -7808,6 +7861,12 @@
           "views": 1553508,
           "likes": 13983,
           "comments": 86
+        },
+        {
+          "date": "2026-08-11",
+          "views": 1555676,
+          "likes": 14002,
+          "comments": 86
         }
       ]
     },
@@ -8521,6 +8580,12 @@
           "views": 2287411,
           "likes": 17668,
           "comments": 126
+        },
+        {
+          "date": "2026-08-11",
+          "views": 2290869,
+          "likes": 17687,
+          "comments": 126
         }
       ]
     },
@@ -9006,6 +9071,12 @@
           "views": 4211276,
           "likes": 34181,
           "comments": 274
+        },
+        {
+          "date": "2026-08-11",
+          "views": 4215050,
+          "likes": 34207,
+          "comments": 275
         }
       ]
     },
@@ -9665,6 +9736,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-10T15:06:23.544051+00:00"
+    },
+    {
+      "date": "2026-08-11",
+      "metric": "monthly_listeners",
+      "value": 1767905,
+      "baseline_mean": 1723017.9,
+      "baseline_stddev": 16847.4,
+      "delta": 44887,
+      "score": 2.66,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-11T15:05:59.924866+00:00"
     }
   ]
 }

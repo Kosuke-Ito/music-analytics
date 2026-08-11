@@ -5037,6 +5037,47 @@
       "ytm_subscribers": 1250000,
       "ytm_monthly_listeners": 10000000,
       "ytm_total_views": 1542008880
+    },
+    {
+      "date": "2026-08-11",
+      "monthly_listeners": 3315045,
+      "collected_at": "2026-08-11T14:50:16.679778+00:00",
+      "spotify_followers": 3442900,
+      "youtube_subscribers": 1250000,
+      "youtube_total_views": 1545076417,
+      "youtube_video_count": 81,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 118141
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 112389
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 86848
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 69324
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 44713
+        }
+      ],
+      "lastfm_listeners": 31853,
+      "lastfm_playcount": 686652,
+      "ytm_subscribers": 1250000,
+      "ytm_monthly_listeners": 10100000,
+      "ytm_total_views": 1542008880
     }
   ],
   "annotations": [
@@ -5295,28 +5336,23 @@
       "japanese",
       "j-pop",
       "japan",
-      "J-rock"
+      "male vocalists"
     ],
     "ytm_related_artists": [
-      {
-        "name": "UshioReira",
-        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
-        "subscribers": "735K"
-      },
       {
         "name": "Ren",
         "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
         "subscribers": "342K"
       },
       {
-        "name": "Dish",
-        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
-        "subscribers": "3.78M"
+        "name": "Manato Funatsu",
+        "browse_id": "UCHfEbuAKWEgHHXx2cKIKJQQ",
+        "subscribers": "3.93M"
       },
       {
-        "name": "Masanori Otoda",
-        "browse_id": "UCCmU7XwwWAM0j5TVhcTERLg",
-        "subscribers": "2.88M"
+        "name": "UshioReira",
+        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
+        "subscribers": "741K"
       },
       {
         "name": "Mosawo",
@@ -5324,9 +5360,14 @@
         "subscribers": "1.09M"
       },
       {
-        "name": "wacci",
-        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
-        "subscribers": "1.7M"
+        "name": "Arekun",
+        "browse_id": "UCbJGxAjDolW6F7NFCXo2-Dw",
+        "subscribers": "597K"
+      },
+      {
+        "name": "Noda Emi",
+        "browse_id": "UC2mwr8Fe3w-HixrCoruERTg",
+        "subscribers": "343K"
       },
       {
         "name": "eill",
@@ -5339,14 +5380,14 @@
         "subscribers": "1.97M"
       },
       {
-        "name": "Manato Funatsu",
-        "browse_id": "UCHfEbuAKWEgHHXx2cKIKJQQ",
-        "subscribers": "3.93M"
-      },
-      {
         "name": "Tani Yuuki",
         "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
-        "subscribers": "5.78M"
+        "subscribers": "5.87M"
+      },
+      {
+        "name": "wacci",
+        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
+        "subscribers": "1.7M"
       }
     ],
     "ytm_top_songs": [
@@ -6090,6 +6131,12 @@
           "views": 107602393,
           "likes": 347156,
           "comments": 172
+        },
+        {
+          "date": "2026-08-11",
+          "views": 107668751,
+          "likes": 347324,
+          "comments": 172
         }
       ]
     },
@@ -6814,6 +6861,12 @@
           "date": "2026-08-10",
           "views": 38855860,
           "likes": 139626,
+          "comments": 71
+        },
+        {
+          "date": "2026-08-11",
+          "views": 38883770,
+          "likes": 139729,
           "comments": 71
         }
       ]
@@ -7540,6 +7593,12 @@
           "views": 22868097,
           "likes": 154689,
           "comments": 635
+        },
+        {
+          "date": "2026-08-11",
+          "views": 22901508,
+          "likes": 154870,
+          "comments": 636
         }
       ]
     },
@@ -8264,6 +8323,12 @@
           "date": "2026-08-10",
           "views": 10714149,
           "likes": 34399,
+          "comments": 20
+        },
+        {
+          "date": "2026-08-11",
+          "views": 10725208,
+          "likes": 34434,
           "comments": 20
         }
       ]
@@ -9006,6 +9071,12 @@
           "views": 29517588,
           "likes": 91565,
           "comments": 54
+        },
+        {
+          "date": "2026-08-11",
+          "views": 29539381,
+          "likes": 91638,
+          "comments": 54
         }
       ]
     }
@@ -9502,6 +9573,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-08T14:23:26.031347+00:00"
+    },
+    {
+      "date": "2026-08-11",
+      "metric": "ytm_monthly_listeners",
+      "value": 10100000,
+      "baseline_mean": 9782333.3,
+      "baseline_stddev": 155813.6,
+      "delta": 317666,
+      "score": 2.04,
+      "type": "annotated",
+      "related_annotation": "アニメ『サンダー3』OPテーマ「サンダーボルト」効果でYouTube Music月間リスナーが急増",
+      "detected_at": "2026-08-11T14:50:17.776803+00:00"
     }
   ]
 }

@@ -5032,6 +5032,47 @@
       "ytm_subscribers": 29400,
       "ytm_monthly_listeners": 90600,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-11",
+      "monthly_listeners": 55683,
+      "collected_at": "2026-08-11T14:51:20.712419+00:00",
+      "spotify_followers": 36457,
+      "youtube_subscribers": 29400,
+      "youtube_total_views": 15515677,
+      "youtube_video_count": 186,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2133
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1325
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 959
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 690
+        },
+        {
+          "city": "Kyoto",
+          "country": "JP",
+          "listeners": 425
+        }
+      ],
+      "lastfm_listeners": 19981,
+      "lastfm_playcount": 219816,
+      "ytm_subscribers": 29400,
+      "ytm_monthly_listeners": 91500,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5072,7 +5113,7 @@
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "90.9K"
+        "subscribers": "90K"
       },
       {
         "name": "Skirt",
@@ -5082,7 +5123,7 @@
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "73.2K"
+        "subscribers": "72.1K"
       },
       {
         "name": "Okamoto's",
@@ -5092,7 +5133,7 @@
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "71.8K"
+        "subscribers": "71.6K"
       },
       {
         "name": "SHINTOKYO",
@@ -5107,7 +5148,7 @@
       {
         "name": "7th Vega",
         "browse_id": "UC_W5BfNNzkxWj911JSDAu9g",
-        "subscribers": "117K"
+        "subscribers": "118K"
       },
       {
         "name": "Kayoko Yoshizawa",
@@ -5861,6 +5902,12 @@
           "views": 17103,
           "likes": 154,
           "comments": 3
+        },
+        {
+          "date": "2026-08-11",
+          "views": 17129,
+          "likes": 154,
+          "comments": 3
         }
       ]
     },
@@ -6585,6 +6632,12 @@
           "date": "2026-08-10",
           "views": 50335,
           "likes": 411,
+          "comments": 9
+        },
+        {
+          "date": "2026-08-11",
+          "views": 50512,
+          "likes": 412,
           "comments": 9
         }
       ]
@@ -7311,6 +7364,12 @@
           "views": 216702,
           "likes": 2577,
           "comments": 38
+        },
+        {
+          "date": "2026-08-11",
+          "views": 217063,
+          "likes": 2581,
+          "comments": 38
         }
       ]
     },
@@ -8016,6 +8075,12 @@
         {
           "date": "2026-08-10",
           "views": 3796,
+          "likes": 57,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-11",
+          "views": 3801,
           "likes": 57,
           "comments": 5
         }
@@ -8776,6 +8841,12 @@
           "views": 2167,
           "likes": 24,
           "comments": 1
+        },
+        {
+          "date": "2026-08-11",
+          "views": 2179,
+          "likes": 24,
+          "comments": 1
         }
       ]
     }
@@ -9381,6 +9452,18 @@
       "type": "annotated",
       "related_annotation": "YTM月間リスナー数2日連続同値、データ収集停滞の疑い（継続）",
       "detected_at": "2026-08-10T14:51:38.321110+00:00"
+    },
+    {
+      "date": "2026-08-11",
+      "metric": "ytm_monthly_listeners",
+      "value": 91500,
+      "baseline_mean": 77940,
+      "baseline_stddev": 5629.1,
+      "delta": 13560,
+      "score": 2.41,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-11T14:51:22.218353+00:00"
     }
   ]
 }

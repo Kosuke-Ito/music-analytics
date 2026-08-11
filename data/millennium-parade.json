@@ -5055,6 +5055,47 @@
       "ytm_subscribers": 466000,
       "ytm_monthly_listeners": 1130000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-11",
+      "monthly_listeners": 906249,
+      "collected_at": "2026-08-11T14:50:02.437203+00:00",
+      "spotify_followers": 233822,
+      "youtube_subscribers": 466000,
+      "youtube_total_views": 216461926,
+      "youtube_video_count": 48,
+      "top_cities": [
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 10513
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 9297
+        },
+        {
+          "city": "Melbourne",
+          "country": "AU",
+          "listeners": 9251
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8876
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 8798
+        }
+      ],
+      "lastfm_listeners": 162817,
+      "lastfm_playcount": 2335765,
+      "ytm_subscribers": 466000,
+      "ytm_monthly_listeners": 1130000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5085,7 +5126,7 @@
       "japanese",
       "experimental",
       "electronic",
-      "Soundtrack"
+      "japan"
     ],
     "ytm_related_artists": [
       {
@@ -5096,7 +5137,7 @@
       {
         "name": "gesunokiwami otome",
         "browse_id": "UCC49CEw6fitW1bUIT9NjvSA",
-        "subscribers": "1.14M"
+        "subscribers": "1.13M"
       },
       {
         "name": "ꉈꀧ꒒꒒ꁄꍈꍈꀧ꒦ꉈ ꉣꅔꎡꅔꁕꁄ",
@@ -5106,7 +5147,7 @@
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "90.9K"
+        "subscribers": "90K"
       },
       {
         "name": "boku no lyric no bouyomi",
@@ -5131,12 +5172,12 @@
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "90.6K"
+        "subscribers": "91.5K"
       },
       {
         "name": "Tempalay",
         "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
-        "subscribers": "122K"
+        "subscribers": "123K"
       }
     ],
     "ytm_top_songs": [
@@ -5885,6 +5926,12 @@
           "views": 8044694,
           "likes": 73642,
           "comments": 267
+        },
+        {
+          "date": "2026-08-11",
+          "views": 8053616,
+          "likes": 73712,
+          "comments": 267
         }
       ]
     },
@@ -6610,6 +6657,12 @@
           "views": 2143607,
           "likes": 26319,
           "comments": 49
+        },
+        {
+          "date": "2026-08-11",
+          "views": 2146021,
+          "likes": 26345,
+          "comments": 49
         }
       ]
     },
@@ -7334,6 +7387,12 @@
           "date": "2026-08-10",
           "views": 21870456,
           "likes": 225261,
+          "comments": 632
+        },
+        {
+          "date": "2026-08-11",
+          "views": 21878189,
+          "likes": 225311,
           "comments": 632
         }
       ]
@@ -8515,6 +8574,12 @@
           "views": 115057,
           "likes": 1741,
           "comments": 10
+        },
+        {
+          "date": "2026-08-11",
+          "views": 115404,
+          "likes": 1746,
+          "comments": 10
         }
       ]
     },
@@ -8800,6 +8865,12 @@
           "views": 272765,
           "likes": 6983,
           "comments": 196
+        },
+        {
+          "date": "2026-08-11",
+          "views": 277877,
+          "likes": 7064,
+          "comments": 197
         }
       ]
     }
@@ -9593,6 +9664,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数、データ収集停滞によるバズ誤検知（継続）",
       "detected_at": "2026-08-10T14:50:16.634179+00:00"
+    },
+    {
+      "date": "2026-08-11",
+      "metric": "youtube_total_views",
+      "value": 216461926,
+      "baseline_mean": 214653307.7,
+      "baseline_stddev": 808838.7,
+      "delta": 1808618,
+      "score": 2.24,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-11T14:50:03.601708+00:00"
     }
   ]
 }

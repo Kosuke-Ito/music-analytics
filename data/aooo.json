@@ -5036,6 +5036,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 894000,
       "ytm_total_views": 28217384
+    },
+    {
+      "date": "2026-08-11",
+      "monthly_listeners": 193589,
+      "collected_at": "2026-08-11T14:54:00.464892+00:00",
+      "spotify_followers": 62992,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 34935937,
+      "youtube_video_count": 311,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10144
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6763
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4789
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4416
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3223
+        }
+      ],
+      "lastfm_listeners": 15145,
+      "lastfm_playcount": 348152,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 938000,
+      "ytm_total_views": 28524748
     }
   ],
   "annotations": [
@@ -5337,24 +5378,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "asmi",
-        "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
-        "subscribers": "3.34M"
-      },
-      {
         "name": "regallily",
         "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
         "subscribers": "291K"
       },
       {
-        "name": "ano",
-        "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
-        "subscribers": "3.43M"
+        "name": "asmi",
+        "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
+        "subscribers": "3.34M"
+      },
+      {
+        "name": "35.7",
+        "browse_id": "UCNqQzhBZrDd8UUWvayhvrKQ",
+        "subscribers": "137K"
       },
       {
         "name": "nakigoto",
         "browse_id": "UC4sq6m-foW44E1QTMzW6GsA",
-        "subscribers": "62.2K"
+        "subscribers": "62.4K"
       },
       {
         "name": "Conton Candy",
@@ -5365,11 +5406,6 @@
         "name": "rassemble",
         "browse_id": "UCVXQ6yWhb-eFlxUdcJRF_2w",
         "subscribers": "75.9K"
-      },
-      {
-        "name": "7th Vega",
-        "browse_id": "UC_W5BfNNzkxWj911JSDAu9g",
-        "subscribers": "117K"
       },
       {
         "name": "Chilli Beans.",
@@ -5384,7 +5420,12 @@
       {
         "name": "ねぎ塩豚丼",
         "browse_id": "UCb15VymqPPdgK9nnISoDDCg",
-        "subscribers": "331K"
+        "subscribers": "370K"
+      },
+      {
+        "name": "CENT",
+        "browse_id": "UCh0f5XbtIlrC0WeNgqiiZ9g",
+        "subscribers": "70.5K"
       }
     ],
     "ytm_top_songs": [
@@ -6810,6 +6851,12 @@
           "views": 180149,
           "likes": 1522,
           "comments": 12
+        },
+        {
+          "date": "2026-08-11",
+          "views": 180502,
+          "likes": 1524,
+          "comments": 12
         }
       ]
     },
@@ -7468,6 +7515,12 @@
           "date": "2026-08-10",
           "views": 403699,
           "likes": 3945,
+          "comments": 63
+        },
+        {
+          "date": "2026-08-11",
+          "views": 404074,
+          "likes": 3948,
           "comments": 63
         }
       ]
@@ -8419,6 +8472,12 @@
           "views": 92465,
           "likes": 1407,
           "comments": 76
+        },
+        {
+          "date": "2026-08-11",
+          "views": 93007,
+          "likes": 1414,
+          "comments": 76
         }
       ]
     },
@@ -8753,6 +8812,12 @@
           "views": 29721,
           "likes": 335,
           "comments": 3
+        },
+        {
+          "date": "2026-08-11",
+          "views": 30157,
+          "likes": 342,
+          "comments": 3
         }
       ]
     },
@@ -9069,6 +9134,12 @@
           "views": 32435,
           "likes": 534,
           "comments": 15
+        },
+        {
+          "date": "2026-08-11",
+          "views": 32969,
+          "likes": 543,
+          "comments": 16
         }
       ]
     }
@@ -9757,6 +9828,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-27T16:11:59.625613+00:00"
+    },
+    {
+      "date": "2026-08-11",
+      "metric": "youtube_total_views",
+      "value": 34935937,
+      "baseline_mean": 34104733.2,
+      "baseline_stddev": 400186.6,
+      "delta": 831203,
+      "score": 2.08,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-11T14:54:01.511964+00:00"
     }
   ]
 }

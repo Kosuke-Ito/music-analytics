@@ -5221,6 +5221,47 @@
       "ytm_subscribers": 5050000,
       "ytm_monthly_listeners": 7830000,
       "ytm_total_views": 2487802869
+    },
+    {
+      "date": "2026-08-11",
+      "monthly_listeners": 3558225,
+      "collected_at": "2026-08-11T14:55:09.271084+00:00",
+      "spotify_followers": 6232287,
+      "youtube_subscribers": 5050000,
+      "youtube_total_views": 2523996607,
+      "youtube_video_count": 578,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 112007
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 97126
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 68011
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 62475
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 44515
+        }
+      ],
+      "lastfm_listeners": 649034,
+      "lastfm_playcount": 55916618,
+      "ytm_subscribers": 5050000,
+      "ytm_monthly_listeners": 7830000,
+      "ytm_total_views": 2487802869
     }
   ],
   "annotations": [
@@ -5566,19 +5607,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "SCANDAL",
-        "browse_id": "UC2RxPIIA8xolka-2FLPCFEA",
-        "subscribers": "1.65M"
+        "name": "WANIMA",
+        "browse_id": "UC_SxYlf03VsYYBJTXTZj7kw",
+        "subscribers": "5.23M"
+      },
+      {
+        "name": "taka",
+        "browse_id": "UC0KLMGub_J0BSigaBHAAG-Q",
+        "subscribers": "1.17K"
       },
       {
         "name": "MONKEY MAJIK",
         "browse_id": "UC3gcufb-KpdT9XbSf0vug3g",
         "subscribers": "1.16M"
-      },
-      {
-        "name": "WANIMA",
-        "browse_id": "UC_SxYlf03VsYYBJTXTZj7kw",
-        "subscribers": "5.17M"
       },
       {
         "name": "Pay money To my Pain",
@@ -5591,29 +5632,29 @@
         "subscribers": "6.67M"
       },
       {
-        "name": "MY FIRST STORY",
-        "browse_id": "UCZtrZ8_Opr4Sa2r61ye_UsQ",
-        "subscribers": "8.09M"
-      },
-      {
-        "name": "MAN WITH A MISSION",
-        "browse_id": "UCCWlJ3mOpVtWZoCeEfnAs9w",
-        "subscribers": "4.55M"
+        "name": "SCANDAL",
+        "browse_id": "UC2RxPIIA8xolka-2FLPCFEA",
+        "subscribers": "1.69M"
       },
       {
         "name": "YUI",
         "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
-        "subscribers": "8.48M"
+        "subscribers": "8.45M"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "100M"
+        "name": "MAN WITH A MISSION",
+        "browse_id": "UCCWlJ3mOpVtWZoCeEfnAs9w",
+        "subscribers": "4.56M"
       },
       {
-        "name": "[Alexandros]",
-        "browse_id": "UCbzcUjXa4yX3k5CD8bioDmg",
-        "subscribers": "8.56M"
+        "name": "Aqua Timez",
+        "browse_id": "UCAtLPtdf3NxaabgXCqYehoQ",
+        "subscribers": "2.01M"
+      },
+      {
+        "name": "Utada",
+        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
+        "subscribers": "24.3M"
       }
     ],
     "ytm_top_songs": [
@@ -6357,6 +6398,12 @@
           "views": 8919645,
           "likes": 48069,
           "comments": 114
+        },
+        {
+          "date": "2026-08-11",
+          "views": 8945512,
+          "likes": 48173,
+          "comments": 114
         }
       ]
     },
@@ -7082,6 +7129,12 @@
           "views": 14837140,
           "likes": 79217,
           "comments": 467
+        },
+        {
+          "date": "2026-08-11",
+          "views": 14880453,
+          "likes": 79380,
+          "comments": 468
         }
       ]
     },
@@ -7806,6 +7859,12 @@
           "date": "2026-08-10",
           "views": 7609294,
           "likes": 33805,
+          "comments": 66
+        },
+        {
+          "date": "2026-08-11",
+          "views": 7630487,
+          "likes": 33883,
           "comments": 66
         }
       ]
@@ -8532,6 +8591,12 @@
           "views": 16055873,
           "likes": 136337,
           "comments": 365
+        },
+        {
+          "date": "2026-08-11",
+          "views": 16065358,
+          "likes": 136389,
+          "comments": 366
         }
       ]
     },
@@ -9283,6 +9348,12 @@
           "views": 5140695,
           "likes": 36991,
           "comments": 73
+        },
+        {
+          "date": "2026-08-11",
+          "views": 5143181,
+          "likes": 37005,
+          "comments": 73
         }
       ]
     }
@@ -9683,6 +9754,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-10T14:55:31.424998+00:00"
+    },
+    {
+      "date": "2026-08-11",
+      "metric": "monthly_listeners",
+      "value": 3558225,
+      "baseline_mean": 3517830.4,
+      "baseline_stddev": 13739.1,
+      "delta": 40394,
+      "score": 2.94,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-11T14:55:10.298406+00:00"
     }
   ]
 }
