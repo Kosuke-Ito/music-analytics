@@ -5077,6 +5077,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 5570000,
       "ytm_total_views": 925186586
+    },
+    {
+      "date": "2026-08-12",
+      "monthly_listeners": 3922769,
+      "collected_at": "2026-08-12T15:02:00.345567+00:00",
+      "spotify_followers": 1672976,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 925237628,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 172864
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 136041
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 131417
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 120541
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 98360
+        }
+      ],
+      "lastfm_listeners": 937036,
+      "lastfm_playcount": 23798859,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 5410000,
+      "ytm_total_views": 925186586
     }
   ],
   "annotations": [
@@ -5269,12 +5310,12 @@
       {
         "name": "92914",
         "browse_id": "UCsywq73qRVQY0pBqEK6_2RA",
-        "subscribers": "341K"
+        "subscribers": "351K"
       },
       {
         "name": "Johnny Stimson",
         "browse_id": "UCNLvis5zsu6lLZLRrE4qJgQ",
-        "subscribers": "1.27M"
+        "subscribers": "1.32M"
       },
       {
         "name": "Delorians",
@@ -5282,19 +5323,14 @@
         "subscribers": "617K"
       },
       {
-        "name": "slchld",
-        "browse_id": "UCeH_AbA_uetIVR8Q61TIL8g",
-        "subscribers": "847K"
-      },
-      {
-        "name": "Jesse Barrera",
-        "browse_id": "UCIdvXeEwoWA2LUc_-_nK2Mg",
-        "subscribers": "1.41M"
-      },
-      {
         "name": "Fiji Blue",
         "browse_id": "UCYjYMImwBg38TDpWDl_F0Pw",
-        "subscribers": "806K"
+        "subscribers": "828K"
+      },
+      {
+        "name": "slchld",
+        "browse_id": "UCeH_AbA_uetIVR8Q61TIL8g",
+        "subscribers": "869K"
       },
       {
         "name": "Ruel",
@@ -5302,14 +5338,19 @@
         "subscribers": "1.54M"
       },
       {
-        "name": "Mina Okabe",
-        "browse_id": "UCdwuOm1Z7_1UyhMsTjgmxeg",
-        "subscribers": "9.05M"
+        "name": "Bruno Major",
+        "browse_id": "UCG6TVq74z0InWhOJVtIQZKQ",
+        "subscribers": "1.42M"
       },
       {
-        "name": "Pink Sweat$",
-        "browse_id": "UCz5NI8RyL8RUX573SoLH-bg",
-        "subscribers": "14.5M"
+        "name": "Jesse Barrera",
+        "browse_id": "UCIdvXeEwoWA2LUc_-_nK2Mg",
+        "subscribers": "1.47M"
+      },
+      {
+        "name": "Mina Okabe",
+        "browse_id": "UCdwuOm1Z7_1UyhMsTjgmxeg",
+        "subscribers": "9.44M"
       },
       {
         "name": "Micah Edwards",
@@ -6064,6 +6105,12 @@
           "views": 2601863,
           "likes": 16036,
           "comments": 27
+        },
+        {
+          "date": "2026-08-12",
+          "views": 2602173,
+          "likes": 16035,
+          "comments": 27
         }
       ]
     },
@@ -6782,6 +6829,12 @@
           "date": "2026-08-11",
           "views": 2154821,
           "likes": 19747,
+          "comments": 280
+        },
+        {
+          "date": "2026-08-12",
+          "views": 2158375,
+          "likes": 19767,
           "comments": 280
         }
       ]
@@ -7507,6 +7560,12 @@
           "date": "2026-08-11",
           "views": 48155311,
           "likes": 203154,
+          "comments": 121
+        },
+        {
+          "date": "2026-08-12",
+          "views": 48168889,
+          "likes": 203199,
           "comments": 121
         }
       ]
@@ -8651,6 +8710,12 @@
           "views": 14676097,
           "likes": 74686,
           "comments": 39
+        },
+        {
+          "date": "2026-08-12",
+          "views": 14687190,
+          "likes": 74727,
+          "comments": 39
         }
       ]
     },
@@ -8984,6 +9049,12 @@
           "views": 15825493,
           "likes": 80520,
           "comments": 63
+        },
+        {
+          "date": "2026-08-12",
+          "views": 15829378,
+          "likes": 80535,
+          "comments": 63
         }
       ]
     }
@@ -9312,6 +9383,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-11T15:01:22.525173+00:00"
+    },
+    {
+      "date": "2026-08-12",
+      "metric": "monthly_listeners",
+      "value": 3922769,
+      "baseline_mean": 3891670.7,
+      "baseline_stddev": 11152.9,
+      "delta": 31098,
+      "score": 2.79,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-12T15:02:01.530050+00:00"
     }
   ]
 }

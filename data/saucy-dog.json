@@ -4965,6 +4965,47 @@
       "ytm_subscribers": 874000,
       "ytm_monthly_listeners": 2450000,
       "ytm_total_views": 590870716
+    },
+    {
+      "date": "2026-08-12",
+      "monthly_listeners": 1784332,
+      "collected_at": "2026-08-12T15:06:17.355704+00:00",
+      "spotify_followers": 1515268,
+      "youtube_subscribers": 874000,
+      "youtube_total_views": 593436961,
+      "youtube_video_count": 139,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 90002
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 84628
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 64005
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 37077
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 36295
+        }
+      ],
+      "lastfm_listeners": 59187,
+      "lastfm_playcount": 1679934,
+      "ytm_subscribers": 874000,
+      "ytm_monthly_listeners": 2500000,
+      "ytm_total_views": 591821622
     }
   ],
   "annotations": [
@@ -5275,27 +5316,27 @@
       {
         "name": "Second backer",
         "browse_id": "UCZgg9_VmBAYupqk5ObECmng",
-        "subscribers": "1.89M"
+        "subscribers": "1.93M"
       },
       {
         "name": "Marcy",
         "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.97M"
+        "subscribers": "2.05M"
       },
       {
         "name": "the shes gone",
         "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
-        "subscribers": "207K"
+        "subscribers": "230K"
       },
       {
         "name": "Kepura",
         "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
-        "subscribers": "69.9K"
+        "subscribers": "72.1K"
       },
       {
         "name": "moon drop",
         "browse_id": "UCPqgXlQbbSCVYuzUqN1G5hQ",
-        "subscribers": "167K"
+        "subscribers": "176K"
       },
       {
         "name": "Mr.Forte",
@@ -5305,17 +5346,17 @@
       {
         "name": "YUTORI-SEDAI",
         "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "244K"
+        "subscribers": "253K"
       },
       {
         "name": "tokyo kimiga inai machi",
         "browse_id": "UCcMmtei7oDCXplPI2g9ssqg",
-        "subscribers": "2.45K"
+        "subscribers": "2.46K"
       },
       {
         "name": "KALMA",
         "browse_id": "UCyqvlYYpThgO5eHqgrF6B9A",
-        "subscribers": "68.1K"
+        "subscribers": "72.9K"
       },
       {
         "name": "PERKERS",
@@ -6070,6 +6111,12 @@
           "views": 5401825,
           "likes": 23335,
           "comments": 55
+        },
+        {
+          "date": "2026-08-12",
+          "views": 5416805,
+          "likes": 23401,
+          "comments": 55
         }
       ]
     },
@@ -6782,6 +6829,12 @@
           "date": "2026-08-11",
           "views": 5898297,
           "likes": 27022,
+          "comments": 50
+        },
+        {
+          "date": "2026-08-12",
+          "views": 5914691,
+          "likes": 27099,
           "comments": 50
         }
       ]
@@ -7508,6 +7561,12 @@
           "views": 3185794,
           "likes": 16467,
           "comments": 39
+        },
+        {
+          "date": "2026-08-12",
+          "views": 3194760,
+          "likes": 16498,
+          "comments": 39
         }
       ]
     },
@@ -8220,6 +8279,12 @@
           "date": "2026-08-11",
           "views": 3613614,
           "likes": 20740,
+          "comments": 43
+        },
+        {
+          "date": "2026-08-12",
+          "views": 3622480,
+          "likes": 20780,
           "comments": 43
         }
       ]
@@ -8985,6 +9050,12 @@
           "views": 3084915,
           "likes": 12584,
           "comments": 33
+        },
+        {
+          "date": "2026-08-12",
+          "views": 3093801,
+          "likes": 12610,
+          "comments": 33
         }
       ]
     }
@@ -9625,6 +9696,30 @@
       "type": "annotated",
       "related_annotation": "東京スカパラダイスオーケストラとZepp Hanedaで2マンライブ「VerSus Carnival」",
       "detected_at": "2026-08-09T14:39:39.295532+00:00"
+    },
+    {
+      "date": "2026-08-12",
+      "metric": "monthly_listeners",
+      "value": 1784332,
+      "baseline_mean": 1771443.2,
+      "baseline_stddev": 5882.6,
+      "delta": 12888,
+      "score": 2.19,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-12T15:06:19.478476+00:00"
+    },
+    {
+      "date": "2026-08-12",
+      "metric": "ytm_monthly_listeners",
+      "value": 2500000,
+      "baseline_mean": 2418666.7,
+      "baseline_stddev": 38099.3,
+      "delta": 81333,
+      "score": 2.13,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-12T15:06:19.478476+00:00"
     }
   ]
 }

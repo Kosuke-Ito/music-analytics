@@ -5260,6 +5260,47 @@
       "ytm_subscribers": 7420000,
       "ytm_monthly_listeners": 42100000,
       "ytm_total_views": 6796234150
+    },
+    {
+      "date": "2026-08-12",
+      "monthly_listeners": 7092998,
+      "collected_at": "2026-08-12T14:52:35.331560+00:00",
+      "spotify_followers": 10181748,
+      "youtube_subscribers": 7420000,
+      "youtube_total_views": 6810635523,
+      "youtube_video_count": 316,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 164516
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 137383
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 130849
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 100626
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 95205
+        }
+      ],
+      "lastfm_listeners": 937463,
+      "lastfm_playcount": 56926296,
+      "ytm_subscribers": 7420000,
+      "ytm_monthly_listeners": 43200000,
+      "ytm_total_views": 6796234150
     }
   ],
   "annotations": [
@@ -5613,18 +5654,23 @@
       "japanese",
       "japan",
       "pop",
-      "anime"
+      "JPop"
     ],
     "ytm_related_artists": [
       {
         "name": "DAOKO",
         "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
-        "subscribers": "8.21M"
+        "subscribers": "8.4M"
       },
       {
         "name": "kobasolo",
         "browse_id": "UCukBv_7AJU7AZHcidF0HIvQ",
-        "subscribers": "3.66M"
+        "subscribers": "3.76M"
+      },
+      {
+        "name": "majiko",
+        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
+        "subscribers": "420K"
       },
       {
         "name": "suis from Yorushika",
@@ -5632,39 +5678,34 @@
         "subscribers": "32.7K"
       },
       {
-        "name": "majiko",
-        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "410K"
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.53M"
       },
       {
         "name": "Ikimonogakari",
         "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
-        "subscribers": "18.2M"
-      },
-      {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.43M"
+        "subscribers": "18.9M"
       },
       {
         "name": "milet",
         "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "6.67M"
-      },
-      {
-        "name": "Ai Higuchi",
-        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
-        "subscribers": "13.7M"
+        "subscribers": "7.04M"
       },
       {
         "name": "ano",
         "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
-        "subscribers": "3.37M"
+        "subscribers": "3.41M"
+      },
+      {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "2.18M"
       },
       {
         "name": "Lilas",
         "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "16.7M"
+        "subscribers": "17.1M"
       }
     ],
     "ytm_top_songs": [
@@ -6420,6 +6461,12 @@
           "views": 316607482,
           "likes": 1607127,
           "comments": 11893
+        },
+        {
+          "date": "2026-08-12",
+          "views": 316718584,
+          "likes": 1607743,
+          "comments": 11898
         }
       ]
     },
@@ -7151,6 +7198,12 @@
           "views": 246334896,
           "likes": 1102415,
           "comments": 3877
+        },
+        {
+          "date": "2026-08-12",
+          "views": 246432970,
+          "likes": 1102747,
+          "comments": 3876
         }
       ]
     },
@@ -7882,6 +7935,12 @@
           "views": 61264406,
           "likes": 429526,
           "comments": 938
+        },
+        {
+          "date": "2026-08-12",
+          "views": 61301378,
+          "likes": 429731,
+          "comments": 939
         }
       ]
     },
@@ -8613,6 +8672,12 @@
           "views": 66340426,
           "likes": 271877,
           "comments": 836
+        },
+        {
+          "date": "2026-08-12",
+          "views": 66400790,
+          "likes": 272118,
+          "comments": 841
         }
       ]
     },
@@ -9288,6 +9353,12 @@
           "views": 135194979,
           "likes": 478802,
           "comments": 944
+        },
+        {
+          "date": "2026-08-12",
+          "views": 135249324,
+          "likes": 478988,
+          "comments": 945
         }
       ]
     },
@@ -9795,6 +9866,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-10T14:52:28.447873+00:00"
+    },
+    {
+      "date": "2026-08-12",
+      "metric": "ytm_monthly_listeners",
+      "value": 43200000,
+      "baseline_mean": 40310000,
+      "baseline_stddev": 1179646.8,
+      "delta": 2890000,
+      "score": 2.45,
+      "type": "annotated",
+      "related_annotation": "北米ツアー「Never Ending Stories」とLollapalooza出演による海外バズ",
+      "detected_at": "2026-08-12T14:52:36.638468+00:00"
     }
   ]
 }

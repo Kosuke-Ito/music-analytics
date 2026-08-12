@@ -5075,6 +5075,47 @@
       "ytm_subscribers": 104000,
       "ytm_monthly_listeners": 986000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-12",
+      "monthly_listeners": 529891,
+      "collected_at": "2026-08-12T14:52:01.524747+00:00",
+      "spotify_followers": 125711,
+      "youtube_subscribers": 104000,
+      "youtube_total_views": 51610131,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 26525
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 20816
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 14870
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 8959
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 7029
+        }
+      ],
+      "lastfm_listeners": 10308,
+      "lastfm_playcount": 169468,
+      "ytm_subscribers": 104000,
+      "ytm_monthly_listeners": 1000000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5107,44 +5148,39 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Nishina",
-        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
-        "subscribers": "262K"
-      },
-      {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.32M"
+        "subscribers": "3.52M"
       },
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "72.1K"
+        "subscribers": "73.9K"
       },
       {
         "name": "First Love is Never Returned",
         "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "76.1K"
+        "subscribers": "78.4K"
       },
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "91.5K"
+        "subscribers": "97.7K"
       },
       {
         "name": "YONA YONA WEEKENDERS",
         "browse_id": "UCA2eoqFXKqN2EfB6HiIHIRA",
-        "subscribers": "57.1K"
+        "subscribers": "59.7K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "105K"
+        "subscribers": "108K"
       },
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "71.6K"
+        "subscribers": "73.4K"
       },
       {
         "name": "Akira Nise",
@@ -5155,6 +5191,11 @@
         "name": "Moto from Chilli Beans.",
         "browse_id": "UCSKmRJLeme-kE918PHRxhBQ",
         "subscribers": "233"
+      },
+      {
+        "name": "Genie High",
+        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
+        "subscribers": "501K"
       }
     ],
     "ytm_top_songs": [
@@ -5903,6 +5944,12 @@
           "views": 56711,
           "likes": 496,
           "comments": 6
+        },
+        {
+          "date": "2026-08-12",
+          "views": 56861,
+          "likes": 496,
+          "comments": 6
         }
       ]
     },
@@ -6628,6 +6675,12 @@
           "views": 46273,
           "likes": 448,
           "comments": 4
+        },
+        {
+          "date": "2026-08-12",
+          "views": 46344,
+          "likes": 448,
+          "comments": 4
         }
       ]
     },
@@ -7351,6 +7404,12 @@
         {
           "date": "2026-08-11",
           "views": 243161,
+          "likes": 2123,
+          "comments": 12
+        },
+        {
+          "date": "2026-08-12",
+          "views": 243434,
           "likes": 2123,
           "comments": 12
         }
@@ -8647,6 +8706,12 @@
           "views": 92849,
           "likes": 845,
           "comments": 8
+        },
+        {
+          "date": "2026-08-12",
+          "views": 92991,
+          "likes": 846,
+          "comments": 8
         }
       ]
     },
@@ -8828,6 +8893,12 @@
           "date": "2026-08-11",
           "views": 24866,
           "likes": 229,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-12",
+          "views": 25147,
+          "likes": 234,
           "comments": 5
         }
       ]
@@ -9683,6 +9754,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-11T14:51:37.825371+00:00"
+    },
+    {
+      "date": "2026-08-12",
+      "metric": "monthly_listeners",
+      "value": 529891,
+      "baseline_mean": 445400.4,
+      "baseline_stddev": 35067.1,
+      "delta": 84490,
+      "score": 2.41,
+      "type": "annotated",
+      "related_annotation": "TVドラマ「大空港〜GATE24〜」主題歌の話題継続",
+      "detected_at": "2026-08-12T14:52:02.861619+00:00"
     }
   ]
 }

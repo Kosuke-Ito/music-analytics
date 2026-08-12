@@ -4959,6 +4959,47 @@
       "ytm_subscribers": 465000,
       "ytm_monthly_listeners": 4990000,
       "ytm_total_views": 364484346
+    },
+    {
+      "date": "2026-08-12",
+      "monthly_listeners": 1771263,
+      "collected_at": "2026-08-12T15:06:54.367030+00:00",
+      "spotify_followers": 520539,
+      "youtube_subscribers": 465000,
+      "youtube_total_views": 367601531,
+      "youtube_video_count": 150,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 66296
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 46554
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 43758
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 32042
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 21543
+        }
+      ],
+      "lastfm_listeners": 18907,
+      "lastfm_playcount": 1286793,
+      "ytm_subscribers": 465000,
+      "ytm_monthly_listeners": 5130000,
+      "ytm_total_views": 364484346
     }
   ],
   "annotations": [
@@ -5423,44 +5464,44 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Kinokoteikoku",
-        "browse_id": "UClJbEh-JJDXCjtQLQMi_gjA",
-        "subscribers": "41.7K"
-      },
-      {
         "name": "yonige",
         "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
         "subscribers": "350K"
       },
       {
+        "name": "Kinokoteikoku",
+        "browse_id": "UClJbEh-JJDXCjtQLQMi_gjA",
+        "subscribers": "41.7K"
+      },
+      {
         "name": "regallily",
         "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
-        "subscribers": "291K"
+        "subscribers": "295K"
       },
       {
         "name": "Nishina",
         "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
-        "subscribers": "262K"
+        "subscribers": "270K"
       },
       {
         "name": "Chilli Beans.",
         "browse_id": "UCkI4roj4YVHrTh7PftDVxmQ",
-        "subscribers": "299K"
+        "subscribers": "310K"
       },
       {
         "name": "chilldspot",
         "browse_id": "UCpAYVXySypaqfb2JA_papUA",
-        "subscribers": "222K"
+        "subscribers": "231K"
       },
       {
         "name": "Homecomings",
         "browse_id": "UC5YC9saEogyw6Jg9fq_oGzg",
-        "subscribers": "50.7K"
+        "subscribers": "53.2K"
       },
       {
         "name": "Brandy Senki",
         "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
-        "subscribers": "146K"
+        "subscribers": "149K"
       },
       {
         "name": "CodyLee",
@@ -5470,7 +5511,7 @@
       {
         "name": "mol-74",
         "browse_id": "UCEvtm90ugC6XKB74g8ukTKg",
-        "subscribers": "97K"
+        "subscribers": "101K"
       }
     ],
     "ytm_top_songs": [
@@ -6214,6 +6255,12 @@
           "views": 20722004,
           "likes": 132613,
           "comments": 390
+        },
+        {
+          "date": "2026-08-12",
+          "views": 20749150,
+          "likes": 132760,
+          "comments": 390
         }
       ]
     },
@@ -6933,6 +6980,12 @@
           "views": 5228608,
           "likes": 34543,
           "comments": 188
+        },
+        {
+          "date": "2026-08-12",
+          "views": 5244677,
+          "likes": 34670,
+          "comments": 189
         }
       ]
     },
@@ -7885,6 +7938,12 @@
           "views": 1555676,
           "likes": 14002,
           "comments": 86
+        },
+        {
+          "date": "2026-08-12",
+          "views": 1558002,
+          "likes": 14011,
+          "comments": 86
         }
       ]
     },
@@ -8604,6 +8663,12 @@
           "views": 2290869,
           "likes": 17687,
           "comments": 126
+        },
+        {
+          "date": "2026-08-12",
+          "views": 2294077,
+          "likes": 17708,
+          "comments": 126
         }
       ]
     },
@@ -9095,6 +9160,12 @@
           "views": 4215050,
           "likes": 34207,
           "comments": 275
+        },
+        {
+          "date": "2026-08-12",
+          "views": 4218881,
+          "likes": 34234,
+          "comments": 276
         }
       ]
     },
@@ -9766,6 +9837,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-11T15:05:59.924866+00:00"
+    },
+    {
+      "date": "2026-08-12",
+      "metric": "monthly_listeners",
+      "value": 1771263,
+      "baseline_mean": 1724397.8,
+      "baseline_stddev": 18673.1,
+      "delta": 46865,
+      "score": 2.51,
+      "type": "annotated",
+      "related_annotation": "アニメ映画『ghost／夜の果て』特報映像公開（挿入歌「Sugar」披露）の反響",
+      "detected_at": "2026-08-12T15:06:56.338913+00:00"
     }
   ]
 }

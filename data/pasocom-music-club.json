@@ -4886,6 +4886,47 @@
       "ytm_subscribers": 38300,
       "ytm_monthly_listeners": 61900,
       "ytm_total_views": 8277833
+    },
+    {
+      "date": "2026-08-12",
+      "monthly_listeners": 47114,
+      "collected_at": "2026-08-12T15:09:15.433432+00:00",
+      "spotify_followers": 52316,
+      "youtube_subscribers": 38400,
+      "youtube_total_views": 8791734,
+      "youtube_video_count": 81,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3128
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1260
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 808
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 713
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 711
+        }
+      ],
+      "lastfm_listeners": 24282,
+      "lastfm_playcount": 407925,
+      "ytm_subscribers": 38400,
+      "ytm_monthly_listeners": 63500,
+      "ytm_total_views": 8549257
     }
   ],
   "metadata": {
@@ -4920,16 +4961,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "tofubeats",
-        "browse_id": "UCDsYyiCcQPwmgkDiHsaGB2A",
-        "subscribers": "478K"
-      },
-      {
-        "name": "capsule",
-        "browse_id": "UCZsrsPpiAC4-aXPXSRzFJhQ",
-        "subscribers": "947K"
-      },
-      {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
         "subscribers": "111K"
@@ -4947,27 +4978,37 @@
       {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
-        "subscribers": "140K"
+        "subscribers": "145K"
       },
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "203K"
+        "subscribers": "209K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "90K"
+        "subscribers": "92.9K"
       },
       {
         "name": "Ako",
         "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "121K"
+        "subscribers": "127K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "105K"
+        "subscribers": "108K"
+      },
+      {
+        "name": "Shinichi Osawa",
+        "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
+        "subscribers": "273K"
+      },
+      {
+        "name": "Dirty Androids",
+        "browse_id": "UChAifL81ox-Tpm-tZ0LU65A",
+        "subscribers": "3.99K"
       }
     ],
     "ytm_top_songs": [
@@ -5699,6 +5740,12 @@
           "views": 148868,
           "likes": 2815,
           "comments": 25
+        },
+        {
+          "date": "2026-08-12",
+          "views": 149216,
+          "likes": 2819,
+          "comments": 26
         }
       ]
     },
@@ -6405,6 +6452,12 @@
           "date": "2026-08-11",
           "views": 604772,
           "likes": 5525,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-12",
+          "views": 605160,
+          "likes": 5527,
           "comments": 18
         }
       ]
@@ -7113,6 +7166,12 @@
           "views": 335774,
           "likes": 3573,
           "comments": 7
+        },
+        {
+          "date": "2026-08-12",
+          "views": 336048,
+          "likes": 3575,
+          "comments": 7
         }
       ]
     },
@@ -7818,6 +7877,12 @@
         {
           "date": "2026-08-11",
           "views": 59415,
+          "likes": 193,
+          "comments": 1
+        },
+        {
+          "date": "2026-08-12",
+          "views": 59544,
           "likes": 193,
           "comments": 1
         }
@@ -8526,6 +8591,12 @@
           "date": "2026-08-11",
           "views": 131463,
           "likes": 1635,
+          "comments": 15
+        },
+        {
+          "date": "2026-08-12",
+          "views": 131620,
+          "likes": 1638,
           "comments": 15
         }
       ]
@@ -9447,6 +9518,18 @@
       "type": "annotated",
       "related_annotation": "サマソニ2026 Spotify Stage出演発表による事前露出増加",
       "detected_at": "2026-08-11T15:08:10.420213+00:00"
+    },
+    {
+      "date": "2026-08-12",
+      "metric": "monthly_listeners",
+      "value": 47114,
+      "baseline_mean": 44961.3,
+      "baseline_stddev": 817.9,
+      "delta": 2152,
+      "score": 2.63,
+      "type": "annotated",
+      "related_annotation": "サマソニ2026 Spotify Stage出演発表による事前露出増加",
+      "detected_at": "2026-08-12T15:09:17.012894+00:00"
     }
   ]
 }

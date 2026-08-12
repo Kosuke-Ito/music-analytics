@@ -5077,6 +5077,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 205000,
       "ytm_total_views": 44176390
+    },
+    {
+      "date": "2026-08-12",
+      "monthly_listeners": 222565,
+      "collected_at": "2026-08-12T14:51:26.392228+00:00",
+      "spotify_followers": 142612,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44485030,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8204
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6264
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4191
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2664
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2118
+        }
+      ],
+      "lastfm_listeners": 71051,
+      "lastfm_playcount": 1194029,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 220000,
+      "ytm_total_views": 44176390
     }
   ],
   "metadata": {
@@ -5133,54 +5174,54 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Wasureranneyo",
+        "browse_id": "UCv3Y-_JVxHwYjnMoqGPMuyw",
+        "subscribers": "11.4M"
+      },
+      {
         "name": "yonige",
         "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
         "subscribers": "350K"
       },
       {
-        "name": "Wasureranneyo",
-        "browse_id": "UCv3Y-_JVxHwYjnMoqGPMuyw",
-        "subscribers": "10.8M"
-      },
-      {
         "name": "Mega Shinnosuke",
         "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
-        "subscribers": "5.49M"
+        "subscribers": "5.79M"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "90K"
+        "subscribers": "92.9K"
       },
       {
         "name": "Huwie Ishizaki",
         "browse_id": "UCgr4h11LzQneG3a2D1q1obA",
-        "subscribers": "259K"
+        "subscribers": "266K"
       },
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "91.5K"
+        "subscribers": "97.7K"
       },
       {
         "name": "Genie High",
         "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "484K"
+        "subscribers": "501K"
       },
       {
         "name": "Base Ball Bear",
         "browse_id": "UCiLo1ZMUrpzZHi_hVL3waXg",
-        "subscribers": "189K"
+        "subscribers": "197K"
       },
       {
         "name": "soshina",
         "browse_id": "UCDSdzSyvZV9RsJATuhTq9Ww",
-        "subscribers": "2.47M"
+        "subscribers": "2.54M"
       },
       {
         "name": "KYUSONEKOKAMI",
         "browse_id": "UCg5CC8y5uuCJaDnv2EuWfXg",
-        "subscribers": "85.8K"
+        "subscribers": "87.9K"
       }
     ],
     "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia ("
@@ -5963,6 +6004,12 @@
           "views": 15207,
           "likes": 201,
           "comments": 3
+        },
+        {
+          "date": "2026-08-12",
+          "views": 15237,
+          "likes": 202,
+          "comments": 3
         }
       ]
     },
@@ -6693,6 +6740,12 @@
           "date": "2026-08-11",
           "views": 932988,
           "likes": 11756,
+          "comments": 32
+        },
+        {
+          "date": "2026-08-12",
+          "views": 933638,
+          "likes": 11765,
           "comments": 32
         }
       ]
@@ -7880,6 +7933,12 @@
           "views": 234371,
           "likes": 1715,
           "comments": 7
+        },
+        {
+          "date": "2026-08-12",
+          "views": 234571,
+          "likes": 1717,
+          "comments": 7
         }
       ]
     },
@@ -8539,6 +8598,12 @@
           "views": 419606,
           "likes": 6164,
           "comments": 22
+        },
+        {
+          "date": "2026-08-12",
+          "views": 419814,
+          "likes": 6166,
+          "comments": 22
         }
       ]
     },
@@ -8884,6 +8949,12 @@
           "date": "2026-08-11",
           "views": 7975,
           "likes": 84,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-12",
+          "views": 8044,
+          "likes": 85,
           "comments": 4
         }
       ]
@@ -9284,6 +9355,18 @@
       "type": "annotated",
       "related_annotation": "「That's All I Wish」（6/14配信）の28日ローリング集計反映でYTM月間リスナーが上昇",
       "detected_at": "2026-07-15T15:19:49.298859+00:00"
+    },
+    {
+      "date": "2026-08-12",
+      "metric": "ytm_monthly_listeners",
+      "value": 220000,
+      "baseline_mean": 209433.3,
+      "baseline_stddev": 3870.3,
+      "delta": 10566,
+      "score": 2.73,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-12T14:51:27.784958+00:00"
     }
   ]
 }

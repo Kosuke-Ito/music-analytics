@@ -5036,6 +5036,47 @@
       "ytm_subscribers": 167000,
       "ytm_monthly_listeners": 3340000,
       "ytm_total_views": 77542652
+    },
+    {
+      "date": "2026-08-12",
+      "monthly_listeners": 218043,
+      "collected_at": "2026-08-12T14:54:52.951975+00:00",
+      "spotify_followers": 114063,
+      "youtube_subscribers": 167000,
+      "youtube_total_views": 78230918,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6906
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 5859
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4192
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 2840
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2509
+        }
+      ],
+      "lastfm_listeners": 35649,
+      "lastfm_playcount": 536213,
+      "ytm_subscribers": 167000,
+      "ytm_monthly_listeners": 3420000,
+      "ytm_total_views": 77542652
     }
   ],
   "metadata": {
@@ -5072,32 +5113,37 @@
       {
         "name": "UshioReira",
         "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
-        "subscribers": "741K"
+        "subscribers": "773K"
       },
       {
         "name": "703goushitsu",
         "browse_id": "UCb-IpTqX5VlD4l4gp8yLWpw",
-        "subscribers": "1.33M"
+        "subscribers": "1.35M"
       },
       {
         "name": "harha",
         "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "275K"
+        "subscribers": "285K"
       },
       {
         "name": "Ohashi Chippoke",
         "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "180K"
+        "subscribers": "184K"
+      },
+      {
+        "name": "hockrockb",
+        "browse_id": "UCkgOP8Xy2stY3WbSzILWBNQ",
+        "subscribers": "303K"
       },
       {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "98.1K"
+        "subscribers": "100K"
       },
       {
         "name": "Conton Candy",
         "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
-        "subscribers": "2.22M"
+        "subscribers": "2.27M"
       },
       {
         "name": "CHIAKI MAYUMURA",
@@ -5113,11 +5159,6 @@
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "27.1K"
-      },
-      {
-        "name": "Ami Sakaguchi",
-        "browse_id": "UCtf9vzH5ZH02kBzOVL3XmYQ",
-        "subscribers": "152K"
       }
     ],
     "ytm_top_songs": [
@@ -5861,6 +5902,12 @@
           "views": 1061804,
           "likes": 10225,
           "comments": 191
+        },
+        {
+          "date": "2026-08-12",
+          "views": 1062288,
+          "likes": 10231,
+          "comments": 191
         }
       ]
     },
@@ -6585,6 +6632,12 @@
           "date": "2026-08-11",
           "views": 887572,
           "likes": 8538,
+          "comments": 43
+        },
+        {
+          "date": "2026-08-12",
+          "views": 888227,
+          "likes": 8542,
           "comments": 43
         }
       ]
@@ -7311,6 +7364,12 @@
           "views": 430656,
           "likes": 3942,
           "comments": 47
+        },
+        {
+          "date": "2026-08-12",
+          "views": 431106,
+          "likes": 3941,
+          "comments": 47
         }
       ]
     },
@@ -7807,6 +7866,12 @@
           "date": "2026-08-11",
           "views": 1107223,
           "likes": 11657,
+          "comments": 139
+        },
+        {
+          "date": "2026-08-12",
+          "views": 1107674,
+          "likes": 11658,
           "comments": 139
         }
       ]
@@ -8537,6 +8602,12 @@
           "date": "2026-08-11",
           "views": 58258,
           "likes": 714,
+          "comments": 14
+        },
+        {
+          "date": "2026-08-12",
+          "views": 58426,
+          "likes": 715,
           "comments": 14
         }
       ]
@@ -9507,6 +9578,18 @@
       "type": "annotated",
       "related_annotation": "新曲「アプデキュート」CANMAKEタイアップ効果か",
       "detected_at": "2026-08-11T14:54:18.488720+00:00"
+    },
+    {
+      "date": "2026-08-12",
+      "metric": "youtube_total_views",
+      "value": 78230918,
+      "baseline_mean": 77652804.6,
+      "baseline_stddev": 213852.3,
+      "delta": 578113,
+      "score": 2.7,
+      "type": "annotated",
+      "related_annotation": "新曲「アプデキュート」CANMAKEタイアップ効果か",
+      "detected_at": "2026-08-12T14:54:53.961879+00:00"
     }
   ]
 }
