@@ -5006,6 +5006,47 @@
       "ytm_subscribers": 874000,
       "ytm_monthly_listeners": 2500000,
       "ytm_total_views": 591821622
+    },
+    {
+      "date": "2026-08-13",
+      "monthly_listeners": 1791272,
+      "collected_at": "2026-08-13T15:05:54.861360+00:00",
+      "spotify_followers": 1515881,
+      "youtube_subscribers": 874000,
+      "youtube_total_views": 593436961,
+      "youtube_video_count": 140,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 90355
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 84146
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 64184
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 37153
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 36214
+        }
+      ],
+      "lastfm_listeners": 59194,
+      "lastfm_playcount": 1680160,
+      "ytm_subscribers": 874000,
+      "ytm_monthly_listeners": 2510000,
+      "ytm_total_views": 591821622
     }
   ],
   "annotations": [
@@ -5323,29 +5364,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Second backer",
-        "browse_id": "UCZgg9_VmBAYupqk5ObECmng",
-        "subscribers": "1.93M"
-      },
-      {
-        "name": "Marcy",
-        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "2.05M"
-      },
-      {
         "name": "the shes gone",
         "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
-        "subscribers": "230K"
+        "subscribers": "237K"
       },
       {
         "name": "Kepura",
         "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
-        "subscribers": "72.1K"
+        "subscribers": "71.7K"
       },
       {
         "name": "moon drop",
         "browse_id": "UCPqgXlQbbSCVYuzUqN1G5hQ",
-        "subscribers": "176K"
+        "subscribers": "178K"
       },
       {
         "name": "Mr.Forte",
@@ -5355,22 +5386,32 @@
       {
         "name": "YUTORI-SEDAI",
         "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "253K"
+        "subscribers": "254K"
       },
       {
         "name": "tokyo kimiga inai machi",
         "browse_id": "UCcMmtei7oDCXplPI2g9ssqg",
-        "subscribers": "2.46K"
+        "subscribers": "2.45K"
       },
       {
         "name": "KALMA",
         "browse_id": "UCyqvlYYpThgO5eHqgrF6B9A",
-        "subscribers": "72.9K"
+        "subscribers": "74.3K"
       },
       {
         "name": "PERKERS",
         "browse_id": "UCDuET5BNAZkXySSy4RU-QHw",
         "subscribers": "18.7K"
+      },
+      {
+        "name": "bokula.",
+        "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
+        "subscribers": "501K"
+      },
+      {
+        "name": "OKOJO",
+        "browse_id": "UC72BuEsyI8_Zvg7tviQsVxA",
+        "subscribers": "2.31M"
       }
     ],
     "ytm_top_songs": [
@@ -6126,6 +6167,12 @@
           "views": 5416805,
           "likes": 23401,
           "comments": 55
+        },
+        {
+          "date": "2026-08-13",
+          "views": 5432519,
+          "likes": 23467,
+          "comments": 55
         }
       ]
     },
@@ -6844,6 +6891,12 @@
           "date": "2026-08-12",
           "views": 5914691,
           "likes": 27099,
+          "comments": 50
+        },
+        {
+          "date": "2026-08-13",
+          "views": 5932119,
+          "likes": 27181,
           "comments": 50
         }
       ]
@@ -7576,6 +7629,12 @@
           "views": 3194760,
           "likes": 16498,
           "comments": 39
+        },
+        {
+          "date": "2026-08-13",
+          "views": 3204066,
+          "likes": 16527,
+          "comments": 39
         }
       ]
     },
@@ -8294,6 +8353,12 @@
           "date": "2026-08-12",
           "views": 3622480,
           "likes": 20780,
+          "comments": 43
+        },
+        {
+          "date": "2026-08-13",
+          "views": 3631614,
+          "likes": 20821,
           "comments": 43
         }
       ]
@@ -9065,6 +9130,12 @@
           "views": 3093801,
           "likes": 12610,
           "comments": 33
+        },
+        {
+          "date": "2026-08-13",
+          "views": 3103497,
+          "likes": 12646,
+          "comments": 33
         }
       ]
     }
@@ -9729,6 +9800,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-12T15:06:19.478476+00:00"
+    },
+    {
+      "date": "2026-08-13",
+      "metric": "monthly_listeners",
+      "value": 1791272,
+      "baseline_mean": 1771607.5,
+      "baseline_stddev": 6164.7,
+      "delta": 19664,
+      "score": 3.19,
+      "type": "annotated",
+      "related_annotation": "SUMMER SONIC 2026等、夏フェス連続出演による露出増",
+      "detected_at": "2026-08-13T15:05:56.974715+00:00"
+    },
+    {
+      "date": "2026-08-13",
+      "metric": "ytm_monthly_listeners",
+      "value": 2510000,
+      "baseline_mean": 2421000,
+      "baseline_stddev": 40771.7,
+      "delta": 89000,
+      "score": 2.18,
+      "type": "annotated",
+      "related_annotation": "SUMMER SONIC 2026等、夏フェス連続出演による露出増",
+      "detected_at": "2026-08-13T15:05:56.974715+00:00"
     }
   ]
 }

@@ -5000,6 +5000,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 11700000,
       "ytm_total_views": 1886716892
+    },
+    {
+      "date": "2026-08-13",
+      "monthly_listeners": 3382080,
+      "collected_at": "2026-08-13T15:04:12.299696+00:00",
+      "spotify_followers": 2876356,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1889427657,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 78578
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 74109
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 67513
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 48930
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40486
+        }
+      ],
+      "lastfm_listeners": 502738,
+      "lastfm_playcount": 25637794,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 11800000,
+      "ytm_total_views": 1886716892
     }
   ],
   "metadata": {
@@ -5036,12 +5077,12 @@
       {
         "name": "Rei Yasuda",
         "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
-        "subscribers": "247K"
+        "subscribers": "249K"
       },
       {
         "name": "majiko",
         "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "420K"
+        "subscribers": "417K"
       },
       {
         "name": "krage",
@@ -5051,12 +5092,12 @@
       {
         "name": "YOURNESS",
         "browse_id": "UCjAUZTGqk_ggJmFMNurtgng",
-        "subscribers": "289K"
+        "subscribers": "290K"
       },
       {
         "name": "sajou no hana",
         "browse_id": "UCWNPJK9pQWSRiyr-b6nmQ4Q",
-        "subscribers": "335K"
+        "subscribers": "342K"
       },
       {
         "name": "MIYUNA",
@@ -5066,22 +5107,22 @@
       {
         "name": "Anly",
         "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
-        "subscribers": "4.94M"
-      },
-      {
-        "name": "kobasolo",
-        "browse_id": "UCukBv_7AJU7AZHcidF0HIvQ",
-        "subscribers": "3.76M"
-      },
-      {
-        "name": "EGOIST",
-        "browse_id": "UCKZLPAAyImrkYnDVR0O2UXQ",
-        "subscribers": "1.3M"
+        "subscribers": "4.88M"
       },
       {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "19.7M"
+        "subscribers": "20.3M"
+      },
+      {
+        "name": "Lilas",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "17.2M"
+      },
+      {
+        "name": "Chiai Fujikawa",
+        "browse_id": "UCpzy28Kw66pBn5o8uP3m4tA",
+        "subscribers": "429K"
       }
     ],
     "ytm_top_songs": [
@@ -5831,6 +5872,12 @@
           "views": 41972460,
           "likes": 294101,
           "comments": 1611
+        },
+        {
+          "date": "2026-08-13",
+          "views": 42010980,
+          "likes": 294326,
+          "comments": 1614
         }
       ]
     },
@@ -6555,6 +6602,12 @@
           "date": "2026-08-12",
           "views": 34308240,
           "likes": 157379,
+          "comments": 157
+        },
+        {
+          "date": "2026-08-13",
+          "views": 34325476,
+          "likes": 157423,
           "comments": 157
         }
       ]
@@ -7281,6 +7334,12 @@
           "views": 21230913,
           "likes": 117557,
           "comments": 292
+        },
+        {
+          "date": "2026-08-13",
+          "views": 21245823,
+          "likes": 117625,
+          "comments": 294
         }
       ]
     },
@@ -7951,6 +8010,12 @@
           "date": "2026-08-12",
           "views": 5822949,
           "likes": 58027,
+          "comments": 921
+        },
+        {
+          "date": "2026-08-13",
+          "views": 5830638,
+          "likes": 58062,
           "comments": 921
         }
       ]
@@ -8712,6 +8777,12 @@
           "views": 31574385,
           "likes": 134813,
           "comments": 775
+        },
+        {
+          "date": "2026-08-13",
+          "views": 31599269,
+          "likes": 134880,
+          "comments": 775
         }
       ]
     },
@@ -9386,6 +9457,18 @@
       "type": "annotated",
       "related_annotation": "「鬼滅の刃 無限城編」海外配信でAimer新曲が世界的に浸透",
       "detected_at": "2026-08-12T15:04:34.418456+00:00"
+    },
+    {
+      "date": "2026-08-13",
+      "metric": "ytm_monthly_listeners",
+      "value": 11800000,
+      "baseline_mean": 10638000,
+      "baseline_stddev": 527436.6,
+      "delta": 1162000,
+      "score": 2.2,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-13T15:04:13.636647+00:00"
     }
   ]
 }

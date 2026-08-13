@@ -5006,6 +5006,47 @@
       "ytm_subscribers": 315000,
       "ytm_monthly_listeners": 3520000,
       "ytm_total_views": 319076017
+    },
+    {
+      "date": "2026-08-13",
+      "monthly_listeners": 1480570,
+      "collected_at": "2026-08-13T15:08:14.185619+00:00",
+      "spotify_followers": 338321,
+      "youtube_subscribers": 315000,
+      "youtube_total_views": 322432982,
+      "youtube_video_count": 222,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 46098
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 42821
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 35542
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 18171
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 16722
+        }
+      ],
+      "lastfm_listeners": 143322,
+      "lastfm_playcount": 2527900,
+      "ytm_subscribers": 315000,
+      "ytm_monthly_listeners": 3570000,
+      "ytm_total_views": 319076017
     }
   ],
   "annotations": [
@@ -5369,16 +5410,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Mosawo",
-        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
-        "subscribers": "1.15M"
-      },
-      {
-        "name": "UshioReira",
-        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
-        "subscribers": "773K"
-      },
-      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "27.1K"
@@ -5386,12 +5417,12 @@
       {
         "name": "EISYU",
         "browse_id": "UCQ1dCsHilcsF2YOVXEI-4VA",
-        "subscribers": "104K"
+        "subscribers": "101K"
       },
       {
         "name": "First Love is Never Returned",
         "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "78.4K"
+        "subscribers": "78K"
       },
       {
         "name": "KERENMI",
@@ -5401,12 +5432,12 @@
       {
         "name": "Reini",
         "browse_id": "UC2PTQOPrZautcQGly-U6Uqw",
-        "subscribers": "80.7K"
+        "subscribers": "80.3K"
       },
       {
         "name": "Absolute area",
         "browse_id": "UCFuSjXQWPqp1YnVgxG3KLXA",
-        "subscribers": "70.1K"
+        "subscribers": "70.6K"
       },
       {
         "name": "saji",
@@ -5414,9 +5445,19 @@
         "subscribers": "107K"
       },
       {
-        "name": "KAMI WA SAIKORO WO FURANAI",
-        "browse_id": "UCBX3AdkQtdXZkBuM8ojQ8jA",
-        "subscribers": "259K"
+        "name": "Mosawo",
+        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
+        "subscribers": "1.16M"
+      },
+      {
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "6.21M"
+      },
+      {
+        "name": "wacci",
+        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
+        "subscribers": "1.74M"
       }
     ],
     "ytm_top_songs": [
@@ -6172,6 +6213,12 @@
           "views": 11956227,
           "likes": 55886,
           "comments": 203
+        },
+        {
+          "date": "2026-08-13",
+          "views": 11965260,
+          "likes": 55907,
+          "comments": 203
         }
       ]
     },
@@ -6903,6 +6950,12 @@
           "views": 851452,
           "likes": 8659,
           "comments": 90
+        },
+        {
+          "date": "2026-08-13",
+          "views": 852702,
+          "likes": 8663,
+          "comments": 90
         }
       ]
     },
@@ -7609,6 +7662,12 @@
           "date": "2026-08-12",
           "views": 2293342,
           "likes": 17060,
+          "comments": 61
+        },
+        {
+          "date": "2026-08-13",
+          "views": 2294636,
+          "likes": 17066,
           "comments": 61
         }
       ]
@@ -8867,6 +8926,12 @@
           "views": 1055891,
           "likes": 9804,
           "comments": 86
+        },
+        {
+          "date": "2026-08-13",
+          "views": 1056711,
+          "likes": 9808,
+          "comments": 86
         }
       ]
     },
@@ -9115,6 +9180,12 @@
           "date": "2026-08-12",
           "views": 52208,
           "likes": 788,
+          "comments": 21
+        },
+        {
+          "date": "2026-08-13",
+          "views": 53424,
+          "likes": 797,
           "comments": 21
         }
       ]
@@ -9756,6 +9827,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-05T16:11:26.544989+00:00"
+    },
+    {
+      "date": "2026-08-13",
+      "metric": "monthly_listeners",
+      "value": 1480570,
+      "baseline_mean": 1433022.9,
+      "baseline_stddev": 20856.1,
+      "delta": 47547,
+      "score": 2.28,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-13T15:08:15.740309+00:00"
     }
   ]
 }

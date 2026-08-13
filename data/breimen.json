@@ -5114,6 +5114,47 @@
       "ytm_subscribers": 29400,
       "ytm_monthly_listeners": 97700,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-13",
+      "monthly_listeners": 56040,
+      "collected_at": "2026-08-13T14:51:46.002212+00:00",
+      "spotify_followers": 36486,
+      "youtube_subscribers": 29400,
+      "youtube_total_views": 15515677,
+      "youtube_video_count": 186,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2117
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1311
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 944
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 682
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 415
+        }
+      ],
+      "lastfm_listeners": 19985,
+      "lastfm_playcount": 220813,
+      "ytm_subscribers": 29400,
+      "ytm_monthly_listeners": 98200,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5149,27 +5190,22 @@
       {
         "name": "Mega Shinnosuke",
         "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
-        "subscribers": "5.79M"
-      },
-      {
-        "name": "BACARDI RECORDS",
-        "browse_id": "UCWA1tdUUThQQnI0keyAOSqQ",
-        "subscribers": "579"
+        "subscribers": "5.84M"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "92.9K"
+        "subscribers": "92.5K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "108K"
+        "subscribers": "109K"
       },
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "73.9K"
+        "subscribers": "73.7K"
       },
       {
         "name": "Okamoto's",
@@ -5179,7 +5215,7 @@
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "73.4K"
+        "subscribers": "73.1K"
       },
       {
         "name": "SHINTOKYO",
@@ -5189,12 +5225,17 @@
       {
         "name": "Satoko Shibata",
         "browse_id": "UCHXbv9-c9QQow0_n5WKx5QQ",
-        "subscribers": "143K"
+        "subscribers": "140K"
       },
       {
         "name": "7th Vega",
         "browse_id": "UC_W5BfNNzkxWj911JSDAu9g",
-        "subscribers": "118K"
+        "subscribers": "116K"
+      },
+      {
+        "name": "Kayoko Yoshizawa",
+        "browse_id": "UCbyPRq7zMUVjKiY2teAETNg",
+        "subscribers": "253K"
       }
     ],
     "ytm_top_songs": [
@@ -5955,6 +5996,12 @@
           "views": 17152,
           "likes": 154,
           "comments": 3
+        },
+        {
+          "date": "2026-08-13",
+          "views": 17179,
+          "likes": 154,
+          "comments": 3
         }
       ]
     },
@@ -6690,6 +6737,12 @@
         {
           "date": "2026-08-12",
           "views": 50633,
+          "likes": 414,
+          "comments": 9
+        },
+        {
+          "date": "2026-08-13",
+          "views": 50851,
           "likes": 414,
           "comments": 9
         }
@@ -7429,6 +7482,12 @@
           "views": 217388,
           "likes": 2585,
           "comments": 38
+        },
+        {
+          "date": "2026-08-13",
+          "views": 217737,
+          "likes": 2587,
+          "comments": 38
         }
       ]
     },
@@ -8146,6 +8205,12 @@
         {
           "date": "2026-08-12",
           "views": 3809,
+          "likes": 57,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-13",
+          "views": 3816,
           "likes": 57,
           "comments": 5
         }
@@ -8918,6 +8983,12 @@
           "views": 2191,
           "likes": 24,
           "comments": 1
+        },
+        {
+          "date": "2026-08-13",
+          "views": 2205,
+          "likes": 24,
+          "comments": 1
         }
       ]
     }
@@ -9556,6 +9627,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-08-12T14:51:45.485457+00:00"
+    },
+    {
+      "date": "2026-08-13",
+      "metric": "ytm_monthly_listeners",
+      "value": 98200,
+      "baseline_mean": 78866.7,
+      "baseline_stddev": 7033.1,
+      "delta": 19333,
+      "score": 2.75,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-08-13T14:51:47.555990+00:00"
     }
   ]
 }

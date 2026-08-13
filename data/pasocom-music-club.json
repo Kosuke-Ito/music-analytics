@@ -4927,6 +4927,47 @@
       "ytm_subscribers": 38400,
       "ytm_monthly_listeners": 63500,
       "ytm_total_views": 8549257
+    },
+    {
+      "date": "2026-08-13",
+      "monthly_listeners": 47605,
+      "collected_at": "2026-08-13T15:08:48.646507+00:00",
+      "spotify_followers": 52357,
+      "youtube_subscribers": 38500,
+      "youtube_total_views": 8791734,
+      "youtube_video_count": 81,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3122
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1284
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 817
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 727
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 717
+        }
+      ],
+      "lastfm_listeners": 24286,
+      "lastfm_playcount": 408107,
+      "ytm_subscribers": 38500,
+      "ytm_monthly_listeners": 63500,
+      "ytm_total_views": 8549257
     }
   ],
   "metadata": {
@@ -4968,7 +5009,7 @@
       {
         "name": "80KIDZ",
         "browse_id": "UCNX3xsR7gTNXzcG8VyY3Z5g",
-        "subscribers": "3.9K"
+        "subscribers": "3.91K"
       },
       {
         "name": "AAAMYYY",
@@ -4978,32 +5019,32 @@
       {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
-        "subscribers": "145K"
+        "subscribers": "147K"
       },
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "209K"
+        "subscribers": "210K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "92.9K"
+        "subscribers": "92.5K"
       },
       {
         "name": "Ako",
         "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "127K"
+        "subscribers": "129K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "108K"
+        "subscribers": "109K"
       },
       {
         "name": "Shinichi Osawa",
         "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
-        "subscribers": "273K"
+        "subscribers": "281K"
       },
       {
         "name": "Dirty Androids",
@@ -5746,6 +5787,12 @@
           "views": 149216,
           "likes": 2819,
           "comments": 26
+        },
+        {
+          "date": "2026-08-13",
+          "views": 149678,
+          "likes": 2821,
+          "comments": 26
         }
       ]
     },
@@ -6458,6 +6505,12 @@
           "date": "2026-08-12",
           "views": 605160,
           "likes": 5527,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-13",
+          "views": 605656,
+          "likes": 5531,
           "comments": 18
         }
       ]
@@ -7172,6 +7225,12 @@
           "views": 336048,
           "likes": 3575,
           "comments": 7
+        },
+        {
+          "date": "2026-08-13",
+          "views": 336298,
+          "likes": 3579,
+          "comments": 7
         }
       ]
     },
@@ -7885,6 +7944,12 @@
           "views": 59544,
           "likes": 193,
           "comments": 1
+        },
+        {
+          "date": "2026-08-13",
+          "views": 59677,
+          "likes": 195,
+          "comments": 1
         }
       ]
     },
@@ -8596,6 +8661,12 @@
         {
           "date": "2026-08-12",
           "views": 131620,
+          "likes": 1638,
+          "comments": 15
+        },
+        {
+          "date": "2026-08-13",
+          "views": 131804,
           "likes": 1638,
           "comments": 15
         }
@@ -9530,6 +9601,18 @@
       "type": "annotated",
       "related_annotation": "サマソニ2026 Spotify Stage出演発表による事前露出増加",
       "detected_at": "2026-08-12T15:09:17.012894+00:00"
+    },
+    {
+      "date": "2026-08-13",
+      "metric": "monthly_listeners",
+      "value": 47605,
+      "baseline_mean": 45056.1,
+      "baseline_stddev": 893.7,
+      "delta": 2548,
+      "score": 2.85,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-13T15:08:50.267911+00:00"
     }
   ]
 }

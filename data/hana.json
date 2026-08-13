@@ -5003,6 +5003,47 @@
       "ytm_subscribers": 2260000,
       "ytm_monthly_listeners": 29700000,
       "ytm_total_views": 1320715804
+    },
+    {
+      "date": "2026-08-13",
+      "monthly_listeners": 4008574,
+      "collected_at": "2026-08-13T15:05:04.514584+00:00",
+      "spotify_followers": 1062830,
+      "youtube_subscribers": 2260000,
+      "youtube_total_views": 1818105279,
+      "youtube_video_count": 127,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 137858
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 137582
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 102170
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 53134
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 52755
+        }
+      ],
+      "lastfm_listeners": 209342,
+      "lastfm_playcount": 3505209,
+      "ytm_subscribers": 2260000,
+      "ytm_monthly_listeners": 29700000,
+      "ytm_total_views": 1320715804
     }
   ],
   "annotations": [
@@ -5522,27 +5563,27 @@
       {
         "name": "IS:SUE",
         "browse_id": "UCYZICDQsFDgjq1lO58Fy3Ww",
-        "subscribers": "735K"
+        "subscribers": "726K"
       },
       {
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "877K"
+        "subscribers": "878K"
       },
       {
         "name": "NiziU",
         "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "5.28M"
+        "subscribers": "5.21M"
+      },
+      {
+        "name": "CUTIE STREET",
+        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
+        "subscribers": "26.1M"
       },
       {
         "name": "CHANMINA",
         "browse_id": "UCbP9pkxQrpunbu3FF7BihQw",
-        "subscribers": "10.4M"
-      },
-      {
-        "name": "ME:I",
-        "browse_id": "UCmVWcCVzrEgVfNZLY80hfHw",
-        "subscribers": "7.75M"
+        "subscribers": "10.5M"
       },
       {
         "name": "BE:FIRST",
@@ -5550,14 +5591,14 @@
         "subscribers": "13.5M"
       },
       {
-        "name": "CUTIE STREET",
-        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
-        "subscribers": "25.9M"
-      },
-      {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
         "subscribers": "1.81M"
+      },
+      {
+        "name": "ME:I",
+        "browse_id": "UCmVWcCVzrEgVfNZLY80hfHw",
+        "subscribers": "7.75M"
       }
     ],
     "ytm_top_songs": [
@@ -6301,6 +6342,12 @@
           "views": 155231,
           "likes": 1304,
           "comments": 25
+        },
+        {
+          "date": "2026-08-13",
+          "views": 155798,
+          "likes": 1311,
+          "comments": 25
         }
       ]
     },
@@ -7019,6 +7066,12 @@
           "date": "2026-08-12",
           "views": 307403,
           "likes": 2376,
+          "comments": 24
+        },
+        {
+          "date": "2026-08-13",
+          "views": 309678,
+          "likes": 2399,
           "comments": 24
         }
       ]
@@ -8098,6 +8151,12 @@
           "views": 512377,
           "likes": 3114,
           "comments": 15
+        },
+        {
+          "date": "2026-08-13",
+          "views": 515070,
+          "likes": 3127,
+          "comments": 15
         }
       ]
     },
@@ -9140,6 +9199,12 @@
           "views": 477393,
           "likes": 3206,
           "comments": 46
+        },
+        {
+          "date": "2026-08-13",
+          "views": 478084,
+          "likes": 3214,
+          "comments": 46
         }
       ]
     },
@@ -9242,6 +9307,12 @@
           "views": 1869772,
           "likes": 47436,
           "comments": 1941
+        },
+        {
+          "date": "2026-08-13",
+          "views": 1964968,
+          "likes": 48533,
+          "comments": 1946
         }
       ]
     }
@@ -9786,6 +9857,30 @@
       "type": "annotated",
       "related_annotation": "McCafé CM露出継続と「ROSE」TikTokバズが重なり指標がほぼ倍増",
       "detected_at": "2026-08-12T15:05:25.789785+00:00"
+    },
+    {
+      "date": "2026-08-13",
+      "metric": "monthly_listeners",
+      "value": 4008574,
+      "baseline_mean": 2985794.5,
+      "baseline_stddev": 455531.3,
+      "delta": 1022779,
+      "score": 2.25,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-13T15:05:06.008117+00:00"
+    },
+    {
+      "date": "2026-08-13",
+      "metric": "ytm_monthly_listeners",
+      "value": 29700000,
+      "baseline_mean": 15253333.3,
+      "baseline_stddev": 5702966.1,
+      "delta": 14446666,
+      "score": 2.53,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-13T15:05:06.008117+00:00"
     }
   ]
 }

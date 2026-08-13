@@ -5118,6 +5118,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 220000,
       "ytm_total_views": 44176390
+    },
+    {
+      "date": "2026-08-13",
+      "monthly_listeners": 224262,
+      "collected_at": "2026-08-13T14:51:28.413688+00:00",
+      "spotify_followers": 142631,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44485030,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8189
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6315
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4238
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2659
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2143
+        }
+      ],
+      "lastfm_listeners": 71051,
+      "lastfm_playcount": 1194029,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 220000,
+      "ytm_total_views": 44176390
     }
   ],
   "metadata": {
@@ -5174,24 +5215,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Wasureranneyo",
-        "browse_id": "UCv3Y-_JVxHwYjnMoqGPMuyw",
-        "subscribers": "11.4M"
-      },
-      {
-        "name": "yonige",
-        "browse_id": "UCKhbi8qGO_mUrXKBE25noIA",
-        "subscribers": "350K"
-      },
-      {
         "name": "Mega Shinnosuke",
         "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
-        "subscribers": "5.79M"
+        "subscribers": "5.84M"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "92.9K"
+        "subscribers": "92.5K"
       },
       {
         "name": "Huwie Ishizaki",
@@ -5201,12 +5232,12 @@
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "97.7K"
+        "subscribers": "98.2K"
       },
       {
         "name": "Genie High",
         "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "501K"
+        "subscribers": "506K"
       },
       {
         "name": "Base Ball Bear",
@@ -5216,12 +5247,22 @@
       {
         "name": "soshina",
         "browse_id": "UCDSdzSyvZV9RsJATuhTq9Ww",
-        "subscribers": "2.54M"
+        "subscribers": "2.55M"
       },
       {
         "name": "KYUSONEKOKAMI",
         "browse_id": "UCg5CC8y5uuCJaDnv2EuWfXg",
-        "subscribers": "87.9K"
+        "subscribers": "88.4K"
+      },
+      {
+        "name": "w.o.d.",
+        "browse_id": "UCiylP7HTmtQZO9hi-B5wnCg",
+        "subscribers": "196K"
+      },
+      {
+        "name": "Yoru No Honki Dance",
+        "browse_id": "UCaZGUqEL8pzFRgLXXJ4dL2Q",
+        "subscribers": "117K"
       }
     ],
     "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia ("
@@ -6010,6 +6051,12 @@
           "views": 15237,
           "likes": 202,
           "comments": 3
+        },
+        {
+          "date": "2026-08-13",
+          "views": 15279,
+          "likes": 202,
+          "comments": 3
         }
       ]
     },
@@ -6746,6 +6793,12 @@
           "date": "2026-08-12",
           "views": 933638,
           "likes": 11765,
+          "comments": 32
+        },
+        {
+          "date": "2026-08-13",
+          "views": 934275,
+          "likes": 11766,
           "comments": 32
         }
       ]
@@ -7939,6 +7992,12 @@
           "views": 234571,
           "likes": 1717,
           "comments": 7
+        },
+        {
+          "date": "2026-08-13",
+          "views": 234748,
+          "likes": 1719,
+          "comments": 7
         }
       ]
     },
@@ -8604,6 +8663,12 @@
           "views": 419814,
           "likes": 6166,
           "comments": 22
+        },
+        {
+          "date": "2026-08-13",
+          "views": 420069,
+          "likes": 6169,
+          "comments": 22
         }
       ]
     },
@@ -8955,6 +9020,12 @@
           "date": "2026-08-12",
           "views": 8044,
           "likes": 85,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-13",
+          "views": 8100,
+          "likes": 87,
           "comments": 4
         }
       ]
@@ -9376,6 +9447,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-12T14:51:27.784958+00:00"
+    },
+    {
+      "date": "2026-08-13",
+      "metric": "ytm_monthly_listeners",
+      "value": 220000,
+      "baseline_mean": 209533.3,
+      "baseline_stddev": 4096.6,
+      "delta": 10466,
+      "score": 2.55,
+      "type": "annotated",
+      "related_annotation": "8/15開幕ホールツアー直前の宣伝効果＋既存タイアップ曲の継続露出",
+      "detected_at": "2026-08-13T14:51:29.679241+00:00"
     }
   ]
 }
