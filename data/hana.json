@@ -5044,6 +5044,47 @@
       "ytm_subscribers": 2260000,
       "ytm_monthly_listeners": 29700000,
       "ytm_total_views": 1320715804
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 4068895,
+      "collected_at": "2026-08-14T14:58:36.076790+00:00",
+      "spotify_followers": 1064287,
+      "youtube_subscribers": 2260000,
+      "youtube_total_views": 1818105279,
+      "youtube_video_count": 127,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 138913
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 137309
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 102863
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 53597
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 52923
+        }
+      ],
+      "lastfm_listeners": 209408,
+      "lastfm_playcount": 3507091,
+      "ytm_subscribers": 2260000,
+      "ytm_monthly_listeners": 29700000,
+      "ytm_total_views": 1320715804
     }
   ],
   "annotations": [
@@ -5576,9 +5617,9 @@
         "subscribers": "5.21M"
       },
       {
-        "name": "CUTIE STREET",
-        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
-        "subscribers": "26.1M"
+        "name": "MAZZEL",
+        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
+        "subscribers": "1.81M"
       },
       {
         "name": "CHANMINA",
@@ -5591,9 +5632,9 @@
         "subscribers": "13.5M"
       },
       {
-        "name": "MAZZEL",
-        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "1.81M"
+        "name": "CUTIE STREET",
+        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
+        "subscribers": "26.1M"
       },
       {
         "name": "ME:I",
@@ -6348,6 +6389,12 @@
           "views": 155798,
           "likes": 1311,
           "comments": 25
+        },
+        {
+          "date": "2026-08-14",
+          "views": 156330,
+          "likes": 1313,
+          "comments": 25
         }
       ]
     },
@@ -7072,6 +7119,12 @@
           "date": "2026-08-13",
           "views": 309678,
           "likes": 2399,
+          "comments": 24
+        },
+        {
+          "date": "2026-08-14",
+          "views": 311713,
+          "likes": 2408,
           "comments": 24
         }
       ]
@@ -8157,6 +8210,12 @@
           "views": 515070,
           "likes": 3127,
           "comments": 15
+        },
+        {
+          "date": "2026-08-14",
+          "views": 517878,
+          "likes": 3133,
+          "comments": 16
         }
       ]
     },
@@ -9205,6 +9264,12 @@
           "views": 478084,
           "likes": 3214,
           "comments": 46
+        },
+        {
+          "date": "2026-08-14",
+          "views": 478772,
+          "likes": 3218,
+          "comments": 46
         }
       ]
     },
@@ -9313,6 +9378,12 @@
           "views": 1964968,
           "likes": 48533,
           "comments": 1946
+        },
+        {
+          "date": "2026-08-14",
+          "views": 2059964,
+          "likes": 49535,
+          "comments": 1952
         }
       ]
     }
@@ -9881,6 +9952,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-13T15:05:06.008117+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "monthly_listeners",
+      "value": 4068895,
+      "baseline_mean": 3031807.5,
+      "baseline_stddev": 485796.3,
+      "delta": 1037087,
+      "score": 2.13,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:58:37.585667+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 29700000,
+      "baseline_mean": 15833333.3,
+      "baseline_stddev": 6233262.0,
+      "delta": 13866666,
+      "score": 2.22,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:58:37.585667+00:00"
     }
   ]
 }

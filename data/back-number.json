@@ -5041,6 +5041,47 @@
       "ytm_subscribers": 2150000,
       "ytm_monthly_listeners": 20100000,
       "ytm_total_views": 2851492344
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 6268000,
+      "collected_at": "2026-08-14T14:55:33.331236+00:00",
+      "spotify_followers": 6825961,
+      "youtube_subscribers": 2150000,
+      "youtube_total_views": 2891416286,
+      "youtube_video_count": 273,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 362595
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 348845
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 251057
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 141892
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 141103
+        }
+      ],
+      "lastfm_listeners": 133016,
+      "lastfm_playcount": 6532095,
+      "ytm_subscribers": 2150000,
+      "ytm_monthly_listeners": 20100000,
+      "ytm_total_views": 2851492344
     }
   ],
   "annotations": [
@@ -5425,24 +5466,9 @@
         "subscribers": "2.47M"
       },
       {
-        "name": "SUKIMASWITCH",
-        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "4.74M"
-      },
-      {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
         "subscribers": "6.21M"
-      },
-      {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "12.7M"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.4M"
       },
       {
         "name": "Saucy Dog",
@@ -5450,14 +5476,29 @@
         "subscribers": "2.51M"
       },
       {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.4M"
+      },
+      {
+        "name": "SUKIMASWITCH",
+        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
+        "subscribers": "4.74M"
+      },
+      {
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "12.7M"
+      },
+      {
         "name": "wacci",
         "browse_id": "UCQuH389KXNJFIPycd_icVdg",
         "subscribers": "1.74M"
       },
       {
-        "name": "aiko",
-        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
-        "subscribers": "7.09M"
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "18.9M"
       },
       {
         "name": "SEKAI NO OWARI",
@@ -6218,6 +6259,12 @@
           "views": 61188172,
           "likes": 203438,
           "comments": 603
+        },
+        {
+          "date": "2026-08-14",
+          "views": 61250107,
+          "likes": 203607,
+          "comments": 604
         }
       ]
     },
@@ -6942,6 +6989,12 @@
           "date": "2026-08-13",
           "views": 49652242,
           "likes": 184501,
+          "comments": 771
+        },
+        {
+          "date": "2026-08-14",
+          "views": 49719205,
+          "likes": 184706,
           "comments": 771
         }
       ]
@@ -7668,6 +7721,12 @@
           "views": 66132251,
           "likes": 214872,
           "comments": 633
+        },
+        {
+          "date": "2026-08-14",
+          "views": 66185829,
+          "likes": 215041,
+          "comments": 635
         }
       ]
     },
@@ -8399,6 +8458,12 @@
           "views": 63795245,
           "likes": 216497,
           "comments": 684
+        },
+        {
+          "date": "2026-08-14",
+          "views": 63862635,
+          "likes": 216723,
+          "comments": 684
         }
       ]
     },
@@ -9129,6 +9194,12 @@
           "date": "2026-08-13",
           "views": 24960740,
           "likes": 107300,
+          "comments": 516
+        },
+        {
+          "date": "2026-08-14",
+          "views": 25014438,
+          "likes": 107580,
           "comments": 516
         }
       ]
@@ -9895,6 +9966,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-05T16:05:32.232775+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "monthly_listeners",
+      "value": 6268000,
+      "baseline_mean": 6172831.5,
+      "baseline_stddev": 43736.0,
+      "delta": 95168,
+      "score": 2.18,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:55:34.885910+00:00"
     }
   ]
 }

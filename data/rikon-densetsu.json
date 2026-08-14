@@ -5157,6 +5157,47 @@
       "ytm_subscribers": 104000,
       "ytm_monthly_listeners": 1010000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 546094,
+      "collected_at": "2026-08-14T14:45:50.605407+00:00",
+      "spotify_followers": 125974,
+      "youtube_subscribers": 104000,
+      "youtube_total_views": 51610131,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 26777
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 21557
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 15409
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 9203
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 7342
+        }
+      ],
+      "lastfm_listeners": 10315,
+      "lastfm_playcount": 169614,
+      "ytm_subscribers": 104000,
+      "ytm_monthly_listeners": 1010000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5188,6 +5229,21 @@
       "city pop"
     ],
     "ytm_related_artists": [
+      {
+        "name": "Genie High",
+        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
+        "subscribers": "506K"
+      },
+      {
+        "name": "Nulbarich",
+        "browse_id": "UC9Mr_qx2dUoki2z4VujRImw",
+        "subscribers": "191K"
+      },
+      {
+        "name": "tonun",
+        "browse_id": "UC9XSYahwHXgJnG_7opHAdmQ",
+        "subscribers": "85.2K"
+      },
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
@@ -5222,21 +5278,6 @@
         "name": "Akira Nise",
         "browse_id": "UCFDPdDPQq3VCoe-KPVvbLow",
         "subscribers": "1.56K"
-      },
-      {
-        "name": "Furui Riho",
-        "browse_id": "UC_INWDSkrIjnmqUi5D6zi4Q",
-        "subscribers": "323K"
-      },
-      {
-        "name": "Moto from Chilli Beans.",
-        "browse_id": "UCSKmRJLeme-kE918PHRxhBQ",
-        "subscribers": "233"
-      },
-      {
-        "name": "Nishina",
-        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
-        "subscribers": "270K"
       }
     ],
     "ytm_top_songs": [
@@ -5997,6 +6038,12 @@
           "views": 56991,
           "likes": 500,
           "comments": 6
+        },
+        {
+          "date": "2026-08-14",
+          "views": 57132,
+          "likes": 501,
+          "comments": 6
         }
       ]
     },
@@ -6734,6 +6781,12 @@
           "views": 46419,
           "likes": 450,
           "comments": 4
+        },
+        {
+          "date": "2026-08-14",
+          "views": 46510,
+          "likes": 451,
+          "comments": 4
         }
       ]
     },
@@ -7470,6 +7523,12 @@
           "date": "2026-08-13",
           "views": 243748,
           "likes": 2128,
+          "comments": 12
+        },
+        {
+          "date": "2026-08-14",
+          "views": 244110,
+          "likes": 2129,
           "comments": 12
         }
       ]
@@ -8777,6 +8836,12 @@
           "views": 93121,
           "likes": 849,
           "comments": 8
+        },
+        {
+          "date": "2026-08-14",
+          "views": 93304,
+          "likes": 849,
+          "comments": 8
         }
       ]
     },
@@ -8970,6 +9035,12 @@
           "date": "2026-08-13",
           "views": 25539,
           "likes": 246,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-14",
+          "views": 25920,
+          "likes": 252,
           "comments": 5
         }
       ]
@@ -9849,6 +9920,18 @@
       "type": "annotated",
       "related_annotation": "TVドラマ「大空港〜GATE24〜」主題歌の話題継続",
       "detected_at": "2026-08-13T14:52:04.259485+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "monthly_listeners",
+      "value": 546094,
+      "baseline_mean": 452341.5,
+      "baseline_stddev": 41160.1,
+      "delta": 93752,
+      "score": 2.28,
+      "type": "annotated",
+      "related_annotation": "TVドラマ「大空港〜GATE24〜」主題歌の話題継続（増加トレンド継続）",
+      "detected_at": "2026-08-14T14:45:51.672770+00:00"
     }
   ]
 }

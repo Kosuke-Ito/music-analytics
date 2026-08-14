@@ -5047,6 +5047,47 @@
       "ytm_subscribers": 1680000,
       "ytm_monthly_listeners": 6930000,
       "ytm_total_views": 1821198073
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 2498764,
+      "collected_at": "2026-08-14T15:00:33.249238+00:00",
+      "spotify_followers": 1659943,
+      "youtube_subscribers": 1680000,
+      "youtube_total_views": 1838015486,
+      "youtube_video_count": 182,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 103856
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 88933
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65540
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 38359
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 28447
+        }
+      ],
+      "lastfm_listeners": 312666,
+      "lastfm_playcount": 21511699,
+      "ytm_subscribers": 1680000,
+      "ytm_monthly_listeners": 6930000,
+      "ytm_total_views": 1821198073
     }
   ],
   "metadata": {
@@ -5091,24 +5132,14 @@
         "subscribers": "4.74M"
       },
       {
-        "name": "SUPER BEAVER",
-        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
-        "subscribers": "2.25M"
-      },
-      {
         "name": "Motohiro Hata",
         "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
         "subscribers": "12.7M"
       },
       {
-        "name": "Sambomaster",
-        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
-        "subscribers": "3.75M"
-      },
-      {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "20.1M"
+        "name": "SUPER BEAVER",
+        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
+        "subscribers": "2.25M"
       },
       {
         "name": "SEKAI NO OWARI",
@@ -5116,19 +5147,29 @@
         "subscribers": "10.3M"
       },
       {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "61.8M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "20.1M"
       },
       {
-        "name": "Ikimonogakari",
-        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
-        "subscribers": "18.9M"
+        "name": "Spitz",
+        "browse_id": "UCa1Dtbauq3vNdm0osXMScuA",
+        "subscribers": "7.59M"
       },
       {
         "name": "Mr.Children",
         "browse_id": "UCNL-6VGm61Y_dkVB89ZkYIA",
         "subscribers": "6.12M"
+      },
+      {
+        "name": "Sambomaster",
+        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
+        "subscribers": "3.75M"
+      },
+      {
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "105M"
       }
     ],
     "ytm_top_songs": [
@@ -5890,6 +5931,12 @@
           "views": 24171696,
           "likes": 80729,
           "comments": 286
+        },
+        {
+          "date": "2026-08-14",
+          "views": 24203695,
+          "likes": 80814,
+          "comments": 286
         }
       ]
     },
@@ -6627,6 +6674,12 @@
           "views": 14930959,
           "likes": 97797,
           "comments": 957
+        },
+        {
+          "date": "2026-08-14",
+          "views": 14969372,
+          "likes": 97925,
+          "comments": 958
         }
       ]
     },
@@ -7417,6 +7470,12 @@
           "views": 99073512,
           "likes": 482021,
           "comments": 6163
+        },
+        {
+          "date": "2026-08-14",
+          "views": 99108252,
+          "likes": 482078,
+          "comments": 6164
         }
       ]
     },
@@ -8154,6 +8213,12 @@
           "views": 49967001,
           "likes": 138621,
           "comments": 284
+        },
+        {
+          "date": "2026-08-14",
+          "views": 50006005,
+          "likes": 138729,
+          "comments": 287
         }
       ]
     },
@@ -8848,6 +8913,12 @@
           "views": 21019829,
           "likes": 51124,
           "comments": 71
+        },
+        {
+          "date": "2026-08-14",
+          "views": 21035994,
+          "likes": 51144,
+          "comments": 72
         }
       ]
     }
@@ -9878,6 +9949,18 @@
       "type": "annotated",
       "related_annotation": "SUMMER SONIC 2026初出演直前の夏フェス連戦による注目度上昇",
       "detected_at": "2026-08-13T15:07:06.632150+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "monthly_listeners",
+      "value": 2498764,
+      "baseline_mean": 2409625.1,
+      "baseline_stddev": 38262.3,
+      "delta": 89138,
+      "score": 2.33,
+      "type": "annotated",
+      "related_annotation": "SUMMER SONIC 2026初出演直前の夏フェス連戦による注目度上昇",
+      "detected_at": "2026-08-14T15:00:34.868460+00:00"
     }
   ]
 }

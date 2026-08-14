@@ -5332,6 +5332,47 @@
       "ytm_subscribers": 8720000,
       "ytm_monthly_listeners": 79000000,
       "ytm_total_views": 8804486952
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 9903787,
+      "collected_at": "2026-08-14T14:50:24.700605+00:00",
+      "spotify_followers": 8699654,
+      "youtube_subscribers": 8720000,
+      "youtube_total_views": 8977830345,
+      "youtube_video_count": 403,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 328127
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 280640
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 201276
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 166246
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 121154
+        }
+      ],
+      "lastfm_listeners": 58123,
+      "lastfm_playcount": 5728430,
+      "ytm_subscribers": 8720000,
+      "ytm_monthly_listeners": 79000000,
+      "ytm_total_views": 8804486952
     }
   ],
   "annotations": [
@@ -5755,14 +5796,9 @@
         "subscribers": "5.34M"
       },
       {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.3M"
-      },
-      {
         "name": "suis from Yorushika",
         "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
-        "subscribers": "32.7K"
+        "subscribers": "32.8K"
       },
       {
         "name": "Radwimps",
@@ -5775,14 +5811,19 @@
         "subscribers": "3.57M"
       },
       {
-        "name": "Ado",
-        "browse_id": "UC5DHwv9N4OQ9AWtKr8YSefw",
-        "subscribers": "34.9M"
-      },
-      {
         "name": "Wanuka",
         "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
         "subscribers": "1.06M"
+      },
+      {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10.3M"
+      },
+      {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "2.13M"
       }
     ],
     "ytm_top_songs": [
@@ -6550,6 +6591,12 @@
           "views": 130240402,
           "likes": 687440,
           "comments": 5141
+        },
+        {
+          "date": "2026-08-14",
+          "views": 130457104,
+          "likes": 688035,
+          "comments": 5146
         }
       ]
     },
@@ -7292,6 +7339,12 @@
           "date": "2026-08-13",
           "views": 60286716,
           "likes": 326501,
+          "comments": 2594
+        },
+        {
+          "date": "2026-08-14",
+          "views": 60375118,
+          "likes": 326733,
           "comments": 2594
         }
       ]
@@ -8036,6 +8089,12 @@
           "views": 231624224,
           "likes": 1553191,
           "comments": 7649
+        },
+        {
+          "date": "2026-08-14",
+          "views": 231723325,
+          "likes": 1553573,
+          "comments": 7652
         }
       ]
     },
@@ -8688,6 +8747,12 @@
           "date": "2026-08-13",
           "views": 123667784,
           "likes": 451582,
+          "comments": 1243
+        },
+        {
+          "date": "2026-08-14",
+          "views": 123747349,
+          "likes": 451811,
           "comments": 1243
         }
       ]
@@ -9542,6 +9607,12 @@
           "views": 721253,
           "likes": 12677,
           "comments": 377
+        },
+        {
+          "date": "2026-08-14",
+          "views": 732771,
+          "likes": 12738,
+          "comments": 377
         }
       ]
     }
@@ -9954,6 +10025,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-13T14:56:40.857111+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 79000000,
+      "baseline_mean": 76996666.7,
+      "baseline_stddev": 782084.1,
+      "delta": 2003333,
+      "score": 2.56,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:50:25.660699+00:00"
     }
   ]
 }

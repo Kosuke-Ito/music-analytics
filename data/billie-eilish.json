@@ -5332,6 +5332,47 @@
       "ytm_subscribers": 58500000,
       "ytm_monthly_listeners": 366000000,
       "ytm_total_views": 22935241709
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 78576963,
+      "collected_at": "2026-08-14T14:53:39.620677+00:00",
+      "spotify_followers": 129786148,
+      "youtube_subscribers": 58500000,
+      "youtube_total_views": 22959775300,
+      "youtube_video_count": 209,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 979993
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 956124
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 955073
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 699126
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 690955
+        }
+      ],
+      "lastfm_listeners": 4362281,
+      "lastfm_playcount": 867973818,
+      "ytm_subscribers": 58500000,
+      "ytm_monthly_listeners": 366000000,
+      "ytm_total_views": 22935241709
     }
   ],
   "annotations": [
@@ -5543,9 +5584,24 @@
         "subscribers": "2.18M"
       },
       {
+        "name": "Lana Del Rey",
+        "browse_id": "UCyqq-aiu3vEHuf5NhwmOJcw",
+        "subscribers": "339M"
+      },
+      {
+        "name": "Ashe",
+        "browse_id": "UCu4DT36ncDBhuBo1w_vZsFg",
+        "subscribers": "17.8M"
+      },
+      {
         "name": "AURORA",
         "browse_id": "UC4G-AJa7kn8oumI6TT2WXYw",
         "subscribers": "244M"
+      },
+      {
+        "name": "The Neighbourhood",
+        "browse_id": "UC1cnYMXqKdazz-gDPKaDFyg",
+        "subscribers": "99M"
       },
       {
         "name": "Noah Cyrus",
@@ -5558,29 +5614,14 @@
         "subscribers": "86.2M"
       },
       {
-        "name": "Lana Del Rey",
-        "browse_id": "UCyqq-aiu3vEHuf5NhwmOJcw",
-        "subscribers": "339M"
+        "name": "Ariana Grande",
+        "browse_id": "UC0076UMUgEng8HORUw_MYHA",
+        "subscribers": "297M"
       },
       {
         "name": "Harry Styles",
         "browse_id": "UCVacQ2t5GUZ2t_J3Ia9BynA",
         "subscribers": "131M"
-      },
-      {
-        "name": "Lady Gaga",
-        "browse_id": "UCGKXb1syicud01CJOOFRykg",
-        "subscribers": "692M"
-      },
-      {
-        "name": "Ashe",
-        "browse_id": "UCu4DT36ncDBhuBo1w_vZsFg",
-        "subscribers": "17.8M"
-      },
-      {
-        "name": "The Neighbourhood",
-        "browse_id": "UC1cnYMXqKdazz-gDPKaDFyg",
-        "subscribers": "99M"
       }
     ],
     "ytm_top_songs": [
@@ -6348,6 +6389,12 @@
           "views": 499721561,
           "likes": 3642009,
           "comments": 17951
+        },
+        {
+          "date": "2026-08-14",
+          "views": 500112899,
+          "likes": 3643669,
+          "comments": 17950
         }
       ]
     },
@@ -7091,6 +7138,12 @@
           "views": 319735080,
           "likes": 2851344,
           "comments": 14465
+        },
+        {
+          "date": "2026-08-14",
+          "views": 320015146,
+          "likes": 2853019,
+          "comments": 14473
         }
       ]
     },
@@ -7834,6 +7887,12 @@
           "views": 538990219,
           "likes": 4987841,
           "comments": 12683
+        },
+        {
+          "date": "2026-08-14",
+          "views": 539192530,
+          "likes": 4989166,
+          "comments": 12691
         }
       ]
     },
@@ -8577,6 +8636,12 @@
           "views": 160743667,
           "likes": 1456627,
           "comments": 6884
+        },
+        {
+          "date": "2026-08-14",
+          "views": 160870049,
+          "likes": 1457251,
+          "comments": 6883
         }
       ]
     },
@@ -9320,6 +9385,12 @@
           "views": 238842243,
           "likes": 2128947,
           "comments": 6963
+        },
+        {
+          "date": "2026-08-14",
+          "views": 238949965,
+          "likes": 2129603,
+          "comments": 6967
         }
       ]
     }
@@ -9636,6 +9707,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-31T16:04:28.495075+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "monthly_listeners",
+      "value": 78576963,
+      "baseline_mean": 77967496.3,
+      "baseline_stddev": 279795.4,
+      "delta": 609466,
+      "score": 2.18,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:53:40.647104+00:00"
     }
   ]
 }

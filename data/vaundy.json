@@ -5344,6 +5344,47 @@
       "ytm_subscribers": 2540000,
       "ytm_monthly_listeners": 24300000,
       "ytm_total_views": 2714208415
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 5926267,
+      "collected_at": "2026-08-14T14:50:41.096745+00:00",
+      "spotify_followers": 4071910,
+      "youtube_subscribers": 2540000,
+      "youtube_total_views": 2752344658,
+      "youtube_video_count": 349,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 232768
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 211991
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 150776
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 88425
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 87098
+        }
+      ],
+      "lastfm_listeners": 547936,
+      "lastfm_playcount": 18261239,
+      "ytm_subscribers": 2540000,
+      "ytm_monthly_listeners": 24300000,
+      "ytm_total_views": 2714208415
     }
   ],
   "annotations": [
@@ -5734,9 +5775,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "RETRORIRON",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "313K"
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.4M"
       },
       {
         "name": "Masaki Suda",
@@ -5744,9 +5785,9 @@
         "subscribers": "6.21M"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.4M"
+        "name": "Lilas",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "17.2M"
       },
       {
         "name": "yama",
@@ -5754,14 +5795,9 @@
         "subscribers": "5.34M"
       },
       {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "17.2M"
-      },
-      {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.84M"
+        "name": "RETRORIRON",
+        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
+        "subscribers": "313K"
       },
       {
         "name": "SEKAI NO OWARI",
@@ -5779,9 +5815,14 @@
         "subscribers": "105M"
       },
       {
-        "name": "aimyon",
-        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
-        "subscribers": "8.49M"
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "61.7M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "20.1M"
       }
     ],
     "ytm_top_songs": [
@@ -6549,6 +6590,12 @@
           "views": 70937386,
           "likes": 244984,
           "comments": 869
+        },
+        {
+          "date": "2026-08-14",
+          "views": 71026047,
+          "likes": 245183,
+          "comments": 872
         }
       ]
     },
@@ -7292,6 +7339,12 @@
           "views": 80928951,
           "likes": 482366,
           "comments": 920
+        },
+        {
+          "date": "2026-08-14",
+          "views": 80996180,
+          "likes": 482616,
+          "comments": 918
         }
       ]
     },
@@ -8035,6 +8088,12 @@
           "views": 40712498,
           "likes": 196432,
           "comments": 309
+        },
+        {
+          "date": "2026-08-14",
+          "views": 40756464,
+          "likes": 196578,
+          "comments": 310
         }
       ]
     },
@@ -8670,6 +8729,12 @@
           "views": 32014775,
           "likes": 144685,
           "comments": 296
+        },
+        {
+          "date": "2026-08-14",
+          "views": 32048037,
+          "likes": 144795,
+          "comments": 297
         }
       ]
     },
@@ -9417,6 +9482,12 @@
           "date": "2026-08-13",
           "views": 11713523,
           "likes": 84388,
+          "comments": 849
+        },
+        {
+          "date": "2026-08-14",
+          "views": 11763134,
+          "likes": 84549,
           "comments": 849
         }
       ]
@@ -10212,6 +10283,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-13T14:56:57.138521+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "monthly_listeners",
+      "value": 5926267,
+      "baseline_mean": 5865035.9,
+      "baseline_stddev": 29611.7,
+      "delta": 61231,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:50:42.310467+00:00"
     }
   ]
 }

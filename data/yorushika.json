@@ -5044,6 +5044,47 @@
       "ytm_subscribers": 4019999,
       "ytm_monthly_listeners": 18600000,
       "ytm_total_views": 3350454537
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 5298807,
+      "collected_at": "2026-08-14T14:55:50.595066+00:00",
+      "spotify_followers": 3688150,
+      "youtube_subscribers": 4020000,
+      "youtube_total_views": 3357650233,
+      "youtube_video_count": 129,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 209373
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 176425
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 126975
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 108581
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 75847
+        }
+      ],
+      "lastfm_listeners": 261133,
+      "lastfm_playcount": 12040253,
+      "ytm_subscribers": 4019999,
+      "ytm_monthly_listeners": 18600000,
+      "ytm_total_views": 3350454537
     }
   ],
   "annotations": [
@@ -5441,11 +5482,6 @@
         "subscribers": "316K"
       },
       {
-        "name": "DAZBEE",
-        "browse_id": "UCWVicaoco6MB5EV1zg2H6kw",
-        "subscribers": "4.45M"
-      },
-      {
         "name": "tayori",
         "browse_id": "UCcm9k5ULflycqJPYUFAObFQ",
         "subscribers": "658K"
@@ -5458,12 +5494,17 @@
       {
         "name": "suis from Yorushika",
         "browse_id": "UCra2uHSin6Ubb5yUH2sV2aQ",
-        "subscribers": "32.7K"
+        "subscribers": "32.8K"
       },
       {
         "name": "Yuika",
         "browse_id": "UCxUDDDb_0-okM1Bj9A7iV7g",
         "subscribers": "10.3M"
+      },
+      {
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "105M"
       }
     ],
     "ytm_top_songs": [
@@ -6213,6 +6254,12 @@
           "views": 11022654,
           "likes": 59856,
           "comments": 183
+        },
+        {
+          "date": "2026-08-14",
+          "views": 11081212,
+          "likes": 60054,
+          "comments": 184
         }
       ]
     },
@@ -6967,6 +7014,12 @@
           "views": 109114756,
           "likes": 374279,
           "comments": 610
+        },
+        {
+          "date": "2026-08-14",
+          "views": 109175515,
+          "likes": 374440,
+          "comments": 611
         }
       ]
     },
@@ -8338,6 +8391,12 @@
           "views": 72565000,
           "likes": 263474,
           "comments": 365
+        },
+        {
+          "date": "2026-08-14",
+          "views": 72597322,
+          "likes": 263567,
+          "comments": 365
         }
       ]
     },
@@ -8973,6 +9032,12 @@
           "views": 7790370,
           "likes": 82108,
           "comments": 1054
+        },
+        {
+          "date": "2026-08-14",
+          "views": 7837807,
+          "likes": 82312,
+          "comments": 1054
         }
       ]
     },
@@ -9217,6 +9282,12 @@
           "date": "2026-08-13",
           "views": 56246563,
           "likes": 270764,
+          "comments": 880
+        },
+        {
+          "date": "2026-08-14",
+          "views": 56275202,
+          "likes": 270855,
           "comments": 880
         }
       ]
@@ -9930,6 +10001,18 @@
       "type": "annotated",
       "related_annotation": "アニメ『猫と竜』OP「猫日」話題化＋suisメディア露出でYTM月間リスナー急増",
       "detected_at": "2026-08-13T15:02:15.841287+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 18600000,
+      "baseline_mean": 17020000.0,
+      "baseline_stddev": 765680.6,
+      "delta": 1580000,
+      "score": 2.06,
+      "type": "annotated",
+      "related_annotation": "アニメ『猫と竜』OP「猫日」話題化＋suisメディア露出でYTM月間リスナー急増",
+      "detected_at": "2026-08-14T14:55:51.995987+00:00"
     }
   ]
 }

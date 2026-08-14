@@ -5044,6 +5044,47 @@
       "ytm_subscribers": 2300000,
       "ytm_monthly_listeners": 8490000,
       "ytm_total_views": 2728098219
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 5204359,
+      "collected_at": "2026-08-14T14:56:57.653952+00:00",
+      "spotify_followers": 6375165,
+      "youtube_subscribers": 2300000,
+      "youtube_total_views": 2743378067,
+      "youtube_video_count": 283,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 255070
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 243651
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 177847
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 97499
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 94932
+        }
+      ],
+      "lastfm_listeners": 20317,
+      "lastfm_playcount": 1481048,
+      "ytm_subscribers": 2300000,
+      "ytm_monthly_listeners": 8490000,
+      "ytm_total_views": 2728098219
     }
   ],
   "annotations": [
@@ -5421,14 +5462,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Takaya Kawasaki",
+        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
+        "subscribers": "2.47M"
+      },
+      {
         "name": "Ayaka",
         "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
         "subscribers": "2.97M"
       },
       {
-        "name": "Takaya Kawasaki",
-        "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
-        "subscribers": "2.47M"
+        "name": "Uru",
+        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
+        "subscribers": "20.3M"
       },
       {
         "name": "Ai Otsuka",
@@ -5441,16 +5487,6 @@
         "subscribers": "10.4M"
       },
       {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "17.2M"
-      },
-      {
-        "name": "Uru",
-        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "20.3M"
-      },
-      {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
         "subscribers": "6.21M"
@@ -5461,14 +5497,19 @@
         "subscribers": "4.74M"
       },
       {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "20.1M"
+      },
+      {
         "name": "Motohiro Hata",
         "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
         "subscribers": "12.7M"
       },
       {
-        "name": "Superfly",
-        "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
-        "subscribers": "4.64M"
+        "name": "wacci",
+        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
+        "subscribers": "1.74M"
       }
     ],
     "ytm_top_songs": [
@@ -6230,6 +6271,12 @@
           "views": 108965340,
           "likes": 314942,
           "comments": 694
+        },
+        {
+          "date": "2026-08-14",
+          "views": 109015704,
+          "likes": 315082,
+          "comments": 694
         }
       ]
     },
@@ -6966,6 +7013,12 @@
           "date": "2026-08-13",
           "views": 103543636,
           "likes": 353036,
+          "comments": 425
+        },
+        {
+          "date": "2026-08-14",
+          "views": 103593634,
+          "likes": 353176,
           "comments": 425
         }
       ]
@@ -7704,6 +7757,12 @@
           "views": 64317548,
           "likes": 188016,
           "comments": 237
+        },
+        {
+          "date": "2026-08-14",
+          "views": 64343202,
+          "likes": 188082,
+          "comments": 237
         }
       ]
     },
@@ -8440,6 +8499,12 @@
           "date": "2026-08-13",
           "views": 2003813,
           "likes": 6231,
+          "comments": 39
+        },
+        {
+          "date": "2026-08-14",
+          "views": 2004171,
+          "likes": 6232,
           "comments": 39
         }
       ]
@@ -9182,6 +9247,12 @@
           "date": "2026-08-13",
           "views": 37035194,
           "likes": 118916,
+          "comments": 249
+        },
+        {
+          "date": "2026-08-14",
+          "views": 37052008,
+          "likes": 118975,
           "comments": 249
         }
       ]
@@ -10099,6 +10170,18 @@
       "type": "annotated",
       "related_annotation": "「スーパーガール」MV公開＆「Mステ」出演が話題化",
       "detected_at": "2026-08-13T15:03:23.120131+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 8490000,
+      "baseline_mean": 7412000,
+      "baseline_stddev": 390848.6,
+      "delta": 1078000,
+      "score": 2.76,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:56:59.188331+00:00"
     }
   ]
 }

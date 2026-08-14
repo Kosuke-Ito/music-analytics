@@ -5344,6 +5344,47 @@
       "ytm_subscribers": 8830000,
       "ytm_monthly_listeners": 86600000,
       "ytm_total_views": 5706737682
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 11245953,
+      "collected_at": "2026-08-14T14:53:07.597869+00:00",
+      "spotify_followers": 11694757,
+      "youtube_subscribers": 8830000,
+      "youtube_total_views": 6542244788,
+      "youtube_video_count": 1909,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 223795
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 215800
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 202734
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 188594
+        },
+        {
+          "city": "Seoul",
+          "country": "KR",
+          "listeners": 178298
+        }
+      ],
+      "lastfm_listeners": 1433029,
+      "lastfm_playcount": 297207324,
+      "ytm_subscribers": 8830000,
+      "ytm_monthly_listeners": 86600000,
+      "ytm_total_views": 5706737682
     }
   ],
   "annotations": [
@@ -5602,6 +5643,11 @@
         "subscribers": "296M"
       },
       {
+        "name": "fromis_9",
+        "browse_id": "UC3M9MRdZz-WWtAQos94_h6w",
+        "subscribers": "19.8M"
+      },
+      {
         "name": "VIVIZ",
         "browse_id": "UC4FICdicYyZH0zpEzHFZpMw",
         "subscribers": "4.13M"
@@ -5612,24 +5658,14 @@
         "subscribers": "127M"
       },
       {
-        "name": "MEOVV",
-        "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
-        "subscribers": "38.3M"
-      },
-      {
-        "name": "Kep1er",
-        "browse_id": "UCAKvDuIX3m1AUdPpDSqV_3w",
-        "subscribers": "3.69M"
-      },
-      {
         "name": "ILLIT",
         "browse_id": "UCNVIo0UJXTdEnsRkCB9Q03w",
         "subscribers": "411M"
       },
       {
-        "name": "fromis_9",
-        "browse_id": "UC3M9MRdZz-WWtAQos94_h6w",
-        "subscribers": "19.8M"
+        "name": "MEOVV",
+        "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
+        "subscribers": "38.3M"
       },
       {
         "name": "CHUNG HA",
@@ -5637,14 +5673,19 @@
         "subscribers": "5.36M"
       },
       {
-        "name": "ITZY",
-        "browse_id": "UCTP45_DE3fMLujU8sZ-MBzw",
-        "subscribers": "29.8M"
+        "name": "Kep1er",
+        "browse_id": "UCAKvDuIX3m1AUdPpDSqV_3w",
+        "subscribers": "3.69M"
       },
       {
         "name": "EVERGLOW",
         "browse_id": "UCT4Z6ZLJisGUy0z2LHzi2jQ",
         "subscribers": "4.32M"
+      },
+      {
+        "name": "izna",
+        "browse_id": "UC9Om0aDfMMzXtElCJWF41FQ",
+        "subscribers": "8.44M"
       }
     ],
     "ytm_top_songs": [
@@ -6412,6 +6453,12 @@
           "views": 73360410,
           "likes": 392229,
           "comments": 1694
+        },
+        {
+          "date": "2026-08-14",
+          "views": 73419998,
+          "likes": 392511,
+          "comments": 1695
         }
       ]
     },
@@ -7155,6 +7202,12 @@
           "views": 229691046,
           "likes": 843932,
           "comments": 3500
+        },
+        {
+          "date": "2026-08-14",
+          "views": 229807136,
+          "likes": 844259,
+          "comments": 3501
         }
       ]
     },
@@ -9189,6 +9242,12 @@
           "views": 14825784,
           "likes": 120269,
           "comments": 724
+        },
+        {
+          "date": "2026-08-14",
+          "views": 14989184,
+          "likes": 121173,
+          "comments": 728
         }
       ]
     },
@@ -9385,6 +9444,12 @@
           "views": 2472206,
           "likes": 55731,
           "comments": 880
+        },
+        {
+          "date": "2026-08-14",
+          "views": 2570317,
+          "likes": 56984,
+          "comments": 892
         }
       ]
     },
@@ -9414,6 +9479,12 @@
           "views": 1910361,
           "likes": 23438,
           "comments": 386
+        },
+        {
+          "date": "2026-08-14",
+          "views": 1965554,
+          "likes": 23962,
+          "comments": 395
         }
       ]
     }
@@ -10378,6 +10449,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-13T14:59:25.209858+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 86600000,
+      "baseline_mean": 80283333.3,
+      "baseline_stddev": 2907241.9,
+      "delta": 6316666,
+      "score": 2.17,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:53:08.873702+00:00"
     }
   ]
 }

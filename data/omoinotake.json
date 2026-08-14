@@ -5047,6 +5047,47 @@
       "ytm_subscribers": 315000,
       "ytm_monthly_listeners": 3570000,
       "ytm_total_views": 319076017
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 1484977,
+      "collected_at": "2026-08-14T15:01:39.618219+00:00",
+      "spotify_followers": 338488,
+      "youtube_subscribers": 315000,
+      "youtube_total_views": 322432982,
+      "youtube_video_count": 222,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 46316
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 42625
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 35640
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 18216
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 16690
+        }
+      ],
+      "lastfm_listeners": 143361,
+      "lastfm_playcount": 2528625,
+      "ytm_subscribers": 315000,
+      "ytm_monthly_listeners": 3570000,
+      "ytm_total_views": 319076017
     }
   ],
   "annotations": [
@@ -5450,14 +5491,14 @@
         "subscribers": "1.16M"
       },
       {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "6.21M"
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.4M"
       },
       {
-        "name": "wacci",
-        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
-        "subscribers": "1.74M"
+        "name": "VK Blanka",
+        "browse_id": "UCg2rvXE9x3zg01ZxyIt9DpA",
+        "subscribers": "1.44M"
       }
     ],
     "ytm_top_songs": [
@@ -6219,6 +6260,12 @@
           "views": 11965260,
           "likes": 55907,
           "comments": 203
+        },
+        {
+          "date": "2026-08-14",
+          "views": 11974765,
+          "likes": 55933,
+          "comments": 203
         }
       ]
     },
@@ -6956,6 +7003,12 @@
           "views": 852702,
           "likes": 8663,
           "comments": 90
+        },
+        {
+          "date": "2026-08-14",
+          "views": 853914,
+          "likes": 8674,
+          "comments": 90
         }
       ]
     },
@@ -7668,6 +7721,12 @@
           "date": "2026-08-13",
           "views": 2294636,
           "likes": 17066,
+          "comments": 61
+        },
+        {
+          "date": "2026-08-14",
+          "views": 2295760,
+          "likes": 17078,
           "comments": 61
         }
       ]
@@ -8932,6 +8991,12 @@
           "views": 1056711,
           "likes": 9808,
           "comments": 86
+        },
+        {
+          "date": "2026-08-14",
+          "views": 1057564,
+          "likes": 9814,
+          "comments": 86
         }
       ]
     },
@@ -9187,6 +9252,12 @@
           "views": 53424,
           "likes": 797,
           "comments": 21
+        },
+        {
+          "date": "2026-08-14",
+          "views": 54267,
+          "likes": 803,
+          "comments": 18
         }
       ]
     }
@@ -9839,6 +9910,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-13T15:08:15.740309+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "monthly_listeners",
+      "value": 1484977,
+      "baseline_mean": 1435884.8,
+      "baseline_stddev": 21289.1,
+      "delta": 49092,
+      "score": 2.31,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T15:01:41.096973+00:00"
     }
   ]
 }

@@ -5044,6 +5044,47 @@
       "ytm_subscribers": 885000,
       "ytm_monthly_listeners": 7040000,
       "ytm_total_views": 652276991
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 2250463,
+      "collected_at": "2026-08-14T15:01:22.588367+00:00",
+      "spotify_followers": 1068037,
+      "youtube_subscribers": 885000,
+      "youtube_total_views": 674456672,
+      "youtube_video_count": 325,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54073
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51131
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 47202
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 34373
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 25273
+        }
+      ],
+      "lastfm_listeners": 170180,
+      "lastfm_playcount": 5934472,
+      "ytm_subscribers": 885000,
+      "ytm_monthly_listeners": 7040000,
+      "ytm_total_views": 652276991
     }
   ],
   "annotations": [
@@ -5319,6 +5360,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "YU-KA",
+        "browse_id": "UC-3USfEYlYrgjVGHSNY1QWA",
+        "subscribers": "598K"
+      },
+      {
         "name": "Rei Yasuda",
         "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
         "subscribers": "249K"
@@ -5359,14 +5405,9 @@
         "subscribers": "315K"
       },
       {
-        "name": "YU-KA",
-        "browse_id": "UC-3USfEYlYrgjVGHSNY1QWA",
-        "subscribers": "598K"
-      },
-      {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "6.21M"
+        "name": "Uru",
+        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
+        "subscribers": "20.3M"
       }
     ],
     "ytm_top_songs": [
@@ -6623,6 +6664,12 @@
           "date": "2026-08-13",
           "views": 9335860,
           "likes": 64809,
+          "comments": 222
+        },
+        {
+          "date": "2026-08-14",
+          "views": 9344862,
+          "likes": 64845,
           "comments": 222
         }
       ]
@@ -7918,6 +7965,12 @@
           "views": 7501532,
           "likes": 53705,
           "comments": 70
+        },
+        {
+          "date": "2026-08-14",
+          "views": 7505744,
+          "likes": 53714,
+          "comments": 70
         }
       ]
     },
@@ -8583,6 +8636,12 @@
           "views": 2019887,
           "likes": 29025,
           "comments": 318
+        },
+        {
+          "date": "2026-08-14",
+          "views": 2025816,
+          "likes": 29064,
+          "comments": 318
         }
       ]
     },
@@ -8917,6 +8976,12 @@
           "views": 14701799,
           "likes": 143864,
           "comments": 2330
+        },
+        {
+          "date": "2026-08-14",
+          "views": 14723625,
+          "likes": 144030,
+          "comments": 2330
         }
       ]
     },
@@ -9095,6 +9160,12 @@
           "date": "2026-08-13",
           "views": 132563,
           "likes": 2466,
+          "comments": 28
+        },
+        {
+          "date": "2026-08-14",
+          "views": 135820,
+          "likes": 2511,
           "comments": 28
         }
       ]
@@ -9604,6 +9675,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-13T15:07:58.704753+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "monthly_listeners",
+      "value": 2250463,
+      "baseline_mean": 2166160,
+      "baseline_stddev": 34346.1,
+      "delta": 84303,
+      "score": 2.45,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T15:01:24.164592+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 7040000,
+      "baseline_mean": 5975000,
+      "baseline_stddev": 478063.8,
+      "delta": 1065000,
+      "score": 2.23,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T15:01:24.164592+00:00"
     }
   ]
 }

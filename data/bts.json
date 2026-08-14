@@ -5342,6 +5342,47 @@
       "ytm_subscribers": 85600000,
       "ytm_monthly_listeners": 237000000,
       "ytm_total_views": 28635369031
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 36506061,
+      "collected_at": "2026-08-14T14:52:34.171681+00:00",
+      "spotify_followers": 88530125,
+      "youtube_subscribers": 85600000,
+      "youtube_total_views": 28822539445,
+      "youtube_video_count": 3090,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 615843
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 568440
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 450617
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 423916
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 418257
+        }
+      ],
+      "lastfm_listeners": 2558447,
+      "lastfm_playcount": 4693216068,
+      "ytm_subscribers": 85600000,
+      "ytm_monthly_listeners": 237000000,
+      "ytm_total_views": 28635369031
     }
   ],
   "annotations": [
@@ -6072,14 +6113,14 @@
         "subscribers": "17.1M"
       },
       {
-        "name": "ENHYPEN",
-        "browse_id": "UC5bxTdrcWXji987o_LlcNNA",
-        "subscribers": "35.2M"
+        "name": "TOMORROW X TOGETHER",
+        "browse_id": "UCdeb5b3bAxn1OXXFFeuCaHg",
+        "subscribers": "27.1M"
       },
       {
-        "name": "iKON",
-        "browse_id": "UCsuyvQXmlEMeV66kphCHCnw",
-        "subscribers": "7.56M"
+        "name": "ATEEZ",
+        "browse_id": "UCmWwbZ-8SngcUzRAD8rCVvw",
+        "subscribers": "116M"
       }
     ],
     "ytm_top_songs": [
@@ -6841,6 +6882,12 @@
           "views": 59785927,
           "likes": 926515,
           "comments": 20043
+        },
+        {
+          "date": "2026-08-14",
+          "views": 59974582,
+          "likes": 927548,
+          "comments": 20054
         }
       ]
     },
@@ -7578,6 +7625,12 @@
           "views": 64928270,
           "likes": 841852,
           "comments": 12882
+        },
+        {
+          "date": "2026-08-14",
+          "views": 65133531,
+          "likes": 843172,
+          "comments": 12893
         }
       ]
     },
@@ -8315,6 +8368,12 @@
           "views": 59591820,
           "likes": 1139607,
           "comments": 31613
+        },
+        {
+          "date": "2026-08-14",
+          "views": 59768281,
+          "likes": 1140668,
+          "comments": 31619
         }
       ]
     },
@@ -9571,6 +9630,12 @@
           "views": 368358341,
           "likes": 2794346,
           "comments": 16873
+        },
+        {
+          "date": "2026-08-14",
+          "views": 368573151,
+          "likes": 2795399,
+          "comments": 16888
         }
       ]
     },
@@ -9809,6 +9874,12 @@
           "views": 42350204,
           "likes": 834626,
           "comments": 24797
+        },
+        {
+          "date": "2026-08-14",
+          "views": 42492263,
+          "likes": 835599,
+          "comments": 24807
         }
       ]
     }
@@ -10005,6 +10076,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-13T14:58:52.037017+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 237000000,
+      "baseline_mean": 215833333.3,
+      "baseline_stddev": 8691311.1,
+      "delta": 21166666,
+      "score": 2.44,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:52:35.183784+00:00"
     }
   ]
 }

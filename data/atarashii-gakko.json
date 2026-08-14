@@ -5044,6 +5044,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 5290000,
       "ytm_total_views": 586273024
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 885906,
+      "collected_at": "2026-08-14T15:00:15.838430+00:00",
+      "spotify_followers": 983440,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 610219502,
+      "youtube_video_count": 438,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 21279
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13718
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12475
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10963
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8224
+        }
+      ],
+      "lastfm_listeners": 8948,
+      "lastfm_playcount": 412621,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 5290000,
+      "ytm_total_views": 586273024
     }
   ],
   "metadata": {
@@ -5887,6 +5928,12 @@
           "views": 19656856,
           "likes": 279851,
           "comments": 430
+        },
+        {
+          "date": "2026-08-14",
+          "views": 19665184,
+          "likes": 279927,
+          "comments": 430
         }
       ]
     },
@@ -6623,6 +6670,12 @@
           "date": "2026-08-13",
           "views": 5478846,
           "likes": 32267,
+          "comments": 134
+        },
+        {
+          "date": "2026-08-14",
+          "views": 5480540,
+          "likes": 32274,
           "comments": 134
         }
       ]
@@ -7361,6 +7414,12 @@
           "views": 2274774,
           "likes": 37612,
           "comments": 112
+        },
+        {
+          "date": "2026-08-14",
+          "views": 2277660,
+          "likes": 37647,
+          "comments": 112
         }
       ]
     },
@@ -7844,6 +7903,12 @@
           "date": "2026-08-13",
           "views": 2221145,
           "likes": 31297,
+          "comments": 137
+        },
+        {
+          "date": "2026-08-14",
+          "views": 2222374,
+          "likes": 31303,
           "comments": 137
         }
       ]
@@ -8864,6 +8929,12 @@
           "date": "2026-08-13",
           "views": 70385,
           "likes": 3305,
+          "comments": 118
+        },
+        {
+          "date": "2026-08-14",
+          "views": 71506,
+          "likes": 3322,
           "comments": 118
         }
       ]
@@ -9892,6 +9963,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-13T15:06:49.142237+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 5290000,
+      "baseline_mean": 4055000.0,
+      "baseline_stddev": 562356.6,
+      "delta": 1235000,
+      "score": 2.2,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T15:00:17.528969+00:00"
     }
   ]
 }

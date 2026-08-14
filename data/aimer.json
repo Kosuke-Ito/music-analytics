@@ -5041,6 +5041,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 11800000,
       "ytm_total_views": 1886716892
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 3389562,
+      "collected_at": "2026-08-14T14:57:46.402782+00:00",
+      "spotify_followers": 2876746,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1889427657,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 78116
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 74255
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 67892
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 49097
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40670
+        }
+      ],
+      "lastfm_listeners": 502851,
+      "lastfm_playcount": 25641377,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 11800000,
+      "ytm_total_views": 1886716892
     }
   ],
   "metadata": {
@@ -5115,14 +5156,14 @@
         "subscribers": "20.3M"
       },
       {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "17.2M"
-      },
-      {
         "name": "Chiai Fujikawa",
         "browse_id": "UCpzy28Kw66pBn5o8uP3m4tA",
         "subscribers": "429K"
+      },
+      {
+        "name": "EGOIST",
+        "browse_id": "UCKZLPAAyImrkYnDVR0O2UXQ",
+        "subscribers": "1.31M"
       }
     ],
     "ytm_top_songs": [
@@ -5878,6 +5919,12 @@
           "views": 42010980,
           "likes": 294326,
           "comments": 1614
+        },
+        {
+          "date": "2026-08-14",
+          "views": 42049268,
+          "likes": 294566,
+          "comments": 1617
         }
       ]
     },
@@ -6608,6 +6655,12 @@
           "date": "2026-08-13",
           "views": 34325476,
           "likes": 157423,
+          "comments": 157
+        },
+        {
+          "date": "2026-08-14",
+          "views": 34341967,
+          "likes": 157468,
           "comments": 157
         }
       ]
@@ -7340,6 +7393,12 @@
           "views": 21245823,
           "likes": 117625,
           "comments": 294
+        },
+        {
+          "date": "2026-08-14",
+          "views": 21260592,
+          "likes": 117705,
+          "comments": 293
         }
       ]
     },
@@ -8017,6 +8076,12 @@
           "views": 5830638,
           "likes": 58062,
           "comments": 921
+        },
+        {
+          "date": "2026-08-14",
+          "views": 5838274,
+          "likes": 58110,
+          "comments": 923
         }
       ]
     },
@@ -8783,6 +8848,12 @@
           "views": 31599269,
           "likes": 134880,
           "comments": 775
+        },
+        {
+          "date": "2026-08-14",
+          "views": 31623233,
+          "likes": 134950,
+          "comments": 776
         }
       ]
     },
@@ -9469,6 +9540,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-13T15:04:13.636647+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "monthly_listeners",
+      "value": 3389562,
+      "baseline_mean": 3375464.9,
+      "baseline_stddev": 6293.1,
+      "delta": 14097,
+      "score": 2.24,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:57:48.121916+00:00"
     }
   ]
 }

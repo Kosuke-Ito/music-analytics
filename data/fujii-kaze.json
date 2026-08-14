@@ -5333,6 +5333,47 @@
       "ytm_subscribers": 5500000,
       "ytm_monthly_listeners": 50500000,
       "ytm_total_views": 2939834338
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 7118672,
+      "collected_at": "2026-08-14T14:51:13.109754+00:00",
+      "spotify_followers": 5198833,
+      "youtube_subscribers": 5500000,
+      "youtube_total_views": 2957341661,
+      "youtube_video_count": 228,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 196005
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 183236
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 142841
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 100126
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 90545
+        }
+      ],
+      "lastfm_listeners": 18609,
+      "lastfm_playcount": 1587102,
+      "ytm_subscribers": 5500000,
+      "ytm_monthly_listeners": 50500000,
+      "ytm_total_views": 2939834338
     }
   ],
   "annotations": [
@@ -5657,19 +5698,19 @@
         "subscribers": "265K"
       },
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "12.7M"
-      },
-      {
         "name": "iri",
         "browse_id": "UCtlXP5iI7TgKj_BI636L8Qw",
         "subscribers": "443K"
       },
       {
-        "name": "Utada",
-        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "24.9M"
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "12.7M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "20.1M"
       },
       {
         "name": "TOMOO",
@@ -5682,14 +5723,9 @@
         "subscribers": "10.3M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "20.1M"
-      },
-      {
-        "name": "SIRUP",
-        "browse_id": "UCNOawli2PNwt-9L_mqjCxUA",
-        "subscribers": "716K"
+        "name": "Utada",
+        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
+        "subscribers": "24.9M"
       },
       {
         "name": "sakanaction",
@@ -5700,6 +5736,11 @@
         "name": "STUTS",
         "browse_id": "UCp0EKgLf1uW-I9IuEdkj7Iw",
         "subscribers": "1.14M"
+      },
+      {
+        "name": "SIRUP",
+        "browse_id": "UCNOawli2PNwt-9L_mqjCxUA",
+        "subscribers": "716K"
       }
     ],
     "ytm_top_songs": [
@@ -6467,6 +6508,12 @@
           "views": 290583800,
           "likes": 3795690,
           "comments": 19310
+        },
+        {
+          "date": "2026-08-14",
+          "views": 290708270,
+          "likes": 3796591,
+          "comments": 19313
         }
       ]
     },
@@ -7257,6 +7304,12 @@
           "views": 77426188,
           "likes": 373106,
           "comments": 673
+        },
+        {
+          "date": "2026-08-14",
+          "views": 77480923,
+          "likes": 373321,
+          "comments": 674
         }
       ]
     },
@@ -7927,6 +7980,12 @@
           "views": 53395383,
           "likes": 393578,
           "comments": 1151
+        },
+        {
+          "date": "2026-08-14",
+          "views": 53432969,
+          "likes": 393768,
+          "comments": 1151
         }
       ]
     },
@@ -8537,6 +8596,12 @@
           "date": "2026-08-13",
           "views": 3089471,
           "likes": 20344,
+          "comments": 110
+        },
+        {
+          "date": "2026-08-14",
+          "views": 3112613,
+          "likes": 20447,
           "comments": 110
         }
       ]
@@ -9239,6 +9304,12 @@
           "views": 3516309,
           "likes": 24802,
           "comments": 163
+        },
+        {
+          "date": "2026-08-14",
+          "views": 3546503,
+          "likes": 24981,
+          "comments": 164
         }
       ]
     },
@@ -10044,6 +10115,18 @@
       "type": "annotated",
       "related_annotation": "「Pre: Prema Tour」千秋楽（福井公演）の余波でYouTube Music月間リスナー上昇",
       "detected_at": "2026-08-13T14:57:30.307787+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 50500000,
+      "baseline_mean": 45990000,
+      "baseline_stddev": 1755439.2,
+      "delta": 4510000,
+      "score": 2.57,
+      "type": "annotated",
+      "related_annotation": "「Pre: Prema Tour」千秋楽（福井公演）の余波でYouTube Music月間リスナー上昇",
+      "detected_at": "2026-08-14T14:51:14.124701+00:00"
     }
   ]
 }

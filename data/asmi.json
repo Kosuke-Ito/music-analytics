@@ -5118,6 +5118,47 @@
       "ytm_subscribers": 167000,
       "ytm_monthly_listeners": 3370000,
       "ytm_total_views": 77542652
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 219069,
+      "collected_at": "2026-08-14T14:48:30.630697+00:00",
+      "spotify_followers": 114121,
+      "youtube_subscribers": 167000,
+      "youtube_total_views": 78230918,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6823
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 5887
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4232
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 2847
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2478
+        }
+      ],
+      "lastfm_listeners": 35668,
+      "lastfm_playcount": 536478,
+      "ytm_subscribers": 167000,
+      "ytm_monthly_listeners": 3370000,
+      "ytm_total_views": 77542652
     }
   ],
   "metadata": {
@@ -5177,11 +5218,6 @@
         "subscribers": "117K"
       },
       {
-        "name": "Sano ibuki",
-        "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
-        "subscribers": "27.1K"
-      },
-      {
         "name": "Ami Sakaguchi",
         "browse_id": "UCtf9vzH5ZH02kBzOVL3XmYQ",
         "subscribers": "158K"
@@ -5200,6 +5236,11 @@
         "name": "ちゃんゆ胃",
         "browse_id": "UCAuKcguClAcMgUvnh2n5XYw",
         "subscribers": "109K"
+      },
+      {
+        "name": "ayaho",
+        "browse_id": "UCBq3HNB-IwKzDFhSFboMBLw",
+        "subscribers": "31.5K"
       }
     ],
     "ytm_top_songs": [
@@ -5955,6 +5996,12 @@
           "views": 1062798,
           "likes": 10237,
           "comments": 191
+        },
+        {
+          "date": "2026-08-14",
+          "views": 1063280,
+          "likes": 10239,
+          "comments": 191
         }
       ]
     },
@@ -6691,6 +6738,12 @@
           "date": "2026-08-13",
           "views": 888797,
           "likes": 8544,
+          "comments": 43
+        },
+        {
+          "date": "2026-08-14",
+          "views": 889483,
+          "likes": 8550,
           "comments": 43
         }
       ]
@@ -7429,6 +7482,12 @@
           "views": 431723,
           "likes": 3943,
           "comments": 47
+        },
+        {
+          "date": "2026-08-14",
+          "views": 432278,
+          "likes": 3948,
+          "comments": 47
         }
       ]
     },
@@ -7937,6 +7996,12 @@
           "date": "2026-08-13",
           "views": 1108292,
           "likes": 11664,
+          "comments": 139
+        },
+        {
+          "date": "2026-08-14",
+          "views": 1108828,
+          "likes": 11666,
           "comments": 139
         }
       ]
@@ -8678,6 +8743,12 @@
         {
           "date": "2026-08-13",
           "views": 58599,
+          "likes": 717,
+          "comments": 14
+        },
+        {
+          "date": "2026-08-14",
+          "views": 58779,
           "likes": 717,
           "comments": 14
         }
@@ -9673,6 +9744,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-13T14:54:46.742972+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "youtube_total_views",
+      "value": 78230918,
+      "baseline_mean": 77707818.1,
+      "baseline_stddev": 246813.9,
+      "delta": 523099,
+      "score": 2.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:48:31.758071+00:00"
     }
   ]
 }

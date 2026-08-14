@@ -5161,6 +5161,47 @@
       "ytm_subscribers": 7750,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 187134,
+      "collected_at": "2026-08-14T14:48:47.094519+00:00",
+      "spotify_followers": 35031,
+      "youtube_subscribers": 914000,
+      "youtube_total_views": 169024066,
+      "youtube_video_count": 481,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6445
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5652
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5263
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2806
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2591
+        }
+      ],
+      "lastfm_listeners": 1039,
+      "lastfm_playcount": 6062,
+      "ytm_subscribers": 7760,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5580,6 +5621,18 @@
       "type": "annotated",
       "related_annotation": "デビュー曲「とてと」（6/25配信）直前の期待感＋GUコラボ第2弾継続でSpotify月間リスナーが続伸（192,044・2.14σ）",
       "detected_at": "2026-06-23T16:25:53.306557+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "monthly_listeners",
+      "value": 187134,
+      "baseline_mean": 180994.8,
+      "baseline_stddev": 3053.0,
+      "delta": 6139,
+      "score": 2.01,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:48:48.054785+00:00"
     }
   ]
 }

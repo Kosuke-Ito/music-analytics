@@ -5047,6 +5047,47 @@
       "ytm_subscribers": 874000,
       "ytm_monthly_listeners": 2510000,
       "ytm_total_views": 591821622
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 1800878,
+      "collected_at": "2026-08-14T14:59:26.286861+00:00",
+      "spotify_followers": 1516503,
+      "youtube_subscribers": 874000,
+      "youtube_total_views": 593436961,
+      "youtube_video_count": 140,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 91041
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 83714
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 64485
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 37448
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 36226
+        }
+      ],
+      "lastfm_listeners": 59194,
+      "lastfm_playcount": 1680160,
+      "ytm_subscribers": 874000,
+      "ytm_monthly_listeners": 2510000,
+      "ytm_total_views": 591821622
     }
   ],
   "annotations": [
@@ -6173,6 +6214,12 @@
           "views": 5432519,
           "likes": 23467,
           "comments": 55
+        },
+        {
+          "date": "2026-08-14",
+          "views": 5448867,
+          "likes": 23535,
+          "comments": 55
         }
       ]
     },
@@ -6897,6 +6944,12 @@
           "date": "2026-08-13",
           "views": 5932119,
           "likes": 27181,
+          "comments": 50
+        },
+        {
+          "date": "2026-08-14",
+          "views": 5948949,
+          "likes": 27247,
           "comments": 50
         }
       ]
@@ -7635,6 +7688,12 @@
           "views": 3204066,
           "likes": 16527,
           "comments": 39
+        },
+        {
+          "date": "2026-08-14",
+          "views": 3213179,
+          "likes": 16562,
+          "comments": 39
         }
       ]
     },
@@ -8359,6 +8418,12 @@
           "date": "2026-08-13",
           "views": 3631614,
           "likes": 20821,
+          "comments": 43
+        },
+        {
+          "date": "2026-08-14",
+          "views": 3640758,
+          "likes": 20857,
           "comments": 43
         }
       ]
@@ -9136,6 +9201,12 @@
           "views": 3103497,
           "likes": 12646,
           "comments": 33
+        },
+        {
+          "date": "2026-08-14",
+          "views": 3113016,
+          "likes": 12681,
+          "comments": 33
         }
       ]
     }
@@ -9824,6 +9895,18 @@
       "type": "annotated",
       "related_annotation": "SUMMER SONIC 2026等、夏フェス連続出演による露出増",
       "detected_at": "2026-08-13T15:05:56.974715+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "monthly_listeners",
+      "value": 1800878,
+      "baseline_mean": 1771908.4,
+      "baseline_stddev": 6857.9,
+      "delta": 28969,
+      "score": 4.22,
+      "type": "annotated",
+      "related_annotation": "SUMMER SONIC 2026等、夏フェス連続出演による露出増",
+      "detected_at": "2026-08-14T14:59:27.845215+00:00"
     }
   ]
 }

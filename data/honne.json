@@ -5159,6 +5159,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 5300000,
       "ytm_total_views": 925186586
+    },
+    {
+      "date": "2026-08-14",
+      "monthly_listeners": 3950395,
+      "collected_at": "2026-08-14T14:55:16.671904+00:00",
+      "spotify_followers": 1673607,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 925237628,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 174583
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 137779
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 130153
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 121255
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 102822
+        }
+      ],
+      "lastfm_listeners": 937139,
+      "lastfm_playcount": 23800844,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 5300000,
+      "ytm_total_views": 925186586
     }
   ],
   "annotations": [
@@ -6158,6 +6199,12 @@
           "views": 2602490,
           "likes": 16036,
           "comments": 27
+        },
+        {
+          "date": "2026-08-14",
+          "views": 2602786,
+          "likes": 16038,
+          "comments": 27
         }
       ]
     },
@@ -6889,6 +6936,12 @@
           "views": 2162301,
           "likes": 19783,
           "comments": 280
+        },
+        {
+          "date": "2026-08-14",
+          "views": 2165977,
+          "likes": 19796,
+          "comments": 281
         }
       ]
     },
@@ -7625,6 +7678,12 @@
           "date": "2026-08-13",
           "views": 48182786,
           "likes": 203251,
+          "comments": 121
+        },
+        {
+          "date": "2026-08-14",
+          "views": 48196994,
+          "likes": 203280,
           "comments": 121
         }
       ]
@@ -8781,6 +8840,12 @@
           "views": 14699098,
           "likes": 74763,
           "comments": 39
+        },
+        {
+          "date": "2026-08-14",
+          "views": 14710625,
+          "likes": 74795,
+          "comments": 40
         }
       ]
     },
@@ -9125,6 +9190,12 @@
           "date": "2026-08-13",
           "views": 15833391,
           "likes": 80549,
+          "comments": 63
+        },
+        {
+          "date": "2026-08-14",
+          "views": 15837295,
+          "likes": 80560,
           "comments": 63
         }
       ]
@@ -9478,6 +9549,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-13T15:01:40.744358+00:00"
+    },
+    {
+      "date": "2026-08-14",
+      "metric": "monthly_listeners",
+      "value": 3950395,
+      "baseline_mean": 3894848.3,
+      "baseline_stddev": 14117.6,
+      "delta": 55546,
+      "score": 3.93,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-14T14:55:17.776695+00:00"
     }
   ]
 }
