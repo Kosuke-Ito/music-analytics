@@ -5085,6 +5085,47 @@
       "ytm_subscribers": 885000,
       "ytm_monthly_listeners": 7040000,
       "ytm_total_views": 652276991
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 2254498,
+      "collected_at": "2026-08-15T14:29:59.378101+00:00",
+      "spotify_followers": 1068278,
+      "youtube_subscribers": 885000,
+      "youtube_total_views": 675702700,
+      "youtube_video_count": 326,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 53727
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51272
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 47280
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 34501
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 25362
+        }
+      ],
+      "lastfm_listeners": 170250,
+      "lastfm_playcount": 5937064,
+      "ytm_subscribers": 885000,
+      "ytm_monthly_listeners": 7040000,
+      "ytm_total_views": 653274151
     }
   ],
   "annotations": [
@@ -5360,9 +5401,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "YU-KA",
-        "browse_id": "UC-3USfEYlYrgjVGHSNY1QWA",
-        "subscribers": "598K"
+        "name": "LOZAREENA",
+        "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
+        "subscribers": "315K"
       },
       {
         "name": "Rei Yasuda",
@@ -5400,9 +5441,9 @@
         "subscribers": "102K"
       },
       {
-        "name": "LOZAREENA",
-        "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
-        "subscribers": "315K"
+        "name": "YU-KA",
+        "browse_id": "UC-3USfEYlYrgjVGHSNY1QWA",
+        "subscribers": "598K"
       },
       {
         "name": "Uru",
@@ -6670,6 +6711,12 @@
           "date": "2026-08-14",
           "views": 9344862,
           "likes": 64845,
+          "comments": 222
+        },
+        {
+          "date": "2026-08-15",
+          "views": 9352615,
+          "likes": 64886,
           "comments": 222
         }
       ]
@@ -7971,6 +8018,12 @@
           "views": 7505744,
           "likes": 53714,
           "comments": 70
+        },
+        {
+          "date": "2026-08-15",
+          "views": 7509287,
+          "likes": 53734,
+          "comments": 70
         }
       ]
     },
@@ -8642,6 +8695,12 @@
           "views": 2025816,
           "likes": 29064,
           "comments": 318
+        },
+        {
+          "date": "2026-08-15",
+          "views": 2030955,
+          "likes": 29100,
+          "comments": 318
         }
       ]
     },
@@ -8982,6 +9041,12 @@
           "views": 14723625,
           "likes": 144030,
           "comments": 2330
+        },
+        {
+          "date": "2026-08-15",
+          "views": 14742337,
+          "likes": 144220,
+          "comments": 2331
         }
       ]
     },
@@ -9166,6 +9231,12 @@
           "date": "2026-08-14",
           "views": 135820,
           "likes": 2511,
+          "comments": 28
+        },
+        {
+          "date": "2026-08-15",
+          "views": 138917,
+          "likes": 2542,
           "comments": 28
         }
       ]
@@ -9699,6 +9770,42 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-14T15:01:24.164592+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "monthly_listeners",
+      "value": 2254498,
+      "baseline_mean": 2170331.6,
+      "baseline_stddev": 36654.3,
+      "delta": 84166,
+      "score": 2.3,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:30:03.137420+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "ytm_monthly_listeners",
+      "value": 7040000,
+      "baseline_mean": 6029666.7,
+      "baseline_stddev": 502337.8,
+      "delta": 1010333,
+      "score": 2.01,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:30:03.137420+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "youtube_total_views",
+      "value": 675702700,
+      "baseline_mean": 670053803.1,
+      "baseline_stddev": 2772406.5,
+      "delta": 5648896,
+      "score": 2.04,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:30:03.137420+00:00"
     }
   ]
 }

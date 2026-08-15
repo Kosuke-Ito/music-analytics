@@ -5088,6 +5088,47 @@
       "ytm_subscribers": 874000,
       "ytm_monthly_listeners": 2510000,
       "ytm_total_views": 591821622
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 1807598,
+      "collected_at": "2026-08-15T14:28:02.721918+00:00",
+      "spotify_followers": 1517130,
+      "youtube_subscribers": 874000,
+      "youtube_total_views": 594502989,
+      "youtube_video_count": 140,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 91615
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 83316
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 64967
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 37601
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 36146
+        }
+      ],
+      "lastfm_listeners": 59218,
+      "lastfm_playcount": 1680873,
+      "ytm_subscribers": 874000,
+      "ytm_monthly_listeners": 2510000,
+      "ytm_total_views": 592878620
     }
   ],
   "annotations": [
@@ -5412,7 +5453,7 @@
       {
         "name": "Kepura",
         "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
-        "subscribers": "71.7K"
+        "subscribers": "68.3K"
       },
       {
         "name": "moon drop",
@@ -5427,7 +5468,7 @@
       {
         "name": "YUTORI-SEDAI",
         "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "254K"
+        "subscribers": "248K"
       },
       {
         "name": "tokyo kimiga inai machi",
@@ -5447,7 +5488,7 @@
       {
         "name": "bokula.",
         "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
-        "subscribers": "501K"
+        "subscribers": "511K"
       },
       {
         "name": "OKOJO",
@@ -6220,6 +6261,12 @@
           "views": 5448867,
           "likes": 23535,
           "comments": 55
+        },
+        {
+          "date": "2026-08-15",
+          "views": 5463631,
+          "likes": 23604,
+          "comments": 55
         }
       ]
     },
@@ -6950,6 +6997,12 @@
           "date": "2026-08-14",
           "views": 5948949,
           "likes": 27247,
+          "comments": 50
+        },
+        {
+          "date": "2026-08-15",
+          "views": 5964217,
+          "likes": 27311,
           "comments": 50
         }
       ]
@@ -7694,6 +7747,12 @@
           "views": 3213179,
           "likes": 16562,
           "comments": 39
+        },
+        {
+          "date": "2026-08-15",
+          "views": 3221682,
+          "likes": 16604,
+          "comments": 39
         }
       ]
     },
@@ -8424,6 +8483,12 @@
           "date": "2026-08-14",
           "views": 3640758,
           "likes": 20857,
+          "comments": 43
+        },
+        {
+          "date": "2026-08-15",
+          "views": 3649141,
+          "likes": 20895,
           "comments": 43
         }
       ]
@@ -9207,6 +9272,12 @@
           "views": 3113016,
           "likes": 12681,
           "comments": 33
+        },
+        {
+          "date": "2026-08-15",
+          "views": 3121036,
+          "likes": 12713,
+          "comments": 33
         }
       ]
     }
@@ -9907,6 +9978,18 @@
       "type": "annotated",
       "related_annotation": "SUMMER SONIC 2026等、夏フェス連続出演による露出増",
       "detected_at": "2026-08-14T14:59:27.845215+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "monthly_listeners",
+      "value": 1807598,
+      "baseline_mean": 1772616.8,
+      "baseline_stddev": 8515.7,
+      "delta": 34981,
+      "score": 4.11,
+      "type": "annotated",
+      "related_annotation": "SUMMER SONIC 2026等、夏フェス連続出演による露出増",
+      "detected_at": "2026-08-15T14:28:04.404182+00:00"
     }
   ]
 }

@@ -5085,6 +5085,47 @@
       "ytm_subscribers": 2260000,
       "ytm_monthly_listeners": 29700000,
       "ytm_total_views": 1320715804
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 4125738,
+      "collected_at": "2026-08-15T14:27:11.426667+00:00",
+      "spotify_followers": 1065830,
+      "youtube_subscribers": 2260000,
+      "youtube_total_views": 1829364365,
+      "youtube_video_count": 127,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 140138
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 137087
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 103872
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 53924
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 53049
+        }
+      ],
+      "lastfm_listeners": 209433,
+      "lastfm_playcount": 3508068,
+      "ytm_subscribers": 2260000,
+      "ytm_monthly_listeners": 29700000,
+      "ytm_total_views": 1329180316
     }
   ],
   "annotations": [
@@ -5617,6 +5658,11 @@
         "subscribers": "5.21M"
       },
       {
+        "name": "CUTIE STREET",
+        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
+        "subscribers": "26.1M"
+      },
+      {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
         "subscribers": "1.81M"
@@ -5630,11 +5676,6 @@
         "name": "BE:FIRST",
         "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
         "subscribers": "13.5M"
-      },
-      {
-        "name": "CUTIE STREET",
-        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
-        "subscribers": "26.1M"
       },
       {
         "name": "ME:I",
@@ -6395,6 +6436,12 @@
           "views": 156330,
           "likes": 1313,
           "comments": 25
+        },
+        {
+          "date": "2026-08-15",
+          "views": 156767,
+          "likes": 1316,
+          "comments": 25
         }
       ]
     },
@@ -7125,6 +7172,12 @@
           "date": "2026-08-14",
           "views": 311713,
           "likes": 2408,
+          "comments": 24
+        },
+        {
+          "date": "2026-08-15",
+          "views": 313372,
+          "likes": 2431,
           "comments": 24
         }
       ]
@@ -8216,6 +8269,12 @@
           "views": 517878,
           "likes": 3133,
           "comments": 16
+        },
+        {
+          "date": "2026-08-15",
+          "views": 520115,
+          "likes": 3150,
+          "comments": 16
         }
       ]
     },
@@ -9270,6 +9329,12 @@
           "views": 478772,
           "likes": 3218,
           "comments": 46
+        },
+        {
+          "date": "2026-08-15",
+          "views": 479301,
+          "likes": 3222,
+          "comments": 46
         }
       ]
     },
@@ -9384,6 +9449,12 @@
           "views": 2059964,
           "likes": 49535,
           "comments": 1952
+        },
+        {
+          "date": "2026-08-15",
+          "views": 2149782,
+          "likes": 50629,
+          "comments": 1962
         }
       ]
     }
@@ -9976,6 +10047,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-14T14:58:37.585667+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "monthly_listeners",
+      "value": 4125738,
+      "baseline_mean": 3080078.6,
+      "baseline_stddev": 513699.9,
+      "delta": 1045659,
+      "score": 2.04,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:27:13.176539+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "youtube_total_views",
+      "value": 1829364365,
+      "baseline_mean": 1796443517.9,
+      "baseline_stddev": 13492564.2,
+      "delta": 32920847,
+      "score": 2.44,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:27:13.176539+00:00"
     }
   ]
 }

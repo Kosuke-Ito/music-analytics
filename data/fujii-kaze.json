@@ -5374,6 +5374,47 @@
       "ytm_subscribers": 5500000,
       "ytm_monthly_listeners": 50500000,
       "ytm_total_views": 2939834338
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 7124379,
+      "collected_at": "2026-08-15T14:19:44.624119+00:00",
+      "spotify_followers": 5200757,
+      "youtube_subscribers": 5500000,
+      "youtube_total_views": 2957341661,
+      "youtube_video_count": 228,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 196516
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 182204
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 143521
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 100772
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 90766
+        }
+      ],
+      "lastfm_listeners": 18612,
+      "lastfm_playcount": 1587403,
+      "ytm_subscribers": 5500000,
+      "ytm_monthly_listeners": 50500000,
+      "ytm_total_views": 2939834338
     }
   ],
   "annotations": [
@@ -5708,29 +5749,14 @@
         "subscribers": "12.7M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "20.1M"
-      },
-      {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "1.24M"
-      },
-      {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.3M"
-      },
-      {
         "name": "Utada",
         "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
         "subscribers": "24.9M"
       },
       {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "61.8M"
+        "name": "SIRUP",
+        "browse_id": "UCNOawli2PNwt-9L_mqjCxUA",
+        "subscribers": "716K"
       },
       {
         "name": "STUTS",
@@ -5738,9 +5764,24 @@
         "subscribers": "1.14M"
       },
       {
-        "name": "SIRUP",
-        "browse_id": "UCNOawli2PNwt-9L_mqjCxUA",
-        "subscribers": "716K"
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "1.24M"
+      },
+      {
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "61.7M"
+      },
+      {
+        "name": "OFFICIAL HIGE DANDISM",
+        "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
+        "subscribers": "60.6M"
+      },
+      {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10.3M"
       }
     ],
     "ytm_top_songs": [
@@ -6514,6 +6555,12 @@
           "views": 290708270,
           "likes": 3796591,
           "comments": 19313
+        },
+        {
+          "date": "2026-08-15",
+          "views": 290825616,
+          "likes": 3797740,
+          "comments": 19311
         }
       ]
     },
@@ -7310,6 +7357,12 @@
           "views": 77480923,
           "likes": 373321,
           "comments": 674
+        },
+        {
+          "date": "2026-08-15",
+          "views": 77531424,
+          "likes": 373519,
+          "comments": 674
         }
       ]
     },
@@ -7986,6 +8039,12 @@
           "views": 53432969,
           "likes": 393768,
           "comments": 1151
+        },
+        {
+          "date": "2026-08-15",
+          "views": 53466851,
+          "likes": 393991,
+          "comments": 1151
         }
       ]
     },
@@ -8602,6 +8661,12 @@
           "date": "2026-08-14",
           "views": 3112613,
           "likes": 20447,
+          "comments": 110
+        },
+        {
+          "date": "2026-08-15",
+          "views": 3133186,
+          "likes": 20549,
           "comments": 110
         }
       ]
@@ -9309,6 +9374,12 @@
           "date": "2026-08-14",
           "views": 3546503,
           "likes": 24981,
+          "comments": 164
+        },
+        {
+          "date": "2026-08-15",
+          "views": 3573672,
+          "likes": 25147,
           "comments": 164
         }
       ]
@@ -10127,6 +10198,18 @@
       "type": "annotated",
       "related_annotation": "「Pre: Prema Tour」千秋楽（福井公演）の余波でYouTube Music月間リスナー上昇",
       "detected_at": "2026-08-14T14:51:14.124701+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "ytm_monthly_listeners",
+      "value": 50500000,
+      "baseline_mean": 46043333.3,
+      "baseline_stddev": 1863989.2,
+      "delta": 4456666,
+      "score": 2.39,
+      "type": "annotated",
+      "related_annotation": "「Pre: Prema Tour」千秋楽（福井公演）の余波でYouTube Music月間リスナー上昇",
+      "detected_at": "2026-08-15T14:19:45.776627+00:00"
     }
   ]
 }

@@ -5091,6 +5091,47 @@
       "ytm_subscribers": 599000,
       "ytm_monthly_listeners": 4840000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 3036968,
+      "collected_at": "2026-08-15T14:27:45.707190+00:00",
+      "spotify_followers": 2044479,
+      "youtube_subscribers": 599000,
+      "youtube_total_views": 516525311,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 155173
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 144100
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 110797
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 61127
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 60436
+        }
+      ],
+      "lastfm_listeners": 7900,
+      "lastfm_playcount": 468807,
+      "ytm_subscribers": 599000,
+      "ytm_monthly_listeners": 4840000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5461,14 +5502,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "4.8M"
+      },
+      {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
         "subscribers": "2.51M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "20.1M"
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10.3M"
       },
       {
         "name": "SUPER BEAVER",
@@ -5481,14 +5527,9 @@
         "subscribers": "6.29M"
       },
       {
-        "name": "Koresawa",
-        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "4.8M"
-      },
-      {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.3M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "20.1M"
       },
       {
         "name": "go!go!vanillas",
@@ -5496,19 +5537,19 @@
         "subscribers": "648K"
       },
       {
-        "name": "CreepHyp",
-        "browse_id": "UC0iyL2tAxXXuwfx8VVvCw1A",
-        "subscribers": "2.07M"
+        "name": "Hump Back",
+        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
+        "subscribers": "6.06M"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "7.9M"
       },
       {
         "name": "Indigo La End",
         "browse_id": "UCNrtDXorquz48idipqfaSKg",
         "subscribers": "1.19M"
-      },
-      {
-        "name": "Hump Back",
-        "browse_id": "UCaJ3q5nA93hWBhJT4r96g0g",
-        "subscribers": "6.06M"
       }
     ],
     "ytm_top_songs": [
@@ -6263,6 +6304,12 @@
           "views": 12892829,
           "likes": 72931,
           "comments": 146
+        },
+        {
+          "date": "2026-08-15",
+          "views": 12908440,
+          "likes": 73006,
+          "comments": 146
         }
       ]
     },
@@ -6994,6 +7041,12 @@
           "views": 25566169,
           "likes": 93735,
           "comments": 178
+        },
+        {
+          "date": "2026-08-15",
+          "views": 25586968,
+          "likes": 93841,
+          "comments": 178
         }
       ]
     },
@@ -7713,6 +7766,12 @@
           "views": 17547001,
           "likes": 64768,
           "comments": 117
+        },
+        {
+          "date": "2026-08-15",
+          "views": 17561598,
+          "likes": 64828,
+          "comments": 117
         }
       ]
     },
@@ -8354,6 +8413,12 @@
           "views": 45943099,
           "likes": 142799,
           "comments": 245
+        },
+        {
+          "date": "2026-08-15",
+          "views": 45961593,
+          "likes": 142881,
+          "comments": 245
         }
       ]
     },
@@ -8976,6 +9041,12 @@
           "views": 16093865,
           "likes": 95175,
           "comments": 558
+        },
+        {
+          "date": "2026-08-15",
+          "views": 16138765,
+          "likes": 95497,
+          "comments": 563
         }
       ]
     },
@@ -10131,6 +10202,18 @@
       "type": "annotated",
       "related_annotation": "アニメタイアップ新曲「終宵」の週次放送による累積効果",
       "detected_at": "2026-07-30T16:00:59.251147+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "youtube_total_views",
+      "value": 516525311,
+      "baseline_mean": 508783333.7,
+      "baseline_stddev": 3573736.8,
+      "delta": 7741977,
+      "score": 2.17,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:27:47.400000+00:00"
     }
   ]
 }

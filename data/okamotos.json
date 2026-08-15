@@ -5200,6 +5200,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 220000,
       "ytm_total_views": 44176390
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 225490,
+      "collected_at": "2026-08-15T14:13:45.155044+00:00",
+      "spotify_followers": 142708,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44485030,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8146
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6302
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4283
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2658
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2150
+        }
+      ],
+      "lastfm_listeners": 71074,
+      "lastfm_playcount": 1194340,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 220000,
+      "ytm_total_views": 44176390
     }
   ],
   "metadata": {
@@ -6104,6 +6145,12 @@
           "views": 15307,
           "likes": 202,
           "comments": 3
+        },
+        {
+          "date": "2026-08-15",
+          "views": 15335,
+          "likes": 202,
+          "comments": 3
         }
       ]
     },
@@ -6852,6 +6899,12 @@
           "date": "2026-08-14",
           "views": 934969,
           "likes": 11769,
+          "comments": 32
+        },
+        {
+          "date": "2026-08-15",
+          "views": 935609,
+          "likes": 11773,
           "comments": 32
         }
       ]
@@ -8057,6 +8110,12 @@
           "views": 234985,
           "likes": 1719,
           "comments": 7
+        },
+        {
+          "date": "2026-08-15",
+          "views": 235135,
+          "likes": 1722,
+          "comments": 7
         }
       ]
     },
@@ -8734,6 +8793,12 @@
           "views": 420292,
           "likes": 6171,
           "comments": 22
+        },
+        {
+          "date": "2026-08-15",
+          "views": 420466,
+          "likes": 6172,
+          "comments": 22
         }
       ]
     },
@@ -9096,6 +9161,12 @@
         {
           "date": "2026-08-14",
           "views": 8160,
+          "likes": 88,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-15",
+          "views": 8233,
           "likes": 88,
           "comments": 4
         }
@@ -9542,6 +9613,18 @@
       "type": "annotated",
       "related_annotation": "8/15開幕ホールツアー直前の宣伝効果＋既存タイアップ曲の継続露出",
       "detected_at": "2026-08-14T14:45:17.605445+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "ytm_monthly_listeners",
+      "value": 220000,
+      "baseline_mean": 209733.3,
+      "baseline_stddev": 4508.8,
+      "delta": 10266,
+      "score": 2.28,
+      "type": "annotated",
+      "related_annotation": "8/15開幕ホールツアー直前の宣伝効果＋既存タイアップ曲の継続露出",
+      "detected_at": "2026-08-15T14:13:46.564518+00:00"
     }
   ]
 }

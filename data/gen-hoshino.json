@@ -5079,6 +5079,47 @@
       "ytm_subscribers": 1770000,
       "ytm_monthly_listeners": 8450000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 2897681,
+      "collected_at": "2026-08-15T14:25:48.767231+00:00",
+      "spotify_followers": 2483209,
+      "youtube_subscribers": 1770000,
+      "youtube_total_views": 1454972722,
+      "youtube_video_count": 212,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 118301
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 103434
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 72156
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 45582
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 40482
+        }
+      ],
+      "lastfm_listeners": 21624,
+      "lastfm_playcount": 3011251,
+      "ytm_subscribers": 1770000,
+      "ytm_monthly_listeners": 8450000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5118,24 +5159,19 @@
         "subscribers": "12.7M"
       },
       {
-        "name": "Spitz",
-        "browse_id": "UCa1Dtbauq3vNdm0osXMScuA",
-        "subscribers": "7.59M"
-      },
-      {
         "name": "Quruli",
         "browse_id": "UCLIFRNQRDAaD5H4REYsRdmA",
         "subscribers": "685K"
       },
       {
+        "name": "Spitz",
+        "browse_id": "UCa1Dtbauq3vNdm0osXMScuA",
+        "subscribers": "7.59M"
+      },
+      {
         "name": "aiko",
         "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
         "subscribers": "7.09M"
-      },
-      {
-        "name": "macaroni enpitsu",
-        "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
-        "subscribers": "4.84M"
       },
       {
         "name": "SEKAI NO OWARI",
@@ -5148,19 +5184,24 @@
         "subscribers": "1.24M"
       },
       {
+        "name": "macaroni enpitsu",
+        "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
+        "subscribers": "4.84M"
+      },
+      {
         "name": "sakanaction",
         "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
         "subscribers": "61.8M"
       },
       {
-        "name": "aimyon",
-        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
-        "subscribers": "8.49M"
-      },
-      {
         "name": "OFFICIAL HIGE DANDISM",
         "browse_id": "UC84Rm0a3gimYXPtqp5O_JRw",
         "subscribers": "60.6M"
+      },
+      {
+        "name": "Fujifabric",
+        "browse_id": "UCFRvee2fH0Fo6WRKGZuk7SQ",
+        "subscribers": "1.72M"
       }
     ],
     "ytm_top_songs": [
@@ -5915,6 +5956,12 @@
           "views": 61402725,
           "likes": 242296,
           "comments": 579
+        },
+        {
+          "date": "2026-08-15",
+          "views": 61436716,
+          "likes": 242439,
+          "comments": 579
         }
       ]
     },
@@ -6646,6 +6693,12 @@
           "views": 5475589,
           "likes": 44447,
           "comments": 0
+        },
+        {
+          "date": "2026-08-15",
+          "views": 5485208,
+          "likes": 44528,
+          "comments": 0
         }
       ]
     },
@@ -7365,6 +7418,12 @@
           "views": 22131616,
           "likes": 104569,
           "comments": 88
+        },
+        {
+          "date": "2026-08-15",
+          "views": 22145603,
+          "likes": 104647,
+          "comments": 88
         }
       ]
     },
@@ -7976,6 +8035,12 @@
           "views": 10668130,
           "likes": 54476,
           "comments": 45
+        },
+        {
+          "date": "2026-08-15",
+          "views": 10677010,
+          "likes": 54532,
+          "comments": 45
         }
       ]
     },
@@ -8514,6 +8579,12 @@
           "date": "2026-08-14",
           "views": 11273768,
           "likes": 50901,
+          "comments": 170
+        },
+        {
+          "date": "2026-08-15",
+          "views": 11280261,
+          "likes": 50936,
           "comments": 170
         }
       ]
@@ -9794,6 +9865,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-14T14:57:16.490993+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "monthly_listeners",
+      "value": 2897681,
+      "baseline_mean": 2726162.7,
+      "baseline_stddev": 67112.9,
+      "delta": 171518,
+      "score": 2.56,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:25:50.342665+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "youtube_total_views",
+      "value": 1454972722,
+      "baseline_mean": 1439756739.2,
+      "baseline_stddev": 5324149.2,
+      "delta": 15215982,
+      "score": 2.86,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:25:50.342665+00:00"
     }
   ]
 }

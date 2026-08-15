@@ -5373,6 +5373,47 @@
       "ytm_subscribers": 9450000,
       "ytm_monthly_listeners": 34900000,
       "ytm_total_views": 5516727191
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 6546143,
+      "collected_at": "2026-08-15T14:19:29.568094+00:00",
+      "spotify_followers": 7905193,
+      "youtube_subscribers": 9450000,
+      "youtube_total_views": 5592968808,
+      "youtube_video_count": 736,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 113142
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 99996
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 85425
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 71354
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 68245
+        }
+      ],
+      "lastfm_listeners": 751232,
+      "lastfm_playcount": 91799427,
+      "ytm_subscribers": 9450000,
+      "ytm_monthly_listeners": 34900000,
+      "ytm_total_views": 5532512242
     }
   ],
   "annotations": [
@@ -5954,19 +5995,9 @@
         "subscribers": "1.22M"
       },
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.34M"
-      },
-      {
         "name": "TOMONARI SORA",
         "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
         "subscribers": "5.07M"
-      },
-      {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.57M"
       },
       {
         "name": "Minami",
@@ -5974,14 +6005,24 @@
         "subscribers": "1.77M"
       },
       {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.26M"
+      },
+      {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.57M"
+      },
+      {
         "name": "jon-YAKITORY",
         "browse_id": "UCkLsbUdFJW7CFX5ZqcqOKBg",
         "subscribers": "6.49M"
       },
       {
-        "name": "ZUTOMAYO",
-        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
-        "subscribers": "5.93M"
+        "name": "tuki.",
+        "browse_id": "UCtrbtNbdI4jwRQPG35Mtn2A",
+        "subscribers": "16.8M"
       }
     ],
     "ytm_top_songs": [
@@ -7432,6 +7473,12 @@
           "views": 33801261,
           "likes": 221273,
           "comments": 885
+        },
+        {
+          "date": "2026-08-15",
+          "views": 33846229,
+          "likes": 221556,
+          "comments": 885
         }
       ]
     },
@@ -8157,6 +8204,12 @@
           "views": 54274887,
           "likes": 498909,
           "comments": 2179
+        },
+        {
+          "date": "2026-08-15",
+          "views": 54310687,
+          "likes": 499224,
+          "comments": 2183
         }
       ]
     },
@@ -8995,6 +9048,12 @@
           "views": 69942757,
           "likes": 365582,
           "comments": 765
+        },
+        {
+          "date": "2026-08-15",
+          "views": 69978428,
+          "likes": 365764,
+          "comments": 766
         }
       ]
     },
@@ -9586,6 +9645,12 @@
           "views": 98592135,
           "likes": 545465,
           "comments": 1061
+        },
+        {
+          "date": "2026-08-15",
+          "views": 98624228,
+          "likes": 545610,
+          "comments": 1061
         }
       ]
     },
@@ -9776,6 +9841,12 @@
           "views": 1000296,
           "likes": 35452,
           "comments": 733
+        },
+        {
+          "date": "2026-08-15",
+          "views": 1072071,
+          "likes": 36921,
+          "comments": 745
         }
       ]
     }
@@ -10320,6 +10391,18 @@
       "type": "annotated",
       "related_annotation": "実写映画『ブルーロック』主題歌「モンストロ」配信リリース＆MV公開",
       "detected_at": "2026-08-10T14:57:10.893585+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "youtube_total_views",
+      "value": 5592968808,
+      "baseline_mean": 5539410235.8,
+      "baseline_stddev": 25766261.9,
+      "delta": 53558572,
+      "score": 2.08,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:19:30.698143+00:00"
     }
   ]
 }

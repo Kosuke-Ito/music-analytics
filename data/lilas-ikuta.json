@@ -5198,6 +5198,47 @@
       "ytm_subscribers": 1010000,
       "ytm_monthly_listeners": 17200000,
       "ytm_total_views": 432490839
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 2667280,
+      "collected_at": "2026-08-15T14:15:22.333612+00:00",
+      "spotify_followers": 1030541,
+      "youtube_subscribers": 1010000,
+      "youtube_total_views": 438338450,
+      "youtube_video_count": 54,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 76738
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 75530
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 56698
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 43800
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 30040
+        }
+      ],
+      "lastfm_listeners": 19906,
+      "lastfm_playcount": 356466,
+      "ytm_subscribers": 1010000,
+      "ytm_monthly_listeners": 17200000,
+      "ytm_total_views": 436945176
     }
   ],
   "annotations": [
@@ -5522,16 +5563,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Mosawo",
-        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
-        "subscribers": "1.16M"
-      },
-      {
-        "name": "Yuka",
-        "browse_id": "UCMkVJ99SxSdl7mZi43FB49Q",
-        "subscribers": "7.84M"
-      },
-      {
         "name": "Noda Emi",
         "browse_id": "UC2mwr8Fe3w-HixrCoruERTg",
         "subscribers": "353K"
@@ -5542,14 +5573,19 @@
         "subscribers": "318K"
       },
       {
+        "name": "Yuka",
+        "browse_id": "UCMkVJ99SxSdl7mZi43FB49Q",
+        "subscribers": "7.84M"
+      },
+      {
+        "name": "Mosawo",
+        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
+        "subscribers": "1.16M"
+      },
+      {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
         "subscribers": "20.3M"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.4M"
       },
       {
         "name": "Miwa",
@@ -5557,19 +5593,24 @@
         "subscribers": "1.79M"
       },
       {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.34M"
-      },
-      {
         "name": "Riria.",
         "browse_id": "UC19b2wLgiw-R2LTd1waSGXQ",
         "subscribers": "885K"
       },
       {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "4.44M"
+        "name": "asmi",
+        "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
+        "subscribers": "3.37M"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.4M"
+      },
+      {
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "18.9M"
       }
     ],
     "ytm_top_songs": [
@@ -6343,6 +6384,12 @@
           "views": 4657586,
           "likes": 41765,
           "comments": 89
+        },
+        {
+          "date": "2026-08-15",
+          "views": 4686603,
+          "likes": 42004,
+          "comments": 90
         }
       ]
     },
@@ -7086,6 +7133,12 @@
           "views": 19690452,
           "likes": 88431,
           "comments": 558
+        },
+        {
+          "date": "2026-08-15",
+          "views": 19719141,
+          "likes": 88489,
+          "comments": 560
         }
       ]
     },
@@ -7834,6 +7887,12 @@
           "date": "2026-08-14",
           "views": 27917426,
           "likes": 178335,
+          "comments": 1811
+        },
+        {
+          "date": "2026-08-15",
+          "views": 27924301,
+          "likes": 178339,
           "comments": 1811
         }
       ]
@@ -9105,6 +9164,12 @@
           "views": 31423634,
           "likes": 131492,
           "comments": 316
+        },
+        {
+          "date": "2026-08-15",
+          "views": 31439322,
+          "likes": 131532,
+          "comments": 316
         }
       ]
     },
@@ -9348,6 +9413,12 @@
           "date": "2026-08-14",
           "views": 12558222,
           "likes": 121425,
+          "comments": 127
+        },
+        {
+          "date": "2026-08-15",
+          "views": 12571548,
+          "likes": 121549,
           "comments": 127
         }
       ]
@@ -9713,6 +9784,18 @@
       "type": "annotated",
       "related_annotation": "sumikaとのコラボ楽曲「赤春花 (feat. 幾田りら)」MVがプレミア公開",
       "detected_at": "2026-07-31T15:57:27.290211+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "youtube_total_views",
+      "value": 438338450,
+      "baseline_mean": 432090450.2,
+      "baseline_stddev": 2185477.4,
+      "delta": 6247999,
+      "score": 2.86,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:15:23.520064+00:00"
     }
   ]
 }

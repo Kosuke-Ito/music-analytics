@@ -5198,6 +5198,47 @@
       "ytm_subscribers": 997000,
       "ytm_monthly_listeners": 25600000,
       "ytm_total_views": 1006244483
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 3753366,
+      "collected_at": "2026-08-15T14:15:39.020518+00:00",
+      "spotify_followers": 884354,
+      "youtube_subscribers": 997000,
+      "youtube_total_views": 1026353493,
+      "youtube_video_count": 273,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 88767
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68039
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 50228
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 50057
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 45596
+        }
+      ],
+      "lastfm_listeners": 122130,
+      "lastfm_playcount": 2605993,
+      "ytm_subscribers": 997000,
+      "ytm_monthly_listeners": 25600000,
+      "ytm_total_views": 1016886431
     }
   ],
   "annotations": [
@@ -5558,9 +5599,19 @@
         "subscribers": "630K"
       },
       {
+        "name": "suisoh",
+        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
+        "subscribers": "550K"
+      },
+      {
+        "name": "kei sugawara",
+        "browse_id": "UCteJs3TEbPFxDObB-4s7Y6w",
+        "subscribers": "366K"
+      },
+      {
         "name": "yama",
         "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.34M"
+        "subscribers": "5.26M"
       },
       {
         "name": "MAISONdes ",
@@ -5568,24 +5619,14 @@
         "subscribers": "3.57M"
       },
       {
-        "name": "suisoh",
-        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "550K"
+        "name": "ewe",
+        "browse_id": "UCHdEh1-tnKz_nFLeFgEFGhA",
+        "subscribers": "1.16M"
       },
       {
-        "name": "Wanuka",
-        "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
-        "subscribers": "1.06M"
-      },
-      {
-        "name": "Azsagawa",
-        "browse_id": "UCc2NnN-qVuR_Oq90PxHk5Ng",
-        "subscribers": "818K"
-      },
-      {
-        "name": "kei sugawara",
-        "browse_id": "UCteJs3TEbPFxDObB-4s7Y6w",
-        "subscribers": "366K"
+        "name": "ZUTOMAYO",
+        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
+        "subscribers": "5.93M"
       }
     ],
     "ytm_top_songs": [
@@ -6359,6 +6400,12 @@
           "views": 57137431,
           "likes": 370453,
           "comments": 1913
+        },
+        {
+          "date": "2026-08-15",
+          "views": 57187971,
+          "likes": 370775,
+          "comments": 1915
         }
       ]
     },
@@ -7102,6 +7149,12 @@
           "views": 11912509,
           "likes": 81916,
           "comments": 0
+        },
+        {
+          "date": "2026-08-15",
+          "views": 11920211,
+          "likes": 81964,
+          "comments": 0
         }
       ]
     },
@@ -7754,6 +7807,12 @@
           "date": "2026-08-14",
           "views": 2941636,
           "likes": 33596,
+          "comments": 372
+        },
+        {
+          "date": "2026-08-15",
+          "views": 2947842,
+          "likes": 33635,
           "comments": 372
         }
       ]
@@ -8498,6 +8557,12 @@
           "views": 1248401,
           "likes": 16014,
           "comments": 118
+        },
+        {
+          "date": "2026-08-15",
+          "views": 1253384,
+          "likes": 16053,
+          "comments": 118
         }
       ]
     },
@@ -9132,6 +9197,12 @@
           "date": "2026-08-14",
           "views": 2529364,
           "likes": 16631,
+          "comments": 49
+        },
+        {
+          "date": "2026-08-15",
+          "views": 2531295,
+          "likes": 16644,
           "comments": 49
         }
       ]
@@ -9807,6 +9878,30 @@
       "type": "annotated",
       "related_annotation": "新曲「遺書」MV公開（アニメ『これ描いて死ね』OP）",
       "detected_at": "2026-08-14T14:47:11.786286+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "ytm_monthly_listeners",
+      "value": 25600000,
+      "baseline_mean": 24006666.7,
+      "baseline_stddev": 594941.6,
+      "delta": 1593333,
+      "score": 2.68,
+      "type": "annotated",
+      "related_annotation": "新曲「遺書」MV公開（アニメ『これ描いて死ね』OP）",
+      "detected_at": "2026-08-15T14:15:40.882959+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "youtube_total_views",
+      "value": 1026353493,
+      "baseline_mean": 1011386293.6,
+      "baseline_stddev": 5618736.9,
+      "delta": 14967199,
+      "score": 2.66,
+      "type": "annotated",
+      "related_annotation": "新曲「遺書」MV公開（アニメ『これ描いて死ね』OP）",
+      "detected_at": "2026-08-15T14:15:40.882959+00:00"
     }
   ]
 }

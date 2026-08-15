@@ -5203,6 +5203,47 @@
       "ytm_subscribers": 502000,
       "ytm_monthly_listeners": 2150000,
       "ytm_total_views": 485435419
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 1334430,
+      "collected_at": "2026-08-15T14:13:28.899813+00:00",
+      "spotify_followers": 1101534,
+      "youtube_subscribers": 502000,
+      "youtube_total_views": 485435444,
+      "youtube_video_count": 86,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 53214
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 49820
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 38566
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 19455
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 18474
+        }
+      ],
+      "lastfm_listeners": 62709,
+      "lastfm_playcount": 3023098,
+      "ytm_subscribers": 502000,
+      "ytm_monthly_listeners": 2150000,
+      "ytm_total_views": 485435419
     }
   ],
   "annotations": [
@@ -5419,19 +5460,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Kiroro",
-        "browse_id": "UC5ftOkhi-5zPpJRrjPD5Nww",
-        "subscribers": "3.88M"
-      },
-      {
-        "name": "Hideaki Tokunaga",
-        "browse_id": "UCcYWiMfLcUpPUAj2jdSd8Ng",
-        "subscribers": "1.77M"
-      },
-      {
         "name": "Naotaro Moriyama",
         "browse_id": "UCdB0obTpnSogmbFqK5j4HFA",
         "subscribers": "846K"
+      },
+      {
+        "name": "Kiroro",
+        "browse_id": "UC5ftOkhi-5zPpJRrjPD5Nww",
+        "subscribers": "3.88M"
       },
       {
         "name": "Remioromen",
@@ -5439,14 +5475,19 @@
         "subscribers": "2.17M"
       },
       {
-        "name": "HY",
-        "browse_id": "UCFC1zNScOH3clo2Hd_0YzCg",
-        "subscribers": "2.66M"
-      },
-      {
         "name": "Ayaka",
         "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
         "subscribers": "2.97M"
+      },
+      {
+        "name": "Hideaki Tokunaga",
+        "browse_id": "UCcYWiMfLcUpPUAj2jdSd8Ng",
+        "subscribers": "1.77M"
+      },
+      {
+        "name": "The Gospellers",
+        "browse_id": "UCabuLVuQm0GwG_wr5sAQwnQ",
+        "subscribers": "455K"
       },
       {
         "name": "Ko Shibasaki",
@@ -5454,19 +5495,19 @@
         "subscribers": "823K"
       },
       {
-        "name": "Ai Otsuka",
-        "browse_id": "UCiQBYPGlDQRHXD8FaryNaFw",
-        "subscribers": "9.21M"
-      },
-      {
         "name": "Noriyuki Makihara",
         "browse_id": "UCqOYGdBXxgXdBF8RjuBcuKA",
         "subscribers": "4.37M"
       },
       {
-        "name": "Masaharu Fukuyama",
-        "browse_id": "UCOgskNCI49YHsOUTGPJ2QHA",
-        "subscribers": "2.99M"
+        "name": "Hiroji Miyamoto",
+        "browse_id": "UCdGURphNgk4Hbw51IGr2W4A",
+        "subscribers": "929K"
+      },
+      {
+        "name": "Ai Otsuka",
+        "browse_id": "UCiQBYPGlDQRHXD8FaryNaFw",
+        "subscribers": "9.21M"
       }
     ],
     "ytm_top_songs": [
@@ -6240,6 +6281,12 @@
           "views": 6001181,
           "likes": 34711,
           "comments": 147
+        },
+        {
+          "date": "2026-08-15",
+          "views": 6005865,
+          "likes": 34731,
+          "comments": 147
         }
       ]
     },
@@ -6989,6 +7036,12 @@
           "views": 1077492,
           "likes": 6475,
           "comments": 31
+        },
+        {
+          "date": "2026-08-15",
+          "views": 1078053,
+          "likes": 6478,
+          "comments": 31
         }
       ]
     },
@@ -7737,6 +7790,12 @@
           "date": "2026-08-14",
           "views": 336971,
           "likes": 2308,
+          "comments": 13
+        },
+        {
+          "date": "2026-08-15",
+          "views": 337309,
+          "likes": 2309,
           "comments": 13
         }
       ]
@@ -8690,6 +8749,12 @@
           "views": 659113,
           "likes": 3489,
           "comments": 12
+        },
+        {
+          "date": "2026-08-15",
+          "views": 659465,
+          "likes": 3494,
+          "comments": 12
         }
       ]
     },
@@ -9239,6 +9304,12 @@
         {
           "date": "2026-08-14",
           "views": 136568,
+          "likes": 946,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-15",
+          "views": 136669,
           "likes": 946,
           "comments": 5
         }
@@ -9833,6 +9904,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-14T14:45:00.632154+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "monthly_listeners",
+      "value": 1334430,
+      "baseline_mean": 1278181.9,
+      "baseline_stddev": 20666.0,
+      "delta": 56248,
+      "score": 2.72,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:13:30.079054+00:00"
     }
   ]
 }

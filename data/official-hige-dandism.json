@@ -5371,6 +5371,47 @@
       "ytm_subscribers": 3680000,
       "ytm_monthly_listeners": 60600000,
       "ytm_total_views": 4509001421
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 5153187,
+      "collected_at": "2026-08-15T14:18:42.647966+00:00",
+      "spotify_followers": 7861697,
+      "youtube_subscribers": 3680000,
+      "youtube_total_views": 4593630283,
+      "youtube_video_count": 257,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 204826
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 194734
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 139242
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 81600
+        },
+        {
+          "city": "Seoul",
+          "country": "KR",
+          "listeners": 78357
+        }
+      ],
+      "lastfm_listeners": 28307,
+      "lastfm_playcount": 2170024,
+      "ytm_subscribers": 3680000,
+      "ytm_monthly_listeners": 60600000,
+      "ytm_total_views": 4560735447
     }
   ],
   "annotations": [
@@ -5794,24 +5835,9 @@
         "subscribers": "4.64M"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.4M"
-      },
-      {
-        "name": "SUKIMASWITCH",
-        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "4.74M"
-      },
-      {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "6.21M"
-      },
-      {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "105M"
+        "name": "wacci",
+        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
+        "subscribers": "1.74M"
       },
       {
         "name": "Lilas",
@@ -5819,14 +5845,19 @@
         "subscribers": "17.2M"
       },
       {
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "6.21M"
+      },
+      {
         "name": "Motohiro Hata",
         "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
         "subscribers": "12.7M"
       },
       {
-        "name": "Ikimonogakari",
-        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
-        "subscribers": "18.9M"
+        "name": "SUKIMASWITCH",
+        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
+        "subscribers": "4.74M"
       },
       {
         "name": "TOMOO",
@@ -5834,9 +5865,19 @@
         "subscribers": "1.24M"
       },
       {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "4.44M"
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.4M"
+      },
+      {
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "61.7M"
+      },
+      {
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "18.9M"
       }
     ],
     "ytm_top_songs": [
@@ -6610,6 +6651,12 @@
           "views": 229167825,
           "likes": 635565,
           "comments": 2265
+        },
+        {
+          "date": "2026-08-15",
+          "views": 229317828,
+          "likes": 635988,
+          "comments": 2264
         }
       ]
     },
@@ -7616,6 +7663,12 @@
           "views": 23302318,
           "likes": 108425,
           "comments": 2710
+        },
+        {
+          "date": "2026-08-15",
+          "views": 23350620,
+          "likes": 108560,
+          "comments": 2711
         }
       ]
     },
@@ -8365,6 +8418,12 @@
           "views": 89870899,
           "likes": 405285,
           "comments": 927
+        },
+        {
+          "date": "2026-08-15",
+          "views": 89908638,
+          "likes": 405389,
+          "comments": 927
         }
       ]
     },
@@ -8801,6 +8860,12 @@
           "date": "2026-08-14",
           "views": 95947988,
           "likes": 271818,
+          "comments": 528
+        },
+        {
+          "date": "2026-08-15",
+          "views": 95984653,
+          "likes": 271908,
           "comments": 528
         }
       ]
@@ -9621,6 +9686,12 @@
           "views": 64232728,
           "likes": 205383,
           "comments": 648
+        },
+        {
+          "date": "2026-08-15",
+          "views": 64265977,
+          "likes": 205497,
+          "comments": 648
         }
       ]
     }
@@ -10189,6 +10260,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-14T14:50:10.229706+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "monthly_listeners",
+      "value": 5153187,
+      "baseline_mean": 5098827.0,
+      "baseline_stddev": 14078.0,
+      "delta": 54359,
+      "score": 3.86,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:18:43.749647+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "youtube_total_views",
+      "value": 4593630283,
+      "baseline_mean": 4547401112.8,
+      "baseline_stddev": 7557989.7,
+      "delta": 46229170,
+      "score": 6.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:18:43.749647+00:00"
     }
   ]
 }

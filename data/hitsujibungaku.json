@@ -5082,6 +5082,47 @@
       "ytm_subscribers": 465000,
       "ytm_monthly_listeners": 5160000,
       "ytm_total_views": 364484346
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 1781650,
+      "collected_at": "2026-08-15T14:28:35.845904+00:00",
+      "spotify_followers": 521446,
+      "youtube_subscribers": 465000,
+      "youtube_total_views": 367601531,
+      "youtube_video_count": 150,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 65616
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 47192
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 43556
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 32581
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 21475
+        }
+      ],
+      "lastfm_listeners": 18923,
+      "lastfm_playcount": 1287665,
+      "ytm_subscribers": 465000,
+      "ytm_monthly_listeners": 5160000,
+      "ytm_total_views": 364484346
     }
   ],
   "annotations": [
@@ -5563,7 +5604,7 @@
       {
         "name": "Nishina",
         "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
-        "subscribers": "270K"
+        "subscribers": "258K"
       },
       {
         "name": "Brandy Senki",
@@ -6355,6 +6396,12 @@
           "views": 20805546,
           "likes": 133059,
           "comments": 392
+        },
+        {
+          "date": "2026-08-15",
+          "views": 20829426,
+          "likes": 133178,
+          "comments": 393
         }
       ]
     },
@@ -7091,6 +7138,12 @@
           "date": "2026-08-14",
           "views": 5283027,
           "likes": 34859,
+          "comments": 190
+        },
+        {
+          "date": "2026-08-15",
+          "views": 5300843,
+          "likes": 34939,
           "comments": 190
         }
       ]
@@ -8062,6 +8115,12 @@
           "views": 1562792,
           "likes": 14032,
           "comments": 86
+        },
+        {
+          "date": "2026-08-15",
+          "views": 1564902,
+          "likes": 14039,
+          "comments": 86
         }
       ]
     },
@@ -8799,6 +8858,12 @@
           "views": 2300438,
           "likes": 17748,
           "comments": 126
+        },
+        {
+          "date": "2026-08-15",
+          "views": 2303056,
+          "likes": 17759,
+          "comments": 126
         }
       ]
     },
@@ -9307,6 +9372,12 @@
           "date": "2026-08-14",
           "views": 4226787,
           "likes": 34279,
+          "comments": 274
+        },
+        {
+          "date": "2026-08-15",
+          "views": 4230030,
+          "likes": 34305,
           "comments": 274
         }
       ]
@@ -10015,6 +10086,18 @@
       "type": "annotated",
       "related_annotation": "『ghost／夜の果て』特報話題の継続的拡散、SUMMER SONIC 2026直前の注目度上昇",
       "detected_at": "2026-08-14T15:00:00.290085+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "monthly_listeners",
+      "value": 1781650,
+      "baseline_mean": 1729703.1,
+      "baseline_stddev": 24110.7,
+      "delta": 51946,
+      "score": 2.15,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:28:37.447080+00:00"
     }
   ]
 }

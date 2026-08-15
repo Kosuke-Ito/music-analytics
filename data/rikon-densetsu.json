@@ -5198,6 +5198,47 @@
       "ytm_subscribers": 104000,
       "ytm_monthly_listeners": 1010000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 553262,
+      "collected_at": "2026-08-15T14:14:17.256058+00:00",
+      "spotify_followers": 126119,
+      "youtube_subscribers": 105000,
+      "youtube_total_views": 52051143,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 26938
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 21869
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 15641
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 9322
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 7437
+        }
+      ],
+      "lastfm_listeners": 10316,
+      "lastfm_playcount": 169669,
+      "ytm_subscribers": 105000,
+      "ytm_monthly_listeners": 1010000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5229,21 +5270,6 @@
       "city pop"
     ],
     "ytm_related_artists": [
-      {
-        "name": "Genie High",
-        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "506K"
-      },
-      {
-        "name": "Nulbarich",
-        "browse_id": "UC9Mr_qx2dUoki2z4VujRImw",
-        "subscribers": "191K"
-      },
-      {
-        "name": "tonun",
-        "browse_id": "UC9XSYahwHXgJnG_7opHAdmQ",
-        "subscribers": "85.2K"
-      },
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
@@ -5278,6 +5304,21 @@
         "name": "Akira Nise",
         "browse_id": "UCFDPdDPQq3VCoe-KPVvbLow",
         "subscribers": "1.56K"
+      },
+      {
+        "name": "Furui Riho",
+        "browse_id": "UC_INWDSkrIjnmqUi5D6zi4Q",
+        "subscribers": "323K"
+      },
+      {
+        "name": "Moto from Chilli Beans.",
+        "browse_id": "UCSKmRJLeme-kE918PHRxhBQ",
+        "subscribers": "233"
+      },
+      {
+        "name": "Nishina",
+        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
+        "subscribers": "258K"
       }
     ],
     "ytm_top_songs": [
@@ -6044,6 +6085,12 @@
           "views": 57132,
           "likes": 501,
           "comments": 6
+        },
+        {
+          "date": "2026-08-15",
+          "views": 57265,
+          "likes": 502,
+          "comments": 6
         }
       ]
     },
@@ -6787,6 +6834,12 @@
           "views": 46510,
           "likes": 451,
           "comments": 4
+        },
+        {
+          "date": "2026-08-15",
+          "views": 46614,
+          "likes": 450,
+          "comments": 4
         }
       ]
     },
@@ -7529,6 +7582,12 @@
           "date": "2026-08-14",
           "views": 244110,
           "likes": 2129,
+          "comments": 12
+        },
+        {
+          "date": "2026-08-15",
+          "views": 244369,
+          "likes": 2130,
           "comments": 12
         }
       ]
@@ -8842,6 +8901,12 @@
           "views": 93304,
           "likes": 849,
           "comments": 8
+        },
+        {
+          "date": "2026-08-15",
+          "views": 93468,
+          "likes": 850,
+          "comments": 8
         }
       ]
     },
@@ -9041,6 +9106,12 @@
           "date": "2026-08-14",
           "views": 25920,
           "likes": 252,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-15",
+          "views": 26374,
+          "likes": 257,
           "comments": 5
         }
       ]
@@ -9932,6 +10003,18 @@
       "type": "annotated",
       "related_annotation": "TVドラマ「大空港〜GATE24〜」主題歌の話題継続（増加トレンド継続）",
       "detected_at": "2026-08-14T14:45:51.672770+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "monthly_listeners",
+      "value": 553262,
+      "baseline_mean": 456305.5,
+      "baseline_stddev": 44162.3,
+      "delta": 96956,
+      "score": 2.2,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:14:18.650871+00:00"
     }
   ]
 }

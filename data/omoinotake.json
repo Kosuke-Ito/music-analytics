@@ -5088,6 +5088,47 @@
       "ytm_subscribers": 315000,
       "ytm_monthly_listeners": 3570000,
       "ytm_total_views": 319076017
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 1487758,
+      "collected_at": "2026-08-15T14:30:18.455237+00:00",
+      "spotify_followers": 338635,
+      "youtube_subscribers": 316000,
+      "youtube_total_views": 322432982,
+      "youtube_video_count": 222,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 46605
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 42423
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 35713
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 18188
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 16707
+        }
+      ],
+      "lastfm_listeners": 143385,
+      "lastfm_playcount": 2528974,
+      "ytm_subscribers": 316000,
+      "ytm_monthly_listeners": 3570000,
+      "ytm_total_views": 319076017
     }
   ],
   "annotations": [
@@ -5478,12 +5519,12 @@
       {
         "name": "Absolute area",
         "browse_id": "UCFuSjXQWPqp1YnVgxG3KLXA",
-        "subscribers": "70.6K"
+        "subscribers": "69.3K"
       },
       {
         "name": "saji",
         "browse_id": "UCIZ41IoRQHIPuNORLZiGqzA",
-        "subscribers": "107K"
+        "subscribers": "104K"
       },
       {
         "name": "Mosawo",
@@ -5491,14 +5532,14 @@
         "subscribers": "1.16M"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.4M"
-      },
-      {
         "name": "VK Blanka",
         "browse_id": "UCg2rvXE9x3zg01ZxyIt9DpA",
         "subscribers": "1.44M"
+      },
+      {
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "6.21M"
       }
     ],
     "ytm_top_songs": [
@@ -6266,6 +6307,12 @@
           "views": 11974765,
           "likes": 55933,
           "comments": 203
+        },
+        {
+          "date": "2026-08-15",
+          "views": 11982348,
+          "likes": 55955,
+          "comments": 203
         }
       ]
     },
@@ -7009,6 +7056,12 @@
           "views": 853914,
           "likes": 8674,
           "comments": 90
+        },
+        {
+          "date": "2026-08-15",
+          "views": 855002,
+          "likes": 8682,
+          "comments": 90
         }
       ]
     },
@@ -7727,6 +7780,12 @@
           "date": "2026-08-14",
           "views": 2295760,
           "likes": 17078,
+          "comments": 61
+        },
+        {
+          "date": "2026-08-15",
+          "views": 2296683,
+          "likes": 17085,
           "comments": 61
         }
       ]
@@ -8997,6 +9056,12 @@
           "views": 1057564,
           "likes": 9814,
           "comments": 86
+        },
+        {
+          "date": "2026-08-15",
+          "views": 1058262,
+          "likes": 9820,
+          "comments": 86
         }
       ]
     },
@@ -9257,6 +9322,12 @@
           "date": "2026-08-14",
           "views": 54267,
           "likes": 803,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-15",
+          "views": 54904,
+          "likes": 808,
           "comments": 18
         }
       ]
@@ -9922,6 +9993,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-14T15:01:41.096973+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "monthly_listeners",
+      "value": 1487758,
+      "baseline_mean": 1438879.3,
+      "baseline_stddev": 21662.4,
+      "delta": 48878,
+      "score": 2.26,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:30:20.327070+00:00"
     }
   ]
 }

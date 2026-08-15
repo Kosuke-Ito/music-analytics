@@ -5200,6 +5200,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 1000000,
       "ytm_total_views": 28524748
+    },
+    {
+      "date": "2026-08-15",
+      "monthly_listeners": 192288,
+      "collected_at": "2026-08-15T14:16:46.438376+00:00",
+      "spotify_followers": 63345,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 35254809,
+      "youtube_video_count": 312,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 9831
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6701
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4752
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4459
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3180
+        }
+      ],
+      "lastfm_listeners": 15234,
+      "lastfm_playcount": 350043,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 1000000,
+      "ytm_total_views": 28809538
     }
   ],
   "annotations": [
@@ -5512,7 +5553,7 @@
       {
         "name": "nakigoto",
         "browse_id": "UC4sq6m-foW44E1QTMzW6GsA",
-        "subscribers": "73.5K"
+        "subscribers": "72.8K"
       },
       {
         "name": "Conton Candy",
@@ -5557,7 +5598,7 @@
       {
         "name": "Multidimensional Control Mechanism YODAKA",
         "browse_id": "UC1qtr6uQEQdrfh-QEZTNU7A",
-        "subscribers": "6.12K"
+        "subscribers": "6.13K"
       }
     ],
     "ytm_top_songs": [
@@ -7007,6 +7048,12 @@
           "views": 181544,
           "likes": 1528,
           "comments": 12
+        },
+        {
+          "date": "2026-08-15",
+          "views": 181797,
+          "likes": 1531,
+          "comments": 12
         }
       ]
     },
@@ -7689,6 +7736,12 @@
           "date": "2026-08-14",
           "views": 405163,
           "likes": 3959,
+          "comments": 63
+        },
+        {
+          "date": "2026-08-15",
+          "views": 405477,
+          "likes": 3958,
           "comments": 63
         }
       ]
@@ -8664,6 +8717,12 @@
           "views": 94474,
           "likes": 1435,
           "comments": 76
+        },
+        {
+          "date": "2026-08-15",
+          "views": 94885,
+          "likes": 1437,
+          "comments": 76
         }
       ]
     },
@@ -9022,6 +9081,12 @@
           "views": 31579,
           "likes": 356,
           "comments": 3
+        },
+        {
+          "date": "2026-08-15",
+          "views": 31941,
+          "likes": 358,
+          "comments": 3
         }
       ]
     },
@@ -9361,6 +9426,12 @@
           "date": "2026-08-14",
           "views": 37127,
           "likes": 591,
+          "comments": 16
+        },
+        {
+          "date": "2026-08-15",
+          "views": 38005,
+          "likes": 600,
           "comments": 16
         }
       ]
@@ -10062,6 +10133,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-11T14:54:01.511964+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "ytm_monthly_listeners",
+      "value": 1000000,
+      "baseline_mean": 864166.7,
+      "baseline_stddev": 61969.4,
+      "delta": 135833,
+      "score": 2.19,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:16:48.401697+00:00"
+    },
+    {
+      "date": "2026-08-15",
+      "metric": "youtube_total_views",
+      "value": 35254809,
+      "baseline_mean": 34307752.3,
+      "baseline_stddev": 383806.6,
+      "delta": 947056,
+      "score": 2.47,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-15T14:16:48.401697+00:00"
     }
   ]
 }
