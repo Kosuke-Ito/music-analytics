@@ -5244,6 +5244,47 @@
       "ytm_subscribers": 420000,
       "ytm_monthly_listeners": 3570000,
       "ytm_total_views": 417259493
+    },
+    {
+      "date": "2026-08-16",
+      "monthly_listeners": 750956,
+      "collected_at": "2026-08-16T14:16:30.920803+00:00",
+      "spotify_followers": 273165,
+      "youtube_subscribers": 325000,
+      "youtube_total_views": 250805624,
+      "youtube_video_count": 56,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 23700
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 19414
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 14291
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 11473
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 8521
+        }
+      ],
+      "lastfm_listeners": 136986,
+      "lastfm_playcount": 3387747,
+      "ytm_subscribers": 420000,
+      "ytm_monthly_listeners": 3460000,
+      "ytm_total_views": 417259493
     }
   ],
   "metadata": {
@@ -5257,12 +5298,12 @@
         "url": "https://www.last.fm/music/Yama"
       },
       {
-        "name": "YOASOBI",
-        "url": "https://www.last.fm/music/YOASOBI"
-      },
-      {
         "name": "ZUTOMAYO",
         "url": "https://www.last.fm/music/ZUTOMAYO"
+      },
+      {
+        "name": "YOASOBI",
+        "url": "https://www.last.fm/music/YOASOBI"
       },
       {
         "name": "9Lana",
@@ -5280,7 +5321,7 @@
       {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "100K"
+        "subscribers": "98.5K"
       },
       {
         "name": "NICHIMEZO",
@@ -5295,12 +5336,12 @@
       {
         "name": "BotchiBoromaru",
         "browse_id": "UC5tXBBTgrpXMBvvXY_PGiYQ",
-        "subscribers": "2.44M"
+        "subscribers": "2.5M"
       },
       {
         "name": "Hashimero",
         "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
-        "subscribers": "359K"
+        "subscribers": "328K"
       },
       {
         "name": "R+...",
@@ -5313,19 +5354,19 @@
         "subscribers": "991"
       },
       {
-        "name": "harha",
-        "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "285K"
-      },
-      {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "630K"
+        "subscribers": "616K"
+      },
+      {
+        "name": "harha",
+        "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
+        "subscribers": "259K"
       },
       {
         "name": "suisoh",
         "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "550K"
+        "subscribers": "565K"
       }
     ],
     "ytm_top_songs": [
@@ -6099,6 +6140,12 @@
           "views": 6091759,
           "likes": 37630,
           "comments": 81
+        },
+        {
+          "date": "2026-08-16",
+          "views": 6093428,
+          "likes": 37638,
+          "comments": 81
         }
       ]
     },
@@ -6847,6 +6894,12 @@
           "date": "2026-08-15",
           "views": 5507532,
           "likes": 33957,
+          "comments": 63
+        },
+        {
+          "date": "2026-08-16",
+          "views": 5509430,
+          "likes": 33966,
           "comments": 63
         }
       ]
@@ -7603,6 +7656,12 @@
           "views": 2733283,
           "likes": 29412,
           "comments": 509
+        },
+        {
+          "date": "2026-08-16",
+          "views": 2735657,
+          "likes": 29421,
+          "comments": 509
         }
       ]
     },
@@ -8351,6 +8410,12 @@
           "date": "2026-08-15",
           "views": 2892117,
           "likes": 20296,
+          "comments": 62
+        },
+        {
+          "date": "2026-08-16",
+          "views": 2893119,
+          "likes": 20302,
           "comments": 62
         }
       ]
@@ -9101,6 +9166,12 @@
           "views": 3149981,
           "likes": 22569,
           "comments": 133
+        },
+        {
+          "date": "2026-08-16",
+          "views": 3150899,
+          "likes": 22572,
+          "comments": 133
         }
       ]
     },
@@ -9444,6 +9515,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:15:57.759529+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "monthly_listeners",
+      "value": 750956,
+      "baseline_mean": 739539.5,
+      "baseline_stddev": 3124.1,
+      "delta": 11416,
+      "score": 3.65,
+      "type": "annotated",
+      "related_annotation": "お盆休み入りに伴う季節的な増加",
+      "detected_at": "2026-08-16T14:16:32.016775+00:00"
     }
   ]
 }

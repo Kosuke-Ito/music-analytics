@@ -5243,6 +5243,47 @@
       "ytm_subscribers": 7770,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-16",
+      "monthly_listeners": 192848,
+      "collected_at": "2026-08-16T14:17:53.381045+00:00",
+      "spotify_followers": 35142,
+      "youtube_subscribers": 915000,
+      "youtube_total_views": 169477545,
+      "youtube_video_count": 481,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6651
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5717
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5422
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2864
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2650
+        }
+      ],
+      "lastfm_listeners": 1039,
+      "lastfm_playcount": 6064,
+      "ytm_subscribers": 7770,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5704,6 +5745,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:17:21.475478+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "monthly_listeners",
+      "value": 192848,
+      "baseline_mean": 181157.2,
+      "baseline_stddev": 3390.1,
+      "delta": 11690,
+      "score": 3.45,
+      "type": "annotated",
+      "related_annotation": "お盆休み入りに伴う季節的な増加",
+      "detected_at": "2026-08-16T14:17:54.530379+00:00"
     }
   ]
 }

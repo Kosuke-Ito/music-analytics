@@ -5123,6 +5123,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 11800000,
       "ytm_total_views": 1886716892
+    },
+    {
+      "date": "2026-08-16",
+      "monthly_listeners": 3393324,
+      "collected_at": "2026-08-16T14:27:01.522082+00:00",
+      "spotify_followers": 2877617,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1889427657,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 77291
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 74182
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68251
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 49378
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40713
+        }
+      ],
+      "lastfm_listeners": 503051,
+      "lastfm_playcount": 25648779,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 11600000,
+      "ytm_total_views": 1886716892
     }
   ],
   "metadata": {
@@ -5159,52 +5200,52 @@
       {
         "name": "Rei Yasuda",
         "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
-        "subscribers": "249K"
+        "subscribers": "242K"
       },
       {
         "name": "majiko",
         "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "417K"
+        "subscribers": "394K"
       },
       {
         "name": "krage",
         "browse_id": "UCg3fieU_nWIdFBOrqVqNUGQ",
-        "subscribers": "212K"
+        "subscribers": "206K"
       },
       {
         "name": "YOURNESS",
         "browse_id": "UCjAUZTGqk_ggJmFMNurtgng",
-        "subscribers": "290K"
+        "subscribers": "287K"
       },
       {
         "name": "sajou no hana",
         "browse_id": "UCWNPJK9pQWSRiyr-b6nmQ4Q",
-        "subscribers": "342K"
+        "subscribers": "308K"
       },
       {
         "name": "MIYUNA",
         "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
-        "subscribers": "169K"
+        "subscribers": "166K"
       },
       {
         "name": "Anly",
         "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
-        "subscribers": "4.88M"
+        "subscribers": "4.66M"
       },
       {
         "name": "Chiai Fujikawa",
         "browse_id": "UCpzy28Kw66pBn5o8uP3m4tA",
-        "subscribers": "429K"
+        "subscribers": "432K"
       },
       {
-        "name": "EGOIST",
-        "browse_id": "UCKZLPAAyImrkYnDVR0O2UXQ",
-        "subscribers": "1.27M"
+        "name": "kobasolo",
+        "browse_id": "UCukBv_7AJU7AZHcidF0HIvQ",
+        "subscribers": "3.67M"
       },
       {
-        "name": "Uru",
-        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "20.3M"
+        "name": "Ai Higuchi",
+        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
+        "subscribers": "13.6M"
       }
     ],
     "ytm_top_songs": [
@@ -5972,6 +6013,12 @@
           "views": 42083200,
           "likes": 294783,
           "comments": 1617
+        },
+        {
+          "date": "2026-08-16",
+          "views": 42114216,
+          "likes": 295073,
+          "comments": 1619
         }
       ]
     },
@@ -6714,6 +6761,12 @@
           "date": "2026-08-15",
           "views": 34356507,
           "likes": 157516,
+          "comments": 157
+        },
+        {
+          "date": "2026-08-16",
+          "views": 34369294,
+          "likes": 157576,
           "comments": 157
         }
       ]
@@ -7458,6 +7511,12 @@
           "views": 21272807,
           "likes": 117780,
           "comments": 294
+        },
+        {
+          "date": "2026-08-16",
+          "views": 21283746,
+          "likes": 117830,
+          "comments": 294
         }
       ]
     },
@@ -8147,6 +8206,12 @@
           "views": 5844822,
           "likes": 58156,
           "comments": 925
+        },
+        {
+          "date": "2026-08-16",
+          "views": 5850343,
+          "likes": 58195,
+          "comments": 926
         }
       ]
     },
@@ -8925,6 +8990,12 @@
           "views": 31645141,
           "likes": 135024,
           "comments": 776
+        },
+        {
+          "date": "2026-08-16",
+          "views": 31662842,
+          "likes": 135082,
+          "comments": 776
         }
       ]
     },
@@ -9662,6 +9733,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:26:24.030443+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "monthly_listeners",
+      "value": 3393324,
+      "baseline_mean": 3376844.9,
+      "baseline_stddev": 7103.3,
+      "delta": 16479,
+      "score": 2.32,
+      "type": "annotated",
+      "related_annotation": "「鬼滅の刃」世界配信効果継続とお盆休み時期が重なり増加",
+      "detected_at": "2026-08-16T14:27:03.173248+00:00"
     }
   ]
 }

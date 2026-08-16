@@ -5126,6 +5126,47 @@
       "ytm_subscribers": 885000,
       "ytm_monthly_listeners": 7040000,
       "ytm_total_views": 653274151
+    },
+    {
+      "date": "2026-08-16",
+      "monthly_listeners": 2257679,
+      "collected_at": "2026-08-16T14:30:41.749122+00:00",
+      "spotify_followers": 1068537,
+      "youtube_subscribers": 886000,
+      "youtube_total_views": 675702700,
+      "youtube_video_count": 329,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 53396
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51168
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 47418
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 34597
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 25367
+        }
+      ],
+      "lastfm_listeners": 170288,
+      "lastfm_playcount": 5938232,
+      "ytm_subscribers": 886000,
+      "ytm_monthly_listeners": 6910000,
+      "ytm_total_views": 653274151
     }
   ],
   "annotations": [
@@ -5428,24 +5469,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "LOZAREENA",
-        "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
-        "subscribers": "315K"
-      },
-      {
         "name": "Rei Yasuda",
         "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
-        "subscribers": "249K"
+        "subscribers": "242K"
       },
       {
         "name": "Anly",
         "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
-        "subscribers": "4.88M"
+        "subscribers": "4.66M"
       },
       {
         "name": "adieu",
         "browse_id": "UCvDhn0d7NbLomi8rZxt4qKg",
-        "subscribers": "406K"
+        "subscribers": "392K"
       },
       {
         "name": "Kotone",
@@ -5455,27 +5491,32 @@
       {
         "name": "moumoon",
         "browse_id": "UCq_SVD22prcumxuDVagrd0Q",
-        "subscribers": "975K"
+        "subscribers": "919K"
       },
       {
         "name": "MIYUNA",
         "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
-        "subscribers": "169K"
+        "subscribers": "166K"
       },
       {
         "name": "Yuuka Ueno",
         "browse_id": "UCZKDLVPwiiSYOarTWWV4SBA",
-        "subscribers": "102K"
+        "subscribers": "100K"
+      },
+      {
+        "name": "LOZAREENA",
+        "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
+        "subscribers": "297K"
       },
       {
         "name": "YU-KA",
         "browse_id": "UC-3USfEYlYrgjVGHSNY1QWA",
-        "subscribers": "598K"
+        "subscribers": "653K"
       },
       {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "20.3M"
+        "subscribers": "20.9M"
       }
     ],
     "ytm_top_songs": [
@@ -6744,6 +6785,12 @@
           "date": "2026-08-15",
           "views": 9352615,
           "likes": 64886,
+          "comments": 222
+        },
+        {
+          "date": "2026-08-16",
+          "views": 9359158,
+          "likes": 64935,
           "comments": 222
         }
       ]
@@ -8051,6 +8098,12 @@
           "views": 7509287,
           "likes": 53734,
           "comments": 70
+        },
+        {
+          "date": "2026-08-16",
+          "views": 7512151,
+          "likes": 53747,
+          "comments": 70
         }
       ]
     },
@@ -8728,6 +8781,12 @@
           "views": 2030955,
           "likes": 29100,
           "comments": 318
+        },
+        {
+          "date": "2026-08-16",
+          "views": 2035748,
+          "likes": 29134,
+          "comments": 318
         }
       ]
     },
@@ -9074,6 +9133,12 @@
           "views": 14742337,
           "likes": 144220,
           "comments": 2331
+        },
+        {
+          "date": "2026-08-16",
+          "views": 14758756,
+          "likes": 144403,
+          "comments": 2331
         }
       ]
     },
@@ -9265,6 +9330,12 @@
           "views": 138917,
           "likes": 2542,
           "comments": 28
+        },
+        {
+          "date": "2026-08-16",
+          "views": 141169,
+          "likes": 2574,
+          "comments": 29
         }
       ]
     }
@@ -9833,6 +9904,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:30:03.137420+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "monthly_listeners",
+      "value": 2257679,
+      "baseline_mean": 2174736.9,
+      "baseline_stddev": 38516.2,
+      "delta": 82942,
+      "score": 2.15,
+      "type": "annotated",
+      "related_annotation": "新曲「Hurricane」・新アルバム発売直前の露出継続とお盆休み時期が重なり増加",
+      "detected_at": "2026-08-16T14:30:43.524155+00:00"
     }
   ]
 }

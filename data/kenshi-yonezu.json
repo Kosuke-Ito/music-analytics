@@ -5414,6 +5414,47 @@
       "ytm_subscribers": 8720000,
       "ytm_monthly_listeners": 79000000,
       "ytm_total_views": 8898998185
+    },
+    {
+      "date": "2026-08-16",
+      "monthly_listeners": 9897315,
+      "collected_at": "2026-08-16T14:19:32.666854+00:00",
+      "spotify_followers": 8706984,
+      "youtube_subscribers": 8720000,
+      "youtube_total_views": 9072838395,
+      "youtube_video_count": 403,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 323058
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 283075
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 203415
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 165103
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 119953
+        }
+      ],
+      "lastfm_listeners": 58135,
+      "lastfm_playcount": 5729485,
+      "ytm_subscribers": 8720000,
+      "ytm_monthly_listeners": 75700000,
+      "ytm_total_views": 8898998185
     }
   ],
   "annotations": [
@@ -5846,12 +5887,27 @@
       {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "630K"
+        "subscribers": "616K"
+      },
+      {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.46M"
       },
       {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "6.21M"
+        "subscribers": "5.97M"
+      },
+      {
+        "name": "TOMONARI SORA",
+        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
+        "subscribers": "5.21M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.31M"
       },
       {
         "name": "suis from Yorushika",
@@ -5859,24 +5915,9 @@
         "subscribers": "32.8K"
       },
       {
-        "name": "TOMONARI SORA",
-        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
-        "subscribers": "5.07M"
-      },
-      {
-        "name": "imase",
-        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "61.7M"
-      },
-      {
         "name": "Soushi Sakiyama",
         "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "2.13M"
-      },
-      {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.57M"
+        "subscribers": "2.06M"
       },
       {
         "name": "Omoinotake",
@@ -5884,14 +5925,14 @@
         "subscribers": "3.57M"
       },
       {
-        "name": "Ado",
-        "browse_id": "UC5DHwv9N4OQ9AWtKr8YSefw",
-        "subscribers": "34.9M"
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "60M"
       },
       {
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.3M"
+        "subscribers": "10.1M"
       }
     ],
     "ytm_top_songs": [
@@ -6671,6 +6712,12 @@
           "views": 130653173,
           "likes": 688644,
           "comments": 5152
+        },
+        {
+          "date": "2026-08-16",
+          "views": 130816400,
+          "likes": 689261,
+          "comments": 5155
         }
       ]
     },
@@ -7425,6 +7472,12 @@
           "date": "2026-08-15",
           "views": 60452102,
           "likes": 326981,
+          "comments": 2597
+        },
+        {
+          "date": "2026-08-16",
+          "views": 60517918,
+          "likes": 327166,
           "comments": 2597
         }
       ]
@@ -8181,6 +8234,12 @@
           "views": 231813658,
           "likes": 1554046,
           "comments": 7602
+        },
+        {
+          "date": "2026-08-16",
+          "views": 231893135,
+          "likes": 1554500,
+          "comments": 7600
         }
       ]
     },
@@ -8846,6 +8905,12 @@
           "views": 123816703,
           "likes": 452006,
           "comments": 1244
+        },
+        {
+          "date": "2026-08-16",
+          "views": 123876758,
+          "likes": 452193,
+          "comments": 1242
         }
       ]
     },
@@ -9711,6 +9776,12 @@
           "views": 742102,
           "likes": 12818,
           "comments": 378
+        },
+        {
+          "date": "2026-08-16",
+          "views": 750066,
+          "likes": 12892,
+          "comments": 378
         }
       ]
     }
@@ -10159,6 +10230,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:18:59.042597+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "youtube_total_views",
+      "value": 9072838395,
+      "baseline_mean": 8988429388.5,
+      "baseline_stddev": 22256503.4,
+      "delta": 84409006,
+      "score": 3.79,
+      "type": "annotated",
+      "related_annotation": "『GHOST』ツアー抽選結果発表とお盆休み時期が重なり指標上昇",
+      "detected_at": "2026-08-16T14:19:33.932727+00:00"
     }
   ]
 }

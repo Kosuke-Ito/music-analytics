@@ -5120,6 +5120,47 @@
       "ytm_subscribers": 4860000,
       "ytm_monthly_listeners": 9450000,
       "ytm_total_views": 2031730281
+    },
+    {
+      "date": "2026-08-16",
+      "monthly_listeners": 4956585,
+      "collected_at": "2026-08-16T14:25:36.675610+00:00",
+      "spotify_followers": 2671556,
+      "youtube_subscribers": 4860000,
+      "youtube_total_views": 2101920934,
+      "youtube_video_count": 875,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 87312
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 74422
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 73461
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 68445
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 66206
+        }
+      ],
+      "lastfm_listeners": 900882,
+      "lastfm_playcount": 70669121,
+      "ytm_subscribers": 4860000,
+      "ytm_monthly_listeners": 9420000,
+      "ytm_total_views": 2031730281
     }
   ],
   "annotations": [
@@ -5340,10 +5381,6 @@
         "url": "https://www.last.fm/music/KiiiKiii"
       },
       {
-        "name": "GIRLSET",
-        "url": "https://www.last.fm/music/GIRLSET"
-      },
-      {
         "name": "NMIXX",
         "url": "https://www.last.fm/music/NMIXX"
       },
@@ -5354,6 +5391,10 @@
       {
         "name": "YOUNG POSSE",
         "url": "https://www.last.fm/music/YOUNG+POSSE"
+      },
+      {
+        "name": "Baby Monster",
+        "url": "https://www.last.fm/music/Baby+Monster"
       }
     ],
     "lastfm_tags": [
@@ -5367,7 +5408,7 @@
       {
         "name": "BADVILLAIN",
         "browse_id": "UCkw_Pss11Lokw5Ej8cr_4Ew",
-        "subscribers": "782K"
+        "subscribers": "786K"
       },
       {
         "name": "JURIN ASAYA",
@@ -5390,29 +5431,29 @@
         "subscribers": "3.58M"
       },
       {
-        "name": "LISA",
-        "browse_id": "UCXtPv6CbKfuXPNj3MyKFOig",
-        "subscribers": "113M"
+        "name": "ROSÉ",
+        "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
+        "subscribers": "288M"
+      },
+      {
+        "name": "GOT the beat",
+        "browse_id": "UCDDpqmryjNunitS05bv7-8w",
+        "subscribers": "1M"
       },
       {
         "name": "EVERGLOW",
         "browse_id": "UCT4Z6ZLJisGUy0z2LHzi2jQ",
-        "subscribers": "4.32M"
+        "subscribers": "4.31M"
       },
       {
-        "name": "ROSÉ",
-        "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
-        "subscribers": "296M"
+        "name": "LISA",
+        "browse_id": "UCXtPv6CbKfuXPNj3MyKFOig",
+        "subscribers": "110M"
       },
       {
-        "name": "MEOVV",
-        "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
-        "subscribers": "38.3M"
-      },
-      {
-        "name": "ILLIT",
-        "browse_id": "UCNVIo0UJXTdEnsRkCB9Q03w",
-        "subscribers": "411M"
+        "name": "BABYMONSTER",
+        "browse_id": "UC47Wz6S14mj_6Jy-T59m6IQ",
+        "subscribers": "122M"
       }
     ],
     "ytm_top_songs": [
@@ -6174,6 +6215,12 @@
           "views": 10920723,
           "likes": 112966,
           "comments": 623
+        },
+        {
+          "date": "2026-08-16",
+          "views": 10948188,
+          "likes": 113180,
+          "comments": 622
         }
       ]
     },
@@ -6911,6 +6958,12 @@
           "views": 46848069,
           "likes": 391582,
           "comments": 2077
+        },
+        {
+          "date": "2026-08-16",
+          "views": 46869538,
+          "likes": 391742,
+          "comments": 2080
         }
       ]
     },
@@ -7952,6 +8005,12 @@
           "views": 18748075,
           "likes": 135510,
           "comments": 1074
+        },
+        {
+          "date": "2026-08-16",
+          "views": 18764216,
+          "likes": 135581,
+          "comments": 1074
         }
       ]
     },
@@ -8563,6 +8622,12 @@
           "views": 41349550,
           "likes": 229788,
           "comments": 236
+        },
+        {
+          "date": "2026-08-16",
+          "views": 41363465,
+          "likes": 229854,
+          "comments": 236
         }
       ]
     },
@@ -9030,6 +9095,12 @@
           "views": 1081755,
           "likes": 16281,
           "comments": 73
+        },
+        {
+          "date": "2026-08-16",
+          "views": 1087901,
+          "likes": 16362,
+          "comments": 73
         }
       ]
     },
@@ -9411,6 +9482,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:24:59.193667+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "youtube_total_views",
+      "value": 2101920934,
+      "baseline_mean": 2085874840.6,
+      "baseline_stddev": 7847202.5,
+      "delta": 16046093,
+      "score": 2.04,
+      "type": "annotated",
+      "related_annotation": "海外フェス出演の話題継続とお盆休み時期が重なり増加",
+      "detected_at": "2026-08-16T14:25:39.579161+00:00"
     }
   ]
 }

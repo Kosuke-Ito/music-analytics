@@ -5241,6 +5241,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 4980000,
       "ytm_total_views": 925186586
+    },
+    {
+      "date": "2026-08-16",
+      "monthly_listeners": 3967636,
+      "collected_at": "2026-08-16T14:24:28.657463+00:00",
+      "spotify_followers": 1674046,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 925237628,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 174704
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 138083
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 128629
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 121380
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 105767
+        }
+      ],
+      "lastfm_listeners": 937442,
+      "lastfm_playcount": 23805290,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 4940000,
+      "ytm_total_views": 925186586
     }
   ],
   "annotations": [
@@ -5402,20 +5443,20 @@
   "metadata": {
     "lastfm_similar_artists": [
       {
-        "name": "Lany",
-        "url": "https://www.last.fm/music/Lany"
+        "name": "No Rome",
+        "url": "https://www.last.fm/music/No+Rome"
       },
       {
         "name": "FKJ",
         "url": "https://www.last.fm/music/FKJ"
       },
       {
-        "name": "Peach Tree Rascals",
-        "url": "https://www.last.fm/music/Peach+Tree+Rascals"
+        "name": "Lany",
+        "url": "https://www.last.fm/music/Lany"
       },
       {
-        "name": "No Rome",
-        "url": "https://www.last.fm/music/No+Rome"
+        "name": "Peach Tree Rascals",
+        "url": "https://www.last.fm/music/Peach+Tree+Rascals"
       },
       {
         "name": "Wim",
@@ -5448,7 +5489,7 @@
       {
         "name": "Charlie Burg",
         "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
-        "subscribers": "189K"
+        "subscribers": "175K"
       },
       {
         "name": "JEREMY PASSION",
@@ -5468,12 +5509,12 @@
       {
         "name": "Bren Joy",
         "browse_id": "UChIwocHYRaPUGmZnNdX0RVQ",
-        "subscribers": "545K"
+        "subscribers": "538K"
       },
       {
         "name": "Devin Kennedy",
         "browse_id": "UConPcmI6u5L-OzZjQ6PFOXQ",
-        "subscribers": "379K"
+        "subscribers": "381K"
       },
       {
         "name": "Johnson",
@@ -6252,6 +6293,12 @@
           "views": 2603120,
           "likes": 16039,
           "comments": 27
+        },
+        {
+          "date": "2026-08-16",
+          "views": 2603415,
+          "likes": 16040,
+          "comments": 27
         }
       ]
     },
@@ -6994,6 +7041,12 @@
           "date": "2026-08-15",
           "views": 2169775,
           "likes": 19823,
+          "comments": 281
+        },
+        {
+          "date": "2026-08-16",
+          "views": 2172723,
+          "likes": 19837,
           "comments": 281
         }
       ]
@@ -7743,6 +7796,12 @@
           "date": "2026-08-15",
           "views": 48209875,
           "likes": 203320,
+          "comments": 121
+        },
+        {
+          "date": "2026-08-16",
+          "views": 48222025,
+          "likes": 203367,
           "comments": 121
         }
       ]
@@ -8911,6 +8970,12 @@
           "views": 14721038,
           "likes": 74823,
           "comments": 40
+        },
+        {
+          "date": "2026-08-16",
+          "views": 14733949,
+          "likes": 74861,
+          "comments": 40
         }
       ]
     },
@@ -9267,6 +9332,12 @@
           "date": "2026-08-15",
           "views": 15840862,
           "likes": 80570,
+          "comments": 63
+        },
+        {
+          "date": "2026-08-16",
+          "views": 15843983,
+          "likes": 80586,
           "comments": 63
         }
       ]
@@ -9644,6 +9715,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:23:50.805807+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "monthly_listeners",
+      "value": 3967636,
+      "baseline_mean": 3899993.0,
+      "baseline_stddev": 20374.4,
+      "delta": 67642,
+      "score": 3.32,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-16T14:24:30.215716+00:00"
     }
   ]
 }

@@ -5050,6 +5050,47 @@
       "ytm_subscribers": 38500,
       "ytm_monthly_listeners": 63500,
       "ytm_total_views": 8688596
+    },
+    {
+      "date": "2026-08-16",
+      "monthly_listeners": 52762,
+      "collected_at": "2026-08-16T14:31:33.224588+00:00",
+      "spotify_followers": 52481,
+      "youtube_subscribers": 38600,
+      "youtube_total_views": 9061250,
+      "youtube_video_count": 81,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3444
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1401
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 883
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 774
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 766
+        }
+      ],
+      "lastfm_listeners": 24302,
+      "lastfm_playcount": 408320,
+      "ytm_subscribers": 38600,
+      "ytm_monthly_listeners": 72800,
+      "ytm_total_views": 8818254
     }
   ],
   "metadata": {
@@ -5084,9 +5125,29 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "kurayamisaka",
+        "browse_id": "UC8dcmppXueIdHNO8pfg6low",
+        "subscribers": "147K"
+      },
+      {
+        "name": "rei harakami",
+        "browse_id": "UCC0p0O2MehP53JKPoXc3wdQ",
+        "subscribers": "13.1K"
+      },
+      {
+        "name": "Shin Sakiura",
+        "browse_id": "UCwQ0ruE9EWOX38Tc5ouohWA",
+        "subscribers": "162K"
+      },
+      {
+        "name": "Penguinrush",
+        "browse_id": "UCLrZQZ5IQRiH7WJWpPggJpQ",
+        "subscribers": "8.91K"
+      },
+      {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
-        "subscribers": "107K"
+        "subscribers": "106K"
       },
       {
         "name": "80KIDZ",
@@ -5101,37 +5162,17 @@
       {
         "name": "punipunidenki",
         "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
-        "subscribers": "147K"
+        "subscribers": "145K"
       },
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "210K"
+        "subscribers": "206K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "92.5K"
-      },
-      {
-        "name": "Ako",
-        "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "129K"
-      },
-      {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "109K"
-      },
-      {
-        "name": "Shinichi Osawa",
-        "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
-        "subscribers": "281K"
-      },
-      {
-        "name": "Dirty Androids",
-        "browse_id": "UChAifL81ox-Tpm-tZ0LU65A",
-        "subscribers": "3.99K"
+        "subscribers": "89.4K"
       }
     ],
     "ytm_top_songs": [
@@ -5887,6 +5928,12 @@
           "views": 150422,
           "likes": 2828,
           "comments": 26
+        },
+        {
+          "date": "2026-08-16",
+          "views": 150726,
+          "likes": 2833,
+          "comments": 26
         }
       ]
     },
@@ -6617,6 +6664,12 @@
           "date": "2026-08-15",
           "views": 606494,
           "likes": 5535,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-16",
+          "views": 606871,
+          "likes": 5540,
           "comments": 18
         }
       ]
@@ -7349,6 +7402,12 @@
           "views": 336851,
           "likes": 3581,
           "comments": 7
+        },
+        {
+          "date": "2026-08-16",
+          "views": 337056,
+          "likes": 3587,
+          "comments": 7
         }
       ]
     },
@@ -8080,6 +8139,12 @@
           "views": 59956,
           "likes": 195,
           "comments": 1
+        },
+        {
+          "date": "2026-08-16",
+          "views": 60061,
+          "likes": 196,
+          "comments": 1
         }
       ]
     },
@@ -8810,6 +8875,12 @@
           "date": "2026-08-15",
           "views": 132108,
           "likes": 1640,
+          "comments": 15
+        },
+        {
+          "date": "2026-08-16",
+          "views": 132251,
+          "likes": 1642,
           "comments": 15
         }
       ]
@@ -9806,6 +9877,42 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:30:57.249940+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "monthly_listeners",
+      "value": 52762,
+      "baseline_mean": 45542.8,
+      "baseline_stddev": 1528.2,
+      "delta": 7219,
+      "score": 4.72,
+      "type": "annotated",
+      "related_annotation": "お盆休み入り・サマーソニック出演直前の話題でSpotify月間リスナー増加",
+      "detected_at": "2026-08-16T14:31:35.332531+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "ytm_monthly_listeners",
+      "value": 72800,
+      "baseline_mean": 63010.0,
+      "baseline_stddev": 641.0,
+      "delta": 9790,
+      "score": 15.27,
+      "type": "annotated",
+      "related_annotation": "お盆休み入り・サマーソニック出演直前の話題でSpotify月間リスナー増加",
+      "detected_at": "2026-08-16T14:31:35.332531+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "youtube_total_views",
+      "value": 9061250,
+      "baseline_mean": 8762855.9,
+      "baseline_stddev": 95424.6,
+      "delta": 298394,
+      "score": 3.13,
+      "type": "annotated",
+      "related_annotation": "お盆休み入り・サマーソニック出演直前の話題でSpotify月間リスナー増加",
+      "detected_at": "2026-08-16T14:31:35.332531+00:00"
     }
   ]
 }

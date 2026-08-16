@@ -5247,6 +5247,47 @@
       "ytm_subscribers": 328000,
       "ytm_monthly_listeners": 1450000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-16",
+      "monthly_listeners": 334964,
+      "collected_at": "2026-08-16T14:17:03.622870+00:00",
+      "spotify_followers": 72656,
+      "youtube_subscribers": 328000,
+      "youtube_total_views": 172300560,
+      "youtube_video_count": 111,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 14826
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 9855
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 7248
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 5458
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 5424
+        }
+      ],
+      "lastfm_listeners": 34369,
+      "lastfm_playcount": 938483,
+      "ytm_subscribers": 328000,
+      "ytm_monthly_listeners": 1400000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5260,12 +5301,12 @@
         "url": "https://www.last.fm/music/MAISONdes"
       },
       {
-        "name": "DUSTCELL",
-        "url": "https://www.last.fm/music/DUSTCELL"
-      },
-      {
         "name": "Empty old City",
         "url": "https://www.last.fm/music/Empty+old+City"
+      },
+      {
+        "name": "DUSTCELL",
+        "url": "https://www.last.fm/music/DUSTCELL"
       },
       {
         "name": "キタニタツヤ",
@@ -5288,47 +5329,47 @@
       {
         "name": "Room97",
         "browse_id": "UCfYmK8G568tJsaDHWv94eQQ",
-        "subscribers": "76K"
+        "subscribers": "76.1K"
       },
       {
         "name": "Hashimero",
         "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
-        "subscribers": "359K"
+        "subscribers": "328K"
       },
       {
         "name": "TAKU INOUE",
         "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
-        "subscribers": "256K"
+        "subscribers": "248K"
       },
       {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "100K"
-      },
-      {
-        "name": "NIKU",
-        "browse_id": "UCcQ0Kibju_MrJE0FPNBrroQ",
-        "subscribers": "140K"
+        "subscribers": "98.5K"
       },
       {
         "name": "Rei",
         "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
-        "subscribers": "353K"
+        "subscribers": "336K"
       },
       {
         "name": "MIMiNARI",
         "browse_id": "UCNBWI0bR0NC7VHpeAuoDENA",
-        "subscribers": "92.4K"
+        "subscribers": "89.9K"
       },
       {
         "name": "Sangatsu No Phantasia",
         "browse_id": "UChmAdYjOdnnrSA2kBMKdoYw",
-        "subscribers": "178K"
+        "subscribers": "175K"
       },
       {
-        "name": "mishiri",
-        "browse_id": "UCHdTv-xg_MF_6BZL9o8CH-w",
-        "subscribers": "6.65K"
+        "name": "NIKU",
+        "browse_id": "UCcQ0Kibju_MrJE0FPNBrroQ",
+        "subscribers": "139K"
+      },
+      {
+        "name": "suisoh",
+        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
+        "subscribers": "565K"
       }
     ],
     "ytm_top_songs": [
@@ -6107,6 +6148,12 @@
           "views": 18856553,
           "likes": 125348,
           "comments": 1063
+        },
+        {
+          "date": "2026-08-16",
+          "views": 18864517,
+          "likes": 125378,
+          "comments": 1063
         }
       ]
     },
@@ -6861,6 +6908,12 @@
           "date": "2026-08-15",
           "views": 5782048,
           "likes": 42219,
+          "comments": 88
+        },
+        {
+          "date": "2026-08-16",
+          "views": 5788574,
+          "likes": 42254,
           "comments": 88
         }
       ]
@@ -7617,6 +7670,12 @@
           "views": 5397889,
           "likes": 36042,
           "comments": 172
+        },
+        {
+          "date": "2026-08-16",
+          "views": 5401965,
+          "likes": 36047,
+          "comments": 172
         }
       ]
     },
@@ -8371,6 +8430,12 @@
           "date": "2026-08-15",
           "views": 2381599,
           "likes": 19709,
+          "comments": 43
+        },
+        {
+          "date": "2026-08-16",
+          "views": 2384550,
+          "likes": 19729,
           "comments": 43
         }
       ]
@@ -9136,6 +9201,12 @@
           "date": "2026-08-15",
           "views": 106166,
           "likes": 2114,
+          "comments": 28
+        },
+        {
+          "date": "2026-08-16",
+          "views": 108624,
+          "likes": 2156,
           "comments": 28
         }
       ]
@@ -10110,6 +10181,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:16:31.027657+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "youtube_total_views",
+      "value": 172300560,
+      "baseline_mean": 169927454.4,
+      "baseline_stddev": 1178052.3,
+      "delta": 2373105,
+      "score": 2.01,
+      "type": "annotated",
+      "related_annotation": "お盆休み入りに伴う季節的な増加",
+      "detected_at": "2026-08-16T14:17:04.678101+00:00"
     }
   ]
 }

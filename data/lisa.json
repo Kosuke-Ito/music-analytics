@@ -5123,6 +5123,47 @@
       "ytm_subscribers": 8780000,
       "ytm_monthly_listeners": 113000000,
       "ytm_total_views": 2441992378
+    },
+    {
+      "date": "2026-08-16",
+      "monthly_listeners": 4301694,
+      "collected_at": "2026-08-16T14:26:44.588940+00:00",
+      "spotify_followers": 3857935,
+      "youtube_subscribers": 2960000,
+      "youtube_total_views": 1810133054,
+      "youtube_video_count": 521,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 64029
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 53616
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 51762
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 48036
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 46595
+        }
+      ],
+      "lastfm_listeners": 2047934,
+      "lastfm_playcount": 135471702,
+      "ytm_subscribers": 8790000,
+      "ytm_monthly_listeners": 110000000,
+      "ytm_total_views": 2441992378
     }
   ],
   "metadata": {
@@ -5157,49 +5198,49 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "JULiA LEWiS",
+        "browse_id": "UCO8v1mrb-kVY9upl8wdyDcw",
+        "subscribers": "553"
+      },
+      {
         "name": "The Debut: Dream Academy",
         "browse_id": "UC2MrZgvUlWhARZdFbOGBqtg",
-        "subscribers": "4.77K"
+        "subscribers": "4.8K"
       },
       {
         "name": "BADVILLAIN",
         "browse_id": "UCkw_Pss11Lokw5Ej8cr_4Ew",
-        "subscribers": "782K"
+        "subscribers": "786K"
       },
       {
         "name": "BLACKSWAN",
         "browse_id": "UC277cpXD9BLeaGgh3yDP40w",
-        "subscribers": "317K"
-      },
-      {
-        "name": "JULiA LEWiS",
-        "browse_id": "UCO8v1mrb-kVY9upl8wdyDcw",
-        "subscribers": "550"
+        "subscribers": "320K"
       },
       {
         "name": "Jessi",
         "browse_id": "UC-sALATQ5O56R1ctGBf9y0Q",
-        "subscribers": "11.2M"
-      },
-      {
-        "name": "ROSÉ",
-        "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
-        "subscribers": "296M"
+        "subscribers": "11M"
       },
       {
         "name": "Bella Poarch",
         "browse_id": "UCFV_iW-P1LkSgCxBnZi5nYw",
-        "subscribers": "24.7M"
+        "subscribers": "24M"
+      },
+      {
+        "name": "ROSÉ",
+        "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
+        "subscribers": "288M"
       },
       {
         "name": "MEOVV",
         "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
-        "subscribers": "38.3M"
+        "subscribers": "37.4M"
       },
       {
-        "name": "BABYMONSTER",
-        "browse_id": "UC47Wz6S14mj_6Jy-T59m6IQ",
-        "subscribers": "127M"
+        "name": "LE SSERAFIM",
+        "browse_id": "UC-clMkTZa7k-FxmNgMjoCgQ",
+        "subscribers": "246M"
       },
       {
         "name": "Jung Kook",
@@ -5983,6 +6024,12 @@
           "views": 24969091,
           "likes": 283119,
           "comments": 2210
+        },
+        {
+          "date": "2026-08-16",
+          "views": 25008306,
+          "likes": 283602,
+          "comments": 2211
         }
       ]
     },
@@ -6726,6 +6773,12 @@
           "views": 271973958,
           "likes": 2735991,
           "comments": 4398
+        },
+        {
+          "date": "2026-08-16",
+          "views": 272040732,
+          "likes": 2736645,
+          "comments": 4409
         }
       ]
     },
@@ -7385,6 +7438,12 @@
           "views": 33594237,
           "likes": 252054,
           "comments": 805
+        },
+        {
+          "date": "2026-08-16",
+          "views": 33620230,
+          "likes": 252227,
+          "comments": 805
         }
       ]
     },
@@ -7786,6 +7845,12 @@
           "views": 27041869,
           "likes": 260493,
           "comments": 2627
+        },
+        {
+          "date": "2026-08-16",
+          "views": 27069110,
+          "likes": 260731,
+          "comments": 2632
         }
       ]
     },
@@ -8511,6 +8576,12 @@
           "views": 12142265,
           "likes": 162929,
           "comments": 2129
+        },
+        {
+          "date": "2026-08-16",
+          "views": 12181338,
+          "likes": 163213,
+          "comments": 2128
         }
       ]
     },
@@ -9856,6 +9927,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-05T16:07:26.158263+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "monthly_listeners",
+      "value": 4301694,
+      "baseline_mean": 4268384.4,
+      "baseline_stddev": 15296.2,
+      "delta": 33309,
+      "score": 2.18,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-16T14:26:46.442843+00:00"
     }
   ]
 }

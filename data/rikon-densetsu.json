@@ -5239,6 +5239,47 @@
       "ytm_subscribers": 105000,
       "ytm_monthly_listeners": 1010000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-16",
+      "monthly_listeners": 559986,
+      "collected_at": "2026-08-16T14:14:55.086591+00:00",
+      "spotify_followers": 126272,
+      "youtube_subscribers": 105000,
+      "youtube_total_views": 52051143,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 27092
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 22213
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 15873
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 9415
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 7493
+        }
+      ],
+      "lastfm_listeners": 10319,
+      "lastfm_playcount": 169710,
+      "ytm_subscribers": 105000,
+      "ytm_monthly_listeners": 1010000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5248,12 +5289,12 @@
         "url": "https://www.last.fm/music/tomoo"
       },
       {
-        "name": "藤井 風",
-        "url": "https://www.last.fm/music/%E8%97%A4%E4%BA%95+%E9%A2%A8"
-      },
-      {
         "name": "Bialystocks",
         "url": "https://www.last.fm/music/Bialystocks"
+      },
+      {
+        "name": "藤井 風",
+        "url": "https://www.last.fm/music/%E8%97%A4%E4%BA%95+%E9%A2%A8"
       },
       {
         "name": "YONA YONA WEEKENDERS",
@@ -5273,32 +5314,32 @@
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "73.7K"
+        "subscribers": "68.6K"
       },
       {
         "name": "First Love is Never Returned",
         "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "78K"
+        "subscribers": "77.1K"
       },
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "98.2K"
+        "subscribers": "96.4K"
       },
       {
         "name": "YONA YONA WEEKENDERS",
         "browse_id": "UCA2eoqFXKqN2EfB6HiIHIRA",
-        "subscribers": "60.3K"
+        "subscribers": "66.9K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "109K"
+        "subscribers": "105K"
       },
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "73.1K"
+        "subscribers": "72.6K"
       },
       {
         "name": "Akira Nise",
@@ -5308,7 +5349,7 @@
       {
         "name": "Furui Riho",
         "browse_id": "UC_INWDSkrIjnmqUi5D6zi4Q",
-        "subscribers": "323K"
+        "subscribers": "291K"
       },
       {
         "name": "Moto from Chilli Beans.",
@@ -5318,7 +5359,7 @@
       {
         "name": "Nishina",
         "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
-        "subscribers": "258K"
+        "subscribers": "257K"
       }
     ],
     "ytm_top_songs": [
@@ -6091,6 +6132,12 @@
           "views": 57265,
           "likes": 502,
           "comments": 6
+        },
+        {
+          "date": "2026-08-16",
+          "views": 57406,
+          "likes": 504,
+          "comments": 6
         }
       ]
     },
@@ -6840,6 +6887,12 @@
           "views": 46614,
           "likes": 450,
           "comments": 4
+        },
+        {
+          "date": "2026-08-16",
+          "views": 46697,
+          "likes": 450,
+          "comments": 4
         }
       ]
     },
@@ -7587,6 +7640,12 @@
         {
           "date": "2026-08-15",
           "views": 244369,
+          "likes": 2130,
+          "comments": 12
+        },
+        {
+          "date": "2026-08-16",
+          "views": 244659,
           "likes": 2130,
           "comments": 12
         }
@@ -8907,6 +8966,12 @@
           "views": 93468,
           "likes": 850,
           "comments": 8
+        },
+        {
+          "date": "2026-08-16",
+          "views": 93585,
+          "likes": 851,
+          "comments": 8
         }
       ]
     },
@@ -9112,6 +9177,12 @@
           "date": "2026-08-15",
           "views": 26374,
           "likes": 257,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-16",
+          "views": 26680,
+          "likes": 262,
           "comments": 5
         }
       ]
@@ -10024,6 +10095,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:14:18.650871+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "monthly_listeners",
+      "value": 559986,
+      "baseline_mean": 460593.5,
+      "baseline_stddev": 47029.9,
+      "delta": 99392,
+      "score": 2.11,
+      "type": "annotated",
+      "related_annotation": "お盆休み入りに伴う季節的な増加",
+      "detected_at": "2026-08-16T14:14:56.263554+00:00"
     }
   ]
 }

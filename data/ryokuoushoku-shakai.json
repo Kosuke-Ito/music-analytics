@@ -5044,6 +5044,47 @@
       "ytm_subscribers": 955000,
       "ytm_monthly_listeners": 7840000,
       "ytm_total_views": 917277862
+    },
+    {
+      "date": "2026-08-16",
+      "monthly_listeners": 2826595,
+      "collected_at": "2026-08-16T14:28:59.884976+00:00",
+      "spotify_followers": 1570852,
+      "youtube_subscribers": 955000,
+      "youtube_total_views": 932668846,
+      "youtube_video_count": 440,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 85501
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 82653
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 62833
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 32818
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 28400
+        }
+      ],
+      "lastfm_listeners": 17197,
+      "lastfm_playcount": 801434,
+      "ytm_subscribers": 955000,
+      "ytm_monthly_listeners": 7820000,
+      "ytm_total_views": 917277862
     }
   ],
   "annotations": [
@@ -5376,22 +5417,27 @@
       {
         "name": "saji",
         "browse_id": "UCIZ41IoRQHIPuNORLZiGqzA",
-        "subscribers": "104K"
+        "subscribers": "105K"
       },
       {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "630K"
+        "subscribers": "616K"
+      },
+      {
+        "name": "RETRORIRON",
+        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
+        "subscribers": "304K"
       },
       {
         "name": "asmi",
         "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
-        "subscribers": "3.37M"
+        "subscribers": "3.22M"
       },
       {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "6.21M"
+        "name": "Miwa",
+        "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
+        "subscribers": "1.81M"
       },
       {
         "name": "suis from Yorushika",
@@ -5399,29 +5445,24 @@
         "subscribers": "32.8K"
       },
       {
-        "name": "Miwa",
-        "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
-        "subscribers": "1.79M"
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "5.97M"
+      },
+      {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.31M"
       },
       {
         "name": "Tota",
         "browse_id": "UCc95RA4CPcWdTRBk5YunwRA",
-        "subscribers": "2.59M"
-      },
-      {
-        "name": "RETRORIRON",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "313K"
+        "subscribers": "2.52M"
       },
       {
         "name": "Yuuri",
         "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.4M"
-      },
-      {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "17.2M"
+        "subscribers": "10.3M"
       }
     ],
     "ytm_top_songs": [
@@ -6183,6 +6224,12 @@
           "views": 32656071,
           "likes": 278139,
           "comments": 721
+        },
+        {
+          "date": "2026-08-16",
+          "views": 32683778,
+          "likes": 278412,
+          "comments": 722
         }
       ]
     },
@@ -6920,6 +6967,12 @@
           "views": 21817516,
           "likes": 86884,
           "comments": 206
+        },
+        {
+          "date": "2026-08-16",
+          "views": 21827137,
+          "likes": 86915,
+          "comments": 206
         }
       ]
     },
@@ -7656,6 +7709,12 @@
           "date": "2026-08-15",
           "views": 1902474,
           "likes": 11322,
+          "comments": 58
+        },
+        {
+          "date": "2026-08-16",
+          "views": 1903642,
+          "likes": 11330,
           "comments": 58
         }
       ]
@@ -9093,6 +9152,12 @@
           "views": 2787377,
           "likes": 13338,
           "comments": 57
+        },
+        {
+          "date": "2026-08-16",
+          "views": 2788679,
+          "likes": 13342,
+          "comments": 57
         }
       ]
     },
@@ -9146,6 +9211,12 @@
           "views": 60240,
           "likes": 1020,
           "comments": 23
+        },
+        {
+          "date": "2026-08-16",
+          "views": 61420,
+          "likes": 1029,
+          "comments": 24
         }
       ]
     }
@@ -9702,6 +9773,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:28:21.838625+00:00"
+    },
+    {
+      "date": "2026-08-16",
+      "metric": "monthly_listeners",
+      "value": 2826595,
+      "baseline_mean": 2684652.2,
+      "baseline_stddev": 54407.3,
+      "delta": 141942,
+      "score": 2.61,
+      "type": "annotated",
+      "related_annotation": "新曲「晴々」の露出継続とお盆休み時期が重なり増加",
+      "detected_at": "2026-08-16T14:29:01.303424+00:00"
     }
   ]
 }
