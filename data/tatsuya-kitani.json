@@ -5280,6 +5280,47 @@
       "ytm_subscribers": 997000,
       "ytm_monthly_listeners": 26100000,
       "ytm_total_views": 1016886431
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 3741741,
+      "collected_at": "2026-08-17T14:20:49.686988+00:00",
+      "spotify_followers": 885463,
+      "youtube_subscribers": 998000,
+      "youtube_total_views": 1026353493,
+      "youtube_video_count": 274,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 87468
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68323
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 50006
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 49989
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 45357
+        }
+      ],
+      "lastfm_listeners": 122154,
+      "lastfm_playcount": 2606992,
+      "ytm_subscribers": 998000,
+      "ytm_monthly_listeners": 26100000,
+      "ytm_total_views": 1016886431
     }
   ],
   "annotations": [
@@ -5635,24 +5676,14 @@
         "subscribers": "2.25M"
       },
       {
-        "name": "suisoh",
-        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "565K"
-      },
-      {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "616K"
+        "subscribers": "618K"
       },
       {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.46M"
-      },
-      {
-        "name": "yama",
-        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.31M"
+        "name": "suisoh",
+        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
+        "subscribers": "572K"
       },
       {
         "name": "kei sugawara",
@@ -5660,14 +5691,24 @@
         "subscribers": "351K"
       },
       {
+        "name": "yama",
+        "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
+        "subscribers": "5.31M"
+      },
+      {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.46M"
+      },
+      {
         "name": "ewe",
         "browse_id": "UCHdEh1-tnKz_nFLeFgEFGhA",
         "subscribers": "1.17M"
       },
       {
-        "name": "Ayase",
-        "browse_id": "UCbqY3RHKkPS8dJCrfAfSk6Q",
-        "subscribers": "1.32M"
+        "name": "ZUTOMAYO",
+        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
+        "subscribers": "5.37M"
       }
     ],
     "ytm_top_songs": [
@@ -6453,6 +6494,12 @@
           "views": 57233825,
           "likes": 371049,
           "comments": 1915
+        },
+        {
+          "date": "2026-08-17",
+          "views": 57281701,
+          "likes": 371355,
+          "comments": 1918
         }
       ]
     },
@@ -7208,6 +7255,12 @@
           "views": 11927318,
           "likes": 82008,
           "comments": 0
+        },
+        {
+          "date": "2026-08-17",
+          "views": 11935203,
+          "likes": 82046,
+          "comments": 0
         }
       ]
     },
@@ -7872,6 +7925,12 @@
           "date": "2026-08-16",
           "views": 2952562,
           "likes": 33663,
+          "comments": 372
+        },
+        {
+          "date": "2026-08-17",
+          "views": 2957997,
+          "likes": 33692,
           "comments": 372
         }
       ]
@@ -8628,6 +8687,12 @@
           "views": 1257598,
           "likes": 16082,
           "comments": 118
+        },
+        {
+          "date": "2026-08-17",
+          "views": 1262278,
+          "likes": 16116,
+          "comments": 118
         }
       ]
     },
@@ -9274,6 +9339,12 @@
           "date": "2026-08-16",
           "views": 2533004,
           "likes": 16648,
+          "comments": 49
+        },
+        {
+          "date": "2026-08-17",
+          "views": 2534667,
+          "likes": 16658,
           "comments": 49
         }
       ]
@@ -9997,6 +10068,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-16T14:16:15.662573+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "ytm_monthly_listeners",
+      "value": 26100000,
+      "baseline_mean": 24116666.7,
+      "baseline_stddev": 754578.6,
+      "delta": 1983333,
+      "score": 2.63,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-17T14:20:50.909222+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "youtube_total_views",
+      "value": 1026353493,
+      "baseline_mean": 1013302649.6,
+      "baseline_stddev": 5493309.0,
+      "delta": 13050843,
+      "score": 2.38,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-17T14:20:50.909222+00:00"
     }
   ]
 }

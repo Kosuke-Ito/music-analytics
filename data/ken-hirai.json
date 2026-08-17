@@ -5285,6 +5285,47 @@
       "ytm_subscribers": 502000,
       "ytm_monthly_listeners": 2140000,
       "ytm_total_views": 485435419
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 1346659,
+      "collected_at": "2026-08-17T14:18:35.635044+00:00",
+      "spotify_followers": 1102012,
+      "youtube_subscribers": 502000,
+      "youtube_total_views": 485435444,
+      "youtube_video_count": 86,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 53854
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 49658
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 38828
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 19483
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 18587
+        }
+      ],
+      "lastfm_listeners": 62714,
+      "lastfm_playcount": 3023223,
+      "ytm_subscribers": 502000,
+      "ytm_monthly_listeners": 2140000,
+      "ytm_total_views": 485435419
     }
   ],
   "annotations": [
@@ -5535,7 +5576,17 @@
       {
         "name": "Naotaro Moriyama",
         "browse_id": "UCdB0obTpnSogmbFqK5j4HFA",
-        "subscribers": "1.39M"
+        "subscribers": "1.5M"
+      },
+      {
+        "name": "Hideaki Tokunaga",
+        "browse_id": "UCcYWiMfLcUpPUAj2jdSd8Ng",
+        "subscribers": "1.78M"
+      },
+      {
+        "name": "Ayaka",
+        "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
+        "subscribers": "2.77M"
       },
       {
         "name": "Remioromen",
@@ -5545,17 +5596,17 @@
       {
         "name": "Ko Shibasaki",
         "browse_id": "UCYSyfPj4FvtV0-7jJsHzAyg",
-        "subscribers": "812K"
+        "subscribers": "815K"
       },
       {
-        "name": "Hideaki Tokunaga",
-        "browse_id": "UCcYWiMfLcUpPUAj2jdSd8Ng",
-        "subscribers": "1.77M"
+        "name": "HY",
+        "browse_id": "UCFC1zNScOH3clo2Hd_0YzCg",
+        "subscribers": "2.52M"
       },
       {
-        "name": "Ayaka",
-        "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
-        "subscribers": "2.79M"
+        "name": "Kobukuro",
+        "browse_id": "UCT1w5QgHk02SXT3KNY04OCQ",
+        "subscribers": "3.1M"
       },
       {
         "name": "Noriyuki Makihara",
@@ -5563,19 +5614,9 @@
         "subscribers": "4.39M"
       },
       {
-        "name": "The Gospellers",
-        "browse_id": "UCabuLVuQm0GwG_wr5sAQwnQ",
-        "subscribers": "429K"
-      },
-      {
-        "name": "Masaharu Fukuyama",
-        "browse_id": "UCOgskNCI49YHsOUTGPJ2QHA",
-        "subscribers": "3.13M"
-      },
-      {
         "name": "Ai Otsuka",
         "browse_id": "UCiQBYPGlDQRHXD8FaryNaFw",
-        "subscribers": "8.74M"
+        "subscribers": "8.71M"
       }
     ],
     "ytm_top_songs": [
@@ -6361,6 +6402,12 @@
           "views": 6010048,
           "likes": 34755,
           "comments": 147
+        },
+        {
+          "date": "2026-08-17",
+          "views": 6014315,
+          "likes": 34776,
+          "comments": 147
         }
       ]
     },
@@ -7122,6 +7169,12 @@
           "views": 1078512,
           "likes": 6478,
           "comments": 31
+        },
+        {
+          "date": "2026-08-17",
+          "views": 1078995,
+          "likes": 6480,
+          "comments": 31
         }
       ]
     },
@@ -7881,6 +7934,12 @@
         {
           "date": "2026-08-16",
           "views": 337619,
+          "likes": 2312,
+          "comments": 13
+        },
+        {
+          "date": "2026-08-17",
+          "views": 337881,
           "likes": 2312,
           "comments": 13
         }
@@ -8847,6 +8906,12 @@
           "views": 659756,
           "likes": 3495,
           "comments": 12
+        },
+        {
+          "date": "2026-08-17",
+          "views": 660081,
+          "likes": 3496,
+          "comments": 12
         }
       ]
     },
@@ -9408,6 +9473,12 @@
         {
           "date": "2026-08-16",
           "views": 136774,
+          "likes": 946,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-17",
+          "views": 136858,
           "likes": 946,
           "comments": 5
         }
@@ -10026,6 +10097,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み入りに伴う季節的な増加",
       "detected_at": "2026-08-16T14:14:09.686525+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "monthly_listeners",
+      "value": 1346659,
+      "baseline_mean": 1284237.6,
+      "baseline_stddev": 23899.9,
+      "delta": 62421,
+      "score": 2.61,
+      "type": "annotated",
+      "related_annotation": "お盆休み効果が継続",
+      "detected_at": "2026-08-17T14:18:36.778287+00:00"
     }
   ]
 }

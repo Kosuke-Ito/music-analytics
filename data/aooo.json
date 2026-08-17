@@ -5282,6 +5282,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 1020000,
       "ytm_total_views": 28809538
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 191909,
+      "collected_at": "2026-08-17T14:21:53.788303+00:00",
+      "spotify_followers": 63512,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 35254809,
+      "youtube_video_count": 312,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 9722
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6669
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4740
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4417
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3136
+        }
+      ],
+      "lastfm_listeners": 15256,
+      "lastfm_playcount": 350476,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 1050000,
+      "ytm_total_views": 28809538
     }
   ],
   "annotations": [
@@ -5601,11 +5642,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "nakigoto",
-        "browse_id": "UC4sq6m-foW44E1QTMzW6GsA",
-        "subscribers": "73.6K"
-      },
-      {
         "name": "Conton Candy",
         "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
         "subscribers": "2.25M"
@@ -5628,17 +5664,17 @@
       {
         "name": "Brandy Senki",
         "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
-        "subscribers": "140K"
+        "subscribers": "138K"
       },
       {
-        "name": "ねぎ塩豚丼",
+        "name": "NEGISHIO TONDON",
         "browse_id": "UCb15VymqPPdgK9nnISoDDCg",
-        "subscribers": "439K"
+        "subscribers": "450K"
       },
       {
         "name": "CENT",
         "browse_id": "UCh0f5XbtIlrC0WeNgqiiZ9g",
-        "subscribers": "70.5K"
+        "subscribers": "70.3K"
       },
       {
         "name": "Broken my toybox",
@@ -5648,7 +5684,12 @@
       {
         "name": "Multidimensional Control Mechanism YODAKA",
         "browse_id": "UC1qtr6uQEQdrfh-QEZTNU7A",
-        "subscribers": "6.13K"
+        "subscribers": "6.14K"
+      },
+      {
+        "name": "RIRIKO",
+        "browse_id": "UC4kynZ2ne7MSuADw-aoDAbA",
+        "subscribers": "1.64K"
       }
     ],
     "ytm_top_songs": [
@@ -7110,6 +7151,12 @@
           "views": 182070,
           "likes": 1533,
           "comments": 12
+        },
+        {
+          "date": "2026-08-17",
+          "views": 182349,
+          "likes": 1533,
+          "comments": 12
         }
       ]
     },
@@ -7804,6 +7851,12 @@
           "date": "2026-08-16",
           "views": 405770,
           "likes": 3962,
+          "comments": 63
+        },
+        {
+          "date": "2026-08-17",
+          "views": 406075,
+          "likes": 3966,
           "comments": 63
         }
       ]
@@ -8791,6 +8844,12 @@
           "views": 95296,
           "likes": 1440,
           "comments": 76
+        },
+        {
+          "date": "2026-08-17",
+          "views": 95669,
+          "likes": 1443,
+          "comments": 76
         }
       ]
     },
@@ -9161,6 +9220,12 @@
           "views": 32342,
           "likes": 359,
           "comments": 3
+        },
+        {
+          "date": "2026-08-17",
+          "views": 32624,
+          "likes": 360,
+          "comments": 3
         }
       ]
     },
@@ -9512,6 +9577,12 @@
           "date": "2026-08-16",
           "views": 38732,
           "likes": 614,
+          "comments": 16
+        },
+        {
+          "date": "2026-08-17",
+          "views": 39625,
+          "likes": 631,
           "comments": 16
         }
       ]
@@ -10261,6 +10332,30 @@
       "type": "annotated",
       "related_annotation": "お盆休み入りに伴う季節的な増加",
       "detected_at": "2026-08-16T14:17:21.329314+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "ytm_monthly_listeners",
+      "value": 1050000,
+      "baseline_mean": 876066.7,
+      "baseline_stddev": 71076.0,
+      "delta": 173933,
+      "score": 2.45,
+      "type": "annotated",
+      "related_annotation": "お盆休み入りに伴う季節的な増加",
+      "detected_at": "2026-08-17T14:21:55.155815+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "youtube_total_views",
+      "value": 35254809,
+      "baseline_mean": 34410411.5,
+      "baseline_stddev": 416092.6,
+      "delta": 844397,
+      "score": 2.03,
+      "type": "annotated",
+      "related_annotation": "お盆休み入りに伴う季節的な増加",
+      "detected_at": "2026-08-17T14:21:55.155815+00:00"
     }
   ]
 }

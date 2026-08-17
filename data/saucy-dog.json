@@ -5170,6 +5170,47 @@
       "ytm_subscribers": 874000,
       "ytm_monthly_listeners": 2460000,
       "ytm_total_views": 592878620
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 1822040,
+      "collected_at": "2026-08-17T14:33:03.138608+00:00",
+      "spotify_followers": 1518348,
+      "youtube_subscribers": 874000,
+      "youtube_total_views": 594502989,
+      "youtube_video_count": 140,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 92828
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 82822
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65657
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 37891
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 36037
+        }
+      ],
+      "lastfm_listeners": 59239,
+      "lastfm_playcount": 1681327,
+      "ytm_subscribers": 874000,
+      "ytm_monthly_listeners": 2460000,
+      "ytm_total_views": 592878620
     }
   ],
   "annotations": [
@@ -5489,7 +5530,7 @@
       {
         "name": "the shes gone",
         "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
-        "subscribers": "243K"
+        "subscribers": "242K"
       },
       {
         "name": "Kepura",
@@ -5509,7 +5550,7 @@
       {
         "name": "YUTORI-SEDAI",
         "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "248K"
+        "subscribers": "247K"
       },
       {
         "name": "tokyo kimiga inai machi",
@@ -6314,6 +6355,12 @@
           "views": 5478891,
           "likes": 23663,
           "comments": 55
+        },
+        {
+          "date": "2026-08-17",
+          "views": 5495047,
+          "likes": 23730,
+          "comments": 55
         }
       ]
     },
@@ -7056,6 +7103,12 @@
           "date": "2026-08-16",
           "views": 5979504,
           "likes": 27377,
+          "comments": 50
+        },
+        {
+          "date": "2026-08-17",
+          "views": 5996156,
+          "likes": 27463,
           "comments": 50
         }
       ]
@@ -7812,6 +7865,12 @@
           "views": 3230069,
           "likes": 16646,
           "comments": 39
+        },
+        {
+          "date": "2026-08-17",
+          "views": 3239016,
+          "likes": 16682,
+          "comments": 39
         }
       ]
     },
@@ -8554,6 +8613,12 @@
           "date": "2026-08-16",
           "views": 3656911,
           "likes": 20931,
+          "comments": 43
+        },
+        {
+          "date": "2026-08-17",
+          "views": 3665157,
+          "likes": 20955,
           "comments": 43
         }
       ]
@@ -9349,6 +9414,12 @@
           "views": 3128810,
           "likes": 12749,
           "comments": 33
+        },
+        {
+          "date": "2026-08-17",
+          "views": 3136870,
+          "likes": 12782,
+          "comments": 34
         }
       ]
     }
@@ -10073,6 +10144,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-16T14:28:44.482240+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "monthly_listeners",
+      "value": 1822040,
+      "baseline_mean": 1774807.1,
+      "baseline_stddev": 13031.8,
+      "delta": 47232,
+      "score": 3.62,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-17T14:33:04.999564+00:00"
     }
   ]
 }

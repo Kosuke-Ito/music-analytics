@@ -5167,6 +5167,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 5850000,
       "ytm_total_views": 586817496
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 888356,
+      "collected_at": "2026-08-17T14:33:54.725694+00:00",
+      "spotify_followers": 983908,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 610885261,
+      "youtube_video_count": 442,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 21391
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13949
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12633
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10816
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8324
+        }
+      ],
+      "lastfm_listeners": 8953,
+      "lastfm_playcount": 412776,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 5850000,
+      "ytm_total_views": 586817496
     }
   ],
   "metadata": {
@@ -5223,7 +5264,7 @@
       {
         "name": "Avantgardey",
         "browse_id": "UCkKOoZ4Cu7Dxqhj2y2JCAgw",
-        "subscribers": "6.94K"
+        "subscribers": "6.95K"
       },
       {
         "name": "Shinichi Osawa",
@@ -5246,9 +5287,9 @@
         "subscribers": "91.6K"
       },
       {
-        "name": "Miki Matsubara",
-        "browse_id": "UCT77P4HLpV7B2sbmuxa_djQ",
-        "subscribers": "20.9M"
+        "name": "Junko Yagami",
+        "browse_id": "UClrt1uflipH-2E2Yo6dY3Tw",
+        "subscribers": "62.8K"
       }
     ],
     "ytm_top_songs": [
@@ -6028,6 +6069,12 @@
           "views": 19679772,
           "likes": 280083,
           "comments": 430
+        },
+        {
+          "date": "2026-08-17",
+          "views": 19687160,
+          "likes": 280151,
+          "comments": 430
         }
       ]
     },
@@ -6782,6 +6829,12 @@
           "date": "2026-08-16",
           "views": 5483757,
           "likes": 32295,
+          "comments": 134
+        },
+        {
+          "date": "2026-08-17",
+          "views": 5485249,
+          "likes": 32302,
           "comments": 134
         }
       ]
@@ -7538,6 +7591,12 @@
           "views": 2282400,
           "likes": 37704,
           "comments": 112
+        },
+        {
+          "date": "2026-08-17",
+          "views": 2284741,
+          "likes": 37726,
+          "comments": 112
         }
       ]
     },
@@ -8039,6 +8098,12 @@
           "date": "2026-08-16",
           "views": 2224339,
           "likes": 31324,
+          "comments": 137
+        },
+        {
+          "date": "2026-08-17",
+          "views": 2225413,
+          "likes": 31333,
           "comments": 137
         }
       ]
@@ -9077,6 +9142,12 @@
           "date": "2026-08-16",
           "views": 73295,
           "likes": 3350,
+          "comments": 118
+        },
+        {
+          "date": "2026-08-17",
+          "views": 74255,
+          "likes": 3360,
           "comments": 118
         }
       ]
@@ -10147,6 +10218,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み入りに伴う季節的な増加",
       "detected_at": "2026-08-16T14:29:35.884094+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "ytm_monthly_listeners",
+      "value": 5850000,
+      "baseline_mean": 4223666.6,
+      "baseline_stddev": 697459.6,
+      "delta": 1626333,
+      "score": 2.33,
+      "type": "annotated",
+      "related_annotation": "傾向継続",
+      "detected_at": "2026-08-17T14:33:56.244554+00:00"
     }
   ]
 }

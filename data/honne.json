@@ -5282,6 +5282,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 4940000,
       "ytm_total_views": 925186586
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 3975256,
+      "collected_at": "2026-08-17T14:28:53.380673+00:00",
+      "spotify_followers": 1674250,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 925237628,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 174575
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 138579
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 128506
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 121580
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 107083
+        }
+      ],
+      "lastfm_listeners": 937442,
+      "lastfm_playcount": 23805290,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 4830000,
+      "ytm_total_views": 925186586
     }
   ],
   "annotations": [
@@ -5504,7 +5545,7 @@
       {
         "name": "Public Library Commute",
         "browse_id": "UCHaf5KL3HbX5XRIppowZmiA",
-        "subscribers": "120K"
+        "subscribers": "123K"
       },
       {
         "name": "Bren Joy",
@@ -6299,6 +6340,12 @@
           "views": 2603415,
           "likes": 16040,
           "comments": 27
+        },
+        {
+          "date": "2026-08-17",
+          "views": 2603635,
+          "likes": 16043,
+          "comments": 27
         }
       ]
     },
@@ -7047,6 +7094,12 @@
           "date": "2026-08-16",
           "views": 2172723,
           "likes": 19837,
+          "comments": 281
+        },
+        {
+          "date": "2026-08-17",
+          "views": 2175267,
+          "likes": 19851,
           "comments": 281
         }
       ]
@@ -7802,6 +7855,12 @@
           "date": "2026-08-16",
           "views": 48222025,
           "likes": 203367,
+          "comments": 121
+        },
+        {
+          "date": "2026-08-17",
+          "views": 48233942,
+          "likes": 203395,
           "comments": 121
         }
       ]
@@ -8976,6 +9035,12 @@
           "views": 14733949,
           "likes": 74861,
           "comments": 40
+        },
+        {
+          "date": "2026-08-17",
+          "views": 14746811,
+          "likes": 74905,
+          "comments": 40
         }
       ]
     },
@@ -9339,6 +9404,12 @@
           "views": 15843983,
           "likes": 80586,
           "comments": 63
+        },
+        {
+          "date": "2026-08-17",
+          "views": 15847467,
+          "likes": 80605,
+          "comments": 64
         }
       ]
     }
@@ -9727,6 +9798,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-16T14:24:30.215716+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "monthly_listeners",
+      "value": 3975256,
+      "baseline_mean": 3903135.7,
+      "baseline_stddev": 23110.9,
+      "delta": 72120,
+      "score": 3.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-17T14:28:54.393251+00:00"
     }
   ]
 }

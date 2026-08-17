@@ -5285,6 +5285,47 @@
       "ytm_subscribers": 420000,
       "ytm_monthly_listeners": 3460000,
       "ytm_total_views": 417259493
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 753034,
+      "collected_at": "2026-08-17T14:21:05.696715+00:00",
+      "spotify_followers": 273233,
+      "youtube_subscribers": 325000,
+      "youtube_total_views": 250847638,
+      "youtube_video_count": 56,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 23729
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 19459
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 14271
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 11458
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 8546
+        }
+      ],
+      "lastfm_listeners": 137062,
+      "lastfm_playcount": 3388828,
+      "ytm_subscribers": 420000,
+      "ytm_monthly_listeners": 3460000,
+      "ytm_total_views": 417259493
     }
   ],
   "metadata": {
@@ -5326,7 +5367,7 @@
       {
         "name": "NICHIMEZO",
         "browse_id": "UCF_x9hYjfwQQ6rCe5JAvoRQ",
-        "subscribers": "6.05K"
+        "subscribers": "6.06K"
       },
       {
         "name": "Tsuzuri",
@@ -5346,7 +5387,7 @@
       {
         "name": "R+...",
         "browse_id": "UChB6sMlO_Thevm3k01WBJkQ",
-        "subscribers": "80.7K"
+        "subscribers": "81.8K"
       },
       {
         "name": "Linmu",
@@ -5354,19 +5395,19 @@
         "subscribers": "991"
       },
       {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "616K"
+        "name": "suisoh",
+        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
+        "subscribers": "572K"
+      },
+      {
+        "name": "TOMONARI SORA",
+        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
+        "subscribers": "5.21M"
       },
       {
         "name": "harha",
         "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
         "subscribers": "259K"
-      },
-      {
-        "name": "suisoh",
-        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "565K"
       }
     ],
     "ytm_top_songs": [
@@ -6146,6 +6187,12 @@
           "views": 6093428,
           "likes": 37638,
           "comments": 81
+        },
+        {
+          "date": "2026-08-17",
+          "views": 6095440,
+          "likes": 37641,
+          "comments": 81
         }
       ]
     },
@@ -6900,6 +6947,12 @@
           "date": "2026-08-16",
           "views": 5509430,
           "likes": 33966,
+          "comments": 63
+        },
+        {
+          "date": "2026-08-17",
+          "views": 5511301,
+          "likes": 33969,
           "comments": 63
         }
       ]
@@ -7662,6 +7715,12 @@
           "views": 2735657,
           "likes": 29421,
           "comments": 509
+        },
+        {
+          "date": "2026-08-17",
+          "views": 2738547,
+          "likes": 29431,
+          "comments": 509
         }
       ]
     },
@@ -8416,6 +8475,12 @@
           "date": "2026-08-16",
           "views": 2893119,
           "likes": 20302,
+          "comments": 62
+        },
+        {
+          "date": "2026-08-17",
+          "views": 2894298,
+          "likes": 20309,
           "comments": 62
         }
       ]
@@ -9172,6 +9237,12 @@
           "views": 3150899,
           "likes": 22572,
           "comments": 133
+        },
+        {
+          "date": "2026-08-17",
+          "views": 3151883,
+          "likes": 22579,
+          "comments": 133
         }
       ]
     },
@@ -9527,6 +9598,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み入りに伴う季節的な増加",
       "detected_at": "2026-08-16T14:16:32.016775+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "monthly_listeners",
+      "value": 753034,
+      "baseline_mean": 739874.1,
+      "baseline_stddev": 3732.1,
+      "delta": 13159,
+      "score": 3.53,
+      "type": "annotated",
+      "related_annotation": "お盆休み効果が継続",
+      "detected_at": "2026-08-17T14:21:07.163293+00:00"
     }
   ]
 }

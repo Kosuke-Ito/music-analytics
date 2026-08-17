@@ -5170,6 +5170,47 @@
       "ytm_subscribers": 316000,
       "ytm_monthly_listeners": 3570000,
       "ytm_total_views": 319076017
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 1489726,
+      "collected_at": "2026-08-17T14:35:19.413815+00:00",
+      "spotify_followers": 338882,
+      "youtube_subscribers": 316000,
+      "youtube_total_views": 322432982,
+      "youtube_video_count": 222,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 46957
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 42203
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 35858
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 18094
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 16775
+        }
+      ],
+      "lastfm_listeners": 143440,
+      "lastfm_playcount": 2529550,
+      "ytm_subscribers": 316000,
+      "ytm_monthly_listeners": 3590000,
+      "ytm_total_views": 319076017
     }
   ],
   "annotations": [
@@ -5560,21 +5601,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Reini",
-        "browse_id": "UC2PTQOPrZautcQGly-U6Uqw",
-        "subscribers": "78.3K"
-      },
-      {
-        "name": "Absolute area",
-        "browse_id": "UCFuSjXQWPqp1YnVgxG3KLXA",
-        "subscribers": "68.9K"
-      },
-      {
-        "name": "saji",
-        "browse_id": "UCIZ41IoRQHIPuNORLZiGqzA",
-        "subscribers": "105K"
-      },
-      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "27.1K"
@@ -5582,7 +5608,7 @@
       {
         "name": "EISYU",
         "browse_id": "UCQ1dCsHilcsF2YOVXEI-4VA",
-        "subscribers": "87.8K"
+        "subscribers": "84.3K"
       },
       {
         "name": "First Love is Never Returned",
@@ -5595,6 +5621,21 @@
         "subscribers": "2.73K"
       },
       {
+        "name": "Reini",
+        "browse_id": "UC2PTQOPrZautcQGly-U6Uqw",
+        "subscribers": "77.8K"
+      },
+      {
+        "name": "Absolute area",
+        "browse_id": "UCFuSjXQWPqp1YnVgxG3KLXA",
+        "subscribers": "68.9K"
+      },
+      {
+        "name": "saji",
+        "browse_id": "UCIZ41IoRQHIPuNORLZiGqzA",
+        "subscribers": "105K"
+      },
+      {
         "name": "Mosawo",
         "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
         "subscribers": "1.17M"
@@ -5602,12 +5643,12 @@
       {
         "name": "VK Blanka",
         "browse_id": "UCg2rvXE9x3zg01ZxyIt9DpA",
-        "subscribers": "1.42M"
+        "subscribers": "1.45M"
       },
       {
-        "name": "RETRORIRON",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "304K"
+        "name": "wacci",
+        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
+        "subscribers": "1.68M"
       }
     ],
     "ytm_top_songs": [
@@ -6387,6 +6428,12 @@
           "views": 11989000,
           "likes": 55976,
           "comments": 203
+        },
+        {
+          "date": "2026-08-17",
+          "views": 11996082,
+          "likes": 56001,
+          "comments": 203
         }
       ]
     },
@@ -7142,6 +7189,12 @@
           "views": 855970,
           "likes": 8688,
           "comments": 90
+        },
+        {
+          "date": "2026-08-17",
+          "views": 856995,
+          "likes": 8698,
+          "comments": 90
         }
       ]
     },
@@ -7872,6 +7925,12 @@
           "date": "2026-08-16",
           "views": 2297522,
           "likes": 17087,
+          "comments": 61
+        },
+        {
+          "date": "2026-08-17",
+          "views": 2298438,
+          "likes": 17091,
           "comments": 61
         }
       ]
@@ -9154,6 +9213,12 @@
           "views": 1058937,
           "likes": 9833,
           "comments": 86
+        },
+        {
+          "date": "2026-08-17",
+          "views": 1059643,
+          "likes": 9837,
+          "comments": 86
         }
       ]
     },
@@ -9426,6 +9491,12 @@
           "date": "2026-08-16",
           "views": 55405,
           "likes": 812,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-17",
+          "views": 56126,
+          "likes": 818,
           "comments": 18
         }
       ]
@@ -10115,6 +10186,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み入りに伴う季節的な増加",
       "detected_at": "2026-08-16T14:31:00.730573+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "monthly_listeners",
+      "value": 1489726,
+      "baseline_mean": 1445080.7,
+      "baseline_stddev": 21645.1,
+      "delta": 44645,
+      "score": 2.06,
+      "type": "annotated",
+      "related_annotation": "お盆休み効果が継続",
+      "detected_at": "2026-08-17T14:35:20.911757+00:00"
     }
   ]
 }

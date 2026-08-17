@@ -5164,6 +5164,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 11600000,
       "ytm_total_views": 1886716892
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 3394885,
+      "collected_at": "2026-08-17T14:31:24.234078+00:00",
+      "spotify_followers": 2878024,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1889427657,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 77152
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 74051
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68360
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 49396
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40688
+        }
+      ],
+      "lastfm_listeners": 503150,
+      "lastfm_playcount": 25652397,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 11800000,
+      "ytm_total_views": 1886716892
     }
   ],
   "metadata": {
@@ -5205,7 +5246,7 @@
       {
         "name": "majiko",
         "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "394K"
+        "subscribers": "393K"
       },
       {
         "name": "krage",
@@ -5220,7 +5261,7 @@
       {
         "name": "sajou no hana",
         "browse_id": "UCWNPJK9pQWSRiyr-b6nmQ4Q",
-        "subscribers": "308K"
+        "subscribers": "304K"
       },
       {
         "name": "MIYUNA",
@@ -5233,19 +5274,19 @@
         "subscribers": "4.66M"
       },
       {
+        "name": "Uru",
+        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
+        "subscribers": "21.1M"
+      },
+      {
         "name": "Chiai Fujikawa",
         "browse_id": "UCpzy28Kw66pBn5o8uP3m4tA",
-        "subscribers": "432K"
+        "subscribers": "435K"
       },
       {
         "name": "kobasolo",
         "browse_id": "UCukBv_7AJU7AZHcidF0HIvQ",
         "subscribers": "3.67M"
-      },
-      {
-        "name": "Ai Higuchi",
-        "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
-        "subscribers": "13.6M"
       }
     ],
     "ytm_top_songs": [
@@ -6019,6 +6060,12 @@
           "views": 42114216,
           "likes": 295073,
           "comments": 1619
+        },
+        {
+          "date": "2026-08-17",
+          "views": 42148260,
+          "likes": 295292,
+          "comments": 1620
         }
       ]
     },
@@ -6767,6 +6814,12 @@
           "date": "2026-08-16",
           "views": 34369294,
           "likes": 157576,
+          "comments": 157
+        },
+        {
+          "date": "2026-08-17",
+          "views": 34383166,
+          "likes": 157627,
           "comments": 157
         }
       ]
@@ -7517,6 +7570,12 @@
           "views": 21283746,
           "likes": 117830,
           "comments": 294
+        },
+        {
+          "date": "2026-08-17",
+          "views": 21296143,
+          "likes": 117896,
+          "comments": 294
         }
       ]
     },
@@ -8212,6 +8271,12 @@
           "views": 5850343,
           "likes": 58195,
           "comments": 926
+        },
+        {
+          "date": "2026-08-17",
+          "views": 5855987,
+          "likes": 58221,
+          "comments": 927
         }
       ]
     },
@@ -8996,6 +9061,12 @@
           "views": 31662842,
           "likes": 135082,
           "comments": 776
+        },
+        {
+          "date": "2026-08-17",
+          "views": 31683074,
+          "likes": 135153,
+          "comments": 776
         }
       ]
     },
@@ -9745,6 +9816,18 @@
       "type": "annotated",
       "related_annotation": "「鬼滅の刃」世界配信効果継続とお盆休み時期が重なり増加",
       "detected_at": "2026-08-16T14:27:03.173248+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "monthly_listeners",
+      "value": 3394885,
+      "baseline_mean": 3377581.7,
+      "baseline_stddev": 7610.0,
+      "delta": 17303,
+      "score": 2.27,
+      "type": "annotated",
+      "related_annotation": "傾向継続",
+      "detected_at": "2026-08-17T14:31:25.801967+00:00"
     }
   ]
 }

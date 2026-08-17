@@ -5170,6 +5170,47 @@
       "ytm_subscribers": 1680000,
       "ytm_monthly_listeners": 6930000,
       "ytm_total_views": 1821198073
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 2530612,
+      "collected_at": "2026-08-17T14:34:11.676760+00:00",
+      "spotify_followers": 1661566,
+      "youtube_subscribers": 1680000,
+      "youtube_total_views": 1838015486,
+      "youtube_video_count": 182,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 103201
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 90548
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 66492
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 38347
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 28908
+        }
+      ],
+      "lastfm_listeners": 312819,
+      "lastfm_playcount": 21516457,
+      "ytm_subscribers": 1680000,
+      "ytm_monthly_listeners": 6930000,
+      "ytm_total_views": 1821198073
     }
   ],
   "metadata": {
@@ -5211,7 +5252,7 @@
       {
         "name": "Motohiro Hata",
         "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "14.3M"
+        "subscribers": "14.9M"
       },
       {
         "name": "SUKIMASWITCH",
@@ -5219,14 +5260,19 @@
         "subscribers": "4.72M"
       },
       {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.1M"
-      },
-      {
         "name": "Ikimonogakari",
         "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
         "subscribers": "18.6M"
+      },
+      {
+        "name": "Mr.Children",
+        "browse_id": "UCNL-6VGm61Y_dkVB89ZkYIA",
+        "subscribers": "6.13M"
+      },
+      {
+        "name": "Sambomaster",
+        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
+        "subscribers": "3.73M"
       },
       {
         "name": "Soushi Sakiyama",
@@ -5234,24 +5280,19 @@
         "subscribers": "2.06M"
       },
       {
-        "name": "Mr.Children",
-        "browse_id": "UCNL-6VGm61Y_dkVB89ZkYIA",
-        "subscribers": "6.09M"
-      },
-      {
-        "name": "Spitz",
-        "browse_id": "UCa1Dtbauq3vNdm0osXMScuA",
-        "subscribers": "8M"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "60.5M"
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10M"
       },
       {
         "name": "SUPER BEAVER",
         "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
         "subscribers": "2.16M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "18.8M"
       }
     ],
     "ytm_top_songs": [
@@ -6031,6 +6072,12 @@
           "views": 24259858,
           "likes": 81005,
           "comments": 286
+        },
+        {
+          "date": "2026-08-17",
+          "views": 24287943,
+          "likes": 81098,
+          "comments": 286
         }
       ]
     },
@@ -6785,6 +6832,12 @@
           "date": "2026-08-16",
           "views": 15034829,
           "likes": 98251,
+          "comments": 960
+        },
+        {
+          "date": "2026-08-17",
+          "views": 15068043,
+          "likes": 98384,
           "comments": 960
         }
       ]
@@ -7594,6 +7647,12 @@
           "views": 99170116,
           "likes": 482315,
           "comments": 6170
+        },
+        {
+          "date": "2026-08-17",
+          "views": 99202462,
+          "likes": 482426,
+          "comments": 6170
         }
       ]
     },
@@ -8349,6 +8408,12 @@
           "views": 50078590,
           "likes": 138927,
           "comments": 287
+        },
+        {
+          "date": "2026-08-17",
+          "views": 50110484,
+          "likes": 139050,
+          "comments": 287
         }
       ]
     },
@@ -9060,6 +9125,12 @@
           "date": "2026-08-16",
           "views": 21064321,
           "likes": 51192,
+          "comments": 72
+        },
+        {
+          "date": "2026-08-17",
+          "views": 21078482,
+          "likes": 51225,
           "comments": 72
         }
       ]
@@ -10127,6 +10198,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-16T14:29:52.963604+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "monthly_listeners",
+      "value": 2530612,
+      "baseline_mean": 2425468.2,
+      "baseline_stddev": 43550.3,
+      "delta": 105143,
+      "score": 2.41,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-17T14:34:13.155137+00:00"
     }
   ]
 }

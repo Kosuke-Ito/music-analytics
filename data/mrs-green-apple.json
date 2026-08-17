@@ -5468,6 +5468,47 @@
       "ytm_subscribers": 6530000,
       "ytm_monthly_listeners": 42400000,
       "ytm_total_views": 6844882172
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 7832338,
+      "collected_at": "2026-08-17T14:23:29.390962+00:00",
+      "spotify_followers": 7425756,
+      "youtube_subscribers": 6530000,
+      "youtube_total_views": 7072352497,
+      "youtube_video_count": 863,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 370377
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 368377
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 261386
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 148510
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 132334
+        }
+      ],
+      "lastfm_listeners": 459097,
+      "lastfm_playcount": 12874864,
+      "ytm_subscribers": 6530000,
+      "ytm_monthly_listeners": 42500000,
+      "ytm_total_views": 6844882172
     }
   ],
   "annotations": [
@@ -6163,19 +6204,9 @@
         "subscribers": "10.3M"
       },
       {
-        "name": "HANA",
-        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "31.2M"
-      },
-      {
         "name": "Tani Yuuki",
         "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
         "subscribers": "5.7M"
-      },
-      {
-        "name": "imase",
-        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "60M"
       },
       {
         "name": "Novelbright",
@@ -6188,19 +6219,29 @@
         "subscribers": "16.7M"
       },
       {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10.1M"
-      },
-      {
-        "name": "Dish",
-        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
-        "subscribers": "3.79M"
-      },
-      {
         "name": "Da-iCE",
         "browse_id": "UCsgebXKWsxjX216BtZwLdzQ",
-        "subscribers": "4.71M"
+        "subscribers": "4.72M"
+      },
+      {
+        "name": "HANA",
+        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
+        "subscribers": "32.8M"
+      },
+      {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10M"
+      },
+      {
+        "name": "macaroni enpitsu",
+        "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
+        "subscribers": "4.76M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "18.8M"
       }
     ],
     "ytm_top_songs": [
@@ -6986,6 +7027,12 @@
           "views": 31102553,
           "likes": 163979,
           "comments": 2449
+        },
+        {
+          "date": "2026-08-17",
+          "views": 31175491,
+          "likes": 164118,
+          "comments": 2454
         }
       ]
     },
@@ -7747,6 +7794,12 @@
           "views": 155160162,
           "likes": 553916,
           "comments": 6113
+        },
+        {
+          "date": "2026-08-17",
+          "views": 155263068,
+          "likes": 554071,
+          "comments": 6115
         }
       ]
     },
@@ -8507,6 +8560,12 @@
           "date": "2026-08-16",
           "views": 60972040,
           "likes": 234630,
+          "comments": 465
+        },
+        {
+          "date": "2026-08-17",
+          "views": 61000514,
+          "likes": 234725,
           "comments": 465
         }
       ]
@@ -9859,6 +9918,12 @@
           "views": 109029398,
           "likes": 357421,
           "comments": 1926
+        },
+        {
+          "date": "2026-08-17",
+          "views": 109096040,
+          "likes": 357578,
+          "comments": 1927
         }
       ]
     },
@@ -10050,6 +10115,12 @@
           "views": 11552715,
           "likes": 157268,
           "comments": 8764
+        },
+        {
+          "date": "2026-08-17",
+          "views": 11748028,
+          "likes": 158536,
+          "comments": 8778
         }
       ]
     }
@@ -10762,6 +10833,18 @@
       "type": "annotated",
       "related_annotation": "NHK音楽特番『うたであえたら2026』出演でボーカル大森が司会・ソロ曲初披露、YouTube視聴が急伸",
       "detected_at": "2026-08-16T14:19:01.862999+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "youtube_total_views",
+      "value": 7072352497,
+      "baseline_mean": 6956436748.0,
+      "baseline_stddev": 32933877.0,
+      "delta": 115915749,
+      "score": 3.52,
+      "type": "annotated",
+      "related_annotation": "NHK音楽特番『うたであえたら2026』出演でボーカル大森が司会・ソロ曲初披露、YouTube視聴が急伸",
+      "detected_at": "2026-08-17T14:23:30.681870+00:00"
     }
   ]
 }

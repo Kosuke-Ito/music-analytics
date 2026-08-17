@@ -5296,6 +5296,47 @@
       "ytm_subscribers": 481,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 1841,
+      "collected_at": "2026-08-17T14:25:40.359387+00:00",
+      "spotify_followers": 969,
+      "youtube_subscribers": 481,
+      "youtube_total_views": 168398,
+      "youtube_video_count": 187,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 90
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 53
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 52
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 30
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 25
+        }
+      ],
+      "lastfm_listeners": 776,
+      "lastfm_playcount": 2524,
+      "ytm_subscribers": 481,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7044,6 +7085,12 @@
           "views": 6339,
           "likes": 24,
           "comments": 0
+        },
+        {
+          "date": "2026-08-17",
+          "views": 6346,
+          "likes": 24,
+          "comments": 0
         }
       ]
     },
@@ -7756,6 +7803,12 @@
           "date": "2026-08-16",
           "views": 12759,
           "likes": 77,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-17",
+          "views": 12768,
+          "likes": 78,
           "comments": 0
         }
       ]
@@ -8512,6 +8565,12 @@
           "views": 32872,
           "likes": 152,
           "comments": 0
+        },
+        {
+          "date": "2026-08-17",
+          "views": 32878,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -9261,6 +9320,12 @@
           "views": 8488,
           "likes": 64,
           "comments": 0
+        },
+        {
+          "date": "2026-08-17",
+          "views": 8495,
+          "likes": 64,
+          "comments": 0
         }
       ]
     },
@@ -9423,6 +9488,12 @@
         },
         {
           "date": "2026-08-16",
+          "views": 771,
+          "likes": 5,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-17",
           "views": 771,
           "likes": 5,
           "comments": 0
@@ -10150,6 +10221,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-07-24T15:28:45.252459+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "youtube_total_views",
+      "value": 168398,
+      "baseline_mean": 166082.3,
+      "baseline_stddev": 862.3,
+      "delta": 2315,
+      "score": 2.69,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-17T14:25:41.737450+00:00"
     }
   ]
 }

@@ -5455,6 +5455,47 @@
       "ytm_subscribers": 58500000,
       "ytm_monthly_listeners": 360000000,
       "ytm_total_views": 23158557023
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 78805171,
+      "collected_at": "2026-08-17T14:27:15.679142+00:00",
+      "spotify_followers": 129880322,
+      "youtube_subscribers": 58500000,
+      "youtube_total_views": 23183787504,
+      "youtube_video_count": 211,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 984700
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 956609
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 949148
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 702428
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 689831
+        }
+      ],
+      "lastfm_listeners": 4365281,
+      "lastfm_playcount": 868295464,
+      "ytm_subscribers": 58500000,
+      "ytm_monthly_listeners": 360000000,
+      "ytm_total_views": 23158557023
     }
   ],
   "annotations": [
@@ -5663,22 +5704,12 @@
       {
         "name": "FINNEAS",
         "browse_id": "UCrbZcTv3iAHqMHWGbk0IYFA",
-        "subscribers": "2.13M"
-      },
-      {
-        "name": "Ashe",
-        "browse_id": "UCu4DT36ncDBhuBo1w_vZsFg",
-        "subscribers": "18.9M"
+        "subscribers": "2.15M"
       },
       {
         "name": "Noah Cyrus",
         "browse_id": "UCUekv_6fGLPg2V4Lt2-TxWA",
         "subscribers": "22.7M"
-      },
-      {
-        "name": "Madison Beer",
-        "browse_id": "UCpgpoxvgrxyul1uqC9hOF-A",
-        "subscribers": "27M"
       },
       {
         "name": "Harry Styles",
@@ -5691,9 +5722,19 @@
         "subscribers": "224M"
       },
       {
+        "name": "Labrinth",
+        "browse_id": "UCLx8m3I4zQAQc0tdASjdAfw",
+        "subscribers": "31.5M"
+      },
+      {
+        "name": "Madison Beer",
+        "browse_id": "UCpgpoxvgrxyul1uqC9hOF-A",
+        "subscribers": "27.1M"
+      },
+      {
         "name": "Lady Gaga",
         "browse_id": "UCGKXb1syicud01CJOOFRykg",
-        "subscribers": "674M"
+        "subscribers": "672M"
       },
       {
         "name": "Lana Del Rey",
@@ -5701,9 +5742,9 @@
         "subscribers": "332M"
       },
       {
-        "name": "Labrinth",
-        "browse_id": "UCLx8m3I4zQAQc0tdASjdAfw",
-        "subscribers": "31.8M"
+        "name": "Conan Gray",
+        "browse_id": "UCDfnnzgPNShOXOYM9V4QIsQ",
+        "subscribers": "26.4M"
       }
     ],
     "ytm_top_songs": [
@@ -6489,6 +6530,12 @@
           "views": 500832887,
           "likes": 3647491,
           "comments": 17979
+        },
+        {
+          "date": "2026-08-17",
+          "views": 501173458,
+          "likes": 3649158,
+          "comments": 17987
         }
       ]
     },
@@ -7250,6 +7297,12 @@
           "views": 320521804,
           "likes": 2856849,
           "comments": 14478
+        },
+        {
+          "date": "2026-08-17",
+          "views": 320775373,
+          "likes": 2858605,
+          "comments": 14494
         }
       ]
     },
@@ -8011,6 +8064,12 @@
           "views": 539559460,
           "likes": 4992685,
           "comments": 12704
+        },
+        {
+          "date": "2026-08-17",
+          "views": 539739950,
+          "likes": 4994067,
+          "comments": 12721
         }
       ]
     },
@@ -8772,6 +8831,12 @@
           "views": 161088032,
           "likes": 1458552,
           "comments": 6890
+        },
+        {
+          "date": "2026-08-17",
+          "views": 161193481,
+          "likes": 1459167,
+          "comments": 6892
         }
       ]
     },
@@ -9533,6 +9598,12 @@
           "views": 239156516,
           "likes": 2131441,
           "comments": 6978
+        },
+        {
+          "date": "2026-08-17",
+          "views": 239269542,
+          "likes": 2132231,
+          "comments": 6979
         }
       ]
     }
@@ -9909,6 +9980,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-16T14:22:51.397374+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "monthly_listeners",
+      "value": 78805171,
+      "baseline_mean": 77989089.1,
+      "baseline_stddev": 320831.9,
+      "delta": 816081,
+      "score": 2.54,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-17T14:27:16.696353+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "youtube_total_views",
+      "value": 23183787504,
+      "baseline_mean": 22940546255.6,
+      "baseline_stddev": 91899154.2,
+      "delta": 243241248,
+      "score": 2.65,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-17T14:27:16.696353+00:00"
     }
   ]
 }

@@ -5167,6 +5167,47 @@
       "ytm_subscribers": 1450000,
       "ytm_monthly_listeners": 60200000,
       "ytm_total_views": 1272155086
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 4026563,
+      "collected_at": "2026-08-17T14:31:56.514313+00:00",
+      "spotify_followers": 2056562,
+      "youtube_subscribers": 1450000,
+      "youtube_total_views": 1341337109,
+      "youtube_video_count": 534,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 194819
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 174101
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 128462
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 71186
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 61004
+        }
+      ],
+      "lastfm_listeners": 60123,
+      "lastfm_playcount": 16002245,
+      "ytm_subscribers": 1450000,
+      "ytm_monthly_listeners": 60500000,
+      "ytm_total_views": 1272155086
     }
   ],
   "annotations": [
@@ -5558,29 +5599,19 @@
         "subscribers": "2.06M"
       },
       {
-        "name": "Quruli",
-        "browse_id": "UCLIFRNQRDAaD5H4REYsRdmA",
-        "subscribers": "690K"
-      },
-      {
         "name": "TOMOO",
         "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
         "subscribers": "1.36M"
       },
       {
-        "name": "Utada",
-        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "23.6M"
-      },
-      {
         "name": "Mr.Children",
         "browse_id": "UCNL-6VGm61Y_dkVB89ZkYIA",
-        "subscribers": "6.09M"
+        "subscribers": "6.13M"
       },
       {
-        "name": "Spitz",
-        "browse_id": "UCa1Dtbauq3vNdm0osXMScuA",
-        "subscribers": "8M"
+        "name": "Quruli",
+        "browse_id": "UCLIFRNQRDAaD5H4REYsRdmA",
+        "subscribers": "691K"
       },
       {
         "name": "Perfume",
@@ -5588,19 +5619,29 @@
         "subscribers": "4.03M"
       },
       {
-        "name": "Fujifabric",
-        "browse_id": "UCFRvee2fH0Fo6WRKGZuk7SQ",
-        "subscribers": "1.58M"
+        "name": "Utada",
+        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
+        "subscribers": "23.6M"
       },
       {
-        "name": "gesunokiwami otome",
-        "browse_id": "UCC49CEw6fitW1bUIT9NjvSA",
-        "subscribers": "1.19M"
+        "name": "Spitz",
+        "browse_id": "UCa1Dtbauq3vNdm0osXMScuA",
+        "subscribers": "8.11M"
       },
       {
         "name": "星野源 Gen Hoshino",
         "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
-        "subscribers": "8.57M"
+        "subscribers": "8.95M"
+      },
+      {
+        "name": "Tokyo Incidents",
+        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
+        "subscribers": "1.66M"
+      },
+      {
+        "name": "BUMP OF CHICKEN",
+        "browse_id": "UC9Mz1pKJIKbwoQk_YZEjDew",
+        "subscribers": "6.93M"
       }
     ],
     "ytm_top_songs": [
@@ -6380,6 +6421,12 @@
           "views": 73651060,
           "likes": 415950,
           "comments": 1337
+        },
+        {
+          "date": "2026-08-17",
+          "views": 73731460,
+          "likes": 416181,
+          "comments": 1337
         }
       ]
     },
@@ -7135,6 +7182,12 @@
           "views": 53299143,
           "likes": 201563,
           "comments": 487
+        },
+        {
+          "date": "2026-08-17",
+          "views": 53338797,
+          "likes": 201683,
+          "comments": 486
         }
       ]
     },
@@ -7889,6 +7942,12 @@
           "date": "2026-08-16",
           "views": 7035259,
           "likes": 66096,
+          "comments": 1575
+        },
+        {
+          "date": "2026-08-17",
+          "views": 7052767,
+          "likes": 66165,
           "comments": 1575
         }
       ]
@@ -8645,6 +8704,12 @@
           "views": 28401549,
           "likes": 188079,
           "comments": 1516
+        },
+        {
+          "date": "2026-08-17",
+          "views": 28493405,
+          "likes": 188380,
+          "comments": 1521
         }
       ]
     },
@@ -9400,6 +9465,12 @@
           "views": 22333393,
           "likes": 121715,
           "comments": 227
+        },
+        {
+          "date": "2026-08-17",
+          "views": 22353189,
+          "likes": 121775,
+          "comments": 228
         }
       ]
     }
@@ -10304,6 +10375,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-16T14:27:37.636843+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "monthly_listeners",
+      "value": 4026563,
+      "baseline_mean": 3983219.1,
+      "baseline_stddev": 18014.5,
+      "delta": 43343,
+      "score": 2.41,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-17T14:31:58.079414+00:00"
     }
   ]
 }

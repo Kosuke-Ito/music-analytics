@@ -5280,6 +5280,47 @@
       "ytm_subscribers": 105000,
       "ytm_monthly_listeners": 1010000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-17",
+      "monthly_listeners": 566413,
+      "collected_at": "2026-08-17T14:19:26.277350+00:00",
+      "spotify_followers": 126414,
+      "youtube_subscribers": 105000,
+      "youtube_total_views": 52051143,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 27296
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 22538
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 16065
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 9495
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 7577
+        }
+      ],
+      "lastfm_listeners": 10323,
+      "lastfm_playcount": 169751,
+      "ytm_subscribers": 105000,
+      "ytm_monthly_listeners": 1020000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5314,7 +5355,7 @@
       {
         "name": "TAIKING",
         "browse_id": "UCExc0DkDIEcquQ568dZAyoA",
-        "subscribers": "68.6K"
+        "subscribers": "67.7K"
       },
       {
         "name": "First Love is Never Returned",
@@ -5324,17 +5365,17 @@
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "96.4K"
+        "subscribers": "94K"
       },
       {
         "name": "YONA YONA WEEKENDERS",
         "browse_id": "UCA2eoqFXKqN2EfB6HiIHIRA",
-        "subscribers": "66.9K"
+        "subscribers": "69.1K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "105K"
+        "subscribers": "104K"
       },
       {
         "name": "FRIENDS",
@@ -5349,7 +5390,7 @@
       {
         "name": "Furui Riho",
         "browse_id": "UC_INWDSkrIjnmqUi5D6zi4Q",
-        "subscribers": "291K"
+        "subscribers": "281K"
       },
       {
         "name": "Moto from Chilli Beans.",
@@ -6138,6 +6179,12 @@
           "views": 57406,
           "likes": 504,
           "comments": 6
+        },
+        {
+          "date": "2026-08-17",
+          "views": 57553,
+          "likes": 504,
+          "comments": 6
         }
       ]
     },
@@ -6891,6 +6938,12 @@
         {
           "date": "2026-08-16",
           "views": 46697,
+          "likes": 450,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-17",
+          "views": 46787,
           "likes": 450,
           "comments": 4
         }
@@ -7647,6 +7700,12 @@
           "date": "2026-08-16",
           "views": 244659,
           "likes": 2130,
+          "comments": 12
+        },
+        {
+          "date": "2026-08-17",
+          "views": 244894,
+          "likes": 2131,
           "comments": 12
         }
       ]
@@ -8972,6 +9031,12 @@
           "views": 93585,
           "likes": 851,
           "comments": 8
+        },
+        {
+          "date": "2026-08-17",
+          "views": 93713,
+          "likes": 851,
+          "comments": 8
         }
       ]
     },
@@ -9183,6 +9248,12 @@
           "date": "2026-08-16",
           "views": 26680,
           "likes": 262,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-17",
+          "views": 27068,
+          "likes": 267,
           "comments": 5
         }
       ]
@@ -10107,6 +10178,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み入りに伴う季節的な増加",
       "detected_at": "2026-08-16T14:14:56.263554+00:00"
+    },
+    {
+      "date": "2026-08-17",
+      "metric": "monthly_listeners",
+      "value": 566413,
+      "baseline_mean": 465186.8,
+      "baseline_stddev": 49707.6,
+      "delta": 101226,
+      "score": 2.04,
+      "type": "annotated",
+      "related_annotation": "お盆休み入りに伴う季節的な増加",
+      "detected_at": "2026-08-17T14:19:27.843106+00:00"
     }
   ]
 }
