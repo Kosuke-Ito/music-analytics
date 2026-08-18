@@ -5508,6 +5508,47 @@
       "ytm_subscribers": 20300000,
       "ytm_monthly_listeners": 181000000,
       "ytm_total_views": 12715572299
+    },
+    {
+      "date": "2026-08-18",
+      "monthly_listeners": 68116699,
+      "collected_at": "2026-08-18T14:33:34.397189+00:00",
+      "spotify_followers": 48768425,
+      "youtube_subscribers": 20300000,
+      "youtube_total_views": 12716088869,
+      "youtube_video_count": 40,
+      "top_cities": [
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 972952
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 930374
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 839134
+        },
+        {
+          "city": "New York City",
+          "country": "US",
+          "listeners": 788955
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 760020
+        }
+      ],
+      "lastfm_listeners": 5237913,
+      "lastfm_playcount": 1063748144,
+      "ytm_subscribers": 20300000,
+      "ytm_monthly_listeners": 181000000,
+      "ytm_total_views": 12715572299
     }
   ],
   "annotations": [
@@ -5695,14 +5736,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Vince Staples",
-        "browse_id": "UCCn7DeREpok-P8lDnYkyZWA",
-        "subscribers": "1.95M"
-      },
-      {
         "name": "Bas",
         "browse_id": "UC3oN3GTQE2Dw5QVteykZSzA",
-        "subscribers": "1.04M"
+        "subscribers": "1.05M"
+      },
+      {
+        "name": "Vince Staples",
+        "browse_id": "UCCn7DeREpok-P8lDnYkyZWA",
+        "subscribers": "1.91M"
       },
       {
         "name": "Drake",
@@ -5710,39 +5751,39 @@
         "subscribers": "131M"
       },
       {
-        "name": "Mac Miller",
-        "browse_id": "UC52ZqHVQz5OoGhvbWiRal6g",
-        "subscribers": "76.9M"
-      },
-      {
         "name": "Big Sean",
         "browse_id": "UCm3ai8dGs4olHioc_xL3IXA",
         "subscribers": "58.8M"
       },
       {
+        "name": "Cordae",
+        "browse_id": "UC4MAxaRDB70jZfXZGe8VKew",
+        "subscribers": "1.9M"
+      },
+      {
         "name": "Lupe Fiasco",
         "browse_id": "UCe872mgP4deADPnXtkbS-Cg",
-        "subscribers": "22M"
+        "subscribers": "21.9M"
       },
       {
         "name": "Joey Bada$$",
         "browse_id": "UCCQZCaEwq3-mc5pj8be31Uw",
-        "subscribers": "3.19M"
+        "subscribers": "3.21M"
       },
       {
-        "name": "Kanye West",
-        "browse_id": "UCRY5dYsbIN5TylSbd7gVnZg",
-        "subscribers": "301M"
+        "name": "Mac Miller",
+        "browse_id": "UC52ZqHVQz5OoGhvbWiRal6g",
+        "subscribers": "76.5M"
+      },
+      {
+        "name": "Kid Cudi",
+        "browse_id": "UCo2-dPLJcpbZK84FIt0vD-w",
+        "subscribers": "30.6M"
       },
       {
         "name": "Jay Rock",
         "browse_id": "UCiKRoVXKO9Fzrjo4eO-XDDQ",
         "subscribers": "1.68M"
-      },
-      {
-        "name": "J. Cole",
-        "browse_id": "UC0ajkOzj8xE3Gs3LHCE243A",
-        "subscribers": "148M"
       }
     ],
     "ytm_top_songs": [
@@ -6534,6 +6575,12 @@
           "views": 108046463,
           "likes": 949027,
           "comments": 3014
+        },
+        {
+          "date": "2026-08-18",
+          "views": 108116666,
+          "likes": 949594,
+          "comments": 3018
         }
       ]
     },
@@ -7301,6 +7348,12 @@
           "views": 414944847,
           "likes": 3989584,
           "comments": 44684
+        },
+        {
+          "date": "2026-08-18",
+          "views": 415150980,
+          "likes": 3991067,
+          "comments": 44692
         }
       ]
     },
@@ -8068,6 +8121,12 @@
           "views": 217738919,
           "likes": 1658513,
           "comments": 5466
+        },
+        {
+          "date": "2026-08-18",
+          "views": 217893872,
+          "likes": 1659373,
+          "comments": 5467
         }
       ]
     },
@@ -8835,6 +8894,12 @@
           "views": 197590913,
           "likes": 1234042,
           "comments": 10111
+        },
+        {
+          "date": "2026-08-18",
+          "views": 197678946,
+          "likes": 1234473,
+          "comments": 10117
         }
       ]
     },
@@ -9602,6 +9667,12 @@
           "views": 342592217,
           "likes": 2435331,
           "comments": 4816
+        },
+        {
+          "date": "2026-08-18",
+          "views": 342745269,
+          "likes": 2436253,
+          "comments": 4819
         }
       ]
     }
@@ -10086,6 +10157,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-17T14:27:50.109341+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "monthly_listeners",
+      "value": 68116699,
+      "baseline_mean": 67251443.5,
+      "baseline_stddev": 277358.6,
+      "delta": 865255,
+      "score": 3.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-18T14:33:35.775270+00:00"
     }
   ]
 }

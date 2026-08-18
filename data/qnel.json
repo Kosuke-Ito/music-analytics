@@ -5337,6 +5337,47 @@
       "ytm_subscribers": 481,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-18",
+      "monthly_listeners": 2002,
+      "collected_at": "2026-08-18T14:31:15.825765+00:00",
+      "spotify_followers": 971,
+      "youtube_subscribers": 481,
+      "youtube_total_views": 168398,
+      "youtube_video_count": 187,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 95
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 54
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 53
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 33
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 26
+        }
+      ],
+      "lastfm_listeners": 779,
+      "lastfm_playcount": 2527,
+      "ytm_subscribers": 481,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5623,7 +5664,7 @@
       {
         "name": "Offo tokyo",
         "browse_id": "UCFUndaCSveHB7RS3ULvATfw",
-        "subscribers": "122K"
+        "subscribers": "123K"
       },
       {
         "name": "Goro Inagaki",
@@ -7091,6 +7132,12 @@
           "views": 6346,
           "likes": 24,
           "comments": 0
+        },
+        {
+          "date": "2026-08-18",
+          "views": 6352,
+          "likes": 24,
+          "comments": 0
         }
       ]
     },
@@ -7808,6 +7855,12 @@
         {
           "date": "2026-08-17",
           "views": 12768,
+          "likes": 78,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-18",
+          "views": 12776,
           "likes": 78,
           "comments": 0
         }
@@ -8571,6 +8624,12 @@
           "views": 32878,
           "likes": 152,
           "comments": 0
+        },
+        {
+          "date": "2026-08-18",
+          "views": 32886,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -9326,6 +9385,12 @@
           "views": 8495,
           "likes": 64,
           "comments": 0
+        },
+        {
+          "date": "2026-08-18",
+          "views": 8505,
+          "likes": 64,
+          "comments": 0
         }
       ]
     },
@@ -9494,6 +9559,12 @@
         },
         {
           "date": "2026-08-17",
+          "views": 771,
+          "likes": 5,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-18",
           "views": 771,
           "likes": 5,
           "comments": 0
@@ -10233,6 +10304,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-17T14:25:41.737450+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "youtube_total_views",
+      "value": 168398,
+      "baseline_mean": 166215.8,
+      "baseline_stddev": 899.8,
+      "delta": 2182,
+      "score": 2.43,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-18T14:31:17.457617+00:00"
     }
   ]
 }

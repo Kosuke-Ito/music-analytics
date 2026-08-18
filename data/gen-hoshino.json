@@ -5202,6 +5202,47 @@
       "ytm_subscribers": 1770000,
       "ytm_monthly_listeners": 8950000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-18",
+      "monthly_listeners": 2932003,
+      "collected_at": "2026-08-18T14:36:44.885057+00:00",
+      "spotify_followers": 2485461,
+      "youtube_subscribers": 1770000,
+      "youtube_total_views": 1454972722,
+      "youtube_video_count": 217,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 118832
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 105856
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 73549
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 45934
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 41120
+        }
+      ],
+      "lastfm_listeners": 21638,
+      "lastfm_playcount": 3011880,
+      "ytm_subscribers": 1770000,
+      "ytm_monthly_listeners": 8950000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5241,9 +5282,24 @@
         "subscribers": "14.9M"
       },
       {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10M"
+      },
+      {
         "name": "TOMOO",
         "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "1.36M"
+        "subscribers": "1.4M"
+      },
+      {
+        "name": "Spitz",
+        "browse_id": "UCa1Dtbauq3vNdm0osXMScuA",
+        "subscribers": "8.11M"
+      },
+      {
+        "name": "aiko",
+        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
+        "subscribers": "7.07M"
       },
       {
         "name": "Quruli",
@@ -5253,22 +5309,7 @@
       {
         "name": "macaroni enpitsu",
         "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
-        "subscribers": "4.76M"
-      },
-      {
-        "name": "aiko",
-        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
-        "subscribers": "7.07M"
-      },
-      {
-        "name": "Spitz",
-        "browse_id": "UCa1Dtbauq3vNdm0osXMScuA",
-        "subscribers": "8.11M"
-      },
-      {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10M"
+        "subscribers": "4.75M"
       },
       {
         "name": "sakanaction",
@@ -5278,7 +5319,7 @@
       {
         "name": "aimyon",
         "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
-        "subscribers": "8.71M"
+        "subscribers": "8.78M"
       },
       {
         "name": "OFFICIAL HIGE DANDISM",
@@ -5287,6 +5328,10 @@
       }
     ],
     "ytm_top_songs": [
+      {
+        "title": "好き - Suki",
+        "video_id": "VdDPPWb5cF8"
+      },
       {
         "title": "恋 - Koi",
         "video_id": "KMdTrqzEI0I"
@@ -5302,10 +5347,6 @@
       {
         "title": "ドラえもん - Doraemon",
         "video_id": "cYWYGUDIQvo"
-      },
-      {
-        "title": "Family Song",
-        "video_id": "1GQ07JcqH48"
       }
     ]
   },
@@ -6056,6 +6097,12 @@
           "views": 61501793,
           "likes": 242747,
           "comments": 579
+        },
+        {
+          "date": "2026-08-18",
+          "views": 61535320,
+          "likes": 242907,
+          "comments": 579
         }
       ]
     },
@@ -6805,6 +6852,12 @@
           "views": 5505386,
           "likes": 44678,
           "comments": 0
+        },
+        {
+          "date": "2026-08-18",
+          "views": 5516569,
+          "likes": 44759,
+          "comments": 0
         }
       ]
     },
@@ -7541,6 +7594,12 @@
           "date": "2026-08-17",
           "views": 22173663,
           "likes": 104789,
+          "comments": 88
+        },
+        {
+          "date": "2026-08-18",
+          "views": 22187508,
+          "likes": 104886,
           "comments": 88
         }
       ]
@@ -8728,6 +8787,12 @@
           "views": 11294398,
           "likes": 51020,
           "comments": 170
+        },
+        {
+          "date": "2026-08-18",
+          "views": 11301622,
+          "likes": 51072,
+          "comments": 170
         }
       ]
     },
@@ -9147,6 +9212,17 @@
           "views": 35792533,
           "likes": 113508,
           "comments": 228
+        }
+      ]
+    },
+    "VdDPPWb5cF8": {
+      "title": "好き - Suki",
+      "history": [
+        {
+          "date": "2026-08-18",
+          "views": 1068599,
+          "likes": 21613,
+          "comments": 0
         }
       ]
     }
@@ -10118,6 +10194,42 @@
       "type": "annotated",
       "related_annotation": "傾向継続",
       "detected_at": "2026-08-17T14:30:52.246683+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "monthly_listeners",
+      "value": 2932003,
+      "baseline_mean": 2751229.8,
+      "baseline_stddev": 83206.9,
+      "delta": 180773,
+      "score": 2.17,
+      "type": "annotated",
+      "related_annotation": "傾向継続",
+      "detected_at": "2026-08-18T14:36:46.747832+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "ytm_monthly_listeners",
+      "value": 8950000,
+      "baseline_mean": 8520000,
+      "baseline_stddev": 144291.4,
+      "delta": 430000,
+      "score": 2.98,
+      "type": "annotated",
+      "related_annotation": "傾向継続",
+      "detected_at": "2026-08-18T14:36:46.747832+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "youtube_total_views",
+      "value": 1454972722,
+      "baseline_mean": 1442091614.7,
+      "baseline_stddev": 6279596.8,
+      "delta": 12881107,
+      "score": 2.05,
+      "type": "annotated",
+      "related_annotation": "傾向継続",
+      "detected_at": "2026-08-18T14:36:46.747832+00:00"
     }
   ]
 }

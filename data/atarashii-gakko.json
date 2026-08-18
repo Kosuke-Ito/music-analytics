@@ -5208,6 +5208,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 5850000,
       "ytm_total_views": 586817496
+    },
+    {
+      "date": "2026-08-18",
+      "monthly_listeners": 889127,
+      "collected_at": "2026-08-18T14:39:58.698441+00:00",
+      "spotify_followers": 984040,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 610885261,
+      "youtube_video_count": 443,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 21416
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13944
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12667
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 10820
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8358
+        }
+      ],
+      "lastfm_listeners": 8956,
+      "lastfm_playcount": 412972,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 5870000,
+      "ytm_total_views": 586817496
     }
   ],
   "metadata": {
@@ -5238,13 +5279,13 @@
       "japanese",
       "female vocalists",
       "jazz",
-      "JPop"
+      "pop"
     ],
     "ytm_related_artists": [
       {
         "name": "SHISHIDO KAVKA",
         "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
-        "subscribers": "94.9K"
+        "subscribers": "94.1K"
       },
       {
         "name": "chelmico",
@@ -5259,7 +5300,7 @@
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "103K"
+        "subscribers": "102K"
       },
       {
         "name": "Avantgardey",
@@ -5269,12 +5310,12 @@
       {
         "name": "Shinichi Osawa",
         "browse_id": "UCY201zooqm0sGYxdwnXbAhA",
-        "subscribers": "293K"
+        "subscribers": "299K"
       },
       {
         "name": "SOIL & \"PIMP\" SESSIONS",
         "browse_id": "UCjbIpDwFHq2QYh4FsWmhgCg",
-        "subscribers": "199K"
+        "subscribers": "197K"
       },
       {
         "name": "Rinne Amano",
@@ -5284,12 +5325,12 @@
       {
         "name": "Rei",
         "browse_id": "UCy4jWQAmqVAWhEYpqKENB-A",
-        "subscribers": "91.6K"
+        "subscribers": "93.8K"
       },
       {
-        "name": "Junko Yagami",
-        "browse_id": "UClrt1uflipH-2E2Yo6dY3Tw",
-        "subscribers": "62.8K"
+        "name": "Miki Matsubara",
+        "browse_id": "UCT77P4HLpV7B2sbmuxa_djQ",
+        "subscribers": "21M"
       }
     ],
     "ytm_top_songs": [
@@ -6075,6 +6116,12 @@
           "views": 19687160,
           "likes": 280151,
           "comments": 430
+        },
+        {
+          "date": "2026-08-18",
+          "views": 19695184,
+          "likes": 280248,
+          "comments": 430
         }
       ]
     },
@@ -6835,6 +6882,12 @@
           "date": "2026-08-17",
           "views": 5485249,
           "likes": 32302,
+          "comments": 134
+        },
+        {
+          "date": "2026-08-18",
+          "views": 5486975,
+          "likes": 32316,
           "comments": 134
         }
       ]
@@ -7597,6 +7650,12 @@
           "views": 2284741,
           "likes": 37726,
           "comments": 112
+        },
+        {
+          "date": "2026-08-18",
+          "views": 2287356,
+          "likes": 37760,
+          "comments": 112
         }
       ]
     },
@@ -8104,6 +8163,12 @@
           "date": "2026-08-17",
           "views": 2225413,
           "likes": 31333,
+          "comments": 137
+        },
+        {
+          "date": "2026-08-18",
+          "views": 2226537,
+          "likes": 31343,
           "comments": 137
         }
       ]
@@ -9148,6 +9213,12 @@
           "date": "2026-08-17",
           "views": 74255,
           "likes": 3360,
+          "comments": 118
+        },
+        {
+          "date": "2026-08-18",
+          "views": 75150,
+          "likes": 3382,
           "comments": 118
         }
       ]
@@ -10230,6 +10301,18 @@
       "type": "annotated",
       "related_annotation": "傾向継続",
       "detected_at": "2026-08-17T14:33:56.244554+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "ytm_monthly_listeners",
+      "value": 5870000,
+      "baseline_mean": 4297333.3,
+      "baseline_stddev": 746882.1,
+      "delta": 1572666,
+      "score": 2.11,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-18T14:40:00.531435+00:00"
     }
   ]
 }

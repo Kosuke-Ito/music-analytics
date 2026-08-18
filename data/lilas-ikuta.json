@@ -5321,6 +5321,47 @@
       "ytm_subscribers": 1010000,
       "ytm_monthly_listeners": 16700000,
       "ytm_total_views": 436945176
+    },
+    {
+      "date": "2026-08-18",
+      "monthly_listeners": 2661340,
+      "collected_at": "2026-08-18T14:25:52.312714+00:00",
+      "spotify_followers": 1031480,
+      "youtube_subscribers": 1010000,
+      "youtube_total_views": 438338450,
+      "youtube_video_count": 54,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 75858
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 75811
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 56698
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 43661
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 29620
+        }
+      ],
+      "lastfm_listeners": 19917,
+      "lastfm_playcount": 356695,
+      "ytm_subscribers": 1010000,
+      "ytm_monthly_listeners": 16600000,
+      "ytm_total_views": 436945176
     }
   ],
   "annotations": [
@@ -5654,16 +5695,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Mosawo",
-        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
-        "subscribers": "1.17M"
-      },
-      {
-        "name": "Yuka",
-        "browse_id": "UCMkVJ99SxSdl7mZi43FB49Q",
-        "subscribers": "7.51M"
-      },
-      {
         "name": "Noda Emi",
         "browse_id": "UC2mwr8Fe3w-HixrCoruERTg",
         "subscribers": "345K"
@@ -5671,12 +5702,17 @@
       {
         "name": "Zarame",
         "browse_id": "UCsXbUCnV9SqRGkaO2ifzkBw",
-        "subscribers": "308K"
+        "subscribers": "307K"
       },
       {
-        "name": "Riria.",
-        "browse_id": "UC19b2wLgiw-R2LTd1waSGXQ",
-        "subscribers": "934K"
+        "name": "Yuka",
+        "browse_id": "UCMkVJ99SxSdl7mZi43FB49Q",
+        "subscribers": "7.4M"
+      },
+      {
+        "name": "Mosawo",
+        "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
+        "subscribers": "1.19M"
       },
       {
         "name": "Uru",
@@ -5689,19 +5725,24 @@
         "subscribers": "32.9K"
       },
       {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.3M"
-      },
-      {
-        "name": "asmi",
-        "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
-        "subscribers": "3.22M"
+        "name": "Riria.",
+        "browse_id": "UC19b2wLgiw-R2LTd1waSGXQ",
+        "subscribers": "935K"
       },
       {
         "name": "Miwa",
         "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
         "subscribers": "1.81M"
+      },
+      {
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "18.5M"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.3M"
       }
     ],
     "ytm_top_songs": [
@@ -6493,6 +6534,12 @@
           "views": 4739552,
           "likes": 42492,
           "comments": 95
+        },
+        {
+          "date": "2026-08-18",
+          "views": 4768112,
+          "likes": 42755,
+          "comments": 96
         }
       ]
     },
@@ -7254,6 +7301,12 @@
           "views": 19762728,
           "likes": 88578,
           "comments": 560
+        },
+        {
+          "date": "2026-08-18",
+          "views": 19789193,
+          "likes": 88636,
+          "comments": 558
         }
       ]
     },
@@ -8020,6 +8073,12 @@
           "date": "2026-08-17",
           "views": 27937687,
           "likes": 178318,
+          "comments": 1814
+        },
+        {
+          "date": "2026-08-18",
+          "views": 27944416,
+          "likes": 178315,
           "comments": 1814
         }
       ]
@@ -9309,6 +9368,12 @@
           "views": 31470698,
           "likes": 131624,
           "comments": 317
+        },
+        {
+          "date": "2026-08-18",
+          "views": 31486593,
+          "likes": 131664,
+          "comments": 317
         }
       ]
     },
@@ -9571,6 +9636,12 @@
           "views": 12595522,
           "likes": 121779,
           "comments": 130
+        },
+        {
+          "date": "2026-08-18",
+          "views": 12608095,
+          "likes": 121873,
+          "comments": 133
         }
       ]
     }
@@ -9971,6 +10042,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み入りに伴う季節的な増加",
       "detected_at": "2026-08-17T14:20:34.899228+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "youtube_total_views",
+      "value": 438338450,
+      "baseline_mean": 432982915.4,
+      "baseline_stddev": 2677147.9,
+      "delta": 5355534,
+      "score": 2.0,
+      "type": "annotated",
+      "related_annotation": "お盆休み入りに伴う季節的な増加",
+      "detected_at": "2026-08-18T14:25:53.915845+00:00"
     }
   ]
 }

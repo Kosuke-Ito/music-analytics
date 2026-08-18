@@ -5508,6 +5508,47 @@
       "ytm_subscribers": 39900000,
       "ytm_monthly_listeners": 274000000,
       "ytm_total_views": 37533642510
+    },
+    {
+      "date": "2026-08-18",
+      "monthly_listeners": 115739722,
+      "collected_at": "2026-08-18T14:33:16.371022+00:00",
+      "spotify_followers": 126458572,
+      "youtube_subscribers": 39900000,
+      "youtube_total_views": 37543185754,
+      "youtube_video_count": 204,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1633972
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1618402
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1558046
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 1015140
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 986501
+        }
+      ],
+      "lastfm_listeners": 5481555,
+      "lastfm_playcount": 1169320951,
+      "ytm_subscribers": 39900000,
+      "ytm_monthly_listeners": 274000000,
+      "ytm_total_views": 37533642510
     }
   ],
   "annotations": [
@@ -5777,17 +5818,7 @@
       {
         "name": "benny blanco",
         "browse_id": "UCzqz_ksRu_WkIzmivMdIS7A",
-        "subscribers": "23.4M"
-      },
-      {
-        "name": "Miguel",
-        "browse_id": "UCKskshF_wMq6fCRsQY60kSg",
-        "subscribers": "25.3M"
-      },
-      {
-        "name": "Justin Bieber",
-        "browse_id": "UCGvj8kfUV5Q6lzECIrGY19g",
-        "subscribers": "544M"
+        "subscribers": "23.5M"
       },
       {
         "name": "Drake",
@@ -5795,9 +5826,9 @@
         "subscribers": "131M"
       },
       {
-        "name": "Khalid",
-        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
-        "subscribers": "204M"
+        "name": "Justin Bieber",
+        "browse_id": "UCGvj8kfUV5Q6lzECIrGY19g",
+        "subscribers": "544M"
       },
       {
         "name": "ZAYN",
@@ -5805,24 +5836,34 @@
         "subscribers": "48.5M"
       },
       {
-        "name": "6LACK",
-        "browse_id": "UCgerUw6uCKCZIYvD5sz5ZNg",
-        "subscribers": "7.05M"
-      },
-      {
-        "name": "Travis Scott",
-        "browse_id": "UCf_gP4AMRSgAfyzbkeS9k4g",
-        "subscribers": "122M"
-      },
-      {
-        "name": "Post Malone",
-        "browse_id": "UCyD3XWRK9ko-izf2nBSFitw",
-        "subscribers": "169M"
+        "name": "Khalid",
+        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
+        "subscribers": "204M"
       },
       {
         "name": "070 Shake",
         "browse_id": "UC4CVrwAB1TblttvcZi7-qcw",
-        "subscribers": "13M"
+        "subscribers": "12.9M"
+      },
+      {
+        "name": "Miguel",
+        "browse_id": "UCKskshF_wMq6fCRsQY60kSg",
+        "subscribers": "25.4M"
+      },
+      {
+        "name": "Travis Scott",
+        "browse_id": "UCf_gP4AMRSgAfyzbkeS9k4g",
+        "subscribers": "121M"
+      },
+      {
+        "name": "Metro Boomin",
+        "browse_id": "UCFYaIRiUe_1hvOtXu5IiBWQ",
+        "subscribers": "75.7M"
+      },
+      {
+        "name": "Brent Faiyaz",
+        "browse_id": "UCRBHVPw68XPbJnsl2Cf_eUw",
+        "subscribers": "10.2M"
       }
     ],
     "ytm_top_songs": [
@@ -6401,6 +6442,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-17T14:27:33.562824+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "monthly_listeners",
+      "value": 115739722,
+      "baseline_mean": 113970579.6,
+      "baseline_stddev": 854583.7,
+      "delta": 1769142,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-18T14:33:18.179733+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "youtube_total_views",
+      "value": 37543185754,
+      "baseline_mean": 37136105087.2,
+      "baseline_stddev": 135693555.6,
+      "delta": 407080666,
+      "score": 3.0,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-18T14:33:18.179733+00:00"
     }
   ],
   "song_performance": {
@@ -7168,6 +7233,12 @@
           "views": 604421829,
           "likes": 3962034,
           "comments": 7227
+        },
+        {
+          "date": "2026-08-18",
+          "views": 604733799,
+          "likes": 3963731,
+          "comments": 7233
         }
       ]
     },
@@ -7929,6 +8000,12 @@
           "views": 648748016,
           "likes": 4380526,
           "comments": 9777
+        },
+        {
+          "date": "2026-08-18",
+          "views": 649094649,
+          "likes": 4382647,
+          "comments": 9784
         }
       ]
     },
@@ -8696,6 +8773,12 @@
           "views": 370876978,
           "likes": 3021252,
           "comments": 7803
+        },
+        {
+          "date": "2026-08-18",
+          "views": 371158305,
+          "likes": 3023327,
+          "comments": 7806
         }
       ]
     },
@@ -9457,6 +9540,12 @@
           "views": 979289388,
           "likes": 6712551,
           "comments": 23557
+        },
+        {
+          "date": "2026-08-18",
+          "views": 979629255,
+          "likes": 6714628,
+          "comments": 23566
         }
       ]
     },
@@ -10110,6 +10199,12 @@
           "views": 155506432,
           "likes": 1221197,
           "comments": 4756
+        },
+        {
+          "date": "2026-08-18",
+          "views": 155690541,
+          "likes": 1222386,
+          "comments": 4759
         }
       ]
     },

@@ -5323,6 +5323,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 4830000,
       "ytm_total_views": 925186586
+    },
+    {
+      "date": "2026-08-18",
+      "monthly_listeners": 3981479,
+      "collected_at": "2026-08-18T14:34:43.443130+00:00",
+      "spotify_followers": 1674466,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 925237628,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 174378
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 138915
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 128510
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 121555
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 108430
+        }
+      ],
+      "lastfm_listeners": 937659,
+      "lastfm_playcount": 23808579,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 4830000,
+      "ytm_total_views": 925186586
     }
   ],
   "annotations": [
@@ -5513,6 +5554,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Bren Joy",
+        "browse_id": "UChIwocHYRaPUGmZnNdX0RVQ",
+        "subscribers": "539K"
+      },
+      {
         "name": "Micah Edwards",
         "browse_id": "UCW00dXhsyYvJQAry4hTM7hA",
         "subscribers": "9.5K"
@@ -5530,7 +5576,7 @@
       {
         "name": "Charlie Burg",
         "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
-        "subscribers": "175K"
+        "subscribers": "173K"
       },
       {
         "name": "JEREMY PASSION",
@@ -5540,7 +5586,7 @@
       {
         "name": "Sam Wills",
         "browse_id": "UCtS5U-fbarDftLymlNxo3IA",
-        "subscribers": "372K"
+        "subscribers": "376K"
       },
       {
         "name": "Public Library Commute",
@@ -5548,14 +5594,9 @@
         "subscribers": "123K"
       },
       {
-        "name": "Bren Joy",
-        "browse_id": "UChIwocHYRaPUGmZnNdX0RVQ",
-        "subscribers": "538K"
-      },
-      {
         "name": "Devin Kennedy",
         "browse_id": "UConPcmI6u5L-OzZjQ6PFOXQ",
-        "subscribers": "381K"
+        "subscribers": "383K"
       },
       {
         "name": "Johnson",
@@ -6346,6 +6387,12 @@
           "views": 2603635,
           "likes": 16043,
           "comments": 27
+        },
+        {
+          "date": "2026-08-18",
+          "views": 2603889,
+          "likes": 16042,
+          "comments": 27
         }
       ]
     },
@@ -7100,6 +7147,12 @@
           "date": "2026-08-17",
           "views": 2175267,
           "likes": 19851,
+          "comments": 281
+        },
+        {
+          "date": "2026-08-18",
+          "views": 2177775,
+          "likes": 19869,
           "comments": 281
         }
       ]
@@ -7861,6 +7914,12 @@
           "date": "2026-08-17",
           "views": 48233942,
           "likes": 203395,
+          "comments": 121
+        },
+        {
+          "date": "2026-08-18",
+          "views": 48246943,
+          "likes": 203427,
           "comments": 121
         }
       ]
@@ -9041,6 +9100,12 @@
           "views": 14746811,
           "likes": 74905,
           "comments": 40
+        },
+        {
+          "date": "2026-08-18",
+          "views": 14760830,
+          "likes": 74934,
+          "comments": 40
         }
       ]
     },
@@ -9409,6 +9474,12 @@
           "date": "2026-08-17",
           "views": 15847467,
           "likes": 80605,
+          "comments": 64
+        },
+        {
+          "date": "2026-08-18",
+          "views": 15851113,
+          "likes": 80623,
           "comments": 64
         }
       ]
@@ -9810,6 +9881,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-17T14:28:54.393251+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "monthly_listeners",
+      "value": 3981479,
+      "baseline_mean": 3906498.4,
+      "baseline_stddev": 25857.4,
+      "delta": 74980,
+      "score": 2.9,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-18T14:34:44.842399+00:00"
     }
   ]
 }

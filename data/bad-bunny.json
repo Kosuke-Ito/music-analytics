@@ -5496,6 +5496,47 @@
       "ytm_subscribers": 53100000,
       "ytm_monthly_listeners": 202000000,
       "ytm_total_views": 49271131823
+    },
+    {
+      "date": "2026-08-18",
+      "monthly_listeners": 99802914,
+      "collected_at": "2026-08-18T14:33:52.178261+00:00",
+      "spotify_followers": 121848471,
+      "youtube_subscribers": 53100000,
+      "youtube_total_views": 49275078852,
+      "youtube_video_count": 190,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 4214349
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 2523428
+        },
+        {
+          "city": "Bogotá",
+          "country": "CO",
+          "listeners": 2442688
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 1976353
+        },
+        {
+          "city": "Madrid",
+          "country": "ES",
+          "listeners": 1880224
+        }
+      ],
+      "lastfm_listeners": 2713808,
+      "lastfm_playcount": 435779607,
+      "ytm_subscribers": 53100000,
+      "ytm_monthly_listeners": 202000000,
+      "ytm_total_views": 49271131823
     }
   ],
   "annotations": [
@@ -5891,27 +5932,32 @@
       {
         "name": "HAZE",
         "browse_id": "UCFV8pv7slPIV_ebs6j6SPHw",
-        "subscribers": "2.47M"
+        "subscribers": "2.45M"
       },
       {
         "name": "Reggaeton Urbano",
         "browse_id": "UCv7Q36bWPcaC-OAWxqBeBbA",
-        "subscribers": "7.93K"
-      },
-      {
-        "name": "Lyanno",
-        "browse_id": "UCmI7GYyhkWc5MWS-x0h0yRQ",
-        "subscribers": "7.73M"
+        "subscribers": "7.94K"
       },
       {
         "name": "Fuego",
         "browse_id": "UCSr_Ilq3aFoYx8ys70E5gbg",
-        "subscribers": "7.29M"
+        "subscribers": "7.14M"
       },
       {
         "name": "Lenny Tavárez",
         "browse_id": "UCpOtgk_uRB6PZK47wUXXlVQ",
         "subscribers": "23.2M"
+      },
+      {
+        "name": "Lyanno",
+        "browse_id": "UCmI7GYyhkWc5MWS-x0h0yRQ",
+        "subscribers": "7.66M"
+      },
+      {
+        "name": "Dalex",
+        "browse_id": "UCXTtAAlWYj1RCVPZ-PYWoqA",
+        "subscribers": "21.9M"
       },
       {
         "name": "Bryant Myers",
@@ -5924,19 +5970,14 @@
         "subscribers": "25.1M"
       },
       {
-        "name": "Jhayco",
-        "browse_id": "UChZEzxer-QvRMbADJJGOMuQ",
-        "subscribers": "29.7M"
+        "name": "Chris Jedi",
+        "browse_id": "UCQN0qx3B0J5GWrG7SQyfWQw",
+        "subscribers": "8.56M"
       },
       {
-        "name": "Ozuna",
-        "browse_id": "UCKEFjh4JL-OyMI8z3h5Coaw",
-        "subscribers": "101M"
-      },
-      {
-        "name": "Myke Towers",
-        "browse_id": "UCYPsIfSIEwWcoynHBP5k1dg",
-        "subscribers": "66.6M"
+        "name": "Brytiago",
+        "browse_id": "UCoEnXQjMHQX-5EEjhDMMXtQ",
+        "subscribers": "20.8M"
       }
     ],
     "ytm_top_songs": [
@@ -6728,6 +6769,12 @@
           "views": 275828489,
           "likes": 1986801,
           "comments": 13894
+        },
+        {
+          "date": "2026-08-18",
+          "views": 276089043,
+          "likes": 1988511,
+          "comments": 13915
         }
       ]
     },
@@ -7495,6 +7542,12 @@
           "views": 381775112,
           "likes": 2931454,
           "comments": 24169
+        },
+        {
+          "date": "2026-08-18",
+          "views": 382129343,
+          "likes": 2933532,
+          "comments": 24181
         }
       ]
     },
@@ -8896,6 +8949,12 @@
           "views": 207411105,
           "likes": 1433411,
           "comments": 4724
+        },
+        {
+          "date": "2026-08-18",
+          "views": 207789081,
+          "likes": 1436486,
+          "comments": 4732
         }
       ]
     },
@@ -9609,6 +9668,12 @@
           "views": 182625233,
           "likes": 942212,
           "comments": 1794
+        },
+        {
+          "date": "2026-08-18",
+          "views": 182777264,
+          "likes": 943111,
+          "comments": 1796
         }
       ]
     },
@@ -9775,6 +9840,12 @@
           "views": 243287309,
           "likes": 1528593,
           "comments": 2283
+        },
+        {
+          "date": "2026-08-18",
+          "views": 243434133,
+          "likes": 1529562,
+          "comments": 2292
         }
       ]
     },
@@ -10389,6 +10460,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-17T14:28:06.426240+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "youtube_total_views",
+      "value": 49275078852,
+      "baseline_mean": 48875392867.2,
+      "baseline_stddev": 199842992.4,
+      "delta": 399685984,
+      "score": 2.0,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-18T14:33:53.600255+00:00"
     }
   ]
 }

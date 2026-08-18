@@ -5323,6 +5323,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 217000,
       "ytm_total_views": 44176390
+    },
+    {
+      "date": "2026-08-18",
+      "monthly_listeners": 228668,
+      "collected_at": "2026-08-18T14:24:02.773188+00:00",
+      "spotify_followers": 142815,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44485030,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8251
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6494
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4399
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2727
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2179
+        }
+      ],
+      "lastfm_listeners": 71101,
+      "lastfm_playcount": 1194714,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 217000,
+      "ytm_total_views": 44176390
     }
   ],
   "metadata": {
@@ -5351,9 +5392,9 @@
     "lastfm_tags": [
       "rock",
       "japanese",
-      "punk",
       "garage",
-      "psychedelic"
+      "punk",
+      "J-rock"
     ],
     "ytm_top_songs": [
       {
@@ -5381,7 +5422,7 @@
       {
         "name": "Mega Shinnosuke",
         "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
-        "subscribers": "5.71M"
+        "subscribers": "5.75M"
       },
       {
         "name": "MHRJ",
@@ -5401,7 +5442,7 @@
       {
         "name": "Genie High",
         "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "477K"
+        "subscribers": "476K"
       },
       {
         "name": "Base Ball Bear",
@@ -5411,22 +5452,22 @@
       {
         "name": "soshina",
         "browse_id": "UCDSdzSyvZV9RsJATuhTq9Ww",
-        "subscribers": "2.51M"
+        "subscribers": "2.48M"
       },
       {
         "name": "KYUSONEKOKAMI",
         "browse_id": "UCg5CC8y5uuCJaDnv2EuWfXg",
-        "subscribers": "83.3K"
+        "subscribers": "82.3K"
       },
       {
         "name": "w.o.d.",
         "browse_id": "UCiylP7HTmtQZO9hi-B5wnCg",
-        "subscribers": "194K"
+        "subscribers": "196K"
       },
       {
         "name": "Yoru No Honki Dance",
         "browse_id": "UCaZGUqEL8pzFRgLXXJ4dL2Q",
-        "subscribers": "115K"
+        "subscribers": "116K"
       }
     ],
     "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia ("
@@ -6245,6 +6286,12 @@
           "views": 15378,
           "likes": 204,
           "comments": 3
+        },
+        {
+          "date": "2026-08-18",
+          "views": 15406,
+          "likes": 204,
+          "comments": 3
         }
       ]
     },
@@ -7011,6 +7058,12 @@
           "date": "2026-08-17",
           "views": 936611,
           "likes": 11787,
+          "comments": 32
+        },
+        {
+          "date": "2026-08-18",
+          "views": 937366,
+          "likes": 11796,
           "comments": 32
         }
       ]
@@ -8234,6 +8287,12 @@
           "views": 235450,
           "likes": 1723,
           "comments": 7
+        },
+        {
+          "date": "2026-08-18",
+          "views": 235671,
+          "likes": 1723,
+          "comments": 7
         }
       ]
     },
@@ -8929,6 +8988,12 @@
           "views": 420889,
           "likes": 6172,
           "comments": 22
+        },
+        {
+          "date": "2026-08-18",
+          "views": 421111,
+          "likes": 6172,
+          "comments": 22
         }
       ]
     },
@@ -9310,6 +9375,12 @@
           "date": "2026-08-17",
           "views": 8347,
           "likes": 88,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-18",
+          "views": 8417,
+          "likes": 89,
           "comments": 4
         }
       ]
@@ -9767,6 +9838,18 @@
       "type": "annotated",
       "related_annotation": "8/15開幕ホールツアー直前の宣伝効果＋既存タイアップ曲の継続露出",
       "detected_at": "2026-08-15T14:13:46.564518+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "monthly_listeners",
+      "value": 228668,
+      "baseline_mean": 221197.1,
+      "baseline_stddev": 3606.4,
+      "delta": 7470,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-18T14:24:04.443286+00:00"
     }
   ]
 }

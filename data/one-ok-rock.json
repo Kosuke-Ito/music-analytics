@@ -5508,6 +5508,47 @@
       "ytm_subscribers": 5050000,
       "ytm_monthly_listeners": 7730000,
       "ytm_total_views": 2494423400
+    },
+    {
+      "date": "2026-08-18",
+      "monthly_listeners": 3597731,
+      "collected_at": "2026-08-18T14:28:26.003828+00:00",
+      "spotify_followers": 6240426,
+      "youtube_subscribers": 5050000,
+      "youtube_total_views": 2531124695,
+      "youtube_video_count": 582,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 109117
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 100243
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 71032
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 62557
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 44846
+        }
+      ],
+      "lastfm_listeners": 649904,
+      "lastfm_playcount": 55957908,
+      "ytm_subscribers": 5050000,
+      "ytm_monthly_listeners": 7730000,
+      "ytm_total_views": 2494423400
     }
   ],
   "annotations": [
@@ -5882,7 +5923,7 @@
       {
         "name": "taka",
         "browse_id": "UC0KLMGub_J0BSigaBHAAG-Q",
-        "subscribers": "1.21K"
+        "subscribers": "1.22K"
       },
       {
         "name": "TENBLANK",
@@ -5892,12 +5933,22 @@
       {
         "name": "Pay money To my Pain",
         "browse_id": "UC3kKm059hewEM_LHXmGULjw",
-        "subscribers": "135K"
+        "subscribers": "134K"
+      },
+      {
+        "name": "Utada",
+        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
+        "subscribers": "23.4M"
       },
       {
         "name": "SCANDAL",
         "browse_id": "UC2RxPIIA8xolka-2FLPCFEA",
-        "subscribers": "1.66M"
+        "subscribers": "1.6M"
+      },
+      {
+        "name": "SUPER BEAVER",
+        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
+        "subscribers": "2.13M"
       },
       {
         "name": "WANIMA",
@@ -5905,19 +5956,9 @@
         "subscribers": "5.46M"
       },
       {
-        "name": "SUPER BEAVER",
-        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
-        "subscribers": "2.16M"
-      },
-      {
-        "name": "NICO Touches the Walls",
-        "browse_id": "UC3CPAQtD8tBisxailRRAg-w",
-        "subscribers": "1.98M"
-      },
-      {
-        "name": "Utada",
-        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "23.6M"
+        "name": "YUI",
+        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
+        "subscribers": "8.08M"
       },
       {
         "name": "Radwimps",
@@ -5925,9 +5966,9 @@
         "subscribers": "106M"
       },
       {
-        "name": "YUI",
-        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
-        "subscribers": "8.08M"
+        "name": "MY FIRST STORY",
+        "browse_id": "UCZtrZ8_Opr4Sa2r61ye_UsQ",
+        "subscribers": "7.93M"
       }
     ],
     "ytm_top_songs": [
@@ -6713,6 +6754,12 @@
           "views": 9100220,
           "likes": 48937,
           "comments": 114
+        },
+        {
+          "date": "2026-08-18",
+          "views": 9127244,
+          "likes": 49080,
+          "comments": 114
         }
       ]
     },
@@ -7480,6 +7527,12 @@
           "views": 15132951,
           "likes": 80571,
           "comments": 469
+        },
+        {
+          "date": "2026-08-18",
+          "views": 15177279,
+          "likes": 80848,
+          "comments": 469
         }
       ]
     },
@@ -8246,6 +8299,12 @@
           "date": "2026-08-17",
           "views": 7754059,
           "likes": 34329,
+          "comments": 68
+        },
+        {
+          "date": "2026-08-18",
+          "views": 7776340,
+          "likes": 34434,
           "comments": 68
         }
       ]
@@ -9581,6 +9640,12 @@
           "views": 9095574,
           "likes": 65646,
           "comments": 157
+        },
+        {
+          "date": "2026-08-18",
+          "views": 9104134,
+          "likes": 65688,
+          "comments": 157
         }
       ]
     },
@@ -9806,6 +9871,12 @@
           "date": "2026-08-17",
           "views": 5158782,
           "likes": 37099,
+          "comments": 73
+        },
+        {
+          "date": "2026-08-18",
+          "views": 5161487,
+          "likes": 37115,
           "comments": 73
         }
       ]
@@ -10303,6 +10374,18 @@
       "type": "annotated",
       "related_annotation": "日本凱旋ツアー継続とお盆休み時期が重なり増加",
       "detected_at": "2026-08-17T14:22:58.018556+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "monthly_listeners",
+      "value": 3597731,
+      "baseline_mean": 3534884.6,
+      "baseline_stddev": 29174.8,
+      "delta": 62846,
+      "score": 2.15,
+      "type": "annotated",
+      "related_annotation": "日本凱旋ツアー継続とお盆休み時期が重なり増加",
+      "detected_at": "2026-08-18T14:28:27.439602+00:00"
     }
   ]
 }

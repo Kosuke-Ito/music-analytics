@@ -5496,6 +5496,47 @@
       "ytm_subscribers": 8720000,
       "ytm_monthly_listeners": 75700000,
       "ytm_total_views": 8898998185
+    },
+    {
+      "date": "2026-08-18",
+      "monthly_listeners": 9865702,
+      "collected_at": "2026-08-18T14:29:33.984642+00:00",
+      "spotify_followers": 8713321,
+      "youtube_subscribers": 8720000,
+      "youtube_total_views": 9072838395,
+      "youtube_video_count": 403,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 319685
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 284210
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 202363
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 164398
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 119289
+        }
+      ],
+      "lastfm_listeners": 58170,
+      "lastfm_playcount": 5731303,
+      "ytm_subscribers": 8720000,
+      "ytm_monthly_listeners": 75800000,
+      "ytm_total_views": 8898998185
     }
   ],
   "annotations": [
@@ -5926,14 +5967,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "TOMONARI SORA",
-        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
-        "subscribers": "5.21M"
-      },
-      {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
         "subscribers": "618K"
+      },
+      {
+        "name": "TOMONARI SORA",
+        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
+        "subscribers": "5.24M"
       },
       {
         "name": "suis from Yorushika",
@@ -5946,9 +5987,14 @@
         "subscribers": "5.97M"
       },
       {
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "59.9M"
+      },
+      {
         "name": "yama",
         "browse_id": "UCqboXUgTe1T90jrQnxTlMfw",
-        "subscribers": "5.31M"
+        "subscribers": "5.33M"
       },
       {
         "name": "Soushi Sakiyama",
@@ -5956,24 +6002,19 @@
         "subscribers": "2.06M"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "106M"
-      },
-      {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.46M"
-      },
-      {
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
         "subscribers": "10M"
       },
       {
-        "name": "imase",
-        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "59.9M"
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.44M"
+      },
+      {
+        "name": "Ado",
+        "browse_id": "UC5DHwv9N4OQ9AWtKr8YSefw",
+        "subscribers": "33.1M"
       }
     ],
     "ytm_top_songs": [
@@ -6765,6 +6806,12 @@
           "views": 130976782,
           "likes": 689812,
           "comments": 5158
+        },
+        {
+          "date": "2026-08-18",
+          "views": 131156694,
+          "likes": 690414,
+          "comments": 5187
         }
       ]
     },
@@ -7532,6 +7579,12 @@
           "views": 60586656,
           "likes": 327360,
           "comments": 2597
+        },
+        {
+          "date": "2026-08-18",
+          "views": 60663625,
+          "likes": 327599,
+          "comments": 2599
         }
       ]
     },
@@ -8299,6 +8352,12 @@
           "views": 231974640,
           "likes": 1554868,
           "comments": 7600
+        },
+        {
+          "date": "2026-08-18",
+          "views": 232063272,
+          "likes": 1555349,
+          "comments": 7602
         }
       ]
     },
@@ -8975,6 +9034,12 @@
           "date": "2026-08-17",
           "views": 123935440,
           "likes": 452346,
+          "comments": 1242
+        },
+        {
+          "date": "2026-08-18",
+          "views": 124001740,
+          "likes": 452527,
           "comments": 1242
         }
       ]
@@ -9853,6 +9918,12 @@
           "views": 758848,
           "likes": 12967,
           "comments": 378
+        },
+        {
+          "date": "2026-08-18",
+          "views": 768502,
+          "likes": 13043,
+          "comments": 379
         }
       ]
     }
@@ -10325,6 +10396,18 @@
       "type": "annotated",
       "related_annotation": "傾向継続、「かいじゅうずかん」SNSトレンドも影響か",
       "detected_at": "2026-08-17T14:24:03.807925+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "youtube_total_views",
+      "value": 9072838395,
+      "baseline_mean": 8996362317.5,
+      "baseline_stddev": 28761504.3,
+      "delta": 76476077,
+      "score": 2.66,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生回数が大幅増、単一原因は特定できず",
+      "detected_at": "2026-08-18T14:29:35.312588+00:00"
     }
   ]
 }

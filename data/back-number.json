@@ -5205,6 +5205,47 @@
       "ytm_subscribers": 2150000,
       "ytm_monthly_listeners": 18800000,
       "ytm_total_views": 2862704985
+    },
+    {
+      "date": "2026-08-18",
+      "monthly_listeners": 6304266,
+      "collected_at": "2026-08-18T14:35:00.730196+00:00",
+      "spotify_followers": 6838838,
+      "youtube_subscribers": 2150000,
+      "youtube_total_views": 2902966188,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 370039
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 342801
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 254737
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 142695
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 140114
+        }
+      ],
+      "lastfm_listeners": 133188,
+      "lastfm_playcount": 6539665,
+      "ytm_subscribers": 2150000,
+      "ytm_monthly_listeners": 18800000,
+      "ytm_total_views": 2862704985
     }
   ],
   "annotations": [
@@ -5599,12 +5640,12 @@
       {
         "name": "Remioromen",
         "browse_id": "UCHzbZw7GxoyFf-_pyS1R6mg",
-        "subscribers": "2.06M"
+        "subscribers": "2.02M"
       },
       {
         "name": "Takaya Kawasaki",
         "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
-        "subscribers": "2.2M"
+        "subscribers": "2.08M"
       },
       {
         "name": "wacci",
@@ -5614,7 +5655,7 @@
       {
         "name": "SUKIMASWITCH",
         "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "4.72M"
+        "subscribers": "4.76M"
       },
       {
         "name": "Masaki Suda",
@@ -5622,19 +5663,19 @@
         "subscribers": "5.97M"
       },
       {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "14.9M"
-      },
-      {
         "name": "Yuuri",
         "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
         "subscribers": "10.3M"
       },
       {
-        "name": "aiko",
-        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
-        "subscribers": "7.07M"
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "14.9M"
+      },
+      {
+        "name": "Ikimonogakari",
+        "browse_id": "UCexzjYgmV9wKmAQHUmv3hWg",
+        "subscribers": "18.5M"
       },
       {
         "name": "SEKAI NO OWARI",
@@ -5642,9 +5683,9 @@
         "subscribers": "10M"
       },
       {
-        "name": "Dish",
-        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
-        "subscribers": "3.79M"
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "6.46M"
       }
     ],
     "ytm_top_songs": [
@@ -6424,6 +6465,12 @@
           "views": 61416101,
           "likes": 204184,
           "comments": 606
+        },
+        {
+          "date": "2026-08-18",
+          "views": 61473355,
+          "likes": 204409,
+          "comments": 606
         }
       ]
     },
@@ -7173,6 +7220,12 @@
           "views": 49886082,
           "likes": 185266,
           "comments": 773
+        },
+        {
+          "date": "2026-08-18",
+          "views": 49944135,
+          "likes": 185470,
+          "comments": 774
         }
       ]
     },
@@ -7922,6 +7975,12 @@
           "views": 66327077,
           "likes": 215591,
           "comments": 636
+        },
+        {
+          "date": "2026-08-18",
+          "views": 66374889,
+          "likes": 215763,
+          "comments": 637
         }
       ]
     },
@@ -8677,6 +8736,12 @@
           "views": 64041951,
           "likes": 217383,
           "comments": 687
+        },
+        {
+          "date": "2026-08-18",
+          "views": 64101390,
+          "likes": 217608,
+          "comments": 688
         }
       ]
     },
@@ -9431,6 +9496,12 @@
           "date": "2026-08-17",
           "views": 25159188,
           "likes": 108388,
+          "comments": 517
+        },
+        {
+          "date": "2026-08-18",
+          "views": 25209048,
+          "likes": 108653,
           "comments": 517
         }
       ]
@@ -10245,6 +10316,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み入りに伴う季節的な増加",
       "detected_at": "2026-08-17T14:29:11.444285+00:00"
+    },
+    {
+      "date": "2026-08-18",
+      "metric": "monthly_listeners",
+      "value": 6304266,
+      "baseline_mean": 6197848.5,
+      "baseline_stddev": 52852.2,
+      "delta": 106417,
+      "score": 2.01,
+      "type": "annotated",
+      "related_annotation": "お盆休み効果が継続",
+      "detected_at": "2026-08-18T14:35:02.694301+00:00"
     }
   ]
 }
