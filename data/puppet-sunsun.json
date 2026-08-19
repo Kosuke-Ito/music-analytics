@@ -5366,6 +5366,47 @@
       "ytm_subscribers": 7780,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 196122,
+      "collected_at": "2026-08-19T14:27:53.770822+00:00",
+      "spotify_followers": 35254,
+      "youtube_subscribers": 916000,
+      "youtube_total_views": 170125690,
+      "youtube_video_count": 483,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6804
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5806
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5497
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2873
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2705
+        }
+      ],
+      "lastfm_listeners": 1041,
+      "lastfm_playcount": 6069,
+      "ytm_subscribers": 7790,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5863,6 +5904,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み効果が継続",
       "detected_at": "2026-08-18T14:27:53.219586+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "monthly_listeners",
+      "value": 196122,
+      "baseline_mean": 182029.2,
+      "baseline_stddev": 5135.6,
+      "delta": 14092,
+      "score": 2.74,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:27:54.738983+00:00"
     }
   ]
 }

@@ -5327,6 +5327,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 29411,
+      "collected_at": "2026-08-19T14:31:31.458028+00:00",
+      "spotify_followers": 29465,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1474714,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1554
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 825
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 636
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 515
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 392
+        }
+      ],
+      "lastfm_listeners": 5797,
+      "lastfm_playcount": 42871,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5580,7 +5621,7 @@
       {
         "name": "reina",
         "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
-        "subscribers": "3.48K"
+        "subscribers": "3.49K"
       },
       {
         "name": "Michael Kaneko",
@@ -5600,7 +5641,7 @@
       {
         "name": "luvis",
         "browse_id": "UCpuCbW_679iOcxPRkqNIO3w",
-        "subscribers": "7.89K"
+        "subscribers": "7.9K"
       }
     ],
     "ytm_top_songs": [
@@ -5621,8 +5662,8 @@
         "video_id": "c5tGMfMVFGs"
       },
       {
-        "title": "pool",
-        "video_id": "zaQewgtC-dA"
+        "title": "Cannonball (feat. Reiya Terakubo)",
+        "video_id": "jPVESaymlms"
       }
     ]
   },
@@ -6384,6 +6425,12 @@
           "date": "2026-08-18",
           "views": 222229,
           "likes": 2837,
+          "comments": 8
+        },
+        {
+          "date": "2026-08-19",
+          "views": 222356,
+          "likes": 2838,
           "comments": 8
         }
       ]
@@ -7593,6 +7640,12 @@
           "views": 45497,
           "likes": 386,
           "comments": 2
+        },
+        {
+          "date": "2026-08-19",
+          "views": 45531,
+          "likes": 386,
+          "comments": 2
         }
       ]
     },
@@ -8377,6 +8430,12 @@
           "views": 111915,
           "likes": 1331,
           "comments": 6
+        },
+        {
+          "date": "2026-08-19",
+          "views": 112160,
+          "likes": 1334,
+          "comments": 6
         }
       ]
     },
@@ -8680,6 +8739,12 @@
           "date": "2026-07-05",
           "views": 35151,
           "likes": 375,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-19",
+          "views": 36662,
+          "likes": 380,
           "comments": 5
         }
       ]
@@ -9020,6 +9085,12 @@
         {
           "date": "2026-08-18",
           "views": 47976,
+          "likes": 483,
+          "comments": 7
+        },
+        {
+          "date": "2026-08-19",
+          "views": 48025,
           "likes": 483,
           "comments": 7
         }
@@ -9772,6 +9843,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-11T14:58:24.976536+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "monthly_listeners",
+      "value": 29411,
+      "baseline_mean": 28883.0,
+      "baseline_stddev": 180.8,
+      "delta": 528,
+      "score": 2.92,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:31:33.653849+00:00"
     }
   ]
 }

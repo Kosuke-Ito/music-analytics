@@ -5249,6 +5249,47 @@
       "ytm_subscribers": 886000,
       "ytm_monthly_listeners": 6940000,
       "ytm_total_views": 653274151
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 2258171,
+      "collected_at": "2026-08-19T14:40:48.501014+00:00",
+      "spotify_followers": 1069300,
+      "youtube_subscribers": 886000,
+      "youtube_total_views": 677161277,
+      "youtube_video_count": 331,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 53149
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 51218
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 47722
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 34371
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 25356
+        }
+      ],
+      "lastfm_listeners": 170346,
+      "lastfm_playcount": 5940729,
+      "ytm_subscribers": 886000,
+      "ytm_monthly_listeners": 6940000,
+      "ytm_total_views": 654420730
     }
   ],
   "annotations": [
@@ -5586,14 +5627,14 @@
         "subscribers": "101K"
       },
       {
-        "name": "LOZAREENA",
-        "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
-        "subscribers": "282K"
-      },
-      {
         "name": "YU-KA",
         "browse_id": "UC-3USfEYlYrgjVGHSNY1QWA",
         "subscribers": "668K"
+      },
+      {
+        "name": "LOZAREENA",
+        "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
+        "subscribers": "282K"
       },
       {
         "name": "Masaki Suda",
@@ -5611,12 +5652,12 @@
         "video_id": "OqQAFmkrzew"
       },
       {
-        "title": "The Story of Us",
-        "video_id": "eDpiKwdf-wQ"
-      },
-      {
         "title": "Sunny",
         "video_id": "sxqDXLXquWE"
+      },
+      {
+        "title": "The Story of Us",
+        "video_id": "eDpiKwdf-wQ"
       },
       {
         "title": "おもかげ (produced by Vaundy) - Omokage (produced by Vaundy)",
@@ -6885,6 +6926,12 @@
           "date": "2026-08-18",
           "views": 9373946,
           "likes": 65008,
+          "comments": 222
+        },
+        {
+          "date": "2026-08-19",
+          "views": 9381884,
+          "likes": 65042,
           "comments": 222
         }
       ]
@@ -8210,6 +8257,12 @@
           "views": 7518865,
           "likes": 53778,
           "comments": 70
+        },
+        {
+          "date": "2026-08-19",
+          "views": 7522475,
+          "likes": 53791,
+          "comments": 70
         }
       ]
     },
@@ -8905,6 +8958,12 @@
           "views": 2046783,
           "likes": 29220,
           "comments": 318
+        },
+        {
+          "date": "2026-08-19",
+          "views": 2052787,
+          "likes": 29258,
+          "comments": 318
         }
       ]
     },
@@ -9269,6 +9328,12 @@
           "views": 14799535,
           "likes": 144840,
           "comments": 2331
+        },
+        {
+          "date": "2026-08-19",
+          "views": 14821419,
+          "likes": 145087,
+          "comments": 2331
         }
       ]
     },
@@ -9478,6 +9543,12 @@
           "views": 147671,
           "likes": 2693,
           "comments": 33
+        },
+        {
+          "date": "2026-08-19",
+          "views": 151231,
+          "likes": 2749,
+          "comments": 34
         }
       ]
     }
@@ -10058,6 +10129,18 @@
       "type": "annotated",
       "related_annotation": "新曲「Hurricane」・新アルバム発売直前の露出継続とお盆休み時期が重なり増加",
       "detected_at": "2026-08-16T14:30:43.524155+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "youtube_total_views",
+      "value": 677161277,
+      "baseline_mean": 671329393.2,
+      "baseline_stddev": 2871764.9,
+      "delta": 5831883,
+      "score": 2.03,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:40:49.969571+00:00"
     }
   ]
 }

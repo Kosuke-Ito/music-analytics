@@ -5367,6 +5367,47 @@
       "ytm_subscribers": 420000,
       "ytm_monthly_listeners": 3440000,
       "ytm_total_views": 417259493
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 753614,
+      "collected_at": "2026-08-19T14:26:32.718948+00:00",
+      "spotify_followers": 273382,
+      "youtube_subscribers": 325000,
+      "youtube_total_views": 250932028,
+      "youtube_video_count": 56,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 23782
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 19615
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 14204
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 11479
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 8543
+        }
+      ],
+      "lastfm_listeners": 137121,
+      "lastfm_playcount": 3389910,
+      "ytm_subscribers": 420000,
+      "ytm_monthly_listeners": 3440000,
+      "ytm_total_views": 417259493
     }
   ],
   "metadata": {
@@ -5408,7 +5449,7 @@
       {
         "name": "NICHIMEZO",
         "browse_id": "UCF_x9hYjfwQQ6rCe5JAvoRQ",
-        "subscribers": "6.06K"
+        "subscribers": "6.07K"
       },
       {
         "name": "Tsuzuri",
@@ -5436,9 +5477,9 @@
         "subscribers": "991"
       },
       {
-        "name": "TOMONARI SORA",
-        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
-        "subscribers": "5.24M"
+        "name": "WhaleDontSleep",
+        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
+        "subscribers": "618K"
       },
       {
         "name": "suisoh",
@@ -5446,9 +5487,9 @@
         "subscribers": "572K"
       },
       {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "618K"
+        "name": "harha",
+        "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
+        "subscribers": "251K"
       }
     ],
     "ytm_top_songs": [
@@ -6240,6 +6281,12 @@
           "views": 6097805,
           "likes": 37655,
           "comments": 81
+        },
+        {
+          "date": "2026-08-19",
+          "views": 6099910,
+          "likes": 37664,
+          "comments": 81
         }
       ]
     },
@@ -7006,6 +7053,12 @@
           "date": "2026-08-18",
           "views": 5513595,
           "likes": 33975,
+          "comments": 63
+        },
+        {
+          "date": "2026-08-19",
+          "views": 5515867,
+          "likes": 33992,
           "comments": 63
         }
       ]
@@ -7780,6 +7833,12 @@
           "views": 2741613,
           "likes": 29446,
           "comments": 509
+        },
+        {
+          "date": "2026-08-19",
+          "views": 2744438,
+          "likes": 29454,
+          "comments": 509
         }
       ]
     },
@@ -8546,6 +8605,12 @@
           "date": "2026-08-18",
           "views": 2895541,
           "likes": 20316,
+          "comments": 62
+        },
+        {
+          "date": "2026-08-19",
+          "views": 2896858,
+          "likes": 20326,
           "comments": 62
         }
       ]
@@ -9314,6 +9379,12 @@
           "views": 3153020,
           "likes": 22591,
           "comments": 133
+        },
+        {
+          "date": "2026-08-19",
+          "views": 3154134,
+          "likes": 22603,
+          "comments": 133
         }
       ]
     },
@@ -9693,6 +9764,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み効果が継続",
       "detected_at": "2026-08-18T14:26:29.355508+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "monthly_listeners",
+      "value": 753614,
+      "baseline_mean": 740727.6,
+      "baseline_stddev": 5006.6,
+      "delta": 12886,
+      "score": 2.57,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:26:34.087374+00:00"
     }
   ]
 }

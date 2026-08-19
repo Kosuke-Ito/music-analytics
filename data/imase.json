@@ -5240,6 +5240,47 @@
       "ytm_subscribers": 1380000,
       "ytm_monthly_listeners": 59900000,
       "ytm_total_views": 883380594
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 4140065,
+      "collected_at": "2026-08-19T14:35:57.839463+00:00",
+      "spotify_followers": 1054845,
+      "youtube_subscribers": 1380000,
+      "youtube_total_views": 897328481,
+      "youtube_video_count": 791,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67835
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 66125
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 52377
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 52142
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 51272
+        }
+      ],
+      "lastfm_listeners": 435326,
+      "lastfm_playcount": 6129867,
+      "ytm_subscribers": 1380000,
+      "ytm_monthly_listeners": 59900000,
+      "ytm_total_views": 893496244
     }
   ],
   "annotations": [
@@ -5600,11 +5641,6 @@
         "subscribers": "184K"
       },
       {
-        "name": "TOMONARI SORA",
-        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
-        "subscribers": "5.24M"
-      },
-      {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
         "subscribers": "618K"
@@ -5613,6 +5649,11 @@
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
         "subscribers": "5.97M"
+      },
+      {
+        "name": "TOMONARI SORA",
+        "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
+        "subscribers": "5.24M"
       }
     ],
     "ytm_top_songs": [
@@ -6380,6 +6421,12 @@
           "views": 148526273,
           "likes": 1203460,
           "comments": 6467
+        },
+        {
+          "date": "2026-08-19",
+          "views": 148639381,
+          "likes": 1204717,
+          "comments": 6475
         }
       ]
     },
@@ -7122,6 +7169,12 @@
           "date": "2026-08-18",
           "views": 8509033,
           "likes": 61925,
+          "comments": 172
+        },
+        {
+          "date": "2026-08-19",
+          "views": 8517647,
+          "likes": 61978,
           "comments": 172
         }
       ]
@@ -8393,6 +8446,12 @@
           "views": 12090748,
           "likes": 52896,
           "comments": 157
+        },
+        {
+          "date": "2026-08-19",
+          "views": 12097037,
+          "likes": 52919,
+          "comments": 157
         }
       ]
     },
@@ -9261,6 +9320,12 @@
           "views": 7123781,
           "likes": 40993,
           "comments": 217
+        },
+        {
+          "date": "2026-08-19",
+          "views": 7133714,
+          "likes": 41044,
+          "comments": 218
         }
       ]
     },
@@ -9482,6 +9547,12 @@
           "views": 409514,
           "likes": 5857,
           "comments": 78
+        },
+        {
+          "date": "2026-08-19",
+          "views": 419668,
+          "likes": 5942,
+          "comments": 79
         }
       ]
     }
@@ -10314,6 +10385,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-02T15:07:06.192085+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "youtube_total_views",
+      "value": 897328481,
+      "baseline_mean": 884377174.9,
+      "baseline_stddev": 4073459.3,
+      "delta": 12951306,
+      "score": 3.18,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:35:59.216507+00:00"
     }
   ]
 }

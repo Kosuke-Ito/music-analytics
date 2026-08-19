@@ -5549,6 +5549,47 @@
       "ytm_subscribers": 20300000,
       "ytm_monthly_listeners": 181000000,
       "ytm_total_views": 12715572299
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 68176627,
+      "collected_at": "2026-08-19T14:33:28.699363+00:00",
+      "spotify_followers": 48777487,
+      "youtube_subscribers": 20300000,
+      "youtube_total_views": 12716088869,
+      "youtube_video_count": 40,
+      "top_cities": [
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 971546
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 933708
+        },
+        {
+          "city": "Chicago",
+          "country": "US",
+          "listeners": 840340
+        },
+        {
+          "city": "New York City",
+          "country": "US",
+          "listeners": 792523
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 761171
+        }
+      ],
+      "lastfm_listeners": 5238911,
+      "lastfm_playcount": 1063850416,
+      "ytm_subscribers": 20300000,
+      "ytm_monthly_listeners": 181000000,
+      "ytm_total_views": 12715572299
     }
   ],
   "annotations": [
@@ -5746,19 +5787,9 @@
         "subscribers": "1.91M"
       },
       {
-        "name": "Drake",
-        "browse_id": "UCU6cE7pdJPc6DU2jSrKEsdQ",
-        "subscribers": "131M"
-      },
-      {
-        "name": "Big Sean",
-        "browse_id": "UCm3ai8dGs4olHioc_xL3IXA",
-        "subscribers": "58.8M"
-      },
-      {
-        "name": "Cordae",
-        "browse_id": "UC4MAxaRDB70jZfXZGe8VKew",
-        "subscribers": "1.9M"
+        "name": "Mac Miller",
+        "browse_id": "UC52ZqHVQz5OoGhvbWiRal6g",
+        "subscribers": "76.5M"
       },
       {
         "name": "Lupe Fiasco",
@@ -5766,19 +5797,29 @@
         "subscribers": "21.9M"
       },
       {
-        "name": "Joey Bada$$",
-        "browse_id": "UCCQZCaEwq3-mc5pj8be31Uw",
-        "subscribers": "3.21M"
+        "name": "Big Sean",
+        "browse_id": "UCm3ai8dGs4olHioc_xL3IXA",
+        "subscribers": "58.8M"
       },
       {
-        "name": "Mac Miller",
-        "browse_id": "UC52ZqHVQz5OoGhvbWiRal6g",
-        "subscribers": "76.5M"
+        "name": "Kanye West",
+        "browse_id": "UCRY5dYsbIN5TylSbd7gVnZg",
+        "subscribers": "300M"
       },
       {
         "name": "Kid Cudi",
         "browse_id": "UCo2-dPLJcpbZK84FIt0vD-w",
         "subscribers": "30.6M"
+      },
+      {
+        "name": "Cordae",
+        "browse_id": "UC4MAxaRDB70jZfXZGe8VKew",
+        "subscribers": "1.9M"
+      },
+      {
+        "name": "Drake",
+        "browse_id": "UCU6cE7pdJPc6DU2jSrKEsdQ",
+        "subscribers": "131M"
       },
       {
         "name": "Jay Rock",
@@ -6581,6 +6622,12 @@
           "views": 108116666,
           "likes": 949594,
           "comments": 3018
+        },
+        {
+          "date": "2026-08-19",
+          "views": 108189737,
+          "likes": 950121,
+          "comments": 3019
         }
       ]
     },
@@ -7354,6 +7401,12 @@
           "views": 415150980,
           "likes": 3991067,
           "comments": 44692
+        },
+        {
+          "date": "2026-08-19",
+          "views": 415366182,
+          "likes": 3992561,
+          "comments": 44703
         }
       ]
     },
@@ -8127,6 +8180,12 @@
           "views": 217893872,
           "likes": 1659373,
           "comments": 5467
+        },
+        {
+          "date": "2026-08-19",
+          "views": 218055478,
+          "likes": 1660208,
+          "comments": 5470
         }
       ]
     },
@@ -8900,6 +8959,12 @@
           "views": 197678946,
           "likes": 1234473,
           "comments": 10117
+        },
+        {
+          "date": "2026-08-19",
+          "views": 197769728,
+          "likes": 1234936,
+          "comments": 10123
         }
       ]
     },
@@ -9673,6 +9738,12 @@
           "views": 342745269,
           "likes": 2436253,
           "comments": 4819
+        },
+        {
+          "date": "2026-08-19",
+          "views": 342902498,
+          "likes": 2437087,
+          "comments": 4819
         }
       ]
     }
@@ -10169,6 +10240,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-18T14:33:35.775270+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "monthly_listeners",
+      "value": 68176627,
+      "baseline_mean": 67268367.4,
+      "baseline_stddev": 311986.9,
+      "delta": 908259,
+      "score": 2.91,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:33:29.889774+00:00"
     }
   ]
 }

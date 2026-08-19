@@ -5246,6 +5246,47 @@
       "ytm_subscribers": 8790000,
       "ytm_monthly_listeners": 106000000,
       "ytm_total_views": 2441992378
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 4322795,
+      "collected_at": "2026-08-19T14:36:48.512168+00:00",
+      "spotify_followers": 3859692,
+      "youtube_subscribers": 2960000,
+      "youtube_total_views": 1810133054,
+      "youtube_video_count": 521,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 64200
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 53517
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 51852
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 48140
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 47377
+        }
+      ],
+      "lastfm_listeners": 2049173,
+      "lastfm_playcount": 135548042,
+      "ytm_subscribers": 8790000,
+      "ytm_monthly_listeners": 106000000,
+      "ytm_total_views": 2441992378
     }
   ],
   "metadata": {
@@ -5282,12 +5323,12 @@
       {
         "name": "JULiA LEWiS",
         "browse_id": "UCO8v1mrb-kVY9upl8wdyDcw",
-        "subscribers": "561"
+        "subscribers": "560"
       },
       {
         "name": "The Debut: Dream Academy",
         "browse_id": "UC2MrZgvUlWhARZdFbOGBqtg",
-        "subscribers": "4.84K"
+        "subscribers": "4.85K"
       },
       {
         "name": "BADVILLAIN",
@@ -5310,6 +5351,11 @@
         "subscribers": "287M"
       },
       {
+        "name": "BABYMONSTER",
+        "browse_id": "UC47Wz6S14mj_6Jy-T59m6IQ",
+        "subscribers": "122M"
+      },
+      {
         "name": "Jung Kook",
         "browse_id": "UC-pOuHFcndLpyfWSPVqXt_A",
         "subscribers": "4.31M"
@@ -5320,14 +5366,9 @@
         "subscribers": "24M"
       },
       {
-        "name": "BABYMONSTER",
-        "browse_id": "UC47Wz6S14mj_6Jy-T59m6IQ",
-        "subscribers": "122M"
-      },
-      {
-        "name": "MEOVV",
-        "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
-        "subscribers": "37.2M"
+        "name": "JIHYO",
+        "browse_id": "UCZSRKU2kYtBSL11AhMS-C8Q",
+        "subscribers": "113K"
       }
     ],
     "ytm_top_songs": [
@@ -6124,6 +6165,12 @@
           "views": 25087297,
           "likes": 284449,
           "comments": 2217
+        },
+        {
+          "date": "2026-08-19",
+          "views": 25128507,
+          "likes": 284926,
+          "comments": 2218
         }
       ]
     },
@@ -6885,6 +6932,12 @@
           "views": 272178018,
           "likes": 2737795,
           "comments": 4427
+        },
+        {
+          "date": "2026-08-19",
+          "views": 272252447,
+          "likes": 2738507,
+          "comments": 4433
         }
       ]
     },
@@ -7562,6 +7615,12 @@
           "views": 33676741,
           "likes": 252570,
           "comments": 803
+        },
+        {
+          "date": "2026-08-19",
+          "views": 33707086,
+          "likes": 252737,
+          "comments": 804
         }
       ]
     },
@@ -7981,6 +8040,12 @@
           "views": 27125646,
           "likes": 261160,
           "comments": 2650
+        },
+        {
+          "date": "2026-08-19",
+          "views": 27155184,
+          "likes": 261417,
+          "comments": 2654
         }
       ]
     },
@@ -8723,6 +8788,12 @@
           "date": "2026-08-18",
           "views": 12268812,
           "likes": 163794,
+          "comments": 2133
+        },
+        {
+          "date": "2026-08-19",
+          "views": 12310724,
+          "likes": 164076,
           "comments": 2133
         }
       ]
@@ -10132,6 +10203,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-18T14:37:04.777191+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "monthly_listeners",
+      "value": 4322795,
+      "baseline_mean": 4269030.4,
+      "baseline_stddev": 16571.5,
+      "delta": 53764,
+      "score": 3.24,
+      "type": "annotated",
+      "related_annotation": "鬼滅の刃・無限城編関連の再放送＆再上映キャンペーン",
+      "detected_at": "2026-08-19T14:36:49.981801+00:00"
     }
   ]
 }

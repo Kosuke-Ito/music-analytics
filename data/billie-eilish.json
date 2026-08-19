@@ -5537,6 +5537,47 @@
       "ytm_subscribers": 58500000,
       "ytm_monthly_listeners": 362000000,
       "ytm_total_views": 23158557023
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 78957370,
+      "collected_at": "2026-08-19T14:32:55.824754+00:00",
+      "spotify_followers": 129938217,
+      "youtube_subscribers": 58500000,
+      "youtube_total_views": 23183787504,
+      "youtube_video_count": 211,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 995323
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 954104
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 944600
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 702391
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 687907
+        }
+      ],
+      "lastfm_listeners": 4367198,
+      "lastfm_playcount": 868506607,
+      "ytm_subscribers": 58500000,
+      "ytm_monthly_listeners": 362000000,
+      "ytm_total_views": 23158557023
     }
   ],
   "annotations": [
@@ -5758,19 +5799,24 @@
         "subscribers": "22.5M"
       },
       {
-        "name": "Harry Styles",
-        "browse_id": "UCVacQ2t5GUZ2t_J3Ia9BynA",
-        "subscribers": "124M"
-      },
-      {
         "name": "Lady Gaga",
         "browse_id": "UCGKXb1syicud01CJOOFRykg",
         "subscribers": "672M"
       },
       {
-        "name": "Miley Cyrus",
-        "browse_id": "UCREdEwBdZcnQLIT0ThaAtmQ",
-        "subscribers": "83.1M"
+        "name": "Lana Del Rey",
+        "browse_id": "UCyqq-aiu3vEHuf5NhwmOJcw",
+        "subscribers": "334M"
+      },
+      {
+        "name": "AURORA",
+        "browse_id": "UC4G-AJa7kn8oumI6TT2WXYw",
+        "subscribers": "224M"
+      },
+      {
+        "name": "Harry Styles",
+        "browse_id": "UCVacQ2t5GUZ2t_J3Ia9BynA",
+        "subscribers": "124M"
       },
       {
         "name": "Marie Ulven",
@@ -5778,14 +5824,9 @@
         "subscribers": "16.8M"
       },
       {
-        "name": "Labrinth",
-        "browse_id": "UCLx8m3I4zQAQc0tdASjdAfw",
-        "subscribers": "31.5M"
-      },
-      {
-        "name": "Madison Beer",
-        "browse_id": "UCpgpoxvgrxyul1uqC9hOF-A",
-        "subscribers": "27.1M"
+        "name": "Conan Gray",
+        "browse_id": "UCDfnnzgPNShOXOYM9V4QIsQ",
+        "subscribers": "26.6M"
       }
     ],
     "ytm_top_songs": [
@@ -6583,6 +6624,12 @@
           "views": 501541537,
           "likes": 3651267,
           "comments": 17993
+        },
+        {
+          "date": "2026-08-19",
+          "views": 501918759,
+          "likes": 3653309,
+          "comments": 17994
         }
       ]
     },
@@ -7356,6 +7403,12 @@
           "views": 321046473,
           "likes": 2860750,
           "comments": 14503
+        },
+        {
+          "date": "2026-08-19",
+          "views": 321314392,
+          "likes": 2862783,
+          "comments": 14516
         }
       ]
     },
@@ -8129,6 +8182,12 @@
           "views": 539932593,
           "likes": 4995874,
           "comments": 12722
+        },
+        {
+          "date": "2026-08-19",
+          "views": 540122858,
+          "likes": 4997549,
+          "comments": 12733
         }
       ]
     },
@@ -8902,6 +8961,12 @@
           "views": 161310191,
           "likes": 1459934,
           "comments": 6898
+        },
+        {
+          "date": "2026-08-19",
+          "views": 161426393,
+          "likes": 1460636,
+          "comments": 6902
         }
       ]
     },
@@ -9675,6 +9740,12 @@
           "views": 239389299,
           "likes": 2133224,
           "comments": 6984
+        },
+        {
+          "date": "2026-08-19",
+          "views": 239507047,
+          "likes": 2134187,
+          "comments": 6989
         }
       ]
     }
@@ -10099,6 +10170,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-18T14:32:59.540714+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "monthly_listeners",
+      "value": 78957370,
+      "baseline_mean": 78040365.9,
+      "baseline_stddev": 386547.5,
+      "delta": 917004,
+      "score": 2.37,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:32:56.958781+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "youtube_total_views",
+      "value": 23183787504,
+      "baseline_mean": 22962506994.5,
+      "baseline_stddev": 106829699.9,
+      "delta": 221280509,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:32:56.958781+00:00"
     }
   ]
 }

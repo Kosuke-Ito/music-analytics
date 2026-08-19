@@ -5550,6 +5550,47 @@
       "ytm_subscribers": 6530000,
       "ytm_monthly_listeners": 42500000,
       "ytm_total_views": 6844882172
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 7771416,
+      "collected_at": "2026-08-19T14:29:00.171030+00:00",
+      "spotify_followers": 7431807,
+      "youtube_subscribers": 6530000,
+      "youtube_total_views": 7101832230,
+      "youtube_video_count": 871,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 368877
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 366009
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 259109
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 147333
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 131618
+        }
+      ],
+      "lastfm_listeners": 459258,
+      "lastfm_playcount": 12878198,
+      "ytm_subscribers": 6530000,
+      "ytm_monthly_listeners": 42500000,
+      "ytm_total_views": 6873752640
     }
   ],
   "annotations": [
@@ -6260,24 +6301,24 @@
         "subscribers": "16.6M"
       },
       {
-        "name": "imase",
-        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "59.9M"
-      },
-      {
         "name": "SEKAI NO OWARI",
         "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
         "subscribers": "10M"
       },
       {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "4.43M"
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "59.9M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "18.8M"
+        "name": "Da-iCE",
+        "browse_id": "UCsgebXKWsxjX216BtZwLdzQ",
+        "subscribers": "4.72M"
+      },
+      {
+        "name": "aimyon",
+        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
+        "subscribers": "8.78M"
       },
       {
         "name": "macaroni enpitsu",
@@ -7080,6 +7121,12 @@
           "views": 31249477,
           "likes": 164283,
           "comments": 2455
+        },
+        {
+          "date": "2026-08-19",
+          "views": 31322294,
+          "likes": 164438,
+          "comments": 2457
         }
       ]
     },
@@ -7853,6 +7900,12 @@
           "views": 155372235,
           "likes": 554311,
           "comments": 6116
+        },
+        {
+          "date": "2026-08-19",
+          "views": 155480645,
+          "likes": 554523,
+          "comments": 6117
         }
       ]
     },
@@ -8625,6 +8678,12 @@
           "date": "2026-08-18",
           "views": 61030053,
           "likes": 234845,
+          "comments": 467
+        },
+        {
+          "date": "2026-08-19",
+          "views": 61058193,
+          "likes": 234933,
           "comments": 467
         }
       ]
@@ -9989,6 +10048,12 @@
           "views": 109164371,
           "likes": 357735,
           "comments": 1929
+        },
+        {
+          "date": "2026-08-19",
+          "views": 109231819,
+          "likes": 357901,
+          "comments": 1929
         }
       ]
     },
@@ -10192,6 +10257,12 @@
           "views": 11939915,
           "likes": 159727,
           "comments": 8786
+        },
+        {
+          "date": "2026-08-19",
+          "views": 12127069,
+          "likes": 160908,
+          "comments": 8811
         }
       ]
     }
@@ -10928,6 +10999,18 @@
       "type": "annotated",
       "related_annotation": "NHK音楽特番『うたであえたら2026』出演でボーカル大森が司会・ソロ曲初披露、YouTube視聴が急伸",
       "detected_at": "2026-08-18T14:29:01.180820+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "youtube_total_views",
+      "value": 7101832230,
+      "baseline_mean": 6965828403.9,
+      "baseline_stddev": 42949932.5,
+      "delta": 136003826,
+      "score": 3.17,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:29:01.297176+00:00"
     }
   ]
 }

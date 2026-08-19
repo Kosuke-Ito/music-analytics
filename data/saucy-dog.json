@@ -5252,6 +5252,47 @@
       "ytm_subscribers": 874000,
       "ytm_monthly_listeners": 2450000,
       "ytm_total_views": 592878620
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 1828229,
+      "collected_at": "2026-08-19T14:38:48.575112+00:00",
+      "spotify_followers": 1519452,
+      "youtube_subscribers": 874000,
+      "youtube_total_views": 594502989,
+      "youtube_video_count": 140,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 93646
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 82774
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65674
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 37998
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35981
+        }
+      ],
+      "lastfm_listeners": 59257,
+      "lastfm_playcount": 1681877,
+      "ytm_subscribers": 874000,
+      "ytm_monthly_listeners": 2450000,
+      "ytm_total_views": 592878620
     }
   ],
   "annotations": [
@@ -6435,6 +6476,12 @@
           "views": 5511241,
           "likes": 23790,
           "comments": 55
+        },
+        {
+          "date": "2026-08-19",
+          "views": 5528019,
+          "likes": 23875,
+          "comments": 55
         }
       ]
     },
@@ -7189,6 +7236,12 @@
           "date": "2026-08-18",
           "views": 6013091,
           "likes": 27553,
+          "comments": 50
+        },
+        {
+          "date": "2026-08-19",
+          "views": 6029940,
+          "likes": 27615,
           "comments": 50
         }
       ]
@@ -7957,6 +8010,12 @@
           "views": 3247626,
           "likes": 16718,
           "comments": 39
+        },
+        {
+          "date": "2026-08-19",
+          "views": 3255925,
+          "likes": 16760,
+          "comments": 39
         }
       ]
     },
@@ -8712,6 +8771,12 @@
           "views": 3673286,
           "likes": 20985,
           "comments": 43
+        },
+        {
+          "date": "2026-08-19",
+          "views": 3681155,
+          "likes": 21017,
+          "comments": 43
         }
       ]
     },
@@ -9292,6 +9357,12 @@
           "date": "2026-08-18",
           "views": 2927994,
           "likes": 12233,
+          "comments": 30
+        },
+        {
+          "date": "2026-08-19",
+          "views": 2936518,
+          "likes": 12261,
           "comments": 30
         }
       ]
@@ -10266,6 +10337,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-18T14:39:07.778774+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "monthly_listeners",
+      "value": 1828229,
+      "baseline_mean": 1778051.8,
+      "baseline_stddev": 17974.9,
+      "delta": 50177,
+      "score": 2.79,
+      "type": "annotated",
+      "related_annotation": "RISING SUN・サマソニ東京出演の反映で急増",
+      "detected_at": "2026-08-19T14:38:50.799171+00:00"
     }
   ]
 }

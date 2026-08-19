@@ -5378,6 +5378,47 @@
       "ytm_subscribers": 481,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 2279,
+      "collected_at": "2026-08-19T14:31:13.550959+00:00",
+      "spotify_followers": 972,
+      "youtube_subscribers": 481,
+      "youtube_total_views": 168874,
+      "youtube_video_count": 187,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 107
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 59
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 55
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 38
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 32
+        }
+      ],
+      "lastfm_listeners": 779,
+      "lastfm_playcount": 2528,
+      "ytm_subscribers": 481,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5697,7 +5738,7 @@
       {
         "name": "Varrentia",
         "browse_id": "UCpw-JvKRuHHuS-2KdXp7iFQ",
-        "subscribers": "1.26K"
+        "subscribers": "1.27K"
       },
       {
         "name": "LOST IN TIME",
@@ -5721,20 +5762,20 @@
         "video_id": "UWlaQWdCoxY"
       },
       {
-        "title": "徒歩圏内 - Tohokennai",
-        "video_id": "LtzN4QKvyTk"
-      },
-      {
         "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
         "video_id": "vcXhVJqD_u8"
+      },
+      {
+        "title": "徒歩圏内 - Tohokennai",
+        "video_id": "LtzN4QKvyTk"
       },
       {
         "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
         "video_id": "gMrPbqFtkbQ"
       },
       {
-        "title": "&Dream",
-        "video_id": "YdISB62EcZA"
+        "title": "ムーンライト~夏のVenus~ - Moonlight (feat. You)",
+        "video_id": "5j8n7tJ3Mlk"
       }
     ]
   },
@@ -6387,6 +6428,12 @@
         {
           "date": "2026-08-05",
           "views": 3671,
+          "likes": 23,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-19",
+          "views": 3749,
           "likes": 23,
           "comments": 0
         }
@@ -7156,6 +7203,12 @@
           "views": 6352,
           "likes": 24,
           "comments": 0
+        },
+        {
+          "date": "2026-08-19",
+          "views": 6360,
+          "likes": 24,
+          "comments": 0
         }
       ]
     },
@@ -7879,6 +7932,12 @@
         {
           "date": "2026-08-18",
           "views": 12776,
+          "likes": 78,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-19",
+          "views": 12789,
           "likes": 78,
           "comments": 0
         }
@@ -8648,6 +8707,12 @@
           "views": 32886,
           "likes": 152,
           "comments": 0
+        },
+        {
+          "date": "2026-08-19",
+          "views": 32894,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -9407,6 +9472,12 @@
         {
           "date": "2026-08-18",
           "views": 8505,
+          "likes": 64,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-19",
+          "views": 8511,
           "likes": 64,
           "comments": 0
         }
@@ -10334,6 +10405,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-18T14:31:17.457617+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "youtube_total_views",
+      "value": 168874,
+      "baseline_mean": 166349.2,
+      "baseline_stddev": 916.6,
+      "delta": 2524,
+      "score": 2.75,
+      "type": "annotated",
+      "related_annotation": "新曲「Magic Hour」リリース後の再生数増加",
+      "detected_at": "2026-08-19T14:31:16.277674+00:00"
     }
   ]
 }

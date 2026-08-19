@@ -5364,6 +5364,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 4830000,
       "ytm_total_views": 925186586
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 4000451,
+      "collected_at": "2026-08-19T14:34:34.302470+00:00",
+      "spotify_followers": 1674664,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 925237628,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 174596
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 139961
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 128272
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 122147
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 109694
+        }
+      ],
+      "lastfm_listeners": 937813,
+      "lastfm_playcount": 23810641,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 4830000,
+      "ytm_total_views": 925186586
     }
   ],
   "annotations": [
@@ -5554,11 +5595,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Bren Joy",
-        "browse_id": "UChIwocHYRaPUGmZnNdX0RVQ",
-        "subscribers": "539K"
-      },
-      {
         "name": "Micah Edwards",
         "browse_id": "UCW00dXhsyYvJQAry4hTM7hA",
         "subscribers": "9.5K"
@@ -5592,6 +5628,11 @@
         "name": "Public Library Commute",
         "browse_id": "UCHaf5KL3HbX5XRIppowZmiA",
         "subscribers": "123K"
+      },
+      {
+        "name": "Bren Joy",
+        "browse_id": "UChIwocHYRaPUGmZnNdX0RVQ",
+        "subscribers": "539K"
       },
       {
         "name": "Devin Kennedy",
@@ -6393,6 +6434,12 @@
           "views": 2603889,
           "likes": 16042,
           "comments": 27
+        },
+        {
+          "date": "2026-08-19",
+          "views": 2604166,
+          "likes": 16043,
+          "comments": 27
         }
       ]
     },
@@ -7153,6 +7200,12 @@
           "date": "2026-08-18",
           "views": 2177775,
           "likes": 19869,
+          "comments": 281
+        },
+        {
+          "date": "2026-08-19",
+          "views": 2180232,
+          "likes": 19886,
           "comments": 281
         }
       ]
@@ -7920,6 +7973,12 @@
           "date": "2026-08-18",
           "views": 48246943,
           "likes": 203427,
+          "comments": 121
+        },
+        {
+          "date": "2026-08-19",
+          "views": 48259807,
+          "likes": 203459,
           "comments": 121
         }
       ]
@@ -9106,6 +9165,12 @@
           "views": 14760830,
           "likes": 74934,
           "comments": 40
+        },
+        {
+          "date": "2026-08-19",
+          "views": 14773685,
+          "likes": 74979,
+          "comments": 40
         }
       ]
     },
@@ -9480,6 +9545,12 @@
           "date": "2026-08-18",
           "views": 15851113,
           "likes": 80623,
+          "comments": 64
+        },
+        {
+          "date": "2026-08-19",
+          "views": 15854813,
+          "likes": 80644,
           "comments": 64
         }
       ]
@@ -9893,6 +9964,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-18T14:34:44.842399+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "monthly_listeners",
+      "value": 4000451,
+      "baseline_mean": 3909872.4,
+      "baseline_stddev": 28664.9,
+      "delta": 90578,
+      "score": 3.16,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:34:35.431871+00:00"
     }
   ]
 }

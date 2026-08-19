@@ -5540,6 +5540,47 @@
       "ytm_subscribers": 3580000,
       "ytm_monthly_listeners": 106000000,
       "ytm_total_views": 3465764879
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 7211969,
+      "collected_at": "2026-08-19T14:28:44.396464+00:00",
+      "spotify_followers": 5353307,
+      "youtube_subscribers": 3580000,
+      "youtube_total_views": 3490393825,
+      "youtube_video_count": 632,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 231056
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 209456
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 144155
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 88273
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 77692
+        }
+      ],
+      "lastfm_listeners": 734330,
+      "lastfm_playcount": 44139068,
+      "ytm_subscribers": 3580000,
+      "ytm_monthly_listeners": 106000000,
+      "ytm_total_views": 3474872958
     }
   ],
   "annotations": [
@@ -5824,14 +5865,24 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "5.97M"
+      },
+      {
         "name": "wacci",
         "browse_id": "UCQuH389KXNJFIPycd_icVdg",
         "subscribers": "1.68M"
       },
       {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "5.97M"
+        "name": "Saucy Dog",
+        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
+        "subscribers": "2.45M"
+      },
+      {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "10M"
       },
       {
         "name": "Yuuri",
@@ -5844,9 +5895,9 @@
         "subscribers": "32.9K"
       },
       {
-        "name": "SEKAI NO OWARI",
-        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
-        "subscribers": "10M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "18.8M"
       },
       {
         "name": "Ai Higuchi",
@@ -5854,24 +5905,14 @@
         "subscribers": "13.5M"
       },
       {
-        "name": "Dish",
-        "browse_id": "UCHCCIJ6-4cyPD9w2EJCOUxg",
-        "subscribers": "3.81M"
+        "name": "UshioReira",
+        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
+        "subscribers": "770K"
       },
       {
-        "name": "Saucy Dog",
-        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.45M"
-      },
-      {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "18.8M"
-      },
-      {
-        "name": "Galileo Galilei",
-        "browse_id": "UCuRm3UyWIIiPmIbRYK4fuLw",
-        "subscribers": "796K"
+        "name": "macaroni enpitsu",
+        "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
+        "subscribers": "4.75M"
       }
     ],
     "ytm_top_songs": [
@@ -7340,6 +7381,12 @@
           "views": 83708415,
           "likes": 1081825,
           "comments": 5194
+        },
+        {
+          "date": "2026-08-19",
+          "views": 83764238,
+          "likes": 1082633,
+          "comments": 5193
         }
       ]
     },
@@ -8262,6 +8309,12 @@
           "views": 45315890,
           "likes": 248033,
           "comments": 699
+        },
+        {
+          "date": "2026-08-19",
+          "views": 45335743,
+          "likes": 248133,
+          "comments": 700
         }
       ]
     },
@@ -9035,6 +9088,12 @@
           "views": 81302020,
           "likes": 620064,
           "comments": 4054
+        },
+        {
+          "date": "2026-08-19",
+          "views": 81332825,
+          "likes": 620218,
+          "comments": 4062
         }
       ]
     },
@@ -9694,6 +9753,12 @@
           "views": 28870652,
           "likes": 299210,
           "comments": 1951
+        },
+        {
+          "date": "2026-08-19",
+          "views": 28919961,
+          "likes": 299540,
+          "comments": 1953
         }
       ]
     },
@@ -9781,6 +9846,12 @@
           "views": 25388253,
           "likes": 217343,
           "comments": 2129
+        },
+        {
+          "date": "2026-08-19",
+          "views": 25406480,
+          "likes": 217521,
+          "comments": 2131
         }
       ]
     }
@@ -10469,6 +10540,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み入りに伴う季節的な増加（通常より大きな伸び）",
       "detected_at": "2026-08-18T14:28:44.393741+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "monthly_listeners",
+      "value": 7211969,
+      "baseline_mean": 7134943.9,
+      "baseline_stddev": 32355.9,
+      "delta": 77025,
+      "score": 2.38,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:28:45.506121+00:00"
     }
   ]
 }

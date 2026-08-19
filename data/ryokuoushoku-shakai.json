@@ -5167,6 +5167,47 @@
       "ytm_subscribers": 955000,
       "ytm_monthly_listeners": 7810000,
       "ytm_total_views": 917277862
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 2833508,
+      "collected_at": "2026-08-19T14:39:06.756405+00:00",
+      "spotify_followers": 1572057,
+      "youtube_subscribers": 955000,
+      "youtube_total_views": 940563647,
+      "youtube_video_count": 441,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 85556
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 83580
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 62781
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 32895
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 28572
+        }
+      ],
+      "lastfm_listeners": 17226,
+      "lastfm_playcount": 802297,
+      "ytm_subscribers": 955000,
+      "ytm_monthly_listeners": 7810000,
+      "ytm_total_views": 924616987
     }
   ],
   "annotations": [
@@ -5502,11 +5543,6 @@
         "subscribers": "105K"
       },
       {
-        "name": "asmi",
-        "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
-        "subscribers": "3.15M"
-      },
-      {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
         "subscribers": "618K"
@@ -5515,6 +5551,16 @@
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
         "subscribers": "5.97M"
+      },
+      {
+        "name": "Tota",
+        "browse_id": "UCc95RA4CPcWdTRBk5YunwRA",
+        "subscribers": "2.52M"
+      },
+      {
+        "name": "Miwa",
+        "browse_id": "UCJoaNnzUSUypDrH6HA2Hs1g",
+        "subscribers": "1.81M"
       },
       {
         "name": "suis from Yorushika",
@@ -5527,19 +5573,14 @@
         "subscribers": "10.3M"
       },
       {
+        "name": "asmi",
+        "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
+        "subscribers": "3.15M"
+      },
+      {
         "name": "Ai Higuchi",
         "browse_id": "UC8aw_ot8rVqpwRoN_DGkSTA",
         "subscribers": "13.5M"
-      },
-      {
-        "name": "Tota",
-        "browse_id": "UCc95RA4CPcWdTRBk5YunwRA",
-        "subscribers": "2.52M"
-      },
-      {
-        "name": "RETRORIRON",
-        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
-        "subscribers": "300K"
       },
       {
         "name": "Lilas",
@@ -5565,8 +5606,8 @@
         "video_id": "JuXjhN4OsZc"
       },
       {
-        "title": "晴々 - Hare Bare",
-        "video_id": "MXMax6wJo2E"
+        "title": "Shout Baby",
+        "video_id": "YOnqT1xVTM0"
       }
     ],
     "ytm_description": "Ryokuoushoku Shakai, abbreviated as Ryokushaka, is a Japanese pop rock band formed in 2012 in Aichi Prefecture. The band consists of vocalist and guitarist Haruko Nagaya, guitarist Issei Kobayashi, keyboardist Peppe, and bassist Shingo Anami. Originally a five-member group, drummer Yasuchika Sugie left in December 2015.\n\nFrom Wikipedia ("
@@ -6324,6 +6365,12 @@
           "views": 32745894,
           "likes": 279018,
           "comments": 727
+        },
+        {
+          "date": "2026-08-19",
+          "views": 32778675,
+          "likes": 279319,
+          "comments": 729
         }
       ]
     },
@@ -7078,6 +7125,12 @@
           "date": "2026-08-18",
           "views": 21848604,
           "likes": 86961,
+          "comments": 206
+        },
+        {
+          "date": "2026-08-19",
+          "views": 21859944,
+          "likes": 86992,
           "comments": 206
         }
       ]
@@ -7834,6 +7887,12 @@
           "views": 1906933,
           "likes": 11346,
           "comments": 58
+        },
+        {
+          "date": "2026-08-19",
+          "views": 1908718,
+          "likes": 11358,
+          "comments": 58
         }
       ]
     },
@@ -8523,6 +8582,12 @@
           "views": 11511251,
           "likes": 55662,
           "comments": 137
+        },
+        {
+          "date": "2026-08-19",
+          "views": 11584511,
+          "likes": 55947,
+          "comments": 139
         }
       ]
     },
@@ -9288,6 +9353,12 @@
           "views": 2791942,
           "likes": 13349,
           "comments": 57
+        },
+        {
+          "date": "2026-08-19",
+          "views": 2793809,
+          "likes": 13356,
+          "comments": 57
         }
       ]
     },
@@ -9951,6 +10022,18 @@
       "type": "annotated",
       "related_annotation": "新曲「晴々」の露出継続とお盆休み時期が重なり増加",
       "detected_at": "2026-08-18T14:39:25.891901+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "youtube_total_views",
+      "value": 940563647,
+      "baseline_mean": 930733557.1,
+      "baseline_stddev": 2345988.8,
+      "delta": 9830089,
+      "score": 4.19,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:39:08.636502+00:00"
     }
   ]
 }

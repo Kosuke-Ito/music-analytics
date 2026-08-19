@@ -5362,6 +5362,47 @@
       "ytm_subscribers": 998000,
       "ytm_monthly_listeners": 26300000,
       "ytm_total_views": 1016886431
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 3729758,
+      "collected_at": "2026-08-19T14:26:17.038168+00:00",
+      "spotify_followers": 886570,
+      "youtube_subscribers": 998000,
+      "youtube_total_views": 1028997149,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 86856
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68321
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 49914
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 49431
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 45127
+        }
+      ],
+      "lastfm_listeners": 122161,
+      "lastfm_playcount": 2607303,
+      "ytm_subscribers": 998000,
+      "ytm_monthly_listeners": 26300000,
+      "ytm_total_views": 1019482890
     }
   ],
   "annotations": [
@@ -5721,17 +5762,17 @@
       }
     ],
     "lastfm_tags": [
-      "j-pop",
       "J-rock",
+      "j-pop",
       "funk",
       "rock",
-      "JPop"
+      "math rock"
     ],
     "ytm_related_artists": [
       {
         "name": "Dios",
         "browse_id": "UCjv0kMpF3ee-nqO6UqUsNkA",
-        "subscribers": "226K"
+        "subscribers": "162K"
       },
       {
         "name": "A-HUB",
@@ -5744,6 +5785,11 @@
         "subscribers": "2.26M"
       },
       {
+        "name": "WhaleDontSleep",
+        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
+        "subscribers": "618K"
+      },
+      {
         "name": "kei sugawara",
         "browse_id": "UCteJs3TEbPFxDObB-4s7Y6w",
         "subscribers": "352K"
@@ -5752,11 +5798,6 @@
         "name": "suisoh",
         "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
         "subscribers": "572K"
-      },
-      {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "618K"
       },
       {
         "name": "yama",
@@ -5774,9 +5815,9 @@
         "subscribers": "5.35M"
       },
       {
-        "name": "Akiyama Kiro",
-        "browse_id": "UCB7j6mxjx2NxAnnBu-YRFdQ",
-        "subscribers": "2.95M"
+        "name": "ewe",
+        "browse_id": "UCHdEh1-tnKz_nFLeFgEFGhA",
+        "subscribers": "1.18M"
       }
     ],
     "ytm_top_songs": [
@@ -5797,8 +5838,8 @@
         "video_id": "b8moMEe1UZc"
       },
       {
-        "title": "かすかなはな - Kasuka na Hana (OP Theme to Hell's Paradise: Jigokuraku Season 2) (feat. BABYMETAL)",
-        "video_id": "9Wl1d_RZ0o4"
+        "title": "遺書 - Final Draft",
+        "video_id": "nFugdpPMxKc"
       }
     ],
     "ytm_description": "Tatsuya Kitani is a Japanese musician, singer, lyricist, composer, and arranger. He is the bassist of the trio band Sajou no Hana. He was also active as a Vocaloid producer under the name of \"Konnichiwa Tanita-san\". The affiliated office is Smile Company, and the affiliated label is Echoes under Sony Music Entertainment Japan. His official fan club is \"Club Unreality\".\n\nFrom Wikipedia ("
@@ -6574,6 +6615,12 @@
           "views": 57336830,
           "likes": 371668,
           "comments": 1920
+        },
+        {
+          "date": "2026-08-19",
+          "views": 57392263,
+          "likes": 372007,
+          "comments": 1922
         }
       ]
     },
@@ -7340,6 +7387,12 @@
           "date": "2026-08-18",
           "views": 11943638,
           "likes": 82097,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-19",
+          "views": 11952014,
+          "likes": 82146,
           "comments": 0
         }
       ]
@@ -8785,6 +8838,12 @@
           "views": 1267573,
           "likes": 16157,
           "comments": 118
+        },
+        {
+          "date": "2026-08-19",
+          "views": 1272657,
+          "likes": 16179,
+          "comments": 118
         }
       ]
     },
@@ -9444,6 +9503,12 @@
           "views": 2536783,
           "likes": 16671,
           "comments": 49
+        },
+        {
+          "date": "2026-08-19",
+          "views": 2538894,
+          "likes": 16686,
+          "comments": 49
         }
       ]
     },
@@ -9635,6 +9700,12 @@
           "views": 67812,
           "likes": 1838,
           "comments": 50
+        },
+        {
+          "date": "2026-08-19",
+          "views": 161981,
+          "likes": 2962,
+          "comments": 58
         }
       ]
     },
@@ -10214,6 +10285,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-18T14:26:11.558606+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "ytm_monthly_listeners",
+      "value": 26300000,
+      "baseline_mean": 24240000,
+      "baseline_stddev": 916733.3,
+      "delta": 2060000,
+      "score": 2.25,
+      "type": "annotated",
+      "related_annotation": "SUMMER SONIC 2026 東京公演出演・WOWOW生配信",
+      "detected_at": "2026-08-19T14:26:17.984311+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "youtube_total_views",
+      "value": 1028997149,
+      "baseline_mean": 1014936283.0,
+      "baseline_stddev": 5377538.6,
+      "delta": 14060866,
+      "score": 2.61,
+      "type": "annotated",
+      "related_annotation": "SUMMER SONIC 2026 東京公演出演・WOWOW生配信",
+      "detected_at": "2026-08-19T14:26:17.984311+00:00"
     }
   ]
 }

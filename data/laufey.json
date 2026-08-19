@@ -5537,6 +5537,47 @@
       "ytm_subscribers": 3600000,
       "ytm_monthly_listeners": 89100000,
       "ytm_total_views": 1304802229
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 20741174,
+      "collected_at": "2026-08-19T14:34:18.634328+00:00",
+      "spotify_followers": 10851957,
+      "youtube_subscribers": 3600000,
+      "youtube_total_views": 1375150189,
+      "youtube_video_count": 545,
+      "top_cities": [
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 258031
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 228172
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 207208
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 202947
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 200821
+        }
+      ],
+      "lastfm_listeners": 2493069,
+      "lastfm_playcount": 289021671,
+      "ytm_subscribers": 3600000,
+      "ytm_monthly_listeners": 89100000,
+      "ytm_total_views": 1320850626
     }
   ],
   "annotations": [
@@ -5883,11 +5924,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Mei Mei The Bunny",
-        "browse_id": "UC-1Z-0-3-FYtoOGdUHr0syw",
-        "subscribers": "9.91M"
-      },
-      {
         "name": "Rocco",
         "browse_id": "UCKTYyqZkReYbvRUGYUc19iQ",
         "subscribers": "293K"
@@ -5901,6 +5937,11 @@
         "name": "Wasia Project",
         "browse_id": "UCPziehcInXuXsqIsUquQRmA",
         "subscribers": "498K"
+      },
+      {
+        "name": "jomm",
+        "browse_id": "UCFca_eyQw7EkmhqInKz5ruA",
+        "subscribers": "114K"
       },
       {
         "name": "Eloise",
@@ -5918,14 +5959,14 @@
         "subscribers": "440K"
       },
       {
+        "name": "Mei Mei The Bunny",
+        "browse_id": "UC-1Z-0-3-FYtoOGdUHr0syw",
+        "subscribers": "9.91M"
+      },
+      {
         "name": "Matt Maltese",
         "browse_id": "UCsEbRHFUuN2065qIWPhLrRQ",
         "subscribers": "3.32M"
-      },
-      {
-        "name": "Matthew Ifield",
-        "browse_id": "UCXRVU7LwK6cOg-akWVoXjcg",
-        "subscribers": "29.3M"
       },
       {
         "name": "Lyn Lapid",
@@ -6728,6 +6769,12 @@
           "views": 87490192,
           "likes": 1262399,
           "comments": 9014
+        },
+        {
+          "date": "2026-08-19",
+          "views": 87632561,
+          "likes": 1264169,
+          "comments": 9020
         }
       ]
     },
@@ -7500,6 +7547,12 @@
           "date": "2026-08-18",
           "views": 21434313,
           "likes": 306773,
+          "comments": 1374
+        },
+        {
+          "date": "2026-08-19",
+          "views": 21499411,
+          "likes": 307616,
           "comments": 1374
         }
       ]
@@ -8274,6 +8327,12 @@
           "views": 25135760,
           "likes": 277775,
           "comments": 832
+        },
+        {
+          "date": "2026-08-19",
+          "views": 25172966,
+          "likes": 278089,
+          "comments": 834
         }
       ]
     },
@@ -8951,6 +9010,12 @@
           "views": 50019375,
           "likes": 535233,
           "comments": 1692
+        },
+        {
+          "date": "2026-08-19",
+          "views": 50063011,
+          "likes": 535613,
+          "comments": 1693
         }
       ]
     },
@@ -9830,6 +9895,12 @@
           "views": 5854952,
           "likes": 75535,
           "comments": 1615
+        },
+        {
+          "date": "2026-08-19",
+          "views": 5874977,
+          "likes": 75762,
+          "comments": 1621
         }
       ]
     }
@@ -10314,6 +10385,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:23:34.319177+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "youtube_total_views",
+      "value": 1375150189,
+      "baseline_mean": 1345931285.0,
+      "baseline_stddev": 11267720.9,
+      "delta": 29218903,
+      "score": 2.59,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:34:19.619763+00:00"
     }
   ]
 }

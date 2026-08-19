@@ -5364,6 +5364,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 217000,
       "ytm_total_views": 44176390
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 229238,
+      "collected_at": "2026-08-19T14:24:22.339906+00:00",
+      "spotify_followers": 142848,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44485030,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8298
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6526
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4396
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2718
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2178
+        }
+      ],
+      "lastfm_listeners": 71111,
+      "lastfm_playcount": 1194822,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 217000,
+      "ytm_total_views": 44176390
     }
   ],
   "metadata": {
@@ -5406,12 +5447,12 @@
         "video_id": "MUZCHx-rOOM"
       },
       {
-        "title": "That's All I Wish",
-        "video_id": "-75JGGEv2MI"
-      },
-      {
         "title": "Beautiful Days",
         "video_id": "7OCM67CQt5g"
+      },
+      {
+        "title": "That's All I Wish",
+        "video_id": "-75JGGEv2MI"
       },
       {
         "title": "Welcome My Friend",
@@ -5419,11 +5460,6 @@
       }
     ],
     "ytm_related_artists": [
-      {
-        "name": "Mega Shinnosuke",
-        "browse_id": "UCz3WrhUL022J3PILUmOTE7Q",
-        "subscribers": "5.75M"
-      },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
@@ -5468,6 +5504,11 @@
         "name": "Yoru No Honki Dance",
         "browse_id": "UCaZGUqEL8pzFRgLXXJ4dL2Q",
         "subscribers": "116K"
+      },
+      {
+        "name": "GOING UNDER GROUND",
+        "browse_id": "UCpmxx0Dc7PAYaYzi4ZAY31A",
+        "subscribers": "161K"
       }
     ],
     "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia ("
@@ -6292,6 +6333,12 @@
           "views": 15406,
           "likes": 204,
           "comments": 3
+        },
+        {
+          "date": "2026-08-19",
+          "views": 15438,
+          "likes": 204,
+          "comments": 3
         }
       ]
     },
@@ -7064,6 +7111,12 @@
           "date": "2026-08-18",
           "views": 937366,
           "likes": 11796,
+          "comments": 32
+        },
+        {
+          "date": "2026-08-19",
+          "views": 937966,
+          "likes": 11800,
           "comments": 32
         }
       ]
@@ -8293,6 +8346,12 @@
           "views": 235671,
           "likes": 1723,
           "comments": 7
+        },
+        {
+          "date": "2026-08-19",
+          "views": 235859,
+          "likes": 1725,
+          "comments": 7
         }
       ]
     },
@@ -8994,6 +9053,12 @@
           "views": 421111,
           "likes": 6172,
           "comments": 22
+        },
+        {
+          "date": "2026-08-19",
+          "views": 421334,
+          "likes": 6179,
+          "comments": 22
         }
       ]
     },
@@ -9380,6 +9445,12 @@
         {
           "date": "2026-08-18",
           "views": 8417,
+          "likes": 89,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-19",
+          "views": 8498,
           "likes": 89,
           "comments": 4
         }
@@ -9859,6 +9930,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-18T14:24:04.443286+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "monthly_listeners",
+      "value": 229238,
+      "baseline_mean": 221253.8,
+      "baseline_stddev": 3708.6,
+      "delta": 7984,
+      "score": 2.15,
+      "type": "annotated",
+      "related_annotation": "ハマ・オカモト脱退発表と新曲「LOSTRANGER」リリースが重複",
+      "detected_at": "2026-08-19T14:24:23.645916+00:00"
     }
   ]
 }

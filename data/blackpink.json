@@ -5537,6 +5537,47 @@
       "ytm_subscribers": 101000000,
       "ytm_monthly_listeners": 196000000,
       "ytm_total_views": 42645923820
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 20025903,
+      "collected_at": "2026-08-19T14:32:07.384312+00:00",
+      "spotify_followers": 60611559,
+      "youtube_subscribers": 101000000,
+      "youtube_total_views": 42844306298,
+      "youtube_video_count": 668,
+      "top_cities": [
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 317043
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 281453
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 251921
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 229731
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 226094
+        }
+      ],
+      "lastfm_listeners": 2075098,
+      "lastfm_playcount": 325015820,
+      "ytm_subscribers": 101000000,
+      "ytm_monthly_listeners": 196000000,
+      "ytm_total_views": 42716326626
     }
   ],
   "annotations": [
@@ -5788,6 +5829,16 @@
         "subscribers": "106M"
       },
       {
+        "name": "EVERGLOW",
+        "browse_id": "UCT4Z6ZLJisGUy0z2LHzi2jQ",
+        "subscribers": "4.33M"
+      },
+      {
+        "name": "JISOO",
+        "browse_id": "UC4I9OFY_9ZYLs0Lj4bfEOvA",
+        "subscribers": "167M"
+      },
+      {
         "name": "BABYMONSTER",
         "browse_id": "UC47Wz6S14mj_6Jy-T59m6IQ",
         "subscribers": "122M"
@@ -5798,24 +5849,14 @@
         "subscribers": "6.24M"
       },
       {
-        "name": "JISOO",
-        "browse_id": "UC4I9OFY_9ZYLs0Lj4bfEOvA",
-        "subscribers": "167M"
-      },
-      {
         "name": "Girls' Generation",
         "browse_id": "UCGn8T3PmIkow87GeZC9mW7g",
         "subscribers": "17.8M"
       },
       {
-        "name": "EVERGLOW",
-        "browse_id": "UCT4Z6ZLJisGUy0z2LHzi2jQ",
-        "subscribers": "4.33M"
-      },
-      {
-        "name": "JEON SOMI",
-        "browse_id": "UCDnYJA3OXXhRKYPe3jzLGeQ",
-        "subscribers": "5.94M"
+        "name": "ITZY",
+        "browse_id": "UCTP45_DE3fMLujU8sZ-MBzw",
+        "subscribers": "28.5M"
       }
     ],
     "ytm_top_songs": [
@@ -5836,8 +5877,8 @@
         "video_id": "z7e54L8usac"
       },
       {
-        "title": "Shut Down",
-        "video_id": "950BdJKBhGo"
+        "title": "마지막처럼(As If It's Your Last)",
+        "video_id": "9MbXeqCbS4Q"
       }
     ],
     "ytm_description": "Following the release of their digital single ‘JUMP’ and the launch of the ‘BLACKPINK WORLD TOUR DEADLINE’, spanning 16 cities and 33 shows, BLACKPINK reconnects with fans worldwide and makes their return with their 3rd MINI ALBUM [DEADLINE], nearly four years after their last release.\n\n[DEADLINE] represents a defining moment for BLACKPINK, reflecting both who they are now and the direction they continue to move toward. Highlighting each member’s individuality alongside the group’s unmistakable chemistry, the album reinforces BLACKPINK’s distinctive identity and lasting global presence."
@@ -6613,6 +6654,12 @@
           "views": 253533283,
           "likes": 1681098,
           "comments": 20436
+        },
+        {
+          "date": "2026-08-19",
+          "views": 253806922,
+          "likes": 1682257,
+          "comments": 20449
         }
       ]
     },
@@ -7715,6 +7762,12 @@
           "views": 308271744,
           "likes": 2559872,
           "comments": 17041
+        },
+        {
+          "date": "2026-08-19",
+          "views": 308359777,
+          "likes": 2560534,
+          "comments": 17048
         }
       ]
     },
@@ -8488,6 +8541,12 @@
           "views": 169991815,
           "likes": 978727,
           "comments": 3945
+        },
+        {
+          "date": "2026-08-19",
+          "views": 170042157,
+          "likes": 979111,
+          "comments": 3946
         }
       ]
     },
@@ -9261,6 +9320,12 @@
           "views": 118307057,
           "likes": 1399939,
           "comments": 5597
+        },
+        {
+          "date": "2026-08-19",
+          "views": 118343994,
+          "likes": 1400345,
+          "comments": 5597
         }
       ]
     },
@@ -9717,6 +9782,17 @@
           "comments": 5080
         }
       ]
+    },
+    "9MbXeqCbS4Q": {
+      "title": "마지막처럼(As If It's Your Last)",
+      "history": [
+        {
+          "date": "2026-08-19",
+          "views": 167793234,
+          "likes": 1032968,
+          "comments": 3748
+        }
+      ]
     }
   },
   "buzz_events": [
@@ -9995,6 +10071,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-18T14:32:09.060700+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "monthly_listeners",
+      "value": 20025903,
+      "baseline_mean": 19784674.0,
+      "baseline_stddev": 115227.7,
+      "delta": 241228,
+      "score": 2.09,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:32:08.440522+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "youtube_total_views",
+      "value": 42844306298,
+      "baseline_mean": 42658283327,
+      "baseline_stddev": 78965055.2,
+      "delta": 186022971,
+      "score": 2.36,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:32:08.440522+00:00"
     }
   ]
 }

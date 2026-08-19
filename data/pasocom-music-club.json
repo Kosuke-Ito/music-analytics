@@ -5173,6 +5173,47 @@
       "ytm_subscribers": 38600,
       "ytm_monthly_listeners": 77900,
       "ytm_total_views": 8818254
+    },
+    {
+      "date": "2026-08-19",
+      "monthly_listeners": 58298,
+      "collected_at": "2026-08-19T14:41:38.784433+00:00",
+      "spotify_followers": 52598,
+      "youtube_subscribers": 38700,
+      "youtube_total_views": 9061250,
+      "youtube_video_count": 82,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3684
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1473
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 934
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 832
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 831
+        }
+      ],
+      "lastfm_listeners": 24324,
+      "lastfm_playcount": 408552,
+      "ytm_subscribers": 38700,
+      "ytm_monthly_listeners": 77900,
+      "ytm_total_views": 8818254
     }
   ],
   "metadata": {
@@ -6028,6 +6069,12 @@
           "views": 151517,
           "likes": 2842,
           "comments": 26
+        },
+        {
+          "date": "2026-08-19",
+          "views": 151863,
+          "likes": 2847,
+          "comments": 26
         }
       ]
     },
@@ -6776,6 +6823,12 @@
           "date": "2026-08-18",
           "views": 607695,
           "likes": 5546,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-19",
+          "views": 608067,
+          "likes": 5550,
           "comments": 18
         }
       ]
@@ -7526,6 +7579,12 @@
           "views": 337580,
           "likes": 3589,
           "comments": 7
+        },
+        {
+          "date": "2026-08-19",
+          "views": 337840,
+          "likes": 3591,
+          "comments": 7
         }
       ]
     },
@@ -8274,6 +8333,12 @@
           "date": "2026-08-18",
           "views": 60218,
           "likes": 196,
+          "comments": 1
+        },
+        {
+          "date": "2026-08-19",
+          "views": 60287,
+          "likes": 197,
           "comments": 1
         }
       ]
@@ -9083,6 +9148,12 @@
           "date": "2026-08-18",
           "views": 12725,
           "likes": 330,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-19",
+          "views": 13901,
+          "likes": 356,
           "comments": 4
         }
       ]
@@ -10132,6 +10203,42 @@
       "type": "annotated",
       "related_annotation": "SUMMER SONIC 2026 Spotify Stage出演当日、指標上昇が継続",
       "detected_at": "2026-08-18T14:42:03.732693+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "monthly_listeners",
+      "value": 58298,
+      "baseline_mean": 46574.1,
+      "baseline_stddev": 3055.8,
+      "delta": 11723,
+      "score": 3.84,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:41:40.336233+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "ytm_monthly_listeners",
+      "value": 77900,
+      "baseline_mean": 64410.0,
+      "baseline_stddev": 4043.9,
+      "delta": 13490,
+      "score": 3.34,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:41:40.336233+00:00"
+    },
+    {
+      "date": "2026-08-19",
+      "metric": "youtube_total_views",
+      "value": 9061250,
+      "baseline_mean": 8788205.2,
+      "baseline_stddev": 131017.4,
+      "delta": 273044,
+      "score": 2.08,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-19T14:41:40.336233+00:00"
     }
   ]
 }
