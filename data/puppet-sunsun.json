@@ -5407,6 +5407,47 @@
       "ytm_subscribers": 7790,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-20",
+      "monthly_listeners": 197065,
+      "collected_at": "2026-08-20T14:30:34.227378+00:00",
+      "spotify_followers": 35304,
+      "youtube_subscribers": 917000,
+      "youtube_total_views": 170323874,
+      "youtube_video_count": 483,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6837
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5825
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5517
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2878
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2708
+        }
+      ],
+      "lastfm_listeners": 1043,
+      "lastfm_playcount": 6073,
+      "ytm_subscribers": 7790,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5649,54 +5690,54 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Pilaf Alien",
-        "browse_id": "UCFfk80ABZlG0C0zDIXHPACA",
-        "subscribers": "5.74M"
+        "name": "HeiseiFlamingo",
+        "browse_id": "UCo9trQuQB1HP30CGtBtvMxA",
+        "subscribers": "4.17K"
       },
       {
-        "name": "Matsuya Onoe",
-        "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
-        "subscribers": "492"
+        "name": "COWCOW",
+        "browse_id": "UCRURx1gEzS8RMaGssQhZc3A",
+        "subscribers": "1.37K"
       },
       {
-        "name": "メンバー",
-        "browse_id": "UCDPFciMgCrHu4U1dzuE1F5w",
-        "subscribers": "1.79K"
-      },
-      {
-        "name": "Mrs. GREEN APPLE",
-        "browse_id": "UCFB0qxwNwayGQ4Ksj8QpCXg",
-        "subscribers": "34.6M"
-      },
-      {
-        "name": "Tomona Yabiku",
-        "browse_id": "UCKmOHLP4CftjRa3sIYUWxSg",
-        "subscribers": "1.24K"
+        "name": "Pokemon Ongaku Club",
+        "browse_id": "UCwojqxqJz5VtwoEVTi6Y7Pw",
+        "subscribers": "572"
       },
       {
         "name": "HIKAKIN & SEIKIN",
         "browse_id": "UCJ8miSfGoAyQDpW-itFEJgg",
-        "subscribers": "19.2K"
+        "subscribers": "19.5K"
+      },
+      {
+        "name": "HANA",
+        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
+        "subscribers": "32.8M"
+      },
+      {
+        "name": "MONAKI",
+        "browse_id": "UCO-nYtU_R0wWunK2j6W53qQ",
+        "subscribers": "4.74M"
+      },
+      {
+        "name": "Matsuya Onoe",
+        "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
+        "subscribers": "521"
       },
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "1K"
+        "subscribers": "1.24K"
+      },
+      {
+        "name": "メンバー",
+        "browse_id": "UCDPFciMgCrHu4U1dzuE1F5w",
+        "subscribers": "1.84K"
       },
       {
         "name": "Yuria Nara",
         "browse_id": "UCjIZWl36NHeA7QhciQMAZ_A",
-        "subscribers": "1.57K"
-      },
-      {
-        "name": "strawberry flower",
-        "browse_id": "UCcfe0G1YIpvLuNu4OJlwzBg",
-        "subscribers": "8.54K"
-      },
-      {
-        "name": "Tesesaku",
-        "browse_id": "UCxMfaJk6D2pde7PBChZEzfg",
-        "subscribers": "8.11K"
+        "subscribers": "1.65K"
       }
     ]
   },
@@ -5916,6 +5957,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-19T14:27:54.738983+00:00"
+    },
+    {
+      "date": "2026-08-20",
+      "metric": "monthly_listeners",
+      "value": 197065,
+      "baseline_mean": 182488.7,
+      "baseline_stddev": 5725.4,
+      "delta": 14576,
+      "score": 2.55,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-20T14:30:35.423674+00:00"
     }
   ]
 }

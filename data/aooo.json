@@ -5405,6 +5405,47 @@
       "ytm_subscribers": 103000,
       "ytm_monthly_listeners": 1050000,
       "ytm_total_views": 28809538
+    },
+    {
+      "date": "2026-08-20",
+      "monthly_listeners": 191081,
+      "collected_at": "2026-08-20T14:30:01.404852+00:00",
+      "spotify_followers": 63716,
+      "youtube_subscribers": 103000,
+      "youtube_total_views": 35575081,
+      "youtube_video_count": 313,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 9672
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6717
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4636
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4549
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3106
+        }
+      ],
+      "lastfm_listeners": 15324,
+      "lastfm_playcount": 352750,
+      "ytm_subscribers": 103000,
+      "ytm_monthly_listeners": 1050000,
+      "ytm_total_views": 29081528
     }
   ],
   "annotations": [
@@ -5724,6 +5765,26 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Chilli Beans.",
+        "browse_id": "UCkI4roj4YVHrTh7PftDVxmQ",
+        "subscribers": "302K"
+      },
+      {
+        "name": "OddRe:",
+        "browse_id": "UCLRAvTum9DcWeJQtHn1D3WA",
+        "subscribers": "155K"
+      },
+      {
+        "name": "Crazy Wowow",
+        "browse_id": "UCDAwY-unBf0fUz56GL4-vOg",
+        "subscribers": "6.98M"
+      },
+      {
+        "name": "sanetii",
+        "browse_id": "UCC4DaSQOF1wDYZQMZ1Ir5ew",
+        "subscribers": "170K"
+      },
+      {
         "name": "nakigoto",
         "browse_id": "UC4sq6m-foW44E1QTMzW6GsA",
         "subscribers": "73.7K"
@@ -5734,24 +5795,14 @@
         "subscribers": "2.24M"
       },
       {
-        "name": "rassemble",
-        "browse_id": "UCVXQ6yWhb-eFlxUdcJRF_2w",
-        "subscribers": "58.1K"
+        "name": "Cidergirl",
+        "browse_id": "UCj0gYbIUSGS_m1yqbPi4TIQ",
+        "subscribers": "310K"
       },
       {
-        "name": "7th Vega",
-        "browse_id": "UC_W5BfNNzkxWj911JSDAu9g",
-        "subscribers": "175K"
-      },
-      {
-        "name": "Chilli Beans.",
-        "browse_id": "UCkI4roj4YVHrTh7PftDVxmQ",
-        "subscribers": "302K"
-      },
-      {
-        "name": "Brandy Senki",
-        "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
-        "subscribers": "138K"
+        "name": "PompadollS",
+        "browse_id": "UCmu5lpe6Wt-7yCHe2rA4zYQ",
+        "subscribers": "238K"
       },
       {
         "name": "NEGISHIO TONDON",
@@ -5762,16 +5813,6 @@
         "name": "CENT",
         "browse_id": "UCh0f5XbtIlrC0WeNgqiiZ9g",
         "subscribers": "70.3K"
-      },
-      {
-        "name": "Broken my toybox",
-        "browse_id": "UCReUEvWoSTWUcTR4QwkgyIg",
-        "subscribers": "95.3K"
-      },
-      {
-        "name": "Multidimensional Control Mechanism YODAKA",
-        "browse_id": "UC1qtr6uQEQdrfh-QEZTNU7A",
-        "subscribers": "6.15K"
       }
     ],
     "ytm_top_songs": [
@@ -7250,6 +7291,12 @@
           "date": "2026-08-19",
           "views": 182958,
           "likes": 1539,
+          "comments": 12
+        },
+        {
+          "date": "2026-08-20",
+          "views": 183314,
+          "likes": 1543,
           "comments": 12
         }
       ]
@@ -8962,6 +9009,12 @@
           "views": 96691,
           "likes": 1446,
           "comments": 72
+        },
+        {
+          "date": "2026-08-20",
+          "views": 97190,
+          "likes": 1449,
+          "comments": 72
         }
       ]
     },
@@ -9350,6 +9403,12 @@
           "views": 33556,
           "likes": 377,
           "comments": 3
+        },
+        {
+          "date": "2026-08-20",
+          "views": 34008,
+          "likes": 380,
+          "comments": 3
         }
       ]
     },
@@ -9720,6 +9779,12 @@
           "views": 41456,
           "likes": 649,
           "comments": 17
+        },
+        {
+          "date": "2026-08-20",
+          "views": 42372,
+          "likes": 659,
+          "comments": 17
         }
       ]
     },
@@ -9730,6 +9795,12 @@
           "date": "2026-08-19",
           "views": 32532,
           "likes": 432,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-20",
+          "views": 34857,
+          "likes": 455,
           "comments": 4
         }
       ]
@@ -10515,6 +10586,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み入りに伴う季節的な増加",
       "detected_at": "2026-08-18T14:27:19.135014+00:00"
+    },
+    {
+      "date": "2026-08-20",
+      "metric": "youtube_total_views",
+      "value": 35575081,
+      "baseline_mean": 34551699.5,
+      "baseline_stddev": 437350.1,
+      "delta": 1023381,
+      "score": 2.34,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-20T14:30:02.638089+00:00"
     }
   ]
 }
