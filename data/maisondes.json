@@ -5449,6 +5449,47 @@
       "ytm_subscribers": 420000,
       "ytm_monthly_listeners": 3440000,
       "ytm_total_views": 417259493
+    },
+    {
+      "date": "2026-08-21",
+      "monthly_listeners": 755335,
+      "collected_at": "2026-08-21T14:28:12.469966+00:00",
+      "spotify_followers": 273486,
+      "youtube_subscribers": 325000,
+      "youtube_total_views": 251025375,
+      "youtube_video_count": 56,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 23776
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 19615
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 14124
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 11553
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 8508
+        }
+      ],
+      "lastfm_listeners": 137177,
+      "lastfm_playcount": 3390947,
+      "ytm_subscribers": 420000,
+      "ytm_monthly_listeners": 3440000,
+      "ytm_total_views": 417259493
     }
   ],
   "metadata": {
@@ -5483,9 +5524,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Myuk",
-        "browse_id": "UCCU8DNd9iFzosdwq3BtbKqg",
-        "subscribers": "323K"
+        "name": "BotchiBoromaru",
+        "browse_id": "UC5tXBBTgrpXMBvvXY_PGiYQ",
+        "subscribers": "2.5M"
       },
       {
         "name": "FantasticYouth",
@@ -5498,24 +5539,19 @@
         "subscribers": "97.3K"
       },
       {
-        "name": "BotchiBoromaru",
-        "browse_id": "UC5tXBBTgrpXMBvvXY_PGiYQ",
-        "subscribers": "2.5M"
-      },
-      {
         "name": "Linmu",
         "browse_id": "UCfwx8Sx11AgVgCVnGDnP3UA",
         "subscribers": "991"
       },
       {
+        "name": "Shiyui",
+        "browse_id": "UCAkYyroRwc9qPuymye_2fNA",
+        "subscribers": "258K"
+      },
+      {
         "name": "Hashimero",
         "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
         "subscribers": "284K"
-      },
-      {
-        "name": "Tsuzuri",
-        "browse_id": "UCDWmY3afuSAXfoNyMBTYm_g",
-        "subscribers": "4.52K"
       },
       {
         "name": "EVO+",
@@ -5531,6 +5567,11 @@
         "name": "Philo",
         "browse_id": "UCKwYHc2XOrQMgUQMmVDsr2A",
         "subscribers": "1.53K"
+      },
+      {
+        "name": "Myuk",
+        "browse_id": "UCCU8DNd9iFzosdwq3BtbKqg",
+        "subscribers": "323K"
       }
     ],
     "ytm_top_songs": [
@@ -6334,6 +6375,12 @@
           "views": 6102265,
           "likes": 37675,
           "comments": 81
+        },
+        {
+          "date": "2026-08-21",
+          "views": 6104549,
+          "likes": 37680,
+          "comments": 81
         }
       ]
     },
@@ -7113,6 +7160,12 @@
           "views": 5518329,
           "likes": 34020,
           "comments": 63
+        },
+        {
+          "date": "2026-08-21",
+          "views": 5520774,
+          "likes": 34020,
+          "comments": 64
         }
       ]
     },
@@ -7898,6 +7951,12 @@
           "views": 2747818,
           "likes": 29463,
           "comments": 509
+        },
+        {
+          "date": "2026-08-21",
+          "views": 2750871,
+          "likes": 29478,
+          "comments": 509
         }
       ]
     },
@@ -8676,6 +8735,12 @@
           "date": "2026-08-20",
           "views": 2898142,
           "likes": 20332,
+          "comments": 62
+        },
+        {
+          "date": "2026-08-21",
+          "views": 2899571,
+          "likes": 20340,
           "comments": 62
         }
       ]
@@ -9456,6 +9521,12 @@
           "views": 3155295,
           "likes": 22611,
           "comments": 133
+        },
+        {
+          "date": "2026-08-21",
+          "views": 3156417,
+          "likes": 22614,
+          "comments": 133
         }
       ]
     },
@@ -9859,6 +9930,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-20T14:29:11.895336+00:00"
+    },
+    {
+      "date": "2026-08-21",
+      "metric": "monthly_listeners",
+      "value": 755335,
+      "baseline_mean": 741632.8,
+      "baseline_stddev": 6019.2,
+      "delta": 13702,
+      "score": 2.28,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-21T14:28:13.677053+00:00"
     }
   ]
 }

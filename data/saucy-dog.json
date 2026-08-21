@@ -5334,6 +5334,47 @@
       "ytm_subscribers": 874000,
       "ytm_monthly_listeners": 2450000,
       "ytm_total_views": 592878620
+    },
+    {
+      "date": "2026-08-21",
+      "monthly_listeners": 1836039,
+      "collected_at": "2026-08-21T14:40:31.903997+00:00",
+      "spotify_followers": 1520560,
+      "youtube_subscribers": 874000,
+      "youtube_total_views": 594502989,
+      "youtube_video_count": 141,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 93954
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 82227
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65662
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 37914
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35675
+        }
+      ],
+      "lastfm_listeners": 59272,
+      "lastfm_playcount": 1682387,
+      "ytm_subscribers": 874000,
+      "ytm_monthly_listeners": 2450000,
+      "ytm_total_views": 592878620
     }
   ],
   "annotations": [
@@ -5678,14 +5719,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "tokyo kimiga inai machi",
-        "browse_id": "UCcMmtei7oDCXplPI2g9ssqg",
-        "subscribers": "2.45K"
-      },
-      {
-        "name": "the shes gone",
-        "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
-        "subscribers": "242K"
+        "name": "berry meet",
+        "browse_id": "UCud_FSuguBJsPDCq5xo9SoQ",
+        "subscribers": "138K"
       },
       {
         "name": "Marcy",
@@ -5693,9 +5729,19 @@
         "subscribers": "2.15M"
       },
       {
-        "name": "bokula.",
-        "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
-        "subscribers": "519K"
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "4.77M"
+      },
+      {
+        "name": "the shes gone",
+        "browse_id": "UCaM0_R4vJzPtYpPinXz26wA",
+        "subscribers": "242K"
+      },
+      {
+        "name": "Kepura",
+        "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
+        "subscribers": "67.3K"
       },
       {
         "name": "moon drop",
@@ -5713,19 +5759,14 @@
         "subscribers": "247K"
       },
       {
+        "name": "bokula.",
+        "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
+        "subscribers": "519K"
+      },
+      {
         "name": "PERKERS",
         "browse_id": "UCDuET5BNAZkXySSy4RU-QHw",
         "subscribers": "18.7K"
-      },
-      {
-        "name": "mihoro",
-        "browse_id": "UC56rnwy44D76ajnaJ7zhgZg",
-        "subscribers": "110K"
-      },
-      {
-        "name": "KALMA",
-        "browse_id": "UCyqvlYYpThgO5eHqgrF6B9A",
-        "subscribers": "73.5K"
       }
     ],
     "ytm_top_songs": [
@@ -6529,6 +6570,12 @@
           "views": 5544457,
           "likes": 23939,
           "comments": 56
+        },
+        {
+          "date": "2026-08-21",
+          "views": 5560851,
+          "likes": 24013,
+          "comments": 56
         }
       ]
     },
@@ -7295,6 +7342,12 @@
           "date": "2026-08-20",
           "views": 6047082,
           "likes": 27691,
+          "comments": 50
+        },
+        {
+          "date": "2026-08-21",
+          "views": 6064359,
+          "likes": 27739,
           "comments": 50
         }
       ]
@@ -8075,6 +8128,12 @@
           "views": 3264689,
           "likes": 16791,
           "comments": 39
+        },
+        {
+          "date": "2026-08-21",
+          "views": 3273382,
+          "likes": 16813,
+          "comments": 39
         }
       ]
     },
@@ -8842,6 +8901,12 @@
           "views": 3689381,
           "likes": 21050,
           "comments": 43
+        },
+        {
+          "date": "2026-08-21",
+          "views": 3697771,
+          "likes": 21073,
+          "comments": 43
         }
       ]
     },
@@ -9434,6 +9499,12 @@
           "date": "2026-08-20",
           "views": 2945635,
           "likes": 12302,
+          "comments": 30
+        },
+        {
+          "date": "2026-08-21",
+          "views": 2954867,
+          "likes": 12328,
           "comments": 30
         }
       ]
@@ -10432,6 +10503,18 @@
       "type": "annotated",
       "related_annotation": "サマソニ大阪出演の反映で上昇継続",
       "detected_at": "2026-08-20T14:41:13.983944+00:00"
+    },
+    {
+      "date": "2026-08-21",
+      "metric": "monthly_listeners",
+      "value": 1836039,
+      "baseline_mean": 1781771.3,
+      "baseline_stddev": 22092.1,
+      "delta": 54267,
+      "score": 2.46,
+      "type": "annotated",
+      "related_annotation": "フェス出演効果の残存・継続的な数値上昇",
+      "detected_at": "2026-08-21T14:40:33.899896+00:00"
     }
   ]
 }

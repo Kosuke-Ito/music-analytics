@@ -5619,6 +5619,47 @@
       "ytm_subscribers": 3600000,
       "ytm_monthly_listeners": 89100000,
       "ytm_total_views": 1320850626
+    },
+    {
+      "date": "2026-08-21",
+      "monthly_listeners": 20758559,
+      "collected_at": "2026-08-21T14:35:53.693688+00:00",
+      "spotify_followers": 10862857,
+      "youtube_subscribers": 3600000,
+      "youtube_total_views": 1375150189,
+      "youtube_video_count": 545,
+      "top_cities": [
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 258708
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 229699
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 208885
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 202026
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 201314
+        }
+      ],
+      "lastfm_listeners": 2493980,
+      "lastfm_playcount": 289116671,
+      "ytm_subscribers": 3600000,
+      "ytm_monthly_listeners": 89100000,
+      "ytm_total_views": 1320850626
     }
   ],
   "annotations": [
@@ -5965,14 +6006,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Lyn Lapid",
-        "browse_id": "UCtgtcek5bHP9qhiPvXLS0qw",
-        "subscribers": "2.55M"
-      },
-      {
         "name": "Eloise",
         "browse_id": "UCe9WIeu02ZEZocoQImPVWkA",
         "subscribers": "172K"
+      },
+      {
+        "name": "Matt Maltese",
+        "browse_id": "UCsEbRHFUuN2065qIWPhLrRQ",
+        "subscribers": "3.32M"
       },
       {
         "name": "Rocco",
@@ -5990,19 +6031,9 @@
         "subscribers": "250K"
       },
       {
-        "name": "Daniel Caesar",
-        "browse_id": "UCcbtSIy5DlnpVIxW8hIvxBw",
-        "subscribers": "45.9M"
-      },
-      {
         "name": "Mei Mei The Bunny",
         "browse_id": "UC-1Z-0-3-FYtoOGdUHr0syw",
         "subscribers": "9.91M"
-      },
-      {
-        "name": "Wasia Project",
-        "browse_id": "UCPziehcInXuXsqIsUquQRmA",
-        "subscribers": "498K"
       },
       {
         "name": "Iceland Symphony Orchestra",
@@ -6010,9 +6041,19 @@
         "subscribers": "2.31K"
       },
       {
-        "name": "Rex Orange County",
-        "browse_id": "UCRI-Ds5eY70A4oeHggAFBbg",
-        "subscribers": "82.3M"
+        "name": "Lyn Lapid",
+        "browse_id": "UCtgtcek5bHP9qhiPvXLS0qw",
+        "subscribers": "2.55M"
+      },
+      {
+        "name": "Clairo",
+        "browse_id": "UChC2OO1dG5Vge1Kuc-1QZRg",
+        "subscribers": "14.6M"
+      },
+      {
+        "name": "Wasia Project",
+        "browse_id": "UCPziehcInXuXsqIsUquQRmA",
+        "subscribers": "498K"
       }
     ],
     "ytm_top_songs": [
@@ -6822,6 +6863,12 @@
           "views": 87775891,
           "likes": 1265927,
           "comments": 9042
+        },
+        {
+          "date": "2026-08-21",
+          "views": 87916490,
+          "likes": 1267440,
+          "comments": 9050
         }
       ]
     },
@@ -7606,6 +7653,12 @@
           "date": "2026-08-20",
           "views": 21567880,
           "likes": 308492,
+          "comments": 1382
+        },
+        {
+          "date": "2026-08-21",
+          "views": 21635762,
+          "likes": 309299,
           "comments": 1382
         }
       ]
@@ -8392,6 +8445,12 @@
           "views": 25210101,
           "likes": 278402,
           "comments": 834
+        },
+        {
+          "date": "2026-08-21",
+          "views": 25245510,
+          "likes": 278676,
+          "comments": 834
         }
       ]
     },
@@ -9080,6 +9139,12 @@
           "date": "2026-08-20",
           "views": 50107706,
           "likes": 535952,
+          "comments": 1694
+        },
+        {
+          "date": "2026-08-21",
+          "views": 50150686,
+          "likes": 536217,
           "comments": 1694
         }
       ]
@@ -9972,6 +10037,12 @@
           "views": 5895240,
           "likes": 75981,
           "comments": 1629
+        },
+        {
+          "date": "2026-08-21",
+          "views": 5915815,
+          "likes": 76220,
+          "comments": 1632
         }
       ]
     }
@@ -10480,6 +10551,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-20T14:36:45.641103+00:00"
+    },
+    {
+      "date": "2026-08-21",
+      "metric": "youtube_total_views",
+      "value": 1375150189,
+      "baseline_mean": 1348862537.8,
+      "baseline_stddev": 12679969.8,
+      "delta": 26287651,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-21T14:35:54.921973+00:00"
     }
   ]
 }

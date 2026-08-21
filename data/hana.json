@@ -5331,6 +5331,47 @@
       "ytm_subscribers": 2270000,
       "ytm_monthly_listeners": 32799999,
       "ytm_total_views": 1336246480
+    },
+    {
+      "date": "2026-08-21",
+      "monthly_listeners": 4402663,
+      "collected_at": "2026-08-21T14:39:36.677284+00:00",
+      "spotify_followers": 1074738,
+      "youtube_subscribers": 2270000,
+      "youtube_total_views": 1842157409,
+      "youtube_video_count": 127,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 144245
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 138745
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 104895
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 54498
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 53966
+        }
+      ],
+      "lastfm_listeners": 209609,
+      "lastfm_playcount": 3512525,
+      "ytm_subscribers": 2270000,
+      "ytm_monthly_listeners": 32799999,
+      "ytm_total_views": 1338331562
     }
   ],
   "annotations": [
@@ -5880,19 +5921,24 @@
         "subscribers": "26.8M"
       },
       {
-        "name": "MAZZEL",
-        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "1.84M"
-      },
-      {
         "name": "NiziU",
         "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
         "subscribers": "4.87M"
       },
       {
+        "name": "MAZZEL",
+        "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
+        "subscribers": "1.84M"
+      },
+      {
         "name": "BE:FIRST",
         "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
         "subscribers": "11.5M"
+      },
+      {
+        "name": "SKY-HI",
+        "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
+        "subscribers": "850K"
       },
       {
         "name": "CUTIE STREET",
@@ -5903,11 +5949,6 @@
         "name": "ME:I",
         "browse_id": "UCmVWcCVzrEgVfNZLY80hfHw",
         "subscribers": "7.19M"
-      },
-      {
-        "name": "SKY-HI",
-        "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "850K"
       }
     ],
     "ytm_top_songs": [
@@ -6699,6 +6740,12 @@
           "views": 159310,
           "likes": 1335,
           "comments": 25
+        },
+        {
+          "date": "2026-08-21",
+          "views": 159770,
+          "likes": 1338,
+          "comments": 25
         }
       ]
     },
@@ -7465,6 +7512,12 @@
           "date": "2026-08-20",
           "views": 321600,
           "likes": 2503,
+          "comments": 24
+        },
+        {
+          "date": "2026-08-21",
+          "views": 323343,
+          "likes": 2521,
           "comments": 24
         }
       ]
@@ -8592,6 +8645,12 @@
           "views": 532188,
           "likes": 3232,
           "comments": 18
+        },
+        {
+          "date": "2026-08-21",
+          "views": 534798,
+          "likes": 3248,
+          "comments": 18
         }
       ]
     },
@@ -9682,6 +9741,12 @@
           "views": 482580,
           "likes": 3243,
           "comments": 46
+        },
+        {
+          "date": "2026-08-21",
+          "views": 483185,
+          "likes": 3251,
+          "comments": 46
         }
       ]
     },
@@ -9832,6 +9897,12 @@
           "views": 2602358,
           "likes": 55651,
           "comments": 1991
+        },
+        {
+          "date": "2026-08-21",
+          "views": 2674870,
+          "likes": 56376,
+          "comments": 1992
         }
       ]
     }
@@ -10520,6 +10591,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-20T14:40:23.087909+00:00"
+    },
+    {
+      "date": "2026-08-21",
+      "metric": "youtube_total_views",
+      "value": 1842157409,
+      "baseline_mean": 1806957538.8,
+      "baseline_stddev": 16684687.6,
+      "delta": 35199870,
+      "score": 2.11,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-21T14:39:38.457635+00:00"
     }
   ]
 }

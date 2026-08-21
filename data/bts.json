@@ -5629,6 +5629,47 @@
       "ytm_subscribers": 85700000,
       "ytm_monthly_listeners": 236000000,
       "ytm_total_views": 28836563824
+    },
+    {
+      "date": "2026-08-21",
+      "monthly_listeners": 35912798,
+      "collected_at": "2026-08-21T14:33:24.920693+00:00",
+      "spotify_followers": 88701235,
+      "youtube_subscribers": 85700000,
+      "youtube_total_views": 29025754678,
+      "youtube_video_count": 3093,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 617314
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 559284
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 441667
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 417601
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 414924
+        }
+      ],
+      "lastfm_listeners": 2561991,
+      "lastfm_playcount": 4713199627,
+      "ytm_subscribers": 85700000,
+      "ytm_monthly_listeners": 236000000,
+      "ytm_total_views": 28836563824
     }
   ],
   "annotations": [
@@ -6319,11 +6360,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "ITZY",
-        "browse_id": "UCTP45_DE3fMLujU8sZ-MBzw",
-        "subscribers": "28.5M"
-      },
-      {
         "name": "BIGBANG",
         "browse_id": "UCI5OIwx9z32Zurb8t4Umzwg",
         "subscribers": "28.6M"
@@ -6334,14 +6370,9 @@
         "subscribers": "196M"
       },
       {
-        "name": "EXO",
-        "browse_id": "UCEUX9tUYqTFfPQdAgVNsKTA",
-        "subscribers": "16.5M"
-      },
-      {
-        "name": "Jin",
-        "browse_id": "UCkX4rp22PPv7V6PKXD7zZFg",
-        "subscribers": "1.91M"
+        "name": "Jessi",
+        "browse_id": "UC-sALATQ5O56R1ctGBf9y0Q",
+        "subscribers": "10.7M"
       },
       {
         "name": "Jimin",
@@ -6349,14 +6380,14 @@
         "subscribers": "2.32M"
       },
       {
-        "name": "Agust D",
-        "browse_id": "UCzoDKUSaHvCswDxO1yH3zYw",
-        "subscribers": "2.64M"
+        "name": "RM",
+        "browse_id": "UCJCAlMsCuld3v96t-9SffdA",
+        "subscribers": "2.2M"
       },
       {
-        "name": "Jung Kook",
-        "browse_id": "UC-pOuHFcndLpyfWSPVqXt_A",
-        "subscribers": "4.31M"
+        "name": "Jin",
+        "browse_id": "UCkX4rp22PPv7V6PKXD7zZFg",
+        "subscribers": "1.91M"
       },
       {
         "name": "TAEYANG",
@@ -6364,9 +6395,19 @@
         "subscribers": "10.6M"
       },
       {
-        "name": "Jessi",
-        "browse_id": "UC-sALATQ5O56R1ctGBf9y0Q",
-        "subscribers": "10.7M"
+        "name": "V",
+        "browse_id": "UCFqldK305KOVQXbAIGi-flg",
+        "subscribers": "2.79M"
+      },
+      {
+        "name": "GOT7",
+        "browse_id": "UCt6iMzxE-sUMbJGHTxXj1Dw",
+        "subscribers": "6.05M"
+      },
+      {
+        "name": "Agust D",
+        "browse_id": "UCzoDKUSaHvCswDxO1yH3zYw",
+        "subscribers": "2.64M"
       }
     ],
     "ytm_top_songs": [
@@ -7170,6 +7211,12 @@
           "views": 60985942,
           "likes": 934031,
           "comments": 20120
+        },
+        {
+          "date": "2026-08-21",
+          "views": 61163135,
+          "likes": 935051,
+          "comments": 20124
         }
       ]
     },
@@ -7949,6 +7996,12 @@
           "views": 66216453,
           "likes": 850641,
           "comments": 12980
+        },
+        {
+          "date": "2026-08-21",
+          "views": 66403246,
+          "likes": 851831,
+          "comments": 12991
         }
       ]
     },
@@ -8728,6 +8781,12 @@
           "views": 60726816,
           "likes": 1147844,
           "comments": 31677
+        },
+        {
+          "date": "2026-08-21",
+          "views": 60891092,
+          "likes": 1148899,
+          "comments": 31680
         }
       ]
     },
@@ -10026,6 +10085,12 @@
           "views": 369737813,
           "likes": 2803379,
           "comments": 16974
+        },
+        {
+          "date": "2026-08-21",
+          "views": 369919366,
+          "likes": 2804414,
+          "comments": 16979
         }
       ]
     },
@@ -10306,6 +10371,12 @@
           "views": 43228783,
           "likes": 840607,
           "comments": 24842
+        },
+        {
+          "date": "2026-08-21",
+          "views": 43350105,
+          "likes": 841362,
+          "comments": 24845
         }
       ]
     }
@@ -10538,6 +10609,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-20T14:34:23.884910+00:00"
+    },
+    {
+      "date": "2026-08-21",
+      "metric": "youtube_total_views",
+      "value": 29025754678,
+      "baseline_mean": 28829552026.0,
+      "baseline_stddev": 71387653.1,
+      "delta": 196202652,
+      "score": 2.75,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-21T14:33:26.458253+00:00"
     }
   ]
 }

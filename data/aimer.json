@@ -5328,6 +5328,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 11800000,
       "ytm_total_views": 1886716892
+    },
+    {
+      "date": "2026-08-21",
+      "monthly_listeners": 3400817,
+      "collected_at": "2026-08-21T14:38:46.748642+00:00",
+      "spotify_followers": 2879621,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1889427657,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 76695
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 74284
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68431
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 48997
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40622
+        }
+      ],
+      "lastfm_listeners": 503679,
+      "lastfm_playcount": 25671530,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 11800000,
+      "ytm_total_views": 1886716892
     }
   ],
   "metadata": {
@@ -5362,14 +5403,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "YOURNESS",
-        "browse_id": "UCjAUZTGqk_ggJmFMNurtgng",
-        "subscribers": "291K"
-      },
-      {
-        "name": "majiko",
-        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "393K"
+        "name": "Tielle",
+        "browse_id": "UCc0K8GT24B9QjG9Pidchn4A",
+        "subscribers": "31.7K"
       },
       {
         "name": "krage",
@@ -5382,14 +5418,14 @@
         "subscribers": "242K"
       },
       {
+        "name": "majiko",
+        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
+        "subscribers": "393K"
+      },
+      {
         "name": "ASCA",
         "browse_id": "UCXkItX65rhwqvr8VAenH7xA",
         "subscribers": "754K"
-      },
-      {
-        "name": "Tielle",
-        "browse_id": "UCc0K8GT24B9QjG9Pidchn4A",
-        "subscribers": "31.7K"
       },
       {
         "name": "MIYUNA",
@@ -5397,9 +5433,14 @@
         "subscribers": "167K"
       },
       {
-        "name": "THE SIXTH LIE",
-        "browse_id": "UCoRGhE2qSzy7QIvD4jTHgKw",
-        "subscribers": "114K"
+        "name": "Hana Hope",
+        "browse_id": "UCZEjgx64nScw5olfoL1wfAw",
+        "subscribers": "207K"
+      },
+      {
+        "name": "YOURNESS",
+        "browse_id": "UCjAUZTGqk_ggJmFMNurtgng",
+        "subscribers": "291K"
       },
       {
         "name": "sajou no hana",
@@ -6207,6 +6248,12 @@
           "views": 42257386,
           "likes": 296040,
           "comments": 1625
+        },
+        {
+          "date": "2026-08-21",
+          "views": 42292039,
+          "likes": 296258,
+          "comments": 1625
         }
       ]
     },
@@ -6979,6 +7026,12 @@
           "date": "2026-08-20",
           "views": 34427508,
           "likes": 157780,
+          "comments": 157
+        },
+        {
+          "date": "2026-08-21",
+          "views": 34442418,
+          "likes": 157837,
           "comments": 157
         }
       ]
@@ -7753,6 +7806,12 @@
           "views": 21337179,
           "likes": 118121,
           "comments": 294
+        },
+        {
+          "date": "2026-08-21",
+          "views": 21350873,
+          "likes": 118192,
+          "comments": 294
         }
       ]
     },
@@ -8471,6 +8530,12 @@
           "date": "2026-08-20",
           "views": 5874077,
           "likes": 58330,
+          "comments": 929
+        },
+        {
+          "date": "2026-08-21",
+          "views": 5880227,
+          "likes": 58359,
           "comments": 929
         }
       ]
@@ -9280,6 +9345,12 @@
           "views": 31749273,
           "likes": 135333,
           "comments": 776
+        },
+        {
+          "date": "2026-08-21",
+          "views": 31772114,
+          "likes": 135403,
+          "comments": 776
         }
       ]
     },
@@ -10041,6 +10112,18 @@
       "type": "annotated",
       "related_annotation": "傾向継続",
       "detected_at": "2026-08-17T14:31:25.801967+00:00"
+    },
+    {
+      "date": "2026-08-21",
+      "metric": "monthly_listeners",
+      "value": 3400817,
+      "baseline_mean": 3380142,
+      "baseline_stddev": 9505.9,
+      "delta": 20675,
+      "score": 2.17,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-21T14:38:48.648629+00:00"
     }
   ]
 }

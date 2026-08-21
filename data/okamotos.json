@@ -5446,6 +5446,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 217000,
       "ytm_total_views": 44176390
+    },
+    {
+      "date": "2026-08-21",
+      "monthly_listeners": 231668,
+      "collected_at": "2026-08-21T14:26:02.095192+00:00",
+      "spotify_followers": 142891,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44485030,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8491
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6652
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4448
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2751
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2174
+        }
+      ],
+      "lastfm_listeners": 71128,
+      "lastfm_playcount": 1195015,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 217000,
+      "ytm_total_views": 44176390
     }
   ],
   "metadata": {
@@ -5502,29 +5543,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "w.o.d.",
-        "browse_id": "UCiylP7HTmtQZO9hi-B5wnCg",
-        "subscribers": "196K"
-      },
-      {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "104K"
-      },
-      {
-        "name": "Huwie Ishizaki",
-        "browse_id": "UCgr4h11LzQneG3a2D1q1obA",
-        "subscribers": "255K"
-      },
-      {
-        "name": "VK Blanka",
-        "browse_id": "UCg2rvXE9x3zg01ZxyIt9DpA",
-        "subscribers": "1.45M"
-      },
-      {
         "name": "sakanaction",
         "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
         "subscribers": "60.5M"
+      },
+      {
+        "name": "Genie High",
+        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
+        "subscribers": "476K"
       },
       {
         "name": "MHRJ",
@@ -5537,9 +5563,9 @@
         "subscribers": "192K"
       },
       {
-        "name": "Genie High",
-        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "476K"
+        "name": "Huwie Ishizaki",
+        "browse_id": "UCgr4h11LzQneG3a2D1q1obA",
+        "subscribers": "255K"
       },
       {
         "name": "Kroi",
@@ -5547,9 +5573,24 @@
         "subscribers": "511K"
       },
       {
+        "name": "w.o.d.",
+        "browse_id": "UCiylP7HTmtQZO9hi-B5wnCg",
+        "subscribers": "196K"
+      },
+      {
         "name": "Glim Spanky",
         "browse_id": "UCYykT4n0YsFugkRdrXlFZ1Q",
         "subscribers": "668K"
+      },
+      {
+        "name": "BREIMEN",
+        "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
+        "subscribers": "94K"
+      },
+      {
+        "name": "Tempalay",
+        "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
+        "subscribers": "127K"
       }
     ],
     "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia ("
@@ -6386,6 +6427,12 @@
           "views": 15476,
           "likes": 206,
           "comments": 3
+        },
+        {
+          "date": "2026-08-21",
+          "views": 15512,
+          "likes": 207,
+          "comments": 3
         }
       ]
     },
@@ -7170,6 +7217,12 @@
           "date": "2026-08-20",
           "views": 938742,
           "likes": 11800,
+          "comments": 32
+        },
+        {
+          "date": "2026-08-21",
+          "views": 939368,
+          "likes": 11803,
           "comments": 32
         }
       ]
@@ -8411,6 +8464,12 @@
           "views": 236082,
           "likes": 1727,
           "comments": 7
+        },
+        {
+          "date": "2026-08-21",
+          "views": 236275,
+          "likes": 1726,
+          "comments": 7
         }
       ]
     },
@@ -9124,6 +9183,12 @@
           "views": 421576,
           "likes": 6181,
           "comments": 22
+        },
+        {
+          "date": "2026-08-21",
+          "views": 421803,
+          "likes": 6185,
+          "comments": 22
         }
       ]
     },
@@ -9523,6 +9588,12 @@
           "date": "2026-08-20",
           "views": 8568,
           "likes": 89,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-21",
+          "views": 8629,
+          "likes": 90,
           "comments": 4
         }
       ]
@@ -10025,6 +10096,18 @@
       "type": "annotated",
       "related_annotation": "ハマ・オカモト脱退発表と新曲「LOSTRANGER」リリースが重複",
       "detected_at": "2026-08-20T14:27:01.556976+00:00"
+    },
+    {
+      "date": "2026-08-21",
+      "metric": "monthly_listeners",
+      "value": 231668,
+      "baseline_mean": 221522.4,
+      "baseline_stddev": 4121.3,
+      "delta": 10145,
+      "score": 2.46,
+      "type": "annotated",
+      "related_annotation": "ハマ・オカモト脱退発表と新曲「LOSTRANGER」リリースが重複",
+      "detected_at": "2026-08-21T14:26:03.502687+00:00"
     }
   ]
 }

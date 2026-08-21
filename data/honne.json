@@ -5446,6 +5446,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 4830000,
       "ytm_total_views": 925186586
+    },
+    {
+      "date": "2026-08-21",
+      "monthly_listeners": 4019257,
+      "collected_at": "2026-08-21T14:36:09.965269+00:00",
+      "spotify_followers": 1675071,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 925237628,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 174756
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 140592
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 127988
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 122591
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 111340
+        }
+      ],
+      "lastfm_listeners": 938014,
+      "lastfm_playcount": 23814483,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 4830000,
+      "ytm_total_views": 925186586
     }
   ],
   "annotations": [
@@ -5636,29 +5677,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Michael Carreon",
-        "browse_id": "UCGFTekGnE_wBl809u1i7pnA",
-        "subscribers": "14.3K"
+        "name": "Phum Viphurit",
+        "browse_id": "UCqss9YQhKnV_1ekC347ckDw",
+        "subscribers": "60.7K"
       },
       {
-        "name": "Fiji Blue",
-        "browse_id": "UCYjYMImwBg38TDpWDl_F0Pw",
-        "subscribers": "782K"
+        "name": "92914",
+        "browse_id": "UCsywq73qRVQY0pBqEK6_2RA",
+        "subscribers": "340K"
       },
       {
         "name": "ADOY",
         "browse_id": "UCx38UtcmU6vJ7IF1J6epxdA",
         "subscribers": "205K"
-      },
-      {
-        "name": "Public Library Commute",
-        "browse_id": "UCHaf5KL3HbX5XRIppowZmiA",
-        "subscribers": "123K"
-      },
-      {
-        "name": "Phum Viphurit",
-        "browse_id": "UCqss9YQhKnV_1ekC347ckDw",
-        "subscribers": "60.7K"
       },
       {
         "name": "Micah Edwards",
@@ -5681,9 +5712,19 @@
         "subscribers": "46.2K"
       },
       {
-        "name": "Charlie Burg",
-        "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
-        "subscribers": "173K"
+        "name": "Public Library Commute",
+        "browse_id": "UCHaf5KL3HbX5XRIppowZmiA",
+        "subscribers": "123K"
+      },
+      {
+        "name": "Kamal.",
+        "browse_id": "UCpotKFYW7NyEeFkTJFVlS9w",
+        "subscribers": "184K"
+      },
+      {
+        "name": "Michael Carreon",
+        "browse_id": "UCGFTekGnE_wBl809u1i7pnA",
+        "subscribers": "14.3K"
       }
     ],
     "ytm_top_songs": [
@@ -6487,6 +6528,12 @@
           "views": 2604399,
           "likes": 16043,
           "comments": 27
+        },
+        {
+          "date": "2026-08-21",
+          "views": 2604678,
+          "likes": 16042,
+          "comments": 27
         }
       ]
     },
@@ -7259,6 +7306,12 @@
           "date": "2026-08-20",
           "views": 2182893,
           "likes": 19905,
+          "comments": 281
+        },
+        {
+          "date": "2026-08-21",
+          "views": 2185826,
+          "likes": 19919,
           "comments": 281
         }
       ]
@@ -8038,6 +8091,12 @@
           "date": "2026-08-20",
           "views": 48272704,
           "likes": 203497,
+          "comments": 121
+        },
+        {
+          "date": "2026-08-21",
+          "views": 48286138,
+          "likes": 203520,
           "comments": 121
         }
       ]
@@ -9236,6 +9295,12 @@
           "views": 14786680,
           "likes": 75025,
           "comments": 40
+        },
+        {
+          "date": "2026-08-21",
+          "views": 14799678,
+          "likes": 75047,
+          "comments": 40
         }
       ]
     },
@@ -9622,6 +9687,12 @@
           "date": "2026-08-20",
           "views": 15858663,
           "likes": 80659,
+          "comments": 64
+        },
+        {
+          "date": "2026-08-21",
+          "views": 15862606,
+          "likes": 80675,
           "comments": 64
         }
       ]
@@ -10059,6 +10130,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-20T14:37:02.391388+00:00"
+    },
+    {
+      "date": "2026-08-21",
+      "metric": "monthly_listeners",
+      "value": 4019257,
+      "baseline_mean": 3917984.8,
+      "baseline_stddev": 36250.5,
+      "delta": 101272,
+      "score": 2.79,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-21T14:36:11.429430+00:00"
     }
   ]
 }

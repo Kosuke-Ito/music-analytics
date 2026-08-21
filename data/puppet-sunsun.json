@@ -5448,6 +5448,47 @@
       "ytm_subscribers": 7790,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-21",
+      "monthly_listeners": 197907,
+      "collected_at": "2026-08-21T14:29:33.035547+00:00",
+      "spotify_followers": 35355,
+      "youtube_subscribers": 917000,
+      "youtube_total_views": 170489296,
+      "youtube_video_count": 483,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6878
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5884
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5505
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2869
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2714
+        }
+      ],
+      "lastfm_listeners": 1045,
+      "lastfm_playcount": 6077,
+      "ytm_subscribers": 7790,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5690,19 +5731,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "HeiseiFlamingo",
-        "browse_id": "UCo9trQuQB1HP30CGtBtvMxA",
-        "subscribers": "4.17K"
-      },
-      {
-        "name": "COWCOW",
-        "browse_id": "UCRURx1gEzS8RMaGssQhZc3A",
-        "subscribers": "1.37K"
-      },
-      {
-        "name": "Pokemon Ongaku Club",
-        "browse_id": "UCwojqxqJz5VtwoEVTi6Y7Pw",
-        "subscribers": "572"
+        "name": "yamino oneesan",
+        "browse_id": "UCZP704L6_ZSyUKxxmSXGlkw",
+        "subscribers": "23.1K"
       },
       {
         "name": "HIKAKIN & SEIKIN",
@@ -5710,34 +5741,44 @@
         "subscribers": "19.5K"
       },
       {
-        "name": "HANA",
-        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "32.8M"
+        "name": "Senasuke",
+        "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
+        "subscribers": "736K"
       },
       {
-        "name": "MONAKI",
-        "browse_id": "UCO-nYtU_R0wWunK2j6W53qQ",
-        "subscribers": "4.74M"
+        "name": "THE BYAN",
+        "browse_id": "UCBw8Xb1vDodUWa7Kt1XXbuw",
+        "subscribers": "3.96M"
       },
       {
         "name": "Matsuya Onoe",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
-        "subscribers": "521"
+        "subscribers": "522"
       },
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "1.24K"
+        "subscribers": "1.25K"
       },
       {
         "name": "メンバー",
         "browse_id": "UCDPFciMgCrHu4U1dzuE1F5w",
-        "subscribers": "1.84K"
+        "subscribers": "1.85K"
       },
       {
         "name": "Yuria Nara",
         "browse_id": "UCjIZWl36NHeA7QhciQMAZ_A",
         "subscribers": "1.65K"
+      },
+      {
+        "name": "Fischers",
+        "browse_id": "UCf4SncCsLDI7A7AQ_BprkkA",
+        "subscribers": "12.9K"
+      },
+      {
+        "name": "HeiseiFlamingo",
+        "browse_id": "UCo9trQuQB1HP30CGtBtvMxA",
+        "subscribers": "4.17K"
       }
     ]
   },
@@ -5969,6 +6010,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-20T14:30:35.423674+00:00"
+    },
+    {
+      "date": "2026-08-21",
+      "metric": "monthly_listeners",
+      "value": 197907,
+      "baseline_mean": 183045.4,
+      "baseline_stddev": 6277.1,
+      "delta": 14861,
+      "score": 2.37,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-21T14:29:34.281139+00:00"
     }
   ]
 }
