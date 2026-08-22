@@ -9876,6 +9876,24 @@
       "source": "https://barks.jp/news/1080514/, https://www.alsok.co.jp/person/recommend/2267/",
       "confidence": "low",
       "added_at": "2026-08-15T15:33:44Z"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "新曲「好き」MV公開（自身初監督作）が話題化",
+      "description": "TBS系ドラマ『君の好きは無敵』主題歌「好き」のミュージックビデオが8/13にYouTubeでプレミア公開。星野源自身が初めて監督・撮影・プロデュースを手がけた作品（藤井隆・飯尾和樹との旅を描いた内容）で、公開後の話題化・拡散がYouTube Music月間リスナー数増加（857万→895万）に寄与したとみられる。",
+      "category": "release",
+      "source": "https://natalie.mu/music/news/684727, https://natalie.mu/music/news/685083, https://www.billboard-japan.com/d_news/detail/164396",
+      "confidence": "medium",
+      "added_at": "2026-08-22T15:00:00Z"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "description": "youtube_total_viewsが数日間横ばいの後、一時点で階段状に急増するパターンを検知。同時期にBillie Eilish・Taylor Swift等バズ未検知の海外アーティストを含む多数のアーティストで同一パターンが確認されており、YouTube Data API取得の一時的な停滞・キャッチアップによるデータ収集側の問題と判断。個別の楽曲バイラル化等の実質的なバズではない。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-08-22調査）",
+      "confidence": "medium",
+      "added_at": "2026-08-22T15:00:00Z"
     }
   ],
   "buzz_events": [

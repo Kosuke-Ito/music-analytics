@@ -5813,6 +5813,15 @@
       "source": "https://www.alsok.co.jp/person/recommend/2267/",
       "confidence": "low",
       "added_at": "2026-08-15T15:33:44Z"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "description": "youtube_total_viewsが数日間横ばいの後、一時点で階段状に急増するパターンを検知。同時期にBillie Eilish・Taylor Swift等バズ未検知の海外アーティストを含む多数のアーティストで同一パターンが確認されており、YouTube Data API取得の一時的な停滞・キャッチアップによるデータ収集側の問題と判断。個別の楽曲バイラル化等の実質的なバズではない。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-08-22調査）",
+      "confidence": "medium",
+      "added_at": "2026-08-22T15:00:00Z"
     }
   ],
   "metadata": {
