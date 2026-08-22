@@ -5663,6 +5663,47 @@
       "ytm_subscribers": 2460000,
       "ytm_monthly_listeners": 118000000,
       "ytm_total_views": 1926464135
+    },
+    {
+      "date": "2026-08-22",
+      "monthly_listeners": 5525052,
+      "collected_at": "2026-08-22T14:19:14.292361+00:00",
+      "spotify_followers": 2419165,
+      "youtube_subscribers": 2460000,
+      "youtube_total_views": 1946504998,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 90132
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 79155
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 65277
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 59941
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 53985
+        }
+      ],
+      "lastfm_listeners": 650119,
+      "lastfm_playcount": 22785896,
+      "ytm_subscribers": 2460000,
+      "ytm_monthly_listeners": 118000000,
+      "ytm_total_views": 1927443756
     }
   ],
   "annotations": [
@@ -6076,9 +6117,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Take-M",
-        "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
-        "subscribers": "395K"
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "2.06M"
       },
       {
         "name": "Rude-α",
@@ -6086,9 +6127,14 @@
         "subscribers": "219K"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "24.4M"
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "58.8M"
+      },
+      {
+        "name": "millennium parade",
+        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
+        "subscribers": "1.1M"
       },
       {
         "name": "meiyo",
@@ -6096,34 +6142,29 @@
         "subscribers": "26.3M"
       },
       {
-        "name": "nobodyknows+",
-        "browse_id": "UCh1E5xa7wkeb_xzSyM8CkxA",
-        "subscribers": "17.1K"
+        "name": "Take-M",
+        "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
+        "subscribers": "395K"
       },
       {
-        "name": "frederic",
-        "browse_id": "UCFTm4lY-D08LFZyncZIoDIQ",
-        "subscribers": "6.91M"
-      },
-      {
-        "name": "DOES",
-        "browse_id": "UCBJVbQXjnummrzbcFkX9FLA",
-        "subscribers": "1.17M"
-      },
-      {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "1.18M"
-      },
-      {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "2.06M"
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "24.4M"
       },
       {
         "name": "ano",
         "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
         "subscribers": "3.24M"
+      },
+      {
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "29.1M"
+      },
+      {
+        "name": "ALI",
+        "browse_id": "UCcM2nwYSXoS0pRpljTefmpg",
+        "subscribers": "10.1M"
       }
     ],
     "ytm_top_songs": [
@@ -6630,6 +6671,18 @@
       "type": "annotated",
       "related_annotation": "JAPAN JAM特番配信の遅延波及とみられる（新規要因未確認）",
       "detected_at": "2026-07-08T16:04:56.820278+00:00"
+    },
+    {
+      "date": "2026-08-22",
+      "metric": "monthly_listeners",
+      "value": 5525052,
+      "baseline_mean": 5486301.7,
+      "baseline_stddev": 16185.0,
+      "delta": 38750,
+      "score": 2.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-22T14:19:15.330072+00:00"
     }
   ],
   "song_performance": {
@@ -7421,6 +7474,12 @@
           "views": 26241061,
           "likes": 325144,
           "comments": 1108
+        },
+        {
+          "date": "2026-08-22",
+          "views": 26307116,
+          "likes": 325918,
+          "comments": 1113
         }
       ]
     },
@@ -8211,6 +8270,12 @@
           "date": "2026-08-21",
           "views": 22447810,
           "likes": 289251,
+          "comments": 1121
+        },
+        {
+          "date": "2026-08-22",
+          "views": 22491954,
+          "likes": 289738,
           "comments": 1121
         }
       ]
@@ -9003,6 +9068,12 @@
           "views": 7996508,
           "likes": 102310,
           "comments": 1147
+        },
+        {
+          "date": "2026-08-22",
+          "views": 8007211,
+          "likes": 102403,
+          "comments": 1147
         }
       ]
     },
@@ -9794,6 +9865,12 @@
           "views": 12887487,
           "likes": 118332,
           "comments": 516
+        },
+        {
+          "date": "2026-08-22",
+          "views": 12896562,
+          "likes": 118399,
+          "comments": 530
         }
       ]
     },
@@ -10464,6 +10541,12 @@
           "date": "2026-08-21",
           "views": 6025918,
           "likes": 55863,
+          "comments": 195
+        },
+        {
+          "date": "2026-08-22",
+          "views": 6029793,
+          "likes": 55894,
           "comments": 195
         }
       ]

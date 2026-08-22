@@ -5501,6 +5501,47 @@
       "ytm_subscribers": 481,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-22",
+      "monthly_listeners": 2557,
+      "collected_at": "2026-08-22T14:19:45.256893+00:00",
+      "spotify_followers": 973,
+      "youtube_subscribers": 481,
+      "youtube_total_views": 168874,
+      "youtube_video_count": 187,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 116
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 60
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 57
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 44
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 34
+        }
+      ],
+      "lastfm_listeners": 781,
+      "lastfm_playcount": 2532,
+      "ytm_subscribers": 481,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -6530,6 +6571,12 @@
           "views": 3762,
           "likes": 24,
           "comments": 0
+        },
+        {
+          "date": "2026-08-22",
+          "views": 3775,
+          "likes": 24,
+          "comments": 0
         }
       ]
     },
@@ -7315,6 +7362,12 @@
           "views": 6375,
           "likes": 23,
           "comments": 0
+        },
+        {
+          "date": "2026-08-22",
+          "views": 6380,
+          "likes": 23,
+          "comments": 0
         }
       ]
     },
@@ -8056,6 +8109,12 @@
         {
           "date": "2026-08-21",
           "views": 12818,
+          "likes": 78,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-22",
+          "views": 12832,
           "likes": 78,
           "comments": 0
         }
@@ -8843,6 +8902,12 @@
           "views": 32909,
           "likes": 152,
           "comments": 0
+        },
+        {
+          "date": "2026-08-22",
+          "views": 32915,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -9620,6 +9685,12 @@
         {
           "date": "2026-08-21",
           "views": 8527,
+          "likes": 64,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-22",
+          "views": 8533,
           "likes": 64,
           "comments": 0
         }
@@ -10607,6 +10678,18 @@
       "type": "annotated",
       "related_annotation": "新曲「Magic Hour」リリース効果が継続",
       "detected_at": "2026-08-21T14:32:52.288059+00:00"
+    },
+    {
+      "date": "2026-08-22",
+      "metric": "monthly_listeners",
+      "value": 2557,
+      "baseline_mean": 1394.1,
+      "baseline_stddev": 446.5,
+      "delta": 1162,
+      "score": 2.6,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-22T14:19:46.707187+00:00"
     }
   ]
 }

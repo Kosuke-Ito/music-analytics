@@ -5673,6 +5673,47 @@
       "ytm_subscribers": 6550000,
       "ytm_monthly_listeners": 42500000,
       "ytm_total_views": 6881726701
+    },
+    {
+      "date": "2026-08-22",
+      "monthly_listeners": 7772826,
+      "collected_at": "2026-08-22T14:17:39.749129+00:00",
+      "spotify_followers": 7441257,
+      "youtube_subscribers": 6550000,
+      "youtube_total_views": 7115140735,
+      "youtube_video_count": 875,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 369151
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 363538
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 257965
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 146648
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 130681
+        }
+      ],
+      "lastfm_listeners": 459805,
+      "lastfm_playcount": 12891084,
+      "ytm_subscribers": 6550000,
+      "ytm_monthly_listeners": 42500000,
+      "ytm_total_views": 6886398706
     }
   ],
   "annotations": [
@@ -6358,16 +6399,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Marcy",
-        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "2.15M"
-      },
-      {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "16.6M"
-      },
-      {
         "name": "HANA",
         "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
         "subscribers": "32.8M"
@@ -6378,14 +6409,19 @@
         "subscribers": "5.67M"
       },
       {
-        "name": "aimyon",
-        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
-        "subscribers": "8.78M"
+        "name": "Marcy",
+        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
+        "subscribers": "2.15M"
       },
       {
-        "name": "Saucy Dog",
-        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.45M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "18.8M"
+      },
+      {
+        "name": "Novelbright",
+        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
+        "subscribers": "4.43M"
       },
       {
         "name": "FRUITS ZIPPER",
@@ -6398,14 +6434,19 @@
         "subscribers": "8.95M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "18.8M"
-      },
-      {
         "name": "SUPER BEAVER",
         "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
         "subscribers": "2.13M"
+      },
+      {
+        "name": "Saucy Dog",
+        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
+        "subscribers": "2.45M"
+      },
+      {
+        "name": "CUTIE STREET",
+        "browse_id": "UCMMY6niyWsdwcX9wv4UKVWQ",
+        "subscribers": "25.8M"
       }
     ],
     "ytm_top_songs": [
@@ -7221,6 +7262,12 @@
           "views": 31473263,
           "likes": 164768,
           "comments": 2459
+        },
+        {
+          "date": "2026-08-22",
+          "views": 31549589,
+          "likes": 164929,
+          "comments": 2459
         }
       ]
     },
@@ -8012,6 +8059,12 @@
           "views": 155710198,
           "likes": 554950,
           "comments": 6122
+        },
+        {
+          "date": "2026-08-22",
+          "views": 155822466,
+          "likes": 555148,
+          "comments": 6123
         }
       ]
     },
@@ -8802,6 +8855,12 @@
           "date": "2026-08-21",
           "views": 61117169,
           "likes": 235126,
+          "comments": 467
+        },
+        {
+          "date": "2026-08-22",
+          "views": 61145156,
+          "likes": 235221,
           "comments": 467
         }
       ]
@@ -10184,6 +10243,12 @@
           "views": 109369948,
           "likes": 358255,
           "comments": 1930
+        },
+        {
+          "date": "2026-08-22",
+          "views": 109439207,
+          "likes": 358400,
+          "comments": 1930
         }
       ]
     },
@@ -10405,6 +10470,12 @@
           "views": 12501202,
           "likes": 163205,
           "comments": 8833
+        },
+        {
+          "date": "2026-08-22",
+          "views": 12679013,
+          "likes": 164292,
+          "comments": 8846
         }
       ]
     }
@@ -11177,6 +11248,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-21T14:30:39.579788+00:00"
+    },
+    {
+      "date": "2026-08-22",
+      "metric": "youtube_total_views",
+      "value": 7115140735,
+      "baseline_mean": 6982277496.9,
+      "baseline_stddev": 58842465.9,
+      "delta": 132863238,
+      "score": 2.26,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-22T14:17:41.234387+00:00"
     }
   ]
 }

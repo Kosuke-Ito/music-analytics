@@ -5369,6 +5369,47 @@
       "ytm_subscribers": 1850000,
       "ytm_monthly_listeners": 10200000,
       "ytm_total_views": 1197679849
+    },
+    {
+      "date": "2026-08-22",
+      "monthly_listeners": 3055200,
+      "collected_at": "2026-08-22T14:26:26.526059+00:00",
+      "spotify_followers": 1725329,
+      "youtube_subscribers": 1850000,
+      "youtube_total_views": 1224531402,
+      "youtube_video_count": 142,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 129021
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 124267
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 91294
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 50131
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 49274
+        }
+      ],
+      "lastfm_listeners": 12966,
+      "lastfm_playcount": 517306,
+      "ytm_subscribers": 1850000,
+      "ytm_monthly_listeners": 10200000,
+      "ytm_total_views": 1197679849
     }
   ],
   "annotations": [
@@ -5772,24 +5813,14 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "OZworld",
+        "browse_id": "UCnMNufO6kkcw_YHGxJunJbw",
+        "subscribers": "761K"
+      },
+      {
         "name": "Shota Shimizu",
         "browse_id": "UCZXQ531DbJ0mDpV0vAkNk4g",
         "subscribers": "4.19M"
-      },
-      {
-        "name": "Kana Nishino",
-        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
-        "subscribers": "7.65M"
-      },
-      {
-        "name": "LANA",
-        "browse_id": "UCFiKkRhK9arjKDxPBQdloDA",
-        "subscribers": "1.85M"
-      },
-      {
-        "name": "WHITE JAM",
-        "browse_id": "UCR5CmiBXq6qkMQOXLU6WYrA",
-        "subscribers": "786K"
       },
       {
         "name": "HIRAIDAI",
@@ -5797,9 +5828,14 @@
         "subscribers": "19.5M"
       },
       {
-        "name": "BAD HOP",
-        "browse_id": "UCZluRSPwToFRwPA21UkJR3Q",
-        "subscribers": "1.98M"
+        "name": "LANA",
+        "browse_id": "UCFiKkRhK9arjKDxPBQdloDA",
+        "subscribers": "1.85M"
+      },
+      {
+        "name": "Kana Nishino",
+        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
+        "subscribers": "7.65M"
       },
       {
         "name": "Elle Teresa",
@@ -5812,9 +5848,14 @@
         "subscribers": "2.82M"
       },
       {
-        "name": "AI",
-        "browse_id": "UC9WCfSMwXRLKU23DWGPqsfA",
-        "subscribers": "2.95M"
+        "name": "WHITE JAM",
+        "browse_id": "UCR5CmiBXq6qkMQOXLU6WYrA",
+        "subscribers": "786K"
+      },
+      {
+        "name": "BAD HOP",
+        "browse_id": "UCZluRSPwToFRwPA21UkJR3Q",
+        "subscribers": "1.98M"
       },
       {
         "name": "¥ellow Bucks",
@@ -6622,6 +6663,12 @@
           "date": "2026-08-21",
           "views": 5112455,
           "likes": 50470,
+          "comments": 210
+        },
+        {
+          "date": "2026-08-22",
+          "views": 5125856,
+          "likes": 50570,
           "comments": 210
         }
       ]
@@ -7449,6 +7496,12 @@
           "views": 34044126,
           "likes": 130361,
           "comments": 212
+        },
+        {
+          "date": "2026-08-22",
+          "views": 34069797,
+          "likes": 130419,
+          "comments": 212
         }
       ]
     },
@@ -8228,6 +8281,12 @@
           "views": 28212106,
           "likes": 113551,
           "comments": 270
+        },
+        {
+          "date": "2026-08-22",
+          "views": 28227798,
+          "likes": 113585,
+          "comments": 270
         }
       ]
     },
@@ -8952,6 +9011,12 @@
           "date": "2026-08-21",
           "views": 358844,
           "likes": 2481,
+          "comments": 26
+        },
+        {
+          "date": "2026-08-22",
+          "views": 359240,
+          "likes": 2482,
           "comments": 26
         }
       ]
@@ -9684,6 +9749,12 @@
           "views": 34419191,
           "likes": 129527,
           "comments": 382
+        },
+        {
+          "date": "2026-08-22",
+          "views": 34440907,
+          "likes": 129584,
+          "comments": 382
         }
       ]
     },
@@ -10389,6 +10460,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-21T14:39:56.263264+00:00"
+    },
+    {
+      "date": "2026-08-22",
+      "metric": "youtube_total_views",
+      "value": 1224531402,
+      "baseline_mean": 1207712213.4,
+      "baseline_stddev": 6631702.9,
+      "delta": 16819188,
+      "score": 2.54,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-22T14:26:28.240514+00:00"
     }
   ]
 }

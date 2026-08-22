@@ -5296,6 +5296,47 @@
       "ytm_subscribers": 38700,
       "ytm_monthly_listeners": 77900,
       "ytm_total_views": 8870291
+    },
+    {
+      "date": "2026-08-22",
+      "monthly_listeners": 63152,
+      "collected_at": "2026-08-22T14:29:39.809634+00:00",
+      "spotify_followers": 52716,
+      "youtube_subscribers": 38800,
+      "youtube_total_views": 9113490,
+      "youtube_video_count": 82,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3898
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1561
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 987
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 901
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 871
+        }
+      ],
+      "lastfm_listeners": 24344,
+      "lastfm_playcount": 409072,
+      "ytm_subscribers": 38800,
+      "ytm_monthly_listeners": 77900,
+      "ytm_total_views": 8870291
     }
   ],
   "metadata": {
@@ -5330,9 +5371,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Passepied",
-        "browse_id": "UCe3gbnhf3tesVdTxVyKEIkw",
-        "subscribers": "151K"
+        "name": "punipunidenki",
+        "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
+        "subscribers": "145K"
+      },
+      {
+        "name": "mekakushe",
+        "browse_id": "UCfYjCQKVwI__ENELuJ8mwEg",
+        "subscribers": "70.9K"
+      },
+      {
+        "name": "AAAMYYY",
+        "browse_id": "UC6Ydky9GghVtUi0QqqoxPoA",
+        "subscribers": "25.8K"
+      },
+      {
+        "name": "Hikari Mitsushima",
+        "browse_id": "UCmQX9uNXRj07dI4iZcN9ZMQ",
+        "subscribers": "137K"
       },
       {
         "name": "NakamuraEmi",
@@ -5343,6 +5399,11 @@
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
         "subscribers": "104K"
+      },
+      {
+        "name": "MHRJ",
+        "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
+        "subscribers": "89.4K"
       },
       {
         "name": "DE DE MOUSE",
@@ -5358,26 +5419,6 @@
         "name": "PAS TASTA",
         "browse_id": "UCXWyAgpgtm-Ae1E1aud3ajg",
         "subscribers": "218K"
-      },
-      {
-        "name": "Ako",
-        "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "128K"
-      },
-      {
-        "name": "Hikari Mitsushima",
-        "browse_id": "UCmQX9uNXRj07dI4iZcN9ZMQ",
-        "subscribers": "137K"
-      },
-      {
-        "name": "mekakushe",
-        "browse_id": "UCfYjCQKVwI__ENELuJ8mwEg",
-        "subscribers": "70.9K"
-      },
-      {
-        "name": "pa-o-mu99999",
-        "browse_id": "UCUyrPrqYjWKYjLTJnkauHRg",
-        "subscribers": "19K"
       }
     ],
     "ytm_top_songs": [
@@ -6169,6 +6210,12 @@
           "views": 152730,
           "likes": 2886,
           "comments": 26
+        },
+        {
+          "date": "2026-08-22",
+          "views": 153198,
+          "likes": 2897,
+          "comments": 26
         }
       ]
     },
@@ -6935,6 +6982,12 @@
           "date": "2026-08-21",
           "views": 609019,
           "likes": 5566,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-22",
+          "views": 609388,
+          "likes": 5568,
           "comments": 18
         }
       ]
@@ -7703,6 +7756,12 @@
           "views": 338456,
           "likes": 3602,
           "comments": 7
+        },
+        {
+          "date": "2026-08-22",
+          "views": 338707,
+          "likes": 3604,
+          "comments": 7
         }
       ]
     },
@@ -8468,6 +8527,12 @@
         {
           "date": "2026-08-21",
           "views": 60508,
+          "likes": 197,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-22",
+          "views": 60622,
           "likes": 197,
           "comments": 2
         }
@@ -9296,6 +9361,12 @@
           "date": "2026-08-21",
           "views": 15555,
           "likes": 399,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-22",
+          "views": 16059,
+          "likes": 412,
           "comments": 4
         }
       ]
@@ -10453,6 +10524,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-21T14:43:24.872223+00:00"
+    },
+    {
+      "date": "2026-08-22",
+      "metric": "monthly_listeners",
+      "value": 63152,
+      "baseline_mean": 48165.2,
+      "baseline_stddev": 5019.5,
+      "delta": 14986,
+      "score": 2.99,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-22T14:29:41.557402+00:00"
+    },
+    {
+      "date": "2026-08-22",
+      "metric": "ytm_monthly_listeners",
+      "value": 77900,
+      "baseline_mean": 65943.3,
+      "baseline_stddev": 5644.5,
+      "delta": 11956,
+      "score": 2.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-22T14:29:41.557402+00:00"
     }
   ]
 }

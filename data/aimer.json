@@ -5369,6 +5369,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 11800000,
       "ytm_total_views": 1886716892
+    },
+    {
+      "date": "2026-08-22",
+      "monthly_listeners": 3406147,
+      "collected_at": "2026-08-22T14:25:21.445987+00:00",
+      "spotify_followers": 2879962,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1889427657,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 76851
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 74338
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68338
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 48928
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40590
+        }
+      ],
+      "lastfm_listeners": 503679,
+      "lastfm_playcount": 25671530,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 11800000,
+      "ytm_total_views": 1886716892
     }
   ],
   "metadata": {
@@ -5403,9 +5444,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Tielle",
-        "browse_id": "UCc0K8GT24B9QjG9Pidchn4A",
-        "subscribers": "31.7K"
+        "name": "ASCA",
+        "browse_id": "UCXkItX65rhwqvr8VAenH7xA",
+        "subscribers": "754K"
+      },
+      {
+        "name": "Hana Hope",
+        "browse_id": "UCZEjgx64nScw5olfoL1wfAw",
+        "subscribers": "207K"
+      },
+      {
+        "name": "majiko",
+        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
+        "subscribers": "393K"
       },
       {
         "name": "krage",
@@ -5418,14 +5469,9 @@
         "subscribers": "242K"
       },
       {
-        "name": "majiko",
-        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "393K"
-      },
-      {
-        "name": "ASCA",
-        "browse_id": "UCXkItX65rhwqvr8VAenH7xA",
-        "subscribers": "754K"
+        "name": "Tielle",
+        "browse_id": "UCc0K8GT24B9QjG9Pidchn4A",
+        "subscribers": "31.7K"
       },
       {
         "name": "MIYUNA",
@@ -5433,14 +5479,9 @@
         "subscribers": "167K"
       },
       {
-        "name": "Hana Hope",
-        "browse_id": "UCZEjgx64nScw5olfoL1wfAw",
-        "subscribers": "207K"
-      },
-      {
-        "name": "YOURNESS",
-        "browse_id": "UCjAUZTGqk_ggJmFMNurtgng",
-        "subscribers": "291K"
+        "name": "THE SIXTH LIE",
+        "browse_id": "UCoRGhE2qSzy7QIvD4jTHgKw",
+        "subscribers": "114K"
       },
       {
         "name": "sajou no hana",
@@ -5448,9 +5489,9 @@
         "subscribers": "304K"
       },
       {
-        "name": "Minami",
-        "browse_id": "UCEsOqBVe_DNEUAer9TYk6bw",
-        "subscribers": "1.78M"
+        "name": "sayuri",
+        "browse_id": "UCj-s48Irk1pcgnqvYIh4Xuw",
+        "subscribers": "1.6M"
       }
     ],
     "ytm_top_songs": [
@@ -6254,6 +6295,12 @@
           "views": 42292039,
           "likes": 296258,
           "comments": 1625
+        },
+        {
+          "date": "2026-08-22",
+          "views": 42323208,
+          "likes": 296445,
+          "comments": 1624
         }
       ]
     },
@@ -7033,6 +7080,12 @@
           "views": 34442418,
           "likes": 157837,
           "comments": 157
+        },
+        {
+          "date": "2026-08-22",
+          "views": 34455835,
+          "likes": 157874,
+          "comments": 158
         }
       ]
     },
@@ -7812,6 +7865,12 @@
           "views": 21350873,
           "likes": 118192,
           "comments": 294
+        },
+        {
+          "date": "2026-08-22",
+          "views": 21363292,
+          "likes": 118247,
+          "comments": 294
         }
       ]
     },
@@ -8536,6 +8595,12 @@
           "date": "2026-08-21",
           "views": 5880227,
           "likes": 58359,
+          "comments": 929
+        },
+        {
+          "date": "2026-08-22",
+          "views": 5885669,
+          "likes": 58389,
           "comments": 929
         }
       ]
@@ -9351,6 +9416,12 @@
           "views": 31772114,
           "likes": 135403,
           "comments": 776
+        },
+        {
+          "date": "2026-08-22",
+          "views": 31792203,
+          "likes": 135460,
+          "comments": 778
         }
       ]
     },
@@ -10124,6 +10195,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-21T14:38:48.648629+00:00"
+    },
+    {
+      "date": "2026-08-22",
+      "metric": "monthly_listeners",
+      "value": 3406147,
+      "baseline_mean": 3380833.4,
+      "baseline_stddev": 10204.5,
+      "delta": 25313,
+      "score": 2.48,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-22T14:25:22.983050+00:00"
     }
   ]
 }
