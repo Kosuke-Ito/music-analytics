@@ -5528,6 +5528,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 217000,
       "ytm_total_views": 44176390
+    },
+    {
+      "date": "2026-08-23",
+      "monthly_listeners": 235483,
+      "collected_at": "2026-08-23T14:15:15.150188+00:00",
+      "spotify_followers": 142940,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44485030,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8728
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6766
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4476
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2812
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2205
+        }
+      ],
+      "lastfm_listeners": 71153,
+      "lastfm_playcount": 1195214,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 217000,
+      "ytm_total_views": 44176390
     }
   ],
   "metadata": {
@@ -5584,34 +5625,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Akai Ko-En",
-        "browse_id": "UCVPEVqfO021f0jXz3sWNGSA",
-        "subscribers": "82.2K"
-      },
-      {
         "name": "KANA-BOON",
         "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
         "subscribers": "29.1M"
       },
       {
-        "name": "w.o.d.",
-        "browse_id": "UCiylP7HTmtQZO9hi-B5wnCg",
-        "subscribers": "196K"
+        "name": "Akai Ko-En",
+        "browse_id": "UCVPEVqfO021f0jXz3sWNGSA",
+        "subscribers": "82.2K"
       },
       {
         "name": "VK Blanka",
         "browse_id": "UCg2rvXE9x3zg01ZxyIt9DpA",
         "subscribers": "1.45M"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "60.5M"
-      },
-      {
-        "name": "Genie High",
-        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "476K"
       },
       {
         "name": "MHRJ",
@@ -5629,9 +5655,24 @@
         "subscribers": "255K"
       },
       {
+        "name": "Genie High",
+        "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
+        "subscribers": "476K"
+      },
+      {
         "name": "Kroi",
         "browse_id": "UCssoAGLly9DaABecIZoht_g",
         "subscribers": "511K"
+      },
+      {
+        "name": "w.o.d.",
+        "browse_id": "UCiylP7HTmtQZO9hi-B5wnCg",
+        "subscribers": "196K"
+      },
+      {
+        "name": "Glim Spanky",
+        "browse_id": "UCYykT4n0YsFugkRdrXlFZ1Q",
+        "subscribers": "668K"
       }
     ],
     "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia ("
@@ -6480,6 +6521,12 @@
           "views": 15539,
           "likes": 207,
           "comments": 3
+        },
+        {
+          "date": "2026-08-23",
+          "views": 15566,
+          "likes": 207,
+          "comments": 3
         }
       ]
     },
@@ -7276,6 +7323,12 @@
           "date": "2026-08-22",
           "views": 940020,
           "likes": 11813,
+          "comments": 32
+        },
+        {
+          "date": "2026-08-23",
+          "views": 940544,
+          "likes": 11814,
           "comments": 32
         }
       ]
@@ -8529,6 +8582,12 @@
           "views": 236457,
           "likes": 1729,
           "comments": 7
+        },
+        {
+          "date": "2026-08-23",
+          "views": 236597,
+          "likes": 1730,
+          "comments": 7
         }
       ]
     },
@@ -9660,6 +9719,12 @@
           "views": 8678,
           "likes": 90,
           "comments": 4
+        },
+        {
+          "date": "2026-08-23",
+          "views": 8726,
+          "likes": 90,
+          "comments": 4
         }
       ]
     },
@@ -9703,6 +9768,12 @@
           "date": "2026-08-22",
           "views": 30554,
           "likes": 363,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-23",
+          "views": 30576,
+          "likes": 364,
           "comments": 2
         }
       ]
@@ -10205,6 +10276,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-22T14:13:13.393094+00:00"
+    },
+    {
+      "date": "2026-08-23",
+      "metric": "monthly_listeners",
+      "value": 235483,
+      "baseline_mean": 222102.4,
+      "baseline_stddev": 4932.9,
+      "delta": 13380,
+      "score": 2.71,
+      "type": "annotated",
+      "related_annotation": "「LOSTRANGER」リリース＆脱退報道の反響が継続",
+      "detected_at": "2026-08-23T14:15:16.411366+00:00"
     }
   ]
 }

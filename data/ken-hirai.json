@@ -5531,6 +5531,47 @@
       "ytm_subscribers": 503000,
       "ytm_monthly_listeners": 2120000,
       "ytm_total_views": 490776638
+    },
+    {
+      "date": "2026-08-23",
+      "monthly_listeners": 1360843,
+      "collected_at": "2026-08-23T14:14:59.676116+00:00",
+      "spotify_followers": 1103303,
+      "youtube_subscribers": 503000,
+      "youtube_total_views": 490777709,
+      "youtube_video_count": 86,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 54626
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 50175
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 38519
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 19844
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 18787
+        }
+      ],
+      "lastfm_listeners": 62730,
+      "lastfm_playcount": 3023666,
+      "ytm_subscribers": 503000,
+      "ytm_monthly_listeners": 2120000,
+      "ytm_total_views": 490776638
     }
   ],
   "annotations": [
@@ -5771,12 +5812,12 @@
         "url": "https://www.last.fm/music/MISIA"
       },
       {
-        "name": "Kiroro",
-        "url": "https://www.last.fm/music/Kiroro"
-      },
-      {
         "name": "福山雅治",
         "url": "https://www.last.fm/music/%E7%A6%8F%E5%B1%B1%E9%9B%85%E6%B2%BB"
+      },
+      {
+        "name": "Kiroro",
+        "url": "https://www.last.fm/music/Kiroro"
       },
       {
         "name": "Chemistry",
@@ -5807,11 +5848,6 @@
         "subscribers": "815K"
       },
       {
-        "name": "Mr.Children",
-        "browse_id": "UCNL-6VGm61Y_dkVB89ZkYIA",
-        "subscribers": "6.13M"
-      },
-      {
         "name": "Naotaro Moriyama",
         "browse_id": "UCdB0obTpnSogmbFqK5j4HFA",
         "subscribers": "1.5M"
@@ -5827,9 +5863,9 @@
         "subscribers": "3.69M"
       },
       {
-        "name": "Ayaka",
-        "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
-        "subscribers": "2.77M"
+        "name": "Ulfuls",
+        "browse_id": "UCMThkS5uEz7XvOJS3L5oD4A",
+        "subscribers": "1.2M"
       },
       {
         "name": "Kobukuro",
@@ -5837,9 +5873,14 @@
         "subscribers": "3.09M"
       },
       {
-        "name": "JUJU",
-        "browse_id": "UCJDDeY50cfuDeivwBFZVxLw",
-        "subscribers": "1.56M"
+        "name": "Ai Otsuka",
+        "browse_id": "UCiQBYPGlDQRHXD8FaryNaFw",
+        "subscribers": "8.67M"
+      },
+      {
+        "name": "Yo Hitoto",
+        "browse_id": "UCjfGjsxFpol70sYJieKUmVQ",
+        "subscribers": "850K"
       }
     ],
     "ytm_top_songs": [
@@ -6661,6 +6702,12 @@
           "views": 6039130,
           "likes": 34939,
           "comments": 148
+        },
+        {
+          "date": "2026-08-23",
+          "views": 6043806,
+          "likes": 34971,
+          "comments": 148
         }
       ]
     },
@@ -7458,6 +7505,12 @@
           "views": 1081870,
           "likes": 6491,
           "comments": 31
+        },
+        {
+          "date": "2026-08-23",
+          "views": 1082304,
+          "likes": 6495,
+          "comments": 31
         }
       ]
     },
@@ -8254,6 +8307,12 @@
           "date": "2026-08-22",
           "views": 339705,
           "likes": 2322,
+          "comments": 13
+        },
+        {
+          "date": "2026-08-23",
+          "views": 340003,
+          "likes": 2323,
           "comments": 13
         }
       ]
@@ -9237,6 +9296,12 @@
           "views": 661755,
           "likes": 3504,
           "comments": 12
+        },
+        {
+          "date": "2026-08-23",
+          "views": 662057,
+          "likes": 3508,
+          "comments": 12
         }
       ]
     },
@@ -9834,6 +9899,12 @@
         {
           "date": "2026-08-22",
           "views": 137479,
+          "likes": 954,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-23",
+          "views": 137577,
           "likes": 954,
           "comments": 5
         }
@@ -10571,6 +10642,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-22T14:12:57.744067+00:00"
+    },
+    {
+      "date": "2026-08-23",
+      "metric": "youtube_total_views",
+      "value": 490777709,
+      "baseline_mean": 486147746,
+      "baseline_stddev": 1816020.9,
+      "delta": 4629963,
+      "score": 2.55,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "detected_at": "2026-08-23T14:15:00.844793+00:00"
     }
   ]
 }

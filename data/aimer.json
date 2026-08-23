@@ -5410,6 +5410,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 11800000,
       "ytm_total_views": 1886716892
+    },
+    {
+      "date": "2026-08-23",
+      "monthly_listeners": 3406985,
+      "collected_at": "2026-08-23T14:26:45.863530+00:00",
+      "spotify_followers": 2880349,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1889427657,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 76920
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 74440
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68354
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 48952
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40542
+        }
+      ],
+      "lastfm_listeners": 503953,
+      "lastfm_playcount": 25679498,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 11800000,
+      "ytm_total_views": 1886716892
     }
   ],
   "metadata": {
@@ -5419,12 +5460,12 @@
         "url": "https://www.last.fm/music/ReoNa"
       },
       {
-        "name": "Uru",
-        "url": "https://www.last.fm/music/Uru"
-      },
-      {
         "name": "Milet",
         "url": "https://www.last.fm/music/Milet"
+      },
+      {
+        "name": "Uru",
+        "url": "https://www.last.fm/music/Uru"
       },
       {
         "name": "SawanoHiroyuki[nZk]:Aimer",
@@ -5454,19 +5495,24 @@
         "subscribers": "207K"
       },
       {
-        "name": "majiko",
-        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "393K"
-      },
-      {
         "name": "krage",
         "browse_id": "UCg3fieU_nWIdFBOrqVqNUGQ",
         "subscribers": "206K"
       },
       {
+        "name": "sayuri",
+        "browse_id": "UCj-s48Irk1pcgnqvYIh4Xuw",
+        "subscribers": "1.6M"
+      },
+      {
         "name": "Rei Yasuda",
         "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
         "subscribers": "242K"
+      },
+      {
+        "name": "majiko",
+        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
+        "subscribers": "393K"
       },
       {
         "name": "Tielle",
@@ -5479,19 +5525,14 @@
         "subscribers": "167K"
       },
       {
-        "name": "THE SIXTH LIE",
-        "browse_id": "UCoRGhE2qSzy7QIvD4jTHgKw",
-        "subscribers": "114K"
+        "name": "YOURNESS",
+        "browse_id": "UCjAUZTGqk_ggJmFMNurtgng",
+        "subscribers": "291K"
       },
       {
         "name": "sajou no hana",
         "browse_id": "UCWNPJK9pQWSRiyr-b6nmQ4Q",
         "subscribers": "304K"
-      },
-      {
-        "name": "sayuri",
-        "browse_id": "UCj-s48Irk1pcgnqvYIh4Xuw",
-        "subscribers": "1.6M"
       }
     ],
     "ytm_top_songs": [
@@ -6301,6 +6342,12 @@
           "views": 42323208,
           "likes": 296445,
           "comments": 1624
+        },
+        {
+          "date": "2026-08-23",
+          "views": 42352696,
+          "likes": 296644,
+          "comments": 1625
         }
       ]
     },
@@ -7085,6 +7132,12 @@
           "date": "2026-08-22",
           "views": 34455835,
           "likes": 157874,
+          "comments": 158
+        },
+        {
+          "date": "2026-08-23",
+          "views": 34468277,
+          "likes": 157917,
           "comments": 158
         }
       ]
@@ -7871,6 +7924,12 @@
           "views": 21363292,
           "likes": 118247,
           "comments": 294
+        },
+        {
+          "date": "2026-08-23",
+          "views": 21374430,
+          "likes": 118309,
+          "comments": 294
         }
       ]
     },
@@ -8602,6 +8661,12 @@
           "views": 5885669,
           "likes": 58389,
           "comments": 929
+        },
+        {
+          "date": "2026-08-23",
+          "views": 5890768,
+          "likes": 58412,
+          "comments": 930
         }
       ]
     },
@@ -9422,6 +9487,12 @@
           "views": 31792203,
           "likes": 135460,
           "comments": 778
+        },
+        {
+          "date": "2026-08-23",
+          "views": 31809402,
+          "likes": 135519,
+          "comments": 779
         }
       ]
     },
@@ -10216,6 +10287,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-22T14:25:22.983050+00:00"
+    },
+    {
+      "date": "2026-08-23",
+      "metric": "monthly_listeners",
+      "value": 3406985,
+      "baseline_mean": 3381701.4,
+      "baseline_stddev": 11167.8,
+      "delta": 25283,
+      "score": 2.26,
+      "type": "annotated",
+      "related_annotation": "『鬼滅の刃』無限城編 第一章 特別上映開始（8/21）と重なり話題化",
+      "detected_at": "2026-08-23T14:26:47.421587+00:00"
     }
   ]
 }

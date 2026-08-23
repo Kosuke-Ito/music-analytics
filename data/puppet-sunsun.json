@@ -5530,6 +5530,47 @@
       "ytm_subscribers": 7800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-23",
+      "monthly_listeners": 199461,
+      "collected_at": "2026-08-23T14:18:26.981565+00:00",
+      "spotify_followers": 35454,
+      "youtube_subscribers": 918000,
+      "youtube_total_views": 170833075,
+      "youtube_video_count": 483,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6918
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5958
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5546
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2867
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2748
+        }
+      ],
+      "lastfm_listeners": 1047,
+      "lastfm_playcount": 6096,
+      "ytm_subscribers": 7810,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5781,9 +5822,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Wakeys",
+        "browse_id": "UCesgOEtX_R74n5ONYMBWpcQ",
+        "subscribers": "6.74K"
+      },
+      {
         "name": "THE BYAN",
         "browse_id": "UCBw8Xb1vDodUWa7Kt1XXbuw",
         "subscribers": "3.96M"
+      },
+      {
+        "name": "Pokemon Ongaku Club",
+        "browse_id": "UCwojqxqJz5VtwoEVTi6Y7Pw",
+        "subscribers": "571"
       },
       {
         "name": "MONAKI",
@@ -5791,39 +5842,29 @@
         "subscribers": "4.74M"
       },
       {
-        "name": "Wakeys",
-        "browse_id": "UCesgOEtX_R74n5ONYMBWpcQ",
-        "subscribers": "6.73K"
-      },
-      {
-        "name": "HANA",
-        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "32.8M"
-      },
-      {
         "name": "HIKAKIN & SEIKIN",
         "browse_id": "UCJ8miSfGoAyQDpW-itFEJgg",
         "subscribers": "19.5K"
       },
       {
-        "name": "Pokemon Ongaku Club",
-        "browse_id": "UCwojqxqJz5VtwoEVTi6Y7Pw",
-        "subscribers": "572"
+        "name": "Matsuya Onoe",
+        "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
+        "subscribers": "525"
       },
       {
-        "name": "HeiseiFlamingo",
-        "browse_id": "UCo9trQuQB1HP30CGtBtvMxA",
-        "subscribers": "4.17K"
+        "name": "Yuria Nara",
+        "browse_id": "UCjIZWl36NHeA7QhciQMAZ_A",
+        "subscribers": "1.65K"
       },
       {
-        "name": "Pilaf Alien",
-        "browse_id": "UCFfk80ABZlG0C0zDIXHPACA",
-        "subscribers": "7.75M"
+        "name": "Shinako",
+        "browse_id": "UCrit7bWFhUeu-APhu0xUUYw",
+        "subscribers": "24.8K"
       },
       {
-        "name": "Senasuke",
-        "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
-        "subscribers": "736K"
+        "name": "メンバー",
+        "browse_id": "UCDPFciMgCrHu4U1dzuE1F5w",
+        "subscribers": "1.85K"
       },
       {
         "name": "Tesesaku",
@@ -6084,6 +6125,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-22T14:16:36.933475+00:00"
+    },
+    {
+      "date": "2026-08-23",
+      "metric": "monthly_listeners",
+      "value": 199461,
+      "baseline_mean": 184252.4,
+      "baseline_stddev": 7263.3,
+      "delta": 15208,
+      "score": 2.09,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-23T14:18:28.037712+00:00"
     }
   ]
 }

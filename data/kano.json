@@ -5519,6 +5519,47 @@
       "ytm_subscribers": 3720,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-23",
+      "monthly_listeners": 9766,
+      "collected_at": "2026-08-23T14:18:41.645809+00:00",
+      "spotify_followers": 600,
+      "youtube_subscribers": 3720,
+      "youtube_total_views": 2248617,
+      "youtube_video_count": 126,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 335
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 207
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 197
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 153
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 152
+        }
+      ],
+      "lastfm_listeners": 294,
+      "lastfm_playcount": 1435,
+      "ytm_subscribers": 3720,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5532,16 +5573,16 @@
         "url": "https://www.last.fm/music/MEGAMI+Party"
       },
       {
-        "name": "Luov",
-        "url": "https://www.last.fm/music/Luov"
+        "name": "稀羽すう",
+        "url": "https://www.last.fm/music/%E7%A8%80%E7%BE%BD%E3%81%99%E3%81%86"
+      },
+      {
+        "name": "The Luv Bugs",
+        "url": "https://www.last.fm/music/The+Luv+Bugs"
       },
       {
         "name": "gaogao",
         "url": "https://www.last.fm/music/gaogao"
-      },
-      {
-        "name": "山内総一郎",
-        "url": "https://www.last.fm/music/%E5%B1%B1%E5%86%85%E7%B7%8F%E4%B8%80%E9%83%8E"
       }
     ],
     "ytm_top_songs": [
@@ -6350,6 +6391,12 @@
           "views": 412539,
           "likes": 3518,
           "comments": 22
+        },
+        {
+          "date": "2026-08-23",
+          "views": 413443,
+          "likes": 3524,
+          "comments": 22
         }
       ]
     },
@@ -7135,6 +7182,12 @@
           "views": 23083,
           "likes": 106,
           "comments": 0
+        },
+        {
+          "date": "2026-08-23",
+          "views": 23208,
+          "likes": 106,
+          "comments": 0
         }
       ]
     },
@@ -7918,6 +7971,12 @@
         {
           "date": "2026-08-22",
           "views": 7724,
+          "likes": 69,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-23",
+          "views": 7754,
           "likes": 69,
           "comments": 0
         }
@@ -9403,6 +9462,12 @@
           "views": 36913,
           "likes": 430,
           "comments": 0
+        },
+        {
+          "date": "2026-08-23",
+          "views": 37458,
+          "likes": 434,
+          "comments": 0
         }
       ]
     },
@@ -9508,6 +9573,12 @@
         {
           "date": "2026-08-22",
           "views": 1048,
+          "likes": 24,
+          "comments": 1
+        },
+        {
+          "date": "2026-08-23",
+          "views": 1060,
           "likes": 24,
           "comments": 1
         }
@@ -9979,6 +10050,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-22T14:16:52.922634+00:00"
+    },
+    {
+      "date": "2026-08-23",
+      "metric": "monthly_listeners",
+      "value": 9766,
+      "baseline_mean": 9226.7,
+      "baseline_stddev": 240.1,
+      "delta": 539,
+      "score": 2.25,
+      "type": "annotated",
+      "related_annotation": "新曲「それ、今言う？」（7/29リリース）のロングテール効果と推定",
+      "detected_at": "2026-08-23T14:18:43.139655+00:00"
     }
   ]
 }

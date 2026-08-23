@@ -5337,6 +5337,47 @@
       "ytm_subscribers": 38800,
       "ytm_monthly_listeners": 77900,
       "ytm_total_views": 8870291
+    },
+    {
+      "date": "2026-08-23",
+      "monthly_listeners": 64305,
+      "collected_at": "2026-08-23T14:30:52.719910+00:00",
+      "spotify_followers": 52747,
+      "youtube_subscribers": 38800,
+      "youtube_total_views": 9113490,
+      "youtube_video_count": 82,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3991
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1582
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 993
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 921
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 879
+        }
+      ],
+      "lastfm_listeners": 24347,
+      "lastfm_playcount": 409140,
+      "ytm_subscribers": 38800,
+      "ytm_monthly_listeners": 77900,
+      "ytm_total_views": 8870291
     }
   ],
   "metadata": {
@@ -5386,24 +5427,14 @@
         "subscribers": "25.8K"
       },
       {
-        "name": "Hikari Mitsushima",
-        "browse_id": "UCmQX9uNXRj07dI4iZcN9ZMQ",
-        "subscribers": "137K"
-      },
-      {
         "name": "NakamuraEmi",
         "browse_id": "UCEOGqk0O-cOJPmkx7c-dvKA",
         "subscribers": "54.4K"
       },
       {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "104K"
-      },
-      {
-        "name": "MHRJ",
-        "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "89.4K"
+        "name": "tofubeats",
+        "browse_id": "UCDsYyiCcQPwmgkDiHsaGB2A",
+        "subscribers": "421K"
       },
       {
         "name": "DE DE MOUSE",
@@ -5419,6 +5450,16 @@
         "name": "PAS TASTA",
         "browse_id": "UCXWyAgpgtm-Ae1E1aud3ajg",
         "subscribers": "218K"
+      },
+      {
+        "name": "MHRJ",
+        "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
+        "subscribers": "89.4K"
+      },
+      {
+        "name": "Skirt",
+        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
+        "subscribers": "104K"
       }
     ],
     "ytm_top_songs": [
@@ -6216,6 +6257,12 @@
           "views": 153198,
           "likes": 2897,
           "comments": 26
+        },
+        {
+          "date": "2026-08-23",
+          "views": 153623,
+          "likes": 2905,
+          "comments": 26
         }
       ]
     },
@@ -6987,6 +7034,12 @@
         {
           "date": "2026-08-22",
           "views": 609388,
+          "likes": 5568,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-23",
+          "views": 609822,
           "likes": 5568,
           "comments": 18
         }
@@ -7762,6 +7815,12 @@
           "views": 338707,
           "likes": 3604,
           "comments": 7
+        },
+        {
+          "date": "2026-08-23",
+          "views": 338944,
+          "likes": 3605,
+          "comments": 7
         }
       ]
     },
@@ -8533,6 +8592,12 @@
         {
           "date": "2026-08-22",
           "views": 60622,
+          "likes": 197,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-23",
+          "views": 60740,
           "likes": 197,
           "comments": 2
         }
@@ -9368,6 +9433,12 @@
           "views": 16059,
           "likes": 412,
           "comments": 4
+        },
+        {
+          "date": "2026-08-23",
+          "views": 16448,
+          "likes": 426,
+          "comments": 5
         }
       ]
     }
@@ -10557,6 +10628,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-22T14:29:41.557402+00:00"
+    },
+    {
+      "date": "2026-08-23",
+      "metric": "monthly_listeners",
+      "value": 64305,
+      "baseline_mean": 48783.3,
+      "baseline_stddev": 5646.2,
+      "delta": 15521,
+      "score": 2.75,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-23T14:30:54.237019+00:00"
     }
   ]
 }
