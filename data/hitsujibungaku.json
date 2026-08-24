@@ -5940,6 +5940,42 @@
       "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-08-22調査）",
       "confidence": "medium",
       "added_at": "2026-08-22T15:00:00Z"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "武道館ライブ映像公開前の先行的なYouTube総再生数急増（原因は推定、既知のアーティファクトパターンと類似）",
+      "description": "youtube_total_viewsが+6,882,734（2.3σ）の異常上昇を記録。2日後の8/22に音楽ナタリー・Skream!・BARKS等が『Hitsujibungaku Asia Tour 2025 \"いま、ここ (Right now, right here.)\" at 日本武道館』ライブ映像（「声」「more than words」等全4曲、9/3までの夏休み期間限定公開）をYouTubeで公開したと一斉に報じており、この公開に関連した動きの可能性がある。ただし8/20付の具体的な公式発表・報道は確認できず、同日付で既に登録されている別アノテーション（複数アーティストで確認された階段状のYouTube API集計アーティファクト仮説）とも数値パターン（数日間横ばい後の階段状急増）が整合するため、確度は低い。",
+      "category": "other",
+      "source": "natalie.mu/music/news/686268, skream.jp/news/2026/08/hitsujibungaku_live_video.php, barks.jp/news/1084771/",
+      "confidence": "low",
+      "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "YouTube総再生数の急増が2日連続で継続（原因不明、武道館映像公開の助走の可能性）",
+      "description": "youtube_total_viewsが+6,443,843（2.15σ）の異常上昇を記録し、前日8/20に続く連続検知となった。8/22に公式発表された日本武道館ライブ映像（「声」等全4曲、MUSIC AWARDS JAPAN 2026最優秀オルタナティブ楽曲賞受賞曲を含む）のYouTube公開に向けた助走的な動きやSNS上での先行拡散の可能性が考えられるが、8/21付の具体的な報道・発表は確認できなかった。同時期のyoutube_total_views急増は既存アノテーション（08-20・08-22参照）で指摘されている階段状のデータ収集アーティファクトパターンとも一致するため、確度は低い。",
+      "category": "other",
+      "source": "natalie.mu/music/news/686268",
+      "confidence": "low",
+      "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "日本武道館ライブ映像（「声」「more than words」等全4曲）を夏休み期間限定でYouTube公開、YouTube総再生数が急増",
+      "description": "youtube_total_viewsが+6,689,837（2.27σ）の異常上昇を記録。同日8/22、音楽ナタリー・Skream!・BARKS・共同通信tvfan等が一斉に、羊文学が『Hitsujibungaku Asia Tour 2025 \"いま、ここ (Right now, right here.)\" at 日本武道館』（MUSIC AWARDS JAPAN 2026最優秀オルタナティブ楽曲賞受賞曲「声」を含む全4曲）のライブ映像を「本日から9月3日（木）までの夏休み期間限定」でYouTube公開したと報じた。9/4開幕の全国ホールツアー「羊文学 TOUR 2026 \"すーーーはーーー\"」の告知も兼ねている。複数メディアの報道日と検知日が完全に一致するため確度は高い。",
+      "category": "release",
+      "source": "natalie.mu/music/news/686268, skream.jp/news/2026/08/hitsujibungaku_live_video.php, barks.jp/news/1084771/, tvfan.kyodo.co.jp/music/news-music/1522624",
+      "confidence": "high",
+      "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "武道館ライブ映像公開（8/22）の反響継続でYouTube総再生数が増加",
+      "description": "youtube_total_viewsが+6,700,015（2.08σ）の異常上昇を記録。8/22（土）に公開された日本武道館ライブ映像（「声」「more than words」等全4曲、9/3までの夏休み期間限定公開）の視聴が週末を挟んで拡大した影響とみられる。8/23（日）は異常検知されなかったが、週明けにかけて視聴が積み上がった可能性がある。8/29・30開催の「じゅじゅフェス2026 -5th anniversary-」出演（8/6発表）への注目度上昇も重なっているとみられるが、単一の新規トリガーは確認できず確度は中程度。",
+      "category": "release",
+      "source": "natalie.mu/music/news/686268, news.yahoo.co.jp/articles/038f32aa411ff2c68b88b3d382e9f8ebdc82c423",
+      "confidence": "medium",
+      "added_at": "2026-08-24T15:50:10Z"
     }
   ],
   "metadata": {

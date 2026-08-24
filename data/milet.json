@@ -5772,6 +5772,24 @@
       "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-08-22調査）",
       "confidence": "medium",
       "added_at": "2026-08-22T15:00:00Z"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "4thアルバム『Made of Glass』リリース直後のプロモーション露出増加",
+      "description": "youtube_total_viewsが+5,990,077回（2.08σ）急増。8月19日発売の4thオリジナル・アルバム『Made of Glass』に合わせ、8月18日20時に本人による全曲解説映像、8月19日20時に新曲「Christmas Eve」MVがYouTubeでプレミア公開され、同日20時30分にはStationheadでのリスニングパーティも開催された。Billboard JAPANの先ヨミ・デジタルチャート（8月21日付記事）では『Made of Glass』がダウンロードアルバム首位を走行中と報じられており、リリース直後の新規コンテンツ公開とメディア露出増がYouTube視聴回数の伸びに寄与したとみられる。ただし8月19日付アノテーションで指摘した通り、同時期に複数アーティスト（バズ未検知の海外アーティスト含む）で同様のyoutube_total_views階段状急増パターンが確認されており、データ収集側のアーティファクトが一部混在している可能性も排除できない。",
+      "category": "release",
+      "source": "skream.jp, tvfan.kyodo.co.jp, billboard-japan.com, sonymusic.co.jp",
+      "confidence": "medium",
+      "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "『Made of Glass』リリース1週間、プロモーション継続による視聴数増加",
+      "description": "youtube_total_viewsが+6,338,595回（2.12σ）急増。8月19日発売の4thアルバム『Made of Glass』のリリースから1週間弱が経過し、8月19日公開の新曲「Christmas Eve」MVや全曲解説映像等の新規コンテンツへのアクセスが継続していること、Billboard JAPANダウンロードアルバムチャートで首位走行中（8月21日付報道）と好調なリリース初動を背景としたプロモーション露出増が影響した可能性が高い。ただし、8月19日時点で同一パターンの階段状急増がBillie Eilish等バズ未検知の海外アーティストにも確認されたAPI側アーティファクトの可能性も残っており、確定的な単一要因の特定には至らなかった。",
+      "category": "release",
+      "source": "skream.jp, tvfan.kyodo.co.jp, billboard-japan.com, sonymusic.co.jp",
+      "confidence": "medium",
+      "added_at": "2026-08-24T15:50:10Z"
     }
   ],
   "metadata": {

@@ -6014,6 +6014,33 @@
       "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-08-22調査）",
       "confidence": "medium",
       "added_at": "2026-08-22T15:00:00Z"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "ILLIT「I Got Your Back」韓国版、M COUNTDOWN出演（JISOO・MOMOKA参加）",
+      "description": "youtube_total_viewsが34,112,406増加（2.12σ、organic）。BELIFT LAB所属ILLITが8/17に「I Got Your Back」（HANAのJISOO・MOMOKAがfeat.参加）の韓国語版をリリースし、8/20にはMnet「M COUNTDOWN」でJISOO・MOMOKAが韓国音楽番組に初出演。K-POP方面での露出・認知拡大が想定される一方、8/19アノテーションで指摘した通り同時期にYouTube Data API側の階段状データ変動（バズ未検知の海外アーティストを含む複数アーティストで同一パターン確認済み）も継続しており、増加分の一部はデータ収集側のアーティファクトの可能性がある。",
+      "category": "collab",
+      "source": "https://www.allkpop.com/article/2026/08/illit-drops-korean-version-of-their-japanese-hit-song-i-got-your-back, https://www.seoulvibes.net/illit-hana-m-countdown-i-got-your-back/",
+      "confidence": "medium",
+      "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "数値上の異常上昇を検知（原因不明、8/19〜8/22データ変動パターンの継続とみられる）",
+      "description": "youtube_total_viewsが35,199,870増加（2.11σ、organic）。8/21付でHANA固有の明確な新規施策・ニュースは確認できなかった（natalie.mu HANAニュース一覧を確認）。8/19アノテーションで指摘したYouTube Data API取得の階段状データ変動（複数アーティストで同一パターン確認）が8/19〜8/22にかけて連続しており、本日分もその継続である可能性が高い。前日8/20のILLIT「I Got Your Back」韓国版M COUNTDOWN出演の余波も否定できない。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較）, https://natalie.mu/music/news/list/artist_id/136183",
+      "confidence": "low",
+      "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "フジテレビ系「MUSIC FAIR」初出演、「Bloom」披露",
+      "description": "youtube_total_viewsが35,357,187増加（2.05σ、organic）。8/22放送のフジテレビ系音楽番組「SHIONOGI MUSIC FAIR」にHANAが初出演し「Bloom」を披露（THE ALFEE・≠ME・松下洸平と共演）。地上波音楽番組への露出増がYouTube指標に寄与した可能性がある一方、8/19〜8/21にかけて継続しているYouTube Data API側のデータ変動パターン（8/19アノテーション参照）の一部である可能性も残る。",
+      "category": "tv",
+      "source": "https://news.yahoo.co.jp/articles/80cec0963a657a1a50c6fce838147dfc313815a8, https://topics.smt.docomo.ne.jp/article/ggtnews/entertainment/ggtnews-iEcni",
+      "confidence": "medium",
+      "added_at": "2026-08-24T15:50:10Z"
     }
   ],
   "metadata": {

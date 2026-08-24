@@ -5904,6 +5904,33 @@
       "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-08-22調査）",
       "confidence": "medium",
       "added_at": "2026-08-22T15:00:00Z"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "「WILD BUNCH FEST. 2026」開幕前でYouTube総再生数が上昇（+102万・2.34σ）",
+      "description": "8月21〜23日に山口きらら博記念公園で開催される音楽フェス「WILD BUNCH FEST. 2026」（Aoooは8/22 Bandits Stageに出演、2年連続出演）の開幕前日にあたり、フェス関連の話題化・出演者の楽曲予習需要が高まる中でYouTube総再生数が+1,023,381（2.34σ）上昇した。なお同日は複数アーティストで同様の階段状の急増パターンが確認されており（本ファイル内2026-08-22付アノテーション参照）、YouTube Data API側のデータ収集アーティファクトの可能性も排除できないため確度は低めとした。",
+      "category": "tour",
+      "source": "wildbunchfest.jp/general-info/, sonymusic.co.jp/artist/Aooo/info/582953",
+      "confidence": "low",
+      "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "「WILD BUNCH FEST. 2026」開幕（Day1）でYouTube総再生数が上昇（+97万・2.11σ）",
+      "description": "「WILD BUNCH FEST. 2026」（山口きらら博記念公園）が8月21日にDay1として開幕。Aoooは翌8/22のDay2 Bandits Stageに出演予定で、フェス開幕に伴う出演アーティスト全体への関心の高まりやSNS上のフェス実況投稿の増加が押し上げ要因になったとみられる。YouTube総再生数は+968,826（2.11σ）上昇した。",
+      "category": "tour",
+      "source": "wildbunchfest.jp/general-info/, sonymusic.co.jp/artist/Aooo/info/582953",
+      "confidence": "medium",
+      "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "「WILD BUNCH FEST. 2026」終演（8/23）翌日、ライブレポート拡散でYouTube総再生数が上昇（+106万・2.2σ）",
+      "description": "Aoooが8月22日にBandits Stageへ出演した「WILD BUNCH FEST. 2026」（8/21〜23開催、山口きらら博記念公園）が8月23日に全日程終了。終演翌日の8月24日、ライブレポートやセットリスト情報、参加者によるSNS投稿の拡散が続き、YouTube総再生数が+1,061,113（2.2σ）上昇した。",
+      "category": "tour",
+      "source": "wildbunchfest.jp/general-info/, sonymusic.co.jp/artist/Aooo/info/582953, utaten.com/live/wild-bunch-fest-setlist-2026-2",
+      "confidence": "medium",
+      "added_at": "2026-08-24T15:50:10Z"
     }
   ],
   "metadata": {

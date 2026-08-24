@@ -5840,6 +5840,42 @@
       "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-08-22調査）",
       "confidence": "medium",
       "added_at": "2026-08-22T15:00:00Z"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "数値上の異常上昇を検知（Spotify月間リスナー+59,853人、原因不明）",
+      "description": "Spotify月間リスナーが+59,853人（2.15σ）増加。8/19付アノテーションで指摘した「8/19〜21にかけての高い伸び率」の一部であり、音楽ナタリー・Oricon・Billboard JAPAN等を調査したが該当期間に一致する新曲リリース・CMタイアップ・TV出演・フェス出演・TikTokバイラル化等の話題性のある出来事は確認できなかった。同日youtube_total_viewsも+5,164,189（5.39σ）の急増を記録したが、こちらは実際の視聴増ではなく、8/19に485,435,444→490,777,709へ一括計上された後8/24まで同値で固定されているYouTube Data API取得側のアーティファクト（同日付の既存アノテーション「YouTube総再生数の急増はデータ収集側のアーティファクト」を参照）。",
+      "category": "other",
+      "source": "natalie.mu, oricon.co.jp, billboard-japan.com（該当ニュースなし）; youtube.com (data artifact)",
+      "confidence": "low",
+      "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Spotify月間リスナー増加継続・YouTube総再生数はAPIカウンター凍結アーティファクトの収束過程（3.74σ）",
+      "description": "Spotify月間リスナーが+59,610人（2.06σ）増加し、8/19〜21の高い伸び率が継続（8/19付アノテーション参照、原因となる具体的施策は未特定）。youtube_total_viewsは+4,986,114（3.74σ）の急増を検知したが、実際の値は8/19に490,777,709へ一括計上されて以降変化しておらず、移動平均が追いつく過程で生じる統計的アーティファクト。5/18-20・6/17・6/21-22・7/18-19に確認済みの同種APIカウンター凍結/解除パターン（5.39σ→3.74σ→3.00σと縮小するシグネチャ）と一致する。",
+      "category": "other",
+      "source": "natalie.mu, oricon.co.jp, billboard-japan.com（該当ニュースなし）; youtube.com (data artifact)",
+      "confidence": "medium",
+      "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "YouTube総再生数の急増はAPIカウンター凍結解除アーティファクトの収束過程（3.00σ）",
+      "description": "youtube_total_viewsが+4,808,038（3.00σ）の急増を検知したが、実際の値は8/19に490,777,709へ一括計上されて以降8/22時点でも同値のまま変化していない（youtube_video_countも86で不変）。σ値が8/20: 5.39σ→8/21: 3.74σ→8/22: 3.00σと縮小しており、5/18-20・6/17・6/21-22・7/18-19に確認された既知のYouTube Data APIカウンター凍結/解除パターンと同一のシグネチャで収束段階に入っている。",
+      "category": "other",
+      "source": "youtube.com (data artifact); 内部データ分析",
+      "confidence": "high",
+      "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "YouTube総再生数の急増はAPIカウンター凍結アーティファクトの残影（2.24σ、8/23は非検知）",
+      "description": "youtube_total_viewsが+4,451,887（2.24σ）の急増を検知したが、実際の値は8/19の490,777,709一括計上以降8/24まで完全に不変。8/23はσ値が閾値未満で検知されなかったが、8/24に再び移動平均との乖離が2.24σとして表れた。6/21付アノテーション（同一の2.24σシグネチャ）と一致しており、既知のAPI凍結アーティファクトの収束末期と判断される。",
+      "category": "other",
+      "source": "youtube.com (data artifact)",
+      "confidence": "high",
+      "added_at": "2026-08-24T15:50:10Z"
     }
   ],
   "metadata": {
