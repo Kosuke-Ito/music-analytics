@@ -5565,6 +5565,47 @@
       "ytm_subscribers": 29400,
       "ytm_monthly_listeners": 94000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-24",
+      "monthly_listeners": 55869,
+      "collected_at": "2026-08-24T14:33:43.666963+00:00",
+      "spotify_followers": 36585,
+      "youtube_subscribers": 29400,
+      "youtube_total_views": 15596475,
+      "youtube_video_count": 189,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2082
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1369
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 977
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 702
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 423
+        }
+      ],
+      "lastfm_listeners": 20025,
+      "lastfm_playcount": 221205,
+      "ytm_subscribers": 29400,
+      "ytm_monthly_listeners": 94000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5598,24 +5639,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "First Love is Never Returned",
-        "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "81K"
-      },
-      {
-        "name": "BILLY BOO",
-        "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
-        "subscribers": "223K"
+        "name": "NIKO NIKO TAN TAN",
+        "browse_id": "UCbyzNb5hHmY4dsv2AJWur6A",
+        "subscribers": "37.2K"
       },
       {
         "name": "Tempalay",
         "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
         "subscribers": "127K"
-      },
-      {
-        "name": "Yaffle",
-        "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "183K"
       },
       {
         "name": "MHRJ",
@@ -5638,14 +5669,24 @@
         "subscribers": "175K"
       },
       {
+        "name": "Okamoto's",
+        "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
+        "subscribers": "217K"
+      },
+      {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
         "subscribers": "72.6K"
       },
       {
-        "name": "Kayoko Yoshizawa",
-        "browse_id": "UCbyPRq7zMUVjKiY2teAETNg",
-        "subscribers": "255K"
+        "name": "BILLY BOO",
+        "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
+        "subscribers": "223K"
+      },
+      {
+        "name": "Yaffle",
+        "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
+        "subscribers": "183K"
       }
     ],
     "ytm_top_songs": [
@@ -6472,6 +6513,12 @@
           "views": 17426,
           "likes": 157,
           "comments": 3
+        },
+        {
+          "date": "2026-08-24",
+          "views": 17447,
+          "likes": 157,
+          "comments": 3
         }
       ]
     },
@@ -7273,6 +7320,12 @@
         {
           "date": "2026-08-23",
           "views": 51827,
+          "likes": 422,
+          "comments": 9
+        },
+        {
+          "date": "2026-08-24",
+          "views": 51953,
           "likes": 422,
           "comments": 9
         }
@@ -8078,6 +8131,12 @@
           "views": 220746,
           "likes": 2605,
           "comments": 39
+        },
+        {
+          "date": "2026-08-24",
+          "views": 220999,
+          "likes": 2608,
+          "comments": 39
         }
       ]
     },
@@ -8861,6 +8920,12 @@
         {
           "date": "2026-08-23",
           "views": 3855,
+          "likes": 58,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-24",
+          "views": 3857,
           "likes": 58,
           "comments": 5
         }
@@ -9699,6 +9764,12 @@
           "views": 2277,
           "likes": 25,
           "comments": 1
+        },
+        {
+          "date": "2026-08-24",
+          "views": 2287,
+          "likes": 25,
+          "comments": 1
         }
       ]
     }
@@ -10382,6 +10453,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:14:01.939866+00:00"
+    },
+    {
+      "date": "2026-08-24",
+      "metric": "youtube_total_views",
+      "value": 15596475,
+      "baseline_mean": 15498801.0,
+      "baseline_stddev": 43177.3,
+      "delta": 97673,
+      "score": 2.26,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-24T14:33:45.241671+00:00"
     }
   ]
 }

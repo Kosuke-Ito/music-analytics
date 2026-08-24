@@ -5451,6 +5451,47 @@
       "ytm_subscribers": 467000,
       "ytm_monthly_listeners": 4920000,
       "ytm_total_views": 368791042
+    },
+    {
+      "date": "2026-08-24",
+      "monthly_listeners": 1786588,
+      "collected_at": "2026-08-24T14:48:17.573132+00:00",
+      "spotify_followers": 524377,
+      "youtube_subscribers": 467000,
+      "youtube_total_views": 372658946,
+      "youtube_video_count": 154,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 65705
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 48154
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 43429
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 32508
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 21560
+        }
+      ],
+      "lastfm_listeners": 18977,
+      "lastfm_playcount": 1290569,
+      "ytm_subscribers": 467000,
+      "ytm_monthly_listeners": 4920000,
+      "ytm_total_views": 369469394
     }
   ],
   "annotations": [
@@ -5933,24 +5974,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Nishina",
-        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
-        "subscribers": "257K"
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "1.4M"
       },
       {
-        "name": "Asian Kung-Fu Generation",
-        "browse_id": "UCx_es_PpRD6fhpNU-vzlQ_g",
-        "subscribers": "4.15M"
-      },
-      {
-        "name": "milet",
-        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "6.94M"
-      },
-      {
-        "name": "regallily",
-        "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
-        "subscribers": "267K"
+        "name": "A_o",
+        "browse_id": "UCW2Hy3WUVvoj_mlLjrWLRmw",
+        "subscribers": "13.9K"
       },
       {
         "name": "Laura day romance",
@@ -5981,6 +6012,16 @@
         "name": "Brandy Senki",
         "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
         "subscribers": "138K"
+      },
+      {
+        "name": "Nishina",
+        "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
+        "subscribers": "257K"
+      },
+      {
+        "name": "bungeitengoku",
+        "browse_id": "UCO-XTBzvzhd7FgNoNseKqIw",
+        "subscribers": "86.3K"
       }
     ],
     "ytm_top_songs": [
@@ -6796,6 +6837,12 @@
           "views": 21032033,
           "likes": 134297,
           "comments": 397
+        },
+        {
+          "date": "2026-08-24",
+          "views": 21057934,
+          "likes": 134434,
+          "comments": 397
         }
       ]
     },
@@ -7587,6 +7634,12 @@
           "views": 5502199,
           "likes": 35988,
           "comments": 192
+        },
+        {
+          "date": "2026-08-24",
+          "views": 5528139,
+          "likes": 36101,
+          "comments": 193
         }
       ]
     },
@@ -8611,6 +8664,12 @@
           "views": 1580535,
           "likes": 14134,
           "comments": 86
+        },
+        {
+          "date": "2026-08-24",
+          "views": 1582619,
+          "likes": 14144,
+          "comments": 86
         }
       ]
     },
@@ -9402,6 +9461,12 @@
           "views": 2324820,
           "likes": 17873,
           "comments": 126
+        },
+        {
+          "date": "2026-08-24",
+          "views": 2327717,
+          "likes": 17896,
+          "comments": 126
         }
       ]
     },
@@ -9941,6 +10006,12 @@
           "views": 4255496,
           "likes": 34463,
           "comments": 274
+        },
+        {
+          "date": "2026-08-24",
+          "views": 4258466,
+          "likes": 34485,
+          "comments": 271
         }
       ]
     },
@@ -10749,6 +10820,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
       "detected_at": "2026-08-23T14:28:50.397070+00:00"
+    },
+    {
+      "date": "2026-08-24",
+      "metric": "youtube_total_views",
+      "value": 372658946,
+      "baseline_mean": 365958930.6,
+      "baseline_stddev": 3215372.5,
+      "delta": 6700015,
+      "score": 2.08,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-24T14:48:19.153680+00:00"
     }
   ]
 }

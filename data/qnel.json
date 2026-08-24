@@ -5583,6 +5583,47 @@
       "ytm_subscribers": 481,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-24",
+      "monthly_listeners": 2626,
+      "collected_at": "2026-08-24T14:40:18.351798+00:00",
+      "spotify_followers": 976,
+      "youtube_subscribers": 481,
+      "youtube_total_views": 168874,
+      "youtube_video_count": 187,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 118
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 62
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 54
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 49
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 33
+        }
+      ],
+      "lastfm_listeners": 781,
+      "lastfm_playcount": 2535,
+      "ytm_subscribers": 481,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5931,16 +5972,16 @@
     ],
     "ytm_top_songs": [
       {
-        "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
-        "video_id": "vcXhVJqD_u8"
+        "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
+        "video_id": "gMrPbqFtkbQ"
       },
       {
         "title": "スーパースター - Superstar",
         "video_id": "UWlaQWdCoxY"
       },
       {
-        "title": "ハイウェイ - Highway (feat. Kengo Kamanaka)",
-        "video_id": "gMrPbqFtkbQ"
+        "title": "裸のOh ! Summer - Hadakano Oh ! Summer (feat. Isonokun)",
+        "video_id": "vcXhVJqD_u8"
       },
       {
         "title": "徒歩圏内 - Tohokennai",
@@ -6631,6 +6672,12 @@
         {
           "date": "2026-08-23",
           "views": 3782,
+          "likes": 24,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-24",
+          "views": 3792,
           "likes": 24,
           "comments": 0
         }
@@ -7430,6 +7477,12 @@
           "views": 6384,
           "likes": 23,
           "comments": 0
+        },
+        {
+          "date": "2026-08-24",
+          "views": 6386,
+          "likes": 23,
+          "comments": 0
         }
       ]
     },
@@ -8183,6 +8236,12 @@
         {
           "date": "2026-08-23",
           "views": 12844,
+          "likes": 78,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-24",
+          "views": 12851,
           "likes": 78,
           "comments": 0
         }
@@ -8982,6 +9041,12 @@
           "views": 32920,
           "likes": 152,
           "comments": 0
+        },
+        {
+          "date": "2026-08-24",
+          "views": 32925,
+          "likes": 152,
+          "comments": 0
         }
       ]
     },
@@ -9772,6 +9837,12 @@
           "date": "2026-08-23",
           "views": 8537,
           "likes": 65,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-24",
+          "views": 8546,
+          "likes": 66,
           "comments": 0
         }
       ]
@@ -10782,6 +10853,18 @@
       "type": "annotated",
       "related_annotation": "新曲「Magic Hour」効果が継続——月間リスナー2,557人（2.6σ）に到達",
       "detected_at": "2026-08-23T14:21:31.431440+00:00"
+    },
+    {
+      "date": "2026-08-24",
+      "metric": "monthly_listeners",
+      "value": 2626,
+      "baseline_mean": 1454.0,
+      "baseline_stddev": 532.3,
+      "delta": 1172,
+      "score": 2.2,
+      "type": "annotated",
+      "related_annotation": "新曲「Magic Hour」効果が継続——月間リスナー2,557人（2.6σ）に到達",
+      "detected_at": "2026-08-24T14:40:20.173177+00:00"
     }
   ]
 }

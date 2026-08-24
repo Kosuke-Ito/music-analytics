@@ -5457,6 +5457,47 @@
       "ytm_subscribers": 874000,
       "ytm_monthly_listeners": 2450000,
       "ytm_total_views": 594739715
+    },
+    {
+      "date": "2026-08-24",
+      "monthly_listeners": 1844954,
+      "collected_at": "2026-08-24T14:47:44.636739+00:00",
+      "spotify_followers": 1522231,
+      "youtube_subscribers": 874000,
+      "youtube_total_views": 596373948,
+      "youtube_video_count": 141,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 94632
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 82268
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65703
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 37726
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35666
+        }
+      ],
+      "lastfm_listeners": 59299,
+      "lastfm_playcount": 1683041,
+      "ytm_subscribers": 874000,
+      "ytm_monthly_listeners": 2450000,
+      "ytm_total_views": 594739715
     }
   ],
   "annotations": [
@@ -5815,19 +5856,14 @@
         "subscribers": "177K"
       },
       {
-        "name": "Garakuta",
-        "browse_id": "UCPefsEntoGzOqN5okHtDX9g",
-        "subscribers": "87.2K"
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "4.77M"
       },
       {
-        "name": "FOMARE",
-        "browse_id": "UCO5kmsT9xpy-ADoWy0UQX1g",
-        "subscribers": "336K"
-      },
-      {
-        "name": "Marcy",
-        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "2.15M"
+        "name": "Second backer",
+        "browse_id": "UCZgg9_VmBAYupqk5ObECmng",
+        "subscribers": "1.88M"
       },
       {
         "name": "the shes gone",
@@ -5842,7 +5878,7 @@
       {
         "name": "Mr.Forte",
         "browse_id": "UC7-BeMV8TshWVp0FQK8K0Pg",
-        "subscribers": "94.8K"
+        "subscribers": "94.7K"
       },
       {
         "name": "YUTORI-SEDAI",
@@ -5850,14 +5886,19 @@
         "subscribers": "247K"
       },
       {
+        "name": "bokula.",
+        "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
+        "subscribers": "519K"
+      },
+      {
         "name": "PERKERS",
         "browse_id": "UCDuET5BNAZkXySSy4RU-QHw",
         "subscribers": "18.7K"
       },
       {
-        "name": "tokyo kimiga inai machi",
-        "browse_id": "UCcMmtei7oDCXplPI2g9ssqg",
-        "subscribers": "2.46K"
+        "name": "Garakuta",
+        "browse_id": "UCPefsEntoGzOqN5okHtDX9g",
+        "subscribers": "87.2K"
       }
     ],
     "ytm_top_songs": [
@@ -6679,6 +6720,12 @@
           "views": 5592159,
           "likes": 24133,
           "comments": 56
+        },
+        {
+          "date": "2026-08-24",
+          "views": 5608250,
+          "likes": 24220,
+          "comments": 56
         }
       ]
     },
@@ -7463,6 +7510,12 @@
           "date": "2026-08-23",
           "views": 6097521,
           "likes": 27879,
+          "comments": 50
+        },
+        {
+          "date": "2026-08-24",
+          "views": 6114655,
+          "likes": 27942,
           "comments": 50
         }
       ]
@@ -8261,6 +8314,12 @@
           "views": 3290244,
           "likes": 16878,
           "comments": 39
+        },
+        {
+          "date": "2026-08-24",
+          "views": 3298742,
+          "likes": 16910,
+          "comments": 39
         }
       ]
     },
@@ -9046,6 +9105,12 @@
           "views": 3713724,
           "likes": 21144,
           "comments": 43
+        },
+        {
+          "date": "2026-08-24",
+          "views": 3721947,
+          "likes": 21192,
+          "comments": 43
         }
       ]
     },
@@ -9656,6 +9721,12 @@
           "date": "2026-08-23",
           "views": 2972382,
           "likes": 12397,
+          "comments": 30
+        },
+        {
+          "date": "2026-08-24",
+          "views": 2981741,
+          "likes": 12428,
           "comments": 30
         }
       ]
@@ -10690,6 +10761,18 @@
       "type": "annotated",
       "related_annotation": "WILD BUNCH FEST. 2026・Sky Jamboree 2026への連続フェス出演",
       "detected_at": "2026-08-23T14:28:18.991738+00:00"
+    },
+    {
+      "date": "2026-08-24",
+      "metric": "monthly_listeners",
+      "value": 1844954,
+      "baseline_mean": 1788519.5,
+      "baseline_stddev": 27883.4,
+      "delta": 56434,
+      "score": 2.02,
+      "type": "annotated",
+      "related_annotation": "WILD BUNCH FEST. 2026・Sky Jamboree 2026への連続フェス出演",
+      "detected_at": "2026-08-24T14:47:46.167072+00:00"
     }
   ]
 }

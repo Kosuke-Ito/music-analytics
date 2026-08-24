@@ -5378,6 +5378,47 @@
       "ytm_subscribers": 38800,
       "ytm_monthly_listeners": 77900,
       "ytm_total_views": 8870291
+    },
+    {
+      "date": "2026-08-24",
+      "monthly_listeners": 65136,
+      "collected_at": "2026-08-24T14:50:37.178955+00:00",
+      "spotify_followers": 52769,
+      "youtube_subscribers": 38800,
+      "youtube_total_views": 9113490,
+      "youtube_video_count": 82,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4030
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1593
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 999
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 930
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 882
+        }
+      ],
+      "lastfm_listeners": 24358,
+      "lastfm_playcount": 409302,
+      "ytm_subscribers": 38800,
+      "ytm_monthly_listeners": 77900,
+      "ytm_total_views": 8870291
     }
   ],
   "metadata": {
@@ -5412,24 +5453,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "punipunidenki",
-        "browse_id": "UCQuRNFcXKZvE3FeQuF8AULg",
-        "subscribers": "145K"
-      },
-      {
-        "name": "mekakushe",
-        "browse_id": "UCfYjCQKVwI__ENELuJ8mwEg",
-        "subscribers": "70.9K"
-      },
-      {
-        "name": "AAAMYYY",
-        "browse_id": "UC6Ydky9GghVtUi0QqqoxPoA",
-        "subscribers": "25.8K"
-      },
-      {
         "name": "NakamuraEmi",
         "browse_id": "UCEOGqk0O-cOJPmkx7c-dvKA",
         "subscribers": "54.4K"
+      },
+      {
+        "name": "Trooper Salute",
+        "browse_id": "UCuiTYrfvp1onZb9Mc64qVPw",
+        "subscribers": "118K"
       },
       {
         "name": "tofubeats",
@@ -5457,9 +5488,19 @@
         "subscribers": "89.4K"
       },
       {
+        "name": "Hakushi Hasegawa",
+        "browse_id": "UCPvjq3k_DKTa02GWveuicfg",
+        "subscribers": "145K"
+      },
+      {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
         "subscribers": "104K"
+      },
+      {
+        "name": "Ako",
+        "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
+        "subscribers": "128K"
       }
     ],
     "ytm_top_songs": [
@@ -6263,6 +6304,12 @@
           "views": 153623,
           "likes": 2905,
           "comments": 26
+        },
+        {
+          "date": "2026-08-24",
+          "views": 154029,
+          "likes": 2911,
+          "comments": 26
         }
       ]
     },
@@ -7041,6 +7088,12 @@
           "date": "2026-08-23",
           "views": 609822,
           "likes": 5568,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-24",
+          "views": 610154,
+          "likes": 5571,
           "comments": 18
         }
       ]
@@ -7821,6 +7874,12 @@
           "views": 338944,
           "likes": 3605,
           "comments": 7
+        },
+        {
+          "date": "2026-08-24",
+          "views": 339181,
+          "likes": 3604,
+          "comments": 7
         }
       ]
     },
@@ -8599,6 +8658,12 @@
           "date": "2026-08-23",
           "views": 60740,
           "likes": 197,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-24",
+          "views": 60813,
+          "likes": 199,
           "comments": 2
         }
       ]
@@ -9438,6 +9503,12 @@
           "date": "2026-08-23",
           "views": 16448,
           "likes": 426,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-24",
+          "views": 16900,
+          "likes": 433,
           "comments": 5
         }
       ]
@@ -10640,6 +10711,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-23T14:30:54.237019+00:00"
+    },
+    {
+      "date": "2026-08-24",
+      "metric": "monthly_listeners",
+      "value": 65136,
+      "baseline_mean": 49436.8,
+      "baseline_stddev": 6239.2,
+      "delta": 15699,
+      "score": 2.52,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-24T14:50:38.986014+00:00"
     }
   ]
 }

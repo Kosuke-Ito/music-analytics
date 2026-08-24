@@ -5569,6 +5569,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 217000,
       "ytm_total_views": 44176390
+    },
+    {
+      "date": "2026-08-24",
+      "monthly_listeners": 237138,
+      "collected_at": "2026-08-24T14:33:26.568014+00:00",
+      "spotify_followers": 142961,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44485030,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8752
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6893
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4511
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2833
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2207
+        }
+      ],
+      "lastfm_listeners": 71169,
+      "lastfm_playcount": 1195340,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 217000,
+      "ytm_total_views": 44176390
     }
   ],
   "metadata": {
@@ -5615,8 +5656,8 @@
         "video_id": "7OCM67CQt5g"
       },
       {
-        "title": "That's All I Wish",
-        "video_id": "-75JGGEv2MI"
+        "title": "LOSTRANGER",
+        "video_id": "KHfvV2m_7eA"
       },
       {
         "title": "90's Tokyo Boys - From THE FIRST TAKE",
@@ -5624,21 +5665,6 @@
       }
     ],
     "ytm_related_artists": [
-      {
-        "name": "KANA-BOON",
-        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
-        "subscribers": "29.1M"
-      },
-      {
-        "name": "Akai Ko-En",
-        "browse_id": "UCVPEVqfO021f0jXz3sWNGSA",
-        "subscribers": "82.2K"
-      },
-      {
-        "name": "VK Blanka",
-        "browse_id": "UCg2rvXE9x3zg01ZxyIt9DpA",
-        "subscribers": "1.45M"
-      },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
@@ -5673,6 +5699,21 @@
         "name": "Glim Spanky",
         "browse_id": "UCYykT4n0YsFugkRdrXlFZ1Q",
         "subscribers": "668K"
+      },
+      {
+        "name": "BREIMEN",
+        "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
+        "subscribers": "94K"
+      },
+      {
+        "name": "Tempalay",
+        "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
+        "subscribers": "127K"
+      },
+      {
+        "name": "tacica",
+        "browse_id": "UCVhYxCyDQx_BW-n7CKFAH7Q",
+        "subscribers": "230K"
       }
     ],
     "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia ("
@@ -6527,6 +6568,12 @@
           "views": 15566,
           "likes": 207,
           "comments": 3
+        },
+        {
+          "date": "2026-08-24",
+          "views": 15598,
+          "likes": 207,
+          "comments": 3
         }
       ]
     },
@@ -7329,6 +7376,12 @@
           "date": "2026-08-23",
           "views": 940544,
           "likes": 11814,
+          "comments": 32
+        },
+        {
+          "date": "2026-08-24",
+          "views": 941105,
+          "likes": 11818,
           "comments": 32
         }
       ]
@@ -8588,6 +8641,12 @@
           "views": 236597,
           "likes": 1730,
           "comments": 7
+        },
+        {
+          "date": "2026-08-24",
+          "views": 236780,
+          "likes": 1730,
+          "comments": 7
         }
       ]
     },
@@ -9775,6 +9834,23 @@
           "views": 30576,
           "likes": 364,
           "comments": 2
+        },
+        {
+          "date": "2026-08-24",
+          "views": 30589,
+          "likes": 364,
+          "comments": 2
+        }
+      ]
+    },
+    "KHfvV2m_7eA": {
+      "title": "LOSTRANGER",
+      "history": [
+        {
+          "date": "2026-08-24",
+          "views": 2267,
+          "likes": 46,
+          "comments": 1
         }
       ]
     }
@@ -10288,6 +10364,18 @@
       "type": "annotated",
       "related_annotation": "「LOSTRANGER」リリース＆脱退報道の反響が継続",
       "detected_at": "2026-08-23T14:15:16.411366+00:00"
+    },
+    {
+      "date": "2026-08-24",
+      "metric": "monthly_listeners",
+      "value": 237138,
+      "baseline_mean": 222533.9,
+      "baseline_stddev": 5487.1,
+      "delta": 14604,
+      "score": 2.66,
+      "type": "annotated",
+      "related_annotation": "「LOSTRANGER」リリース＆脱退報道の反響が継続",
+      "detected_at": "2026-08-24T14:33:28.107351+00:00"
     }
   ]
 }

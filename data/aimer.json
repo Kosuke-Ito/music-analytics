@@ -5451,6 +5451,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 11800000,
       "ytm_total_views": 1886716892
+    },
+    {
+      "date": "2026-08-24",
+      "monthly_listeners": 3409300,
+      "collected_at": "2026-08-24T14:46:04.065026+00:00",
+      "spotify_followers": 2880741,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1889427657,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 76858
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 74424
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68546
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 48867
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40562
+        }
+      ],
+      "lastfm_listeners": 503953,
+      "lastfm_playcount": 25679498,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 11800000,
+      "ytm_total_views": 1886716892
     }
   ],
   "metadata": {
@@ -5485,24 +5526,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "ASCA",
-        "browse_id": "UCXkItX65rhwqvr8VAenH7xA",
-        "subscribers": "754K"
-      },
-      {
-        "name": "Hana Hope",
-        "browse_id": "UCZEjgx64nScw5olfoL1wfAw",
-        "subscribers": "207K"
-      },
-      {
         "name": "krage",
         "browse_id": "UCg3fieU_nWIdFBOrqVqNUGQ",
         "subscribers": "206K"
-      },
-      {
-        "name": "sayuri",
-        "browse_id": "UCj-s48Irk1pcgnqvYIh4Xuw",
-        "subscribers": "1.6M"
       },
       {
         "name": "Rei Yasuda",
@@ -5515,14 +5541,24 @@
         "subscribers": "393K"
       },
       {
-        "name": "Tielle",
-        "browse_id": "UCc0K8GT24B9QjG9Pidchn4A",
-        "subscribers": "31.7K"
+        "name": "ASCA",
+        "browse_id": "UCXkItX65rhwqvr8VAenH7xA",
+        "subscribers": "754K"
       },
       {
         "name": "MIYUNA",
         "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
         "subscribers": "167K"
+      },
+      {
+        "name": "THE SIXTH LIE",
+        "browse_id": "UCoRGhE2qSzy7QIvD4jTHgKw",
+        "subscribers": "114K"
+      },
+      {
+        "name": "Hana Hope",
+        "browse_id": "UCZEjgx64nScw5olfoL1wfAw",
+        "subscribers": "207K"
       },
       {
         "name": "YOURNESS",
@@ -5533,6 +5569,11 @@
         "name": "sajou no hana",
         "browse_id": "UCWNPJK9pQWSRiyr-b6nmQ4Q",
         "subscribers": "304K"
+      },
+      {
+        "name": "Minami",
+        "browse_id": "UCEsOqBVe_DNEUAer9TYk6bw",
+        "subscribers": "1.78M"
       }
     ],
     "ytm_top_songs": [
@@ -6348,6 +6389,12 @@
           "views": 42352696,
           "likes": 296644,
           "comments": 1625
+        },
+        {
+          "date": "2026-08-24",
+          "views": 42386834,
+          "likes": 296843,
+          "comments": 1627
         }
       ]
     },
@@ -7138,6 +7185,12 @@
           "date": "2026-08-23",
           "views": 34468277,
           "likes": 157917,
+          "comments": 158
+        },
+        {
+          "date": "2026-08-24",
+          "views": 34483626,
+          "likes": 157960,
           "comments": 158
         }
       ]
@@ -7930,6 +7983,12 @@
           "views": 21374430,
           "likes": 118309,
           "comments": 294
+        },
+        {
+          "date": "2026-08-24",
+          "views": 21388062,
+          "likes": 118375,
+          "comments": 294
         }
       ]
     },
@@ -8667,6 +8726,12 @@
           "views": 5890768,
           "likes": 58412,
           "comments": 930
+        },
+        {
+          "date": "2026-08-24",
+          "views": 5896600,
+          "likes": 58444,
+          "comments": 931
         }
       ]
     },
@@ -9493,6 +9558,12 @@
           "views": 31809402,
           "likes": 135519,
           "comments": 779
+        },
+        {
+          "date": "2026-08-24",
+          "views": 31829961,
+          "likes": 135576,
+          "comments": 779
         }
       ]
     },
@@ -10299,6 +10370,18 @@
       "type": "annotated",
       "related_annotation": "『鬼滅の刃』無限城編 第一章 特別上映開始（8/21）と重なり話題化",
       "detected_at": "2026-08-23T14:26:47.421587+00:00"
+    },
+    {
+      "date": "2026-08-24",
+      "metric": "monthly_listeners",
+      "value": 3409300,
+      "baseline_mean": 3382579.4,
+      "baseline_stddev": 12050.8,
+      "delta": 26720,
+      "score": 2.22,
+      "type": "annotated",
+      "related_annotation": "『鬼滅の刃』無限城編 第一章 特別上映開始（8/21）と重なり話題化",
+      "detected_at": "2026-08-24T14:46:05.613270+00:00"
     }
   ]
 }
