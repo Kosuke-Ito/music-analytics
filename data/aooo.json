@@ -5610,6 +5610,47 @@
       "ytm_subscribers": 103000,
       "ytm_monthly_listeners": 1050000,
       "ytm_total_views": 29310564
+    },
+    {
+      "date": "2026-08-25",
+      "monthly_listeners": 189247,
+      "collected_at": "2026-08-25T14:39:03.508231+00:00",
+      "spotify_followers": 64131,
+      "youtube_subscribers": 103000,
+      "youtube_total_views": 35831035,
+      "youtube_video_count": 314,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 9602
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 6655
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4574
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4531
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 3035
+        }
+      ],
+      "lastfm_listeners": 15377,
+      "lastfm_playcount": 354590,
+      "ytm_subscribers": 103000,
+      "ytm_monthly_listeners": 1000000,
+      "ytm_total_views": 29310564
     }
   ],
   "annotations": [
@@ -5959,40 +6000,40 @@
     "lastfm_tags": [
       "alternative rock",
       "japanese",
-      "indie rock",
       "nippon",
+      "indie rock",
       "2020s"
     ],
     "ytm_related_artists": [
       {
-        "name": "OddRe:",
-        "browse_id": "UCLRAvTum9DcWeJQtHn1D3WA",
-        "subscribers": "155K"
+        "name": "NOMELON NOLEMON",
+        "browse_id": "UC42-y14_2cA9PAaqe-mAHjA",
+        "subscribers": "1.36M"
+      },
+      {
+        "name": "CLAN QUEEN",
+        "browse_id": "UCuCIY6NNMyjANg60NEgHONg",
+        "subscribers": "310K"
       },
       {
         "name": "sanetii",
         "browse_id": "UCC4DaSQOF1wDYZQMZ1Ir5ew",
-        "subscribers": "170K"
+        "subscribers": "126K"
       },
       {
         "name": "Cidergirl",
         "browse_id": "UCj0gYbIUSGS_m1yqbPi4TIQ",
-        "subscribers": "310K"
+        "subscribers": "303K"
       },
       {
-        "name": "rassemble",
-        "browse_id": "UCVXQ6yWhb-eFlxUdcJRF_2w",
-        "subscribers": "58.1K"
-      },
-      {
-        "name": "PompadollS",
-        "browse_id": "UCmu5lpe6Wt-7yCHe2rA4zYQ",
-        "subscribers": "238K"
+        "name": "NEGISHIO TONDON",
+        "browse_id": "UCb15VymqPPdgK9nnISoDDCg",
+        "subscribers": "520K"
       },
       {
         "name": "nakigoto",
         "browse_id": "UC4sq6m-foW44E1QTMzW6GsA",
-        "subscribers": "73.7K"
+        "subscribers": "76K"
       },
       {
         "name": "CENT",
@@ -6000,19 +6041,19 @@
         "subscribers": "70.3K"
       },
       {
-        "name": "POP ART TOWN",
-        "browse_id": "UCbhKDQv_LzbuXteh5Yrs0-A",
-        "subscribers": "15.1K"
-      },
-      {
         "name": "MEminor",
         "browse_id": "UCmSCQ3l78WtSEvy2wc-myFQ",
-        "subscribers": "241K"
+        "subscribers": "263K"
       },
       {
         "name": "TenTwenty",
         "browse_id": "UCSx3FcYgs3hIFW-pScIw_Vw",
-        "subscribers": "76K"
+        "subscribers": "69.9K"
+      },
+      {
+        "name": "NELKE",
+        "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
+        "subscribers": "1.46M"
       }
     ],
     "ytm_top_songs": [
@@ -7521,6 +7562,12 @@
           "date": "2026-08-24",
           "views": 184603,
           "likes": 1553,
+          "comments": 12
+        },
+        {
+          "date": "2026-08-25",
+          "views": 184990,
+          "likes": 1556,
           "comments": 12
         }
       ]
@@ -9263,6 +9310,12 @@
           "views": 99129,
           "likes": 1465,
           "comments": 72
+        },
+        {
+          "date": "2026-08-25",
+          "views": 99678,
+          "likes": 1470,
+          "comments": 72
         }
       ]
     },
@@ -9681,6 +9734,12 @@
           "views": 35586,
           "likes": 394,
           "comments": 3
+        },
+        {
+          "date": "2026-08-25",
+          "views": 36024,
+          "likes": 397,
+          "comments": 3
         }
       ]
     },
@@ -10081,6 +10140,12 @@
           "views": 45160,
           "likes": 686,
           "comments": 17
+        },
+        {
+          "date": "2026-08-25",
+          "views": 45767,
+          "likes": 689,
+          "comments": 17
         }
       ]
     },
@@ -10121,6 +10186,12 @@
           "date": "2026-08-24",
           "views": 38253,
           "likes": 504,
+          "comments": 4
+        },
+        {
+          "date": "2026-08-25",
+          "views": 38909,
+          "likes": 511,
           "comments": 4
         }
       ]
@@ -10942,6 +11013,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-24T14:36:29.768814+00:00"
+    },
+    {
+      "date": "2026-08-25",
+      "metric": "youtube_total_views",
+      "value": 35831035,
+      "baseline_mean": 34833008.5,
+      "baseline_stddev": 493611.8,
+      "delta": 998026,
+      "score": 2.02,
+      "type": "annotated",
+      "related_annotation": "「WILD BUNCH FEST. 2026」終演（8/23）翌日、ライブレポート拡散でYouTube総再生数が上昇（+106万・2.2σ）",
+      "detected_at": "2026-08-25T14:39:04.804527+00:00"
     }
   ]
 }

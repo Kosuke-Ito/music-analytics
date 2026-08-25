@@ -5419,6 +5419,47 @@
       "ytm_subscribers": 38800,
       "ytm_monthly_listeners": 77900,
       "ytm_total_views": 8870291
+    },
+    {
+      "date": "2026-08-25",
+      "monthly_listeners": 65948,
+      "collected_at": "2026-08-25T14:53:14.904192+00:00",
+      "spotify_followers": 52790,
+      "youtube_subscribers": 38800,
+      "youtube_total_views": 9113490,
+      "youtube_video_count": 82,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4051
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1606
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1020
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 953
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 879
+        }
+      ],
+      "lastfm_listeners": 24364,
+      "lastfm_playcount": 409436,
+      "ytm_subscribers": 38800,
+      "ytm_monthly_listeners": 94200,
+      "ytm_total_views": 8870291
     }
   ],
   "metadata": {
@@ -5447,25 +5488,15 @@
     "lastfm_tags": [
       "japanese",
       "techno",
-      "House",
       "j-pop",
-      "shibuya-kei"
+      "House",
+      "japan"
     ],
     "ytm_related_artists": [
       {
-        "name": "NakamuraEmi",
-        "browse_id": "UCEOGqk0O-cOJPmkx7c-dvKA",
-        "subscribers": "54.4K"
-      },
-      {
-        "name": "Trooper Salute",
-        "browse_id": "UCuiTYrfvp1onZb9Mc64qVPw",
-        "subscribers": "118K"
-      },
-      {
         "name": "tofubeats",
         "browse_id": "UCDsYyiCcQPwmgkDiHsaGB2A",
-        "subscribers": "421K"
+        "subscribers": "370K"
       },
       {
         "name": "DE DE MOUSE",
@@ -5480,17 +5511,7 @@
       {
         "name": "PAS TASTA",
         "browse_id": "UCXWyAgpgtm-Ae1E1aud3ajg",
-        "subscribers": "218K"
-      },
-      {
-        "name": "MHRJ",
-        "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "89.4K"
-      },
-      {
-        "name": "Hakushi Hasegawa",
-        "browse_id": "UCPvjq3k_DKTa02GWveuicfg",
-        "subscribers": "145K"
+        "subscribers": "206K"
       },
       {
         "name": "Skirt",
@@ -5498,9 +5519,29 @@
         "subscribers": "104K"
       },
       {
-        "name": "Ako",
-        "browse_id": "UCJdgMcvs5gnXQehgc9aW_0A",
-        "subscribers": "128K"
+        "name": "pa-o-mu99999",
+        "browse_id": "UCUyrPrqYjWKYjLTJnkauHRg",
+        "subscribers": "19.1K"
+      },
+      {
+        "name": "Passepied",
+        "browse_id": "UCe3gbnhf3tesVdTxVyKEIkw",
+        "subscribers": "157K"
+      },
+      {
+        "name": "Trooper Salute",
+        "browse_id": "UCuiTYrfvp1onZb9Mc64qVPw",
+        "subscribers": "138K"
+      },
+      {
+        "name": "ikkubaru",
+        "browse_id": "UC7jScMdJ0YibkvRT7UxcNRA",
+        "subscribers": "5.73K"
+      },
+      {
+        "name": "chelmico",
+        "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
+        "subscribers": "223K"
       }
     ],
     "ytm_top_songs": [
@@ -6310,6 +6351,12 @@
           "views": 154029,
           "likes": 2911,
           "comments": 26
+        },
+        {
+          "date": "2026-08-25",
+          "views": 154500,
+          "likes": 2922,
+          "comments": 26
         }
       ]
     },
@@ -7094,6 +7141,12 @@
           "date": "2026-08-24",
           "views": 610154,
           "likes": 5571,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-25",
+          "views": 610619,
+          "likes": 5577,
           "comments": 18
         }
       ]
@@ -7880,6 +7933,12 @@
           "views": 339181,
           "likes": 3604,
           "comments": 7
+        },
+        {
+          "date": "2026-08-25",
+          "views": 339438,
+          "likes": 3605,
+          "comments": 7
         }
       ]
     },
@@ -8663,6 +8722,12 @@
         {
           "date": "2026-08-24",
           "views": 60813,
+          "likes": 199,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-25",
+          "views": 60896,
           "likes": 199,
           "comments": 2
         }
@@ -9509,6 +9574,12 @@
           "date": "2026-08-24",
           "views": 16900,
           "likes": 433,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-25",
+          "views": 17341,
+          "likes": 439,
           "comments": 5
         }
       ]
@@ -10768,6 +10839,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-24T14:50:38.986014+00:00"
+    },
+    {
+      "date": "2026-08-25",
+      "metric": "monthly_listeners",
+      "value": 65948,
+      "baseline_mean": 50117.9,
+      "baseline_stddev": 6777.3,
+      "delta": 15830,
+      "score": 2.34,
+      "type": "annotated",
+      "related_annotation": "アジアツアー発表・新曲「wonders」話題の拡散が継続（3日目）",
+      "detected_at": "2026-08-25T14:53:16.760860+00:00"
+    },
+    {
+      "date": "2026-08-25",
+      "metric": "ytm_monthly_listeners",
+      "value": 94200,
+      "baseline_mean": 67376.6,
+      "baseline_stddev": 6591.5,
+      "delta": 26823,
+      "score": 4.07,
+      "type": "annotated",
+      "related_annotation": "アジアツアー発表・新曲「wonders」話題の拡散が継続（3日目）",
+      "detected_at": "2026-08-25T14:53:16.760860+00:00"
     }
   ]
 }

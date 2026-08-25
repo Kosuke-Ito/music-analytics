@@ -5786,6 +5786,47 @@
       "ytm_subscribers": 2460000,
       "ytm_monthly_listeners": 118000000,
       "ytm_total_views": 1929411932
+    },
+    {
+      "date": "2026-08-25",
+      "monthly_listeners": 5572311,
+      "collected_at": "2026-08-25T14:42:21.625833+00:00",
+      "spotify_followers": 2421301,
+      "youtube_subscribers": 2460000,
+      "youtube_total_views": 1948511753,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 90766
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 79974
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 65683
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 60702
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 54304
+        }
+      ],
+      "lastfm_listeners": 650814,
+      "lastfm_playcount": 22803964,
+      "ytm_subscribers": 2460000,
+      "ytm_monthly_listeners": 107000000,
+      "ytm_total_views": 1929411932
     }
   ],
   "annotations": [
@@ -6208,39 +6249,34 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Take-M",
-        "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
-        "subscribers": "395K"
-      },
-      {
         "name": "meiyo",
         "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
-        "subscribers": "26.3M"
+        "subscribers": "25.3M"
       },
       {
-        "name": "ALI",
-        "browse_id": "UCcM2nwYSXoS0pRpljTefmpg",
-        "subscribers": "10.1M"
+        "name": "Take-M",
+        "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
+        "subscribers": "426K"
       },
       {
-        "name": "ano",
-        "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
-        "subscribers": "3.24M"
-      },
-      {
-        "name": "millennium parade",
-        "browse_id": "UCnJMQvo6RE1SsCMKw9KFb8g",
-        "subscribers": "1.1M"
-      },
-      {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "2.06M"
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "58M"
       },
       {
         "name": "frederic",
         "browse_id": "UCFTm4lY-D08LFZyncZIoDIQ",
-        "subscribers": "6.91M"
+        "subscribers": "6.61M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "25.6M"
+      },
+      {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "2.25M"
       },
       {
         "name": "nobodyknows+",
@@ -6248,14 +6284,19 @@
         "subscribers": "17.2K"
       },
       {
-        "name": "DOES",
-        "browse_id": "UCBJVbQXjnummrzbcFkX9FLA",
-        "subscribers": "1.17M"
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "74.4M"
       },
       {
-        "name": "PEOPLE 1",
-        "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "1.18M"
+        "name": "Sambomaster",
+        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
+        "subscribers": "3.79M"
+      },
+      {
+        "name": "ano",
+        "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
+        "subscribers": "3M"
       }
     ],
     "ytm_top_songs": [
@@ -6798,6 +6839,18 @@
       "type": "annotated",
       "related_annotation": "新曲「Running Wheel」配信リリース＋Honda「N-BOX CUSTOM」新CMタイアップ",
       "detected_at": "2026-08-24T14:39:47.904615+00:00"
+    },
+    {
+      "date": "2026-08-25",
+      "metric": "monthly_listeners",
+      "value": 5572311,
+      "baseline_mean": 5488938.3,
+      "baseline_stddev": 22311.0,
+      "delta": 83372,
+      "score": 3.74,
+      "type": "annotated",
+      "related_annotation": "新曲「Running Wheel」配信リリース＋Honda「N-BOX CUSTOM」新CMタイアップ",
+      "detected_at": "2026-08-25T14:42:23.406766+00:00"
     }
   ],
   "song_performance": {
@@ -7607,6 +7660,12 @@
           "views": 26432786,
           "likes": 327431,
           "comments": 1118
+        },
+        {
+          "date": "2026-08-25",
+          "views": 26501681,
+          "likes": 328214,
+          "comments": 1125
         }
       ]
     },
@@ -8416,6 +8475,12 @@
           "views": 22577934,
           "likes": 290744,
           "comments": 1123
+        },
+        {
+          "date": "2026-08-25",
+          "views": 22625161,
+          "likes": 291242,
+          "comments": 1125
         }
       ]
     },
@@ -9224,6 +9289,12 @@
           "date": "2026-08-24",
           "views": 8027959,
           "likes": 102587,
+          "comments": 1147
+        },
+        {
+          "date": "2026-08-25",
+          "views": 8039773,
+          "likes": 102685,
           "comments": 1147
         }
       ]
@@ -10034,6 +10105,12 @@
           "views": 12914225,
           "likes": 118525,
           "comments": 540
+        },
+        {
+          "date": "2026-08-25",
+          "views": 12923871,
+          "likes": 118596,
+          "comments": 540
         }
       ]
     },
@@ -10722,6 +10799,12 @@
           "date": "2026-08-24",
           "views": 6036521,
           "likes": 55941,
+          "comments": 195
+        },
+        {
+          "date": "2026-08-25",
+          "views": 6040350,
+          "likes": 55970,
           "comments": 195
         }
       ]
