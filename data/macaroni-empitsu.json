@@ -5542,6 +5542,47 @@
       "ytm_subscribers": 600000,
       "ytm_monthly_listeners": 5160000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 2987725,
+      "collected_at": "2026-08-26T14:50:13.135230+00:00",
+      "spotify_followers": 2055971,
+      "youtube_subscribers": 601000,
+      "youtube_total_views": 519354813,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 156678
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 137347
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 108521
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 58903
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 58455
+        }
+      ],
+      "lastfm_listeners": 7955,
+      "lastfm_playcount": 471704,
+      "ytm_subscribers": 601000,
+      "ytm_monthly_listeners": 5160000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5941,9 +5982,9 @@
         "subscribers": "1.91M"
       },
       {
-        "name": "SIX LOUNGE",
-        "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
-        "subscribers": "1.75M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "18.5M"
       },
       {
         "name": "Tele",
@@ -5956,19 +5997,14 @@
         "subscribers": "2.4M"
       },
       {
+        "name": "SIX LOUNGE",
+        "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
+        "subscribers": "1.75M"
+      },
+      {
         "name": "SUPER BEAVER",
         "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
         "subscribers": "2.01M"
-      },
-      {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "18.5M"
-      },
-      {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "7.92M"
       },
       {
         "name": "SHISHAMO",
@@ -5979,6 +6015,11 @@
         "name": "go!go!vanillas",
         "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
         "subscribers": "637K"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "7.92M"
       }
     ],
     "ytm_top_songs": [
@@ -6799,6 +6840,12 @@
           "views": 13063141,
           "likes": 73598,
           "comments": 146
+        },
+        {
+          "date": "2026-08-26",
+          "views": 13078170,
+          "likes": 73653,
+          "comments": 147
         }
       ]
     },
@@ -7596,6 +7643,12 @@
           "views": 25803527,
           "likes": 94795,
           "comments": 181
+        },
+        {
+          "date": "2026-08-26",
+          "views": 25823958,
+          "likes": 94877,
+          "comments": 181
         }
       ]
     },
@@ -8381,6 +8434,12 @@
           "views": 17717865,
           "likes": 65372,
           "comments": 120
+        },
+        {
+          "date": "2026-08-26",
+          "views": 17732486,
+          "likes": 65428,
+          "comments": 120
         }
       ]
     },
@@ -9088,6 +9147,12 @@
           "views": 46150847,
           "likes": 143592,
           "comments": 246
+        },
+        {
+          "date": "2026-08-26",
+          "views": 46169672,
+          "likes": 143659,
+          "comments": 246
         }
       ]
     },
@@ -9776,6 +9841,12 @@
           "views": 16602848,
           "likes": 98404,
           "comments": 592
+        },
+        {
+          "date": "2026-08-26",
+          "views": 16644007,
+          "likes": 98623,
+          "comments": 593
         }
       ]
     },
@@ -10979,6 +11050,30 @@
       "type": "annotated",
       "related_annotation": "新曲「運命さがし」TikTok先行配信＆ハッシュタグチャレンジ開始でYouTube再生数が増加",
       "detected_at": "2026-08-25T14:50:10.537398+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "ytm_monthly_listeners",
+      "value": 5160000,
+      "baseline_mean": 4842666.7,
+      "baseline_stddev": 106987.0,
+      "delta": 317333,
+      "score": 2.97,
+      "type": "annotated",
+      "related_annotation": "新曲「運命さがし」TikTok先行配信＆ハッシュタグチャレンジ開始でYouTube再生数が増加",
+      "detected_at": "2026-08-26T14:50:15.304685+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "youtube_total_views",
+      "value": 519354813,
+      "baseline_mean": 513382490.4,
+      "baseline_stddev": 2952222.2,
+      "delta": 5972322,
+      "score": 2.02,
+      "type": "annotated",
+      "related_annotation": "新曲「運命さがし」TikTok先行配信＆ハッシュタグチャレンジ開始でYouTube再生数が増加",
+      "detected_at": "2026-08-26T14:50:15.304685+00:00"
     }
   ]
 }

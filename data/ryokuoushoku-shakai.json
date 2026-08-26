@@ -5454,6 +5454,47 @@
       "ytm_subscribers": 955000,
       "ytm_monthly_listeners": 8060000,
       "ytm_total_views": 926417220
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 2910284,
+      "collected_at": "2026-08-26T14:50:47.394480+00:00",
+      "spotify_followers": 1575040,
+      "youtube_subscribers": 956000,
+      "youtube_total_views": 942464558,
+      "youtube_video_count": 444,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 87712
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 86891
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 64267
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 34127
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 29349
+        }
+      ],
+      "lastfm_listeners": 17273,
+      "lastfm_playcount": 803929,
+      "ytm_subscribers": 956000,
+      "ytm_monthly_listeners": 8060000,
+      "ytm_total_views": 926417220
     }
   ],
   "annotations": [
@@ -5825,7 +5866,7 @@
       "japanese",
       "female vocalists",
       "rock",
-      "pop"
+      "female vocalist"
     ],
     "ytm_related_artists": [
       {
@@ -5834,24 +5875,9 @@
         "subscribers": "322K"
       },
       {
-        "name": "milet",
-        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "7.14M"
-      },
-      {
         "name": "asmi",
         "browse_id": "UCBYJ6DeF0mtBQQqSIQHBptA",
         "subscribers": "2.39M"
-      },
-      {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.38M"
-      },
-      {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "4.44M"
       },
       {
         "name": "aimyon",
@@ -5859,14 +5885,24 @@
         "subscribers": "9.19M"
       },
       {
+        "name": "eill",
+        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
+        "subscribers": "1.4M"
+      },
+      {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
         "subscribers": "5.56M"
       },
       {
-        "name": "eill",
-        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.4M"
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "3.38M"
+      },
+      {
+        "name": "SEKAI NO OWARI",
+        "browse_id": "UCjdWm6ZQlEtF1J2yYWgaaog",
+        "subscribers": "9.7M"
       },
       {
         "name": "Miwa",
@@ -5874,9 +5910,14 @@
         "subscribers": "2.31M"
       },
       {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "16.3M"
+        "name": "Tota",
+        "browse_id": "UCc95RA4CPcWdTRBk5YunwRA",
+        "subscribers": "2.39M"
+      },
+      {
+        "name": "Novelbright",
+        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
+        "subscribers": "4.44M"
       }
     ],
     "ytm_top_songs": [
@@ -6698,6 +6739,12 @@
           "views": 32975751,
           "likes": 281301,
           "comments": 739
+        },
+        {
+          "date": "2026-08-26",
+          "views": 33013068,
+          "likes": 281667,
+          "comments": 739
         }
       ]
     },
@@ -7495,6 +7542,12 @@
           "views": 21923489,
           "likes": 87167,
           "comments": 204
+        },
+        {
+          "date": "2026-08-26",
+          "views": 21934675,
+          "likes": 87208,
+          "comments": 204
         }
       ]
     },
@@ -8291,6 +8344,12 @@
           "date": "2026-08-25",
           "views": 1917680,
           "likes": 11388,
+          "comments": 58
+        },
+        {
+          "date": "2026-08-26",
+          "views": 1919199,
+          "likes": 11394,
           "comments": 58
         }
       ]
@@ -9824,6 +9883,12 @@
           "views": 2803751,
           "likes": 13411,
           "comments": 57
+        },
+        {
+          "date": "2026-08-26",
+          "views": 2805414,
+          "likes": 13417,
+          "comments": 57
         }
       ]
     },
@@ -9900,6 +9965,12 @@
           "date": "2026-08-25",
           "views": 69775,
           "likes": 1108,
+          "comments": 24
+        },
+        {
+          "date": "2026-08-26",
+          "views": 70864,
+          "likes": 1117,
           "comments": 24
         }
       ]
@@ -10589,6 +10660,18 @@
       "type": "annotated",
       "related_annotation": "「晴々」バレーボールアジア選手権2026中継が実際に開幕、露出がさらに拡大",
       "detected_at": "2026-08-25T14:50:43.141791+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "youtube_total_views",
+      "value": 942464558,
+      "baseline_mean": 933975733.8,
+      "baseline_stddev": 4148283.1,
+      "delta": 8488824,
+      "score": 2.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:50:48.817181+00:00"
     }
   ]
 }

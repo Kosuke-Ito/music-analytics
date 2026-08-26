@@ -5539,6 +5539,47 @@
       "ytm_subscribers": 316000,
       "ytm_monthly_listeners": 3380000,
       "ytm_total_views": 322065320
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 1514055,
+      "collected_at": "2026-08-26T14:52:45.432661+00:00",
+      "spotify_followers": 339949,
+      "youtube_subscribers": 316000,
+      "youtube_total_views": 325800427,
+      "youtube_video_count": 222,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 48095
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 42467
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 35908
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 18134
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 17067
+        }
+      ],
+      "lastfm_listeners": 143680,
+      "lastfm_playcount": 2532978,
+      "ytm_subscribers": 316000,
+      "ytm_monthly_listeners": 3380000,
+      "ytm_total_views": 322065320
     }
   ],
   "annotations": [
@@ -5938,24 +5979,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Rikon Densetsu",
-        "browse_id": "UCWfha3ah1QON9hU4hYg0BQA",
-        "subscribers": "1.02M"
-      },
-      {
         "name": "Penthouse",
         "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
         "subscribers": "1.84M"
       },
       {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "2.85M"
-      },
-      {
         "name": "Sano ibuki",
         "browse_id": "UCiUXN-d_xsBqewhfdrrGF6w",
         "subscribers": "27.1K"
+      },
+      {
+        "name": "TAIL",
+        "browse_id": "UCdKKyyzAEzwV6cLcYetJcmQ",
+        "subscribers": "71.5K"
+      },
+      {
+        "name": "EISYU",
+        "browse_id": "UCQ1dCsHilcsF2YOVXEI-4VA",
+        "subscribers": "70.6K"
       },
       {
         "name": "androp",
@@ -5965,7 +6006,7 @@
       {
         "name": "KERENMI",
         "browse_id": "UCacynfHovHzkQJ_1enhaDmw",
-        "subscribers": "2.73K"
+        "subscribers": "2.74K"
       },
       {
         "name": "Reini",
@@ -5978,14 +6019,14 @@
         "subscribers": "173K"
       },
       {
+        "name": "Rikon Densetsu",
+        "browse_id": "UCWfha3ah1QON9hU4hYg0BQA",
+        "subscribers": "1.02M"
+      },
+      {
         "name": "eill",
         "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
         "subscribers": "1.4M"
-      },
-      {
-        "name": "TAIL",
-        "browse_id": "UCdKKyyzAEzwV6cLcYetJcmQ",
-        "subscribers": "71.5K"
       }
     ],
     "ytm_top_songs": [
@@ -6819,6 +6860,12 @@
           "views": 12057821,
           "likes": 56165,
           "comments": 203
+        },
+        {
+          "date": "2026-08-26",
+          "views": 12065866,
+          "likes": 56199,
+          "comments": 203
         }
       ]
     },
@@ -7628,6 +7675,12 @@
           "views": 865937,
           "likes": 8754,
           "comments": 91
+        },
+        {
+          "date": "2026-08-26",
+          "views": 867134,
+          "likes": 8772,
+          "comments": 91
         }
       ]
     },
@@ -8412,6 +8465,12 @@
           "date": "2026-08-25",
           "views": 2306996,
           "likes": 17134,
+          "comments": 61
+        },
+        {
+          "date": "2026-08-26",
+          "views": 2308048,
+          "likes": 17146,
           "comments": 61
         }
       ]
@@ -9748,6 +9807,12 @@
           "views": 1066346,
           "likes": 9922,
           "comments": 87
+        },
+        {
+          "date": "2026-08-26",
+          "views": 1067107,
+          "likes": 9929,
+          "comments": 87
         }
       ]
     },
@@ -10074,6 +10139,12 @@
           "date": "2026-08-25",
           "views": 61212,
           "likes": 883,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-26",
+          "views": 61751,
+          "likes": 886,
           "comments": 18
         }
       ]
@@ -10811,6 +10882,30 @@
       "type": "annotated",
       "related_annotation": "ニューアルバム『Memorabilia』(9/2発売)関連の話題連続とタイアップ曲多数",
       "detected_at": "2026-08-25T14:52:42.841299+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "monthly_listeners",
+      "value": 1514055,
+      "baseline_mean": 1467171.8,
+      "baseline_stddev": 23309.2,
+      "delta": 46883,
+      "score": 2.01,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:52:46.955200+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "youtube_total_views",
+      "value": 325800427,
+      "baseline_mean": 321663248.4,
+      "baseline_stddev": 1391445.8,
+      "delta": 4137178,
+      "score": 2.97,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:52:46.955200+00:00"
     }
   ]
 }

@@ -5651,6 +5651,47 @@
       "ytm_subscribers": 108000,
       "ytm_monthly_listeners": 1470000,
       "ytm_total_views": 94427192
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 959153,
+      "collected_at": "2026-08-26T14:37:23.551897+00:00",
+      "spotify_followers": 428981,
+      "youtube_subscribers": 7420000,
+      "youtube_total_views": 6845980933,
+      "youtube_video_count": 328,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 28215
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 25736
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 18595
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 13823
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 10607
+        }
+      ],
+      "lastfm_listeners": 105275,
+      "lastfm_playcount": 1882503,
+      "ytm_subscribers": 108000,
+      "ytm_monthly_listeners": 1470000,
+      "ytm_total_views": 94427192
     }
   ],
   "metadata": {
@@ -5702,12 +5743,17 @@
       {
         "name": "balloon",
         "browse_id": "UCIg39dCXzNoVdZNITLxnfrQ",
-        "subscribers": "455"
+        "subscribers": "465"
       },
       {
         "name": "Sou",
         "browse_id": "UCsy-WAGWKgaPSDGoPBhgSsw",
         "subscribers": "2.31M"
+      },
+      {
+        "name": "Linmu",
+        "browse_id": "UCfwx8Sx11AgVgCVnGDnP3UA",
+        "subscribers": "995"
       },
       {
         "name": "EVO+",
@@ -5720,14 +5766,9 @@
         "subscribers": "13.1M"
       },
       {
-        "name": "Wolpis Carter",
-        "browse_id": "UCPUEgxCu5JomJ74fXaBGZnw",
-        "subscribers": "1.73M"
-      },
-      {
-        "name": "Akiyama Kiro",
-        "browse_id": "UCB7j6mxjx2NxAnnBu-YRFdQ",
-        "subscribers": "2.67M"
+        "name": "TUYU",
+        "browse_id": "UCZkClY03Vnv-X9qMnEHzxHQ",
+        "subscribers": "602K"
       },
       {
         "name": "Mikito-P",
@@ -6475,6 +6516,12 @@
           "date": "2026-08-25",
           "views": 29810059,
           "likes": 143563,
+          "comments": 41
+        },
+        {
+          "date": "2026-08-26",
+          "views": 29817441,
+          "likes": 143600,
           "comments": 41
         }
       ]
@@ -7243,6 +7290,12 @@
           "views": 15697933,
           "likes": 73793,
           "comments": 23
+        },
+        {
+          "date": "2026-08-26",
+          "views": 15704735,
+          "likes": 73878,
+          "comments": 23
         }
       ]
     },
@@ -7787,6 +7840,12 @@
           "date": "2026-08-25",
           "views": 15247574,
           "likes": 63903,
+          "comments": 30
+        },
+        {
+          "date": "2026-08-26",
+          "views": 15253388,
+          "likes": 63928,
           "comments": 30
         }
       ]
@@ -8548,6 +8607,12 @@
           "date": "2026-08-25",
           "views": 8068943,
           "likes": 39885,
+          "comments": 15
+        },
+        {
+          "date": "2026-08-26",
+          "views": 8072058,
+          "likes": 39901,
           "comments": 15
         }
       ]
@@ -9357,6 +9422,12 @@
           "date": "2026-08-25",
           "views": 1392781,
           "likes": 12869,
+          "comments": 38
+        },
+        {
+          "date": "2026-08-26",
+          "views": 1393803,
+          "likes": 12877,
           "comments": 38
         }
       ]
@@ -10713,6 +10784,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-25T14:37:26.634476+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "ytm_monthly_listeners",
+      "value": 1470000,
+      "baseline_mean": 1352333.3,
+      "baseline_stddev": 42244.0,
+      "delta": 117666,
+      "score": 2.79,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:37:24.694657+00:00"
     }
   ]
 }

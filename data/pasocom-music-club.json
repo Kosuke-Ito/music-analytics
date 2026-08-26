@@ -5460,6 +5460,47 @@
       "ytm_subscribers": 38800,
       "ytm_monthly_listeners": 94200,
       "ytm_total_views": 8870291
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 66888,
+      "collected_at": "2026-08-26T14:53:19.413808+00:00",
+      "spotify_followers": 52816,
+      "youtube_subscribers": 38800,
+      "youtube_total_views": 9113490,
+      "youtube_video_count": 82,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4104
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1634
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1041
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 951
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 900
+        }
+      ],
+      "lastfm_listeners": 24369,
+      "lastfm_playcount": 409627,
+      "ytm_subscribers": 38800,
+      "ytm_monthly_listeners": 94200,
+      "ytm_total_views": 8870291
     }
   ],
   "metadata": {
@@ -5494,6 +5535,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Yasutaka Nakata",
+        "browse_id": "UC-ijwQ4zsUaNi2LWCS-J0RQ",
+        "subscribers": "3.61M"
+      },
+      {
         "name": "tofubeats",
         "browse_id": "UCDsYyiCcQPwmgkDiHsaGB2A",
         "subscribers": "370K"
@@ -5514,34 +5560,29 @@
         "subscribers": "206K"
       },
       {
+        "name": "MHRJ",
+        "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
+        "subscribers": "88K"
+      },
+      {
+        "name": "Hakushi Hasegawa",
+        "browse_id": "UCPvjq3k_DKTa02GWveuicfg",
+        "subscribers": "132K"
+      },
+      {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
         "subscribers": "104K"
       },
       {
+        "name": "Hikari Mitsushima",
+        "browse_id": "UCmQX9uNXRj07dI4iZcN9ZMQ",
+        "subscribers": "130K"
+      },
+      {
         "name": "pa-o-mu99999",
         "browse_id": "UCUyrPrqYjWKYjLTJnkauHRg",
         "subscribers": "19.1K"
-      },
-      {
-        "name": "Passepied",
-        "browse_id": "UCe3gbnhf3tesVdTxVyKEIkw",
-        "subscribers": "157K"
-      },
-      {
-        "name": "Trooper Salute",
-        "browse_id": "UCuiTYrfvp1onZb9Mc64qVPw",
-        "subscribers": "138K"
-      },
-      {
-        "name": "ikkubaru",
-        "browse_id": "UC7jScMdJ0YibkvRT7UxcNRA",
-        "subscribers": "5.73K"
-      },
-      {
-        "name": "chelmico",
-        "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "223K"
       }
     ],
     "ytm_top_songs": [
@@ -6357,6 +6398,12 @@
           "views": 154500,
           "likes": 2922,
           "comments": 26
+        },
+        {
+          "date": "2026-08-26",
+          "views": 155019,
+          "likes": 2930,
+          "comments": 26
         }
       ]
     },
@@ -7147,6 +7194,12 @@
           "date": "2026-08-25",
           "views": 610619,
           "likes": 5577,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-26",
+          "views": 610987,
+          "likes": 5578,
           "comments": 18
         }
       ]
@@ -7939,6 +7992,12 @@
           "views": 339438,
           "likes": 3605,
           "comments": 7
+        },
+        {
+          "date": "2026-08-26",
+          "views": 339637,
+          "likes": 3607,
+          "comments": 7
         }
       ]
     },
@@ -8728,6 +8787,12 @@
         {
           "date": "2026-08-25",
           "views": 60896,
+          "likes": 199,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-26",
+          "views": 60976,
           "likes": 199,
           "comments": 2
         }
@@ -9580,6 +9645,12 @@
           "date": "2026-08-25",
           "views": 17341,
           "likes": 439,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-26",
+          "views": 17731,
+          "likes": 443,
           "comments": 5
         }
       ]
@@ -10863,6 +10934,30 @@
       "type": "annotated",
       "related_annotation": "アジアツアー発表・新曲「wonders」話題の拡散が継続（3日目）",
       "detected_at": "2026-08-25T14:53:16.760860+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "monthly_listeners",
+      "value": 66888,
+      "baseline_mean": 50826.0,
+      "baseline_stddev": 7266.8,
+      "delta": 16061,
+      "score": 2.21,
+      "type": "annotated",
+      "related_annotation": "Spotify月間リスナーの増加が継続（4日目）",
+      "detected_at": "2026-08-26T14:53:21.255205+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "ytm_monthly_listeners",
+      "value": 94200,
+      "baseline_mean": 68423.3,
+      "baseline_stddev": 8101.7,
+      "delta": 25776,
+      "score": 3.18,
+      "type": "annotated",
+      "related_annotation": "Spotify月間リスナーの増加が継続（4日目）",
+      "detected_at": "2026-08-26T14:53:21.255205+00:00"
     }
   ]
 }

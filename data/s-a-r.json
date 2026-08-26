@@ -5614,6 +5614,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 29768,
+      "collected_at": "2026-08-26T14:43:10.147387+00:00",
+      "spotify_followers": 29502,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1491463,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1552
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 848
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 659
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 511
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 383
+        }
+      ],
+      "lastfm_listeners": 5803,
+      "lastfm_playcount": 42910,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -5894,11 +5935,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Billyrrom",
-        "browse_id": "UCTpYSacoDiT9mkmxhjK1mFw",
-        "subscribers": "234K"
-      },
-      {
         "name": "reina",
         "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
         "subscribers": "3.52K"
@@ -5924,24 +5960,29 @@
         "subscribers": "419K"
       },
       {
+        "name": "Kan Sano",
+        "browse_id": "UC05tnYJ3St7yd3f6lfKdzcg",
+        "subscribers": "109K"
+      },
+      {
+        "name": "Stefan Mahendra",
+        "browse_id": "UCMZcGfiJPXZ0plcOCQ2nuPQ",
+        "subscribers": "771"
+      },
+      {
         "name": "Ryuto Kasahara",
         "browse_id": "UCc58OhwUC40aBGO81vfNsng",
         "subscribers": "6.51K"
       },
       {
+        "name": "LAGHEADS",
+        "browse_id": "UCU1Oz-fU3Lop_4201NtnM1w",
+        "subscribers": "3.21K"
+      },
+      {
         "name": "luvis",
         "browse_id": "UCpuCbW_679iOcxPRkqNIO3w",
         "subscribers": "7.9K"
-      },
-      {
-        "name": "Sweet William",
-        "browse_id": "UCLloo-Tk9tYFMVYaKB8pasg",
-        "subscribers": "487K"
-      },
-      {
-        "name": "Jeremy Quartus",
-        "browse_id": "UC_PyWbQwgv9y2RYQky9ySTg",
-        "subscribers": "6.22K"
       }
     ],
     "ytm_top_songs": [
@@ -6767,6 +6808,12 @@
           "date": "2026-08-25",
           "views": 223290,
           "likes": 2844,
+          "comments": 8
+        },
+        {
+          "date": "2026-08-26",
+          "views": 223400,
+          "likes": 2845,
           "comments": 8
         }
       ]
@@ -8018,6 +8065,12 @@
           "views": 45796,
           "likes": 386,
           "comments": 2
+        },
+        {
+          "date": "2026-08-26",
+          "views": 45844,
+          "likes": 387,
+          "comments": 2
         }
       ]
     },
@@ -8844,6 +8897,12 @@
           "views": 113291,
           "likes": 1342,
           "comments": 6
+        },
+        {
+          "date": "2026-08-26",
+          "views": 113472,
+          "likes": 1342,
+          "comments": 6
         }
       ]
     },
@@ -9549,6 +9608,12 @@
           "views": 48373,
           "likes": 487,
           "comments": 7
+        },
+        {
+          "date": "2026-08-26",
+          "views": 48422,
+          "likes": 487,
+          "comments": 7
         }
       ]
     },
@@ -10040,6 +10105,12 @@
           "views": 60352,
           "likes": 711,
           "comments": 0
+        },
+        {
+          "date": "2026-08-26",
+          "views": 60388,
+          "likes": 711,
+          "comments": 0
         }
       ]
     },
@@ -10431,6 +10502,30 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇が継続（原因不明）",
       "detected_at": "2026-08-25T14:43:15.721087+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "monthly_listeners",
+      "value": 29768,
+      "baseline_mean": 29015.6,
+      "baseline_stddev": 370.6,
+      "delta": 752,
+      "score": 2.03,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇が継続（原因不明）",
+      "detected_at": "2026-08-26T14:43:11.621264+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "youtube_total_views",
+      "value": 1491463,
+      "baseline_mean": 1467249.8,
+      "baseline_stddev": 11824.9,
+      "delta": 24213,
+      "score": 2.05,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇が継続（原因不明）",
+      "detected_at": "2026-08-26T14:43:11.621264+00:00"
     }
   ]
 }

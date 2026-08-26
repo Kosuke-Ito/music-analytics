@@ -5824,6 +5824,47 @@
       "ytm_subscribers": 58500000,
       "ytm_monthly_listeners": 369000000,
       "ytm_total_views": 23210943625
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 78621089,
+      "collected_at": "2026-08-26T14:44:34.333311+00:00",
+      "spotify_followers": 130141712,
+      "youtube_subscribers": 58500000,
+      "youtube_total_views": 23236332653,
+      "youtube_video_count": 212,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1002812
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 945943
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 934838
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 699561
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 683234
+        }
+      ],
+      "lastfm_listeners": 4373880,
+      "lastfm_playcount": 869259112,
+      "ytm_subscribers": 58500000,
+      "ytm_monthly_listeners": 369000000,
+      "ytm_total_views": 23210943625
     }
   ],
   "annotations": [
@@ -6035,6 +6076,16 @@
         "subscribers": "46.7M"
       },
       {
+        "name": "Tom Odell",
+        "browse_id": "UCrP3Rfz32MT-OH9MZh_N9kA",
+        "subscribers": "203M"
+      },
+      {
+        "name": "Harry Styles",
+        "browse_id": "UCVacQ2t5GUZ2t_J3Ia9BynA",
+        "subscribers": "126M"
+      },
+      {
         "name": "FINNEAS",
         "browse_id": "UCrbZcTv3iAHqMHWGbk0IYFA",
         "subscribers": "2.34M"
@@ -6045,24 +6096,9 @@
         "subscribers": "335M"
       },
       {
-        "name": "Tom Odell",
-        "browse_id": "UCrP3Rfz32MT-OH9MZh_N9kA",
-        "subscribers": "203M"
-      },
-      {
         "name": "Noah Cyrus",
         "browse_id": "UCUekv_6fGLPg2V4Lt2-TxWA",
         "subscribers": "23M"
-      },
-      {
-        "name": "AURORA",
-        "browse_id": "UC4G-AJa7kn8oumI6TT2WXYw",
-        "subscribers": "237M"
-      },
-      {
-        "name": "Nessa Barrett",
-        "browse_id": "UCn81HiOrP7OO3SkdGvR6HPA",
-        "subscribers": "13.3M"
       },
       {
         "name": "Celeste",
@@ -6070,9 +6106,14 @@
         "subscribers": "1.25M"
       },
       {
-        "name": "Harry Styles",
-        "browse_id": "UCVacQ2t5GUZ2t_J3Ia9BynA",
-        "subscribers": "126M"
+        "name": "Labrinth",
+        "browse_id": "UCLx8m3I4zQAQc0tdASjdAfw",
+        "subscribers": "31.5M"
+      },
+      {
+        "name": "AURORA",
+        "browse_id": "UC4G-AJa7kn8oumI6TT2WXYw",
+        "subscribers": "237M"
       }
     ],
     "ytm_top_songs": [
@@ -6912,6 +6953,12 @@
           "views": 504234900,
           "likes": 3665025,
           "comments": 18019
+        },
+        {
+          "date": "2026-08-26",
+          "views": 504642281,
+          "likes": 3667144,
+          "comments": 18026
         }
       ]
     },
@@ -7727,6 +7774,12 @@
           "views": 322934236,
           "likes": 2874044,
           "comments": 14575
+        },
+        {
+          "date": "2026-08-26",
+          "views": 323213398,
+          "likes": 2876052,
+          "comments": 14577
         }
       ]
     },
@@ -8542,6 +8595,12 @@
           "views": 541262002,
           "likes": 5007100,
           "comments": 12831
+        },
+        {
+          "date": "2026-08-26",
+          "views": 541469765,
+          "likes": 5008912,
+          "comments": 12841
         }
       ]
     },
@@ -9357,6 +9416,12 @@
           "views": 162104399,
           "likes": 1464570,
           "comments": 6915
+        },
+        {
+          "date": "2026-08-26",
+          "views": 162215412,
+          "likes": 1465251,
+          "comments": 6916
         }
       ]
     },
@@ -10172,6 +10237,12 @@
           "views": 240239453,
           "likes": 2139590,
           "comments": 7010
+        },
+        {
+          "date": "2026-08-26",
+          "views": 240368069,
+          "likes": 2140618,
+          "comments": 7012
         }
       ]
     }
@@ -10656,6 +10727,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-25T14:44:35.457588+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "ytm_monthly_listeners",
+      "value": 369000000,
+      "baseline_mean": 358866666.7,
+      "baseline_stddev": 4998221.9,
+      "delta": 10133333,
+      "score": 2.03,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:44:35.518012+00:00"
     }
   ]
 }

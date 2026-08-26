@@ -5530,6 +5530,47 @@
       "ytm_subscribers": 4870000,
       "ytm_monthly_listeners": 9830000,
       "ytm_total_views": 2038418165
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 5010997,
+      "collected_at": "2026-08-26T14:47:24.259192+00:00",
+      "spotify_followers": 2679399,
+      "youtube_subscribers": 4870000,
+      "youtube_total_views": 2112253840,
+      "youtube_video_count": 880,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 89599
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 75768
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 71035
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 69398
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 69203
+        }
+      ],
+      "lastfm_listeners": 904011,
+      "lastfm_playcount": 70841953,
+      "ytm_subscribers": 4870000,
+      "ytm_monthly_listeners": 9830000,
+      "ytm_total_views": 2040904790
     }
   ],
   "annotations": [
@@ -5789,11 +5830,6 @@
         "subscribers": "2.87M"
       },
       {
-        "name": "NiziU",
-        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "4.68M"
-      },
-      {
         "name": "A2O",
         "browse_id": "UCcy9NwrIzmzITEqiVstaN1A",
         "subscribers": "4.29M"
@@ -5809,14 +5845,19 @@
         "subscribers": "5.23M"
       },
       {
-        "name": "izna",
-        "browse_id": "UC9Om0aDfMMzXtElCJWF41FQ",
-        "subscribers": "7.6M"
-      },
-      {
         "name": "JENNIE",
         "browse_id": "UCAl7xQ6q0PEgZMQD7zr4AKQ",
         "subscribers": "268M"
+      },
+      {
+        "name": "NiziU",
+        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
+        "subscribers": "4.68M"
+      },
+      {
+        "name": "izna",
+        "browse_id": "UC9Om0aDfMMzXtElCJWF41FQ",
+        "subscribers": "7.6M"
       },
       {
         "name": "GOT the beat",
@@ -5824,14 +5865,14 @@
         "subscribers": "1.15M"
       },
       {
-        "name": "GIRLSET",
-        "browse_id": "UCHJn6i4MXz7DwAZp26CAo-w",
-        "subscribers": "15.4M"
-      },
-      {
         "name": "BADVILLAIN",
         "browse_id": "UCkw_Pss11Lokw5Ej8cr_4Ew",
         "subscribers": "791K"
+      },
+      {
+        "name": "GIRLSET",
+        "browse_id": "UCHJn6i4MXz7DwAZp26CAo-w",
+        "subscribers": "15.4M"
       }
     ],
     "ytm_top_songs": [
@@ -6653,6 +6694,12 @@
           "views": 11225775,
           "likes": 115127,
           "comments": 625
+        },
+        {
+          "date": "2026-08-26",
+          "views": 11256475,
+          "likes": 115337,
+          "comments": 626
         }
       ]
     },
@@ -7449,6 +7496,12 @@
           "date": "2026-08-25",
           "views": 47090164,
           "likes": 393023,
+          "comments": 2087
+        },
+        {
+          "date": "2026-08-26",
+          "views": 47114365,
+          "likes": 393197,
           "comments": 2087
         }
       ]
@@ -8551,6 +8604,12 @@
           "views": 18918833,
           "likes": 136257,
           "comments": 1074
+        },
+        {
+          "date": "2026-08-26",
+          "views": 18936092,
+          "likes": 136331,
+          "comments": 1075
         }
       ]
     },
@@ -9222,6 +9281,12 @@
           "views": 41499959,
           "likes": 230418,
           "comments": 239
+        },
+        {
+          "date": "2026-08-26",
+          "views": 41515088,
+          "likes": 230488,
+          "comments": 239
         }
       ]
     },
@@ -9749,6 +9814,12 @@
           "views": 1154842,
           "likes": 17043,
           "comments": 75
+        },
+        {
+          "date": "2026-08-26",
+          "views": 1162525,
+          "likes": 17107,
+          "comments": 75
         }
       ]
     },
@@ -10166,6 +10237,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-25T14:47:23.898278+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "ytm_monthly_listeners",
+      "value": 9830000,
+      "baseline_mean": 9321666.7,
+      "baseline_stddev": 225596.7,
+      "delta": 508333,
+      "score": 2.25,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:47:25.643914+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "youtube_total_views",
+      "value": 2112253840,
+      "baseline_mean": 2095242141,
+      "baseline_stddev": 8451152.5,
+      "delta": 17011699,
+      "score": 2.01,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:47:25.643914+00:00"
     }
   ]
 }

@@ -5827,6 +5827,47 @@
       "ytm_subscribers": 3580000,
       "ytm_monthly_listeners": 112000000,
       "ytm_total_views": 3483139861
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 7231526,
+      "collected_at": "2026-08-26T14:40:27.032027+00:00",
+      "spotify_followers": 5364438,
+      "youtube_subscribers": 3580000,
+      "youtube_total_views": 3498693669,
+      "youtube_video_count": 633,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 227777
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 211192
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 143109
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 87385
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 75380
+        }
+      ],
+      "lastfm_listeners": 735485,
+      "lastfm_playcount": 44179822,
+      "ytm_subscribers": 3580000,
+      "ytm_monthly_listeners": 112000000,
+      "ytm_total_views": 3483139861
     }
   ],
   "annotations": [
@@ -6147,11 +6188,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Tele",
-        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "446K"
-      },
-      {
         "name": "Anly",
         "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
         "subscribers": "3.49M"
@@ -6162,19 +6198,14 @@
         "subscribers": "5.56M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "18.5M"
-      },
-      {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "2.25M"
-      },
-      {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
         "subscribers": "2.4M"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.8M"
       },
       {
         "name": "WurtS",
@@ -6182,19 +6213,29 @@
         "subscribers": "7.92M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "25.6M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "18.5M"
+      },
+      {
+        "name": "Tele",
+        "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
+        "subscribers": "446K"
+      },
+      {
+        "name": "Yorushika",
+        "browse_id": "UCabLXblrQG4cO8F9qdd4Xsw",
+        "subscribers": "16.9M"
+      },
+      {
+        "name": "macaroni enpitsu",
+        "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
+        "subscribers": "5.16M"
       },
       {
         "name": "sumika",
         "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
         "subscribers": "3.61M"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.8M"
       }
     ],
     "ytm_top_songs": [
@@ -6998,6 +7039,12 @@
           "views": 65294624,
           "likes": 461409,
           "comments": 3351
+        },
+        {
+          "date": "2026-08-26",
+          "views": 65322000,
+          "likes": 461604,
+          "comments": 3353
         }
       ]
     },
@@ -7729,6 +7776,12 @@
           "views": 84092779,
           "likes": 1086873,
           "comments": 5223
+        },
+        {
+          "date": "2026-08-26",
+          "views": 84148913,
+          "likes": 1087642,
+          "comments": 5225
         }
       ]
     },
@@ -8693,6 +8746,12 @@
           "views": 45452612,
           "likes": 248660,
           "comments": 704
+        },
+        {
+          "date": "2026-08-26",
+          "views": 45472888,
+          "likes": 248750,
+          "comments": 706
         }
       ]
     },
@@ -9508,6 +9567,12 @@
           "views": 81514925,
           "likes": 621055,
           "comments": 4068
+        },
+        {
+          "date": "2026-08-26",
+          "views": 81544504,
+          "likes": 621192,
+          "comments": 4070
         }
       ]
     },
@@ -10209,6 +10274,12 @@
           "views": 29208273,
           "likes": 301517,
           "comments": 1974
+        },
+        {
+          "date": "2026-08-26",
+          "views": 29260644,
+          "likes": 301895,
+          "comments": 1982
         }
       ]
     },
@@ -11062,6 +11133,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-08-25T14:40:28.287722+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "ytm_monthly_listeners",
+      "value": 112000000,
+      "baseline_mean": 101183333.3,
+      "baseline_stddev": 4843695.8,
+      "delta": 10816666,
+      "score": 2.23,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:40:28.219368+00:00"
     }
   ]
 }

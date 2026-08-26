@@ -5530,6 +5530,47 @@
       "ytm_subscribers": 1770000,
       "ytm_monthly_listeners": 9970000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 3025435,
+      "collected_at": "2026-08-26T14:48:13.997211+00:00",
+      "spotify_followers": 2491061,
+      "youtube_subscribers": 1770000,
+      "youtube_total_views": 1463777031,
+      "youtube_video_count": 218,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 123832
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 111999
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 76357
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 47674
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 41607
+        }
+      ],
+      "lastfm_listeners": 21669,
+      "lastfm_playcount": 3012642,
+      "ytm_subscribers": 1770000,
+      "ytm_monthly_listeners": 9970000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5564,24 +5605,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "1.62M"
-      },
-      {
         "name": "sakanaction",
         "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
         "subscribers": "60.4M"
       },
       {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "1.84M"
-      },
-      {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.38M"
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "1.62M"
       },
       {
         "name": "Kroi",
@@ -5589,14 +5620,9 @@
         "subscribers": "451K"
       },
       {
-        "name": "Quruli",
-        "browse_id": "UCLIFRNQRDAaD5H4REYsRdmA",
-        "subscribers": "731K"
-      },
-      {
-        "name": "sumika",
-        "browse_id": "UCz_qp5woGr9GjmSzGbCCslA",
-        "subscribers": "3.61M"
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "3.38M"
       },
       {
         "name": "aiko",
@@ -5604,9 +5630,24 @@
         "subscribers": "6.78M"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "58M"
+        "name": "Penthouse",
+        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
+        "subscribers": "1.84M"
+      },
+      {
+        "name": "Quruli",
+        "browse_id": "UCLIFRNQRDAaD5H4REYsRdmA",
+        "subscribers": "731K"
+      },
+      {
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "112M"
+      },
+      {
+        "name": "Fujii Kaze",
+        "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
+        "subscribers": "52.5M"
       },
       {
         "name": "imase",
@@ -6432,6 +6473,12 @@
           "views": 61777336,
           "likes": 243892,
           "comments": 579
+        },
+        {
+          "date": "2026-08-26",
+          "views": 61811064,
+          "likes": 244032,
+          "comments": 579
         }
       ]
     },
@@ -7229,6 +7276,12 @@
           "views": 5600400,
           "likes": 45331,
           "comments": 0
+        },
+        {
+          "date": "2026-08-26",
+          "views": 5611179,
+          "likes": 45391,
+          "comments": 0
         }
       ]
     },
@@ -8013,6 +8066,12 @@
           "date": "2026-08-25",
           "views": 22278740,
           "likes": 105363,
+          "comments": 88
+        },
+        {
+          "date": "2026-08-26",
+          "views": 22291118,
+          "likes": 105426,
           "comments": 88
         }
       ]
@@ -9248,6 +9307,12 @@
           "views": 11351762,
           "likes": 51349,
           "comments": 170
+        },
+        {
+          "date": "2026-08-26",
+          "views": 11357890,
+          "likes": 51387,
+          "comments": 170
         }
       ]
     },
@@ -9719,6 +9784,12 @@
           "date": "2026-08-25",
           "views": 1274876,
           "likes": 23460,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-26",
+          "views": 1299081,
+          "likes": 23647,
           "comments": 0
         }
       ]
@@ -10892,6 +10963,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
       "detected_at": "2026-08-25T14:48:13.408444+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "ytm_monthly_listeners",
+      "value": 9970000,
+      "baseline_mean": 8636000,
+      "baseline_stddev": 338699.5,
+      "delta": 1334000,
+      "score": 3.94,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:48:15.500210+00:00"
     }
   ]
 }

@@ -5651,6 +5651,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 237000,
       "ytm_total_views": 44176390
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 239676,
+      "collected_at": "2026-08-26T14:35:57.569802+00:00",
+      "spotify_followers": 142980,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44485030,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8861
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7037
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4565
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2884
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2192
+        }
+      ],
+      "lastfm_listeners": 71187,
+      "lastfm_playcount": 1195556,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 237000,
+      "ytm_total_views": 44176390
     }
   ],
   "metadata": {
@@ -5727,6 +5768,11 @@
         "subscribers": "466K"
       },
       {
+        "name": "w.o.d.",
+        "browse_id": "UCiylP7HTmtQZO9hi-B5wnCg",
+        "subscribers": "167K"
+      },
+      {
         "name": "Glim Spanky",
         "browse_id": "UCYykT4n0YsFugkRdrXlFZ1Q",
         "subscribers": "727K"
@@ -5749,12 +5795,7 @@
       {
         "name": "boku no lyric no bouyomi",
         "browse_id": "UCw1r5leUGRTKJ4iSZ33kB9A",
-        "subscribers": "34.2K"
-      },
-      {
-        "name": "Yoru No Honki Dance",
-        "browse_id": "UCaZGUqEL8pzFRgLXXJ4dL2Q",
-        "subscribers": "115K"
+        "subscribers": "51.1K"
       }
     ],
     "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia ("
@@ -6621,6 +6662,12 @@
           "views": 15627,
           "likes": 207,
           "comments": 3
+        },
+        {
+          "date": "2026-08-26",
+          "views": 15661,
+          "likes": 207,
+          "comments": 3
         }
       ]
     },
@@ -7435,6 +7482,12 @@
           "date": "2026-08-25",
           "views": 941901,
           "likes": 11828,
+          "comments": 32
+        },
+        {
+          "date": "2026-08-26",
+          "views": 942477,
+          "likes": 11830,
           "comments": 32
         }
       ]
@@ -8706,6 +8759,12 @@
           "views": 236974,
           "likes": 1731,
           "comments": 7
+        },
+        {
+          "date": "2026-08-26",
+          "views": 237201,
+          "likes": 1733,
+          "comments": 7
         }
       ]
     },
@@ -9905,6 +9964,12 @@
           "views": 30608,
           "likes": 364,
           "comments": 2
+        },
+        {
+          "date": "2026-08-26",
+          "views": 30636,
+          "likes": 365,
+          "comments": 2
         }
       ]
     },
@@ -9921,6 +9986,12 @@
           "date": "2026-08-25",
           "views": 2345,
           "likes": 47,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-26",
+          "views": 2425,
+          "likes": 49,
           "comments": 2
         }
       ]
@@ -10471,6 +10542,30 @@
       "type": "annotated",
       "related_annotation": "「LOSTRANGER」リリース＆脱退報道の反響が継続",
       "detected_at": "2026-08-25T14:36:01.164504+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "monthly_listeners",
+      "value": 239676,
+      "baseline_mean": 223572.2,
+      "baseline_stddev": 6676.0,
+      "delta": 16103,
+      "score": 2.41,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:35:58.841578+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "ytm_monthly_listeners",
+      "value": 237000,
+      "baseline_mean": 212766.7,
+      "baseline_stddev": 7218.9,
+      "delta": 24233,
+      "score": 3.36,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:35:58.841578+00:00"
     }
   ]
 }

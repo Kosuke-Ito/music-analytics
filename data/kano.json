@@ -5642,6 +5642,47 @@
       "ytm_subscribers": 3730,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 9916,
+      "collected_at": "2026-08-26T14:39:54.460644+00:00",
+      "spotify_followers": 600,
+      "youtube_subscribers": 3730,
+      "youtube_total_views": 2248617,
+      "youtube_video_count": 126,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 353
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 207
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 201
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 155
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 146
+        }
+      ],
+      "lastfm_listeners": 295,
+      "lastfm_playcount": 1440,
+      "ytm_subscribers": 3730,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6491,6 +6532,12 @@
           "views": 415707,
           "likes": 3540,
           "comments": 22
+        },
+        {
+          "date": "2026-08-26",
+          "views": 416726,
+          "likes": 3551,
+          "comments": 22
         }
       ]
     },
@@ -7294,6 +7341,12 @@
           "views": 23434,
           "likes": 106,
           "comments": 0
+        },
+        {
+          "date": "2026-08-26",
+          "views": 23550,
+          "likes": 106,
+          "comments": 0
         }
       ]
     },
@@ -8095,6 +8148,12 @@
         {
           "date": "2026-08-25",
           "views": 7862,
+          "likes": 69,
+          "comments": 0
+        },
+        {
+          "date": "2026-08-26",
+          "views": 7902,
           "likes": 69,
           "comments": 0
         }
@@ -9598,6 +9657,12 @@
           "views": 38789,
           "likes": 446,
           "comments": 0
+        },
+        {
+          "date": "2026-08-26",
+          "views": 39369,
+          "likes": 451,
+          "comments": 0
         }
       ]
     },
@@ -9721,6 +9786,12 @@
         {
           "date": "2026-08-25",
           "views": 1075,
+          "likes": 24,
+          "comments": 1
+        },
+        {
+          "date": "2026-08-26",
+          "views": 1092,
           "likes": 24,
           "comments": 1
         }
@@ -10228,6 +10299,18 @@
       "type": "annotated",
       "related_annotation": "新曲「それ、今言う？」（7/29リリース）のロングテール効果と推定",
       "detected_at": "2026-08-25T14:39:54.643720+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "monthly_listeners",
+      "value": 9916,
+      "baseline_mean": 9282.2,
+      "baseline_stddev": 301.6,
+      "delta": 633,
+      "score": 2.1,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:39:55.790631+00:00"
     }
   ]
 }

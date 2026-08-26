@@ -5527,6 +5527,47 @@
       "ytm_subscribers": 1380000,
       "ytm_monthly_listeners": 65500000,
       "ytm_total_views": 893496244
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 4109165,
+      "collected_at": "2026-08-26T14:47:40.345653+00:00",
+      "spotify_followers": 1058014,
+      "youtube_subscribers": 1380000,
+      "youtube_total_views": 897328481,
+      "youtube_video_count": 791,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 65990
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 65155
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 53038
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 50783
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 50060
+        }
+      ],
+      "lastfm_listeners": 436750,
+      "lastfm_playcount": 6144435,
+      "ytm_subscribers": 1380000,
+      "ytm_monthly_listeners": 65500000,
+      "ytm_total_views": 893496244
     }
   ],
   "annotations": [
@@ -5888,24 +5929,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "eill",
-        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.4M"
-      },
-      {
-        "name": "Mel",
-        "browse_id": "UC3-nhpqJ7oA-Gj0fglYNQ9w",
-        "subscribers": "22.7K"
-      },
-      {
-        "name": "G over",
-        "browse_id": "UCVRsmPU-XYUpbKIm-Jha_LQ",
-        "subscribers": "82.5K"
-      },
-      {
         "name": "KERENMI",
         "browse_id": "UCacynfHovHzkQJ_1enhaDmw",
-        "subscribers": "2.73K"
+        "subscribers": "2.74K"
+      },
+      {
+        "name": "LUCKY TAPES",
+        "browse_id": "UCYvGyI6FqmS5GFnCGEttXdg",
+        "subscribers": "228K"
       },
       {
         "name": "tonun",
@@ -5923,9 +5954,14 @@
         "subscribers": "259K"
       },
       {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "2.85M"
+        "name": "Mel",
+        "browse_id": "UC3-nhpqJ7oA-Gj0fglYNQ9w",
+        "subscribers": "22.7K"
+      },
+      {
+        "name": "G over",
+        "browse_id": "UCVRsmPU-XYUpbKIm-Jha_LQ",
+        "subscribers": "82.5K"
       },
       {
         "name": "Rikon Densetsu",
@@ -5933,9 +5969,14 @@
         "subscribers": "1.02M"
       },
       {
-        "name": "LUCKY TAPES",
-        "browse_id": "UCYvGyI6FqmS5GFnCGEttXdg",
-        "subscribers": "228K"
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "3.38M"
+      },
+      {
+        "name": "eill",
+        "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
+        "subscribers": "1.4M"
       }
     ],
     "ytm_top_songs": [
@@ -6745,6 +6786,12 @@
           "views": 149281153,
           "likes": 1211317,
           "comments": 6516
+        },
+        {
+          "date": "2026-08-26",
+          "views": 149385648,
+          "likes": 1212370,
+          "comments": 6527
         }
       ]
     },
@@ -7529,6 +7576,12 @@
           "date": "2026-08-25",
           "views": 8564871,
           "likes": 62226,
+          "comments": 174
+        },
+        {
+          "date": "2026-08-26",
+          "views": 8572480,
+          "likes": 62260,
           "comments": 174
         }
       ]
@@ -8842,6 +8895,12 @@
           "views": 12132503,
           "likes": 53028,
           "comments": 157
+        },
+        {
+          "date": "2026-08-26",
+          "views": 12137654,
+          "likes": 53049,
+          "comments": 157
         }
       ]
     },
@@ -9752,6 +9811,12 @@
           "views": 7190552,
           "likes": 41335,
           "comments": 222
+        },
+        {
+          "date": "2026-08-26",
+          "views": 7199055,
+          "likes": 41374,
+          "comments": 222
         }
       ]
     },
@@ -10014,6 +10079,12 @@
           "date": "2026-08-25",
           "views": 482686,
           "likes": 6677,
+          "comments": 83
+        },
+        {
+          "date": "2026-08-26",
+          "views": 492794,
+          "likes": 6755,
           "comments": 83
         }
       ]
@@ -10907,6 +10978,18 @@
       "type": "annotated",
       "related_annotation": "youtube_total_views急増検知（2.17σ）は実態のないデータアーティファクト",
       "detected_at": "2026-08-25T14:47:40.005537+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "ytm_monthly_listeners",
+      "value": 65500000,
+      "baseline_mean": 58656666.7,
+      "baseline_stddev": 2890868.8,
+      "delta": 6843333,
+      "score": 2.37,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:47:42.332966+00:00"
     }
   ]
 }

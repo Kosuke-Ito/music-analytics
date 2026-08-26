@@ -5651,6 +5651,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 4960000,
       "ytm_total_views": 925186586
+    },
+    {
+      "date": "2026-08-26",
+      "monthly_listeners": 4058833,
+      "collected_at": "2026-08-26T14:46:15.232374+00:00",
+      "spotify_followers": 1675993,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 925237628,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 175393
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 142354
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 125726
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 123246
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 114767
+        }
+      ],
+      "lastfm_listeners": 938501,
+      "lastfm_playcount": 23823146,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 4960000,
+      "ytm_total_views": 925186586
     }
   ],
   "annotations": [
@@ -5851,9 +5892,9 @@
         "subscribers": "719K"
       },
       {
-        "name": "ADOY",
-        "browse_id": "UCx38UtcmU6vJ7IF1J6epxdA",
-        "subscribers": "196K"
+        "name": "Rai Thistlethwayte",
+        "browse_id": "UCIc2E6RuJe4RB9Z_z6uqWqQ",
+        "subscribers": "7.14K"
       },
       {
         "name": "Phum Viphurit",
@@ -5863,17 +5904,12 @@
       {
         "name": "Micah Edwards",
         "browse_id": "UCW00dXhsyYvJQAry4hTM7hA",
-        "subscribers": "9.5K"
+        "subscribers": "9.51K"
       },
       {
         "name": "Rocketman",
         "browse_id": "UCvhKL8jkXWeMhGzZ4JHxRMw",
         "subscribers": "3.03K"
-      },
-      {
-        "name": "Bren Joy",
-        "browse_id": "UChIwocHYRaPUGmZnNdX0RVQ",
-        "subscribers": "551K"
       },
       {
         "name": "JEREMY PASSION",
@@ -5889,6 +5925,11 @@
         "name": "Charlie Burg",
         "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
         "subscribers": "156K"
+      },
+      {
+        "name": "Kamal.",
+        "browse_id": "UCpotKFYW7NyEeFkTJFVlS9w",
+        "subscribers": "175K"
       }
     ],
     "ytm_top_songs": [
@@ -6722,6 +6763,12 @@
           "views": 2605723,
           "likes": 16050,
           "comments": 27
+        },
+        {
+          "date": "2026-08-26",
+          "views": 2605980,
+          "likes": 16051,
+          "comments": 28
         }
       ]
     },
@@ -7524,6 +7571,12 @@
           "date": "2026-08-25",
           "views": 2196996,
           "likes": 19985,
+          "comments": 281
+        },
+        {
+          "date": "2026-08-26",
+          "views": 2199713,
+          "likes": 19998,
           "comments": 281
         }
       ]
@@ -8333,6 +8386,12 @@
           "date": "2026-08-25",
           "views": 48340176,
           "likes": 203622,
+          "comments": 123
+        },
+        {
+          "date": "2026-08-26",
+          "views": 48353003,
+          "likes": 203656,
           "comments": 123
         }
       ]
@@ -9561,6 +9620,12 @@
           "views": 14848199,
           "likes": 75187,
           "comments": 40
+        },
+        {
+          "date": "2026-08-26",
+          "views": 14859869,
+          "likes": 75229,
+          "comments": 40
         }
       ]
     },
@@ -9977,6 +10042,12 @@
           "date": "2026-08-25",
           "views": 15877050,
           "likes": 80711,
+          "comments": 64
+        },
+        {
+          "date": "2026-08-26",
+          "views": 15880487,
+          "likes": 80723,
           "comments": 64
         }
       ]
@@ -10474,6 +10545,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-25T14:46:16.724982+00:00"
+    },
+    {
+      "date": "2026-08-26",
+      "metric": "monthly_listeners",
+      "value": 4058833,
+      "baseline_mean": 3942896.8,
+      "baseline_stddev": 52423.4,
+      "delta": 115936,
+      "score": 2.21,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-26T14:46:16.794144+00:00"
     }
   ]
 }
