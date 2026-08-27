@@ -5868,6 +5868,47 @@
       "ytm_subscribers": 2460000,
       "ytm_monthly_listeners": 107000000,
       "ytm_total_views": 1931501371
+    },
+    {
+      "date": "2026-08-27",
+      "monthly_listeners": 5585707,
+      "collected_at": "2026-08-27T23:29:25.894341+00:00",
+      "spotify_followers": 2422676,
+      "youtube_subscribers": 2460000,
+      "youtube_total_views": 1950621829,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 90618
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 80577
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 65788
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 61009
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 54414
+        }
+      ],
+      "lastfm_listeners": 651445,
+      "lastfm_playcount": 22821979,
+      "ytm_subscribers": 2460000,
+      "ytm_monthly_listeners": 105000000,
+      "ytm_total_views": 1931501371
     }
   ],
   "annotations": [
@@ -6301,17 +6342,12 @@
       {
         "name": "Take-M",
         "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
-        "subscribers": "426K"
+        "subscribers": "432K"
       },
       {
         "name": "meiyo",
         "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
-        "subscribers": "25.3M"
-      },
-      {
-        "name": "nobodyknows+",
-        "browse_id": "UCh1E5xa7wkeb_xzSyM8CkxA",
-        "subscribers": "17.2K"
+        "subscribers": "25M"
       },
       {
         "name": "Vaundy",
@@ -6319,34 +6355,39 @@
         "subscribers": "25.6M"
       },
       {
+        "name": "nobodyknows+",
+        "browse_id": "UCh1E5xa7wkeb_xzSyM8CkxA",
+        "subscribers": "17.2K"
+      },
+      {
         "name": "King Gnu",
         "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "58M"
+        "subscribers": "56.6M"
       },
       {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "2.25M"
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "74.6M"
       },
       {
-        "name": "DOES",
-        "browse_id": "UCBJVbQXjnummrzbcFkX9FLA",
-        "subscribers": "1.23M"
+        "name": "Rude-α",
+        "browse_id": "UC74udafRQ1dh4umAtYRe7bA",
+        "subscribers": "208K"
       },
       {
-        "name": "frederic",
-        "browse_id": "UCFTm4lY-D08LFZyncZIoDIQ",
-        "subscribers": "6.61M"
+        "name": "ano",
+        "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
+        "subscribers": "2.97M"
       },
       {
-        "name": "Sambomaster",
-        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
-        "subscribers": "3.79M"
+        "name": "SKRYU",
+        "browse_id": "UCE9lcBB0i3aMdWR-QuTDPRQ",
+        "subscribers": "1.24M"
       },
       {
-        "name": "ALI",
-        "browse_id": "UCcM2nwYSXoS0pRpljTefmpg",
-        "subscribers": "9.05M"
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "27.4M"
       }
     ],
     "ytm_top_songs": [
@@ -6359,16 +6400,16 @@
         "video_id": "W0dsUNS4RT8"
       },
       {
+        "title": "Running Wheel",
+        "video_id": "uRGdO8VIxVs"
+      },
+      {
         "title": "Mirage",
         "video_id": "jH5bSmaXwzE"
       },
       {
         "title": "堕天 - Daten",
         "video_id": "SpgK_2j-h0I"
-      },
-      {
-        "title": "のびしろ - Nobishiro",
-        "video_id": "qutWSXY8PdM"
       }
     ],
     "ytm_description": "Creepy Nuts are a Japanese hip-hop duo consisting of DJ Matsunaga and R-Shitei, currently signed to Onenation and Sony Music Associated Records. The duo rose to international prominence in 2024 with their biggest hit single to date \"Bling-Bang-Bang-Born\", an opening theme for the second season of the anime series Mashle: Magic and Muscles, as their most successful song to date. In Japan, the song was the best-performing song in 2024, topping the Oricon Combined Singles Chart and Billboard Japan Hot 100. It also peaked at number eight on the Billboard Global 200. The duo gained even more worldwide recognition with the release of their second biggest hit single \"Otonoke\", which was included as the opening theme for the hit anime series Dandadan.\n\nFrom Wikipedia ("
@@ -6913,6 +6954,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-26T14:42:21.723246+00:00"
+    },
+    {
+      "date": "2026-08-27",
+      "metric": "monthly_listeners",
+      "value": 5585707,
+      "baseline_mean": 5493872.4,
+      "baseline_stddev": 31102.4,
+      "delta": 91834,
+      "score": 2.95,
+      "type": "annotated",
+      "related_annotation": "ミニアルバム「かつて天才だった俺たちへ」リリース日と一致",
+      "detected_at": "2026-08-27T23:29:27.378443+00:00"
     }
   ],
   "song_performance": {
@@ -7734,6 +7787,12 @@
           "views": 26567099,
           "likes": 328967,
           "comments": 1127
+        },
+        {
+          "date": "2026-08-27",
+          "views": 26663422,
+          "likes": 329996,
+          "comments": 1131
         }
       ]
     },
@@ -8555,6 +8614,12 @@
           "views": 22670943,
           "likes": 291754,
           "comments": 1127
+        },
+        {
+          "date": "2026-08-27",
+          "views": 22738300,
+          "likes": 292422,
+          "comments": 1130
         }
       ]
     },
@@ -9376,6 +9441,12 @@
           "views": 8051504,
           "likes": 102776,
           "comments": 1147
+        },
+        {
+          "date": "2026-08-27",
+          "views": 8069588,
+          "likes": 102923,
+          "comments": 1148
         }
       ]
     },
@@ -10196,6 +10267,12 @@
           "date": "2026-08-26",
           "views": 12933592,
           "likes": 118672,
+          "comments": 542
+        },
+        {
+          "date": "2026-08-27",
+          "views": 12948328,
+          "likes": 118759,
           "comments": 542
         }
       ]
@@ -11023,6 +11100,17 @@
           "views": 238635,
           "likes": 5464,
           "comments": 135
+        }
+      ]
+    },
+    "uRGdO8VIxVs": {
+      "title": "Running Wheel",
+      "history": [
+        {
+          "date": "2026-08-27",
+          "views": 53502,
+          "likes": 1712,
+          "comments": 35
         }
       ]
     }

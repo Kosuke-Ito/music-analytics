@@ -5580,6 +5580,47 @@
       "ytm_subscribers": 316000,
       "ytm_monthly_listeners": 3380000,
       "ytm_total_views": 322065320
+    },
+    {
+      "date": "2026-08-27",
+      "monthly_listeners": 1517613,
+      "collected_at": "2026-08-27T23:40:24.636765+00:00",
+      "spotify_followers": 340047,
+      "youtube_subscribers": 316000,
+      "youtube_total_views": 325800427,
+      "youtube_video_count": 222,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 48236
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 42342
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 35871
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 17992
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 17078
+        }
+      ],
+      "lastfm_listeners": 143708,
+      "lastfm_playcount": 2533279,
+      "ytm_subscribers": 316000,
+      "ytm_monthly_listeners": 3370000,
+      "ytm_total_views": 322065320
     }
   ],
   "annotations": [
@@ -5990,7 +6031,7 @@
       {
         "name": "Penthouse",
         "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "1.84M"
+        "subscribers": "1.83M"
       },
       {
         "name": "Sano ibuki",
@@ -6000,17 +6041,12 @@
       {
         "name": "TAIL",
         "browse_id": "UCdKKyyzAEzwV6cLcYetJcmQ",
-        "subscribers": "71.5K"
-      },
-      {
-        "name": "EISYU",
-        "browse_id": "UCQ1dCsHilcsF2YOVXEI-4VA",
-        "subscribers": "70.6K"
+        "subscribers": "71.7K"
       },
       {
         "name": "androp",
         "browse_id": "UCwz7EvQmCroWyblXElJfW8w",
-        "subscribers": "98.7K"
+        "subscribers": "100K"
       },
       {
         "name": "KERENMI",
@@ -6018,24 +6054,29 @@
         "subscribers": "2.74K"
       },
       {
-        "name": "Reini",
-        "browse_id": "UC2PTQOPrZautcQGly-U6Uqw",
-        "subscribers": "76.5K"
-      },
-      {
         "name": "BILLY BOO",
         "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
-        "subscribers": "173K"
+        "subscribers": "167K"
       },
       {
         "name": "Rikon Densetsu",
         "browse_id": "UCWfha3ah1QON9hU4hYg0BQA",
-        "subscribers": "1.02M"
+        "subscribers": "980K"
       },
       {
         "name": "eill",
         "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.4M"
+        "subscribers": "1.39M"
+      },
+      {
+        "name": "Masaki Suda",
+        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
+        "subscribers": "5.49M"
+      },
+      {
+        "name": "wacci",
+        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
+        "subscribers": "1.64M"
       }
     ],
     "ytm_top_songs": [
@@ -6875,6 +6916,12 @@
           "views": 12065866,
           "likes": 56199,
           "comments": 203
+        },
+        {
+          "date": "2026-08-27",
+          "views": 12076576,
+          "likes": 56263,
+          "comments": 203
         }
       ]
     },
@@ -7690,6 +7737,12 @@
           "views": 867134,
           "likes": 8772,
           "comments": 91
+        },
+        {
+          "date": "2026-08-27",
+          "views": 868732,
+          "likes": 8786,
+          "comments": 91
         }
       ]
     },
@@ -8480,6 +8533,12 @@
           "date": "2026-08-26",
           "views": 2308048,
           "likes": 17146,
+          "comments": 61
+        },
+        {
+          "date": "2026-08-27",
+          "views": 2309483,
+          "likes": 17159,
           "comments": 61
         }
       ]
@@ -9822,6 +9881,12 @@
           "views": 1067107,
           "likes": 9929,
           "comments": 87
+        },
+        {
+          "date": "2026-08-27",
+          "views": 1068373,
+          "likes": 9936,
+          "comments": 87
         }
       ]
     },
@@ -10154,6 +10219,12 @@
           "date": "2026-08-26",
           "views": 61751,
           "likes": 886,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-27",
+          "views": 62577,
+          "likes": 893,
           "comments": 18
         }
       ]
@@ -10915,6 +10986,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-26T14:52:46.955200+00:00"
+    },
+    {
+      "date": "2026-08-27",
+      "metric": "youtube_total_views",
+      "value": 325800427,
+      "baseline_mean": 321863458.6,
+      "baseline_stddev": 1533011.5,
+      "delta": 3936968,
+      "score": 2.57,
+      "type": "annotated",
+      "related_annotation": "『Memorabilia』(9/2発売)プロモーション効果が継続、YouTube総再生数は既知のアーティファクトも重複",
+      "detected_at": "2026-08-27T23:40:26.605463+00:00"
     }
   ]
 }

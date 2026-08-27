@@ -5692,6 +5692,47 @@
       "ytm_subscribers": 108000,
       "ytm_monthly_listeners": 1470000,
       "ytm_total_views": 94427192
+    },
+    {
+      "date": "2026-08-27",
+      "monthly_listeners": 959094,
+      "collected_at": "2026-08-27T23:24:26.256255+00:00",
+      "spotify_followers": 429075,
+      "youtube_subscribers": 7420000,
+      "youtube_total_views": 6845980933,
+      "youtube_video_count": 328,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 28116
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 25759
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 18619
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 13830
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 10608
+        }
+      ],
+      "lastfm_listeners": 105342,
+      "lastfm_playcount": 1883342,
+      "ytm_subscribers": 108000,
+      "ytm_monthly_listeners": 1460000,
+      "ytm_total_views": 94427192
     }
   ],
   "metadata": {
@@ -5731,11 +5772,6 @@
         "subscribers": "25.2K"
       },
       {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "593K"
-      },
-      {
         "name": "Sasanomaly",
         "browse_id": "UCK8DhDqtYgzSHf-krbesrEw",
         "subscribers": "211K"
@@ -5743,37 +5779,42 @@
       {
         "name": "balloon",
         "browse_id": "UCIg39dCXzNoVdZNITLxnfrQ",
-        "subscribers": "465"
+        "subscribers": "478"
       },
       {
         "name": "Sou",
         "browse_id": "UCsy-WAGWKgaPSDGoPBhgSsw",
-        "subscribers": "2.31M"
-      },
-      {
-        "name": "Linmu",
-        "browse_id": "UCfwx8Sx11AgVgCVnGDnP3UA",
-        "subscribers": "995"
+        "subscribers": "2.32M"
       },
       {
         "name": "EVO+",
         "browse_id": "UC_YgchlOXrff__BizLqvE7w",
-        "subscribers": "230K"
+        "subscribers": "229K"
+      },
+      {
+        "name": "WhaleDontSleep",
+        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
+        "subscribers": "596K"
       },
       {
         "name": "natori",
         "browse_id": "UC5hhaaGgz7LKt_abggs0qWQ",
-        "subscribers": "13.1M"
-      },
-      {
-        "name": "TUYU",
-        "browse_id": "UCZkClY03Vnv-X9qMnEHzxHQ",
-        "subscribers": "602K"
+        "subscribers": "13M"
       },
       {
         "name": "Mikito-P",
         "browse_id": "UCq6ENGh23SO0wWD67eRTGUw",
-        "subscribers": "3.33M"
+        "subscribers": "3.3M"
+      },
+      {
+        "name": "Wolpis Carter",
+        "browse_id": "UCPUEgxCu5JomJ74fXaBGZnw",
+        "subscribers": "1.74M"
+      },
+      {
+        "name": "TUYU",
+        "browse_id": "UCZkClY03Vnv-X9qMnEHzxHQ",
+        "subscribers": "604K"
       }
     ],
     "ytm_top_songs": [
@@ -6523,6 +6564,12 @@
           "views": 29817441,
           "likes": 143600,
           "comments": 41
+        },
+        {
+          "date": "2026-08-27",
+          "views": 29828237,
+          "likes": 143650,
+          "comments": 43
         }
       ]
     },
@@ -7296,6 +7343,12 @@
           "views": 15704735,
           "likes": 73878,
           "comments": 23
+        },
+        {
+          "date": "2026-08-27",
+          "views": 15713965,
+          "likes": 73948,
+          "comments": 23
         }
       ]
     },
@@ -7846,6 +7899,12 @@
           "date": "2026-08-26",
           "views": 15253388,
           "likes": 63928,
+          "comments": 30
+        },
+        {
+          "date": "2026-08-27",
+          "views": 15261602,
+          "likes": 63976,
           "comments": 30
         }
       ]
@@ -8613,6 +8672,12 @@
           "date": "2026-08-26",
           "views": 8072058,
           "likes": 39901,
+          "comments": 15
+        },
+        {
+          "date": "2026-08-27",
+          "views": 8076112,
+          "likes": 39913,
           "comments": 15
         }
       ]
@@ -9428,6 +9493,12 @@
           "date": "2026-08-26",
           "views": 1393803,
           "likes": 12877,
+          "comments": 38
+        },
+        {
+          "date": "2026-08-27",
+          "views": 1395188,
+          "likes": 12884,
           "comments": 38
         }
       ]
@@ -10814,6 +10885,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-26T14:37:24.694657+00:00"
+    },
+    {
+      "date": "2026-08-27",
+      "metric": "ytm_monthly_listeners",
+      "value": 1460000,
+      "baseline_mean": 1353000,
+      "baseline_stddev": 43905.2,
+      "delta": 107000,
+      "score": 2.44,
+      "type": "annotated",
+      "related_annotation": "1st EP収録曲「PLANETS」MVティーザー公開とYOASOBI「劇上」歌唱話題がYouTube Music月間リスナー数に反映",
+      "detected_at": "2026-08-27T23:24:27.530712+00:00"
     }
   ]
 }
