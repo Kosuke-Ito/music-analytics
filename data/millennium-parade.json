@@ -5752,6 +5752,47 @@
       "ytm_subscribers": 466000,
       "ytm_monthly_listeners": 1070000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-28",
+      "monthly_listeners": 602689,
+      "collected_at": "2026-08-28T23:17:34.844037+00:00",
+      "spotify_followers": 234329,
+      "youtube_subscribers": 466000,
+      "youtube_total_views": 218912528,
+      "youtube_video_count": 48,
+      "top_cities": [
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 7105
+        },
+        {
+          "city": "Melbourne",
+          "country": "AU",
+          "listeners": 6268
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 5711
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 5539
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 5484
+        }
+      ],
+      "lastfm_listeners": 163767,
+      "lastfm_playcount": 2343593,
+      "ytm_subscribers": 466000,
+      "ytm_monthly_listeners": 1040000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5788,27 +5829,27 @@
       {
         "name": "Ling tosite sigure",
         "browse_id": "UCI4j7Ojnqah6z5_OY-_20wg",
-        "subscribers": "1.01M"
+        "subscribers": "1M"
       },
       {
         "name": "Okamoto's",
         "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
-        "subscribers": "241K"
+        "subscribers": "244K"
       },
       {
         "name": "Ichiyo Izawa",
         "browse_id": "UCaDhz7lDy9B89IbIx7Lh6Qw",
-        "subscribers": "106"
+        "subscribers": "108"
       },
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "198K"
+        "subscribers": "200K"
       },
       {
         "name": "OddRe:",
         "browse_id": "UCLRAvTum9DcWeJQtHn1D3WA",
-        "subscribers": "162K"
+        "subscribers": "163K"
       },
       {
         "name": "Utada",
@@ -5818,22 +5859,22 @@
       {
         "name": "sakanaction",
         "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "60.5M"
+        "subscribers": "60.4M"
       },
       {
-        "name": "jo0ji",
-        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "3.12M"
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "24.7M"
       },
       {
         "name": "Cö shu Nie",
         "browse_id": "UCXQbmowL6Ln_hRqY58_OH4g",
-        "subscribers": "1.44M"
+        "subscribers": "1.46M"
       },
       {
-        "name": "Creepy Nuts",
-        "browse_id": "UC7z9phtXAFRixEvdlRhv-hg",
-        "subscribers": "105M"
+        "name": "Akiyama Kiro",
+        "browse_id": "UCB7j6mxjx2NxAnnBu-YRFdQ",
+        "subscribers": "2.5M"
       }
     ],
     "ytm_top_songs": [
@@ -6684,6 +6725,12 @@
           "views": 8177240,
           "likes": 74549,
           "comments": 271
+        },
+        {
+          "date": "2026-08-28",
+          "views": 8184912,
+          "likes": 74592,
+          "comments": 271
         }
       ]
     },
@@ -7511,6 +7558,12 @@
           "views": 2177664,
           "likes": 26657,
           "comments": 51
+        },
+        {
+          "date": "2026-08-28",
+          "views": 2179809,
+          "likes": 26675,
+          "comments": 51
         }
       ]
     },
@@ -8337,6 +8390,12 @@
           "date": "2026-08-27",
           "views": 21989383,
           "likes": 225770,
+          "comments": 638
+        },
+        {
+          "date": "2026-08-28",
+          "views": 21996062,
+          "likes": 225824,
           "comments": 638
         }
       ]
@@ -9620,6 +9679,12 @@
           "views": 119658,
           "likes": 1801,
           "comments": 11
+        },
+        {
+          "date": "2026-08-28",
+          "views": 119931,
+          "likes": 1804,
+          "comments": 11
         }
       ]
     },
@@ -10007,6 +10072,12 @@
           "views": 361739,
           "likes": 8473,
           "comments": 222
+        },
+        {
+          "date": "2026-08-28",
+          "views": 367158,
+          "likes": 8541,
+          "comments": 226
         }
       ]
     }
@@ -10854,6 +10925,18 @@
       "type": "annotated",
       "related_annotation": "「攻殻機動隊 THE GHOST IN THE SHELL」第8話放送＋Prime Video配信に伴うEDテーマ「Blue」再生増",
       "detected_at": "2026-08-27T23:21:51.521016+00:00"
+    },
+    {
+      "date": "2026-08-28",
+      "metric": "youtube_total_views",
+      "value": 218912528,
+      "baseline_mean": 216046541.6,
+      "baseline_stddev": 1218163.2,
+      "delta": 2865986,
+      "score": 2.35,
+      "type": "annotated",
+      "related_annotation": "「攻殻機動隊 THE GHOST IN THE SHELL」第8話放送＋Prime Video配信に伴うEDテーマ「Blue」再生増",
+      "detected_at": "2026-08-28T23:17:36.310340+00:00"
     }
   ]
 }

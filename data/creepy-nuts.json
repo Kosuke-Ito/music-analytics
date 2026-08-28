@@ -5909,6 +5909,47 @@
       "ytm_subscribers": 2460000,
       "ytm_monthly_listeners": 105000000,
       "ytm_total_views": 1931501371
+    },
+    {
+      "date": "2026-08-28",
+      "monthly_listeners": 5593397,
+      "collected_at": "2026-08-28T23:24:49.798684+00:00",
+      "spotify_followers": 2423262,
+      "youtube_subscribers": 2460000,
+      "youtube_total_views": 1952708328,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 90826
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 80710
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 65719
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 60893
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 54398
+        }
+      ],
+      "lastfm_listeners": 651645,
+      "lastfm_playcount": 22827563,
+      "ytm_subscribers": 2460000,
+      "ytm_monthly_listeners": 101000000,
+      "ytm_total_views": 1933446991
     }
   ],
   "annotations": [
@@ -6340,19 +6381,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Take-M",
-        "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
-        "subscribers": "432K"
-      },
-      {
         "name": "meiyo",
         "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
-        "subscribers": "25M"
+        "subscribers": "24.8M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "25.6M"
+        "name": "Take-M",
+        "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
+        "subscribers": "442K"
       },
       {
         "name": "nobodyknows+",
@@ -6360,34 +6396,39 @@
         "subscribers": "17.2K"
       },
       {
-        "name": "King Gnu",
-        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "56.6M"
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "24.7M"
       },
       {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "74.6M"
-      },
-      {
-        "name": "Rude-α",
-        "browse_id": "UC74udafRQ1dh4umAtYRe7bA",
-        "subscribers": "208K"
-      },
-      {
-        "name": "ano",
-        "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
-        "subscribers": "2.97M"
-      },
-      {
-        "name": "SKRYU",
-        "browse_id": "UCE9lcBB0i3aMdWR-QuTDPRQ",
-        "subscribers": "1.24M"
+        "name": "Sambomaster",
+        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
+        "subscribers": "3.79M"
       },
       {
         "name": "KANA-BOON",
         "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
         "subscribers": "27.4M"
+      },
+      {
+        "name": "Kenshi Yonezu",
+        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
+        "subscribers": "74.8M"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "56.5M"
+      },
+      {
+        "name": "ano",
+        "browse_id": "UCwX3q7Vb3HfEoVKxqY6jLqA",
+        "subscribers": "2.88M"
+      },
+      {
+        "name": "Rude-α",
+        "browse_id": "UC74udafRQ1dh4umAtYRe7bA",
+        "subscribers": "205K"
       }
     ],
     "ytm_top_songs": [
@@ -6966,6 +7007,18 @@
       "type": "annotated",
       "related_annotation": "ミニアルバム「かつて天才だった俺たちへ」リリース日と一致",
       "detected_at": "2026-08-27T23:29:27.378443+00:00"
+    },
+    {
+      "date": "2026-08-28",
+      "metric": "monthly_listeners",
+      "value": 5593397,
+      "baseline_mean": 5496968.3,
+      "baseline_stddev": 35197.5,
+      "delta": 96428,
+      "score": 2.74,
+      "type": "annotated",
+      "related_annotation": "ミニアルバム「かつて天才だった俺たちへ」リリース日と一致",
+      "detected_at": "2026-08-28T23:24:51.040115+00:00"
     }
   ],
   "song_performance": {
@@ -7792,6 +7845,12 @@
           "date": "2026-08-27",
           "views": 26663422,
           "likes": 329996,
+          "comments": 1131
+        },
+        {
+          "date": "2026-08-28",
+          "views": 26729163,
+          "likes": 330728,
           "comments": 1131
         }
       ]
@@ -8620,6 +8679,12 @@
           "views": 22738300,
           "likes": 292422,
           "comments": 1130
+        },
+        {
+          "date": "2026-08-28",
+          "views": 22784437,
+          "likes": 292904,
+          "comments": 1132
         }
       ]
     },
@@ -9447,6 +9512,12 @@
           "views": 8069588,
           "likes": 102923,
           "comments": 1148
+        },
+        {
+          "date": "2026-08-28",
+          "views": 8080553,
+          "likes": 103005,
+          "comments": 1148
         }
       ]
     },
@@ -10273,6 +10344,12 @@
           "date": "2026-08-27",
           "views": 12948328,
           "likes": 118759,
+          "comments": 542
+        },
+        {
+          "date": "2026-08-28",
+          "views": 12958135,
+          "likes": 118834,
           "comments": 542
         }
       ]
@@ -11111,6 +11188,12 @@
           "views": 53502,
           "likes": 1712,
           "comments": 35
+        },
+        {
+          "date": "2026-08-28",
+          "views": 57782,
+          "likes": 1787,
+          "comments": 36
         }
       ]
     }

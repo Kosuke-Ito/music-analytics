@@ -5542,6 +5542,47 @@
       "ytm_subscribers": 38900,
       "ytm_monthly_listeners": 94700,
       "ytm_total_views": 8870291
+    },
+    {
+      "date": "2026-08-28",
+      "monthly_listeners": 68375,
+      "collected_at": "2026-08-28T23:35:30.042637+00:00",
+      "spotify_followers": 52851,
+      "youtube_subscribers": 38900,
+      "youtube_total_views": 9113490,
+      "youtube_video_count": 82,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4116
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1648
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1048
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 961
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 913
+        }
+      ],
+      "lastfm_listeners": 24373,
+      "lastfm_playcount": 410764,
+      "ytm_subscribers": 38900,
+      "ytm_monthly_listeners": 96200,
+      "ytm_total_views": 8870291
     }
   ],
   "metadata": {
@@ -5576,24 +5617,29 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "NakamuraEmi",
+        "browse_id": "UCEOGqk0O-cOJPmkx7c-dvKA",
+        "subscribers": "50.5K"
+      },
+      {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "90.9K"
+        "subscribers": "90.6K"
       },
       {
         "name": "171",
         "browse_id": "UCq0u98nOXbxzFlsbz4kzWFw",
-        "subscribers": "95.7K"
+        "subscribers": "89K"
       },
       {
         "name": "Pop Never Dies",
         "browse_id": "UC5b9TQvYYijEScOHK30V7Jw",
-        "subscribers": "75.2K"
+        "subscribers": "74.3K"
       },
       {
         "name": "tofubeats",
         "browse_id": "UCDsYyiCcQPwmgkDiHsaGB2A",
-        "subscribers": "367K"
+        "subscribers": "365K"
       },
       {
         "name": "DE DE MOUSE",
@@ -5608,22 +5654,17 @@
       {
         "name": "PAS TASTA",
         "browse_id": "UCXWyAgpgtm-Ae1E1aud3ajg",
-        "subscribers": "201K"
+        "subscribers": "189K"
       },
       {
         "name": "Hakushi Hasegawa",
         "browse_id": "UCPvjq3k_DKTa02GWveuicfg",
-        "subscribers": "131K"
+        "subscribers": "137K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "105K"
-      },
-      {
-        "name": "Hikari Mitsushima",
-        "browse_id": "UCmQX9uNXRj07dI4iZcN9ZMQ",
-        "subscribers": "129K"
+        "subscribers": "104K"
       }
     ],
     "ytm_top_songs": [
@@ -6451,6 +6492,12 @@
           "views": 155560,
           "likes": 2935,
           "comments": 26
+        },
+        {
+          "date": "2026-08-28",
+          "views": 156004,
+          "likes": 2940,
+          "comments": 26
         }
       ]
     },
@@ -7253,6 +7300,12 @@
           "date": "2026-08-27",
           "views": 611485,
           "likes": 5579,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-28",
+          "views": 611949,
+          "likes": 5584,
           "comments": 18
         }
       ]
@@ -8057,6 +8110,12 @@
           "views": 339972,
           "likes": 3609,
           "comments": 7
+        },
+        {
+          "date": "2026-08-28",
+          "views": 340230,
+          "likes": 3614,
+          "comments": 7
         }
       ]
     },
@@ -8858,6 +8917,12 @@
         {
           "date": "2026-08-27",
           "views": 61079,
+          "likes": 199,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-28",
+          "views": 61204,
           "likes": 199,
           "comments": 2
         }
@@ -9722,6 +9787,12 @@
           "date": "2026-08-27",
           "views": 18124,
           "likes": 447,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-28",
+          "views": 18394,
+          "likes": 451,
           "comments": 5
         }
       ]
@@ -11053,6 +11124,18 @@
       "type": "annotated",
       "related_annotation": "Spotify月間リスナーが高水準で推移（5日目、新たな明確トリガーは未特定）",
       "detected_at": "2026-08-27T23:41:01.396265+00:00"
+    },
+    {
+      "date": "2026-08-28",
+      "metric": "ytm_monthly_listeners",
+      "value": 96200,
+      "baseline_mean": 70533.3,
+      "baseline_stddev": 10209.8,
+      "delta": 25666,
+      "score": 2.51,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-28T23:35:32.211908+00:00"
     }
   ]
 }

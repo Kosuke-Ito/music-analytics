@@ -5612,6 +5612,47 @@
       "ytm_subscribers": 2550000,
       "ytm_monthly_listeners": 23800000,
       "ytm_total_views": 1751105079
+    },
+    {
+      "date": "2026-08-28",
+      "monthly_listeners": 6434079,
+      "collected_at": "2026-08-28T23:29:22.530791+00:00",
+      "spotify_followers": 4625284,
+      "youtube_subscribers": 2550000,
+      "youtube_total_views": 1772505769,
+      "youtube_video_count": 268,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 201686
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 177593
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 120471
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 113786
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 73545
+        }
+      ],
+      "lastfm_listeners": 325300,
+      "lastfm_playcount": 31660774,
+      "ytm_subscribers": 2550000,
+      "ytm_monthly_listeners": 23800000,
+      "ytm_total_views": 1768757561
     }
   ],
   "annotations": [
@@ -5964,47 +6005,47 @@
       {
         "name": "iri",
         "browse_id": "UCtlXP5iI7TgKj_BI636L8Qw",
-        "subscribers": "435K"
-      },
-      {
-        "name": "Chihiro Onitsuka",
-        "browse_id": "UCXAZfW6_7LBpa-HN4suL6ig",
-        "subscribers": "925K"
-      },
-      {
-        "name": "the brilliant green",
-        "browse_id": "UCEmBZOcH6_8l_7FqhqmupZA",
-        "subscribers": "723K"
+        "subscribers": "438K"
       },
       {
         "name": "Ai Otsuka",
         "browse_id": "UCiQBYPGlDQRHXD8FaryNaFw",
-        "subscribers": "7.76M"
+        "subscribers": "7.55M"
       },
       {
         "name": "Ayaka",
         "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
-        "subscribers": "3.09M"
+        "subscribers": "3.18M"
       },
       {
-        "name": "Mika Nakashima",
-        "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
-        "subscribers": "4.11M"
+        "name": "Chihiro Onitsuka",
+        "browse_id": "UCXAZfW6_7LBpa-HN4suL6ig",
+        "subscribers": "926K"
+      },
+      {
+        "name": "the brilliant green",
+        "browse_id": "UCEmBZOcH6_8l_7FqhqmupZA",
+        "subscribers": "719K"
       },
       {
         "name": "Mai Kuraki",
         "browse_id": "UCIBz9tGLGRyC2MXQdIHjxwQ",
-        "subscribers": "1.65M"
+        "subscribers": "1.63M"
+      },
+      {
+        "name": "Mika Nakashima",
+        "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
+        "subscribers": "4.12M"
+      },
+      {
+        "name": "Yuko Ando",
+        "browse_id": "UCUW7BA2PIPWn0lQCFfbU3pA",
+        "subscribers": "186K"
       },
       {
         "name": "Ken Hirai",
         "browse_id": "UCjV108-_g6HUrmoKOt5-QIw",
-        "subscribers": "1.9M"
-      },
-      {
-        "name": "Do As Infinity",
-        "browse_id": "UCkjeaOEoXXgoKGoMDEWCs7Q",
-        "subscribers": "1.35M"
+        "subscribers": "1.78M"
       }
     ],
     "ytm_top_songs": [
@@ -6838,6 +6879,12 @@
           "views": 61366165,
           "likes": 329670,
           "comments": 2608
+        },
+        {
+          "date": "2026-08-28",
+          "views": 61447180,
+          "likes": 329906,
+          "comments": 2610
         }
       ]
     },
@@ -8126,6 +8173,12 @@
           "views": 27785633,
           "likes": 215979,
           "comments": 514
+        },
+        {
+          "date": "2026-08-28",
+          "views": 27801597,
+          "likes": 216083,
+          "comments": 515
         }
       ]
     },
@@ -8622,6 +8675,12 @@
           "date": "2026-08-27",
           "views": 1676362,
           "likes": 10083,
+          "comments": 53
+        },
+        {
+          "date": "2026-08-28",
+          "views": 1678997,
+          "likes": 10094,
           "comments": 53
         }
       ]
@@ -9426,6 +9485,12 @@
           "views": 1198269,
           "likes": 8241,
           "comments": 23
+        },
+        {
+          "date": "2026-08-28",
+          "views": 1199423,
+          "likes": 8252,
+          "comments": 23
         }
       ]
     },
@@ -10174,6 +10239,12 @@
           "views": 2435486,
           "likes": 15054,
           "comments": 55
+        },
+        {
+          "date": "2026-08-28",
+          "views": 2437065,
+          "likes": 15068,
+          "comments": 55
         }
       ]
     }
@@ -10514,6 +10585,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数がさらに微増（前日バズの継続、+87万回）",
       "detected_at": "2026-08-06T16:13:59.554360+00:00"
+    },
+    {
+      "date": "2026-08-28",
+      "metric": "youtube_total_views",
+      "value": 1772505769,
+      "baseline_mean": 1752935323.2,
+      "baseline_stddev": 4403712.4,
+      "delta": 19570445,
+      "score": 4.44,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-28T23:29:24.290937+00:00"
     }
   ]
 }

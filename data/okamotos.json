@@ -5733,6 +5733,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 241000,
       "ytm_total_views": 44176390
+    },
+    {
+      "date": "2026-08-28",
+      "monthly_listeners": 241785,
+      "collected_at": "2026-08-28T23:18:39.128864+00:00",
+      "spotify_followers": 143009,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44485030,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8892
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7109
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4591
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2916
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2166
+        }
+      ],
+      "lastfm_listeners": 71218,
+      "lastfm_playcount": 1195745,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 244000,
+      "ytm_total_views": 44176390
     }
   ],
   "metadata": {
@@ -5791,47 +5832,47 @@
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "88.3K"
+        "subscribers": "87.3K"
       },
       {
         "name": "Base Ball Bear",
         "browse_id": "UCiLo1ZMUrpzZHi_hVL3waXg",
-        "subscribers": "193K"
+        "subscribers": "194K"
       },
       {
         "name": "Huwie Ishizaki",
         "browse_id": "UCgr4h11LzQneG3a2D1q1obA",
-        "subscribers": "243K"
+        "subscribers": "240K"
       },
       {
         "name": "Genie High",
         "browse_id": "UCi87JBlh5rYUgLYVJCAiE_Q",
-        "subscribers": "467K"
+        "subscribers": "480K"
       },
       {
         "name": "w.o.d.",
         "browse_id": "UCiylP7HTmtQZO9hi-B5wnCg",
-        "subscribers": "164K"
+        "subscribers": "161K"
       },
       {
         "name": "Glim Spanky",
         "browse_id": "UCYykT4n0YsFugkRdrXlFZ1Q",
-        "subscribers": "746K"
+        "subscribers": "756K"
       },
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "90.9K"
+        "subscribers": "90.6K"
       },
       {
         "name": "Tempalay",
         "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
-        "subscribers": "124K"
+        "subscribers": "122K"
       },
       {
         "name": "tacica",
         "browse_id": "UCVhYxCyDQx_BW-n7CKFAH7Q",
-        "subscribers": "237K"
+        "subscribers": "238K"
       },
       {
         "name": "boku no lyric no bouyomi",
@@ -6715,6 +6756,12 @@
           "views": 15706,
           "likes": 208,
           "comments": 3
+        },
+        {
+          "date": "2026-08-28",
+          "views": 15736,
+          "likes": 208,
+          "comments": 3
         }
       ]
     },
@@ -7541,6 +7588,12 @@
           "date": "2026-08-27",
           "views": 943445,
           "likes": 11839,
+          "comments": 32
+        },
+        {
+          "date": "2026-08-28",
+          "views": 944014,
+          "likes": 11847,
           "comments": 32
         }
       ]
@@ -8824,6 +8877,12 @@
           "views": 237517,
           "likes": 1733,
           "comments": 7
+        },
+        {
+          "date": "2026-08-28",
+          "views": 237720,
+          "likes": 1735,
+          "comments": 7
         }
       ]
     },
@@ -9967,6 +10026,12 @@
           "views": 8936,
           "likes": 90,
           "comments": 4
+        },
+        {
+          "date": "2026-08-28",
+          "views": 8982,
+          "likes": 91,
+          "comments": 4
         }
       ]
     },
@@ -10062,6 +10127,12 @@
         {
           "date": "2026-08-27",
           "views": 2515,
+          "likes": 51,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-28",
+          "views": 2573,
           "likes": 51,
           "comments": 2
         }
@@ -10670,6 +10741,30 @@
       "type": "annotated",
       "related_annotation": "ハマ・オカモト脱退＆「LOSTRANGER」効果がSpotify/YouTube Music両指標で継続",
       "detected_at": "2026-08-27T23:23:02.708747+00:00"
+    },
+    {
+      "date": "2026-08-28",
+      "metric": "monthly_listeners",
+      "value": 241785,
+      "baseline_mean": 224900.2,
+      "baseline_stddev": 7792.5,
+      "delta": 16884,
+      "score": 2.17,
+      "type": "annotated",
+      "related_annotation": "ハマ・オカモト脱退＆「LOSTRANGER」効果がSpotify/YouTube Music両指標で継続",
+      "detected_at": "2026-08-28T23:18:40.571249+00:00"
+    },
+    {
+      "date": "2026-08-28",
+      "metric": "ytm_monthly_listeners",
+      "value": 244000,
+      "baseline_mean": 214833.3,
+      "baseline_stddev": 9616.2,
+      "delta": 29166,
+      "score": 3.03,
+      "type": "annotated",
+      "related_annotation": "ハマ・オカモト脱退＆「LOSTRANGER」効果がSpotify/YouTube Music両指標で継続",
+      "detected_at": "2026-08-28T23:18:40.571249+00:00"
     }
   ]
 }

@@ -5907,6 +5907,47 @@
       "ytm_subscribers": 5500000,
       "ytm_monthly_listeners": 52500000,
       "ytm_total_views": 2939834338
+    },
+    {
+      "date": "2026-08-28",
+      "monthly_listeners": 7182947,
+      "collected_at": "2026-08-28T23:24:33.323657+00:00",
+      "spotify_followers": 5223600,
+      "youtube_subscribers": 5510000,
+      "youtube_total_views": 2957341661,
+      "youtube_video_count": 228,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 197715
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 174566
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 144083
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 98459
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 91823
+        }
+      ],
+      "lastfm_listeners": 18684,
+      "lastfm_playcount": 1593945,
+      "ytm_subscribers": 5510000,
+      "ytm_monthly_listeners": 53600000,
+      "ytm_total_views": 2939834338
     }
   ],
   "annotations": [
@@ -6246,17 +6287,22 @@
       {
         "name": "TOMOO",
         "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "1.65M"
+        "subscribers": "1.71M"
       },
       {
         "name": "Friday Night Plans",
         "browse_id": "UCvu8-LP7Xsgt0cYzhBdUN1Q",
-        "subscribers": "261K"
+        "subscribers": "262K"
       },
       {
         "name": "Tatsuro Yamashita",
         "browse_id": "UCRissFBsWNatZGatPn5ZqRQ",
-        "subscribers": "1.19M"
+        "subscribers": "1.2M"
+      },
+      {
+        "name": "Ayumu Imazu",
+        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
+        "subscribers": "2.94M"
       },
       {
         "name": "Utada",
@@ -6266,32 +6312,27 @@
       {
         "name": "Vaundy",
         "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "25.6M"
-      },
-      {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "2.94M"
-      },
-      {
-        "name": "SIRUP",
-        "browse_id": "UCNOawli2PNwt-9L_mqjCxUA",
-        "subscribers": "672K"
-      },
-      {
-        "name": "Tokyo Incidents",
-        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
-        "subscribers": "2.57M"
+        "subscribers": "24.7M"
       },
       {
         "name": "Sheena Ringo",
         "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
-        "subscribers": "13.8M"
+        "subscribers": "14.1M"
       },
       {
         "name": "imase",
         "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "66.1M"
+        "subscribers": "66.9M"
+      },
+      {
+        "name": "King Gnu",
+        "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
+        "subscribers": "56.5M"
+      },
+      {
+        "name": "Tokyo Incidents",
+        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
+        "subscribers": "2.77M"
       }
     ],
     "ytm_top_songs": [
@@ -7143,6 +7184,12 @@
           "views": 292365329,
           "likes": 3813209,
           "comments": 19459
+        },
+        {
+          "date": "2026-08-28",
+          "views": 292493556,
+          "likes": 3814463,
+          "comments": 19471
         }
       ]
     },
@@ -8017,6 +8064,12 @@
           "views": 78167326,
           "likes": 376528,
           "comments": 684
+        },
+        {
+          "date": "2026-08-28",
+          "views": 78220611,
+          "likes": 376769,
+          "comments": 686
         }
       ]
     },
@@ -8771,6 +8824,12 @@
           "views": 53882069,
           "likes": 396249,
           "comments": 1154
+        },
+        {
+          "date": "2026-08-28",
+          "views": 53916847,
+          "likes": 396408,
+          "comments": 1154
         }
       ]
     },
@@ -9453,6 +9512,12 @@
           "date": "2026-08-27",
           "views": 3416466,
           "likes": 22020,
+          "comments": 110
+        },
+        {
+          "date": "2026-08-28",
+          "views": 3441057,
+          "likes": 22128,
           "comments": 110
         }
       ]
@@ -10238,6 +10303,12 @@
           "date": "2026-08-27",
           "views": 3901176,
           "likes": 27148,
+          "comments": 167
+        },
+        {
+          "date": "2026-08-28",
+          "views": 3928622,
+          "likes": 27293,
           "comments": 167
         }
       ]
@@ -11104,6 +11175,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-27T23:29:11.192984+00:00"
+    },
+    {
+      "date": "2026-08-28",
+      "metric": "monthly_listeners",
+      "value": 7182947,
+      "baseline_mean": 7118823.7,
+      "baseline_stddev": 22214.2,
+      "delta": 64123,
+      "score": 2.89,
+      "type": "annotated",
+      "related_annotation": "エルミーンとのサマソニ共演がJ-WAVEで放送、Spotify月間リスナーが微増",
+      "detected_at": "2026-08-28T23:24:35.383254+00:00"
     }
   ]
 }
