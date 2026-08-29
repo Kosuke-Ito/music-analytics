@@ -5774,6 +5774,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 5150000,
       "ytm_total_views": 925186586
+    },
+    {
+      "date": "2026-08-29",
+      "monthly_listeners": 4096493,
+      "collected_at": "2026-08-29T17:37:15.791538+00:00",
+      "spotify_followers": 1676582,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 925237628,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 176782
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 144668
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 126224
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 125120
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 119005
+        }
+      ],
+      "lastfm_listeners": 938835,
+      "lastfm_playcount": 23827696,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 5390000,
+      "ytm_total_views": 925186586
     }
   ],
   "annotations": [
@@ -5966,17 +6007,17 @@
       {
         "name": "92914",
         "browse_id": "UCsywq73qRVQY0pBqEK6_2RA",
-        "subscribers": "340K"
+        "subscribers": "354K"
       },
       {
-        "name": "Fiji Blue",
-        "browse_id": "UCYjYMImwBg38TDpWDl_F0Pw",
-        "subscribers": "813K"
+        "name": "Charlie Burg",
+        "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
+        "subscribers": "147K"
       },
       {
-        "name": "ADOY",
-        "browse_id": "UCx38UtcmU6vJ7IF1J6epxdA",
-        "subscribers": "193K"
+        "name": "Rai Thistlethwayte",
+        "browse_id": "UCIc2E6RuJe4RB9Z_z6uqWqQ",
+        "subscribers": "7.14K"
       },
       {
         "name": "Phum Viphurit",
@@ -5994,6 +6035,11 @@
         "subscribers": "3.03K"
       },
       {
+        "name": "Bren Joy",
+        "browse_id": "UChIwocHYRaPUGmZnNdX0RVQ",
+        "subscribers": "568K"
+      },
+      {
         "name": "JEREMY PASSION",
         "browse_id": "UCzHYmb88lMOw7EAy4cuOy3Q",
         "subscribers": "46.2K"
@@ -6001,17 +6047,12 @@
       {
         "name": "Public Library Commute",
         "browse_id": "UCHaf5KL3HbX5XRIppowZmiA",
-        "subscribers": "154K"
+        "subscribers": "167K"
       },
       {
-        "name": "Charlie Burg",
-        "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
-        "subscribers": "148K"
-      },
-      {
-        "name": "Michael Carreon",
-        "browse_id": "UCGFTekGnE_wBl809u1i7pnA",
-        "subscribers": "14.3K"
+        "name": "Kamal.",
+        "browse_id": "UCpotKFYW7NyEeFkTJFVlS9w",
+        "subscribers": "171K"
       }
     ],
     "ytm_top_songs": [
@@ -6863,6 +6904,12 @@
           "views": 2606748,
           "likes": 16052,
           "comments": 28
+        },
+        {
+          "date": "2026-08-29",
+          "views": 2606938,
+          "likes": 16054,
+          "comments": 28
         }
       ]
     },
@@ -7683,6 +7730,12 @@
           "date": "2026-08-28",
           "views": 2207621,
           "likes": 20036,
+          "comments": 281
+        },
+        {
+          "date": "2026-08-29",
+          "views": 2210814,
+          "likes": 20057,
           "comments": 281
         }
       ]
@@ -8510,6 +8563,12 @@
           "date": "2026-08-28",
           "views": 48383804,
           "likes": 203728,
+          "comments": 123
+        },
+        {
+          "date": "2026-08-29",
+          "views": 48396374,
+          "likes": 203752,
           "comments": 123
         }
       ]
@@ -9756,6 +9815,12 @@
           "views": 14889443,
           "likes": 75321,
           "comments": 40
+        },
+        {
+          "date": "2026-08-29",
+          "views": 14902902,
+          "likes": 75344,
+          "comments": 40
         }
       ]
     },
@@ -10190,6 +10255,12 @@
           "date": "2026-08-28",
           "views": 15888719,
           "likes": 80753,
+          "comments": 64
+        },
+        {
+          "date": "2026-08-29",
+          "views": 15891671,
+          "likes": 80762,
           "comments": 64
         }
       ]
@@ -10723,6 +10794,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-28T23:28:35.266297+00:00"
+    },
+    {
+      "date": "2026-08-29",
+      "metric": "monthly_listeners",
+      "value": 4096493,
+      "baseline_mean": 3960242.5,
+      "baseline_stddev": 61735.6,
+      "delta": 136250,
+      "score": 2.21,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-29T17:37:17.228862+00:00"
     }
   ]
 }

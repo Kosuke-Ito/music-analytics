@@ -5583,6 +5583,47 @@
       "ytm_subscribers": 38900,
       "ytm_monthly_listeners": 96200,
       "ytm_total_views": 8870291
+    },
+    {
+      "date": "2026-08-29",
+      "monthly_listeners": 69455,
+      "collected_at": "2026-08-29T17:43:39.756649+00:00",
+      "spotify_followers": 52874,
+      "youtube_subscribers": 38900,
+      "youtube_total_views": 9212146,
+      "youtube_video_count": 82,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4135
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1651
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1056
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 962
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 929
+        }
+      ],
+      "lastfm_listeners": 24379,
+      "lastfm_playcount": 411041,
+      "ytm_subscribers": 38900,
+      "ytm_monthly_listeners": 100000,
+      "ytm_total_views": 8963613
     }
   ],
   "metadata": {
@@ -5617,54 +5658,54 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "NakamuraEmi",
-        "browse_id": "UCEOGqk0O-cOJPmkx7c-dvKA",
-        "subscribers": "50.5K"
+        "name": "Tempalay",
+        "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
+        "subscribers": "124K"
+      },
+      {
+        "name": "AAAMYYY",
+        "browse_id": "UC6Ydky9GghVtUi0QqqoxPoA",
+        "subscribers": "25.8K"
       },
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "90.6K"
+        "subscribers": "92.1K"
+      },
+      {
+        "name": "kurayamisaka",
+        "browse_id": "UC8dcmppXueIdHNO8pfg6low",
+        "subscribers": "187K"
       },
       {
         "name": "171",
         "browse_id": "UCq0u98nOXbxzFlsbz4kzWFw",
-        "subscribers": "89K"
+        "subscribers": "84.7K"
       },
       {
         "name": "Pop Never Dies",
         "browse_id": "UC5b9TQvYYijEScOHK30V7Jw",
-        "subscribers": "74.3K"
+        "subscribers": "84.1K"
       },
       {
         "name": "tofubeats",
         "browse_id": "UCDsYyiCcQPwmgkDiHsaGB2A",
-        "subscribers": "365K"
+        "subscribers": "370K"
       },
       {
         "name": "DE DE MOUSE",
         "browse_id": "UCc463b0HxzgagXSt071zoWQ",
-        "subscribers": "107K"
+        "subscribers": "111K"
+      },
+      {
+        "name": "capsule",
+        "browse_id": "UCZsrsPpiAC4-aXPXSRzFJhQ",
+        "subscribers": "1.1M"
       },
       {
         "name": "80KIDZ",
         "browse_id": "UCNX3xsR7gTNXzcG8VyY3Z5g",
         "subscribers": "3.93K"
-      },
-      {
-        "name": "PAS TASTA",
-        "browse_id": "UCXWyAgpgtm-Ae1E1aud3ajg",
-        "subscribers": "189K"
-      },
-      {
-        "name": "Hakushi Hasegawa",
-        "browse_id": "UCPvjq3k_DKTa02GWveuicfg",
-        "subscribers": "137K"
-      },
-      {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "104K"
       }
     ],
     "ytm_top_songs": [
@@ -6498,6 +6539,12 @@
           "views": 156004,
           "likes": 2940,
           "comments": 26
+        },
+        {
+          "date": "2026-08-29",
+          "views": 156360,
+          "likes": 2944,
+          "comments": 26
         }
       ]
     },
@@ -7306,6 +7353,12 @@
           "date": "2026-08-28",
           "views": 611949,
           "likes": 5584,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-29",
+          "views": 612272,
+          "likes": 5586,
           "comments": 18
         }
       ]
@@ -8116,6 +8169,12 @@
           "views": 340230,
           "likes": 3614,
           "comments": 7
+        },
+        {
+          "date": "2026-08-29",
+          "views": 340409,
+          "likes": 3615,
+          "comments": 7
         }
       ]
     },
@@ -8923,6 +8982,12 @@
         {
           "date": "2026-08-28",
           "views": 61204,
+          "likes": 199,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-29",
+          "views": 61302,
           "likes": 199,
           "comments": 2
         }
@@ -9793,6 +9858,12 @@
           "date": "2026-08-28",
           "views": 18394,
           "likes": 451,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-29",
+          "views": 18667,
+          "likes": 452,
           "comments": 5
         }
       ]
@@ -11145,6 +11216,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-28T23:35:32.211908+00:00"
+    },
+    {
+      "date": "2026-08-29",
+      "metric": "ytm_monthly_listeners",
+      "value": 100000,
+      "baseline_mean": 71646.6,
+      "baseline_stddev": 11089.0,
+      "delta": 28353,
+      "score": 2.56,
+      "type": "annotated",
+      "related_annotation": "新曲「wonders」＆アジアツアー先行抽選受付期間中の高水準リスナー数が継続",
+      "detected_at": "2026-08-29T17:43:41.340950+00:00"
     }
   ]
 }

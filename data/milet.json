@@ -5659,6 +5659,47 @@
       "ytm_subscribers": 889000,
       "ytm_monthly_listeners": 7260000,
       "ytm_total_views": 658111899
+    },
+    {
+      "date": "2026-08-29",
+      "monthly_listeners": 2283784,
+      "collected_at": "2026-08-29T17:42:54.083313+00:00",
+      "spotify_followers": 1072348,
+      "youtube_subscribers": 889000,
+      "youtube_total_views": 681843606,
+      "youtube_video_count": 345,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54917
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 52939
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 49422
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 34849
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 25358
+        }
+      ],
+      "lastfm_listeners": 170872,
+      "lastfm_playcount": 5969682,
+      "ytm_subscribers": 889000,
+      "ytm_monthly_listeners": 7830000,
+      "ytm_total_views": 658111899
     }
   ],
   "annotations": [
@@ -5997,34 +6038,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Uru",
-        "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "18.6M"
-      },
-      {
-        "name": "reona",
-        "browse_id": "UCv8_ZHaN1nPlQfS8F2CRgYg",
-        "subscribers": "2.22M"
-      },
-      {
-        "name": "Masaki Suda",
-        "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "5.47M"
-      },
-      {
-        "name": "Utada",
-        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "23.8M"
-      },
-      {
         "name": "Rei Yasuda",
         "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
-        "subscribers": "230K"
+        "subscribers": "235K"
       },
       {
         "name": "YU-KA",
         "browse_id": "UC-3USfEYlYrgjVGHSNY1QWA",
-        "subscribers": "775K"
+        "subscribers": "809K"
       },
       {
         "name": "Tielle",
@@ -6034,17 +6055,37 @@
       {
         "name": "Anly",
         "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
-        "subscribers": "3.26M"
+        "subscribers": "3.13M"
+      },
+      {
+        "name": "Harumi",
+        "browse_id": "UCIY5wTwSM2BB4_UA7T57lnQ",
+        "subscribers": "44.2K"
       },
       {
         "name": "krage",
         "browse_id": "UCg3fieU_nWIdFBOrqVqNUGQ",
-        "subscribers": "209K"
+        "subscribers": "220K"
       },
       {
         "name": "LOZAREENA",
         "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
         "subscribers": "257K"
+      },
+      {
+        "name": "adieu",
+        "browse_id": "UCvDhn0d7NbLomi8rZxt4qKg",
+        "subscribers": "382K"
+      },
+      {
+        "name": "majiko",
+        "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
+        "subscribers": "475K"
+      },
+      {
+        "name": "MIYUNA",
+        "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
+        "subscribers": "170K"
       }
     ],
     "ytm_top_songs": [
@@ -7391,6 +7432,12 @@
           "date": "2026-08-28",
           "views": 9465708,
           "likes": 65441,
+          "comments": 222
+        },
+        {
+          "date": "2026-08-29",
+          "views": 9473341,
+          "likes": 65473,
           "comments": 222
         }
       ]
@@ -9507,6 +9554,12 @@
           "views": 2108933,
           "likes": 29673,
           "comments": 318
+        },
+        {
+          "date": "2026-08-29",
+          "views": 2113477,
+          "likes": 29700,
+          "comments": 318
         }
       ]
     },
@@ -9931,6 +9984,12 @@
           "views": 15013881,
           "likes": 146957,
           "comments": 2336
+        },
+        {
+          "date": "2026-08-29",
+          "views": 15028457,
+          "likes": 147076,
+          "comments": 2338
         }
       ]
     },
@@ -10200,6 +10259,12 @@
           "views": 184162,
           "likes": 3143,
           "comments": 36
+        },
+        {
+          "date": "2026-08-29",
+          "views": 186768,
+          "likes": 3164,
+          "comments": 38
         }
       ]
     },
@@ -10228,6 +10293,12 @@
           "date": "2026-08-28",
           "views": 21452,
           "likes": 407,
+          "comments": 11
+        },
+        {
+          "date": "2026-08-29",
+          "views": 22408,
+          "likes": 413,
           "comments": 11
         }
       ]
@@ -10881,6 +10952,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-28T23:34:40.304947+00:00"
+    },
+    {
+      "date": "2026-08-29",
+      "metric": "ytm_monthly_listeners",
+      "value": 7830000,
+      "baseline_mean": 6683000,
+      "baseline_stddev": 423400.1,
+      "delta": 1147000,
+      "score": 2.71,
+      "type": "annotated",
+      "related_annotation": "『Made of Glass』オリコン週間デジタルアルバム1位獲得報道の余波",
+      "detected_at": "2026-08-29T17:42:55.662980+00:00"
     }
   ]
 }
