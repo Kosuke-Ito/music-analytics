@@ -5991,6 +5991,47 @@
       "ytm_subscribers": 2460000,
       "ytm_monthly_listeners": 101000000,
       "ytm_total_views": 1933446991
+    },
+    {
+      "date": "2026-08-30",
+      "monthly_listeners": 5590169,
+      "collected_at": "2026-08-30T17:58:51.716425+00:00",
+      "spotify_followers": 2424607,
+      "youtube_subscribers": 2460000,
+      "youtube_total_views": 1952708328,
+      "youtube_video_count": 157,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 91597
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 81100
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 65744
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 60772
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 54601
+        }
+      ],
+      "lastfm_listeners": 652049,
+      "lastfm_playcount": 22838024,
+      "ytm_subscribers": 2460000,
+      "ytm_monthly_listeners": 100000000,
+      "ytm_total_views": 1933446991
     }
   ],
   "annotations": [
@@ -6424,12 +6465,12 @@
       {
         "name": "Take-M",
         "browse_id": "UCF1rClJ_0tUW1pLXnIq1uWA",
-        "subscribers": "454K"
+        "subscribers": "448K"
       },
       {
         "name": "meiyo",
         "browse_id": "UCB-GLODeehoZJ-v2aZcUhRw",
-        "subscribers": "24.7M"
+        "subscribers": "24.4M"
       },
       {
         "name": "Rude-α",
@@ -6437,14 +6478,14 @@
         "subscribers": "212K"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "24.6M"
+        "name": "frederic",
+        "browse_id": "UCFTm4lY-D08LFZyncZIoDIQ",
+        "subscribers": "7.18M"
       },
       {
         "name": "PEOPLE 1",
         "browse_id": "UCUmwU8l8vUP_0aZe-zKQu-w",
-        "subscribers": "1.1M"
+        "subscribers": "1.09M"
       },
       {
         "name": "DOES",
@@ -6457,19 +6498,19 @@
         "subscribers": "17.2K"
       },
       {
-        "name": "frederic",
-        "browse_id": "UCFTm4lY-D08LFZyncZIoDIQ",
-        "subscribers": "7.18M"
-      },
-      {
-        "name": "Kenshi Yonezu",
-        "browse_id": "UCC_OGcKdYY-aWFvVMFVGbzw",
-        "subscribers": "75.1M"
-      },
-      {
         "name": "ALI",
         "browse_id": "UCcM2nwYSXoS0pRpljTefmpg",
-        "subscribers": "8.51M"
+        "subscribers": "8.38M"
+      },
+      {
+        "name": "Sambomaster",
+        "browse_id": "UCvyXPoNqJTaXM8JumtetA2g",
+        "subscribers": "3.79M"
+      },
+      {
+        "name": "KANA-BOON",
+        "browse_id": "UCoO40PGRZLLymjlFuncg_hg",
+        "subscribers": "27.3M"
       }
     ],
     "ytm_top_songs": [
@@ -7072,6 +7113,18 @@
       "type": "annotated",
       "related_annotation": "ミニアルバム「かつて天才だった俺たちへ」リリース日と一致",
       "detected_at": "2026-08-29T17:33:51.619620+00:00"
+    },
+    {
+      "date": "2026-08-30",
+      "metric": "monthly_listeners",
+      "value": 5590169,
+      "baseline_mean": 5504066.5,
+      "baseline_stddev": 41938.5,
+      "delta": 86102,
+      "score": 2.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-30T17:58:53.339369+00:00"
     }
   ],
   "song_performance": {
@@ -7911,6 +7964,12 @@
           "views": 26775131,
           "likes": 331237,
           "comments": 1133
+        },
+        {
+          "date": "2026-08-30",
+          "views": 26833384,
+          "likes": 331915,
+          "comments": 1132
         }
       ]
     },
@@ -8750,6 +8809,12 @@
           "views": 22815385,
           "likes": 293270,
           "comments": 1133
+        },
+        {
+          "date": "2026-08-30",
+          "views": 22856218,
+          "likes": 293760,
+          "comments": 1136
         }
       ]
     },
@@ -9589,6 +9654,12 @@
           "views": 8087648,
           "likes": 103059,
           "comments": 1148
+        },
+        {
+          "date": "2026-08-30",
+          "views": 8097582,
+          "likes": 103149,
+          "comments": 1147
         }
       ]
     },
@@ -10428,6 +10499,12 @@
           "views": 12964685,
           "likes": 118883,
           "comments": 543
+        },
+        {
+          "date": "2026-08-30",
+          "views": 12973102,
+          "likes": 118937,
+          "comments": 545
         }
       ]
     },
@@ -11276,6 +11353,12 @@
           "date": "2026-08-29",
           "views": 60564,
           "likes": 1847,
+          "comments": 37
+        },
+        {
+          "date": "2026-08-30",
+          "views": 63264,
+          "likes": 1921,
           "comments": 37
         }
       ]

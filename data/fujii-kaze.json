@@ -5989,6 +5989,47 @@
       "ytm_subscribers": 5510000,
       "ytm_monthly_listeners": 56100000,
       "ytm_total_views": 2939834338
+    },
+    {
+      "date": "2026-08-30",
+      "monthly_listeners": 7161496,
+      "collected_at": "2026-08-30T17:58:34.092524+00:00",
+      "spotify_followers": 5227446,
+      "youtube_subscribers": 5510000,
+      "youtube_total_views": 2957341661,
+      "youtube_video_count": 228,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 198633
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 172986
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 142855
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 97184
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 91607
+        }
+      ],
+      "lastfm_listeners": 18694,
+      "lastfm_playcount": 1595247,
+      "ytm_subscribers": 5510000,
+      "ytm_monthly_listeners": 56100000,
+      "ytm_total_views": 2939834338
     }
   ],
   "annotations": [
@@ -6336,44 +6377,44 @@
         "subscribers": "3.05M"
       },
       {
-        "name": "Tokyo Incidents",
-        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
-        "subscribers": "3.07M"
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "3.42M"
       },
       {
         "name": "Utada",
         "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "23.9M"
+        "subscribers": "23.6M"
       },
       {
         "name": "Penthouse",
         "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "1.84M"
+        "subscribers": "1.82M"
       },
       {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.41M"
-      },
-      {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "24.6M"
+        "name": "Tokyo Incidents",
+        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
+        "subscribers": "3.11M"
       },
       {
         "name": "SIRUP",
         "browse_id": "UCNOawli2PNwt-9L_mqjCxUA",
-        "subscribers": "670K"
+        "subscribers": "671K"
       },
       {
         "name": "imase",
         "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "68.3M"
+        "subscribers": "67.9M"
       },
       {
         "name": "King Gnu",
         "browse_id": "UC9tx_HmhNISUR39M29r9a8A",
-        "subscribers": "57.2M"
+        "subscribers": "57.7M"
+      },
+      {
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "1.69M"
       }
     ],
     "ytm_top_songs": [
@@ -7237,6 +7278,12 @@
           "views": 292588222,
           "likes": 3815447,
           "comments": 19481
+        },
+        {
+          "date": "2026-08-30",
+          "views": 292711505,
+          "likes": 3815754,
+          "comments": 19494
         }
       ]
     },
@@ -8123,6 +8170,12 @@
           "views": 78268851,
           "likes": 376983,
           "comments": 689
+        },
+        {
+          "date": "2026-08-30",
+          "views": 78319780,
+          "likes": 377169,
+          "comments": 690
         }
       ]
     },
@@ -8889,6 +8942,12 @@
           "views": 53945724,
           "likes": 396567,
           "comments": 1154
+        },
+        {
+          "date": "2026-08-30",
+          "views": 53978262,
+          "likes": 396640,
+          "comments": 1154
         }
       ]
     },
@@ -9583,6 +9642,12 @@
           "date": "2026-08-29",
           "views": 3462937,
           "likes": 22229,
+          "comments": 110
+        },
+        {
+          "date": "2026-08-30",
+          "views": 3485612,
+          "likes": 22350,
           "comments": 110
         }
       ]
@@ -10381,6 +10446,12 @@
           "views": 3952114,
           "likes": 27437,
           "comments": 167
+        },
+        {
+          "date": "2026-08-30",
+          "views": 3978678,
+          "likes": 27580,
+          "comments": 168
         }
       ]
     },
@@ -11270,6 +11341,18 @@
       "type": "annotated",
       "related_annotation": "エルミーンとのサマソニ共演がJ-WAVEで放送、Spotify月間リスナーが微増",
       "detected_at": "2026-08-29T17:33:36.978433+00:00"
+    },
+    {
+      "date": "2026-08-30",
+      "metric": "ytm_monthly_listeners",
+      "value": 56100000,
+      "baseline_mean": 49063333.3,
+      "baseline_stddev": 3176421.8,
+      "delta": 7036666,
+      "score": 2.22,
+      "type": "annotated",
+      "related_annotation": "エルミーンとのサマソニ共演がJ-WAVEで放送、Spotify月間リスナーが微増",
+      "detected_at": "2026-08-30T17:58:35.678966+00:00"
     }
   ]
 }

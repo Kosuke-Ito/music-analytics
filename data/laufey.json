@@ -5988,6 +5988,47 @@
       "ytm_subscribers": 3620000,
       "ytm_monthly_listeners": 87600000,
       "ytm_total_views": 1334284559
+    },
+    {
+      "date": "2026-08-30",
+      "monthly_listeners": 21089906,
+      "collected_at": "2026-08-30T18:02:36.588679+00:00",
+      "spotify_followers": 10911942,
+      "youtube_subscribers": 3620000,
+      "youtube_total_views": 1389072891,
+      "youtube_video_count": 545,
+      "top_cities": [
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 267196
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 231505
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 215506
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 201939
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 201584
+        }
+      ],
+      "lastfm_listeners": 2502698,
+      "lastfm_playcount": 290070404,
+      "ytm_subscribers": 3620000,
+      "ytm_monthly_listeners": 86500000,
+      "ytm_total_views": 1334284559
     }
   ],
   "annotations": [
@@ -6341,47 +6382,47 @@
       {
         "name": "Rocco",
         "browse_id": "UCKTYyqZkReYbvRUGYUc19iQ",
-        "subscribers": "371K"
+        "subscribers": "369K"
       },
       {
         "name": "jomm",
         "browse_id": "UCFca_eyQw7EkmhqInKz5ruA",
-        "subscribers": "154K"
+        "subscribers": "157K"
       },
       {
         "name": "aron!",
         "browse_id": "UCEyRAg81bPs5-_L1mJ1lihg",
-        "subscribers": "267K"
-      },
-      {
-        "name": "Mei Mei The Bunny",
-        "browse_id": "UC-1Z-0-3-FYtoOGdUHr0syw",
-        "subscribers": "8.58M"
+        "subscribers": "265K"
       },
       {
         "name": "Rex Orange County",
         "browse_id": "UCRI-Ds5eY70A4oeHggAFBbg",
-        "subscribers": "95.4M"
-      },
-      {
-        "name": "Wasia Project",
-        "browse_id": "UCPziehcInXuXsqIsUquQRmA",
-        "subscribers": "391K"
+        "subscribers": "95M"
       },
       {
         "name": "Liana Flores",
         "browse_id": "UCOOKbAPgT8xKwM6V9GLHiEg",
-        "subscribers": "14.7M"
+        "subscribers": "14.6M"
       },
       {
-        "name": "The Marías",
-        "browse_id": "UCVV5M4OEFsKnB9HBhwOhHbA",
-        "subscribers": "62.6M"
+        "name": "Mei Mei The Bunny",
+        "browse_id": "UC-1Z-0-3-FYtoOGdUHr0syw",
+        "subscribers": "8.42M"
+      },
+      {
+        "name": "Wasia Project",
+        "browse_id": "UCPziehcInXuXsqIsUquQRmA",
+        "subscribers": "389K"
       },
       {
         "name": "grentperez",
         "browse_id": "UC3CyxyxdZLGrcpHUuaZolVw",
-        "subscribers": "1.08M"
+        "subscribers": "1.09M"
+      },
+      {
+        "name": "The Marías",
+        "browse_id": "UCVV5M4OEFsKnB9HBhwOhHbA",
+        "subscribers": "62.2M"
       }
     ],
     "ytm_top_songs": [
@@ -7245,6 +7286,12 @@
           "views": 89027208,
           "likes": 1279918,
           "comments": 9165
+        },
+        {
+          "date": "2026-08-30",
+          "views": 89163308,
+          "likes": 1281195,
+          "comments": 9178
         }
       ]
     },
@@ -8084,6 +8131,12 @@
           "views": 22190851,
           "likes": 316095,
           "comments": 1406
+        },
+        {
+          "date": "2026-08-30",
+          "views": 22258253,
+          "likes": 316861,
+          "comments": 1409
         }
       ]
     },
@@ -8923,6 +8976,12 @@
           "views": 25537869,
           "likes": 281042,
           "comments": 842
+        },
+        {
+          "date": "2026-08-30",
+          "views": 25572800,
+          "likes": 281306,
+          "comments": 847
         }
       ]
     },
@@ -9767,6 +9826,12 @@
           "views": 31484564,
           "likes": 452036,
           "comments": 1547
+        },
+        {
+          "date": "2026-08-30",
+          "views": 31513503,
+          "likes": 452288,
+          "comments": 1545
         }
       ]
     },
@@ -10611,6 +10676,12 @@
           "views": 6085254,
           "likes": 78207,
           "comments": 1693
+        },
+        {
+          "date": "2026-08-30",
+          "views": 6106698,
+          "likes": 78455,
+          "comments": 1702
         }
       ]
     }
@@ -11179,6 +11250,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-29T17:37:02.045934+00:00"
+    },
+    {
+      "date": "2026-08-30",
+      "metric": "monthly_listeners",
+      "value": 21089906,
+      "baseline_mean": 20857946.7,
+      "baseline_stddev": 83293.5,
+      "delta": 231959,
+      "score": 2.78,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-30T18:02:38.585277+00:00"
+    },
+    {
+      "date": "2026-08-30",
+      "metric": "youtube_total_views",
+      "value": 1389072891,
+      "baseline_mean": 1361597816.1,
+      "baseline_stddev": 12759849.7,
+      "delta": 27475074,
+      "score": 2.15,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-30T18:02:38.585277+00:00"
     }
   ]
 }

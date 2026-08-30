@@ -5815,6 +5815,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 250000,
       "ytm_total_views": 44176390
+    },
+    {
+      "date": "2026-08-30",
+      "monthly_listeners": 243420,
+      "collected_at": "2026-08-30T17:52:21.957929+00:00",
+      "spotify_followers": 143054,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44485030,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8917
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7148
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4590
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2913
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2164
+        }
+      ],
+      "lastfm_listeners": 71243,
+      "lastfm_playcount": 1195937,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 249000,
+      "ytm_total_views": 44176390
     }
   ],
   "metadata": {
@@ -5873,52 +5914,52 @@
       {
         "name": "Glim Spanky",
         "browse_id": "UCYykT4n0YsFugkRdrXlFZ1Q",
-        "subscribers": "771K"
-      },
-      {
-        "name": "Yoru No Honki Dance",
-        "browse_id": "UCaZGUqEL8pzFRgLXXJ4dL2Q",
-        "subscribers": "104K"
+        "subscribers": "766K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "90.1K"
+        "subscribers": "90.4K"
       },
       {
         "name": "Base Ball Bear",
         "browse_id": "UCiLo1ZMUrpzZHi_hVL3waXg",
-        "subscribers": "197K"
+        "subscribers": "195K"
       },
       {
         "name": "Huwie Ishizaki",
         "browse_id": "UCgr4h11LzQneG3a2D1q1obA",
-        "subscribers": "244K"
+        "subscribers": "242K"
       },
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "92.1K"
+        "subscribers": "91.8K"
       },
       {
         "name": "Tempalay",
         "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
-        "subscribers": "124K"
+        "subscribers": "123K"
       },
       {
         "name": "tacica",
         "browse_id": "UCVhYxCyDQx_BW-n7CKFAH7Q",
-        "subscribers": "246K"
+        "subscribers": "248K"
       },
       {
         "name": "boku no lyric no bouyomi",
         "browse_id": "UCw1r5leUGRTKJ4iSZ33kB9A",
-        "subscribers": "53.9K"
+        "subscribers": "54.2K"
       },
       {
         "name": "Akai Ko-En",
         "browse_id": "UCVPEVqfO021f0jXz3sWNGSA",
-        "subscribers": "98.8K"
+        "subscribers": "99.6K"
+      },
+      {
+        "name": "Skirt",
+        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
+        "subscribers": "108K"
       }
     ],
     "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia ("
@@ -6809,6 +6850,12 @@
           "views": 15754,
           "likes": 208,
           "comments": 3
+        },
+        {
+          "date": "2026-08-30",
+          "views": 15783,
+          "likes": 209,
+          "comments": 3
         }
       ]
     },
@@ -7647,6 +7694,12 @@
           "date": "2026-08-29",
           "views": 944513,
           "likes": 11854,
+          "comments": 32
+        },
+        {
+          "date": "2026-08-30",
+          "views": 945071,
+          "likes": 11859,
           "comments": 32
         }
       ]
@@ -8942,6 +8995,12 @@
           "views": 237850,
           "likes": 1736,
           "comments": 7
+        },
+        {
+          "date": "2026-08-30",
+          "views": 238016,
+          "likes": 1736,
+          "comments": 7
         }
       ]
     },
@@ -10097,6 +10156,12 @@
           "views": 9023,
           "likes": 91,
           "comments": 4
+        },
+        {
+          "date": "2026-08-30",
+          "views": 9071,
+          "likes": 92,
+          "comments": 4
         }
       ]
     },
@@ -10204,6 +10269,12 @@
         {
           "date": "2026-08-29",
           "views": 2624,
+          "likes": 54,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-30",
+          "views": 2679,
           "likes": 54,
           "comments": 2
         }
@@ -10860,6 +10931,18 @@
       "type": "annotated",
       "related_annotation": "ハマ・オカモト脱退＆「LOSTRANGER」効果がSpotify/YouTube Music両指標で継続",
       "detected_at": "2026-08-29T17:28:07.710291+00:00"
+    },
+    {
+      "date": "2026-08-30",
+      "metric": "ytm_monthly_listeners",
+      "value": 249000,
+      "baseline_mean": 217366.7,
+      "baseline_stddev": 12381.4,
+      "delta": 31633,
+      "score": 2.55,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-30T17:52:23.975276+00:00"
     }
   ]
 }

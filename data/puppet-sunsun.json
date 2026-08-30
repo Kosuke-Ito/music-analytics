@@ -5817,6 +5817,47 @@
       "ytm_subscribers": 7860,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-30",
+      "monthly_listeners": 205104,
+      "collected_at": "2026-08-30T17:56:01.400603+00:00",
+      "spotify_followers": 35785,
+      "youtube_subscribers": 921000,
+      "youtube_total_views": 172653625,
+      "youtube_video_count": 486,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7119
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6065
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5654
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2841
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2819
+        }
+      ],
+      "lastfm_listeners": 1053,
+      "lastfm_playcount": 6132,
+      "ytm_subscribers": 7860,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -6109,32 +6150,32 @@
       {
         "name": "THE BYAN",
         "browse_id": "UCBw8Xb1vDodUWa7Kt1XXbuw",
-        "subscribers": "3.28M"
+        "subscribers": "3.26M"
       },
       {
         "name": "MONAKI",
         "browse_id": "UCO-nYtU_R0wWunK2j6W53qQ",
-        "subscribers": "4.62M"
+        "subscribers": "4.89M"
       },
       {
-        "name": "Nakayama Kinni-kun",
-        "browse_id": "UCgWHrBoun8E4eiDtM88TpOg",
-        "subscribers": "1.29K"
+        "name": "Fischers",
+        "browse_id": "UCf4SncCsLDI7A7AQ_BprkkA",
+        "subscribers": "12.9K"
       },
       {
         "name": "Matsuya Onoe",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
-        "subscribers": "531"
+        "subscribers": "532"
       },
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "1.34K"
+        "subscribers": "1.35K"
       },
       {
         "name": "メンバー",
         "browse_id": "UCDPFciMgCrHu4U1dzuE1F5w",
-        "subscribers": "1.87K"
+        "subscribers": "1.88K"
       },
       {
         "name": "Yuria Nara",
@@ -6144,17 +6185,17 @@
       {
         "name": "Tesesaku",
         "browse_id": "UCxMfaJk6D2pde7PBChZEzfg",
-        "subscribers": "8.41K"
+        "subscribers": "8.43K"
       },
       {
         "name": "Senasuke",
         "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
-        "subscribers": "722K"
+        "subscribers": "718K"
       },
       {
-        "name": "Fischers",
-        "browse_id": "UCf4SncCsLDI7A7AQ_BprkkA",
-        "subscribers": "12.9K"
+        "name": "MADAMADA",
+        "browse_id": "UCEzNOrBjotEn6POsgTYdqLA",
+        "subscribers": "7.42K"
       }
     ]
   },
@@ -6422,6 +6463,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-23T14:18:28.037712+00:00"
+    },
+    {
+      "date": "2026-08-30",
+      "metric": "youtube_total_views",
+      "value": 172653625,
+      "baseline_mean": 169212777.7,
+      "baseline_stddev": 1679654.3,
+      "delta": 3440847,
+      "score": 2.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-30T17:56:02.948777+00:00"
     }
   ]
 }

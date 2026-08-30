@@ -5624,17 +5624,58 @@
       "ytm_subscribers": 38900,
       "ytm_monthly_listeners": 100000,
       "ytm_total_views": 8963613
+    },
+    {
+      "date": "2026-08-30",
+      "monthly_listeners": 69917,
+      "collected_at": "2026-08-30T18:10:19.360523+00:00",
+      "spotify_followers": 52899,
+      "youtube_subscribers": 38900,
+      "youtube_total_views": 9212146,
+      "youtube_video_count": 82,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4149
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1644
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1061
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 967
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 930
+        }
+      ],
+      "lastfm_listeners": 24384,
+      "lastfm_playcount": 411123,
+      "ytm_subscribers": 38900,
+      "ytm_monthly_listeners": 100000,
+      "ytm_total_views": 8963613
     }
   ],
   "metadata": {
     "lastfm_similar_artists": [
       {
-        "name": "Pasocom Music Club",
-        "url": "https://www.last.fm/music/Pasocom+Music+Club"
-      },
-      {
         "name": "tofubeats",
         "url": "https://www.last.fm/music/tofubeats"
+      },
+      {
+        "name": "Pasocom Music Club",
+        "url": "https://www.last.fm/music/Pasocom+Music+Club"
       },
       {
         "name": "Lausbub",
@@ -5658,11 +5699,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Tempalay",
-        "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
-        "subscribers": "124K"
-      },
-      {
         "name": "AAAMYYY",
         "browse_id": "UC6Ydky9GghVtUi0QqqoxPoA",
         "subscribers": "25.8K"
@@ -5670,7 +5706,7 @@
       {
         "name": "BREIMEN",
         "browse_id": "UCyEI0vXqS0zmHSdyYYBS79g",
-        "subscribers": "92.1K"
+        "subscribers": "91.8K"
       },
       {
         "name": "kurayamisaka",
@@ -5680,12 +5716,12 @@
       {
         "name": "171",
         "browse_id": "UCq0u98nOXbxzFlsbz4kzWFw",
-        "subscribers": "84.7K"
+        "subscribers": "82.8K"
       },
       {
         "name": "Pop Never Dies",
         "browse_id": "UC5b9TQvYYijEScOHK30V7Jw",
-        "subscribers": "84.1K"
+        "subscribers": "84.6K"
       },
       {
         "name": "tofubeats",
@@ -5700,12 +5736,17 @@
       {
         "name": "capsule",
         "browse_id": "UCZsrsPpiAC4-aXPXSRzFJhQ",
-        "subscribers": "1.1M"
+        "subscribers": "1.12M"
       },
       {
         "name": "80KIDZ",
         "browse_id": "UCNX3xsR7gTNXzcG8VyY3Z5g",
         "subscribers": "3.93K"
+      },
+      {
+        "name": "PAS TASTA",
+        "browse_id": "UCXWyAgpgtm-Ae1E1aud3ajg",
+        "subscribers": "187K"
       }
     ],
     "ytm_top_songs": [
@@ -6545,6 +6586,12 @@
           "views": 156360,
           "likes": 2944,
           "comments": 26
+        },
+        {
+          "date": "2026-08-30",
+          "views": 156705,
+          "likes": 2950,
+          "comments": 26
         }
       ]
     },
@@ -7359,6 +7406,12 @@
           "date": "2026-08-29",
           "views": 612272,
           "likes": 5586,
+          "comments": 18
+        },
+        {
+          "date": "2026-08-30",
+          "views": 612683,
+          "likes": 5593,
           "comments": 18
         }
       ]
@@ -8175,6 +8228,12 @@
           "views": 340409,
           "likes": 3615,
           "comments": 7
+        },
+        {
+          "date": "2026-08-30",
+          "views": 340631,
+          "likes": 3615,
+          "comments": 7
         }
       ]
     },
@@ -8988,6 +9047,12 @@
         {
           "date": "2026-08-29",
           "views": 61302,
+          "likes": 199,
+          "comments": 2
+        },
+        {
+          "date": "2026-08-30",
+          "views": 61425,
           "likes": 199,
           "comments": 2
         }
@@ -9864,6 +9929,12 @@
           "date": "2026-08-29",
           "views": 18667,
           "likes": 452,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-30",
+          "views": 18940,
+          "likes": 454,
           "comments": 5
         }
       ]
@@ -11228,6 +11299,18 @@
       "type": "annotated",
       "related_annotation": "新曲「wonders」＆アジアツアー先行抽選受付期間中の高水準リスナー数が継続",
       "detected_at": "2026-08-29T17:43:41.340950+00:00"
+    },
+    {
+      "date": "2026-08-30",
+      "metric": "ytm_monthly_listeners",
+      "value": 100000,
+      "baseline_mean": 72860.0,
+      "baseline_stddev": 12088.5,
+      "delta": 27140,
+      "score": 2.25,
+      "type": "annotated",
+      "related_annotation": "新曲「wonders」＆アジアツアー先行抽選受付期間中の高水準リスナー数が継続",
+      "detected_at": "2026-08-30T18:10:21.208153+00:00"
     }
   ]
 }

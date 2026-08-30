@@ -5700,6 +5700,47 @@
       "ytm_subscribers": 889000,
       "ytm_monthly_listeners": 7830000,
       "ytm_total_views": 658111899
+    },
+    {
+      "date": "2026-08-30",
+      "monthly_listeners": 2285429,
+      "collected_at": "2026-08-30T18:09:27.657538+00:00",
+      "spotify_followers": 1072650,
+      "youtube_subscribers": 889000,
+      "youtube_total_views": 681843606,
+      "youtube_video_count": 346,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54902
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 53001
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 49516
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 34707
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 25424
+        }
+      ],
+      "lastfm_listeners": 170924,
+      "lastfm_playcount": 5971584,
+      "ytm_subscribers": 889000,
+      "ytm_monthly_listeners": 7940000,
+      "ytm_total_views": 658111899
     }
   ],
   "annotations": [
@@ -6040,12 +6081,12 @@
       {
         "name": "Rei Yasuda",
         "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
-        "subscribers": "235K"
+        "subscribers": "234K"
       },
       {
         "name": "YU-KA",
         "browse_id": "UC-3USfEYlYrgjVGHSNY1QWA",
-        "subscribers": "809K"
+        "subscribers": "810K"
       },
       {
         "name": "Tielle",
@@ -6055,7 +6096,7 @@
       {
         "name": "Anly",
         "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
-        "subscribers": "3.13M"
+        "subscribers": "3.02M"
       },
       {
         "name": "Harumi",
@@ -6070,17 +6111,17 @@
       {
         "name": "LOZAREENA",
         "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
-        "subscribers": "257K"
+        "subscribers": "256K"
       },
       {
         "name": "adieu",
         "browse_id": "UCvDhn0d7NbLomi8rZxt4qKg",
-        "subscribers": "382K"
+        "subscribers": "383K"
       },
       {
         "name": "majiko",
         "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "475K"
+        "subscribers": "480K"
       },
       {
         "name": "MIYUNA",
@@ -7438,6 +7479,12 @@
           "date": "2026-08-29",
           "views": 9473341,
           "likes": 65473,
+          "comments": 222
+        },
+        {
+          "date": "2026-08-30",
+          "views": 9481348,
+          "likes": 65517,
           "comments": 222
         }
       ]
@@ -9560,6 +9607,12 @@
           "views": 2113477,
           "likes": 29700,
           "comments": 318
+        },
+        {
+          "date": "2026-08-30",
+          "views": 2118956,
+          "likes": 29733,
+          "comments": 318
         }
       ]
     },
@@ -9990,6 +10043,12 @@
           "views": 15028457,
           "likes": 147076,
           "comments": 2338
+        },
+        {
+          "date": "2026-08-30",
+          "views": 15046523,
+          "likes": 147209,
+          "comments": 2339
         }
       ]
     },
@@ -10265,6 +10324,12 @@
           "views": 186768,
           "likes": 3164,
           "comments": 38
+        },
+        {
+          "date": "2026-08-30",
+          "views": 189519,
+          "likes": 3198,
+          "comments": 38
         }
       ]
     },
@@ -10299,6 +10364,12 @@
           "date": "2026-08-29",
           "views": 22408,
           "likes": 413,
+          "comments": 11
+        },
+        {
+          "date": "2026-08-30",
+          "views": 23566,
+          "likes": 425,
           "comments": 11
         }
       ]
@@ -10964,6 +11035,18 @@
       "type": "annotated",
       "related_annotation": "『Made of Glass』オリコン週間デジタルアルバム1位獲得報道の余波",
       "detected_at": "2026-08-29T17:42:55.662980+00:00"
+    },
+    {
+      "date": "2026-08-30",
+      "metric": "ytm_monthly_listeners",
+      "value": 7940000,
+      "baseline_mean": 6744333.3,
+      "baseline_stddev": 450944.8,
+      "delta": 1195666,
+      "score": 2.65,
+      "type": "annotated",
+      "related_annotation": "『Made of Glass』オリコン週間デジタルアルバム1位獲得報道の余波",
+      "detected_at": "2026-08-30T18:09:29.483044+00:00"
     }
   ]
 }
