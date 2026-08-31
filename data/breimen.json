@@ -5852,6 +5852,47 @@
       "ytm_subscribers": 29400,
       "ytm_monthly_listeners": 91800,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-08-31",
+      "monthly_listeners": 54955,
+      "collected_at": "2026-08-31T19:46:49.957741+00:00",
+      "spotify_followers": 36632,
+      "youtube_subscribers": 29400,
+      "youtube_total_views": 15631339,
+      "youtube_video_count": 190,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2083
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1395
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 964
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 661
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 420
+        }
+      ],
+      "lastfm_listeners": 20038,
+      "lastfm_playcount": 221402,
+      "ytm_subscribers": 29400,
+      "ytm_monthly_listeners": 89200,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5885,54 +5926,54 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Kiichi",
+        "browse_id": "UC2Mi7z41v2KZuFfcR85F1Ow",
+        "subscribers": "305"
+      },
+      {
+        "name": "Kroi",
+        "browse_id": "UCssoAGLly9DaABecIZoht_g",
+        "subscribers": "379K"
+      },
+      {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "90.4K"
+        "subscribers": "87.2K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "108K"
+        "subscribers": "105K"
       },
       {
         "name": "7th Vega",
         "browse_id": "UC_W5BfNNzkxWj911JSDAu9g",
-        "subscribers": "144K"
+        "subscribers": "142K"
       },
       {
         "name": "Okamoto's",
         "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
-        "subscribers": "249K"
+        "subscribers": "243K"
       },
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "72.7K"
+        "subscribers": "70K"
       },
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "202K"
+        "subscribers": "190K"
       },
       {
         "name": "Kayoko Yoshizawa",
         "browse_id": "UCbyPRq7zMUVjKiY2teAETNg",
-        "subscribers": "220K"
+        "subscribers": "210K"
       },
       {
         "name": "GALALI",
         "browse_id": "UCThDArGUm8LXX1ES5TRLtfQ",
-        "subscribers": "56.1K"
-      },
-      {
-        "name": "Hikari Mitsushima",
-        "browse_id": "UCmQX9uNXRj07dI4iZcN9ZMQ",
-        "subscribers": "132K"
-      },
-      {
-        "name": "NIKO NIKO TAN TAN",
-        "browse_id": "UCbyzNb5hHmY4dsv2AJWur6A",
-        "subscribers": "37.2K"
+        "subscribers": "53.9K"
       }
     ],
     "ytm_top_songs": [
@@ -5953,8 +5994,8 @@
         "video_id": "KQk2kMK5RYw"
       },
       {
-        "title": "BALLOON",
-        "video_id": "2VJcnMAWwEM"
+        "title": "エイリアンズ - Aliens",
+        "video_id": "4aNXyvPTaBI"
       }
     ]
   },
@@ -6799,6 +6840,12 @@
         {
           "date": "2026-08-30",
           "views": 17586,
+          "likes": 161,
+          "comments": 3
+        },
+        {
+          "date": "2026-08-31",
+          "views": 17624,
           "likes": 161,
           "comments": 3
         }
@@ -7646,6 +7693,12 @@
           "views": 52680,
           "likes": 427,
           "comments": 9
+        },
+        {
+          "date": "2026-08-31",
+          "views": 52826,
+          "likes": 428,
+          "comments": 9
         }
       ]
     },
@@ -8491,6 +8544,12 @@
           "views": 222683,
           "likes": 2623,
           "comments": 39
+        },
+        {
+          "date": "2026-08-31",
+          "views": 223040,
+          "likes": 2624,
+          "comments": 39
         }
       ]
     },
@@ -9304,6 +9363,12 @@
         {
           "date": "2026-08-29",
           "views": 3871,
+          "likes": 58,
+          "comments": 5
+        },
+        {
+          "date": "2026-08-31",
+          "views": 3877,
           "likes": 58,
           "comments": 5
         }
@@ -10184,6 +10249,12 @@
           "views": 2343,
           "likes": 27,
           "comments": 1
+        },
+        {
+          "date": "2026-08-31",
+          "views": 2348,
+          "likes": 27,
+          "comments": 1
         }
       ]
     },
@@ -10917,6 +10988,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-08-25T14:36:17.735346+00:00"
+    },
+    {
+      "date": "2026-08-31",
+      "metric": "youtube_total_views",
+      "value": 15631339,
+      "baseline_mean": 15533644.1,
+      "baseline_stddev": 47259.9,
+      "delta": 97694,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-31T19:46:51.553213+00:00"
     }
   ]
 }

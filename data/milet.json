@@ -5741,6 +5741,47 @@
       "ytm_subscribers": 889000,
       "ytm_monthly_listeners": 7940000,
       "ytm_total_views": 658111899
+    },
+    {
+      "date": "2026-08-31",
+      "monthly_listeners": 2285898,
+      "collected_at": "2026-08-31T20:03:26.616623+00:00",
+      "spotify_followers": 1072930,
+      "youtube_subscribers": 889000,
+      "youtube_total_views": 683303647,
+      "youtube_video_count": 348,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 55174
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 53154
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 49631
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 34660
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 25397
+        }
+      ],
+      "lastfm_listeners": 170965,
+      "lastfm_playcount": 5973999,
+      "ytm_subscribers": 889000,
+      "ytm_monthly_listeners": 7720000,
+      "ytm_total_views": 659097752
     }
   ],
   "annotations": [
@@ -6081,12 +6122,12 @@
       {
         "name": "Rei Yasuda",
         "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
-        "subscribers": "234K"
+        "subscribers": "223K"
       },
       {
         "name": "YU-KA",
         "browse_id": "UC-3USfEYlYrgjVGHSNY1QWA",
-        "subscribers": "810K"
+        "subscribers": "795K"
       },
       {
         "name": "Tielle",
@@ -6096,7 +6137,7 @@
       {
         "name": "Anly",
         "browse_id": "UCg7sEbwHMWHIs9jiitp4e6Q",
-        "subscribers": "3.02M"
+        "subscribers": "2.87M"
       },
       {
         "name": "Harumi",
@@ -6106,27 +6147,27 @@
       {
         "name": "krage",
         "browse_id": "UCg3fieU_nWIdFBOrqVqNUGQ",
-        "subscribers": "220K"
+        "subscribers": "214K"
       },
       {
         "name": "LOZAREENA",
         "browse_id": "UCA3VqDJw9ueFgxWmIfNiMWA",
-        "subscribers": "256K"
+        "subscribers": "247K"
       },
       {
         "name": "adieu",
         "browse_id": "UCvDhn0d7NbLomi8rZxt4qKg",
-        "subscribers": "383K"
+        "subscribers": "365K"
       },
       {
         "name": "majiko",
         "browse_id": "UC6ALjq4oiVpv9vmL_Cb4Y7g",
-        "subscribers": "480K"
+        "subscribers": "466K"
       },
       {
         "name": "MIYUNA",
         "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
-        "subscribers": "170K"
+        "subscribers": "163K"
       }
     ],
     "ytm_top_songs": [
@@ -6139,12 +6180,12 @@
         "video_id": "OqQAFmkrzew"
       },
       {
-        "title": "Sunny",
-        "video_id": "sxqDXLXquWE"
-      },
-      {
         "title": "Christmas Eve",
         "video_id": "Kq7QcgNW_KY"
+      },
+      {
+        "title": "Sunny",
+        "video_id": "sxqDXLXquWE"
       },
       {
         "title": "The Story of Us",
@@ -7485,6 +7526,12 @@
           "date": "2026-08-30",
           "views": 9481348,
           "likes": 65517,
+          "comments": 222
+        },
+        {
+          "date": "2026-08-31",
+          "views": 9490281,
+          "likes": 65566,
           "comments": 222
         }
       ]
@@ -9613,6 +9660,12 @@
           "views": 2118956,
           "likes": 29733,
           "comments": 318
+        },
+        {
+          "date": "2026-08-31",
+          "views": 2125584,
+          "likes": 29782,
+          "comments": 318
         }
       ]
     },
@@ -10049,6 +10102,12 @@
           "views": 15046523,
           "likes": 147209,
           "comments": 2339
+        },
+        {
+          "date": "2026-08-31",
+          "views": 15068222,
+          "likes": 147396,
+          "comments": 2339
         }
       ]
     },
@@ -10330,6 +10389,12 @@
           "views": 189519,
           "likes": 3198,
           "comments": 38
+        },
+        {
+          "date": "2026-08-31",
+          "views": 193426,
+          "likes": 3256,
+          "comments": 38
         }
       ]
     },
@@ -10370,6 +10435,12 @@
           "date": "2026-08-30",
           "views": 23566,
           "likes": 425,
+          "comments": 11
+        },
+        {
+          "date": "2026-08-31",
+          "views": 24796,
+          "likes": 440,
           "comments": 11
         }
       ]
@@ -11047,6 +11118,18 @@
       "type": "annotated",
       "related_annotation": "『Made of Glass』オリコン週間デジタルアルバム1位獲得報道の余波",
       "detected_at": "2026-08-30T18:09:29.483044+00:00"
+    },
+    {
+      "date": "2026-08-31",
+      "metric": "youtube_total_views",
+      "value": 683303647,
+      "baseline_mean": 675783536.2,
+      "baseline_stddev": 3582958.0,
+      "delta": 7520110,
+      "score": 2.1,
+      "type": "annotated",
+      "related_annotation": "『Made of Glass』オリコン週間デジタルアルバム1位獲得報道の余波",
+      "detected_at": "2026-08-31T20:03:29.066128+00:00"
     }
   ]
 }

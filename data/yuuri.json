@@ -5857,6 +5857,47 @@
       "ytm_subscribers": 1260000,
       "ytm_monthly_listeners": 11400000,
       "ytm_total_views": 1557617667
+    },
+    {
+      "date": "2026-08-31",
+      "monthly_listeners": 3394086,
+      "collected_at": "2026-08-31T19:45:41.866536+00:00",
+      "spotify_followers": 3460678,
+      "youtube_subscribers": 1260000,
+      "youtube_total_views": 1560717837,
+      "youtube_video_count": 81,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 124652
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 109452
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 87857
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 71355
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 45452
+        }
+      ],
+      "lastfm_listeners": 31939,
+      "lastfm_playcount": 688752,
+      "ytm_subscribers": 1260000,
+      "ytm_monthly_listeners": 11100000,
+      "ytm_total_views": 1557617667
     }
   ],
   "annotations": [
@@ -6166,52 +6207,52 @@
       {
         "name": "eill",
         "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.45M"
+        "subscribers": "1.41M"
       },
       {
         "name": "Noda Emi",
         "browse_id": "UC2mwr8Fe3w-HixrCoruERTg",
-        "subscribers": "364K"
+        "subscribers": "348K"
       },
       {
         "name": "Arekun",
         "browse_id": "UCbJGxAjDolW6F7NFCXo2-Dw",
-        "subscribers": "610K"
+        "subscribers": "592K"
       },
       {
         "name": "Takaya Kawasaki",
         "browse_id": "UCDXGFHEDrbeyxDP89awcPvA",
-        "subscribers": "1.73M"
+        "subscribers": "1.67M"
       },
       {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
-        "subscribers": "5.57M"
+        "subscribers": "5.43M"
       },
       {
-        "name": "Novelbright",
-        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
-        "subscribers": "4.44M"
+        "name": "Tani Yuuki",
+        "browse_id": "UCvMixCPGxmC2I8GzwkQvgTw",
+        "subscribers": "5.17M"
       },
       {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.42M"
+        "name": "Lilas",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "16.2M"
       },
       {
         "name": "Mosawo",
         "browse_id": "UC5MzNawVMKQOF7MAHDaYFTQ",
-        "subscribers": "1.11M"
-      },
-      {
-        "name": "UshioReira",
-        "browse_id": "UCaz2bcOnf4jzlosTlqLuT6A",
-        "subscribers": "780K"
+        "subscribers": "1.08M"
       },
       {
         "name": "Riria.",
         "browse_id": "UC19b2wLgiw-R2LTd1waSGXQ",
-        "subscribers": "825K"
+        "subscribers": "798K"
+      },
+      {
+        "name": "Novelbright",
+        "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
+        "subscribers": "4.31M"
       }
     ],
     "ytm_top_songs": [
@@ -7075,6 +7116,12 @@
           "views": 108733480,
           "likes": 349766,
           "comments": 180
+        },
+        {
+          "date": "2026-08-31",
+          "views": 108790834,
+          "likes": 349871,
+          "comments": 181
         }
       ]
     },
@@ -7920,6 +7967,12 @@
           "views": 39356901,
           "likes": 141188,
           "comments": 78
+        },
+        {
+          "date": "2026-08-31",
+          "views": 39383110,
+          "likes": 141222,
+          "comments": 78
         }
       ]
     },
@@ -8741,6 +8794,12 @@
           "views": 23441748,
           "likes": 157395,
           "comments": 671
+        },
+        {
+          "date": "2026-08-31",
+          "views": 23472030,
+          "likes": 157532,
+          "comments": 673
         }
       ]
     },
@@ -9585,6 +9644,12 @@
           "date": "2026-08-30",
           "views": 10889496,
           "likes": 34841,
+          "comments": 21
+        },
+        {
+          "date": "2026-08-31",
+          "views": 10898441,
+          "likes": 34853,
           "comments": 21
         }
       ]
@@ -10471,6 +10536,12 @@
           "views": 29888306,
           "likes": 92436,
           "comments": 57
+        },
+        {
+          "date": "2026-08-31",
+          "views": 29907118,
+          "likes": 92461,
+          "comments": 57
         }
       ]
     }
@@ -11219,6 +11290,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-30T17:51:29.859904+00:00"
+    },
+    {
+      "date": "2026-08-31",
+      "metric": "youtube_total_views",
+      "value": 1560717837,
+      "baseline_mean": 1547659417.0,
+      "baseline_stddev": 5841311.7,
+      "delta": 13058419,
+      "score": 2.24,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-08-31T19:45:43.656454+00:00"
     }
   ]
 }
