@@ -5465,6 +5465,44 @@
       "ytm_subscribers": 6140,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-01",
+      "monthly_listeners": 70215,
+      "collected_at": "2026-09-01T17:34:12.118585+00:00",
+      "spotify_followers": 11091,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2177
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1818
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1306
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1073
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 840
+        }
+      ],
+      "lastfm_listeners": 8872,
+      "lastfm_playcount": 112311,
+      "ytm_subscribers": 6140,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5504,17 +5542,17 @@
       {
         "name": "MIMiNARI",
         "browse_id": "UCNBWI0bR0NC7VHpeAuoDENA",
-        "subscribers": "88.5K"
+        "subscribers": "87.4K"
       },
       {
         "name": "Rei",
         "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
-        "subscribers": "316K"
+        "subscribers": "321K"
       },
       {
         "name": "Shiyui",
         "browse_id": "UCAkYyroRwc9qPuymye_2fNA",
-        "subscribers": "250K"
+        "subscribers": "251K"
       },
       {
         "name": "Tsuzuri",
@@ -5529,12 +5567,12 @@
       {
         "name": "esoragoto",
         "browse_id": "UCe-xzpeeYgHw0EwrXzccpiQ",
-        "subscribers": "156K"
+        "subscribers": "158K"
       },
       {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "105K"
+        "subscribers": "107K"
       },
       {
         "name": "NIKU",
@@ -6414,6 +6452,12 @@
           "views": 4481351,
           "likes": 33708,
           "comments": 0
+        },
+        {
+          "date": "2026-09-01",
+          "views": 4486815,
+          "likes": 33735,
+          "comments": 0
         }
       ]
     },
@@ -7264,6 +7308,12 @@
           "date": "2026-08-31",
           "views": 484701,
           "likes": 3746,
+          "comments": 0
+        },
+        {
+          "date": "2026-09-01",
+          "views": 485638,
+          "likes": 3753,
           "comments": 0
         }
       ]
@@ -8116,6 +8166,12 @@
           "views": 314516,
           "likes": 3891,
           "comments": 0
+        },
+        {
+          "date": "2026-09-01",
+          "views": 315458,
+          "likes": 3904,
+          "comments": 0
         }
       ]
     },
@@ -8966,6 +9022,12 @@
           "date": "2026-08-31",
           "views": 760121,
           "likes": 6283,
+          "comments": 0
+        },
+        {
+          "date": "2026-09-01",
+          "views": 761010,
+          "likes": 6289,
           "comments": 0
         }
       ]
@@ -9838,6 +9900,12 @@
           "views": 290227,
           "likes": 2833,
           "comments": 0
+        },
+        {
+          "date": "2026-09-01",
+          "views": 290682,
+          "likes": 2836,
+          "comments": 0
         }
       ]
     }
@@ -10114,6 +10182,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-06-21T15:49:55.233146+00:00"
+    },
+    {
+      "date": "2026-09-01",
+      "metric": "monthly_listeners",
+      "value": 70215,
+      "baseline_mean": 68146.7,
+      "baseline_stddev": 665.5,
+      "delta": 2068,
+      "score": 3.11,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-01T17:34:13.849537+00:00"
     }
   ]
 }

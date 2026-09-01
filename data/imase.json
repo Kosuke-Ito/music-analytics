@@ -5773,6 +5773,47 @@
       "ytm_subscribers": 1390000,
       "ytm_monthly_listeners": 66200000,
       "ytm_total_views": 898597161
+    },
+    {
+      "date": "2026-09-01",
+      "monthly_listeners": 4181369,
+      "collected_at": "2026-09-01T17:43:12.848962+00:00",
+      "spotify_followers": 1060624,
+      "youtube_subscribers": 1390000,
+      "youtube_total_views": 903214764,
+      "youtube_video_count": 793,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 66447
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 66346
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 54796
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 51210
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 49416
+        }
+      ],
+      "lastfm_listeners": 437822,
+      "lastfm_playcount": 6154928,
+      "ytm_subscribers": 1390000,
+      "ytm_monthly_listeners": 66099999,
+      "ytm_total_views": 903214764
     }
   ],
   "annotations": [
@@ -6135,17 +6176,27 @@
       }
     ],
     "lastfm_tags": [
-      "j-pop",
       "pop",
+      "j-pop",
       "indie pop",
       "japanese",
       "japan"
     ],
     "ytm_related_artists": [
       {
+        "name": "Mel",
+        "browse_id": "UC3-nhpqJ7oA-Gj0fglYNQ9w",
+        "subscribers": "22.7K"
+      },
+      {
+        "name": "G over",
+        "browse_id": "UCVRsmPU-XYUpbKIm-Jha_LQ",
+        "subscribers": "79K"
+      },
+      {
         "name": "KERENMI",
         "browse_id": "UCacynfHovHzkQJ_1enhaDmw",
-        "subscribers": "2.75K"
+        "subscribers": "2.76K"
       },
       {
         "name": "4na",
@@ -6155,22 +6206,22 @@
       {
         "name": "tonun",
         "browse_id": "UC9XSYahwHXgJnG_7opHAdmQ",
-        "subscribers": "77.8K"
+        "subscribers": "78.2K"
       },
       {
         "name": "Furui Riho",
         "browse_id": "UC_INWDSkrIjnmqUi5D6zi4Q",
-        "subscribers": "194K"
+        "subscribers": "192K"
       },
       {
-        "name": "Mel",
-        "browse_id": "UC3-nhpqJ7oA-Gj0fglYNQ9w",
-        "subscribers": "22.7K"
+        "name": "Ayumu Imazu",
+        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
+        "subscribers": "2.99M"
       },
       {
-        "name": "G over",
-        "browse_id": "UCVRsmPU-XYUpbKIm-Jha_LQ",
-        "subscribers": "79.4K"
+        "name": "Rikon Densetsu",
+        "browse_id": "UCWfha3ah1QON9hU4hYg0BQA",
+        "subscribers": "526K"
       },
       {
         "name": "Nishina",
@@ -6178,19 +6229,9 @@
         "subscribers": "251K"
       },
       {
-        "name": "Rikon Densetsu",
-        "browse_id": "UCWfha3ah1QON9hU4hYg0BQA",
-        "subscribers": "594K"
-      },
-      {
         "name": "eill",
         "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.41M"
-      },
-      {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "2.97M"
+        "subscribers": "1.43M"
       }
     ],
     "ytm_top_songs": [
@@ -7036,6 +7077,12 @@
           "views": 149926381,
           "likes": 1217211,
           "comments": 6564
+        },
+        {
+          "date": "2026-09-01",
+          "views": 150016503,
+          "likes": 1217972,
+          "comments": 6565
         }
       ]
     },
@@ -7857,6 +7904,12 @@
           "views": 8613402,
           "likes": 62491,
           "comments": 175
+        },
+        {
+          "date": "2026-09-01",
+          "views": 8621401,
+          "likes": 62535,
+          "comments": 176
         }
       ]
     },
@@ -9205,6 +9258,12 @@
           "views": 12164297,
           "likes": 53127,
           "comments": 157
+        },
+        {
+          "date": "2026-09-01",
+          "views": 12168842,
+          "likes": 53142,
+          "comments": 157
         }
       ]
     },
@@ -10151,6 +10210,12 @@
           "views": 7246058,
           "likes": 41607,
           "comments": 222
+        },
+        {
+          "date": "2026-09-01",
+          "views": 7255073,
+          "likes": 41636,
+          "comments": 222
         }
       ]
     },
@@ -10449,6 +10514,12 @@
           "date": "2026-08-31",
           "views": 547321,
           "likes": 7374,
+          "comments": 87
+        },
+        {
+          "date": "2026-09-01",
+          "views": 557367,
+          "likes": 7463,
           "comments": 87
         }
       ]
@@ -11414,6 +11485,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-31T19:58:34.751242+00:00"
+    },
+    {
+      "date": "2026-09-01",
+      "metric": "youtube_total_views",
+      "value": 903214764,
+      "baseline_mean": 891679157.0,
+      "baseline_stddev": 5383335.1,
+      "delta": 11535607,
+      "score": 2.14,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-01T17:43:14.541886+00:00"
     }
   ]
 }

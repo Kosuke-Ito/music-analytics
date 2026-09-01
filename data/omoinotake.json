@@ -5785,6 +5785,47 @@
       "ytm_subscribers": 316000,
       "ytm_monthly_listeners": 3310000,
       "ytm_total_views": 322941382
+    },
+    {
+      "date": "2026-09-01",
+      "monthly_listeners": 1500697,
+      "collected_at": "2026-09-01T17:48:13.547886+00:00",
+      "spotify_followers": 340666,
+      "youtube_subscribers": 316000,
+      "youtube_total_views": 327141081,
+      "youtube_video_count": 224,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 47626
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 41865
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 35214
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 17650
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 16927
+        }
+      ],
+      "lastfm_listeners": 143820,
+      "lastfm_playcount": 2534907,
+      "ytm_subscribers": 316000,
+      "ytm_monthly_listeners": 3310000,
+      "ytm_total_views": 327141081
     }
   ],
   "annotations": [
@@ -6193,9 +6234,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Ren",
-        "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
-        "subscribers": "267K"
+        "name": "KERENMI",
+        "browse_id": "UCacynfHovHzkQJ_1enhaDmw",
+        "subscribers": "2.76K"
       },
       {
         "name": "Sano ibuki",
@@ -6205,27 +6246,22 @@
       {
         "name": "androp",
         "browse_id": "UCwz7EvQmCroWyblXElJfW8w",
-        "subscribers": "128K"
-      },
-      {
-        "name": "KERENMI",
-        "browse_id": "UCacynfHovHzkQJ_1enhaDmw",
-        "subscribers": "2.75K"
+        "subscribers": "132K"
       },
       {
         "name": "Reini",
         "browse_id": "UC2PTQOPrZautcQGly-U6Uqw",
-        "subscribers": "68.6K"
+        "subscribers": "67.2K"
       },
       {
         "name": "BILLY BOO",
         "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
-        "subscribers": "147K"
+        "subscribers": "145K"
       },
       {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "2.97M"
+        "name": "Ren",
+        "browse_id": "UC0edkWRlKCPVMTe316QZmMQ",
+        "subscribers": "265K"
       },
       {
         "name": "Masaki Suda",
@@ -6233,9 +6269,14 @@
         "subscribers": "5.43M"
       },
       {
+        "name": "Ayumu Imazu",
+        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
+        "subscribers": "2.99M"
+      },
+      {
         "name": "eill",
         "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.41M"
+        "subscribers": "1.43M"
       },
       {
         "name": "Miisha Shimizu",
@@ -6249,12 +6290,12 @@
         "video_id": "EjOy4lXtiYE"
       },
       {
-        "title": "花束 - Hanataba",
-        "video_id": "LUw-f6f6bvc"
-      },
-      {
         "title": "ひとりごと - Hitorigoto",
         "video_id": "3q1u9GAdb8E"
+      },
+      {
+        "title": "花束 - Hanataba",
+        "video_id": "LUw-f6f6bvc"
       },
       {
         "title": "幸せ - Happiness",
@@ -7110,6 +7151,12 @@
           "views": 12108634,
           "likes": 56357,
           "comments": 204
+        },
+        {
+          "date": "2026-09-01",
+          "views": 12117145,
+          "likes": 56392,
+          "comments": 204
         }
       ]
     },
@@ -7955,6 +8002,12 @@
           "views": 873116,
           "likes": 8813,
           "comments": 91
+        },
+        {
+          "date": "2026-09-01",
+          "views": 874263,
+          "likes": 8820,
+          "comments": 91
         }
       ]
     },
@@ -8775,6 +8828,12 @@
           "date": "2026-08-31",
           "views": 2313815,
           "likes": 17191,
+          "comments": 61
+        },
+        {
+          "date": "2026-09-01",
+          "views": 2314886,
+          "likes": 17201,
           "comments": 61
         }
       ]
@@ -10147,6 +10206,12 @@
           "views": 1071680,
           "likes": 9970,
           "comments": 87
+        },
+        {
+          "date": "2026-09-01",
+          "views": 1072602,
+          "likes": 9975,
+          "comments": 87
         }
       ]
     },
@@ -10509,6 +10574,12 @@
           "date": "2026-08-31",
           "views": 65185,
           "likes": 912,
+          "comments": 18
+        },
+        {
+          "date": "2026-09-01",
+          "views": 65662,
+          "likes": 913,
           "comments": 18
         }
       ]
@@ -11318,6 +11389,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-31T20:03:47.383782+00:00"
+    },
+    {
+      "date": "2026-09-01",
+      "metric": "youtube_total_views",
+      "value": 327141081,
+      "baseline_mean": 322897547.9,
+      "baseline_stddev": 1855603.6,
+      "delta": 4243533,
+      "score": 2.29,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-01T17:48:15.375715+00:00"
     }
   ]
 }

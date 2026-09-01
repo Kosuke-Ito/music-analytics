@@ -5779,6 +5779,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 13000000,
       "ytm_total_views": 1905067191
+    },
+    {
+      "date": "2026-09-01",
+      "monthly_listeners": 3408051,
+      "collected_at": "2026-09-01T17:44:19.031702+00:00",
+      "spotify_followers": 2883829,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1908417714,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 76796
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 74746
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68751
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 47950
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40427
+        }
+      ],
+      "lastfm_listeners": 504914,
+      "lastfm_playcount": 25710491,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 13000000,
+      "ytm_total_views": 1908417714
     }
   ],
   "metadata": {
@@ -5840,27 +5881,27 @@
       {
         "name": "Hana Hope",
         "browse_id": "UCZEjgx64nScw5olfoL1wfAw",
-        "subscribers": "147K"
+        "subscribers": "146K"
       },
       {
         "name": "YOURNESS",
         "browse_id": "UCjAUZTGqk_ggJmFMNurtgng",
-        "subscribers": "284K"
+        "subscribers": "282K"
       },
       {
         "name": "sajou no hana",
         "browse_id": "UCWNPJK9pQWSRiyr-b6nmQ4Q",
-        "subscribers": "278K"
+        "subscribers": "276K"
       },
       {
         "name": "reona",
         "browse_id": "UCv8_ZHaN1nPlQfS8F2CRgYg",
-        "subscribers": "2.11M"
+        "subscribers": "2.09M"
       },
       {
         "name": "EGOIST",
         "browse_id": "UCKZLPAAyImrkYnDVR0O2UXQ",
-        "subscribers": "1.34M"
+        "subscribers": "1.33M"
       }
     ],
     "ytm_top_songs": [
@@ -6724,6 +6765,12 @@
           "views": 42634131,
           "likes": 298242,
           "comments": 1634
+        },
+        {
+          "date": "2026-09-01",
+          "views": 42666857,
+          "likes": 298405,
+          "comments": 1633
         }
       ]
     },
@@ -7562,6 +7609,12 @@
           "date": "2026-08-31",
           "views": 34591775,
           "likes": 158287,
+          "comments": 157
+        },
+        {
+          "date": "2026-09-01",
+          "views": 34606347,
+          "likes": 158318,
           "comments": 157
         }
       ]
@@ -8402,6 +8455,12 @@
           "views": 21492953,
           "likes": 118869,
           "comments": 295
+        },
+        {
+          "date": "2026-09-01",
+          "views": 21506676,
+          "likes": 118923,
+          "comments": 295
         }
       ]
     },
@@ -9187,6 +9246,12 @@
           "views": 5939321,
           "likes": 58682,
           "comments": 935
+        },
+        {
+          "date": "2026-09-01",
+          "views": 5944652,
+          "likes": 58709,
+          "comments": 936
         }
       ]
     },
@@ -10061,6 +10126,12 @@
           "views": 31993267,
           "likes": 136052,
           "comments": 786
+        },
+        {
+          "date": "2026-09-01",
+          "views": 32014595,
+          "likes": 136110,
+          "comments": 787
         }
       ]
     },
@@ -10978,6 +11049,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-30T18:05:38.000033+00:00"
+    },
+    {
+      "date": "2026-09-01",
+      "metric": "youtube_total_views",
+      "value": 1908417714,
+      "baseline_mean": 1890060658.9,
+      "baseline_stddev": 3408819.6,
+      "delta": 18357055,
+      "score": 5.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-01T17:44:20.873334+00:00"
     }
   ]
 }

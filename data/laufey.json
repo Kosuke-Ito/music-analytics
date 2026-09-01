@@ -6070,6 +6070,47 @@
       "ytm_subscribers": 3620000,
       "ytm_monthly_listeners": 83500000,
       "ytm_total_views": 1334284559
+    },
+    {
+      "date": "2026-09-01",
+      "monthly_listeners": 21078355,
+      "collected_at": "2026-09-01T17:41:31.971491+00:00",
+      "spotify_followers": 10922593,
+      "youtube_subscribers": 3620000,
+      "youtube_total_views": 1389072891,
+      "youtube_video_count": 545,
+      "top_cities": [
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 266839
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 232035
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 215114
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 203633
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 200759
+        }
+      ],
+      "lastfm_listeners": 2504371,
+      "lastfm_playcount": 290267673,
+      "ytm_subscribers": 3620000,
+      "ytm_monthly_listeners": 82000000,
+      "ytm_total_views": 1389072891
     }
   ],
   "annotations": [
@@ -6412,38 +6453,38 @@
       "Bossa Nova",
       "pop",
       "jazz pop",
-      "icelandic"
+      "female vocalists"
     ],
     "ytm_related_artists": [
       {
         "name": "Rex Orange County",
         "browse_id": "UCRI-Ds5eY70A4oeHggAFBbg",
-        "subscribers": "93.3M"
+        "subscribers": "92.7M"
       },
       {
         "name": "Iceland Symphony Orchestra",
         "browse_id": "UC1SwLg9GHOdVh59rhFibxcg",
-        "subscribers": "2.31K"
+        "subscribers": "2.32K"
       },
       {
         "name": "Rocco",
         "browse_id": "UCKTYyqZkReYbvRUGYUc19iQ",
-        "subscribers": "353K"
+        "subscribers": "347K"
       },
       {
         "name": "jomm",
         "browse_id": "UCFca_eyQw7EkmhqInKz5ruA",
-        "subscribers": "153K"
+        "subscribers": "155K"
       },
       {
         "name": "aron!",
         "browse_id": "UCEyRAg81bPs5-_L1mJ1lihg",
-        "subscribers": "255K"
+        "subscribers": "256K"
       },
       {
         "name": "Mei Mei The Bunny",
         "browse_id": "UC-1Z-0-3-FYtoOGdUHr0syw",
-        "subscribers": "8.11M"
+        "subscribers": "8.1M"
       },
       {
         "name": "Clairo",
@@ -6453,17 +6494,17 @@
       {
         "name": "Wasia Project",
         "browse_id": "UCPziehcInXuXsqIsUquQRmA",
-        "subscribers": "377K"
+        "subscribers": "379K"
+      },
+      {
+        "name": "The Marías",
+        "browse_id": "UCVV5M4OEFsKnB9HBhwOhHbA",
+        "subscribers": "58.7M"
       },
       {
         "name": "Liana Flores",
         "browse_id": "UCOOKbAPgT8xKwM6V9GLHiEg",
         "subscribers": "14.1M"
-      },
-      {
-        "name": "The Marías",
-        "browse_id": "UCVV5M4OEFsKnB9HBhwOhHbA",
-        "subscribers": "59.4M"
       }
     ],
     "ytm_top_songs": [
@@ -7339,6 +7380,12 @@
           "views": 89314859,
           "likes": 1282776,
           "comments": 9221
+        },
+        {
+          "date": "2026-09-01",
+          "views": 89433348,
+          "likes": 1284072,
+          "comments": 9225
         }
       ]
     },
@@ -8190,6 +8237,12 @@
           "views": 22332375,
           "likes": 317616,
           "comments": 1411
+        },
+        {
+          "date": "2026-09-01",
+          "views": 22388996,
+          "likes": 318247,
+          "comments": 1418
         }
       ]
     },
@@ -9041,6 +9094,12 @@
           "views": 25613094,
           "likes": 281599,
           "comments": 847
+        },
+        {
+          "date": "2026-09-01",
+          "views": 25644760,
+          "likes": 281874,
+          "comments": 850
         }
       ]
     },
@@ -9897,6 +9956,12 @@
           "views": 31548052,
           "likes": 452645,
           "comments": 1546
+        },
+        {
+          "date": "2026-09-01",
+          "views": 31575785,
+          "likes": 452967,
+          "comments": 1549
         }
       ]
     },
@@ -10753,6 +10818,12 @@
           "views": 6130528,
           "likes": 78729,
           "comments": 1708
+        },
+        {
+          "date": "2026-09-01",
+          "views": 6148762,
+          "likes": 78922,
+          "comments": 1714
         }
       ]
     }
@@ -11357,6 +11428,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-31T19:56:53.268753+00:00"
+    },
+    {
+      "date": "2026-09-01",
+      "metric": "monthly_listeners",
+      "value": 21078355,
+      "baseline_mean": 20872624.6,
+      "baseline_stddev": 100592.4,
+      "delta": 205730,
+      "score": 2.05,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-01T17:41:33.266865+00:00"
     }
   ]
 }

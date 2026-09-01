@@ -5779,6 +5779,47 @@
       "ytm_subscribers": 8840000,
       "ytm_monthly_listeners": 74700000,
       "ytm_total_views": 2478740405
+    },
+    {
+      "date": "2026-09-01",
+      "monthly_listeners": 4310881,
+      "collected_at": "2026-09-01T17:44:02.676449+00:00",
+      "spotify_followers": 3867325,
+      "youtube_subscribers": 2960000,
+      "youtube_total_views": 1828666474,
+      "youtube_video_count": 521,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 64619
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 53854
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 50786
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 48147
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 47571
+        }
+      ],
+      "lastfm_listeners": 2054462,
+      "lastfm_playcount": 135905072,
+      "ytm_subscribers": 8850000,
+      "ytm_monthly_listeners": 75400000,
+      "ytm_total_views": 2501676629
     }
   ],
   "metadata": {
@@ -5815,17 +5856,17 @@
       {
         "name": "BLACKSWAN",
         "browse_id": "UC277cpXD9BLeaGgh3yDP40w",
-        "subscribers": "342K"
+        "subscribers": "333K"
       },
       {
         "name": "SOOJIN",
         "browse_id": "UCqCmeJ3RRfpgMF6j_HzqbFQ",
-        "subscribers": "538K"
+        "subscribers": "512K"
       },
       {
         "name": "BamBam",
         "browse_id": "UCV1Zo9bUCjzFi6e4O2DNcrA",
-        "subscribers": "534K"
+        "subscribers": "529K"
       },
       {
         "name": "Babymonster An",
@@ -5835,12 +5876,17 @@
       {
         "name": "JENNIE",
         "browse_id": "UCAl7xQ6q0PEgZMQD7zr4AKQ",
-        "subscribers": "267M"
+        "subscribers": "155M"
+      },
+      {
+        "name": "JISOO",
+        "browse_id": "UC4I9OFY_9ZYLs0Lj4bfEOvA",
+        "subscribers": "164M"
       },
       {
         "name": "BLACKPINK",
         "browse_id": "UCkbbMCA40i18i7UdjayMPAg",
-        "subscribers": "210M"
+        "subscribers": "212M"
       },
       {
         "name": "ROSÉ",
@@ -5850,17 +5896,12 @@
       {
         "name": "KATSEYE",
         "browse_id": "UCX9kfYB9t0tnd6DYUC2iuKg",
-        "subscribers": "346M"
+        "subscribers": "349M"
       },
       {
-        "name": "JISOO",
-        "browse_id": "UC4I9OFY_9ZYLs0Lj4bfEOvA",
-        "subscribers": "164M"
-      },
-      {
-        "name": "KARLEE GIRL",
-        "browse_id": "UC8UZsrgT9O8KgKzRLH4C-Ww",
-        "subscribers": "3.34M"
+        "name": "JIHYO",
+        "browse_id": "UCZSRKU2kYtBSL11AhMS-C8Q",
+        "subscribers": "113K"
       }
     ],
     "ytm_top_songs": [
@@ -6735,6 +6776,12 @@
           "views": 25686291,
           "likes": 290795,
           "comments": 2269
+        },
+        {
+          "date": "2026-09-01",
+          "views": 25725192,
+          "likes": 291198,
+          "comments": 2271
         }
       ]
     },
@@ -7574,6 +7621,12 @@
           "views": 273202579,
           "likes": 2746969,
           "comments": 4521
+        },
+        {
+          "date": "2026-09-01",
+          "views": 273278687,
+          "likes": 2747665,
+          "comments": 4529
         }
       ]
     },
@@ -8329,6 +8382,12 @@
           "views": 34090065,
           "likes": 255028,
           "comments": 816
+        },
+        {
+          "date": "2026-09-01",
+          "views": 34122388,
+          "likes": 255208,
+          "comments": 816
         }
       ]
     },
@@ -8826,6 +8885,12 @@
           "views": 27532276,
           "likes": 264389,
           "comments": 2676
+        },
+        {
+          "date": "2026-09-01",
+          "views": 27560006,
+          "likes": 264606,
+          "comments": 2678
         }
       ]
     },
@@ -9647,6 +9712,12 @@
           "views": 12834357,
           "likes": 167818,
           "comments": 2140
+        },
+        {
+          "date": "2026-09-01",
+          "views": 12870440,
+          "likes": 168038,
+          "comments": 2143
         }
       ]
     },
@@ -11115,6 +11186,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-31T19:59:24.076128+00:00"
+    },
+    {
+      "date": "2026-09-01",
+      "metric": "youtube_total_views",
+      "value": 1828666474,
+      "baseline_mean": 1811368615.3,
+      "baseline_stddev": 4623047.2,
+      "delta": 17297858,
+      "score": 3.74,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-01T17:44:04.325233+00:00"
     }
   ]
 }

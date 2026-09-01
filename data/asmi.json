@@ -5856,6 +5856,47 @@
       "ytm_subscribers": 167000,
       "ytm_monthly_listeners": 2690000,
       "ytm_total_views": 77542652
+    },
+    {
+      "date": "2026-09-01",
+      "monthly_listeners": 220023,
+      "collected_at": "2026-09-01T17:35:01.087604+00:00",
+      "spotify_followers": 114774,
+      "youtube_subscribers": 167000,
+      "youtube_total_views": 78230918,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6632
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 5888
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4305
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 2909
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2492
+        }
+      ],
+      "lastfm_listeners": 35798,
+      "lastfm_playcount": 538811,
+      "ytm_subscribers": 167000,
+      "ytm_monthly_listeners": 2640000,
+      "ytm_total_views": 78230918
     }
   ],
   "metadata": {
@@ -5890,24 +5931,34 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "RIRIKO",
+        "browse_id": "UC4kynZ2ne7MSuADw-aoDAbA",
+        "subscribers": "1.68K"
+      },
+      {
         "name": "Conton Candy",
         "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
         "subscribers": "1.98M"
       },
       {
+        "name": "WhaleDontSleep",
+        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
+        "subscribers": "545K"
+      },
+      {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "105K"
+        "subscribers": "107K"
       },
       {
         "name": "Ohashi Chippoke",
         "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "185K"
+        "subscribers": "184K"
       },
       {
         "name": "hockrockb",
         "browse_id": "UCkgOP8Xy2stY3WbSzILWBNQ",
-        "subscribers": "182K"
+        "subscribers": "179K"
       },
       {
         "name": "Anna",
@@ -5922,22 +5973,12 @@
       {
         "name": "Yui Nishio",
         "browse_id": "UCMzyh64hvTumNd2uu-huW0g",
-        "subscribers": "54.4K"
+        "subscribers": "54K"
       },
       {
         "name": "Cidergirl",
         "browse_id": "UCj0gYbIUSGS_m1yqbPi4TIQ",
-        "subscribers": "285K"
-      },
-      {
-        "name": "NIKU",
-        "browse_id": "UCcQ0Kibju_MrJE0FPNBrroQ",
-        "subscribers": "148K"
-      },
-      {
-        "name": "Myuk",
-        "browse_id": "UCCU8DNd9iFzosdwq3BtbKqg",
-        "subscribers": "342K"
+        "subscribers": "283K"
       }
     ],
     "ytm_top_songs": [
@@ -6801,6 +6842,12 @@
           "views": 1071044,
           "likes": 10278,
           "comments": 191
+        },
+        {
+          "date": "2026-09-01",
+          "views": 1071490,
+          "likes": 10280,
+          "comments": 191
         }
       ]
     },
@@ -7645,6 +7692,12 @@
           "date": "2026-08-31",
           "views": 899698,
           "likes": 8639,
+          "comments": 43
+        },
+        {
+          "date": "2026-09-01",
+          "views": 900332,
+          "likes": 8643,
           "comments": 43
         }
       ]
@@ -8491,6 +8544,12 @@
           "views": 440267,
           "likes": 3999,
           "comments": 47
+        },
+        {
+          "date": "2026-09-01",
+          "views": 440691,
+          "likes": 4003,
+          "comments": 47
         }
       ]
     },
@@ -9107,6 +9166,12 @@
           "date": "2026-08-31",
           "views": 1119759,
           "likes": 11735,
+          "comments": 139
+        },
+        {
+          "date": "2026-09-01",
+          "views": 1120409,
+          "likes": 11744,
           "comments": 139
         }
       ]
@@ -9956,6 +10021,12 @@
         {
           "date": "2026-08-31",
           "views": 62198,
+          "likes": 731,
+          "comments": 14
+        },
+        {
+          "date": "2026-09-01",
+          "views": 62400,
           "likes": 731,
           "comments": 14
         }
@@ -10981,6 +11052,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-14T14:48:31.758071+00:00"
+    },
+    {
+      "date": "2026-09-01",
+      "metric": "monthly_listeners",
+      "value": 220023,
+      "baseline_mean": 218586.2,
+      "baseline_stddev": 676.6,
+      "delta": 1436,
+      "score": 2.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-01T17:35:03.100521+00:00"
     }
   ]
 }

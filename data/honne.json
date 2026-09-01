@@ -5897,6 +5897,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 5110000,
       "ytm_total_views": 925186586
+    },
+    {
+      "date": "2026-09-01",
+      "monthly_listeners": 4152949,
+      "collected_at": "2026-09-01T17:41:47.742701+00:00",
+      "spotify_followers": 1677190,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 925237628,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 181333
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 147211
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 128183
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 127561
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 120608
+        }
+      ],
+      "lastfm_listeners": 939150,
+      "lastfm_playcount": 23832395,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 5090000,
+      "ytm_total_views": 925237628
     }
   ],
   "annotations": [
@@ -6089,12 +6130,12 @@
       {
         "name": "92914",
         "browse_id": "UCsywq73qRVQY0pBqEK6_2RA",
-        "subscribers": "344K"
+        "subscribers": "345K"
       },
       {
         "name": "Charlie Burg",
         "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
-        "subscribers": "138K"
+        "subscribers": "135K"
       },
       {
         "name": "Rai Thistlethwayte",
@@ -6119,7 +6160,7 @@
       {
         "name": "Bren Joy",
         "browse_id": "UChIwocHYRaPUGmZnNdX0RVQ",
-        "subscribers": "553K"
+        "subscribers": "536K"
       },
       {
         "name": "JEREMY PASSION",
@@ -6129,12 +6170,12 @@
       {
         "name": "Public Library Commute",
         "browse_id": "UCHaf5KL3HbX5XRIppowZmiA",
-        "subscribers": "166K"
+        "subscribers": "168K"
       },
       {
         "name": "Kamal.",
         "browse_id": "UCpotKFYW7NyEeFkTJFVlS9w",
-        "subscribers": "163K"
+        "subscribers": "159K"
       }
     ],
     "ytm_top_songs": [
@@ -7004,6 +7045,12 @@
           "views": 2607551,
           "likes": 16051,
           "comments": 28
+        },
+        {
+          "date": "2026-09-01",
+          "views": 2607863,
+          "likes": 16054,
+          "comments": 28
         }
       ]
     },
@@ -7842,6 +7889,12 @@
           "date": "2026-08-31",
           "views": 2219357,
           "likes": 20108,
+          "comments": 281
+        },
+        {
+          "date": "2026-09-01",
+          "views": 2222697,
+          "likes": 20116,
           "comments": 281
         }
       ]
@@ -8687,6 +8740,12 @@
           "date": "2026-08-31",
           "views": 48423818,
           "likes": 203792,
+          "comments": 123
+        },
+        {
+          "date": "2026-09-01",
+          "views": 48437047,
+          "likes": 203828,
           "comments": 123
         }
       ]
@@ -9951,6 +10010,12 @@
           "views": 14932400,
           "likes": 75434,
           "comments": 40
+        },
+        {
+          "date": "2026-09-01",
+          "views": 14946552,
+          "likes": 75470,
+          "comments": 40
         }
       ]
     },
@@ -10403,6 +10468,12 @@
           "date": "2026-08-31",
           "views": 15899117,
           "likes": 80780,
+          "comments": 64
+        },
+        {
+          "date": "2026-09-01",
+          "views": 15902549,
+          "likes": 80790,
           "comments": 64
         }
       ]
@@ -10972,6 +11043,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-31T19:57:09.313371+00:00"
+    },
+    {
+      "date": "2026-09-01",
+      "metric": "monthly_listeners",
+      "value": 4152949,
+      "baseline_mean": 3982468.3,
+      "baseline_stddev": 75015.0,
+      "delta": 170480,
+      "score": 2.27,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-01T17:41:50.817089+00:00"
     }
   ]
 }
