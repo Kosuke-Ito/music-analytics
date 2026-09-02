@@ -10721,6 +10721,33 @@
       "source": "https://skream.jp/news/2026/08/ayase_planets_mv.php",
       "confidence": "medium",
       "added_at": "2026-08-26T16:29:42Z"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "指標の急上昇は既知のデータ収集アーティファクトの可能性",
+      "description": "YouTube Music月間リスナー数が121,666増加（2.33σ）。「PLANETS」MV公開・YOASOBI「劇上」話題（8/25・8/26アノテーション参照）の残存効果に加え、同時期（8/28〜9/2）にTaylor Swift・Kendrick Lamar等、無関係な海外トップアーティストでもYouTube Music月間リスナー数が同時多発的に急増しており、収集側の一時的な異常が混在している可能性がある。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較、2026-09-02調査）",
+      "confidence": "low",
+      "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Spotify月間リスナー数の異常上昇を検知（原因不明、複数アーティスト同時急増パターンと合致）",
+      "description": "Spotify月間リスナー数が7,385増加（2.25σ）。ピンポイントの新規リリース・タイアップ報道は確認できず、同時期（8/28〜9/2）に複数の海外トップアーティストでもSpotify月間リスナー数が同時多発的に急増しており、収集側の一時的な異常の可能性が高い。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較）",
+      "confidence": "low",
+      "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Spotify月間リスナー数の異常上昇が継続",
+      "description": "Spotify月間リスナー数が7,323増加（2.15σ）。9/1の傾向が継続。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較）",
+      "confidence": "low",
+      "added_at": "2026-09-02T17:00:00Z"
     }
   ],
   "buzz_events": [

@@ -6241,6 +6241,33 @@
       "source": "https://skream.jp/news/2026/08/omoinotake_memorabilia_detail.php, https://realsound.jp/2026/08/post-2495954.html",
       "confidence": "medium",
       "added_at": "2026-08-26T16:29:42Z"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "YouTube総再生数が新たな階段状ジャンプを検知、既知のデータ収集アーティファクトの継続",
+      "description": "YouTube総再生数が4,127,276増加（2.31σ）。8/25・8/26に確認済みの「横ばい→階段状ジャンプ」型のデータ収集アーティファクト（8/26アノテーション参照）と同一パターン。同時期（8/28〜9/2）にTaylor Swift・Kendrick Lamar等、無関係な海外トップアーティストでもYouTube総再生数が同時多発的に急増しており、収集側の一時的な異常と判断。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較、2026-09-02調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "データ収集アーティファクトの継続",
+      "description": "YouTube総再生数が4,243,533増加（2.29σ）。8/31の傾向が継続。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "データ収集アーティファクトの継続",
+      "description": "YouTube総再生数が3,998,634増加（2.09σ）。8/31〜9/1の傾向が継続。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-02T17:00:00Z"
     }
   ],
   "metadata": {

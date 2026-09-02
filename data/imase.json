@@ -6191,6 +6191,33 @@
       "source": "内部データ分析（daily records）; natalie.mu, oricon.co.jp でのWeb検索（新規ニュースなし）",
       "confidence": "low",
       "added_at": "2026-08-26T16:29:42Z"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "YouTube Music月間リスナー数の階段状上昇が継続（活動休止中、既知のデータ収集アーティファクト）",
+      "description": "YouTube Music月間リスナー数が7,500,000増加（2.29σ）。imaseは引き続き療養のため活動休止中で新規プロモーション活動は確認できない。8/26と同一系列の集計上の階段状ジャンプ。同時期（8/28〜9/2）にTaylor Swift・Kendrick Lamar等、無関係な海外トップアーティストでもYouTube Music月間リスナー数が同時多発的に急増しており、収集側の一時的な異常の可能性が高い。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較、2026-09-02調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "YouTube総再生数の急増もデータ収集側のアーティファクト",
+      "description": "YouTube総再生数が11,529,256増加（2.29σ）。2026-08-19〜08-22と同一系列の、移動平均統計の遅延的な影響とみられる。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views日次推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "YouTube総再生数の急増が継続",
+      "description": "YouTube総再生数が11,535,607増加（2.14σ）。8/31の傾向が継続。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views日次推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-02T17:00:00Z"
     }
   ],
   "metadata": {

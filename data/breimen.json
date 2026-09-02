@@ -10624,6 +10624,15 @@
       "source": "",
       "confidence": "low",
       "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "数値上の異常上昇を検知（原因不明、既知のデータ収集アーティファクトの可能性）",
+      "description": "YouTube総再生数が97,694増加（2.07σ）。Web検索ではBREIMENの新規リリース・タイアップ・TikTokバズ等を示す明確な報道は見つからなかった。同時期（8/28〜9/2）にTaylor Swift・Kendrick Lamar等、無関係な海外トップアーティストでもYouTube総再生数が同時多発的に急増しており、収集側の一時的な異常の可能性が高い。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較、2026-09-02調査）",
+      "confidence": "low",
+      "added_at": "2026-09-02T17:00:00Z"
     }
   ],
   "buzz_events": [

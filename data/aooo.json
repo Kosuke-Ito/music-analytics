@@ -6300,6 +6300,15 @@
       "source": "wildbunchfest.jp/general-info/, sonymusic.co.jp/artist/Aooo/info/582953, utaten.com/live/wild-bunch-fest-setlist-2026-2",
       "confidence": "medium",
       "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "YouTube総再生数の異常上昇を検知（原因不明、既知のデータ収集アーティファクトの可能性）",
+      "description": "YouTube総再生数が1,114,657増加（2.14σ）。ピンポイントの新規リリース・タイアップ・出演情報は確認できず、8/20アノテーションで指摘した「複数アーティストで同時に確認される階段状の急増パターン」（データ収集アーティファクト）と同型。同時期（8/28〜9/2）にTaylor Swift・Kendrick Lamar等、無関係な海外トップアーティストでもYouTube総再生数が同時多発的に急増しており、収集側の一時的な異常の可能性が高い。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較、2026-09-02調査）",
+      "confidence": "low",
+      "added_at": "2026-09-02T17:00:00Z"
     }
   ],
   "metadata": {

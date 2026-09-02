@@ -6225,6 +6225,33 @@
       "source": "https://news.yahoo.co.jp/articles/940d6747786dfb31ca88e191b2e51e9d4c8d56d1, https://www.thefirsttimes.jp/news/0000665532/",
       "confidence": "medium",
       "added_at": "2026-08-15T15:33:44Z"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "YouTube総再生数の異常上昇を検知（原因不明、既知のデータ収集アーティファクトの可能性）",
+      "description": "YouTube総再生数が12,880,957増加（2.42σ）。8/10のMV公開・Mステ出演やNHK特番出演の話題はすでに一段落しており、ピンポイントの新規要因は確認できず。同時期（8/28〜9/2）にTaylor Swift・Kendrick Lamar等、無関係な海外トップアーティストでもYouTube総再生数が同時多発的に急増しており、収集側の一時的な異常の可能性が高い。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較、2026-09-02調査）",
+      "confidence": "low",
+      "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "YouTube総再生数の急増が継続",
+      "description": "YouTube総再生数が13,667,647増加（2.52σ）。8/31の傾向が継続。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較）",
+      "confidence": "low",
+      "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "YouTube総再生数の急増が継続",
+      "description": "YouTube総再生数が12,868,981増加（2.29σ）。8/31〜9/1の傾向が継続。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較）",
+      "confidence": "low",
+      "added_at": "2026-09-02T17:00:00Z"
     }
   ],
   "metadata": {

@@ -6096,6 +6096,24 @@
       "source": "内部データ分析（youtube_total_views日次推移）",
       "confidence": "medium",
       "added_at": "2026-08-26T16:29:42Z"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "YouTube Music月間リスナー数の急増はデータ収集側のアーティファクトの継続",
+      "description": "YouTube Music月間リスナー数が1,160,000増加（3.28σ）。8/19に確認済みの「横ばい→階段状ジャンプ」型のデータ収集アーティファクト（8/19アノテーション参照）と同型のパターン。同時期（8/28〜9/2）にTaylor Swift・Kendrick Lamar・BTS等、無関係な海外トップアーティストでもYouTube Music月間リスナー数が同時多発的に急増しており、収集側の一時的な異常と判断。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較、2026-09-02調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "YouTube総再生数の急増はデータ収集側のアーティファクトの継続",
+      "description": "YouTube総再生数が17,800,259増加（2.02σ）。同一系列のデータ収集アーティファクト（8/19・8/30アノテーション参照）。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-02T17:00:00Z"
     }
   ],
   "metadata": {

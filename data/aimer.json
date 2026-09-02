@@ -10530,6 +10530,33 @@
       "source": "https://animeanime.jp/article/2026/08/14/102050.html, https://kimetsu.com/anime/mugenjyohen_movie/",
       "confidence": "medium",
       "added_at": "2026-08-26T16:29:42Z"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "YouTube Music月間リスナー数の異常上昇を検知（鬼滅の刃特別上映話題の残存＋複数アーティスト同時急増パターン）",
+      "description": "YouTube Music月間リスナー数が1,676,666増加（2.07σ）。8/21開始の劇場版『鬼滅の刃』無限城編特別上映（8/26アノテーション参照）の話題継続の可能性があるが、同時期（8/28〜9/2）にTaylor Swift・Kendrick Lamar等、無関係な海外トップアーティストでもYouTube Music月間リスナー数が同時多発的に急増しており、収集側の一時的な異常が混在している可能性がある。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較、2026-09-02調査）",
+      "confidence": "low",
+      "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "YouTube総再生数が5.39σという突出したスコアで急増（既知のデータ収集アーティファクトと同型）",
+      "description": "YouTube総再生数が18,357,055増加（5.39σ）。ピンポイントの新規タイアップ・リリース報道は確認できず、同時期（8/28〜9/2）に複数の海外トップアーティストでもYouTube総再生数が同時多発的に急増しているパターンと一致。スコアが高いのは直近のbaseline_stddevが小さかったところに同規模の絶対増分が重なったためとみられる。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "YouTube総再生数の急増が継続（3.74σ、収束傾向）",
+      "description": "YouTube総再生数が17,724,053増加（3.74σ）。9/1の傾向が継続しつつスコアはやや低下。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-02T17:00:00Z"
     }
   ],
   "buzz_events": [

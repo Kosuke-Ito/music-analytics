@@ -6244,6 +6244,24 @@
       "source": "tower.jp/article/news/2026/08/06/tg005, natalie.mu/music/news/684008, x.com/puppetsunsun__",
       "confidence": "high",
       "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "YouTube総再生数の異常上昇を検知（原因不明、既知のデータ収集アーティファクトの可能性）",
+      "description": "YouTube総再生数が3,440,847増加（2.05σ）。マクドナルドハッピーセット・YouTube Music Weekend 12.0関連の話題（8/21〜23アノテーション参照）はすでに一段落しており、ピンポイントの新規要因は確認できず。同時期（8/28〜9/2）にTaylor Swift・Kendrick Lamar等、無関係な海外トップアーティストでもYouTube総再生数が同時多発的に急増しており、収集側の一時的な異常の可能性が高い。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較、2026-09-02調査）",
+      "confidence": "low",
+      "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "YouTube総再生数の異常上昇が継続",
+      "description": "YouTube総再生数が3,487,597増加（2.03σ）。8/30の傾向が継続。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較）",
+      "confidence": "low",
+      "added_at": "2026-09-02T17:00:00Z"
     }
   ],
   "metadata": {
