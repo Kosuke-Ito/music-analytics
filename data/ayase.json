@@ -5938,6 +5938,47 @@
       "ytm_subscribers": 109000,
       "ytm_monthly_listeners": 1440000,
       "ytm_total_views": 95804403
+    },
+    {
+      "date": "2026-09-02",
+      "monthly_listeners": 966223,
+      "collected_at": "2026-09-02T17:33:15.094701+00:00",
+      "spotify_followers": 429766,
+      "youtube_subscribers": 7430000,
+      "youtube_total_views": 6862005634,
+      "youtube_video_count": 330,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 28236
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 25698
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 18460
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 13960
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 10617
+        }
+      ],
+      "lastfm_listeners": 105506,
+      "lastfm_playcount": 1885841,
+      "ytm_subscribers": 109000,
+      "ytm_monthly_listeners": 1440000,
+      "ytm_total_views": 95804403
     }
   ],
   "metadata": {
@@ -5977,14 +6018,29 @@
         "subscribers": "25.3K"
       },
       {
-        "name": "Sou",
-        "browse_id": "UCsy-WAGWKgaPSDGoPBhgSsw",
-        "subscribers": "2.39M"
+        "name": "balloon",
+        "browse_id": "UCIg39dCXzNoVdZNITLxnfrQ",
+        "subscribers": "534"
       },
       {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "545K"
+        "subscribers": "541K"
+      },
+      {
+        "name": "john",
+        "browse_id": "UCLI_vItz-HMYnbh1OmKCD6w",
+        "subscribers": "2.01M"
+      },
+      {
+        "name": "Wanuka",
+        "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
+        "subscribers": "1.29M"
+      },
+      {
+        "name": "Mulasaki Ima",
+        "browse_id": "UC3atnuaadwis0OEvtk0p_aA",
+        "subscribers": "4.68M"
       },
       {
         "name": "suisougurashi",
@@ -5992,34 +6048,19 @@
         "subscribers": "107K"
       },
       {
-        "name": "Sasanomaly",
-        "browse_id": "UCK8DhDqtYgzSHf-krbesrEw",
-        "subscribers": "212K"
-      },
-      {
-        "name": "balloon",
-        "browse_id": "UCIg39dCXzNoVdZNITLxnfrQ",
-        "subscribers": "530"
-      },
-      {
-        "name": "Linmu",
-        "browse_id": "UCfwx8Sx11AgVgCVnGDnP3UA",
-        "subscribers": "997"
-      },
-      {
-        "name": "EVO+",
-        "browse_id": "UC_YgchlOXrff__BizLqvE7w",
-        "subscribers": "218K"
-      },
-      {
         "name": "Mikito-P",
         "browse_id": "UCq6ENGh23SO0wWD67eRTGUw",
         "subscribers": "2.74M"
       },
       {
-        "name": "Wanuka",
-        "browse_id": "UC9Db8LUCJ7MoDDiM_EYqawA",
-        "subscribers": "1.25M"
+        "name": "Sou",
+        "browse_id": "UCsy-WAGWKgaPSDGoPBhgSsw",
+        "subscribers": "2.38M"
+      },
+      {
+        "name": "Linmu",
+        "browse_id": "UCfwx8Sx11AgVgCVnGDnP3UA",
+        "subscribers": "997"
       }
     ],
     "ytm_top_songs": [
@@ -6804,6 +6845,12 @@
           "date": "2026-09-01",
           "views": 29870639,
           "likes": 143802,
+          "comments": 43
+        },
+        {
+          "date": "2026-09-02",
+          "views": 29879224,
+          "likes": 143834,
           "comments": 43
         }
       ]
@@ -7614,6 +7661,12 @@
           "views": 15749318,
           "likes": 74238,
           "comments": 25
+        },
+        {
+          "date": "2026-09-02",
+          "views": 15756152,
+          "likes": 74290,
+          "comments": 26
         }
       ]
     },
@@ -8200,6 +8253,12 @@
           "date": "2026-09-01",
           "views": 15292134,
           "likes": 64110,
+          "comments": 31
+        },
+        {
+          "date": "2026-09-02",
+          "views": 15298338,
+          "likes": 64141,
           "comments": 31
         }
       ]
@@ -9003,6 +9062,12 @@
           "date": "2026-09-01",
           "views": 8091468,
           "likes": 39947,
+          "comments": 15
+        },
+        {
+          "date": "2026-09-02",
+          "views": 8094482,
+          "likes": 39961,
           "comments": 15
         }
       ]
@@ -9854,6 +9919,12 @@
           "date": "2026-09-01",
           "views": 1400351,
           "likes": 12906,
+          "comments": 38
+        },
+        {
+          "date": "2026-09-02",
+          "views": 1401656,
+          "likes": 12914,
           "comments": 38
         }
       ]
@@ -11300,6 +11371,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-01T17:33:10.268946+00:00"
+    },
+    {
+      "date": "2026-09-02",
+      "metric": "monthly_listeners",
+      "value": 966223,
+      "baseline_mean": 958899.6,
+      "baseline_stddev": 3399.9,
+      "delta": 7323,
+      "score": 2.15,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-02T17:33:16.318177+00:00"
     }
   ]
 }
