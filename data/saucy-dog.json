@@ -5867,6 +5867,47 @@
       "ytm_subscribers": 874000,
       "ytm_monthly_listeners": 2520000,
       "ytm_total_views": 598229514
+    },
+    {
+      "date": "2026-09-03",
+      "monthly_listeners": 1861002,
+      "collected_at": "2026-09-03T17:36:41.660964+00:00",
+      "spotify_followers": 1527600,
+      "youtube_subscribers": 874000,
+      "youtube_total_views": 598229514,
+      "youtube_video_count": 145,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 95595
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 81912
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 66035
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 35961
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35852
+        }
+      ],
+      "lastfm_listeners": 59376,
+      "lastfm_playcount": 1686686,
+      "ytm_subscribers": 874000,
+      "ytm_monthly_listeners": 2610000,
+      "ytm_total_views": 598229514
     }
   ],
   "annotations": [
@@ -6236,27 +6277,7 @@
       {
         "name": "Second backer",
         "browse_id": "UCZgg9_VmBAYupqk5ObECmng",
-        "subscribers": "1.96M"
-      },
-      {
-        "name": "Garakuta",
-        "browse_id": "UCPefsEntoGzOqN5okHtDX9g",
-        "subscribers": "64.9K"
-      },
-      {
-        "name": "reGretGirl",
-        "browse_id": "UCRzWUISrDwsVPZF87iEFCqw",
-        "subscribers": "379K"
-      },
-      {
-        "name": "Kepura",
-        "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
-        "subscribers": "61.7K"
-      },
-      {
-        "name": "Koresawa",
-        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "4.54M"
+        "subscribers": "1.95M"
       },
       {
         "name": "moon drop",
@@ -6266,17 +6287,37 @@
       {
         "name": "YUTORI-SEDAI",
         "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "231K"
+        "subscribers": "236K"
       },
       {
         "name": "bokula.",
         "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
-        "subscribers": "419K"
+        "subscribers": "427K"
       },
       {
         "name": "TRACK15",
         "browse_id": "UCbTq_K3E9Vz8ehL62WwcwIA",
-        "subscribers": "120K"
+        "subscribers": "131K"
+      },
+      {
+        "name": "PERKERS",
+        "browse_id": "UCDuET5BNAZkXySSy4RU-QHw",
+        "subscribers": "18.7K"
+      },
+      {
+        "name": "Garakuta",
+        "browse_id": "UCPefsEntoGzOqN5okHtDX9g",
+        "subscribers": "65K"
+      },
+      {
+        "name": "tokyo kimiga inai machi",
+        "browse_id": "UCcMmtei7oDCXplPI2g9ssqg",
+        "subscribers": "2.47K"
+      },
+      {
+        "name": "KALMA",
+        "browse_id": "UCyqvlYYpThgO5eHqgrF6B9A",
+        "subscribers": "95.3K"
       }
     ],
     "ytm_top_songs": [
@@ -7158,6 +7199,12 @@
           "views": 5764964,
           "likes": 24816,
           "comments": 54
+        },
+        {
+          "date": "2026-09-03",
+          "views": 5783549,
+          "likes": 24871,
+          "comments": 54
         }
       ]
     },
@@ -8002,6 +8049,12 @@
           "date": "2026-09-02",
           "views": 6268374,
           "likes": 28570,
+          "comments": 53
+        },
+        {
+          "date": "2026-09-03",
+          "views": 6284605,
+          "likes": 28623,
           "comments": 53
         }
       ]
@@ -8860,6 +8913,12 @@
           "views": 3380873,
           "likes": 17234,
           "comments": 39
+        },
+        {
+          "date": "2026-09-03",
+          "views": 3389580,
+          "likes": 17267,
+          "comments": 39
         }
       ]
     },
@@ -9705,6 +9764,12 @@
           "views": 3798651,
           "likes": 21504,
           "comments": 45
+        },
+        {
+          "date": "2026-09-03",
+          "views": 3806642,
+          "likes": 21535,
+          "comments": 45
         }
       ]
     },
@@ -10375,6 +10440,12 @@
           "date": "2026-09-02",
           "views": 3063809,
           "likes": 12724,
+          "comments": 30
+        },
+        {
+          "date": "2026-09-03",
+          "views": 3072823,
+          "likes": 12762,
           "comments": 30
         }
       ]
@@ -11433,6 +11504,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-30T18:07:24.307492+00:00"
+    },
+    {
+      "date": "2026-09-03",
+      "metric": "ytm_monthly_listeners",
+      "value": 2610000,
+      "baseline_mean": 2459000,
+      "baseline_stddev": 43231.9,
+      "delta": 151000,
+      "score": 3.49,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-03T17:36:43.545238+00:00"
     }
   ]
 }

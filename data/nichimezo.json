@@ -5541,6 +5541,44 @@
       "ytm_subscribers": 6140,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-03",
+      "monthly_listeners": 71576,
+      "collected_at": "2026-09-03T17:26:31.230192+00:00",
+      "spotify_followers": 11125,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2252
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1859
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1324
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1128
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 858
+        }
+      ],
+      "lastfm_listeners": 8883,
+      "lastfm_playcount": 112469,
+      "ytm_subscribers": 6150,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5568,39 +5606,34 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "NELKE",
+        "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
+        "subscribers": "1.28M"
+      },
+      {
         "name": "Nemurimachi",
         "browse_id": "UCLM45frdRVYNI9kQgLg8Uag",
-        "subscribers": "7.51K"
+        "subscribers": "7.52K"
       },
       {
         "name": "Mikage",
         "browse_id": "UCExAZU5tNP6oxjHPxdwZrog",
-        "subscribers": "56K"
-      },
-      {
-        "name": "NELKE",
-        "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
-        "subscribers": "1.27M"
-      },
-      {
-        "name": "MARUMOCHI from HoneyWorks",
-        "browse_id": "UCJxr7YkgS2mEZBFyq39Wkhg",
-        "subscribers": "2.9K"
+        "subscribers": "57.9K"
       },
       {
         "name": "shallm",
         "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
-        "subscribers": "259K"
+        "subscribers": "268K"
       },
       {
         "name": "MIMiNARI",
         "browse_id": "UCNBWI0bR0NC7VHpeAuoDENA",
-        "subscribers": "86.7K"
+        "subscribers": "89.2K"
       },
       {
         "name": "Rei",
         "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
-        "subscribers": "322K"
+        "subscribers": "324K"
       },
       {
         "name": "Tsuzuri",
@@ -5610,12 +5643,17 @@
       {
         "name": "esoragoto",
         "browse_id": "UCe-xzpeeYgHw0EwrXzccpiQ",
-        "subscribers": "158K"
+        "subscribers": "162K"
       },
       {
         "name": "JELEE",
         "browse_id": "UCWUNwWayeHBaTrRYfF_ohUA",
-        "subscribers": "51.2K"
+        "subscribers": "51K"
+      },
+      {
+        "name": "suisougurashi",
+        "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
+        "subscribers": "112K"
       }
     ],
     "ytm_top_songs": [
@@ -6502,6 +6540,12 @@
           "views": 4492109,
           "likes": 33764,
           "comments": 0
+        },
+        {
+          "date": "2026-09-03",
+          "views": 4497256,
+          "likes": 33786,
+          "comments": 0
         }
       ]
     },
@@ -7364,6 +7408,12 @@
           "date": "2026-09-02",
           "views": 486610,
           "likes": 3759,
+          "comments": 0
+        },
+        {
+          "date": "2026-09-03",
+          "views": 487561,
+          "likes": 3770,
           "comments": 0
         }
       ]
@@ -8228,6 +8278,12 @@
           "views": 316355,
           "likes": 3908,
           "comments": 0
+        },
+        {
+          "date": "2026-09-03",
+          "views": 317305,
+          "likes": 3915,
+          "comments": 0
         }
       ]
     },
@@ -9090,6 +9146,12 @@
           "date": "2026-09-02",
           "views": 761876,
           "likes": 6295,
+          "comments": 0
+        },
+        {
+          "date": "2026-09-03",
+          "views": 762800,
+          "likes": 6301,
           "comments": 0
         }
       ]
@@ -9974,6 +10036,12 @@
           "views": 291060,
           "likes": 2841,
           "comments": 0
+        },
+        {
+          "date": "2026-09-03",
+          "views": 291576,
+          "likes": 2845,
+          "comments": 0
         }
       ]
     }
@@ -10292,6 +10360,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-02T17:34:16.747003+00:00"
+    },
+    {
+      "date": "2026-09-03",
+      "metric": "monthly_listeners",
+      "value": 71576,
+      "baseline_mean": 68194.1,
+      "baseline_stddev": 776.3,
+      "delta": 3381,
+      "score": 4.36,
+      "type": "annotated",
+      "related_annotation": "Spotify月間リスナー数の異常上昇を検知（原因不明、複数アーティスト同時急増パターンと合致）",
+      "detected_at": "2026-09-03T17:26:32.519274+00:00"
     }
   ]
 }

@@ -5870,6 +5870,47 @@
       "ytm_subscribers": 601000,
       "ytm_monthly_listeners": 5270000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-03",
+      "monthly_listeners": 2942787,
+      "collected_at": "2026-09-03T17:36:27.458671+00:00",
+      "spotify_followers": 2063848,
+      "youtube_subscribers": 602000,
+      "youtube_total_views": 521712428,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 153153
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 135192
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 105735
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 57777
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 56280
+        }
+      ],
+      "lastfm_listeners": 7997,
+      "lastfm_playcount": 473598,
+      "ytm_subscribers": 602000,
+      "ytm_monthly_listeners": 5440000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -6271,27 +6312,32 @@
       {
         "name": "WurtS",
         "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "7.91M"
+        "subscribers": "8.06M"
       },
       {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "4.54M"
-      },
-      {
-        "name": "Saucy Dog",
-        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.52M"
+        "subscribers": "4.66M"
       },
       {
         "name": "Tele",
         "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "472K"
+        "subscribers": "480K"
+      },
+      {
+        "name": "Saucy Dog",
+        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
+        "subscribers": "2.61M"
       },
       {
         "name": "Marcy",
         "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.72M"
+        "subscribers": "1.74M"
+      },
+      {
+        "name": "SIX LOUNGE",
+        "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
+        "subscribers": "1.79M"
       },
       {
         "name": "SHISHAMO",
@@ -6299,24 +6345,19 @@
         "subscribers": "4.86M"
       },
       {
-        "name": "SIX LOUNGE",
-        "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
-        "subscribers": "1.77M"
-      },
-      {
         "name": "SUPER BEAVER",
         "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
-        "subscribers": "2.14M"
+        "subscribers": "2.2M"
       },
       {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "17.4M"
+        "subscribers": "17.9M"
       },
       {
         "name": "go!go!vanillas",
         "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
-        "subscribers": "695K"
+        "subscribers": "714K"
       }
     ],
     "ytm_top_songs": [
@@ -7185,6 +7226,12 @@
           "views": 13191997,
           "likes": 74049,
           "comments": 147
+        },
+        {
+          "date": "2026-09-03",
+          "views": 13206644,
+          "likes": 74101,
+          "comments": 147
         }
       ]
     },
@@ -8030,6 +8077,12 @@
           "views": 25972909,
           "likes": 95472,
           "comments": 182
+        },
+        {
+          "date": "2026-09-03",
+          "views": 25992637,
+          "likes": 95561,
+          "comments": 183
         }
       ]
     },
@@ -8863,6 +8916,12 @@
           "views": 17842883,
           "likes": 65790,
           "comments": 122
+        },
+        {
+          "date": "2026-09-03",
+          "views": 17857799,
+          "likes": 65841,
+          "comments": 122
         }
       ]
     },
@@ -9618,6 +9677,12 @@
           "views": 46311819,
           "likes": 144099,
           "comments": 246
+        },
+        {
+          "date": "2026-09-03",
+          "views": 46332202,
+          "likes": 144174,
+          "comments": 246
         }
       ]
     },
@@ -10354,6 +10419,12 @@
           "views": 16953704,
           "likes": 100271,
           "comments": 606
+        },
+        {
+          "date": "2026-09-03",
+          "views": 16994264,
+          "likes": 100500,
+          "comments": 607
         }
       ]
     },
@@ -11641,6 +11712,18 @@
       "type": "annotated",
       "related_annotation": "「運命さがし」TikTokハッシュタグチャレンジの拡散継続＋RUSH BALL出演直前の注目度上昇",
       "detected_at": "2026-08-31T20:01:09.751497+00:00"
+    },
+    {
+      "date": "2026-09-03",
+      "metric": "ytm_monthly_listeners",
+      "value": 5440000,
+      "baseline_mean": 4926666.7,
+      "baseline_stddev": 221981.0,
+      "delta": 513333,
+      "score": 2.31,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-03T17:36:28.903297+00:00"
     }
   ]
 }

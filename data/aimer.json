@@ -5861,6 +5861,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 13000000,
       "ytm_total_views": 1908417714
+    },
+    {
+      "date": "2026-09-03",
+      "monthly_listeners": 3415977,
+      "collected_at": "2026-09-03T17:35:14.901442+00:00",
+      "spotify_followers": 2884640,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1908417714,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 76876
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 74962
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68567
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 47662
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40439
+        }
+      ],
+      "lastfm_listeners": 505236,
+      "lastfm_playcount": 25722673,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 13300000,
+      "ytm_total_views": 1908417714
     }
   ],
   "metadata": {
@@ -5895,44 +5936,44 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Minami",
-        "browse_id": "UCEsOqBVe_DNEUAer9TYk6bw",
-        "subscribers": "1.94M"
-      },
-      {
         "name": "supercell",
         "browse_id": "UCjlifcVO6r-V5RSh3eB1lLg",
-        "subscribers": "6.74M"
+        "subscribers": "6.84M"
+      },
+      {
+        "name": "Minami",
+        "browse_id": "UCEsOqBVe_DNEUAer9TYk6bw",
+        "subscribers": "1.99M"
       },
       {
         "name": "sajou no hana",
         "browse_id": "UCWNPJK9pQWSRiyr-b6nmQ4Q",
-        "subscribers": "274K"
+        "subscribers": "277K"
       },
       {
         "name": "EGOIST",
         "browse_id": "UCKZLPAAyImrkYnDVR0O2UXQ",
-        "subscribers": "1.33M"
+        "subscribers": "1.36M"
       },
       {
         "name": "Ryokuousyoku Syakai",
         "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.67M"
+        "subscribers": "7.69M"
       },
       {
         "name": "reona",
         "browse_id": "UCv8_ZHaN1nPlQfS8F2CRgYg",
-        "subscribers": "2.08M"
+        "subscribers": "2.09M"
       },
       {
         "name": "Rei Yasuda",
         "browse_id": "UCcoDswddclWPjpYPlYhTLJw",
-        "subscribers": "224K"
+        "subscribers": "229K"
       },
       {
         "name": "krage",
         "browse_id": "UCg3fieU_nWIdFBOrqVqNUGQ",
-        "subscribers": "216K"
+        "subscribers": "225K"
       },
       {
         "name": "Tielle",
@@ -5942,7 +5983,7 @@
       {
         "name": "MIYUNA",
         "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
-        "subscribers": "163K"
+        "subscribers": "167K"
       }
     ],
     "ytm_top_songs": [
@@ -6818,6 +6859,12 @@
           "views": 42703292,
           "likes": 298627,
           "comments": 1633
+        },
+        {
+          "date": "2026-09-03",
+          "views": 42738432,
+          "likes": 298801,
+          "comments": 1634
         }
       ]
     },
@@ -7669,6 +7716,12 @@
           "views": 34621662,
           "likes": 158359,
           "comments": 157
+        },
+        {
+          "date": "2026-09-03",
+          "views": 34637212,
+          "likes": 158411,
+          "comments": 158
         }
       ]
     },
@@ -8520,6 +8573,12 @@
           "views": 21522088,
           "likes": 119010,
           "comments": 296
+        },
+        {
+          "date": "2026-09-03",
+          "views": 21536766,
+          "likes": 119079,
+          "comments": 296
         }
       ]
     },
@@ -9316,6 +9375,12 @@
           "date": "2026-09-02",
           "views": 5950297,
           "likes": 58727,
+          "comments": 936
+        },
+        {
+          "date": "2026-09-03",
+          "views": 5955855,
+          "likes": 58753,
           "comments": 936
         }
       ]
@@ -10202,6 +10267,12 @@
           "date": "2026-09-02",
           "views": 32036413,
           "likes": 136177,
+          "comments": 788
+        },
+        {
+          "date": "2026-09-03",
+          "views": 32059073,
+          "likes": 136231,
           "comments": 788
         }
       ]
@@ -11171,6 +11242,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-02T17:43:42.158842+00:00"
+    },
+    {
+      "date": "2026-09-03",
+      "metric": "youtube_total_views",
+      "value": 1908417714,
+      "baseline_mean": 1891326662.7,
+      "baseline_stddev": 5697017.1,
+      "delta": 17091051,
+      "score": 3.0,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数が5.39σという突出したスコアで急増（既知のデータ収集アーティファクトと同型）",
+      "detected_at": "2026-09-03T17:35:16.422797+00:00"
     }
   ]
 }

@@ -5858,6 +5858,47 @@
       "ytm_subscribers": 2550000,
       "ytm_monthly_listeners": 22500000,
       "ytm_total_views": 1772505769
+    },
+    {
+      "date": "2026-09-03",
+      "monthly_listeners": 6404817,
+      "collected_at": "2026-09-03T17:33:48.154110+00:00",
+      "spotify_followers": 4634931,
+      "youtube_subscribers": 2550000,
+      "youtube_total_views": 1772505769,
+      "youtube_video_count": 268,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 200547
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 173773
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 117765
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 113368
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 72669
+        }
+      ],
+      "lastfm_listeners": 325386,
+      "lastfm_playcount": 31664518,
+      "ytm_subscribers": 2550000,
+      "ytm_monthly_listeners": 22800000,
+      "ytm_total_views": 1772505769
     }
   ],
   "annotations": [
@@ -6232,52 +6273,52 @@
       {
         "name": "iri",
         "browse_id": "UCtlXP5iI7TgKj_BI636L8Qw",
-        "subscribers": "445K"
+        "subscribers": "457K"
       },
       {
         "name": "Uru",
         "browse_id": "UCaqHgiRUwSDkopM98LEZ5_g",
-        "subscribers": "17.7M"
+        "subscribers": "18.1M"
       },
       {
         "name": "Mika Nakashima",
         "browse_id": "UClqGyJux0gipUeFnBh-onCQ",
-        "subscribers": "3.95M"
-      },
-      {
-        "name": "milet",
-        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "8.01M"
+        "subscribers": "4.02M"
       },
       {
         "name": "Ayaka",
         "browse_id": "UCb5YVDJl41lahWzv0B7e1hA",
-        "subscribers": "3.26M"
-      },
-      {
-        "name": "Ai Otsuka",
-        "browse_id": "UCiQBYPGlDQRHXD8FaryNaFw",
-        "subscribers": "7.63M"
+        "subscribers": "3.32M"
       },
       {
         "name": "Mai Kuraki",
         "browse_id": "UCIBz9tGLGRyC2MXQdIHjxwQ",
-        "subscribers": "1.53M"
+        "subscribers": "1.52M"
+      },
+      {
+        "name": "milet",
+        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
+        "subscribers": "8.2M"
+      },
+      {
+        "name": "Ai Otsuka",
+        "browse_id": "UCiQBYPGlDQRHXD8FaryNaFw",
+        "subscribers": "7.74M"
       },
       {
         "name": "Ken Hirai",
         "browse_id": "UCjV108-_g6HUrmoKOt5-QIw",
-        "subscribers": "1.69M"
+        "subscribers": "1.7M"
       },
       {
-        "name": "Yuko Ando",
-        "browse_id": "UCUW7BA2PIPWn0lQCFfbU3pA",
-        "subscribers": "185K"
+        "name": "AiNA THE END",
+        "browse_id": "UCr_slw4yAD3LI3KQrmnRD8Q",
+        "subscribers": "8.4M"
       },
       {
-        "name": "the brilliant green",
-        "browse_id": "UCEmBZOcH6_8l_7FqhqmupZA",
-        "subscribers": "778K"
+        "name": "m-flo",
+        "browse_id": "UCZeNdH-qUza0BlYSVhbSe7g",
+        "subscribers": "2.79M"
       }
     ],
     "ytm_top_songs": [
@@ -7147,6 +7188,12 @@
           "views": 61803930,
           "likes": 330932,
           "comments": 2611
+        },
+        {
+          "date": "2026-09-03",
+          "views": 61879467,
+          "likes": 331149,
+          "comments": 2613
         }
       ]
     },
@@ -8471,6 +8518,12 @@
           "views": 27868418,
           "likes": 216544,
           "comments": 516
+        },
+        {
+          "date": "2026-09-03",
+          "views": 27882745,
+          "likes": 216664,
+          "comments": 517
         }
       ]
     },
@@ -9003,6 +9056,12 @@
           "date": "2026-09-02",
           "views": 1690445,
           "likes": 10167,
+          "comments": 53
+        },
+        {
+          "date": "2026-09-03",
+          "views": 1692753,
+          "likes": 10185,
           "comments": 53
         }
       ]
@@ -9843,6 +9902,12 @@
           "views": 1204491,
           "likes": 8289,
           "comments": 23
+        },
+        {
+          "date": "2026-09-03",
+          "views": 1205652,
+          "likes": 8298,
+          "comments": 23
         }
       ]
     },
@@ -10627,6 +10692,12 @@
           "views": 2444421,
           "likes": 15107,
           "comments": 55
+        },
+        {
+          "date": "2026-09-03",
+          "views": 2446097,
+          "likes": 15117,
+          "comments": 55
         }
       ]
     }
@@ -11039,6 +11110,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-02T17:42:09.172593+00:00"
+    },
+    {
+      "date": "2026-09-03",
+      "metric": "youtube_total_views",
+      "value": 1772505769,
+      "baseline_mean": 1758257126.6,
+      "baseline_stddev": 7124321.2,
+      "delta": 14248642,
+      "score": 2.0,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数の急増が継続（既知のデータ収集アーティファクトの可能性）",
+      "detected_at": "2026-09-03T17:33:49.893060+00:00"
     }
   ]
 }
