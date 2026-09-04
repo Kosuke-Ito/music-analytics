@@ -5911,6 +5911,47 @@
       "ytm_subscribers": 602000,
       "ytm_monthly_listeners": 5440000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-04",
+      "monthly_listeners": 2938312,
+      "collected_at": "2026-09-04T17:29:10.928121+00:00",
+      "spotify_followers": 2064716,
+      "youtube_subscribers": 602000,
+      "youtube_total_views": 523090331,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 152532
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 135316
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 105436
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 57680
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 56342
+        }
+      ],
+      "lastfm_listeners": 8002,
+      "lastfm_playcount": 473874,
+      "ytm_subscribers": 602000,
+      "ytm_monthly_listeners": 5440000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -6319,14 +6360,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "8.06M"
-      },
-      {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
         "subscribers": "4.66M"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "8.06M"
       },
       {
         "name": "Tele",
@@ -6349,14 +6390,14 @@
         "subscribers": "1.79M"
       },
       {
-        "name": "SHISHAMO",
-        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "4.86M"
-      },
-      {
         "name": "SUPER BEAVER",
         "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
         "subscribers": "2.2M"
+      },
+      {
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "4.86M"
       },
       {
         "name": "back number",
@@ -7241,6 +7282,12 @@
           "views": 13206644,
           "likes": 74101,
           "comments": 147
+        },
+        {
+          "date": "2026-09-04",
+          "views": 13222156,
+          "likes": 74170,
+          "comments": 147
         }
       ]
     },
@@ -8092,6 +8139,12 @@
           "views": 25992637,
           "likes": 95561,
           "comments": 183
+        },
+        {
+          "date": "2026-09-04",
+          "views": 26013547,
+          "likes": 95690,
+          "comments": 183
         }
       ]
     },
@@ -8931,6 +8984,12 @@
           "views": 17857799,
           "likes": 65841,
           "comments": 122
+        },
+        {
+          "date": "2026-09-04",
+          "views": 17873966,
+          "likes": 65917,
+          "comments": 122
         }
       ]
     },
@@ -9692,6 +9751,12 @@
           "views": 46332202,
           "likes": 144174,
           "comments": 246
+        },
+        {
+          "date": "2026-09-04",
+          "views": 46354057,
+          "likes": 144247,
+          "comments": 246
         }
       ]
     },
@@ -10434,6 +10499,12 @@
           "views": 16994264,
           "likes": 100500,
           "comments": 607
+        },
+        {
+          "date": "2026-09-04",
+          "views": 17037420,
+          "likes": 100737,
+          "comments": 610
         }
       ]
     },
@@ -11733,6 +11804,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-03T17:36:28.903297+00:00"
+    },
+    {
+      "date": "2026-09-04",
+      "metric": "ytm_monthly_listeners",
+      "value": 5440000,
+      "baseline_mean": 4943000,
+      "baseline_stddev": 240362.9,
+      "delta": 497000,
+      "score": 2.07,
+      "type": "annotated",
+      "related_annotation": "YouTube Music月間リスナー数の急増はデータ収集側のアーティファクトの継続",
+      "detected_at": "2026-09-04T17:29:12.672851+00:00"
     }
   ]
 }

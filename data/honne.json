@@ -6020,6 +6020,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 5240000,
       "ytm_total_views": 934565007
+    },
+    {
+      "date": "2026-09-04",
+      "monthly_listeners": 4178105,
+      "collected_at": "2026-09-04T17:25:49.646084+00:00",
+      "spotify_followers": 1677740,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 934565007,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 184555
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 148690
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 129586
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 127770
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 120262
+        }
+      ],
+      "lastfm_listeners": 939467,
+      "lastfm_playcount": 23837234,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 5240000,
+      "ytm_total_views": 934565007
     }
   ],
   "annotations": [
@@ -6220,14 +6261,9 @@
         "subscribers": "12M"
       },
       {
-        "name": "Christian Kuria",
-        "browse_id": "UCgW893LWX7ZoPcarKUa4a9g",
-        "subscribers": "697K"
-      },
-      {
-        "name": "Jeff Bernat",
-        "browse_id": "UCleL_cOHP8y7UDe9oJb_fVw",
-        "subscribers": "1.64M"
+        "name": "LambC",
+        "browse_id": "UCZA6zuHT78mrzkOBthIf9VA",
+        "subscribers": "3.3K"
       },
       {
         "name": "Rocketman",
@@ -6235,9 +6271,9 @@
         "subscribers": "3.03K"
       },
       {
-        "name": "LambC",
-        "browse_id": "UCZA6zuHT78mrzkOBthIf9VA",
-        "subscribers": "3.3K"
+        "name": "Christian Kuria",
+        "browse_id": "UCgW893LWX7ZoPcarKUa4a9g",
+        "subscribers": "697K"
       },
       {
         "name": "ADOY",
@@ -6245,19 +6281,24 @@
         "subscribers": "185K"
       },
       {
+        "name": "Jeff Bernat",
+        "browse_id": "UCleL_cOHP8y7UDe9oJb_fVw",
+        "subscribers": "1.64M"
+      },
+      {
         "name": "Bruno Major",
         "browse_id": "UCG6TVq74z0InWhOJVtIQZKQ",
         "subscribers": "1.41M"
       },
       {
-        "name": "Fiji Blue",
-        "browse_id": "UCYjYMImwBg38TDpWDl_F0Pw",
-        "subscribers": "1.15M"
+        "name": "Rai Thistlethwayte",
+        "browse_id": "UCIc2E6RuJe4RB9Z_z6uqWqQ",
+        "subscribers": "7.15K"
       },
       {
-        "name": "Mina Okabe",
-        "browse_id": "UCdwuOm1Z7_1UyhMsTjgmxeg",
-        "subscribers": "9.66M"
+        "name": "Phum Viphurit",
+        "browse_id": "UCqss9YQhKnV_1ekC347ckDw",
+        "subscribers": "60.7K"
       }
     ],
     "ytm_top_songs": [
@@ -7145,6 +7186,12 @@
           "views": 2608469,
           "likes": 16053,
           "comments": 28
+        },
+        {
+          "date": "2026-09-04",
+          "views": 2608766,
+          "likes": 16053,
+          "comments": 28
         }
       ]
     },
@@ -8001,6 +8048,12 @@
           "date": "2026-09-03",
           "views": 2230579,
           "likes": 20159,
+          "comments": 281
+        },
+        {
+          "date": "2026-09-04",
+          "views": 2233788,
+          "likes": 20171,
           "comments": 281
         }
       ]
@@ -8864,6 +8917,12 @@
           "date": "2026-09-03",
           "views": 48464728,
           "likes": 203909,
+          "comments": 123
+        },
+        {
+          "date": "2026-09-04",
+          "views": 48479409,
+          "likes": 203945,
           "comments": 123
         }
       ]
@@ -10146,6 +10205,12 @@
           "views": 14975058,
           "likes": 75549,
           "comments": 40
+        },
+        {
+          "date": "2026-09-04",
+          "views": 14990559,
+          "likes": 75611,
+          "comments": 40
         }
       ]
     },
@@ -10616,6 +10681,12 @@
           "date": "2026-09-03",
           "views": 15910092,
           "likes": 80810,
+          "comments": 64
+        },
+        {
+          "date": "2026-09-04",
+          "views": 15913798,
+          "likes": 80827,
           "comments": 64
         }
       ]
@@ -11221,6 +11292,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-03T17:33:07.126541+00:00"
+    },
+    {
+      "date": "2026-09-04",
+      "metric": "youtube_total_views",
+      "value": 934565007,
+      "baseline_mean": 925548540.6,
+      "baseline_stddev": 1674315.8,
+      "delta": 9016466,
+      "score": 5.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-04T17:25:50.968050+00:00"
     }
   ]
 }

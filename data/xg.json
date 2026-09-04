@@ -5899,6 +5899,47 @@
       "ytm_subscribers": 4870000,
       "ytm_monthly_listeners": 10600000,
       "ytm_total_views": 2119304563
+    },
+    {
+      "date": "2026-09-04",
+      "monthly_listeners": 4977121,
+      "collected_at": "2026-09-04T17:26:47.522815+00:00",
+      "spotify_followers": 2686862,
+      "youtube_subscribers": 4870000,
+      "youtube_total_views": 2121193140,
+      "youtube_video_count": 886,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 90293
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 75082
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 70425
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 69677
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 68091
+        }
+      ],
+      "lastfm_listeners": 906645,
+      "lastfm_playcount": 71014267,
+      "ytm_subscribers": 4870000,
+      "ytm_monthly_listeners": 10600000,
+      "ytm_total_views": 2121193140
     }
   ],
   "annotations": [
@@ -6194,14 +6235,14 @@
         "subscribers": "3.29M"
       },
       {
-        "name": "STAYC",
-        "browse_id": "UCwc9eSwp1MAoToS9QUTRpDw",
-        "subscribers": "5.54M"
-      },
-      {
         "name": "JENNIE",
         "browse_id": "UCAl7xQ6q0PEgZMQD7zr4AKQ",
         "subscribers": "156M"
+      },
+      {
+        "name": "STAYC",
+        "browse_id": "UCwc9eSwp1MAoToS9QUTRpDw",
+        "subscribers": "5.54M"
       },
       {
         "name": "XLOV",
@@ -6219,14 +6260,9 @@
         "subscribers": "486K"
       },
       {
-        "name": "GOT the beat",
-        "browse_id": "UCDDpqmryjNunitS05bv7-8w",
-        "subscribers": "1.22M"
-      },
-      {
-        "name": "NAYEON",
-        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
-        "subscribers": "338K"
+        "name": "NiziU",
+        "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
+        "subscribers": "4.08M"
       },
       {
         "name": "NewJeans",
@@ -6234,9 +6270,14 @@
         "subscribers": "84.8M"
       },
       {
-        "name": "ILLIT",
-        "browse_id": "UCNVIo0UJXTdEnsRkCB9Q03w",
-        "subscribers": "368M"
+        "name": "NAYEON",
+        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
+        "subscribers": "338K"
+      },
+      {
+        "name": "UNIS",
+        "browse_id": "UCJ7caYuiMMtiI1BSklrsqlQ",
+        "subscribers": "2.14M"
       }
     ],
     "ytm_top_songs": [
@@ -7112,6 +7153,12 @@
           "views": 11498401,
           "likes": 116857,
           "comments": 627
+        },
+        {
+          "date": "2026-09-04",
+          "views": 11528194,
+          "likes": 117043,
+          "comments": 628
         }
       ]
     },
@@ -7963,6 +8010,12 @@
           "views": 47314744,
           "likes": 394441,
           "comments": 2094
+        },
+        {
+          "date": "2026-09-04",
+          "views": 47343106,
+          "likes": 394626,
+          "comments": 2096
         }
       ]
     },
@@ -9118,6 +9171,12 @@
           "views": 19080675,
           "likes": 136912,
           "comments": 1075
+        },
+        {
+          "date": "2026-09-04",
+          "views": 19098644,
+          "likes": 136996,
+          "comments": 1075
         }
       ]
     },
@@ -9842,6 +9901,12 @@
           "date": "2026-09-03",
           "views": 41640346,
           "likes": 230912,
+          "comments": 240
+        },
+        {
+          "date": "2026-09-04",
+          "views": 41657812,
+          "likes": 230987,
           "comments": 240
         }
       ]
@@ -10626,6 +10691,12 @@
           "views": 589044,
           "likes": 10591,
           "comments": 425
+        },
+        {
+          "date": "2026-09-04",
+          "views": 592178,
+          "likes": 10647,
+          "comments": 425
         }
       ]
     }
@@ -10966,6 +11037,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数の急増はデータ収集側のアーティファクトの継続",
       "detected_at": "2026-09-03T17:34:04.191407+00:00"
+    },
+    {
+      "date": "2026-09-04",
+      "metric": "ytm_monthly_listeners",
+      "value": 10600000,
+      "baseline_mean": 9663666.7,
+      "baseline_stddev": 465993.4,
+      "delta": 936333,
+      "score": 2.01,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数の急増はデータ収集側のアーティファクトの継続",
+      "detected_at": "2026-09-04T17:26:49.182850+00:00"
     }
   ]
 }

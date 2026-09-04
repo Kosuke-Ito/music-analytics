@@ -6020,6 +6020,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 294000,
       "ytm_total_views": 44932867
+    },
+    {
+      "date": "2026-09-04",
+      "monthly_listeners": 244612,
+      "collected_at": "2026-09-04T17:17:10.684759+00:00",
+      "spotify_followers": 143151,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44932867,
+      "youtube_video_count": 276,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8977
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7171
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4643
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2916
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2135
+        }
+      ],
+      "lastfm_listeners": 71289,
+      "lastfm_playcount": 1196473,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 294000,
+      "ytm_total_views": 44932867
     }
   ],
   "metadata": {
@@ -6126,7 +6167,7 @@
         "subscribers": "109K"
       }
     ],
-    "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia ("
+    "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia (https://en.wikipedia.org/wiki/Okamoto's) under Creative Commons Attribution CC-BY-SA 3.0 (http://creativecommons.org/licenses/b...)"
   },
   "song_performance": {
     "rDlege7YsGA": {
@@ -7044,6 +7085,12 @@
           "views": 15974,
           "likes": 208,
           "comments": 3
+        },
+        {
+          "date": "2026-09-04",
+          "views": 16012,
+          "likes": 208,
+          "comments": 3
         }
       ]
     },
@@ -7912,6 +7959,12 @@
           "date": "2026-09-03",
           "views": 947699,
           "likes": 11879,
+          "comments": 32
+        },
+        {
+          "date": "2026-09-04",
+          "views": 948214,
+          "likes": 11886,
           "comments": 32
         }
       ]
@@ -9237,6 +9290,12 @@
           "views": 238938,
           "likes": 1743,
           "comments": 7
+        },
+        {
+          "date": "2026-09-04",
+          "views": 239178,
+          "likes": 1744,
+          "comments": 7
         }
       ]
     },
@@ -10422,6 +10481,12 @@
           "views": 9295,
           "likes": 92,
           "comments": 4
+        },
+        {
+          "date": "2026-09-04",
+          "views": 9359,
+          "likes": 93,
+          "comments": 4
         }
       ]
     },
@@ -10560,6 +10625,12 @@
           "date": "2026-09-03",
           "views": 2882,
           "likes": 58,
+          "comments": 2
+        },
+        {
+          "date": "2026-09-04",
+          "views": 2923,
+          "likes": 60,
           "comments": 2
         }
       ]
@@ -11302,6 +11373,30 @@
       "type": "annotated",
       "related_annotation": "指標の急上昇は複数アーティスト同時多発の傾向が継続",
       "detected_at": "2026-09-03T17:24:18.492192+00:00"
+    },
+    {
+      "date": "2026-09-04",
+      "metric": "ytm_monthly_listeners",
+      "value": 294000,
+      "baseline_mean": 228233.3,
+      "baseline_stddev": 24509.4,
+      "delta": 65766,
+      "score": 2.68,
+      "type": "annotated",
+      "related_annotation": "指標の急上昇は複数アーティスト同時多発の傾向が継続",
+      "detected_at": "2026-09-04T17:17:12.009033+00:00"
+    },
+    {
+      "date": "2026-09-04",
+      "metric": "youtube_total_views",
+      "value": 44932867,
+      "baseline_mean": 44487202.3,
+      "baseline_stddev": 88911.4,
+      "delta": 445664,
+      "score": 5.01,
+      "type": "annotated",
+      "related_annotation": "指標の急上昇は複数アーティスト同時多発の傾向が継続",
+      "detected_at": "2026-09-04T17:17:12.009033+00:00"
     }
   ]
 }

@@ -5579,6 +5579,44 @@
       "ytm_subscribers": 6150,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-04",
+      "monthly_listeners": 71929,
+      "collected_at": "2026-09-04T17:19:17.887145+00:00",
+      "spotify_followers": 11141,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2289
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1873
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1331
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1151
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 866
+        }
+      ],
+      "lastfm_listeners": 8890,
+      "lastfm_playcount": 112559,
+      "ytm_subscribers": 6150,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6546,6 +6584,12 @@
           "views": 4497256,
           "likes": 33786,
           "comments": 0
+        },
+        {
+          "date": "2026-09-04",
+          "views": 4502440,
+          "likes": 33803,
+          "comments": 0
         }
       ]
     },
@@ -7414,6 +7458,12 @@
           "date": "2026-09-03",
           "views": 487561,
           "likes": 3770,
+          "comments": 0
+        },
+        {
+          "date": "2026-09-04",
+          "views": 488434,
+          "likes": 3769,
           "comments": 0
         }
       ]
@@ -8284,6 +8334,12 @@
           "views": 317305,
           "likes": 3915,
           "comments": 0
+        },
+        {
+          "date": "2026-09-04",
+          "views": 318110,
+          "likes": 3920,
+          "comments": 0
         }
       ]
     },
@@ -9152,6 +9208,12 @@
           "date": "2026-09-03",
           "views": 762800,
           "likes": 6301,
+          "comments": 0
+        },
+        {
+          "date": "2026-09-04",
+          "views": 763631,
+          "likes": 6303,
           "comments": 0
         }
       ]
@@ -10042,6 +10104,12 @@
           "views": 291576,
           "likes": 2845,
           "comments": 0
+        },
+        {
+          "date": "2026-09-04",
+          "views": 292074,
+          "likes": 2847,
+          "comments": 0
         }
       ]
     }
@@ -10372,6 +10440,18 @@
       "type": "annotated",
       "related_annotation": "Spotify月間リスナー数の異常上昇を検知（原因不明、複数アーティスト同時急増パターンと合致）",
       "detected_at": "2026-09-03T17:26:32.519274+00:00"
+    },
+    {
+      "date": "2026-09-04",
+      "metric": "monthly_listeners",
+      "value": 71929,
+      "baseline_mean": 68277.9,
+      "baseline_stddev": 975.6,
+      "delta": 3651,
+      "score": 3.74,
+      "type": "annotated",
+      "related_annotation": "Spotify月間リスナー数の異常上昇を検知（原因不明、複数アーティスト同時急増パターンと合致）",
+      "detected_at": "2026-09-04T17:19:19.051792+00:00"
     }
   ]
 }

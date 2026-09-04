@@ -5902,6 +5902,47 @@
       "ytm_subscribers": 469000,
       "ytm_monthly_listeners": 4970000,
       "ytm_total_views": 375914341
+    },
+    {
+      "date": "2026-09-04",
+      "monthly_listeners": 1718612,
+      "collected_at": "2026-09-04T17:29:54.437437+00:00",
+      "spotify_followers": 527463,
+      "youtube_subscribers": 469000,
+      "youtube_total_views": 376760308,
+      "youtube_video_count": 153,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 63092
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 46317
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 39166
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 31293
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 20962
+        }
+      ],
+      "lastfm_listeners": 19043,
+      "lastfm_playcount": 1294571,
+      "ytm_subscribers": 469000,
+      "ytm_monthly_listeners": 4970000,
+      "ytm_total_views": 376760308
     }
   ],
   "annotations": [
@@ -6438,14 +6479,19 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "1.51M"
+      },
+      {
         "name": "A_o",
         "browse_id": "UCW2Hy3WUVvoj_mlLjrWLRmw",
         "subscribers": "13.9K"
       },
       {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "1.51M"
+        "name": "Brandy Senki",
+        "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
+        "subscribers": "122K"
       },
       {
         "name": "Laura day romance",
@@ -6481,11 +6527,6 @@
         "name": "Aki",
         "browse_id": "UCRYCgYj_plKA06WwxWHTY0w",
         "subscribers": "17.2K"
-      },
-      {
-        "name": "Brandy Senki",
-        "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
-        "subscribers": "122K"
       }
     ],
     "ytm_top_songs": [
@@ -6510,7 +6551,7 @@
         "video_id": "Wq6cNNulue4"
       }
     ],
-    "ytm_description": "Hitsujibungaku is a Japanese alternative rock band formed by Moeka Shiotsuka and Yurika Kasai. Drummer Hiroa Fukuda joined in 2015, until his departure 10 years later.\n\nFrom Wikipedia ("
+    "ytm_description": "Hitsujibungaku is a Japanese alternative rock band formed by Moeka Shiotsuka and Yurika Kasai. Drummer Hiroa Fukuda joined in 2015, until his departure 10 years later.\n\nFrom Wikipedia (https://en.wikipedia.org/wiki/Hitsuji...) under Creative Commons Attribution CC-BY-SA 3.0 (http://creativecommons.org/licenses/b...)"
   },
   "song_performance": {
     "-sZ3vZ0RiMk": {
@@ -7367,6 +7408,12 @@
           "views": 21326163,
           "likes": 135815,
           "comments": 401
+        },
+        {
+          "date": "2026-09-04",
+          "views": 21352964,
+          "likes": 135955,
+          "comments": 402
         }
       ]
     },
@@ -8223,6 +8270,12 @@
           "date": "2026-09-03",
           "views": 5811673,
           "likes": 37347,
+          "comments": 196
+        },
+        {
+          "date": "2026-09-04",
+          "views": 5843761,
+          "likes": 37494,
           "comments": 196
         }
       ]
@@ -9314,6 +9367,12 @@
           "views": 1605230,
           "likes": 14273,
           "comments": 89
+        },
+        {
+          "date": "2026-09-04",
+          "views": 1607646,
+          "likes": 14283,
+          "comments": 89
         }
       ]
     },
@@ -10171,6 +10230,12 @@
           "views": 2356304,
           "likes": 18042,
           "comments": 127
+        },
+        {
+          "date": "2026-09-04",
+          "views": 2359389,
+          "likes": 18062,
+          "comments": 127
         }
       ]
     },
@@ -10775,6 +10840,12 @@
           "date": "2026-09-03",
           "views": 4292884,
           "likes": 34668,
+          "comments": 269
+        },
+        {
+          "date": "2026-09-04",
+          "views": 4296592,
+          "likes": 34682,
           "comments": 269
         }
       ]
@@ -11620,6 +11691,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-02T17:45:50.800594+00:00"
+    },
+    {
+      "date": "2026-09-04",
+      "metric": "youtube_total_views",
+      "value": 376760308,
+      "baseline_mean": 369972756.6,
+      "baseline_stddev": 3342142.4,
+      "delta": 6787551,
+      "score": 2.03,
+      "type": "annotated",
+      "related_annotation": "武道館ライブ映像「9/3公開終了」を控えた駆け込み視聴の可能性",
+      "detected_at": "2026-09-04T17:29:56.242621+00:00"
     }
   ]
 }

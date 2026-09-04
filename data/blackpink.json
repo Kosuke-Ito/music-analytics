@@ -6193,6 +6193,47 @@
       "ytm_subscribers": 101000000,
       "ytm_monthly_listeners": 223000000,
       "ytm_total_views": 42844306298
+    },
+    {
+      "date": "2026-09-04",
+      "monthly_listeners": 19601280,
+      "collected_at": "2026-09-04T17:23:43.598669+00:00",
+      "spotify_followers": 60797389,
+      "youtube_subscribers": 101000000,
+      "youtube_total_views": 42844306298,
+      "youtube_video_count": 668,
+      "top_cities": [
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 316309
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 282522
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 246259
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 227207
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 222189
+        }
+      ],
+      "lastfm_listeners": 2081541,
+      "lastfm_playcount": 325841172,
+      "ytm_subscribers": 101000000,
+      "ytm_monthly_listeners": 223000000,
+      "ytm_total_views": 42844306298
     }
   ],
   "annotations": [
@@ -6444,26 +6485,6 @@
         "subscribers": "84.8M"
       },
       {
-        "name": "2NE1",
-        "browse_id": "UC1dkZ--Bna3y4Cd-wwbteNw",
-        "subscribers": "20.8M"
-      },
-      {
-        "name": "NAYEON",
-        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
-        "subscribers": "338K"
-      },
-      {
-        "name": "LE SSERAFIM",
-        "browse_id": "UC-clMkTZa7k-FxmNgMjoCgQ",
-        "subscribers": "211M"
-      },
-      {
-        "name": "LISA",
-        "browse_id": "UCXtPv6CbKfuXPNj3MyKFOig",
-        "subscribers": "78.2M"
-      },
-      {
         "name": "Red Velvet",
         "browse_id": "UCHmZYTfdTyVKQEJicLiXEOg",
         "subscribers": "30.7M"
@@ -6472,6 +6493,26 @@
         "name": "IVE",
         "browse_id": "UC_4Y1QqJr60C5Z7-eQWy-mw",
         "subscribers": "50.2M"
+      },
+      {
+        "name": "NAYEON",
+        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
+        "subscribers": "338K"
+      },
+      {
+        "name": "JEON SOMI",
+        "browse_id": "UCDnYJA3OXXhRKYPe3jzLGeQ",
+        "subscribers": "6.06M"
+      },
+      {
+        "name": "LE SSERAFIM",
+        "browse_id": "UC-clMkTZa7k-FxmNgMjoCgQ",
+        "subscribers": "211M"
+      },
+      {
+        "name": "2NE1",
+        "browse_id": "UC1dkZ--Bna3y4Cd-wwbteNw",
+        "subscribers": "20.8M"
       }
     ],
     "ytm_top_songs": [
@@ -7364,6 +7405,12 @@
           "date": "2026-09-03",
           "views": 258152631,
           "likes": 1697625,
+          "comments": 20613
+        },
+        {
+          "date": "2026-09-04",
+          "views": 258414202,
+          "likes": 1698473,
           "comments": 20613
         }
       ]
@@ -8563,6 +8610,12 @@
           "views": 309626246,
           "likes": 2568833,
           "comments": 17130
+        },
+        {
+          "date": "2026-09-04",
+          "views": 309712412,
+          "likes": 2569467,
+          "comments": 17133
         }
       ]
     },
@@ -9432,6 +9485,12 @@
           "views": 170830436,
           "likes": 984012,
           "comments": 3972
+        },
+        {
+          "date": "2026-09-04",
+          "views": 170892991,
+          "likes": 984409,
+          "comments": 3974
         }
       ]
     },
@@ -10301,6 +10360,12 @@
           "views": 118877922,
           "likes": 1405885,
           "comments": 5636
+        },
+        {
+          "date": "2026-09-04",
+          "views": 118913898,
+          "likes": 1406295,
+          "comments": 5637
         }
       ]
     },
@@ -10856,6 +10921,12 @@
           "views": 169177515,
           "likes": 1040085,
           "comments": 3777
+        },
+        {
+          "date": "2026-09-04",
+          "views": 169269916,
+          "likes": 1040521,
+          "comments": 3781
         }
       ]
     }
@@ -11256,6 +11327,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-03T17:31:00.901212+00:00"
+    },
+    {
+      "date": "2026-09-04",
+      "metric": "ytm_monthly_listeners",
+      "value": 223000000,
+      "baseline_mean": 201833333.3,
+      "baseline_stddev": 7137148.5,
+      "delta": 21166666,
+      "score": 2.97,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-04T17:23:44.755221+00:00"
     }
   ]
 }
