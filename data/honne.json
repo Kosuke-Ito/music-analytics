@@ -6061,6 +6061,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 5240000,
       "ytm_total_views": 934565007
+    },
+    {
+      "date": "2026-09-05",
+      "monthly_listeners": 4182225,
+      "collected_at": "2026-09-05T16:32:59.410496+00:00",
+      "spotify_followers": 1677906,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 934565007,
+      "youtube_video_count": 230,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 184989
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 149153
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 130264
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 127813
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 119809
+        }
+      ],
+      "lastfm_listeners": 939564,
+      "lastfm_playcount": 23838739,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 5240000,
+      "ytm_total_views": 934565007
     }
   ],
   "annotations": [
@@ -6261,11 +6302,6 @@
         "subscribers": "12M"
       },
       {
-        "name": "LambC",
-        "browse_id": "UCZA6zuHT78mrzkOBthIf9VA",
-        "subscribers": "3.3K"
-      },
-      {
         "name": "Rocketman",
         "browse_id": "UCvhKL8jkXWeMhGzZ4JHxRMw",
         "subscribers": "3.03K"
@@ -6274,6 +6310,11 @@
         "name": "Christian Kuria",
         "browse_id": "UCgW893LWX7ZoPcarKUa4a9g",
         "subscribers": "697K"
+      },
+      {
+        "name": "LambC",
+        "browse_id": "UCZA6zuHT78mrzkOBthIf9VA",
+        "subscribers": "3.3K"
       },
       {
         "name": "ADOY",
@@ -6291,14 +6332,14 @@
         "subscribers": "1.41M"
       },
       {
-        "name": "Rai Thistlethwayte",
-        "browse_id": "UCIc2E6RuJe4RB9Z_z6uqWqQ",
-        "subscribers": "7.15K"
+        "name": "Fiji Blue",
+        "browse_id": "UCYjYMImwBg38TDpWDl_F0Pw",
+        "subscribers": "1.15M"
       },
       {
-        "name": "Phum Viphurit",
-        "browse_id": "UCqss9YQhKnV_1ekC347ckDw",
-        "subscribers": "60.7K"
+        "name": "Mina Okabe",
+        "browse_id": "UCdwuOm1Z7_1UyhMsTjgmxeg",
+        "subscribers": "9.66M"
       }
     ],
     "ytm_top_songs": [
@@ -7192,6 +7233,12 @@
           "views": 2608766,
           "likes": 16053,
           "comments": 28
+        },
+        {
+          "date": "2026-09-05",
+          "views": 2609064,
+          "likes": 16055,
+          "comments": 28
         }
       ]
     },
@@ -8054,6 +8101,12 @@
           "date": "2026-09-04",
           "views": 2233788,
           "likes": 20171,
+          "comments": 281
+        },
+        {
+          "date": "2026-09-05",
+          "views": 2236378,
+          "likes": 20187,
           "comments": 281
         }
       ]
@@ -8923,6 +8976,12 @@
           "date": "2026-09-04",
           "views": 48479409,
           "likes": 203945,
+          "comments": 123
+        },
+        {
+          "date": "2026-09-05",
+          "views": 48493340,
+          "likes": 203977,
           "comments": 123
         }
       ]
@@ -10211,6 +10270,12 @@
           "views": 14990559,
           "likes": 75611,
           "comments": 40
+        },
+        {
+          "date": "2026-09-05",
+          "views": 15005405,
+          "likes": 75644,
+          "comments": 40
         }
       ]
     },
@@ -10687,6 +10752,12 @@
           "date": "2026-09-04",
           "views": 15913798,
           "likes": 80827,
+          "comments": 64
+        },
+        {
+          "date": "2026-09-05",
+          "views": 15917295,
+          "likes": 80831,
           "comments": 64
         }
       ]
@@ -11304,6 +11375,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-04T17:25:50.968050+00:00"
+    },
+    {
+      "date": "2026-09-05",
+      "metric": "youtube_total_views",
+      "value": 934565007,
+      "baseline_mean": 925859453.3,
+      "baseline_stddev": 2326657.1,
+      "delta": 8705553,
+      "score": 3.74,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-05T16:33:00.750246+00:00"
     }
   ]
 }

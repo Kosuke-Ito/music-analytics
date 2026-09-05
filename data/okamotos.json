@@ -6061,6 +6061,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 294000,
       "ytm_total_views": 44932867
+    },
+    {
+      "date": "2026-09-05",
+      "monthly_listeners": 243621,
+      "collected_at": "2026-09-05T16:24:17.026179+00:00",
+      "spotify_followers": 143165,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 44968963,
+      "youtube_video_count": 276,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8939
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7132
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4595
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2888
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2098
+        }
+      ],
+      "lastfm_listeners": 71299,
+      "lastfm_playcount": 1196594,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 294000,
+      "ytm_total_views": 44968963
     }
   ],
   "metadata": {
@@ -6122,6 +6163,16 @@
         "subscribers": "5.91M"
       },
       {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "2.15M"
+      },
+      {
+        "name": "Kroi",
+        "browse_id": "UCssoAGLly9DaABecIZoht_g",
+        "subscribers": "373K"
+      },
+      {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
         "subscribers": "89.1K"
@@ -6155,16 +6206,6 @@
         "name": "Yoru No Honki Dance",
         "browse_id": "UCaZGUqEL8pzFRgLXXJ4dL2Q",
         "subscribers": "95.9K"
-      },
-      {
-        "name": "Akai Ko-En",
-        "browse_id": "UCVPEVqfO021f0jXz3sWNGSA",
-        "subscribers": "103K"
-      },
-      {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "109K"
       }
     ],
     "ytm_description": "Okamoto's is a Japanese rock band, formed in 2006. They made their major label debut on May 26, 2010, and were signed by Ariola Japan.\n\nFrom Wikipedia (https://en.wikipedia.org/wiki/Okamoto's) under Creative Commons Attribution CC-BY-SA 3.0 (http://creativecommons.org/licenses/b...)"
@@ -7091,6 +7132,12 @@
           "views": 16012,
           "likes": 208,
           "comments": 3
+        },
+        {
+          "date": "2026-09-05",
+          "views": 16036,
+          "likes": 208,
+          "comments": 3
         }
       ]
     },
@@ -7965,6 +8012,12 @@
           "date": "2026-09-04",
           "views": 948214,
           "likes": 11886,
+          "comments": 32
+        },
+        {
+          "date": "2026-09-05",
+          "views": 948898,
+          "likes": 11895,
           "comments": 32
         }
       ]
@@ -9296,6 +9349,12 @@
           "views": 239178,
           "likes": 1744,
           "comments": 7
+        },
+        {
+          "date": "2026-09-05",
+          "views": 239375,
+          "likes": 1747,
+          "comments": 7
         }
       ]
     },
@@ -10487,6 +10546,12 @@
           "views": 9359,
           "likes": 93,
           "comments": 4
+        },
+        {
+          "date": "2026-09-05",
+          "views": 9398,
+          "likes": 94,
+          "comments": 4
         }
       ]
     },
@@ -10630,6 +10695,12 @@
         {
           "date": "2026-09-04",
           "views": 2923,
+          "likes": 60,
+          "comments": 2
+        },
+        {
+          "date": "2026-09-05",
+          "views": 2973,
           "likes": 60,
           "comments": 2
         }
@@ -11397,6 +11468,30 @@
       "type": "annotated",
       "related_annotation": "指標の急上昇は複数アーティスト同時多発の傾向が継続",
       "detected_at": "2026-09-04T17:17:12.009033+00:00"
+    },
+    {
+      "date": "2026-09-05",
+      "metric": "ytm_monthly_listeners",
+      "value": 294000,
+      "baseline_mean": 231200,
+      "baseline_stddev": 26797.3,
+      "delta": 62800,
+      "score": 2.34,
+      "type": "annotated",
+      "related_annotation": "指標の急上昇が3日連続で継続",
+      "detected_at": "2026-09-05T16:24:19.534575+00:00"
+    },
+    {
+      "date": "2026-09-05",
+      "metric": "youtube_total_views",
+      "value": 44968963,
+      "baseline_mean": 44505732.1,
+      "baseline_stddev": 117377.3,
+      "delta": 463230,
+      "score": 3.95,
+      "type": "annotated",
+      "related_annotation": "指標の急上昇が3日連続で継続",
+      "detected_at": "2026-09-05T16:24:19.534575+00:00"
     }
   ]
 }

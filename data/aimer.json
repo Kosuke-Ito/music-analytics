@@ -5943,6 +5943,47 @@
       "ytm_subscribers": 2240000,
       "ytm_monthly_listeners": 13300000,
       "ytm_total_views": 1908417714
+    },
+    {
+      "date": "2026-09-05",
+      "monthly_listeners": 3411327,
+      "collected_at": "2026-09-05T16:35:11.533928+00:00",
+      "spotify_followers": 2885496,
+      "youtube_subscribers": 2240000,
+      "youtube_total_views": 1908417714,
+      "youtube_video_count": 192,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 77000
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 74840
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 68054
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 47537
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 40336
+        }
+      ],
+      "lastfm_listeners": 505349,
+      "lastfm_playcount": 25727049,
+      "ytm_subscribers": 2240000,
+      "ytm_monthly_listeners": 13300000,
+      "ytm_total_views": 1908417714
     }
   ],
   "metadata": {
@@ -5977,14 +6018,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "EGOIST",
-        "browse_id": "UCKZLPAAyImrkYnDVR0O2UXQ",
-        "subscribers": "1.36M"
-      },
-      {
         "name": "supercell",
         "browse_id": "UCjlifcVO6r-V5RSh3eB1lLg",
         "subscribers": "6.84M"
+      },
+      {
+        "name": "EGOIST",
+        "browse_id": "UCKZLPAAyImrkYnDVR0O2UXQ",
+        "subscribers": "1.36M"
       },
       {
         "name": "Minami",
@@ -6002,19 +6043,19 @@
         "subscribers": "2.09M"
       },
       {
+        "name": "Chiai Fujikawa",
+        "browse_id": "UCpzy28Kw66pBn5o8uP3m4tA",
+        "subscribers": "497K"
+      },
+      {
         "name": "Ryokuousyoku Syakai",
         "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
         "subscribers": "7.69M"
       },
       {
-        "name": "Hana Hope",
-        "browse_id": "UCZEjgx64nScw5olfoL1wfAw",
-        "subscribers": "149K"
-      },
-      {
-        "name": "YOURNESS",
-        "browse_id": "UCjAUZTGqk_ggJmFMNurtgng",
-        "subscribers": "285K"
+        "name": "sayuri",
+        "browse_id": "UCj-s48Irk1pcgnqvYIh4Xuw",
+        "subscribers": "1.51M"
       },
       {
         "name": "Rei Yasuda",
@@ -6912,6 +6953,12 @@
           "views": 42775260,
           "likes": 299007,
           "comments": 1634
+        },
+        {
+          "date": "2026-09-05",
+          "views": 42808992,
+          "likes": 299218,
+          "comments": 1635
         }
       ]
     },
@@ -7774,6 +7821,12 @@
           "date": "2026-09-04",
           "views": 34653621,
           "likes": 158461,
+          "comments": 158
+        },
+        {
+          "date": "2026-09-05",
+          "views": 34669176,
+          "likes": 158505,
           "comments": 158
         }
       ]
@@ -8638,6 +8691,12 @@
           "views": 21551663,
           "likes": 119155,
           "comments": 296
+        },
+        {
+          "date": "2026-09-05",
+          "views": 21564071,
+          "likes": 119202,
+          "comments": 296
         }
       ]
     },
@@ -9446,6 +9505,12 @@
           "date": "2026-09-04",
           "views": 5962136,
           "likes": 58791,
+          "comments": 939
+        },
+        {
+          "date": "2026-09-05",
+          "views": 5967896,
+          "likes": 58832,
           "comments": 939
         }
       ]
@@ -10344,6 +10409,12 @@
           "date": "2026-09-04",
           "views": 32081961,
           "likes": 136289,
+          "comments": 789
+        },
+        {
+          "date": "2026-09-05",
+          "views": 32102039,
+          "likes": 136326,
           "comments": 789
         }
       ]
@@ -11337,6 +11408,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数が5.39σという突出したスコアで急増（既知のデータ収集アーティファクトと同型）",
       "detected_at": "2026-09-04T17:28:02.086380+00:00"
+    },
+    {
+      "date": "2026-09-05",
+      "metric": "youtube_total_views",
+      "value": 1908417714,
+      "baseline_mean": 1892592666.5,
+      "baseline_stddev": 7077176.4,
+      "delta": 15825047,
+      "score": 2.24,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数の急増が継続（3.74σ、収束傾向）",
+      "detected_at": "2026-09-05T16:35:13.680401+00:00"
     }
   ]
 }

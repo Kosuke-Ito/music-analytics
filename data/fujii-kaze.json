@@ -6235,6 +6235,47 @@
       "ytm_subscribers": 5510000,
       "ytm_monthly_listeners": 57200000,
       "ytm_total_views": 2993032572
+    },
+    {
+      "date": "2026-09-05",
+      "monthly_listeners": 7160848,
+      "collected_at": "2026-09-05T16:29:26.369780+00:00",
+      "spotify_followers": 5237698,
+      "youtube_subscribers": 5510000,
+      "youtube_total_views": 2993032572,
+      "youtube_video_count": 228,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 199113
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 173522
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 140882
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 95453
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 92372
+        }
+      ],
+      "lastfm_listeners": 18719,
+      "lastfm_playcount": 1597272,
+      "ytm_subscribers": 5510000,
+      "ytm_monthly_listeners": 57200000,
+      "ytm_total_views": 2993032572
     }
   ],
   "annotations": [
@@ -6614,14 +6655,14 @@
         "subscribers": "22.8M"
       },
       {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "3.07M"
-      },
-      {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
         "subscribers": "3.38M"
+      },
+      {
+        "name": "Ayumu Imazu",
+        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
+        "subscribers": "3.07M"
       },
       {
         "name": "iri",
@@ -6634,19 +6675,19 @@
         "subscribers": "1.24M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "23.1M"
-      },
-      {
-        "name": "Tokyo Incidents",
-        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
-        "subscribers": "3.27M"
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "18.4M"
       },
       {
         "name": "imase",
         "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
         "subscribers": "68M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "23.1M"
       }
     ],
     "ytm_top_songs": [
@@ -7546,6 +7587,12 @@
           "views": 293331252,
           "likes": 3821855,
           "comments": 19534
+        },
+        {
+          "date": "2026-09-05",
+          "views": 293452476,
+          "likes": 3822912,
+          "comments": 19555
         }
       ]
     },
@@ -8468,6 +8515,12 @@
           "views": 78581155,
           "likes": 378221,
           "comments": 696
+        },
+        {
+          "date": "2026-09-05",
+          "views": 78635832,
+          "likes": 378472,
+          "comments": 697
         }
       ]
     },
@@ -9270,6 +9323,12 @@
           "views": 54142344,
           "likes": 397403,
           "comments": 1162
+        },
+        {
+          "date": "2026-09-05",
+          "views": 54173991,
+          "likes": 397550,
+          "comments": 1161
         }
       ]
     },
@@ -10001,6 +10060,12 @@
           "views": 3602089,
           "likes": 22869,
           "comments": 111
+        },
+        {
+          "date": "2026-09-05",
+          "views": 3626507,
+          "likes": 22999,
+          "comments": 112
         }
       ]
     },
@@ -10834,6 +10899,12 @@
           "views": 4108181,
           "likes": 28328,
           "comments": 174
+        },
+        {
+          "date": "2026-09-05",
+          "views": 4134313,
+          "likes": 28469,
+          "comments": 176
         }
       ]
     },
@@ -11819,6 +11890,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数の急増が継続（5.0σ）",
       "detected_at": "2026-09-04T17:22:21.116295+00:00"
+    },
+    {
+      "date": "2026-09-05",
+      "metric": "youtube_total_views",
+      "value": 2993032572,
+      "baseline_mean": 2962011479.3,
+      "baseline_stddev": 12824715.0,
+      "delta": 31021092,
+      "score": 2.42,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数の急増が継続（3.66σ、収束傾向）",
+      "detected_at": "2026-09-05T16:29:28.133395+00:00"
     }
   ]
 }

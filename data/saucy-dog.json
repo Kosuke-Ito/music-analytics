@@ -5949,6 +5949,47 @@
       "ytm_subscribers": 875000,
       "ytm_monthly_listeners": 2610000,
       "ytm_total_views": 598229514
+    },
+    {
+      "date": "2026-09-05",
+      "monthly_listeners": 1857061,
+      "collected_at": "2026-09-05T16:36:37.314313+00:00",
+      "spotify_followers": 1528540,
+      "youtube_subscribers": 875000,
+      "youtube_total_views": 600654968,
+      "youtube_video_count": 145,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 95214
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 81976
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65783
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 35908
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35795
+        }
+      ],
+      "lastfm_listeners": 59391,
+      "lastfm_playcount": 1687298,
+      "ytm_subscribers": 875000,
+      "ytm_monthly_listeners": 2610000,
+      "ytm_total_views": 600654968
     }
   ],
   "annotations": [
@@ -6325,14 +6366,19 @@
         "subscribers": "110K"
       },
       {
-        "name": "Second backer",
-        "browse_id": "UCZgg9_VmBAYupqk5ObECmng",
-        "subscribers": "1.95M"
+        "name": "tokyo kimiga inai machi",
+        "browse_id": "UCcMmtei7oDCXplPI2g9ssqg",
+        "subscribers": "2.47K"
       },
       {
         "name": "Kepura",
         "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
         "subscribers": "63.2K"
+      },
+      {
+        "name": "Second backer",
+        "browse_id": "UCZgg9_VmBAYupqk5ObECmng",
+        "subscribers": "1.95M"
       },
       {
         "name": "yangskinny",
@@ -6345,29 +6391,24 @@
         "subscribers": "390K"
       },
       {
+        "name": "Marcy",
+        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
+        "subscribers": "1.74M"
+      },
+      {
+        "name": "FOMARE",
+        "browse_id": "UCO5kmsT9xpy-ADoWy0UQX1g",
+        "subscribers": "304K"
+      },
+      {
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "4.66M"
+      },
+      {
         "name": "moon drop",
         "browse_id": "UCPqgXlQbbSCVYuzUqN1G5hQ",
         "subscribers": "154K"
-      },
-      {
-        "name": "YUTORI-SEDAI",
-        "browse_id": "UC9HxrO4x1NCD6jeoF39WRNA",
-        "subscribers": "236K"
-      },
-      {
-        "name": "bokula.",
-        "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
-        "subscribers": "427K"
-      },
-      {
-        "name": "TRACK15",
-        "browse_id": "UCbTq_K3E9Vz8ehL62WwcwIA",
-        "subscribers": "131K"
-      },
-      {
-        "name": "PERKERS",
-        "browse_id": "UCDuET5BNAZkXySSy4RU-QHw",
-        "subscribers": "18.7K"
       }
     ],
     "ytm_top_songs": [
@@ -7261,6 +7302,12 @@
           "views": 5804026,
           "likes": 24950,
           "comments": 54
+        },
+        {
+          "date": "2026-09-05",
+          "views": 5825154,
+          "likes": 25032,
+          "comments": 54
         }
       ]
     },
@@ -8117,6 +8164,12 @@
           "date": "2026-09-04",
           "views": 6302148,
           "likes": 28679,
+          "comments": 53
+        },
+        {
+          "date": "2026-09-05",
+          "views": 6319725,
+          "likes": 28749,
           "comments": 53
         }
       ]
@@ -8987,6 +9040,12 @@
           "views": 3398978,
           "likes": 17304,
           "comments": 39
+        },
+        {
+          "date": "2026-09-05",
+          "views": 3408224,
+          "likes": 17361,
+          "comments": 39
         }
       ]
     },
@@ -9844,6 +9903,12 @@
           "views": 3815099,
           "likes": 21557,
           "comments": 45
+        },
+        {
+          "date": "2026-09-05",
+          "views": 3823973,
+          "likes": 21599,
+          "comments": 46
         }
       ]
     },
@@ -10526,6 +10591,12 @@
           "date": "2026-09-04",
           "views": 3082384,
           "likes": 12801,
+          "comments": 30
+        },
+        {
+          "date": "2026-09-05",
+          "views": 3091978,
+          "likes": 12833,
           "comments": 30
         }
       ]
@@ -11608,6 +11679,30 @@
       "type": "annotated",
       "related_annotation": "YouTube Music月間リスナー数の急増はデータ収集側のアーティファクトの継続",
       "detected_at": "2026-09-04T17:29:26.629802+00:00"
+    },
+    {
+      "date": "2026-09-05",
+      "metric": "ytm_monthly_listeners",
+      "value": 2610000,
+      "baseline_mean": 2472333.3,
+      "baseline_stddev": 55237.9,
+      "delta": 137666,
+      "score": 2.49,
+      "type": "annotated",
+      "related_annotation": "YouTube Music月間リスナー数の急増はデータ収集側のアーティファクトの継続",
+      "detected_at": "2026-09-05T16:36:39.566376+00:00"
+    },
+    {
+      "date": "2026-09-05",
+      "metric": "youtube_total_views",
+      "value": 600654968,
+      "baseline_mean": 595343961.5,
+      "baseline_stddev": 2348511.7,
+      "delta": 5311006,
+      "score": 2.26,
+      "type": "annotated",
+      "related_annotation": "YouTube Music月間リスナー数の急増はデータ収集側のアーティファクトの継続",
+      "detected_at": "2026-09-05T16:36:39.566376+00:00"
     }
   ]
 }

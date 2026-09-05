@@ -6234,6 +6234,47 @@
       "ytm_subscribers": 9520000,
       "ytm_monthly_listeners": 35100000,
       "ytm_total_views": 5623362315
+    },
+    {
+      "date": "2026-09-05",
+      "monthly_listeners": 6655162,
+      "collected_at": "2026-09-05T16:29:12.563519+00:00",
+      "spotify_followers": 7979828,
+      "youtube_subscribers": 9520000,
+      "youtube_total_views": 5651854564,
+      "youtube_video_count": 744,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 113348
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 101858
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 91808
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 73075
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 70066
+        }
+      ],
+      "lastfm_listeners": 757887,
+      "lastfm_playcount": 92906109,
+      "ytm_subscribers": 9520000,
+      "ytm_monthly_listeners": 35100000,
+      "ytm_total_views": 5651854564
     }
   ],
   "annotations": [
@@ -6824,9 +6865,9 @@
         "subscribers": "5.34M"
       },
       {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "42.8M"
+        "name": "Tatsuya Kitani",
+        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
+        "subscribers": "30M"
       },
       {
         "name": "tuki.",
@@ -6834,14 +6875,14 @@
         "subscribers": "15.1M"
       },
       {
-        "name": "Tatsuya Kitani",
-        "browse_id": "UChMOQ1DOaMPHX_KtFhRQszw",
-        "subscribers": "30M"
+        "name": "YOASOBI",
+        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
+        "subscribers": "42.8M"
       },
       {
-        "name": "Creepy Nuts",
-        "browse_id": "UC7z9phtXAFRixEvdlRhv-hg",
-        "subscribers": "96.8M"
+        "name": "ALI",
+        "browse_id": "UCcM2nwYSXoS0pRpljTefmpg",
+        "subscribers": "7.79M"
       },
       {
         "name": "natori",
@@ -6849,9 +6890,9 @@
         "subscribers": "13.5M"
       },
       {
-        "name": "ALI",
-        "browse_id": "UCcM2nwYSXoS0pRpljTefmpg",
-        "subscribers": "7.79M"
+        "name": "Creepy Nuts",
+        "browse_id": "UC7z9phtXAFRixEvdlRhv-hg",
+        "subscribers": "96.8M"
       }
     ],
     "ytm_top_songs": [
@@ -8428,6 +8469,12 @@
           "views": 34746329,
           "likes": 226645,
           "comments": 906
+        },
+        {
+          "date": "2026-09-05",
+          "views": 34792346,
+          "likes": 226901,
+          "comments": 906
         }
       ]
     },
@@ -9279,6 +9326,12 @@
           "views": 55053889,
           "likes": 505718,
           "comments": 2230
+        },
+        {
+          "date": "2026-09-05",
+          "views": 55091092,
+          "likes": 506022,
+          "comments": 2232
         }
       ]
     },
@@ -10243,6 +10296,12 @@
           "views": 70731481,
           "likes": 369184,
           "comments": 778
+        },
+        {
+          "date": "2026-09-05",
+          "views": 70768157,
+          "likes": 369334,
+          "comments": 778
         }
       ]
     },
@@ -10960,6 +11019,12 @@
           "views": 99245734,
           "likes": 548100,
           "comments": 1069
+        },
+        {
+          "date": "2026-09-05",
+          "views": 99277860,
+          "likes": 548243,
+          "comments": 1069
         }
       ]
     },
@@ -11276,6 +11341,12 @@
           "views": 2259676,
           "likes": 52731,
           "comments": 869
+        },
+        {
+          "date": "2026-09-05",
+          "views": 2307123,
+          "likes": 53208,
+          "comments": 870
         }
       ]
     }
@@ -11832,6 +11903,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-15T14:19:30.698143+00:00"
+    },
+    {
+      "date": "2026-09-05",
+      "metric": "youtube_total_views",
+      "value": 5651854564,
+      "baseline_mean": 5600106876.8,
+      "baseline_stddev": 21435320.0,
+      "delta": 51747687,
+      "score": 2.41,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-05T16:29:13.848360+00:00"
     }
   ]
 }

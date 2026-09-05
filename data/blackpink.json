@@ -6234,6 +6234,47 @@
       "ytm_subscribers": 101000000,
       "ytm_monthly_listeners": 223000000,
       "ytm_total_views": 42844306298
+    },
+    {
+      "date": "2026-09-05",
+      "monthly_listeners": 19602404,
+      "collected_at": "2026-09-05T16:30:50.488444+00:00",
+      "spotify_followers": 60811946,
+      "youtube_subscribers": 101000000,
+      "youtube_total_views": 42844306298,
+      "youtube_video_count": 668,
+      "top_cities": [
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 316609
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 281842
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 245901
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 228021
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 223535
+        }
+      ],
+      "lastfm_listeners": 2081890,
+      "lastfm_playcount": 325889268,
+      "ytm_subscribers": 101000000,
+      "ytm_monthly_listeners": 223000000,
+      "ytm_total_views": 42844306298
     }
   ],
   "annotations": [
@@ -6475,19 +6516,9 @@
         "subscribers": "156M"
       },
       {
-        "name": "EVERGLOW",
-        "browse_id": "UCT4Z6ZLJisGUy0z2LHzi2jQ",
-        "subscribers": "4.8M"
-      },
-      {
         "name": "NewJeans",
         "browse_id": "UCxOqS3cYg4FaHbobICo7nFQ",
         "subscribers": "84.8M"
-      },
-      {
-        "name": "Red Velvet",
-        "browse_id": "UCHmZYTfdTyVKQEJicLiXEOg",
-        "subscribers": "30.7M"
       },
       {
         "name": "IVE",
@@ -6495,9 +6526,9 @@
         "subscribers": "50.2M"
       },
       {
-        "name": "NAYEON",
-        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
-        "subscribers": "338K"
+        "name": "EVERGLOW",
+        "browse_id": "UCT4Z6ZLJisGUy0z2LHzi2jQ",
+        "subscribers": "4.8M"
       },
       {
         "name": "JEON SOMI",
@@ -6505,14 +6536,24 @@
         "subscribers": "6.06M"
       },
       {
-        "name": "LE SSERAFIM",
-        "browse_id": "UC-clMkTZa7k-FxmNgMjoCgQ",
-        "subscribers": "211M"
+        "name": "Girls' Generation",
+        "browse_id": "UCGn8T3PmIkow87GeZC9mW7g",
+        "subscribers": "18.4M"
+      },
+      {
+        "name": "LISA",
+        "browse_id": "UCXtPv6CbKfuXPNj3MyKFOig",
+        "subscribers": "78.2M"
       },
       {
         "name": "2NE1",
         "browse_id": "UC1dkZ--Bna3y4Cd-wwbteNw",
         "subscribers": "20.8M"
+      },
+      {
+        "name": "NAYEON",
+        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
+        "subscribers": "338K"
       }
     ],
     "ytm_top_songs": [
@@ -7412,6 +7453,12 @@
           "views": 258414202,
           "likes": 1698473,
           "comments": 20613
+        },
+        {
+          "date": "2026-09-05",
+          "views": 258684394,
+          "likes": 1699383,
+          "comments": 20636
         }
       ]
     },
@@ -8616,6 +8663,12 @@
           "views": 309712412,
           "likes": 2569467,
           "comments": 17133
+        },
+        {
+          "date": "2026-09-05",
+          "views": 309795262,
+          "likes": 2570050,
+          "comments": 17139
         }
       ]
     },
@@ -9491,6 +9544,12 @@
           "views": 170892991,
           "likes": 984409,
           "comments": 3974
+        },
+        {
+          "date": "2026-09-05",
+          "views": 170954627,
+          "likes": 984783,
+          "comments": 3976
         }
       ]
     },
@@ -10366,6 +10425,12 @@
           "views": 118913898,
           "likes": 1406295,
           "comments": 5637
+        },
+        {
+          "date": "2026-09-05",
+          "views": 118952287,
+          "likes": 1406769,
+          "comments": 5638
         }
       ]
     },
@@ -10927,6 +10992,12 @@
           "views": 169269916,
           "likes": 1040521,
           "comments": 3781
+        },
+        {
+          "date": "2026-09-05",
+          "views": 169360677,
+          "likes": 1040989,
+          "comments": 3785
         }
       ]
     }
@@ -11339,6 +11410,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-04T17:23:44.755221+00:00"
+    },
+    {
+      "date": "2026-09-05",
+      "metric": "ytm_monthly_listeners",
+      "value": 223000000,
+      "baseline_mean": 202600000,
+      "baseline_stddev": 8073000.3,
+      "delta": 20400000,
+      "score": 2.53,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-05T16:30:51.794841+00:00"
     }
   ]
 }
