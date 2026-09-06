@@ -6065,6 +6065,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-06",
+      "monthly_listeners": 29570,
+      "collected_at": "2026-09-06T16:41:37.326434+00:00",
+      "spotify_followers": 29572,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1506962,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1645
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 868
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 652
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 509
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 396
+        }
+      ],
+      "lastfm_listeners": 5813,
+      "lastfm_playcount": 42949,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -6356,22 +6397,17 @@
       {
         "name": "TiDE",
         "browse_id": "UCt3n94yBtELjvBCx2NEOSMg",
-        "subscribers": "7.3K"
+        "subscribers": "7.32K"
       },
       {
         "name": "TENDRE",
         "browse_id": "UCu8L5KsiPC2AUDEBC3_tF1A",
-        "subscribers": "142K"
+        "subscribers": "141K"
       },
       {
         "name": "brkfstblend",
         "browse_id": "UC50NOIaEJkr_t3BKvPYFXdQ",
-        "subscribers": "7.7K"
-      },
-      {
-        "name": "Ryuto Kasahara",
-        "browse_id": "UCc58OhwUC40aBGO81vfNsng",
-        "subscribers": "6.52K"
+        "subscribers": "7.71K"
       },
       {
         "name": "reina",
@@ -6386,7 +6422,7 @@
       {
         "name": "Salasa",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "359K"
+        "subscribers": "356K"
       },
       {
         "name": "Geloomy",
@@ -6401,7 +6437,12 @@
       {
         "name": "Stefan Mahendra",
         "browse_id": "UCMZcGfiJPXZ0plcOCQ2nuPQ",
-        "subscribers": "793"
+        "subscribers": "794"
+      },
+      {
+        "name": "Michael Kaneko",
+        "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
+        "subscribers": "79.5K"
       }
     ],
     "ytm_top_songs": [
@@ -7293,6 +7334,12 @@
           "date": "2026-09-05",
           "views": 224968,
           "likes": 2855,
+          "comments": 8
+        },
+        {
+          "date": "2026-09-06",
+          "views": 225123,
+          "likes": 2856,
           "comments": 8
         }
       ]
@@ -8610,6 +8657,12 @@
           "views": 46244,
           "likes": 389,
           "comments": 2
+        },
+        {
+          "date": "2026-09-06",
+          "views": 46270,
+          "likes": 389,
+          "comments": 2
         }
       ]
     },
@@ -9502,6 +9555,12 @@
           "views": 115892,
           "likes": 1360,
           "comments": 7
+        },
+        {
+          "date": "2026-09-06",
+          "views": 116195,
+          "likes": 1366,
+          "comments": 7
         }
       ]
     },
@@ -10273,6 +10332,12 @@
           "views": 48878,
           "likes": 492,
           "comments": 7
+        },
+        {
+          "date": "2026-09-06",
+          "views": 48905,
+          "likes": 493,
+          "comments": 7
         }
       ]
     },
@@ -10830,6 +10895,12 @@
           "views": 60836,
           "likes": 715,
           "comments": 1
+        },
+        {
+          "date": "2026-09-06",
+          "views": 60860,
+          "likes": 716,
+          "comments": 1
         }
       ]
     },
@@ -11257,6 +11328,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-05T16:30:23.892229+00:00"
+    },
+    {
+      "date": "2026-09-06",
+      "metric": "youtube_total_views",
+      "value": 1506962,
+      "baseline_mean": 1480983.5,
+      "baseline_stddev": 11411.4,
+      "delta": 25978,
+      "score": 2.28,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-09-06T16:41:38.819520+00:00"
     }
   ]
 }

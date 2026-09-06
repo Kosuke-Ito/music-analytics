@@ -5655,6 +5655,44 @@
       "ytm_subscribers": 6160,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-06",
+      "monthly_listeners": 72169,
+      "collected_at": "2026-09-06T16:37:38.221025+00:00",
+      "spotify_followers": 11177,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2318
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1883
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1329
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1177
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 866
+        }
+      ],
+      "lastfm_listeners": 8900,
+      "lastfm_playcount": 113115,
+      "ytm_subscribers": 6160,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -5684,32 +5722,37 @@
       {
         "name": "Nemurimachi",
         "browse_id": "UCLM45frdRVYNI9kQgLg8Uag",
-        "subscribers": "7.54K"
+        "subscribers": "7.55K"
       },
       {
         "name": "NELKE",
         "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
-        "subscribers": "1.28M"
+        "subscribers": "1.18M"
+      },
+      {
+        "name": "Suu Usuwa",
+        "browse_id": "UCi-wYABsTateGYJWf06KV3Q",
+        "subscribers": "359K"
       },
       {
         "name": "Mikage",
         "browse_id": "UCExAZU5tNP6oxjHPxdwZrog",
-        "subscribers": "57.9K"
+        "subscribers": "56.1K"
       },
       {
         "name": "shallm",
         "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
-        "subscribers": "268K"
+        "subscribers": "266K"
       },
       {
         "name": "MIMiNARI",
         "browse_id": "UCNBWI0bR0NC7VHpeAuoDENA",
-        "subscribers": "89.2K"
+        "subscribers": "87.6K"
       },
       {
         "name": "Rei",
         "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
-        "subscribers": "324K"
+        "subscribers": "320K"
       },
       {
         "name": "Tsuzuri",
@@ -5719,17 +5762,12 @@
       {
         "name": "esoragoto",
         "browse_id": "UCe-xzpeeYgHw0EwrXzccpiQ",
-        "subscribers": "162K"
+        "subscribers": "179K"
       },
       {
         "name": "JELEE",
         "browse_id": "UCWUNwWayeHBaTrRYfF_ohUA",
         "subscribers": "51K"
-      },
-      {
-        "name": "suisougurashi",
-        "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "112K"
       }
     ],
     "ytm_top_songs": [
@@ -6634,6 +6672,12 @@
           "views": 4506956,
           "likes": 33810,
           "comments": 0
+        },
+        {
+          "date": "2026-09-06",
+          "views": 4511125,
+          "likes": 33828,
+          "comments": 0
         }
       ]
     },
@@ -7514,6 +7558,12 @@
           "date": "2026-09-05",
           "views": 489374,
           "likes": 3776,
+          "comments": 0
+        },
+        {
+          "date": "2026-09-06",
+          "views": 489988,
+          "likes": 3779,
           "comments": 0
         }
       ]
@@ -8396,6 +8446,12 @@
           "views": 318883,
           "likes": 3924,
           "comments": 0
+        },
+        {
+          "date": "2026-09-06",
+          "views": 319642,
+          "likes": 3927,
+          "comments": 0
         }
       ]
     },
@@ -9276,6 +9332,12 @@
           "date": "2026-09-05",
           "views": 764578,
           "likes": 6306,
+          "comments": 0
+        },
+        {
+          "date": "2026-09-06",
+          "views": 765401,
+          "likes": 6308,
           "comments": 0
         }
       ]
@@ -10178,6 +10240,12 @@
           "views": 292488,
           "likes": 2851,
           "comments": 0
+        },
+        {
+          "date": "2026-09-06",
+          "views": 292749,
+          "likes": 2850,
+          "comments": 0
         }
       ]
     }
@@ -10532,6 +10600,18 @@
       "type": "annotated",
       "related_annotation": "Spotify月間リスナー数の異常上昇が継続",
       "detected_at": "2026-09-05T16:26:24.038941+00:00"
+    },
+    {
+      "date": "2026-09-06",
+      "metric": "monthly_listeners",
+      "value": 72169,
+      "baseline_mean": 68509.0,
+      "baseline_stddev": 1356.2,
+      "delta": 3659,
+      "score": 2.7,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-06T16:37:39.469210+00:00"
     }
   ]
 }
