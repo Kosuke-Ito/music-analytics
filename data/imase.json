@@ -6019,6 +6019,47 @@
       "ytm_subscribers": 1390000,
       "ytm_monthly_listeners": 68400000,
       "ytm_total_views": 905259039
+    },
+    {
+      "date": "2026-09-07",
+      "monthly_listeners": 4259045,
+      "collected_at": "2026-09-07T18:39:57.581251+00:00",
+      "spotify_followers": 1063617,
+      "youtube_subscribers": 1390000,
+      "youtube_total_views": 906165582,
+      "youtube_video_count": 796,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 68968
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 68883
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 55585
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 51927
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 50439
+        }
+      ],
+      "lastfm_listeners": 438810,
+      "lastfm_playcount": 6165477,
+      "ytm_subscribers": 1390000,
+      "ytm_monthly_listeners": 68800000,
+      "ytm_total_views": 906165582
     }
   ],
   "annotations": [
@@ -6418,12 +6459,12 @@
       {
         "name": "Fujii Kaze",
         "browse_id": "UCxjfYUXFwmjUCGHMeBri5_w",
-        "subscribers": "57.4M"
+        "subscribers": "58.2M"
       },
       {
         "name": "TOMONARI SORA",
         "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
-        "subscribers": "4.37M"
+        "subscribers": "4.31M"
       },
       {
         "name": "Omoinotake",
@@ -6431,9 +6472,14 @@
         "subscribers": "3.37M"
       },
       {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "11M"
+      },
+      {
         "name": "4na",
         "browse_id": "UCADAc5ABffAw56AvKzWH3AA",
-        "subscribers": "223K"
+        "subscribers": "222K"
       },
       {
         "name": "LUCKY TAPES",
@@ -6443,7 +6489,7 @@
       {
         "name": "tonun",
         "browse_id": "UC9XSYahwHXgJnG_7opHAdmQ",
-        "subscribers": "79.1K"
+        "subscribers": "79K"
       },
       {
         "name": "Furui Riho",
@@ -6459,11 +6505,6 @@
         "name": "G over",
         "browse_id": "UCVRsmPU-XYUpbKIm-Jha_LQ",
         "subscribers": "79.8K"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "11M"
       }
     ],
     "ytm_top_songs": [
@@ -7345,6 +7386,12 @@
           "views": 150508183,
           "likes": 1222448,
           "comments": 6600
+        },
+        {
+          "date": "2026-09-07",
+          "views": 150610935,
+          "likes": 1223489,
+          "comments": 6607
         }
       ]
     },
@@ -8201,6 +8248,12 @@
           "date": "2026-09-06",
           "views": 8663638,
           "likes": 62801,
+          "comments": 168
+        },
+        {
+          "date": "2026-09-07",
+          "views": 8673036,
+          "likes": 62851,
           "comments": 168
         }
       ]
@@ -9586,6 +9639,12 @@
           "views": 12191045,
           "likes": 53203,
           "comments": 157
+        },
+        {
+          "date": "2026-09-07",
+          "views": 12195296,
+          "likes": 53218,
+          "comments": 157
         }
       ]
     },
@@ -10568,6 +10627,12 @@
           "views": 7301165,
           "likes": 41860,
           "comments": 223
+        },
+        {
+          "date": "2026-09-07",
+          "views": 7310599,
+          "likes": 41898,
+          "comments": 223
         }
       ]
     },
@@ -10903,6 +10968,12 @@
           "views": 612437,
           "likes": 8131,
           "comments": 89
+        },
+        {
+          "date": "2026-09-07",
+          "views": 625586,
+          "likes": 8269,
+          "comments": 90
         }
       ]
     }
@@ -11891,6 +11962,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-06T16:45:23.234937+00:00"
+    },
+    {
+      "date": "2026-09-07",
+      "metric": "monthly_listeners",
+      "value": 4259045,
+      "baseline_mean": 4164768.9,
+      "baseline_stddev": 40292.7,
+      "delta": 94276,
+      "score": 2.34,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-07T18:39:58.952949+00:00"
     }
   ]
 }

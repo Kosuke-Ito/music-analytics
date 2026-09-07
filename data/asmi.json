@@ -6102,6 +6102,47 @@
       "ytm_subscribers": 167000,
       "ytm_monthly_listeners": 2580000,
       "ytm_total_views": 79027996
+    },
+    {
+      "date": "2026-09-07",
+      "monthly_listeners": 219186,
+      "collected_at": "2026-09-07T18:32:57.601891+00:00",
+      "spotify_followers": 114936,
+      "youtube_subscribers": 167000,
+      "youtube_total_views": 79027996,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6581
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 5766
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4246
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 2884
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2539
+        }
+      ],
+      "lastfm_listeners": 35836,
+      "lastfm_playcount": 539673,
+      "ytm_subscribers": 167000,
+      "ytm_monthly_listeners": 2590000,
+      "ytm_total_views": 79027996
     }
   ],
   "metadata": {
@@ -6138,22 +6179,22 @@
       {
         "name": "eill",
         "browse_id": "UC4iNFY-sJX359rLWBIZkUbw",
-        "subscribers": "1.5M"
+        "subscribers": "1.51M"
       },
       {
         "name": "ChoQMay",
         "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
-        "subscribers": "3.69M"
+        "subscribers": "3.63M"
       },
       {
         "name": "Conton Candy",
         "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
-        "subscribers": "1.87M"
+        "subscribers": "1.85M"
       },
       {
-        "name": "POP ART TOWN",
-        "browse_id": "UCbhKDQv_LzbuXteh5Yrs0-A",
-        "subscribers": "15.1K"
+        "name": "WhaleDontSleep",
+        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
+        "subscribers": "539K"
       },
       {
         "name": "Sano ibuki",
@@ -6163,27 +6204,27 @@
       {
         "name": "Anna",
         "browse_id": "UCZgFCYyMNjZBYtvZxNEqaKA",
-        "subscribers": "103K"
+        "subscribers": "102K"
       },
       {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "542K"
+        "name": "YUTORI",
+        "browse_id": "UCqM8y7cbNcekfXHhvitCLyw",
+        "subscribers": "275K"
+      },
+      {
+        "name": "Atashi",
+        "browse_id": "UCJijtFbU-8Xx46pwwwWOJXw",
+        "subscribers": "69.6K"
+      },
+      {
+        "name": "CENT",
+        "browse_id": "UCh0f5XbtIlrC0WeNgqiiZ9g",
+        "subscribers": "71.5K"
       },
       {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "121K"
-      },
-      {
-        "name": "Ohashi Chippoke",
-        "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "217K"
-      },
-      {
-        "name": "Ami Sakaguchi",
-        "browse_id": "UCtf9vzH5ZH02kBzOVL3XmYQ",
-        "subscribers": "179K"
+        "subscribers": "122K"
       }
     ],
     "ytm_top_songs": [
@@ -7083,6 +7124,12 @@
           "views": 1073971,
           "likes": 10290,
           "comments": 191
+        },
+        {
+          "date": "2026-09-07",
+          "views": 1074557,
+          "likes": 10290,
+          "comments": 191
         }
       ]
     },
@@ -7963,6 +8010,12 @@
           "date": "2026-09-06",
           "views": 904122,
           "likes": 8671,
+          "comments": 43
+        },
+        {
+          "date": "2026-09-07",
+          "views": 904980,
+          "likes": 8679,
           "comments": 43
         }
       ]
@@ -8845,6 +8898,12 @@
           "views": 443365,
           "likes": 4024,
           "comments": 47
+        },
+        {
+          "date": "2026-09-07",
+          "views": 443832,
+          "likes": 4026,
+          "comments": 47
         }
       ]
     },
@@ -9497,6 +9556,12 @@
           "date": "2026-09-06",
           "views": 1124129,
           "likes": 11762,
+          "comments": 139
+        },
+        {
+          "date": "2026-09-07",
+          "views": 1124974,
+          "likes": 11764,
           "comments": 139
         }
       ]
@@ -10383,6 +10448,12 @@
           "date": "2026-09-06",
           "views": 63483,
           "likes": 737,
+          "comments": 14
+        },
+        {
+          "date": "2026-09-07",
+          "views": 63698,
+          "likes": 738,
           "comments": 14
         }
       ]
@@ -11461,6 +11532,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-09-06T16:38:22.848157+00:00"
+    },
+    {
+      "date": "2026-09-07",
+      "metric": "youtube_total_views",
+      "value": 79027996,
+      "baseline_mean": 78264386.4,
+      "baseline_stddev": 229875.7,
+      "delta": 763609,
+      "score": 3.32,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-09-07T18:32:59.167192+00:00"
     }
   ]
 }
