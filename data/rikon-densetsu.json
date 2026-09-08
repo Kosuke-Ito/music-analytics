@@ -6182,6 +6182,47 @@
       "ytm_subscribers": 107000,
       "ytm_monthly_listeners": 501000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-08",
+      "monthly_listeners": 587760,
+      "collected_at": "2026-09-08T17:41:44.526270+00:00",
+      "spotify_followers": 129524,
+      "youtube_subscribers": 107000,
+      "youtube_total_views": 53919740,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 28405
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 24668
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 16931
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 10111
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 7981
+        }
+      ],
+      "lastfm_listeners": 10382,
+      "lastfm_playcount": 171041,
+      "ytm_subscribers": 107000,
+      "ytm_monthly_listeners": 488000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6208,8 +6249,8 @@
       }
     ],
     "lastfm_tags": [
-      "j-pop",
       "japanese",
+      "j-pop",
       "city pop"
     ],
     "ytm_related_artists": [
@@ -6221,7 +6262,7 @@
       {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.37M"
+        "subscribers": "3.21M"
       },
       {
         "name": "BILLY BOO",
@@ -6229,24 +6270,14 @@
         "subscribers": "137K"
       },
       {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "1.41M"
-      },
-      {
         "name": "Ayumu Imazu",
         "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "3.09M"
-      },
-      {
-        "name": "Bialystocks",
-        "browse_id": "UCUejusLOJFSbBxhzot8By9w",
-        "subscribers": "233K"
+        "subscribers": "3M"
       },
       {
         "name": "First Love is Never Returned",
         "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "85K"
+        "subscribers": "83.1K"
       },
       {
         "name": "TAIKING",
@@ -6256,12 +6287,22 @@
       {
         "name": "YONA YONA WEEKENDERS",
         "browse_id": "UCA2eoqFXKqN2EfB6HiIHIRA",
-        "subscribers": "168K"
+        "subscribers": "166K"
       },
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "76.2K"
+        "subscribers": "74.1K"
+      },
+      {
+        "name": "Akira Nise",
+        "browse_id": "UCFDPdDPQq3VCoe-KPVvbLow",
+        "subscribers": "1.55K"
+      },
+      {
+        "name": "Skirt",
+        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
+        "subscribers": "105K"
       }
     ],
     "ytm_top_songs": [
@@ -7172,6 +7213,12 @@
           "views": 60251,
           "likes": 526,
           "comments": 6
+        },
+        {
+          "date": "2026-09-08",
+          "views": 60355,
+          "likes": 527,
+          "comments": 6
         }
       ]
     },
@@ -8057,6 +8104,12 @@
         {
           "date": "2026-09-07",
           "views": 48417,
+          "likes": 464,
+          "comments": 4
+        },
+        {
+          "date": "2026-09-08",
+          "views": 48507,
           "likes": 464,
           "comments": 4
         }
@@ -8945,6 +8998,12 @@
           "date": "2026-09-07",
           "views": 250992,
           "likes": 2170,
+          "comments": 12
+        },
+        {
+          "date": "2026-09-08",
+          "views": 251273,
+          "likes": 2171,
           "comments": 12
         }
       ]
@@ -10656,6 +10715,12 @@
           "views": 36551,
           "likes": 360,
           "comments": 5
+        },
+        {
+          "date": "2026-09-08",
+          "views": 37054,
+          "likes": 366,
+          "comments": 5
         }
       ]
     },
@@ -10749,6 +10814,12 @@
         {
           "date": "2026-09-07",
           "views": 12366,
+          "likes": 112,
+          "comments": 1
+        },
+        {
+          "date": "2026-09-08",
+          "views": 12383,
           "likes": 112,
           "comments": 1
         }
@@ -11686,6 +11757,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み入りに伴う季節的な増加",
       "detected_at": "2026-08-17T14:19:27.843106+00:00"
+    },
+    {
+      "date": "2026-09-08",
+      "metric": "youtube_total_views",
+      "value": 53919740,
+      "baseline_mean": 52507106.0,
+      "baseline_stddev": 628710.1,
+      "delta": 1412634,
+      "score": 2.25,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-08T17:41:45.897557+00:00"
     }
   ]
 }

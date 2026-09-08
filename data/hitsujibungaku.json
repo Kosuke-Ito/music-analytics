@@ -6066,6 +6066,47 @@
       "ytm_subscribers": 470000,
       "ytm_monthly_listeners": 4870000,
       "ytm_total_views": 377388585
+    },
+    {
+      "date": "2026-09-08",
+      "monthly_listeners": 1685053,
+      "collected_at": "2026-09-08T17:54:36.664704+00:00",
+      "spotify_followers": 528642,
+      "youtube_subscribers": 470000,
+      "youtube_total_views": 378854438,
+      "youtube_video_count": 153,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 62012
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 45334
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 38000
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 30321
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 20775
+        }
+      ],
+      "lastfm_listeners": 19060,
+      "lastfm_playcount": 1296008,
+      "ytm_subscribers": 470000,
+      "ytm_monthly_listeners": 4740000,
+      "ytm_total_views": 378854438
     }
   ],
   "annotations": [
@@ -6596,8 +6637,8 @@
     "lastfm_tags": [
       "shoegaze",
       "japanese",
-      "indie rock",
       "alternative",
+      "indie rock",
       "indie"
     ],
     "ytm_related_artists": [
@@ -6607,49 +6648,49 @@
         "subscribers": "13.9K"
       },
       {
-        "name": "chilldspot",
-        "browse_id": "UCpAYVXySypaqfb2JA_papUA",
-        "subscribers": "265K"
-      },
-      {
-        "name": "Haku.",
-        "browse_id": "UCmN_Dkp-Yx2qGIOEXs11mUw",
-        "subscribers": "590K"
-      },
-      {
         "name": "Brandy Senki",
         "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
-        "subscribers": "120K"
+        "subscribers": "116K"
+      },
+      {
+        "name": "chilldspot",
+        "browse_id": "UCpAYVXySypaqfb2JA_papUA",
+        "subscribers": "259K"
       },
       {
         "name": "Laura day romance",
         "browse_id": "UCFrg0aEn8dsLCzYGVSZkT1Q",
-        "subscribers": "200K"
+        "subscribers": "197K"
       },
       {
         "name": "CodyLee",
         "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "217K"
+        "subscribers": "210K"
       },
       {
         "name": "bungeitengoku",
         "browse_id": "UCO-XTBzvzhd7FgNoNseKqIw",
-        "subscribers": "183K"
+        "subscribers": "180K"
       },
       {
         "name": "tiny yawn",
         "browse_id": "UCESxrbFra7AVQsdPAnJ99dA",
-        "subscribers": "109K"
+        "subscribers": "106K"
       },
       {
         "name": "CHIAKI SATO",
         "browse_id": "UCgPeNtXtc4sWEJSqQvNJzmQ",
-        "subscribers": "202K"
+        "subscribers": "194K"
       },
       {
         "name": "Toko Miura",
         "browse_id": "UCNImkK09LPwy71IkugwM-6w",
         "subscribers": "21.1K"
+      },
+      {
+        "name": "Aki",
+        "browse_id": "UCRYCgYj_plKA06WwxWHTY0w",
+        "subscribers": "17.2K"
       }
     ],
     "ytm_top_songs": [
@@ -7555,6 +7596,12 @@
           "views": 21425882,
           "likes": 136334,
           "comments": 403
+        },
+        {
+          "date": "2026-09-08",
+          "views": 21451457,
+          "likes": 136432,
+          "comments": 403
         }
       ]
     },
@@ -8435,6 +8482,12 @@
           "date": "2026-09-07",
           "views": 5936581,
           "likes": 37889,
+          "comments": 198
+        },
+        {
+          "date": "2026-09-08",
+          "views": 5968502,
+          "likes": 38017,
           "comments": 198
         }
       ]
@@ -9550,6 +9603,12 @@
           "views": 1614135,
           "likes": 14326,
           "comments": 89
+        },
+        {
+          "date": "2026-09-08",
+          "views": 1616748,
+          "likes": 14334,
+          "comments": 89
         }
       ]
     },
@@ -10431,6 +10490,12 @@
           "views": 2367491,
           "likes": 18098,
           "comments": 127
+        },
+        {
+          "date": "2026-09-08",
+          "views": 2370411,
+          "likes": 18111,
+          "comments": 127
         }
       ]
     },
@@ -11060,6 +11125,12 @@
           "views": 4306156,
           "likes": 34739,
           "comments": 269
+        },
+        {
+          "date": "2026-09-08",
+          "views": 4309580,
+          "likes": 34758,
+          "comments": 268
         }
       ]
     },
@@ -11928,6 +11999,18 @@
       "type": "annotated",
       "related_annotation": "武道館ライブ映像公開終了（9/3）前日、駆け込み視聴が継続",
       "detected_at": "2026-09-05T16:37:07.578347+00:00"
+    },
+    {
+      "date": "2026-09-08",
+      "metric": "youtube_total_views",
+      "value": 378854438,
+      "baseline_mean": 371601469.5,
+      "baseline_stddev": 3503805.8,
+      "delta": 7252968,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-08T17:54:38.610945+00:00"
     }
   ]
 }

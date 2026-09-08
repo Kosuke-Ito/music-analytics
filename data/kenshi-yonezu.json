@@ -6357,6 +6357,47 @@
       "ytm_subscribers": 8730000,
       "ytm_monthly_listeners": 71500000,
       "ytm_total_views": 9072838395
+    },
+    {
+      "date": "2026-09-08",
+      "monthly_listeners": 9710816,
+      "collected_at": "2026-09-08T17:45:53.459613+00:00",
+      "spotify_followers": 8781079,
+      "youtube_subscribers": 8730000,
+      "youtube_total_views": 9156391991,
+      "youtube_video_count": 403,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 304106
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 273658
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 189167
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 163505
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 113874
+        }
+      ],
+      "lastfm_listeners": 58527,
+      "lastfm_playcount": 5761951,
+      "ytm_subscribers": 8730000,
+      "ytm_monthly_listeners": 68900000,
+      "ytm_total_views": 9156391991
     }
   ],
   "annotations": [
@@ -6812,22 +6853,12 @@
       {
         "name": "TOMONARI SORA",
         "browse_id": "UCz4nw8uWJyLD00z5JN7d-ZA",
-        "subscribers": "4.31M"
+        "subscribers": "4.15M"
       },
       {
-        "name": "ZUTOMAYO",
-        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
-        "subscribers": "3.99M"
-      },
-      {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "40.5M"
-      },
-      {
-        "name": "MAISONdes ",
-        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
-        "subscribers": "3.4M"
+        "name": "Keina Suda",
+        "browse_id": "UCeHkvVCNEAUvpBtuApZJCrg",
+        "subscribers": "2.56M"
       },
       {
         "name": "suis from Yorushika",
@@ -6837,12 +6868,17 @@
       {
         "name": "Eve",
         "browse_id": "UCXW81UHV3UeWUjVMr11ov2A",
-        "subscribers": "13.9M"
+        "subscribers": "13.4M"
       },
       {
-        "name": "Radwimps",
-        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
-        "subscribers": "114M"
+        "name": "YOASOBI",
+        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
+        "subscribers": "39.5M"
+      },
+      {
+        "name": "ZUTOMAYO",
+        "browse_id": "UCrpcd5WtOrdCsx5cufc4JRQ",
+        "subscribers": "3.87M"
       },
       {
         "name": "Soushi Sakiyama",
@@ -6850,9 +6886,14 @@
         "subscribers": "1.97M"
       },
       {
-        "name": "natori",
-        "browse_id": "UC5hhaaGgz7LKt_abggs0qWQ",
-        "subscribers": "13.6M"
+        "name": "Radwimps",
+        "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
+        "subscribers": "112M"
+      },
+      {
+        "name": "MAISONdes ",
+        "browse_id": "UC8_DFGziuc7PCaiTbpu5pxQ",
+        "subscribers": "3.3M"
       }
     ],
     "ytm_top_songs": [
@@ -7770,6 +7811,12 @@
           "views": 134798676,
           "likes": 702579,
           "comments": 5243
+        },
+        {
+          "date": "2026-09-08",
+          "views": 134981219,
+          "likes": 703160,
+          "comments": 5245
         }
       ]
     },
@@ -8662,6 +8709,12 @@
           "date": "2026-09-07",
           "views": 62181153,
           "likes": 332051,
+          "comments": 2617
+        },
+        {
+          "date": "2026-09-08",
+          "views": 62256941,
+          "likes": 332310,
           "comments": 2617
         }
       ]
@@ -9556,6 +9609,12 @@
           "views": 234005241,
           "likes": 1564324,
           "comments": 7664
+        },
+        {
+          "date": "2026-09-08",
+          "views": 234100042,
+          "likes": 1564760,
+          "comments": 7667
         }
       ]
     },
@@ -10359,6 +10418,12 @@
           "views": 125376649,
           "likes": 455812,
           "comments": 1253
+        },
+        {
+          "date": "2026-09-08",
+          "views": 125445519,
+          "likes": 455975,
+          "comments": 1254
         }
       ]
     },
@@ -10908,6 +10973,12 @@
           "views": 103958803,
           "likes": 396744,
           "comments": 865
+        },
+        {
+          "date": "2026-09-08",
+          "views": 104013353,
+          "likes": 396917,
+          "comments": 867
         }
       ]
     },
@@ -11870,6 +11941,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-20T14:32:12.363537+00:00"
+    },
+    {
+      "date": "2026-09-08",
+      "metric": "youtube_total_views",
+      "value": 9156391991,
+      "baseline_mean": 9055307301.1,
+      "baseline_stddev": 35369212.5,
+      "delta": 101084689,
+      "score": 2.86,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-08T17:45:54.676998+00:00"
     }
   ]
 }

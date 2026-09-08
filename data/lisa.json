@@ -6066,6 +6066,47 @@
       "ytm_subscribers": 9160000,
       "ytm_monthly_listeners": 94400000,
       "ytm_total_views": 2512477198
+    },
+    {
+      "date": "2026-09-08",
+      "monthly_listeners": 4326679,
+      "collected_at": "2026-09-08T17:52:17.597171+00:00",
+      "spotify_followers": 3872241,
+      "youtube_subscribers": 2960000,
+      "youtube_total_views": 1835393368,
+      "youtube_video_count": 522,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 64892
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 53750
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 50375
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 49017
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 47837
+        }
+      ],
+      "lastfm_listeners": 2060094,
+      "lastfm_playcount": 136565554,
+      "ytm_subscribers": 9180000,
+      "ytm_monthly_listeners": 91800000,
+      "ytm_total_views": 2522725634
     }
   ],
   "metadata": {
@@ -6100,54 +6141,54 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "MEOVV",
-        "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
-        "subscribers": "32.9M"
-      },
-      {
         "name": "Babymonster An",
         "browse_id": "UCHvoIeCVQoRuVlDJmNUDH6w",
         "subscribers": "7.07K"
       },
       {
-        "name": "ROSÉ",
-        "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
-        "subscribers": "306M"
+        "name": "JEON SOMI",
+        "browse_id": "UCDnYJA3OXXhRKYPe3jzLGeQ",
+        "subscribers": "4.99M"
+      },
+      {
+        "name": "MEOVV",
+        "browse_id": "UCI4WdEYwhO2h_NXd9mvrQlg",
+        "subscribers": "32M"
       },
       {
         "name": "BLACKPINK",
         "browse_id": "UCkbbMCA40i18i7UdjayMPAg",
-        "subscribers": "225M"
+        "subscribers": "219M"
+      },
+      {
+        "name": "ROSÉ",
+        "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
+        "subscribers": "295M"
       },
       {
         "name": "JULiA LEWiS",
         "browse_id": "UCO8v1mrb-kVY9upl8wdyDcw",
-        "subscribers": "637"
+        "subscribers": "641"
       },
       {
         "name": "SOOJIN",
         "browse_id": "UCqCmeJ3RRfpgMF6j_HzqbFQ",
-        "subscribers": "494K"
+        "subscribers": "475K"
       },
       {
         "name": "BamBam",
         "browse_id": "UCV1Zo9bUCjzFi6e4O2DNcrA",
-        "subscribers": "516K"
+        "subscribers": "502K"
       },
       {
         "name": "BLACKSWAN",
         "browse_id": "UC277cpXD9BLeaGgh3yDP40w",
-        "subscribers": "335K"
+        "subscribers": "318K"
       },
       {
         "name": "FIFTY FIFTY",
         "browse_id": "UCMca81qQN9V3jOe7wyfbvDQ",
-        "subscribers": "116M"
-      },
-      {
-        "name": "JEON SOMI",
-        "browse_id": "UCDnYJA3OXXhRKYPe3jzLGeQ",
-        "subscribers": "5.16M"
+        "subscribers": "112M"
       }
     ],
     "ytm_top_songs": [
@@ -7064,6 +7105,12 @@
           "views": 26046586,
           "likes": 294919,
           "comments": 2293
+        },
+        {
+          "date": "2026-09-08",
+          "views": 26098241,
+          "likes": 295501,
+          "comments": 2298
         }
       ]
     },
@@ -7945,6 +7992,12 @@
           "views": 273857162,
           "likes": 2753355,
           "comments": 4588
+        },
+        {
+          "date": "2026-09-08",
+          "views": 273943757,
+          "likes": 2754104,
+          "comments": 4595
         }
       ]
     },
@@ -8742,6 +8795,12 @@
           "views": 34351268,
           "likes": 256745,
           "comments": 822
+        },
+        {
+          "date": "2026-09-08",
+          "views": 34388561,
+          "likes": 256980,
+          "comments": 823
         }
       ]
     },
@@ -9281,6 +9340,12 @@
           "views": 27755879,
           "likes": 266312,
           "comments": 2701
+        },
+        {
+          "date": "2026-09-08",
+          "views": 27786214,
+          "likes": 266598,
+          "comments": 2705
         }
       ]
     },
@@ -10653,6 +10718,12 @@
           "views": 22325521,
           "likes": 183500,
           "comments": 685
+        },
+        {
+          "date": "2026-09-08",
+          "views": 22360026,
+          "likes": 183771,
+          "comments": 685
         }
       ]
     }
@@ -11713,6 +11784,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数の急増が継続（3.0σ、収束傾向）",
       "detected_at": "2026-09-05T16:34:59.168225+00:00"
+    },
+    {
+      "date": "2026-09-08",
+      "metric": "youtube_total_views",
+      "value": 1835393368,
+      "baseline_mean": 1815693080,
+      "baseline_stddev": 8493080.0,
+      "delta": 19700288,
+      "score": 2.32,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-08T17:52:19.447073+00:00"
     }
   ]
 }
