@@ -6498,6 +6498,24 @@
       "source": "https://mag.digle.tokyo/news/281245, https://k-tai.watch.impress.co.jp/docs/news/2133642.html, https://taisy0.com/2026/08/18/226370.html",
       "confidence": "medium",
       "added_at": "2026-08-29T18:19:37Z"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "description": "youtube_total_viewsが8/31-9/7の8日間3,392,704,210で完全に横ばいの後、9/8に3,410,334,666へ一括計上され+17,630,456増加（2.3σ）を記録。同日に多数の無関係なJPアーティスト（Ado・Aimer・King Gnu・LiSA・米津玄師・幾田りら等）でも同様のyoutube_total_views階段状ジャンプが確認されており、8/29付アノテーションで指摘したYouTube視聴回数カウント方式変更の反映遅延、または既知のAPI取得停滞・キャッチアップと同型のデータ収集アーティファクトと判断。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-09-08調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "YouTube総再生数の急増が継続（2.19σ、収束傾向）",
+      "description": "youtube_total_viewsは9/8の3,410,334,666のまま変化なく、移動平均が追いつく収束段階。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
     }
   ],
   "metadata": {

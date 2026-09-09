@@ -6519,6 +6519,33 @@
       "source": "https://baby-metal.jpn.org/item/1244232",
       "confidence": "low",
       "added_at": "2026-08-05T17:00:00Z"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "description": "youtube_total_viewsが8/31-9/6の7日間1,110,451,076で完全に横ばいの後、9/7に1,118,162,258へ一括計上され+7,711,182の急増（3.72σ）を記録。8/1-8/3付アノテーションで確認した既知のパターン（カウンター停滞→一括キャッチアップ）と同型。この期間に対応する新規リリース・タイアップ等のBABYMETAL関連ニュースは確認できず。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較、2026-09-07調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "YouTube総再生数の急増が継続、実数値は再び一段階上昇（3.26σ）",
+      "description": "youtube_total_viewsが1,118,162,258から1,118,583,561へ+421,303増加（3.26σ）。9/7と同型のデータ収集アーティファクトの継続。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "YouTube総再生数の急増が継続（2.84σ、収束傾向）",
+      "description": "youtube_total_viewsは9/8の1,118,583,561のまま変化なく、移動平均が追いつく過程の収束段階。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
     }
   ],
   "metadata": {

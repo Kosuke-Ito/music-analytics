@@ -6544,6 +6544,24 @@
       "source": "内部データ分析（youtube_total_views推移比較、2026-08-24調査）",
       "confidence": "low",
       "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "youtube_total_views +16,130,430（2.58σ）は既知のデータ収集側アーティファクトと同型",
+      "description": "youtube_total_viewsは8/31-9/7の間1,224,531,402で完全に横ばいの後、9/8に1,235,562,765へ一括計上された。8/21付アノテーションで確認済みのYouTube Data API取得停滞・キャッチアップパターンと同一のシグネチャ。個別楽曲のバイラル化を示すニュース・SNS上の話題は確認できなかった。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較、2026-09-08調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "youtube_total_views急増の統計的残影（2.28σ、実質的な新規増加なし）",
+      "description": "9/9のyoutube_total_viewsは9/8と完全に同値（1,235,562,765回）であり、実質的な新規増加は発生していない。9/8のジャンプに対するベースライン調整が追いついていないための再検知。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較）",
+      "confidence": "low",
+      "added_at": "2026-09-09T18:00:00Z"
     }
   ],
   "metadata": {

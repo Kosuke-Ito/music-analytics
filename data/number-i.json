@@ -11264,6 +11264,33 @@
       "source": "モデルプレス, news.yahoo.co.jp",
       "confidence": "high",
       "verified": false
+    },
+    {
+      "date": "2026-09-07",
+      "title": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "description": "youtube_total_viewsが8/31-9/6の7日間938,918,107で完全に横ばいの後、9/7に944,438,460へ一括計上され+5,520,353の急増（2.64σ）を記録。同時期に多数の無関係なJPアーティストで同様のyoutube_total_views階段状ジャンプが確認されており、既知のYouTube Data API取得側のアーティファクト（カウンター停滞→一括キャッチアップ）と同型のパターン。個別の新曲・タイアップ等の材料は確認できず。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-09-07調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "YouTube総再生数が再度急増（2.67σ、アーティファクトの継続）",
+      "description": "youtube_total_viewsが944,438,460から945,748,054へ+1,309,594増加（2.67σ）。9/7と同型のデータ収集アーティファクトの継続。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "YouTube総再生数の急増が継続（2.39σ、収束傾向）",
+      "description": "youtube_total_viewsは9/8の945,748,054のまま変化なく、移動平均が追いつく過程の収束段階。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
     }
   ],
   "buzz_events": [

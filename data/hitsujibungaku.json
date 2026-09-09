@@ -6650,6 +6650,15 @@
       "source": "natalie.mu/music/news/686268",
       "confidence": "medium",
       "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "YouTube総再生数の異常上昇を検知（原因不明、既知のデータ収集アーティファクトの可能性）",
+      "description": "YouTube総再生数が7,252,968増加（2.07σ）。9/3付で公開終了済みの武道館ライブ映像タイアップ（9/1・9/2アノテーション参照）はもはや該当せず、ピンポイントの新規リリース・タイアップ報道も確認できない。同時期に多数の無関係なJPアーティストでも同様のyoutube_total_views階段状ジャンプが確認されており、既知のデータ収集アーティファクトの可能性が高い。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較）",
+      "confidence": "low",
+      "added_at": "2026-09-09T18:00:00Z"
     }
   ],
   "metadata": {

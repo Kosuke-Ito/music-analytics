@@ -6532,6 +6532,15 @@
       "source": "youtube.com (data artifact)",
       "confidence": "high",
       "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "YouTube総再生数の急増はAPIカウンター凍結解除アーティファクト（既知パターンの再発）",
+      "description": "youtube_total_viewsが8/24-9/7の2週間490,777,709で完全に横ばいの後、9/8に494,125,920へ一括計上され+3,348,211増加（2.04σ）を記録。5/18-20・6/17・6/21-22・7/18-19・8/19-24に確認済みのYouTube Data APIカウンター凍結/解除パターンと同一のシグネチャ。個別の新規リリース・タイアップ等の材料は確認できず。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較、2026-09-08調査）",
+      "confidence": "high",
+      "added_at": "2026-09-09T18:00:00Z"
     }
   ],
   "metadata": {

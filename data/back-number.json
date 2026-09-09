@@ -6506,6 +6506,24 @@
       "source": "https://www.alsok.co.jp/person/recommend/2267/",
       "confidence": "low",
       "added_at": "2026-08-15T15:33:44Z"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "description": "youtube_total_viewsが8/31-9/6の7日間2,934,525,781で横ばいの後、9/7に2,949,428,325へ一括計上され+14,902,544の急増（2.07σ）を記録。同時期に多数の無関係なJPアーティストで同様の階段状ジャンプが確認されており、既知のYouTube Data APIアーティファクトと同型。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-09-07調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "YouTube総再生数が再度急増（2.03σ、アーティファクトの継続）",
+      "description": "youtube_total_viewsが2,949,428,325から2,951,335,625へ+1,907,300増加（2.03σ）。9/7と同型のデータ収集アーティファクトの継続。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
     }
   ],
   "metadata": {

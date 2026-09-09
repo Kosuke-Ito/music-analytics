@@ -6573,6 +6573,15 @@
       "source": "natalie.mu, oricon.co.jp, 内部データ分析（同時期の他アーティストyoutube_total_views比較）",
       "confidence": "low",
       "added_at": "2026-09-04T18:00:00Z"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "description": "youtube_total_viewsは9/7に442,891,410から443,868,486へ一括計上された後、9/8も同値のまま変化していない（+5,783,118増加・2.18σは移動平均の追いつきによる残影）。同日に多数の無関係なJPアーティスト（Ado・Aimer・King Gnu・LiSA・米津玄師・ヨルシカ等）でも同様のyoutube_total_views階段状ジャンプが確認されており、9/4付アノテーションで疑った「チャンネル固有の要因」ではなく、既知のデータ収集アーティファクトである可能性が高いと判断を改める。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-09-08調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
     }
   ],
   "metadata": {

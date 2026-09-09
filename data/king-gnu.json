@@ -6840,6 +6840,24 @@
       "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-08-22調査）",
       "confidence": "medium",
       "added_at": "2026-08-22T15:00:00Z"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "description": "youtube_total_viewsが8/31-9/7の8日間2,977,894,136で完全に横ばいの後、9/8に3,006,095,163へ一括計上され+28,201,027の急増（4.63σ）を記録。同日、Ado・キタニタツヤ・Aimer・あいみょん等、多数の無関係なJPアーティストでも同様のyoutube_total_views階段状ジャンプが確認されており、8/19付アノテーションと同型のYouTube Data API取得側のアーティファクト（カウンター停滞→一括キャッチアップ）と判断。King Gnu自身のツアー「CEN+RAL Tour 2026」は継続中だが、9/8当日を特定できる新規リリース・タイアップ等の材料は確認できず。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-09-08調査）",
+      "confidence": "high",
+      "added_at": "2026-09-09T18:00:00Z"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "YouTube総再生数の急増が継続（3.59σ、収束傾向）",
+      "description": "youtube_total_viewsは9/8の3,006,095,163のまま変化なく、移動平均が追いつく過程の収束段階。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較）",
+      "confidence": "high",
+      "added_at": "2026-09-09T18:00:00Z"
     }
   ],
   "metadata": {

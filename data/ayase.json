@@ -11245,6 +11245,24 @@
       "source": "内部データ分析（複数アーティストの同時期指標推移比較）",
       "confidence": "low",
       "added_at": "2026-09-02T17:00:00Z"
+    },
+    {
+      "date": "2026-09-07",
+      "title": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "description": "youtube_total_viewsが9/5-9/6の間6,874,868,345で横ばいの後、9/7に6,878,930,808へ一括計上され+41,630,229の急増（2.01σ）を記録。同時期に多数の無関係なJPアーティストで同様の階段状ジャンプが確認されており、既知のYouTube Data APIアーティファクトと同型。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストのyoutube_total_views推移比較、2026-09-07調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "YouTube総再生数が再度急増（2.06σ、アーティファクトの継続）",
+      "description": "youtube_total_viewsが6,878,930,808から6,883,152,826へ+4,222,018増加（2.06σ）。9/7と同型のデータ収集アーティファクトの継続。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
     }
   ],
   "buzz_events": [

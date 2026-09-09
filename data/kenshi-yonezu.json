@@ -6853,6 +6853,24 @@
       "source": "https://natalie.mu/music/news/685936, https://natalie.mu/eiga/news/685928, https://eiga.com/news/20260820/19/, https://www.cinemacafe.net/article/2026/08/20/111907.html",
       "confidence": "medium",
       "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "description": "youtube_total_viewsが8/20-9/7の間9,072,838,395で完全に横ばいの後、9/8に9,156,391,991へ一括計上され+83,553,596増加（2.86σ）を記録。8/19付アノテーションで確認済みの「複数アーティストで共通に見られるYouTube Data API側のデータ収集アーティファクト」と同型のパターン。9/11公開の映画「ルックバック」友情演奏（8/20報道）関連の新規動向は確認できず。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較、2026-09-08調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "YouTube総再生数の急増が継続（2.51σ、収束傾向）",
+      "description": "youtube_total_viewsは9/8の9,156,391,991のまま変化なく、移動平均が追いつく過程の収束段階。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-09T18:00:00Z"
     }
   ],
   "metadata": {
