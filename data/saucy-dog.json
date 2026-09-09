@@ -6113,6 +6113,47 @@
       "ytm_subscribers": 875000,
       "ytm_monthly_listeners": 2630000,
       "ytm_total_views": 601501574
+    },
+    {
+      "date": "2026-09-09",
+      "monthly_listeners": 1858335,
+      "collected_at": "2026-09-09T17:38:28.720096+00:00",
+      "spotify_followers": 1530740,
+      "youtube_subscribers": 875000,
+      "youtube_total_views": 601501574,
+      "youtube_video_count": 143,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 95266
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 81729
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65822
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35850
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 35078
+        }
+      ],
+      "lastfm_listeners": 59428,
+      "lastfm_playcount": 1688307,
+      "ytm_subscribers": 875000,
+      "ytm_monthly_listeners": 2760000,
+      "ytm_total_views": 601501574
     }
   ],
   "annotations": [
@@ -6491,17 +6532,27 @@
       {
         "name": "Second backer",
         "browse_id": "UCZgg9_VmBAYupqk5ObECmng",
-        "subscribers": "1.88M"
+        "subscribers": "1.89M"
       },
       {
-        "name": "Kepura",
-        "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
-        "subscribers": "58.6K"
+        "name": "reGretGirl",
+        "browse_id": "UCRzWUISrDwsVPZF87iEFCqw",
+        "subscribers": "375K"
+      },
+      {
+        "name": "Marcy",
+        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
+        "subscribers": "1.69M"
       },
       {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
         "subscribers": "4.38M"
+      },
+      {
+        "name": "Kepura",
+        "browse_id": "UCwEW-MEmgqfPpOMr9VMq3jw",
+        "subscribers": "58.2K"
       },
       {
         "name": "moon drop",
@@ -6516,22 +6567,12 @@
       {
         "name": "bokula.",
         "browse_id": "UCRaqXRoDkeb2WLBBimE3LhA",
-        "subscribers": "399K"
+        "subscribers": "394K"
       },
       {
         "name": "TRACK15",
         "browse_id": "UCbTq_K3E9Vz8ehL62WwcwIA",
-        "subscribers": "132K"
-      },
-      {
-        "name": "PERKERS",
-        "browse_id": "UCDuET5BNAZkXySSy4RU-QHw",
-        "subscribers": "18.7K"
-      },
-      {
-        "name": "Garakuta",
-        "browse_id": "UCPefsEntoGzOqN5okHtDX9g",
-        "subscribers": "59.1K"
+        "subscribers": "131K"
       }
     ],
     "ytm_top_songs": [
@@ -7449,6 +7490,12 @@
           "views": 5876547,
           "likes": 25236,
           "comments": 54
+        },
+        {
+          "date": "2026-09-09",
+          "views": 5892198,
+          "likes": 25294,
+          "comments": 54
         }
       ]
     },
@@ -8329,6 +8376,12 @@
           "date": "2026-09-08",
           "views": 6373987,
           "likes": 28992,
+          "comments": 54
+        },
+        {
+          "date": "2026-09-09",
+          "views": 6390879,
+          "likes": 29069,
           "comments": 54
         }
       ]
@@ -9223,6 +9276,12 @@
           "views": 3436149,
           "likes": 17482,
           "comments": 39
+        },
+        {
+          "date": "2026-09-09",
+          "views": 3445133,
+          "likes": 17517,
+          "comments": 39
         }
       ]
     },
@@ -10104,6 +10163,12 @@
           "views": 3852397,
           "likes": 21732,
           "comments": 46
+        },
+        {
+          "date": "2026-09-09",
+          "views": 3861504,
+          "likes": 21779,
+          "comments": 46
         }
       ]
     },
@@ -10810,6 +10875,12 @@
           "date": "2026-09-08",
           "views": 3119129,
           "likes": 12936,
+          "comments": 30
+        },
+        {
+          "date": "2026-09-09",
+          "views": 3128138,
+          "likes": 12978,
           "comments": 30
         }
       ]
@@ -11976,6 +12047,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-08T17:54:08.628459+00:00"
+    },
+    {
+      "date": "2026-09-09",
+      "metric": "ytm_monthly_listeners",
+      "value": 2760000,
+      "baseline_mean": 2495333.3,
+      "baseline_stddev": 76669.6,
+      "delta": 264666,
+      "score": 3.45,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-09T17:38:30.398730+00:00"
     }
   ]
 }

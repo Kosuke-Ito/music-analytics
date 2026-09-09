@@ -6225,6 +6225,47 @@
       "ytm_subscribers": 102000,
       "ytm_monthly_listeners": 278000,
       "ytm_total_views": 45022939
+    },
+    {
+      "date": "2026-09-09",
+      "monthly_listeners": 239427,
+      "collected_at": "2026-09-09T17:26:23.170078+00:00",
+      "spotify_followers": 143234,
+      "youtube_subscribers": 102000,
+      "youtube_total_views": 45022939,
+      "youtube_video_count": 275,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8766
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7027
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4472
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2836
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1996
+        }
+      ],
+      "lastfm_listeners": 71340,
+      "lastfm_playcount": 1197020,
+      "ytm_subscribers": 102000,
+      "ytm_monthly_listeners": 275000,
+      "ytm_total_views": 45022939
     }
   ],
   "metadata": {
@@ -6283,32 +6324,32 @@
       {
         "name": "Queen Bee",
         "browse_id": "UCcDtIC4qOmjrNUcBo4u1tvw",
-        "subscribers": "4.8M"
+        "subscribers": "4.75M"
       },
       {
         "name": "NICO Touches the Walls",
         "browse_id": "UC3CPAQtD8tBisxailRRAg-w",
-        "subscribers": "1.64M"
+        "subscribers": "1.63M"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "107K"
+        "subscribers": "110K"
       },
       {
         "name": "Base Ball Bear",
         "browse_id": "UCiLo1ZMUrpzZHi_hVL3waXg",
-        "subscribers": "193K"
+        "subscribers": "191K"
       },
       {
         "name": "Glim Spanky",
         "browse_id": "UCYykT4n0YsFugkRdrXlFZ1Q",
-        "subscribers": "469K"
+        "subscribers": "459K"
       },
       {
         "name": "Tempalay",
         "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
-        "subscribers": "129K"
+        "subscribers": "131K"
       },
       {
         "name": "tacica",
@@ -6318,12 +6359,12 @@
       {
         "name": "boku no lyric no bouyomi",
         "browse_id": "UCw1r5leUGRTKJ4iSZ33kB9A",
-        "subscribers": "54.7K"
+        "subscribers": "54.5K"
       },
       {
         "name": "Yoru No Honki Dance",
         "browse_id": "UCaZGUqEL8pzFRgLXXJ4dL2Q",
-        "subscribers": "91K"
+        "subscribers": "90.4K"
       },
       {
         "name": "Akai Ko-En",
@@ -7279,6 +7320,12 @@
           "views": 16136,
           "likes": 211,
           "comments": 3
+        },
+        {
+          "date": "2026-09-09",
+          "views": 16166,
+          "likes": 211,
+          "comments": 3
         }
       ]
     },
@@ -8177,6 +8224,12 @@
           "date": "2026-09-08",
           "views": 950856,
           "likes": 11916,
+          "comments": 32
+        },
+        {
+          "date": "2026-09-09",
+          "views": 951439,
+          "likes": 11921,
           "comments": 32
         }
       ]
@@ -9532,6 +9585,12 @@
           "views": 240046,
           "likes": 1753,
           "comments": 7
+        },
+        {
+          "date": "2026-09-09",
+          "views": 240271,
+          "likes": 1754,
+          "comments": 7
         }
       ]
     },
@@ -10263,6 +10322,12 @@
           "views": 425564,
           "likes": 6214,
           "comments": 22
+        },
+        {
+          "date": "2026-09-09",
+          "views": 425795,
+          "likes": 6218,
+          "comments": 22
         }
       ]
     },
@@ -10758,6 +10823,12 @@
           "date": "2026-09-08",
           "views": 9495,
           "likes": 94,
+          "comments": 4
+        },
+        {
+          "date": "2026-09-09",
+          "views": 9536,
+          "likes": 95,
           "comments": 4
         }
       ]
@@ -11753,6 +11824,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-08T17:41:16.739774+00:00"
+    },
+    {
+      "date": "2026-09-09",
+      "metric": "youtube_total_views",
+      "value": 45022939,
+      "baseline_mean": 44582518.9,
+      "baseline_stddev": 195574.2,
+      "delta": 440420,
+      "score": 2.25,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-09T17:26:24.589557+00:00"
     }
   ]
 }

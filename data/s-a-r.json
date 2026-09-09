@@ -6188,6 +6188,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-09",
+      "monthly_listeners": 29802,
+      "collected_at": "2026-09-09T17:32:22.554054+00:00",
+      "spotify_followers": 29588,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1510502,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1672
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 880
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 644
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 513
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 410
+        }
+      ],
+      "lastfm_listeners": 5814,
+      "lastfm_playcount": 42957,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -6479,12 +6520,7 @@
       {
         "name": "TiDE",
         "browse_id": "UCt3n94yBtELjvBCx2NEOSMg",
-        "subscribers": "7.35K"
-      },
-      {
-        "name": "Jack Page",
-        "browse_id": "UCORdJud2cWSRmRmMFfZRy_w",
-        "subscribers": "2.05K"
+        "subscribers": "7.36K"
       },
       {
         "name": "TENDRE",
@@ -6492,14 +6528,14 @@
         "subscribers": "137K"
       },
       {
-        "name": "brkfstblend",
-        "browse_id": "UC50NOIaEJkr_t3BKvPYFXdQ",
-        "subscribers": "7.74K"
-      },
-      {
         "name": "Ryuto Kasahara",
         "browse_id": "UCc58OhwUC40aBGO81vfNsng",
         "subscribers": "6.53K"
+      },
+      {
+        "name": "brkfstblend",
+        "browse_id": "UC50NOIaEJkr_t3BKvPYFXdQ",
+        "subscribers": "7.75K"
       },
       {
         "name": "reina",
@@ -6514,7 +6550,7 @@
       {
         "name": "Salasa",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "354K"
+        "subscribers": "325K"
       },
       {
         "name": "Geloomy",
@@ -6524,7 +6560,12 @@
       {
         "name": "Kan Sano",
         "browse_id": "UC05tnYJ3St7yd3f6lfKdzcg",
-        "subscribers": "97.2K"
+        "subscribers": "96.9K"
+      },
+      {
+        "name": "Stefan Mahendra",
+        "browse_id": "UCMZcGfiJPXZ0plcOCQ2nuPQ",
+        "subscribers": "798"
       }
     ],
     "ytm_top_songs": [
@@ -7434,6 +7475,12 @@
           "date": "2026-09-08",
           "views": 225428,
           "likes": 2858,
+          "comments": 8
+        },
+        {
+          "date": "2026-09-09",
+          "views": 225570,
+          "likes": 2861,
           "comments": 8
         }
       ]
@@ -8769,6 +8816,12 @@
           "views": 46347,
           "likes": 390,
           "comments": 2
+        },
+        {
+          "date": "2026-09-09",
+          "views": 46403,
+          "likes": 390,
+          "comments": 2
         }
       ]
     },
@@ -9679,6 +9732,12 @@
           "views": 116896,
           "likes": 1366,
           "comments": 7
+        },
+        {
+          "date": "2026-09-09",
+          "views": 117139,
+          "likes": 1366,
+          "comments": 7
         }
       ]
     },
@@ -10468,6 +10527,12 @@
           "views": 49004,
           "likes": 495,
           "comments": 7
+        },
+        {
+          "date": "2026-09-09",
+          "views": 49045,
+          "likes": 494,
+          "comments": 7
         }
       ]
     },
@@ -11043,6 +11108,12 @@
           "views": 60934,
           "likes": 717,
           "comments": 1
+        },
+        {
+          "date": "2026-09-09",
+          "views": 60975,
+          "likes": 717,
+          "comments": 1
         }
       ]
     },
@@ -11506,6 +11577,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-09-08T17:47:36.945439+00:00"
+    },
+    {
+      "date": "2026-09-09",
+      "metric": "youtube_total_views",
+      "value": 1510502,
+      "baseline_mean": 1485831.3,
+      "baseline_stddev": 11632.0,
+      "delta": 24670,
+      "score": 2.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-09T17:32:23.835010+00:00"
     }
   ]
 }

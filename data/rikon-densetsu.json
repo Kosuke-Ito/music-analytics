@@ -6223,6 +6223,47 @@
       "ytm_subscribers": 107000,
       "ytm_monthly_listeners": 488000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-09",
+      "monthly_listeners": 587760,
+      "collected_at": "2026-09-09T17:26:50.910423+00:00",
+      "spotify_followers": 129640,
+      "youtube_subscribers": 108000,
+      "youtube_total_views": 53919740,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 28405
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 24668
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 16931
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 10111
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 7981
+        }
+      ],
+      "lastfm_listeners": 10386,
+      "lastfm_playcount": 171136,
+      "ytm_subscribers": 108000,
+      "ytm_monthly_listeners": 492000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6257,27 +6298,37 @@
       {
         "name": "Penthouse",
         "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "1.77M"
+        "subscribers": "1.69M"
       },
       {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.21M"
+        "subscribers": "3.17M"
       },
       {
         "name": "BILLY BOO",
         "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
-        "subscribers": "137K"
+        "subscribers": "124K"
+      },
+      {
+        "name": "Bialystocks",
+        "browse_id": "UCUejusLOJFSbBxhzot8By9w",
+        "subscribers": "226K"
+      },
+      {
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "1.3M"
       },
       {
         "name": "Ayumu Imazu",
         "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "3M"
+        "subscribers": "3.07M"
       },
       {
         "name": "First Love is Never Returned",
         "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "83.1K"
+        "subscribers": "82.7K"
       },
       {
         "name": "TAIKING",
@@ -6287,22 +6338,12 @@
       {
         "name": "YONA YONA WEEKENDERS",
         "browse_id": "UCA2eoqFXKqN2EfB6HiIHIRA",
-        "subscribers": "166K"
+        "subscribers": "167K"
       },
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "74.1K"
-      },
-      {
-        "name": "Akira Nise",
-        "browse_id": "UCFDPdDPQq3VCoe-KPVvbLow",
-        "subscribers": "1.55K"
-      },
-      {
-        "name": "Skirt",
-        "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "105K"
+        "subscribers": "74.7K"
       }
     ],
     "ytm_top_songs": [
@@ -7219,6 +7260,12 @@
           "views": 60355,
           "likes": 527,
           "comments": 6
+        },
+        {
+          "date": "2026-09-09",
+          "views": 60459,
+          "likes": 527,
+          "comments": 6
         }
       ]
     },
@@ -8112,6 +8159,12 @@
           "views": 48507,
           "likes": 464,
           "comments": 4
+        },
+        {
+          "date": "2026-09-09",
+          "views": 48584,
+          "likes": 465,
+          "comments": 4
         }
       ]
     },
@@ -9003,6 +9056,12 @@
         {
           "date": "2026-09-08",
           "views": 251273,
+          "likes": 2171,
+          "comments": 12
+        },
+        {
+          "date": "2026-09-09",
+          "views": 251570,
           "likes": 2171,
           "comments": 12
         }
@@ -10721,6 +10780,12 @@
           "views": 37054,
           "likes": 366,
           "comments": 5
+        },
+        {
+          "date": "2026-09-09",
+          "views": 37622,
+          "likes": 370,
+          "comments": 5
         }
       ]
     },
@@ -10820,6 +10885,12 @@
         {
           "date": "2026-09-08",
           "views": 12383,
+          "likes": 112,
+          "comments": 1
+        },
+        {
+          "date": "2026-09-09",
+          "views": 12403,
           "likes": 112,
           "comments": 1
         }
@@ -11769,6 +11840,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-08T17:41:45.897557+00:00"
+    },
+    {
+      "date": "2026-09-09",
+      "metric": "youtube_total_views",
+      "value": 53919740,
+      "baseline_mean": 52599596.0,
+      "baseline_stddev": 625618.7,
+      "delta": 1320143,
+      "score": 2.11,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-09T17:26:51.992650+00:00"
     }
   ]
 }

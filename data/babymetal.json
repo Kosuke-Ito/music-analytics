@@ -6107,6 +6107,47 @@
       "ytm_subscribers": 3670000,
       "ytm_monthly_listeners": 5680000,
       "ytm_total_views": 1118583561
+    },
+    {
+      "date": "2026-09-09",
+      "monthly_listeners": 3416293,
+      "collected_at": "2026-09-09T17:39:53.373888+00:00",
+      "spotify_followers": 3081872,
+      "youtube_subscribers": 3670000,
+      "youtube_total_views": 1118583561,
+      "youtube_video_count": 357,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 57851
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 53498
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 43051
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 41213
+        },
+        {
+          "city": "Frankfurt am Main",
+          "country": "DE",
+          "listeners": 39359
+        }
+      ],
+      "lastfm_listeners": 1008052,
+      "lastfm_playcount": 61281535,
+      "ytm_subscribers": 3670000,
+      "ytm_monthly_listeners": 6340000,
+      "ytm_total_views": 1118583561
     }
   ],
   "annotations": [
@@ -6517,49 +6558,49 @@
         "subscribers": "4.56K"
       },
       {
+        "name": "Cole Rolland",
+        "browse_id": "UC1EnMnHlXsA8X5kKe9B2rcg",
+        "subscribers": "4.5M"
+      },
+      {
+        "name": "Sable Hills",
+        "browse_id": "UCS971BLU1Y1byM8sUtyrIOg",
+        "subscribers": "381K"
+      },
+      {
+        "name": "DragonForce",
+        "browse_id": "UCDademfIkaXZGd2Ww-S60Tw",
+        "subscribers": "5.3M"
+      },
+      {
         "name": "Sakura Gakuin",
         "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
         "subscribers": "7.88K"
       },
       {
-        "name": "Fit For Rivals",
-        "browse_id": "UCOcLV5F6_d7cYdhqmSc8ybQ",
-        "subscribers": "171K"
-      },
-      {
-        "name": "Cole Rolland",
-        "browse_id": "UC1EnMnHlXsA8X5kKe9B2rcg",
-        "subscribers": "4.6M"
+        "name": "Bloodywood",
+        "browse_id": "UC-KLHz1pX0nPbzMmz5o61Fg",
+        "subscribers": "414K"
       },
       {
         "name": "NEMOPHILA",
         "browse_id": "UCMXAdfuVtiZ852N3rtqwe-A",
-        "subscribers": "781K"
+        "subscribers": "802K"
       },
       {
         "name": "Crossfaith",
         "browse_id": "UCwwxFOapyq3llnz1OgxM6hA",
-        "subscribers": "182K"
+        "subscribers": "180K"
       },
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "105K"
+        "subscribers": "106K"
       },
       {
         "name": "BABYBEARD",
         "browse_id": "UCDyb-KIHeZzrHdx86bMUx5A",
         "subscribers": "56.1K"
-      },
-      {
-        "name": "NEON ONI",
-        "browse_id": "UCtxGRL3vlL4N1buEUkDCJxA",
-        "subscribers": "15.9K"
-      },
-      {
-        "name": "NECRONOMIDOL",
-        "browse_id": "UCxUoC8iKwrgW8gD96FfMqvA",
-        "subscribers": "33.3K"
       }
     ],
     "ytm_top_songs": [
@@ -7440,6 +7481,12 @@
           "date": "2026-09-08",
           "views": 9315155,
           "likes": 100889,
+          "comments": 325
+        },
+        {
+          "date": "2026-09-09",
+          "views": 9337000,
+          "likes": 101079,
           "comments": 325
         }
       ]
@@ -8322,6 +8369,12 @@
           "views": 5877362,
           "likes": 113553,
           "comments": 621
+        },
+        {
+          "date": "2026-09-09",
+          "views": 5891230,
+          "likes": 113795,
+          "comments": 627
         }
       ]
     },
@@ -9191,6 +9244,12 @@
           "views": 5975119,
           "likes": 79782,
           "comments": 260
+        },
+        {
+          "date": "2026-09-09",
+          "views": 5986784,
+          "likes": 79926,
+          "comments": 261
         }
       ]
     },
@@ -10634,6 +10693,12 @@
           "views": 1977043,
           "likes": 25692,
           "comments": 93
+        },
+        {
+          "date": "2026-09-09",
+          "views": 1982684,
+          "likes": 25750,
+          "comments": 93
         }
       ]
     },
@@ -11128,6 +11193,12 @@
           "date": "2026-09-08",
           "views": 2695113,
           "likes": 36631,
+          "comments": 140
+        },
+        {
+          "date": "2026-09-09",
+          "views": 2701896,
+          "likes": 36703,
           "comments": 140
         }
       ]
@@ -11745,6 +11816,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-08T17:55:41.759377+00:00"
+    },
+    {
+      "date": "2026-09-09",
+      "metric": "youtube_total_views",
+      "value": 1118583561,
+      "baseline_mean": 1109267114.2,
+      "baseline_stddev": 3283162.7,
+      "delta": 9316446,
+      "score": 2.84,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-09T17:39:54.869362+00:00"
     }
   ]
 }

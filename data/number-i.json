@@ -6107,6 +6107,47 @@
       "ytm_subscribers": 1040000,
       "ytm_monthly_listeners": 1490000,
       "ytm_total_views": 945748054
+    },
+    {
+      "date": "2026-09-09",
+      "monthly_listeners": 970369,
+      "collected_at": "2026-09-09T17:39:39.189625+00:00",
+      "spotify_followers": 380892,
+      "youtube_subscribers": 1040000,
+      "youtube_total_views": 945748054,
+      "youtube_video_count": 500,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 43615
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 38219
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 32376
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 15197
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 15017
+        }
+      ],
+      "lastfm_listeners": 23882,
+      "lastfm_playcount": 752942,
+      "ytm_subscribers": 1040000,
+      "ytm_monthly_listeners": 1440000,
+      "ytm_total_views": 945748054
     }
   ],
   "metadata": {
@@ -6141,54 +6182,54 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "timelesz",
-        "browse_id": "UC5mIZ4PxoBa5aqxEnyLUpDw",
-        "subscribers": "2.14M"
-      },
-      {
         "name": "Hey! Say! JUMP",
         "browse_id": "UCpYHkc4rzWEW7iVXIyxQebA",
-        "subscribers": "1.97M"
+        "subscribers": "2.03M"
       },
       {
         "name": "BE:FIRST",
         "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
-        "subscribers": "6.4M"
+        "subscribers": "6.3M"
       },
       {
-        "name": "SixTONES",
-        "browse_id": "UCKlEziFhgHJhkBkZg8Hp6tw",
-        "subscribers": "16.8M"
+        "name": "timelesz",
+        "browse_id": "UC5mIZ4PxoBa5aqxEnyLUpDw",
+        "subscribers": "2.17M"
       },
       {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "2.03M"
+        "subscribers": "2.04M"
+      },
+      {
+        "name": "SixTONES",
+        "browse_id": "UCKlEziFhgHJhkBkZg8Hp6tw",
+        "subscribers": "16.6M"
       },
       {
         "name": "Travis Japan",
         "browse_id": "UC0CJ4qxy9mgHNhO2d_sqBuw",
-        "subscribers": "1.41M"
+        "subscribers": "1.33M"
       },
       {
         "name": "Kento Nakajima",
         "browse_id": "UCD4QqFd_0kqBzEZXTKwCH2g",
-        "subscribers": "4.45M"
+        "subscribers": "4.36M"
       },
       {
         "name": "King & Prince",
         "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "5.6M"
+        "subscribers": "5.74M"
       },
       {
         "name": "INI",
         "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
-        "subscribers": "3.83M"
+        "subscribers": "4.13M"
       },
       {
         "name": "FANTASTICS from EXILE TRIBE",
         "browse_id": "UCame-clC-0couNMsqr_U21w",
-        "subscribers": "1.08M"
+        "subscribers": "1.05M"
       }
     ],
     "ytm_top_songs": [
@@ -9318,6 +9359,12 @@
           "views": 97521,
           "likes": 962,
           "comments": 14
+        },
+        {
+          "date": "2026-09-09",
+          "views": 98879,
+          "likes": 971,
+          "comments": 14
         }
       ]
     },
@@ -9520,6 +9567,12 @@
           "views": 147124,
           "likes": 937,
           "comments": 6
+        },
+        {
+          "date": "2026-09-09",
+          "views": 149022,
+          "likes": 946,
+          "comments": 6
         }
       ]
     },
@@ -9542,6 +9595,12 @@
           "date": "2026-09-08",
           "views": 42849,
           "likes": 482,
+          "comments": 3
+        },
+        {
+          "date": "2026-09-09",
+          "views": 43461,
+          "likes": 486,
           "comments": 3
         }
       ]
@@ -9901,6 +9960,12 @@
           "views": 183969,
           "likes": 1406,
           "comments": 70
+        },
+        {
+          "date": "2026-09-09",
+          "views": 186312,
+          "likes": 1412,
+          "comments": 72
         }
       ]
     },
@@ -10755,6 +10820,12 @@
           "views": 755000,
           "likes": 15246,
           "comments": 591
+        },
+        {
+          "date": "2026-09-09",
+          "views": 760229,
+          "likes": 15257,
+          "comments": 592
         }
       ]
     },
@@ -11735,6 +11806,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-08T17:55:26.761981+00:00"
+    },
+    {
+      "date": "2026-09-09",
+      "metric": "youtube_total_views",
+      "value": 945748054,
+      "baseline_mean": 934936389.9,
+      "baseline_stddev": 4519901.7,
+      "delta": 10811664,
+      "score": 2.39,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-09T17:39:40.838410+00:00"
     }
   ]
 }
