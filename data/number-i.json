@@ -6148,6 +6148,47 @@
       "ytm_subscribers": 1040000,
       "ytm_monthly_listeners": 1440000,
       "ytm_total_views": 945748054
+    },
+    {
+      "date": "2026-09-10",
+      "monthly_listeners": 959072,
+      "collected_at": "2026-09-10T17:38:38.943824+00:00",
+      "spotify_followers": 380937,
+      "youtube_subscribers": 1040000,
+      "youtube_total_views": 945748054,
+      "youtube_video_count": 501,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 42960
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 37992
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 31917
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 14880
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 14862
+        }
+      ],
+      "lastfm_listeners": 23893,
+      "lastfm_playcount": 754423,
+      "ytm_subscribers": 1040000,
+      "ytm_monthly_listeners": 1430000,
+      "ytm_total_views": 945748054
     }
   ],
   "metadata": {
@@ -6182,29 +6223,34 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Hey! Say! JUMP",
-        "browse_id": "UCpYHkc4rzWEW7iVXIyxQebA",
-        "subscribers": "2.03M"
-      },
-      {
         "name": "BE:FIRST",
         "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
-        "subscribers": "6.3M"
+        "subscribers": "6.28M"
       },
       {
         "name": "timelesz",
         "browse_id": "UC5mIZ4PxoBa5aqxEnyLUpDw",
-        "subscribers": "2.17M"
+        "subscribers": "2.27M"
+      },
+      {
+        "name": "Hey! Say! JUMP",
+        "browse_id": "UCpYHkc4rzWEW7iVXIyxQebA",
+        "subscribers": "2.14M"
       },
       {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "2.04M"
+        "subscribers": "2.06M"
       },
       {
         "name": "SixTONES",
         "browse_id": "UCKlEziFhgHJhkBkZg8Hp6tw",
-        "subscribers": "16.6M"
+        "subscribers": "16.9M"
+      },
+      {
+        "name": "Kento Nakajima",
+        "browse_id": "UCD4QqFd_0kqBzEZXTKwCH2g",
+        "subscribers": "4.38M"
       },
       {
         "name": "Travis Japan",
@@ -6212,24 +6258,19 @@
         "subscribers": "1.33M"
       },
       {
-        "name": "Kento Nakajima",
-        "browse_id": "UCD4QqFd_0kqBzEZXTKwCH2g",
-        "subscribers": "4.36M"
-      },
-      {
         "name": "King & Prince",
         "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "5.74M"
+        "subscribers": "6.08M"
       },
       {
-        "name": "INI",
-        "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
-        "subscribers": "4.13M"
+        "name": "SKY-HI",
+        "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
+        "subscribers": "1.02M"
       },
       {
         "name": "FANTASTICS from EXILE TRIBE",
         "browse_id": "UCame-clC-0couNMsqr_U21w",
-        "subscribers": "1.05M"
+        "subscribers": "1.07M"
       }
     ],
     "ytm_top_songs": [
@@ -9365,6 +9406,12 @@
           "views": 98879,
           "likes": 971,
           "comments": 14
+        },
+        {
+          "date": "2026-09-10",
+          "views": 100118,
+          "likes": 976,
+          "comments": 14
         }
       ]
     },
@@ -9573,6 +9620,12 @@
           "views": 149022,
           "likes": 946,
           "comments": 6
+        },
+        {
+          "date": "2026-09-10",
+          "views": 150709,
+          "likes": 953,
+          "comments": 6
         }
       ]
     },
@@ -9602,6 +9655,12 @@
           "views": 43461,
           "likes": 486,
           "comments": 3
+        },
+        {
+          "date": "2026-09-10",
+          "views": 44077,
+          "likes": 489,
+          "comments": 4
         }
       ]
     },
@@ -9965,6 +10024,12 @@
           "date": "2026-09-09",
           "views": 186312,
           "likes": 1412,
+          "comments": 72
+        },
+        {
+          "date": "2026-09-10",
+          "views": 188811,
+          "likes": 1421,
           "comments": 72
         }
       ]
@@ -10825,6 +10890,12 @@
           "date": "2026-09-09",
           "views": 760229,
           "likes": 15257,
+          "comments": 592
+        },
+        {
+          "date": "2026-09-10",
+          "views": 765842,
+          "likes": 15275,
           "comments": 592
         }
       ]
@@ -11845,6 +11916,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-09T17:39:40.838410+00:00"
+    },
+    {
+      "date": "2026-09-10",
+      "metric": "youtube_total_views",
+      "value": 945748054,
+      "baseline_mean": 935523164.4,
+      "baseline_stddev": 4737520.0,
+      "delta": 10224889,
+      "score": 2.16,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "detected_at": "2026-09-10T17:38:41.340304+00:00"
     }
   ]
 }

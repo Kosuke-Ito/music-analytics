@@ -6262,6 +6262,47 @@
       "ytm_subscribers": 29400,
       "ytm_monthly_listeners": 69700,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-10",
+      "monthly_listeners": 59375,
+      "collected_at": "2026-09-10T17:25:06.396022+00:00",
+      "spotify_followers": 36748,
+      "youtube_subscribers": 29500,
+      "youtube_total_views": 15678890,
+      "youtube_video_count": 190,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2384
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1510
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1033
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 714
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 491
+        }
+      ],
+      "lastfm_listeners": 20069,
+      "lastfm_playcount": 222045,
+      "ytm_subscribers": 29500,
+      "ytm_monthly_listeners": 71600,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6302,47 +6343,47 @@
       {
         "name": "seiza",
         "browse_id": "UCnajqzr-QM2_sIomAdFfsPA",
-        "subscribers": "246K"
-      },
-      {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.17M"
+        "subscribers": "254K"
       },
       {
         "name": "Lucky Kilimanjaro",
         "browse_id": "UCiVXhIDW-3GNIyL5wsydr1Q",
-        "subscribers": "4.44M"
+        "subscribers": "4.35M"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "110K"
+        "subscribers": "115K"
       },
       {
         "name": "Skirt",
         "browse_id": "UCA9aM4jgEk81wz15zA_E-qA",
-        "subscribers": "104K"
+        "subscribers": "105K"
       },
       {
         "name": "Okamoto's",
         "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
-        "subscribers": "275K"
+        "subscribers": "260K"
       },
       {
         "name": "FRIENDS",
         "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "74.7K"
+        "subscribers": "75.9K"
       },
       {
         "name": "BILLY BOO",
         "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
-        "subscribers": "124K"
+        "subscribers": "120K"
       },
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "182K"
+        "subscribers": "190K"
+      },
+      {
+        "name": "Tempalay",
+        "browse_id": "UCfbzpFkr-Idf7e4TdLudMEQ",
+        "subscribers": "134K"
       }
     ],
     "ytm_top_songs": [
@@ -7271,6 +7312,12 @@
           "views": 17863,
           "likes": 161,
           "comments": 3
+        },
+        {
+          "date": "2026-09-10",
+          "views": 17884,
+          "likes": 161,
+          "comments": 3
         }
       ]
     },
@@ -8175,6 +8222,12 @@
           "date": "2026-09-09",
           "views": 54029,
           "likes": 436,
+          "comments": 9
+        },
+        {
+          "date": "2026-09-10",
+          "views": 54149,
+          "likes": 438,
           "comments": 9
         }
       ]
@@ -9081,6 +9134,12 @@
           "views": 225668,
           "likes": 2646,
           "comments": 39
+        },
+        {
+          "date": "2026-09-10",
+          "views": 225945,
+          "likes": 2648,
+          "comments": 39
         }
       ]
     },
@@ -9954,6 +10013,12 @@
         {
           "date": "2026-09-09",
           "views": 3912,
+          "likes": 58,
+          "comments": 5
+        },
+        {
+          "date": "2026-09-10",
+          "views": 3917,
           "likes": 58,
           "comments": 5
         }
@@ -10894,6 +10959,12 @@
           "views": 2395,
           "likes": 27,
           "comments": 1
+        },
+        {
+          "date": "2026-09-10",
+          "views": 2399,
+          "likes": 27,
+          "comments": 1
         }
       ]
     },
@@ -11760,6 +11831,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-09T17:26:38.390064+00:00"
+    },
+    {
+      "date": "2026-09-10",
+      "metric": "monthly_listeners",
+      "value": 59375,
+      "baseline_mean": 56318.9,
+      "baseline_stddev": 1238.3,
+      "delta": 3056,
+      "score": 2.47,
+      "type": "annotated",
+      "related_annotation": "「Conduct Boogie」効果の継続によるSpotify月間リスナー数増加（3.3σ）",
+      "detected_at": "2026-09-10T17:25:07.912395+00:00"
     }
   ]
 }
