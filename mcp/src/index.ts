@@ -47,10 +47,12 @@ const server = new McpServer({
 
 // ── Tool: get_artist_data ──
 
-server.tool(
+server.registerTool(
   "get_artist_data",
-  "Get complete data for an artist including records, annotations, buzz events, metadata, and song performance",
-  { artist_id: z.string().describe("Artist ID (e.g., 'yoasobi', 'king-gnu')") },
+  {
+    description: "Get complete data for an artist including records, annotations, buzz events, metadata, and song performance",
+    inputSchema: { artist_id: z.string().describe("Artist ID (e.g., 'yoasobi', 'king-gnu')") },
+  },
   async ({ artist_id }) => {
     const data = await apiFetch(`/api/artists/${encodeURIComponent(artist_id)}`);
     return {
@@ -61,10 +63,12 @@ server.tool(
 
 // ── Tool: list_artists ──
 
-server.tool(
+server.registerTool(
   "list_artists",
-  "List all tracked artists, optionally filtered by region",
-  { region: z.enum(["jp", "global"]).optional().describe("Filter by region: 'jp' or 'global'") },
+  {
+    description: "List all tracked artists, optionally filtered by region",
+    inputSchema: { region: z.enum(["jp", "global"]).optional().describe("Filter by region: 'jp' or 'global'") },
+  },
   async ({ region }) => {
     const path = region ? `/api/artists?region=${region}` : "/api/artists";
     const data = await apiFetch(path);
@@ -76,12 +80,14 @@ server.tool(
 
 // ── Tool: get_buzz_events ──
 
-server.tool(
+server.registerTool(
   "get_buzz_events",
-  "Get buzz events (unusual metric spikes) for an artist. Types: 'annotated' (linked to news), 'organic' (unexplained, most valuable), 'seasonal' (yearly pattern)",
   {
-    artist_id: z.string().describe("Artist ID"),
-    type: z.enum(["annotated", "organic", "seasonal"]).optional().describe("Filter by buzz type"),
+    description: "Get buzz events (unusual metric spikes) for an artist. Types: 'annotated' (linked to news), 'organic' (unexplained, most valuable), 'seasonal' (yearly pattern)",
+    inputSchema: {
+      artist_id: z.string().describe("Artist ID"),
+      type: z.enum(["annotated", "organic", "seasonal"]).optional().describe("Filter by buzz type"),
+    },
   },
   async ({ artist_id, type }) => {
     let path = `/api/artists/${encodeURIComponent(artist_id)}/buzz`;
@@ -95,15 +101,17 @@ server.tool(
 
 // ── Tool: get_annotations ──
 
-server.tool(
+server.registerTool(
   "get_annotations",
-  "Get news annotations (releases, tours, viral events, etc.) for an artist",
   {
-    artist_id: z.string().describe("Artist ID"),
-    category: z
-      .enum(["release", "viral", "collab", "tour", "award", "other"])
-      .optional()
-      .describe("Filter by category"),
+    description: "Get news annotations (releases, tours, viral events, etc.) for an artist",
+    inputSchema: {
+      artist_id: z.string().describe("Artist ID"),
+      category: z
+        .enum(["release", "viral", "collab", "tour", "award", "other"])
+        .optional()
+        .describe("Filter by category"),
+    },
   },
   async ({ artist_id, category }) => {
     let path = `/api/artists/${encodeURIComponent(artist_id)}/annotations`;
@@ -117,10 +125,12 @@ server.tool(
 
 // ── Tool: search_artists ──
 
-server.tool(
+server.registerTool(
   "search_artists",
-  "Search for artists by name (partial match)",
-  { query: z.string().describe("Search query (artist name)") },
+  {
+    description: "Search for artists by name (partial match)",
+    inputSchema: { query: z.string().describe("Search query (artist name)") },
+  },
   async ({ query }) => {
     const data = await apiFetch(`/api/search?q=${encodeURIComponent(query)}`);
     return {
