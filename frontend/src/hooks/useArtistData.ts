@@ -16,6 +16,7 @@ interface FetchState {
 export function useArtistData(artistId: string): UseArtistDataResult {
   // loading は「現在の artistId の結果がまだ無い」ことから導出する
   // （effect 内の同期 setState によるリセットを避ける）
+  // A→B→A と戻った場合は前回の A の結果を再fetch完了まで表示する（SWR 的挙動、意図どおり）
   const [state, setState] = useState<FetchState | null>(null);
 
   useEffect(() => {

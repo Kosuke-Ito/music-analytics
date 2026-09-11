@@ -4,6 +4,8 @@ import { applyArtistToUrl, getArtistIdFromSearch } from "../urlArtist";
 
 export function useUrlSync(artists: ArtistConfig[]) {
   // ユーザー（または URL）が選んだ ID。有効性の判定は selectedId の導出側で行う
+  // （無効な ID もそのまま保持する。後から artists に同じ ID が追加された場合に
+  //   選択が移る可能性があるが、日次更新の artists では実質発生しないため許容）
   const [chosenId, setChosenId] = useState<string | null>(() =>
     getArtistIdFromSearch(window.location.search)
   );

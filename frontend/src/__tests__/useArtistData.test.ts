@@ -54,6 +54,41 @@ describe("useArtistData", () => {
     expect(result.current.error).toBeNull();
   });
 
+  it("artistId切り替え時はloadingに戻り、前のアーティストのデータを返さない", async () => {
+    const otherData: ArtistData = { ...stubData, artist_id: "other", artist_name: "OTHER" };
+    vi.stubGlobal(
+      "fetch",
+      vi.fn((url: string) =>
+        Promise.resolve({
+          ok: true,
+          json: () =>
+            Promise.resolve(url.endsWith("/other.json") ? otherData : stubData),
+        })
+      )
+    );
+
+    const { result, rerender } = renderHook(
+      ({ id }) => useArtistData(id),
+      { initialProps: { id: "lausbub" } }
+    );
+
+    await waitFor(() => {
+      expect(result.current.loading).toBe(false);
+    });
+    expect(result.current.data).toEqual(stubData);
+
+    rerender({ id: "other" });
+
+    // 切り替え直後: loadingに戻り、旧アーティストのデータは見えない
+    expect(result.current.loading).toBe(true);
+    expect(result.current.data).toBeNull();
+
+    await waitFor(() => {
+      expect(result.current.loading).toBe(false);
+    });
+    expect(result.current.data).toEqual(otherData);
+  });
+
   it("fetch失敗時にerrorがセットされる", async () => {
     vi.stubGlobal(
       "fetch",
