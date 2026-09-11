@@ -1,5 +1,8 @@
 # music-analytics
 
+[![Test](https://github.com/Kosuke-Ito/music-analytics/actions/workflows/test.yml/badge.svg)](https://github.com/Kosuke-Ito/music-analytics/actions/workflows/test.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Spotify・YouTube・Last.fm からアーティスト指標を日次で自動収集し、Vite + React ダッシュボードで可視化するリポジトリです。GitHub Actions で収集とニュースアノテーションが自動実行されます。
 
 **デモ: https://artist-analytics.pages.dev**
@@ -107,6 +110,7 @@ music-analytics/
 │   ├── functions/
 │   │   └── api/             # Cloudflare Pages Functions（アーティスト追加API等、Basic 認証付き）
 │   └── vite.config.ts
+├── mcp/                     # MCP サーバー（外部 AI ツールからデータ照会）
 ├── doc/                     # 競合調査などのドキュメント
 └── .mise.toml               # Python 3.12 + Node 20
 ```
@@ -146,6 +150,46 @@ cd frontend && pnpm test
 docker compose run --rm frontend-test
 docker compose run --rm collector-test
 ```
+
+## MCP サーバー（AI ツール連携）
+
+`mcp/` に MCP（Model Context Protocol）サーバーを同梱しています。Claude Code などの MCP クライアントから、蓄積したアーティストデータを直接照会できます。
+
+**提供ツール（5種）:**
+
+| ツール | 内容 |
+|--------|------|
+| `get_artist_data` | アーティストの全データ（日次レコード・アノテーション・バズ・楽曲統計） |
+| `list_artists` | 追跡中アーティスト一覧（region フィルタ可） |
+| `get_buzz_events` | バズイベント（annotated / organic / seasonal） |
+| `get_annotations` | ニュースアノテーション（release / viral / tour 等） |
+| `search_artists` | アーティスト名の部分一致検索 |
+
+**セットアップ:**
+
+```bash
+cd mcp && npm ci && npm run build
+```
+
+**Claude Code への登録例:**
+
+```bash
+claude mcp add music-analytics \
+  -e MUSIC_ANALYTICS_API_USER=<user> \
+  -e MUSIC_ANALYTICS_API_PASS=<pass> \
+  -- node /path/to/music-analytics/mcp/dist/index.js
+```
+
+登録後は「YOASOBI の直近のバズと原因を教えて」のような自然言語での問い合わせが、MCP ツール経由でデータに基づいて回答されます。API は Basic 認証付きの `/api/*` を利用するため、環境変数に認証情報が必要です。向き先を本番以外（ローカルの Pages dev サーバー等）に変えたい場合は `-e MUSIC_ANALYTICS_API=<URL>` を追加してください（未設定時は本番 URL）。
+
+## 設計判断
+
+- **DB を持たず JSON + Git 管理**: 数十アーティスト × 日次レコード程度ならファイルで十分。インフラコストゼロ・履歴が Git に残る・バックアップ不要。限界が来たら Supabase / Cloudflare D1 等へ段階移行する前提
+- **収集は GitHub Actions の無料枠**: サーバーレスの cron として利用。失敗時はワークフローの失敗通知で気づける
+- **デモグラフィック分析では勝負しない**: 大手（Soundcharts / Chartmetric 等）が強い領域を避け、「公開シグナル × 日本語ニュース × AI 解釈」の組み合わせに集中
+- **AI 連携を将来の柱に**: ダッシュボードで完結させず、MCP / API 経由で外部 AI ツールにデータを渡して戦略相談に使える設計
+
+競合比較の詳細は [doc/competitors.md](doc/competitors.md) を参照してください。
 
 ## 収集の挙動
 
