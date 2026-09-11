@@ -1,6 +1,22 @@
 // /api/* のみ Basic 認証で保護する（ダッシュボード本体は公開）。
 // add-artist 等はリポジトリへの書き込みを伴うため、
 // 認証情報が未設定の場合は素通りさせず fail-closed で拒否する。
+
+// SHA-256 ダイジェスト同士の XOR 比較で、文字列一致のタイミング差を漏らさない
+// （長さの異なる入力も固定長ダイジェストになるため長さ情報も漏れない）
+async function timingSafeEqual(a, b) {
+  const enc = new TextEncoder();
+  const [da, db] = await Promise.all([
+    crypto.subtle.digest("SHA-256", enc.encode(a)),
+    crypto.subtle.digest("SHA-256", enc.encode(b)),
+  ]);
+  const va = new Uint8Array(da);
+  const vb = new Uint8Array(db);
+  let diff = 0;
+  for (let i = 0; i < va.length; i++) diff |= va[i] ^ vb[i];
+  return diff === 0;
+}
+
 export async function onRequest(context) {
   const { request, env } = context;
 
@@ -24,8 +40,8 @@ export async function onRequest(context) {
         decoded = null;
       }
       if (decoded !== null) {
-        const [u, p] = decoded.split(":");
-        if (u === user && p === pass) {
+        // "user:pass" 全体を比較する（split だとコロン入りパスワードが壊れる）
+        if (await timingSafeEqual(decoded, `${user}:${pass}`)) {
           return context.next();
         }
       }
