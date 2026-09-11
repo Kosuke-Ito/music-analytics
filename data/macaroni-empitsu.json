@@ -6198,6 +6198,47 @@
       "ytm_subscribers": 603000,
       "ytm_monthly_listeners": 5590000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-11",
+      "monthly_listeners": 2900951,
+      "collected_at": "2026-09-11T17:38:59.256584+00:00",
+      "spotify_followers": 2071891,
+      "youtube_subscribers": 603000,
+      "youtube_total_views": 525811647,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 149305
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 134125
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 102540
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 57202
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 53599
+        }
+      ],
+      "lastfm_listeners": 8034,
+      "lastfm_playcount": 475298,
+      "ytm_subscribers": 603000,
+      "ytm_monthly_listeners": 5680000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -6606,14 +6647,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Koresawa",
-        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "4.71M"
-      },
-      {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "7.49M"
+        "name": "SIX LOUNGE",
+        "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
+        "subscribers": "1.8M"
       },
       {
         "name": "Tele",
@@ -6621,39 +6657,44 @@
         "subscribers": "494K"
       },
       {
+        "name": "Koresawa",
+        "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
+        "subscribers": "4.75M"
+      },
+      {
+        "name": "Marcy",
+        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
+        "subscribers": "1.73M"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "7.44M"
+      },
+      {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
         "subscribers": "2.93M"
       },
       {
-        "name": "Marcy",
-        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.74M"
-      },
-      {
-        "name": "SIX LOUNGE",
-        "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
-        "subscribers": "1.8M"
+        "name": "SUPER BEAVER",
+        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
+        "subscribers": "2.21M"
       },
       {
         "name": "SHISHAMO",
         "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "4.41M"
-      },
-      {
-        "name": "SUPER BEAVER",
-        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
-        "subscribers": "2.18M"
+        "subscribers": "4.28M"
       },
       {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "18.3M"
+        "subscribers": "18.2M"
       },
       {
         "name": "go!go!vanillas",
         "browse_id": "UCPs1IqAe9_1RU9Dq7_yy8Eg",
-        "subscribers": "723K"
+        "subscribers": "721K"
       }
     ],
     "ytm_top_songs": [
@@ -7570,6 +7611,12 @@
           "views": 13315702,
           "likes": 74594,
           "comments": 148
+        },
+        {
+          "date": "2026-09-11",
+          "views": 13330730,
+          "likes": 74647,
+          "comments": 148
         }
       ]
     },
@@ -8463,6 +8510,12 @@
           "views": 26144062,
           "likes": 96280,
           "comments": 182
+        },
+        {
+          "date": "2026-09-11",
+          "views": 26166828,
+          "likes": 96355,
+          "comments": 183
         }
       ]
     },
@@ -9344,6 +9397,12 @@
           "views": 17969497,
           "likes": 66286,
           "comments": 122
+        },
+        {
+          "date": "2026-09-11",
+          "views": 17986436,
+          "likes": 66333,
+          "comments": 122
         }
       ]
     },
@@ -10147,6 +10206,12 @@
           "views": 46477769,
           "likes": 144763,
           "comments": 251
+        },
+        {
+          "date": "2026-09-11",
+          "views": 46498812,
+          "likes": 144827,
+          "comments": 251
         }
       ]
     },
@@ -10931,6 +10996,12 @@
           "views": 17302644,
           "likes": 102252,
           "comments": 622
+        },
+        {
+          "date": "2026-09-11",
+          "views": 17344162,
+          "likes": 102479,
+          "comments": 623
         }
       ]
     },
@@ -12242,6 +12313,18 @@
       "type": "annotated",
       "related_annotation": "YouTube Music月間リスナー数の急増はデータ収集側のアーティファクトの継続",
       "detected_at": "2026-09-04T17:29:12.672851+00:00"
+    },
+    {
+      "date": "2026-09-11",
+      "metric": "ytm_monthly_listeners",
+      "value": 5680000,
+      "baseline_mean": 5086000,
+      "baseline_stddev": 285979.0,
+      "delta": 594000,
+      "score": 2.08,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-11T17:39:01.852441+00:00"
     }
   ]
 }

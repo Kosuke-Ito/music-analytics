@@ -6305,6 +6305,47 @@
       "ytm_subscribers": 108000,
       "ytm_monthly_listeners": 507000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-11",
+      "monthly_listeners": 581642,
+      "collected_at": "2026-09-11T17:26:58.556729+00:00",
+      "spotify_followers": 129912,
+      "youtube_subscribers": 108000,
+      "youtube_total_views": 54352827,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 28443
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 24476
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 16646
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 10077
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 7833
+        }
+      ],
+      "lastfm_listeners": 10389,
+      "lastfm_playcount": 171455,
+      "ytm_subscribers": 108000,
+      "ytm_monthly_listeners": 508000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6337,39 +6378,39 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "1.73M"
-      },
-      {
-        "name": "BILLY BOO",
-        "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
-        "subscribers": "120K"
-      },
-      {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.18M"
+        "name": "Ayumu Imazu",
+        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
+        "subscribers": "3.16M"
       },
       {
         "name": "TOMOO",
         "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "1.3M"
+        "subscribers": "1.27M"
+      },
+      {
+        "name": "FRIENDS",
+        "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
+        "subscribers": "75.5K"
+      },
+      {
+        "name": "RETRORIRON",
+        "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
+        "subscribers": "309K"
+      },
+      {
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "3.1M"
       },
       {
         "name": "Bialystocks",
         "browse_id": "UCUejusLOJFSbBxhzot8By9w",
-        "subscribers": "231K"
-      },
-      {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "3.15M"
+        "subscribers": "229K"
       },
       {
         "name": "First Love is Never Returned",
         "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "83.2K"
+        "subscribers": "82.6K"
       },
       {
         "name": "TAIKING",
@@ -6382,9 +6423,9 @@
         "subscribers": "171K"
       },
       {
-        "name": "FRIENDS",
-        "browse_id": "UClyBKVqnKNd5WGGYDx3fiGQ",
-        "subscribers": "75.9K"
+        "name": "Akira Nise",
+        "browse_id": "UCFDPdDPQq3VCoe-KPVvbLow",
+        "subscribers": "1.55K"
       }
     ],
     "ytm_top_songs": [
@@ -7313,6 +7354,12 @@
           "views": 60565,
           "likes": 527,
           "comments": 6
+        },
+        {
+          "date": "2026-09-11",
+          "views": 60679,
+          "likes": 527,
+          "comments": 6
         }
       ]
     },
@@ -8218,6 +8265,12 @@
           "views": 48671,
           "likes": 465,
           "comments": 4
+        },
+        {
+          "date": "2026-09-11",
+          "views": 48768,
+          "likes": 466,
+          "comments": 4
         }
       ]
     },
@@ -9121,6 +9174,12 @@
         {
           "date": "2026-09-10",
           "views": 251891,
+          "likes": 2175,
+          "comments": 12
+        },
+        {
+          "date": "2026-09-11",
+          "views": 252203,
           "likes": 2175,
           "comments": 12
         }
@@ -10851,6 +10910,12 @@
           "views": 38141,
           "likes": 372,
           "comments": 5
+        },
+        {
+          "date": "2026-09-11",
+          "views": 38734,
+          "likes": 375,
+          "comments": 5
         }
       ]
     },
@@ -10962,6 +11027,12 @@
         {
           "date": "2026-09-10",
           "views": 12440,
+          "likes": 114,
+          "comments": 1
+        },
+        {
+          "date": "2026-09-11",
+          "views": 12472,
           "likes": 114,
           "comments": 1
         }
@@ -11941,6 +12012,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-09T17:26:51.992650+00:00"
+    },
+    {
+      "date": "2026-09-11",
+      "metric": "youtube_total_views",
+      "value": 54352827,
+      "baseline_mean": 52753570.0,
+      "baseline_stddev": 646998.3,
+      "delta": 1599257,
+      "score": 2.47,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数の急増はデータ収集側のアーティファクト（実質的なバズではない）",
+      "detected_at": "2026-09-11T17:26:59.769125+00:00"
     }
   ]
 }
