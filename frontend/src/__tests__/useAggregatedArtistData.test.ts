@@ -46,6 +46,19 @@ describe("useAggregatedArtistData", () => {
     expect(result.current.error).toBeNull();
   });
 
+  it("一部の取得失敗は error にせず、成功分だけ dataById に入れる", async () => {
+    const { result } = renderHook(() =>
+      useAggregatedArtistData(["king-gnu", "missing"], true)
+    );
+
+    await waitFor(() => {
+      expect(result.current.loading).toBe(false);
+    });
+
+    expect(result.current.dataById).toEqual({ "king-gnu": stubA });
+    expect(result.current.error).toBeNull();
+  });
+
   it("全アーティストの取得に失敗したら error を返す", async () => {
     const { result } = renderHook(() =>
       useAggregatedArtistData(["missing-1", "missing-2"], true)

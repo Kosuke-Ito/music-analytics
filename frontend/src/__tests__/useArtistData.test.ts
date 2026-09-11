@@ -89,6 +89,40 @@ describe("useArtistData", () => {
     expect(result.current.data).toEqual(otherData);
   });
 
+  it("遅れて届いた前アーティストのレスポンスが現在の表示を上書きしない", async () => {
+    const otherData: ArtistData = { ...stubData, artist_id: "other", artist_name: "OTHER" };
+    // lausbub のレスポンスは手動で解決できるようにしておく
+    let resolveSlow!: (value: unknown) => void;
+    const slowPromise = new Promise((resolve) => {
+      resolveSlow = resolve;
+    });
+    vi.stubGlobal(
+      "fetch",
+      vi.fn((url: string) =>
+        url.endsWith("/other.json")
+          ? Promise.resolve({ ok: true, json: () => Promise.resolve(otherData) })
+          : slowPromise
+      )
+    );
+
+    const { result, rerender } = renderHook(
+      ({ id }) => useArtistData(id),
+      { initialProps: { id: "lausbub" } }
+    );
+
+    // lausbub のレスポンスが届く前に other へ切り替える
+    rerender({ id: "other" });
+    await waitFor(() => {
+      expect(result.current.data).toEqual(otherData);
+    });
+
+    // 遅れて lausbub のレスポンスが届いても other の表示を上書きしない
+    resolveSlow({ ok: true, json: () => Promise.resolve(stubData) });
+    await Promise.resolve();
+    expect(result.current.data).toEqual(otherData);
+    expect(result.current.loading).toBe(false);
+  });
+
   it("fetch失敗時にerrorがセットされる", async () => {
     vi.stubGlobal(
       "fetch",

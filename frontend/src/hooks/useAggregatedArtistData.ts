@@ -23,6 +23,8 @@ export function useAggregatedArtistData(
   const sortedKey = useMemo(() => [...artistIds].sort().join(","), [artistIds]);
   // loading やリセットは「現在の sortedKey の結果があるか」から導出する
   // （effect 内の同期 setState によるリセットを避ける）
+  // enabled が false→true と戻って sortedKey が同一の場合は、再fetch完了まで
+  // 前回の結果を表示する（SWR 的挙動、意図どおり）
   const [state, setState] = useState<FetchState | null>(null);
 
   useEffect(() => {
