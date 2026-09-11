@@ -7,6 +7,7 @@ import { useAggregatedArtistData } from "./hooks/useAggregatedArtistData";
 import { useArtistList } from "./hooks/useArtistList";
 import { useArtistFilter } from "./hooks/useArtistFilter";
 import { useUrlSync } from "./hooks/useUrlSync";
+import { isAdminFromSearch } from "./adminMode";
 
 const ArtistComparison = lazy(() =>
   import("./components/ArtistComparison").then((m) => ({ default: m.ArtistComparison })),
@@ -36,6 +37,8 @@ export default function App() {
   const [compareIds, setCompareIds] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
   const [showAddForm, setShowAddForm] = useState(false);
+  // 初回マウント時に判定（以後の URL 変化では artist クエリしか書き換わらない）
+  const [isAdmin] = useState(() => isAdminFromSearch(window.location.search));
 
   const { selectedId: selectedArtistId, selectArtist } = useUrlSync(artists);
 
@@ -73,17 +76,19 @@ export default function App() {
       <header className="header">
         <div className="header-top">
           <h1>Artist Analytics</h1>
-          <button
-            className="add-artist-btn"
-            onClick={() => setShowAddForm(true)}
-            title="Add Artist"
-          >
-            <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
-              <rect x="7" y="2" width="2" height="12" rx="1" />
-              <rect x="2" y="7" width="12" height="2" rx="1" />
-            </svg>
-            Add Artist
-          </button>
+          {isAdmin && (
+            <button
+              className="add-artist-btn"
+              onClick={() => setShowAddForm(true)}
+              title="Add Artist"
+            >
+              <svg viewBox="0 0 16 16" fill="currentColor" width="14" height="14">
+                <rect x="7" y="2" width="2" height="12" rx="1" />
+                <rect x="2" y="7" width="12" height="2" rx="1" />
+              </svg>
+              Add Artist
+            </button>
+          )}
         </div>
         {!loading && (
           <nav className="view-tabs">
