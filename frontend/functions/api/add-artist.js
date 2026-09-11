@@ -47,8 +47,9 @@ export async function onRequestPost(context) {
   // config.jsonを取得（UTF-8対応のBase64デコード）
   const getResp = await fetch(`${apiBase}/repos/${owner}/${repo}/contents/${path}`, { headers });
   if (!getResp.ok) {
-    const errBody = await getResp.text();
-    return Response.json({ error: "Failed to read config.json", status: getResp.status, detail: errBody }, { status: 500 });
+    // upstream の応答bodyは内部情報を含みうるのでログのみに残す
+    console.error("Failed to read config.json:", getResp.status, await getResp.text());
+    return Response.json({ error: "Failed to read config.json" }, { status: 500 });
   }
   const fileData = await getResp.json();
   const rawBase64 = fileData.content.replace(/\n/g, "");
@@ -97,8 +98,8 @@ export async function onRequestPost(context) {
   });
 
   if (!putResp.ok) {
-    const err = await putResp.text();
-    return Response.json({ error: "Failed to update config.json", detail: err }, { status: 500 });
+    console.error("Failed to update config.json:", putResp.status, await putResp.text());
+    return Response.json({ error: "Failed to update config.json" }, { status: 500 });
   }
 
   // 即座に collect.yml を起動して新アーティストのデータを取得
