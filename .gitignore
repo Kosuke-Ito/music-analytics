@@ -22,6 +22,10 @@ pnpm-debug.log*
 # OS
 .DS_Store
 
+# 環境変数・シークレット
+.env*
+.dev.vars
+
 # Playwright
 playwright-report/
 test-results/

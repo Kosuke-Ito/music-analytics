@@ -38,13 +38,9 @@ export async function onRequestGet(context) {
   });
 
   if (!artistResp.ok) {
-    const errBody = await artistResp.text();
-    return Response.json({
-      error: "Artist not found",
-      spotify_status: artistResp.status,
-      detail: errBody,
-      artist_id: artistId,
-    }, { status: 404 });
+    // Spotify の応答bodyは内部情報を含みうるのでログのみに残す
+    console.error("Spotify artist lookup failed:", artistResp.status, await artistResp.text());
+    return Response.json({ error: "Artist not found", artist_id: artistId }, { status: 404 });
   }
 
   const artist = await artistResp.json();
