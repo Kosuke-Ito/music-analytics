@@ -16,10 +16,18 @@ export async function onRequest(context) {
   if (auth) {
     const [scheme, encoded] = auth.split(" ");
     if (scheme === "Basic" && encoded) {
-      const decoded = atob(encoded);
-      const [u, p] = decoded.split(":");
-      if (u === user && p === pass) {
-        return context.next();
+      // 不正な base64 は atob が例外を投げるので、500 ではなく 401 に落とす
+      let decoded = null;
+      try {
+        decoded = atob(encoded);
+      } catch {
+        decoded = null;
+      }
+      if (decoded !== null) {
+        const [u, p] = decoded.split(":");
+        if (u === user && p === pass) {
+          return context.next();
+        }
       }
     }
   }
