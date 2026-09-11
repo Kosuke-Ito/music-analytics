@@ -168,7 +168,7 @@ docker compose run --rm collector-test
 **セットアップ:**
 
 ```bash
-cd mcp && npm install && npm run build
+cd mcp && npm ci && npm run build
 ```
 
 **Claude Code への登録例:**
@@ -180,7 +180,7 @@ claude mcp add music-analytics \
   -- node /path/to/music-analytics/mcp/dist/index.js
 ```
 
-登録後は「YOASOBI の直近のバズと原因を教えて」のような自然言語での問い合わせが、MCP ツール経由でデータに基づいて回答されます。API は Basic 認証付きの `/api/*` を利用するため、環境変数に認証情報が必要です。
+登録後は「YOASOBI の直近のバズと原因を教えて」のような自然言語での問い合わせが、MCP ツール経由でデータに基づいて回答されます。API は Basic 認証付きの `/api/*` を利用するため、環境変数に認証情報が必要です。向き先を本番以外（ローカルの Pages dev サーバー等）に変えたい場合は `-e MUSIC_ANALYTICS_API=<URL>` を追加してください（未設定時は本番 URL）。
 
 ## 設計判断
 
