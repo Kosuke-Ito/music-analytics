@@ -2,6 +2,10 @@
 
 Spotify・YouTube・Last.fm からアーティスト指標を日次で自動収集し、Vite + React ダッシュボードで可視化するリポジトリです。GitHub Actions で収集とニュースアノテーションが自動実行されます。
 
+**デモ: https://artist-analytics.pages.dev**
+
+![ダッシュボード](doc/dashboard.png)
+
 ## データソースと取得方法
 
 ### Spotify（月間リスナー数 / フォロワー数 / Top Cities）
@@ -80,8 +84,9 @@ Last.fm はユーザーが Spotify / Apple Music 等を聴いた記録（スク�
 ```
 music-analytics/
 ├── .github/workflows/
-│   ├── collect.yml          # 日次データ収集（UTC 00:00）
-│   └── annotate.yml         # 日次ニュース収集（UTC 01:00）
+│   ├── collect.yml          # 日次データ収集（JST 23:00 / UTC 14:00）
+│   ├── annotate.yml         # 日次ニュース収集（JST 23:30 / UTC 14:30）
+│   └── investigate-buzz.yml # バズ原因の自動調査（JST 24:00 / UTC 15:00）
 ├── collector/
 │   ├── scraper.py           # Spotify スクレイピング（Playwright）
 │   ├── youtube.py           # YouTube Data API v3
@@ -100,8 +105,9 @@ music-analytics/
 │   │   ├── utils/           # 分析指標の計算ユーティリティ
 │   │   └── types/           # TypeScript 型定義
 │   ├── functions/
-│   │   └── _middleware.js   # Cloudflare Pages Basic 認証
+│   │   └── api/             # Cloudflare Pages Functions（アーティスト追加API等、Basic 認証付き）
 │   └── vite.config.ts
+├── doc/                     # 競合調査などのドキュメント
 └── .mise.toml               # Python 3.12 + Node 20
 ```
 
@@ -110,13 +116,21 @@ music-analytics/
 ```bash
 # フロントエンド
 cd frontend && pnpm install && pnpm dev
+```
 
+`frontend/public/` の `data` と `config.json` はリポジトリルートへのシンボリックリンクです。
+Git はシンボリックリンクをそのまま管理するので通常は clone 直後から動きますが、
+リンクが実体化してしまう環境（Windows 等）では以下で張り直してください。
+
+```bash
+cd frontend/public
+ln -sf ../../data data
+ln -sf ../../scripts/config.json config.json
+```
+
+```bash
 # データ収集（全アーティスト）
 YOUTUBE_API_KEY=xxx LASTFM_API_KEY=xxx python -m collector.main
-
-# テスト
-mise exec -- python -m pytest collector/tests -v
-cd frontend && pnpm test
 ```
 
 ## テスト
@@ -142,6 +156,7 @@ docker compose run --rm collector-test
 
 ## ライセンス・注意
 
+- ライセンスは [MIT](LICENSE) です
 - Spotify ページのスクレイピングは利用規約・サイト構造の変更により動かなくなる可能性があります
 - YouTube Data API と Last.fm API は各サービスの利用規約に従ってください
-- Basic 認証の認証情報は Cloudflare Pages の環境変数（Secrets）で管理しています
+- `/api/*`（アーティスト追加などの管理系エンドポイント）は Basic 認証で保護しています。認証情報は Cloudflare Pages の環境変数（Secrets）で管理し、未設定時は fail-closed（503）で拒否します
