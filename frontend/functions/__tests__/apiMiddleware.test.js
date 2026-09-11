@@ -48,6 +48,26 @@ describe("functions/api/_middleware", () => {
     expect(wasNextCalled()).toBe(false);
   });
 
+  it("コロンを含むパスワードでも認証できる（Basic 認証仕様準拠）", async () => {
+    const { context, wasNextCalled } = makeContext({
+      env: { BASIC_AUTH_USER: "admin", BASIC_AUTH_PASS: "se:cr:et" },
+      authHeader: basicAuth("admin", "se:cr:et"),
+    });
+    const res = await onRequest(context);
+    expect(res.status).toBe(200);
+    expect(wasNextCalled()).toBe(true);
+  });
+
+  it("パスワードの前方一致では認証されない", async () => {
+    const { context, wasNextCalled } = makeContext({
+      env: { BASIC_AUTH_USER: "admin", BASIC_AUTH_PASS: "secret" },
+      authHeader: basicAuth("admin", "secretmore"),
+    });
+    const res = await onRequest(context);
+    expect(res.status).toBe(401);
+    expect(wasNextCalled()).toBe(false);
+  });
+
   it("不正な base64 でも 500 にならず 401 を返す", async () => {
     const { context, wasNextCalled } = makeContext({
       env: { BASIC_AUTH_USER: "admin", BASIC_AUTH_PASS: "secret" },
