@@ -35,6 +35,14 @@ describe("TopCities", () => {
     expect(screen.getByText("🇹🇼")).toBeInTheDocument();
   });
 
+  it("citiesが空→非空に変わってもクラッシュしない（rules-of-hooks回帰テスト）", () => {
+    const { rerender } = render(<TopCities cities={undefined} />);
+    expect(() =>
+      rerender(<TopCities cities={cities} prevCities={prevCities} />)
+    ).not.toThrow();
+    expect(screen.getByText("Osaka")).toBeInTheDocument();
+  });
+
   it("citiesが空の場合は何も表示しない", () => {
     const { container } = render(<TopCities cities={[]} />);
     expect(container).toBeEmptyDOMElement();

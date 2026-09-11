@@ -52,6 +52,11 @@ class TestLoadData:
         assert len(data["records"]) == 1
         assert data["records"][0]["monthly_listeners"] == 30000
 
+    def test_broken_json_raises_json_decode_error(self, tmp_data_path):
+        tmp_data_path.write_text('{"annotations": [{"a": 1} {"b": 2}]}')
+        with pytest.raises(json.JSONDecodeError):
+            load_data(tmp_data_path, artist_id="abc123", artist_name="Test Artist")
+
 
 class TestSaveData:
     def test_writes_json(self, tmp_data_path):

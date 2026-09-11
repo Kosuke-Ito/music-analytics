@@ -7,6 +7,12 @@ interface UseAggregatedArtistDataResult {
   error: string | null;
 }
 
+interface FetchState {
+  key: string;
+  dataById: Record<string, ArtistData>;
+  error: string | null;
+}
+
 /**
  * アーティストIDごとの JSON を1回のロードでまとめて取得する（一覧の N+1 を避ける）。
  */
@@ -15,23 +21,18 @@ export function useAggregatedArtistData(
   enabled: boolean
 ): UseAggregatedArtistDataResult {
   const sortedKey = useMemo(() => [...artistIds].sort().join(","), [artistIds]);
-  const [dataById, setDataById] = useState<Record<string, ArtistData>>({});
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  // loading やリセットは「現在の sortedKey の結果があるか」から導出する
+  // （effect 内の同期 setState によるリセットを避ける）
+  // enabled が false→true と戻って sortedKey が同一の場合は、再fetch完了まで
+  // 前回の結果を表示する（SWR 的挙動、意図どおり）
+  const [state, setState] = useState<FetchState | null>(null);
 
   useEffect(() => {
-    if (!enabled || sortedKey.length === 0) {
-      setDataById({});
-      setLoading(false);
-      setError(null);
-      return;
-    }
+    if (!enabled || sortedKey.length === 0) return;
 
     const ids = sortedKey.split(",");
 
     let cancelled = false;
-    setLoading(true);
-    setError(null);
 
     const run = async () => {
       const results = await Promise.all(
@@ -56,13 +57,11 @@ export function useAggregatedArtistData(
         else failed += 1;
       }
 
-      setDataById(map);
-      setLoading(false);
-      if (failed === ids.length) {
-        setError("全アーティストのデータ取得に失敗しました");
-      } else if (failed > 0) {
-        setError(null);
-      }
+      setState({
+        key: sortedKey,
+        dataById: map,
+        error: failed === ids.length ? "全アーティストのデータ取得に失敗しました" : null,
+      });
     };
 
     void run();
@@ -72,5 +71,11 @@ export function useAggregatedArtistData(
     };
   }, [enabled, sortedKey]);
 
-  return { dataById, loading, error };
+  const active = enabled && sortedKey.length > 0;
+  const current = active && state?.key === sortedKey ? state : null;
+  return {
+    dataById: current?.dataById ?? {},
+    loading: active && current === null,
+    error: current?.error ?? null,
+  };
 }

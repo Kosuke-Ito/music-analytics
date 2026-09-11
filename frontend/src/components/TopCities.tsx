@@ -20,14 +20,15 @@ function cityKey(c: CityListeners) {
 }
 
 export function TopCities({ cities, prevCities }: TopCitiesProps) {
-  if (!cities?.length) return null;
-
+  // Hooks は早期returnより前に無条件で呼ぶ（rules-of-hooks）
   const prevMap = useMemo(() => {
     if (!prevCities) return null;
     const map = new Map<string, { listeners: number; rank: number }>();
     prevCities.forEach((c, i) => map.set(cityKey(c), { listeners: c.listeners, rank: i }));
     return map;
   }, [prevCities]);
+
+  if (!cities?.length) return null;
 
   const maxListeners = cities[0].listeners;
 

@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from "vitest";
-import { renderHook, act } from "@testing-library/react";
+import { renderHook, act, waitFor } from "@testing-library/react";
 import { useUrlSync } from "../hooks/useUrlSync";
 import type { ArtistConfig } from "../types";
 
@@ -62,5 +62,34 @@ describe("useUrlSync", () => {
       window.dispatchEvent(new PopStateEvent("popstate"));
     });
     expect(result.current.selectedId).toBe("yoasobi");
+  });
+
+  it("normalizes the URL when the parameter is invalid", async () => {
+    window.history.replaceState({}, "", "/?artist=unknown");
+    const { result } = renderHook(() => useUrlSync(mockArtists));
+    expect(result.current.selectedId).toBe("yoasobi");
+    await waitFor(() => {
+      expect(window.location.search).toContain("artist=yoasobi");
+    });
+  });
+
+  it("round-trips popstate back and forth", () => {
+    const { result } = renderHook(() => useUrlSync(mockArtists));
+    act(() => result.current.selectArtist("vaundy"));
+    expect(result.current.selectedId).toBe("vaundy");
+
+    // 戻る
+    act(() => {
+      window.history.pushState({}, "", "/?artist=yoasobi");
+      window.dispatchEvent(new PopStateEvent("popstate"));
+    });
+    expect(result.current.selectedId).toBe("yoasobi");
+
+    // 進む
+    act(() => {
+      window.history.pushState({}, "", "/?artist=vaundy");
+      window.dispatchEvent(new PopStateEvent("popstate"));
+    });
+    expect(result.current.selectedId).toBe("vaundy");
   });
 });

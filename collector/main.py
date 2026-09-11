@@ -56,14 +56,19 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=None,
         help="指定したアーティストIDのみ収集する (config.json の id と一致)",
     )
+    parser.add_argument(
+        "--date",
+        default=None,
+        help="記録する日付を指定する (YYYY-MM-DD)。省略時は当日UTC",
+    )
     return parser.parse_args(argv)
 
 
-def collect_all(artist_id: str | None = None) -> None:
+def collect_all(artist_id: str | None = None, date: str | None = None) -> None:
     # config.jsonの全アーティストのデータを収集する。
     # artist_id を指定した場合はそのアーティストのみ対象とする。
     config = json.loads(CONFIG_PATH.read_text())
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
     youtube_api_key = os.environ.get("YOUTUBE_API_KEY")
     lastfm_api_key = os.environ.get("LASTFM_API_KEY")
 
@@ -91,7 +96,12 @@ def collect_all(artist_id: str | None = None) -> None:
             stats["spotify_fail"].append(name)
             continue
 
-        data = load_data(data_path, artist_id=spotify_id, artist_name=name)
+        try:
+            data = load_data(data_path, artist_id=spotify_id, artist_name=name)
+        except json.JSONDecodeError as e:
+            logger.error(f"JSONパースエラー（スキップ）: {name} - {data_path}: {e}")
+            stats.setdefault("json_error", []).append(name)
+            continue
 
         previous_listeners = None
         history: list[int] = []
@@ -252,13 +262,15 @@ def collect_all(artist_id: str | None = None) -> None:
         logger.warning(f"  ⚠️  Last.fm失敗: {', '.join(stats['lastfm_fail'])}")
     if stats["ytm_fail"]:
         logger.warning(f"  ⚠️  YTM失敗: {', '.join(stats['ytm_fail'])}")
+    if stats.get("json_error"):
+        logger.error(f"  ❌ JSONパースエラー: {', '.join(stats['json_error'])}")
     logger.info("=" * 50)
 
 
 if __name__ == "__main__":
     args = parse_args()
     try:
-        collect_all(artist_id=args.artist_id)
+        collect_all(artist_id=args.artist_id, date=args.date)
     except Exception as e:
         logger.error(f"予期しないエラー: {e}")
         sys.exit(1)
