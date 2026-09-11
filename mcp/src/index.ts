@@ -6,7 +6,10 @@
  * Connects to the REST API at artist-analytics.pages.dev.
  *
  * Usage:
- *   MUSIC_ANALYTICS_API=https://artist-analytics.pages.dev npx tsx mcp/src/index.ts
+ *   MUSIC_ANALYTICS_API_USER=... MUSIC_ANALYTICS_API_PASS=... npx tsx mcp/src/index.ts
+ *
+ * /api/* は Basic 認証（Cloudflare Pages の BASIC_AUTH_USER/PASS）で保護されているため、
+ * 上記2つの環境変数に同じ資格情報を設定する。
  */
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
@@ -49,7 +52,7 @@ server.tool(
   "Get complete data for an artist including records, annotations, buzz events, metadata, and song performance",
   { artist_id: z.string().describe("Artist ID (e.g., 'yoasobi', 'king-gnu')") },
   async ({ artist_id }) => {
-    const data = await apiFetch(`/api/v1/artists/${encodeURIComponent(artist_id)}`);
+    const data = await apiFetch(`/api/artists/${encodeURIComponent(artist_id)}`);
     return {
       content: [{ type: "text" as const, text: JSON.stringify(data, null, 2) }],
     };
@@ -63,7 +66,7 @@ server.tool(
   "List all tracked artists, optionally filtered by region",
   { region: z.enum(["jp", "global"]).optional().describe("Filter by region: 'jp' or 'global'") },
   async ({ region }) => {
-    const path = region ? `/api/v1/artists?region=${region}` : "/api/v1/artists";
+    const path = region ? `/api/artists?region=${region}` : "/api/artists";
     const data = await apiFetch(path);
     return {
       content: [{ type: "text" as const, text: JSON.stringify(data, null, 2) }],
@@ -81,7 +84,7 @@ server.tool(
     type: z.enum(["annotated", "organic", "seasonal"]).optional().describe("Filter by buzz type"),
   },
   async ({ artist_id, type }) => {
-    let path = `/api/v1/artists/${encodeURIComponent(artist_id)}/buzz`;
+    let path = `/api/artists/${encodeURIComponent(artist_id)}/buzz`;
     if (type) path += `?type=${type}`;
     const data = await apiFetch(path);
     return {
@@ -103,7 +106,7 @@ server.tool(
       .describe("Filter by category"),
   },
   async ({ artist_id, category }) => {
-    let path = `/api/v1/artists/${encodeURIComponent(artist_id)}/annotations`;
+    let path = `/api/artists/${encodeURIComponent(artist_id)}/annotations`;
     if (category) path += `?category=${category}`;
     const data = await apiFetch(path);
     return {
@@ -119,7 +122,7 @@ server.tool(
   "Search for artists by name (partial match)",
   { query: z.string().describe("Search query (artist name)") },
   async ({ query }) => {
-    const data = await apiFetch(`/api/v1/search?q=${encodeURIComponent(query)}`);
+    const data = await apiFetch(`/api/search?q=${encodeURIComponent(query)}`);
     return {
       content: [{ type: "text" as const, text: JSON.stringify(data, null, 2) }],
     };
