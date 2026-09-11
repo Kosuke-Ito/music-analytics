@@ -158,8 +158,8 @@ python -m collector.validate  # 全データファイル + config.json の整合
 
 - **Cloudflare Pages** (`artist-analytics.pages.dev`)
 - GitHub連携で main ブランチへの push で自動デプロイ
-- Basic認証は環境変数 `BASIC_AUTH_USER` / `BASIC_AUTH_PASS` で制御
-  - 環境変数が未設定なら認証スキップ（`frontend/functions/_middleware.js`）
+- ダッシュボード本体は公開。`/api/*` のみ Basic認証（`frontend/functions/api/_middleware.js`）
+  - 認証情報は環境変数 `BASIC_AUTH_USER` / `BASIC_AUTH_PASS`。未設定時は fail-closed（503）
 - Web Analytics 有効化済み
 
 ## プロダクトビジョン
