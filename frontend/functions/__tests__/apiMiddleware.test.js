@@ -48,6 +48,16 @@ describe("functions/api/_middleware", () => {
     expect(wasNextCalled()).toBe(false);
   });
 
+  it("不正な base64 でも 500 にならず 401 を返す", async () => {
+    const { context, wasNextCalled } = makeContext({
+      env: { BASIC_AUTH_USER: "admin", BASIC_AUTH_PASS: "secret" },
+      authHeader: "Basic %%%",
+    });
+    const res = await onRequest(context);
+    expect(res.status).toBe(401);
+    expect(wasNextCalled()).toBe(false);
+  });
+
   it("Authorization ヘッダー無しなら 401 と WWW-Authenticate を返す", async () => {
     const { context } = makeContext({
       env: { BASIC_AUTH_USER: "admin", BASIC_AUTH_PASS: "secret" },
