@@ -43,19 +43,12 @@ interface DashboardProps {
 }
 
 export function Dashboard({ artistId, data, config, dataById }: DashboardProps) {
-  if (!data) {
-    return (
-      <div className="error">
-        データがありません（<span className="mono">{artistId}</span>）
-      </div>
-    );
-  }
-
+  // Hooks は早期returnより前に無条件で呼ぶ（rules-of-hooks）
   const [granularity, setGranularity] = useState<Granularity>("daily");
 
   const aggregatedAll = useMemo(
-    () => aggregateRecords(data.records, granularity),
-    [data.records, granularity],
+    () => aggregateRecords(data?.records ?? [], granularity),
+    [data?.records, granularity],
   );
 
   const { range, setRange, filteredRecords } = useDateRange(
@@ -68,9 +61,9 @@ export function Dashboard({ artistId, data, config, dataById }: DashboardProps) 
     [filteredRecords],
   );
   const visibleAnnotations = useMemo(
-    () => (data.annotations?.filter((a) => dates.has(a.date)) ?? [])
+    () => (data?.annotations?.filter((a) => dates.has(a.date)) ?? [])
       .sort((a, b) => a.date.localeCompare(b.date)),
-    [data.annotations, dates],
+    [data?.annotations, dates],
   );
   const [hoveredAnnotation, setHoveredAnnotation] = useState<number | null>(null);
   const [expandedSections, setExpandedSections] = useState<Set<string>>(new Set());
@@ -82,6 +75,14 @@ export function Dashboard({ artistId, data, config, dataById }: DashboardProps) 
       return next;
     });
   };
+
+  if (!data) {
+    return (
+      <div className="error">
+        データがありません（<span className="mono">{artistId}</span>）
+      </div>
+    );
+  }
 
   return (
     <div className="dashboard fade-in" key={artistId}>

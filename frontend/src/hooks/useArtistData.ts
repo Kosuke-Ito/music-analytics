@@ -7,14 +7,19 @@ interface UseArtistDataResult {
   error: string | null;
 }
 
+interface FetchState {
+  artistId: string;
+  data: ArtistData | null;
+  error: string | null;
+}
+
 export function useArtistData(artistId: string): UseArtistDataResult {
-  const [data, setData] = useState<ArtistData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  // loading は「現在の artistId の結果がまだ無い」ことから導出する
+  // （effect 内の同期 setState によるリセットを避ける）
+  const [state, setState] = useState<FetchState | null>(null);
 
   useEffect(() => {
-    setLoading(true);
-    setError(null);
+    let cancelled = false;
 
     fetch(`/data/${artistId}.json`)
       .then((res) => {
@@ -22,14 +27,21 @@ export function useArtistData(artistId: string): UseArtistDataResult {
         return res.json();
       })
       .then((json) => {
-        setData(json);
-        setLoading(false);
+        if (!cancelled) setState({ artistId, data: json, error: null });
       })
       .catch((err) => {
-        setError(err.message);
-        setLoading(false);
+        if (!cancelled) setState({ artistId, data: null, error: err.message });
       });
+
+    return () => {
+      cancelled = true;
+    };
   }, [artistId]);
 
-  return { data, loading, error };
+  const current = state?.artistId === artistId ? state : null;
+  return {
+    data: current?.data ?? null,
+    loading: current === null,
+    error: current?.error ?? null,
+  };
 }

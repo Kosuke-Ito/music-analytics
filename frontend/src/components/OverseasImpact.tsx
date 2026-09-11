@@ -38,11 +38,17 @@ interface OverseasImpactProps {
 }
 
 export function OverseasImpact({ records }: OverseasImpactProps) {
+  // Hooks は早期returnより前に無条件で呼ぶ（rules-of-hooks）
   const latestCities = records[records.length - 1]?.top_cities;
-  if (!latestCities?.length) return null;
 
-  const countryBreakdown = useMemo(() => aggregateByCountry(latestCities), [latestCities]);
-  const overseasPct = useMemo(() => calcOverseasRatio(latestCities), [latestCities]);
+  const countryBreakdown = useMemo(
+    () => (latestCities?.length ? aggregateByCountry(latestCities) : []),
+    [latestCities],
+  );
+  const overseasPct = useMemo(
+    () => (latestCities?.length ? calcOverseasRatio(latestCities) : 0),
+    [latestCities],
+  );
   const jpPct = 100 - overseasPct;
 
   const ratioTimeSeries = useMemo(() => {
@@ -68,6 +74,8 @@ export function OverseasImpact({ records }: OverseasImpactProps) {
   }, [cityTs]);
 
   const totalListeners = countryBreakdown.reduce((s, c) => s + c.listeners, 0);
+
+  if (!latestCities?.length) return null;
 
   return (
     <div className="overseas-section">

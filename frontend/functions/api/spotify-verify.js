@@ -56,6 +56,5 @@ export async function onRequestGet(context) {
     genres: artist.genres ?? [],
     popularity: artist.popularity ?? null,
     image: artist.images?.[0]?.url ?? null,
-    _debug_keys: Object.keys(artist),
   });
 }
