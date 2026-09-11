@@ -5,6 +5,13 @@ on:
     branches: [main]
   pull_request:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: test-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   frontend:
     runs-on: ubuntu-latest
@@ -21,7 +28,8 @@ jobs:
 
       - uses: actions/setup-node@v6
         with:
-          node-version: '20'
+          # Node 20 だと vitest(jsdom) が使う undici の markAsUncloneable が無く落ちる
+          node-version: '22'
           cache: 'pnpm'
           cache-dependency-path: frontend/pnpm-lock.yaml
 
