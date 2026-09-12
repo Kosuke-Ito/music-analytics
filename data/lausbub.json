@@ -6542,6 +6542,47 @@
       "ytm_subscribers": 19600,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 917580
+    },
+    {
+      "date": "2026-09-12",
+      "monthly_listeners": 99618,
+      "collected_at": "2026-09-12T16:44:41.162506+00:00",
+      "spotify_followers": 21552,
+      "youtube_subscribers": 19600,
+      "youtube_total_views": 917580,
+      "youtube_video_count": 34,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3345
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3228
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 2287
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1147
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1059
+        }
+      ],
+      "lastfm_listeners": 9155,
+      "lastfm_playcount": 55619,
+      "ytm_subscribers": 19600,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 917580
     }
   ],
   "annotations": [
@@ -7566,6 +7607,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-11T17:32:20.423450+00:00"
+    },
+    {
+      "date": "2026-09-12",
+      "metric": "youtube_total_views",
+      "value": 917580,
+      "baseline_mean": 882004.7,
+      "baseline_stddev": 14989.2,
+      "delta": 35575,
+      "score": 2.37,
+      "type": "annotated",
+      "related_annotation": "メジャーデビューアルバム『society | lazy』（9/9リリース）の反響でYouTube総再生数が増加",
+      "detected_at": "2026-09-12T16:44:42.379037+00:00"
     }
   ],
   "song_performance": {
@@ -8477,6 +8530,12 @@
           "views": 5908,
           "likes": 110,
           "comments": 1
+        },
+        {
+          "date": "2026-09-12",
+          "views": 5933,
+          "likes": 109,
+          "comments": 1
         }
       ]
     },
@@ -9386,6 +9445,12 @@
         {
           "date": "2026-09-11",
           "views": 8448,
+          "likes": 195,
+          "comments": 6
+        },
+        {
+          "date": "2026-09-12",
+          "views": 8465,
           "likes": 195,
           "comments": 6
         }
@@ -10299,6 +10364,12 @@
           "views": 24595,
           "likes": 223,
           "comments": 2
+        },
+        {
+          "date": "2026-09-12",
+          "views": 24626,
+          "likes": 224,
+          "comments": 2
         }
       ]
     },
@@ -11208,6 +11279,12 @@
         {
           "date": "2026-09-11",
           "views": 13960,
+          "likes": 210,
+          "comments": 1
+        },
+        {
+          "date": "2026-09-12",
+          "views": 13967,
           "likes": 210,
           "comments": 1
         }
@@ -12129,6 +12206,12 @@
         {
           "date": "2026-09-11",
           "views": 10870,
+          "likes": 186,
+          "comments": 2
+        },
+        {
+          "date": "2026-09-12",
+          "views": 10935,
           "likes": 186,
           "comments": 2
         }

@@ -6344,6 +6344,47 @@
       "ytm_subscribers": 29500,
       "ytm_monthly_listeners": 71400,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-12",
+      "monthly_listeners": 59359,
+      "collected_at": "2026-09-12T16:39:19.796952+00:00",
+      "spotify_followers": 36772,
+      "youtube_subscribers": 29500,
+      "youtube_total_views": 15725591,
+      "youtube_video_count": 193,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 2394
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 1521
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 1032
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 711
+        },
+        {
+          "city": "Sapporo",
+          "country": "JP",
+          "listeners": 488
+        }
+      ],
+      "lastfm_listeners": 20075,
+      "lastfm_playcount": 222131,
+      "ytm_subscribers": 29500,
+      "ytm_monthly_listeners": 71400,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6377,19 +6418,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "BILLY BOO",
-        "browse_id": "UCUSTQPAJyWOry-gwRnbdedA",
-        "subscribers": "114K"
-      },
-      {
-        "name": "First Love is Never Returned",
-        "browse_id": "UCZHAUUd5amlzyrPj1W9_mkg",
-        "subscribers": "82.6K"
-      },
-      {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.1M"
+        "name": "Kayoko Yoshizawa",
+        "browse_id": "UCbyPRq7zMUVjKiY2teAETNg",
+        "subscribers": "204K"
       },
       {
         "name": "Rikon Densetsu",
@@ -6400,6 +6431,16 @@
         "name": "RETRORIRON",
         "browse_id": "UCMa_wzbNPDBOc4D31vH8iKw",
         "subscribers": "309K"
+      },
+      {
+        "name": "Lucky Kilimanjaro",
+        "browse_id": "UCiVXhIDW-3GNIyL5wsydr1Q",
+        "subscribers": "4.17M"
+      },
+      {
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "3.1M"
       },
       {
         "name": "MHRJ",
@@ -7365,6 +7406,12 @@
           "views": 17899,
           "likes": 161,
           "comments": 3
+        },
+        {
+          "date": "2026-09-12",
+          "views": 17921,
+          "likes": 161,
+          "comments": 3
         }
       ]
     },
@@ -8280,6 +8327,12 @@
         {
           "date": "2026-09-11",
           "views": 54288,
+          "likes": 438,
+          "comments": 9
+        },
+        {
+          "date": "2026-09-12",
+          "views": 54434,
           "likes": 438,
           "comments": 9
         }
@@ -9199,6 +9252,12 @@
           "views": 226293,
           "likes": 2649,
           "comments": 39
+        },
+        {
+          "date": "2026-09-12",
+          "views": 226592,
+          "likes": 2651,
+          "comments": 39
         }
       ]
     },
@@ -10084,6 +10143,12 @@
         {
           "date": "2026-09-11",
           "views": 3919,
+          "likes": 58,
+          "comments": 5
+        },
+        {
+          "date": "2026-09-12",
+          "views": 3922,
           "likes": 58,
           "comments": 5
         }
@@ -11036,6 +11101,12 @@
           "views": 2403,
           "likes": 27,
           "comments": 1
+        },
+        {
+          "date": "2026-09-12",
+          "views": 2409,
+          "likes": 27,
+          "comments": 1
         }
       ]
     },
@@ -11938,6 +12009,18 @@
       "type": "annotated",
       "related_annotation": "「Conduct Boogie」効果の継続によるSpotify月間リスナー数増加（3.3σ）",
       "detected_at": "2026-09-11T17:26:45.686312+00:00"
+    },
+    {
+      "date": "2026-09-12",
+      "metric": "youtube_total_views",
+      "value": 15725591,
+      "baseline_mean": 15602876.9,
+      "baseline_stddev": 57558.4,
+      "delta": 122714,
+      "score": 2.13,
+      "type": "annotated",
+      "related_annotation": "「Conduct Boogie」効果の継続によるSpotify月間リスナー数増加（2.74σ）",
+      "detected_at": "2026-09-12T16:39:21.044423+00:00"
     }
   ]
 }
