@@ -113,6 +113,23 @@ describe("createRateLimiter（純関数・時刻注入）", () => {
     for (let i = 0; i < 5; i++) rl.recordFailure("1.2.3.4", 1000 + i);
     expect(rl.isLimited("5.6.7.8", 2000)).toBe(false);
   });
+
+  it("キー数が上限を超えると期限切れキーが掃除される", () => {
+    const rl = createRateLimiter({ windowMs: 60_000, maxFailures: 5, maxKeys: 10 });
+    for (let i = 0; i < 11; i++) rl.recordFailure(`ip-${i}`, 1000);
+    // 全キーが期限切れになった後のアクセスで掃除が走り、サイズが上限内に戻る
+    rl.recordFailure("fresh", 1000 + 60_000 + 1);
+    expect(rl.size()).toBeLessThanOrEqual(10);
+  });
+
+  it("上限超過かつ全キーがアクティブなら clear して fail-open（制限を一時的に諦める）", () => {
+    const rl = createRateLimiter({ windowMs: 60_000, maxFailures: 5, maxKeys: 10 });
+    for (let j = 0; j < 5; j++) {
+      for (let i = 0; i < 11; i++) rl.recordFailure(`ip-${i}`, 2000 + j);
+    }
+    // ip-0 は5回失敗済みだが、clear 後は制限されない
+    expect(rl.isLimited("ip-0", 3000)).toBe(false);
+  });
 });
 
 describe("認証失敗のレート制限（IP 単位）", () => {
@@ -167,5 +184,29 @@ describe("認証失敗のレート制限（IP 単位）", () => {
     });
     const res = await onRequest(context);
     expect(res.status).toBe(200);
+  });
+
+  it("Authorization ヘッダー無し（Basic 認証の正常なハンドシェイク）は何回でもカウントされない", async () => {
+    for (let i = 0; i < 10; i++) {
+      const { context } = makeContext({ env, ip: "10.0.0.6" });
+      const res = await onRequest(context);
+      expect(res.status).toBe(401);
+    }
+    // ヘッダー無し 10 回の後でも、正しい資格情報は通る
+    const { context } = makeContext({
+      env,
+      authHeader: basicAuth("admin", "secret"),
+      ip: "10.0.0.6",
+    });
+    const res = await onRequest(context);
+    expect(res.status).toBe(200);
+  });
+
+  it("CF-Connecting-IP が無い場合は制限しない（識別子が無いので fail-open）", async () => {
+    for (let i = 0; i < 10; i++) {
+      const { context } = makeContext({ env, authHeader: basicAuth("admin", "wrong") });
+      const res = await onRequest(context);
+      expect(res.status).toBe(401);
+    }
   });
 });
