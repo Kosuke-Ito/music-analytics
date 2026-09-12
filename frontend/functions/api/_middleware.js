@@ -17,6 +17,39 @@ async function timingSafeEqual(a, b) {
   return diff === 0;
 }
 
+// 認証失敗のレート制限。isolate ごとのメモリなので厳密ではないが、
+// pages.dev には WAF レート制限を設定できないため、
+// ブルートフォースのコストを上げる best-effort の防御として置く。
+export function createRateLimiter({ windowMs, maxFailures }) {
+  const failures = new Map(); // key -> ウィンドウ内の失敗時刻の配列
+
+  function prune(key, now) {
+    const list = (failures.get(key) ?? []).filter((t) => now - t < windowMs);
+    if (list.length === 0) {
+      failures.delete(key);
+    } else {
+      failures.set(key, list);
+    }
+    return list;
+  }
+
+  return {
+    isLimited(key, now) {
+      return prune(key, now).length >= maxFailures;
+    },
+    recordFailure(key, now) {
+      failures.set(key, [...prune(key, now), now]);
+    },
+  };
+}
+
+const RATE_LIMIT_WINDOW_MS = 60_000;
+const RATE_LIMIT_MAX_FAILURES = 5;
+const limiter = createRateLimiter({
+  windowMs: RATE_LIMIT_WINDOW_MS,
+  maxFailures: RATE_LIMIT_MAX_FAILURES,
+});
+
 export async function onRequest(context) {
   const { request, env } = context;
 
@@ -25,6 +58,17 @@ export async function onRequest(context) {
 
   if (!user || !pass) {
     return new Response("API credentials are not configured", { status: 503 });
+  }
+
+  const ip = request.headers.get("CF-Connecting-IP") ?? "unknown";
+  const now = Date.now();
+
+  // 制限中は認証処理より前に弾く（正しい資格情報でもロックアウトする）
+  if (limiter.isLimited(ip, now)) {
+    return new Response("Too Many Requests", {
+      status: 429,
+      headers: { "Retry-After": String(RATE_LIMIT_WINDOW_MS / 1000) },
+    });
   }
 
   const auth = request.headers.get("Authorization");
@@ -47,6 +91,8 @@ export async function onRequest(context) {
       }
     }
   }
+
+  limiter.recordFailure(ip, now);
 
   return new Response("Unauthorized", {
     status: 401,
