@@ -7022,6 +7022,15 @@
       "source": "内部データ分析（youtube_total_views推移比較）",
       "confidence": "high",
       "added_at": "2026-09-09T18:00:00Z"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "YouTube総再生数の急増が継続（2.06σ、データ収集アーティファクト）",
+      "description": "youtube_total_viewsが2,980,368,236→3,006,095,163で25,726,926増加（2.06σ）。9/8付アノテーションで確認済みの「横ばい→階段状ジャンプ」型データ収集アーティファクトの尾を移動平均が追いかけている段階。Web検索でも9月13日前後を特定できる新曲・タイアップ・番組出演等の材料は確認できなかった。",
+      "category": "other",
+      "source": "内部データ分析（youtube_total_views推移比較）＋Web検索（2026-09-13調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-13T18:00:00Z"
     }
   ],
   "metadata": {
