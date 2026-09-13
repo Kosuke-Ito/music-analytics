@@ -6265,6 +6265,47 @@
       "ytm_subscribers": 884000,
       "ytm_monthly_listeners": 18600000,
       "ytm_total_views": 945917570
+    },
+    {
+      "date": "2026-09-13",
+      "monthly_listeners": 3419123,
+      "collected_at": "2026-09-13T17:21:28.795344+00:00",
+      "spotify_followers": 2848224,
+      "youtube_subscribers": 5620000,
+      "youtube_total_views": 3566962945,
+      "youtube_video_count": 218,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 49715
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 45007
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 37713
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 35629
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 34197
+        }
+      ],
+      "lastfm_listeners": 1886068,
+      "lastfm_playcount": 55358926,
+      "ytm_subscribers": 885000,
+      "ytm_monthly_listeners": 18600000,
+      "ytm_total_views": 945917570
     }
   ],
   "annotations": [
@@ -6577,14 +6618,14 @@
         "subscribers": "6.9M"
       },
       {
-        "name": "Ja Rule",
-        "browse_id": "UCji7leqOCN06fhLhHPwVKEg",
-        "subscribers": "12.9M"
+        "name": "Lumidee",
+        "browse_id": "UCjavsELualcJhciTsh8tFEw",
+        "subscribers": "16.6K"
       },
       {
-        "name": "TLC",
-        "browse_id": "UCs6cmuHkS7U7Az22s18lQXw",
-        "subscribers": "16.7M"
+        "name": "Aaliyah",
+        "browse_id": "UC5tUz7LmavHn9NOM4Nn3wxQ",
+        "subscribers": "8.14M"
       },
       {
         "name": "112",
@@ -6592,9 +6633,24 @@
         "subscribers": "2.92M"
       },
       {
+        "name": "TLC",
+        "browse_id": "UCs6cmuHkS7U7Az22s18lQXw",
+        "subscribers": "16.7M"
+      },
+      {
+        "name": "Sisqo",
+        "browse_id": "UCgJmARnSPH8TXr5HeefJFqQ",
+        "subscribers": "3.93M"
+      },
+      {
+        "name": "Charli Baltimore",
+        "browse_id": "UCWcn1edWQHz0HQNVsQRwAfA",
+        "subscribers": "15.4K"
+      },
+      {
         "name": "Queen Pen",
         "browse_id": "UCMcW-1o9N69p0atLvoLORTA",
-        "subscribers": "5.51K"
+        "subscribers": "5.52K"
       },
       {
         "name": "City High",
@@ -6605,21 +6661,6 @@
         "name": "Murphy Lee",
         "browse_id": "UC-mz_u5BhwfY8ZNt7I_AyGA",
         "subscribers": "18.4K"
-      },
-      {
-        "name": "Angie Martinez",
-        "browse_id": "UCUA6tA2G-D-mShZR-I2RAIw",
-        "subscribers": "10.1K"
-      },
-      {
-        "name": "Total",
-        "browse_id": "UCKBTxc4HhQ8W8p7_BcfiOBw",
-        "subscribers": "72.1K"
-      },
-      {
-        "name": "Da Brat",
-        "browse_id": "UCrGJmt56tmeXke3ypLqr_JQ",
-        "subscribers": "990K"
       }
     ],
     "ytm_top_songs": [
@@ -7537,6 +7578,12 @@
           "views": 140807996,
           "likes": 1366780,
           "comments": 1707
+        },
+        {
+          "date": "2026-09-13",
+          "views": 140886621,
+          "likes": 1367476,
+          "comments": 1707
         }
       ]
     },
@@ -8435,6 +8482,12 @@
           "date": "2026-09-12",
           "views": 16585516,
           "likes": 190466,
+          "comments": 407
+        },
+        {
+          "date": "2026-09-13",
+          "views": 16596879,
+          "likes": 190585,
           "comments": 407
         }
       ]
@@ -9335,6 +9388,12 @@
           "views": 20879262,
           "likes": 219317,
           "comments": 328
+        },
+        {
+          "date": "2026-09-13",
+          "views": 20892326,
+          "likes": 219419,
+          "comments": 329
         }
       ]
     },
@@ -10228,6 +10287,12 @@
           "views": 11930996,
           "likes": 154253,
           "comments": 543
+        },
+        {
+          "date": "2026-09-13",
+          "views": 11940593,
+          "likes": 154361,
+          "comments": 544
         }
       ]
     },
@@ -11127,6 +11192,12 @@
           "views": 28046571,
           "likes": 224724,
           "comments": 538
+        },
+        {
+          "date": "2026-09-13",
+          "views": 28055552,
+          "likes": 224834,
+          "comments": 538
         }
       ]
     },
@@ -11789,6 +11860,18 @@
       "type": "annotated",
       "related_annotation": "YouTube Music月間リスナー数が再度急増（4.07σ）、アーティファクトの継続",
       "detected_at": "2026-09-12T16:50:19.885363+00:00"
+    },
+    {
+      "date": "2026-09-13",
+      "metric": "ytm_monthly_listeners",
+      "value": 18600000,
+      "baseline_mean": 12174000,
+      "baseline_stddev": 2714135.3,
+      "delta": 6426000,
+      "score": 2.37,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-13T17:21:31.201545+00:00"
     }
   ]
 }

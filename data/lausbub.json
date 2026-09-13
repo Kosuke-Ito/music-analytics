@@ -6583,6 +6583,44 @@
       "ytm_subscribers": 19600,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 917580
+    },
+    {
+      "date": "2026-09-13",
+      "monthly_listeners": 104341,
+      "collected_at": "2026-09-13T17:15:33.671540+00:00",
+      "spotify_followers": 21583,
+      "youtube_subscribers": 19600,
+      "youtube_total_views": 922378,
+      "youtube_video_count": 34,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3635
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3342
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 2341
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1164
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1108
+        }
+      ],
+      "lastfm_listeners": 9176,
+      "lastfm_playcount": 55924
     }
   ],
   "annotations": [
@@ -6938,12 +6976,12 @@
         "url": "https://www.last.fm/music/%E6%9F%B4%E7%94%B0%E8%81%A1%E5%AD%90"
       },
       {
-        "name": "石野卓球",
-        "url": "https://www.last.fm/music/%E7%9F%B3%E9%87%8E%E5%8D%93%E7%90%83"
+        "name": "Muque",
+        "url": "https://www.last.fm/music/Muque"
       },
       {
-        "name": "tofubeats",
-        "url": "https://www.last.fm/music/tofubeats"
+        "name": "石野卓球",
+        "url": "https://www.last.fm/music/%E7%9F%B3%E9%87%8E%E5%8D%93%E7%90%83"
       }
     ]
   },
@@ -7619,6 +7657,18 @@
       "type": "annotated",
       "related_annotation": "メジャーデビューアルバム『society | lazy』（9/9リリース）の反響でYouTube総再生数が増加",
       "detected_at": "2026-09-12T16:44:42.379037+00:00"
+    },
+    {
+      "date": "2026-09-13",
+      "metric": "youtube_total_views",
+      "value": 922378,
+      "baseline_mean": 884165.9,
+      "baseline_stddev": 15285.8,
+      "delta": 38212,
+      "score": 2.5,
+      "type": "annotated",
+      "related_annotation": "メジャーデビューアルバム『society | lazy』（9/9リリース）の反響でYouTube総再生数が増加",
+      "detected_at": "2026-09-13T17:15:35.497264+00:00"
     }
   ],
   "song_performance": {
@@ -12225,6 +12275,12 @@
           "views": 22837200,
           "likes": 288260,
           "comments": 974
+        },
+        {
+          "date": "2026-09-13",
+          "views": 27653914,
+          "likes": 340324,
+          "comments": 1158
         }
       ]
     },
@@ -12236,6 +12292,12 @@
           "views": 19933724,
           "likes": 261670,
           "comments": 1013
+        },
+        {
+          "date": "2026-09-13",
+          "views": 23452159,
+          "likes": 299810,
+          "comments": 1141
         }
       ]
     },
@@ -12247,6 +12309,12 @@
           "views": 7316006,
           "likes": 96160,
           "comments": 1121
+        },
+        {
+          "date": "2026-09-13",
+          "views": 8248035,
+          "likes": 104267,
+          "comments": 1152
         }
       ]
     },
@@ -12258,6 +12326,12 @@
           "views": 12329667,
           "likes": 114004,
           "comments": 488
+        },
+        {
+          "date": "2026-09-13",
+          "views": 13106200,
+          "likes": 119936,
+          "comments": 555
         }
       ]
     },
@@ -12269,6 +12343,12 @@
           "views": 5827701,
           "likes": 54461,
           "comments": 191
+        },
+        {
+          "date": "2026-09-13",
+          "views": 6106929,
+          "likes": 56396,
+          "comments": 195
         }
       ]
     }

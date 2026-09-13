@@ -6563,6 +6563,47 @@
       "ytm_subscribers": 5510000,
       "ytm_monthly_listeners": 58900000,
       "ytm_total_views": 2998852391
+    },
+    {
+      "date": "2026-09-13",
+      "monthly_listeners": 7211620,
+      "collected_at": "2026-09-13T17:15:04.055710+00:00",
+      "spotify_followers": 5251702,
+      "youtube_subscribers": 5510000,
+      "youtube_total_views": 2998852391,
+      "youtube_video_count": 228,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 199235
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 177769
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 140679
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 94497
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 94398
+        }
+      ],
+      "lastfm_listeners": 18763,
+      "lastfm_playcount": 1599756,
+      "ytm_subscribers": 5510000,
+      "ytm_monthly_listeners": 58900000,
+      "ytm_total_views": 2998852391
     }
   ],
   "annotations": [
@@ -6964,9 +7005,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Penthouse",
-        "browse_id": "UCtxuA4L8LetaBpFTof5xOQw",
-        "subscribers": "1.71M"
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "1.27M"
+      },
+      {
+        "name": "Utada",
+        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
+        "subscribers": "2.55M"
       },
       {
         "name": "iri",
@@ -6974,9 +7020,14 @@
         "subscribers": "454K"
       },
       {
-        "name": "Utada",
-        "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "22M"
+        "name": "imase",
+        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
+        "subscribers": "69.7M"
+      },
+      {
+        "name": "Omoinotake",
+        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
+        "subscribers": "3.1M"
       },
       {
         "name": "Sheena Ringo",
@@ -6984,19 +7035,9 @@
         "subscribers": "13.1M"
       },
       {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "3.16M"
-      },
-      {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "1.27M"
-      },
-      {
-        "name": "Omoinotake",
-        "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "3.1M"
+        "name": "Motohiro Hata",
+        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
+        "subscribers": "18.1M"
       },
       {
         "name": "Friday Night Plans",
@@ -7009,9 +7050,9 @@
         "subscribers": "1.21M"
       },
       {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "21.3M"
+        "name": "Tokyo Incidents",
+        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
+        "subscribers": "3.59M"
       }
     ],
     "ytm_top_songs": [
@@ -7959,6 +8000,12 @@
           "views": 294269490,
           "likes": 3830301,
           "comments": 19613
+        },
+        {
+          "date": "2026-09-13",
+          "views": 294389219,
+          "likes": 3831643,
+          "comments": 19621
         }
       ]
     },
@@ -8929,6 +8976,12 @@
           "views": 78999111,
           "likes": 380040,
           "comments": 703
+        },
+        {
+          "date": "2026-09-13",
+          "views": 79052750,
+          "likes": 380298,
+          "comments": 703
         }
       ]
     },
@@ -9779,6 +9832,12 @@
           "views": 54393284,
           "likes": 398500,
           "comments": 1165
+        },
+        {
+          "date": "2026-09-13",
+          "views": 54423943,
+          "likes": 398671,
+          "comments": 1168
         }
       ]
     },
@@ -10557,6 +10616,12 @@
           "date": "2026-09-12",
           "views": 3790577,
           "likes": 23836,
+          "comments": 112
+        },
+        {
+          "date": "2026-09-13",
+          "views": 3815194,
+          "likes": 23967,
           "comments": 112
         }
       ]
@@ -11439,6 +11504,12 @@
           "views": 4313715,
           "likes": 29527,
           "comments": 183
+        },
+        {
+          "date": "2026-09-13",
+          "views": 4340623,
+          "likes": 29663,
+          "comments": 184
         }
       ]
     },
@@ -12484,6 +12555,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-12T16:44:14.421913+00:00"
+    },
+    {
+      "date": "2026-09-13",
+      "metric": "monthly_listeners",
+      "value": 7211620,
+      "baseline_mean": 7146744.0,
+      "baseline_stddev": 30410.4,
+      "delta": 64875,
+      "score": 2.13,
+      "type": "annotated",
+      "related_annotation": "東京ドーム『ピアノリサイタル』告知（9/9）の“手作りチラシ風”ビジュアルがSNSで話題化",
+      "detected_at": "2026-09-13T17:15:05.564737+00:00"
     }
   ]
 }
