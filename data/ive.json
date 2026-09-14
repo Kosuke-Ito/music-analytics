@@ -6430,6 +6430,47 @@
       "ytm_subscribers": 5240000,
       "ytm_monthly_listeners": 49000000,
       "ytm_total_views": 4870810380
+    },
+    {
+      "date": "2026-09-14",
+      "monthly_listeners": 5761708,
+      "collected_at": "2026-09-14T18:59:31.558908+00:00",
+      "spotify_followers": 7723977,
+      "youtube_subscribers": 5240000,
+      "youtube_total_views": 4873714256,
+      "youtube_video_count": 2604,
+      "top_cities": [
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 120653
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 118530
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 114850
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 80657
+        },
+        {
+          "city": "Seoul",
+          "country": "KR",
+          "listeners": 77842
+        }
+      ],
+      "lastfm_listeners": 1112543,
+      "lastfm_playcount": 171277338,
+      "ytm_subscribers": 5240000,
+      "ytm_monthly_listeners": 49000000,
+      "ytm_total_views": 4873714256
     }
   ],
   "annotations": [
@@ -6717,14 +6758,9 @@
         "subscribers": "80.8M"
       },
       {
-        "name": "NMIXX",
-        "browse_id": "UC_Cx288SDUD9liYn7CiJLAA",
-        "subscribers": "20.2M"
-      },
-      {
-        "name": "NAYEON",
-        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
-        "subscribers": "339K"
+        "name": "IZ*ONE",
+        "browse_id": "UCG81UKNsFg9Perf0uPQOsQw",
+        "subscribers": "4.48M"
       },
       {
         "name": "I.O.I",
@@ -6732,24 +6768,29 @@
         "subscribers": "75.8K"
       },
       {
-        "name": "LE SSERAFIM",
-        "browse_id": "UC-clMkTZa7k-FxmNgMjoCgQ",
-        "subscribers": "185M"
+        "name": "izna",
+        "browse_id": "UC9Om0aDfMMzXtElCJWF41FQ",
+        "subscribers": "5.43M"
       },
       {
-        "name": "LEE CHAEYEON",
-        "browse_id": "UCAAUjXlrYZSOX5xGeahfQyw",
-        "subscribers": "2.04M"
+        "name": "NAYEON",
+        "browse_id": "UCBznuF9zIIbRS9Y1Yu4yOhg",
+        "subscribers": "339K"
       },
       {
-        "name": "Kep1er",
-        "browse_id": "UCAKvDuIX3m1AUdPpDSqV_3w",
-        "subscribers": "3.09M"
+        "name": "VIVIZ",
+        "browse_id": "UC4FICdicYyZH0zpEzHFZpMw",
+        "subscribers": "4.41M"
       },
       {
-        "name": "IZ*ONE",
-        "browse_id": "UCG81UKNsFg9Perf0uPQOsQw",
-        "subscribers": "4.48M"
+        "name": "NMIXX",
+        "browse_id": "UC_Cx288SDUD9liYn7CiJLAA",
+        "subscribers": "20.2M"
+      },
+      {
+        "name": "TWICE",
+        "browse_id": "UCAq0pFGa2w9SjxOq0ZxKVIw",
+        "subscribers": "140M"
       }
     ],
     "ytm_top_songs": [
@@ -7703,6 +7744,12 @@
           "views": 14816346,
           "likes": 114581,
           "comments": 533
+        },
+        {
+          "date": "2026-09-14",
+          "views": 14876412,
+          "likes": 114979,
+          "comments": 528
         }
       ]
     },
@@ -9525,6 +9572,12 @@
           "views": 163665130,
           "likes": 636470,
           "comments": 2724
+        },
+        {
+          "date": "2026-09-14",
+          "views": 163726677,
+          "likes": 636751,
+          "comments": 2724
         }
       ]
     },
@@ -10442,6 +10495,12 @@
           "views": 154314322,
           "likes": 628069,
           "comments": 1165
+        },
+        {
+          "date": "2026-09-14",
+          "views": 154373996,
+          "likes": 628331,
+          "comments": 1163
         }
       ]
     },
@@ -10524,6 +10583,12 @@
           "date": "2026-09-13",
           "views": 34474468,
           "likes": 156453,
+          "comments": 923
+        },
+        {
+          "date": "2026-09-14",
+          "views": 34505289,
+          "likes": 156566,
           "comments": 923
         }
       ]
@@ -11382,6 +11447,12 @@
           "views": 314117296,
           "likes": 777144,
           "comments": 1920
+        },
+        {
+          "date": "2026-09-14",
+          "views": 314197008,
+          "likes": 777322,
+          "comments": 1920
         }
       ]
     },
@@ -11541,6 +11612,18 @@
       "type": "annotated",
       "related_annotation": "ユジン・ウォニョンの誕生日関連コンテンツ拡散によるチャンネル総再生数の緩やかな増加",
       "detected_at": "2026-09-13T17:10:25.120103+00:00"
+    },
+    {
+      "date": "2026-09-14",
+      "metric": "youtube_total_views",
+      "value": 4873714256,
+      "baseline_mean": 4834885510.5,
+      "baseline_stddev": 18876705.3,
+      "delta": 38828745,
+      "score": 2.06,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-14T18:59:32.591309+00:00"
     }
   ]
 }

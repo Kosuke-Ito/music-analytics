@@ -6318,6 +6318,47 @@
       "ytm_subscribers": 875000,
       "ytm_monthly_listeners": 2930000,
       "ytm_total_views": 603241234
+    },
+    {
+      "date": "2026-09-14",
+      "monthly_listeners": 1834206,
+      "collected_at": "2026-09-14T19:11:38.125225+00:00",
+      "spotify_followers": 1533314,
+      "youtube_subscribers": 875000,
+      "youtube_total_views": 603241234,
+      "youtube_video_count": 147,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 93164
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 82298
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 64123
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35858
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 34154
+        }
+      ],
+      "lastfm_listeners": 59470,
+      "lastfm_playcount": 1689636,
+      "ytm_subscribers": 875000,
+      "ytm_monthly_listeners": 2930000,
+      "ytm_total_views": 603241234
     }
   ],
   "annotations": [
@@ -6725,19 +6766,39 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Second backer",
-        "browse_id": "UCZgg9_VmBAYupqk5ObECmng",
-        "subscribers": "1.9M"
-      },
-      {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
         "subscribers": "4.75M"
       },
       {
+        "name": "My Hair Is Bad",
+        "browse_id": "UCzVlNgM2GEd61K7fbT1kxBg",
+        "subscribers": "968K"
+      },
+      {
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "4.28M"
+      },
+      {
+        "name": "macaroni enpitsu",
+        "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
+        "subscribers": "5.68M"
+      },
+      {
         "name": "shytaupe",
         "browse_id": "UClT2HzITnq_4MQoY99Gf6Hw",
         "subscribers": "1.35M"
+      },
+      {
+        "name": "yangskinny",
+        "browse_id": "UCHxOB06rp3GQXFcPlIfxJOg",
+        "subscribers": "2.89M"
+      },
+      {
+        "name": "CreepHyp",
+        "browse_id": "UC0iyL2tAxXXuwfx8VVvCw1A",
+        "subscribers": "1.68M"
       },
       {
         "name": "FOMARE",
@@ -6750,29 +6811,9 @@
         "subscribers": "4.46M"
       },
       {
-        "name": "Garakuta",
-        "browse_id": "UCPefsEntoGzOqN5okHtDX9g",
-        "subscribers": "58K"
-      },
-      {
-        "name": "tokyo kimiga inai machi",
-        "browse_id": "UCcMmtei7oDCXplPI2g9ssqg",
-        "subscribers": "2.47K"
-      },
-      {
-        "name": "mihoro",
-        "browse_id": "UC56rnwy44D76ajnaJ7zhgZg",
-        "subscribers": "110K"
-      },
-      {
-        "name": "KALMA",
-        "browse_id": "UCyqvlYYpThgO5eHqgrF6B9A",
-        "subscribers": "85.7K"
-      },
-      {
-        "name": "Brown Basket",
-        "browse_id": "UCl8nXLAslEb0lbHmZZv_7gA",
-        "subscribers": "3.73K"
+        "name": "Second backer",
+        "browse_id": "UCZgg9_VmBAYupqk5ObECmng",
+        "subscribers": "1.9M"
       }
     ],
     "ytm_top_songs": [
@@ -7720,6 +7761,12 @@
           "views": 5968672,
           "likes": 25643,
           "comments": 55
+        },
+        {
+          "date": "2026-09-14",
+          "views": 5988995,
+          "likes": 25703,
+          "comments": 55
         }
       ]
     },
@@ -8630,6 +8677,12 @@
           "date": "2026-09-13",
           "views": 6463385,
           "likes": 29403,
+          "comments": 54
+        },
+        {
+          "date": "2026-09-14",
+          "views": 6483067,
+          "likes": 29467,
           "comments": 54
         }
       ]
@@ -9554,6 +9607,12 @@
           "views": 3481612,
           "likes": 17677,
           "comments": 39
+        },
+        {
+          "date": "2026-09-14",
+          "views": 3492116,
+          "likes": 17725,
+          "comments": 39
         }
       ]
     },
@@ -10465,6 +10524,12 @@
           "views": 3899877,
           "likes": 21958,
           "comments": 46
+        },
+        {
+          "date": "2026-09-14",
+          "views": 3910264,
+          "likes": 21992,
+          "comments": 46
         }
       ]
     },
@@ -11201,6 +11266,12 @@
           "date": "2026-09-13",
           "views": 3165593,
           "likes": 13133,
+          "comments": 30
+        },
+        {
+          "date": "2026-09-14",
+          "views": 3175832,
+          "likes": 13163,
           "comments": 30
         }
       ]
@@ -12439,6 +12510,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-13T17:22:47.669517+00:00"
+    },
+    {
+      "date": "2026-09-14",
+      "metric": "ytm_monthly_listeners",
+      "value": 2930000,
+      "baseline_mean": 2564000,
+      "baseline_stddev": 168930.0,
+      "delta": 366000,
+      "score": 2.17,
+      "type": "annotated",
+      "related_annotation": "YouTube Music月間リスナー数の急増はデータ収集アーティファクトの継続（収束傾向）",
+      "detected_at": "2026-09-14T19:11:39.710606+00:00"
     }
   ]
 }
