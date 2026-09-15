@@ -6662,6 +6662,47 @@
       "ytm_subscribers": 19600,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 922378
+    },
+    {
+      "date": "2026-09-15",
+      "monthly_listeners": 107805,
+      "collected_at": "2026-09-15T17:56:42.637600+00:00",
+      "spotify_followers": 21656,
+      "youtube_subscribers": 19600,
+      "youtube_total_views": 922378,
+      "youtube_video_count": 34,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 3816
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3445
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 2423
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1200
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 1150
+        }
+      ],
+      "lastfm_listeners": 9221,
+      "lastfm_playcount": 56495,
+      "ytm_subscribers": 19600,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 922378
     }
   ],
   "annotations": [
@@ -6990,16 +7031,16 @@
         "video_id": "QHb9J4x7Dpo"
       },
       {
+        "title": "lazy",
+        "video_id": "sKWGoXlXWTo"
+      },
+      {
         "title": "I SYNC",
         "video_id": "WNuhOOwtvH0"
       },
       {
         "title": "golden lighter",
         "video_id": "4lbafutZHSU"
-      },
-      {
-        "title": "Wind City",
-        "video_id": "ZVGTzh2JyiY"
       }
     ],
     "ytm_description": "LAUSBUB is newwave & Techno pop band from Sapporo, Japan, formed by Rico and Mei.",
@@ -7722,6 +7763,30 @@
       "type": "annotated",
       "related_annotation": "メジャーデビューアルバム『society | lazy』（9/9リリース）の反響でYouTube総再生数が増加",
       "detected_at": "2026-09-14T19:04:32.893101+00:00"
+    },
+    {
+      "date": "2026-09-15",
+      "metric": "monthly_listeners",
+      "value": 107805,
+      "baseline_mean": 102033.0,
+      "baseline_stddev": 2532.7,
+      "delta": 5772,
+      "score": 2.28,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-15T17:56:43.736031+00:00"
+    },
+    {
+      "date": "2026-09-15",
+      "metric": "youtube_total_views",
+      "value": 922378,
+      "baseline_mean": 888131.8,
+      "baseline_stddev": 16879.7,
+      "delta": 34246,
+      "score": 2.03,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-15T17:56:43.736031+00:00"
     }
   ],
   "song_performance": {
@@ -8643,6 +8708,12 @@
         {
           "date": "2026-09-14",
           "views": 5997,
+          "likes": 111,
+          "comments": 1
+        },
+        {
+          "date": "2026-09-15",
+          "views": 6024,
           "likes": 111,
           "comments": 1
         }
@@ -9568,6 +9639,12 @@
           "views": 8485,
           "likes": 195,
           "comments": 6
+        },
+        {
+          "date": "2026-09-15",
+          "views": 8494,
+          "likes": 195,
+          "comments": 6
         }
       ]
     },
@@ -10490,6 +10567,12 @@
           "date": "2026-09-14",
           "views": 24681,
           "likes": 224,
+          "comments": 2
+        },
+        {
+          "date": "2026-09-15",
+          "views": 24703,
+          "likes": 225,
           "comments": 2
         }
       ]
@@ -12347,6 +12430,12 @@
           "views": 11054,
           "likes": 186,
           "comments": 2
+        },
+        {
+          "date": "2026-09-15",
+          "views": 11111,
+          "likes": 186,
+          "comments": 2
         }
       ]
     },
@@ -12432,6 +12521,17 @@
           "views": 6106929,
           "likes": 56396,
           "comments": 195
+        }
+      ]
+    },
+    "sKWGoXlXWTo": {
+      "title": "lazy",
+      "history": [
+        {
+          "date": "2026-09-15",
+          "views": 511,
+          "likes": 8,
+          "comments": 0
         }
       ]
     }

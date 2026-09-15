@@ -6356,6 +6356,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 4780000,
       "ytm_total_views": 617253150
+    },
+    {
+      "date": "2026-09-15",
+      "monthly_listeners": 883151,
+      "collected_at": "2026-09-15T18:04:26.967127+00:00",
+      "spotify_followers": 987809,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 617495555,
+      "youtube_video_count": 463,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20590
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13759
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12102
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 11265
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8256
+        }
+      ],
+      "lastfm_listeners": 9004,
+      "lastfm_playcount": 415337,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 4780000,
+      "ytm_total_views": 617495555
     }
   ],
   "metadata": {
@@ -6390,31 +6431,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "WEDNESDAY CAMPANELLA",
-        "browse_id": "UC3N2b3AuRDfYKn0ttW1Vb9Q",
-        "subscribers": "2.35M"
-      },
-      {
-        "name": "Sheena Ringo",
-        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
-        "subscribers": "13.1M"
-      },
-      {
-        "name": "DAOKO",
-        "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
-        "subscribers": "6.06M"
-      },
-      {
-        "name": "ALI",
-        "browse_id": "UCcM2nwYSXoS0pRpljTefmpg",
-        "subscribers": "7.4M"
-      },
-      {
-        "name": "AiNA THE END",
-        "browse_id": "UCr_slw4yAD3LI3KQrmnRD8Q",
-        "subscribers": "7.93M"
-      },
-      {
         "name": "SHISHIDO KAVKA",
         "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
         "subscribers": "103K"
@@ -6438,6 +6454,31 @@
         "name": "Dean Fujioka",
         "browse_id": "UCzNkz-qhUmxdCrhy0A47sIA",
         "subscribers": "126K"
+      },
+      {
+        "name": "Akiko Wada",
+        "browse_id": "UC-o0qVSpZLpHmsOTh66YfXw",
+        "subscribers": "472K"
+      },
+      {
+        "name": "CHAI",
+        "browse_id": "UCvvmXmIVYQmlzj8ntRMZKWg",
+        "subscribers": "106K"
+      },
+      {
+        "name": "Rinne Amano",
+        "browse_id": "UCilIfSkrtkGFRsHWTBepAAw",
+        "subscribers": "5.29K"
+      },
+      {
+        "name": "Team HINOI",
+        "browse_id": "UCHdy23WpsQCSy16ZyFraajQ",
+        "subscribers": "1.58K"
+      },
+      {
+        "name": "Sakura Gakuin",
+        "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
+        "subscribers": "7.89K"
       }
     ],
     "ytm_top_songs": [
@@ -7391,6 +7432,12 @@
           "views": 19930558,
           "likes": 283153,
           "comments": 433
+        },
+        {
+          "date": "2026-09-15",
+          "views": 19938567,
+          "likes": 283249,
+          "comments": 433
         }
       ]
     },
@@ -8319,6 +8366,12 @@
           "date": "2026-09-14",
           "views": 5532517,
           "likes": 32636,
+          "comments": 134
+        },
+        {
+          "date": "2026-09-15",
+          "views": 5533843,
+          "likes": 32642,
           "comments": 134
         }
       ]
@@ -9249,6 +9302,12 @@
           "views": 2363645,
           "likes": 38766,
           "comments": 116
+        },
+        {
+          "date": "2026-09-15",
+          "views": 2366064,
+          "likes": 38793,
+          "comments": 116
         }
       ]
     },
@@ -9847,6 +9906,12 @@
           "views": 2258696,
           "likes": 31608,
           "comments": 137
+        },
+        {
+          "date": "2026-09-15",
+          "views": 2259668,
+          "likes": 31624,
+          "comments": 137
         }
       ]
     },
@@ -9875,6 +9940,12 @@
           "date": "2026-09-14",
           "views": 932211,
           "likes": 14077,
+          "comments": 49
+        },
+        {
+          "date": "2026-09-15",
+          "views": 933399,
+          "likes": 14102,
           "comments": 49
         }
       ]
@@ -12322,6 +12393,18 @@
       "type": "annotated",
       "related_annotation": "YouTube総再生数の急増はデータ収集側のアーティファクトの継続",
       "detected_at": "2026-09-14T19:12:23.320894+00:00"
+    },
+    {
+      "date": "2026-09-15",
+      "metric": "youtube_total_views",
+      "value": 617495555,
+      "baseline_mean": 613641052,
+      "baseline_stddev": 1812081.3,
+      "delta": 3854503,
+      "score": 2.13,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-15T18:04:28.508705+00:00"
     }
   ]
 }

@@ -6645,6 +6645,47 @@
       "ytm_subscribers": 5510000,
       "ytm_monthly_listeners": 58900000,
       "ytm_total_views": 2998852391
+    },
+    {
+      "date": "2026-09-15",
+      "monthly_listeners": 7267410,
+      "collected_at": "2026-09-15T17:56:09.910694+00:00",
+      "spotify_followers": 5255237,
+      "youtube_subscribers": 5520000,
+      "youtube_total_views": 2998852391,
+      "youtube_video_count": 228,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 199431
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 180102
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 142549
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 95432
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 94934
+        }
+      ],
+      "lastfm_listeners": 18770,
+      "lastfm_playcount": 1600641,
+      "ytm_subscribers": 5520000,
+      "ytm_monthly_listeners": 58900000,
+      "ytm_total_views": 2998852391
     }
   ],
   "annotations": [
@@ -7038,13 +7079,18 @@
       }
     ],
     "lastfm_tags": [
-      "soul",
       "j-pop",
-      "rnb",
+      "soul",
       "japan",
+      "rnb",
       "male vocalists"
     ],
     "ytm_related_artists": [
+      {
+        "name": "TOMOO",
+        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
+        "subscribers": "1.27M"
+      },
       {
         "name": "iri",
         "browse_id": "UCtlXP5iI7TgKj_BI636L8Qw",
@@ -7056,19 +7102,24 @@
         "subscribers": "22M"
       },
       {
-        "name": "Ayumu Imazu",
-        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "3.16M"
-      },
-      {
-        "name": "TOMOO",
-        "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "1.27M"
-      },
-      {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
         "subscribers": "3.1M"
+      },
+      {
+        "name": "Friday Night Plans",
+        "browse_id": "UCvu8-LP7Xsgt0cYzhBdUN1Q",
+        "subscribers": "253K"
+      },
+      {
+        "name": "Tatsuro Yamashita",
+        "browse_id": "UCRissFBsWNatZGatPn5ZqRQ",
+        "subscribers": "1.21M"
+      },
+      {
+        "name": "Ayumu Imazu",
+        "browse_id": "UCgnn0-i6athVEYfjueyArqw",
+        "subscribers": "3.16M"
       },
       {
         "name": "Vaundy",
@@ -7081,19 +7132,9 @@
         "subscribers": "18.1M"
       },
       {
-        "name": "imase",
-        "browse_id": "UCw1vXKD-vMvGcy2gvMMAFsQ",
-        "subscribers": "69.7M"
-      },
-      {
         "name": "Sheena Ringo",
         "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
         "subscribers": "13.1M"
-      },
-      {
-        "name": "星野源 Gen Hoshino",
-        "browse_id": "UCUrcaHP1Qrlrxoxg9z1jlmg",
-        "subscribers": "11.5M"
       }
     ],
     "ytm_top_songs": [
@@ -8053,6 +8094,12 @@
           "views": 294518190,
           "likes": 3832979,
           "comments": 19615
+        },
+        {
+          "date": "2026-09-15",
+          "views": 294627230,
+          "likes": 3834246,
+          "comments": 19617
         }
       ]
     },
@@ -9035,6 +9082,12 @@
           "views": 79107183,
           "likes": 380536,
           "comments": 689
+        },
+        {
+          "date": "2026-09-15",
+          "views": 79155573,
+          "likes": 380804,
+          "comments": 690
         }
       ]
     },
@@ -9897,6 +9950,12 @@
           "views": 54458634,
           "likes": 398842,
           "comments": 1168
+        },
+        {
+          "date": "2026-09-15",
+          "views": 54488748,
+          "likes": 399007,
+          "comments": 1168
         }
       ]
     },
@@ -10687,6 +10746,12 @@
           "date": "2026-09-14",
           "views": 3840477,
           "likes": 24088,
+          "comments": 112
+        },
+        {
+          "date": "2026-09-15",
+          "views": 3863615,
+          "likes": 24193,
           "comments": 112
         }
       ]
@@ -11581,6 +11646,12 @@
           "views": 4368953,
           "likes": 29794,
           "comments": 184
+        },
+        {
+          "date": "2026-09-15",
+          "views": 4393107,
+          "likes": 29936,
+          "comments": 185
         }
       ]
     },
@@ -12650,6 +12721,18 @@
       "type": "annotated",
       "related_annotation": "東京ドーム『ピアノリサイタル』告知（9/9）の“手作りチラシ風”ビジュアルがSNSで話題化",
       "detected_at": "2026-09-14T19:04:04.456577+00:00"
+    },
+    {
+      "date": "2026-09-15",
+      "metric": "monthly_listeners",
+      "value": 7267410,
+      "baseline_mean": 7153953.6,
+      "baseline_stddev": 36194.3,
+      "delta": 113456,
+      "score": 3.13,
+      "type": "annotated",
+      "related_annotation": "東京ドーム『ピアノリサイタル』告知（9/9）の“手作りチラシ風”ビジュアルがSNSで話題化",
+      "detected_at": "2026-09-15T17:56:15.754227+00:00"
     }
   ]
 }
