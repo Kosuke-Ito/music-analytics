@@ -6685,6 +6685,47 @@
       "ytm_subscribers": 3650000,
       "ytm_monthly_listeners": 74800000,
       "ytm_total_views": 1404051383
+    },
+    {
+      "date": "2026-09-16",
+      "monthly_listeners": 21377201,
+      "collected_at": "2026-09-16T18:01:05.227210+00:00",
+      "spotify_followers": 11007907,
+      "youtube_subscribers": 3650000,
+      "youtube_total_views": 1418230799,
+      "youtube_video_count": 546,
+      "top_cities": [
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 264041
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 238856
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 222337
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 204483
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 197749
+        }
+      ],
+      "lastfm_listeners": 2517591,
+      "lastfm_playcount": 291780389,
+      "ytm_subscribers": 3650000,
+      "ytm_monthly_listeners": 74800000,
+      "ytm_total_views": 1418230799
     }
   ],
   "annotations": [
@@ -7036,14 +7077,14 @@
         "subscribers": "14.7M"
       },
       {
-        "name": "Faye Webster",
-        "browse_id": "UCdKJ6iMnCsPcTDB5p510Ztg",
-        "subscribers": "5.16M"
-      },
-      {
         "name": "The Marías",
         "browse_id": "UCVV5M4OEFsKnB9HBhwOhHbA",
         "subscribers": "60.6M"
+      },
+      {
+        "name": "Faye Webster",
+        "browse_id": "UCdKJ6iMnCsPcTDB5p510Ztg",
+        "subscribers": "5.16M"
       },
       {
         "name": "Lizzy McAlpine",
@@ -8044,6 +8085,12 @@
           "views": 91320740,
           "likes": 1304646,
           "comments": 9365
+        },
+        {
+          "date": "2026-09-16",
+          "views": 91452021,
+          "likes": 1306168,
+          "comments": 9378
         }
       ]
     },
@@ -8985,6 +9032,12 @@
           "views": 23338195,
           "likes": 329871,
           "comments": 1443
+        },
+        {
+          "date": "2026-09-16",
+          "views": 23404990,
+          "likes": 330691,
+          "comments": 1444
         }
       ]
     },
@@ -9926,6 +9979,12 @@
           "views": 26149041,
           "likes": 286370,
           "comments": 862
+        },
+        {
+          "date": "2026-09-16",
+          "views": 26186663,
+          "likes": 286713,
+          "comments": 865
         }
       ]
     },
@@ -10645,6 +10704,12 @@
           "views": 51348851,
           "likes": 545105,
           "comments": 1719
+        },
+        {
+          "date": "2026-09-16",
+          "views": 51399290,
+          "likes": 545547,
+          "comments": 1722
         }
       ]
     },
@@ -11818,6 +11883,12 @@
           "views": 6454303,
           "likes": 82523,
           "comments": 1811
+        },
+        {
+          "date": "2026-09-16",
+          "views": 6477133,
+          "likes": 82794,
+          "comments": 1822
         }
       ]
     }
@@ -12482,6 +12553,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-15T17:59:48.751027+00:00"
+    },
+    {
+      "date": "2026-09-16",
+      "metric": "monthly_listeners",
+      "value": 21377201,
+      "baseline_mean": 20986926.6,
+      "baseline_stddev": 139976.8,
+      "delta": 390274,
+      "score": 2.79,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-16T18:01:06.262201+00:00"
+    },
+    {
+      "date": "2026-09-16",
+      "metric": "youtube_total_views",
+      "value": 1418230799,
+      "baseline_mean": 1386412756.7,
+      "baseline_stddev": 13348342.5,
+      "delta": 31818042,
+      "score": 2.38,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-16T18:01:06.262201+00:00"
     }
   ]
 }

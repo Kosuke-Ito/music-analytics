@@ -6397,6 +6397,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 4780000,
       "ytm_total_views": 617495555
+    },
+    {
+      "date": "2026-09-16",
+      "monthly_listeners": 883547,
+      "collected_at": "2026-09-16T18:05:49.345857+00:00",
+      "spotify_followers": 987875,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 618051528,
+      "youtube_video_count": 464,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20591
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13752
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 12036
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 11307
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8311
+        }
+      ],
+      "lastfm_listeners": 9006,
+      "lastfm_playcount": 415431,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 4780000,
+      "ytm_total_views": 618051528
     }
   ],
   "metadata": {
@@ -6431,6 +6472,21 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Rinne Amano",
+        "browse_id": "UCilIfSkrtkGFRsHWTBepAAw",
+        "subscribers": "5.29K"
+      },
+      {
+        "name": "ALI",
+        "browse_id": "UCcM2nwYSXoS0pRpljTefmpg",
+        "subscribers": "7.4M"
+      },
+      {
+        "name": "DAOKO",
+        "browse_id": "UCN6CRLFQD6VmYzSE2zsIjyw",
+        "subscribers": "6.06M"
+      },
+      {
         "name": "SHISHIDO KAVKA",
         "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
         "subscribers": "103K"
@@ -6464,21 +6520,6 @@
         "name": "CHAI",
         "browse_id": "UCvvmXmIVYQmlzj8ntRMZKWg",
         "subscribers": "106K"
-      },
-      {
-        "name": "Rinne Amano",
-        "browse_id": "UCilIfSkrtkGFRsHWTBepAAw",
-        "subscribers": "5.29K"
-      },
-      {
-        "name": "Team HINOI",
-        "browse_id": "UCHdy23WpsQCSy16ZyFraajQ",
-        "subscribers": "1.58K"
-      },
-      {
-        "name": "Sakura Gakuin",
-        "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
-        "subscribers": "7.89K"
       }
     ],
     "ytm_top_songs": [
@@ -7438,6 +7479,12 @@
           "views": 19938567,
           "likes": 283249,
           "comments": 433
+        },
+        {
+          "date": "2026-09-16",
+          "views": 19947953,
+          "likes": 283374,
+          "comments": 433
         }
       ]
     },
@@ -8372,6 +8419,12 @@
           "date": "2026-09-15",
           "views": 5533843,
           "likes": 32642,
+          "comments": 134
+        },
+        {
+          "date": "2026-09-16",
+          "views": 5535214,
+          "likes": 32654,
           "comments": 134
         }
       ]
@@ -9308,6 +9361,12 @@
           "views": 2366064,
           "likes": 38793,
           "comments": 116
+        },
+        {
+          "date": "2026-09-16",
+          "views": 2368561,
+          "likes": 38820,
+          "comments": 116
         }
       ]
     },
@@ -9912,6 +9971,12 @@
           "views": 2259668,
           "likes": 31624,
           "comments": 137
+        },
+        {
+          "date": "2026-09-16",
+          "views": 2260751,
+          "likes": 31641,
+          "comments": 137
         }
       ]
     },
@@ -9946,6 +10011,12 @@
           "date": "2026-09-15",
           "views": 933399,
           "likes": 14102,
+          "comments": 49
+        },
+        {
+          "date": "2026-09-16",
+          "views": 934668,
+          "likes": 14114,
           "comments": 49
         }
       ]
@@ -12414,6 +12485,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-15T18:04:28.508705+00:00"
+    },
+    {
+      "date": "2026-09-16",
+      "metric": "youtube_total_views",
+      "value": 618051528,
+      "baseline_mean": 613861395.1,
+      "baseline_stddev": 1864720.1,
+      "delta": 4190132,
+      "score": 2.25,
+      "type": "annotated",
+      "related_annotation": "数値上の軽微な上昇を検知（原因不明）",
+      "detected_at": "2026-09-16T18:05:51.402566+00:00"
     }
   ]
 }

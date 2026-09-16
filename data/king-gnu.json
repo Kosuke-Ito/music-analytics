@@ -6697,6 +6697,47 @@
       "ytm_subscribers": 3010000,
       "ytm_monthly_listeners": 50800000,
       "ytm_total_views": 3006095163
+    },
+    {
+      "date": "2026-09-16",
+      "monthly_listeners": 6485384,
+      "collected_at": "2026-09-16T17:50:43.402729+00:00",
+      "spotify_followers": 4616539,
+      "youtube_subscribers": 3010000,
+      "youtube_total_views": 3018374747,
+      "youtube_video_count": 154,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 177434
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 151222
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 104539
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 75219
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 64766
+        }
+      ],
+      "lastfm_listeners": 587388,
+      "lastfm_playcount": 22043343,
+      "ytm_subscribers": 3010000,
+      "ytm_monthly_listeners": 50800000,
+      "ytm_total_views": 3018374747
     }
   ],
   "annotations": [
@@ -7152,19 +7193,14 @@
         "subscribers": "7.01M"
       },
       {
+        "name": "Sheena Ringo",
+        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
+        "subscribers": "13.1M"
+      },
+      {
         "name": "Utada",
         "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
         "subscribers": "22M"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "54.6M"
-      },
-      {
-        "name": "Soushi Sakiyama",
-        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
-        "subscribers": "1.73M"
       },
       {
         "name": "Omoinotake",
@@ -7172,14 +7208,14 @@
         "subscribers": "3.1M"
       },
       {
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "54.6M"
+      },
+      {
         "name": "Radwimps",
         "browse_id": "UCT418-ChE6rgGuQlqzFsKZA",
         "subscribers": "114M"
-      },
-      {
-        "name": "Sheena Ringo",
-        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
-        "subscribers": "13.1M"
       },
       {
         "name": "jo0ji",
@@ -7187,14 +7223,19 @@
         "subscribers": "3.35M"
       },
       {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "40M"
-      },
-      {
         "name": "Masaki Suda",
         "browse_id": "UCkY6iS6aXuwSbquSCcDODGQ",
         "subscribers": "5.08M"
+      },
+      {
+        "name": "Soushi Sakiyama",
+        "browse_id": "UC5Z8k87qMNg5MoHch4M7s2A",
+        "subscribers": "1.73M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "21.3M"
       }
     ],
     "ytm_top_songs": [
@@ -8160,6 +8201,12 @@
           "views": 49526636,
           "likes": 371349,
           "comments": 7100
+        },
+        {
+          "date": "2026-09-16",
+          "views": 49648750,
+          "likes": 371979,
+          "comments": 7109
         }
       ]
     },
@@ -9101,6 +9148,12 @@
           "views": 53224424,
           "likes": 367693,
           "comments": 1962
+        },
+        {
+          "date": "2026-09-16",
+          "views": 53263325,
+          "likes": 367932,
+          "comments": 1961
         }
       ]
     },
@@ -10042,6 +10095,12 @@
           "views": 18433425,
           "likes": 67773,
           "comments": 175
+        },
+        {
+          "date": "2026-09-16",
+          "views": 18450920,
+          "likes": 67807,
+          "comments": 175
         }
       ]
     },
@@ -10982,6 +11041,12 @@
           "date": "2026-09-15",
           "views": 26051213,
           "likes": 108680,
+          "comments": 290
+        },
+        {
+          "date": "2026-09-16",
+          "views": 26069798,
+          "likes": 108738,
           "comments": 290
         }
       ]
@@ -11929,6 +11994,12 @@
           "views": 1273642,
           "likes": 24533,
           "comments": 414
+        },
+        {
+          "date": "2026-09-16",
+          "views": 1287642,
+          "likes": 24648,
+          "comments": 416
         }
       ]
     }
@@ -12605,6 +12676,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-13T17:08:26.195199+00:00"
+    },
+    {
+      "date": "2026-09-16",
+      "metric": "youtube_total_views",
+      "value": 3018374747,
+      "baseline_mean": 2984523981.5,
+      "baseline_stddev": 13417061.4,
+      "delta": 33850765,
+      "score": 2.52,
+      "type": "annotated",
+      "related_annotation": "YouTube総再生数の急増が継続（2.06σ、データ収集アーティファクト）",
+      "detected_at": "2026-09-16T17:50:44.452446+00:00"
     }
   ]
 }

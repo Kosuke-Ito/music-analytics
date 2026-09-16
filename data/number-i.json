@@ -6394,6 +6394,47 @@
       "ytm_subscribers": 1040000,
       "ytm_monthly_listeners": 1390000,
       "ytm_total_views": 949691608
+    },
+    {
+      "date": "2026-09-16",
+      "monthly_listeners": 921796,
+      "collected_at": "2026-09-16T18:06:18.509718+00:00",
+      "spotify_followers": 381234,
+      "youtube_subscribers": 1040000,
+      "youtube_total_views": 951157689,
+      "youtube_video_count": 504,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 41191
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 37689
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 30286
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 14574
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 14474
+        }
+      ],
+      "lastfm_listeners": 23924,
+      "lastfm_playcount": 762404,
+      "ytm_subscribers": 1040000,
+      "ytm_monthly_listeners": 1390000,
+      "ytm_total_views": 951157689
     }
   ],
   "metadata": {
@@ -6428,19 +6469,24 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "King & Prince",
+        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
+        "subscribers": "5.98M"
+      },
+      {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
         "subscribers": "2.06M"
       },
       {
+        "name": "Travis Japan",
+        "browse_id": "UC0CJ4qxy9mgHNhO2d_sqBuw",
+        "subscribers": "1.3M"
+      },
+      {
         "name": "BE:FIRST",
         "browse_id": "UCHC-P0R4AXb_zlCrT83kQXw",
         "subscribers": "6.15M"
-      },
-      {
-        "name": "King & Prince",
-        "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "5.98M"
       },
       {
         "name": "timelesz",
@@ -6453,16 +6499,6 @@
         "subscribers": "22.6M"
       },
       {
-        "name": "Travis Japan",
-        "browse_id": "UC0CJ4qxy9mgHNhO2d_sqBuw",
-        "subscribers": "1.3M"
-      },
-      {
-        "name": "FANTASTICS from EXILE TRIBE",
-        "browse_id": "UCame-clC-0couNMsqr_U21w",
-        "subscribers": "1.05M"
-      },
-      {
         "name": "Naniwa Danshi",
         "browse_id": "UC2czdqI9sjz5kz73sU3EGbQ",
         "subscribers": "3.13M"
@@ -6473,9 +6509,14 @@
         "subscribers": "2.17M"
       },
       {
-        "name": "INI",
-        "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
-        "subscribers": "5.9M"
+        "name": "FANTASTICS from EXILE TRIBE",
+        "browse_id": "UCame-clC-0couNMsqr_U21w",
+        "subscribers": "1.05M"
+      },
+      {
+        "name": "SixTONES",
+        "browse_id": "UCKlEziFhgHJhkBkZg8Hp6tw",
+        "subscribers": "16.8M"
       }
     ],
     "ytm_top_songs": [
@@ -9647,6 +9688,12 @@
           "views": 106001,
           "likes": 1015,
           "comments": 14
+        },
+        {
+          "date": "2026-09-16",
+          "views": 107132,
+          "likes": 1022,
+          "comments": 14
         }
       ]
     },
@@ -9891,6 +9938,12 @@
           "views": 159335,
           "likes": 976,
           "comments": 7
+        },
+        {
+          "date": "2026-09-16",
+          "views": 160926,
+          "likes": 983,
+          "comments": 7
         }
       ]
     },
@@ -9955,6 +10008,12 @@
           "date": "2026-09-15",
           "views": 47218,
           "likes": 504,
+          "comments": 4
+        },
+        {
+          "date": "2026-09-16",
+          "views": 47742,
+          "likes": 510,
           "comments": 4
         }
       ]
@@ -10355,6 +10414,12 @@
           "date": "2026-09-15",
           "views": 201286,
           "likes": 1472,
+          "comments": 76
+        },
+        {
+          "date": "2026-09-16",
+          "views": 203647,
+          "likes": 1479,
           "comments": 76
         }
       ]
@@ -11251,6 +11316,12 @@
           "date": "2026-09-15",
           "views": 791619,
           "likes": 15356,
+          "comments": 592
+        },
+        {
+          "date": "2026-09-16",
+          "views": 796655,
+          "likes": 15371,
           "comments": 592
         }
       ]
@@ -12340,6 +12411,18 @@
       "type": "annotated",
       "related_annotation": "9/23発売シングル「REBON」に向けたプロモーション継続でYouTube総再生数が上昇",
       "detected_at": "2026-09-14T19:12:52.665098+00:00"
+    },
+    {
+      "date": "2026-09-16",
+      "metric": "youtube_total_views",
+      "value": 951157689,
+      "baseline_mean": 939334213.2,
+      "baseline_stddev": 5679597.4,
+      "delta": 11823475,
+      "score": 2.08,
+      "type": "annotated",
+      "related_annotation": "9/23発売シングル「REBON」に向けたプロモーション継続でYouTube総再生数が上昇",
+      "detected_at": "2026-09-16T18:06:20.217244+00:00"
     }
   ]
 }

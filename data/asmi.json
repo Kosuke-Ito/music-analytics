@@ -6468,6 +6468,45 @@
       "ytm_subscribers": 168000,
       "ytm_monthly_listeners": 2520000,
       "ytm_total_views": 79248153
+    },
+    {
+      "date": "2026-09-16",
+      "monthly_listeners": 221424,
+      "collected_at": "2026-09-16T17:54:49.377912+00:00",
+      "spotify_followers": 115249,
+      "youtube_subscribers": 168000,
+      "youtube_total_views": 79248153,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6914
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 5834
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4184
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 2955
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2693
+        }
+      ],
+      "ytm_subscribers": 168000,
+      "ytm_monthly_listeners": 2520000,
+      "ytm_total_views": 79248153
     }
   ],
   "metadata": {
@@ -6502,24 +6541,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "ChoQMay",
-        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
-        "subscribers": "3.35M"
-      },
-      {
         "name": "Ryokuousyoku Syakai",
         "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
         "subscribers": "7.01M"
       },
       {
-        "name": "WhaleDontSleep",
-        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "524K"
-      },
-      {
         "name": "Tota",
         "browse_id": "UCc95RA4CPcWdTRBk5YunwRA",
         "subscribers": "1.87M"
+      },
+      {
+        "name": "ChoQMay",
+        "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
+        "subscribers": "3.35M"
+      },
+      {
+        "name": "WhaleDontSleep",
+        "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
+        "subscribers": "524K"
       },
       {
         "name": "suisougurashi",
@@ -7497,6 +7536,12 @@
           "views": 1078483,
           "likes": 10315,
           "comments": 191
+        },
+        {
+          "date": "2026-09-16",
+          "views": 1078980,
+          "likes": 10317,
+          "comments": 191
         }
       ]
     },
@@ -8425,6 +8470,12 @@
           "date": "2026-09-15",
           "views": 910812,
           "likes": 8728,
+          "comments": 42
+        },
+        {
+          "date": "2026-09-16",
+          "views": 911396,
+          "likes": 8733,
           "comments": 42
         }
       ]
@@ -9355,6 +9406,12 @@
           "views": 447706,
           "likes": 4053,
           "comments": 47
+        },
+        {
+          "date": "2026-09-16",
+          "views": 448161,
+          "likes": 4059,
+          "comments": 47
         }
       ]
     },
@@ -10055,6 +10112,12 @@
           "date": "2026-09-15",
           "views": 1130517,
           "likes": 11794,
+          "comments": 139
+        },
+        {
+          "date": "2026-09-16",
+          "views": 1131344,
+          "likes": 11798,
           "comments": 139
         }
       ]
@@ -11244,6 +11307,12 @@
           "views": 115887,
           "likes": 1004,
           "comments": 5
+        },
+        {
+          "date": "2026-09-16",
+          "views": 115943,
+          "likes": 1004,
+          "comments": 5
         }
       ]
     },
@@ -12229,6 +12298,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-15T17:53:49.612392+00:00"
+    },
+    {
+      "date": "2026-09-16",
+      "metric": "monthly_listeners",
+      "value": 221424,
+      "baseline_mean": 219022.8,
+      "baseline_stddev": 654.3,
+      "delta": 2401,
+      "score": 3.67,
+      "type": "annotated",
+      "related_annotation": "数値上の軽微な上昇を検知（原因不明）",
+      "detected_at": "2026-09-16T17:55:00.101309+00:00"
     }
   ]
 }

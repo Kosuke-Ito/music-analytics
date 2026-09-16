@@ -6697,6 +6697,47 @@
       "ytm_subscribers": 5060000,
       "ytm_monthly_listeners": 7880000,
       "ytm_total_views": 2565748337
+    },
+    {
+      "date": "2026-09-16",
+      "monthly_listeners": 3705813,
+      "collected_at": "2026-09-16T17:55:51.790811+00:00",
+      "spotify_followers": 6275891,
+      "youtube_subscribers": 5060000,
+      "youtube_total_views": 2565748337,
+      "youtube_video_count": 594,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 116788
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 104112
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 69581
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67146
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 47012
+        }
+      ],
+      "lastfm_listeners": 653425,
+      "lastfm_playcount": 56164940,
+      "ytm_subscribers": 5060000,
+      "ytm_monthly_listeners": 7880000,
+      "ytm_total_views": 2565748337
     }
   ],
   "annotations": [
@@ -7111,24 +7152,9 @@
         "subscribers": "1.51K"
       },
       {
-        "name": "YUI",
-        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
-        "subscribers": "6.56M"
-      },
-      {
         "name": "TENBLANK",
         "browse_id": "UCjUG0SZyIEsZZSc2beo4n7A",
         "subscribers": "54.8K"
-      },
-      {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "40M"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.7M"
       },
       {
         "name": "Vaundy",
@@ -7136,14 +7162,29 @@
         "subscribers": "21.3M"
       },
       {
-        "name": "MAN WITH A MISSION",
-        "browse_id": "UCCWlJ3mOpVtWZoCeEfnAs9w",
-        "subscribers": "4.56M"
+        "name": "YUI",
+        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
+        "subscribers": "6.56M"
+      },
+      {
+        "name": "YOASOBI",
+        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
+        "subscribers": "40M"
       },
       {
         "name": "Novelbright",
         "browse_id": "UCiiqh8mva7o9_gfkvi1P0EQ",
         "subscribers": "4.49M"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.7M"
+      },
+      {
+        "name": "MY FIRST STORY",
+        "browse_id": "UCZtrZ8_Opr4Sa2r61ye_UsQ",
+        "subscribers": "8.57M"
       }
     ],
     "ytm_top_songs": [
@@ -7164,8 +7205,8 @@
         "video_id": "DowLEpo7A18"
       },
       {
-        "title": "Renegades",
-        "video_id": "YKh878q7H0I"
+        "title": "Wasted Nights",
+        "video_id": "g3kChT7B3Us"
       }
     ],
     "ytm_description": "ONE OK ROCK is a Japanese rock band formed in 2005 and is represented by 10969 Inc."
@@ -8102,6 +8143,12 @@
           "date": "2026-09-15",
           "views": 9877537,
           "likes": 52626,
+          "comments": 119
+        },
+        {
+          "date": "2026-09-16",
+          "views": 9903610,
+          "likes": 52743,
           "comments": 119
         }
       ]
@@ -9044,6 +9091,12 @@
           "views": 16550089,
           "likes": 86926,
           "comments": 489
+        },
+        {
+          "date": "2026-09-16",
+          "views": 16601997,
+          "likes": 87148,
+          "comments": 489
         }
       ]
     },
@@ -9985,6 +10038,12 @@
           "views": 8379842,
           "likes": 36736,
           "comments": 70
+        },
+        {
+          "date": "2026-09-16",
+          "views": 8401486,
+          "likes": 36818,
+          "comments": 70
         }
       ]
     },
@@ -10847,6 +10906,12 @@
           "date": "2026-09-15",
           "views": 16428149,
           "likes": 138284,
+          "comments": 375
+        },
+        {
+          "date": "2026-09-16",
+          "views": 16438165,
+          "likes": 138337,
           "comments": 375
         }
       ]
@@ -11893,6 +11958,12 @@
           "views": 5192537,
           "likes": 37318,
           "comments": 73
+        },
+        {
+          "date": "2026-09-16",
+          "views": 5236277,
+          "likes": 37547,
+          "comments": 74
         }
       ]
     }
@@ -12437,6 +12508,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-15T17:54:31.947288+00:00"
+    },
+    {
+      "date": "2026-09-16",
+      "metric": "monthly_listeners",
+      "value": 3705813,
+      "baseline_mean": 3641845.1,
+      "baseline_stddev": 27296.3,
+      "delta": 63967,
+      "score": 2.34,
+      "type": "annotated",
+      "related_annotation": "数値上の軽微な上昇を検知（原因不明）",
+      "detected_at": "2026-09-16T17:55:52.989332+00:00"
     }
   ]
 }

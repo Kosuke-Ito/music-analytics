@@ -6510,6 +6510,47 @@
       "ytm_subscribers": 109000,
       "ytm_monthly_listeners": 508000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-16",
+      "monthly_listeners": 583019,
+      "collected_at": "2026-09-16T17:52:22.424105+00:00",
+      "spotify_followers": 130681,
+      "youtube_subscribers": 109000,
+      "youtube_total_views": 54907138,
+      "youtube_video_count": 88,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 29592
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 24595
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 16523
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 10305
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 8195
+        }
+      ],
+      "lastfm_listeners": 10407,
+      "lastfm_playcount": 171816,
+      "ytm_subscribers": 109000,
+      "ytm_monthly_listeners": 508000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6545,6 +6586,11 @@
         "name": "TOMOO",
         "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
         "subscribers": "1.27M"
+      },
+      {
+        "name": "Kroi",
+        "browse_id": "UCssoAGLly9DaABecIZoht_g",
+        "subscribers": "356K"
       },
       {
         "name": "First Love is Never Returned",
@@ -6585,11 +6631,6 @@
         "name": "Ryukku to Soine Gohan",
         "browse_id": "UCVzZe7OGO34_Y239YPq1VSQ",
         "subscribers": "101K"
-      },
-      {
-        "name": "Furui Riho",
-        "browse_id": "UC_INWDSkrIjnmqUi5D6zi4Q",
-        "subscribers": "186K"
       }
     ],
     "ytm_top_songs": [
@@ -7548,6 +7589,12 @@
           "views": 61143,
           "likes": 531,
           "comments": 6
+        },
+        {
+          "date": "2026-09-16",
+          "views": 61274,
+          "likes": 531,
+          "comments": 6
         }
       ]
     },
@@ -8483,6 +8530,12 @@
           "views": 49091,
           "likes": 470,
           "comments": 4
+        },
+        {
+          "date": "2026-09-16",
+          "views": 49156,
+          "likes": 471,
+          "comments": 4
         }
       ]
     },
@@ -9417,6 +9470,12 @@
           "date": "2026-09-15",
           "views": 253338,
           "likes": 2185,
+          "comments": 12
+        },
+        {
+          "date": "2026-09-16",
+          "views": 253604,
+          "likes": 2186,
           "comments": 12
         }
       ]
@@ -11176,6 +11235,12 @@
           "views": 41328,
           "likes": 404,
           "comments": 6
+        },
+        {
+          "date": "2026-09-16",
+          "views": 41986,
+          "likes": 409,
+          "comments": 6
         }
       ]
     },
@@ -11317,6 +11382,12 @@
         {
           "date": "2026-09-15",
           "views": 12565,
+          "likes": 116,
+          "comments": 1
+        },
+        {
+          "date": "2026-09-16",
+          "views": 12580,
           "likes": 116,
           "comments": 1
         }
@@ -12354,6 +12425,18 @@
       "type": "annotated",
       "related_annotation": "ニューアルバム「ファーストキス」リリース(9/10)＆日本武道館ワンマン(9/10-11)の反響でYouTube総再生数が上昇",
       "detected_at": "2026-09-15T17:51:27.181794+00:00"
+    },
+    {
+      "date": "2026-09-16",
+      "metric": "youtube_total_views",
+      "value": 54907138,
+      "baseline_mean": 53199762.2,
+      "baseline_stddev": 742625.1,
+      "delta": 1707375,
+      "score": 2.3,
+      "type": "annotated",
+      "related_annotation": "ニューアルバム「ファーストキス」リリース(9/10)＆日本武道館ワンマン(9/10-11)の反響でYouTube総再生数が上昇",
+      "detected_at": "2026-09-16T17:52:23.460741+00:00"
     }
   ]
 }
