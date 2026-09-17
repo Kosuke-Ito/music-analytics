@@ -7322,6 +7322,15 @@
       "source": "内部データ分析（youtube_total_views推移比較）",
       "confidence": "low",
       "added_at": "2026-09-09T18:00:00Z"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "YouTube Music月間リスナー数の急増、複数アーティストで同時多発（データ収集アーティファクトの可能性）",
+      "description": "YTM月間リスナー数が34,056,667→36,000,000へ1,943,333増加（2.45σ）。同日、LiSA・Official髭男dism・MILLENNIUM PARADE・HONNE・XG等、無関係な複数アーティストでも同時にYTM月間リスナー数が急増しており、Official髭男dismの9/3・9/7・9/11付アノテーションで確認済みのデータ収集側アーティファクトと同型のパターン。「ROCK IN JAPAN FESTIVAL 2026」（9/12,13,19-21開催）出演に伴う露出増（9/5, 9/9アノテーション参照）が並行している可能性はあるが、同時多発性からアーティファクトが主要因とみられる。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストの同時期指標推移比較、2026-09-17調査）",
+      "confidence": "medium",
+      "added_at": "2026-09-17T19:00:00Z"
     }
   ],
   "metadata": {
