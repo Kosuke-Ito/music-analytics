@@ -6550,6 +6550,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 5320000,
       "ytm_total_views": 936051628
+    },
+    {
+      "date": "2026-09-17",
+      "monthly_listeners": 4239765,
+      "collected_at": "2026-09-17T18:01:50.005038+00:00",
+      "spotify_followers": 1680121,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 938844635,
+      "youtube_video_count": 231,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 192469
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 153608
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 137195
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 126162
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 113031
+        }
+      ],
+      "lastfm_listeners": 940930,
+      "lastfm_playcount": 23859228,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 5800000,
+      "ytm_total_views": 938844635
     }
   ],
   "annotations": [
@@ -6740,19 +6781,9 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "92914",
-        "browse_id": "UCsywq73qRVQY0pBqEK6_2RA",
-        "subscribers": "345K"
-      },
-      {
-        "name": "Peach Tree Rascals",
-        "browse_id": "UCOGH6iT5yzmuKMy8fD0LW-A",
-        "subscribers": "565K"
-      },
-      {
-        "name": "Fiji Blue",
-        "browse_id": "UCYjYMImwBg38TDpWDl_F0Pw",
-        "subscribers": "1.26M"
+        "name": "Bren Joy",
+        "browse_id": "UChIwocHYRaPUGmZnNdX0RVQ",
+        "subscribers": "536K"
       },
       {
         "name": "Rai Thistlethwayte",
@@ -6775,19 +6806,29 @@
         "subscribers": "3.04K"
       },
       {
-        "name": "Bren Joy",
-        "browse_id": "UChIwocHYRaPUGmZnNdX0RVQ",
-        "subscribers": "540K"
-      },
-      {
         "name": "Public Library Commute",
         "browse_id": "UCHaf5KL3HbX5XRIppowZmiA",
-        "subscribers": "167K"
+        "subscribers": "148K"
       },
       {
         "name": "Charlie Burg",
         "browse_id": "UCdOt2JlcXMsEDAF53CeI3tg",
-        "subscribers": "123K"
+        "subscribers": "128K"
+      },
+      {
+        "name": "Kamal.",
+        "browse_id": "UCpotKFYW7NyEeFkTJFVlS9w",
+        "subscribers": "143K"
+      },
+      {
+        "name": "Michael Carreon",
+        "browse_id": "UCGFTekGnE_wBl809u1i7pnA",
+        "subscribers": "14.3K"
+      },
+      {
+        "name": "LambC",
+        "browse_id": "UCZA6zuHT78mrzkOBthIf9VA",
+        "subscribers": "3.31K"
       }
     ],
     "ytm_top_songs": [
@@ -7747,6 +7788,12 @@
           "views": 2611947,
           "likes": 16058,
           "comments": 28
+        },
+        {
+          "date": "2026-09-17",
+          "views": 2612284,
+          "likes": 16059,
+          "comments": 28
         }
       ]
     },
@@ -8675,6 +8722,12 @@
           "date": "2026-09-16",
           "views": 2270701,
           "likes": 20364,
+          "comments": 281
+        },
+        {
+          "date": "2026-09-17",
+          "views": 2274427,
+          "likes": 20359,
           "comments": 281
         }
       ]
@@ -9611,6 +9664,12 @@
           "views": 48643364,
           "likes": 204346,
           "comments": 125
+        },
+        {
+          "date": "2026-09-17",
+          "views": 48657014,
+          "likes": 204348,
+          "comments": 125
         }
       ]
     },
@@ -10130,6 +10189,12 @@
           "date": "2026-09-16",
           "views": 491552,
           "likes": 5996,
+          "comments": 11
+        },
+        {
+          "date": "2026-09-17",
+          "views": 491669,
+          "likes": 5995,
           "comments": 11
         }
       ]
@@ -11017,6 +11082,12 @@
           "date": "2026-09-16",
           "views": 15151458,
           "likes": 76114,
+          "comments": 41
+        },
+        {
+          "date": "2026-09-17",
+          "views": 15162693,
+          "likes": 76116,
           "comments": 41
         }
       ]
@@ -12250,6 +12321,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-10T17:33:46.988111+00:00"
+    },
+    {
+      "date": "2026-09-17",
+      "metric": "ytm_monthly_listeners",
+      "value": 5800000,
+      "baseline_mean": 5108620.7,
+      "baseline_stddev": 192599.7,
+      "delta": 691379,
+      "score": 3.59,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-17T18:01:51.199131+00:00"
     }
   ]
 }
