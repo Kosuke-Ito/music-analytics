@@ -6785,6 +6785,47 @@
       "ytm_subscribers": 19600,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 922378
+    },
+    {
+      "date": "2026-09-18",
+      "monthly_listeners": 112005,
+      "collected_at": "2026-09-18T17:29:17.519598+00:00",
+      "spotify_followers": 21735,
+      "youtube_subscribers": 19600,
+      "youtube_total_views": 931827,
+      "youtube_video_count": 34,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4027
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3549
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 2458
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1234
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 1211
+        }
+      ],
+      "lastfm_listeners": 9315,
+      "lastfm_playcount": 57265,
+      "ytm_subscribers": 19600,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 931827
     }
   ],
   "annotations": [
@@ -7114,16 +7155,16 @@
     ],
     "ytm_top_songs": [
       {
+        "title": "lazy",
+        "video_id": "sKWGoXlXWTo"
+      },
+      {
         "title": "sign",
         "video_id": "Ndt_zsupPMg"
       },
       {
         "title": "higher",
         "video_id": "QHb9J4x7Dpo"
-      },
-      {
-        "title": "lazy",
-        "video_id": "sKWGoXlXWTo"
       },
       {
         "title": "I SYNC",
@@ -7902,6 +7943,30 @@
       "type": "annotated",
       "related_annotation": "メジャーデビューアルバム『society | lazy』の反響が継続、指標が上昇",
       "detected_at": "2026-09-17T17:58:07.592428+00:00"
+    },
+    {
+      "date": "2026-09-18",
+      "metric": "monthly_listeners",
+      "value": 112005,
+      "baseline_mean": 102424.0,
+      "baseline_stddev": 3238.4,
+      "delta": 9580,
+      "score": 2.96,
+      "type": "annotated",
+      "related_annotation": "メジャーデビューアルバム『society | lazy』の反響が継続、指標が上昇",
+      "detected_at": "2026-09-18T17:29:18.796526+00:00"
+    },
+    {
+      "date": "2026-09-18",
+      "metric": "youtube_total_views",
+      "value": 931827,
+      "baseline_mean": 893923.3,
+      "baseline_stddev": 17681.6,
+      "delta": 37903,
+      "score": 2.14,
+      "type": "annotated",
+      "related_annotation": "メジャーデビューアルバム『society | lazy』の反響が継続、指標が上昇",
+      "detected_at": "2026-09-18T17:29:18.796526+00:00"
     }
   ],
   "song_performance": {
@@ -8842,6 +8907,12 @@
           "date": "2026-09-17",
           "views": 6086,
           "likes": 111,
+          "comments": 1
+        },
+        {
+          "date": "2026-09-18",
+          "views": 6103,
+          "likes": 112,
           "comments": 1
         }
       ]
@@ -9784,6 +9855,12 @@
           "views": 8515,
           "likes": 195,
           "comments": 6
+        },
+        {
+          "date": "2026-09-18",
+          "views": 8518,
+          "likes": 195,
+          "comments": 6
         }
       ]
     },
@@ -10724,6 +10801,12 @@
           "date": "2026-09-17",
           "views": 24764,
           "likes": 227,
+          "comments": 2
+        },
+        {
+          "date": "2026-09-18",
+          "views": 24784,
+          "likes": 226,
           "comments": 2
         }
       ]
@@ -12599,6 +12682,12 @@
           "views": 11266,
           "likes": 188,
           "comments": 2
+        },
+        {
+          "date": "2026-09-18",
+          "views": 11333,
+          "likes": 188,
+          "comments": 2
         }
       ]
     },
@@ -12706,6 +12795,12 @@
           "date": "2026-09-17",
           "views": 585,
           "likes": 7,
+          "comments": 0
+        },
+        {
+          "date": "2026-09-18",
+          "views": 626,
+          "likes": 10,
           "comments": 0
         }
       ]
