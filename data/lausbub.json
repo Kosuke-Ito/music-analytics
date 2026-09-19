@@ -6826,6 +6826,47 @@
       "ytm_subscribers": 19600,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 931827
+    },
+    {
+      "date": "2026-09-19",
+      "monthly_listeners": 113354,
+      "collected_at": "2026-09-19T17:00:58.744309+00:00",
+      "spotify_followers": 21761,
+      "youtube_subscribers": 19600,
+      "youtube_total_views": 931827,
+      "youtube_video_count": 34,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4084
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3589
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 2473
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1243
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 1227
+        }
+      ],
+      "lastfm_listeners": 9334,
+      "lastfm_playcount": 57388,
+      "ytm_subscribers": 19600,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 931827
     }
   ],
   "annotations": [
@@ -7167,12 +7208,12 @@
         "video_id": "QHb9J4x7Dpo"
       },
       {
-        "title": "I SYNC",
-        "video_id": "WNuhOOwtvH0"
-      },
-      {
         "title": "golden lighter",
         "video_id": "4lbafutZHSU"
+      },
+      {
+        "title": "static crosswalk",
+        "video_id": "cz82MqiFJJA"
       }
     ],
     "ytm_description": "LAUSBUB is newwave & Techno pop band from Sapporo, Japan, formed by Rico and Mei.",
@@ -7186,16 +7227,16 @@
         "url": "https://www.last.fm/music/Cho+Co+Pa+Co+Cho+Co+Quin+Quin"
       },
       {
-        "name": "柴田聡子",
-        "url": "https://www.last.fm/music/%E6%9F%B4%E7%94%B0%E8%81%A1%E5%AD%90"
-      },
-      {
         "name": "Muque",
         "url": "https://www.last.fm/music/Muque"
       },
       {
-        "name": "石野卓球",
-        "url": "https://www.last.fm/music/%E7%9F%B3%E9%87%8E%E5%8D%93%E7%90%83"
+        "name": "柴田聡子",
+        "url": "https://www.last.fm/music/%E6%9F%B4%E7%94%B0%E8%81%A1%E5%AD%90"
+      },
+      {
+        "name": "細野晴臣",
+        "url": "https://www.last.fm/music/%E7%B4%B0%E9%87%8E%E6%99%B4%E8%87%A3"
       }
     ]
   },
@@ -7967,6 +8008,18 @@
       "type": "annotated",
       "related_annotation": "メジャーデビューアルバム『society | lazy』の反響が継続、指標が上昇",
       "detected_at": "2026-09-18T17:29:18.796526+00:00"
+    },
+    {
+      "date": "2026-09-19",
+      "metric": "monthly_listeners",
+      "value": 113354,
+      "baseline_mean": 102664.4,
+      "baseline_stddev": 3647.1,
+      "delta": 10689,
+      "score": 2.93,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-19T17:01:00.357670+00:00"
     }
   ],
   "song_performance": {
@@ -8914,6 +8967,12 @@
           "views": 6103,
           "likes": 112,
           "comments": 1
+        },
+        {
+          "date": "2026-09-19",
+          "views": 6151,
+          "likes": 112,
+          "comments": 1
         }
       ]
     },
@@ -9859,6 +9918,12 @@
         {
           "date": "2026-09-18",
           "views": 8518,
+          "likes": 195,
+          "comments": 6
+        },
+        {
+          "date": "2026-09-19",
+          "views": 8531,
           "likes": 195,
           "comments": 6
         }
@@ -12688,6 +12753,12 @@
           "views": 11333,
           "likes": 188,
           "comments": 2
+        },
+        {
+          "date": "2026-09-19",
+          "views": 11399,
+          "likes": 189,
+          "comments": 2
         }
       ]
     },
@@ -12802,6 +12873,23 @@
           "views": 626,
           "likes": 10,
           "comments": 0
+        },
+        {
+          "date": "2026-09-19",
+          "views": 680,
+          "likes": 10,
+          "comments": 0
+        }
+      ]
+    },
+    "cz82MqiFJJA": {
+      "title": "static crosswalk",
+      "history": [
+        {
+          "date": "2026-09-19",
+          "views": 809,
+          "likes": 13,
+          "comments": 1
         }
       ]
     }

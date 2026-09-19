@@ -6514,6 +6514,47 @@
       "ytm_subscribers": 4880000,
       "ytm_monthly_listeners": 12200000,
       "ytm_total_views": 2140073818
+    },
+    {
+      "date": "2026-09-19",
+      "monthly_listeners": 5011527,
+      "collected_at": "2026-09-19T17:05:17.988421+00:00",
+      "spotify_followers": 2699906,
+      "youtube_subscribers": 4880000,
+      "youtube_total_views": 2140073818,
+      "youtube_video_count": 891,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 98872
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 76352
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 71947
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 71048
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 69130
+        }
+      ],
+      "lastfm_listeners": 911006,
+      "lastfm_playcount": 71343881,
+      "ytm_subscribers": 4880000,
+      "ytm_monthly_listeners": 12200000,
+      "ytm_total_views": 2140073818
     }
   ],
   "annotations": [
@@ -6824,8 +6865,8 @@
         "url": "https://www.last.fm/music/NMIXX"
       },
       {
-        "name": "YOUNG POSSE",
-        "url": "https://www.last.fm/music/YOUNG+POSSE"
+        "name": "MISAMO",
+        "url": "https://www.last.fm/music/MISAMO"
       },
       {
         "name": "Baby Monster",
@@ -6841,61 +6882,57 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "aespa",
+        "browse_id": "UCEdZAdnnKqbaHOlv8nM6OtA",
+        "subscribers": "74.6M"
+      },
+      {
+        "name": "NewJeans",
+        "browse_id": "UCxOqS3cYg4FaHbobICo7nFQ",
+        "subscribers": "77.3M"
+      },
+      {
         "name": "JENNIE",
         "browse_id": "UCAl7xQ6q0PEgZMQD7zr4AKQ",
-        "subscribers": "165M"
+        "subscribers": "166M"
+      },
+      {
+        "name": "GOT the beat",
+        "browse_id": "UCDDpqmryjNunitS05bv7-8w",
+        "subscribers": "1M"
+      },
+      {
+        "name": "A2O",
+        "browse_id": "UCcy9NwrIzmzITEqiVstaN1A",
+        "subscribers": "939K"
+      },
+      {
+        "name": "SOOJIN",
+        "browse_id": "UCqCmeJ3RRfpgMF6j_HzqbFQ",
+        "subscribers": "501K"
+      },
+      {
+        "name": "IVE",
+        "browse_id": "UC_4Y1QqJr60C5Z7-eQWy-mw",
+        "subscribers": "47.4M"
+      },
+      {
+        "name": "NMIXX",
+        "browse_id": "UC_Cx288SDUD9liYn7CiJLAA",
+        "subscribers": "20.1M"
+      },
+      {
+        "name": "UNIS",
+        "browse_id": "UCJ7caYuiMMtiI1BSklrsqlQ",
+        "subscribers": "2.74M"
       },
       {
         "name": "JIHYO",
         "browse_id": "UCZSRKU2kYtBSL11AhMS-C8Q",
         "subscribers": "114K"
-      },
-      {
-        "name": "SOOJIN",
-        "browse_id": "UCqCmeJ3RRfpgMF6j_HzqbFQ",
-        "subscribers": "502K"
-      },
-      {
-        "name": "A2O",
-        "browse_id": "UCcy9NwrIzmzITEqiVstaN1A",
-        "subscribers": "944K"
-      },
-      {
-        "name": "UNIS",
-        "browse_id": "UCJ7caYuiMMtiI1BSklrsqlQ",
-        "subscribers": "2.6M"
-      },
-      {
-        "name": "NewJeans",
-        "browse_id": "UCxOqS3cYg4FaHbobICo7nFQ",
-        "subscribers": "77.5M"
-      },
-      {
-        "name": "izna",
-        "browse_id": "UC9Om0aDfMMzXtElCJWF41FQ",
-        "subscribers": "5.57M"
-      },
-      {
-        "name": "IVE",
-        "browse_id": "UC_4Y1QqJr60C5Z7-eQWy-mw",
-        "subscribers": "47.3M"
-      },
-      {
-        "name": "Hearts2Hearts",
-        "browse_id": "UCC3Hg75KxQk4VTrBSphEbGw",
-        "subscribers": "90.5M"
-      },
-      {
-        "name": "XLOV",
-        "browse_id": "UCQNQTozPwML5TEM4Tebj--g",
-        "subscribers": "5M"
       }
     ],
     "ytm_top_songs": [
-      {
-        "title": "NO GOOD",
-        "video_id": "n9ucC3VZJV4"
-      },
       {
         "title": "HYPNOTIZE",
         "video_id": "0qr0Q2OIsKc"
@@ -6903,6 +6940,10 @@
       {
         "title": "WOKE UP",
         "video_id": "Q06IepqwpVc"
+      },
+      {
+        "title": "NO GOOD",
+        "video_id": "n9ucC3VZJV4"
       },
       {
         "title": "IS THIS LOVE",
@@ -7854,6 +7895,12 @@
           "views": 11956213,
           "likes": 119889,
           "comments": 630
+        },
+        {
+          "date": "2026-09-19",
+          "views": 11985270,
+          "likes": 120060,
+          "comments": 630
         }
       ]
     },
@@ -8795,6 +8842,12 @@
           "views": 47782443,
           "likes": 397188,
           "comments": 2110
+        },
+        {
+          "date": "2026-09-19",
+          "views": 47811089,
+          "likes": 397299,
+          "comments": 2111
         }
       ]
     },
@@ -10040,6 +10093,12 @@
           "views": 19325819,
           "likes": 137885,
           "comments": 1077
+        },
+        {
+          "date": "2026-09-19",
+          "views": 19343025,
+          "likes": 137935,
+          "comments": 1077
         }
       ]
     },
@@ -10824,6 +10883,12 @@
           "date": "2026-09-18",
           "views": 41905697,
           "likes": 231811,
+          "comments": 241
+        },
+        {
+          "date": "2026-09-19",
+          "views": 41921928,
+          "likes": 231866,
           "comments": 241
         }
       ]
@@ -11732,6 +11797,12 @@
           "date": "2026-09-18",
           "views": 1840680,
           "likes": 23775,
+          "comments": 363
+        },
+        {
+          "date": "2026-09-19",
+          "views": 1858352,
+          "likes": 23915,
           "comments": 363
         }
       ]

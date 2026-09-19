@@ -6598,6 +6598,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-19",
+      "monthly_listeners": 29962,
+      "collected_at": "2026-09-19T17:01:27.687120+00:00",
+      "spotify_followers": 29648,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1526011,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1768
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 931
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 622
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 520
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 418
+        }
+      ],
+      "lastfm_listeners": 5818,
+      "lastfm_playcount": 42986,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -6896,31 +6937,6 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Nao Yoshioka",
-        "browse_id": "UCs93X0FfTpRlxAMnmO94Kcw",
-        "subscribers": "27.4K"
-      },
-      {
-        "name": "Jack Page",
-        "browse_id": "UCORdJud2cWSRmRmMFfZRy_w",
-        "subscribers": "2.06K"
-      },
-      {
-        "name": "TENDRE",
-        "browse_id": "UCu8L5KsiPC2AUDEBC3_tF1A",
-        "subscribers": "137K"
-      },
-      {
-        "name": "Billyrrom",
-        "browse_id": "UCTpYSacoDiT9mkmxhjK1mFw",
-        "subscribers": "133K"
-      },
-      {
-        "name": "lo-key design",
-        "browse_id": "UCn_sJfUaJhyWc70cIgZ8blg",
-        "subscribers": "6.93K"
-      },
-      {
         "name": "reina",
         "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
         "subscribers": "3.59K"
@@ -6933,17 +6949,42 @@
       {
         "name": "Salasa",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "195K"
+        "subscribers": "180K"
       },
       {
         "name": "Geloomy",
         "browse_id": "UCYypxPpK93FErrKdMcEuppg",
-        "subscribers": "56.5K"
+        "subscribers": "62K"
       },
       {
         "name": "Ovall",
         "browse_id": "UCuA82nnWojpMgjBqCnbQDmQ",
-        "subscribers": "803K"
+        "subscribers": "851K"
+      },
+      {
+        "name": "Kan Sano",
+        "browse_id": "UC05tnYJ3St7yd3f6lfKdzcg",
+        "subscribers": "93.9K"
+      },
+      {
+        "name": "Stefan Mahendra",
+        "browse_id": "UCMZcGfiJPXZ0plcOCQ2nuPQ",
+        "subscribers": "805"
+      },
+      {
+        "name": "Ryuto Kasahara",
+        "browse_id": "UCc58OhwUC40aBGO81vfNsng",
+        "subscribers": "6.56K"
+      },
+      {
+        "name": "Michael Kaneko",
+        "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
+        "subscribers": "76K"
+      },
+      {
+        "name": "LAGHEADS",
+        "browse_id": "UCU1Oz-fU3Lop_4201NtnM1w",
+        "subscribers": "3.26K"
       }
     ],
     "ytm_top_songs": [
@@ -7913,6 +7954,12 @@
           "date": "2026-09-18",
           "views": 227226,
           "likes": 2871,
+          "comments": 8
+        },
+        {
+          "date": "2026-09-19",
+          "views": 227433,
+          "likes": 2875,
           "comments": 8
         }
       ]
@@ -9308,6 +9355,12 @@
           "views": 46796,
           "likes": 391,
           "comments": 2
+        },
+        {
+          "date": "2026-09-19",
+          "views": 46838,
+          "likes": 393,
+          "comments": 2
         }
       ]
     },
@@ -10278,6 +10331,12 @@
           "views": 119789,
           "likes": 1380,
           "comments": 7
+        },
+        {
+          "date": "2026-09-19",
+          "views": 120120,
+          "likes": 1381,
+          "comments": 7
         }
       ]
     },
@@ -11127,6 +11186,12 @@
           "views": 49396,
           "likes": 495,
           "comments": 7
+        },
+        {
+          "date": "2026-09-19",
+          "views": 49432,
+          "likes": 495,
+          "comments": 7
         }
       ]
     },
@@ -11762,6 +11827,12 @@
           "views": 61311,
           "likes": 719,
           "comments": 1
+        },
+        {
+          "date": "2026-09-19",
+          "views": 61348,
+          "likes": 720,
+          "comments": 1
         }
       ]
     },
@@ -12237,6 +12308,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-09T17:32:23.835010+00:00"
+    },
+    {
+      "date": "2026-09-19",
+      "metric": "youtube_total_views",
+      "value": 1526011,
+      "baseline_mean": 1497760.7,
+      "baseline_stddev": 12436.9,
+      "delta": 28250,
+      "score": 2.27,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-19T17:01:28.985544+00:00"
     }
   ]
 }
