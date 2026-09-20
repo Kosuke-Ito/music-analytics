@@ -6558,6 +6558,47 @@
       "ytm_subscribers": 472000,
       "ytm_monthly_listeners": 4530000,
       "ytm_total_views": 379712291
+    },
+    {
+      "date": "2026-09-20",
+      "monthly_listeners": 1642841,
+      "collected_at": "2026-09-20T17:21:02.166374+00:00",
+      "spotify_followers": 531756,
+      "youtube_subscribers": 471000,
+      "youtube_total_views": 383240163,
+      "youtube_video_count": 154,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 61614
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 44271
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 37381
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 29125
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 20536
+        }
+      ],
+      "lastfm_listeners": 19115,
+      "lastfm_playcount": 1299938,
+      "ytm_subscribers": 471000,
+      "ytm_monthly_listeners": 4640000,
+      "ytm_total_views": 383240163
     }
   ],
   "annotations": [
@@ -7103,54 +7144,54 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "chilldspot",
-        "browse_id": "UCpAYVXySypaqfb2JA_papUA",
-        "subscribers": "258K"
-      },
-      {
         "name": "TOMOO",
         "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
         "subscribers": "1.04M"
       },
       {
-        "name": "regallily",
-        "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
-        "subscribers": "406K"
+        "name": "chilldspot",
+        "browse_id": "UCpAYVXySypaqfb2JA_papUA",
+        "subscribers": "268K"
+      },
+      {
+        "name": "jo0ji",
+        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
+        "subscribers": "3.4M"
+      },
+      {
+        "name": "Lovely Summer Chan",
+        "browse_id": "UC_wA9BfubcP2P74SPKTSV7Q",
+        "subscribers": "663K"
       },
       {
         "name": "Homecomings",
         "browse_id": "UC5YC9saEogyw6Jg9fq_oGzg",
-        "subscribers": "54.4K"
+        "subscribers": "56.5K"
       },
       {
         "name": "mol-74",
         "browse_id": "UCEvtm90ugC6XKB74g8ukTKg",
-        "subscribers": "89.6K"
+        "subscribers": "90.1K"
       },
       {
         "name": "CodyLee",
         "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "197K"
+        "subscribers": "203K"
       },
       {
         "name": "Brandy Senki",
         "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
-        "subscribers": "109K"
+        "subscribers": "112K"
       },
       {
         "name": "Nishina",
         "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
-        "subscribers": "264K"
+        "subscribers": "275K"
       },
       {
         "name": "A_o",
         "browse_id": "UCW2Hy3WUVvoj_mlLjrWLRmw",
         "subscribers": "13.9K"
-      },
-      {
-        "name": "bungeitengoku",
-        "browse_id": "UCO-XTBzvzhd7FgNoNseKqIw",
-        "subscribers": "186K"
       }
     ],
     "ytm_top_songs": [
@@ -8128,6 +8169,12 @@
           "views": 21741826,
           "likes": 137860,
           "comments": 408
+        },
+        {
+          "date": "2026-09-20",
+          "views": 21765427,
+          "likes": 137168,
+          "comments": 409
         }
       ]
     },
@@ -9081,6 +9128,12 @@
           "views": 6283522,
           "likes": 39230,
           "comments": 198
+        },
+        {
+          "date": "2026-09-20",
+          "views": 6311194,
+          "likes": 38698,
+          "comments": 199
         }
       ]
     },
@@ -10267,6 +10320,12 @@
           "views": 1641880,
           "likes": 14466,
           "comments": 89
+        },
+        {
+          "date": "2026-09-20",
+          "views": 1643633,
+          "likes": 14394,
+          "comments": 89
         }
       ]
     },
@@ -11220,6 +11279,12 @@
           "views": 2400380,
           "likes": 18264,
           "comments": 127
+        },
+        {
+          "date": "2026-09-20",
+          "views": 2402871,
+          "likes": 18179,
+          "comments": 127
         }
       ]
     },
@@ -11920,6 +11985,12 @@
           "date": "2026-09-19",
           "views": 4348003,
           "likes": 34989,
+          "comments": 271
+        },
+        {
+          "date": "2026-09-20",
+          "views": 4351112,
+          "likes": 34883,
           "comments": 271
         }
       ]
@@ -12801,6 +12872,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-08T17:54:38.610945+00:00"
+    },
+    {
+      "date": "2026-09-20",
+      "metric": "youtube_total_views",
+      "value": 383240163,
+      "baseline_mean": 376237399.1,
+      "baseline_stddev": 3148181.5,
+      "delta": 7002763,
+      "score": 2.22,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-20T17:21:03.747214+00:00"
     }
   ]
 }

@@ -6867,6 +6867,47 @@
       "ytm_subscribers": 19600,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 931827
+    },
+    {
+      "date": "2026-09-20",
+      "monthly_listeners": 114447,
+      "collected_at": "2026-09-20T17:13:55.487311+00:00",
+      "spotify_followers": 21828,
+      "youtube_subscribers": 19600,
+      "youtube_total_views": 931827,
+      "youtube_video_count": 34,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4151
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3599
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 2498
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1265
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 1248
+        }
+      ],
+      "lastfm_listeners": 9355,
+      "lastfm_playcount": 57578,
+      "ytm_subscribers": 19600,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 931827
     }
   ],
   "annotations": [
@@ -8030,6 +8071,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-19T17:01:00.357670+00:00"
+    },
+    {
+      "date": "2026-09-20",
+      "metric": "monthly_listeners",
+      "value": 114447,
+      "baseline_mean": 102950.5,
+      "baseline_stddev": 4108.7,
+      "delta": 11496,
+      "score": 2.8,
+      "type": "annotated",
+      "related_annotation": "全国ツアー「LAUSBUB Concert Tour 2026」大阪公演（心斎橋CONPASS）開幕でSpotify月間リスナーが急増",
+      "detected_at": "2026-09-20T17:13:56.866451+00:00"
     }
   ],
   "song_performance": {
@@ -8983,6 +9036,12 @@
           "views": 6151,
           "likes": 112,
           "comments": 1
+        },
+        {
+          "date": "2026-09-20",
+          "views": 6183,
+          "likes": 110,
+          "comments": 1
         }
       ]
     },
@@ -9934,6 +9993,12 @@
         {
           "date": "2026-09-19",
           "views": 8531,
+          "likes": 195,
+          "comments": 6
+        },
+        {
+          "date": "2026-09-20",
+          "views": 8547,
           "likes": 195,
           "comments": 6
         }
@@ -12769,6 +12834,12 @@
           "views": 11399,
           "likes": 189,
           "comments": 2
+        },
+        {
+          "date": "2026-09-20",
+          "views": 11462,
+          "likes": 186,
+          "comments": 2
         }
       ]
     },
@@ -12889,6 +12960,12 @@
           "views": 680,
           "likes": 10,
           "comments": 0
+        },
+        {
+          "date": "2026-09-20",
+          "views": 719,
+          "likes": 10,
+          "comments": 0
         }
       ]
     },
@@ -12899,6 +12976,12 @@
           "date": "2026-09-19",
           "views": 809,
           "likes": 13,
+          "comments": 1
+        },
+        {
+          "date": "2026-09-20",
+          "views": 849,
+          "likes": 14,
           "comments": 1
         }
       ]

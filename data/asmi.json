@@ -6630,6 +6630,47 @@
       "ytm_subscribers": 168000,
       "ytm_monthly_listeners": 2350000,
       "ytm_total_views": 79248153
+    },
+    {
+      "date": "2026-09-20",
+      "monthly_listeners": 224253,
+      "collected_at": "2026-09-20T17:11:13.872281+00:00",
+      "spotify_followers": 115405,
+      "youtube_subscribers": 168000,
+      "youtube_total_views": 79248153,
+      "youtube_video_count": 30,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 7076
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 5989
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 4162
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 3024
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2730
+        }
+      ],
+      "lastfm_listeners": 35955,
+      "lastfm_playcount": 541903,
+      "ytm_subscribers": 168000,
+      "ytm_monthly_listeners": 2340000,
+      "ytm_total_views": 79248153
     }
   ],
   "metadata": {
@@ -6666,52 +6707,52 @@
       {
         "name": "WhaleDontSleep",
         "browse_id": "UCaxXf3MJz5eplDbWcSiRCQg",
-        "subscribers": "488K"
+        "subscribers": "500K"
       },
       {
-        "name": "suisougurashi",
-        "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
-        "subscribers": "105K"
+        "name": "Myuk",
+        "browse_id": "UCCU8DNd9iFzosdwq3BtbKqg",
+        "subscribers": "340K"
       },
       {
         "name": "Tota",
         "browse_id": "UCc95RA4CPcWdTRBk5YunwRA",
-        "subscribers": "1.93M"
+        "subscribers": "1.97M"
+      },
+      {
+        "name": "noa",
+        "browse_id": "UC0x8PzSHCGN6iKzRR1RFHAg",
+        "subscribers": "4.94M"
       },
       {
         "name": "ChoQMay",
         "browse_id": "UC1siFTUT1xvyo7IbYvQo0jg",
-        "subscribers": "3.22M"
+        "subscribers": "3.34M"
       },
       {
-        "name": "Ryokuousyoku Syakai",
-        "browse_id": "UCiSRuO0id8dgpgSE1zutE7Q",
-        "subscribers": "7.11M"
+        "name": "YUTORI",
+        "browse_id": "UCqM8y7cbNcekfXHhvitCLyw",
+        "subscribers": "286K"
+      },
+      {
+        "name": "suisougurashi",
+        "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
+        "subscribers": "108K"
       },
       {
         "name": "Ohashi Chippoke",
         "browse_id": "UCGO41nkNVFWb-u1XGAuHm5w",
-        "subscribers": "200K"
+        "subscribers": "202K"
       },
       {
         "name": "Conton Candy",
         "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
-        "subscribers": "1.66M"
+        "subscribers": "1.7M"
       },
       {
         "name": "Ami Sakaguchi",
         "browse_id": "UCtf9vzH5ZH02kBzOVL3XmYQ",
-        "subscribers": "132K"
-      },
-      {
-        "name": "hockrockb",
-        "browse_id": "UCkgOP8Xy2stY3WbSzILWBNQ",
-        "subscribers": "168K"
-      },
-      {
-        "name": "Anna",
-        "browse_id": "UCZgFCYyMNjZBYtvZxNEqaKA",
-        "subscribers": "102K"
+        "subscribers": "141K"
       }
     ],
     "ytm_top_songs": [
@@ -7683,6 +7724,12 @@
           "views": 1080458,
           "likes": 10327,
           "comments": 191
+        },
+        {
+          "date": "2026-09-20",
+          "views": 1080886,
+          "likes": 10315,
+          "comments": 191
         }
       ]
     },
@@ -8635,6 +8682,12 @@
           "date": "2026-09-19",
           "views": 913535,
           "likes": 8741,
+          "comments": 42
+        },
+        {
+          "date": "2026-09-20",
+          "views": 914095,
+          "likes": 8717,
           "comments": 42
         }
       ]
@@ -9589,6 +9642,12 @@
           "views": 449601,
           "likes": 4067,
           "comments": 47
+        },
+        {
+          "date": "2026-09-20",
+          "views": 450001,
+          "likes": 4062,
+          "comments": 47
         }
       ]
     },
@@ -10313,6 +10372,12 @@
           "date": "2026-09-19",
           "views": 1133517,
           "likes": 11809,
+          "comments": 139
+        },
+        {
+          "date": "2026-09-20",
+          "views": 1133910,
+          "likes": 11792,
           "comments": 139
         }
       ]
@@ -11586,6 +11651,12 @@
           "views": 5845,
           "likes": 151,
           "comments": 4
+        },
+        {
+          "date": "2026-09-20",
+          "views": 6025,
+          "likes": 158,
+          "comments": 4
         }
       ]
     }
@@ -12574,6 +12645,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-19T16:58:08.905148+00:00"
+    },
+    {
+      "date": "2026-09-20",
+      "metric": "monthly_listeners",
+      "value": 224253,
+      "baseline_mean": 219494,
+      "baseline_stddev": 1386.5,
+      "delta": 4759,
+      "score": 3.43,
+      "type": "annotated",
+      "related_annotation": "新曲「アプデキュート」（CANMAKEタイアップ）の反響でSpotify月間リスナーが上昇",
+      "detected_at": "2026-09-20T17:11:15.572510+00:00"
     }
   ]
 }
