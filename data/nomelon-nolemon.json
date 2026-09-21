@@ -6723,6 +6723,47 @@
       "ytm_subscribers": 330000,
       "ytm_monthly_listeners": 1240000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-21",
+      "monthly_listeners": 299140,
+      "collected_at": "2026-09-21T19:02:13.533659+00:00",
+      "spotify_followers": 74572,
+      "youtube_subscribers": 331000,
+      "youtube_total_views": 176343669,
+      "youtube_video_count": 118,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 13414
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8804
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6229
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4818
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 4806
+        }
+      ],
+      "lastfm_listeners": 35035,
+      "lastfm_playcount": 959706,
+      "ytm_subscribers": 331000,
+      "ytm_monthly_listeners": 1200000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6757,54 +6798,54 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "kei sugawara",
-        "browse_id": "UCteJs3TEbPFxDObB-4s7Y6w",
-        "subscribers": "423K"
-      },
-      {
-        "name": "NELKE",
-        "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
-        "subscribers": "708K"
-      },
-      {
-        "name": "harha",
-        "browse_id": "UC74QIsTWuq5xtiA0wjuh1rw",
-        "subscribers": "180K"
-      },
-      {
-        "name": "YUTORI",
-        "browse_id": "UCqM8y7cbNcekfXHhvitCLyw",
-        "subscribers": "286K"
-      },
-      {
         "name": "TAKU INOUE",
         "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
-        "subscribers": "268K"
+        "subscribers": "260K"
       },
       {
         "name": "Hashimero",
         "browse_id": "UC6QCQ8UClMBP3mkA28JvruQ",
-        "subscribers": "185K"
+        "subscribers": "177K"
       },
       {
         "name": "shallm",
         "browse_id": "UCpF1L89gFxnb8muIrmloaYA",
-        "subscribers": "218K"
+        "subscribers": "212K"
+      },
+      {
+        "name": "suisoh",
+        "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
+        "subscribers": "530K"
       },
       {
         "name": "MIMiNARI",
         "browse_id": "UCNBWI0bR0NC7VHpeAuoDENA",
-        "subscribers": "86.2K"
+        "subscribers": "83.6K"
       },
       {
         "name": "Rei",
         "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
-        "subscribers": "332K"
+        "subscribers": "324K"
       },
       {
         "name": "Yu Orie",
         "browse_id": "UCYOxU6oCIwEWfwOngYgBHgQ",
         "subscribers": "3.42K"
+      },
+      {
+        "name": "PAS TASTA",
+        "browse_id": "UCXWyAgpgtm-Ae1E1aud3ajg",
+        "subscribers": "156K"
+      },
+      {
+        "name": "suisougurashi",
+        "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
+        "subscribers": "104K"
+      },
+      {
+        "name": "Shiyui",
+        "browse_id": "UCAkYyroRwc9qPuymye_2fNA",
+        "subscribers": "235K"
       }
     ],
     "ytm_top_songs": [
@@ -7799,6 +7840,12 @@
           "views": 19162217,
           "likes": 125906,
           "comments": 1064
+        },
+        {
+          "date": "2026-09-21",
+          "views": 19170961,
+          "likes": 125917,
+          "comments": 1059
         }
       ]
     },
@@ -8770,6 +8817,12 @@
           "views": 6007550,
           "likes": 42962,
           "comments": 91
+        },
+        {
+          "date": "2026-09-21",
+          "views": 6013000,
+          "likes": 42981,
+          "comments": 91
         }
       ]
     },
@@ -9705,6 +9758,12 @@
           "views": 5548607,
           "likes": 36369,
           "comments": 172
+        },
+        {
+          "date": "2026-09-21",
+          "views": 5552795,
+          "likes": 36386,
+          "comments": 172
         }
       ]
     },
@@ -10639,6 +10698,12 @@
           "date": "2026-09-20",
           "views": 2482187,
           "likes": 20097,
+          "comments": 45
+        },
+        {
+          "date": "2026-09-21",
+          "views": 2484693,
+          "likes": 20114,
           "comments": 45
         }
       ]
@@ -11620,6 +11685,12 @@
           "date": "2026-09-20",
           "views": 190628,
           "likes": 2835,
+          "comments": 36
+        },
+        {
+          "date": "2026-09-21",
+          "views": 192735,
+          "likes": 2849,
           "comments": 36
         }
       ]
@@ -12683,6 +12754,18 @@
       "type": "annotated",
       "related_annotation": "お盆休み入りに伴う季節的な増加",
       "detected_at": "2026-08-16T14:17:04.678101+00:00"
+    },
+    {
+      "date": "2026-09-21",
+      "metric": "youtube_total_views",
+      "value": 176343669,
+      "baseline_mean": 174408994.3,
+      "baseline_stddev": 958732.4,
+      "delta": 1934674,
+      "score": 2.02,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-21T19:02:14.888817+00:00"
     }
   ]
 }

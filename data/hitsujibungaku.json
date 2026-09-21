@@ -6599,6 +6599,47 @@
       "ytm_subscribers": 471000,
       "ytm_monthly_listeners": 4640000,
       "ytm_total_views": 383240163
+    },
+    {
+      "date": "2026-09-21",
+      "monthly_listeners": 1638834,
+      "collected_at": "2026-09-21T19:13:37.895539+00:00",
+      "spotify_followers": 532090,
+      "youtube_subscribers": 472000,
+      "youtube_total_views": 383240163,
+      "youtube_video_count": 154,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 61740
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 44332
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 37144
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 28988
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 20522
+        }
+      ],
+      "lastfm_listeners": 19120,
+      "lastfm_playcount": 1300382,
+      "ytm_subscribers": 472000,
+      "ytm_monthly_listeners": 4510000,
+      "ytm_total_views": 383240163
     }
   ],
   "annotations": [
@@ -7146,47 +7187,47 @@
       {
         "name": "TOMOO",
         "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "1.04M"
+        "subscribers": "1M"
       },
       {
         "name": "chilldspot",
         "browse_id": "UCpAYVXySypaqfb2JA_papUA",
-        "subscribers": "268K"
+        "subscribers": "260K"
+      },
+      {
+        "name": "Laura day romance",
+        "browse_id": "UCFrg0aEn8dsLCzYGVSZkT1Q",
+        "subscribers": "161K"
       },
       {
         "name": "jo0ji",
         "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "3.4M"
-      },
-      {
-        "name": "Lovely Summer Chan",
-        "browse_id": "UC_wA9BfubcP2P74SPKTSV7Q",
-        "subscribers": "663K"
+        "subscribers": "3.35M"
       },
       {
         "name": "Homecomings",
         "browse_id": "UC5YC9saEogyw6Jg9fq_oGzg",
-        "subscribers": "56.5K"
+        "subscribers": "54.6K"
       },
       {
         "name": "mol-74",
         "browse_id": "UCEvtm90ugC6XKB74g8ukTKg",
-        "subscribers": "90.1K"
+        "subscribers": "86.3K"
       },
       {
         "name": "CodyLee",
         "browse_id": "UCgvhXbzh99vgTNmilhYY1uA",
-        "subscribers": "203K"
+        "subscribers": "195K"
       },
       {
         "name": "Brandy Senki",
         "browse_id": "UCnSSA8lmqdH1oT2A3ND_cdA",
-        "subscribers": "112K"
+        "subscribers": "107K"
       },
       {
         "name": "Nishina",
         "browse_id": "UCI13BwcDNpUCfIFu699Vd1Q",
-        "subscribers": "275K"
+        "subscribers": "267K"
       },
       {
         "name": "A_o",
@@ -8175,6 +8216,12 @@
           "views": 21765427,
           "likes": 137168,
           "comments": 409
+        },
+        {
+          "date": "2026-09-21",
+          "views": 21795321,
+          "likes": 137346,
+          "comments": 410
         }
       ]
     },
@@ -9133,6 +9180,12 @@
           "date": "2026-09-20",
           "views": 6311194,
           "likes": 38698,
+          "comments": 199
+        },
+        {
+          "date": "2026-09-21",
+          "views": 6344685,
+          "likes": 38820,
           "comments": 199
         }
       ]
@@ -10326,6 +10379,12 @@
           "views": 1643633,
           "likes": 14394,
           "comments": 89
+        },
+        {
+          "date": "2026-09-21",
+          "views": 1645909,
+          "likes": 14401,
+          "comments": 89
         }
       ]
     },
@@ -11285,6 +11344,12 @@
           "views": 2402871,
           "likes": 18179,
           "comments": 127
+        },
+        {
+          "date": "2026-09-21",
+          "views": 2405823,
+          "likes": 18193,
+          "comments": 128
         }
       ]
     },
@@ -11991,6 +12056,12 @@
           "date": "2026-09-20",
           "views": 4351112,
           "likes": 34883,
+          "comments": 271
+        },
+        {
+          "date": "2026-09-21",
+          "views": 4354918,
+          "likes": 34911,
           "comments": 271
         }
       ]
@@ -12884,6 +12955,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-20T17:21:03.747214+00:00"
+    },
+    {
+      "date": "2026-09-21",
+      "metric": "youtube_total_views",
+      "value": 383240163,
+      "baseline_mean": 376636097.7,
+      "baseline_stddev": 3250731.2,
+      "delta": 6604065,
+      "score": 2.03,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-21T19:13:40.537390+00:00"
     }
   ]
 }
