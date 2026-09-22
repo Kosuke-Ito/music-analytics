@@ -6774,6 +6774,47 @@
       "ytm_subscribers": 468000,
       "ytm_monthly_listeners": 1210000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-22",
+      "monthly_listeners": 418255,
+      "collected_at": "2026-09-22T17:49:57.131491+00:00",
+      "spotify_followers": 235173,
+      "youtube_subscribers": 468000,
+      "youtube_total_views": 221173234,
+      "youtube_video_count": 52,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4753
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 4673
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 4144
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 3542
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 3499
+        }
+      ],
+      "lastfm_listeners": 164753,
+      "lastfm_playcount": 2353890,
+      "ytm_subscribers": 468000,
+      "ytm_monthly_listeners": 1250000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6810,17 +6851,7 @@
       {
         "name": "Utada",
         "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "19.2M"
-      },
-      {
-        "name": "Ling tosite sigure",
-        "browse_id": "UCI4j7Ojnqah6z5_OY-_20wg",
-        "subscribers": "1M"
-      },
-      {
-        "name": "jo0ji",
-        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "3.35M"
+        "subscribers": "19.1M"
       },
       {
         "name": "sakanaction",
@@ -6828,19 +6859,24 @@
         "subscribers": "49M"
       },
       {
-        "name": "Cö shu Nie",
-        "browse_id": "UCXQbmowL6Ln_hRqY58_OH4g",
-        "subscribers": "1.21M"
+        "name": "MIYUNA",
+        "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
+        "subscribers": "161K"
+      },
+      {
+        "name": "HATENA",
+        "browse_id": "UC6erv9sE3EPrBagY-yL4rPQ",
+        "subscribers": "77.6K"
       },
       {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "124K"
+        "subscribers": "125K"
       },
       {
         "name": "Okamoto's",
         "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
-        "subscribers": "201K"
+        "subscribers": "198K"
       },
       {
         "name": "Ichiyo Izawa",
@@ -6850,12 +6886,17 @@
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "253K"
+        "subscribers": "257K"
       },
       {
         "name": "OddRe:",
         "browse_id": "UCLRAvTum9DcWeJQtHn1D3WA",
-        "subscribers": "104K"
+        "subscribers": "114K"
+      },
+      {
+        "name": "Ling tosite sigure",
+        "browse_id": "UCI4j7Ojnqah6z5_OY-_20wg",
+        "subscribers": "1.01M"
       }
     ],
     "ytm_top_songs": [
@@ -7850,6 +7891,12 @@
           "views": 8385278,
           "likes": 75517,
           "comments": 280
+        },
+        {
+          "date": "2026-09-22",
+          "views": 8393256,
+          "likes": 75934,
+          "comments": 280
         }
       ]
     },
@@ -8820,6 +8867,12 @@
           "date": "2026-09-21",
           "views": 2228430,
           "likes": 27001,
+          "comments": 51
+        },
+        {
+          "date": "2026-09-22",
+          "views": 2230240,
+          "likes": 27164,
           "comments": 51
         }
       ]
@@ -9792,6 +9845,12 @@
           "views": 22150387,
           "likes": 226257,
           "comments": 647
+        },
+        {
+          "date": "2026-09-22",
+          "views": 22156350,
+          "likes": 226516,
+          "comments": 646
         }
       ]
     },
@@ -10414,6 +10473,12 @@
           "date": "2026-09-21",
           "views": 165095,
           "likes": 1326,
+          "comments": 12
+        },
+        {
+          "date": "2026-09-22",
+          "views": 165245,
+          "likes": 1334,
           "comments": 12
         }
       ]
@@ -11749,6 +11814,12 @@
           "views": 481695,
           "likes": 9449,
           "comments": 248
+        },
+        {
+          "date": "2026-09-22",
+          "views": 485675,
+          "likes": 10137,
+          "comments": 249
         }
       ]
     },
@@ -12732,6 +12803,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-21T18:58:52.286294+00:00"
+    },
+    {
+      "date": "2026-09-22",
+      "metric": "ytm_monthly_listeners",
+      "value": 1250000,
+      "baseline_mean": 1055724.1,
+      "baseline_stddev": 68145.8,
+      "delta": 194275,
+      "score": 2.85,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-22T17:49:58.665324+00:00"
     }
   ]
 }

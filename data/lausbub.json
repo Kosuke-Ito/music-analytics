@@ -6949,6 +6949,47 @@
       "ytm_subscribers": 19600,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 931827
+    },
+    {
+      "date": "2026-09-22",
+      "monthly_listeners": 116192,
+      "collected_at": "2026-09-22T17:56:35.149832+00:00",
+      "spotify_followers": 21873,
+      "youtube_subscribers": 19600,
+      "youtube_total_views": 931827,
+      "youtube_video_count": 34,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4227
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3668
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 2508
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 1280
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1278
+        }
+      ],
+      "lastfm_listeners": 9384,
+      "lastfm_playcount": 58011,
+      "ytm_subscribers": 19600,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 931827
     }
   ],
   "annotations": [
@@ -7280,20 +7321,20 @@
   ],
   "metadata": {
     "lastfm_tags": [
-      "japanese",
       "electronic",
+      "japanese",
       "electronica",
       "japan",
       "female duo"
     ],
     "ytm_top_songs": [
       {
-        "title": "lazy",
-        "video_id": "sKWGoXlXWTo"
-      },
-      {
         "title": "sign",
         "video_id": "Ndt_zsupPMg"
+      },
+      {
+        "title": "lazy",
+        "video_id": "sKWGoXlXWTo"
       },
       {
         "title": "higher",
@@ -7304,8 +7345,8 @@
         "video_id": "4lbafutZHSU"
       },
       {
-        "title": "static crosswalk",
-        "video_id": "cz82MqiFJJA"
+        "title": "I SYNC",
+        "video_id": "WNuhOOwtvH0"
       }
     ],
     "ytm_description": "LAUSBUB is newwave & Techno pop band from Sapporo, Japan, formed by Rico and Mei.",
@@ -8136,6 +8177,18 @@
       "type": "annotated",
       "related_annotation": "全国ツアー「LAUSBUB Concert Tour 2026」大阪公演（心斎橋CONPASS）開幕でSpotify月間リスナーが急増",
       "detected_at": "2026-09-21T19:05:58.634117+00:00"
+    },
+    {
+      "date": "2026-09-22",
+      "metric": "monthly_listeners",
+      "value": 116192,
+      "baseline_mean": 103681.6,
+      "baseline_stddev": 5144.0,
+      "delta": 12510,
+      "score": 2.43,
+      "type": "annotated",
+      "related_annotation": "全国ツアー「LAUSBUB Concert Tour 2026」大阪公演（心斎橋CONPASS）開幕でSpotify月間リスナーが急増",
+      "detected_at": "2026-09-22T17:56:36.155678+00:00"
     }
   ],
   "song_performance": {
@@ -9100,6 +9153,12 @@
           "date": "2026-09-21",
           "views": 6224,
           "likes": 110,
+          "comments": 1
+        },
+        {
+          "date": "2026-09-22",
+          "views": 6247,
+          "likes": 114,
           "comments": 1
         }
       ]
@@ -10066,6 +10125,12 @@
           "views": 8567,
           "likes": 195,
           "comments": 6
+        },
+        {
+          "date": "2026-09-22",
+          "views": 8573,
+          "likes": 195,
+          "comments": 6
         }
       ]
     },
@@ -11011,6 +11076,12 @@
         {
           "date": "2026-09-18",
           "views": 24784,
+          "likes": 226,
+          "comments": 2
+        },
+        {
+          "date": "2026-09-22",
+          "views": 24883,
           "likes": 226,
           "comments": 2
         }
@@ -12911,6 +12982,12 @@
           "views": 11537,
           "likes": 189,
           "comments": 2
+        },
+        {
+          "date": "2026-09-22",
+          "views": 11581,
+          "likes": 194,
+          "comments": 2
         }
       ]
     },
@@ -13041,6 +13118,12 @@
         {
           "date": "2026-09-21",
           "views": 771,
+          "likes": 14,
+          "comments": 0
+        },
+        {
+          "date": "2026-09-22",
+          "views": 799,
           "likes": 14,
           "comments": 0
         }

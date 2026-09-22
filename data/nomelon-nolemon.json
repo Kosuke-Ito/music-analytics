@@ -6764,6 +6764,47 @@
       "ytm_subscribers": 331000,
       "ytm_monthly_listeners": 1200000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-22",
+      "monthly_listeners": 299140,
+      "collected_at": "2026-09-22T17:53:15.904119+00:00",
+      "spotify_followers": 74617,
+      "youtube_subscribers": 331000,
+      "youtube_total_views": 176489049,
+      "youtube_video_count": 117,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 13414
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8804
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 6229
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 4818
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 4806
+        }
+      ],
+      "lastfm_listeners": 35056,
+      "lastfm_playcount": 960905,
+      "ytm_subscribers": 331000,
+      "ytm_monthly_listeners": 1210000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6794,13 +6835,18 @@
       "rock",
       "japan",
       "female vocals",
-      "pop rock"
+      "jpf"
     ],
     "ytm_related_artists": [
       {
+        "name": "kei sugawara",
+        "browse_id": "UCteJs3TEbPFxDObB-4s7Y6w",
+        "subscribers": "408K"
+      },
+      {
         "name": "TAKU INOUE",
         "browse_id": "UCFUNdEg9jxy1bUsCRJGlTGg",
-        "subscribers": "260K"
+        "subscribers": "259K"
       },
       {
         "name": "Hashimero",
@@ -6815,37 +6861,32 @@
       {
         "name": "suisoh",
         "browse_id": "UCax4Y5tNP02gOGEew_7qDCg",
-        "subscribers": "530K"
+        "subscribers": "532K"
       },
       {
         "name": "MIMiNARI",
         "browse_id": "UCNBWI0bR0NC7VHpeAuoDENA",
-        "subscribers": "83.6K"
+        "subscribers": "84.1K"
       },
       {
         "name": "Rei",
         "browse_id": "UC3sArh-z3yApcKvivbV10Yg",
-        "subscribers": "324K"
+        "subscribers": "323K"
       },
       {
         "name": "Yu Orie",
         "browse_id": "UCYOxU6oCIwEWfwOngYgBHgQ",
-        "subscribers": "3.42K"
+        "subscribers": "3.41K"
       },
       {
         "name": "PAS TASTA",
         "browse_id": "UCXWyAgpgtm-Ae1E1aud3ajg",
-        "subscribers": "156K"
+        "subscribers": "157K"
       },
       {
         "name": "suisougurashi",
         "browse_id": "UCudX69GrZ9NHETIiI3vK7RQ",
         "subscribers": "104K"
-      },
-      {
-        "name": "Shiyui",
-        "browse_id": "UCAkYyroRwc9qPuymye_2fNA",
-        "subscribers": "235K"
       }
     ],
     "ytm_top_songs": [
@@ -6862,12 +6903,12 @@
         "video_id": "2SHNY5v6DnM"
       },
       {
-        "title": "HALO",
-        "video_id": "kNlVdjmSeEU"
-      },
-      {
         "title": "どうにかなっちゃいそう！",
         "video_id": "HCWhRiUdm-w"
+      },
+      {
+        "title": "HALO",
+        "video_id": "kNlVdjmSeEU"
       }
     ]
   },
@@ -7846,6 +7887,12 @@
           "views": 19170961,
           "likes": 125917,
           "comments": 1059
+        },
+        {
+          "date": "2026-09-22",
+          "views": 19180371,
+          "likes": 126081,
+          "comments": 1059
         }
       ]
     },
@@ -8823,6 +8870,12 @@
           "views": 6013000,
           "likes": 42981,
           "comments": 91
+        },
+        {
+          "date": "2026-09-22",
+          "views": 6018723,
+          "likes": 43304,
+          "comments": 92
         }
       ]
     },
@@ -9764,6 +9817,12 @@
           "views": 5552795,
           "likes": 36386,
           "comments": 172
+        },
+        {
+          "date": "2026-09-22",
+          "views": 5557439,
+          "likes": 36511,
+          "comments": 172
         }
       ]
     },
@@ -10704,6 +10763,12 @@
           "date": "2026-09-21",
           "views": 2484693,
           "likes": 20114,
+          "comments": 45
+        },
+        {
+          "date": "2026-09-22",
+          "views": 2487181,
+          "likes": 20262,
           "comments": 45
         }
       ]
@@ -11691,6 +11756,12 @@
           "date": "2026-09-21",
           "views": 192735,
           "likes": 2849,
+          "comments": 36
+        },
+        {
+          "date": "2026-09-22",
+          "views": 194674,
+          "likes": 3056,
           "comments": 36
         }
       ]
@@ -12766,6 +12837,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-21T19:02:14.888817+00:00"
+    },
+    {
+      "date": "2026-09-22",
+      "metric": "youtube_total_views",
+      "value": 176489049,
+      "baseline_mean": 174522238.0,
+      "baseline_stddev": 979693.4,
+      "delta": 1966810,
+      "score": 2.01,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-22T17:53:16.969233+00:00"
     }
   ]
 }

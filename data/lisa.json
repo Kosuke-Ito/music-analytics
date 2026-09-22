@@ -6640,6 +6640,47 @@
       "ytm_subscribers": 9320000,
       "ytm_monthly_listeners": 131000000,
       "ytm_total_views": 2768576054
+    },
+    {
+      "date": "2026-09-22",
+      "monthly_listeners": 4313808,
+      "collected_at": "2026-09-22T18:03:12.565335+00:00",
+      "spotify_followers": 3882213,
+      "youtube_subscribers": 2960000,
+      "youtube_total_views": 1844327931,
+      "youtube_video_count": 528,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 65089
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54180
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 49451
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 48616
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 47735
+        }
+      ],
+      "lastfm_listeners": 2072236,
+      "lastfm_playcount": 137613939,
+      "ytm_subscribers": 9330000,
+      "ytm_monthly_listeners": 134000000,
+      "ytm_total_views": 2777909415
     }
   ],
   "metadata": {
@@ -6676,27 +6717,27 @@
       {
         "name": "ROSÉ",
         "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
-        "subscribers": "273M"
+        "subscribers": "274M"
       },
       {
         "name": "JULiA LEWiS",
         "browse_id": "UCO8v1mrb-kVY9upl8wdyDcw",
-        "subscribers": "686"
+        "subscribers": "687"
       },
       {
         "name": "SOOJIN",
         "browse_id": "UCqCmeJ3RRfpgMF6j_HzqbFQ",
-        "subscribers": "493K"
+        "subscribers": "486K"
       },
       {
         "name": "BamBam",
         "browse_id": "UCV1Zo9bUCjzFi6e4O2DNcrA",
-        "subscribers": "489K"
+        "subscribers": "478K"
       },
       {
         "name": "BLACKSWAN",
         "browse_id": "UC277cpXD9BLeaGgh3yDP40w",
-        "subscribers": "304K"
+        "subscribers": "302K"
       },
       {
         "name": "Babymonster An",
@@ -6704,19 +6745,19 @@
         "subscribers": "7.12K"
       },
       {
-        "name": "KARD",
-        "browse_id": "UC3pvfOA4mcHkWYl3n_QfOKA",
-        "subscribers": "2.89M"
-      },
-      {
         "name": "JENNIE",
         "browse_id": "UCAl7xQ6q0PEgZMQD7zr4AKQ",
-        "subscribers": "169M"
+        "subscribers": "170M"
+      },
+      {
+        "name": "KARD",
+        "browse_id": "UC3pvfOA4mcHkWYl3n_QfOKA",
+        "subscribers": "2.9M"
       },
       {
         "name": "FIFTY FIFTY",
         "browse_id": "UCMca81qQN9V3jOe7wyfbvDQ",
-        "subscribers": "125M"
+        "subscribers": "126M"
       },
       {
         "name": "JIHYO",
@@ -7722,6 +7763,12 @@
           "views": 26814605,
           "likes": 300535,
           "comments": 2340
+        },
+        {
+          "date": "2026-09-22",
+          "views": 26858102,
+          "likes": 303687,
+          "comments": 2345
         }
       ]
     },
@@ -8687,6 +8734,12 @@
           "views": 275110844,
           "likes": 2759665,
           "comments": 4656
+        },
+        {
+          "date": "2026-09-22",
+          "views": 275198365,
+          "likes": 2764075,
+          "comments": 4660
         }
       ]
     },
@@ -9568,6 +9621,12 @@
           "views": 34910996,
           "likes": 259292,
           "comments": 829
+        },
+        {
+          "date": "2026-09-22",
+          "views": 34947744,
+          "likes": 260568,
+          "comments": 830
         }
       ]
     },
@@ -10191,6 +10250,12 @@
           "views": 28174785,
           "likes": 268506,
           "comments": 2736
+        },
+        {
+          "date": "2026-09-22",
+          "views": 28201617,
+          "likes": 270080,
+          "comments": 2739
         }
       ]
     },
@@ -11652,6 +11717,12 @@
           "views": 9785505,
           "likes": 197234,
           "comments": 3831
+        },
+        {
+          "date": "2026-09-22",
+          "views": 10123730,
+          "likes": 201023,
+          "comments": 3854
         }
       ]
     }
@@ -12799,6 +12870,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-21T19:11:19.759710+00:00"
+    },
+    {
+      "date": "2026-09-22",
+      "metric": "ytm_monthly_listeners",
+      "value": 134000000,
+      "baseline_mean": 96830000,
+      "baseline_stddev": 18482553.0,
+      "delta": 37170000,
+      "score": 2.01,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-22T18:03:14.594110+00:00"
     }
   ]
 }

@@ -6640,6 +6640,47 @@
       "ytm_subscribers": 1850000,
       "ytm_monthly_listeners": 7440000,
       "ytm_total_views": 1235562765
+    },
+    {
+      "date": "2026-09-22",
+      "monthly_listeners": 2755384,
+      "collected_at": "2026-09-22T18:04:43.086685+00:00",
+      "spotify_followers": 1753322,
+      "youtube_subscribers": 1850000,
+      "youtube_total_views": 1235562765,
+      "youtube_video_count": 142,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 115727
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 114344
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 78162
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 45021
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 43340
+        }
+      ],
+      "lastfm_listeners": 13064,
+      "lastfm_playcount": 519726,
+      "ytm_subscribers": 1850000,
+      "ytm_monthly_listeners": 7350000,
+      "ytm_total_views": 1235562765
     }
   ],
   "annotations": [
@@ -7082,30 +7123,40 @@
     "lastfm_tags": [
       "j-pop",
       "Korean",
-      "japanese",
       "rap",
-      "Hip-Hop"
+      "japanese",
+      "j-hiphop"
     ],
     "ytm_related_artists": [
       {
         "name": "HIRAIDAI",
         "browse_id": "UC3NrSfe_yR5XX9zGFxYoV1Q",
-        "subscribers": "17.5M"
-      },
-      {
-        "name": "Kana Nishino",
-        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
-        "subscribers": "4.6M"
+        "subscribers": "16.7M"
       },
       {
         "name": "BAD HOP",
         "browse_id": "UCZluRSPwToFRwPA21UkJR3Q",
-        "subscribers": "1.79M"
+        "subscribers": "1.77M"
       },
       {
         "name": "Awich",
         "browse_id": "UCvWgKgu9_3GTJulSpz1UN1Q",
-        "subscribers": "2.91M"
+        "subscribers": "2.97M"
+      },
+      {
+        "name": "Kana Nishino",
+        "browse_id": "UCYQCLFzE7pz-v8yNyIY1Ofw",
+        "subscribers": "4.54M"
+      },
+      {
+        "name": "Shota Shimizu",
+        "browse_id": "UCZXQ531DbJ0mDpV0vAkNk4g",
+        "subscribers": "2.86M"
+      },
+      {
+        "name": "LANA",
+        "browse_id": "UCFiKkRhK9arjKDxPBQdloDA",
+        "subscribers": "2.9M"
       },
       {
         "name": "Elle Teresa",
@@ -7113,29 +7164,19 @@
         "subscribers": "431K"
       },
       {
-        "name": "LANA",
-        "browse_id": "UCFiKkRhK9arjKDxPBQdloDA",
-        "subscribers": "2.84M"
-      },
-      {
-        "name": "Shota Shimizu",
-        "browse_id": "UCZXQ531DbJ0mDpV0vAkNk4g",
-        "subscribers": "2.84M"
+        "name": "WHITE JAM",
+        "browse_id": "UCR5CmiBXq6qkMQOXLU6WYrA",
+        "subscribers": "412K"
       },
       {
         "name": "OZworld",
         "browse_id": "UCnMNufO6kkcw_YHGxJunJbw",
-        "subscribers": "2.05M"
+        "subscribers": "2.15M"
       },
       {
-        "name": "WHITE JAM",
-        "browse_id": "UCR5CmiBXq6qkMQOXLU6WYrA",
-        "subscribers": "414K"
-      },
-      {
-        "name": "¥ellow Bucks",
-        "browse_id": "UCLtolucoSgY8JunndHJX8zA",
-        "subscribers": "1.12M"
+        "name": "AI",
+        "browse_id": "UC9WCfSMwXRLKU23DWGPqsfA",
+        "subscribers": "2.91M"
       }
     ],
     "ytm_top_songs": [
@@ -7152,12 +7193,12 @@
         "video_id": "H6Ek-ozDsyU"
       },
       {
-        "title": "B級 - B-list",
-        "video_id": "E9UP1zdCz0A"
-      },
-      {
         "title": "SAD SONG - From THE FIRST TAKE (feat. No No Girls FINALISTS)",
         "video_id": "qjLFT42CtNM"
+      },
+      {
+        "title": "B級 - B-list",
+        "video_id": "E9UP1zdCz0A"
       }
     ],
     "ytm_description": "Mina Otomonai, known professionally as Chanmina, is a South Korean and Japanese rapper and singer. She debuted in 2016 independently, before releasing her major label debut album Miseinen in 2017.\n\nFrom Wikipedia (https://en.wikipedia.org/wiki/Chanmina) under Creative Commons Attribution CC-BY-SA 3.0 (http://creativecommons.org/licenses/b...)"
@@ -8124,6 +8165,12 @@
           "date": "2026-09-21",
           "views": 5535087,
           "likes": 52964,
+          "comments": 230
+        },
+        {
+          "date": "2026-09-22",
+          "views": 5547993,
+          "likes": 53597,
           "comments": 230
         }
       ]
@@ -9137,6 +9184,12 @@
           "views": 34817040,
           "likes": 131943,
           "comments": 214
+        },
+        {
+          "date": "2026-09-22",
+          "views": 34844501,
+          "likes": 132451,
+          "comments": 214
         }
       ]
     },
@@ -10102,6 +10155,12 @@
           "views": 28663920,
           "likes": 114258,
           "comments": 273
+        },
+        {
+          "date": "2026-09-22",
+          "views": 28679129,
+          "likes": 114513,
+          "comments": 274
         }
       ]
     },
@@ -11012,6 +11071,12 @@
           "date": "2026-09-21",
           "views": 370504,
           "likes": 2528,
+          "comments": 26
+        },
+        {
+          "date": "2026-09-22",
+          "views": 370912,
+          "likes": 2533,
           "comments": 26
         }
       ]
@@ -11929,6 +11994,12 @@
           "date": "2026-09-21",
           "views": 35085785,
           "likes": 130944,
+          "comments": 389
+        },
+        {
+          "date": "2026-09-22",
+          "views": 35109506,
+          "likes": 131439,
           "comments": 389
         }
       ]

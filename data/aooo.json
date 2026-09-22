@@ -6758,6 +6758,47 @@
       "ytm_subscribers": 105000,
       "ytm_monthly_listeners": 708000,
       "ytm_total_views": 37248618
+    },
+    {
+      "date": "2026-09-22",
+      "monthly_listeners": 160816,
+      "collected_at": "2026-09-22T17:53:29.909569+00:00",
+      "spotify_followers": 65693,
+      "youtube_subscribers": 105000,
+      "youtube_total_views": 37627114,
+      "youtube_video_count": 316,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 8621
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 5613
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 3999
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 3880
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2760
+        }
+      ],
+      "lastfm_listeners": 15614,
+      "lastfm_playcount": 363984,
+      "ytm_subscribers": 105000,
+      "ytm_monthly_listeners": 700000,
+      "ytm_total_views": 37627114
     }
   ],
   "annotations": [
@@ -7125,30 +7166,40 @@
     "lastfm_tags": [
       "alternative rock",
       "japanese",
-      "nippon",
       "indie rock",
+      "nippon",
       "2020s"
     ],
     "ytm_related_artists": [
       {
+        "name": "regallily",
+        "browse_id": "UCecid4K4MlVnhlaiQ_96QJg",
+        "subscribers": "407K"
+      },
+      {
+        "name": "NELKE",
+        "browse_id": "UC51Ub6b_RjxnC7ePn9z0FTQ",
+        "subscribers": "637K"
+      },
+      {
         "name": "Conton Candy",
         "browse_id": "UCjPYMSR_6Nty2Bfult5AoLA",
-        "subscribers": "1.63M"
+        "subscribers": "1.61M"
       },
       {
         "name": "sanetii",
         "browse_id": "UCC4DaSQOF1wDYZQMZ1Ir5ew",
-        "subscribers": "125K"
+        "subscribers": "126K"
       },
       {
         "name": "MEIYO DENSETSU",
         "browse_id": "UCvvAMx8fgKUmb_Zb-kemFgA",
-        "subscribers": "228K"
+        "subscribers": "226K"
       },
       {
         "name": "Cidergirl",
         "browse_id": "UCj0gYbIUSGS_m1yqbPi4TIQ",
-        "subscribers": "269K"
+        "subscribers": "268K"
       },
       {
         "name": "rassemble",
@@ -7158,27 +7209,17 @@
       {
         "name": "OddRe:",
         "browse_id": "UCLRAvTum9DcWeJQtHn1D3WA",
-        "subscribers": "104K"
+        "subscribers": "114K"
       },
       {
         "name": "PompadollS",
         "browse_id": "UCmu5lpe6Wt-7yCHe2rA4zYQ",
-        "subscribers": "184K"
+        "subscribers": "187K"
       },
       {
         "name": "NEGISHIO TONDON",
         "browse_id": "UCb15VymqPPdgK9nnISoDDCg",
-        "subscribers": "285K"
-      },
-      {
-        "name": "nakigoto",
-        "browse_id": "UC4sq6m-foW44E1QTMzW6GsA",
-        "subscribers": "64.8K"
-      },
-      {
-        "name": "CENT",
-        "browse_id": "UCh0f5XbtIlrC0WeNgqiiZ9g",
-        "subscribers": "40.4K"
+        "subscribers": "280K"
       }
     ],
     "ytm_top_songs": [
@@ -8856,6 +8897,12 @@
           "views": 193008,
           "likes": 1585,
           "comments": 12
+        },
+        {
+          "date": "2026-09-22",
+          "views": 193289,
+          "likes": 1594,
+          "comments": 12
         }
       ]
     },
@@ -9586,6 +9633,12 @@
           "date": "2026-09-21",
           "views": 418060,
           "likes": 4019,
+          "comments": 63
+        },
+        {
+          "date": "2026-09-22",
+          "views": 418436,
+          "likes": 4035,
           "comments": 63
         }
       ]
@@ -10789,6 +10842,12 @@
           "views": 111764,
           "likes": 1556,
           "comments": 74
+        },
+        {
+          "date": "2026-09-22",
+          "views": 112117,
+          "likes": 1590,
+          "comments": 74
         }
       ]
     },
@@ -11375,6 +11434,12 @@
           "views": 45688,
           "likes": 461,
           "comments": 3
+        },
+        {
+          "date": "2026-09-22",
+          "views": 46028,
+          "likes": 486,
+          "comments": 3
         }
       ]
     },
@@ -11942,6 +12007,12 @@
           "date": "2026-09-21",
           "views": 59092,
           "likes": 749,
+          "comments": 18
+        },
+        {
+          "date": "2026-09-22",
+          "views": 59474,
+          "likes": 800,
           "comments": 18
         }
       ]
@@ -12984,6 +13055,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-05T16:26:52.587115+00:00"
+    },
+    {
+      "date": "2026-09-22",
+      "metric": "youtube_total_views",
+      "value": 37627114,
+      "baseline_mean": 36541427,
+      "baseline_stddev": 534860.5,
+      "delta": 1085687,
+      "score": 2.03,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-22T17:53:31.039613+00:00"
     }
   ]
 }
