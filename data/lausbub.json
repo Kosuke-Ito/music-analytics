@@ -6990,6 +6990,47 @@
       "ytm_subscribers": 19600,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 931827
+    },
+    {
+      "date": "2026-09-23",
+      "monthly_listeners": 117211,
+      "collected_at": "2026-09-23T18:10:30.562983+00:00",
+      "spotify_followers": 21888,
+      "youtube_subscribers": 19600,
+      "youtube_total_views": 941713,
+      "youtube_video_count": 34,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4228
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 3708
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 2537
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 1293
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 1280
+        }
+      ],
+      "lastfm_listeners": 9390,
+      "lastfm_playcount": 58155,
+      "ytm_subscribers": 19600,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 941713
     }
   ],
   "annotations": [
@@ -7333,12 +7374,12 @@
         "video_id": "Ndt_zsupPMg"
       },
       {
-        "title": "lazy",
-        "video_id": "sKWGoXlXWTo"
-      },
-      {
         "title": "higher",
         "video_id": "QHb9J4x7Dpo"
+      },
+      {
+        "title": "lazy",
+        "video_id": "sKWGoXlXWTo"
       },
       {
         "title": "golden lighter",
@@ -8189,6 +8230,18 @@
       "type": "annotated",
       "related_annotation": "全国ツアー「LAUSBUB Concert Tour 2026」大阪公演（心斎橋CONPASS）開幕でSpotify月間リスナーが急増",
       "detected_at": "2026-09-22T17:56:36.155678+00:00"
+    },
+    {
+      "date": "2026-09-23",
+      "metric": "monthly_listeners",
+      "value": 117211,
+      "baseline_mean": 104086.1,
+      "baseline_stddev": 5613.3,
+      "delta": 13124,
+      "score": 2.34,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-23T18:10:31.905622+00:00"
     }
   ],
   "song_performance": {
@@ -9158,6 +9211,12 @@
         {
           "date": "2026-09-22",
           "views": 6247,
+          "likes": 114,
+          "comments": 1
+        },
+        {
+          "date": "2026-09-23",
+          "views": 6273,
           "likes": 114,
           "comments": 1
         }
@@ -10131,6 +10190,12 @@
           "views": 8573,
           "likes": 195,
           "comments": 6
+        },
+        {
+          "date": "2026-09-23",
+          "views": 8590,
+          "likes": 195,
+          "comments": 6
         }
       ]
     },
@@ -11082,6 +11147,12 @@
         {
           "date": "2026-09-22",
           "views": 24883,
+          "likes": 226,
+          "comments": 2
+        },
+        {
+          "date": "2026-09-23",
+          "views": 24913,
           "likes": 226,
           "comments": 2
         }
@@ -12988,6 +13059,12 @@
           "views": 11581,
           "likes": 194,
           "comments": 2
+        },
+        {
+          "date": "2026-09-23",
+          "views": 11642,
+          "likes": 194,
+          "comments": 2
         }
       ]
     },
@@ -13124,6 +13201,12 @@
         {
           "date": "2026-09-22",
           "views": 799,
+          "likes": 14,
+          "comments": 0
+        },
+        {
+          "date": "2026-09-23",
+          "views": 823,
           "likes": 14,
           "comments": 0
         }

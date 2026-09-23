@@ -6984,6 +6984,47 @@
       "ytm_subscribers": 5060000,
       "ytm_monthly_listeners": 7380000,
       "ytm_total_views": 2565748337
+    },
+    {
+      "date": "2026-09-23",
+      "monthly_listeners": 3737963,
+      "collected_at": "2026-09-23T18:08:27.824461+00:00",
+      "spotify_followers": 6284371,
+      "youtube_subscribers": 5060000,
+      "youtube_total_views": 2565748337,
+      "youtube_video_count": 594,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 119275
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 106788
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 70238
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67224
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 46960
+        }
+      ],
+      "lastfm_listeners": 654177,
+      "lastfm_playcount": 56208985,
+      "ytm_subscribers": 5060000,
+      "ytm_monthly_listeners": 7540000,
+      "ytm_total_views": 2565748337
     }
   ],
   "annotations": [
@@ -7399,47 +7440,47 @@
       {
         "name": "Utada",
         "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "19.1M"
+        "subscribers": "19.6M"
       },
       {
         "name": "YUI",
         "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
-        "subscribers": "6.71M"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.2M"
-      },
-      {
-        "name": "Pay money To my Pain",
-        "browse_id": "UC3kKm059hewEM_LHXmGULjw",
-        "subscribers": "170K"
-      },
-      {
-        "name": "Taka",
-        "browse_id": "UC0KLMGub_J0BSigaBHAAG-Q",
-        "subscribers": "1.59K"
+        "subscribers": "7.07M"
       },
       {
         "name": "YOASOBI",
         "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "38M"
-      },
-      {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "18.6M"
+        "subscribers": "39.1M"
       },
       {
         "name": "MAN WITH A MISSION",
         "browse_id": "UCCWlJ3mOpVtWZoCeEfnAs9w",
-        "subscribers": "4.37M"
+        "subscribers": "4.61M"
+      },
+      {
+        "name": "Pay money To my Pain",
+        "browse_id": "UC3kKm059hewEM_LHXmGULjw",
+        "subscribers": "173K"
+      },
+      {
+        "name": "Taka",
+        "browse_id": "UC0KLMGub_J0BSigaBHAAG-Q",
+        "subscribers": "1.61K"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.5M"
+      },
+      {
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "19.5M"
       },
       {
         "name": "milet",
         "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "7.75M"
+        "subscribers": "7.86M"
       }
     ],
     "ytm_top_songs": [
@@ -8441,6 +8482,12 @@
           "views": 10075120,
           "likes": 53403,
           "comments": 120
+        },
+        {
+          "date": "2026-09-23",
+          "views": 10102970,
+          "likes": 53510,
+          "comments": 120
         }
       ]
     },
@@ -9424,6 +9471,12 @@
           "views": 16948652,
           "likes": 88422,
           "comments": 492
+        },
+        {
+          "date": "2026-09-23",
+          "views": 17007894,
+          "likes": 88674,
+          "comments": 493
         }
       ]
     },
@@ -10407,6 +10460,12 @@
           "views": 8543121,
           "likes": 37290,
           "comments": 70
+        },
+        {
+          "date": "2026-09-23",
+          "views": 8567508,
+          "likes": 37368,
+          "comments": 70
         }
       ]
     },
@@ -11312,6 +11371,12 @@
           "views": 16496730,
           "likes": 138591,
           "comments": 375
+        },
+        {
+          "date": "2026-09-23",
+          "views": 16507383,
+          "likes": 138639,
+          "comments": 375
         }
       ]
     },
@@ -12075,6 +12140,12 @@
           "date": "2026-09-22",
           "views": 3793894,
           "likes": 19592,
+          "comments": 39
+        },
+        {
+          "date": "2026-09-23",
+          "views": 3804958,
+          "likes": 19633,
           "comments": 39
         }
       ]
@@ -13027,6 +13098,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-09-22T17:54:31.767448+00:00"
+    },
+    {
+      "date": "2026-09-23",
+      "metric": "monthly_listeners",
+      "value": 3737963,
+      "baseline_mean": 3669641.2,
+      "baseline_stddev": 32496.1,
+      "delta": 68321,
+      "score": 2.1,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-23T18:08:29.160979+00:00"
     }
   ]
 }

@@ -6684,6 +6684,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 4520000,
       "ytm_total_views": 618867679
+    },
+    {
+      "date": "2026-09-23",
+      "monthly_listeners": 886790,
+      "collected_at": "2026-09-23T18:18:35.711869+00:00",
+      "spotify_followers": 988632,
+      "youtube_subscribers": 1750000,
+      "youtube_total_views": 620737380,
+      "youtube_video_count": 466,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20311
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13372
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 11745
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 11346
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8526
+        }
+      ],
+      "lastfm_listeners": 9025,
+      "lastfm_playcount": 416098,
+      "ytm_subscribers": 1750000,
+      "ytm_monthly_listeners": 4730000,
+      "ytm_total_views": 620737380
     }
   ],
   "metadata": {
@@ -6718,44 +6759,39 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Sheena Ringo",
-        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
-        "subscribers": "12.3M"
-      },
-      {
         "name": "SHISHIDO KAVKA",
         "browse_id": "UCSDssRfGP16hu15qNg6xjVA",
-        "subscribers": "119K"
+        "subscribers": "122K"
       },
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "125K"
+        "subscribers": "130K"
       },
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "273K"
+        "subscribers": "280K"
       },
       {
         "name": "NakamuraEmi",
         "browse_id": "UCEOGqk0O-cOJPmkx7c-dvKA",
-        "subscribers": "84.8K"
+        "subscribers": "86.9K"
       },
       {
         "name": "Dean Fujioka",
         "browse_id": "UCzNkz-qhUmxdCrhy0A47sIA",
-        "subscribers": "118K"
+        "subscribers": "121K"
       },
       {
         "name": "Akiko Wada",
         "browse_id": "UC-o0qVSpZLpHmsOTh66YfXw",
-        "subscribers": "415K"
+        "subscribers": "434K"
       },
       {
         "name": "CHAI",
         "browse_id": "UCvvmXmIVYQmlzj8ntRMZKWg",
-        "subscribers": "103K"
+        "subscribers": "110K"
       },
       {
         "name": "Rinne Amano",
@@ -6766,16 +6802,21 @@
         "name": "Team HINOI",
         "browse_id": "UCHdy23WpsQCSy16ZyFraajQ",
         "subscribers": "1.59K"
+      },
+      {
+        "name": "Sakura Gakuin",
+        "browse_id": "UCYUuK7dJsVL6BtVLxbHsydw",
+        "subscribers": "7.91K"
       }
     ],
     "ytm_top_songs": [
       {
-        "title": "オトナブルー - OTONABLUE",
-        "video_id": "gpOdTitsN3o"
-      },
-      {
         "title": "Sweet Memories (feat. AiNA THE END)",
         "video_id": "QZpLaK6M3mw"
+      },
+      {
+        "title": "オトナブルー - OTONABLUE",
+        "video_id": "gpOdTitsN3o"
       },
       {
         "title": "オトナブルー (From THE FIRST TAKE) - OTANABLUEー (From THE FIRST TAKE)",
@@ -7767,6 +7808,12 @@
           "views": 20004443,
           "likes": 283961,
           "comments": 434
+        },
+        {
+          "date": "2026-09-23",
+          "views": 20013991,
+          "likes": 284055,
+          "comments": 434
         }
       ]
     },
@@ -8743,6 +8790,12 @@
           "date": "2026-09-22",
           "views": 5544856,
           "likes": 32709,
+          "comments": 134
+        },
+        {
+          "date": "2026-09-23",
+          "views": 5546168,
+          "likes": 32718,
           "comments": 134
         }
       ]
@@ -9721,6 +9774,12 @@
           "views": 2384752,
           "likes": 39012,
           "comments": 116
+        },
+        {
+          "date": "2026-09-23",
+          "views": 2387573,
+          "likes": 39042,
+          "comments": 116
         }
       ]
     },
@@ -10366,6 +10425,12 @@
           "date": "2026-09-22",
           "views": 2267231,
           "likes": 31698,
+          "comments": 137
+        },
+        {
+          "date": "2026-09-23",
+          "views": 2268438,
+          "likes": 31707,
           "comments": 137
         }
       ]
@@ -11715,6 +11780,12 @@
           "views": 57019,
           "likes": 1111,
           "comments": 14
+        },
+        {
+          "date": "2026-09-23",
+          "views": 58515,
+          "likes": 1143,
+          "comments": 14
         }
       ]
     }
@@ -12973,6 +13044,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-19T17:08:50.756195+00:00"
+    },
+    {
+      "date": "2026-09-23",
+      "metric": "youtube_total_views",
+      "value": 620737380,
+      "baseline_mean": 615517963.9,
+      "baseline_stddev": 2229696.7,
+      "delta": 5219416,
+      "score": 2.34,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-23T18:18:37.283150+00:00"
     }
   ]
 }

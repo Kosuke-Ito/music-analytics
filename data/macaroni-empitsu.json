@@ -6690,6 +6690,47 @@
       "ytm_subscribers": 606000,
       "ytm_monthly_listeners": 5610000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-23",
+      "monthly_listeners": 2950477,
+      "collected_at": "2026-09-23T18:17:17.933820+00:00",
+      "spotify_followers": 2086732,
+      "youtube_subscribers": 607000,
+      "youtube_total_views": 532288787,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 153613
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 141152
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 102875
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 59277
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 54212
+        }
+      ],
+      "lastfm_listeners": 8116,
+      "lastfm_playcount": 478750,
+      "ytm_subscribers": 607000,
+      "ytm_monthly_listeners": 6090000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7109,47 +7150,47 @@
       {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "4.73M"
+        "subscribers": "4.97M"
       },
       {
         "name": "Tele",
         "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "435K"
+        "subscribers": "445K"
       },
       {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.86M"
+        "subscribers": "2.96M"
       },
       {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "18.5M"
+        "subscribers": "19.3M"
       },
       {
         "name": "SUPER BEAVER",
         "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
-        "subscribers": "2.62M"
-      },
-      {
-        "name": "SIX LOUNGE",
-        "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
-        "subscribers": "2.02M"
+        "subscribers": "2.83M"
       },
       {
         "name": "SHISHAMO",
         "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "3.54M"
+        "subscribers": "3.59M"
       },
       {
-        "name": "Marcy",
-        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.52M"
+        "name": "SIX LOUNGE",
+        "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
+        "subscribers": "2.05M"
       },
       {
         "name": "WurtS",
         "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "6.79M"
+        "subscribers": "7.16M"
+      },
+      {
+        "name": "Marcy",
+        "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
+        "subscribers": "1.55M"
       }
     ],
     "ytm_top_songs": [
@@ -8138,6 +8179,12 @@
           "views": 13526592,
           "likes": 75356,
           "comments": 148
+        },
+        {
+          "date": "2026-09-23",
+          "views": 13545575,
+          "likes": 75419,
+          "comments": 148
         }
       ]
     },
@@ -9103,6 +9150,12 @@
           "views": 26440177,
           "likes": 97547,
           "comments": 184
+        },
+        {
+          "date": "2026-09-23",
+          "views": 26466334,
+          "likes": 97641,
+          "comments": 184
         }
       ]
     },
@@ -10056,6 +10109,12 @@
           "views": 18181884,
           "likes": 67006,
           "comments": 123
+        },
+        {
+          "date": "2026-09-23",
+          "views": 18200981,
+          "likes": 67073,
+          "comments": 124
         }
       ]
     },
@@ -11781,6 +11840,12 @@
           "views": 17868149,
           "likes": 105161,
           "comments": 644
+        },
+        {
+          "date": "2026-09-23",
+          "views": 17920583,
+          "likes": 105413,
+          "comments": 646
         }
       ]
     },
@@ -12103,6 +12168,12 @@
           "views": 475245,
           "likes": 7270,
           "comments": 61
+        },
+        {
+          "date": "2026-09-23",
+          "views": 525421,
+          "likes": 7878,
+          "comments": 63
         }
       ]
     }
@@ -13139,6 +13210,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-22T18:05:00.662979+00:00"
+    },
+    {
+      "date": "2026-09-23",
+      "metric": "ytm_monthly_listeners",
+      "value": 6090000,
+      "baseline_mean": 5409000,
+      "baseline_stddev": 210560.4,
+      "delta": 681000,
+      "score": 3.23,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-23T18:17:19.443972+00:00"
+    },
+    {
+      "date": "2026-09-23",
+      "metric": "youtube_total_views",
+      "value": 532288787,
+      "baseline_mean": 524281172.3,
+      "baseline_stddev": 3796067.2,
+      "delta": 8007614,
+      "score": 2.11,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-23T18:17:19.443972+00:00"
     }
   ]
 }
