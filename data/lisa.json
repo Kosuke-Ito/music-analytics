@@ -12290,6 +12290,15 @@
       "source": "内部データ分析（複数アーティストの同時期指標推移比較、2026-09-17調査）",
       "confidence": "medium",
       "added_at": "2026-09-17T19:00:00Z"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "YouTube Music月間リスナー数の急増は同名アーティスト（BLACKPINK LISA）との誤取得、または既知の同時多発アーティファクトの疑い",
+      "description": "急増幅+45,036,666人（2.13σ）は、日本の歌手LiSA自身の直近ニュース（a flood of circleトリビュートアルバム参加、TREASURE05X出演決定等）では説明できない規模。同時期にBLACKPINK・LISAが「Lisa x PlayStation」DualSenseコントローラー発表（9/21-24）や新EP「Press Play」で世界的に話題化しており、config.jsonのLiSAエントリはytm_browse_idが未設定（他の多くのアーティストは設定済み）のため、YouTube Music検索が同名の海外アーティストを誤って参照した「wrong hit」の可能性がある。加えて同日ayase・back number・imase・マカロニえんぴつ・MILLENNIUM PARADE・Official髭男dism・HONNE等でも同時にYTM月間リスナー数が急増しており、既知のデータ収集アーティファクトが混在している可能性も残る。データパイプライン側でytm_browse_id設定の確認を推奨。",
+      "category": "other",
+      "source": "blog.playstation.com/2026/09/21, natalie.mu/music/news/690379, scripts/config.json（LiSAのみytm_browse_id未設定）, 内部データ分析（複数アーティストのytm_monthly_listeners同時急増比較）",
+      "confidence": "medium",
+      "added_at": "2026-09-24T19:30:00Z"
     }
   ],
   "buzz_events": [
