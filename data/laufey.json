@@ -7013,6 +7013,47 @@
       "ytm_subscribers": 3680000,
       "ytm_monthly_listeners": 73100000,
       "ytm_total_views": 1418230799
+    },
+    {
+      "date": "2026-09-24",
+      "monthly_listeners": 21282970,
+      "collected_at": "2026-09-24T18:16:14.312376+00:00",
+      "spotify_followers": 11049869,
+      "youtube_subscribers": 3680000,
+      "youtube_total_views": 1434068555,
+      "youtube_video_count": 546,
+      "top_cities": [
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 265783
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 242726
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 218515
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 205692
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 195704
+        }
+      ],
+      "lastfm_listeners": 2523948,
+      "lastfm_playcount": 292556529,
+      "ytm_subscribers": 3680000,
+      "ytm_monthly_listeners": 73000000,
+      "ytm_total_views": 1434068555
     }
   ],
   "annotations": [
@@ -7361,22 +7402,22 @@
       {
         "name": "Lizzy McAlpine",
         "browse_id": "UCC1TOSYNYXw1xrwNRxW46dg",
-        "subscribers": "6.32M"
+        "subscribers": "6.13M"
+      },
+      {
+        "name": "The Marías",
+        "browse_id": "UCVV5M4OEFsKnB9HBhwOhHbA",
+        "subscribers": "60.9M"
+      },
+      {
+        "name": "Faye Webster",
+        "browse_id": "UCdKJ6iMnCsPcTDB5p510Ztg",
+        "subscribers": "4.87M"
       },
       {
         "name": "Clairo",
         "browse_id": "UChC2OO1dG5Vge1Kuc-1QZRg",
         "subscribers": "14.4M"
-      },
-      {
-        "name": "jomm",
-        "browse_id": "UCFca_eyQw7EkmhqInKz5ruA",
-        "subscribers": "332K"
-      },
-      {
-        "name": "Rex Orange County",
-        "browse_id": "UCRI-Ds5eY70A4oeHggAFBbg",
-        "subscribers": "78.8M"
       },
       {
         "name": "Iceland Symphony Orchestra",
@@ -7386,27 +7427,27 @@
       {
         "name": "Rocco",
         "browse_id": "UCKTYyqZkReYbvRUGYUc19iQ",
-        "subscribers": "282K"
+        "subscribers": "278K"
       },
       {
         "name": "Eloise",
         "browse_id": "UCe9WIeu02ZEZocoQImPVWkA",
-        "subscribers": "182K"
+        "subscribers": "183K"
       },
       {
         "name": "Wasia Project",
         "browse_id": "UCPziehcInXuXsqIsUquQRmA",
-        "subscribers": "388K"
+        "subscribers": "400K"
       },
       {
         "name": "aron!",
         "browse_id": "UCEyRAg81bPs5-_L1mJ1lihg",
-        "subscribers": "282K"
+        "subscribers": "283K"
       },
       {
-        "name": "The Marías",
-        "browse_id": "UCVV5M4OEFsKnB9HBhwOhHbA",
-        "subscribers": "60.8M"
+        "name": "Rex Orange County",
+        "browse_id": "UCRI-Ds5eY70A4oeHggAFBbg",
+        "subscribers": "79.2M"
       }
     ],
     "ytm_top_songs": [
@@ -8420,6 +8461,12 @@
           "views": 92353802,
           "likes": 1314912,
           "comments": 9466
+        },
+        {
+          "date": "2026-09-24",
+          "views": 92483754,
+          "likes": 1315833,
+          "comments": 9475
         }
       ]
     },
@@ -9409,6 +9456,12 @@
           "views": 23915644,
           "likes": 336257,
           "comments": 1470
+        },
+        {
+          "date": "2026-09-24",
+          "views": 23989214,
+          "likes": 336900,
+          "comments": 1478
         }
       ]
     },
@@ -10398,6 +10451,12 @@
           "views": 26436858,
           "likes": 288573,
           "comments": 872
+        },
+        {
+          "date": "2026-09-24",
+          "views": 26473982,
+          "likes": 288764,
+          "comments": 874
         }
       ]
     },
@@ -11165,6 +11224,12 @@
           "views": 51742178,
           "likes": 547867,
           "comments": 1726
+        },
+        {
+          "date": "2026-09-24",
+          "views": 51793304,
+          "likes": 548171,
+          "comments": 1726
         }
       ]
     },
@@ -11439,6 +11504,12 @@
           "date": "2026-09-23",
           "views": 32236029,
           "likes": 460098,
+          "comments": 1577
+        },
+        {
+          "date": "2026-09-24",
+          "views": 32267665,
+          "likes": 460367,
           "comments": 1577
         }
       ]
@@ -13134,6 +13205,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-19T17:04:06.460135+00:00"
+    },
+    {
+      "date": "2026-09-24",
+      "metric": "youtube_total_views",
+      "value": 1434068555,
+      "baseline_mean": 1398986237.4,
+      "baseline_stddev": 14632662.1,
+      "delta": 35082317,
+      "score": 2.4,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-24T18:16:15.593707+00:00"
     }
   ]
 }

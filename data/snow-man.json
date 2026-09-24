@@ -493,6 +493,47 @@
       "ytm_subscribers": 4440000,
       "ytm_monthly_listeners": 18800000,
       "ytm_total_views": 7108054349
+    },
+    {
+      "date": "2026-09-24",
+      "monthly_listeners": 1605770,
+      "collected_at": "2026-09-24T18:13:06.736141+00:00",
+      "spotify_followers": 750164,
+      "youtube_subscribers": 4440000,
+      "youtube_total_views": 7120490634,
+      "youtube_video_count": 1375,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 76405
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 73341
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 54713
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 29837
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 27774
+        }
+      ],
+      "lastfm_listeners": 19460,
+      "lastfm_playcount": 824128,
+      "ytm_subscribers": 4440000,
+      "ytm_monthly_listeners": 18900000,
+      "ytm_total_views": 7120490634
     }
   ],
   "metadata": {
@@ -500,27 +541,27 @@
       {
         "name": "Number_i",
         "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
-        "subscribers": "1.46M"
+        "subscribers": "1.48M"
       },
       {
         "name": "timelesz",
         "browse_id": "UC5mIZ4PxoBa5aqxEnyLUpDw",
-        "subscribers": "2.51M"
+        "subscribers": "2.6M"
       },
       {
         "name": "SixTONES",
         "browse_id": "UCKlEziFhgHJhkBkZg8Hp6tw",
-        "subscribers": "12.9M"
+        "subscribers": "12.5M"
       },
       {
         "name": "M!LK",
         "browse_id": "UChbU0n7P86fWdZtlzCNCeGg",
-        "subscribers": "45.1M"
+        "subscribers": "44.6M"
       },
       {
         "name": "King & Prince",
         "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "8.36M"
+        "subscribers": "8.69M"
       },
       {
         "name": "V6",
@@ -528,19 +569,19 @@
         "subscribers": "22.8K"
       },
       {
-        "name": "KinKi Kids",
-        "browse_id": "UCVKObs9jxjPTzGJVeoH8cDw",
-        "subscribers": "2.63M"
-      },
-      {
         "name": "Hey! Say! JUMP",
         "browse_id": "UCpYHkc4rzWEW7iVXIyxQebA",
         "subscribers": "2.05M"
       },
       {
-        "name": "Travis Japan",
-        "browse_id": "UC0CJ4qxy9mgHNhO2d_sqBuw",
-        "subscribers": "1.22M"
+        "name": "KinKi Kids",
+        "browse_id": "UCVKObs9jxjPTzGJVeoH8cDw",
+        "subscribers": "2.62M"
+      },
+      {
+        "name": "Kento Nakajima",
+        "browse_id": "UCD4QqFd_0kqBzEZXTKwCH2g",
+        "subscribers": "5.13M"
       },
       {
         "name": "Naniwa Danshi",
@@ -647,6 +688,12 @@
           "views": 1172692,
           "likes": 22835,
           "comments": 629
+        },
+        {
+          "date": "2026-09-24",
+          "views": 1193127,
+          "likes": 22866,
+          "comments": 629
         }
       ]
     },
@@ -723,6 +770,12 @@
           "date": "2026-09-23",
           "views": 3232302,
           "likes": 13750,
+          "comments": 97
+        },
+        {
+          "date": "2026-09-24",
+          "views": 3251246,
+          "likes": 13805,
           "comments": 97
         }
       ]
@@ -801,6 +854,12 @@
           "views": 4659708,
           "likes": 68285,
           "comments": 4620
+        },
+        {
+          "date": "2026-09-24",
+          "views": 4678856,
+          "likes": 68316,
+          "comments": 4620
         }
       ]
     },
@@ -877,6 +936,12 @@
           "date": "2026-09-23",
           "views": 4937095,
           "likes": 57035,
+          "comments": 1248
+        },
+        {
+          "date": "2026-09-24",
+          "views": 4944085,
+          "likes": 57034,
           "comments": 1248
         }
       ]
@@ -960,6 +1025,12 @@
           "views": 1391689,
           "likes": 22596,
           "comments": 873
+        },
+        {
+          "date": "2026-09-24",
+          "views": 1408312,
+          "likes": 22625,
+          "comments": 874
         }
       ]
     }
@@ -999,6 +1070,18 @@
       "type": "annotated",
       "related_annotation": "複数CM・メディア露出継続の中でYouTubeチャンネル総再生数が上昇",
       "detected_at": "2026-09-20T17:14:37.419357+00:00"
+    },
+    {
+      "date": "2026-09-24",
+      "metric": "youtube_total_views",
+      "value": 7120490634,
+      "baseline_mean": 7095174475.1,
+      "baseline_stddev": 10755705.1,
+      "delta": 25316158,
+      "score": 2.35,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-24T18:13:08.562938+00:00"
     }
   ]
 }

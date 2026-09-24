@@ -6837,6 +6837,47 @@
       "ytm_subscribers": 1060000,
       "ytm_monthly_listeners": 6220000,
       "ytm_total_views": 938844635
+    },
+    {
+      "date": "2026-09-24",
+      "monthly_listeners": 4368037,
+      "collected_at": "2026-09-24T18:16:28.563428+00:00",
+      "spotify_followers": 1681439,
+      "youtube_subscribers": 1060000,
+      "youtube_total_views": 938844635,
+      "youtube_video_count": 231,
+      "top_cities": [
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 203779
+        },
+        {
+          "city": "Bandung",
+          "country": "ID",
+          "listeners": 165036
+        },
+        {
+          "city": "Surabaya",
+          "country": "ID",
+          "listeners": 147620
+        },
+        {
+          "city": "West Jakarta",
+          "country": "ID",
+          "listeners": 134735
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 113581
+        }
+      ],
+      "lastfm_listeners": 941561,
+      "lastfm_playcount": 23870522,
+      "ytm_subscribers": 1060000,
+      "ytm_monthly_listeners": 6310000,
+      "ytm_total_views": 938844635
     }
   ],
   "annotations": [
@@ -7027,19 +7068,24 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "92914",
-        "browse_id": "UCsywq73qRVQY0pBqEK6_2RA",
-        "subscribers": "324K"
-      },
-      {
         "name": "Fiji Blue",
         "browse_id": "UCYjYMImwBg38TDpWDl_F0Pw",
         "subscribers": "1.35M"
       },
       {
+        "name": "92914",
+        "browse_id": "UCsywq73qRVQY0pBqEK6_2RA",
+        "subscribers": "323K"
+      },
+      {
         "name": "PREP",
         "browse_id": "UCjK5AugBIXhtmFr-s3X9kgA",
         "subscribers": "1.91M"
+      },
+      {
+        "name": "Johnny Stimson",
+        "browse_id": "UCNLvis5zsu6lLZLRrE4qJgQ",
+        "subscribers": "1.14M"
       },
       {
         "name": "Rai Thistlethwayte",
@@ -7049,7 +7095,7 @@
       {
         "name": "Peach Tree Rascals",
         "browse_id": "UCOGH6iT5yzmuKMy8fD0LW-A",
-        "subscribers": "597K"
+        "subscribers": "596K"
       },
       {
         "name": "Phum Viphurit",
@@ -7069,12 +7115,7 @@
       {
         "name": "Bren Joy",
         "browse_id": "UChIwocHYRaPUGmZnNdX0RVQ",
-        "subscribers": "547K"
-      },
-      {
-        "name": "JEREMY PASSION",
-        "browse_id": "UCzHYmb88lMOw7EAy4cuOy3Q",
-        "subscribers": "46.3K"
+        "subscribers": "549K"
       }
     ],
     "ytm_top_songs": [
@@ -8076,6 +8117,12 @@
           "views": 2614178,
           "likes": 16062,
           "comments": 28
+        },
+        {
+          "date": "2026-09-24",
+          "views": 2614555,
+          "likes": 16063,
+          "comments": 28
         }
       ]
     },
@@ -9046,6 +9093,12 @@
           "date": "2026-09-23",
           "views": 2291959,
           "likes": 20460,
+          "comments": 281
+        },
+        {
+          "date": "2026-09-24",
+          "views": 2294520,
+          "likes": 20470,
           "comments": 281
         }
       ]
@@ -10024,6 +10077,12 @@
           "views": 48737663,
           "likes": 204533,
           "comments": 125
+        },
+        {
+          "date": "2026-09-24",
+          "views": 48750632,
+          "likes": 204554,
+          "comments": 125
         }
       ]
     },
@@ -10585,6 +10644,12 @@
           "date": "2026-09-23",
           "views": 492427,
           "likes": 5998,
+          "comments": 11
+        },
+        {
+          "date": "2026-09-24",
+          "views": 492547,
+          "likes": 5999,
           "comments": 11
         }
       ]
@@ -11514,6 +11579,12 @@
           "date": "2026-09-23",
           "views": 15232506,
           "likes": 76329,
+          "comments": 41
+        },
+        {
+          "date": "2026-09-24",
+          "views": 15244084,
+          "likes": 76351,
           "comments": 41
         }
       ]
@@ -12819,6 +12890,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-23T18:13:51.825250+00:00"
+    },
+    {
+      "date": "2026-09-24",
+      "metric": "ytm_monthly_listeners",
+      "value": 6310000,
+      "baseline_mean": 5349310.3,
+      "baseline_stddev": 304709.4,
+      "delta": 960689,
+      "score": 3.15,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-24T18:16:30.031366+00:00"
     }
   ]
 }

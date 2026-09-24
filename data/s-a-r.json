@@ -6806,6 +6806,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-24",
+      "monthly_listeners": 31427,
+      "collected_at": "2026-09-24T18:12:52.080681+00:00",
+      "spotify_followers": 29677,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1526011,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1806
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 956
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 636
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 551
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 449
+        }
+      ],
+      "lastfm_listeners": 5818,
+      "lastfm_playcount": 42995,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7113,39 +7154,34 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "NEWLY",
-        "browse_id": "UCPCMcKArq7J48e-AC1NNLDg",
-        "subscribers": "689"
-      },
-      {
         "name": "reina",
         "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
-        "subscribers": "3.61K"
+        "subscribers": "3.62K"
       },
       {
         "name": "Haruy",
         "browse_id": "UCfjxW631IZ5NGhrGx7IR0Ag",
-        "subscribers": "6.16K"
+        "subscribers": "6.17K"
       },
       {
         "name": "Salasa",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "156K"
+        "subscribers": "154K"
       },
       {
         "name": "Geloomy",
         "browse_id": "UCYypxPpK93FErrKdMcEuppg",
-        "subscribers": "86.2K"
+        "subscribers": "91.4K"
       },
       {
         "name": "Ovall",
         "browse_id": "UCuA82nnWojpMgjBqCnbQDmQ",
-        "subscribers": "1.02M"
+        "subscribers": "1M"
       },
       {
         "name": "Kan Sano",
         "browse_id": "UC05tnYJ3St7yd3f6lfKdzcg",
-        "subscribers": "97.1K"
+        "subscribers": "97K"
       },
       {
         "name": "Stefan Mahendra",
@@ -7160,7 +7196,12 @@
       {
         "name": "Michael Kaneko",
         "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
-        "subscribers": "80.1K"
+        "subscribers": "80.6K"
+      },
+      {
+        "name": "LAGHEADS",
+        "browse_id": "UCU1Oz-fU3Lop_4201NtnM1w",
+        "subscribers": "3.27K"
       }
     ],
     "ytm_top_songs": [
@@ -8160,6 +8201,12 @@
           "date": "2026-09-23",
           "views": 228158,
           "likes": 2882,
+          "comments": 8
+        },
+        {
+          "date": "2026-09-24",
+          "views": 228396,
+          "likes": 2883,
           "comments": 8
         }
       ]
@@ -9585,6 +9632,12 @@
           "views": 47000,
           "likes": 395,
           "comments": 3
+        },
+        {
+          "date": "2026-09-24",
+          "views": 47034,
+          "likes": 396,
+          "comments": 3
         }
       ]
     },
@@ -10585,6 +10638,12 @@
           "views": 121368,
           "likes": 1387,
           "comments": 7
+        },
+        {
+          "date": "2026-09-24",
+          "views": 121707,
+          "likes": 1389,
+          "comments": 7
         }
       ]
     },
@@ -11464,6 +11523,12 @@
           "views": 49634,
           "likes": 497,
           "comments": 7
+        },
+        {
+          "date": "2026-09-24",
+          "views": 49690,
+          "likes": 497,
+          "comments": 7
         }
       ]
     },
@@ -12129,6 +12194,12 @@
           "views": 61500,
           "likes": 722,
           "comments": 1
+        },
+        {
+          "date": "2026-09-24",
+          "views": 61552,
+          "likes": 723,
+          "comments": 1
         }
       ]
     },
@@ -12676,6 +12747,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-23T18:10:59.528147+00:00"
+    },
+    {
+      "date": "2026-09-24",
+      "metric": "monthly_listeners",
+      "value": 31427,
+      "baseline_mean": 29811.8,
+      "baseline_stddev": 419.5,
+      "delta": 1615,
+      "score": 3.85,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-24T18:12:53.551324+00:00"
     }
   ]
 }

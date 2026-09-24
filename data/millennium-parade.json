@@ -6856,6 +6856,47 @@
       "ytm_subscribers": 468000,
       "ytm_monthly_listeners": 1330000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-24",
+      "monthly_listeners": 414062,
+      "collected_at": "2026-09-24T18:03:47.460070+00:00",
+      "spotify_followers": 235230,
+      "youtube_subscribers": 468000,
+      "youtube_total_views": 221173234,
+      "youtube_video_count": 52,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4711
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 4687
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 4131
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 3503
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 3421
+        }
+      ],
+      "lastfm_listeners": 164821,
+      "lastfm_playcount": 2354631,
+      "ytm_subscribers": 468000,
+      "ytm_monthly_listeners": 1370000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6892,17 +6933,27 @@
       {
         "name": "Utada",
         "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "19.6M"
+        "subscribers": "19.7M"
       },
       {
-        "name": "MIYUNA",
-        "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
-        "subscribers": "164K"
+        "name": "Ling tosite sigure",
+        "browse_id": "UCI4j7Ojnqah6z5_OY-_20wg",
+        "subscribers": "1.04M"
       },
       {
-        "name": "HATENA",
-        "browse_id": "UC6erv9sE3EPrBagY-yL4rPQ",
-        "subscribers": "81.2K"
+        "name": "jo0ji",
+        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
+        "subscribers": "3.59M"
+      },
+      {
+        "name": "Sheena Ringo",
+        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
+        "subscribers": "12.7M"
+      },
+      {
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "49.4M"
       },
       {
         "name": "MHRJ",
@@ -6927,17 +6978,7 @@
       {
         "name": "OddRe:",
         "browse_id": "UCLRAvTum9DcWeJQtHn1D3WA",
-        "subscribers": "116K"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "49.4M"
-      },
-      {
-        "name": "jo0ji",
-        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "3.58M"
+        "subscribers": "115K"
       }
     ],
     "ytm_top_songs": [
@@ -7944,6 +7985,12 @@
           "views": 8402443,
           "likes": 76010,
           "comments": 280
+        },
+        {
+          "date": "2026-09-24",
+          "views": 8411230,
+          "likes": 76068,
+          "comments": 280
         }
       ]
     },
@@ -8926,6 +8973,12 @@
           "date": "2026-09-23",
           "views": 2232182,
           "likes": 27182,
+          "comments": 51
+        },
+        {
+          "date": "2026-09-24",
+          "views": 2234442,
+          "likes": 27210,
           "comments": 51
         }
       ]
@@ -9910,6 +9963,12 @@
           "views": 22162857,
           "likes": 226563,
           "comments": 645
+        },
+        {
+          "date": "2026-09-24",
+          "views": 22170102,
+          "likes": 226598,
+          "comments": 645
         }
       ]
     },
@@ -10544,6 +10603,12 @@
           "date": "2026-09-23",
           "views": 165463,
           "likes": 1334,
+          "comments": 12
+        },
+        {
+          "date": "2026-09-24",
+          "views": 165617,
+          "likes": 1336,
           "comments": 12
         }
       ]
@@ -11891,6 +11956,12 @@
           "views": 490217,
           "likes": 10199,
           "comments": 252
+        },
+        {
+          "date": "2026-09-24",
+          "views": 494505,
+          "likes": 10244,
+          "comments": 253
         }
       ]
     },
@@ -12898,6 +12969,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-23T18:03:50.357202+00:00"
+    },
+    {
+      "date": "2026-09-24",
+      "metric": "ytm_monthly_listeners",
+      "value": 1370000,
+      "baseline_mean": 1068827.6,
+      "baseline_stddev": 90733.1,
+      "delta": 301172,
+      "score": 3.32,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-24T18:03:48.817683+00:00"
     }
   ]
 }

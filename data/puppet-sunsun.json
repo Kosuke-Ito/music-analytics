@@ -6840,6 +6840,47 @@
       "ytm_subscribers": 7930,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-24",
+      "monthly_listeners": 209937,
+      "collected_at": "2026-09-24T18:09:25.208517+00:00",
+      "spotify_followers": 36946,
+      "youtube_subscribers": 929000,
+      "youtube_total_views": 178660605,
+      "youtube_video_count": 492,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7202
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6245
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5397
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2936
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2747
+        }
+      ],
+      "lastfm_listeners": 1062,
+      "lastfm_playcount": 6234,
+      "ytm_subscribers": 7930,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7155,7 +7196,7 @@
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "1.63K"
+        "subscribers": "1.65K"
       },
       {
         "name": "メンバー",
@@ -7175,7 +7216,7 @@
       {
         "name": "Senasuke",
         "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
-        "subscribers": "656K"
+        "subscribers": "676K"
       },
       {
         "name": "Fischers",
@@ -7195,7 +7236,7 @@
       {
         "name": "MADAMADA",
         "browse_id": "UCEzNOrBjotEn6POsgTYdqLA",
-        "subscribers": "7.91K"
+        "subscribers": "7.95K"
       }
     ]
   },
@@ -7487,6 +7528,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-08-31T19:50:26.296323+00:00"
+    },
+    {
+      "date": "2026-09-24",
+      "metric": "monthly_listeners",
+      "value": 209937,
+      "baseline_mean": 204922.9,
+      "baseline_stddev": 1910.4,
+      "delta": 5014,
+      "score": 2.62,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-24T18:09:27.117585+00:00"
     }
   ]
 }

@@ -6725,6 +6725,47 @@
       "ytm_subscribers": 1750000,
       "ytm_monthly_listeners": 4730000,
       "ytm_total_views": 620737380
+    },
+    {
+      "date": "2026-09-24",
+      "monthly_listeners": 888151,
+      "collected_at": "2026-09-24T18:21:56.314460+00:00",
+      "spotify_followers": 988759,
+      "youtube_subscribers": 1760000,
+      "youtube_total_views": 620737380,
+      "youtube_video_count": 466,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 20292
+        },
+        {
+          "city": "Santiago",
+          "country": "CL",
+          "listeners": 13389
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 11714
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 11319
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 8587
+        }
+      ],
+      "lastfm_listeners": 9027,
+      "lastfm_playcount": 416210,
+      "ytm_subscribers": 1760000,
+      "ytm_monthly_listeners": 4720000,
+      "ytm_total_views": 620737380
     }
   ],
   "metadata": {
@@ -6766,27 +6807,27 @@
       {
         "name": "LADYBABY",
         "browse_id": "UCGFbba_YiSN2w8vMhc5CD_Q",
-        "subscribers": "130K"
+        "subscribers": "129K"
       },
       {
         "name": "chelmico",
         "browse_id": "UCrhK-UAOPPyF798B1CxWmsQ",
-        "subscribers": "280K"
+        "subscribers": "281K"
       },
       {
         "name": "NakamuraEmi",
         "browse_id": "UCEOGqk0O-cOJPmkx7c-dvKA",
-        "subscribers": "86.9K"
+        "subscribers": "87K"
       },
       {
         "name": "Dean Fujioka",
         "browse_id": "UCzNkz-qhUmxdCrhy0A47sIA",
-        "subscribers": "121K"
+        "subscribers": "120K"
       },
       {
         "name": "Akiko Wada",
         "browse_id": "UC-o0qVSpZLpHmsOTh66YfXw",
-        "subscribers": "434K"
+        "subscribers": "438K"
       },
       {
         "name": "CHAI",
@@ -7814,6 +7855,12 @@
           "views": 20013991,
           "likes": 284055,
           "comments": 434
+        },
+        {
+          "date": "2026-09-24",
+          "views": 20023249,
+          "likes": 284140,
+          "comments": 435
         }
       ]
     },
@@ -8796,6 +8843,12 @@
           "date": "2026-09-23",
           "views": 5546168,
           "likes": 32718,
+          "comments": 134
+        },
+        {
+          "date": "2026-09-24",
+          "views": 5547933,
+          "likes": 32727,
           "comments": 134
         }
       ]
@@ -9780,6 +9833,12 @@
           "views": 2387573,
           "likes": 39042,
           "comments": 116
+        },
+        {
+          "date": "2026-09-24",
+          "views": 2390401,
+          "likes": 39074,
+          "comments": 116
         }
       ]
     },
@@ -10431,6 +10490,12 @@
           "date": "2026-09-23",
           "views": 2268438,
           "likes": 31707,
+          "comments": 137
+        },
+        {
+          "date": "2026-09-24",
+          "views": 2269594,
+          "likes": 31718,
           "comments": 137
         }
       ]
@@ -11786,6 +11851,12 @@
           "views": 58515,
           "likes": 1143,
           "comments": 14
+        },
+        {
+          "date": "2026-09-24",
+          "views": 60023,
+          "likes": 1173,
+          "comments": 14
         }
       ]
     }
@@ -13056,6 +13127,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-23T18:18:37.283150+00:00"
+    },
+    {
+      "date": "2026-09-24",
+      "metric": "youtube_total_views",
+      "value": 620737380,
+      "baseline_mean": 615805669.8,
+      "baseline_stddev": 2325692.5,
+      "delta": 4931710,
+      "score": 2.12,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-24T18:21:58.268690+00:00"
     }
   ]
 }
