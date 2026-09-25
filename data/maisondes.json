@@ -12212,6 +12212,15 @@
       "source": "web検索（音楽ナタリー、Oricon、Billboard JAPAN、skream.jp、該当ニュースなし）",
       "confidence": "low",
       "added_at": "2026-08-24T15:50:10Z"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "YouTube Music月間リスナー数の急増はデータ収集側のアーティファクトの可能性",
+      "description": "YTM月間リスナー数が3,433,667→3,590,000へ156,333増加（2.08σ）。同時期に多数の無関係なJPアーティストでも同様のytm_monthly_listeners同時多発急増が確認されており、他アーティストのアノテーションで複数回確認済みのデータ収集側アーティファクトと同型の可能性が高い。個別の新規リリース・タイアップ等の材料はWeb検索で確認できず。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストのytm_monthly_listeners同時急増比較、2026-09-23調査）",
+      "confidence": "low",
+      "added_at": "2026-09-25T19:30:00Z"
     }
   ],
   "buzz_events": [

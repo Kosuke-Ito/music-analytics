@@ -7261,6 +7261,15 @@
       "source": "sonymusic.co.jp/artist/Aooo（調査時点で明確な単一要因を特定できず）",
       "confidence": "low",
       "added_at": "2026-09-05T17:00:00Z"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "YouTube総再生数の急増はデータ収集側のアーティファクトの可能性",
+      "description": "YouTube総再生数が36,541,427→37,627,114へ1,085,687増加（2.03σ）。9/30配信予定の新曲「CRAZZZY」（3ヵ月連続リリース企画第3弾）前の話題化の可能性もあるが、同時期に多数の無関係なJPアーティストでも同様のyoutube_total_views同時多発急増が確認されており、8/20・8/30付アノテーションで確認済みのデータ収集側アーティファクトと同型の可能性が高い。",
+      "category": "other",
+      "source": "内部データ分析（複数アーティストのyoutube_total_views同時急増比較、2026-09-22調査）",
+      "confidence": "low",
+      "added_at": "2026-09-25T19:30:00Z"
     }
   ],
   "metadata": {
