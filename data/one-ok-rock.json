@@ -7066,6 +7066,47 @@
       "ytm_subscribers": 5060000,
       "ytm_monthly_listeners": 7550000,
       "ytm_total_views": 2565748337
+    },
+    {
+      "date": "2026-09-25",
+      "monthly_listeners": 3749376,
+      "collected_at": "2026-09-25T18:13:36.383731+00:00",
+      "spotify_followers": 6286579,
+      "youtube_subscribers": 5060000,
+      "youtube_total_views": 2565748337,
+      "youtube_video_count": 594,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 120355
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 107913
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 70764
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67172
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 46797
+        }
+      ],
+      "lastfm_listeners": 654402,
+      "lastfm_playcount": 56221118,
+      "ytm_subscribers": 5060000,
+      "ytm_monthly_listeners": 7590000,
+      "ytm_total_views": 2565748337
     }
   ],
   "annotations": [
@@ -7485,7 +7526,7 @@
       {
         "name": "Utada",
         "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "19.7M"
+        "subscribers": "19.8M"
       },
       {
         "name": "TENBLANK",
@@ -7500,37 +7541,37 @@
       {
         "name": "Taka",
         "browse_id": "UC0KLMGub_J0BSigaBHAAG-Q",
-        "subscribers": "1.61K"
-      },
-      {
-        "name": "YOASOBI",
-        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
-        "subscribers": "39.5M"
-      },
-      {
-        "name": "YUI",
-        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
-        "subscribers": "7.24M"
-      },
-      {
-        "name": "Yuuri",
-        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
-        "subscribers": "10.5M"
-      },
-      {
-        "name": "MAN WITH A MISSION",
-        "browse_id": "UCCWlJ3mOpVtWZoCeEfnAs9w",
-        "subscribers": "4.66M"
+        "subscribers": "1.63K"
       },
       {
         "name": "Vaundy",
         "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "19.8M"
+        "subscribers": "20.1M"
       },
       {
-        "name": "milet",
-        "browse_id": "UCM3FfEkGhmE07vydCY4LUMQ",
-        "subscribers": "7.75M"
+        "name": "YOASOBI",
+        "browse_id": "UCI6B8NkZKqlFWoiC_xE-hzA",
+        "subscribers": "39.9M"
+      },
+      {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.4M"
+      },
+      {
+        "name": "MAN WITH A MISSION",
+        "browse_id": "UCCWlJ3mOpVtWZoCeEfnAs9w",
+        "subscribers": "4.69M"
+      },
+      {
+        "name": "YUI",
+        "browse_id": "UCUbDhozXHgq2Hr1bEasYuHg",
+        "subscribers": "7.28M"
+      },
+      {
+        "name": "MY FIRST STORY",
+        "browse_id": "UCZtrZ8_Opr4Sa2r61ye_UsQ",
+        "subscribers": "8.76M"
       }
     ],
     "ytm_top_songs": [
@@ -8544,6 +8585,12 @@
           "views": 10130945,
           "likes": 53593,
           "comments": 120
+        },
+        {
+          "date": "2026-09-25",
+          "views": 10158917,
+          "likes": 53649,
+          "comments": 120
         }
       ]
     },
@@ -9539,6 +9586,12 @@
           "views": 17062488,
           "likes": 88840,
           "comments": 498
+        },
+        {
+          "date": "2026-09-25",
+          "views": 17115453,
+          "likes": 88964,
+          "comments": 499
         }
       ]
     },
@@ -10534,6 +10587,12 @@
           "views": 8590338,
           "likes": 37439,
           "comments": 70
+        },
+        {
+          "date": "2026-09-25",
+          "views": 8611954,
+          "likes": 37493,
+          "comments": 70
         }
       ]
     },
@@ -11451,6 +11510,12 @@
           "views": 16518066,
           "likes": 138681,
           "comments": 375
+        },
+        {
+          "date": "2026-09-25",
+          "views": 16528164,
+          "likes": 138706,
+          "comments": 375
         }
       ]
     },
@@ -12226,6 +12291,12 @@
           "date": "2026-09-24",
           "views": 3815882,
           "likes": 19663,
+          "comments": 39
+        },
+        {
+          "date": "2026-09-25",
+          "views": 3826152,
+          "likes": 19700,
           "comments": 39
         }
       ]
@@ -13202,6 +13273,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-24T18:09:56.358841+00:00"
+    },
+    {
+      "date": "2026-09-25",
+      "metric": "monthly_listeners",
+      "value": 3749376,
+      "baseline_mean": 3677684.3,
+      "baseline_stddev": 34570.1,
+      "delta": 71691,
+      "score": 2.07,
+      "type": "annotated",
+      "related_annotation": "TakaのEd Sheeran擁護発言が炎上し話題化",
+      "detected_at": "2026-09-25T18:13:37.711180+00:00"
     }
   ]
 }

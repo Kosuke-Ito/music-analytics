@@ -6769,6 +6769,47 @@
       "ytm_subscribers": 876000,
       "ytm_monthly_listeners": 2970000,
       "ytm_total_views": 604295058
+    },
+    {
+      "date": "2026-09-25",
+      "monthly_listeners": 1879994,
+      "collected_at": "2026-09-25T18:23:00.486017+00:00",
+      "spotify_followers": 1539714,
+      "youtube_subscribers": 876000,
+      "youtube_total_views": 604295058,
+      "youtube_video_count": 148,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 96874
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 85170
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65221
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 36705
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 34275
+        }
+      ],
+      "lastfm_listeners": 59566,
+      "lastfm_playcount": 1693478,
+      "ytm_subscribers": 876000,
+      "ytm_monthly_listeners": 2970000,
+      "ytm_total_views": 604295058
     }
   ],
   "annotations": [
@@ -7187,32 +7228,32 @@
       {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "5.01M"
+        "subscribers": "5.04M"
       },
       {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "19.4M"
-      },
-      {
-        "name": "SHISHAMO",
-        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "3.6M"
+        "subscribers": "19.5M"
       },
       {
         "name": "SIX LOUNGE",
         "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
-        "subscribers": "2.04M"
+        "subscribers": "2.03M"
+      },
+      {
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "3.58M"
       },
       {
         "name": "macaroni enpitsu",
         "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
-        "subscribers": "6.26M"
+        "subscribers": "6.45M"
       },
       {
         "name": "Marcy",
         "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.55M"
+        "subscribers": "1.54M"
       }
     ],
     "ytm_top_songs": [
@@ -8226,6 +8267,12 @@
           "views": 6187248,
           "likes": 26354,
           "comments": 56
+        },
+        {
+          "date": "2026-09-25",
+          "views": 6204119,
+          "likes": 26398,
+          "comments": 56
         }
       ]
     },
@@ -9202,6 +9249,12 @@
           "date": "2026-09-24",
           "views": 6678828,
           "likes": 30265,
+          "comments": 54
+        },
+        {
+          "date": "2026-09-25",
+          "views": 6696110,
+          "likes": 30294,
           "comments": 54
         }
       ]
@@ -10192,6 +10245,12 @@
           "views": 3595309,
           "likes": 18105,
           "comments": 39
+        },
+        {
+          "date": "2026-09-25",
+          "views": 3605070,
+          "likes": 18139,
+          "comments": 39
         }
       ]
     },
@@ -11169,6 +11228,12 @@
           "views": 4015080,
           "likes": 22359,
           "comments": 47
+        },
+        {
+          "date": "2026-09-25",
+          "views": 4025033,
+          "likes": 22388,
+          "comments": 47
         }
       ]
     },
@@ -11971,6 +12036,12 @@
           "date": "2026-09-24",
           "views": 3277440,
           "likes": 13539,
+          "comments": 30
+        },
+        {
+          "date": "2026-09-25",
+          "views": 3286886,
+          "likes": 13552,
           "comments": 30
         }
       ]
@@ -13233,6 +13304,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-24T18:20:25.015003+00:00"
+    },
+    {
+      "date": "2026-09-25",
+      "metric": "monthly_listeners",
+      "value": 1879994,
+      "baseline_mean": 1849189.8,
+      "baseline_stddev": 11533.9,
+      "delta": 30804,
+      "score": 2.67,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-09-25T18:23:02.084637+00:00"
     }
   ]
 }

@@ -6897,6 +6897,47 @@
       "ytm_subscribers": 468000,
       "ytm_monthly_listeners": 1370000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-25",
+      "monthly_listeners": 411073,
+      "collected_at": "2026-09-25T18:08:55.683024+00:00",
+      "spotify_followers": 235248,
+      "youtube_subscribers": 468000,
+      "youtube_total_views": 221173234,
+      "youtube_video_count": 52,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 4691
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 4683
+        },
+        {
+          "city": "Lima",
+          "country": "PE",
+          "listeners": 4077
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 3484
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 3412
+        }
+      ],
+      "lastfm_listeners": 164858,
+      "lastfm_playcount": 2354966,
+      "ytm_subscribers": 468000,
+      "ytm_monthly_listeners": 1380000,
+      "ytm_total_views": 0
     }
   ],
   "metadata": {
@@ -6933,7 +6974,17 @@
       {
         "name": "Utada",
         "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "19.7M"
+        "subscribers": "19.8M"
+      },
+      {
+        "name": "sakanaction",
+        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
+        "subscribers": "48.7M"
+      },
+      {
+        "name": "Cö shu Nie",
+        "browse_id": "UCXQbmowL6Ln_hRqY58_OH4g",
+        "subscribers": "1.22M"
       },
       {
         "name": "Ling tosite sigure",
@@ -6941,29 +6992,14 @@
         "subscribers": "1.04M"
       },
       {
-        "name": "jo0ji",
-        "browse_id": "UCGn41t3IPrRZEypKaYTHBxQ",
-        "subscribers": "3.59M"
-      },
-      {
-        "name": "Sheena Ringo",
-        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
-        "subscribers": "12.7M"
-      },
-      {
-        "name": "sakanaction",
-        "browse_id": "UCtHYsFMAI733Qy6Es3wDU6g",
-        "subscribers": "49.4M"
-      },
-      {
         "name": "MHRJ",
         "browse_id": "UC_nE7-lEyBpsMLiBn-f4Q0A",
-        "subscribers": "130K"
+        "subscribers": "133K"
       },
       {
         "name": "Okamoto's",
         "browse_id": "UCioFrjpoaQLU2tNe3rdzd_g",
-        "subscribers": "201K"
+        "subscribers": "200K"
       },
       {
         "name": "Ichiyo Izawa",
@@ -6973,12 +7009,17 @@
       {
         "name": "Yaffle",
         "browse_id": "UCj2wBXUBGWAP8PXsFXHN60A",
-        "subscribers": "265K"
+        "subscribers": "267K"
       },
       {
         "name": "OddRe:",
         "browse_id": "UCLRAvTum9DcWeJQtHn1D3WA",
-        "subscribers": "115K"
+        "subscribers": "103K"
+      },
+      {
+        "name": "MIYUNA",
+        "browse_id": "UCJKXB0sUpa59kExpB0vn3qw",
+        "subscribers": "163K"
       }
     ],
     "ytm_top_songs": [
@@ -7991,6 +8032,12 @@
           "views": 8411230,
           "likes": 76068,
           "comments": 280
+        },
+        {
+          "date": "2026-09-25",
+          "views": 8419602,
+          "likes": 76092,
+          "comments": 281
         }
       ]
     },
@@ -8979,6 +9026,12 @@
           "date": "2026-09-24",
           "views": 2234442,
           "likes": 27210,
+          "comments": 51
+        },
+        {
+          "date": "2026-09-25",
+          "views": 2236275,
+          "likes": 27213,
           "comments": 51
         }
       ]
@@ -9969,6 +10022,12 @@
           "views": 22170102,
           "likes": 226598,
           "comments": 645
+        },
+        {
+          "date": "2026-09-25",
+          "views": 22176975,
+          "likes": 226620,
+          "comments": 645
         }
       ]
     },
@@ -10608,6 +10667,12 @@
         {
           "date": "2026-09-24",
           "views": 165617,
+          "likes": 1336,
+          "comments": 12
+        },
+        {
+          "date": "2026-09-25",
+          "views": 165815,
           "likes": 1336,
           "comments": 12
         }
@@ -11962,6 +12027,12 @@
           "views": 494505,
           "likes": 10244,
           "comments": 253
+        },
+        {
+          "date": "2026-09-25",
+          "views": 498486,
+          "likes": 10268,
+          "comments": 255
         }
       ]
     },
@@ -12990,6 +13061,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-24T18:03:48.817683+00:00"
+    },
+    {
+      "date": "2026-09-25",
+      "metric": "ytm_monthly_listeners",
+      "value": 1380000,
+      "baseline_mean": 1078827.6,
+      "baseline_stddev": 106094.0,
+      "delta": 301172,
+      "score": 2.84,
+      "type": "annotated",
+      "related_annotation": "YouTube Music月間リスナー数の急増はデータ収集側のアーティファクトの継続",
+      "detected_at": "2026-09-25T18:08:57.178203+00:00"
     }
   ]
 }

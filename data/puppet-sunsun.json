@@ -6881,6 +6881,47 @@
       "ytm_subscribers": 7930,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-25",
+      "monthly_listeners": 212658,
+      "collected_at": "2026-09-25T18:13:06.715570+00:00",
+      "spotify_followers": 36982,
+      "youtube_subscribers": 929000,
+      "youtube_total_views": 178917305,
+      "youtube_video_count": 492,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7304
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6328
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5453
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2941
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2802
+        }
+      ],
+      "lastfm_listeners": 1063,
+      "lastfm_playcount": 6326,
+      "ytm_subscribers": 7930,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7200,7 +7241,7 @@
       {
         "name": "Matsuya Onoe",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
-        "subscribers": "542"
+        "subscribers": "541"
       },
       {
         "name": "Pompompurin",
@@ -7220,12 +7261,12 @@
       {
         "name": "Tesesaku",
         "browse_id": "UCxMfaJk6D2pde7PBChZEzfg",
-        "subscribers": "8.49K"
+        "subscribers": "8.5K"
       },
       {
         "name": "Senasuke",
         "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
-        "subscribers": "676K"
+        "subscribers": "683K"
       },
       {
         "name": "Fischers",
@@ -7235,7 +7276,7 @@
       {
         "name": "HeiseiFlamingo",
         "browse_id": "UCo9trQuQB1HP30CGtBtvMxA",
-        "subscribers": "4.16K"
+        "subscribers": "4.17K"
       },
       {
         "name": "Pokemon Ongaku Club",
@@ -7245,7 +7286,7 @@
       {
         "name": "MADAMADA",
         "browse_id": "UCEzNOrBjotEn6POsgTYdqLA",
-        "subscribers": "7.95K"
+        "subscribers": "7.97K"
       }
     ]
   },
@@ -7549,6 +7590,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-24T18:09:27.117585+00:00"
+    },
+    {
+      "date": "2026-09-25",
+      "metric": "monthly_listeners",
+      "value": 212658,
+      "baseline_mean": 205214.4,
+      "baseline_stddev": 1984.5,
+      "delta": 7443,
+      "score": 3.75,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-09-25T18:13:07.755242+00:00"
     }
   ]
 }

@@ -6847,6 +6847,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-25",
+      "monthly_listeners": 31763,
+      "collected_at": "2026-09-25T18:16:19.616616+00:00",
+      "spotify_followers": 29687,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1526011,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1844
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 963
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 645
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 563
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 462
+        }
+      ],
+      "lastfm_listeners": 5818,
+      "lastfm_playcount": 42995,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7175,12 +7216,12 @@
       {
         "name": "Salasa",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "154K"
+        "subscribers": "153K"
       },
       {
         "name": "Geloomy",
         "browse_id": "UCYypxPpK93FErrKdMcEuppg",
-        "subscribers": "91.4K"
+        "subscribers": "96K"
       },
       {
         "name": "Ovall",
@@ -7190,17 +7231,17 @@
       {
         "name": "Kan Sano",
         "browse_id": "UC05tnYJ3St7yd3f6lfKdzcg",
-        "subscribers": "97K"
+        "subscribers": "96.7K"
       },
       {
         "name": "Stefan Mahendra",
         "browse_id": "UCMZcGfiJPXZ0plcOCQ2nuPQ",
-        "subscribers": "805"
+        "subscribers": "806"
       },
       {
         "name": "Ryuto Kasahara",
         "browse_id": "UCc58OhwUC40aBGO81vfNsng",
-        "subscribers": "6.56K"
+        "subscribers": "6.57K"
       },
       {
         "name": "Michael Kaneko",
@@ -7210,7 +7251,7 @@
       {
         "name": "LAGHEADS",
         "browse_id": "UCU1Oz-fU3Lop_4201NtnM1w",
-        "subscribers": "3.27K"
+        "subscribers": "3.28K"
       }
     ],
     "ytm_top_songs": [
@@ -8216,6 +8257,12 @@
           "date": "2026-09-24",
           "views": 228396,
           "likes": 2883,
+          "comments": 8
+        },
+        {
+          "date": "2026-09-25",
+          "views": 228610,
+          "likes": 2882,
           "comments": 8
         }
       ]
@@ -9647,6 +9694,12 @@
           "views": 47034,
           "likes": 396,
           "comments": 3
+        },
+        {
+          "date": "2026-09-25",
+          "views": 47072,
+          "likes": 395,
+          "comments": 3
         }
       ]
     },
@@ -10653,6 +10706,12 @@
           "views": 121707,
           "likes": 1389,
           "comments": 7
+        },
+        {
+          "date": "2026-09-25",
+          "views": 122075,
+          "likes": 1392,
+          "comments": 7
         }
       ]
     },
@@ -11538,6 +11597,12 @@
           "views": 49690,
           "likes": 497,
           "comments": 7
+        },
+        {
+          "date": "2026-09-25",
+          "views": 49736,
+          "likes": 497,
+          "comments": 7
         }
       ]
     },
@@ -12209,6 +12274,12 @@
           "views": 61552,
           "likes": 723,
           "comments": 1
+        },
+        {
+          "date": "2026-09-25",
+          "views": 61588,
+          "likes": 723,
+          "comments": 1
         }
       ]
     },
@@ -12768,6 +12839,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-24T18:12:53.551324+00:00"
+    },
+    {
+      "date": "2026-09-25",
+      "metric": "monthly_listeners",
+      "value": 31763,
+      "baseline_mean": 29866.8,
+      "baseline_stddev": 509.8,
+      "delta": 1896,
+      "score": 3.72,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇が継続（原因不明、活動休止中）",
+      "detected_at": "2026-09-25T18:16:21.023802+00:00"
     }
   ]
 }

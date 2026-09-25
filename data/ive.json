@@ -6881,6 +6881,47 @@
       "ytm_subscribers": 5250000,
       "ytm_monthly_listeners": 47600000,
       "ytm_total_views": 4894884538
+    },
+    {
+      "date": "2026-09-25",
+      "monthly_listeners": 5825129,
+      "collected_at": "2026-09-25T18:10:39.613788+00:00",
+      "spotify_followers": 7766815,
+      "youtube_subscribers": 5250000,
+      "youtube_total_views": 4898342481,
+      "youtube_video_count": 2625,
+      "top_cities": [
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 122849
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 122491
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 115834
+        },
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 81354
+        },
+        {
+          "city": "Seoul",
+          "country": "KR",
+          "listeners": 75862
+        }
+      ],
+      "lastfm_listeners": 1115456,
+      "lastfm_playcount": 171650896,
+      "ytm_subscribers": 5250000,
+      "ytm_monthly_listeners": 47200000,
+      "ytm_total_views": 4898342481
     }
   ],
   "annotations": [
@@ -7177,19 +7218,29 @@
         "subscribers": "1.26M"
       },
       {
-        "name": "I.O.I",
-        "browse_id": "UCXYVQ1uTq-KQbPk6IQlXHnA",
-        "subscribers": "76K"
+        "name": "LEE CHAEYEON",
+        "browse_id": "UCAAUjXlrYZSOX5xGeahfQyw",
+        "subscribers": "2.11M"
       },
       {
-        "name": "DAYOUNG",
-        "browse_id": "UCFAHWylakwS_HKW4eBxOu-A",
-        "subscribers": "8.43M"
+        "name": "I.O.I",
+        "browse_id": "UCXYVQ1uTq-KQbPk6IQlXHnA",
+        "subscribers": "76.1K"
       },
       {
         "name": "KiiiKiii",
         "browse_id": "UCfCiP0obFQZOB6fJqN-eF8A",
-        "subscribers": "37.2M"
+        "subscribers": "37.3M"
+      },
+      {
+        "name": "ILLIT",
+        "browse_id": "UCNVIo0UJXTdEnsRkCB9Q03w",
+        "subscribers": "333M"
+      },
+      {
+        "name": "DAYOUNG",
+        "browse_id": "UCFAHWylakwS_HKW4eBxOu-A",
+        "subscribers": "8.26M"
       },
       {
         "name": "fromis_9",
@@ -7197,29 +7248,19 @@
         "subscribers": "12.7M"
       },
       {
-        "name": "LEE CHAEYEON",
-        "browse_id": "UCAAUjXlrYZSOX5xGeahfQyw",
-        "subscribers": "2.12M"
-      },
-      {
         "name": "YENA",
         "browse_id": "UC4mOLela441MNvGJNy6h8bg",
-        "subscribers": "151M"
+        "subscribers": "150M"
       },
       {
         "name": "NewJeans",
         "browse_id": "UCxOqS3cYg4FaHbobICo7nFQ",
-        "subscribers": "78.2M"
+        "subscribers": "77.3M"
       },
       {
         "name": "VIVIZ",
         "browse_id": "UC4FICdicYyZH0zpEzHFZpMw",
         "subscribers": "3.92M"
-      },
-      {
-        "name": "IZ*ONE",
-        "browse_id": "UCG81UKNsFg9Perf0uPQOsQw",
-        "subscribers": "4.19M"
       }
     ],
     "ytm_top_songs": [
@@ -8239,6 +8280,12 @@
           "views": 15422140,
           "likes": 118103,
           "comments": 537
+        },
+        {
+          "date": "2026-09-25",
+          "views": 15473246,
+          "likes": 118276,
+          "comments": 538
         }
       ]
     },
@@ -10127,6 +10174,12 @@
           "views": 164319091,
           "likes": 638908,
           "comments": 2727
+        },
+        {
+          "date": "2026-09-25",
+          "views": 164378432,
+          "likes": 639011,
+          "comments": 2727
         }
       ]
     },
@@ -11110,6 +11163,12 @@
           "views": 154925764,
           "likes": 630149,
           "comments": 1164
+        },
+        {
+          "date": "2026-09-25",
+          "views": 154977008,
+          "likes": 630245,
+          "comments": 1164
         }
       ]
     },
@@ -11258,6 +11317,12 @@
           "date": "2026-09-24",
           "views": 34786307,
           "likes": 157502,
+          "comments": 925
+        },
+        {
+          "date": "2026-09-25",
+          "views": 34814408,
+          "likes": 157549,
           "comments": 925
         }
       ]
@@ -12182,6 +12247,12 @@
           "views": 314967853,
           "likes": 778693,
           "comments": 1929
+        },
+        {
+          "date": "2026-09-25",
+          "views": 315044302,
+          "likes": 778761,
+          "comments": 1929
         }
       ]
     },
@@ -12365,6 +12436,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-24T18:05:50.060621+00:00"
+    },
+    {
+      "date": "2026-09-25",
+      "metric": "monthly_listeners",
+      "value": 5825129,
+      "baseline_mean": 5768332.8,
+      "baseline_stddev": 27182.5,
+      "delta": 56796,
+      "score": 2.09,
+      "type": "annotated",
+      "related_annotation": "「INKIGAYO LIVE in TOKYO」出演（9/22-23、ベルーナドーム）",
+      "detected_at": "2026-09-25T18:10:40.792502+00:00"
     }
   ]
 }

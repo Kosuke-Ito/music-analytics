@@ -7055,6 +7055,47 @@
       "ytm_subscribers": 5530000,
       "ytm_monthly_listeners": 63400000,
       "ytm_total_views": 3023062469
+    },
+    {
+      "date": "2026-09-25",
+      "monthly_listeners": 7359482,
+      "collected_at": "2026-09-25T18:15:20.479093+00:00",
+      "spotify_followers": 5274946,
+      "youtube_subscribers": 5530000,
+      "youtube_total_views": 3031178460,
+      "youtube_video_count": 228,
+      "top_cities": [
+        {
+          "city": "Bangkok",
+          "country": "TH",
+          "listeners": 196683
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 189189
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 152059
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 100935
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 96144
+        }
+      ],
+      "lastfm_listeners": 18819,
+      "lastfm_playcount": 1603995,
+      "ytm_subscribers": 5530000,
+      "ytm_monthly_listeners": 63500000,
+      "ytm_total_views": 3031178460
     }
   ],
   "annotations": [
@@ -7477,52 +7518,52 @@
       {
         "name": "Utada",
         "browse_id": "UCfDndVwpf3tOF-vDmFQveog",
-        "subscribers": "19.7M"
+        "subscribers": "19.8M"
       },
       {
         "name": "TOMOO",
         "browse_id": "UC_oxwNnzBxf49TaYkLnLk1g",
-        "subscribers": "968K"
+        "subscribers": "945K"
       },
       {
         "name": "Ayumu Imazu",
         "browse_id": "UCgnn0-i6athVEYfjueyArqw",
-        "subscribers": "3.41M"
+        "subscribers": "3.49M"
       },
       {
         "name": "iri",
         "browse_id": "UCtlXP5iI7TgKj_BI636L8Qw",
-        "subscribers": "504K"
+        "subscribers": "512K"
+      },
+      {
+        "name": "Sheena Ringo",
+        "browse_id": "UCbrWU0y_rLsEOYgaTX5Y74A",
+        "subscribers": "12.6M"
       },
       {
         "name": "Omoinotake",
         "browse_id": "UCCUPgHLfyUjv0UbQR426knQ",
-        "subscribers": "2.74M"
+        "subscribers": "2.73M"
       },
       {
-        "name": "Tokyo Incidents",
-        "browse_id": "UCZj7imGFp4i8wh_7XzAqZmg",
-        "subscribers": "2.38M"
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "20.1M"
+      },
+      {
+        "name": "SIRUP",
+        "browse_id": "UCNOawli2PNwt-9L_mqjCxUA",
+        "subscribers": "576K"
+      },
+      {
+        "name": "Kirinji",
+        "browse_id": "UCwCFAaGtIAn8hhrHnLbB21A",
+        "subscribers": "580K"
       },
       {
         "name": "Friday Night Plans",
         "browse_id": "UCvu8-LP7Xsgt0cYzhBdUN1Q",
         "subscribers": "254K"
-      },
-      {
-        "name": "Tatsuro Yamashita",
-        "browse_id": "UCRissFBsWNatZGatPn5ZqRQ",
-        "subscribers": "1.31M"
-      },
-      {
-        "name": "Vaundy",
-        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
-        "subscribers": "19.8M"
-      },
-      {
-        "name": "SIRUP",
-        "browse_id": "UCNOawli2PNwt-9L_mqjCxUA",
-        "subscribers": "575K"
       }
     ],
     "ytm_top_songs": [
@@ -8542,6 +8583,12 @@
           "views": 295792936,
           "likes": 3843779,
           "comments": 19713
+        },
+        {
+          "date": "2026-09-25",
+          "views": 295917040,
+          "likes": 3844568,
+          "comments": 19726
         }
       ]
     },
@@ -9584,6 +9631,12 @@
           "views": 79690126,
           "likes": 382907,
           "comments": 693
+        },
+        {
+          "date": "2026-09-25",
+          "views": 79744866,
+          "likes": 383020,
+          "comments": 694
         }
       ]
     },
@@ -11339,6 +11392,12 @@
           "views": 4114319,
           "likes": 25281,
           "comments": 116
+        },
+        {
+          "date": "2026-09-25",
+          "views": 4142177,
+          "likes": 25351,
+          "comments": 116
         }
       ]
     },
@@ -12292,6 +12351,12 @@
           "views": 4660569,
           "likes": 31353,
           "comments": 192
+        },
+        {
+          "date": "2026-09-25",
+          "views": 4691088,
+          "likes": 31424,
+          "comments": 192
         }
       ]
     },
@@ -12551,6 +12616,12 @@
           "date": "2026-09-24",
           "views": 6321867,
           "likes": 38358,
+          "comments": 1953
+        },
+        {
+          "date": "2026-09-25",
+          "views": 6350146,
+          "likes": 38510,
           "comments": 1953
         }
       ]
@@ -13528,6 +13599,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-24T18:11:39.206559+00:00"
+    },
+    {
+      "date": "2026-09-25",
+      "metric": "monthly_listeners",
+      "value": 7359482,
+      "baseline_mean": 7218363.8,
+      "baseline_stddev": 68084.7,
+      "delta": 141118,
+      "score": 2.07,
+      "type": "annotated",
+      "related_annotation": "「You」MV公開＋免許証写真拡散でSpotify急増、YTM月間リスナーは同時多発アーティファクトの疑い",
+      "detected_at": "2026-09-25T18:15:21.621216+00:00"
+    },
+    {
+      "date": "2026-09-25",
+      "metric": "ytm_monthly_listeners",
+      "value": 63500000,
+      "baseline_mean": 57880000,
+      "baseline_stddev": 2718259.2,
+      "delta": 5620000,
+      "score": 2.07,
+      "type": "annotated",
+      "related_annotation": "「You」MV公開＋免許証写真拡散でSpotify急増、YTM月間リスナーは同時多発アーティファクトの疑い",
+      "detected_at": "2026-09-25T18:15:21.621216+00:00"
     }
   ]
 }
