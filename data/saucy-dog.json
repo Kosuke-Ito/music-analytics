@@ -6810,6 +6810,47 @@
       "ytm_subscribers": 876000,
       "ytm_monthly_listeners": 2970000,
       "ytm_total_views": 604295058
+    },
+    {
+      "date": "2026-09-26",
+      "monthly_listeners": 1880098,
+      "collected_at": "2026-09-26T17:42:14.744839+00:00",
+      "spotify_followers": 1540178,
+      "youtube_subscribers": 876000,
+      "youtube_total_views": 604295058,
+      "youtube_video_count": 148,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 97489
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 85609
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65393
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 36727
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 34438
+        }
+      ],
+      "lastfm_listeners": 59576,
+      "lastfm_playcount": 1693775,
+      "ytm_subscribers": 876000,
+      "ytm_monthly_listeners": 2950000,
+      "ytm_total_views": 604295058
     }
   ],
   "annotations": [
@@ -7209,12 +7250,12 @@
         "url": "https://www.last.fm/music/Macaroni+Empitsu"
       },
       {
-        "name": "ねぐせ。",
-        "url": "https://www.last.fm/music/%E3%81%AD%E3%81%90%E3%81%9B%E3%80%82"
+        "name": "マカロニえんぴつ",
+        "url": "https://www.last.fm/music/%E3%83%9E%E3%82%AB%E3%83%AD%E3%83%8B%E3%81%88%E3%82%93%E3%81%B4%E3%81%A4"
       },
       {
-        "name": "My Hair is Bad",
-        "url": "https://www.last.fm/music/My+Hair+is+Bad"
+        "name": "ねぐせ。",
+        "url": "https://www.last.fm/music/%E3%81%AD%E3%81%90%E3%81%9B%E3%80%82"
       }
     ],
     "lastfm_tags": [
@@ -7228,7 +7269,7 @@
       {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "5.04M"
+        "subscribers": "5.05M"
       },
       {
         "name": "back number",
@@ -7236,19 +7277,19 @@
         "subscribers": "19.5M"
       },
       {
-        "name": "SIX LOUNGE",
-        "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
-        "subscribers": "2.03M"
-      },
-      {
         "name": "SHISHAMO",
         "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "3.58M"
+        "subscribers": "3.52M"
+      },
+      {
+        "name": "SIX LOUNGE",
+        "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
+        "subscribers": "2.02M"
       },
       {
         "name": "macaroni enpitsu",
         "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
-        "subscribers": "6.45M"
+        "subscribers": "6.6M"
       },
       {
         "name": "Marcy",
@@ -8273,6 +8314,12 @@
           "views": 6204119,
           "likes": 26398,
           "comments": 56
+        },
+        {
+          "date": "2026-09-26",
+          "views": 6221744,
+          "likes": 26447,
+          "comments": 56
         }
       ]
     },
@@ -9255,6 +9302,12 @@
           "date": "2026-09-25",
           "views": 6696110,
           "likes": 30294,
+          "comments": 54
+        },
+        {
+          "date": "2026-09-26",
+          "views": 6713567,
+          "likes": 30325,
           "comments": 54
         }
       ]
@@ -10251,6 +10304,12 @@
           "views": 3605070,
           "likes": 18139,
           "comments": 39
+        },
+        {
+          "date": "2026-09-26",
+          "views": 3614496,
+          "likes": 18158,
+          "comments": 39
         }
       ]
     },
@@ -11234,6 +11293,12 @@
           "views": 4025033,
           "likes": 22388,
           "comments": 47
+        },
+        {
+          "date": "2026-09-26",
+          "views": 4034729,
+          "likes": 22415,
+          "comments": 47
         }
       ]
     },
@@ -12042,6 +12107,12 @@
           "date": "2026-09-25",
           "views": 3286886,
           "likes": 13552,
+          "comments": 30
+        },
+        {
+          "date": "2026-09-26",
+          "views": 3296535,
+          "likes": 13566,
           "comments": 30
         }
       ]
@@ -13316,6 +13387,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-09-25T18:23:02.084637+00:00"
+    },
+    {
+      "date": "2026-09-26",
+      "metric": "monthly_listeners",
+      "value": 1880098,
+      "baseline_mean": 1850262.6,
+      "baseline_stddev": 12784.6,
+      "delta": 29835,
+      "score": 2.33,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-09-26T17:42:16.448587+00:00"
     }
   ]
 }

@@ -6763,6 +6763,47 @@
       "ytm_subscribers": 1310000,
       "ytm_monthly_listeners": 8330000,
       "ytm_total_views": 1734418687
+    },
+    {
+      "date": "2026-09-26",
+      "monthly_listeners": 2182352,
+      "collected_at": "2026-09-26T17:44:27.637863+00:00",
+      "spotify_followers": 672997,
+      "youtube_subscribers": 1310000,
+      "youtube_total_views": 1736190051,
+      "youtube_video_count": 535,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 95577
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 89479
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 67319
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 36694
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 35947
+        }
+      ],
+      "lastfm_listeners": 76990,
+      "lastfm_playcount": 1454184,
+      "ytm_subscribers": 1310000,
+      "ytm_monthly_listeners": 8910000,
+      "ytm_total_views": 1736190051
     }
   ],
   "metadata": {
@@ -6780,12 +6821,12 @@
         "url": "https://www.last.fm/music/SKY-HI"
       },
       {
-        "name": "Novel Core",
-        "url": "https://www.last.fm/music/Novel+Core"
-      },
-      {
         "name": "Number_i",
         "url": "https://www.last.fm/music/Number_i"
+      },
+      {
+        "name": "Ayumu Imazu",
+        "url": "https://www.last.fm/music/Ayumu+Imazu"
       }
     ],
     "lastfm_tags": [
@@ -6797,49 +6838,49 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Number_i",
-        "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
-        "subscribers": "2.81M"
-      },
-      {
         "name": "MAZZEL",
         "browse_id": "UC6qVAJzxF5kSN_UUFSdODiQ",
-        "subscribers": "1.83M"
+        "subscribers": "1.82M"
       },
       {
         "name": "HANA",
         "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
-        "subscribers": "38.7M"
+        "subscribers": "38.4M"
+      },
+      {
+        "name": "Number_i",
+        "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
+        "subscribers": "6.01M"
       },
       {
         "name": "JO1",
         "browse_id": "UCWyo-2Efw9aSmemM3LluERg",
-        "subscribers": "3.03M"
+        "subscribers": "2.89M"
       },
       {
         "name": "Nissy",
         "browse_id": "UCkv76wCrBDQNn7ctcbn6Qeg",
-        "subscribers": "1.53M"
+        "subscribers": "1.52M"
       },
       {
         "name": "NiziU",
         "browse_id": "UCzrllDdhrz1PemEWjgajRCQ",
-        "subscribers": "3.45M"
+        "subscribers": "3.44M"
       },
       {
         "name": "STARGLOW",
         "browse_id": "UCaeAEb2mrvTNW-SOAbL7TfQ",
-        "subscribers": "913K"
+        "subscribers": "927K"
       },
       {
         "name": "SKY-HI",
         "browse_id": "UC0sadzjjoTprpuZds-23CaQ",
-        "subscribers": "855K"
+        "subscribers": "846K"
       },
       {
         "name": "INI",
         "browse_id": "UCtRcb_0XbVB4uwQM_TC4APw",
-        "subscribers": "11.1M"
+        "subscribers": "10.9M"
       }
     ],
     "ytm_top_songs": [
@@ -9121,6 +9162,12 @@
           "date": "2026-09-25",
           "views": 21170651,
           "likes": 95435,
+          "comments": 2155
+        },
+        {
+          "date": "2026-09-26",
+          "views": 21193870,
+          "likes": 95463,
           "comments": 2155
         }
       ]
@@ -11522,6 +11569,12 @@
           "views": 2905537,
           "likes": 22877,
           "comments": 962
+        },
+        {
+          "date": "2026-09-26",
+          "views": 2922375,
+          "likes": 22900,
+          "comments": 965
         }
       ]
     },
@@ -12089,6 +12142,12 @@
           "views": 29204,
           "likes": 624,
           "comments": 4
+        },
+        {
+          "date": "2026-09-26",
+          "views": 29441,
+          "likes": 626,
+          "comments": 4
         }
       ]
     },
@@ -12201,6 +12260,12 @@
           "views": 11696,
           "likes": 158,
           "comments": 4
+        },
+        {
+          "date": "2026-09-26",
+          "views": 12206,
+          "likes": 161,
+          "comments": 4
         }
       ]
     },
@@ -12223,6 +12288,12 @@
           "date": "2026-09-25",
           "views": 5350,
           "likes": 116,
+          "comments": 9
+        },
+        {
+          "date": "2026-09-26",
+          "views": 5646,
+          "likes": 115,
           "comments": 9
         }
       ]
@@ -12864,6 +12935,18 @@
       "type": "annotated",
       "related_annotation": "グローバルEP『WATCH ME』リリース＆Billboard JAPAN首位獲得で話題化",
       "detected_at": "2026-09-25T18:25:17.724999+00:00"
+    },
+    {
+      "date": "2026-09-26",
+      "metric": "youtube_total_views",
+      "value": 1736190051,
+      "baseline_mean": 1706607075,
+      "baseline_stddev": 12452254.7,
+      "delta": 29582976,
+      "score": 2.38,
+      "type": "annotated",
+      "related_annotation": "グローバルEP『WATCH ME』（9/18）リリース効果の拡大、Billboard JAPAN首位獲得",
+      "detected_at": "2026-09-26T17:44:29.389758+00:00"
     }
   ]
 }
