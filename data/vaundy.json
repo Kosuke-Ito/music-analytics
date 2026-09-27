@@ -7148,6 +7148,47 @@
       "ytm_subscribers": 2570000,
       "ytm_monthly_listeners": 20200000,
       "ytm_total_views": 2830509520
+    },
+    {
+      "date": "2026-09-27",
+      "monthly_listeners": 5916229,
+      "collected_at": "2026-09-27T18:05:08.941858+00:00",
+      "spotify_followers": 4134622,
+      "youtube_subscribers": 2570000,
+      "youtube_total_views": 2830509520,
+      "youtube_video_count": 367,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 234589
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 212521
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 141899
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 89761
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 87173
+        }
+      ],
+      "lastfm_listeners": 554184,
+      "lastfm_playcount": 18434968,
+      "ytm_subscribers": 2570000,
+      "ytm_monthly_listeners": 19700000,
+      "ytm_total_views": 2830509520
     }
   ],
   "annotations": [
@@ -8663,6 +8704,12 @@
           "views": 74623991,
           "likes": 254812,
           "comments": 900
+        },
+        {
+          "date": "2026-09-27",
+          "views": 74715067,
+          "likes": 254949,
+          "comments": 901
         }
       ]
     },
@@ -9670,6 +9717,12 @@
           "views": 83983526,
           "likes": 494747,
           "comments": 964
+        },
+        {
+          "date": "2026-09-27",
+          "views": 84082765,
+          "likes": 495036,
+          "comments": 966
         }
       ]
     },
@@ -10677,6 +10730,12 @@
           "views": 42627436,
           "likes": 203495,
           "comments": 328
+        },
+        {
+          "date": "2026-09-27",
+          "views": 42676409,
+          "likes": 203604,
+          "comments": 328
         }
       ]
     },
@@ -11575,6 +11634,12 @@
           "date": "2026-09-26",
           "views": 33429622,
           "likes": 149760,
+          "comments": 308
+        },
+        {
+          "date": "2026-09-27",
+          "views": 33464500,
+          "likes": 149827,
           "comments": 308
         }
       ]
@@ -12588,6 +12653,12 @@
           "views": 13630868,
           "likes": 90819,
           "comments": 871
+        },
+        {
+          "date": "2026-09-27",
+          "views": 13673142,
+          "likes": 90896,
+          "comments": 871
         }
       ]
     },
@@ -13502,6 +13573,18 @@
       "type": "annotated",
       "related_annotation": "ソウル公演（9/20）YouTube生配信後の余波でYouTube総再生数が増加傾向",
       "detected_at": "2026-09-26T17:34:21.307652+00:00"
+    },
+    {
+      "date": "2026-09-27",
+      "metric": "youtube_total_views",
+      "value": 2830509520,
+      "baseline_mean": 2802509603.0,
+      "baseline_stddev": 13887671.2,
+      "delta": 27999916,
+      "score": 2.02,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-27T18:05:10.687339+00:00"
     }
   ]
 }

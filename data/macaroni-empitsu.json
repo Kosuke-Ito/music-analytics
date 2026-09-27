@@ -6854,6 +6854,47 @@
       "ytm_subscribers": 608000,
       "ytm_monthly_listeners": 6600000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-27",
+      "monthly_listeners": 3051461,
+      "collected_at": "2026-09-27T18:12:51.884956+00:00",
+      "spotify_followers": 2091466,
+      "youtube_subscribers": 608000,
+      "youtube_total_views": 536795880,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 160541
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 147498
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 106267
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 61108
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 56841
+        }
+      ],
+      "lastfm_listeners": 8145,
+      "lastfm_playcount": 479870,
+      "ytm_subscribers": 608000,
+      "ytm_monthly_listeners": 6480000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7291,47 +7332,47 @@
       {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "5.05M"
-      },
-      {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "19.5M"
-      },
-      {
-        "name": "Saucy Dog",
-        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
-        "subscribers": "2.95M"
+        "subscribers": "4.91M"
       },
       {
         "name": "Tele",
         "browse_id": "UCmwHShLM72vkB1K77F5Rwkg",
-        "subscribers": "440K"
+        "subscribers": "419K"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "19.2M"
+      },
+      {
+        "name": "Saucy Dog",
+        "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
+        "subscribers": "2.87M"
       },
       {
         "name": "SHISHAMO",
         "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "3.52M"
-      },
-      {
-        "name": "SIX LOUNGE",
-        "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
-        "subscribers": "2.02M"
+        "subscribers": "3.42M"
       },
       {
         "name": "SUPER BEAVER",
         "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
-        "subscribers": "2.93M"
+        "subscribers": "2.76M"
       },
       {
         "name": "WurtS",
         "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "7.13M"
+        "subscribers": "7M"
+      },
+      {
+        "name": "SIX LOUNGE",
+        "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
+        "subscribers": "1.98M"
       },
       {
         "name": "Marcy",
         "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.54M"
+        "subscribers": "1.5M"
       }
     ],
     "ytm_top_songs": [
@@ -8344,6 +8385,12 @@
           "views": 13595997,
           "likes": 75533,
           "comments": 148
+        },
+        {
+          "date": "2026-09-27",
+          "views": 13613986,
+          "likes": 75561,
+          "comments": 148
         }
       ]
     },
@@ -9333,6 +9380,12 @@
           "views": 26535981,
           "likes": 97846,
           "comments": 187
+        },
+        {
+          "date": "2026-09-27",
+          "views": 26561035,
+          "likes": 97910,
+          "comments": 187
         }
       ]
     },
@@ -10309,6 +10362,12 @@
           "date": "2026-09-26",
           "views": 18251594,
           "likes": 67190,
+          "comments": 125
+        },
+        {
+          "date": "2026-09-27",
+          "views": 18269331,
+          "likes": 67237,
           "comments": 125
         }
       ]
@@ -12059,6 +12118,12 @@
           "views": 18052445,
           "likes": 105950,
           "comments": 650
+        },
+        {
+          "date": "2026-09-27",
+          "views": 18103241,
+          "likes": 106185,
+          "comments": 652
         }
       ]
     },
@@ -12404,6 +12469,12 @@
           "date": "2026-09-26",
           "views": 679251,
           "likes": 9002,
+          "comments": 66
+        },
+        {
+          "date": "2026-09-27",
+          "views": 725322,
+          "likes": 9319,
           "comments": 66
         }
       ]
@@ -13549,6 +13620,42 @@
       "type": "annotated",
       "related_annotation": "新EP『運命さがし/終宵』（9/16）反響継続、YTMは同時多発アーティファクトの疑い",
       "detected_at": "2026-09-26T17:42:02.069440+00:00"
+    },
+    {
+      "date": "2026-09-27",
+      "metric": "monthly_listeners",
+      "value": 3051461,
+      "baseline_mean": 2924402.1,
+      "baseline_stddev": 43108.4,
+      "delta": 127058,
+      "score": 2.95,
+      "type": "annotated",
+      "related_annotation": "YouTube Music月間リスナー数の急増はデータ収集側のアーティファクトの継続、新曲・TikTok施策・TV出演も並行",
+      "detected_at": "2026-09-27T18:12:53.697295+00:00"
+    },
+    {
+      "date": "2026-09-27",
+      "metric": "ytm_monthly_listeners",
+      "value": 6480000,
+      "baseline_mean": 5581000,
+      "baseline_stddev": 342406.7,
+      "delta": 899000,
+      "score": 2.63,
+      "type": "annotated",
+      "related_annotation": "YouTube Music月間リスナー数の急増はデータ収集側のアーティファクトの継続、新曲・TikTok施策・TV出演も並行",
+      "detected_at": "2026-09-27T18:12:53.697295+00:00"
+    },
+    {
+      "date": "2026-09-27",
+      "metric": "youtube_total_views",
+      "value": 536795880,
+      "baseline_mean": 526211728.6,
+      "baseline_stddev": 4466399.2,
+      "delta": 10584151,
+      "score": 2.37,
+      "type": "annotated",
+      "related_annotation": "YouTube Music月間リスナー数の急増はデータ収集側のアーティファクトの継続、新曲・TikTok施策・TV出演も並行",
+      "detected_at": "2026-09-27T18:12:53.697295+00:00"
     }
   ]
 }

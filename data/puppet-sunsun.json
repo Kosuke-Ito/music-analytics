@@ -6963,6 +6963,47 @@
       "ytm_subscribers": 7920,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-27",
+      "monthly_listeners": 212187,
+      "collected_at": "2026-09-27T18:03:27.491570+00:00",
+      "spotify_followers": 37060,
+      "youtube_subscribers": 930000,
+      "youtube_total_views": 179252490,
+      "youtube_video_count": 492,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7346
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6358
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5445
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2940
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2829
+        }
+      ],
+      "lastfm_listeners": 1067,
+      "lastfm_playcount": 6345,
+      "ytm_subscribers": 7920,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7282,12 +7323,12 @@
       {
         "name": "Matsuya Onoe",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
-        "subscribers": "541"
+        "subscribers": "542"
       },
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "1.66K"
+        "subscribers": "1.68K"
       },
       {
         "name": "メンバー",
@@ -7307,7 +7348,7 @@
       {
         "name": "Senasuke",
         "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
-        "subscribers": "681K"
+        "subscribers": "661K"
       },
       {
         "name": "Fischers",
@@ -7327,7 +7368,7 @@
       {
         "name": "MADAMADA",
         "browse_id": "UCEzNOrBjotEn6POsgTYdqLA",
-        "subscribers": "8K"
+        "subscribers": "8.04K"
       }
     ]
   },
@@ -7655,6 +7696,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-09-26T17:32:38.571815+00:00"
+    },
+    {
+      "date": "2026-09-27",
+      "metric": "monthly_listeners",
+      "value": 212187,
+      "baseline_mean": 205903.3,
+      "baseline_stddev": 2521.5,
+      "delta": 6283,
+      "score": 2.49,
+      "type": "annotated",
+      "related_annotation": "数値上の異常上昇を検知（原因不明）",
+      "detected_at": "2026-09-27T18:03:28.591473+00:00"
     }
   ]
 }
