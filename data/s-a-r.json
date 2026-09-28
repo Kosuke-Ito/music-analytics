@@ -6970,6 +6970,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-28",
+      "monthly_listeners": 32449,
+      "collected_at": "2026-09-28T20:26:49.194897+00:00",
+      "spotify_followers": 29713,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1526011,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1892
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 992
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 642
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 565
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 500
+        }
+      ],
+      "lastfm_listeners": 5820,
+      "lastfm_playcount": 43003,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7295,6 +7336,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "XinU",
+        "browse_id": "UC4w3lT4ys842a-2BPdT-1mg",
+        "subscribers": "23.1K"
+      },
+      {
         "name": "reina",
         "browse_id": "UCOuX0UvZo09tSB7RCRSM37w",
         "subscribers": "3.63K"
@@ -7307,27 +7353,27 @@
       {
         "name": "Salasa",
         "browse_id": "UCor_OPELPStHnMtKbQf7CmQ",
-        "subscribers": "144K"
+        "subscribers": "140K"
       },
       {
         "name": "Geloomy",
         "browse_id": "UCYypxPpK93FErrKdMcEuppg",
-        "subscribers": "100K"
+        "subscribers": "110K"
       },
       {
         "name": "Ovall",
         "browse_id": "UCuA82nnWojpMgjBqCnbQDmQ",
-        "subscribers": "956K"
+        "subscribers": "947K"
       },
       {
         "name": "Kan Sano",
         "browse_id": "UC05tnYJ3St7yd3f6lfKdzcg",
-        "subscribers": "94K"
+        "subscribers": "95.6K"
       },
       {
         "name": "Stefan Mahendra",
         "browse_id": "UCMZcGfiJPXZ0plcOCQ2nuPQ",
-        "subscribers": "806"
+        "subscribers": "808"
       },
       {
         "name": "Ryuto Kasahara",
@@ -7337,12 +7383,7 @@
       {
         "name": "Michael Kaneko",
         "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
-        "subscribers": "78.5K"
-      },
-      {
-        "name": "LAGHEADS",
-        "browse_id": "UCU1Oz-fU3Lop_4201NtnM1w",
-        "subscribers": "3.28K"
+        "subscribers": "81.1K"
       }
     ],
     "ytm_top_songs": [
@@ -8365,6 +8406,12 @@
         {
           "date": "2026-09-27",
           "views": 228968,
+          "likes": 2884,
+          "comments": 8
+        },
+        {
+          "date": "2026-09-28",
+          "views": 229144,
           "likes": 2884,
           "comments": 8
         }
@@ -9815,6 +9862,12 @@
           "views": 47152,
           "likes": 395,
           "comments": 3
+        },
+        {
+          "date": "2026-09-28",
+          "views": 47182,
+          "likes": 395,
+          "comments": 3
         }
       ]
     },
@@ -10839,6 +10892,12 @@
           "views": 122825,
           "likes": 1395,
           "comments": 7
+        },
+        {
+          "date": "2026-09-28",
+          "views": 123223,
+          "likes": 1400,
+          "comments": 7
         }
       ]
     },
@@ -11742,6 +11801,12 @@
           "views": 49818,
           "likes": 497,
           "comments": 7
+        },
+        {
+          "date": "2026-09-28",
+          "views": 49864,
+          "likes": 497,
+          "comments": 7
         }
       ]
     },
@@ -12431,6 +12496,12 @@
           "views": 61653,
           "likes": 723,
           "comments": 1
+        },
+        {
+          "date": "2026-09-28",
+          "views": 61681,
+          "likes": 724,
+          "comments": 1
         }
       ]
     },
@@ -13026,6 +13097,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇が継続（原因不明、活動休止中）",
       "detected_at": "2026-09-27T18:06:37.069365+00:00"
+    },
+    {
+      "date": "2026-09-28",
+      "metric": "monthly_listeners",
+      "value": 32449,
+      "baseline_mean": 30094,
+      "baseline_stddev": 783.7,
+      "delta": 2355,
+      "score": 3.01,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-28T20:26:50.595598+00:00"
     }
   ]
 }

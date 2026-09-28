@@ -7004,6 +7004,47 @@
       "ytm_subscribers": 7920,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-28",
+      "monthly_listeners": 214088,
+      "collected_at": "2026-09-28T20:23:31.015555+00:00",
+      "spotify_followers": 37118,
+      "youtube_subscribers": 930000,
+      "youtube_total_views": 179333605,
+      "youtube_video_count": 493,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7415
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6433
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5508
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2928
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2872
+        }
+      ],
+      "lastfm_listeners": 1067,
+      "lastfm_playcount": 6348,
+      "ytm_subscribers": 7920,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7321,9 +7362,14 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Tesesaku",
+        "browse_id": "UCxMfaJk6D2pde7PBChZEzfg",
+        "subscribers": "8.5K"
+      },
+      {
         "name": "Matsuya Onoe",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
-        "subscribers": "542"
+        "subscribers": "543"
       },
       {
         "name": "Pompompurin",
@@ -7333,7 +7379,7 @@
       {
         "name": "メンバー",
         "browse_id": "UCDPFciMgCrHu4U1dzuE1F5w",
-        "subscribers": "1.93K"
+        "subscribers": "1.94K"
       },
       {
         "name": "Yuria Nara",
@@ -7341,14 +7387,9 @@
         "subscribers": "1.88K"
       },
       {
-        "name": "Tesesaku",
-        "browse_id": "UCxMfaJk6D2pde7PBChZEzfg",
-        "subscribers": "8.5K"
-      },
-      {
         "name": "Senasuke",
         "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
-        "subscribers": "661K"
+        "subscribers": "689K"
       },
       {
         "name": "Fischers",
@@ -7368,7 +7409,7 @@
       {
         "name": "MADAMADA",
         "browse_id": "UCEzNOrBjotEn6POsgTYdqLA",
-        "subscribers": "8.04K"
+        "subscribers": "8.06K"
       }
     ]
   },
@@ -7708,6 +7749,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-09-27T18:03:28.591473+00:00"
+    },
+    {
+      "date": "2026-09-28",
+      "metric": "monthly_listeners",
+      "value": 214088,
+      "baseline_mean": 206214.6,
+      "baseline_stddev": 2695.5,
+      "delta": 7873,
+      "score": 2.92,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-28T20:23:32.119812+00:00"
     }
   ]
 }

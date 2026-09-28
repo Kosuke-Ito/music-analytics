@@ -6886,6 +6886,50 @@
       "ytm_subscribers": 9360000,
       "ytm_monthly_listeners": 145000000,
       "ytm_total_views": 2807601586
+    },
+    {
+      "date": "2026-09-28",
+      "monthly_listeners": 4363673,
+      "collected_at": "2026-09-28T20:31:43.657451+00:00",
+      "spotify_followers": 3886823,
+      "youtube_subscribers": 2960000,
+      "youtube_total_views": 1848594190,
+      "youtube_video_count": 531,
+      "top_cities": [
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 67433
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 54982
+        },
+        {
+          "city": "Singapore",
+          "country": "SG",
+          "listeners": 50137
+        },
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 49667
+        },
+        {
+          "city": "Kuala Lumpur",
+          "country": "MY",
+          "listeners": 48273
+        }
+      ],
+      "lastfm_listeners": 2075912,
+      "lastfm_playcount": 137929986,
+      "ytm_subscribers": 9370000,
+      "ytm_monthly_listeners": 148000000,
+      "ytm_total_views": 2807601586,
+      "validation_flags": [
+        "unusual_deviation"
+      ]
     }
   ],
   "metadata": {
@@ -6922,22 +6966,22 @@
       {
         "name": "JULiA LEWiS",
         "browse_id": "UCO8v1mrb-kVY9upl8wdyDcw",
-        "subscribers": "710"
+        "subscribers": "712"
       },
       {
         "name": "SOOJIN",
         "browse_id": "UCqCmeJ3RRfpgMF6j_HzqbFQ",
-        "subscribers": "468K"
+        "subscribers": "476K"
       },
       {
         "name": "BamBam",
         "browse_id": "UCV1Zo9bUCjzFi6e4O2DNcrA",
-        "subscribers": "456K"
+        "subscribers": "465K"
       },
       {
         "name": "BLACKSWAN",
         "browse_id": "UC277cpXD9BLeaGgh3yDP40w",
-        "subscribers": "300K"
+        "subscribers": "314K"
       },
       {
         "name": "Babymonster An",
@@ -6945,29 +6989,29 @@
         "subscribers": "7.12K"
       },
       {
-        "name": "ROSÉ",
-        "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
-        "subscribers": "281M"
+        "name": "KARD",
+        "browse_id": "UC3pvfOA4mcHkWYl3n_QfOKA",
+        "subscribers": "2.89M"
       },
       {
         "name": "FIFTY FIFTY",
         "browse_id": "UCMca81qQN9V3jOe7wyfbvDQ",
-        "subscribers": "130M"
+        "subscribers": "134M"
+      },
+      {
+        "name": "BLACKPINK",
+        "browse_id": "UCkbbMCA40i18i7UdjayMPAg",
+        "subscribers": "210M"
+      },
+      {
+        "name": "ROSÉ",
+        "browse_id": "UCbpXC82cTLngSiZrysAaE-w",
+        "subscribers": "287M"
       },
       {
         "name": "JENNIE",
         "browse_id": "UCAl7xQ6q0PEgZMQD7zr4AKQ",
         "subscribers": "171M"
-      },
-      {
-        "name": "KARD",
-        "browse_id": "UC3pvfOA4mcHkWYl3n_QfOKA",
-        "subscribers": "2.86M"
-      },
-      {
-        "name": "JISOO",
-        "browse_id": "UC4I9OFY_9ZYLs0Lj4bfEOvA",
-        "subscribers": "168M"
       }
     ],
     "ytm_top_songs": [
@@ -8004,6 +8048,12 @@
           "views": 27106096,
           "likes": 305288,
           "comments": 2357
+        },
+        {
+          "date": "2026-09-28",
+          "views": 27165182,
+          "likes": 305645,
+          "comments": 2364
         }
       ]
     },
@@ -9005,6 +9055,12 @@
           "views": 275645717,
           "likes": 2766517,
           "comments": 4691
+        },
+        {
+          "date": "2026-09-28",
+          "views": 275740060,
+          "likes": 2766873,
+          "comments": 4697
         }
       ]
     },
@@ -9922,6 +9978,12 @@
           "views": 35140884,
           "likes": 261359,
           "comments": 838
+        },
+        {
+          "date": "2026-09-28",
+          "views": 35184176,
+          "likes": 261546,
+          "comments": 838
         }
       ]
     },
@@ -10581,6 +10643,12 @@
           "views": 28336813,
           "likes": 270777,
           "comments": 2753
+        },
+        {
+          "date": "2026-09-28",
+          "views": 28375055,
+          "likes": 271179,
+          "comments": 2762
         }
       ]
     },
@@ -12078,6 +12146,12 @@
           "views": 11773518,
           "likes": 214188,
           "comments": 4029
+        },
+        {
+          "date": "2026-09-28",
+          "views": 12120674,
+          "likes": 216856,
+          "comments": 4083
         }
       ]
     }
@@ -13291,6 +13365,18 @@
       "type": "annotated",
       "related_annotation": "YouTube Music月間リスナー数の急増は同名アーティスト（BLACKPINK LISA）との誤取得、または既知の同時多発アーティファクトの疑い",
       "detected_at": "2026-09-27T18:11:25.288401+00:00"
+    },
+    {
+      "date": "2026-09-28",
+      "metric": "monthly_listeners",
+      "value": 4363673,
+      "baseline_mean": 4320828.7,
+      "baseline_stddev": 7833.9,
+      "delta": 42844,
+      "score": 5.47,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-28T20:31:46.115493+00:00"
     }
   ]
 }
