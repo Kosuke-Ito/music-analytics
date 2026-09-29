@@ -7045,6 +7045,47 @@
       "ytm_subscribers": 7920,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-29",
+      "monthly_listeners": 214088,
+      "collected_at": "2026-09-29T04:43:30.902119+00:00",
+      "spotify_followers": 37118,
+      "youtube_subscribers": 930000,
+      "youtube_total_views": 179632378,
+      "youtube_video_count": 493,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7415
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6433
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5508
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2928
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2872
+        }
+      ],
+      "lastfm_listeners": 1067,
+      "lastfm_playcount": 6348,
+      "ytm_subscribers": 7920,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7362,14 +7403,19 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "Tesesaku",
-        "browse_id": "UCxMfaJk6D2pde7PBChZEzfg",
-        "subscribers": "8.5K"
+        "name": "HANA",
+        "browse_id": "UCVznsJmPM4qyjLYyORcu0Tg",
+        "subscribers": "37.8M"
+      },
+      {
+        "name": "Shinako",
+        "browse_id": "UCrit7bWFhUeu-APhu0xUUYw",
+        "subscribers": "25.4K"
       },
       {
         "name": "Matsuya Onoe",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
-        "subscribers": "543"
+        "subscribers": "544"
       },
       {
         "name": "Pompompurin",
@@ -7387,6 +7433,11 @@
         "subscribers": "1.88K"
       },
       {
+        "name": "Tesesaku",
+        "browse_id": "UCxMfaJk6D2pde7PBChZEzfg",
+        "subscribers": "8.51K"
+      },
+      {
         "name": "Senasuke",
         "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
         "subscribers": "689K"
@@ -7400,16 +7451,6 @@
         "name": "HeiseiFlamingo",
         "browse_id": "UCo9trQuQB1HP30CGtBtvMxA",
         "subscribers": "4.17K"
-      },
-      {
-        "name": "Pokemon Ongaku Club",
-        "browse_id": "UCwojqxqJz5VtwoEVTi6Y7Pw",
-        "subscribers": "589"
-      },
-      {
-        "name": "MADAMADA",
-        "browse_id": "UCEzNOrBjotEn6POsgTYdqLA",
-        "subscribers": "8.06K"
       }
     ]
   },
@@ -7761,6 +7802,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-28T20:23:32.119812+00:00"
+    },
+    {
+      "date": "2026-09-29",
+      "metric": "monthly_listeners",
+      "value": 214088,
+      "baseline_mean": 206535.1,
+      "baseline_stddev": 3021.3,
+      "delta": 7552,
+      "score": 2.5,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-29T04:43:31.904672+00:00"
     }
   ]
 }

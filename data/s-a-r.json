@@ -7011,6 +7011,47 @@
       "ytm_subscribers": 13800,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-29",
+      "monthly_listeners": 32449,
+      "collected_at": "2026-09-29T04:46:28.158245+00:00",
+      "spotify_followers": 29713,
+      "youtube_subscribers": 13800,
+      "youtube_total_views": 1526011,
+      "youtube_video_count": 69,
+      "top_cities": [
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 1892
+        },
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 992
+        },
+        {
+          "city": "Taipei",
+          "country": "TW",
+          "listeners": 642
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 565
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 500
+        }
+      ],
+      "lastfm_listeners": 5820,
+      "lastfm_playcount": 43003,
+      "ytm_subscribers": 13800,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7336,9 +7377,14 @@
     ],
     "ytm_related_artists": [
       {
-        "name": "XinU",
-        "browse_id": "UC4w3lT4ys842a-2BPdT-1mg",
-        "subscribers": "23.1K"
+        "name": "EVISBEATS",
+        "browse_id": "UChgfFvoBTKLYjJ1PWVJfPdg",
+        "subscribers": "504K"
+      },
+      {
+        "name": "MALIYA",
+        "browse_id": "UC2uSxTzih3BDAkJvTQUsLtg",
+        "subscribers": "78.3K"
       },
       {
         "name": "reina",
@@ -7379,11 +7425,6 @@
         "name": "Ryuto Kasahara",
         "browse_id": "UCc58OhwUC40aBGO81vfNsng",
         "subscribers": "6.57K"
-      },
-      {
-        "name": "Michael Kaneko",
-        "browse_id": "UCb5RY-uhR19zK1O96ft-SjA",
-        "subscribers": "81.1K"
       }
     ],
     "ytm_top_songs": [
@@ -8412,6 +8453,12 @@
         {
           "date": "2026-09-28",
           "views": 229144,
+          "likes": 2884,
+          "comments": 8
+        },
+        {
+          "date": "2026-09-29",
+          "views": 229222,
           "likes": 2884,
           "comments": 8
         }
@@ -9868,6 +9915,12 @@
           "views": 47182,
           "likes": 395,
           "comments": 3
+        },
+        {
+          "date": "2026-09-29",
+          "views": 47190,
+          "likes": 395,
+          "comments": 3
         }
       ]
     },
@@ -10898,6 +10951,12 @@
           "views": 123223,
           "likes": 1400,
           "comments": 7
+        },
+        {
+          "date": "2026-09-29",
+          "views": 123345,
+          "likes": 1403,
+          "comments": 7
         }
       ]
     },
@@ -11807,6 +11866,12 @@
           "views": 49864,
           "likes": 497,
           "comments": 7
+        },
+        {
+          "date": "2026-09-29",
+          "views": 49874,
+          "likes": 497,
+          "comments": 7
         }
       ]
     },
@@ -12502,6 +12567,12 @@
           "views": 61681,
           "likes": 724,
           "comments": 1
+        },
+        {
+          "date": "2026-09-29",
+          "views": 61685,
+          "likes": 724,
+          "comments": 1
         }
       ]
     },
@@ -13109,6 +13180,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-28T20:26:50.595598+00:00"
+    },
+    {
+      "date": "2026-09-29",
+      "metric": "monthly_listeners",
+      "value": 32449,
+      "baseline_mean": 30197.2,
+      "baseline_stddev": 877.6,
+      "delta": 2251,
+      "score": 2.57,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-29T04:46:29.326156+00:00"
     }
   ]
 }

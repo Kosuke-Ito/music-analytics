@@ -6936,6 +6936,47 @@
       "ytm_subscribers": 608000,
       "ytm_monthly_listeners": 6910000,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-29",
+      "monthly_listeners": 3093997,
+      "collected_at": "2026-09-29T04:52:25.505111+00:00",
+      "spotify_followers": 2093019,
+      "youtube_subscribers": 608000,
+      "youtube_total_views": 537037762,
+      "youtube_video_count": 1,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 162902
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 150443
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 107836
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 62051
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 57988
+        }
+      ],
+      "lastfm_listeners": 8150,
+      "lastfm_playcount": 480145,
+      "ytm_subscribers": 608000,
+      "ytm_monthly_listeners": 6910000,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7401,11 +7442,6 @@
         "subscribers": "2M"
       },
       {
-        "name": "WurtS",
-        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
-        "subscribers": "7.06M"
-      },
-      {
         "name": "SHISHAMO",
         "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
         "subscribers": "3.43M"
@@ -7414,6 +7450,11 @@
         "name": "Marcy",
         "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
         "subscribers": "1.52M"
+      },
+      {
+        "name": "WurtS",
+        "browse_id": "UC6H_7uSepAzrlayBjAb9rrg",
+        "subscribers": "7.06M"
       }
     ],
     "ytm_top_songs": [
@@ -8438,6 +8479,12 @@
           "views": 13631556,
           "likes": 75588,
           "comments": 148
+        },
+        {
+          "date": "2026-09-29",
+          "views": 13636137,
+          "likes": 75598,
+          "comments": 148
         }
       ]
     },
@@ -9439,6 +9486,12 @@
           "views": 26585085,
           "likes": 97949,
           "comments": 187
+        },
+        {
+          "date": "2026-09-29",
+          "views": 26591166,
+          "likes": 97971,
+          "comments": 187
         }
       ]
     },
@@ -10427,6 +10480,12 @@
           "date": "2026-09-28",
           "views": 18286978,
           "likes": 67259,
+          "comments": 125
+        },
+        {
+          "date": "2026-09-29",
+          "views": 18291452,
+          "likes": 67272,
           "comments": 125
         }
       ]
@@ -12189,6 +12248,12 @@
           "views": 18151195,
           "likes": 106356,
           "comments": 653
+        },
+        {
+          "date": "2026-09-29",
+          "views": 18161753,
+          "likes": 106410,
+          "comments": 656
         }
       ]
     },
@@ -12547,6 +12612,12 @@
           "views": 768093,
           "likes": 9602,
           "comments": 67
+        },
+        {
+          "date": "2026-09-29",
+          "views": 778866,
+          "likes": 9715,
+          "comments": 68
         }
       ]
     }
@@ -13763,6 +13834,42 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-28T20:33:15.339725+00:00"
+    },
+    {
+      "date": "2026-09-29",
+      "metric": "monthly_listeners",
+      "value": 3093997,
+      "baseline_mean": 2931496,
+      "baseline_stddev": 56421.8,
+      "delta": 162501,
+      "score": 2.88,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-29T04:52:27.036464+00:00"
+    },
+    {
+      "date": "2026-09-29",
+      "metric": "ytm_monthly_listeners",
+      "value": 6910000,
+      "baseline_mean": 5672333.3,
+      "baseline_stddev": 435963.9,
+      "delta": 1237666,
+      "score": 2.84,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-29T04:52:27.036464+00:00"
+    },
+    {
+      "date": "2026-09-29",
+      "metric": "youtube_total_views",
+      "value": 537037762,
+      "baseline_mean": 527382529.2,
+      "baseline_stddev": 4804619.7,
+      "delta": 9655232,
+      "score": 2.01,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-29T04:52:27.036464+00:00"
     }
   ]
 }

@@ -6933,6 +6933,47 @@
       "ytm_subscribers": 876000,
       "ytm_monthly_listeners": 2900000,
       "ytm_total_views": 604295058
+    },
+    {
+      "date": "2026-09-29",
+      "monthly_listeners": 1889607,
+      "collected_at": "2026-09-29T04:52:39.574578+00:00",
+      "spotify_followers": 1541463,
+      "youtube_subscribers": 876000,
+      "youtube_total_views": 604295058,
+      "youtube_video_count": 148,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 98405
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 86649
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65541
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 37014
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 34903
+        }
+      ],
+      "lastfm_listeners": 59597,
+      "lastfm_playcount": 1694426,
+      "ytm_subscribers": 876000,
+      "ytm_monthly_listeners": 2900000,
+      "ytm_total_views": 604295058
     }
   ],
   "annotations": [
@@ -7354,24 +7395,24 @@
         "subscribers": "5.04M"
       },
       {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "19.6M"
-      },
-      {
         "name": "SIX LOUNGE",
         "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
         "subscribers": "2M"
       },
       {
-        "name": "SHISHAMO",
-        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "3.43M"
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "19.6M"
       },
       {
         "name": "Marcy",
         "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
         "subscribers": "1.52M"
+      },
+      {
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "3.43M"
       },
       {
         "name": "macaroni enpitsu",
@@ -8414,6 +8455,12 @@
           "views": 6258349,
           "likes": 26496,
           "comments": 56
+        },
+        {
+          "date": "2026-09-29",
+          "views": 6263004,
+          "likes": 26508,
+          "comments": 56
         }
       ]
     },
@@ -9414,6 +9461,12 @@
           "date": "2026-09-28",
           "views": 6749507,
           "likes": 30411,
+          "comments": 54
+        },
+        {
+          "date": "2026-09-29",
+          "views": 6754100,
+          "likes": 30435,
           "comments": 54
         }
       ]
@@ -10428,6 +10481,12 @@
           "views": 3635336,
           "likes": 18206,
           "comments": 39
+        },
+        {
+          "date": "2026-09-29",
+          "views": 3638210,
+          "likes": 18221,
+          "comments": 39
         }
       ]
     },
@@ -11429,6 +11488,12 @@
           "views": 4056021,
           "likes": 22473,
           "comments": 47
+        },
+        {
+          "date": "2026-09-29",
+          "views": 4058913,
+          "likes": 22483,
+          "comments": 47
         }
       ]
     },
@@ -12255,6 +12320,12 @@
           "date": "2026-09-28",
           "views": 3316779,
           "likes": 13616,
+          "comments": 30
+        },
+        {
+          "date": "2026-09-29",
+          "views": 3319709,
+          "likes": 13631,
           "comments": 30
         }
       ]
@@ -13565,6 +13636,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-28T20:33:29.811831+00:00"
+    },
+    {
+      "date": "2026-09-29",
+      "metric": "monthly_listeners",
+      "value": 1889607,
+      "baseline_mean": 1853609.8,
+      "baseline_stddev": 16343.6,
+      "delta": 35997,
+      "score": 2.2,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-29T04:52:40.986749+00:00"
     }
   ]
 }

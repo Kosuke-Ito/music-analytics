@@ -6930,6 +6930,47 @@
       "ytm_subscribers": 2170000,
       "ytm_monthly_listeners": 19600000,
       "ytm_total_views": 2994007079
+    },
+    {
+      "date": "2026-09-29",
+      "monthly_listeners": 6352882,
+      "collected_at": "2026-09-29T04:49:23.746184+00:00",
+      "spotify_followers": 6964927,
+      "youtube_subscribers": 2170000,
+      "youtube_total_views": 2994007079,
+      "youtube_video_count": 287,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 364751
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 345174
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 235373
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 137700
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 136485
+        }
+      ],
+      "lastfm_listeners": 134970,
+      "lastfm_playcount": 6628508,
+      "ytm_subscribers": 2170000,
+      "ytm_monthly_listeners": 19600000,
+      "ytm_total_views": 2994007079
     }
   ],
   "annotations": [
@@ -7387,19 +7428,14 @@
         "subscribers": "4.45M"
       },
       {
-        "name": "wacci",
-        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
-        "subscribers": "1.84M"
-      },
-      {
         "name": "Saucy Dog",
         "browse_id": "UCMiRlcwbNLMIUyaagMhaFaw",
         "subscribers": "2.9M"
       },
       {
-        "name": "aiko",
-        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
-        "subscribers": "6.09M"
+        "name": "wacci",
+        "browse_id": "UCQuH389KXNJFIPycd_icVdg",
+        "subscribers": "1.84M"
       },
       {
         "name": "Takaya Kawasaki",
@@ -7417,9 +7453,14 @@
         "subscribers": "20.3M"
       },
       {
-        "name": "SUKIMASWITCH",
-        "browse_id": "UCvL5ndrAhma1VnCukqdqxiw",
-        "subscribers": "5.99M"
+        "name": "SUPER BEAVER",
+        "browse_id": "UCv0UWX7TdthyRGm7B05kKlQ",
+        "subscribers": "2.75M"
+      },
+      {
+        "name": "aimyon",
+        "browse_id": "UCQG5sjqWWe4MRhYM_OAEIyw",
+        "subscribers": "8.61M"
       },
       {
         "name": "Yuuri",
@@ -8456,6 +8497,12 @@
           "views": 64079390,
           "likes": 213043,
           "comments": 630
+        },
+        {
+          "date": "2026-09-29",
+          "views": 64099157,
+          "likes": 213114,
+          "comments": 630
         }
       ]
     },
@@ -9456,6 +9503,12 @@
           "date": "2026-09-28",
           "views": 53012863,
           "likes": 194891,
+          "comments": 808
+        },
+        {
+          "date": "2026-09-29",
+          "views": 53038726,
+          "likes": 194969,
           "comments": 808
         }
       ]
@@ -10458,6 +10511,12 @@
           "views": 68698887,
           "likes": 223652,
           "comments": 656
+        },
+        {
+          "date": "2026-09-29",
+          "views": 68715803,
+          "likes": 223710,
+          "comments": 658
         }
       ]
     },
@@ -11465,6 +11524,12 @@
           "views": 66772330,
           "likes": 226588,
           "comments": 729
+        },
+        {
+          "date": "2026-09-29",
+          "views": 66790779,
+          "likes": 226630,
+          "comments": 730
         }
       ]
     },
@@ -12472,6 +12537,12 @@
           "views": 27454065,
           "likes": 117850,
           "comments": 542
+        },
+        {
+          "date": "2026-09-29",
+          "views": 27470619,
+          "likes": 117900,
+          "comments": 542
         }
       ]
     },
@@ -13453,6 +13524,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-28T20:30:00.868095+00:00"
+    },
+    {
+      "date": "2026-09-29",
+      "metric": "ytm_monthly_listeners",
+      "value": 19600000,
+      "baseline_mean": 18310000,
+      "baseline_stddev": 636841.2,
+      "delta": 1290000,
+      "score": 2.03,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-29T04:49:25.251593+00:00"
     }
   ]
 }

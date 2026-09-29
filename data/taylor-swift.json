@@ -7221,6 +7221,47 @@
       "validation_flags": [
         "unusual_deviation"
       ]
+    },
+    {
+      "date": "2026-09-29",
+      "monthly_listeners": 103505973,
+      "collected_at": "2026-09-29T04:47:36.393245+00:00",
+      "spotify_followers": 164819635,
+      "youtube_subscribers": 63400000,
+      "youtube_total_views": 46714535972,
+      "youtube_video_count": 663,
+      "top_cities": [
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1631243
+        },
+        {
+          "city": "Quezon City",
+          "country": "PH",
+          "listeners": 1482580
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1165479
+        },
+        {
+          "city": "Jakarta",
+          "country": "ID",
+          "listeners": 1134451
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 1103312
+        }
+      ],
+      "lastfm_listeners": 6122046,
+      "lastfm_playcount": 3796784309,
+      "ytm_subscribers": 63400000,
+      "ytm_monthly_listeners": 438000000,
+      "ytm_total_views": 46714535972
     }
   ],
   "annotations": [
@@ -7646,9 +7687,9 @@
         "subscribers": "23.3M"
       },
       {
-        "name": "Halsey",
-        "browse_id": "UC3BBS0-pODIeS8QGX_qtrCg",
-        "subscribers": "109M"
+        "name": "Echosmith",
+        "browse_id": "UC6Gp7glWcQr1cbhzQNUomDA",
+        "subscribers": "9.95M"
       },
       {
         "name": "Vanessa Carlton",
@@ -7656,24 +7697,24 @@
         "subscribers": "64.9M"
       },
       {
+        "name": "Halsey",
+        "browse_id": "UC3BBS0-pODIeS8QGX_qtrCg",
+        "subscribers": "109M"
+      },
+      {
+        "name": "Hilary Duff",
+        "browse_id": "UCrgEnDFVFzogd5a6IGzKjNw",
+        "subscribers": "3.74M"
+      },
+      {
+        "name": "Miley Cyrus",
+        "browse_id": "UCREdEwBdZcnQLIT0ThaAtmQ",
+        "subscribers": "97.3M"
+      },
+      {
         "name": "Hailee Steinfeld",
         "browse_id": "UCBNeAoPycNhoRuS01B9Kf5g",
         "subscribers": "7.08M"
-      },
-      {
-        "name": "Hannah Montana",
-        "browse_id": "UCKYikQPVsnRYBRknI6vVVWg",
-        "subscribers": "129K"
-      },
-      {
-        "name": "Katy Perry",
-        "browse_id": "UC_7s69e1mDS3lgcTMJEPjCg",
-        "subscribers": "254M"
-      },
-      {
-        "name": "Olivia Rodrigo",
-        "browse_id": "UCE5XNpliPM-SmyFEp61tL_g",
-        "subscribers": "188M"
       },
       {
         "name": "Selena Gomez",
@@ -7681,9 +7722,9 @@
         "subscribers": "276M"
       },
       {
-        "name": "One Direction",
-        "browse_id": "UCREhun2tPd7aQnJczZM_Mww",
-        "subscribers": "109M"
+        "name": "Katy Perry",
+        "browse_id": "UC_7s69e1mDS3lgcTMJEPjCg",
+        "subscribers": "254M"
       }
     ],
     "ytm_top_songs": [
@@ -8721,6 +8762,12 @@
           "views": 191926112,
           "likes": 1357310,
           "comments": 10919
+        },
+        {
+          "date": "2026-09-29",
+          "views": 192045405,
+          "likes": 1357859,
+          "comments": 10921
         }
       ]
     },
@@ -9728,6 +9775,12 @@
           "views": 73703218,
           "likes": 476065,
           "comments": 3141
+        },
+        {
+          "date": "2026-09-29",
+          "views": 73718471,
+          "likes": 476156,
+          "comments": 3141
         }
       ]
     },
@@ -10675,6 +10728,12 @@
           "views": 73285722,
           "likes": 427002,
           "comments": 3239
+        },
+        {
+          "date": "2026-09-29",
+          "views": 73328836,
+          "likes": 427152,
+          "comments": 3240
         }
       ]
     },
@@ -11688,6 +11747,12 @@
           "views": 64111885,
           "likes": 428789,
           "comments": 3086
+        },
+        {
+          "date": "2026-09-29",
+          "views": 64125050,
+          "likes": 428866,
+          "comments": 3088
         }
       ]
     },
@@ -12717,6 +12782,12 @@
           "views": 17210598,
           "likes": 264682,
           "comments": 9528
+        },
+        {
+          "date": "2026-09-29",
+          "views": 17240159,
+          "likes": 264851,
+          "comments": 9529
         }
       ]
     },
@@ -13387,6 +13458,30 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-28T20:28:03.816651+00:00"
+    },
+    {
+      "date": "2026-09-29",
+      "metric": "monthly_listeners",
+      "value": 103505973,
+      "baseline_mean": 100857688,
+      "baseline_stddev": 679424.8,
+      "delta": 2648285,
+      "score": 3.9,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-29T04:47:37.312528+00:00"
+    },
+    {
+      "date": "2026-09-29",
+      "metric": "youtube_total_views",
+      "value": 46714535972,
+      "baseline_mean": 46440916503.1,
+      "baseline_stddev": 103471604.5,
+      "delta": 273619468,
+      "score": 2.64,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-29T04:47:37.312528+00:00"
     }
   ]
 }

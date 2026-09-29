@@ -6930,6 +6930,47 @@
       "ytm_subscribers": 2310000,
       "ytm_monthly_listeners": 8610000,
       "ytm_total_views": 2787203329
+    },
+    {
+      "date": "2026-09-29",
+      "monthly_listeners": 5302535,
+      "collected_at": "2026-09-29T04:50:33.502878+00:00",
+      "spotify_followers": 6436326,
+      "youtube_subscribers": 2310000,
+      "youtube_total_views": 2787203329,
+      "youtube_video_count": 292,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 260482
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 248201
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 171270
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 97919
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 94049
+        }
+      ],
+      "lastfm_listeners": 20608,
+      "lastfm_playcount": 1498270,
+      "ytm_subscribers": 2310000,
+      "ytm_monthly_listeners": 8610000,
+      "ytm_total_views": 2787203329
     }
   ],
   "annotations": [
@@ -7418,6 +7459,11 @@
         "subscribers": "1.84M"
       },
       {
+        "name": "Lilas",
+        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
+        "subscribers": "17M"
+      },
+      {
         "name": "back number",
         "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
         "subscribers": "19.6M"
@@ -7433,14 +7479,9 @@
         "subscribers": "2.38M"
       },
       {
-        "name": "Lilas",
-        "browse_id": "UCISF03gz20_8vWnkSVYlOEw",
-        "subscribers": "17M"
-      },
-      {
-        "name": "aiko",
-        "browse_id": "UCNrMzBJs0ZNlRApq80pqrbA",
-        "subscribers": "6.09M"
+        "name": "Vaundy",
+        "browse_id": "UC8_Ag6BVp43Vmrx6eillK9g",
+        "subscribers": "20.3M"
       },
       {
         "name": "Ryokuousyoku Syakai",
@@ -7448,14 +7489,14 @@
         "subscribers": "7.51M"
       },
       {
+        "name": "Yuuri",
+        "browse_id": "UCOkd9KtXLE0KXigHY5nIvkw",
+        "subscribers": "10.5M"
+      },
+      {
         "name": "Superfly",
         "browse_id": "UCarJ-jLDuyHOlRXzIcqL4oQ",
         "subscribers": "4.91M"
-      },
-      {
-        "name": "Motohiro Hata",
-        "browse_id": "UC3jAFDHnzHWCrAizacIdYrw",
-        "subscribers": "15.4M"
       }
     ],
     "ytm_top_songs": [
@@ -8493,6 +8534,12 @@
           "views": 111159585,
           "likes": 321204,
           "comments": 717
+        },
+        {
+          "date": "2026-09-29",
+          "views": 111173766,
+          "likes": 321231,
+          "comments": 717
         }
       ]
     },
@@ -9506,6 +9553,12 @@
           "views": 105619063,
           "likes": 359092,
           "comments": 437
+        },
+        {
+          "date": "2026-09-29",
+          "views": 105630916,
+          "likes": 359136,
+          "comments": 438
         }
       ]
     },
@@ -10519,6 +10572,12 @@
           "views": 65486591,
           "likes": 192315,
           "comments": 239
+        },
+        {
+          "date": "2026-09-29",
+          "views": 65494114,
+          "likes": 192334,
+          "comments": 239
         }
       ]
     },
@@ -11531,6 +11590,12 @@
           "date": "2026-09-28",
           "views": 2019730,
           "likes": 6285,
+          "comments": 39
+        },
+        {
+          "date": "2026-09-29",
+          "views": 2019858,
+          "likes": 6286,
           "comments": 39
         }
       ]
@@ -12550,6 +12615,12 @@
           "views": 37791514,
           "likes": 121840,
           "comments": 263
+        },
+        {
+          "date": "2026-09-29",
+          "views": 37796268,
+          "likes": 121858,
+          "comments": 265
         }
       ]
     }
@@ -13754,6 +13825,18 @@
       "type": "annotated",
       "related_annotation": "「探偵！ナイトスクープ」続報回への出演報道でSpotify月間リスナーが増加",
       "detected_at": "2026-09-28T20:31:14.201925+00:00"
+    },
+    {
+      "date": "2026-09-29",
+      "metric": "monthly_listeners",
+      "value": 5302535,
+      "baseline_mean": 5217509.1,
+      "baseline_stddev": 36383.9,
+      "delta": 85025,
+      "score": 2.34,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-09-29T04:50:34.931331+00:00"
     }
   ]
 }
