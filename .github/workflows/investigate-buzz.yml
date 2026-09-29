@@ -5,6 +5,12 @@ on:
     - cron: '0 15 * * *' # 毎日 UTC 15:00（JST 24:00、データ収集の1時間後）
   workflow_dispatch:
 
+env:
+  GIT_AUTHOR_NAME: Kosuke Ito
+  GIT_AUTHOR_EMAIL: 32892023+Kosuke-Ito@users.noreply.github.com
+  GIT_COMMITTER_NAME: Kosuke Ito
+  GIT_COMMITTER_EMAIL: 32892023+Kosuke-Ito@users.noreply.github.com
+
 permissions:
   contents: write
   id-token: write
