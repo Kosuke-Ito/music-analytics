@@ -1,8 +1,9 @@
 name: Investigate Organic Buzz
 
 on:
-  schedule:
-    - cron: '0 15 * * *' # 毎日 UTC 15:00（JST 24:00、データ収集の1時間後）
+  workflow_run:
+    workflows: [Collect News Annotations]
+    types: [completed]
   workflow_dispatch:
 
 env:
@@ -17,9 +18,13 @@ permissions:
 
 jobs:
   investigate:
+    # ニュース収集が成功した後にのみ実行（手動起動は常に許可）
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: main # 前段ワークフローが push した最新データを読む
 
       - uses: anthropics/claude-code-action@v1
         with:

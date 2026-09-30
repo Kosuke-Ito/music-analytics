@@ -1,8 +1,9 @@
 name: Collect News Annotations
 
 on:
-  schedule:
-    - cron: '30 14 * * *' # 毎日 UTC 14:30（JST 23:30、データ収集の30分後）
+  workflow_run:
+    workflows: [Collect Artist Data]
+    types: [completed]
   workflow_dispatch:
 
 env:
@@ -17,9 +18,13 @@ permissions:
 
 jobs:
   annotate:
+    # データ収集が成功した後にのみ実行（手動起動は常に許可）
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: main # 収集ワークフローが push した最新データを読む
 
       - uses: anthropics/claude-code-action@v1
         with:

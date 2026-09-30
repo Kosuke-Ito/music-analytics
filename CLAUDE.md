@@ -14,7 +14,7 @@ Spotify / YouTube / Last.fm の指標を日次収集し、ニュースアノテ�
 │ (Python)     │    │ (Git管理)       │    │ (React)      │
 └──────────────┘    └─────────────────┘    └──────────────┘
    GitHub Actions      日次コミット          Cloudflare Pages
-   UTC 00:00 daily                          (自動デプロイ)
+   JST 01:17 daily                          (自動デプロイ)
 ```
 
 - **collector** (Python 3.12): Playwright で Spotify をスクレイピング、YouTube/Last.fm は公式 API を利用
@@ -44,8 +44,9 @@ frontend/
 data/              収集データ (JSON, Git管理)
 scripts/config.json アーティスト設定
 .github/workflows/ GitHub Actions
-  collect.yml      データ収集 (UTC 00:00 daily)
-  annotate.yml     ニュース収集 (UTC 01:00 daily, Claude Code Action)
+  collect.yml      データ収集 (cron, JST 01:17)
+  annotate.yml     ニュース収集 (collect 完了後, Claude Code Action)
+  investigate-buzz.yml バズ原因調査 (annotate 完了後, Claude Code Action)
 doc/               競合調査などのドキュメント
 ```
 
@@ -145,9 +146,12 @@ docs:     ドキュメント
 ## バッチスケジュール
 
 夜間実行（その日1日の変動を反映してから記録）:
-- **JST 23:00** (UTC 14:00): データ収集 + バズ検知 + 楽曲統計
-- **JST 23:30** (UTC 14:30): ニュース収集
-- **JST 24:00** (UTC 15:00): バズ原因調査（organic + JP のみ）
+- **JST 01:17** (UTC 16:17, cron): データ収集 + バズ検知 + 楽曲統計（collect.yml）
+- collect 成功後 (`workflow_run`): ニュース収集（annotate.yml）
+- annotate 成功後 (`workflow_run`): バズ原因調査（investigate-buzz.yml、organic + JP のみ）
+
+GitHub 側の schedule 遅延で cron から数時間ずれることがあるため、後段は cron ではなく `workflow_run` で連鎖させている。
+自動コミットは env の `GIT_AUTHOR_*` / `GIT_COMMITTER_*` によりリポジトリオーナー名義になる。
 
 ### バリデーション
 ```bash
