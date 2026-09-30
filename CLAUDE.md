@@ -69,7 +69,7 @@ pytest                            # テスト
 ```
 
 ### 環境
-- mise で Python 3.12 + Node 20 を管理
+- mise で Python 3.12 + Node 22 を管理（vitest が使う undici が Node 22 の API を要求）
 - frontend は pnpm
 - ルートに package.json はないので `pnpm dev` 等は frontend ディレクトリで
 
