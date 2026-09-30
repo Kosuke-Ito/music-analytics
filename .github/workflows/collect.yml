@@ -2,7 +2,7 @@ name: Collect Artist Data
 
 on:
   schedule:
-    - cron: '17 16 * * *' # UTC 16:17 = JST 01:17（端数の分で混雑回避。GitHub側の遅延で数時間ずれる可能性あり）
+    - cron: '17 14 * * *' # UTC 14:17 = JST 23:17（端数の分で混雑回避。GitHub側の遅延で数時間ずれる可能性あり）
   workflow_dispatch: # 手動実行用
     inputs:
       artist_id:
