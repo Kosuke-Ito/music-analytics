@@ -26,7 +26,7 @@ jobs:
         with:
           version: 10
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           # Node 20 だと vitest(jsdom) が使う undici の markAsUncloneable が無く落ちる
           node-version: '22'
