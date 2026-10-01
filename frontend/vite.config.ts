@@ -47,7 +47,11 @@ function copyDataPlugin() {
       const dataSrc = resolve(__dirname, "..", "data");
       const dataDest = resolve(__dirname, "dist", "data");
       if (existsSync(dataSrc)) {
-        cpSync(dataSrc, dataDest, { recursive: true });
+        // data/ は別リポジトリの clone なので .git 等を含む。公開物には *.json だけを入れる
+        cpSync(dataSrc, dataDest, {
+          recursive: true,
+          filter: (src) => src === dataSrc || /\.json$/.test(src),
+        });
       }
 
       const configSrc = resolve(__dirname, "..", "scripts", "config.json");

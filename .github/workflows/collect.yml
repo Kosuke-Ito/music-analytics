@@ -21,7 +21,7 @@ env:
   GIT_COMMITTER_EMAIL: 32892023+Kosuke-Ito@users.noreply.github.com
 
 permissions:
-  contents: write
+  contents: read # data は別リポジトリへ Deploy Key で push するため、このリポジトリへの書き込みは不要
 
 jobs:
   collect:
@@ -29,6 +29,17 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v7
+
+      # データは Private リポジトリ（music-analytics-data）で管理。data/ にチェックアウトする
+      - uses: actions/checkout@v7
+        with:
+          repository: Kosuke-Ito/music-analytics-data
+          path: data
+          ssh-key: ${{ secrets.DATA_REPO_DEPLOY_KEY }}
+
+      - name: Record data HEAD before run
+        id: before
+        run: echo "sha=$(git -C data rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-python@v7
         with:
@@ -58,8 +69,9 @@ jobs:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
 
       - name: Commit and push data
+        working-directory: data
         run: |
-          git add data/
+          git add -A
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
@@ -75,3 +87,20 @@ jobs:
           done
           echo "Failed to push after 3 attempts"
           exit 1
+
+      # data に新しいコミットがあれば Cloudflare Pages を再ビルドする（コード側の push が無いと自動デプロイされないため）
+      - name: Trigger Cloudflare Pages deploy
+        env:
+          DEPLOY_HOOK: ${{ secrets.CF_PAGES_DEPLOY_HOOK }}
+          BEFORE_SHA: ${{ steps.before.outputs.sha }}
+        run: |
+          AFTER_SHA=$(git -C data rev-parse HEAD)
+          if [ "$AFTER_SHA" = "$BEFORE_SHA" ]; then
+            echo "No new data commits; skip deploy"
+            exit 0
+          fi
+          if [ -z "$DEPLOY_HOOK" ]; then
+            echo "CF_PAGES_DEPLOY_HOOK is not set; skip deploy"
+            exit 0
+          fi
+          curl -fsS -X POST "$DEPLOY_HOOK" > /dev/null && echo "Deploy triggered"

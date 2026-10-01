@@ -96,9 +96,10 @@ music-analytics/
 │   ├── main.py              # CLI エントリポイント
 │   └── tests/               # pytest テスト
 ├── scripts/
-│   └── config.json          # アーティスト定義（ID, region, live_attendance）
-├── data/
-│   └── {artist_id}.json     # 蓄積データ（records + annotations）
+│   ├── config.json          # アーティスト定義（ID, region, live_attendance）
+│   └── fetch-data.sh        # Cloudflare Pages ビルド時に data リポジトリを取得
+├── data/                    # 蓄積データ（Private リポジトリ music-analytics-data を clone。Git 管理外）
+│   └── {artist_id}.json
 ├── frontend/
 │   ├── src/
 │   │   ├── components/      # React コンポーネント
@@ -110,24 +111,18 @@ music-analytics/
 │   └── vite.config.ts
 ├── mcp/                     # MCP サーバー（外部 AI ツールからデータ照会）
 ├── doc/                     # 競合調査などのドキュメント
-└── .mise.toml               # Python 3.12 + Node 20
+└── .mise.toml               # Python 3.12 + Node 22
 ```
 
 ## ローカル開発
 
+収集データは Private リポジトリで管理しているため、まずルート直下に clone します（アクセス権が必要）。
+
 ```bash
-# フロントエンド
+git clone git@github.com:Kosuke-Ito/music-analytics-data.git data
+
+# フロントエンド（vite dev / build はルートの data/ と scripts/config.json を読む）
 cd frontend && pnpm install && pnpm dev
-```
-
-`frontend/public/` の `data` と `config.json` はリポジトリルートへのシンボリックリンクです。
-Git はシンボリックリンクをそのまま管理するので通常は clone 直後から動きますが、
-リンクが実体化してしまう環境（Windows 等）では以下で張り直してください。
-
-```bash
-cd frontend/public
-ln -sf ../../data data
-ln -sf ../../scripts/config.json config.json
 ```
 
 ```bash

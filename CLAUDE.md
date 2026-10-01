@@ -11,14 +11,14 @@ Spotify / YouTube / Last.fm の指標を日次収集し、ニュースアノテ�
 ```
 ┌──────────────┐    ┌─────────────────┐    ┌──────────────┐
 │ collector/   │ →  │ data/*.json     │ →  │ frontend/    │
-│ (Python)     │    │ (Git管理)       │    │ (React)      │
+│ (Python)     │    │ (Private repo)  │    │ (React)      │
 └──────────────┘    └─────────────────┘    └──────────────┘
    GitHub Actions      日次コミット          Cloudflare Pages
    JST 23:17 daily                          (自動デプロイ)
 ```
 
 - **collector** (Python 3.12): Playwright で Spotify をスクレイピング、YouTube/Last.fm は公式 API を利用
-- **data/{artist_id}.json**: 日次レコードとアノテーションを蓄積（Git管理）
+- **data/{artist_id}.json**: 日次レコードとアノテーションを蓄積。**Private リポジトリ `music-analytics-data` で管理**し、この Public リポジトリには含めない（`.gitignore` 済み）
 - **frontend** (Vite 8 + React 19 + TypeScript): JSONを直接 fetch して可視化
 - **scripts/config.json**: アーティスト一覧。`frontend/public/config.json` はシンボリックリンク
 
@@ -41,8 +41,9 @@ frontend/
     styles/        CSS (機能別分割)
     types/         TypeScript型定義
     __tests__/     Vitest テスト
-data/              収集データ (JSON, Git管理)
+data/              収集データ (JSON)。別リポジトリ music-analytics-data をここに clone する（Git 管理外）
 scripts/config.json アーティスト設定
+scripts/fetch-data.sh Cloudflare Pages ビルド時に data リポジトリを取得
 .github/workflows/ GitHub Actions
   collect.yml      データ収集 (cron, JST 23:17)
   annotate.yml     ニュース収集 (collect 完了後, Claude Code Action)
@@ -72,6 +73,7 @@ pytest                            # テスト
 - mise で Python 3.12 + Node 22 を管理（vitest が使う undici が Node 22 の API を要求）
 - frontend は pnpm
 - ルートに package.json はないので `pnpm dev` 等は frontend ディレクトリで
+- 収集データは初回に `git clone git@github.com:Kosuke-Ito/music-analytics-data.git data` でルート直下に取得する（vite dev / build はこの `data/` を読む）
 
 ### GitHub Actions 手動実行
 ```bash
@@ -153,6 +155,11 @@ docs:     ドキュメント
 GitHub 側の schedule 遅延で cron から数時間ずれることがあるため、後段は cron ではなく `workflow_run` で連鎖させている。
 自動コミットは env の `GIT_AUTHOR_*` / `GIT_COMMITTER_*` によりリポジトリオーナー名義になる。
 
+### データリポジトリ（Private）
+- 各ワークフローは `actions/checkout` で `Kosuke-Ito/music-analytics-data` を `data/` にチェックアウトし、Deploy Key（Secrets `DATA_REPO_DEPLOY_KEY`）で push する。この Public リポジトリには何もコミットしない
+- data に新コミットがあった場合のみ Pages の Deploy Hook（Secrets `CF_PAGES_DEPLOY_HOOK`）を叩いて再ビルドする
+- Cloudflare Pages はビルドコマンドの先頭で `bash scripts/fetch-data.sh` を実行し、環境変数 `DATA_REPO_TOKEN`（Contents: Read の fine-grained PAT）で data を取得する。dist への `*.json` コピーは vite の copyDataPlugin が行い、`.git` は含めない
+
 ### バリデーション
 ```bash
 python -m collector.validate  # 全データファイル + config.json の整合性チェック
@@ -161,7 +168,8 @@ python -m collector.validate  # 全データファイル + config.json の整合
 ## ホスティング
 
 - **Cloudflare Pages** (`artist-analytics.pages.dev`)
-- GitHub連携で main ブランチへの push で自動デプロイ
+- GitHub連携で main ブランチへの push で自動デプロイ。データ更新時はワークフローから Deploy Hook で再ビルド
+- サイト全体を Cloudflare Access（メール認証）で保護。`/data/*.json` は Public リポジトリから外したため、認証なしで取得できる経路を残さないこと
 - ダッシュボード本体は公開。`/api/*` のみ Basic認証（`frontend/functions/api/_middleware.js`）
   - 認証情報は環境変数 `BASIC_AUTH_USER` / `BASIC_AUTH_PASS`。未設定時は fail-closed（503）
 - Web Analytics 有効化済み
