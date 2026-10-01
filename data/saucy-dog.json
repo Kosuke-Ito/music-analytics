@@ -6974,6 +6974,47 @@
       "ytm_subscribers": 876000,
       "ytm_monthly_listeners": 2710000,
       "ytm_total_views": 604295058
+    },
+    {
+      "date": "2026-09-30",
+      "monthly_listeners": 1894447,
+      "collected_at": "2026-10-01T01:56:10.838159+00:00",
+      "spotify_followers": 1542469,
+      "youtube_subscribers": 876000,
+      "youtube_total_views": 604295058,
+      "youtube_video_count": 148,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 98749
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 87386
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 65579
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 37148
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 35568
+        }
+      ],
+      "lastfm_listeners": 59616,
+      "lastfm_playcount": 1695082,
+      "ytm_subscribers": 876000,
+      "ytm_monthly_listeners": 2760000,
+      "ytm_total_views": 604295058
     }
   ],
   "annotations": [
@@ -7392,32 +7433,32 @@
       {
         "name": "Koresawa",
         "browse_id": "UCBPPlzfYBbl1W_hlJ35p6YQ",
-        "subscribers": "4.92M"
-      },
-      {
-        "name": "back number",
-        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
-        "subscribers": "19.2M"
-      },
-      {
-        "name": "SHISHAMO",
-        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
-        "subscribers": "3.31M"
+        "subscribers": "5.17M"
       },
       {
         "name": "SIX LOUNGE",
         "browse_id": "UCJzWD64QeuC5Y6lxYGi1dxw",
-        "subscribers": "1.96M"
+        "subscribers": "1.99M"
+      },
+      {
+        "name": "back number",
+        "browse_id": "UCLaXRRveiqGTmGJOsd7qpSw",
+        "subscribers": "19.6M"
+      },
+      {
+        "name": "SHISHAMO",
+        "browse_id": "UCJJUn2YTC_Tbn0D0jgMoudQ",
+        "subscribers": "3.37M"
       },
       {
         "name": "Marcy",
         "browse_id": "UCemHk54m7JKLr-clbz7qCzA",
-        "subscribers": "1.46M"
+        "subscribers": "1.5M"
       },
       {
         "name": "macaroni enpitsu",
         "browse_id": "UCoCVI95BgK50lmfoREHTzpA",
-        "subscribers": "6.82M"
+        "subscribers": "7.22M"
       }
     ],
     "ytm_top_songs": [
@@ -8461,6 +8502,12 @@
           "views": 6274566,
           "likes": 26535,
           "comments": 56
+        },
+        {
+          "date": "2026-09-30",
+          "views": 6294234,
+          "likes": 26592,
+          "comments": 56
         }
       ]
     },
@@ -9467,6 +9514,12 @@
           "date": "2026-09-29",
           "views": 6754100,
           "likes": 30435,
+          "comments": 54
+        },
+        {
+          "date": "2026-09-30",
+          "views": 6788411,
+          "likes": 30514,
           "comments": 54
         }
       ]
@@ -10487,6 +10540,12 @@
           "views": 3638210,
           "likes": 18221,
           "comments": 39
+        },
+        {
+          "date": "2026-09-30",
+          "views": 3658749,
+          "likes": 18285,
+          "comments": 39
         }
       ]
     },
@@ -11494,6 +11553,12 @@
           "views": 4058913,
           "likes": 22483,
           "comments": 47
+        },
+        {
+          "date": "2026-09-30",
+          "views": 4078349,
+          "likes": 22532,
+          "comments": 47
         }
       ]
     },
@@ -12326,6 +12391,12 @@
           "date": "2026-09-29",
           "views": 3319709,
           "likes": 13631,
+          "comments": 30
+        },
+        {
+          "date": "2026-09-30",
+          "views": 3338804,
+          "likes": 13663,
           "comments": 30
         }
       ]
@@ -13648,6 +13719,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-29T04:52:40.986749+00:00"
+    },
+    {
+      "date": "2026-09-30",
+      "metric": "monthly_listeners",
+      "value": 1894447,
+      "baseline_mean": 1854733.8,
+      "baseline_stddev": 17574.7,
+      "delta": 39713,
+      "score": 2.26,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-10-01T01:56:12.470731+00:00"
     }
   ]
 }

@@ -742,6 +742,47 @@
       "ytm_subscribers": 4440000,
       "ytm_monthly_listeners": 17000000,
       "ytm_total_views": 7135922407
+    },
+    {
+      "date": "2026-09-30",
+      "monthly_listeners": 1500454,
+      "collected_at": "2026-10-01T01:50:06.058857+00:00",
+      "spotify_followers": 754092,
+      "youtube_subscribers": 4440000,
+      "youtube_total_views": 7145666836,
+      "youtube_video_count": 1381,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 70663
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 69247
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 50495
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 27916
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 26488
+        }
+      ],
+      "lastfm_listeners": 19523,
+      "lastfm_playcount": 828606,
+      "ytm_subscribers": 4440000,
+      "ytm_monthly_listeners": 16900000,
+      "ytm_total_views": 7145666836
     }
   ],
   "metadata": {
@@ -752,24 +793,29 @@
         "subscribers": "10.5M"
       },
       {
-        "name": "timelesz",
-        "browse_id": "UC5mIZ4PxoBa5aqxEnyLUpDw",
-        "subscribers": "2.99M"
+        "name": "Number_i",
+        "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
+        "subscribers": "9.81M"
       },
       {
         "name": "King & Prince",
         "browse_id": "UCT2KTDPq2Ljl46dONsUva6w",
-        "subscribers": "9.09M"
+        "subscribers": "9.59M"
+      },
+      {
+        "name": "timelesz",
+        "browse_id": "UC5mIZ4PxoBa5aqxEnyLUpDw",
+        "subscribers": "3.31M"
+      },
+      {
+        "name": "Hey! Say! JUMP",
+        "browse_id": "UCpYHkc4rzWEW7iVXIyxQebA",
+        "subscribers": "2.28M"
       },
       {
         "name": "M!LK",
         "browse_id": "UChbU0n7P86fWdZtlzCNCeGg",
-        "subscribers": "40.9M"
-      },
-      {
-        "name": "Number_i",
-        "browse_id": "UCx4Eo-GGs-O4LgJSryyWdZQ",
-        "subscribers": "9.02M"
+        "subscribers": "41.3M"
       },
       {
         "name": "V6",
@@ -779,22 +825,17 @@
       {
         "name": "KinKi Kids",
         "browse_id": "UCVKObs9jxjPTzGJVeoH8cDw",
-        "subscribers": "2.49M"
-      },
-      {
-        "name": "Hey! Say! JUMP",
-        "browse_id": "UCpYHkc4rzWEW7iVXIyxQebA",
-        "subscribers": "2.21M"
+        "subscribers": "2.64M"
       },
       {
         "name": "Travis Japan",
         "browse_id": "UC0CJ4qxy9mgHNhO2d_sqBuw",
-        "subscribers": "1.2M"
+        "subscribers": "1.26M"
       },
       {
         "name": "Naniwa Danshi",
         "browse_id": "UC2czdqI9sjz5kz73sU3EGbQ",
-        "subscribers": "4.08M"
+        "subscribers": "4.13M"
       }
     ],
     "ytm_top_songs": [
@@ -932,6 +973,12 @@
           "views": 1289266,
           "likes": 23003,
           "comments": 631
+        },
+        {
+          "date": "2026-09-30",
+          "views": 1312161,
+          "likes": 23043,
+          "comments": 631
         }
       ]
     },
@@ -1045,6 +1092,12 @@
           "views": 3340356,
           "likes": 13943,
           "comments": 98
+        },
+        {
+          "date": "2026-09-30",
+          "views": 3374658,
+          "likes": 13992,
+          "comments": 99
         }
       ]
     },
@@ -1158,6 +1211,12 @@
           "views": 4761175,
           "likes": 68420,
           "comments": 4617
+        },
+        {
+          "date": "2026-09-30",
+          "views": 4794437,
+          "likes": 68442,
+          "comments": 4619
         }
       ]
     },
@@ -1270,6 +1329,12 @@
           "date": "2026-09-29",
           "views": 4975360,
           "likes": 57061,
+          "comments": 1247
+        },
+        {
+          "date": "2026-09-30",
+          "views": 4988264,
+          "likes": 57056,
           "comments": 1247
         }
       ]
@@ -1389,6 +1454,12 @@
           "views": 1474391,
           "likes": 22726,
           "comments": 879
+        },
+        {
+          "date": "2026-09-30",
+          "views": 1505094,
+          "likes": 22755,
+          "comments": 881
         }
       ]
     }
@@ -1473,6 +1544,18 @@
       "type": "annotated",
       "related_annotation": "数値上の異常上昇を検知（原因不明）",
       "detected_at": "2026-09-27T18:06:50.860316+00:00"
+    },
+    {
+      "date": "2026-09-30",
+      "metric": "youtube_total_views",
+      "value": 7145666836,
+      "baseline_mean": 7106695882.5,
+      "baseline_stddev": 18834986.6,
+      "delta": 38970953,
+      "score": 2.07,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-10-01T01:50:08.130500+00:00"
     }
   ]
 }

@@ -7086,6 +7086,47 @@
       "ytm_subscribers": 7920,
       "ytm_monthly_listeners": 0,
       "ytm_total_views": 0
+    },
+    {
+      "date": "2026-09-30",
+      "monthly_listeners": 214752,
+      "collected_at": "2026-10-01T01:46:53.127364+00:00",
+      "spotify_followers": 37200,
+      "youtube_subscribers": 930000,
+      "youtube_total_views": 179955038,
+      "youtube_video_count": 493,
+      "top_cities": [
+        {
+          "city": "Osaka",
+          "country": "JP",
+          "listeners": 7375
+        },
+        {
+          "city": "Tokyo",
+          "country": "JP",
+          "listeners": 6449
+        },
+        {
+          "city": "Nagoya",
+          "country": "JP",
+          "listeners": 5535
+        },
+        {
+          "city": "Yokohama",
+          "country": "JP",
+          "listeners": 2955
+        },
+        {
+          "city": "Fukuoka",
+          "country": "JP",
+          "listeners": 2923
+        }
+      ],
+      "lastfm_listeners": 1068,
+      "lastfm_playcount": 6358,
+      "ytm_subscribers": 7920,
+      "ytm_monthly_listeners": 0,
+      "ytm_total_views": 0
     }
   ],
   "annotations": [
@@ -7403,6 +7444,11 @@
     ],
     "ytm_related_artists": [
       {
+        "name": "Nakayama Kinni-kun",
+        "browse_id": "UCgWHrBoun8E4eiDtM88TpOg",
+        "subscribers": "1.32K"
+      },
+      {
         "name": "Matsuya Onoe",
         "browse_id": "UCIgR3S3DsInQ8ahJr8-60yQ",
         "subscribers": "544"
@@ -7410,7 +7456,7 @@
       {
         "name": "Pompompurin",
         "browse_id": "UCaDl_3vNN1fplJK3Va_TbOQ",
-        "subscribers": "1.69K"
+        "subscribers": "1.7K"
       },
       {
         "name": "メンバー",
@@ -7420,7 +7466,7 @@
       {
         "name": "Yuria Nara",
         "browse_id": "UCjIZWl36NHeA7QhciQMAZ_A",
-        "subscribers": "1.88K"
+        "subscribers": "1.89K"
       },
       {
         "name": "Tesesaku",
@@ -7430,7 +7476,7 @@
       {
         "name": "Senasuke",
         "browse_id": "UCclD_2JlH8oLrp-X4-SpnTw",
-        "subscribers": "668K"
+        "subscribers": "695K"
       },
       {
         "name": "Fischers",
@@ -7446,11 +7492,6 @@
         "name": "Pokemon Ongaku Club",
         "browse_id": "UCwojqxqJz5VtwoEVTi6Y7Pw",
         "subscribers": "589"
-      },
-      {
-        "name": "MADAMADA",
-        "browse_id": "UCEzNOrBjotEn6POsgTYdqLA",
-        "subscribers": "8.08K"
       }
     ]
   },
@@ -7814,6 +7855,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-29T04:43:31.904672+00:00"
+    },
+    {
+      "date": "2026-09-30",
+      "metric": "monthly_listeners",
+      "value": 214752,
+      "baseline_mean": 206834.6,
+      "baseline_stddev": 3297.2,
+      "delta": 7917,
+      "score": 2.4,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-10-01T01:46:54.228292+00:00"
     }
   ]
 }

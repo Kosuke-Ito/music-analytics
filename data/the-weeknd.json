@@ -7271,6 +7271,47 @@
       "ytm_subscribers": 40100000,
       "ytm_monthly_listeners": 238000000,
       "ytm_total_views": 37832052435
+    },
+    {
+      "date": "2026-09-30",
+      "monthly_listeners": 114711996,
+      "collected_at": "2026-10-01T01:51:29.020141+00:00",
+      "spotify_followers": 128250241,
+      "youtube_subscribers": 40100000,
+      "youtube_total_views": 38215593409,
+      "youtube_video_count": 204,
+      "top_cities": [
+        {
+          "city": "Mexico City",
+          "country": "MX",
+          "listeners": 1620296
+        },
+        {
+          "city": "London",
+          "country": "GB",
+          "listeners": 1582306
+        },
+        {
+          "city": "São Paulo",
+          "country": "BR",
+          "listeners": 1551702
+        },
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "listeners": 1056182
+        },
+        {
+          "city": "Sydney",
+          "country": "AU",
+          "listeners": 999599
+        }
+      ],
+      "lastfm_listeners": 5538760,
+      "lastfm_playcount": 1177389043,
+      "ytm_subscribers": 40100000,
+      "ytm_monthly_listeners": 243000000,
+      "ytm_total_views": 38215593409
     }
   ],
   "annotations": [
@@ -7540,7 +7581,22 @@
       {
         "name": "Labrinth",
         "browse_id": "UCLx8m3I4zQAQc0tdASjdAfw",
-        "subscribers": "35.4M"
+        "subscribers": "36.1M"
+      },
+      {
+        "name": "Bazzi",
+        "browse_id": "UCoBD_yd06t7kBn1wLGH7nzg",
+        "subscribers": "30.1M"
+      },
+      {
+        "name": "Justin Bieber",
+        "browse_id": "UCGvj8kfUV5Q6lzECIrGY19g",
+        "subscribers": "554M"
+      },
+      {
+        "name": "6LACK",
+        "browse_id": "UCgerUw6uCKCZIYvD5sz5ZNg",
+        "subscribers": "6.69M"
       },
       {
         "name": "Lily Rose Depp",
@@ -7548,44 +7604,29 @@
         "subscribers": "26.2K"
       },
       {
-        "name": "Justin Bieber",
-        "browse_id": "UCGvj8kfUV5Q6lzECIrGY19g",
-        "subscribers": "539M"
-      },
-      {
-        "name": "Post Malone",
-        "browse_id": "UCyD3XWRK9ko-izf2nBSFitw",
-        "subscribers": "390M"
-      },
-      {
-        "name": "Kanye West",
-        "browse_id": "UCRY5dYsbIN5TylSbd7gVnZg",
-        "subscribers": "296M"
-      },
-      {
-        "name": "Bazzi",
-        "browse_id": "UCoBD_yd06t7kBn1wLGH7nzg",
-        "subscribers": "28.8M"
-      },
-      {
-        "name": "Khalid",
-        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
-        "subscribers": "188M"
+        "name": "¥$",
+        "browse_id": "UCI-4sezWoZmtJXoW7E5k7Zw",
+        "subscribers": "84.5K"
       },
       {
         "name": "Billie Eilish",
         "browse_id": "UCERrDZ8oN0U_n9MphMKERcg",
-        "subscribers": "331M"
+        "subscribers": "340M"
       },
       {
-        "name": "PARTYNEXTDOOR",
-        "browse_id": "UCV8G0JqlvVKkHxNyeog8Ftg",
-        "subscribers": "15.8M"
+        "name": "Doja Cat",
+        "browse_id": "UCwgX_dLqGYna_7Fm8ecf4Ng",
+        "subscribers": "179M"
       },
       {
-        "name": "Miguel",
-        "browse_id": "UCKskshF_wMq6fCRsQY60kSg",
-        "subscribers": "34.3M"
+        "name": "Post Malone",
+        "browse_id": "UCyD3XWRK9ko-izf2nBSFitw",
+        "subscribers": "393M"
+      },
+      {
+        "name": "Khalid",
+        "browse_id": "UCnfeNQJ7TgUCPCBD0q5Zh-Q",
+        "subscribers": "194M"
       }
     ],
     "ytm_top_songs": [
@@ -8248,6 +8289,18 @@
       "type": "organic",
       "related_annotation": null,
       "detected_at": "2026-09-14T19:06:44.368622+00:00"
+    },
+    {
+      "date": "2026-09-30",
+      "metric": "youtube_total_views",
+      "value": 38215593409,
+      "baseline_mean": 37755021320.1,
+      "baseline_stddev": 127741652.7,
+      "delta": 460572088,
+      "score": 3.61,
+      "type": "organic",
+      "related_annotation": null,
+      "detected_at": "2026-10-01T01:51:29.969159+00:00"
     }
   ],
   "song_performance": {
@@ -9273,6 +9326,12 @@
           "views": 617913040,
           "likes": 4024594,
           "comments": 7367
+        },
+        {
+          "date": "2026-09-30",
+          "views": 618341953,
+          "likes": 4025884,
+          "comments": 7370
         }
       ]
     },
@@ -10292,6 +10351,12 @@
           "views": 664146257,
           "likes": 4461647,
           "comments": 10037
+        },
+        {
+          "date": "2026-09-30",
+          "views": 664849770,
+          "likes": 4463753,
+          "comments": 10040
         }
       ]
     },
@@ -11317,6 +11382,12 @@
           "views": 384463642,
           "likes": 3101489,
           "comments": 8057
+        },
+        {
+          "date": "2026-09-30",
+          "views": 385159177,
+          "likes": 3103564,
+          "comments": 8068
         }
       ]
     },
@@ -12336,6 +12407,12 @@
           "views": 994358891,
           "likes": 6792122,
           "comments": 23948
+        },
+        {
+          "date": "2026-09-30",
+          "views": 995029768,
+          "likes": 6794065,
+          "comments": 23964
         }
       ]
     },
@@ -13388,6 +13465,12 @@
           "views": 191865636,
           "likes": 1310589,
           "comments": 2276
+        },
+        {
+          "date": "2026-09-30",
+          "views": 192219557,
+          "likes": 1311707,
+          "comments": 2282
         }
       ]
     }
