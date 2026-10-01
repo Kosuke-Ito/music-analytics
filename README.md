@@ -7,8 +7,6 @@ Spotify・YouTube・Last.fm からアーティスト指標を日次で自動収�
 
 **デモ: https://artist-analytics.pages.dev**
 
-![ダッシュボード](doc/dashboard.png)
-
 ## データソースと取得方法
 
 ### Spotify（月間リスナー数 / フォロワー数 / Top Cities）
