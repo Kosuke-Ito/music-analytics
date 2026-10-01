@@ -13,7 +13,7 @@ env:
   GIT_COMMITTER_EMAIL: 32892023+Kosuke-Ito@users.noreply.github.com
 
 permissions:
-  contents: write
+  contents: read # data は別リポジトリへ Deploy Key で push するため、このリポジトリへの書き込みは不要
   id-token: write
 
 jobs:
@@ -24,7 +24,18 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          ref: main # 前段ワークフローが push した最新データを読む
+          ref: main
+
+      # データは Private リポジトリ（music-analytics-data）で管理。data/ にチェックアウトする
+      - uses: actions/checkout@v7
+        with:
+          repository: Kosuke-Ito/music-analytics-data
+          path: data
+          ssh-key: ${{ secrets.DATA_REPO_DEPLOY_KEY }}
+
+      - name: Record data HEAD before run
+        id: before
+        run: echo "sha=$(git -C data rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - uses: anthropics/claude-code-action@v1
         with:
@@ -76,8 +87,10 @@ jobs:
             - annotations 配列は日付順にソート
             - ★★★ data/*.json を編集した後、コミット前に必ず編集したファイルを Read で読み直して JSON として正しいか確認すること ★★★
               特に annotations 配列の要素間にカンマ `,` があるか注意。壊れていたら修正してからコミットすること
-            - 変更があれば git add data/ && git commit -m "chore: investigate organic buzz" && git push
-            - push が rejected されたら git pull --rebase origin main してから再度 git push を試行する（最大3回）
+            - **data/ は別リポジトリ（music-analytics-data）のチェックアウトなので、git 操作は必ず `git -C data ...` の形で行う**（`cd` は使わない）
+            - 変更があれば `git -C data add -A && git -C data commit -m "chore: investigate organic buzz" && git -C data push` を実行する
+            - push が rejected されたら `git -C data pull --rebase origin main` してから再度 `git -C data push` を試行する（最大3回）
+            - このリポジトリ（ルート側）には何もコミットしない
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           settings: |
             {
@@ -92,3 +105,20 @@ jobs:
                 ]
               }
             }
+
+      # data に新しいコミットがあれば Cloudflare Pages を再ビルドする（コード側の push が無いと自動デプロイされないため）
+      - name: Trigger Cloudflare Pages deploy
+        env:
+          DEPLOY_HOOK: ${{ secrets.CF_PAGES_DEPLOY_HOOK }}
+          BEFORE_SHA: ${{ steps.before.outputs.sha }}
+        run: |
+          AFTER_SHA=$(git -C data rev-parse HEAD)
+          if [ "$AFTER_SHA" = "$BEFORE_SHA" ]; then
+            echo "No new data commits; skip deploy"
+            exit 0
+          fi
+          if [ -z "$DEPLOY_HOOK" ]; then
+            echo "CF_PAGES_DEPLOY_HOOK is not set; skip deploy"
+            exit 0
+          fi
+          curl -fsS -X POST "$DEPLOY_HOOK" > /dev/null && echo "Deploy triggered"

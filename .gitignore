@@ -32,3 +32,6 @@ test-results/
 
 # MCP build output
 mcp/dist/
+
+# 収集データは Private リポジトリ music-analytics-data で管理（ローカルでは data/ に clone する）
+data/
